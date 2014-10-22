@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="file:/C:/Users/User1/Documents/GitHub/AORCLONEJG/XMLschema/Harveyschema17102014.xsd">
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/User1/Documents/GitHub/AORCLONEJG/XMLschema/Harveyschema22102014.xsd">
     
     <page filename="00000021.tif" signature="[a8r]" reader="Harvey"  />
     <annotation>
@@ -61,6 +61,15 @@
                 </position>
             </language>
         </marginalia>
+        <marginalia hand="Italian"  anchor_text="Romulus">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Romulus</marginalia_text>
+                    <person name="Romulus" />
+                </position>
+            </language>
+        </marginalia>
+        
         
         <underline method="pen" type="straight" language="LA" text="lanum"/>
         <underline method="pen" type="straight" language="LA" text="in partem imperij est"/>
@@ -96,9 +105,46 @@
         <underline method="pen" type="straight" language="LA" text="fortuna origini Romanae prospiciens, eos lupae alendos"/>
         <underline method="pen" type="straight" language="LA" text="alteri Remo, alteri Romo, siue Romulo, fuere"/>
         <underline method="pen" type="straight" language="LA" text="de virtute"/>
-        
-    </annotation>
+        <underline method="pen" type="dotted" language="LA" text="quotidiana certamina"/>
+        <underline method="pen" type="straight" language="LA" text="uires &amp; pernicitatem auxere"/>
+        <underline method="pen" type="straight" language="LA" text="latrones &agrave; rapina pecorum"/>
+        <underline method="pen" type="straight" language="LA" text="fact inter ipsos coniuratione, Amulium interficiunt, Numitoriq[ue] auo regnum restituunt"/>
+        <underline method="pen" type="straight" language="LA" text="Roman, ubi expositifuerant, condiderunt"/>
+        <underline method="pen" type="straight" language="LA" text="de tempore"/>
+        <underline method="pen" type="straight" language="LA" text="de conditiore"/>
+        <underline method="pen" type="straight" language="LA" text="scriptores uarietas"/>
+        <underline method="pen" type="straight" language="LA" text="Romulum Martis"/>
+        <underline method="pen" type="straight" language="LA" text="urbis autorem fuisse"/>
+        <underline method="pen" type="straight" language="LA" text="urbis parens Romulus"/>
+        <underline method="pen" type="straight" language="LA" text="optimus augur"/>
+        <underline method="pen" type="straight" language="LA" text="Romulum"/>
+        <underline method="pen" type="straight" language="LA" text="captatis augurijs"/>
+        <underline method="pen" type="straight" language="LA" text="prior sex uultures"/>
+        <underline method="pen" type="straight" language="LA" text="Romulus mox duodecim"/>
+        <underline method="pen" type="straight" language="LA" text="tempore"/>
+        <underline method="pen" type="straight" language="LA" text="numero certaret"/>
+        <underline method="pen" type="straight" language="LA" text="Romulus &agrave se Romam denominauit"/>
     
-
-
+        <symbol place="right_margin" name="SS" /> <!-- Igi- -->
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!--exeun-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--rece-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--conce-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--obtu-->
+        
+        <mark name="equal_sign" method="pen" place=""/> <!--patria-->
+        
+        <mark name="plus_sign" method="pen" place="intext"/> <!--Arcades-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--ducente Hercule-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Peloponnenses"/> 
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Aeneas"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!--quotidiana-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--urbis parens-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--optimus augur-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--mox duodecim-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="numero"/> 
+    
+ 
+    </annotation>
+ 
 </transcription>
