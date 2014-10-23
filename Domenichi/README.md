@@ -33,10 +33,4 @@ ABO scan    File name     Actual pagination
 
 ## Note on workflow
 
-All new transcriptions will be labeled "First pass," meaning that they still require additional checking. Commentary and corrections will then be noted accordingly.
-
-## Note on names
-
-I've created a GoogleDoc with the various names I've come across. It can be viewed here:
-
-https://docs.google.com/spreadsheets/d/1EzkrwTYoavkpIbehbYgsRKFYEn9_pA6BPP7nRbpYeMI/edit?usp=sharing
+All new transcriptions will be labeled "First pass: To be checked." This means that they still require additional checking. Commentary and corrections will then be noted accordingly.
