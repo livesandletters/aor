@@ -47,7 +47,7 @@
     				</position>
     				<position place="left_margin" book_orientation="0">
     					<marginalia_text>
-    						animus: et ingeniu[m] semper pra[e]sentius.	<!-- This seems like the only way to connect the "animus" section with something else. -->
+    						animus: et ingeniu[m] semper pra[e]sentius.	<!-- This seems like the only way to connect the "animus" section with something else. --> <!--JG: Tricky one, for it's not that obvious, but I think you're right-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -78,7 +78,10 @@
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
     						) Infinita[e] Libroru[m] 
-    						nuga[e] omnia vulgaria, pra[e]ter cursum Singularis viri, 
+    						nuga[e] omnia vulgaria, pra[e]ter cursum Singularis viri, <!--JG: I didn't translate it, so maybe what I'm going to say does not make sense, 
+    							but is it possible that there is a marginal note that goes like this: Infinita[e] libroru[m] omnia vulgaria, pra[e]ter cursum singularis viri, continue sibi quisq[ue] exitandus.' and nother separate marginalia starting with 'nugae aspirantis...'?
+    							Perhaps this is not the case, but in thie ink is so different that it looks like it. Perhaps in some cases it actually might be worth
+    							to translate the marginalia in order to dinstinguish between them-->
     					</marginalia_text>
     				</position>
     				<position place="left_margin" book_orientation="0">
@@ -125,7 +128,7 @@
     		
     		<!-- MISSING TEXT RIGHT MARGIN: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
         
-    		<marginalia hand="Italian">
+    		<marginalia hand="Italian"> <!--JG: I think these annotations are all part of the same marginal note Harvey wrote in the gutter, but for now you can leave it like this-->
     			<language ident="EN">
     				<position place="intext" book_orientation="270">
     					<marginalia_text>
@@ -158,6 +161,7 @@
     		
     		<!-- Underlines -->
     		
+    		<!--JG: I think you forgot the underlining in the first paragraph-->
     		<underline method="pen" type="straight" language="IT" text="La moglie d'un"/>
     		<underline method="pen" type="straight" language="IT" text="s'impicc&ograve; a un fico"/>
     		<underline method="pen" type="straight" language="IT" text="un dipintore"/>
@@ -181,12 +185,12 @@
 	    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|straight_quotation_mark|tilde|triple_dash|vertical_bar|X_sign -->
 	    	
 	    	<!-- Right margin -->
-	    	<mark name="dot" method="pen" place="right_margin"/> <!-- d'intellet -->
+	    	<mark name="dot" method="pen" place="right_margin"/> <!-- d'intellet -->  <!--JG: Could this be a dash rather than a dot (connecting the two parts of the word 'intelletto'?-->
     		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- s'habitano. -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- il Castiglio -->
 	    	
 	    	<!-- Left margin -->
-	    	<mark name="vertical_bar" method="pen" place="left_margin"/> <!-- gna, ... che -->	<!-- The following marks seem to function as brackets but have the form of a loose vertical bar -->
+	    	<mark name="vertical_bar" method="pen" place="left_margin"/> <!-- gna, ... che -->	<!-- The following marks seem to function as brackets but have the form of a loose vertical bar --> <!--JG: Tag this as circumflexes. In other books he uses this mark as well, and there they are clearly recognisable as (large) circumflexes-->
     		<mark name="vertical_bar" method="pen" place="left_margin"/> <!-- memoria -->
     		<mark name="vertical_bar" method="pen" place="left_margin"/> <!-- Milanese -->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- co sopra fatta -->
