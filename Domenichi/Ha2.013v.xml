@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd"> <!--JG: At a later stage, this should be updated. Leave this comment in, so that we don't forget to change this-->
 
 <transcription>
 
@@ -13,7 +13,7 @@
         			<language ident="LA">
             			               <position place="head" book_orientation="0">
                     				<marginalia_text>
-                    					plurimus literulis fit homo modica[e] habilitatis:
+                    					plurimus literulis fit homo modica[e] habilitatis: <!--JG: The ':' suggests that this marginalia continues! -->
                     				</marginalia_text>
             			               </position>
         			</language>
@@ -92,7 +92,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="270">
     					<marginalia_text>
-    						agmina
+    						agmina <!-- JG: Have to check whether this is part of the marginal note in the gutter or could it be part of the 'paucis artibus' marginal note -->
     					</marginalia_text>
     				</position>
     			</language>
@@ -101,7 +101,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="270">
     					<marginalia_text>
-    						suada[e]: Impressaq[ue] Fide, mirum operatur opus.
+    						suada[e]: Impressaq[ue] Fide, mirum operatur opus. <!-- JG: Could this also be part of the marginal note in the gutter? We should flag this, if we're going to check it at some point--> 
     					</marginalia_text>
     				</position>
     			</language>
@@ -154,7 +154,7 @@
 	    	<!-- Right margin -->
 	    	<mark name="dash" method="pen" place="right_margin"/> <!-- Fioren -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- cer -->
-    		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- infor- -->
+    		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- infor- --> <!--JG: To me it looks like this dash is printed-->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- con -->
 	    	
 	    	<!-- Left margin -->

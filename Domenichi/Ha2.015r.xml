@@ -14,7 +14,7 @@
             			<position place="head" book_orientation="0">
             			      	<marginalia_text>
             			      		P. Ceualerius, Ciuis Geneuensis, idemq[ue] magnus religionis,
-            			      	</marginalia_text>
+            			      	</marginalia_text> <!--JG: Petrus Cevalerius - do some research on this guy to find his 'English' name - should be tagged, as well as Geneva -->
             			      </position>
         				<position place="right_margin" book_orientation="0">
         					<marginalia_text>
@@ -66,7 +66,7 @@
     			<language ident="IT">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						ridicolo. su[pra]
+    						ridicolo. su[pra] <!--JG: Transcribe as s[upr]a-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -78,8 +78,8 @@
     						Crambe bis posita:
     						sed in viuis facetijs nihil moris.
     					</marginalia_text>
-    					<emphasis method="pen" text="viuis"/>
-    					<emphasis method="pen" text="mortis"/>
+    					<emphasis method="pen" text="viuis"/> <!--JG: This you can update with the type attribute-->
+    					<emphasis method="pen" text="mortis"/> <!--JG: Idem-->
     				</position>
     			</language>
     		</marginalia>
@@ -87,7 +87,7 @@
     			<language ident="IT">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						pariente. su[pra] )
+    						pariente. su[pra] ) <!--JG: Transcribe as s[upr]a-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -106,7 +106,7 @@
     			<language ident="LA">
     				<position place="left_margin" book_orientation="270">
     					<marginalia_text>
-    						Bona cum venia illius boni viri, Cui Candida Dea est. 
+    						Bona cum venia illius boni viri, Cui Candida Dea est. <!--JG: the word sola is missing -->
     					</marginalia_text>
     				</position>
     			</language>
@@ -116,7 +116,7 @@
     			<language ident="EN">
     				<position place="intext" book_orientation="90">
     					<marginalia_text>
-    						An Archhumorist
+    						An Archhumorist <!--JG: There's a dot after Archhumorist. Looking at the ink, it 'belongs' to this rather than the previous marginal note-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -139,7 +139,7 @@
     		<underline method="pen" type="straight" language="IT" text="tu camini a questo modo"/>
     		<underline method="pen" type="straight" language="IT" text="logorerai poche scarpe"/>
     		<underline method="pen" type="straight" language="IT" text="pacifico cornucopia"/>
-    		<underline method="pen" type="straight" language="IT" text="un pedante"/>
+    		<underline method="pen" type="straight" language="IT" text="un pedante"/> <!--JG: rather, pedante per-->
     		<underline method="pen" type="straight" language="IT" text="o Dio"/>
     		<underline method="pen" type="straight" language="IT" text="nostro Cicerone"/>
     		<underline method="pen" type="straight" language="IT" text="de' suoi"/>
@@ -158,7 +158,7 @@
     		<mark name="dash" method="pen" place="right_margin"/> <!-- matti -->
     		<mark name="comma" method="pen" place="right_margin"/> <!-- questo modo -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- cor -->
-    		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- resto di uoi -->
+    		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- resto di uoi --> <!--JG: Well spotted!!-->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- nobi -->
 	    	
 	    	<!-- Left margin -->
@@ -167,12 +167,13 @@
 	    	<!-- Intext -->
 	    	<mark name="plus_sign" method="pen" place="intext"/> <!-- Conte di Pitigliano -->
     		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- capriccioso -->
-    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- bottega -->
+    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- bottega --> <!--JG: I'd include the word bottega in the text attribute-->
     		<mark name="dot" method="pen" place="intext"/> <!-- scarpe, percioche -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- pacifico -->
+    		<!--JG: There's also a comma between affogare and gridaua-->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- nostro Cicerone -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- del resto -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- Pronto -->
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- Pronto --> <!--JG: I'd include the word Pronto in the text attribute-->
     		<mark name="dot" method="pen" place="intext"/> <!-- corta, sentendo -->
     		
 
