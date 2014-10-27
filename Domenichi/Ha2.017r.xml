@@ -4,7 +4,7 @@
 
 <transcription>
 
-	<page filename="Ha2.017r.tif" pagination="353" reader="Harvey"/>	<!-- ABO 021right -->
+	<page filename="Ha2.017r.tif" pagination="353" reader="Harvey"/>	<!-- ABO 021right --> <!--JG: Page nr is 357, use this page number, even though it's an error-->
     	<annotation>
     		
             		<!-- Marginalia -->
@@ -13,7 +13,7 @@
         			<language ident="LA">
             			               <position place="head" book_orientation="0">
                     				<marginalia_text>
-                    					Nescia Virtus Stare Loco. Nescia Ars sed&eacute;re
+                    					Nescia Virtus Stare Loco. Nescia Ars sed&eacute;re <!--JG: nescia virtus stare loco is a quote from Lucan, De bello Civili/Pharsalia. Use the X-ref tag here-->
                       			             </marginalia_text>
             			               </position>
         				<position place="right_margin" book_orientation="0">
@@ -28,22 +28,22 @@
         				</position>
         				<position place="right_margin" book_orientation="0">
         					<marginalia_text>
-        						) vt in primis Ars Ca[e]sariana, Sallustiana,
+        						) vt in primis Ars Ca[e]sariana, Sallustiana, <!--JG: I'd start vt with a capital V-->
         					</marginalia_text>
         					<person name="Julius Caesar"/>
         					<person name="Sallust"/>
         				</position>
         				<position place="intext" book_orientation="0">
         					<marginalia_text>
-        						) Tacitana.		<!-- Unsure how to capture parenthesis -->
+        						) Tacitana.		<!-- Unsure how to capture parenthesis --> <!--JG: Difficult case, I'd leave your transcription as it is-->
         					</marginalia_text>
         					<person name="Tacitus"/>
         				</position>
         				<position place="right_margin" book_orientation="0">
         					<marginalia_text>
-        						Cui ) finitima Virgiliana in Aneide;	<!-- Unsure how to capture parenthesis -->
+        						Cui ) finitima Virgiliana in Aneide;	<!-- Unsure how to capture parenthesis --> <!--JG: See comment above-->
         						Ouidiana in Metamorphosi;
-        						) Senecana in		<!-- Unsure how to capture parenthesis -->
+        						) Senecana in		<!-- Unsure how to capture parenthesis --> <!--JG: See comment above-->
         					</marginalia_text>
         					<person name="Virgil"/>
         					<person name="Ovid"/>
@@ -54,7 +54,7 @@
         				<position place="intext" book_orientation="0">
         					<marginalia_text>
         						Traga[e]dijs. Tam facil&egrave; fluentissima, qu&agrave;m maxime omnium neruosa prudentia. 
-        					</marginalia_text>
+        					</marginalia_text> <!--JG: You should tag the Tragedies as well-->
         				</position>
         				<position place="tail" book_orientation="0">
         					<marginalia_text>
@@ -71,8 +71,8 @@
     					<marginalia_text>
     						Macchiauelli, ex tempore.
     					</marginalia_text>
-    					<person name="Niccol&ograve; Machiavelli"/>
-    					<emphasis method="pen" text="ex tempore"/>
+    					<person name="Niccol&ograve; Machiavelli"/> <!--JG: See the spreadsheet on Google drive: just tag as Machiavelli-->
+    					<emphasis method="pen" text="ex tempore"/> <!--JG: Use the type attribute as well-->
     				</position>
     			</language>
     		</marginalia>
@@ -91,7 +91,7 @@
     				<position place="left_margin" book_orientation="270">
     					<marginalia_text>
     						Hic superat ipsu[m] Ca[e]sarem, et Maronem. Cedant ipse Crispus, (
-    						<!-- Annotation seems to continue into right margin of facing page. -->
+    						<!-- Annotation seems to continue into right margin of facing page. --> <!--JG: include file name of the facing page in your comment-->
     					</marginalia_text>
     					<person name="Julius Caesar"/>
     					<person name="Virgil"/>    					
@@ -162,12 +162,13 @@
     		<mark name="dash" method="pen" place="right_margin"/> <!-- su -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- ros -->
     		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- considerato -->
+    		<!--JG: There's also a + sign next to prigione-->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- essen -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- liber -->
 	    	
 	    	<!-- Left margin -->
 	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- contato ... so diletto -->
-    		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- bito Nicolo' -->
+    		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- bito Nicolo' --> <!--JG: this is a quotation mark-->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- quello, che poco -->
 		    
 	    	<!-- Intext -->
@@ -178,7 +179,7 @@
     		<mark name="vertical_bar" method="pen" place="intext"/> <!-- mancaua: una di -->
     		<mark name="dot" method="pen" place="intext"/> <!-- Nicolo', perche -->
     		<mark name="dot" method="pen" place="intext"/> <!-- indugiare, ripigliando -->
-    		<mark name="bracket" method="pen" place="intext"/> <!-- Vulcan .. Venere -->
+    		<mark name="bracket" method="pen" place="intext"/> <!-- Vulcan .. Venere --> <!--JG: Here you could use the text attribute, for it's quite clear which text he's bracketing-->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- Venere ignuda -->
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- ... ritto. -->
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- O nella malhora -->

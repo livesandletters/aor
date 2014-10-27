@@ -23,7 +23,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						s[opr]a /
+    						s[opr]a / <!--JG: Should be s[upr]a-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -41,12 +41,12 @@
     			<language ident="EN">
     				<position place="tail" book_orientation="0">
     					<marginalia_text>
-    						( No man is insan: if a right man.)
+    						( No man is insan: if a right man.) <!--JG: I think it reads 'mean' instead of 'insane', no?-->
     						Of Kingdoms prouinced: a saying
     						of Orient.
     					</marginalia_text>
-    					<location name="Orient"/>	<!-- This seems like something worth capturing.  -->
-    					<emphasis method="chalk" text="insan"/>
+    					<location name="Orient"/>	<!-- This seems like something worth capturing.  --> <!--JG: Yes, I completely agree-->
+    					<emphasis method="chalk" text="insan"/> <!--JG: see comment above-->
     				</position>
     			</language>
     		</marginalia>
@@ -65,7 +65,7 @@
     				<position place="left_margin" book_orientation="270">
     					<marginalia_text>
     						= Aspiring to a greater maiestie, then euer Alexander the Great, or greater Cesar
-    						[vsurped]. Do you not think them holie preists, that can plat[f]orme such [-]	<!-- This marginalia seems to continue into the right margin of the facing page. -->
+    						[vsurped]. Do you not think them holie preists, that can plat[f]orme such [-]	<!-- This marginalia seems to continue into the right margin of the facing page. --> <!--JG: I agree, leave your comment in the XML so we don't overlook this at a later stage-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -124,6 +124,7 @@
     		<mark name="dash" method="pen" place="right_margin"/> <!-- ce -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- na -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- quel -->
+    		<!--JG: There's also a X in the right margin, next to ordinati-->
 	    	
 	    	<!-- Left margin -->
 	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- in beni sodi -->
@@ -136,7 +137,7 @@
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- suo stato -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- un di quei -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- giorno solo -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- ragionamento rinuntiava -->
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- ragionamento rinuntiava --> <!--JG: There's a dot between compagni, presenta[n]dogli-->
     		<mark name="vertical_bar" method="pen" place="intext"/> <!-- d'auorio. Avve[n]ne -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- astuto ingeno -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- affabile -->
