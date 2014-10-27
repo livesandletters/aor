@@ -26,8 +26,9 @@
     					<marginalia_text>
     						Christus nec ullis ipse egebat libris: nec vllum Apostolis comme[n]dauit,
     						orbem terraru[m] superare Spiritu, et industria quid non?
-    						sed utroq[ue] singular.			<!-- Should I mention the Apostles as a person here? --> <!--JG: Yes. Btw, should be 'singulari'-->
+    						sed utroq[ue] singulari.		
     					</marginalia_text>
+    					<person name="Apostles"/>
     					<person name="Jesus Christ"/>
     				</position>
     			</language>
@@ -36,8 +37,8 @@
     			<language ident="LA">
     				<position place="tail" book_orientation="0">
     					<marginalia_text>
-    						Et musca[e] suus est splen: et vespa[e] sua <!--JG: Could this be one word: suabilis?-->
-    						bilis. ( Martyres apostoli: sed inoffensi.	<!-- This parenthesis looks like it might be from a separate intervention. How should I capture it? --> <!--JG: You captured it in the right way. Leave it like it is-->
+    						Et musca[e] suus est splen: et vespa[e] sua	<!-- Most likely sua bilis and not suabilis, as the construction follows "suus splen." -->
+    						bilis. ( Martyres apostoli: sed inoffensi.
     					</marginalia_text>
     				</position>
     			</language>
@@ -68,7 +69,7 @@
     			<language ident="LA">
     				<position place="right_margin" book_orientation="270">
     					<marginalia_text>
-    						Incomporabilis est Spiritus, Industria, Peritia; qua[m] maxima [---] <!-- I'm unsure about the rest of this.--> <!--JG: Don't worry about this now, original source is needed-->
+    						Incomporabilis est Spiritus, Industria, Peritia; qua[m] maxima [---] 
     	<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
     					</marginalia_text>
     				</position>
@@ -122,7 +123,7 @@
     		<mark name="dash" method="pen" place="right_margin"/> <!-- ri -->
 	    	
 	    	<!-- Left margin -->
-	    	<mark name="dash" method="pen" place="left_margin"/> <!-- beneath the Apostolis annotation --> <!--JG but this is part of the marginal note, no? I also think there's a plus sign underneath the 't' of the word apostolis-->
+	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- beneath the Apostolis annotation -->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- non pigliammo -->
     		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- re con Horatio -->
     		<mark name="horizontal_bar" method="pen" place="left_margin"/> <!-- discreto cortigiano -->

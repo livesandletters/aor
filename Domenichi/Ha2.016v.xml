@@ -13,7 +13,7 @@
         			<language ident="LA">
             			               <position place="head" book_orientation="0">
                     				<marginalia_text>
-                    					Eutrapelus vium, speculum omnis excellentia[e]. <!--JG: I think it's viuum instead of vium-->
+                    					Eutrapelus viuum, speculum omnis excellentia[e].
                       			             </marginalia_text>
             			               	<person name="Eutrapelus"/>
             			               	<emphasis method="chalk"/>
@@ -52,7 +52,7 @@
     			<language ident="LA">
     				<position place="tail" book_orientation="0">
     					<marginalia_text>
-    						s[upr]a 409. <!--JG: I think Harvey added a comma as well: s[upr]a, 409-->
+    						s[upr]a, 409.
     					</marginalia_text>
     				</position>
     			</language>
@@ -154,8 +154,7 @@
 	    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|straight_quotation_mark|tilde|triple_dash|vertical_bar|X_sign -->
 	    	
 	    	<!-- Right margin -->
-	    	<mark name="dash" method="pen" place="right_margin"/> <!-- figliuo --> <!--JG: This could be printed, no?-->
-    		<mark name="dash" method="pen" place="right_margin"/> <!-- la -->
+	    	<mark name="dash" method="pen" place="right_margin"/> <!-- la -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- Giob -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- appropria -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- autto -->
@@ -180,7 +179,7 @@
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="particolare"/>
     		<mark name="dot" method="pen" place="intext"/> <!-- uso, ci ha  -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- questa appa -->
-    			<!-- It looks like he also might have traced in pen the S and the T of "questa," although it is unclear --> <!--JG: Seems to have been the case indeed, but we're not going to capture this. You can just leave your comment in for future users-->
+    			<!-- It looks like he also might have traced in pen the S and the T of "questa." -->
     		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark on right side of first paragraph -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="rinuntio"/>
     		<mark name="comma" method="pen" place="intext"/> <!-- Fiorenza non e' molto  -->
@@ -194,12 +193,12 @@
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- bello spirito -->
     		<mark name="dot" method="pen" place="intext"/> <!-- pensati, apriuano  -->
     		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- a sorte -->
-    		<mark name="straight_quotation_mark" method="pen" place="intext" language="IT" text="transformationi"/> <!--JG: printed text is trasformationi. Follow the source, even in case mistakes are made-->
+    		<mark name="straight_quotation_mark" method="pen" place="intext" language="IT" text="trasformationi"/> 
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- a caso -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="all'improuiso"/>
     		<mark name="vertical_bar" method="pen" place="intext"/> <!-- improuiso. Avvenne -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Macchiauelli"/>
-    		<!--JG: There's a dot between huomini, gli-->
+    		<mark name="dot" method="pen" place="intext"/> <!-- huomini, gli -->
 		
     </annotation>
 </transcription>

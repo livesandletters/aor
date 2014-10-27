@@ -13,7 +13,7 @@
         			<language ident="LA">
             			               <position place="head" book_orientation="0">
                     				<marginalia_text>
-                    					plurimus literulis fit homo modica[e] habilitatis: <!--JG: The ':' suggests that this marginalia continues! -->
+                    					plurimus literulis fit homo modica[e] habilitatis: <!-- Marginalia continues elsewhere. Unclear if in the gutter or the head of following page. -->
                     				</marginalia_text>
             			               </position>
         			</language>
@@ -92,7 +92,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="270">
     					<marginalia_text>
-    						agmina <!-- JG: Have to check whether this is part of the marginal note in the gutter or could it be part of the 'paucis artibus' marginal note -->
+    						agmina <!-- Appears to continue from marginalia in gutter. -->
     					</marginalia_text>
     				</position>
     			</language>
@@ -101,7 +101,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="270">
     					<marginalia_text>
-    						suada[e]: Impressaq[ue] Fide, mirum operatur opus. <!-- JG: Could this also be part of the marginal note in the gutter? We should flag this, if we're going to check it at some point--> 
+    						suada[e]: Impressaq[ue] Fide, mirum operatur opus. <!-- Appears to belong to marginalia in gutter. -->
     					</marginalia_text>
     				</position>
     			</language>
@@ -154,7 +154,6 @@
 	    	<!-- Right margin -->
 	    	<mark name="dash" method="pen" place="right_margin"/> <!-- Fioren -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- cer -->
-    		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- infor- --> <!--JG: To me it looks like this dash is printed-->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- con -->
 	    	
 	    	<!-- Left margin -->
