@@ -22,7 +22,7 @@
     			<language ident="EN">
     				<position place="head" book_orientation="0">
     					<marginalia_text>
-    						 Coosenagr.	<!-- I do not understand this marginalia. --> <!--JG: I think that the last letter is and 'e' instead of 'r'. I then becomes 'coosenage', an cozenaging is a for of trickery, so makes sense in relation to the previous marginal note-->
+    						 Coosenage.
     					</marginalia_text>
     				</position>
     			</language>
@@ -62,7 +62,7 @@
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
     						Vnicus mundi Orator, et pragmaticus, sempre mellitus, aut saccharatus:
-    						pla[e]runq[ue] diamargar[i]tatus, aut diamoschatus: sa[e]p&egrave; viua amborisa,	<!-- These terms are clearly Greek, but I'm not sure about their meaning here. Margar[i]tatus might refer to pearls, and moschatus might refer to calfs. --> <!--JG: I also wonder about the letters/signs/whatever after 'diamar'-->
+    						pla[e]runq[ue] diamargar[i]t[a]tus, aut diamoschatus: sa[e]p&egrave; viua ambrosia,	<!-- Terms unclear.-->
     						et nectar de Coelo.
     					</marginalia_text>
     					<emphasis method="chalk"/>
@@ -73,7 +73,7 @@
     			<language ident="LA">
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
-    						Et Orpheo dulcior> et lautior Proa[e]resio: et Bartasio <!--JG: Should be ':'  instead of '>'-->
+    						Et Orpheo dulcior: et lautior Proa[e]resio: et Bartasio
     						diuenior, qui superat omnes Theologos. 	
     					</marginalia_text>
     					<person name="Orpheus"/>
@@ -85,9 +85,9 @@
     		
     		<marginalia hand="Italian">
     			<language ident="LA">
-    				<position place="right_margin" book_orientation="90"> <!--JG: book_orientation should be 270-->
+    				<position place="right_margin" book_orientation="270"> 
     					<marginalia_text>
-    						triumphus.	<!--JG: I think this is part of the marginal note in the gutter-->
+    						triumphus.	<!-- Part of the marginal note in the gutter-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -107,20 +107,19 @@
     		<underline method="pen" type="straight" language="IT" text="indorare un grosso di"/>
     		<underline method="pen" type="straight" language="IT" text="uno scudo"/>
     		<underline method="pen" type="straight" language="IT" text="apparecchiati buoni marzapani, confettioni"/> 
-    		<!-- JG: Yesterday, when I was working on the Livy, 
-    			I saw that Harvey sometimes used 'dotted' underlining, as he does here to underscore 'la mattina' and 'si leua'. 
-    			The new DTD/Schema (see GitHub), has a new variable in the type attribute of the underline element which captures this form of underlining-->
+    		<underline method="pen" type="dotted" language="IT" text="La mattina"/> 
+    		<underline method="pen" type="dotted" language="IT" text="si leua"/> 
     		<underline method="pen" type="straight" language="IT" text="hauer certa facenda"/>
     		<underline method="pen" type="straight" language="IT" text="dal collo il falso"/>
     		<underline method="pen" type="straight" language="IT" text="io non h&ograve; molti denari, serbatemi"/>
-    		<underline method="pen" type="straight" language="IT" text="che io porto al collo per diuotione"/> <!--JG: I'd include 'scudo,' as well-->
+    		<underline method="pen" type="straight" language="IT" text="scudo, che io porto al collo per diuotione"/>
     		<underline method="pen" type="straight" language="IT" text="a due d&igrave; mi uerranno denari"/>
     		<underline method="pen" type="straight" language="IT" text="non lo mostrate"/>
     		<underline method="pen" type="straight" language="IT" text="ne sarei uccellato"/>
     		<underline method="pen" type="straight" language="IT" text="buona donna"/>
     		<underline method="pen" type="straight" language="IT" text="promettendo serbarglielo"/>
     		<underline method="pen" type="straight" language="IT" text="due giorni"/>
-    		<underline method="pen" type="straight" language="IT" text="gli otti"/> <!--JG: otto instead of otti-->
+    		<underline method="pen" type="straight" language="IT" text="gli otto"/>
     		<underline method="pen" type="straight" language="IT" text="cambiare lo scudo, ella lo"/>
     		<underline method="pen" type="straight" language="IT" text="che egli era"/>
     		<underline method="pen" type="straight" language="IT" text="grosso indorato"/>
@@ -137,6 +136,7 @@
 	    	<!-- Symbols: Asterisk|Bisected_circle|Crown|Crescent|JC|HT|LL|Mars|Mercury|Opposite_planets|Square|SS|Sun -->
     		
     		<symbol name="JC" place="left_margin"/>
+    		<symbol name="SS" place="left_margin"/>
 	      		
 	    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|straight_quotation_mark|tilde|triple_dash|vertical_bar|X_sign -->
 	    	
@@ -144,7 +144,6 @@
 	    	
 	    	<!-- Left margin -->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- indorare un grosso --> 
-	    	<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- grosso indorato --> <!--JG: It's difficult to see, but I think this is a very small SS symbol. What do you think?-->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- le rise -->
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- un... le se -->
 		    
