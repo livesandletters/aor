@@ -57,7 +57,7 @@
     		<marginalia hand="Italian">
     			<language ident="EN">
     				<position place="left_margin" book_orientation="90">
-    					<marginalia_text>
+    					<marginalia_text> <!--JG: Indicate that this marginal note is a continuation of the marginal note that started on the previous page. See manual for such a reference-->
     						fine enowgh: no dispute subtill enowgh: no behauiour sweet enowgh: no discouerie,
     						or intelligence profound enowgh: no desert meritorious enowgh: "
     					</marginalia_text>
@@ -118,15 +118,17 @@
     		<mark name="dash" method="pen" place="right_margin"/> <!-- offer -->
     		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- far fede, co -->
     		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- di uo-  -->
+    		<!--JG: dash next to offer-->
     		
 	    	<!-- Left margin -->
-	    	<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- Platone. This looks to be part of the marginalia though. -->
+	    	<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- Platone. This looks to be part of the marginalia though. --> <!--JG: Yeah, definitely part of the marginal note-->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- uar sul banco -->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- uto a dire -->
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- me ... so -->
     		
 	    	<!-- Intext -->
 	    	<mark name="dot" method="pen" place="intext"/> <!-- contratto, M. Pao  -->
+    		<!--JG: Also dot between nipote and Auuenne?-->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="freno"/>
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- uirtuoso.] -->
 

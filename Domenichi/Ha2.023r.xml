@@ -24,8 +24,8 @@
     			<language ident="EN">
     				<position place="right_margin" book_orientation="0">
     					<marginalia_text>
-    						What language speakes this w[ai]e, pure Spanish, or nett French, or right Italia? 
-    						Is it braur, or fine wine?
+    						What language speakes this w[ai]e, pure Spanish, or nett French, or right Italia?  <!--JG: I think it should be 'wine' instead of w[ai]e-->
+    						Is it braur, or fine wine? <!--JG: I think it should be 'braue'-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -34,7 +34,7 @@
     			<language ident="EN">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						a learned Greek wine. pure Greek. s[upr]a / 53. s[upr]a, 399.
+    						a learned Greek wine. pure Greek. s[upr]a / 53. s[upr]a, 399. <!--JG: Should be i[nfr]a, 399-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -52,7 +52,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						s[upr]a, 369.
+    						s[upr]a, 369. <!--JG: Should be i[nfr]a-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -160,6 +160,7 @@
     		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- l'Hu -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- ta -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- cono -->
+    		<!--JG: bracket, next to con pa- -->
     			
 	    	<!-- Left margin -->
 	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- continuaua ... il -->

@@ -15,9 +15,9 @@
         			<language ident="LA">
             			<position place="head" book_orientation="0">
                     				<marginalia_text>
-                    					Petrarcha fur c[oel]estis: vt Virgilius.  <!-- This seems like the right transcription, as it would mean "heavenly thief." -->
+                    					Petrarcha fur c[oel]estis: vt Virgilius.  <!-- This seems like the right transcription, as it would mean "heavenly thief." --> <!--JG: Yeah, it's coelestis, you can remove the brackets-->
                       			</marginalia_text>
-            				<person name="Francesco Petrarca"/>
+            				<person name="Francesco Petrarca"/> <!--JG: Tag as Petrach-->
             				<person name="Virgil"/>
             			</position>
         			</language>
@@ -31,7 +31,7 @@
     				</position>
     				<position place="right_margin" book_orientation="0">
     					<marginalia_text>
-    						resolution, that doth best tempori[-]. <!-- I'm unsure of the last letters here. -->
+    						resolution, that doth best tempori[-]. <!-- I'm unsure of the last letters here. --> <!--JG: I think it's temporise-->
     						That pra[e]sently takes the Ascendent. 
     					</marginalia_text>
     					<emphasis method="chalk" type="straight"/>
@@ -40,7 +40,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						Vnica libertas, seruire pra[e]senti Tempori.
+    						Vnica libertas, seruire pra[e]senti Tempori. <!--JG: I'd tag this as a separate marginal note-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -68,7 +68,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						) Hoc punctum non red[it]: et potens influentia
+    						) Hoc punctum non red[it]: et potens influentia <!--JG: I think it's redit, you can remove the brackets-->
     					</marginalia_text>
     				</position>
     				<position place="tail" book_orientation="0">
@@ -104,7 +104,7 @@
     			<language ident="LA">
     				<position place="right_margin" book_orientation="270">
     					<marginalia_text>
-    						A' die in diem profice: ab hora in hora[m]	<!-- Should we add another special character for capital A with a grave accent? -->
+    						A' die in diem profice: ab hora in hora[m]	<!-- Should we add another special character for capital A with a grave accent? --> <!--JG: Added this character to the dtd, please check if it works-->
     						corrige. Quotidiana auxesis: et assidua
     						Epanorthosis. 	<!-- Auxesis and Epanorthosis: These are both figures of speech related to hyperbole. -->
     					</marginalia_text>

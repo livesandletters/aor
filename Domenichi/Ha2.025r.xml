@@ -28,11 +28,11 @@
         				</position>
         			</language>
         		</marginalia>
-    		<marginalia hand="Italian">	<!-- This marginalia looks like it follows the previous, but perhaps it would be better to separate due to the period? -->
+    		<marginalia hand="Italian">	<!-- This marginalia looks like it follows the previous, but perhaps it would be better to separate due to the period? --> <!--JG: I'd look at the content and then decide whether it's better to have them separated or all joined-->
     			<language ident="LA">
     				<position place="right_margin" book_orientation="0">
     					<marginalia_text>
-    						Cert&egrave; angelica ) Entelechia	<!-- Unsure of how to capture the brackets here. -->
+    						Cert&egrave; angelica ) Entelechia	<!-- Unsure of how to capture the brackets here. --> <!--JG: You could place the bracket after Entelechia, but this is fine as well-->
     					</marginalia_text>
     					<emphasis method="pen" type="straight" text="angelica Entelechia"/>
     				</position>
@@ -101,7 +101,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						[Je]iunio, et oratione	<!-- This might be from 'jejunium' but not sure. -->
+    						[Je]iunio, et oratione	<!-- This might be from 'jejunium' but not sure. --> <!--JG: Possible, I think it should definitely be transcribed as Jeiunio-->
     						fiunt miracula.
     					</marginalia_text>
     				</position>
@@ -146,7 +146,7 @@
     		<underline method="pen" type="straight" language="IT" text="tanta alle"/>
     		<underline method="pen" type="straight" language="IT" text="l'allegra cuore"/>
     		<underline method="pen" type="straight" language="IT" text="mangiare in insalate"/>
-    		<underline method="pen" type="straight" language="IT" text="mutolo il meschino uirario"/>
+    		<underline method="pen" type="straight" language="IT" text="mutolo il meschino uirario"/> <!--JG: should be uicario-->
     		<underline method="pen" type="straight" language="IT" text="poco manco cattiue spese"/>
     		<underline method="pen" type="straight" language="IT" text="pouert&agrave; n'era"/>
     		<underline method="pen" type="straight" language="IT" text="poteua scusarsi"/>
@@ -171,6 +171,7 @@
     		<underline method="pen" type="straight" language="IT" text="schiaffo da"/>
     		<underline method="pen" type="straight" language="IT" text="senza adirarsene"/>
     		<underline method="pen" type="straight" language="IT" text="grande amico"/>
+    		<!--JG: Filosofissimo is underlined as well-->
 	       
 	    	<!-- Symbols: Asterisk|Bisected_circle|Crown|Crescent|JC|HT|LL|Mars|Mercury|Opposite_planets|Square|SS|Sun -->
 	        
