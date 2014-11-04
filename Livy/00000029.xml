@@ -1,22 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 
-<!DOCTYPE transcription [
-<!ENTITY agrave "à">
-<!ENTITY aacute "á">
-<!ENTITY atiled "ã">
-<!ENTITY egrave "è">
-<!ENTITY eacute "é">
-<!ENTITY ecirc "ê">
-<!ENTITY igrave "ì">
-<!ENTITY ograve "ò">
-<!ENTITY Ocirc "Ô">
-<!ENTITY ugrave "ù"> 
-<!ENTITY euml "ë">
-]>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../XMLschema/Harveyschema17102014.xsd"> 
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141023.xsd">
+	
 	<page filename="00000029.tif" pagination="7" reader="Harvey" /> <!-- scan 29 in ABO -->
 	<annotation>
 		<marginalia hand="Italian">
@@ -281,7 +270,8 @@
 		<mark name="equal_sign" method="pen" place="intext" language="LA" text="raptim" />
 		<mark name="equal_sign" method="pen" place="intext" language="LA" text="coalescere co[n]cordia" />
 		<mark name="plus_sign" method="pen" place="intext" language="LA" text="minus" />
-		<mark name="plus_sign" method="pen" place="left_margin" />
+		
+		
 		<mark name="equal_sign" method="pen" place="intext" text="coloniae missae" />
 		<mark name="bracket" method="pen" place="intext" /> 
 		<mark name="plus_sign" method="pen" place="intext" />
@@ -320,12 +310,9 @@
 		<mark name="plus_sign" method="pen" place="intext" />
 		<mark name="plus_sign" method="pen" place="intext" />
 		<mark name="vertical_bar" method="pen" place="intext" />
-		<mark name="bracket" method="pen" place="left_margin" language="LA" text="Tum Sabinae mulieres,
-		quarum ex iniuria bellum ortum erat; crinibus passis, scissa que ueste,
-		victo malis muliebri pauore, ausae se inter tela volantia inferre; ex transuerso
-		impetu facto, dirimere infestats acies, dirimere iras: hinc patres, hinc uiros orantes,
-		ne se" />
 		
+		<mark name="equal_sign" method="pen" place="left_margin"/>
+		<mark name="plus_sign" method="pen" place="left_margin"/>
 		<mark name="triple_dash" method="pen" place="left_margin" /> <!-- actum est -->
 		<mark name="quotation_mark" method="pen" place="left_margin" />
 		<mark name="plus_sign" method="pen" place="left_margin" />
@@ -335,21 +322,29 @@
 		<mark name="plus_sign" method="pen" place="left_margin" />
 		<mark name="plus_sign" method="pen" place="left_margin" />
 		<mark name="plus_sign" method="pen" place="left_margin" />
-		<mark name="plus_sign" method="pen" place="left_margin" />
 		<mark name="equal_sign" method="pen" place="left_margin" />
 		<mark name="plus_sign" method="pen" place="left_margin" />
 		<mark name="plus_sign" method="pen" place="left_margin" />
 		<mark name="equal_sign" method="pen" place="left_margin" />
+		<mark name="bracket" method="pen" place="left_margin" language="LA" text="Tum Sabinae mulieres,
+			quarum ex iniuria bellum ortum erat; crinibus passis, scissa que ueste,
+			victo malis muliebri pauore, ausae se inter tela volantia inferre; ex transuerso
+			impetu facto, dirimere infestats acies, dirimere iras: hinc patres, hinc uiros orantes,
+			ne se" />
+		<mark name="dash" method="pen" place="right_margin"/> <!--condi-->
 		<mark name="equal_sign" method="pen" place="right_margin" />
 		<mark name="plus_sign" method="pen" place="right_margin" />
-		<mark name="quotation_mark" method="pen" place="left_margin" />
-		<mark name="quotation_mark" method="pen" place="left_margin" />
-		<mark name="quotation_mark" method="pen" place="left_margin" />
-		<mark name="quotation_mark" method="pen" place="left_margin" />
-		<mark name="quotation_mark" method="pen" place="left_margin" />
-		<mark name="quotation_mark" method="pen" place="left_margin" />
-		<mark name="quotation_mark" method="pen" place="left_margin" />
-		<mark name="quotation_mark" method="pen" place="left_margin" />
+		<mark name="dash" method="pen" place="right_margin"/> <!--freque[]-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--Sa-->
+		<mark name="vertical_bar" method="pen" place="right_margin"/> <!--dolus-->
+		<mark name="plus_sign" method="pen" place="right_margin"/>
+		<mark name="dash" method="pen" place="right_margin"/> <!--Ro-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--auda-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--ue-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--prae-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--re-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--Me-->
+	
 	</annotation>
 </transcription>
 		
