@@ -23,7 +23,7 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Perche lo Auttore no[n] ha voluto imitare il Boccaccio. 
-                        <!-- not sure how to deal with this tilde -->
+                        <!-- not sure how to deal with this tilde --> <!--JG: The way you did it is fine-->
                     </marginalia_text>
                     <person name="Giovanni Boccaccio"/>
                 </position>
@@ -37,12 +37,12 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Quando il Boccaccio scrisse meglio, e come [l]' ingann&ograve; di giudicio.
-                    </marginalia_text>
+                    </marginalia_text> <!--JG: Use person element to tag Boccaccio-->
                 </position>
             </language>
             <translation>
                 When Boccaccio wrote better and how the deception of judgement
-                <!-- this doesn't really make sense to me -->
+                <!-- this doesn't really make sense to me --> <!--JG: Nor does it to me. At some point Chris will start checking all your transcription, so add in a comment (in this transcription) if he can have a good look at this one-->
             </translation>
         </marginalia>
     </annotation>

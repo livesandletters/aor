@@ -16,14 +16,14 @@
                 </position>
             </language>
             <translation>
-                Men always desire novelty
+                Men always desire novelty <!--JG: End translations with a period (or with whatever punctuation mark Harvey is using)-->
             </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="IT">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        M. Alfonso Ariosto. <!-- I don't know who this is -->
+                        M. Alfonso Ariosto. <!-- I don't know who this is --> <!--JG: Probably this was Alfonso, the duke of Ferrara?-->
                     </marginalia_text>
                     <person name="Alfonso Ariosto"/>
                 </position>
@@ -58,9 +58,9 @@
                     <person name="Ottaviano Fregoso"/>
                 </position>
             </language>
-        </marginalia>
+        </marginalia> <!--JG: Just a suggestion: separate the various components of the XML (e.g. marginalia, underline, symbols) by whitespace. This greatly improves the 'readability' of the transcriptions-->
         <underline method="pen" type="straight" text="huomo &agrave; nostri tempi rarissimo, magnanimo, religioso, 
-            pieno di bont&agrave;, d'ingegno, prudenza, et cortesia et ueramente amico d'homore" language="IT"/>
+            pieno di bont&agrave;, d'ingegno, prudenza, et cortesia et ueramente amico d'homore" language="IT"/> <!--JG: Idem-->
         <mark name="plus_sign" method="chalk" place="left_margin"/>
     </annotation>
 </transcription>
