@@ -4,7 +4,7 @@ aor
 The Archaeology of Reading
 
 This is a repository for project material relating to the Archaeology of Reading in Early Modern Europe, an international collaboration among the Sheridan Libraries at Johns Hopkins University, the Centre for Editing Lives and Letters (CELL) at UCL, and the Princeton University Library, with funding from the Andrew W. Mellon Foundation. 
-===
+
 Links to the lists of the people, books and locations mentioned in the marginal notes:
 
 Books: https://docs.google.com/spreadsheets/d/15Ny9EUVMd0OPExIL9XnGP1k-Z_DL7yUMGw3KB3CKEbI/edit#gid=0
