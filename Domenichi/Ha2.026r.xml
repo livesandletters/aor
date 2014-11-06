@@ -7,7 +7,7 @@
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141023.xsd">
 
 	<page filename="Ha2.026r.tif" pagination="37E" reader="Harvey"/>	<!-- ABO 030right -->
-    	<annotation>		<!-- The pagination for this page seems strange. I can't tell if Harvey added something to the number or not. -->
+    	<annotation>		<!-- The pagination for this page seems strange. I can't tell if Harvey added something to the number or not. --> <!--JG: It could be that Harvey tried to change it, I do see ink which can be part of the 'e' or 's' of communes. Anyway, the pagination attribute follows the printed number, so 37E is OK-->
     		
             	<!-- Marginalia -->
     		
@@ -66,7 +66,7 @@
     					<marginalia_text>
     						G.R. non credebat Deo; sed credebat Proditori. 
     					</marginalia_text>
-    					<person name="G.R."/>	<!-- Do you have any idea who this might be? -->
+    					<person name="G.R."/>	<!-- Do you have any idea who this might be? --> <!--JG: Nope... Put a comment: Expert advice needed!-->
     				</position>
     			</language>
     		</marginalia>
@@ -79,7 +79,7 @@
     						Erg&ograve; statim perlustranda omnia monumenta: penetrandi potiss[im]u[m]
     						Loci Communes: et sola curanda personaru[m], reru[m], actionu[m] potentiss[im]a.
     					</marginalia_text>
-    					<!-- Chalk mark looks like it's a smudge from the facing page. -->
+    					<!-- Chalk mark looks like it's a smudge from the facing page. --><!--JG: Agree!-->
     				</position>
     			</language>
     		</marginalia>
@@ -142,7 +142,7 @@
     		<mark name="dot" method="pen" place="intext"/> <!-- Cornia, fu -->
     		<mark name="comma" method="pen" place="intext"/> <!-- nio, da -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Santaccio"/>
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- dato loro -->
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- dato loro --> <!--JG: I'd put dato in text attribute-->
     		<mark name="dot" method="pen" place="intext"/> <!-- riuscibile, si -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- detto Santaccio -->
     		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark in middle of page -->
@@ -158,7 +158,7 @@
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- a primiera -->
     		<mark name="dot" method="pen" place="intext"/> <!-- tenere, un giouane -->
     		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- non fallire -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- guardero' -->
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- guardero' --> <!--JG: I'd put guardero in text attribute-->
     		
     		
 
