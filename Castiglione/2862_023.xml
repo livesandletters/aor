@@ -12,7 +12,8 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Occasione, che mosse l'Authore a comporre il praesente libro del Cortegiano
-                    </marginalia_text>  <!--JG: Use book element here to tak the 'Book of the Courtier'-->
+                    </marginalia_text>
+                    <book title="Book of the Courtier"/>
                 </position>
             </language>
             <translation>
@@ -31,8 +32,8 @@
             <translation>
                 The praise of the Marchioness of Pescara
             </translation>
-        </marginalia> <!--JG: Just a suggestion: separate the various components of the XML (e.g. marginalia, underline, symbols) by whitespace. This greatly improves the 'readability' of the transcriptions-->
-        <underline method="pen" type="straight" text="possono" language="IT"/> <!-- I'm not sure if this is the best way of 
-            capturing this - it's not exactly a vertical line!--> <!--JG: please put text attribute after the language attribute. Let's discuss the vertical line once I've seen the image-->
+        </marginalia> 
+        <underline method="pen" type="straight" language="IT" text="possono"/> <!-- I'm not sure if this is the best way of 
+            capturing this --> <!--JG: Let's discuss the vertical line once I've seen the image-->
     </annotation>
 </transcription>

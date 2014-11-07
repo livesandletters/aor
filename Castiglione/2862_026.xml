@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141023.xsd">
-    <page filename="2862_026_026.tif" reader="Harvey"/>
+    <page filename="2862_026.tif" reader="Harvey"/>
     <annotation>
         <marginalia hand="Italian">
             <language ident="IT">
@@ -23,7 +23,6 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Perche lo Auttore no[n] ha voluto imitare il Boccaccio. 
-                        <!-- not sure how to deal with this tilde --> <!--JG: The way you did it is fine-->
                     </marginalia_text>
                     <person name="Giovanni Boccaccio"/>
                 </position>
@@ -37,12 +36,13 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Quando il Boccaccio scrisse meglio, e come [l]' ingann&ograve; di giudicio.
-                    </marginalia_text> <!--JG: Use person element to tag Boccaccio-->
+                    </marginalia_text>
+                    <person name="Giovanni Boccaccio"/>
                 </position>
             </language>
             <translation>
                 When Boccaccio wrote better and how the deception of judgement
-                <!-- this doesn't really make sense to me --> <!--JG: Nor does it to me. At some point Chris will start checking all your transcription, so add in a comment (in this transcription) if he can have a good look at this one-->
+                <!-- JE: Chris - Jaap and I can't make sense of this, your thoughts? -->
             </translation>
         </marginalia>
     </annotation>
