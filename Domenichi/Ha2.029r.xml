@@ -31,7 +31,7 @@
         			<language ident="LA">
         				<position place="intext" book_orientation="0">
         					<marginalia_text>
-        						) Maximus mundi pragmaticus:
+        						) Maximus mundi pragmaticus: <!--JG could this be a separate marginal note, considering the horizontal bar demarcating the two notes?-->
         						Vnicus summarum causarum negociator: et solus 
         					</marginalia_text>
         				</position>
@@ -129,7 +129,7 @@
 	    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|straight_quotation_mark|tilde|triple_dash|vertical_bar|X_sign -->
 	    	
 	    	<!-- Right margin -->
-    						<!-- There seems to be a mark beneath the marginalia 'incomparable,' but I can't make it out. Perhaps a supra? -->
+    						<!-- There seems to be a mark beneath the marginalia 'incomparable,' but I can't make it out. Perhaps a supra? --> <!--JG: It's the abbreviation of infra!-->
 	    	<mark name="dash" method="pen" place="right_margin"/> <!-- E -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- riparar -->
     		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- stimu -->

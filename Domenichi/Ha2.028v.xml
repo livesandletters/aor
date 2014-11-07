@@ -26,7 +26,7 @@
     			<language ident="EN">
     				<position place="left_margin" book_orientation="0">
     					<marginalia_text>
-    						Better complemented to Court Kings then Sir Antonie Sherlie
+    						Better complemented to Court Kings then Sir Antonie Sherlie <!--JG: include the ':' in this marginal note-->
     					</marginalia_text>
     					<person name="Anthony Shirley"/>
     					<emphasis method="pen" type="straight" text="complemented"/>
@@ -52,7 +52,7 @@
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
     						) famous deuises to the
-    						Monarchs of the world, &amp; the greatest personag[-]
+    						Monarchs of the world, &amp; the greatest personag[-] <!--JG: Put a comment that this has to be checked when checking the marginal notes in the gutter-->
     					</marginalia_text>
     					<emphasis method="pen" type="straight" text="famous deuises"/>
     					<emphasis method="chalk" type="straight"/>
@@ -152,11 +152,11 @@
 		    
 	    	<!-- Intext -->
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- rapina -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- ultimo -->
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- ultimo --> <!--JG: I'd put this word in a text attribute-->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="argutamente"/>
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- morte subitana -->
     		<mark name="comma" method="pen" place="intext"/> <!-- costumi conto' -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- mangio' da Lupo -->
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- mangio' da Lupo --> <!--JG: There's also a comma between Vrbino and mangio-->
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- beuue' -->
     		<mark name="dot" method="pen" place="intext"/> <!-- bue, & -->
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- pagar -->
