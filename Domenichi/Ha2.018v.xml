@@ -28,7 +28,16 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						( s[upr]a, 365. / Tam pra[e]cis&egrave;, qu&agrave;m concis&egrave;.	<!-- How should I be capturing these references to other pages? --> <!--JG: The way you do it is fine, we don't have a separate tag for internal references since this infra/supra function as keywords here. I'd separate the two marginal notes (i.e. a new marginalia element containing the note starting with tam-->
+    						( s[upr]a, 365. /
+    					</marginalia_text>
+    				</position>
+    			</language>
+    		</marginalia>
+    		<marginalia hand="Italian">
+    			<language ident="LA">
+    				<position place="intext" book_orientation="0">
+    					<marginalia_text>
+    						Tam pra[e]cis&egrave;, qu&agrave;m concis&egrave;.
     					</marginalia_text>
     				</position>
     			</language>
