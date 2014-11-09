@@ -25,8 +25,9 @@
     			<language ident="LA">
     				<position place="right_margin" book_orientation="0">
     					<marginalia_text>
-    						Deuterojason; Archiheros.	<!-- I'm unclear on the first word here, though it definitely seems to be a name.--> <!--JG: I think the transcription is correct, but its meaning is unclear? Probably far fetched, but could deutero refer to the deutero-canonical books, and Jason to Jason of Cyrene?-->-->
-    					</marginalia_text> <!--JG: Use emphasis element in this marginal note-->
+    						Deuterojason; Archiheros.  <!--JG: Probably far fetched, but could deutero refer to the deutero-canonical books, and Jason to Jason of Cyrene?-->-->
+    					</marginalia_text>
+    					<emphasis method="pen" type="straight" text="Deuterojason"/>
     				</position>
     			</language>
     		</marginalia>
@@ -51,7 +52,7 @@
     			<language ident="EN">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						{ The most Jovial, &amp; Solari[c] man in the World. <!--JG:  should be Jouial. What could solaric mean? Derived from the latin 'solaris'?-->
+    						{ The most Jouial, &amp; Solari[c] man in the World. 
     					</marginalia_text>
     				</position>
     			</language>
@@ -60,7 +61,7 @@
     			<language ident="LA">
     				<position place="tail" book_orientation="0">
     					<marginalia_text>
-    						Neoph[a][e]bus in Hore.	<!-- This was written Neophoebus before, although it looks like possibly Neophaebus here. --> <!--JG: I agree, looks like Neophaebus. You can tag it as Neophoebus, seems to be the same 'person'-->
+    						Neoph[a][e]bus in Hore.	
     						Singula dicta, et facta eminentissima.
     					</marginalia_text>
     					<person name="Neophoebus"/>
@@ -151,7 +152,7 @@
 	    	<mark name="plus_sign" method="pen" place="intext"/> <!-- erano sospette -->
     		<mark name="vertical_bar" method="chalk" place="intext"/><!-- Chalk mark. Right side, middle of page -->
     		<mark name="dot" method="pen" place="intext"/> <!-- pensione, & -->
-    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- altrui ruina --> <!--JG: equal sign instead of straight quotation mark-->
+    		<mark name="equal_sign" method="pen" place="intext"/> <!-- altrui ruina -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- Ingenuo -->
 
     </annotation>
