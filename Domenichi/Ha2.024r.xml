@@ -17,7 +17,7 @@
                     				<marginalia_text>
                     					Ca[e]sar cibi, vini, somni parcissimus.
                       				</marginalia_text>
-            					<person name="Julius Caesar"/>	<!-- I'm marking this and the following as Julius Caesar, but I'm not sure it's him exactly. It could also be a generic title. What do you think? --> <!--JG: Tricky one, but I think we can assume it's Julius Caesar, since in his copy of Livy's history of Rome Harvey has a lot on interest in Julius Caesar, whose works he praises. But we should be aware of the possiblity that Harvey speaks about kingship/statesmanship in general-->
+            					<person name="Julius Caesar"/>
             				</position>
         			</language>
         		</marginalia>
@@ -44,7 +44,7 @@
     				</position>
     				<position place="right_margin" book_orientation="0">
     					<marginalia_text>
-    						aut articulorum, sensuu[m]q[ue] agitatione; cui Ca[e]saris dia[e]ta, ) ambulatio, <!-- Unsure of where to put parenthesis. --> <!--JG: It's fine like the way it is!-->
+    						aut articulorum, sensuu[m]q[ue] agitatione; cui Ca[e]saris dia[e]ta, ) ambulatio,
     						) quotidianus sudor; generosiss[im]a mundi disciplina.
     					</marginalia_text>
     					<person name="Julius Caesar"/>
@@ -88,7 +88,7 @@
     			<language ident="EN">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						M[r] Astley of [the] Court. <!-- I can't tell what the second letter is. It looks to be an abbreviation for something like "Mr." --> <!--JG: I think you're right, is Mr. You can transcribe this as M[iste]r -->
+    						M[iste]r Astley of [the] Court. 
     					</marginalia_text>
     					<person name="John Astley"/>
     				</position>
@@ -110,7 +110,8 @@
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
     						Solus mihi sapit Ca[e]sar, [--] Animi corporis, Fortuna regim[ine].  
-    					</marginalia_text> <!--JG: Should you tag Julius Caesar here as well?-->
+    					</marginalia_text> 
+    					<person name="Julius Caesar"/>
     				</position>
     			</language>
     		</marginalia>
@@ -174,7 +175,6 @@
     		
 	    	<!-- Left margin -->
 	    	<mark name="bracket" method="pen" place="left_margin" language="IT" text="Vn cagniaccio ribaldo, &amp; traditore, Che era il dispetto, &amp; fu chiamato AMORE. Non hebbe altro di buon; fu can del Duca,"/>
-		    	<!-- Unsure whether to count the above bracket as intext or left margin. --> <!--JG: I don't think there a straight-foward answer, but I think it's best to consider the bracket to be in the left margin-->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- ho --> <!--JG: Should this be here?-->
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- lo ... cagione -->
     		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- paura -->
@@ -194,14 +194,12 @@
     		<mark name="dot" method="pen" place="intext"/> <!-- restio, rispose -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- la cagione -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="rimedio"/>
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- cagione --> <!--JG: I guess you could put cagione in text attribute-->
+    		<mark name="plus_sign" method="pen" place="intext" language="IT" text="cagione"/>
     		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- conosce -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="paura"/>
     		<mark name="dot" method="pen" place="intext"/> <!-- restio, scorgendo -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- rubato -->
     		<mark name="dot" method="pen" place="intext"/> <!-- pregio, non -->
     		
-    			
-
     </annotation>
 </transcription>
