@@ -37,7 +37,7 @@
     				</position>
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						) Falantadowndidle.	<!-- This seems to be the correct order, though I'm not sure. --> <!--JG: I think this is the correct order. Perhaps do some more research on this and the next marginal note. See: http://books.google.co.uk/books?id=Gt8VAAAAYAAJ&pg=PA397&lpg=PA397&dq=Falanta+down+diddle&source=bl&ots=9sY0GNmTia&sig=KrMaf-DaBD84jHVXbg-T8zqiaws&hl=en&sa=X&ei=VbBcVJmSNcWM7Aax4oCIDg&redir_esc=y#v=onepage&q=Falanta%20down%20diddle&f=false-->
+    						) Falantadowndidle.	<!-- See: http://books.google.co.uk/books?id=Gt8VAAAAYAAJ&pg=PA397&lpg=PA397&dq=Falanta+down+diddle&source=bl&ots=9sY0GNmTia&sig=KrMaf-DaBD84jHVXbg-T8zqiaws&hl=en&sa=X&ei=VbBcVJmSNcWM7Aax4oCIDg&redir_esc=y#v=onepage&q=Falanta%20down%20diddle&f=false-->
     					</marginalia_text>
     				</position>
     			</language>
@@ -46,7 +46,7 @@
     			<language ident="EN">
     				<position place="right_margin" book_orientation="0">
     					<marginalia_text>
-    						Tutt-tutt a figg: quoth A. O.	<!-- No clue who this could be. Any ideas? --> <!--JG: I've no clue either-->
+    						Tutt-tutt a figg: quoth A. O.	<!-- Expert advice needed: Who is A.O.? -->
     					</marginalia_text>
     				</position>
     			</language>
@@ -132,16 +132,26 @@
     				<position place="right_margin" book_orientation="270">
     					<marginalia_text>
     						Quod non valet Simplex, valet compositum.
-    						Vt aqua composita: et clypeus septemplex. <!--JG: Could there be i[nfr]a below septemplex, or is this just my imagination?-->
+    						Vt aqua composita: et clypeus septemplex.
     					</marginalia_text>
     					<emphasis method="chalk" type="straight"/>
+    				</position>
+    			</language>
+    		</marginalia>
+    		
+    		<marginalia hand="Italian">
+    			<language ident="LA">
+    				<position place="right_margin" book_orientation="0">
+    					<marginalia_text>
+    						i[nfr]a
+    					</marginalia_text>
     				</position>
     			</language>
     		</marginalia>
         
 	    	<!-- Underlines -->
 	        
-    		<underline method="pen" type="straight" language="IT" text="&egrave; piccolo"/> <!--JG: Capture the whole word instead of its last letter only-->
+    		<underline method="pen" type="straight" language="IT" text="&egrave; piccolo"/> <!-- Accented letter is 3rd pers. sing. of essere, positioned too close to "egli" -->
     		<underline method="pen" type="straight" language="IT" text="O perche"/>
     		<underline method="pen" type="straight" language="IT" text="il Guadagni"/>
     		<underline method="pen" type="straight" language="IT" text="tutti quelli"/>
@@ -209,7 +219,7 @@
 	    	<!-- Intext -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="piccolo"/>
     		<mark name="comma" method="pen" place="intext"/> <!-- perche disse -->
-    		<mark name="equal_sign" method="pen" place="intext"/> <!-- impouerire --> <!--JG: I'd put this word in the text attribute-->
+    		<mark name="equal_sign" method="pen" place="intext" language="IT" text="impouerire"//> 
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- come arguta -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Pronta"/>
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- esserti sfratato -->
