@@ -28,7 +28,15 @@
     			<language ident="EN">
     				<position place="right_margin" book_orientation="0">
     					<marginalia_text>
-    						Euerie pragmatician castes about for life, and scoure the coast to the purpose. <!--JG: I think that the marginal note starting with 'It importes' is a separate note, hence the horizontal bar demarcating the two comments-->
+    						Euerie pragmatician castes about for life, and scoure the coast to the purpose. 
+    					</marginalia_text>
+    				</position>
+    			</language>
+    		</marginalia>
+    		<marginalia hand="Italian">
+    			<language ident="EN">
+    				<position place="right_margin" book_orientation="0">
+    					<marginalia_text>				
     						) It importes euerie negotiatour, discouerer, intelligencer, practitioner, and euerie
     					</marginalia_text>
     				</position>
@@ -67,7 +75,17 @@
     			</language>
     		</marginalia>
     		
-    		<!--JG: I think you missed a marginal note in the tail: ridicolo-->
+    		
+    		<marginalia hand="Italian">
+    			<language ident="IT">
+    				<position place="tail" book_orientation="0">
+    					<marginalia_text>
+    						ridicolo.
+    					</marginalia_text>
+    				</position>
+    			</language>
+    		</marginalia>
+    		
     		        
 	    	<!-- Underlines -->
 	        
@@ -132,7 +150,7 @@
 	    	
 	    	<!-- Left margin -->
 	    	<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- un gonfio -->
-    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- cate d'imitarlo: Possibly a hash mark instead of straight quotes? --> <!--JG: I'd go for straight quotes-->
+    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- cate d'imitarlo -->
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- dandolo ... que -->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- uederei -->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- egli -->
@@ -142,12 +160,12 @@
     		<mark name="comma" method="pen" place="intext"/> <!-- Pisa disse -->
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- uolto -->
     		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- dietro -->
-    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- dauanti: This and a later mark look like smuged straight quotes. --> <!--JG: Yep, I think so too-->
+    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- dauanti -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- uolto cosa -->
-    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- farei arrossire: This and the previous mark look like smuged straight quotes. -->
+    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- farei arrossire -->
     		<mark name="dot" method="pen" place="intext"/> <!-- arrossire, & -->
-    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- ammutolire --> <!--JG: I'd put ammutolire in the text attribute here-->
-    		<mark name="quotation_mark" method="pen" place="intext"/> <!-- me arrossire --> <!--JG: Idem-->
+    		<mark name="straight_quotation_mark" method="pen" place="intext" language="IT" text="ammutolire"/> 
+    		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="arrossire"/> 
     		<mark name="dot" method="pen" place="intext"/> <!-- arrossire, perche -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- un certo -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- moglie. -->
