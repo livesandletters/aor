@@ -7,13 +7,13 @@
     
 <page filename="2862_043.tif" reader="Harvey" pagination="VII[r]" signature="Biiiir"/>
     <annotation>
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!--JG: You can use the text attribute here, since the marginal note is a copy of printed text-->
             <language ident="IT">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Dottrina di fra Mariano.
                     </marginalia_text>
-                    <person name="Fra Mariano Fetti"/>
+                    <person name="Fra Mariano Fetti"/> <!--JG: Omit the fra here. Also change in spreadsheet if necessary-->
                 </position>
             </language>
             <translation>
@@ -27,7 +27,7 @@
                         III. Giuoco proposto da fra Serafi[no] perche le Don[ne] habbiano in odio 
                         i ratti, et am[ano] le serpi.
                     </marginalia_text>
-                    <person name="Fra Serafino"/>
+                    <person name="Fra Serafino"/> <!--JG: Omit the fra here. Also change in spreadsheet if necessary-->
                 </position>
             </language>
             <translation>
