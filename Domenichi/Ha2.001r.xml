@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
 
-<transcription>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
+    
     <page filename="Ha2.001r.tif" reader="Harvey" pagination="323"/>	<!-- ABO 005right -->
     <annotation>
             
@@ -40,18 +43,18 @@
                         <marginalia_text> Ante omnes auctores, politicus Bodini:  
 						</marginalia_text>
                         <person name="Jean Bodin"/>
-                        <emphasis method="pen" text="politicus Bodini" />
+                        <emphasis method="pen" type="straight" text="politicus Bodini" />
 						</position>
 					<position place="right_margin" book_orientation="0">	
 						<marginalia_text>Jureconsult[i]s Vigelij: pragmaticus speculatoris:</marginalia_text>
 						<person name="Nicolaus Vigel" />
-						<emphasis method="pen" text="Jureconsult[i]s Vigelij: pragmaticus speculatoris" /> 
+						<emphasis method="pen" type="straight" text="Jureconsult[i]s Vigelij: pragmaticus speculatoris" /> 
 					</position>
 					<position place="intext" book_orientation="0">
 					<marginalia_text>strategematicus Gandini: apophthegmaticus Zuingeri. Prudententiss[imi] </marginalia_text>
-					<person name="Alberto Gandino" />
+					<person name="Marcantonio Gandino" />
                     <person name="Theodor Zwinger" />	
-					<emphasis method="pen" text="strategematicus Gandini: apophthegmaticus Zuingeri" />
+					<emphasis method="pen" type="straight" text="strategematicus Gandini: apophthegmaticus Zuingeri" />
 					</position>
                     <position place="right_margin" book_orientation="0">
                         <marginalia_text>auctores, maximique necessarij.</marginalia_text>
