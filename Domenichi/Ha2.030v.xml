@@ -44,8 +44,8 @@
     			<language ident="LA">
     				<position place="tail" book_orientation="0">
     					<marginalia_text>
-    						Fortij perpetua Meditatio. Quicquid
-    						agis
+    						Fortij perpetua Meditatio. Quicquid <!--JG: Could Fortij (Fortius) be a person? See: http://archive.org/stream/gabrielharveys00smituoft/gabrielharveys00smituoft_djvu.txt (search for Fortij)-->
+    						agis <!--JG: Comma--> 
     					</marginalia_text>
     					<emphasis method="chalk" type="straight"/>
     				</position>
@@ -66,7 +66,7 @@
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
     						Multi ben&egrave;: pauci medi&ugrave;s: rarissimi optim&egrave;: optimorum optim&egrave;, solus Eutrapelus.
-    						Cui Vnica verborum, rerum, actionu[m] pra[e]c[a]lentia: et singularis summaru[m] facultatu[m]
+    						Cui Vnica verborum, rerum, actionu[m] pra[e]c[a]lentia: et singularis summaru[m] facultatu[m] <!--JG: I think the 'V' of Vnica is in lower case-->
     						copia. Semper magis, magisq[ue] proficiens.		
     					</marginalia_text>
     					<person name="Eutrapelus"/>
@@ -90,7 +90,7 @@
         
 	    	<!-- Underlines -->
 	        
-    		<underline method="pen" type="straight" language="IT" text="noi altri goffi"/>
+    		<underline method="pen" type="straight" language="IT" text="noi altri goffi"/> <!--JG: non erraro also seems to be underlined-->
     		<underline method="pen" type="straight" language="IT" text="Paolo dell'Ottonaio"/>
     		<underline method="pen" type="straight" language="IT" text="accorto, &amp; pieno di bellissimi"/>
     		<underline method="pen" type="straight" language="IT" text="motti"/>
@@ -122,7 +122,7 @@
 	    	<!-- Symbols: Asterisk|Bisected_circle|Crown|Crescent|JC|HT|LL|Mars|Mercury|Opposite_planets|Square|SS|Sun -->
 	        
 	    	<symbol name="Sun" place="intext"/>
-    		<symbol name="Sun" place="intext"/>
+    		<symbol name="Sun" place="intext"/> <!--JG: I can't find this Sun symbol? There's a SS symbol in the left margin, though-->
 	      		
 	    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|straight_quotation_mark|tilde|triple_dash|vertical_bar|X_sign -->
 	    	
@@ -137,14 +137,14 @@
     		
     		<!-- Left margin -->
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- M. Paolo ... motti -->
-    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- tendosi. This could also be an SS symbol? -->
+    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- tendosi. This could also be an SS symbol? --> <!--JG: I think this is a straight quotation mark-->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- mio difetto -->
     		
     		<!-- Intext -->
     		<mark name="dot" method="pen" place="intext"/> <!-- errano, ma  -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- arguti.. Looks like a poorly formed plus sign. -->
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- arguti.. Looks like a poorly formed plus sign. --> <!--JG: Yep, but it's clearly distinguishable as a + sign--> <!--JG: Dot between motti, quali-->
     		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Chalk mark in text on right side -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- uiui -->
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- uiui --> <!--JG: Include this in text attribute?-->
     		<mark name="equal_sign" method="pen" place="intext"/> <!-- bene espresse -->
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- Questo gala[n]te -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Patientia"/>
