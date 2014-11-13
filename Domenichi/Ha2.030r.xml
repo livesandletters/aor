@@ -21,7 +21,15 @@
         				<position place="right_margin" book_orientation="0">
         					<marginalia_text>
         						The finest, and sweetest gentlema[n] aliue.
-        						) No cunninger <!--JG: Could this be a separate marginal note, considering the horizontal bar below 'alive'?-->
+        					</marginalia_text>
+        				</position>
+        			</language>
+        		</marginalia>
+        		<marginalia hand="Italian">
+        			<language ident="EN">
+        				<position place="right_margin" book_orientation="0">
+        					<marginalia_text>
+        						) No cunninger
         					</marginalia_text>
         					<emphasis method="chalk" type="straight"/>
         				</position>
@@ -39,10 +47,14 @@
         				</position>
         				<position place="right_margin" book_orientation="0">
         					<marginalia_text>
-        						More profound, then the suttlest actour: <!--JG: Why do you start a new marginal note (instead of just putting the text in the previous marginalia_text element)?-->
+        						More profound, then the suttlest actour: 
         						more suttle, =
         					</marginalia_text>
         				</position>
+        			</language>
+        		</marginalia>
+        		<marginalia hand="Italian">
+        			<language ident="EN">
         				<position place="intext" book_orientation="0">
         					<marginalia_text>
         						) = then the profoundest Counsellour.
@@ -101,7 +113,7 @@
     			<language ident="EN">
     				<position place="left_margin" book_orientation="270">
     					<marginalia_text>
-    						Euer a Note aboue E[l]a: &amp; allwaies the Worthiest man in the companie. <!--JG: I also think it's a 'l' in 'Ela'-->
+    						Euer a Note aboue Ela: &amp; allwaies the Worthiest man in the companie. 
     					</marginalia_text>
     					<emphasis method="chalk" type="straight"/>
     				</position>
@@ -125,7 +137,7 @@
     		<underline method="pen" type="straight" language="IT" text="&amp; gettolo nel"/>
     		<underline method="pen" type="straight" language="IT" text="in atto di creanza"/>
     		<underline method="pen" type="straight" language="IT" text="disse; passate"/>
-    		<underline method="pen" type="straight" language="IT" text="ui fusse ancoh gettato appresso il Contadino"/> <!--JG ancho-->
+    		<underline method="pen" type="straight" language="IT" text="ui fusse ancho gettato appresso il Contadino"/>
     		<underline method="pen" type="straight" language="IT" text="tanti uillani"/>
     		<underline method="pen" type="straight" language="IT" text="tu solo ti possa uantare"/>
     		<underline method="pen" type="straight" language="IT" text="d'hauere usato cortesia, o gentilezza"/>
@@ -154,7 +166,6 @@
     		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- tanti uillani -->    		
     			<!-- Equal sign part of annotation -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- eccel -->
-    		<mark name="vertical_bar" method="pen" place="right_margin"/> <!-- & lesse: There seems to be a mark beneath the marginalia "The best" but I'm unsure what it is. Perhaps it would be best to leave it out? --> <!--JG: Yeah, you can leave this out!-->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- came -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- Faen -->
     		<mark name="horizontal_bar" method="pen" place="right_margin"/> <!-- ui prego -->
@@ -167,7 +178,7 @@
     		
 	    	<!-- Intext -->
 	    	<mark name="plus_sign" method="pen" place="intext" language="IT" text="importanza"/>
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- uiuo --> <!--JG: why not include uiuo in text attribute?-->
+    		<mark name="plus_sign" method="pen" place="intext" language="IT" text="uiuo"/>
     		<mark name="equal_sign" method="pen" place="intext"/> <!-- uiuo] -->
     		<mark name="dot" method="pen" place="intext"/> <!-- Contadino, dicendo -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- tu solo -->
