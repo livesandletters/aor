@@ -19,16 +19,18 @@
                 </position>
             </language>
             <translation>
-                IIII. Distraction proposed by the Unique Aretino about the device of the letter 'S',
+                IIII. Game proposed by the Unique Aretino about the device of the letter 'S',
                 which the Duchess was wearing on her forehead.
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="IT" text="non &egrave; alcun di noi qui,"/> <!---JG: I'd include 'che'-->
+        <underline method="pen" type="straight" language="IT" text="non &egrave; alcun di noi qui, che"/>
         <underline method="pen" type="straight" language="IT" text="ui ceda in ogni cosa"/>    
         <underline method="pen" type="straight" language="IT" text="l'ingegno uostro diuino"/>
         
         <mark name="plus_sign" method="pen" place="left_margin" language="IT" text="ui ceda in ogni cosa"/>
-        <mark name="plus_sign" method="pen" place="intext" language="IT" text="l'ingegno uostro diuino"/> <!--JG: I'd be careful with the use of the text attribute here. Often we do not use this attribute if the mark is in between two words. Or do you think we should revise this policy?-->
+        <mark name="plus_sign" method="pen" place="intext" language="IT" text="l'ingegno uostro diuino"/> 
+        <!--JE: Chris, this deviates from the advice in the transcribers' manual, but in this case there seems
+            to be an obvious connection - perhaps because these pages are less heavily annotated. Do you object?-->
     </annotation>
 </transcription>
