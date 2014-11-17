@@ -76,7 +76,7 @@
     				</position>
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						) The sublimiation of Art, <!--JG: bracket { is missing-->
+    						) { The sublimiation of Art, 
     					</marginalia_text>
     				</position>
     				<position place="right_margin" book_orientation="0">
@@ -119,14 +119,15 @@
     			<language ident="LA">
     				<position place="left_margin" book_orientation="270">
     					<marginalia_text>
-    						Vir non est, qui virum aliquem metuit: aut virili animo || <!--JG: Could it be that the || point at the marginal note starting in the right margin of the previous page? See the upper right corner of the previous page. Make a note so that we can check this later!-->
+    						Vir non est, qui virum aliquem metuit: aut virili animo || 
+    							<!-- Marginalia note seems to continue into facing page's right margin, Ha2.032v. Need to check original source. -->
     					</marginalia_text>
     					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
     		</marginalia>
         
-        			<!-- Left margin annotation continues onto right margin of facing page, Ha2.032v, -->
+        		
         
 	    	<!-- Underlines -->
 	        
@@ -158,7 +159,8 @@
     		<underline method="pen" type="straight" language="IT" text="molto Giouiale"/>
     		<underline method="pen" type="straight" language="IT" text="poco di burla di"/>
     		<underline method="pen" type="straight" language="IT" text="di canapo"/>
-    		<underline method="pen" type="straight" language="IT" text="d'anguilla"/> <!--JG: You missed some underlining: Mariano-->
+    		<underline method="pen" type="straight" language="IT" text="d'anguilla"/> 
+    		<underline method="pen" type="straight" language="IT" text="Mariano penato"/>
     		<underline method="pen" type="straight" language="IT" text="masticarla"/>
     		<underline method="pen" type="straight" language="IT" text="inghiottirla"/>
     		<underline method="pen" type="straight" language="IT" text="molto dura"/>
@@ -194,7 +196,6 @@
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- to ... scite -->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- re, ma -->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- opere -->
-    			<!--  Equal sign is part of the annotation which connects it to another annotation on the facing page, Ha2.032v --> <!--JG: See my comment above-->
     		
 	    	<!-- Intext -->
 	    	<mark name="plus_sign" method="pen" place="intext"/> <!-- mai alzato  -->
