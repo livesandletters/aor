@@ -73,7 +73,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						) Tana[e] expectationi satis faciendu[m]  <!--JG: Tanta[e]-->
+    						) Tanta[e] expectationi satis faciendu[m]  <!--JG: Tanta[e]-->
     					</marginalia_text>
     					<emphasis method="chalk" type="straight"/>
     				</position>
@@ -168,6 +168,7 @@
     		<symbol name="SS" place="right_margin"/>
     		<symbol name="JC" place="right_margin"/>
     		<symbol name="SS" place="right_margin"/>
+    		<symbol name="SS" place="left_margin"/>
 	      		
 	    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|straight_quotation_mark|tilde|triple_dash|vertical_bar|X_sign -->
 	    	
@@ -185,7 +186,6 @@
 	    	
 	    	<!-- Left margin -->
 	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- zare ... gli -->
-    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- citato. Also could be an SS symbol? --> <!--JG: Tricky one. I'm slightly inclined to tag this as an SS symbol-->
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- reputo .. nelle -->
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- in ... facete -->
 		    
@@ -194,7 +194,8 @@
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- non e' -->
     		<mark name="dot" method="pen" place="intext"/> <!-- comparire, io -->
     		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Chalk mark in first paragraph -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- della paura --> <!--JG: He also puts a dot on the 'i' of uoi-->
+    		<mark name="dot" method="pen" place="intext"/> <!--uoi -->
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- della paura -->
     		<mark name="dot" method="pen" place="intext"/> <!-- paura, & -->
     		<mark name="dot" method="pen" place="intext"/> <!-- famigliare, s'egli -->
     		<mark name="dot" method="pen" place="intext"/> <!-- nessuno, perche -->
