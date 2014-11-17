@@ -40,10 +40,10 @@
         				</position>
         				<position place="right_margin" book_orientation="0">
         					<marginalia_text>
-        						null&uacute;s Thaumaturgi pra[e]sentior Thesaurus, qu&agrave;m Apol[lonii] Tyanei vita:	<!-- Unsure if the "Thaumaturgi ... Thesaurus" is a text or not. --> <!--JG: I can't find anything, but do more research if necessary-->
-        						cu[m] Stratagemata Gandini, [et] polya[e]. technis 		<!-- I'm unsure about these last words. --> <!--JG: I think you've transcribed them correctly-->
+        						null&uacute;s Thaumaturgi pra[e]sentior Thesaurus, qu&agrave;m Apol[lonii] Tyanei vita:	<!-- Unsure if the "Thaumaturgi ... Thesaurus" is a text or not. -->
+        						cu[m] Stratagemata Gandini, [et] polya[e]. technis 
         					</marginalia_text>
-        					<person name="Marcantonio Gandino"/>		<!-- It looks like I may have mixed up two Gandinos. It should be Marcantonio. I'll go back and change the name and update the spreadsheet. --> <!--JG: OK!-->
+        					<person name="Marcantonio Gandino"/>	
         					<book title="De vita Apollonii Tyanei"/>
         					<book title="Stratagemata"/>
         				</position>
@@ -52,20 +52,20 @@
         						) oeconomicis, et politic[is] Arist[otelis]. 
         					</marginalia_text>
         					<person name="Aristotle"/>
-        					<book title="Economics"/>	<!-- Should I record these two works as something like "Oeconomica" and "Politica"? Or "Economics of Aristotle"? --> <!--JG: Economis and Politics is fine, but put the other titles in the alternative spelling columns in the spreadsheet-->
+        					<book title="Economics"/>
         					<book title="Politics"/>
         				</position>
         				<position place="right_margin" book_orientation="0">
         					<marginalia_text>
-        							<!-- This part of the margin is very messy. Looks like there's an SS symbol and maybe two "supra" beneath the marginalia. -->   <!--JG: I can see one supra and a SS symbol, and it seems that next to the supra something has been written as well, but it's impossible to say what-->     							
-        						Porta[e] phytognomonicis: et [Albertj] physiogno[mia] <!-- I'm unclear of the second name, possibly Albertus Magnus again? I can't tell to whom to attribute the book, since Porta also wrote a treatise De humana physiognomia.--> <!--JG: I'd attribute the physiognomia to Albertus Magnus. -->
-        						Cardani, et Wecc. Secretis.	<!--Unsure who Wecc. would be. --> <!--JG: Judging from your comments below you've found out who this is-->
+        						Porta[e] phytognomonicis: et [Albertj] physiogno[mia]
+        						Cardani, et Wecc. Secretis.
         					</marginalia_text>
         					<person name="Giovanni Battista Porta"/>
         					<person name="Girolamo Cardano"/>
         					<person name="Johannes Jacob Wecker"/>
         					<book title="Phytognomonica"/>        					
-        					<book title="De Secretis"/>	<!-- It looks like both Cardano and Wecker wrote something called De secretis. Ill try to figure out a better way to distinguish. --> <!--JG: Great, let me know if there are any problems-->
+        					<book title="De secretis libri XVII"/> <!-- Wecker's lengthy treatise. -->
+        					<book title="De secretis"/>	<!-- Cardano's opusculum. -->
         				</position>
         			</language>
         		</marginalia>
@@ -113,27 +113,19 @@
     			<language ident="LA">
     				<position place="tail" book_orientation="0">
     					<marginalia_text>
-    						Adde rara opuscula, Vrsonis de prim: qual: arca:		<!-- Unsure of this person and this work. --> <!--JG: Could this be the Libellus Ursonis medici, De primarum qualitatum arcanis & effectibus? Do more research if needed, but this is what I could come up with-->
+    						Adde rara opuscula, Vrsonis de prim: qual: arca:	
     						Parcelsi onomasticon: Hesteri Chymica[m] Epist.	<!-- If this is a letter about chemistry, I'm unsure how to reference it. I couldn't find it while searching. --> <!--JG: Can't find anything either. Perhaps write an email to google group-->
     					</marginalia_text>
+    					<person name="Urso of Salerno"
     					<person name="Paracelsus"/>
     					<person name="John Hester"/>
+    					<book title="De primarum qualitatum arcanis et effectibus"/>
     					<book title="Onomasticon"/>
     				</position>
     			</language>
     		</marginalia>
     		
     		
-    		
-    		<marginalia hand="Italian">
-    			<language ident="LA">
-    				<position place="right_margin" book_orientation="0">
-    					<marginalia_text>
-    						s[upr]a
-    					</marginalia_text>
-    				</position>
-    			</language>
-    		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="right_margin" book_orientation="0">
@@ -181,7 +173,7 @@
     		<underline method="pen" type="straight" language="IT" text="fango"/>
     		<underline method="pen" type="straight" language="IT" text="giuochi Carnascialeschi"/>
     		<underline method="pen" type="straight" language="IT" text="maggior licenza"/>
-    		<underline method="pen" type="straight" language="IT" text="dubbio, o problema"/> <!--JG: I'd include questo-->
+    		<underline method="pen" type="straight" language="IT" text="questo dubbio, o problema"/> 
     		<underline method="pen" type="straight" language="IT" text="quale &egrave; quella cosa"/>
     		<underline method="pen" type="straight" language="IT" text="piu contraria al forno"/>
     		<underline method="pen" type="straight" language="IT" text="diuersamente da diuersi"/>
@@ -224,7 +216,7 @@
 	    	
 	    	<!-- Left margin -->
 	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- te.. so  -->
-    		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- molto maggior. Seems to be a quote above a supra, though slightly smudged. --> <!--JG: Yeah, I think you're right-->
+    		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- molto maggior -->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- forno? -->
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- ne ... rammorbidisce -->
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- Alfonso ... pungeua -->
