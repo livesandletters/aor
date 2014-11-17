@@ -20,7 +20,7 @@
             			</position>
         			</language>
         		</marginalia>
-    			<!-- There seems to be a symbol in the top right corner, beneath the previous marginalia, but I'm not sure what it is. -->
+    			<!-- There seems to be a symbol in the top right corner, beneath the previous marginalia, but I'm not sure what it is. --> <!--JG: I think it's a big SS symbol!-->
     		
     		<marginalia hand="Italian">
     			<language ident="IT">
@@ -111,7 +111,7 @@
     		<mark name="dash" method="pen" place="right_margin"/> <!-- dappres -->
     		<mark name="bracket" method="pen" place="right_margin"/> <!-- tu ... farlo -->
 	    	
-	    	<!-- Left margin -->
+	    	<!-- Left margin --> 
 	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- le medesime -->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- mandata -->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- to, non e' -->
@@ -119,9 +119,9 @@
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- che tratto -->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- che fai -->
     		
-	    	<!-- Intext -->
+    		<!-- Intext --> <!--JG: Plus sign above nuoua in the first sentence-->
 	    	<mark name="dot" method="pen" place="intext"/> <!-- pronti, & -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- medesime --> 
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- medesime --> <!--JG: I'd put the word in the text attribute-->
     		<mark name="dot" method="pen" place="intext"/> <!-- da partito, -->
     		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Chalk mark in first paragraph -->
     		<mark name="comma" method="pen" place="intext"/> <!-- chio, & la donna -->
@@ -131,7 +131,7 @@
     		<mark name="plus_sign" method="pen" place="intext"/> <!--  tratto sei -->
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- tauoliere -->
     		<mark name="dot" method="pen" place="intext"/> <!--  moglie, & -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- patiente -->
+    		<mark name="plus_sign" method="pen" place="intext"/> <!-- patiente --> <!--JG: I'd put the word in the text attribute-->
     		
     </annotation>
 </transcription>

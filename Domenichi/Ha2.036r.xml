@@ -43,7 +43,7 @@
     			<language ident="EN">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						) { no felicitie, to the repetition, 	<!-- Does this work for capturing both parenthesis and bracket? -->
+    						) { no felicitie, to the repetition, 	<!-- Does this work for capturing both parenthesis and bracket? --> <!--JG: Yeah, it's fine. Don't really see another way of doing it!-->
     					</marginalia_text>
     					<emphasis method="chalk" type="straight"/>
     				</position>
@@ -146,18 +146,18 @@
     		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- accenno' con -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- riden -->
     		<mark name="straight_quotation_mark" method="pen" place="right_margin"/> <!-- percio -->
-    		<mark name="dash" method="pen" place="right_margin"/> <!-- Fra[n] -->
+    		<mark name="dash" method="pen" place="right_margin"/> <!-- Fra[n] --> <!--JG: Also dash after [c]acommoda or it this part of the 'l' of nihil?-->
     		
 	    	<!-- Left margin -->
 	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- do, che  -->
-    		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- tro, dicendo -->
+    		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- tro, dicendo --><!--JG: I think there's another plus sign, next to ma e il corpo-->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- le fu uicino -->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- do; s'ella -->
     		
 	    	<!-- Intext -->
 	    	<mark name="dot" method="pen" place="intext"/> <!-- farlo, ma -->
     		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Chalk mark on left side of first paragraph -->
-    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- tutto adirato -->
+    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- tutto adirato --> <!--JG: Dot on the 'i' of 'io' (before metterei anchora)-->
     		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Chalk mark at end of first paragraph -->
     		<mark name="dot" method="pen" place="intext"/> <!-- arrabbiata, la -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- a Giobbe -->
@@ -168,7 +168,7 @@
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="poco"/>
     		<mark name="dot" method="pen" place="intext"/> <!-- menta, & -->
     		<mark name="dot" method="pen" place="intext"/> <!-- grande, & -->
-    		<mark name="vertical_bar" method="pen" place="intext"/> <!-- cacommoda. How should I record his strikethrough of the typographical error? -->
+    		<mark name="vertical_bar" method="pen" place="intext"/> <!-- cacommoda. How should I record his strikethrough of the typographical error? --><!--JG: I haven't decided yet, will come back to you about this-->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Arguto"/>
     		
 

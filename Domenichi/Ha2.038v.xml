@@ -42,7 +42,7 @@
         				</position>
         				<position place="left_margin" book_orientation="0">
         					<marginalia_text>
-        						aut inualidum vllo modo: quotidi&egrave; firma, extensaq[ue] singula. (  
+        						aut inualidum vllo modo: quotidi&egrave; firma, extensaq[ue] singula. (  <!--JG: Also put a '(' butween vllo modo-->
         					</marginalia_text>
         				</position>
         				<position place="intext" book_orientation="0">
@@ -107,7 +107,7 @@
 	        
     		<underline method="pen" type="straight" language="IT" text="garbatamente uestita"/>
     		<underline method="pen" type="straight" language="IT" text="colei cosi uestita non"/>
-    		<underline method="pen" type="straight" language="IT" text="Nencia da Berberino"/>
+    		<underline method="pen" type="straight" language="IT" text="Nencia da Berberino"/> <!--JG: Barberino-->
     		<underline method="pen" type="straight" language="IT" text="uolto graue, &amp;"/>
     		<underline method="pen" type="straight" language="IT" text="hauete il torto"/>
     		<underline method="pen" type="straight" language="IT" text="ella &egrave; una persona da"/>
@@ -154,12 +154,12 @@
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- uolete -->
     		<mark name="equal_sign" method="pen" place="left_margin"/> <!-- disse molte -->
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- quella ... mio -->
-    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- quella hora --> 
+    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- quella hora --> <!--JG: I think it's a 'normal' quotation mark-->
 		    
 	    	<!-- Intext -->
 	    	<mark name="dot" method="pen" place="intext"/> <!-- uestita, & -->
-    		<mark name="dot" method="pen" place="intext"/> <!-- bene, -->
-    		<mark name="quotation_mark" method="pen" place="intext"/> <!-- conosco -->
+    		<mark name="dot" method="pen" place="intext"/> <!-- bene, --> <!--JG: Plus sign above uolto graue-->
+    		<mark name="quotation_mark" method="pen" place="intext"/> <!-- conosco --> <!--JG: I'd put this word in the text attribute-->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="accordare"/>
     		<mark name="dot" method="pen" place="intext"/> <!-- cercaua, mentre -->
     		<mark name="dot" method="pen" place="intext"/> <!-- daua, -->
