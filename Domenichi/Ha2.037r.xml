@@ -136,7 +136,7 @@
     			<language ident="EN">
     				<position place="right_margin" book_orientation="270">
     					<marginalia_text>
-    						Of all Writers, Homer, &amp; Liuie excell for liuelie purtrature of <!--JG: You forgot some words here-->
+    						Of all Writers, Homer, &amp; Liuie excell for liuelie purtrature of persons, places,
     						things, &amp; acts.
     					</marginalia_text>
     					<person name="Homer"/>
@@ -177,7 +177,6 @@
     		<underline method="pen" type="straight" language="IT" text="suo parere sopra una scioccheria, che"/>
     		<underline method="pen" type="straight" language="IT" text="uoleua dir nulla"/>
     		<underline method="pen" type="straight" language="IT" text="openion mia"/>
-    		<underline method="pen" type="straight" language="IT" text="co[n]sultare"/> <!-- Could this be another mark? --> <!--JG: I think the 'shape' of this underlining is caused by the marginal notes standing underneath this word, rather than Harvey crossing out something (in which case the dash after co[n] wouldn't make much sense_-->
     		
 	    	<!-- Symbols: Asterisk|Bisected_circle|Crown|Crescent|JC|HT|LL|Mars|Mercury|Opposite_planets|Square|SS|Sun -->
 	        
@@ -197,7 +196,8 @@
 	    	
 	    	<!-- Left margin -->
 	    	<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- fare il  -->
-    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- noia a --> <!--JG: Could there also be a straight quotation mark next to 'deh'?-->
+    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- noia a --> 
+    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- deh di -->
     		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- la prima uista -->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- do, che e' -->
 		    
