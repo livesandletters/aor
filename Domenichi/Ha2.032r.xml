@@ -17,7 +17,7 @@
                     				<marginalia_text>
                     					Pueri Laceda[e]mone: viri nusq[uam].
                       			</marginalia_text>
-            				<location name="Lacedaemon"/>	<!-- I figured it would be easier to mark the place and not "the Lacedaemonins." --> <!--JG: Yeah, makes sense-->
+            				<location name="Lacedaemon"/>
             				<emphasis method="chalk" type="straight"/>
             			</position>
         			</language>
@@ -48,7 +48,6 @@
     						)
     					</marginalia_text>
     					<person name="Alexander the Great"/>
-    					<person name="Diogenes of Sinope"/>	<!-- I assume this marginalia is about the parable of Diogenes and Alexander, and not the historian --> <!--JG: I agree. We should, though, only tag people once in one marginal note, so you can remove this tag-->
     					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
@@ -82,7 +81,7 @@
     				</position>
     				<position place="right_margin" book_orientation="0">
     					<marginalia_text>
-    						in disputando Elogiu[m].	<!-- I don't believe this is the title of a specific book. I'm not entirely sure what it is though. --> <!--JG: I don't recall a title of a book either, but do some more research if necessary. Also: the word 'erat' is missing-->
+    						erat in disputando Elogiu[m].	<!-- I don't believe this is the title of a specific book. I'm not entirely sure what it is though. --> 
     						Qui nec Alberto cedebat, mirabili doctori;
     					</marginalia_text>
     					<person name="Albertus Magnus"/>
@@ -113,7 +112,7 @@
     			<language ident="LA">
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
-    						<!-- Given that this begins with a miniscule letter, I image that the marginalia begins in the right margin of the facing page, Ha2.031v. --> <!--JG: Could very well be the case. Leave this note in this transcription so that we don't forget this-->
+    						<!-- Given that this begins with a miniscule letter, I image that the marginalia begins in the right margin of the facing page, Ha2.031v. -->
     						nulla propria 
     					</marginalia_text>
     				</position>
@@ -128,7 +127,7 @@
     			<language ident="LA">
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
-    						sine necessarijs bonis animi, corporis, fort. <!-- I'm unsure about the abbreviation here. Fort[un]a[e] perhaps? --> <!--JG: Yeah, could very well be! I do read an 'a' or 'ae' above 'fort'-->
+    						sine necessarijs bonis animi, corporis, fort[ae]. <!-- I'm unsure about the abbreviation here. Need to check original source. -->
     					</marginalia_text>
     				</position>
     			</language>
@@ -193,7 +192,7 @@
     		<mark name="dot" method="pen" place="intext"/> <!-- above cagione -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- tante gentildonne -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="improuisa"/>
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- nuoui --> <!--JG: I'd include this in the text attribute-->
+    		<mark name="plus_sign" method="pen" place="intext" language="IT" text="nuoui"/>
     		
     </annotation>
 </transcription>
