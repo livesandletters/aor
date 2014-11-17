@@ -58,12 +58,8 @@
     					</marginalia_text>
     					<person name="Diogenes of Sinope"/>
     				</position>
-    			</language>
-    		</marginalia>
-    		<marginalia hand="Italian">
-    			<language ident="LA">
     				<position place="left_margin" book_orientation="270">
-    					<marginalia_text> <!--JG: This marginal note is linked by + to previous one, hence should be in the same marginalia element!-->
+    					<marginalia_text> 
     						+ spernebat Aristotelem philosophu[m]: Platonem legislatore[m]: Demosthenem Oratore[m]: Demade[m]
     						pragmaticu[m]: Philippu[m] Rege[m]: ipsu[m] orbis Victorem Alexandru[m]. Sibi ipse Soli addictus,
     						neminem animo venerabatur Diogenes pra[e]ter Diogenem. Vnicus sua a[e]stimatione vir.
@@ -74,8 +70,6 @@
     					<person name="Demades"/>
     					<person name="Philip II of Macedon"/>
     					<person name="Alexander the Great"/>
-    					<person name="Diogenes of Sinope"/>
-    					
     				</position>
     			</language>
     		</marginalia>
@@ -110,10 +104,7 @@
 	    	<!-- Symbols: Asterisk|Bisected_circle|Crown|Crescent|JC|HT|LL|Mars|Mercury|Opposite_planets|Square|SS|Sun -->
 	        		
 	    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|straight_quotation_mark|tilde|triple_dash|vertical_bar|X_sign -->
-	    	
-    				
-    				<!-- The plus sign in the head margin looks to be used to connect the marginalia in the gutter with the one in the left margin. --> <!--JG: Absolutely!-->
-	    			
+	    		
 	    	<!-- Right margin -->
 	    	<mark name="dash" method="pen" place="right_margin"/> <!-- su -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- co --> 
@@ -128,7 +119,7 @@
 	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- con un'altra -->
     		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- ualcare -->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- na, & non -->
-    		<!--JG: Is there a plus sign next to 'to, senza punto', in the word 'platonem' of the marginal note in the left margin?-->
+    		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- o, senza punto -->
     		
 	    	<!-- Intext -->
 	    	<mark name="plus_sign" method="pen" place="intext"/> <!-- del discre  -->
@@ -137,7 +128,7 @@
     		<mark name="dot" method="pen" place="intext"/> <!-- maschio, et -->
     		<mark name="comma" method="pen" place="intext"/> <!-- caualla, come -->
     		<mark name="comma" method="pen" place="intext"/> <!-- era con -->
-    		<mark name="bracket" method="pen" place="intext"/> <!-- Il medesimo. Not sure the best way to capture large parenthesis at beginning of last paragraph. --> <!--JG: It's fine like this!-->
+    		<mark name="bracket" method="pen" place="intext"/> <!-- Il medesimo. -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- marauiglia -->
     		<mark name="dot" method="pen" place="intext"/> <!-- marauiglia, & -->
     		
