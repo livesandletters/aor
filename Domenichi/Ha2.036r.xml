@@ -43,7 +43,7 @@
     			<language ident="EN">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						) { no felicitie, to the repetition, 	<!-- Does this work for capturing both parenthesis and bracket? --> <!--JG: Yeah, it's fine. Don't really see another way of doing it!-->
+    						) { no felicitie, to the repetition, 
     					</marginalia_text>
     					<emphasis method="chalk" type="straight"/>
     				</position>
@@ -146,18 +146,21 @@
     		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- accenno' con -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- riden -->
     		<mark name="straight_quotation_mark" method="pen" place="right_margin"/> <!-- percio -->
-    		<mark name="dash" method="pen" place="right_margin"/> <!-- Fra[n] --> <!--JG: Also dash after [c]acommoda or it this part of the 'l' of nihil?-->
+    		<mark name="dash" method="pen" place="right_margin"/> <!-- Fra[n] -->
+    		<mark name="dash" method="pen" place="right_margin"/> <!-- cacommoda -->
     		
 	    	<!-- Left margin -->
 	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- do, che  -->
-    		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- tro, dicendo --><!--JG: I think there's another plus sign, next to ma e il corpo-->
+    		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- tro, dicendo -->
+    		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- ma e il corpo -->
     		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- le fu uicino -->
     		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- do; s'ella -->
     		
 	    	<!-- Intext -->
 	    	<mark name="dot" method="pen" place="intext"/> <!-- farlo, ma -->
     		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Chalk mark on left side of first paragraph -->
-    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- tutto adirato --> <!--JG: Dot on the 'i' of 'io' (before metterei anchora)-->
+    		<mark name="dot" method="pen" place="intext"/> <!-- io -->
+    		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- tutto adirato --> 
     		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Chalk mark at end of first paragraph -->
     		<mark name="dot" method="pen" place="intext"/> <!-- arrabbiata, la -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- a Giobbe -->
