@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
 <page filename="2862_117.tif" reader="Harvey" pagination="XLIIIIr" signature="G[ir]"/>
 <annotation>
@@ -25,18 +25,10 @@
         <!-- JE: Is 'performance' the best translation here? It doesn't seem to fit the context but I can't
         find an alternative. --> <!--JG: Chris, what do you think?-->
     </marginalia>
-    <marginalia hand="Italian"> <!--JG: Put the original word in the printed text, the one changed  by Harvey, in the anchor text attribute-->
-        <language ident="IT">
-            <position place="intext" book_orientation="0">
-                <marginalia_text>
-                    ^ n
-                </marginalia_text>
-            </position>
-        </language>
-        <!-- JE: third line up, 'Comici' changed to 'Cominci' -->
-    </marginalia>
-    
+     
     <mark name="tilde" method="chalk" place="intext" language="IT" text="aueggano"/>
+    
+    <errata copytext="Comici" amendedtext="Cominici"/> <!--JG: James, behold the new errata element! This is how we're going to capture the changes made by Harvey in the printed text-->
     
 </annotation>
 </transcription>

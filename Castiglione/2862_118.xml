@@ -3,19 +3,12 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
 <page filename="2862_118.tif" reader="Harvey" pagination="XLIIII[v]" signature="[Giv]"/>
     <annotation>
-        <marginalia hand="Italian"> <!--JG: Put the original word in the printed text, the one changed  by Harvey, in the anchor text attribute-->
-            <language ident="IT">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>
-                        u
-                    </marginalia_text>
-                    <!-- JE: fourth line down, 'cori', corrected to 'curi' -->
-                </position>
-            </language>
-        </marginalia>
+        
+        <errata copytext="cori" amendedtext="curi"/> <!--JG: Again, the errata element comes to the rescue! There aren't any more instances of such reader's interventions in this book, right?-->
+        
     </annotation>
 </transcription>
