@@ -53,7 +53,7 @@
     			<language ident="LA">
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
-    						{ Saluberrima totius corpois, singularumq[ue] partium integritas seri&ograve; curanda: cum <!--JG: corporis instead of corpois-->
+    						{ Saluberrima totius corporis, singularumq[ue] partium integritas seri&ograve; curanda: cum 
     						internis, externisq[ue] omnibus incorruptis, et exquisit&egrave; mundis: in primis dia[e]ta,
     						exercitatio, euacuatio, vestitus, stragula, aer: maximeq[ue] animi affectus.
     					</marginalia_text>
@@ -112,7 +112,7 @@
     		<mark name="bracket" method="pen" place="left_margin"/> <!-- Haueua -->
 		    
 	    	<!-- Intext -->
-	    	<mark name="plus_sign" method="pen" place="intext"/> <!-- capriccio --> <!--JG: I'd put capriccio in text attribute-->
+	    	<mark name="plus_sign" method="pen" place="intext" language="IT" text="capriccio"/> 
     		<mark name="dot" method="pen" place="intext"/> <!-- mantello, & -->
     		<mark name="comma" method="pen" place="intext"/> <!-- patientia, si mise -->
     		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Chalk mark in secod paragraph -->
