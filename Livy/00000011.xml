@@ -8,7 +8,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Nota[e] solae notabiles, relicta[e]: reliqua[e], resecta[e].</marginalia_text>
+                    <marginalia_text>Nota[e] sola[e] notabiles, relicta[e]: reliqua[e], resecta[e].</marginalia_text>
                 </position>
             </language>
             <translation> Only the noteworthy notes are left, the others have been cut.</translation>
@@ -18,8 +18,8 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Liuius, Romana[e] historia[e] facil&egrave; princeps. Singuli
                     libri, in suo genere pra[e]stantissimi. Pulcherrimorum mnemosynoru[m] mira
-                    varietas. Nemo historicorum aut magis serio obseruat, aut tam graphi&egrave; pingit. 
-                    Hunc nesciunt, qui vel Gra[e]cos historicos nimium admirantur, vel alios Romanos immoderat&egrave;
+                    varietas. Nemo historicorum aut magis serio <!-- JE: grave accent --> obseruat, aut tam graphic&egrave; pingit. 
+                    Hunc nesciunt, qui uel Gra[e]cos historicos nimium <!-- JE: grave accent --> admirantur, vel alios Romanos immoderat&egrave;
                     efferunt. Mihi cordi est, omne elocutionis, prudentia[e]q[ue] punctum in Liuio peruestigare.
                     De stylo Liuiano, pra[e]sertim in concionibus, meam inf&agrave; sententiam attexui.</marginalia_text>
                     <person name="Livy"/>
@@ -35,14 +35,14 @@
         
         <underline method="pen" type="straight" language="LA" text="sol&ugrave;m Liuium emandauimus"/>
         <underline method="pen" type="straight" language="LA" text="quodammodo illustrauimus"/>
-        <underline method="pen" type="straight" language="LA" text="sed mensuraru[m]"/>
+        <underline method="pen" type="straight" language="LA" text="sed mensuraru[m] omnium ueterum &amp; po[n]derum ratione"/>
         <underline method="pen" type="straight" language="LA" text="req[ue]; numaria"/>
-        <underline method="pen" type="straight" language="LA" text="ad uyeterm historia[m] intelligendam"/>
-        <underline method="pen" type="straight" language="LA" text="vitamq[ue]; co[m]munem gubernandam"/>
+        <underline method="pen" type="straight" language="LA" text="ueterem historia[m] intelligendam"/>
+        <underline method="pen" type="straight" language="LA" text="uitamq[ue]; co[m]munem gubernandam"/>
         <underline method="pen" type="straight" language="LA" text="uectigaliu[m]"/>
         <underline method="pen" type="straight" language="LA" text="pensionum"/>
         <underline method="pen" type="straight" language="LA" text="fructuum summas intelligent"/>
-        <underline method="pen" type="straight" language="LA" text="precia estimabunt"/>
+        <underline method="pen" type="straight" language="LA" text="precia aestimabunt"/>
         <underline method="pen" type="straight" language="LA" text="ad nostri temporis"/>
         <underline method="pen" type="straight" language="LA" text="ponderu[m] mensurarumq[ue]; ratione instructi"/>
         <underline method="pen" type="straight" language="LA" text="mensuris"/>
@@ -74,7 +74,7 @@
         <underline method="pen" type="straight" language="LA" text="ut uno ordine, unaq[ue] serie, suis aptis &amp;"/>
         <underline method="pen" type="straight" language="LA" text="partim leues"/>
         <underline method="pen" type="straight" language="LA" text="falsae"/>
-        <underline method="pen" type="straight" language="LA" text="non necessarie"/>
+        <underline method="pen" type="straight" language="LA" text="non necessari[a]e"/>
         <underline method="pen" type="straight" language="LA" text="ijs mod&ograve; relictis"/>
         <underline method="pen" type="straight" language="LA" text="insignem aliquam utilitatem continerent"/>
         <underline method="pen" type="straight" language="LA" text="de Liuio ipso"/>
@@ -84,6 +84,7 @@
         <symbol name="SS" place="right_margin" />
         <symbol name="JC" place="right_margin"/>
         <symbol name="SS" place="intext"/> <!-- sem- -->
+        <!-- JE: I'd describe this as right margin. -->
         
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
