@@ -3,7 +3,7 @@
 <transcription> 
     <page filename="00000007.tif" signature="title page" reader="Harvey"/>
     <annotation>
-        <marginalia hand="Italian" date="1568"> <!-- Unsure about hand --> <!-- JE: looks italic to me! -->
+        <marginalia hand="Italian" date="1568"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Gabriel Haruejus. Mense Julio. Anno. 1568.</marginalia_text>
@@ -20,15 +20,14 @@
                 </position>
             </language>
         </marginalia>
-        <marginalia hand="English_secretary"> <!-- See in Stern, could also be early Italic hand-->
-            <!-- JE: this looks more italic than secretary to me -->
+        <marginalia hand="Italian"> 
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>Laurentij Valla[e] aduersus Liuium argutissima Disputatio.
                     post Glareani Annotatione[m].</marginalia_text>
                     <person name="Lorenzo Valla"/>
                     <person name="Livy"/>
-                    <person name="Heinrich Glarean"/> <!-- Check, not entirely sure about this --> <!-- JE: I think that's right. -->
+                    <person name="Heinrich Glarean"/> 
                 </position>
             </language>
             <translation>The most eloquent argument of Lorenzo Valla against Livy. After the commentary of Glarean </translation>
@@ -50,8 +49,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>Ex dono D[octo]ris Henrici Harveij. A.1568.</marginalia_text><!-- The scribbling beneath this marginal note is not captured-->
-                    <person name="Henricus Harvey"/>
-                    <!-- JE: I think this is Henry Harvey, Master of Trinity Hall at about the right time-->
+                    <person name="Henry Harvey"/>
                     <emphasis method="pen" text="A.1568"/>
                 </position>
             </language>
@@ -72,7 +70,7 @@
                     <marginalia_text>Maturo consilio, et strenua actione.</marginalia_text>
                 </position>
             </language>
-            <translation>By a mature decision and vigorous action </translation>
+            <translation>By a mature decision and vigorous action. </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="LA">
@@ -99,9 +97,8 @@
         <underline method="pen" type="straight" language="LA" text="uerborum"/>
         <underline method="pen" type="straight" language="LA" text="autore memorabilium locuplissimus"/>
     
-        <symbol name="SS" place="intext" />
+        <symbol name="SS" place="right_margin" />
         <symbol name="SS" place="right_margin"/>
-        <!-- JE: I'd say these are both right margin -->
     
         <mark name="X_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
