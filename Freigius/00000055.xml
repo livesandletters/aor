@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-<page filename="00000055.tif" reader="Harvey" signature="a2r"/>
+<page filename="00000055.tif" reader="Harvey" signature="α2r"/>
     <annotation>
         <marginalia hand="Italian">
             <language ident="LA">
@@ -20,20 +20,19 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="sacra[e] militia[e] D. IOANNIS"/>
+        <underline method="pen" type="straight" language="LA" text="sacrae militiae D. IOANNIS"/>
         <underline method="pen" type="straight" language="LA" text="Germaniam Magistro"/>
         <underline method="pen" type="straight" language="LA" text="in us commentarios fieri prohibuit"/>
         <underline method="pen" type="straight" language="LA" text="paratitle"/>
         <underline method="pen" type="straight" language="LA" text="librorum cumulum"/>
         <underline method="pen" type="straight" language="LA" text="legem"/>
         
-        <!-- JE: it's a bit hard to tell what's coming through from the reverse... -->
-        
         <symbol name="SS" place="right_margin"/>
         
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
-        
+        <mark name="plus_sign" method="pen" place="right_margin"/> <!-- Magi- -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- REVEREN -->
+        <mark name="plus_sign" method="pen" place="right_margin"/> <!-- ex= -->
+        <mark name="plus_sign" method="pen" place="intext"/> <!-- militiae D.-->
+
     </annotation>
 </transcription>
