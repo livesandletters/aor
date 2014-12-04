@@ -1,82 +1,89 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+ xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
 
 <page filename="00000083.tif" reader="Harvey" signature="[β8r]"/>
-    <annotation>
+    <annotation>       
         
-        <marginalia hand="Italian" topic="Law">
+        <marginalia hand="Italian">
             <language ident="LA">
-                <position place="fullpage" book_orientation="0">
-                    Emphasis: Ecc&e omnes prudentissima[e], et acutissima[e]
-                    Sententia[e] Pragmatica[e], omniu[m] excellentissimorum Jurisconsultorum
-                    Emphasis: pra[e]gnatisssimi Fontes Justitia[e] forensis
-                    Emphasis: queri, de Veteru[m] Jurisconsultoru[m] Romanorum iactura
-                    Emphasis: h&ic existant omnes, aut quasi omnes pra[e]gnantissima[e] Sententia[e]
-                    Emphasis: non aut ipsi Jurisprudntia[e]
-                    Emphasis: nouis Legu[m] professoribus
-                    Emphasis: eaq[ue] certe, et solid&e perstricta
-                    forenses
+                <position place="full_page" book_orientation="0">
+                    
                     <marginalia_text>
                         In expeditissimis, et efficacissimis paragraphis Pandectarum, totius Juris Romani
-                        selectiss[im]is Gemmis: { Ecc&e omnes prudentissima[e], et acutissima[e]
-                        Sententia[e] Pragmatica[e], omniu[m] excellentissimorum Jurisconsultorum: cert&e summa
+                        selectiss[im]is { Gemmis: Ecc&egrave; omnes prudentissima[e], et acutissima[e]
+                        Sententia[e] Pragmatica[e], omniu[m] excellentissimorum Jurisconsultorum: cert&egrave; summa
                         a[e]stimatione dignissima[e]: et pra[e]gnatisssimi Fontes Justitia[e] forensis: 
                         quicquid nugentur Ciuilium Actionum imperiti Grammatici, et Philologi.
-                        Desinant igitur Noui homines, contra fo[e]licissimu[m] Justinianu[m], cert&e 
+                        Desinant igitur Noui homines, contra fo[e]licissimu[m] Justinianu[m], et cert&egrave; 
                         prudentissimu[m] Tribonianum queri, de Veteru[m] Jurisconsultoru[m] Romanorum 
-                        iactura: quorum h&ic existant omnes, aut quasi omnes pra[e]gnantissima[e] Sententia[e]
+                        iactura: quorum h&icirc;c existant omnes, aut quasi omnes pra[e]gnantissima[e] Sententia[e]
                         forenses.
-                        Nam sicui facta est Iniuria, ills est solis inflicta Vetribus Iurisconsultis, qui
-                        immortalem gloriam sperabant &e suis commentarijs: non aut ipsi Jurisprudntia[e], qua[e]
-                        in pressiorem, certioremq[ue] redacta est Artis formulam: aut suid, nostrisue posteris,
-                        nouis Legu[m] professoribus; qui habent paucis plurima; eaq[ue] certe, et solid&e
-                        perstricta, qua[e] pri&us videbantur nimiu[m] vaga, et infinita.
+                        Nam sicui facta est Iniuria, illis est solis inflicta Veteribus Iurisconsultis, qui
+                        immortalem gloriam sperabant &egrave; suis commentarijs: non aut ipsi Jurisprudentia[e], qua[e]
+                        in pressiorem, certioremq[ue] redacta est Artis formulam: aut suis, nostris'ue posteris,
+                        nouis Legu[m] professoribus; qui habent paucis plurima; eaq[ue] cert&egrave;, et solid&egrave;
+                        perstricta, qua[e] pri&ugrave;s videbantur nimiu[m] vaga, et infinita.
                         Sint literati homines in sua classe, qui Ciuilem Triboniani Industriam satis inciuili
-                        temeritate accusant: sed su[n]t in aliena Rep[ublica] nimi&um curiosi, et vltra
+                        temeritate accusant: sed su[n]t in aliena Rep[ublica] nimi&ugrave;m curiosi, et vltra
                         crepidam no[n] sapiu[n]t nimis.
-                        Suidas, vt alijs quibusdam, sic Justiniano, et Triboniano, apert&e iniquuus: Valla, 
+                        Suidas, vt alijs quibusdam, sic Justiniano, et Triboniano, apert&egrave; iniquuus: Valla, 
                         merus Gram[m]aticus, et logoda[e]dalus, in alienas philosophia[e], Jurisq[ue], messes
-                        temer&e irrumpens: Viues, in multis nimi&um similis Valla[e]: Antonius Nebrissensis, 
-                        ieiunus in Jure Lexicographus; nec Legu[m] peritior, qu&a[m] Accursius
+                        temer&egrave; irrumpens: Viues, in multis nimi&ugrave;m similis Valla[e]: Antonius Nebrissensis, 
+                        ieiunus in Jure Lexicographus; nec Legu[m] peritior, qu&agrave;[m] Accursius
                     </marginalia_text>
-                    <Person Justinian
-                    <Person Tribonius
-                    <Person Valla
-                    <Person Vives
-                    <Book Digest
-                    <Book Suda
+                    
+                    <person name="Justinian"/>
+                    <person name="Tribonianus"/>
+                    <person name="Lorenzo Valla"/>
+                    <person name="Juan Luis Vives"/>
+                    <person name="Antonio de Nebrija"/>
+                    
+                    <book title="Digest"/>
+                    <book title="Suda"/>
+                        <emphasis method="pen" type="straight" text="Ecc&egrave; omnes prudentissima[e], et acutissima[e]"/>
+                        <emphasis method="pen" type="straight" text="Sententia[e] Pragmatica[e], omniu[m] excellentissimorum Jurisconsultorum"/> 
+                        <emphasis method="pen" type="straight" text="pra[e]gnatisssimi Fontes Justitia[e] forensis"/>
+                        <emphasis method="pen" type="straight" text="queri, de Veteru[m] Jurisconsultoru[m] Romanorum iactura"/> 
+                        <emphasis method="pen" type="straight" text="h&icirc;c existant omnes, aut quasi omnes pra[e]gnantissima[e] Sententia[e] forenses"/> 
+                        <emphasis method="pen" type="straight" text="non aut ipsi Jurisprudentia[e]"/>
+                        <emphasis method="pen" type="straight" text="nouis Legu[m] professoribus"/>
+                        <emphasis method="pen" type="straight" text="eaq[ue] certe, et solid&egrave; perstricta"/>
+                        <emphasis method="pen" type="straight" text="Suidas"/>
+                        <emphasis method="pen" type="straight" text="Valla"/>
+                        <emphasis method="pen" type="straight" text="Viues"/>
+                        <emphasis method="pen" type="straight" text="Antonius Nebrissensis"/>
                 </position>
             </language>
             <translation>
-                In the most expeditious and most efficacious paragraphs of the 'Digest' are the most precious
-                jewels of Roman law. Here are all the wisest, most acute statements of pragmatism made by all
-                the most excellent lawyers. Certainly, the statements are the most worthy of the highest 
-                praise and the lawyers are the most pregnant sources of public justice. Whatever nonsense 
-                ignorent grammaticians and philologians may spout of civil actions.
-                If only the 'new men' would stop complaining about the most happy Justinian and the wisest 
-                Tribonianus, about the writings of the old Roman lawyers that they are prepared to throw away.
-                Here are all, or almost all, of their most pregnant public statements.
+                In the expeditious and efficacious paragraphs of the 'Digest' are the most precious
+                jewels of Roman law. Here are all the wisest, most acute statements of pragmatism that have been
+                made by all the best lawyers. Certainly, the statements are the most worthy of the highest 
+                praise and the lawyers are the most pregnant sources of public justice, whatever nonsense 
+                ignorent grammaticians and philologians may spout about civil suits.
+                So, if only the 'new men' would stop complaining about worthy Justinian and wise Tribonianus, 
+                about the writings of the old Roman lawyers that they are prepared to throw away. Here are all -
+                or almost all - of their most pregnant public statements.
                 For if wrong has been done to anyone, it has been inflicted only on those old lawyers, who 
                 were hoping for immortal glory from their commentaries. And neither to the jurisprudence, 
                 which has been skillfully edited into a more concise and more settled shape, nor to their,
-                our, or future new teachers of law, who have the most by the least, and those things certainly
-                and solidly compressed, which previously seemed vague and boundless in the extreme.
-                There may be intellectual types, who accuse the civil industry of Tribonianus of plenty of 
-                incivil temerity. But they are too curious about a foreign republic and know nothing more than
+                our, or future new teachers of law, who have gained the most things by the least effort, and 
+                those things certainly and solidly compressed, which previously seemed vague and boundless in 
+                the extreme.
+                There may be intellectual types of the type to accuse the civil industry of Tribonianus of plenty
+                of incivil temerity. But they are too curious about a foreign republic and know nothing more than
                 the soles of their feet.
-                Suda: obviously unfair, thus Justinian and Tribonius. Valla: a mere grammatician and 
-                logodaedalus, blundering blindly into the foreign fields of philosophy and law. Viues: in many
-                ways too similar to Valla. CONTINUE.......
-                
-                
+                Suda: obviously unfair to others, such as Justinian and Tribonius. Valla: a mere grammatician and 
+                logodaedalus, blundering into the foreign fields of philosophy and law. Vives: in many ways too 
+                similar to Valla. Antonio de Nebrija is a naive lexicographer in law and not more skillful than
+                Accursius.
             </translation>  
-                        
-                        
-                        <symbol name="SS" place="head"/>
-
+        </marginalia>
+        
+        <symbol name="SS" place="head"/>
+    </annotation>
 </transcription>
 
