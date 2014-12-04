@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
     
     <page filename="2862_024.tif" reader="Harvey" signature="[Aiiv]"/>
     <annotation>
@@ -28,6 +28,9 @@
                     <person name="Alfonso Ariosto"/>
                 </position>
             </language>
+            <translation>
+                Alfonso Ariosto.
+            </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="IT">
@@ -38,6 +41,9 @@
                     <person name="Giuliano di Lorenzo de' Medici"/>
                 </position>
             </language>
+            <translation>
+                Duke Giuliano de Medici.
+            </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="IT">
@@ -48,6 +54,9 @@
                     <person name="Bernardo Dovizi"/>
                 </position>
             </language>
+            <translation>
+                Cardinal Bibbiena.
+            </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="IT">
@@ -58,10 +67,13 @@
                     <person name="Ottaviano Fregoso"/>
                 </position>
             </language>
+            <translation>
+                Signor Ottaviano Fregoso.
+            </translation>
         </marginalia> 
         
         <underline method="pen" type="straight" language="IT" text="huomo &agrave; nostri tempi rarissimo, magnanimo, religioso, 
-            pieno di bont&agrave;, d'ingegno, prudenza, et cortesia et ueramente amico d'homore"/> <!--JG: honore instead of homore-->
+            pieno di bont&agrave;, d'ingegno, prudenza, et cortesia et ueramente amico d'honore"/> 
         
         <mark name="plus_sign" method="chalk" place="left_margin"/>
     </annotation>
