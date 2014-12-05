@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
+
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="00000007.tif" pagination="3" reader="Harvey"/>
     	<annotation>
-    		
             	<!-- Marginalia -->
     		
         		<marginalia hand="Italian">
@@ -25,8 +24,9 @@
     			<language ident="EN">
     				<position place="head" book_orientation="0">
     					<marginalia_text>
-    						Gabriel Haruey. <!--JG: You can put Gabriel Harvey in person tag as well-->
+    						Gabriel Haruey.
     					</marginalia_text>
+    					<person name="Gabriel Harvey"/>
     				</position>
     			</language>
     		</marginalia>
@@ -35,10 +35,13 @@
     			<language ident="EN">
     				<position place="head" book_orientation="0">
     					<marginalia_text>
-    						<!-- I'm quite unsure what this phrase is in the head, though I imagine someone with more experience than I can make more sense of it. --> <!--JG: It gives the price of the book: 'preciu[m] iiis' = price 3 shilling-->
+    						preciu[m] iiis
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				price 3 shilling
+    			</translation>
     		</marginalia>
 	        	        
     		<symbol name="Mars" place="head"/>
