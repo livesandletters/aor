@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
 
-<transcription>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
+    
     <page filename="Ha2.002r.tif" pagination="323" reader="Harvey"/>	<!-- ABO 006right -->
     <annotation>
         <!-- Marginalia -->
@@ -16,10 +19,16 @@
                         nulla vanitas vllo modo prodenda: 
                         omnis perfectio, quauis ratione demonstranda.
                     </marginalia_text>
-                    <emphasis method="chalk" />
+                    <emphasis method="chalk" type="straight"/>
                 </position>
             </language>
+            <translation>
+                He who is not most beautiful by nature is ugly. 
+                No vanity must be revealed in any way: every perfection, by any method, must be shown.  
+            </translation>
         </marginalia>
+        
+       
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="right_margin" book_orientation="90">
@@ -27,10 +36,11 @@
                         I am sorie for him: he dyed
                         without a plaudite.
                     </marginalia_text>
-                    <emphasis method="chalk" />
+                    <emphasis method="chalk" type="straight" />
                 </position>
             </language>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
@@ -40,6 +50,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                No man ever exerts himself enough in showing his own excellence.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -50,7 +63,11 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                That which one is not permitted to write is impressed so much more deeply.
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="IT">
                 <position place="intext" book_orientation="0">
@@ -59,6 +76,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                jealousy, cause of adultery
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -69,6 +89,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                No one more sure of glory: no one more devoted to dignity.
+            </translation>
         </marginalia>
         
         <!-- Underlines-->
