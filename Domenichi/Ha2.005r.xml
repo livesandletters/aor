@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	
     <page filename="Ha2.005r.tif" pagination="329" reader="Harvey"/> <!-- ABO 009right -->
     <annotation>
         
@@ -15,15 +18,18 @@
                     </marginalia_text>
                 </position>
             </language>
+        	<translation>
+        		From the single art of propriety.
+        	</translation>
         </marginalia>
     	<marginalia hand="Italian">
     		<language ident="EN">
     			<position place="left_margin" book_orientation="90">
     				<marginalia_text>
     					Pronunciation most pliant to the matter vttered: &amp; the liueliest
-    					interpreter, that euer explaned anie speach bic apt vtterance.
+    					interpreter, that euer explaned anie speach bie apt vtterance.
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
     	</marginalia>
@@ -35,6 +41,8 @@
     				</marginalia_text>
     			</position>
     		</language>
+    	</marginalia>
+    	<marginalia hand="Italian">
     		<language ident="IT">
     			<position place="intext" book_orientation="0">
     				<marginalia_text>
@@ -42,14 +50,18 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			/ 160. discreetly.
+    		</translation>
     	</marginalia>
+    	
     	<marginalia hand="Italian">
     		<language ident="EN">
     			<position place="intext" book_orientation="0">
     				<marginalia_text>
-    					) no more scribling: but enjoy he excellent, &amp; diuine notes,
+    					) no more scribling: but enjoy the excellent, &amp; diuine notes,
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
@@ -74,6 +86,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			Something for something
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="EN">
@@ -82,7 +97,7 @@
     					His voice, a viue commentarie to whatsoeuer he speaketh,
     					or readeth. A speaking Glasse: or talking picture.
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
     	</marginalia>
