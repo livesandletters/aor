@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
+
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 <page filename="Ha2.003v.tif" pagination="326" reader="Harvey"/>	<!-- ABO 008left -->
     <annotation>
@@ -16,10 +16,14 @@
                     <marginalia_text>
                         At non legit quotidi&egrave; rarissima mundi ingenia: -   <!-- marginalia continues: Domenichi_008right, right, - et spiritus omnium viuidissimos. -->
                     </marginalia_text>
-                    <emphasis method="chalk"/>
+                    <emphasis method="chalk" type="straight"/>
                 </position>
             </language>
+            <translation>
+                But he does not read daily the rarest natural talents world:
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="IT">
                 <position place="intext" book_orientation="0">
@@ -28,7 +32,11 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                wise madman.
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -42,7 +50,7 @@
                         legit singulares auctores: Eunapiu[m],
                     </marginalia_text>
                     <person name="Eunapius"/>
-                    <emphasis method="chalk"/>
+                    <emphasis method="chalk" type="straight"/>
                 </position>
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -52,11 +60,12 @@
                     <person name="Philostratus"/>
                     <person name="Julian"/>
                     <person name="Theodor Zwinger"/>
-                    <emphasis method="chalk"/>
+                    <book title="Theatrum vitae humane"/>
+                    <emphasis method="chalk" type="straight"/>
                 </position>
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        cum Gandino: Bartasium, cu[m] Rabelaesio
+                        cum Gandino: Bartasium, cu[m] Rabelaesio[:]
                     </marginalia_text>
                     <person name="Marcantonio Gandino"/>
                     <person name="Guillaume Du Bartas"/>
@@ -74,7 +83,13 @@
                     <book title="Epitaph of Adonis"/>
                 </position>
             </language>
+            <translation>
+                What sort of singular authors Eutrapelus reads daily:
+                Eunapius, together with Tactius: Philstratus, together with Julian: the Theater of Zwinger, together with Gandino:
+                Du Barthas, together with Rabelais: the First Idyll of Theocritus together with Bion, and the Epitaph of Adonis.
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="IT">
                 <position place="intext" book_orientation="0">
@@ -90,7 +105,11 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                Economical.
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -102,7 +121,7 @@
                     <person name="Homer"/>
                     <person name="Hesiod"/>
                     <person name="Virgil"/>
-                    <emphasis method="pen"/>
+                    <emphasis method="pen" type="straight"/>
                 </position>
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -116,11 +135,14 @@
                     </marginalia_text>
                     <person name="Solomon"/>
                     <book title="Song of Songs"/>
-                    <book title="Book of Job"/>
-                    
+                    <book title="Book of Job"/>                    
                 </position>
             </language>
+            <translation>
+                The three heroic shields of Homer, Hesiod, Virgil: with the seven days of Du Barthas. The Song of Songs of Solomon: together with the Behemoth and Leviathan in Job.
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="90">
@@ -131,6 +153,9 @@
                     <person name="John Heywood"/>
                 </position>
             </language>
+            <translation>
+                His daily bread, of Martial, and of Heywood =
+            </translation>
         </marginalia>
         
     <!-- Underlines -->

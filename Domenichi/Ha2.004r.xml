@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    
     <page filename="Ha2.004r.tif" pagination="327" reader="Harvey"/>	<!-- ABO 008right -->
     <annotation>
         <!-- Marginalia -->
@@ -14,24 +17,37 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                and the most lively souls of everyone.
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        ) Quoti&egrave;s et ipse diuinus Bartasius?
+                        ) Quoti&egrave;s 
                     </marginalia_text>
                     <person name="Guillaume Du Bartas"/>
-                    <emphasis method="chalk"/>
+                    <emphasis method="chalk" type="straight"/>
                 </position>
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
                         friget ipse enthusiasticus Homerus: 
                     </marginalia_text>
                     <person name="Homer"/>
-                </position>               
+                </position>             
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        et ipse diuinus Bartasius?
+                    </marginalia_text>
+                </position>
             </language>
+            <translation>
+                And how often does enthusiastic Homer himself lack vigor: and divine Barthas himself?
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="IT">
                 <position place="intext" book_orientation="0">
@@ -39,20 +55,28 @@
                        Goffredo di Tasso.
                     </marginalia_text>
                     <person name="Torquato Tasso"/>
-                    <person name="Jerusalem Delivered"/> <!-- I believe this might be a reference to Tasso's poem, rather than to the person. It was originally published under the name "Il Goffredo." --> <!--JG: If this is the case, you should use the book rather than the person tag-->
+                    <book title="Jerusalem Delivered"/>  
                 </position>
             </language>
+            <translation>
+                Tasso's Goffredo.
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Nemo un[quam] satis animosus.
                     </marginalia_text>
-                    <emphasis method="pen" text="animosus"/>
+                    <emphasis method="pen" type="straight" text="animosus"/>
                 </position>
             </language>
+            <translation>
+                No one is ever sufficiently courageous.
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -61,7 +85,11 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                note.
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -70,7 +98,11 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                Who of all is ever sufficiently wise?
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="IT">
                 <position place="intext" book_orientation="0">
@@ -86,7 +118,11 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                ridiculous. profound distinction.
+            </translation>
         </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
@@ -100,22 +136,16 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Nulla adhuc quinta essentia, satis viuida.                        
+                        Nulla adhuc quinta essentia, satis viuida. Solis propria lux, vnicusq[ue] calor.
                     </marginalia_text>
-                    <emphasis method="chalk"/>
+                    <emphasis method="chalk" type="straight"/>
                 </position>
             </language>
+            <translation>
+                    No thing besides the fifth essence is sufficiently full of life.The special light of the sun, and its singular heat.
+            </translation>
         </marginalia>
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="tail" book_orientation="0">
-                    <marginalia_text>
-                        Solis propria lux, vnicusq[ue] calor.
-                    </marginalia_text>
-                    <emphasis method="chalk"/>
-                </position>
-            </language>
-        </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="90">
@@ -126,6 +156,9 @@
                     <person name="Angelo Poliziano"/>
                 </position>
             </language>
+            <translation>
+                with the two sharpest poets, Ausonius and Poliziano.
+            </translation>
         </marginalia>
         
         

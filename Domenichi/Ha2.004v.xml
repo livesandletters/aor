@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    
     <page filename="Ha2.004v" pagination="328" reader="Harvey"/>	<!-- ABO 009left -->
     <annotation>
         
@@ -23,8 +26,8 @@
                         The most sensible voice liuing: &amp; the most emphatical stile, that euer was:
                         both, as expressiue, as is possible, &amp; most effectually significant.
                     </marginalia_text>
-                    <emphasis method="chalk"/>
-                    <emphasis method="pen" text="most sensible voice liuing"/>
+                    <emphasis method="chalk" type="straight"/>
+                    <emphasis method="pen" type="straight" text="most sensible voice liuing"/>
                 </position>
             </language>
         </marginalia>
@@ -51,6 +54,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                Always the same.
+            </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="EN">
@@ -58,7 +64,7 @@
                     <marginalia_text>
                         Still extent, &amp; multiplication: but refined, &amp; cumlie.
                     </marginalia_text>
-                    <emphasis method="chalk"/>
+                    <emphasis method="chalk" type="straight"/>
                 </position>
             </language>
             <language ident="LA">
@@ -68,6 +74,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                nothing in vain.
+            </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="LA">
@@ -77,6 +86,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                skillfully.
+            </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="EN">
@@ -91,10 +103,13 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Su[pra] |
+                        su[pra] /
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                above
+            </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="EN">
@@ -110,7 +125,7 @@
                 <position place="right_margin" book_orientation="270">
                     <marginalia_text>
                         A voice most cleere, &amp; sounding: 
-                        of as sweet, &amp; thundring vocal, as maie be instruments. <!-- Should I break this up into separate intext marginalia? -->
+                        of as sweet, &amp; thundring vocal, as maie be instruments.
                     </marginalia_text>
                 </position>
             </language>

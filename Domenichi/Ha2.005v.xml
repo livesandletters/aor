@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	
     <page filename="Ha2.005v.tif" pagination="330" reader="Harvey"/> <!-- ABO 10left -->
     <annotation>
         
@@ -19,7 +22,7 @@
             		<marginalia_text>
             			other, to pronounce more
             		</marginalia_text>
-            		<emphasis method="chalk"/>
+            		<emphasis method="chalk" type="straight"/>
             	</position>
             	<position place="intext" book_orientation="0">
             		<marginalia_text>
@@ -47,6 +50,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			ridiculous.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="IT">
@@ -61,19 +67,26 @@
     				<marginalia_text>
     					problemata, et aenigmata plebea. )
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
+    		<translation>
+    			ridiculous. problems and puzzles of the common people.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
     			<position place="intext" book_orientation="0">
     				<marginalia_text>
-    					necessaria non necessarijs: prudens electio.
+    					Necessaria non necessarijs: prudens electio.
     					Hoc agit: nec curat parerga.
     				</marginalia_text>
     			</position>    			
     		</language>
+    		<translation>
+    			 The essentials in non-essentials: a prudent choice.
+    			 He does this: and he does not care for trifles. 
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="IT">
@@ -83,6 +96,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			ridiculous. fantastic.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="EN">
@@ -93,7 +109,7 @@
     					meacock, &amp; a base fellow.
     				</marginalia_text>
     				<person name="Eutrapelus"/>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
     	</marginalia>
@@ -103,17 +119,21 @@
     				<marginalia_text>
     					&Ocirc; sordide, vbi sunt aetheri spiritus?
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
+    		<translation>
+    			O unclean one, where are the spirits of the ether?
+    		</translation>
     	</marginalia>
+    	
     	<marginalia hand="Italian">
     		<language ident="EN">
     			<position place="right_margin" book_orientation="270">
     				<marginalia_text>
     					Alwais sum singularitie in action, or counsell: in speach, or behauiour.
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
     	</marginalia>
