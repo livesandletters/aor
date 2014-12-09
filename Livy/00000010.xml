@@ -1,35 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../../../Harvey/XML/Harveyschema17102014.xsd"> 
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    
     <page filename="00000010.tif" signature="[a2v]" reader="Harvey" />
     <annotation>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>1.</marginalia_text>
-                </position>
-            </language>        
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>2.</marginalia_text>
-                </position>
-            </language>        
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>3.</marginalia_text>
-                </position>
-            </language>        
-        </marginalia>
-        
-        <!-- JE: makes sense to tag these as numerals? -->
         
         <underline method="pen" type="straight" language="LA" text="ego solus, qui" />
         <underline method="pen" type="straight" language="LA" text="doctos omnes" />
@@ -51,7 +28,7 @@
         <underline method="pen" type="straight" language="LA" text="ista duo co[n]iungenda" />
         <underline method="pen" type="straight" language="LA" text="Voluntas in bonis doctisq[ue]" />
         <underline method="pen" type="straight" language="LA" text="in diuitibus facultas" />
-        <underline method="pen" type="straight" language="LA" text="dijs erunt &amps; hominibus inuisi" />
+        <underline method="pen" type="straight" language="LA" text="dijs erunt &amp; hominibus inuisi" />
         <underline method="pen" type="straight" language="LA" text="rerum cognoscere causus" />
         <underline method="pen" type="straight" language="LA" text="alium qui recta" />
         <underline method="pen" type="straight" language="LA" text="non consulit ipse" />
@@ -62,7 +39,6 @@
         
         <mark name="quotation_mark" method="pen" place="left_margin"/> 
         <mark name="bracket" method="pen" place="left_margin"/>
-        <!-- JE: is there another quotation mark? in the left margin, above the SS? -->
         
         <mark name="dash" method="pen" place="right_margin"/> <!-- om -->
         <mark name="quotation_mark" method="pen" place="right_margin"/> <!-- om -->
@@ -74,13 +50,17 @@
         <mark name="plus_sign" method="pen" place="intext"/> <!-- artium, usum-->
         <mark name="dot" method="pen" place="intext"/> <!-- opera[m], spero-->
         <mark name="dot" method="pen" place="intext"/> <!-- primum, deinde-->
-        <!-- JE: another dot - est, sine -->
+        <mark name="dot" method="pen" place="intext"/> <!--est, sine-->
         <mark name="dot" method="pen" place="intext"/> <!-- artes, in-->
         <mark name="dot" method="pen" place="intext"/> <!-- rati, paucissimi-->
-        <!--JG: accent above minus in the penultimate line-->
+        <mark name="diacritic" method="pen" place="intext" language="LA" text="minus"/>
         <mark name="equal_sign" method="pen" place="intext"/> <!-- felix-->
-        <!-- JE: looks like there's a faded quotation mark here? -->
+        <mark name="quotation_mark" method="pen" place="intext"/> <!--quotation mark is faded-->
         <mark name="equal_sign" method="pen" place="intext"/> <!-- orbi est -->
-
+        
+        <numeral place="intext">1.</numeral>
+        <numeral place="intext">2.</numeral>
+        <numeral place="intext">3.</numeral>
+        
     </annotation>
 </transcription>
