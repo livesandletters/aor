@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	
     <page filename="Ha2.007r.tif" pagination="333" reader="Harvey"/>	<!-- ABO 11right -->
     <annotation>
         
@@ -17,15 +20,22 @@
     				<person name="Chrysotechnus"/>
     			</position>
     		</language>
+    		<translation>
+    			The life of Chrysotechnus.
+    			(the nest of the phoenix: full of aromas from the East (.)
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
-    					scite.
+    					scit&egrave;.
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			knowingly.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -33,10 +43,13 @@
     				<marginalia_text>
     					nota. vae proditorib[us].
     				</marginalia_text>
-    				<emphasis method="pen" text="proditorib[us]"/>
-    				<emphasis method="pen"/>
+    				<emphasis method="pen" type="straight" text="proditorib[us]"/>
+    				<emphasis method="pen" type="straight"/>
     			</position>
     		</language>
+    		<translation>
+    			note. woe to traitors.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -53,6 +66,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			discrete, and profound.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="IT">
@@ -62,6 +78,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			ridiculous.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian" anchor_text="Giudeo">
     		<language ident="IT">
@@ -71,6 +90,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			( Sabbath-following Jew. )
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="IT">
@@ -80,6 +102,11 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			Wandering Israelite. <!-- I'm trying to distinguish this term from the previous, which seemed a bit more pejorative.  -->
+    		</translation>
+    	</marginalia>
+    	<marginalia hand="Italian">
     		<language ident="LA">
     			<position place="tail" book_orientation="0">
     				<marginalia_text>
@@ -87,6 +114,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			The bee, a small animal, not beautiful: but weak.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -95,9 +125,12 @@
     					non curo corporis quantitatem, sed animi: nec externam qualitatem veneror, sed
     					interna
     				</marginalia_text>
-    				<emphasis method="pen" text="curo"/>
+    				<emphasis method="pen" type="straight" text="curo"/>
     			</position>
     		</language>
+    		<translation>
+    			I do not care for the quantity of the body, but of the soul: and I do not honor the external quality, but the internal.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -106,9 +139,12 @@
     					Sola mihi vita est, ars viuida, seria virtus,
     					Feruida Sedulitas, vnica Dexteritas. }
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
+    		<translation>
+    			One life belongs to me: a vigorous art, an earnest virtuousness, a burning zeal, a singular readiness.	<!-- Do these seem like suitable translations? Perhaps someone more familiar with Harvey's English writings could comment. -->
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -119,6 +155,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			Without wisdom, and valor, all things are ugly.
+    		</translation>
     	</marginalia>
         
         <!-- Underlines -->
