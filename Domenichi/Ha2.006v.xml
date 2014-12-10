@@ -1,8 +1,10 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     <page filename="Ha2.006v.tif" pagination="332" reader="Harvey"/>	<!-- ABO 11left -->
     <annotation>
         
@@ -29,7 +31,7 @@
             		<marginalia_text>
             			best actor, at words, or deeds.
             		</marginalia_text>
-            		<emphasis method="chalk"/>
+            		<emphasis method="chalk" type="straight"/>
             	</position>
             </language>
         </marginalia>
@@ -37,11 +39,11 @@
         	<language ident="LA">
         		<position place="left_margin" book_orientation="0">
         			<marginalia_text>
-        			Quicq[ui]d in Deo, Deus quicq[ui]d in viro, vir.
+        			Quicq[ui]d in Deo, Deus. Quicq[ui]d in viro, vir.
         			Quicq[ui]d in opt[im]o optimum: in max[im]o ( maximu[m].
         			Abu[n]de est hominum ( bullarum:
         			</marginalia_text>
-        			<emphasis method="chalk"/>
+        			<emphasis method="chalk" type="straight"/>
         		</position>
         		<position place="tail" book_orientation="0">
         			<marginalia_text>
@@ -49,6 +51,12 @@
         			</marginalia_text>
         		</position>
         	</language>
+    		<translation>
+    			Whatever is in God, is God. Whatever in man, man.
+    			Whatever is in the best, is the best: in the greatest, the greatest.
+    			There is more than enough baubles of men:
+    			man's palm-branch, a marvellous thing.
+    		</translation>
         </marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -58,6 +66,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			Abundant caution doesn't hurt.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -67,6 +78,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			( Late, but severe is revenge. concerning the perfidy of depositors.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="IT">
@@ -76,6 +90,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			ridiculous.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="EN">
@@ -83,7 +100,7 @@
     				<marginalia_text>
     					) More in hart, then in face, or tounge.
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
     	</marginalia>
@@ -97,6 +114,9 @@
     				<person name="Aesop"/>
     			</position>
     		</language>
+    		<translation>
+    			The hidden quality of Aesop, and of several deformed men. 
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -105,29 +125,40 @@
     					Vulgaris est, qui loquitur, aut exequitur, vt vulgaris.
     					Extraordinariu[m] viru[m] decet oratio, actioq[ue] extraordinaria: 
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
+    		<translation>
+    			Commonplace is he who speaks or performs as a commoner.
+    			It is fitting that the speech and action of extraordinary men be extraordinary.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
     			<position place="tail" book_orientation="90">
     				<marginalia_text>
-    					singulare[m] vtraq[ue] singularis. 
+    					singulare[m], vtraq[ue] singularis. 
     				</marginalia_text>
-    				<emphasis method="pen"/>
+    				<emphasis method="pen" type="straight"/>
     			</position>
     		</language>
+    		<translation>
+    			<!-- I'm really unsure the best way to translate this, perhaps we should ask Lisa? -->
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
     			<position place="right_margin" book_orientation="270">
     				<marginalia_text>
-    					Malo pygmaeum sophum, quam Gigantem Equu[m] cacotam: 
-    					et plures quam aestimo ferreu[m] aureu[m] asinu[m]. 
+    					Malo pygmaeum sophum, qu&agrave;m Gigantem [cacotam]: 
+    					et plures qu&agrave;m a[e]stimo ferreu[m] Equu[m] qu&agrave;m aureu[m] asinu[m]. 
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			I prefer the wise dwarf to the [?] giant:	<!-- I'm not entirely sure about "cacotam," though I think I transcribed it correctly." -->
+    			and I have greater esteem for the iron horse than the golden ass.
+    		</translation>
     	</marginalia>
         
         <!-- Underlines -->

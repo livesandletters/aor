@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	
     <page filename="Ha2.006r.tif" pagination="331" reader="Harvey"/>	 <!-- ABO 10right -->
     <annotation>
         
@@ -14,13 +17,13 @@
                       Lett Eutrapelus teach all men to speake sensibly;
                     </marginalia_text>
                 	<person name="Eutrapelus"/>
-                	<emphasis method="chalk"/>
+                	<emphasis method="chalk" type="straight"/>
                 </position>
             	<position place="right_margin" book_orientation="0">
             		<marginalia_text>
             			resolue soundly; &amp; do
             		</marginalia_text>
-            		<emphasis method="pen" text="resolue"/>
+            		<emphasis method="pen" type="straight" text="resolue"/>
             	</position>
             	<position place="intext" book_orientation="0">
             		<marginalia_text>
@@ -39,6 +42,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			Unworthy things to be read, which amount to nothing. )
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="EN">
@@ -47,7 +53,7 @@
     					Where there is no oppartunitie to
     					Do valorously: there is occasion to speak notably.
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
     	</marginalia>
@@ -59,6 +65,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			ridiculous.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="EN">
@@ -67,14 +76,14 @@
     					Chrysotechnus must euer shew himself more, then
     				</marginalia_text>
     				<person name="Chrystotechnus"/>
-    				<emphasis method="pen" text="euer shew himself"/>
-    				<emphasis method="pen" text="more, then"/>
+    				<emphasis method="pen" type="straight" text="euer shew himself"/>
+    				<emphasis method="pen" type="straight" text="more, then"/>
     			</position>
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
     					an ordinari ) man.
     				</marginalia_text>
-    				<emphasis method="pen" text="ordinari man"/>
+    				<emphasis method="pen" type="straight" text="ordinari man"/>
     			</position>
     		</language>
     	</marginalia>
@@ -85,7 +94,7 @@
     					He is little worth, that is not allwais more worth,
     					then a Common gentleman.
     				</marginalia_text>
-    				<emphasis method="pen" text="more worth"/>
+    				<emphasis method="pen" type="straight" text="more worth"/>
     			</position>
     		</language>
     	</marginalia>
