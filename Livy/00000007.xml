@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<transcription> 
+<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    
     <page filename="00000007.tif" signature="title page" reader="Harvey"/>
     <annotation>
         <marginalia hand="Italian" date="1568"> 
@@ -8,6 +12,7 @@
                 <position place="head" book_orientation="0">
                     <marginalia_text>Gabriel Haruejus. Mense Julio. Anno. 1568.</marginalia_text>
                     <person name="Gabriel Harvey"></person>
+                    <!-- JE: are we going to capture the strike-through, perhaps as emphasis? -->
                 </position>               
             </language>
             <translation>Gabriel Harvey, June 1568.</translation>
@@ -19,6 +24,9 @@
                     <person name="Francis Massij"></person>
                 </position>
             </language>
+            <translation>
+                Francis Massy.
+            </translation>
         </marginalia>
         <marginalia hand="Italian"> 
             <language ident="LA">
@@ -45,7 +53,7 @@
                     <!-- Chris, please have a look at this Greek text-->
                 </position>
             </language>
-            <translation> By skill and virtue. [GREEK] </translation> 
+            <translation> By skill and excellence. [GREEK] </translation> 
             <!-- Chris, I'd be grateful if you could translate the Greek as well-->
         </marginalia>
         <marginalia hand="Italian" date="1568">
@@ -65,7 +73,7 @@
                         <X-ref person="Ovid" book_title="Heriodes"/>
                 </position>
             </language>
-            <translation>The most pleasing are the gifts that the giver holds dear.</translation>
+            <translation>Most dear are the gifts that the giver makes precious.</translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="LA">
@@ -73,7 +81,7 @@
                     <marginalia_text>Maturo consilio, et strenua actione.</marginalia_text>
                 </position>
             </language>
-            <translation>With due deliberation and keen action.</translation>
+            <translation>With due deliberation and prompt action.</translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="LA">
@@ -88,18 +96,24 @@
             </translation>
         </marginalia>        
           
-        <underline method="pen" type="straight" language="LA" text="de mensuris, ponderibus, req[ue] nummaria Romanorum" />
+        <underline method="chalk" type="straight" language="LA" text="de mensuris" />
+        <underline method="chalk" type="straight" language="LA" text="ponderibus"/>
+        <underline method="chalk" type="straight" language="LA" text="req[ue]"/>
+        <underline method="chalk" type="straight" language="LA" text="nummaria"/>
         <underline method="pen" type="straight" language="LA" text="pecuniae ad nostri temporis"/> 
         <underline method="pen" type="straight" language="LA" text="origine urbis Romae"/>
         <underline method="pen" type="straight" language="LA" text="TABVLA conconionum atq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="L. FLORI Epitoma[e]"/>
         <underline method="pen" type="straight" language="LA" text="argumenti loco esse"/>
-        <underline method="pen" type="straight" language="LA" text="BREVE compendium, sive argumentum totius Romanae historiae ab Vrbe condita"/>
+        <underline method="pen" type="straight" language="LA" text="BREVE compendium"/>
+        <underline method="pen" type="straight" language="LA" text="argumentum totius Romanae historiae ab Vrbe condita"/>
         <underline method="pen" type="straight" language="LA" text="RATIO temporum eorum"/>
-        <underline method="pen" type="straight" language="LA" text="Doctorum virorum"/>
-        <underline method="pen" type="straight" language="LA" text="Annotationes, Glareani annotationibus"/>
+        <underline method="pen" type="straight" language="LA" text="Doctorum uirorum"/>
+        <underline method="pen" type="straight" language="LA" text="Annotationes"/>
+        <underline method="pen" type="straight" language="LA" text="Glareani annotationibus"/>
         <underline method="pen" type="straight" language="LA" text="CHRONOLOGIA Henrici Glareani, ab"/>
-        <underline method="pen" type="straight" language="LA" text="Eiusdem Chronologia, in alphabeticum ordinem"/>
+        <underline method="pen" type="straight" language="LA" text="Eiusdem Chronologia"/>
+        <underline method="pen" type="straight" language="LA" text="alphabeticum ordinem"/>
         <underline method="pen" type="straight" language="LA" text="RERVM"/>
         <underline method="pen" type="straight" language="LA" text="uerborum"/>
         <underline method="pen" type="straight" language="LA" text="autore memorabilium locuplissimus"/>
@@ -107,12 +121,12 @@
         <symbol name="SS" place="right_margin" />
         <symbol name="SS" place="right_margin"/>
     
-        <mark name="X_sign" method="pen" place="right_margin"/>
+        <mark name="X_sign" method="chalk" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="left_margin" text="Item, Annorum series, iuxta Regum, 
-            Consulum, Tribunorum, &amp;. successiones, diligenter in margine annotata."/>
+        <mark name="bracket" method="pen" place="left_margin" text="ITEM, Annorum series, iuxta Regum, 
+            Consulum, Tribunorum, &amp;c. successiones, diligenter in margine annotata."/>
         <mark name="plus_sign" method="pen" place="left_margin"/> 
     
     </annotation>    
