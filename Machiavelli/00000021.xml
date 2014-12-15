@@ -12,7 +12,7 @@
     		<language ident="LA">
     			<position place="head" book_orientation="0">
     				<marginalia_text>
-    					it&agrave; exactam hausit disciplinam, atq[ue] peritiam, Vt Prosperi, natura cunctatoris, <!--JG: perhaps there's a better translation of exactam in order to convey the idea of something which has been built up over the course of their lives?-->
+    					it&agrave; exactam hausit disciplinam, atq[ue] peritiam, Vt Prosperi, natura cunctatoris, <!--JG: perhaps there's a better translation of exactam in order to convey the idea of something which has been built up over the course of their lives?--> <!-- CG: Perhaps "combined" would work? -->
     					cautum, et inuictu[m] robur; Fabritij ver&ograve; pra[e]seruida[m] 
     					in expediendis armis vim; nobili, salubriq[ue] temperamento moderari didicerit.
     				</marginalia_text>
@@ -39,7 +39,7 @@
     			</position>
     		</language>
     		<translation>
-    			- thus he took in their received discipline and experience, such that he learned to control,
+    			- thus he took in their combined discipline and experience, such that he learned to control,
     			with a noble and healthy moderation, the guarded and insurpassable might of Prospero 
     			(by nature a cautious person), and the the strength of Fabrizio (truly most hotblooded in 
     			settling disputes with arms).
@@ -47,7 +47,7 @@
     			Giovio, in Book 9, Chapter 5 of his Elogia Bellicorum. Under the portait of Marco Antonio Colonna:
     			likewise, under the potrait of Prospero Colonna.
     			
-    			Both Prospero and Fabrizio Colonna, learned the military doctrine and discipline under Don 
+    			Both Prospero and Fabrizio Colonna learned the military doctrine and discipline under Don 
     			Consalvo Ferrando, a great leader.
     		</translation>
     	</marginalia>
@@ -95,13 +95,13 @@
     	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="some in the coldest places, other vpon little seats"/>
     	<mark name="horizontal_bar" method="pen" place="right_margin"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="good qualities"/>
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="euery day"/> <!--JG: Makes sense to inlcude these two words in the text attribute, although I don't think we should go back to the Domenichi and Livy to make the changes to these transcriptions, since the 'nature' of Harvey's annotations seems to be different in these books. Don't you think?-->
+    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="euery day"/> 
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="euery houre"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="of all these honours"/>
-    	<!--JG: Comma between place and honoured-->
+    	<mark name="comma" method="pen" place="intext"/> <!-- place honored -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="that they could possible"/>
-    	<mark name="vertical_bar" method="pen" place="intext"/> <!--JG: Rather a bracket, no?-->
-    	<mark name="vertical_bar" method="pen" place="intext"/> <!--JG: Rather a bracket, no?-->
+    	<mark name="bracket" method="pen" place="intext"/> 
+    	<mark name="bracket" method="pen" place="intext"/> 
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="trees"/>
     	
 

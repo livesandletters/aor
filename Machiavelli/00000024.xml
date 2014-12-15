@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000024.tif" pagination="4" reader="Harvey" signature="Bi[v]"/> <!--JG: pagination is not correct?-->
+<page filename="00000024.tif" pagination="v[v]" reader="Harvey" signature="Bi[v]"/>
     <annotation>
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="things are those, [that] you would induce like"/>
@@ -28,6 +28,7 @@
     	<mark name="quotation_mark" method="pen" place="left_margin"/>
     	<mark name="quotation_mark" method="pen" place="left_margin"/>
 
-    	<!--JG: Use errata element: in text he changes whom to who-->
+	<errata copytext="whom" amendedtext="who"/>
+    
     </annotation>
 </transcription>
