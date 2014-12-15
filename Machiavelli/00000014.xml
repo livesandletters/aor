@@ -18,7 +18,7 @@
     			<position place="full_page" book_orientation="0">
     				<marginalia_text>
     					Militia est, vita hominis super terram.
-    					Concurrunt Equites Cataphract&egrave; vtrinq[ue] Duello:	<!-- This 'u' actually has an umlaut, can we add to the schema? -->
+    					Concurrunt Equites Cataphract&egrave; vtrinq[ue] Duello:	<!-- This 'u' actually has an umlaut, can we add to the schema? --> <!--JG: Yes, I'll add it. I might take until the end of new week for the new schema to be put online since Matt is in LA... -->
     				</marginalia_text>
     			</position>
     		</language>    		
@@ -60,7 +60,7 @@
     		<language ident="LA">
     			<position place="full_page" book_orientation="0">
     				<marginalia_text>
-    					Scripta palam, Lex est, in Mose, Euangelioq[ue]:		
+    					Scripta pal&agrave;m, Lex est, in Mose, Euangelioq[ue]:		
     				</marginalia_text>
     			</position>
     		</language>
@@ -90,10 +90,10 @@
     		<language ident="LA">
     			<position place="full_page" book_orientation="0">
     				<marginalia_text>
-    					&Egrave; Pamphili Eudromi Entelechia.
+    					&Egrave; Pamphili Eudromi Entelechia. <!--JG: Eudromus should be captured in person element-->
     					Ubi etiam simile Thema: In sudore
     					Vultus tui, vesceris Pane tuo.
-    					In victoriam dolo partam; Alciati Emblema.
+    					In victoriam dolo partam; Alciati Emblema. <!--JG: Aliciatus and Ajax and other people/books/places mentioned should be captured-->
     					Aiacis Tumulum, lachrymis ego perluo Virtus,
     					Heu misera ablentes dilacerata comas.
     					Scillic&egrave;t hoc restabat adhuc, Vt Iudire Gra[e]co
@@ -112,17 +112,17 @@
     					Hocq[ue] modo illatum dedecus Vltus, abit.
     					Non vulganda Consilia. Eiusdem.
     					Limine quod ca[e]co, obscura et Caligine, monstrum
-    					Gnosiacis clausit Da[e]dalus in Latebris:
+    					Gnosiacis clausit Da[e]dalus in Latebris: <!--JG: Another example: Daedalus should also be tagged-->
     					Depictum Romana Phalanx in pra[e]lia gestat;
     					Semiviroq[ue] nitent signa superba Boue. 
-    					Nosq[ue] monent, Debere Ducum Secreta latere <!-- crossed out manere -->
+    					Nosq[ue] monent, Debere Ducum Secreta latere <!-- crossed out manere --> <!--JG: see manual, this should be transcribed as well [manere deleted]-->
     					Consilia: Auctori cognita Techna nocet.    				
     				</marginalia_text>
     			</position>
     		</language>
     	
     		<translation>
-    			Man's life upon earth is war.
+    			Man's life upon earth is war. 
     			Armored horsemen clash in war:
     			It is inscribed on the gates of war:
     			Glory is given to the victor; shame to the conquered.
@@ -130,7 +130,7 @@
     			This human life, while we live on earth, is war:
     			The one watching from heaven is God the King.
     			It is clearly written, the Law is, in Moses and the Gospel:
-    			All run, but only one takes the prize.	<!-- An emblem of Bartholémy Aneau: http://www.emblems.arts.gla.ac.uk/french/emblem.php?id=FANa102 -->
+    			All run, but only one takes the prize.	<!-- An emblem of Bartholémy Aneau: http://www.emblems.arts.gla.ac.uk/french/emblem.php?id=FANa102 --> <!--JG: We probably should capture this in an X-ref tag, no?-->
     			What is harder than rock, or softer than water?
     			Yet hard stones are hollowed by soft water.
     			With persistence the drop of water hollows out the stone:

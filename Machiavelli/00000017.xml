@@ -6,7 +6,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
 
-<page filename="00000008.tif" pagination="4" reader="Harvey"/>
+<page filename="00000008.tif" pagination="4" reader="Harvey"/> <!--JG: Still file name and pagination error-->
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -16,11 +16,11 @@
     					Arma, virumq[ue] canit prudentissimus poetarum:
     					ex ipsius Ca[e]saris Disciplina.
     				</marginalia_text>
-    				<person name="Virgil"/>
+    				<person name="Virgil"/> <!--JG: Virgil is not explicitly mentioned by Harvey, so use X-ref tag instead-->
     				<person name="Julius Caesar"/>
     			</position>
     		</language>
-    		<translation>
+    		<translation> <!--JG: XML error: translation comes later, first transcription of the complete marginal note, then follows the translation of the whole note-->
     			Arms and the man, sings the most prudent of poets:
     			An education from Caesar himself.
     		</translation>
@@ -56,7 +56,8 @@
     					&amp; agilitie, necessarie: with extraordinarie Courage.
     				</marginalia_text>
     			</position>
-    		</language>
+    		</language> 
+    		<!--JG: This is the correct place for the translation element and the translation of the Latin parts of this marginal note-->
     	</marginalia>
     	
     	<!-- Symbols -->
@@ -78,7 +79,7 @@
     	
     	<!-- Marks -->
     	<mark name="hash" method="pen" place="right_margin"/> <!-- make by -->
-    	<mark name="plus_sign" method="pen" place="left_margin"/> <!--and nobilitie -->
+    	<mark name="plus_sign" method="pen" place="left_margin"/> <!--and nobilitie --> <!--JG: Link mark to underlined text?-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="errours"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="corrected"/>
     	<mark name="bracket" method="pen" place="intext"/> <!-- gratefull, although -->
