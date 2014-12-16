@@ -21,7 +21,7 @@
                 </position>
             </language>
             <translation>
-                Thethemius's 'Steganographia'. Della Porta, 'De furtivis literarum notis'.
+                Thethemius's 'Steganographia'. Della Porta, 'De furtivis literarum notis'. <!-- CG: Trithemius' ? -->
             </translation>        
         </marginalia>
         
@@ -51,11 +51,13 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="notarum perite"/>
         <mark name="dot" method="pen" place="intext"/> <!-- libro, quae -->
         <mark name="comma" method="pen" place="intext"/> <!-- nomine literas -->
+            <!-- CG: Looks like another comma at nomine literas -->
         <mark name="comma" method="pen" place="intext"/> <!-- notis ad -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="notarum vsum"/>
         <mark name="comma" method="pen" place="intext"/> <!-- est scribas -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="notarum compendio"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- intelligentia cum -->
+           <!-- CG: Plus sign over Quarum intelligentia -->
+        <mark name="comma" method="pen" place="intext"/> <!-- intelligentia cum -->                
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="paulatim obsoleuisset"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="res ipsae notis"/>
         <mark name="comma" method="pen" place="intext"/> <!-- Iustinianus ne -->

@@ -25,13 +25,14 @@
         
         <symbol name="SS" place="right_margin"/>
         
-        <mark name="X_sign" method="pen" place="right_margin"/> <!-- nundinae -->
+        <mark name="X_sign" method="pen" place="right_margin"/> <!-- nundinae -->       <!-- CG: I feel like this could also be a plus sign. -->
         <mark name="bracket" method="pen" place="right_margin" language="LA" text="Pandectis tres 
             epistolae praefixae sunt &agrave; Iustiniano, Prima ad Tribonianum: Secunda ad Antecessores:
             Tertia ad Senatu[m]"/>
         <mark name="comma" method="pen" place="intext"/> <!-- incolae aut -->
         <mark name="dash" method="pen" place="intext"/> <!-- decuriones -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ex veterum"/>
+                <!-- CG: Looks like there might also be a dot at componat, nulla -->
         <mark name="apostrophe" method="pen" place="intext" language="LA" text="Pandectas"/>
         <mark name="apostrophe" method="pen" place="intext" language="LA" text="Pandectas"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="seu tautologia"/>
@@ -39,6 +40,8 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="secundum Edicti perpetui imitatione[m]"/>
         <mark name="vertical_bar" method="chalk" place="intext"/>
         <mark name="vertical_bar" method="chalk" place="intext"/>
+        
+            <!-- CG: What do you guys think might be the best way to capture the large wavy line? An underline or a wavy horizontal bar?  -->
         
     </annotation>
 </transcription>
