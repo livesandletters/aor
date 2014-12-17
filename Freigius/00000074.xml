@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        a.
+                        a.          <!-- CG: Should we think about using an anchor text attribute for these? They seem kind of weird. -->
                     </marginalia_text>
                 </position>
             </language>
@@ -42,7 +42,7 @@
         
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="ante diem conditionis"/>
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="ide&oacute;que ingenia hominum in hunc vsque diem miser&egrave; torsit"/>
-        <mark name="dash" method="pen" place="intext"/> <!-- sti-pulatio -->
+        <mark name="dash" method="pen" place="intext"/> <!-- sti-pulatio -->    <!-- CG: Would this be more of a right margin thing? -->
         <mark name="comma" method="pen" place="intext"/> <!-- Praetorisue parte -->
         
     </annotation>
