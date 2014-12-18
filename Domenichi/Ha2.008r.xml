@@ -1,8 +1,10 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	
     <page filename="Ha2.008r.tif" pagination="335" reader="Harvey"/>	<!-- ABO 12right -->
     <annotation>
         
@@ -16,6 +18,9 @@
                 	<person name="Eutrapelus"/>
                 </position>
             </language>
+        	<translation>
+        		The life of Eutrapelus.
+        	</translation>
         </marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -25,6 +30,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			The life of the sun in motion.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -34,6 +42,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			A rare person upon the earth.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -63,6 +74,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			wise, and not wise.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -70,44 +84,51 @@
     				<marginalia_text>
     					Aut excellentius: aut nihil. }
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
+    		<translation>
+    			Either more excellent: or nothing. }
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
-    		<language ident="LA">
+    		<language ident="EL">
     			<position place="intext" book_orientation="0">
     				<marginalia_text>
-    					&#x1f10;&#x3bd; &#x1f00;&#x3c7;&#x3bc;&#x1fc6;. <!-- en axme -->
-    						in auge.
+    					( ἐν ἀκμῆ. <!-- en axme -->    						
     				</marginalia_text>
     			</position>
     		</language>
+    		<language ident="IT">
+    			<position place="intext" book_orientation="0">
+    				<marginalia_text>
+    					in auge.
+    				</marginalia_text>
+    			</position>
+    		</language>
+    		<translation>
+    			( at the zenith. at the summet.
+    		</translation>
     	</marginalia>
-    		<marginalia hand="Italian">
-    			<language ident="LA">
-    				<position place="tail" book_orientation="0">
-    					<marginalia_text>
-    						Vita vitaru[m]
-    						{ Plutarchi. Laertij.
-    						{ Juliani. Eunapij.
-    					</marginalia_text>
-    					<person name="Plutarch"/>
-    					<person name="Diogenes Laertius"/>
-    					<person name="Julian"/>
-    					<person name="Eunapius"/>
-    				</position>
-    			</language>
-    		</marginalia>
-    		<marginalia hand="Italian">
-    			<language ident="LA">
-    				<position place="tail" book_orientation="0">
-    					<marginalia_text>
-    						philast[-] 
-    					</marginalia_text>
-    				</position>
-    			</language>
-    		</marginalia>
+    	<marginalia hand="Italian">
+    		<language ident="LA">
+    			<position place="tail" book_orientation="0">
+    				<marginalia_text>
+    					Vita vitaru[m]
+    					{ Plutarchi. Laertij.
+    					{ Juliani. Eunapij.
+    					Philo[strati.]
+    				</marginalia_text>
+    				<person name="Plutarch"/>
+    				<person name="Diogenes Laertius"/>
+    				<person name="Julian"/>
+    				<person name="Eunapius"/>
+    			</position>
+    		</language>
+    		<translation>
+    			The life of the lives of Plutarch. Of Laertius. Of Julian. Of Eunapius. [Of Philostratus.]
+    		</translation>
+    	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
     			<position place="left_margin" book_orientation="270">
@@ -116,6 +137,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			The most lively and most nimble creature of the world. Happiness in abstract.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -124,9 +148,13 @@
     					[So]la mihi vita est, mera dictio, et actio Solis:
     					[e]ntelechia triplex: vnica vita globi.	
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
+    		<translation>
+    			One life belongs to me: pure speech, and the sun's action: <!-- CG: The last part seems weird. -->
+    			a triple actuality: a unique life in the crowd. <!-- CG: Also unsure about this. Entelechy is one of Harvey's peculariar interests that as to do with pragmatic action. It means "acutality" or "realization." Should I leave it like this? Also unsure about "globi." -->
+    		</translation>
     	</marginalia>
     	
 
