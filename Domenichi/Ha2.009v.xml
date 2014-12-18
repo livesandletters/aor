@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	
     <page filename="Ha2.009v.tif" pagination="338" reader="Harvey"/>	<!-- ABO 14left -->
     <annotation>
         
@@ -16,6 +19,9 @@
                 	<person name="Philotimus"/>
                 </position>
             </language>
+        	<translation>
+        		The life of Philotimus.
+        	</translation>
         </marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -25,6 +31,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			The corruption of one thing, the generation of another.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -34,6 +43,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			This for that: but less for greater.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="IT">
@@ -43,6 +55,9 @@
     				</marginalia_text>
     			</position>
     		</language>
+    		<translation>
+    			ridiculous.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -54,6 +69,9 @@
     				<person name="Alexander the Great"/>
     			</position>
     		</language>
+    		<translation>
+    			Caesar's and Alexander's fondness for first rank in every [-]
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -64,6 +82,9 @@
     				<person name="Borgia"/> 
     			</position>
     		</language>
+    		<translation>
+    			The emblem of the Borgias: Eitther Caesar or nothing.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -75,6 +96,9 @@
     				<person name="Francesco Guicciardini"/>
     			</position>
     		</language>
+    		<translation>
+    			Here is the praise of Jove: an icon of Guicciardini.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
@@ -83,20 +107,28 @@
     					Faelix est, qui agit vtilia; aut legit necessaria. Miser, qui otiatur inutiliter; aut scribit
     					non necessaria.
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
+    		<translation>
+    			Happy is he who does useful things; or reads necessary things. Miserable is he who idles about uselessly;
+    			or writes unnecessary things.
+    		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
     		<language ident="LA">
     			<position place="left_margin" book_orientation="90">
     				<marginalia_text>
     					{ Sola mihi vita est, verbis, factisq[ue] praeire;
-    					Anticipare omnes; summa parare breu&egrave;. } 
+    					Anticipare omnes; summa parare breu&igrave;. } 
     				</marginalia_text>
-    				<emphasis method="chalk"/>
+    				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
+    		<translation>
+    			{ One life belongs to me: to lead the way with words and deeds;
+    			To anticipate everyone; to prepare in few words the highest things. <!-- CG: I'm not sure the best way to translate the last clause. -->
+    		</translation>
     	</marginalia>
     	
 	<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
