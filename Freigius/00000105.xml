@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd"> <!-- CG: Modified XML schema -->
     
 <page filename="00000105.tif" reader="Harvey" pagination="21" signature="b3r"/>
     <annotation>
@@ -30,7 +31,7 @@
         <underline method="pen" type="straight" language="LA" text="animam suam uiget"/>
         
         <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="dash" method="pen" place="intext"/> <!-- Au-gusto -->
+        <mark name="dash" method="pen" place="intext"/> <!-- Au-gusto -->   <!-- CG: Right margin? -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- sit. Ad -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Augusto primum"/>
         <mark name="dash" method="pen" place="intext"/> <!-- con-stituta -->

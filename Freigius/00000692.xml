@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd"> <!-- CG: Modified XML schema -->
     
 <page filename="00000692.tif" reader="Harvey" pagination="608" signature="[P8v]"/>
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="partibus haereditatis"/>
-        <underline method="pen" type="straight" language="LA" text="Vnica"/>
+        <underline method="pen" type="straight" language="LA" text="Vnica"/>    <!-- CG: I think the original text has a typo, "Uncia" - maybe we should capture it? -->
         <underline method="pen" type="straight" language="LA" text="Partes"/>
         
         <mark name="bracket" method="pen" place="intext" language="LA" text="

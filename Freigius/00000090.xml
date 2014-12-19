@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd"> <!-- CG: Modified XML schema -->
     
 <page filename="00000090.tif" reader="Harvey" pagination="6" signature="[a3v]"/>
     <annotation>
@@ -11,15 +12,17 @@
         <underline method="pen" type="straight" language="LA" text="proprium"/>
         <underline method="pen" type="straight" language="LA" text="ciuile"/>
         <underline method="pen" type="straight" language="LA" text="metu poenarum"/>
+            <!-- CG: Also underlined 'praemiorum' -->
         <underline method="pen" type="straight" language="LA" text="Vim ui repellere licet"/>
         <underline method="pen" type="straight" language="LA" text="liberi nascu[n]tur"/>
         <underline method="pen" type="straight" language="LA" text="Leges praecipuae"/>
-        <underline method="pen" type="straight" language="LA" text="materiam desensionis"/>
+        <underline method="pen" type="straight" language="LA" text="materiam desensionis"/> <!-- CG: I think it might be 'defensionis' -->
         <underline method="pen" type="straight" language="LA" text="statutaria"/>
         
         <mark name="bracket" method="pen" place="left_margin" language="LA" text="In l[ege] ut uim: 
             tractant Doct[ores] materiam desensionis. In l[ege] omnes populi. 9. tractatur materia
-            statutaria."/>
+            statutaria."/>      <!-- CG: See above -->
+                <!-- CG: There is also an equal sign that might be anchored to 'mateiam defensionis' -->
         
     </annotation>
 </transcription>

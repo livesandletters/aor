@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">   <!-- CG: Modifed XML schema -->
     
 <page filename="00000086.tif" reader="Harvey" signature="[a1v]" pagination="[2]"/>
     <annotation>
@@ -26,7 +27,7 @@
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
                         Jurisprudentia Romana, vel Juris Romani Ars: nouissim&egrave; edita, ab Hermanno 
-                        Vulteio, et Joanne Althusio: vtriusq[ue] duobus libris, quasi ad Leges methodi Rama[e]
+                        Vulteio, et Joanne Althusio: vtriusq[ue] duobus libris, quasi ad Leges methodi Rama[e]  <!-- CG: Looks like it might be 'Ramea[e] -->
                         conformata.
                         Vulteij liber 1. de Jure Absoluto; in personis, et Rebus: illo in Potestate, et 
                         Obligatione: hoc, in possessione, et dominio. L[iber] 2 de Jure Relato; in praxi superioris
@@ -37,7 +38,7 @@
                     <person name="Hermann Vulteius"/>
                     <person name="Johannes Althusius"/>
                     <person name="Petrus Ramus"/>
-                    <person name=""/>
+                    <person name=""/>   <!-- CG: extra? -->
                     <book title="Iurisprudentia Romana"/>
                     <emphasis method="pen" type="straight" text="Juris Romani Ars"/>
                     <emphasis method="pen" type="straight" text="Vulteij"/>
@@ -88,4 +89,4 @@
             </translation>
         </marginalia>
     </annotation>
-</transcription>
+</transcription> 
