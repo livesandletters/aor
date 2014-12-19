@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	
 	<page filename="Ha2.011r.tif" pagination="341" reader="Harvey"/>	<!-- ABO Scan 15right -->
 		    <annotation>
 		        
@@ -16,6 +19,9 @@
 		                			<person name="Chrysotechnus"/>
 		                		</position>
 		            		</language>
+		        		<translation>
+		        			The life of Chrysotechnus a second time.
+		        		</translation>
 		        	</marginalia>
 		    	<marginalia hand="Italian">
 		    		<language ident="LA">
@@ -25,6 +31,9 @@
 		    				</marginalia_text>
 		    			</position>
 		    		</language>
+		    		<translation>
+		    			equals with equals.
+		    		</translation>
 		    	</marginalia>
 		    	<marginalia hand="Italian">
 		    		<language ident="LA">
@@ -34,6 +43,9 @@
 		    				</marginalia_text>
 		    			</position>
 		    		</language>
+		    		<translation>
+		    			above
+		    		</translation>
 		    	</marginalia>
 		    	<marginalia hand="Italian">
 		    		<language ident="LA">
@@ -43,6 +55,9 @@
 		    				</marginalia_text>
 		    			</position>
 		    		</language>
+		    		<translation>
+		    			I care not for the species, but for the individual.
+		    		</translation>
 		    	</marginalia>
 		    	<marginalia hand="Italian">
 		    		<language ident="LA">
@@ -52,6 +67,9 @@
 		    				</marginalia_text>
 		    			</position>
 		    		</language>
+		    		<translation>
+		    			in general a leonine society.
+		    		</translation>
 		    	</marginalia>
 		    	<marginalia hand="Italian">
 		    		<language ident="IT">
@@ -59,10 +77,13 @@
 		    				<marginalia_text>
 		    					Laura del Petrarca.
 		    				</marginalia_text>
-		    				<person name="Laura"/> <!-- Laura from Petrarch's Canzoniere -->
+		    				<person name="Laura"/> 
 		    				<person name="Petrarch"/>
 		    			</position>
 		    		</language>
+		    		<translation>
+		    			Petrarch's Laura.
+		    		</translation>
 		    	</marginalia>
 		    	<marginalia hand="Italian">
 		    		<language ident="LA">
@@ -72,34 +93,45 @@
 		    					aut Oratorum Mundi.			
 		    				</marginalia_text>
 		    				<person name="Proaeresius"/>
-		    				<emphasis method="chalk"/>
+		    				<emphasis method="chalk" type="straight"/>
 		    			</position>
 		    		</language>
+		    		<translation>
+		    			Proaeresius, an image of all Courtiers or Orators of the world.
+		    		</translation>
 		    	</marginalia>
 		    	<marginalia hand="Italian">
 		    		<language ident="LA">
 		    			<position place="left_margin" book_orientation="90">
 		    				<marginalia_text>
 		    					Vnicismus non ab extra, sed ab intra. Sibi quisq[ue] bibliotheca, et
-		    					Aula regia. Discant &agrave; me Auliti:  non ego ab Aulicis.
+		    					Aula regia. Discant &agrave; me Aulici:  non ego ab Aulicis.
 		    				</marginalia_text>
 		    			</position>
 		    		</language>
+		    		<translation>
+		    			Uniqueness not from external things, but from internal ones. For him, every library, and
+		    			court is a royal palace. Let the courtiers learn from me: not I from the couriters.	<!-- CG: Unsure about translating 'regia.' I think the sense is clear though. -->
+		    		</translation>
 		    	</marginalia>
 		    	<marginalia hand="Italian">
 		    		<language ident="LA">
 		    			<position place="right_margin" book_orientation="90">
 		    				<marginalia_text>
-		    					{ Artis apex; [virtus] adamantina virtus; aurea praxis; 	<!-- First virtus is crossed out. How should I mark this? --> 
+		    					{ Artis apex; [virtus deleted] adamantina virtus; aurea praxis;  
 		    					Arcanorum acies vnica, vita mea est.
 		    				</marginalia_text>
-		    				<emphasis method="chalk"/>
+		    				<emphasis method="chalk" type="straight"/>
 		    			</position>
 		    		</language>
+		    		<translation>
+		    			{ The apex of skill; [virtue deleted] adamantine virtue; golden action;
+		    			a singular army of secrets, this is my life. 	<!-- CG: Unsure about 'arcanorum acies unica,' particularly if acies is more literal or not. -->
+		    		</translation>
 		    	</marginalia>
 		        
 		        
-		        <!-- Underlines --> <!--JG: Chris, if text attribute is used, language attribute should be used as well! Also please check your other files for this!-->
+		        <!-- Underlines -->
 		        
 		        
 		    	<underline method="pen" type="straight" language="IT" text="non mi ponga un pi&egrave; addosso"/>
@@ -175,7 +207,7 @@
 		    	<mark name="plus_sign" method="pen" place="intext" language="IT" text="amore"/>
 		    	<mark name="dot" method="pen" place="intext"/> <!-- amore, &  -->
 		    	<mark name="plus_sign" method="pen" place="intext" language="IT" text="amato"/>
-		    	<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- castamente  --> <!--JG: I'd put castamente in text attribute here-->
+		    	<mark name="straight_quotation_mark" method="pen" place="intext" language="IT" text="castamente"/> 
 		    	<mark name="plus_sign" method="pen" place="intext" language="IT" text="modesto"/>
 		    	<mark name="dot" method="pen" place="intext"/> <!-- tutti, & lei -->
 		    	<mark name="plus_sign" method="pen" place="intext"/> <!-- & sauissima -->

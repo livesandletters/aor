@@ -1,23 +1,28 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="Ha2.013r" pagination="345" reader="Harvey"/>	<!-- ABO 17right -->
     	<annotation>
     		
-            		<!-- Marginalia -->
+            	<!-- Marginalia -->
     		
         		<marginalia hand="Italian">
         			<language ident="LA">
-            			               <position place="head" book_orientation="0">
+        				<position place="head" book_orientation="0">
                     				<marginalia_text>
                     					Animus, imperator Corporis, et fortuna[e].
                     				</marginalia_text>
-            			               	<emphasis method="chalk"/>
-            			               </position>
+            			               	<emphasis method="chalk" type="straight"/>
+            			</position>
         			</language>
+        			<translation>
+        				The mind, emperor of the Body, and of fortune.
+        			</translation>
         		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="IT">
@@ -29,6 +34,9 @@
     					<person name="Pietro Aretino"/>
     				</position>
     			</language>
+    			<translation>
+    				Pope Julius III, patron of the divine Pietro Aretino.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="IT">
@@ -38,6 +46,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				worldly humor.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -45,9 +56,12 @@
     					<marginalia_text>
     						) { Animus facit magnum: Fortuna, magnatem.
     					</marginalia_text>
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				) { The mind makes one great: Fortune, important.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="IT">
@@ -64,6 +78,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				ridiculous. So passes the glory of the world.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -73,6 +90,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Prudence in theory; strength in Action.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -80,9 +100,12 @@
     					<marginalia_text>
     						Fortuna, fortitudo vna.
     					</marginalia_text>
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				Fortune, one strength.
+    			</translation>
     		</marginalia>
     		
     		<marginalia hand="Italian">
@@ -93,6 +116,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				The mind is that which creates happiness or misery.
+    			</translation>
     		</marginalia>
         
     		<marginalia hand="Italian">
@@ -100,11 +126,16 @@
     				<position place="right_margin" book_orientation="270">
     					<marginalia_text>
     						Vilis animus est, qui non dominatur corpori. Magnus animus, ide&oacute;q[ue]	
-    						tranquilius illud, tam Corpori imperat, qu&agrave;m fortunae aegru[m]; quantumcunq[ue] aut haec aut afflict[a].
+    						tranquillus, tam Corpori imperat, qu&agrave;m fortunae; quantumcunq[ue] aut
+    						illud a[e]gru[m] aut haec afflict[a].
     					</marginalia_text>
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				Of little value is the mind which does not control the body. A great and tranquil mind, therefore, 
+    				both rules the Body, and fortune: however infirm the former or oppressive the latter.
+    			</translation>
     		</marginalia>
         
 	    	<!-- Underlines -->

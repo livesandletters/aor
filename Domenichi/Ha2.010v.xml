@@ -1,8 +1,11 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	
 	<page filename="Ha2.010v.tif" pagination="340" reader="Harvey"/>		<!-- ABO Scan 15left -->
     	<annotation>
         
@@ -10,14 +13,17 @@
     		
 	        
     		<marginalia hand="Italian">
-	           		<language ident="LA">
+	           	<language ident="LA">
 	                		<position place="head" book_orientation="0">
 	                    			<marginalia_text>
 	                      				Vita Axiophili.
 	                    			</marginalia_text>
 	                			<person name="Axiophilus"/>
 	                		</position>
-	           	 	</language>
+	           	 </language>
+    			<translation>
+    				The life of Axiophilus.
+    			</translation>
 	        	</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -27,6 +33,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				the harmony of heaven.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="IT">
@@ -36,6 +45,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				political, and profound.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -43,7 +55,7 @@
     					<marginalia_text>
     						Facta loquantur:
     					</marginalia_text>
-    					<emphasis method="pen" text="Facta loquantur"/>
+    					<emphasis method="pen" type="straight" text="Facta loquantur"/>
     				</position>
     			</language>
     			<language ident="EN">
@@ -54,6 +66,9 @@
     					<person name="Edward Dyer"/>
     				</position>
     			</language>
+    			<translation>
+    				Deeds speak: quoth Sir Edward Dier.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -63,10 +78,13 @@
     						) Axiophilus.
     					</marginalia_text>
     					<person name="Axiophilus"/>
-    					<emphasis method="pen" text="Curat curanda"/>
-    					<emphasis method="pen" text="Axiophilus"/>
+    					<emphasis method="pen"  type="straight" text="Curat curanda"/>
+    					<emphasis method="pen"  type="straight" text="Axiophilus"/>
     				</position>
     			</language>
+    			<translation>
+    				Axiophilus attends to things that need attention.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -76,6 +94,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Apology.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -87,6 +108,9 @@
     					<person name="Apollonius"/>
     				</position>
     			</language>
+    			<translation>
+    				Apollonius, more than all men in the world either philosophers or wisemen.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -95,9 +119,13 @@
     						{ nulla parerga pati; solis incumbere punctis;
     						Multiplicare artis pragmata; vita mea est. }
     					</marginalia_text>
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk"  type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				{ To suffer no ornamentation; to pay attention to the points alone;
+    				to multiply the deeds of skill; this is my life. }
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -109,6 +137,11 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				The matter from matters:
+    				the works from works:
+    				men from their merits.	<!-- CG: This all sounds very clumsy to me. -->
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -116,9 +149,12 @@
     					<marginalia_text>
     						Viri perfectio, non &agrave; libris, aut ab hominibus; sed &agrave; Seipso, et &agrave; Deo. 
     					</marginalia_text>
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk"  type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				The perfection of man, not from books, or from other men; but from the man himself, and from God.
+    			</translation>
     		</marginalia>
 	        
 	       
