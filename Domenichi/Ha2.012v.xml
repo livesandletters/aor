@@ -1,8 +1,10 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="Ha2.012v.tif" pagination="344" reader="Harvey"/>	<!-- ABO  17left -->
     	<annotation>
@@ -15,9 +17,12 @@
                     				<marginalia_text>
                       			   		 Vnici quotidiana singularitas.
                     				</marginalia_text>
-           				<emphasis method="chalk"/>
+           				<emphasis method="chalk" type="straight"/>
            			</position>
          			</language>
+        			<translation>
+        				The daily singularity of a unique man.
+        			</translation>
         		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -27,16 +32,22 @@
     					</marginalia_text>    					
     				</position>
     			</language>
+    			<translation>
+    				wittily.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						Euscopum oportet esse [e]uheiticum. <!-- Strange word -->    						
+    						Euscopum oportet esse euheiticum.    						
     					</marginalia_text>    	
     					<person name="Euscopus"/>
     				</position>
     			</language>
+    			<translation>
+    				Euscopus must be yielding. 	<!-- CG: This word MIGHT come from the greek 'eueiktos,' but I'm really not sure.  -->
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -46,6 +57,9 @@
     					</marginalia_text>    					
     				</position>
     			</language>
+    			<translation>
+    				Affection is not strong enough without habit. <!-- CG: 'affectio' is particularly hard to translate. Any ideas? --> 
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -55,6 +69,9 @@
     					</marginalia_text>    					
     				</position>
     			</language>
+    			<translation>
+    				The affection of youths: the perfection of men.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -62,9 +79,12 @@
     					<marginalia_text>
     						Habituata excellentia: et in omni genere perfectio.
     					</marginalia_text>    					
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				Conditioned excellence: and perfection in every kind.
+    			</translation>
     		</marginalia>
     		
     	
@@ -73,11 +93,15 @@
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
     						Quotidi&egrave; dicendum, et agendum, qu&agrave;m potes, ben&egrave;, meli&ugrave;s, optim&egrave;;
-    						mirabiliter optim&egrave;, id est, singulariter: aut nunq[ue] eris vnicus.
+    						mirabiliter optim&egrave;, id est, singulariter: aut nunq[uam] eris vnicus.
     					</marginalia_text>    	
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				As much as you can, you must daily speak and act well, better, best;
+    				wonderfully best, that is, singularly: or you will never be unique.
+    			</translation>
     		</marginalia>
     		
     		
@@ -87,7 +111,7 @@
     					<marginalia_text>
     						piu oltre: oltre piu:
     					</marginalia_text>    		
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
     			<language ident="LA">
@@ -97,6 +121,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Much further: much more: the emblem of an increasingly unique man. <!-- CG: Unsure about 'multiplicantis,' so I translated as an adverb. --> 
+    			</translation>
     		</marginalia>
         
         
