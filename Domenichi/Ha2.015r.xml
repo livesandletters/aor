@@ -1,8 +1,10 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="Ha2.015r.tif" pagination="349" reader="Harvey"/>	<!-- ABO  019right -->
     	<annotation>
@@ -30,7 +32,7 @@
         				</position>
         				<position place="right_margin" book_orientation="0">
         					<marginalia_text>
-        						in campos ad ridendu[m]. Cum prim&ugrav;m autem in campis essemus,
+        						in campos ad ridendu[m]. Cum prim&ugrave;m autem in campis essemus, 
         						statim sine
         					</marginalia_text>
         				</position>
@@ -62,37 +64,69 @@
         					</marginalia_text>
         				</position>
         			</language>
+        			<translation>
+        				Pierre Chevalier, citizen of Geneva and great professor of the Hebrew religion and language, 
+        				often used to tell me: ) Come, master, Let's go to the fields to laugh. But were we to be	<!-- CG: I'm unclear what "the fields" are. -->
+        				first in the fields, at once, without any reason, he would begin to howl with laughter.
+        				And he wouldn't stop laughing in loud cries, as if possessed, until he ran out of breath. 
+        				Ha-ha-ha. Hi-hi-hi. Ho-ho-ho. Ha-hi-ho. And he didn't stop, until he had
+        				nearly collapsed. Never did I see a Pygmy stir a giant so much to laughter. 
+        			</translation>
         		</marginalia>
     		
     		<marginalia hand="Italian">
     			<language ident="IT">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						ridicolo. s[upr]a 
+    						ridicolo.
     					</marginalia_text>
     				</position>
     			</language>
+    			<language ident="LA">
+    				<position place="intext" book_orientation="0">
+    					<marginalia_text>
+    						s[upr]a 
+    					</marginalia_text>
+    				</position>
+    			</language>
+    			<translation>
+    				ridiculous. above
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
     						Crambe bis posita:
-    						sed in viuis facetijs nihil moris.
+    						sed in viuis facetijs nihil mortis.
     					</marginalia_text>
     					<emphasis method="pen" type="dotted" text="viuis"/> 
     					<emphasis method="pen" type="dotted" text="mortis"/>
     				</position>
     			</language>
+    			<translation>
+    				Twice warmed over:
+    				but in lively jokes, nothing of death.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="IT">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						pariente. s[upr]a ) 
+    						patiente. 
     					</marginalia_text>
     				</position>
     			</language>
+    			<language ident="LA">
+    				<position place="intext" book_orientation="0">
+    					<marginalia_text>
+    						s[upr]a )
+    					</marginalia_text>
+    				</position>
+    			</language>
+    			<translation>
+    				patient. above )
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -102,16 +136,22 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				skillfully. )
+    			</translation>
     		</marginalia>
     		
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="left_margin" book_orientation="270">
     					<marginalia_text>
-    						Bona cum venia illius boni viri, Cui Candida sola Dea est
+    						Bona cum venia illius boni viri, Cui Candida sola Dea est.
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Good things with the grace of that good man, to whom the bright goddess alone belongs.
+    			</translation>
     		</marginalia>
     		
     		<marginalia hand="Italian">

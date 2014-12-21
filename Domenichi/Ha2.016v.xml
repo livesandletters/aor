@@ -1,8 +1,10 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="Ha2.016v.tif" pagination="352" reader="Harvey"/>	<!-- ABO 021left -->
     	<annotation>
@@ -11,14 +13,17 @@
     		
         		<marginalia hand="Italian">
         			<language ident="LA">
-            			               <position place="head" book_orientation="0">
+            			<position place="head" book_orientation="0">
                     				<marginalia_text>
-                    					Eutrapelus viuum, speculum omnis excellentia[e].
-                      			             </marginalia_text>
-            			               	<person name="Eutrapelus"/>
-            			               	<emphasis method="chalk"/>
-            			               </position>
+                    					Eutrapelus viuum speculum omnis excellentia[e].
+                      			</marginalia_text>
+            			           <person name="Eutrapelus"/>
+            			            <emphasis method="chalk" type="straight"/>
+            			</position>
         			</language>
+        			<translation>
+        				Eutrapelus is a living mirror of every excellence.
+        			</translation>
         		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="IT">
@@ -28,6 +33,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Political.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -37,16 +45,22 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Notable.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						) nullum tale, Exemplar, vel
+    						) nullum tale Exemplar, vel
     						visum, vel scriptum. |
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				No such example, either seen or written. 
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -56,6 +70,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				above, 409.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -63,11 +80,15 @@
     					<marginalia_text>
     						) &Ocirc; egregia, rapidissima, 
     						penetrantissima Velocitas ante omnes:
-    						supra singulas. &Ocirc; Dea cert&egrave;.
+    						supra singulos. &Ocirc; Dea cert&egrave;.
     					</marginalia_text>
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				) O exceptional Swiftness, most rapid and most penetrating, first before all things:
+    				beyond individual men. O Goddess, assuredly.    				
+    			</translation>
     		</marginalia>
         
         
@@ -77,25 +98,19 @@
     					<marginalia_text>
     						Di[c]ta Antonini, aut Seneca[e]: Iulij, aut Iuliani. Theurgia Pythagorica. Semper.
     					</marginalia_text>
-    					<person name="Marcus Aurelius"/> <!-- I assume this is the Antoninus to whom Harvey is referring --> 
+    					<person name="Marcus Aurelius"/> 
     					<person name="Seneca"/>
     					<person name="Julius Caesar"/>
     					<person name="Julian"/>
     					<person name="Pythagoras"/>
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				The sayings of Aurelius, or Seneca: of Caesar, or Julian. Pythagorean theurgy. Always. 
+    			</translation>
     		</marginalia>
-    		
-    		
-    		<marginalia hand="Italian">
-    			<language ident="LA">
-    				<position place="left_margin" book_orientation="270">
-    					<marginalia_text>
-    						= singularis est artifex argumentosi, facillim&egrave; fluentis, exquisiti styli.   					</marginalia_text>
-    				</position>
-    			</language>
-    		</marginalia>    
+    		 
         
     		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
     		
@@ -103,12 +118,26 @@
     			<language ident="LA">
     				<position place="right_margin" book_orientation="270">
     					<marginalia_text>
-    						Philostrato [-] non [-] modo [-] suis Romanis =	<!-- This annotation continues in to the left margin -->
+    						Philostrato [-] non [-] modo [-] suis Romanis =
     					</marginalia_text>
     					<person name="Philostratus"/>
     				</position>
     			</language>
     		</marginalia>
+    		
+    		<marginalia hand="Italian">
+    			<language ident="LA">
+    				<position place="left_margin" book_orientation="270">
+    					<marginalia_text>
+    						= singularis est artifex argumentosi, facillim&egrave; fluentis, exquisiti styli. 
+    					</marginalia_text>
+    					
+    				</position>
+    			</language>
+    			<translation>
+    				= the singular author of an exquisite style, rich in argument and most readily flowing. 
+    			</translation>
+    		</marginalia>   
         
 	    	<!-- Underlines -->
 	        

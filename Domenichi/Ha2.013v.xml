@@ -1,8 +1,10 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd"> <!--JG: At a later stage, this should be updated. Leave this comment in, so that we don't forget to change this-->
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="Ha2.013v.tif" pagination="346" reader="Harvey"/>	<!-- ABO  018left -->
     	<annotation>
@@ -13,10 +15,13 @@
         			<language ident="LA">
             			               <position place="head" book_orientation="0">
                     				<marginalia_text>
-                    					plurimus literulis fit homo modica[e] habilitatis: <!-- Marginalia continues elsewhere. Unclear if in the gutter or the head of following page. -->
+                    					Plurimis literulis fit homo modica[e] habilitatis: <!-- Marginalia continues elsewhere. Unclear if in the gutter or the head of following page. -->
                     				</marginalia_text>
             			               </position>
         			</language>
+        			<translation>
+        				With the most letters, a man becomes modestly capable:	<!-- CG: I'm not exactly sure how best to translate literulis: letters, books, or letters as in the 'republic of letters' ? -->
+        			</translation>
         		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -27,6 +32,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				With a few perfected skills, a man is the height of ability.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="IT">
@@ -43,6 +51,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				ridiculous. royal proof.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="IT">
@@ -52,6 +63,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				ridiculous.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -62,6 +76,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				) Singular is the knowledge which produces a singular worker.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -72,6 +89,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Specific are those mysteries, which restore the wonder of experience.
+    			</translation>
     		</marginalia>
     		
     		
@@ -84,6 +104,10 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				The pragmatic man is undiluted by the arts, by philosopy, by the professions, by mysteries: he is untroubled by other letters.
+    				The latter produce a common scholar: the former produces a rare sage.
+    			</translation>
     		</marginalia>
     		
     		<!-- MISSING TEXT RIGHT MARGIN: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
@@ -92,7 +116,7 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="270">
     					<marginalia_text>
-    						agmina <!-- Appears to continue from marginalia in gutter. -->
+    						agmina <!-- Appears to continue from marginalia in gutter. Will leave translation for later. -->
     					</marginalia_text>
     				</position>
     			</language>

@@ -1,8 +1,10 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="Ha2.016r.tif" pagination="351" reader="Harvey"/>	<!-- ABO 020right  -->
     	<annotation>
@@ -15,7 +17,7 @@
                     				<marginalia_text>
                     					The best do but well: none well enough.
                     				</marginalia_text>
-            			               	<emphasis method="chalk"/>
+            			               	<emphasis method="chalk" type="straight"/>
             			               </position>
         			</language>
         		</marginalia>
@@ -27,6 +29,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				above /
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -36,6 +41,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Many important men: few great men. <!-- CG: Does this seem like the appropriate distinction? -->
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="EN">
@@ -46,7 +54,7 @@
     						of Orient.
     					</marginalia_text>
     					<location name="Orient"/>
-    					<emphasis method="chalk" text="mean"/>
+    					<emphasis method="chalk" type="straight" text="mean"/>
     				</position>
     			</language>
     		</marginalia>
@@ -60,7 +68,7 @@
     						vpon Earth, not to the Empire, but to the Popedum: &amp; deuise such statelie
     						designes, to inuest the bishop of Roome, The vniuersal monarch of the World? =
     					</marginalia_text>
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk" type="straight"/>
     				</position>
     				<position place="left_margin" book_orientation="270">
     					<marginalia_text>

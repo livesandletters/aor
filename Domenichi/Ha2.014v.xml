@@ -1,8 +1,10 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="Ha2.014v.tif" pagination="348" reader="Harvey"/>	<!-- ABO  019left -->
     	<annotation>
@@ -35,6 +37,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				ridiculous. )
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -45,6 +50,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				He who does not always burn with passion often becomes spiritless. 
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -54,6 +62,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				An everlasting fireplace. 
+    			</translation>
     		</marginalia>
         
         
@@ -62,25 +73,39 @@
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
     						Vnicus mundi Orator, et pragmaticus, sempre mellitus, aut saccharatus:
-    						pla[e]runq[ue] diamargar[i]t[a]tus, aut diamoschatus: sa[e]p&egrave; viua ambrosia,	<!-- Terms unclear.-->
+    						pla[e]runq[ue] diamargaritatus, aut diamoschatus: sa[e]p&egrave; viua ambrosia,	<!-- Terms unclear.-->
     						et nectar de Coelo.
     					</marginalia_text>
-    					<emphasis method="chalk"/>
+    					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				The unique and pragmatic Orator of the world is always honey-sweet or sugar-sweet:    				
+    				[plaerunque diamargaritatus] or thoroughly musky: often, living ambrosia and nectar from heaven.		
+    				<!-- CG: I am at a loss with pla[e]runq[ue] (pla[e]runq[uam]?) diamargaritatus. 
+    					"Plaerunque" seems wrong, but I'm not sure in what way. 
+    					For "diamargaritatus," the Greek root word itself has something to do with pearls,
+    					but I have the feeling this refers to some sort of processed extract from a plant or something. -->
+    				<!-- CG: Apparently moschatus is a reference to the sweet seeds of a particular plant from India. The 'dia' functions
+    				as an intensifier. -->
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
     						Et Orpheo dulcior: et lautior Proa[e]resio: et Bartasio
-    						diuenior, qui superat omnes Theologos. 	
+    						diuinior, qui superat omnes Theologos. 	
     					</marginalia_text>
     					<person name="Orpheus"/>
     					<person name="Proaeresius"/>
     					<person name="Guillaume Du Bartas"/>
     				</position>
     			</language>
+    			<translation>
+    				And sweeter with Orpheus: and more elegant with Proaeresius: and more divine 
+    				with Barthas, who surpasses all Theologians.
+    			</translation>
     		</marginalia>
     		
     		<marginalia hand="Italian">
@@ -91,6 +116,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				a triumph.
+    			</translation>
     		</marginalia>
     		
     		
