@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
+
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141023.xsd">
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="Ha2.017v.tif" pagination="354" reader="Harvey"/>	<!-- ABO 022left  -->
     	<annotation>
     		
-            		<!-- Marginalia -->
+            	<!-- Marginalia -->
     		
         		<marginalia hand="Italian">
         			<language ident="LA">
@@ -19,29 +19,55 @@
                     				</marginalia_text>
         				</position>
         			</language>
+        			<translation>
+        				Many mirrors are crystalline: but very few are adamantine. 
+        			</translation>
         		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="left_margin" book_orientation="0">
     					<marginalia_text>
     						Christus nec ullis ipse egebat libris: nec vllum Apostolis comme[n]dauit,
-    						orbem terraru[m] superare Spiritu, et industria quid non?
-    						sed utroq[ue] singulari.		
+    						orbem terraru[m] superare
     					</marginalia_text>
     					<person name="Apostles"/>
     					<person name="Jesus Christ"/>
     				</position>
+    				<position place="intext" book_orientation="0">
+    					<marginalia_text>
+    						) cogitantibus.
+    					</marginalia_text>
+    				</position>
     			</language>
+    			<translation>
+    				Christ himself did not need any books: nor did he recommend a single book to the Apostles who were intent on transcending the world.
+    			</translation>
+    		</marginalia>
+    		<marginalia hand="Italian">
+    			<language ident="LA">
+    				<position place="left_margin" book_orientation="0">
+    					<marginalia_text>
+    						Spiritu, et industria quid non? sed utroq[ue] singulari.
+    					</marginalia_text>
+    				</position>
+    			</language>			
+    			<translation>
+    				Why not by spirit and industry? But with each being singular.	<!-- CG: Again, I am not confident about these translations. -->
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="tail" book_orientation="0">
     					<marginalia_text>
-    						Et musca[e] suus est splen: et vespa[e] sua	<!-- Most likely sua bilis and not suabilis, as the construction follows "suus splen." -->
+    						Et musca[e] suus est splen: et vespa[e] sua	
     						bilis. ( Martyres apostoli: sed inoffensi.
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				The fly has his spleen: and the wasp has his bile. 
+    				(   The apostles are martyrs: but unhindered.	<!-- CG: What in the world does this mean? -->
+    			</translation>
     		</marginalia>
     		
     		<marginalia hand="Italian">
@@ -53,24 +79,17 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				The man man is free, while whoever is prudent is imprisoned.
+    			</translation>
     		</marginalia>
-    		<marginalia hand="Italian">
-    			<language ident="LA">
-    				<position place="intext" book_orientation="0">
-    					<marginalia_text>
-    						) cogitantibus.						
-    					</marginalia_text>
-    				</position>
-    			</language>
-    		</marginalia>
-    		
     		
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="right_margin" book_orientation="270">
     					<marginalia_text>
-    						Incomporabilis est Spiritus, Industria, Peritia; qua[m] maxima [---] 
-    	<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+    						Incomparabilis est Spiritus, Industria, Peritia; qua[m] maxima [---] 
+    					<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
     					</marginalia_text>
     				</position>
     				<position place="intext" book_orientation="270">
@@ -79,6 +98,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Incomparable is the Spirit, Industry, Experience
+    			</translation>
     		</marginalia>
     		
     		

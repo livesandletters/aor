@@ -1,22 +1,25 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "DTD10-10-2014.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription>
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+
 
 	<page filename="Ha2.017r.tif" pagination="357" reader="Harvey"/>	<!-- ABO 021right --> 
     	<annotation>
     		
-            		<!-- Marginalia -->
+            	<!-- Marginalia -->
     		
         		<marginalia hand="Italian">
         			<language ident="LA">
-            			               <position place="head" book_orientation="0">
+            			<position place="head" book_orientation="0">
                     				<marginalia_text>
-                    					Nescia Virtus Stare Loco. Nescia Ars sed&eacute;re 
-                      			             </marginalia_text>
-                      			             <X-ref person="Lucan" book_title="Pharsalia"/>
-            			               </position>
+                    					Nescia Virtus Stare Loco. Nescia Ars edere 
+                      			 </marginalia_text>
+                      			 <X-ref person="Lucan" book_title="Pharsalia"/>
+            			 </position>
         				<position place="right_margin" book_orientation="0">
         					<marginalia_text>
         						Loco. Ars qu&ograve; penetrantior, e&ograve;
@@ -24,7 +27,7 @@
         				</position>
         				<position place="intext" book_orientation="0">
         					<marginalia_text>
-        						| mora[e] impatientior.
+        						/ mora[e] impatientior.
         					</marginalia_text>
         				</position>
         				<position place="right_margin" book_orientation="0">
@@ -36,15 +39,15 @@
         				</position>
         				<position place="intext" book_orientation="0">
         					<marginalia_text>
-        						) Tacitana.		<!-- Peculiar use of parentheses. --> 
+        						) Tacitana.		 
         					</marginalia_text>
         					<person name="Tacitus"/>
         				</position>
         				<position place="right_margin" book_orientation="0">
         					<marginalia_text>
-        						Cui ) finitima Virgiliana in Aneide;		<!-- Peculiar use of parentheses. --> 
+        						Cui ) finitima Virgiliana in Aneide;	 
         						Ouidiana in Metamorphosi;
-        						) Senecana in			<!-- Peculiar use of parentheses. --> 
+        						) Senecana in			 
         					</marginalia_text>
         					<person name="Virgil"/>
         					<person name="Ovid"/>
@@ -63,9 +66,16 @@
         						&Ocirc; argumentosum iudicium. &Ocirc; diuina, et alata
         						sententiarum Celeritas. Solus stilus adamantinus.
         					</marginalia_text>
-        					<emphasis method="chalk"/>
+        					<emphasis method="chalk" type="straight"/>
         				</position>
         			</language>
+        			<translation>
+        				The virtue of being unable to stay in one place. The art of being unable to produce in one place.	<!-- CG: I am not confident about this. The first sentence is taken from Lucan, and I tried to have it make sense here. -->
+        				The more penetrating the art, the more intolerant of delay, especially like the art of Caesar, Sallust, Tacitus.
+        				To which the related art of Virgil in the Aeneid, Ovid in the Metamorphosis, Seneca in the Tragedies.
+        				Art is as readily flowing, as prudence is the most vigorous of all things. 	<!-- CG: I have no idea what this means. I assume 'ars' is understood for the adjective?-->
+        				O judgment rich in proof. O divine and winged speed of thoughts. Only an adamantine style.
+        			</translation>
         		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -77,6 +87,9 @@
     					<emphasis method="pen" type="straight" text="ex tempore"/> 
     				</position>
     			</language>
+    			<translation>
+    				Machiavelli, extemporizing.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="IT">
@@ -86,6 +99,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				ridiculous, and discreet.
+    			</translation>
     		</marginalia>
     		
     		<marginalia hand="Italian">
@@ -99,6 +115,9 @@
     					<person name="Virgil"/>    					
     				</position>
     			</language>
+    			<translation>
+    				Here he surpasses Caesar himself, and Virgil. 
+    			</translation>
     		</marginalia>
   
         
@@ -151,7 +170,9 @@
     			
 	    	<!-- Symbols: Asterisk|Bisected_circle|Crown|Crescent|JC|HT|LL|Mars|Mercury|Opposite_planets|Square|SS|Sun -->
 	      
-	    	<symbol name="SS" place="left_margin"/>
+    		<symbol name="SS" place="head"/>
+    		<symbol name="SS" place="left_margin"/>
+    		
     			
 	    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|straight_quotation_mark|tilde|triple_dash|vertical_bar|X_sign -->
 	    	
@@ -181,7 +202,7 @@
     		<mark name="vertical_bar" method="pen" place="intext"/> <!-- mancaua: una di -->
     		<mark name="dot" method="pen" place="intext"/> <!-- Nicolo', perche -->
     		<mark name="dot" method="pen" place="intext"/> <!-- indugiare, ripigliando -->
-    		<mark name="bracket" method="pen" place="intext" language="IT" text="Vulcan tir&ograv; la rete, &amp; prese a gitto Venere ignuda, &amp; Marte a ... ritto."/> 
+    		<mark name="bracket" method="pen" place="intext" language="IT" text="Vulcan tir&ograve; la rete, &amp; prese a gitto Venere ignuda, &amp; Marte a ... ritto."/> 
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- Venere ignuda -->
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- ... ritto. -->
     		<mark name="quotation_mark" method="pen" place="intext"/> <!-- O nella malhora -->

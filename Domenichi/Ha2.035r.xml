@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="Ha2.035r.tif" pagination="389" reader="Harvey"/>	<!-- ABO 039right -->
     	<annotation>
@@ -27,19 +26,25 @@
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						distinctio arguta. apophthegma iuridicum. <!--JG: Is there a black line after iuridicum, similar to the line after 'non est', another intext marginal note lower on the page? Could the two be connected?-->
+    						distinctio arguta. apophthegma iuridicum -
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				a clever distinction. a legal aphorism.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						Phi malus, et Lippus: totus malus ergo Philippus.	<!-- This appears to be a pun on the name Philip by the medieval Englishman Alexander Neckam. Should I cross ref this somehow? --> <!--JG: Can you link this to one of Neckam's books? If so, you could use the X-ref element-->
+    						Phi malus, et Lippus: totus malus ergo Philippus.
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Phi is bad, and so is Lippus: thus Phillipus is completely bad.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="EN">
@@ -56,24 +61,20 @@
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
     						Omne aurum non est, -
+    						Epigramma. 
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				All is not gold, -	<!-- CG: Incomplete proverb. Probably "Omne aurum non est, quod radiat." -->
+    				Epigram.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="intext" book_orientation="0">
     					<marginalia_text>
-    						Epigramma. <!--JG: probably part of previous marginal note since it ends with a comma?-->
-    					</marginalia_text>
-    				</position>
-    			</language>
-    		</marginalia>
-    		<marginalia hand="Italian">
-    			<language ident="LA">
-    				<position place="intext" book_orientation="0">
-    					<marginalia_text>
-    						) Tanta[e] expectationi satis faciendu[m]  <!--JG: Tanta[e]-->
+    						) Tanta[e] expectationi satis faciendu[m]  
     					</marginalia_text>
     					<emphasis method="chalk" type="straight"/>
     				</position>
@@ -83,16 +84,22 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Something must be earnestly done that is satisfactory of such great anticipation.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
     				<position place="tail" book_orientation="0">
     					<marginalia_text>
-    						non haberi, sed esse. Tycho.	<!-- I'm unclear whether this continues from somewhere else, possibly "Omne aurum non est, -", despite the difference in ink? --> <!--JG: Could be. There are a couple of marginal notes on this page that could be connected. See if it makes sense when you've translated them-->
+    						non haberi, sed esse. Tycho.	
     					</marginalia_text>
     					<person name="Tycho Brahe"/>
     				</position>
     			</language>
+    			<translation>
+    				Not to be possessed, but to be. Tycho.
+    			</translation>
     		</marginalia>
     		
         
@@ -115,6 +122,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				Noble Lord.
+    			</translation>
     		</marginalia>
     		
     		
@@ -128,6 +138,9 @@
     					<emphasis method="chalk" type="straight"/>
     				</position>
     			</language>
+    			<translation>
+    				The highest exercise of mind and body has been too relaxed thus far. 
+    			</translation>
     		</marginalia>
     		
 	    	<!-- Underlines -->

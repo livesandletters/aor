@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141023.xsd">
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 	<page filename="Ha2.024r.tif" pagination="367" reader="Harvey"/>	<!-- ABO 028right -->
     	<annotation>
@@ -13,16 +12,12 @@
     		
         		<marginalia hand="Italian">
         			<language ident="LA">
-            				<position place="head" book_orientation="0">
+            			<position place="head" book_orientation="0">
                     				<marginalia_text>
-                    					Ca[e]sar cibi, vini, somni parcissimus.
-                      				</marginalia_text>
-            					<person name="Julius Caesar"/>
-            				</position>
-        			</language>
-        		</marginalia>
-    		<marginalia hand="Italian">
-    			<language ident="LA">
+                    					Ca[e]sar cibi, vini, somni parcissimus. Maximeq[ue]
+                      			</marginalia_text>
+            				<person name="Julius Caesar"/>
+            			</position>
     				<position place="head" book_orientation="0">
     					<marginalia_text>
     						Maximeq[ue]
@@ -56,7 +51,14 @@
     					<person name="Julius Caesar"/>
     				</position>
     			</language>
+    			<translation>
+    				Caesar is most sparing in food, wine, and sleep. 
+    				And Caesar's walking is greater than all of Asclepius' exercises.
+    				Nor does he require other fasting, rubbing down, being carried, or the exercise of his joints and senses:
+    				for Caesar, a diet, walking, and daily sweat are the most honorable disciplines in the world.
+    			</translation>
     		</marginalia>
+    		
     		<marginalia hand="Italian">
     			<language ident="IT">
     				<position place="intext" book_orientation="0">
@@ -65,6 +67,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				An epitaph for a dog.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="EL">
@@ -74,6 +79,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				( because. ) <!-- CG: I'm not sure I understand why this is here. -->
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="LA">
@@ -83,6 +91,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				With the cause removed, the effect is removed.
+    			</translation>
     		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="EN">
@@ -102,6 +113,9 @@
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				a legal aphorism.
+    			</translation>
     		</marginalia>
     		
     		
@@ -109,11 +123,14 @@
     			<language ident="LA">
     				<position place="left_margin" book_orientation="90">
     					<marginalia_text>
-    						Solus mihi sapit Ca[e]sar, [--] Animi corporis, Fortuna regim[ine].  
+    						Solus mihi sapit Ca[e]sar, [--] Animi corporis, Fortuna regim[ine].  <!-- Word obscured by gutter. -->
     					</marginalia_text> 
     					<person name="Julius Caesar"/>
     				</position>
     			</language>
+    			<translation>
+    				Caesar alone is sensible for me, 	<!-- CG: I'm not exactly sure how to translate this. It's also possible that it's Fortuna[e]. -->
+    			</translation>
     		</marginalia>
         
 	    	<!-- Underlines -->
