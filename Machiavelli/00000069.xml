@@ -8,14 +8,14 @@
 <page filename="00000069.tif" pagination="xxviii[r]" reader="Harvey" signature="[Givi[r]]"/>
     <annotation>
     	<!-- Marginalia -->
-    	<marginalia hand="Italian">
+    	<marginalia hand="Italian"> <!--JG: you can tie this marginal note to the printed text-->
     		<language ident="LA">
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
     					Non ca[e]sim, sed punctim ferire, Tyrones docendi sunt:
     					sic Romani, orbis gloria, pugnare solebant. Vegetius.
     				</marginalia_text>
-    				<person name="Vegetius"/>
+    				<person name="Vegetius"/> 
     			</position>
     		</language>
     		<translation>
@@ -79,6 +79,7 @@
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="men exercised in armes"/>
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="the errours"/>
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="thinketh to haue learned to do"/>
+    	
     	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="counterfeit armours most heauie"/>
     	<mark name="hash" method="pen" place="right_margin"/>
     	<mark name="plus_sign" method="pen" place="right_margin"/>
