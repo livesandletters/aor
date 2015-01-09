@@ -8,11 +8,11 @@
 <page filename="00000074.tif" pagination="xxx[v]" reader="Harvey" signature="Hii[v]"/>
     <annotation>
     	<!-- Marginalia -->
-    	<marginalia hand="Italian">
+    	<marginalia hand="Italian"> <!--JG: link marginal note to underlined text-->
     		<language ident="EN">
     			<position place="left_margin" book_orientation="0">
     				<marginalia_text>
-    					A Legion, or Mainbattail: of VI M.	<!-- CG: How should I record this number, six thousand? -->.
+    					A Legion, or Mainbattail: of VI M.	<!-- CG: How should I record this number, six thousand? -->. <!--JG: Just leave it like this, that will suffice-->
     				</marginalia_text>
     			</position>
     		</language>
@@ -53,6 +53,7 @@
     	<mark name="hash" method="pen" place="left_margin" language="EN" text="moouing, and of place"/>
     	<mark name="hash" method="pen" place="left_margin" language="EN" text="vnderstande the sounds, by meanes"/>
     	<mark name="hash" method="pen" place="left_margin" language="EN" text="the whistell, what"/>
+    	<!--JG: there are 4, not five hash tags in the original document-->
     	<mark name="plus_sign" method="pen" place="tail" language="EN" text="the whistell, what"/>
     
     	<mark name="dot" method="pen" place="intext"/> <!-- men, amongest -->
