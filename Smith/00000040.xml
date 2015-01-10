@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+
+<page filename="oooooo40.tif" reader="Harvey" pagination="[17v]" signature="e.i.v"/>
+    <annotation>
+        <marginalia hand="Italian" anchor_text="duaru[m] vocalium">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Audomarus Tala[e]us Veliam, oppidum Lucania[e], άπό τά έλεος nomen habuisse refert, aspiratione
+                        in latina voce Versa in u vocalem.
+                        grammatici nostri u consonantem vocant.
+                        <!-- JE: can someone check the Greek please? -->
+                    </marginalia_text>   
+                    <person name="Omer Talon"/>
+                    <location name="Velia"/>
+                </position>
+            </language>
+            <translation>
+                Audomarus Talaeus reports that Velia, the city in Lucania, had the name άπό τά έλεος, with the aspiration 
+                turned in the Latin tongue into the vowel 'u'.
+                Our grammaticians call 'u' a consonant.
+            </translation>
+        </marginalia>
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        Si iu, in Juno diphthongus esset, esset, ut uidetur, in Virgiliano carmine σιωαλλοιφή. nisi forte 
+                        διαίρεσιν esse putemus, et J&uuml;no sonandum arbitremur, quod nemo vnq[uam] obseruauit. Sed qui in his 
+                        uocibus, aur&atiled;, aqu&atiled;, aul&atiled;i, pict&atiled;i, tam audacem, ut ita dicam, ferit 
+                        διαίρεσιν, potuit etiam eadem licentia J&uuml;no dicere.
+                        <!-- JE: Again, help with the Greek please! -->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                If the 'iu' in 'Iuno' were a diphthong, it would - as is clear - be σιωαλλοιφή in the Virgilian hymn. But we may
+                suppose it to be διαίρεσιν and judge that it is to be sounded 'Juno', something that no-one has previously 
+                observed. But one who, if I may say, would be so bold as to make διαίρεσιν of these vowels - aur&atiled;, 
+                aqu&atiled;, aul&atiled;i, pict&atiled;i - he could with the same wantonness say 'Juno'.
+                <!-- JE: I suspect that my translation is missing something, due to my lack of Greek. -->
+            </translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="duaru[m] vocalium"/>
+        
+        <mark name="est_mark" method="pen" place="intext" language="LA" text="duaru[m] vocalium"/>
+        <mark name="est_mark" method="pen" place="left_margin" language="LA" text="duaru[m] vocalium"/>
+        
+    </annotation>
+</transcription>
