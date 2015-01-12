@@ -6,7 +6,7 @@
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
 <page filename="00000089.tif" pagination="xxxviii[r]" reader="Harvey" signature="Kii[r]"/>
-	<!-- CG: Pagination seems to be off, should be xxxiii, but it's xxxii again. -->
+	<!-- CG: Pagination seems to be off, should be xxxiii, but it's xxxii again. --> <!--JG: You can put that remark in comment field, but page attribute should reflect nr of orginal source, even when not correct-->
 	
     <annotation>
     	<!-- Marginalia -->
@@ -61,8 +61,8 @@
     	<!-- Marks -->
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="for guides"/>
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="well ordered, commaundeth to"/>    	
-    	<mark name="straight_quotation_mark" method="pen" place="right_margin" language="EN" text="proceadeth with the time of"/>
-    	<mark name="straight_quotation_mark" method="pen" place="right_margin" language="EN" text="not disorder"/>
+    	<mark name="straight_quotation_mark" method="pen" place="right_margin" language="EN" text="proceadeth with the time of"/> <!--JG: I'd tag this as a double vertical bar-->
+    	<mark name="straight_quotation_mark" method="pen" place="right_margin" language="EN" text="not disorder"/>  <!--JG: I'd tag this as a double vertical bar-->
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="inflame, or quiete, or staie the mindes"/>
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="sounde Dorico"/>    	
     	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="that teache the Souldiour to obeye"/>
@@ -72,7 +72,7 @@
     	<mark name="hash" method="pen" place="intext" language="EN" text="life enough"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- Drumme, the -->
     	<mark name="dot" method="pen" place="intext"/> <!-- erre, even -->
-    	<mark name="hash" method="pen" place="intext" language="EN" text="it kindled so"/>
+    	<mark name="hash" method="pen" place="intext" language="EN" text="it kindled so"/> <!--JG: Plus instead of hash, no?-->
     	
     </annotation>
 </transcription>
