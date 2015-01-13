@@ -80,7 +80,7 @@
     			</position>
     		</language>
     		<translation>
-    			) a philosopher, a lover of the self. 	<!-- CG: 'philautus' is the Latin form of the Greek, which means either 'self-lover' or 'selfish.' It also seems to be the name of a character, although here the word is not capitalized. Unsure of best choice.--> <!--JG: Tricky one, but since it's not capitalized, I think we should stick to your current translation. By the way, you can start the translation with a capital 'A', since the translation is based on modern spelling & use of punctuation etc-->-->
+    			) A philosopher, a lover of the self. 	
     		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
@@ -93,7 +93,7 @@
     			</position>
     		</language>
     		<translation>
-    			One life life belongs to me: the fifth essence of valor; <!--JG: Should 'One' be put in between brackets, since we have inferred this from other similar marginal comments?-->
+    			One life belongs [to me]: the fifth essence of valor;
     			[-], virtue, powerful increased action. }
     		</translation>
     	</marginalia>
@@ -116,34 +116,18 @@
     			</position>
     			<position place="intext" book_orientation="270">
     				<marginalia_text>
-    					Euschemosyne,    <!-- These do not seem to be names of people, as the first is Greek for "decorum," however I can't figure out "Fronismo," although the Greek root seems easy enough to guess. --> <!--JG: I'll ask the group-->
+    					Euschemosyne,    
     					et
     					Fronismo.
     				</marginalia_text>
     			</position>
     		</language>
     		<translation>
-    			the whole thing in its entirety. Especially with Refinement and Prudence. <!--JG: Start with 'The' (use capital)-->
+    			The whole thing in its entirety. Especially with Refinement and Prudence. 
     		</translation>
-    	</marginalia> <!--JG: use numeral element to capture this-->
-    	<marginalia hand="Italian">
-    		<language ident="LA">
-    			<position place="left_margin" book_orientation="0">
-    				<marginalia_text>
-    					2.
-    				</marginalia_text>
-    			</position>
-    		</language>
-    	</marginalia>
-    	<marginalia hand="Italian"> <!--JG: use numeral element to capture this-->
-    		<language ident="LA">
-    			<position place="left_margin" book_orientation="0">
-    				<marginalia_text>
-    					3.
-    				</marginalia_text>
-    			</position>
-    		</language>
-    	</marginalia>
+    	</marginalia> 
+
+
         
         <!-- Underlines -->
         
@@ -211,6 +195,15 @@
     	
     	<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Middle of page to the left -->
     	<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Bottom of page to the left -->
+    	
+    	
+    	
+    	<numeral place="left_margin" text="l'altra donna">
+    		2.
+    	</numeral>
+    	<numeral place="left_margin" text="la terza">
+    		3.
+    	</numeral>
     	
 
     </annotation>
