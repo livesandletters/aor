@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    
+<page filename="00000095.tif" reader="Harvey"/>
+    <annotation>
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        In tres libros dispertita.
+                        Commentarium vocat su[um?], 7.b.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Divided into three books.
+                He calls his commentary 7.b. 
+                <!-- JE: not sure what this means. -->
+            </translation>
+        </marginalia>
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        GHaruius.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                G. Harvey.
+            </translation>
+        </marginalia>
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        Smithi Gallica, et Italica Peregrinatio.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Smith's journey through France and Italy.
+            </translation>
+        </marginalia>
+        
+        <mark name="horizontal_bar" method="chalk" place="right_margin"/>
+    </annotation>
+</transcription>
