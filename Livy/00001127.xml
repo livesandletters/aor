@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
     
-    <page filename="00001127.tif" signature="Y[4r]" reader="Harvey" />
+    <page filename="00001127.tif" signature="Y[4r]" reader="Harvey" /> <!--JG: Here Y 4 is printed, so only the 'r' is inferred. Should be: Y4[r]-->
     <annotation>
         
         <marginalia hand="Italian">
@@ -16,7 +16,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation> Prodigious Index
+            <translation> Prodigious Index.
             </translation>
         </marginalia>
         
@@ -25,9 +25,9 @@
         <underline method="pen" type="straight" language="LA" text="consederunt Cassini in foro"/>
         <underline method="pen" type="straight" language="LA" text="Lacte pluit"/>
         
-        <mark name="plus_sign" method="pen" place="left_margin"/> <!--Apum examina Romae uisa-->
+        <mark name="plus_sign" method="pen" place="left_margin"/> <!--Apum examina Romae uisa--> <!--JG: I'd include this in the text attribute of the mark element-->
         
-        <mark name="plus_sign" method="pen" place="right_margin"/> <!--Laurea in nauis puppi nascitur-->
+        <mark name="plus_sign" method="pen" place="right_margin"/> <!--Laurea in nauis puppi nascitur--> <!--JG: I'd include this in the text attribute of the mark element-->
         
     </annotation>
 </transcription>
