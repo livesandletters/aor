@@ -37,10 +37,10 @@
                     <person name="Alexander the Great" />
                     <person name="Pyrrhus of Epirus" />
                     <person name="Agesilaus II" />
-                    <person name="Evagoras" />
-                    <person name="Eumenes" />
+                    <!--Unclear which Evagoras Harvey is talking about-->
+                    <person name="Eumenes of Cardia" />
                     <person name="Jugurtha" />
-                    <person name="Mithridates" />
+                    <person name="Mithridates VI of Pontus" /> <!--Probably Harvey is mentioning this person, since he does so elsewhere in the Livy-->
                     <X-ref person="Virgil" book_title="Aeneid"/>
                 </position>
             </language>
@@ -100,19 +100,19 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Duo autem Roman&AElig; histori&AElig; doctissimi, et diligentissimi scriptores, Dionysius, et Livius. Quod attinet ad res, et tempora, 
-                        Dionysii antefero diligentiam: verba a Livio malo repetere, et sententias. Neq[ue] enim minima histori&AElig;, ipsiusq[ue] iurisprudentiae 
-                        Roman&AElig; pars, visq[ue] sita est in ipsis formulis; quas ubiq[ue] Livius diserte recitat, atq[ue] adeo religiose: Dionysius, et 
-                        reliqui Graeci sua lingua exprimere non possent, ne si vellent quidem maxime. Unde Politicum decet, in primisq[ue] iurisconsultum, 
-                        Livianae phrasis maxime omnium esse observantem: ut postea Tacite&AElig;. In qua Roman&AElig; prudenti&AElig;, et fortitudinis; temperanti&AElig; 
-                        etiam, et iustitiae proprius quidam vigor, visq[ue] nervosa, vividius mihi videtur efflorescere, adeoq[ue] fertilius maturescere. 
-                        Doctor Gentilis totus est Livianus: ut Lipsius fere Taciteus. Ambo sapiunt: sed uterq[ue] coniunctus, varieq[ue] coagmentatus plus 
-                        valeret. T&AElig;det omnis sine varietate excellenti&AElig;: et philosophi est, plura bona paucioribus anteponere.
+                        Duo autem Romana[e] historia[e] doctissimi, et diligentissimi scriptores, Dionysius, et Liuius. Quod attinet ad res, et tempora, 
+                        Dionysij antefero diligentiam: verba &agrave; Liuio malo repetere, et sententias. Neq[ue] enim minima historia[e], ipsiusq[ue] iurisprudentia[e] 
+                        Romana[e] pars, visq[ue] sita est in ipsis formulis; quas vbiq[ue] Liuius diserte recitat, atq[ue] adeo religios&egrave;: Dionysius, et 
+                        reliqui Gra[e]ci sua lingua exprimere non possent, n&eacute; si vellent quidem maxim&egrave;. Vnde Politicum decet, in primisq[ue] iurisconsultum, 
+                        Liuiana[e] phrasis maxim&egrave; omnium esse observantem: vt postea Tacitea[e]. In qua Romana[e] prudentia[e], et fortitudinis; temperantia[e] 
+                        etiam, et iustitia[e] proprius quidam vigor, visq[ue] neruosa, vividi&ugrave;s mihi videtur efflorescere, ade&oacute;q[ue] fertili&ugrave;s maturescere. 
+                        Doctor Gentilis totus est Liuianus: ut Lipsius fer&egrave; Taciteus. Ambo sapiunt: sed vterq[ue] coniunctus, varieq[ue] coagmentatus plus 
+                        valeret. Ta[e]det omnis sine varietate excellentia[e]: et philosophi est, plura bona paucioribus anteponere.
                     </marginalia_text>
-                    <person name="Dionysius" />
+                    <person name="Dionysus of Halicarnassus" />
                     <person name="Livy" />
                     <person name="Tacitus" />
-                    <person name="Gentili" />
+                    <person name="Alberico Gentili" />
                     <person name="Lipsius" />
                 </position>
             </language>
@@ -121,9 +121,9 @@
                 Dionysius’ attentiveness more highly; I prefer to repeat the words and thoughts of Livy. For in these very formulas lies quite a big part of 
                 Roman history and of jurisprudence itself, which Livy recites dexterously and indeed religiously. Dionysius and the other Greeks could not 
                 have expressed them in their language, even if they had very much wanted to do so. And for this reason it is appropriate for the politician, 
-                and especially the jurisconsult, to be attentive most of all to Livy’s diction, just like afterwards to that of Tacitus. In this a particular 
+                and especially the lawyer, to be attentive most of all to Livy’s diction, just like afterwards to that of Tacitus. In this a particular 
                 vitality and powerful force of Roman prudence and courage, of restraint also and of justice seems to me to flourish in quite a lively way, 
-                and indeed to come to maturity in a very fruitful manner. Doctor Gentili is completely of Livy, just as Lipsius more or less of Tacitus. 
+                and indeed to come to maturity in a very fruitful manner. Doctor Gentili is completely of Livy, just as Lipsius more or less of Tacitus.
                 Both are wise, but each of them is stronger when connected and in various ways fastened together. Without variety every form of excellence 
                 makes weary, and it is the task of the philosopher to place a greater quantity of excellence before a smaller one.
             </translation>
@@ -136,7 +136,7 @@
         <underline method="pen" type="straight" language="LA" text="Vitellio"/>
         <underline method="pen" type="straight" language="LA" text="Tiberius Nero Caesar"/>
         <underline method="pen" type="straight" language="LA" text="Germanicus Caesar"/>
-        <underline method="pen" type="straight" language="LA" text="T.Liu&uuml; historiographi mors"/>
+        <underline method="pen" type="straight" language="LA" text="T.Liuij historiographi mors"/>
         <underline method="pen" type="straight" language="LA" text="Valerius Messala"/>
         <underline method="pen" type="straight" language="LA" text="Aurelius Cotta"/>
         
@@ -154,8 +154,8 @@
         <mark name="dot" method="pen" place="intext"/> <!--Messala-->
         <mark name="dot" method="pen" place="intext"/> <!--Cotta-->
         
-        <mark name="plus_sign" method="pen" place="intext"/> <!--Caesar III-->
-        <mark name="plus_sign" method="pen" place="intext"/> <!--Caesar II-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tiberius Nero"/> 
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Germanicus Caesar"/> 
         
     </annotation>
 </transcription>
