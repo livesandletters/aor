@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    
+    <page filename="00001075.tif" signature="S(2r)" reader="Harvey" />
+    <annotation>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text> 
+                        C&AElig;sar, Imperator
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Caesar as commander
+            </translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="Tullius Cicero"/>
+        <underline method="pen" type="straight" language="LA" text="Cicero"/>
+        <underline method="pen" type="straight" language="LA" text="ne co[n]sule"/>
+        <underline method="pen" type="straight" language="LA" text="Catilinae coniuratio"/>
+        <underline method="pen" type="straight" language="LA" text="C.Antonius"/>
+        <underline method="pen" type="straight" language="LA" text="C.Iulius Caesar"/>
+        <underline method="pen" type="straight" language="LA" text="Magnus II"/>
+        <underline method="pen" type="straight" language="LA" text="Crassus II"/>
+        <underline method="pen" type="straight" language="LA" text="Domitius Aenobarbus"/>
+        <underline method="pen" type="straight" language="LA" text="Claudius Pulcher"/>
+        <underline method="pen" type="straight" language="LA" text="Magnus III solus"/>
+        <underline method="pen" type="straight" language="LA" text="Caesar II"/>
+        <underline method="pen" type="straight" language="LA" text="primus singulare imperiu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Caesar III"/>
+        <underline method="pen" type="straight" language="LA" text="Caesar IIII solus"/>
+        
+        <symbol name="SS" place="intext"/><!--Caesar-->
+        <symbol name="SS" place="intext"/><!--solus-->
+        
+        <mark name="quotation_mark" method="pen" place="intext"/> <!--M.Tullius-->
+        <mark name="equal_sign" method="pen" place="right_margin"/> <!--Cicero-->
+        <mark name="equal_sign" method="pen" place="intext"/> <!--Caesar-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--singulare-->
+        <mark name="comma" method="pen" place="intext"/> <!--solus-->
+        
+    </annotation>
+</transcription>
+
