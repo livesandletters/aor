@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
     
-    <page filename="00001053.tif" signature="Q 3[r]" reader="Harvey" />
+    <page filename="00001053.tif" signature="Q3[r]" reader="Harvey" />
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="CONSVLES"/>
@@ -25,7 +25,8 @@
         <underline method="pen" type="straight" language="LA" text="Tullius nomen"/>
         <underline method="pen" type="straight" language="LA" text="Tullus cognomen"/>
         
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!--JG: I'd link this mark to the underlined text-->
+        <mark name="plus_sign" method="pen" place="intext"/> 
         
     </annotation>
 </transcription>
