@@ -5,19 +5,19 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
     
-    <page filename="00001075.tif" signature="S(2r)" reader="Harvey" />
+    <page filename="00001075.tif" signature="S(2r)" reader="Harvey" /> <!--JG: Only 'r' should be put in (square) brackets, since S2 is printed in the original-->
     <annotation>
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="tail" book_orientation="0">
+                <position place="tail" book_orientation="0"> <!--JG: Position is right margin-->
                     <marginalia_text> 
-                        C&AElig;sar, Imperator
+                        Ca[e]sar, Imperator.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Caesar as commander
+                Caesar as commander.
             </translation>
         </marginalia>
         
@@ -39,11 +39,12 @@
         
         <symbol name="SS" place="intext"/><!--Caesar-->
         <symbol name="SS" place="intext"/><!--solus-->
+        <!--JG: I think you've missed one SS symbol, next to the note in the right margin-->
         
-        <mark name="quotation_mark" method="pen" place="intext"/> <!--M.Tullius-->
-        <mark name="equal_sign" method="pen" place="right_margin"/> <!--Cicero-->
-        <mark name="equal_sign" method="pen" place="intext"/> <!--Caesar-->
-        <mark name="plus_sign" method="pen" place="intext"/> <!--singulare-->
+        <mark name="quotation_mark" method="pen" place="intext"/> <!--M.Tullius--> <!--JG: I'd also include the underlined text in the text attribute of the mark element-->
+        <mark name="equal_sign" method="pen" place="right_margin"/> <!--Cicero--> <!--JG: I'd also include the underlined text in the text attribute of the mark element-->
+        <mark name="equal_sign" method="pen" place="intext"/> <!--Caesar--> <!--JG: I'd also include the underlined text in the text attribute of the mark element-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--singulare--> <!--JG: I'd also include the underlined text  (all the three words) in the text attribute of the mark element-->
         <mark name="comma" method="pen" place="intext"/> <!--solus-->
         
     </annotation>
