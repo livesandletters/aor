@@ -34,18 +34,19 @@
         <underline method="pen" type="straight" language="LA" text="Antistius Vetus"/>
         <underline method="pen" type="straight" language="LA" text="Octauianus Augustus XII"/>
         <underline method="pen" type="straight" language="LA" text="Sylla"/>
-        <underline method="pen" type="straight" language="LA" text="Lentulus"/> <!--JG: Also underlined: CHRISTI natalis', dotted underlining!-->
+        <underline method="pen" type="straight" language="LA" text="Lentulus"/>
+        <underline method="pen" type="dotted" language="LA" text="CHRISTI natalis"/>
         <underline method="pen" type="straight" language="LA" text="Vinitius"/>
         <underline method="pen" type="straight" language="LA" text="Cinna Magnus"/>
         <underline method="pen" type="straight" language="LA" text="Furius Camillus"/>
         <underline method="pen" type="straight" language="LA" text=""/>
         
-        <symbol name="SS" place="intext"/><!--Augustus XII--> <!--JG: I'd link this symbol to the underlined text-->
+        <symbol name="SS" place="intext" language="LA" text="Octauianus Augustus XII"/>
         <symbol name="SS" place="intext"/>
         
         <mark name="dot" method="pen" place="intext"/> <!--Virgilium-->
-        <mark name="plus_sign" method="pen" place="intext"/> <!--Nero--> <!--JG: I'd link this mark to the underlined text-->
-        <mark name="plus_sign" method="pen" place="intext"/> <!--Nero--> <!--JG: I'd link this symbol to the underlined text-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tiberius Nero"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Drusus Nero"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         

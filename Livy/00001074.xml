@@ -5,32 +5,32 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
     
-    <page filename="00001074.tif" signature="S(1v)" reader="Harvey" /> <!--JG: Use square brackets instead. S[1v]-->
+    <page filename="00001074.tif" signature="S[1v]" reader="Harvey" />
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="Bellum Sociale"/>
         <underline method="pen" type="straight" language="LA" text="Cn.Pompeius Strabo"/>
         <underline method="pen" type="straight" language="LA" text="Portius Cato"/>
-        <underline method="pen" type="straight" language="LA" text="Magni Pome&uuml; pater"/> <!--JG: This is not an u + umlaut, but 'ij'-->
+        <underline method="pen" type="straight" language="LA" text="Magni Pomeij pater"/>
         <underline method="pen" type="straight" language="LA" text="Cornelius Sylla"/>
-        <underline method="pen" type="straight" language="LA" text="Nepos VII"/> <!--JG: I'd include Marius as well, since it's partly underlined-->
+        <underline method="pen" type="straight" language="LA" text="Magni Pomeij pater"/>
         <underline method="pen" type="straight" language="LA" text="Cinna IIII"/>
-        <underline method="pen" type="straight" language="LA" text="Marn filius"/> <!--JG: Should be Marij instead of Marn-->
+        <underline method="pen" type="straight" language="LA" text="Marij filius"/>
         <underline method="pen" type="straight" language="LA" text="Cornelius Sylla II"/>
         <underline method="pen" type="straight" language="LA" text="L."/>
         <underline method="pen" type="straight" language="LA" text="Lucullus"/>
         <underline method="pen" type="straight" language="LA" text="huius Luculli meminit"/>
         <underline method="pen" type="straight" language="LA" text="Pompeius Magnus"/>
         
-        <symbol name="SS" place="intext"/><!--H. GLAREANI--> <!--JG: You can leave the comment out, symbol is clearly visible-->
-        <symbol name="SS" place="intext"/><!--Sylla--> <!--JG: I'd put Cornelius Sylla in the text attribute, since in this case we can link the symbol to the (underlined) printed text. Also state the language (of the printed text) in the language attribute-->
-        <symbol name="SS" place="intext"/><!--Nepos VII--> <!--JG: Idem-->
+        <symbol name="SS" place="intext"/>
+        <symbol name="SS" place="intext" language="LA" text="Cornelius Sylla"/>
+        <symbol name="SS" place="intext" language="LA" text="Marius Nepos VII"/>
         <symbol name="SS" place="tail"/>
         
-        <mark name="plus_sign" method="pen" place="intext"/> <!--Magni--> <!--JG: I think you can link all the marks to the underlined text next to which they are standing-->
-        <mark name="plus_sign" method="pen" place="intext"/> <!--filius-->
-        <mark name="equal_sign" method="pen" place="intext"/> <!--Lucullus-->
-        <mark name="equal_sign" method="pen" place="intext"/> <!--Magnus-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Magni Pomeij pater"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Marij filius"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Lucullus"/> 
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Pompeius Magnus"/>
         
     </annotation>
 </transcription>
