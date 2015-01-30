@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    
+    <page filename="00001038.tif" reader="Harvey" />
+    <annotation>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text> 
+                       ut omnes &AElig;gyptii reges, Pharaones. 
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+               just as all Egyptian kings are called Pharaos.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text> 
+                        Saul. 
+                    </marginalia_text>
+                <person name="Saul"/>
+                </position>
+            </language>
+            <translation>
+                Saul.
+            </translation>
+        </marginalia>
+        
+        <underline method="pen" type="dotted" language="LA" text="tricesimus secundus"/>
+        <underline method="pen" type="dotted" language="LA" text="Troia capta"/>
+        <underline method="pen" type="dotted" language="LA" text="nouam coepit"/>
+        <underline method="pen" type="dotted" language="LA" text="Albam"/>
+        <underline method="pen" type="dotted" language="LA" text="nouercae Lauinium."/>
+        <underline method="pen" type="dotted" language="LA" text="Amazones"/>
+        <underline method="pen" type="dotted" language="LA" text="omnes reges"/>
+        <underline method="pen" type="dotted" language="LA" text="Albani Syluij."/>
+        <underline method="pen" type="dotted" language="LA" text="primus rex"/>
+        <underline method="pen" type="dotted" language="LA" text="Lacedaemonios"/>
+        <underline method="pen" type="dotted" language="LA" text="altera regia familia"/>
+        <underline method="pen" type="dotted" language="LA" text="Cleomenes"/>
+        <underline method="pen" type="dotted" language="LA" text="Leonidas"/>
+        <underline method="pen" type="dotted" language="LA" text="exercutum inuasit"/>
+        
+        <symbol name="SS" place="intext"/>
+        <symbol name="SS" place="intext"/>
+        <symbol name="SS" place="intext" language="LA" text="exercutum inuasit"/>
+        
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Albam"/> <!-- LS, I don't need to note the vertical bar, correct? -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="nouercae Lauinium."/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Albani Syluij."/> <!-- LS, I don't need to note the vertical bar, correct? -->
+        <mark name="dash" method="pen" place="right_margin"/> <!--pri-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="altera regia familia"/>
+        
+    </annotation>
+</transcription>
+
