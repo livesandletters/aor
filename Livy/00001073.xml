@@ -14,13 +14,13 @@
                     <marginalia_text> 
                        Maximarum rerum negocia, post Marium Cons. et Roma 
                     </marginalia_text>
-                    <person name="Gaius Marius" /> <!--LS, not sure if it's this one or 'the younger'--><!--JG: I think it should be this one!-->
+                    <person name="Gaius Marius" />
                 </position>
             </language>
             <language ident="EL">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        [en akmei] <!--LS, need Chris to put in Greek characters-->
+                        [en akmei] <!--Chris, please put in Greek characters-->
                     </marginalia_text>
                 </position>
             </language>
@@ -33,7 +33,7 @@
         <underline method="pen" type="straight" language="LA" text="Iugurthinum bellum"/>
         <underline method="pen" type="straight" language="LA" text="Calphurnius Bestia"/>
         <underline method="pen" type="straight" language="LA" text="Caecilius Metellus Numidicus"/>
-        <underline method="pen" type="straight" language="LA" text="uicit enim Numidia[m]"/> <!--LS,is this a location that should be added?--><!--JG: No, we only add location if Harvey mentions a place in one of his marginal notes-->
+        <underline method="pen" type="straight" language="LA" text="uicit enim Numidia[m]"/>
         <underline method="pen" type="straight" language="LA" text="Luculli auunculus"/>
         <underline method="pen" type="straight" language="LA" text="C.Marius Nepos"/>
         <underline method="pen" type="straight" language="LA" text="C.Marius Nepos"/>
@@ -43,11 +43,11 @@
         <underline method="pen" type="straight" language="LA" text="C.Marius Nepos VI"/>
         <underline method="pen" type="straight" language="LA" text="Mutius Scaeuola"/>
         
-        <symbol name="SS" place="intext"/> <!--JG: I'd link this symbol to the printed text-->
+        <symbol name="SS" place="intext" language="LA" text="C.Marius Nepos"/>
         <symbol name="JC" place="intext"/>
         
-        <mark name="plus_sign" method="pen" place="intext"/> <!--JG: I'd link this mark to the printed text-->
-        <mark name="plus_sign" method="pen" place="intext"/><!--JG: I'd link this mark to the printed text-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Caecilius Metellus Numidicus"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Luculli auunculus"/>
         <mark name="comma" method="pen" place="intext"/>
         
     </annotation>
