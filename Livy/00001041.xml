@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        David. Nulli heroicorum Regum secundus: sed Achike tanto iunior
+                        David. Nulli heroicorum Regum secundus: sed Achille tant&ograve; iunior
                     </marginalia_text>
                 <person name="King David"/>
                 <person name="Achilles"/>    
@@ -23,30 +23,30 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!--JG: I'd link this marginal note to the printed text-->
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
-                       Ephesi templu[m], succensum s[upra] 
+                       Ephesi templu[m], succensum s[upra] <!--JG: This we transcribe differently: s[upr]a-->
                     </marginalia_text>
-                    <location name="Ephesus"/> <!--LS, this is not on the location list. Should it be added? Doesn't look like I can amend the list myself-->
+                    <location name="Ephesus"/> <!--LS, this is not on the location list. Should it be added? Doesn't look like I can amend the list myself--><!--JG: You should be able to. Try to add this location, if it doesn't work, let me know-->
                 </position>
             </language>
             <translation>
-                The temple at Ephesus, set alight, above
+                The temple at Ephesus, set alight, above.
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Amazonum"/>
         <underline method="pen" type="straight" language="LA" text="incursus in"/>
-        <underline method="pen" type="straight" language="LA" text="bu Iuda"/>
+        <underline method="pen" type="straight" language="LA" text="bu Iuda"/> <!--JG: should be 'tribu'-->
         <underline method="pen" type="straight" language="LA" text="Ephesus condita"/>
         <underline method="pen" type="straight" language="LA" text="Carthago condita"/>
         
         <symbol name="SS" place="intext" language="LA" text="incursus in"/>
         
-        <mark name="plus_sign" method="pen" place="intext"/> <!--LS, should I link this to the marginal note somehow?-->
-        <mark name="dot" method="pen" place="intext"/> <!--posui [over comma]--> <!--LS, is this actually errata, correcting punctuation? I keep seeing dots over commas!-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--LS, should I link this to the marginal note somehow?--> <!--JG: No, that's not necessary-->
+        <mark name="dot" method="pen" place="intext"/> <!--posui [over comma]--> <!--LS, is this actually errata, correcting punctuation? I keep seeing dots over commas!--><!--JG: We tag this as a dot mark, rather than using the errata tag-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Carthago condita"/>
         
     </annotation>
