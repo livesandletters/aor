@@ -12,16 +12,16 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
-                       ut omnes &AElig;gyptii reges, Pharaones. 
+                       ut omnes &AElig;gyptij reges, Pharaones. 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-               just as all Egyptian kings are called Pharaos.
+              Just as all Egyptian kings are called Pharaos.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!--JG: You can link this to the printed text-->
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
@@ -54,11 +54,12 @@
         <symbol name="SS" place="intext"/>
         <symbol name="SS" place="intext" language="LA" text="exercutum inuasit"/>
         
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Albam"/> <!-- LS, I don't need to note the vertical bar, correct? -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Albam"/> <!-- LS, I don't need to note the vertical bar, correct? --><!--JG: I'd note it in this case-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="nouercae Lauinium."/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Albani Syluij."/> <!-- LS, I don't need to note the vertical bar, correct? -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Albani Syluij."/> <!-- LS, I don't need to note the vertical bar, correct? --> <!--JG: I'd note it in this case-->
         <mark name="dash" method="pen" place="right_margin"/> <!--pri-->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="altera regia familia"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="altera regia familia"/> <!--JG: I wouldn't link this to the printed text, since the word altera isn't underlined-->
+        <!--JG: There's a dot after familia-->
         
     </annotation>
 </transcription>
