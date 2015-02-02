@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
@@ -6,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
     
-    <page filename="00001039.tif" signature="P 2[r]" reader="Harvey" />
+    <page filename="00001039.tif" signature="P2[r]" reader="Harvey" />
     <annotation>
         
         <marginalia hand="Italian">
@@ -22,13 +21,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!--JG: You can link this to the underlined word in the printed text (Samson)-->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
                         Samson.
                     </marginalia_text>
-                    <person name="Samson"/> <!--LS, this is not on the person list. Should it be added? Doesn't look like I can amend the list myself-->
+                    <person name="Samson"/> <!--LS, this is not on the person list. Should it be added? Doesn't look like I can amend the list myself--><!--JG: You can add Samson to the list-->
                 </position>
             </language>
             <translation>
@@ -40,7 +39,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Eiusdem Chronologia[e] Index alphabeticus s[upra].
+                        Eiusdem Chronologia[e] Index alphabeticus s[upra]. <!--JG: Transcribe as s[upr]a-->
                     </marginalia_text>
                 </position>
             </language>
@@ -51,16 +50,16 @@
         
         <underline method="pen" type="dotted" language="LA" text="CHRONOLOGIA"/>
         <underline method="pen" type="straight" language="LA" text="CHRONOLOGIA"/>
-        <underline method="pen" type="straight" language="LA" text="in omnem Omanam historiam"/>
+        <underline method="pen" type="straight" language="LA" text="in omnem Romanam historiam"/>
         <underline method="pen" type="straight" language="LA" text="Halicarnassei"/>
         <underline method="pen" type="straight" language="LA" text="T. Liuij"/>
-        <underline method="pen" type="straight" language="LA" text="Iustinianum Ca[e]sarem"/>
+        <underline method="pen" type="straight" language="LA" text="Iustinianum Caesarem"/>
         <underline method="pen" type="straight" language="LA" text="quindecim reges Latinorum"/>
         <underline method="pen" type="straight" language="LA" text="septemq[ue] Romanorum"/>
         <underline method="pen" type="straight" language="LA" text="Deinde Coss"/>
         <underline method="pen" type="straight" language="LA" text="Decemuiros"/>
         <underline method="pen" type="straight" language="LA" text="Tribunos militum"/>
-        <underline method="pen" type="straight" language="LA" text="Cesares"/>
+        <underline method="pen" type="straight" language="LA" text="Cesares"/> <!--JG: Transcribed as C[a]esares-->
         <underline method="pen" type="straight" language="LA" text="regibus Hebraeorum"/>
         <underline method="pen" type="straight" language="LA" text="Iudae ac Israel"/>
         <underline method="pen" type="straight" language="LA" text="Medorum"/>
@@ -68,15 +67,16 @@
         <underline method="pen" type="straight" language="LA" text="Macedonum"/>
         <underline method="pen" type="straight" language="LA" text="PRIMVS hic post captam Troiam"/>
         <underline method="pen" type="straight" language="LA" text="per Hellespontum in Thraciam profecti Troiani duce Aenea"/>
-        <underline method="pen" type="straight" language="LA" text="in Sicilia"/>
-        <underline method="pen" type="straight" language="LA" text="cum rege Latino foedere"/>
+        <underline method="pen" type="straight" language="LA" text="in Sicilia per"/>
+        <underline method="pen" type="straight" language="LA" text="icto cum rege Latino foedere"/>
+        <underline method="pen" type="straight" language="LA" text="Lauinium condere"/>
         <underline method="pen" type="straight" language="LA" text="Aeneas solis Troianis imperat"/>
         <underline method="pen" type="straight" language="LA" text="matrimonium Lauinia Latini regis"/>
         <underline method="pen" type="straight" language="LA" text="Latinus rex pugna, qua"/>
         <underline method="pen" type="straight" language="LA" text="ducum Turnum, ipse cum"/>
         <underline method="pen" type="straight" language="LA" text="occiditur"/>
         <underline method="pen" type="straight" language="LA" text="regnum iure belli affinitatisq[ue] ad Aeneam uenit"/>
-        <underline method="pen" type="straight" language="LA" text="Latinis"/>
+        <underline method="pen" type="straight" language="LA" text="Latinis imperauit"/>
         <underline method="pen" type="straight" language="LA" text="AENEAS"/>
         <underline method="pen" type="straight" language="LA" text="Latinorum rex"/>
         <underline method="pen" type="straight" language="LA" text="quartus erat post Latini"/>
@@ -87,32 +87,34 @@
         <underline method="pen" type="straight" language="LA" text="Ascanius secundus"/>
         <underline method="pen" type="straight" language="LA" text="Samson"/>
         
-        <symbol name="SS" place="head"/>
+        <symbol name="SS" place="head"/> <!--JG: I'd link this to CHRONOLOGIA-->
         <symbol name="SS" place="left_margin" language="LA" text="regibus Hebraeorum"/>
-        <symbol place="right_margin" name="JC"/>
+        <symbol place="right_margin" name="JC"/> <!--JG: I'd link this to 'iure belli-->
         
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="in omnem Omanam historiam"/>
-        <mark name="dash" method="pen" place="intext"/> <!--histo-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="in omnem Romanam historiam"/>
+        <mark name="dash" method="pen" place="intext"/> <!--histo--> <!--JG: This should be right margin-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="quindecim reges Latinorum"/>
-        <mark name="dot" method="pen" place="intext"/> <!--aduentum [over comma]--> <!--LS, errata, punctuation? -->
+        <mark name="dot" method="pen" place="intext"/> <!--aduentum [over comma]--> 
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="septemq[ue] Romanorum"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Deinde Coss"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Coss"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Decemuiros"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tribunos militum"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Cesares"/>
-        <mark name="dot" method="pen" place="intext"/> <!--Cesares [over comma]--> <!--LS, errata, punctuation? -->
-        <mark name="apostrophe" method="pen" place="intext"/> <!--Cesares [over comma]--> <!--LS, not sure what this mark refers to/is doing!? -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="C[a]esares"/>
+        <mark name="dot" method="pen" place="intext"/> <!--Cesares [over comma]-->
+        <mark name="apostrophe" method="pen" place="intext"/> <!--Cesares [over comma]--> <!--LS, not sure what this mark refers to/is doing!? --><!--JG: Seems that he is copying the style of the printed text, in which a semicolon often is accompanied by an apostrophe. See at this page, 'box' 4, 'Troianis'q;-->
+        <mark name="equal_sign" method="pen" place="intext"/> <!--JG: I think there's another dot, between inciderunt, per-->
         <mark name="dash" method="pen" place="right_margin"/> <!--Cir-->
-        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="cum rege Latino foedere"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!--impera-->
-        <mark name="dash" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="cum rege Latino foedere"/> <!--JG: There's also a plus mark above 'regnum iure belli...' in the text-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--impera--> <!--JG: I think this one is printed-->
+        <mark name="dash" method="pen" place="intext"/> <!--JG: I think this is an equal sign-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="AENEAS"/>
         <mark name="plus_sign" method="pen" place="intext"/> <!--tribus.-->
-        <mark name="plus_sign" method="pen" place="intext"/> <!--ultimum.-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--ultimum.--> <!--JG: There's also a dot above the 'i' of 'visus'-->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext"/>
+        
+        <!--JG: There's also a mark in red chalk which should be captured-->
         
     </annotation>
 </transcription>
