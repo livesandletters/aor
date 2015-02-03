@@ -21,13 +21,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!--JG: You can link this to the underlined word in the printed text (Samson)-->
+        <marginalia hand="Italian" anchor_text="Samson">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
                         Samson.
                     </marginalia_text>
-                    <person name="Samson"/> <!--LS, this is not on the person list. Should it be added? Doesn't look like I can amend the list myself--><!--JG: You can add Samson to the list-->
+                    <person name="Samson"/>
                 </position>
             </language>
             <translation>
@@ -39,7 +39,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Eiusdem Chronologia[e] Index alphabeticus s[upra]. <!--JG: Transcribe as s[upr]a-->
+                        Eiusdem Chronologia[e] Index alphabeticus s[upr]a.
                     </marginalia_text>
                 </position>
             </language>
@@ -59,7 +59,7 @@
         <underline method="pen" type="straight" language="LA" text="Deinde Coss"/>
         <underline method="pen" type="straight" language="LA" text="Decemuiros"/>
         <underline method="pen" type="straight" language="LA" text="Tribunos militum"/>
-        <underline method="pen" type="straight" language="LA" text="Cesares"/> <!--JG: Transcribed as C[a]esares-->
+        <underline method="pen" type="straight" language="LA" text="C[a]esares"/>
         <underline method="pen" type="straight" language="LA" text="regibus Hebraeorum"/>
         <underline method="pen" type="straight" language="LA" text="Iudae ac Israel"/>
         <underline method="pen" type="straight" language="LA" text="Medorum"/>
@@ -87,34 +87,35 @@
         <underline method="pen" type="straight" language="LA" text="Ascanius secundus"/>
         <underline method="pen" type="straight" language="LA" text="Samson"/>
         
-        <symbol name="SS" place="head"/> <!--JG: I'd link this to CHRONOLOGIA-->
+        <symbol name="SS" place="head" language="LA" text="CHRONOLOGIA"/>
         <symbol name="SS" place="left_margin" language="LA" text="regibus Hebraeorum"/>
-        <symbol place="right_margin" name="JC"/> <!--JG: I'd link this to 'iure belli-->
+        <symbol place="right_margin" name="JC" language="LA" text="regnum iure belli affinitatisq[ue] ad Aeneam uenit"/>
         
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="in omnem Romanam historiam"/>
-        <mark name="dash" method="pen" place="intext"/> <!--histo--> <!--JG: This should be right margin-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--histo-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="quindecim reges Latinorum"/>
-        <mark name="dot" method="pen" place="intext"/> <!--aduentum [over comma]--> 
+        <mark name="dot" method="pen" place="intext"/> <!--aduentum,--> 
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="septemq[ue] Romanorum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Coss"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Decemuiros"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tribunos militum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="C[a]esares"/>
-        <mark name="dot" method="pen" place="intext"/> <!--Cesares [over comma]-->
-        <mark name="apostrophe" method="pen" place="intext"/> <!--Cesares [over comma]--> <!--LS, not sure what this mark refers to/is doing!? --><!--JG: Seems that he is copying the style of the printed text, in which a semicolon often is accompanied by an apostrophe. See at this page, 'box' 4, 'Troianis'q;-->
-        <mark name="equal_sign" method="pen" place="intext"/> <!--JG: I think there's another dot, between inciderunt, per-->
+        <mark name="dot" method="pen" place="intext"/> <!--Cesares,-->
+        <mark name="apostrophe" method="pen" place="intext"/> <!--Cesares,-->
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext" language="LA" text="incederunt,"/>
         <mark name="dash" method="pen" place="right_margin"/> <!--Cir-->
-        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="cum rege Latino foedere"/> <!--JG: There's also a plus mark above 'regnum iure belli...' in the text-->
-        <mark name="dash" method="pen" place="right_margin"/> <!--impera--> <!--JG: I think this one is printed-->
-        <mark name="dash" method="pen" place="intext"/> <!--JG: I think this is an equal sign-->
+        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="cum rege Latino foedere"/> 
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="regnum iure belli affinitatisq[ue] ad Aeneam uenit"/>
+        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="AENEAS"/>
         <mark name="plus_sign" method="pen" place="intext"/> <!--tribus.-->
-        <mark name="plus_sign" method="pen" place="intext"/> <!--ultimum.--> <!--JG: There's also a dot above the 'i' of 'visus'-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--ultimum.--> 
+        <mark name="dot" method="pen" place="intext"/> <!--visus-->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        
-        <!--JG: There's also a mark in red chalk which should be captured-->
+        <mark name="horizontal_bar" method="chalk" place="right_margin"/>
         
     </annotation>
 </transcription>

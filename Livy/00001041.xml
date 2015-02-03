@@ -23,13 +23,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!--JG: I'd link this marginal note to the printed text-->
+        <marginalia hand="Italian" anchor_text="Ephesus condita">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
-                       Ephesi templu[m], succensum s[upra] <!--JG: This we transcribe differently: s[upr]a-->
+                       Ephesi templu[m], succensum s[upr]a
                     </marginalia_text>
-                    <location name="Ephesus"/> <!--LS, this is not on the location list. Should it be added? Doesn't look like I can amend the list myself--><!--JG: You should be able to. Try to add this location, if it doesn't work, let me know-->
+                    <location name="Ephesus"/>
                 </position>
             </language>
             <translation>
@@ -39,14 +39,14 @@
         
         <underline method="pen" type="straight" language="LA" text="Amazonum"/>
         <underline method="pen" type="straight" language="LA" text="incursus in"/>
-        <underline method="pen" type="straight" language="LA" text="bu Iuda"/> <!--JG: should be 'tribu'-->
+        <underline method="pen" type="straight" language="LA" text="tribu Iuda"/>
         <underline method="pen" type="straight" language="LA" text="Ephesus condita"/>
         <underline method="pen" type="straight" language="LA" text="Carthago condita"/>
         
         <symbol name="SS" place="intext" language="LA" text="incursus in"/>
         
-        <mark name="plus_sign" method="pen" place="intext"/> <!--LS, should I link this to the marginal note somehow?--> <!--JG: No, that's not necessary-->
-        <mark name="dot" method="pen" place="intext"/> <!--posui [over comma]--> <!--LS, is this actually errata, correcting punctuation? I keep seeing dots over commas!--><!--JG: We tag this as a dot mark, rather than using the errata tag-->
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--posui,-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Carthago condita"/>
         
     </annotation>
