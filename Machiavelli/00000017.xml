@@ -6,7 +6,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
 
-<page filename="00000008.tif" pagination="4" reader="Harvey"/> <!--JG: Still file name and pagination error-->
+<page filename="00000017.tif" pagination="ii[r]" signature="Aii[r]" reader="Harvey"/>
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -16,14 +16,10 @@
     					Arma, virumq[ue] canit prudentissimus poetarum:
     					ex ipsius Ca[e]saris Disciplina.
     				</marginalia_text>
-    				<person name="Virgil"/> <!--JG: Virgil is not explicitly mentioned by Harvey, so use X-ref tag instead-->
+    				<X-ref person="Virgil" book_title="Aeneid"/>
     				<person name="Julius Caesar"/>
     			</position>
     		</language>
-    		<translation> <!--JG: XML error: translation comes later, first transcription of the complete marginal note, then follows the translation of the whole note-->
-    			Arms and the man, sings the most prudent of poets:
-    			An education from Caesar himself.
-    		</translation>
     		<language ident="EN">
     			<position place="tail" book_orientation="0">
     				<marginalia_text>
@@ -42,10 +38,6 @@
     				</marginalia_text>
     			</position>
     		</language>
-    		<translation>
-    			The wise man, whatever he learns, he learns thoroughly; whatever he does,
-    			he does thoroughly: with accomplishment and valor.
-    		</translation>
     		<language ident="EN">
     			<position place="tail" book_orientation="0">
     				<marginalia_text>
@@ -57,7 +49,19 @@
     				</marginalia_text>
     			</position>
     		</language> 
-    		<!--JG: This is the correct place for the translation element and the translation of the Latin parts of this marginal note-->
+    		<translation>
+    			Arms and the man, sings the most prudent of poets:
+    			An education from Caesar himself.
+    			Machiauel, a fine master of a braue Art: after
+    			the terrile Invention of Gunnes: vnknowne to Vegetius.
+    			The wise man, whatever he learns, he learns thoroughly; whatever he does,
+    			he does thoroughly: with accomplishment and valor.
+    			That Courage is well grownded, that is grownded vpon
+    			Cunning, &amp; Practis; Strength, &amp; Nimblenes.
+    			The Roman foundation of Magnanimitie.
+    			The lesse Strength; the more Cunning, Practis,
+    			&amp; agilitie, necessarie: with extraordinarie Courage.
+    		</translation>
     	</marginalia>
     	
     	<!-- Symbols -->
@@ -78,8 +82,8 @@
     	<underline method="pen" type="straight" language="EN" text="liberalitie"/>
     	
     	<!-- Marks -->
-    	<mark name="hash" method="pen" place="right_margin"/> <!-- make by -->
-    	<mark name="plus_sign" method="pen" place="left_margin"/> <!--and nobilitie --> <!--JG: Link mark to underlined text?-->
+    	<mark name="hash" method="pen" place="right_margin" language="EN" text="the errours that I"/>
+    	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="and nobilitie"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="errours"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="corrected"/>
     	<mark name="bracket" method="pen" place="intext"/> <!-- gratefull, although -->
