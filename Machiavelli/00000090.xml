@@ -5,7 +5,8 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000090.tif" pagination="xxxviii[v]" reader="Harvey" signature="Kii[v]"/> <!--JG: Stick to page number of orginal rather than to the correct page number-->
+<page filename="00000090.tif" pagination="xxxvii[v]" reader="Harvey" signature="Kii[v]"/>
+		<!-- Pagination still incorrect. -->
     <annotation>
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="other fruite"/>
@@ -66,11 +67,11 @@
     	<mark name="dot" method="pen" place="intext"/> <!-- Affric, and -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="not past one kingdome or two"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="few common weales"/>
-    	<mark name="semicolon" method="pen" place="intext"/> <!-- CG: it looks like he added a colon between 'common weales' and 'but Europe.' What do you think? Should we add 'colon' as a mark?--><!--JG: Added 'colon' to marks in the schema. Let me know if it doesn't work-->
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="became excellent"/> <!--JG: I'd leave the text attribute empty, as there's nothing underlined here-->
+    	<mark name="colon" method="pen" place="intext"/> <!-- common weales but Europe -->
+    	<mark name="plus_sign" method="pen" place="intext"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="their vertue, according as they"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="Asia"/>
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="Affrick"/> <!--JG: Plus sign abouve 'because in Europe'-->
+    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="because in Europe"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="excellent men without nomber"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="been most states"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="necessitie"/>

@@ -40,29 +40,28 @@
     	
 
     	<!-- Marks -->
-    	
-    		<!-- CG: Looks like one of those newer marks in the Castiglione, a sort of extended hash. Do we have a name yet? Maybe hash_extended?--><!--JG: I don't think we should give all the variations of a mark an individual tag. This will drive us insane. So just tag it as a hash-->
-    	<mark name="quotation_mark" method="pen" place="left_margin"/>	<!-- CG: I feel like quotation marks function differently in the margins than a plus or hash, so I'm not sure about trying to capture anchor text. What do you think? --> <!--JG: I agree, I think he's marking the whole passage here, rather than linking it to specific bits of underlined text. I think you don't need to link the marks to the printed text in this case-->
+     	<mark name="quotation_mark" method="pen" place="left_margin"/>
     	<mark name="quotation_mark" method="pen" place="left_margin"/>
     	<mark name="quotation_mark" method="pen" place="left_margin"/>
     	<mark name="quotation_mark" method="pen" place="left_margin"/>
     	<mark name="quotation_mark" method="pen" place="left_margin"/>
     	<mark name="quotation_mark" method="pen" place="left_margin"/>
-    	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text=""/> <!-- CG: Looks like a plus sign in the guide text, and maybe something else? Unsure. --><!--JG: I think it's a vertical bar, used to split the words 'order' and 'an/in'-->
-    	<mark name="X_sign" method="pen" place="left_margin"/> <!-- CG: These also seem difficult to assign to a specific phrase, mostly due to their size. It's hard to say which line they refer to. --><!--JG: Agree, although you could assign the second cross to 'a spce of three yardes'-->
-    	<mark name="X_sign" method="pen" place="left_margin"/>
+    	<mark name="vertical_bar" method="pen" place="left_margin" /> <!-- In printed text in left margin -->
+    	<mark name="X_sign" method="pen" place="left_margin"/> 
+    	<mark name="X_sign" method="pen" place="left_margin" language="EN" text="a space of three yardes"/>
     	<mark name="X_sign" method="pen" place="left_margin"/>
     	
     	<mark name="plus_sign" method="pen" place="head" language="EN" text="those aiding"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- flanke, and -->
     	<mark name="dot" method="pen" place="intext"/> <!-- maner, there -->
     	<mark name="comma" method="pen" place="intext"/> <!-- other in -->
-    	<mark name="bracket" method="pen" place="intext"/> <!-- whiche come to occupie --> <!-- CG: Should I try to capture the bracketed text here? Perhaps with the first bracket only and leave the second empty? --> <!--JG: Yeah, you could do this in this way, although I think that it's more a stylistic intervention, rather than him setting apart a piece of information-->
+    	<mark name="bracket" method="pen" place="intext"/> <!-- whiche come to occupie --> 
     	<mark name="bracket" method="pen" place="intext"/> <!-- length thirtie -->
     	<mark name="comma" method="pen" place="intext"/> <!-- other distante -->
-    	<!--JG: I think Harvey also put a colon between 'extraordinarie' and 'for' (in the line next to the last of the quotations marks in the left margin)-->
+    	<mark name="colon" method="pen" place="intext"/> <!-- extraordinarie for -->
     	
-    	<!--JG: In the text printed in the left margin, he changes 'in' into 'an'-->
+    	<!-- Errata -->
+    	<errata language="EN" copytext="in" amendedtext="an"/>
     	
     </annotation>
 </transcription>
