@@ -12,18 +12,19 @@
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
                         Istius Thoma[e] Smithi reformata[e] Orthographia[e] Ecc&egrave; honorifica sa[e]p&egrave;
-                        mentio in Baretti alueario Anglico, Latino, Gra[e]co, Francio. In literis A: H: S:
+                        mentio in Baretti alueario Anglico, Latino, Gra[e]co, Francico. In literis A: H: S:
                         Smitho de Orthographia contra Cacographiam Secundus, in suo alphabeto Barettus.
                         Nec ver&ograve; contemnendus de Orthographia Chesterus, ille etiam polyglottus.
                         Adhuc tamen pla[e]riq[ue] veterani cum Consuetudine delirant: et illum vetulum abusum
                         etiamnum obseruant, qui etsi non est ex vsu, in vsu tamen est.
                     </marginalia_text>
                     <person name="Thomas Smith"/>
-                    <person name="Johannes Nunnius Barettus"/> 
+                    <person name="Johannes Nunnius Barettus"/>  <!-- CG: I did some looking around, and found a certain John Barrett's "Alvearie, or Triple Dictionarie" from 1574-->
                     <person name="John Hart"/>
                     <book title="De recta &amp; emendata linguae anglicae scriptione dialogus"/>
                     <book title="Alvearium Anglicum, Latinum, Graecum, Francium"/> 
                     <!-- JE: I can't actually find a book approximating to this title. -->
+                    <!-- CG: Found something here: https://books.google.com/books?id=lnPImgEACAAJ -->
                     <book title="An Orthografie"/>
                 </position>
             </language>
@@ -33,7 +34,9 @@
                 In his alphabet, Barettus follows Smith on spelling against ugly writing.
                 In fact, Chester on spelling is not to be scorned; he is, after all, a polyglot. 
                 At present, however, many of the old authors are used to deviating from the right path, and observe the old 
-                abuses, which though not derived from use, are yet in use.
+                abuses, which though not derived from use, are yet in use.  <!-- CG: The verb "delirant" has popped up before,
+                and Harvey seems to use it to refer to the nonsense or ravings of scholastics. It's in the Domenichi, Ha2.019v:
+                "Delirant famosissimi Scholastici." Perhaps this phrase could be modified to fit his tendency to denigrate older customs?-->
             </translation>
         </marginalia>
     </annotation>
