@@ -28,7 +28,12 @@
                     <marginalia_text>
                         Tautologia[e]. Antinomia[e]. Commentarij. Nota[e]. }
                         rursus uetite.   
-                    </marginalia_text>  <!-- CG: Should we capure the underlining of 'rursus' as an emphasis (or super-emphasis)? -->
+                        <!-- CG: I'm wondering if we should add another type/attribute 
+                for "underline" or "emphasis," which captures those rare moments when Harvey underlines
+            something multiple times. Or maybe even a separate mark, like "multiple_horizontal_bar" (or something more elegant).
+            What do you and Jaap think?-->
+                        <!-- JE: Jaap? -->
+                    </marginalia_text>  
                 </position>
             </language>
             <translation>
@@ -39,24 +44,31 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <emphasis method="pen" type="straight" text="Digestu"/>
+                    <emphasis method="pen" type="straight" text="Digestu[m]"/>
                     <emphasis method="pen" type="straight" text="distinctio"/>
                     <marginalia_text>
                         Digestu[m] { Vetus. Infort[iatum]. Nouum. 
-                        rec&egrave;ns conficta distinctio.
                     </marginalia_text>
-                            <!-- CG: I'm wondering if the 'recens conficta distinctio' doesn't follow on the 'rursus vetite' above.
-                            It looks like the text is distinguishing between the old, mistaken ways of dividing up the Digest 
-                            (Vetus, Infortiatum, Novum) and Freigius' new approach. Perhaps even separating 'recens conficta 
-                            distinctio' into its own marginalia might be a good idea. What do you think?-->
                 </position>
             </language>
             <translation>
                 Arrangement { Old. Infortiatum. New.        
-                    <!-- CG: Do we want to translate 'infortiatum' or is it too specific to the history of the Digest? 
+                <!-- CG: Do we want to translate 'infortiatum' or is it too specific to the history of the Digest? 
                         I looked up the word and it seems like it could be translated as like "The reinforcements." 
                         But perhaps that might be a little opaque. -->
-                A newly invented separation .
+                <!-- JE: I'm tempted to leave it as untranslateable. Would be good to get the perspective of a specialist here I think... -->
+            </translation>
+        </marginalia>
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        rec&egrave;ns conficta distinctio.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                A newly invented separation.
             </translation>
         </marginalia>
         <marginalia hand="Italian">
@@ -82,8 +94,7 @@
         <underline method="pen" type="straight" language="LA" text="similitudine[m]"/>
         <underline method="pen" type="straight" language="LA" text="nullum contrarium"/>
         <underline method="pen" type="straight" language="LA" text="Commentarios in ius fieri"/>
-        <underline method="pen" type="straight" language="LA" text="dicuntur κγτ ωόδα"/>    <!-- CG: I believe this is κατὰ πόδα  which is also a legal term-->
-        <!-- JE: this Greek looks a bit nuts. --> <!-- CG: Yeah this is one of those ligatures that will haunt your dreams. -->
+        <underline method="pen" type="straight" language="LA" text="dicuntur κατὰ πόδα"/>    
         <underline method="pen" type="straight" language="LA" text="paratitla"/>
         <underline method="pen" type="straight" language="LA" text="vetatq[ue] notas iuris fieri"/>
         <underline method="pen" type="straight" language="LA" text="error veterum"/>
@@ -126,7 +137,7 @@
         <mark name="comma" method="pen" place="intext"/> <!-- item & -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="portanda[m] ciuilis sapientiae molem"/>         
         <mark name="vertical_bar" method="chalk" place="intext"/>
-                <!-- CG: Also possibly a comma at the end between 'rudes &' -->
+        <mark name="comma" method="pen" place="intext"/> <!-- rudes & -->
         
         <errata copytext="diuersiates" amendedtext="diuersitates" language="LA"/>
         

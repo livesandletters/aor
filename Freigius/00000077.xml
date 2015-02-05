@@ -22,7 +22,6 @@
         <underline method="pen" type="straight" language="LA" text="ex multitudine autorum"/>
         
         <mark name="horizontal_bar" method="chalk" place="right_margin"/>
-        <mark name="horizontal_bar" method="pen" place="intext" language="LA" text="Populi Romani"/>    <!-- CG: Should we record this as an errata or something similar? Seems like a particular kind of intervention.-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Pr[a]-etoris -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- exi-git -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- testan-tur -->
@@ -32,6 +31,9 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="qu&agrave;m legum autoritas"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="certi per"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ex multitudine autorum"/>
+        
+        <errata language="LA" copytext="Populi Romani" amendedtext=""/>
+        <!-- JE: Jaap, are you happy with this way of capturing this strike-through? -->
         
     </annotation>
 </transcription>
