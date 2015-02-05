@@ -28,16 +28,16 @@
         <underline method="pen" type="straight" language="LA" text="fiat Populus Romanus"/>
         <underline method="pen" type="straight" language="LA" text="quam facilis librariorum lapsus"/>
         
-        <mark name="dash" method="pen" place="intext"/> <!-- eun-dem -->    <!-- CG: Likewise in 74: I've been capturing these dashes as right margin. What do you guys think? -->
-        <mark name="dash" method="pen" place="intext"/> <!-- Ci-uitationbus -->
-                <!-- CG: Possible dot at 'admonet, nec' -->
+        <mark name="dot" method="pen" place="intext"/> <!-- admonet, nec -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- eun-dem -->   
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Ci-uitationbus -->
         <mark name="comma" method="pen" place="intext"/> <!-- praetoriani sed -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- Trebell. Sed -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="mendi apud"/>
-                <!-- CG: Possible dot at 'intelligaus, Veteres' -->
-        <mark name="comma" method="pen" place="intext"/> <!-- Romanum & -->
+        <mark name="dot" method="pen" place="intext"/> <!-- intelligamus, Veteres -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="notis vt plurimum"/>
-                <!-- CG: Possible dot at 'interpungere, ne' --> 
-        
+        <mark name="comma" method="pen" place="intext"/> <!-- Romanum & -->
+        <mark name="dot" method="pen" place="intext"/> <!-- interpungere, ne -->
+            
     </annotation>
 </transcription>
