@@ -8,16 +8,16 @@
 <page filename="00000074.tif" reader="Harvey" signature="[β3v]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="alter">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        a.          <!-- CG: Should we think about using an anchor text attribute for these? They seem kind of weird. -->
+                        a.         
                     </marginalia_text>
                 </position>
             </language>
         </marginalia>
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="semis">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -42,7 +42,7 @@
         
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="ante diem conditionis"/>
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="ide&oacute;que ingenia hominum in hunc vsque diem miser&egrave; torsit"/>
-        <mark name="dash" method="pen" place="intext"/> <!-- sti-pulatio -->    <!-- CG: Would this be more of a right margin thing? -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- sti-pulatio --> 
         <mark name="comma" method="pen" place="intext"/> <!-- Praetorisue parte -->
         
     </annotation>
