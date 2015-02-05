@@ -27,7 +27,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Meum Principiu[m], et Finis; &agrave; duobus pra[e]gnantissimus Titulis; De     <!-- CG: Looks like 'pra[e]gnantissimis' -->
+                        Meum Principiu[m], et Finis; &agrave; duobus pra[e]gnantissimis Titulis; De     
                         Verboru[m] Significatione; et de Regulis Juris. Quo verborum, rerumq[ue]
                         forensium fundamento solid&egrave; iacto: co[e]tera omnia, expedita, et prompta.
                         Im&ograve; habitis Juris Romani Judicijq[ue], Logici Principiis; facile erit de 
@@ -35,11 +35,13 @@
                     </marginalia_text>
                     <book title="De verborum significatione"/>
                     <book title="De regulis iuris"/>
-                    <emphasis method="pen" type="straight" text="Principiu[m]"/>    <!-- CG: 'Finis' also underlined -->
+                    <emphasis method="pen" type="straight" text="Principiu[m]"/>
+                    <emphasis method="pen" type="straight" text="Finis"/>
                     <emphasis method="pen" type="straight" text="Verboru[m]"/>
                     <emphasis method="pen" type="straight" text="de Regulis Juris"/>
                     <emphasis method="pen" type="straight" text="fundamento"/>
-                        <!-- CG: Also underlined 'Juris Romani' and 'Judicijq[ue] Logici' -->
+                    <emphasis method="pen" type="straight" text="Juris Romani"/>
+                    <emphasis method="pen" type="straight" text="Judicijq[ue] Logici"/>
                 </position>
             </language>
             <translation>
@@ -53,7 +55,7 @@
         <underline method="pen" type="straight" language="LA" text="Iurisprudentia"/>
         <underline method="pen" type="straight" language="LA" text="Iustitiam"/>
         <underline method="pen" type="straight" language="LA" text="[a]equum ab iniquo"/>
-        <underline method="pen" type="straight" language="LA" text="metu poenaum"/> <!-- CG: 'poenarum' -->
+        <underline method="pen" type="straight" language="LA" text="metu poenarum"/> 
         <underline method="pen" type="straight" language="LA" text="praemiorum quoq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="In iurisprudentia autem"/>
         <underline method="pen" type="straight" language="LA" text="Res seu Ivs"/>
@@ -63,17 +65,13 @@
         
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
-        <symbol name="SS" place="right_margin"/>    <!-- CG: Aren't there only two SS's? -->
         <symbol name="Sun" place="intext"/>
         
         <mark name="dot" method="pen" place="head"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- affectantes. In -->
         <mark name="comma" method="pen" place="intext"/> <!-- autem tria -->
-                <!-- CG: Also a vertical bar in chalk in the first section --> 
-        <mark name="dot" method="pen" place="intext"/>  <!-- CG: Is this the dot accompanying the Sun symbol? If so, I haven't been counting these dots since Harvey typically includes them with symbols. -->
-        <mark name="dash" method="pen" place="intext"/> <!-- Iu-ri -->
-
-        <errata copytext="" amendedtext="3."/> <!--JG: I think this is printed letter, not Harvey's intervention. If it is, use the language attribute of the errate tag as well-->
+        <mark place="intext" method="chalk" name="vertical_bar"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Iu-ri -->
 
     </annotation>
 </transcription>
