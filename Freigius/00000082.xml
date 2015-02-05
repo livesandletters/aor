@@ -11,46 +11,33 @@
             <language ident="EL">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Έκλεκτίκη, <!-- CG: I think the diacritic should fall on the last letter: Έκλεκτικὴ -->
+                        Έκλεκτικὴ, 
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                <!-- JE: could someone translate this please? --> 
-                <!-- CG: I did some digging around and the precise usage of this word is still unclear to me. 
-                    It can either reference to an "eclectic" philisophical approach, or it could be used in its more
-                    literal meaning, something like "selective." 
-                    Perhaps we could just translate it simply as 'Eclectic' and let other people figure it out? 
-                    I also looked for the usage in Diogenes, and he uses this word primarily to describe a
-                    particular philosophical school, which he refers to as "an eklektike hairesis" - which would be
-                    closer to "eclectic." I suggest we go with that then. -->
-            </translation>
-        </marginalia>
-        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         apud Laertium.
                     </marginalia_text>
                     <person name="Diogenes Laertius"/>
-                    <!-- CG: We could also perhaps X-ref this to Diogenes Laertius, Lives of Eminent Philosophers, 1.21
-                        which seems to be the sole place where he uses this word. -->
+                    <X-ref person="Diogenes Laertius" book_title="Lives and Opinions of Eminent Philosophers"/>
                 </position>
             </language>
             <translation>
-                in Diogenes Laertius.
+                Eclectic, in Diogenes Laertius.
             </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="EL">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Εκλεκϒίκη. <!-- CG: I think it's still Eκλεκτίκὴ, although Harvey is getting fancy with his tau. -->
+                        Eκλεκτίκὴ.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- JE: Again, if someone could translate this, that would be terrific. -->
+                Eclectic.
             </translation>
         </marginalia>
         <marginalia hand="Italian">
@@ -111,7 +98,7 @@
         <mark name="comma" method="pen" place="intext"/> <!-- magis quam -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="mortalitatis est"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="pauca idonea effundere"/>
-                <!-- CG: I think you skipped the plus sign beneath "multis inutilibus" -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="multis inutilibus"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="homines praegrauare"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ver&ograve; iuris conditio"/>
         <mark name="comma" method="pen" place="intext"/> <!-- conditio semper -->
@@ -133,11 +120,7 @@
         <mark name="horizontal_bar" method="pen" place="tail"/>
         <mark name="horizontal_bar" method="pen" place="tail"/>
         <mark name="horizontal_bar" method="pen" place="tail"/>
-        <mark name="horizontal_bar" method="pen" place="tail"/> 
-            <!-- CG: I think there are only three. Actually, I'm wondering if we should add another type/attribute 
-                for "underline" or "emphasis," which captures those rare moments when Harvey underlines
-            something multiple times. Or maybe even a separate mark, like "multiple_horizontal_bar" (or something more elegant).
-            What do you and Jaap think?-->
-        
+        <!-- JE: could be another occasion for the 'multiple underline' function -->
+
     </annotation>
 </transcription>
