@@ -12,16 +12,16 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                            Oratores. maximi        <!-- CG: looks like there's also a period after maximi. -->
+                            Oratores. maximi.        
                         {   Aduocati.   } optimi.
                             Judices.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                    Orators, greatest           <!-- CG: Here I think the punctuation should probably follow the Latin. -->
-                {   Advocates  } best.
-                    Judges
+                    Orators. greatest.          
+                {   Advocates.  } best.
+                    Judges.
             </translation>
         </marginalia>
         
@@ -38,15 +38,15 @@
         <underline method="pen" type="straight" language="LA" text="Diomedis"/>
         <underline method="pen" type="straight" language="LA" text="Glauci permutatio"/>
         <underline method="pen" type="straight" language="LA" text="de inaequali permutatione"/>
-        <underline method="pen" type="straight" language="LA" text="χςύσεχαλυέιωμ"/>    <!-- CG: Looks like four words: first is χρύσεα  -->
-                                                                                                                                    <!-- CG: Second word: χαλκείων   -->
-        <underline method="pen" type="straight" language="LA" text="έκααμζοι"/>     <!-- CG: ἑκατόμβοι' -->
-        <underline method="pen" type="straight" language="LA" text="έννέαζοίωμ"/>   <!-- CG: ἐννεαβοίων  - the mark above the second epsilon is probably a pen mark or something-->
+        <underline method="pen" type="straight" language="LA" text="χρύσεα "/>   
+        <underline method="pen" type="straight" language="LA" text="χαλκείων "/>   
+        <underline method="pen" type="straight" language="LA" text="ἑκατόμβοι"/>  
+        <underline method="pen" type="straight" language="LA" text="ἐννεαβοίων"/>
         <underline method="pen" type="straight" language="LA" text="ad Senatum"/>
         <underline method="pen" type="straight" language="LA" text="ad"/>
         <underline method="pen" type="straight" language="LA" text="Pandectae"/>
         <underline method="pen" type="straight" language="LA" text="in 7 partes"/>
-        <underline method="pen" type="straight" language="LA" text="continet τά"/> <!-- CG: τὰ -->
+        <underline method="pen" type="straight" language="LA" text="continet τὰ"/> 
         <underline method="pen" type="straight" language="LA" text="est de iudicijs"/>
         <underline method="pen" type="straight" language="LA" text="de rebus"/>
         <underline method="pen" type="straight" language="LA" text="Quarta totius"/>
@@ -54,6 +54,10 @@
         <underline method="pen" type="straight" language="LA" text="quae"/>
         <underline method="pen" type="straight" language="LA" text="omnia vndiq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="vtilissi[ma]"/>
+        
+        <symbol name="JC" place="head" language="LA" text="Oratores. Aduocati. Judices."/>
+        <symbol name="Mercury" place="head"/> 
+        <symbol name="Sun" place="head"/>
         
         <mark name="horizontal_bar" method="pen" place="left_margin"/>
         <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
@@ -67,28 +71,21 @@
         <mark name="horizontal_bar" method="chalk" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Discipulorum iuris hic finis"/>
         <mark name="comma" method="pen" place="intext"/> <!-- maximi & -->
-                <!-- CG: Looks like there's also a comma between 'athleta[e] quam' -->
+        <mark name="comma" method="pen" place="intext"/> <!-- athletae quam -->
         <mark name="comma" method="pen" place="intext"/> <!-- loco aeuoq[ue] -->
         <mark name="vertical_bar" method="chalk" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="&agrave; satyra"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ex varijs rebus conditum"/>
-        <mark name="dash" method="pen" place="intext"/> <!-- prin-cipio -->     <!-- CG: Right margin? -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- prin-cipio --> 
         <mark name="comma" method="pen" place="intext"/> <!-- Diomedis & -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="de inaequali permutatione"/>
         <mark name="vertical_bar" method="chalk" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- Senatum & -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="compositionis vmbilicus, de"/>
-                <!-- CG: Possible dot between 'hypothecis, qua[e]' -->
+        <mark name="dot" method="pen" place="intext"/> <!-- hypothecis, quae -->
         <mark name="comma" method="pen" place="intext"/> <!-- quae omnia -->
         
-        
-                <!-- CG: I think the schema requires that symbols come before marks and after underlining. -->
-        
-        <symbol name="JC" place="head" language="LA" text="Oratores. maximi. Aduocati. Judices. optimi."/>
-        <symbol name="Mercury" place="head" language="LA" text="Oratores"/> <!-- CG: Should we attach this to any text? It might be free floating. -->
-        <symbol name="Sun" place="head"/>
-        
-        <numeral place="left_margin" text="Prima continet τά πςώτα.">   <!-- CG: τὰ πρῶτα -->
+        <numeral place="left_margin" text="Prima continet τὰ πρῶτα."> 
             1
         </numeral>
         <numeral place="left_margin" text="Secunda est de iudicijs.">
@@ -100,7 +97,7 @@
         <numeral place="left_margin" text="Quarta totius compositionis vmbilicus, de hypothecis; quae omnia vndiq[ue] tam [vtilissima qu&agrave;m pulcherrima iura continet."> <!-- CG: Missing the closing bracket! -->
             4
         </numeral>
-        <numeral place="intext" text="et oratores maximi ... inueniantur">  <!-- CG: I think we could probably leave the text as 'et oratores maximi' -->
+        <numeral place="intext" text="et oratores maximi">
             1.
         </numeral>
         <numeral place="intext" text="iustitiae satellites inueniantur">
@@ -109,8 +106,6 @@
         <numeral place="intext" text="iudiciorum optimi tam athletae, qu&agrave;m gubernatores in omni loco aeuoq[ue] felices">
             3
         </numeral>
-        
-        <!-- JE: Again, if someone could check the Greek that would be great. -->
         
     </annotation>
 </transcription>
