@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+
+<page filename="00000139.tif" reader="Harvey" pagination="22[r]" signature="F.ii.r"/>
+    <annotation>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        soli fer&egrave; Smithi Juresconsulti, cum ipso textu iuris ciuilis.
+                    </marginalia_text>
+                    <person name="Thomas Smith"/>
+                    <book title="Iurisconsultus"/> <!-- JE: I can't find a book matching this title. cf. also Freigius, 00000005 -->
+                </position>
+            </language>
+            <translation>
+                In general, only in Smith's 'Iurisconsultus', with the same text of civil law.
+                <!-- JE: not sure of my translation here. -->
+            </translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="Budaeis licebit"/>
+        <underline method="pen" type="straight" language="LA" text="Alciatis"/>
+        <underline method="pen" type="straight" language="LA" text="Baysiis"/>
+        <underline method="pen" type="straight" language="LA" text="quidem viris, &amp;"/>
+        <underline method="pen" type="straight" language="LA" text="Budaeus"/>
+        <underline method="pen" type="straight" language="LA" text="Alciatus"/>
+        <underline method="pen" type="straight" language="LA" text="Baysius"/>
+        
+        <symbol name="JC" place="right_margin"/>
+        
+        <mark name="vertical_bar" method="chalk" place="intext"/>
+        
+    </annotation>
+</transcription>
