@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
 <page filename="00000085.tif" reader="Harvey" signature="[a1r]" pagination="[1]"/>
     <annotation>
@@ -76,14 +76,14 @@
             </translation> 
         </marginalia>
         
-        <mark name="horizontal_bar" method="chalk" place="tail"/>
-        
         <symbol name="" place=""/>
         <!-- JE: I don't recognise the inverse CC here - and it doesn't seem to correspond
         to anything in the transcribers' manual.-->
         <!-- CG: I wonder if it's not some other mark to draw attention, a bit like backwards quotation marks. 
             I definitely haven't run into it anywhere else. Jaap, what do you think? -->
         <!-- Jaap? -->
+        
+        <mark name="horizontal_bar" method="chalk" place="tail"/>
         
     </annotation>
 </transcription>
