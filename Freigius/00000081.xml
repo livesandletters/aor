@@ -24,7 +24,6 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <emphasis method="pen" type="straight" text="rursus"/>
                     <marginalia_text>
                         Tautologia[e]. Antinomia[e]. Commentarij. Nota[e]. }
                         rursus uetite.   
@@ -34,6 +33,7 @@
             What do you and Jaap think?-->
                         <!-- JE: Jaap? -->
                     </marginalia_text>  
+                    <emphasis method="pen" type="straight" text="rursus"/>
                 </position>
             </language>
             <translation>
@@ -44,11 +44,11 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <emphasis method="pen" type="straight" text="Digestu[m]"/>
-                    <emphasis method="pen" type="straight" text="distinctio"/>
                     <marginalia_text>
                         Digestu[m] { Vetus. Infort[iatum]. Nouum. 
                     </marginalia_text>
+                    <emphasis method="pen" type="straight" text="Digestu[m]"/>
+                    <emphasis method="pen" type="straight" text="distinctio"/>
                 </position>
             </language>
             <translation>
@@ -139,8 +139,6 @@
         <mark name="vertical_bar" method="chalk" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- rudes & -->
         
-        <errata copytext="diuersiates" amendedtext="diuersitates" language="LA"/>
-        
         <numeral place="right_margin" text="Quinta de testamentis"> 
             5.
         </numeral>
@@ -151,5 +149,6 @@
             7.
         </numeral>
         
+        <errata copytext="diuersiates" amendedtext="diuersitates" language="LA"/>
     </annotation>
 </transcription>
