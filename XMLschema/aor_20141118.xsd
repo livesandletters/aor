@@ -194,6 +194,7 @@
         <xs:restriction base="xs:token">
           <xs:enumeration value="chalk"/>
           <xs:enumeration value="pen"/>
+          <xs:enumeration value="scoring"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -357,6 +358,18 @@
           <xs:enumeration value="left_margin"/>
           <xs:enumeration value="right_margin"/>
           <xs:enumeration value="intext"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="language">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="EN"/>
+          <xs:enumeration value="EL"/>
+          <xs:enumeration value="FR"/>
+          <xs:enumeration value="IT"/>
+          <xs:enumeration value="LA"/>
+          <xs:enumeration value="ES"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>

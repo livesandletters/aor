@@ -35,7 +35,7 @@
 							<!ATTLIST emphasis text CDATA #IMPLIED>
 		<!ELEMENT translation (#PCDATA)>
 	<!ELEMENT underline EMPTY>
-		<!ATTLIST underline method (chalk|pen) #REQUIRED>
+		<!ATTLIST underline method (chalk|pen|scoring) #REQUIRED>
 		<!ATTLIST underline type (straight|curved|dotted) #REQUIRED>
 		<!ATTLIST underline language (EN|EL|FR|IT|LA|ES) #IMPLIED>
 		<!ATTLIST underline text CDATA #IMPLIED> 
@@ -52,6 +52,7 @@
 		<!ATTLIST mark text CDATA #IMPLIED>
 	<!ELEMENT numeral (#PCDATA)>
 	    <!ATTLIST numeral place (head|tail|left_margin|right_margin|intext) #REQUIRED>
+	    <!ATTLIST numeral language (EN|EL|FR|IT|LA|ES) #IMPLIED>
 	    <!ATTLIST numeral text CDATA #IMPLIED>
 	<!ELEMENT errata EMPTY>
 	   <!ATTLIST errata language  (EN|EL|FR|IT|LA|ES) #REQUIRED>
