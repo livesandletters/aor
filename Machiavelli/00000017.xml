@@ -16,8 +16,8 @@
     					Arma, virumq[ue] canit prudentissimus poetarum:
     					ex ipsius Ca[e]saris Disciplina.
     				</marginalia_text>
-    				<X-ref person="Virgil" book_title="Aeneid"/>
     				<person name="Julius Caesar"/>
+    				<X-ref person="Virgil" book_title="Aeneid"/>
     			</position>
     		</language>
     		<language ident="EN">
@@ -64,9 +64,6 @@
     		</translation>
     	</marginalia>
     	
-    	<!-- Symbols -->
-    	<symbol name="Mars" place="tail"/> <!-- Finis. -->
-    	
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="made no profession"/>
     	<underline method="pen" type="straight" language="EN" text="with woordes a"/>
@@ -80,6 +77,9 @@
     	<underline method="pen" type="straight" language="EN" text="and nobilitie"/>
     	<underline method="pen" type="straight" language="EN" text="wisedome"/>
     	<underline method="pen" type="straight" language="EN" text="liberalitie"/>
+    	
+    	<!-- Symbols -->
+    	<symbol name="Mars" place="tail"/> <!-- Finis. -->
     	
     	<!-- Marks -->
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="the errours that I"/>
