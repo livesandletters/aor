@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
 <page filename="00000118.tif" reader="Harvey" pagination="[11v]" signature="C.iii.v"/>
     <annotation>
@@ -41,7 +41,7 @@
         
         <symbol name="JC" place="left_margin" language="LA" text="nisi in Iureconsultorum formulis"/>
         
-        <mark name="dot" place="intext"/> <!-- restituere, non diuinitus -->
+        <mark name="dot" place="intext" method="pen"/> <!-- restituere, non diuinitus -->
         
     </annotation>
 </transcription>
