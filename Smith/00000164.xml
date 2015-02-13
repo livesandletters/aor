@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
+<<<<<<< HEAD
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
+=======
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+>>>>>>> c7b165e6479ce26dc8fcecfb800ba5e70884bb63
 
 <page filename="00000164.tif" reader="Harvey" pagination="[34v]" signature="I.ii.v"/>
     <annotation>
@@ -12,6 +20,7 @@
         <underline method="pen" type="straight" language="LA" text="specie differunt"/>
         
         <mark name="bracket" method="pen" place="left_margin" language="EL"/> <!-- JE: Chris, do you mind capturing this Greek? -->
+            <!-- CG: I don't know if we should capture anything with these brackets, since he could be indicating the entire section and not just the Greek words. Jaap, what do you think? -->
         <mark name="bracket" method="pen" place="left_margin" language="EL"/> <!-- JE: likewise... -->
         
     </annotation>
