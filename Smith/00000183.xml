@@ -10,6 +10,8 @@
         
         <underline method="pen" type="straight" language="LA" text="odiu[m] pro laude"/>
         <underline method="pen" type="straight" language="LA" text="reprehe[n]sionem"/>
+        <underline method="pen" type="straight" language="LA" text="quarum ego socius"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; caput"/>
         <underline method="pen" type="straight" language="LA" text="in me"/>
         <underline method="pen" type="straight" language="LA" text="magni animi esse"/>
         <underline method="pen" type="straight" language="LA" text="ac gloriam negligere"/>
@@ -18,7 +20,7 @@
         <underline method="pen" type="straight" language="LA" text="invidiam non"/>
         <underline method="pen" type="straight" language="LA" text="suum factum ab aliis patiatur"/>
         <underline method="pen" type="straight" language="LA" text="obscuritatis reprehe[n]sionem"/>
-        <underline method="pen" type="straight" language="LA" text="in culpa, nisi in"/>
+        <underline method="pen" type="straight" language="LA" text="nulla in culpa, nisi in"/>
         <underline method="pen" type="straight" language="LA" text="ea me fecisse in Academia"/>
         <underline method="pen" type="straight" language="LA" text="ita me iam ab ineunte"/>
         <underline method="pen" type="straight" language="LA" text="aetate gessisse"/>
@@ -34,9 +36,10 @@
 
         <mark name="vertical_bar" method="chalk" place="intext"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/> <!-- CG: Maybe we could assign this to "laudem ac gloriam negligere" ? -->
         <mark name="vertical_bar" method="chalk" place="intext"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/> <!-- CG: Perhaps with "vidiam non" ? -->
+            <!-- CG: I think maybe one more plus sign as well in the left margin. -->
         <mark name="vertical_bar" method="chalk" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- potest, & tamen -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
