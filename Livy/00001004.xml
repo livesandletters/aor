@@ -9,7 +9,7 @@
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="Accusatorio spiritu.)"/>
-        <underline method="pen" type="straight" language="LA" text="ad finem fecundi"/>
+        <underline method="pen" type="straight" language="LA" text="finem fecundi"/>
         <underline method="pen" type="straight" language="LA" text="complectens decemannos"/>
         <underline method="pen" type="straight" language="LA" text="actiones sunt"/>
         <underline method="pen" type="straight" language="LA" text="ciuiles"/>
@@ -17,7 +17,7 @@
         <underline method="pen" type="straight" language="LA" text="Iudicium ciuile est,"/>
         <underline method="pen" type="straight" language="LA" text="Iudicium criminale est,"/>
         <underline method="pen" type="straight" language="LA" text="Priuati"/>
-        <underline method="pen" type="straight" language="LA" text="furtum aut rapina"/>
+        <underline method="pen" type="straight" language="LA" text="furtum aut rapina iam"/>
         <underline method="pen" type="straight" language="LA" text="pro publicis habentur"/>
         <underline method="pen" type="straight" language="LA" text="criminibus capitalibus"/>
         <underline method="pen" type="straight" language="LA" text="Crimen enim publicum"/>
@@ -27,12 +27,12 @@
         <underline method="pen" type="straight" language="LA" text="capitis anquirere"/>
         <underline method="pen" type="straight" language="LA" text="iudicialiter procedere contra"/>
         <underline method="pen" type="straight" language="LA" text="poenam capitalem"/>
-        <underline method="pen" type="straight" language="LA" text="pecuni[a]e anquirere"/>
+        <underline method="pen" type="straight" language="LA" text="pecuniae anquirere"/>
         <underline method="pen" type="straight" language="LA" text="ad mulctam"/>
         <underline method="pen" type="straight" language="LA" text="temperarunt tribuni"/>
         <underline method="pen" type="straight" language="LA" text="iudicium capitale"/>
         <underline method="pen" type="straight" language="LA" text="in leuius iudicium"/>
-        <underline method="pen" type="straight" language="LA" text="hanc s[a]epe [a]equitatem, ut capitale"/>
+        <underline method="pen" type="straight" language="LA" text="hanc saepe aequitatem, ut capitale iudicium"/>
         <underline method="pen" type="straight" language="LA" text="mutetur in non capitale"/>
         <underline method="pen" type="straight" language="LA" text="insignem rei improbitatem"/>
         <underline method="pen" type="straight" language="LA" text="actio non capitalis"/>
@@ -48,9 +48,9 @@
         <underline method="pen" type="straight" language="LA" text="infirmius esse ministris manistratuum"/>
         <underline method="pen" type="straight" language="LA" text="qui contemnant"/>
         <underline method="pen" type="straight" language="LA" text="quenq[ue] ea magna atq[ue]"/>
-        <underline method="pen" type="straight" language="LA" text="improb[a]e"/>
+        <underline method="pen" type="straight" language="LA" text="improbae"/>
         <underline method="pen" type="straight" language="LA" text="sancti &amp; inuiolati baberent leges &amp; magistratus"/>
-        <underline method="pen" type="straight" language="LA" text="pe[ss]imam anarchiam"/>
+        <underline method="pen" type="straight" language="LA" text="pessimam anarchiam"/>
         <underline method="pen" type="straight" language="LA" text="beluarum colluuies"/>
         <underline method="pen" type="straight" language="LA" text="hac thesi"/>
         <underline method="pen" type="straight" language="LA" text="Demosthenes"/>
@@ -71,20 +71,22 @@
         <underline method="pen" type="straight" language="LA" text="curijs aliquot conuocatis"/>
         <underline method="pen" type="straight" language="LA" text="Centuriata comitia"/>
         <underline method="pen" type="straight" language="LA" text="omnibus ciuibus"/>
-        <underline method="pen" type="straight" language="LA" text="cuiusq[ue] centuri[a]e"/>
-        <underline method="pen" type="straight" language="LA" text="[a]etatem &amp; censum collectis"/>
+        <underline method="pen" type="straight" language="LA" text="cuiusq[ue] centuriae"/>
+        <underline method="pen" type="straight" language="LA" text="aetatem &amp; censum collectis"/>
         
         <symbol name="JC" place="intext"/>
         <symbol name="SS" place="intext"/>
         
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="criminibus capitalibus"/>
+        <mark name="plus_sign" method="pen" place="intext" />
         <mark name="dash" method="pen" place="right_margin"/> <!-- pr[a]estan -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- iu -->
+        <mark name="dot" method="pen" place="intext"/> <!--alicuius, -->
         <mark name="dot" method="pen" place="intext"/> <!-- capitalem, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="magistratum"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- hor -->
         <mark name="dot" method="pen" place="intext"/> <!-- anarchiam, -->
         <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!--nul-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- habebantur, -->
         
