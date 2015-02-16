@@ -8,7 +8,7 @@
     <page filename="00001010.tif" reader="Harvey" />    
     <annotation>
         
-        <underline method="pen" type="straight" language="LA" text="dictator qu[a]estionibus exercendis"/>
+        <underline method="pen" type="straight" language="LA" text="dictator quaestionibus exercendis"/>
         <underline method="pen" type="straight" language="LA" text="L. Papyrius Cursor III. dictator"/>
         <underline method="pen" type="straight" language="LA" text="Iunius Bubulcus"/>
         <underline method="pen" type="straight" language="LA" text="Cornelius Scipio"/>
@@ -27,7 +27,7 @@
         <underline method="pen" type="straight" language="LA" text="consulari potestate"/>
         <underline method="pen" type="straight" language="LA" text="Sempronius Atratinus"/>
         <underline method="pen" type="straight" language="LA" text="Attilus"/>
-        <underline method="pen" type="straight" language="LA" text="C[a]ecilius"/>
+        <underline method="pen" type="straight" language="LA" text="Caecilius"/>
         <underline method="pen" type="straight" language="LA" text="Manlius Capitolinus"/>
         <underline method="pen" type="straight" language="LA" text="V. PLEBEII."/>
         <underline method="pen" type="straight" language="LA" text="Titinius"/>
@@ -55,6 +55,7 @@
         <mark name="dot" method="pen" place="intext"/> <!-- dictator, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="sine magistro equitum"/>
         <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="Buteo dictator"/>
+        <mark name="comma" method="pen" place="intext"/> <!--dictator sine-->
         <mark name="dot" method="pen" place="intext"/> <!-- dictator, -->
         <mark name="dot" method="pen" place="intext"/> <!-- dictator, -->
         <mark name="dot" method="pen" place="intext"/> <!-- dictator, -->
@@ -64,9 +65,9 @@
         <mark name="dot" method="pen" place="intext"/> <!-- dictator, -->
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="dot" method="pen" place="intext"/> <!-- Atratinus, -->
-        <mark name="bracket" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="bracket" method="pen" place="intext" text="A. Sempronius Atratinus L. Attilius T. Caecilius" language="LA"/>
+        <mark name="bracket" method="pen" place="intext" language="LA" text="L. Quintius Cincinnati filius Mamercus Aemylius L. Iulius"/>
+        <mark name="bracket" method="pen" place="intext"/> <!--JG: Could you continue linking the brackets to the printed text as I did above? Since in this case it's actually possible to do so. Gracias!-->
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
