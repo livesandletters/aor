@@ -12,10 +12,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        pr[a]eclarissima nomina Livianae histori[a]e. Quoru[m] vald&egrave; prodest ars qu[a]edam memorativa in historijs Romanis; 
-                        passim inculcatis, accurataq[ue] animadversione adhuc digniss[imis]. 
+                        Praeclarissima nomina Liuiana[e] historia[e]. Quoru[m] vald&egrave; prodest ars qua[e]dam memorativa in historijs Romanis; 
+                        passim inculcatis, accurataq[ue] animadversione adhuc digniss[im]is. 
                     </marginalia_text> 
-                <person name="Livy"/> <!-- LS, not sure if either of these are necessary as he's talking about the book he's writing in? -->
+                <person name="Livy"/> <!-- LS, not sure if either of these are necessary as he's talking about the book he's writing in? --> <!--JG: Quite tricky indeed! I'd just tag the book-->
                 <book title="Ab Urbe Condita"/>
                 </position>
             </language>
@@ -29,15 +29,15 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Omnia dicendi genera exquisite observans, nullum reperi in singulis eloquendi, variandiq[ue] formulis Livio parem: ne Ciceronem 
+                        Omnia dicendi genera exquisit&egrave; obseruans, nullum reperi in singulis eloquendi, variandiq[ue] formulis Livio parem: n&eacute; Ciceronem 
                         quidem, excepta verborum, phrasiumq[ue] singulari puritate, et elegantia. Nec tamen Plinio, aut Vitruvio carere potest, aut etiam 
-                        Celso, propter plurimarum in mundo rerum, experimentorum, operumq[ue] necessariam ubiq[ue] nomenclaturam, et disertam explicationem. 
+                        Celso, propter plurimarum in mundo rerum, experimentorum, operumq[ue] necessariam vbiq[ue] nomenclaturam, et disertam explicationem. 
                     </marginalia_text>
                     <person name="Livy"/>
                     <person name="Cicero"/>
-                    <person name="Pliny the Elder"/> <!-- LS, or Younger! I have no idea which! -->
-                    <person name="Vitruvius"/> <!-- LS, added to the person list -->
-                    <person name="Celsus"/> <!-- LS, added to the person list -->
+                    <person name="Pliny the Elder"/> <!-- LS, or Younger! I have no idea which! --> <!--JG: Difficult to say indeed. You just could put in a comment that it's unclear about which Pliny is speaking-->
+                    <person name="Vitruvius"/> 
+                    <person name="Celsus"/> 
                 </position>
             </language>
             <translation>
@@ -51,8 +51,8 @@
         <underline method="pen" type="straight" language="LA" text="CONSVLVM,"/>
         <underline method="pen" type="straight" language="LA" text="DICTATORUM"/>
         <underline method="pen" type="straight" language="LA" text="Decemuirum"/>
-        <underline method="pen" type="straight" language="LA" text="Tribunorum militum, qui consulari"/>
-        <underline method="pen" type="straight" language="LA" text="Pr[a]etorum"/>
+        <underline method="pen" type="straight" language="LA" text="Tribunorum militum, qui consulari"/> 
+        <underline method="pen" type="straight" language="LA" text="Praetorum"/>
         <underline method="pen" type="straight" language="LA" text="Cenforum"/>
         <underline method="pen" type="straight" language="LA" text="Pontificum Maximorum"/>
         <underline method="pen" type="straight" language="LA" text="REGES"/>
@@ -64,8 +64,7 @@
         <underline method="pen" type="straight" language="LA" text="Ancus Martius"/>
         <underline method="pen" type="straight" language="LA" text="nepos"/>
         <underline method="pen" type="straight" language="LA" text="Tarquinius Priscus quintus"/>
-        <underline method="pen" type="straight" language="LA" text="Seruius Tullus gener"/>
-        <underline method="pen" type="straight" language="LA" text="gener Tarquinij"/>
+        <underline method="pen" type="straight" language="LA" text="Seruius Tullus gener Tarquinij"/>
         <underline method="pen" type="straight" language="LA" text=".44."/>
         <underline method="pen" type="straight" language="LA" text="Tarquinius Superb."/>
         <underline method="pen" type="straight" language="LA" text="nepos Tarquinij"/>
@@ -90,27 +89,27 @@
         <underline method="pen" type="straight" language="LA" text="Quintius Capitolinus"/>
         <underline method="pen" type="straight" language="LA" text="C. Iulius III"/>
         
-        <symbol name="SS" place="left_margin"/>
+        <symbol name="SS" place="intext"/>
         <symbol name="SS" place="intext" language="LA" text="Iunius Brutus"/>
         
-        <mark name="plus_sign" method="pen" place="head" language="LA" text="ELENCHVS REGVM,"/>
+        <mark name="plus_sign" method="pen" place="head" language="LA" text="REGVM,"/> 
         <mark name="plus_sign" method="pen" place="head" language="LA" text="CONSVLVM,"/>
         <mark name="plus_sign" method="pen" place="head" language="LA" text="DICTATORUM"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Decemuirum"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tribunorum militum, qui consulari"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Pr[a]etorum"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tribunorum militum, qui consulari"/> <!--JG: I'd only tag Tribunorum here, since Harvey seems to focus on different positions/functions-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Praetorum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Cenforum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Pontificum Maximorum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="43."/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="nepos"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="gener Tarquinij"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Seruius Tullus gener Tarquinij"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text=".44."/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="nepos Tarquinij"/>
         <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="P. Valerius"/>
         <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="P. Valerius"/>
         <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="Valerius Publicola III"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/> <!-- P. Valerius IIII -->
-        <!-- LS, there seems to be a scribble under the marginalia in the tail. Should I note that somehow? -->
+        <!-- LS, there seems to be a scribble under the marginalia in the tail. Should I note that somehow? --> <!--JG: No, that's not necessary!-->
         
     </annotation>
     
