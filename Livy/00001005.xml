@@ -10,8 +10,8 @@
         
         <underline method="pen" type="straight" language="LA" text="contentio rhetorica, uel antithesis"/>
         <underline method="pen" type="straight" language="LA" text="diuersa ingenia duorum Consulum"/>
-        <underline method="pen" type="straight" language="LA" text="histori[a]e uariand[a]e"/>
-        <underline method="pen" type="straight" language="LA" text="pigend[a]e"/>
+        <underline method="pen" type="straight" language="LA" text="histori[a]e uariand[a]e"/> <!--JG: We only use brackets to signify ae ligatures in marginal notes, not in printed text-->
+        <underline method="pen" type="straight" language="LA" text="pigendae"/>
         <underline method="pen" type="straight" language="LA" text="affectum"/>
         <underline method="pen" type="straight" language="LA" text="Appium"/>
         <underline method="pen" type="straight" language="LA" text="gentilitia Superbia"/>
@@ -19,6 +19,7 @@
         <underline method="pen" type="straight" language="LA" text="Quintium uer&ograve;"/>
         <underline method="pen" type="straight" language="LA" text="humanum magis"/>
         
+        <mark name="dot" method="pen" place="intext" /> <!--pingendae, -->
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         
     </annotation>
