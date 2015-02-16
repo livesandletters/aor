@@ -15,7 +15,6 @@
                         Praeclarissima nomina Liuiana[e] historia[e]. Quoru[m] vald&egrave; prodest ars qua[e]dam memorativa in historijs Romanis; 
                         passim inculcatis, accurataq[ue] animadversione adhuc digniss[im]is. 
                     </marginalia_text> 
-                <person name="Livy"/> <!-- LS, not sure if either of these are necessary as he's talking about the book he's writing in? --> <!--JG: Quite tricky indeed! I'd just tag the book-->
                 <book title="Ab Urbe Condita"/>
                 </position>
             </language>
@@ -35,7 +34,7 @@
                     </marginalia_text>
                     <person name="Livy"/>
                     <person name="Cicero"/>
-                    <person name="Pliny the Elder"/> <!-- LS, or Younger! I have no idea which! --> <!--JG: Difficult to say indeed. You just could put in a comment that it's unclear about which Pliny is speaking-->
+                    <person name="Pliny the Elder"/> <!-- unclear which Pliny is being referred to, Younger or Elder -->
                     <person name="Vitruvius"/> 
                     <person name="Celsus"/> 
                 </position>
@@ -96,7 +95,7 @@
         <mark name="plus_sign" method="pen" place="head" language="LA" text="CONSVLVM,"/>
         <mark name="plus_sign" method="pen" place="head" language="LA" text="DICTATORUM"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Decemuirum"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tribunorum militum, qui consulari"/> <!--JG: I'd only tag Tribunorum here, since Harvey seems to focus on different positions/functions-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tribunorum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Praetorum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Cenforum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Pontificum Maximorum"/>
@@ -109,7 +108,6 @@
         <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="P. Valerius"/>
         <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="Valerius Publicola III"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/> <!-- P. Valerius IIII -->
-        <!-- LS, there seems to be a scribble under the marginalia in the tail. Should I note that somehow? --> <!--JG: No, that's not necessary!-->
         
     </annotation>
     

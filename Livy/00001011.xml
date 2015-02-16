@@ -48,7 +48,7 @@
         <underline method="pen" type="straight" language="LA" text="Fabius Maximus Rutilianus"/>
         <underline method="pen" type="straight" language="LA" text="Cornelius Aruina dictator"/>
         
-        <symbol name="SS" place="left_margin"/> <!--JG: I'd link this to Scipio Africanus-->
+        <symbol name="SS" place="left_margin" language="LA" text="Scipio Africanus"/>
         <symbol name="SS" place="intext" language="LA" text="DICTATORES PRIMAE"/>
         <symbol name="SS" place="intext" language="LA" text="Cornelius Scipio magister"/>
         <symbol name="Mars" place="head" />
@@ -59,14 +59,13 @@
         
         <mark name="dot" method="pen" place="intext"/> <!-- dictator, -->
         <mark name="dot" method="pen" place="intext"/> <!-- dict. -->
-        <mark name="bracket" method="pen" place="left_margin"/> <!--JG: I can't find this bracket-->
-        <mark name="bracket" method="pen" place="left_margin"/> <!--JG: I can't find this bracket-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="L. Manlius imperiosus"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Cor -->
         <mark name="dot" method="pen" place="intext"/> <!-- dictator, -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Aemy -->
         <mark name="dot" method="pen" place="intext"/> <!-- dictator, -->
         <mark name="dot" method="pen" place="intext"/> <!-- dictator, -->
+        
         
     </annotation>
     
