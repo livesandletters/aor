@@ -13,7 +13,7 @@
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
                         Livius, medulla Romani ingenii, et nervus animi virilis: statim post Sallustium, ipsumq[ue] C[a]esarem, instructissimus ad 
-                        conscribendam Romanam Historiam; maxime omnium seriam, atq[ue] solidam.
+                        conscribendam Romanam Historiam; maxim&egrave; omnium seriam, atq[ue] solidam.
                     </marginalia_text>
                     <person name="Livy" />
                     <person name="Sallust"/>
@@ -31,9 +31,9 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
-                        Livianarum ferm&egrave; concionum, perinsignis qu[a]edam; et Imperatoria, et Senatoria Maiestas, atq[ue] dignitas. 
-                        Multae sententi[a]e, utriq[ue] Militi[a]e aptae, et in suo foro exquisit[a]e. Synopsis qu[a]edam collectarum a Perionio Concionum. 
-                        Digna in singulis generibus curiosa Analyse. Ut sunt plaeraq[ue] prudenter, arguteq[ue] elegantia.
+                        Liuianarum ferm&egrave; concionum, perinsignis qu[a]edam; et Imperatoria, et Senatoria Maiestas, atq[ue] dignitas. 
+                        Multa[e] sententia[e], utriq[ue] Militia[e] aptae, et in suo foro exquisit[a]e. Synopsis qu[a]edam collectarum &agrave; Perionio Concionum. <!--JG: ae ligature should be transcribed as 'a[e]'-->
+                        Digna in singulis generibus curiosa Analyse. Ut sunt pla[e]raq[ue] prudenter, arguteq[ue] elegantia.
                         Sed harum concionum nemo lautior censor, quam Quinctilianus, aut magnificentior pr[a]eco.
                     </marginalia_text>
                     <person name="Livy" />
@@ -53,9 +53,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        {Ciceronis similior C[a]esar: Sallustii tij Livius: Livij Quinctilianus: Omnium Velleius. Tacitus esse maluit suus: Seneca esse voluit 
-                        suissimus. Poetarum nemo delectu verboru[m], phrasium, sententiarumq[ue] affinior Ciceroni, C[a]esari, et Terentio, quam Virgilius. 
-                        Ut fere non magis poeta videatur, qu&agrave;m orator, aut historicus. Tam est exquisite elegans, et prudens.
+                        {Ciceronis similior C[a]esar: Sallustii tij Livius: Livij Quinctilianus: Omnium Velleius. Tacitus esse maluit suus: Seneca esse uoluit <!--JG: ae ligature should be transcribed as 'a[e]'-->
+                        suissimus. Poetarum nemo delectu verboru[m], phrasium, sententiarumq[ue] affinior Ciceroni, Ca[e]sari, et Terentio, qu&agrave;m Virgilius. 
+                        Ut fer&egrave; non magis poeta videatur, qu&agrave;m orator, aut historicus. Tam est exquisit&egrave; elegans, et prudens.
                     </marginalia_text>
                     <person name="Julius Caesar" />
                     <person name="Cicero" />
@@ -94,11 +94,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Qui vult Livius penitus percipere, diligenter legat Pontani Actium, de historia dialogum. Nec unq[uam] obliviscatur, Quinctilianum 
-                        caeteris Romanoru[m] historicis praetulisse Livium, ac Sallustium: alterumq[ue] Herodoto, alteru[m] Thucydidi composuisse, qui in 
-                        dicendo fuere mirabiles. Scite Servilius Novianus: pares eos esse magis, quam similes. Sit Cicero elegantior paulo, aut concinnior: 
-                        at penetrantior est Livius, saepe pressior, plaerunq[ue] nervosior, et non raro aliquid promit magis reconditum. Da saltem Ciceronis 
-                        phrasin: Livii emphasin.
+                        Qui vult Livius penit&ugrave;s percipere, diligenter legat Pontani Actium, de historia dialogum. Nec unq[uam] obliuiscatur, Quinctilianum 
+                        ca[e]teris Romanoru[m] historicis pra[e]tulisse Liuium, ac Sallustium: alterumq[ue] Herodoto, alteru[m] Thucydidi composuisse, qui in 
+                        dicendo fu&ecirc;re mirabiles. Scite Servilius Novianus: 
                     </marginalia_text>
                 <person name="Livy"/>
                 <person name="Giovanni Pontano"/>
@@ -106,9 +104,14 @@
                 <person name="Sallust"/>
                 <person name="Herodotos"/>
                 <person name="Thucydides"/>
-                    <person name="Servilius Novianus"/> <!-- LS, I added this to the Person list -->
-                <person name="Cicero"/>
-                <book title="Actius"/> <!-- LS, I added this to the book list -->
+                <person name="Servilius Novianus"/> 
+                </position>
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>pares eos esse magis, qu&agrave;m similes. Sit Cicero elegantior paul&ograve;, aut concinnior: 
+                        at penetrantior est Liuius, saep&egrave; pressior, pla[e]runq[ue] nervosior, et non rar&ograve; aliquid promit magis reconditum. Da saltem Ciceronis 
+                        phrasin: Liuij emphasin.</marginalia_text>
+                    <person name="Cicero"/>
+                    <book title="Actius"/> 
                 </position>
             </language>
             <translation>
@@ -137,8 +140,8 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        {Oratori, pragmatico legato, regio consiliario, aulico deniq[ue] aut urbano politico, multi hic eximii, et conspicui Iconismi. 
-                        Nullius fere emphasis, in quovis causaru[m] genere nervosior, aut efficatior.
+                        {Oratori, pragmatico legato, regio consiliario, aulico deniq[ue] aut vrbano politico, multi hic eximij, et conspicui Iconismi. 
+                        Nullius fer&egrave; emphasis, in quovis causaru[m] genere nervosior, aut efficatior.
                     </marginalia_text>
                 </position>
             </language>
@@ -159,13 +162,13 @@
         <underline method="pen" type="straight" language="LA" text="Gloriamq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="defloratam"/>
         <underline method="pen" type="straight" language="LA" text="uelut eneruata ciuitas"/>
-        <underline method="pen" type="straight" language="LA" text="pr[a]ea"/>
+        <underline method="pen" type="straight" language="LA" text="praeda"/>
         <underline method="pen" type="straight" language="LA" text="agmen trahens"/>
         <underline method="pen" type="straight" language="LA" text="res quoque defloruere."/>
         <underline method="pen" type="straight" language="LA" text="concocta sunt consilia"/>
         <underline method="pen" type="straight" language="LA" text="Cum obsideri aures"/>
         <underline method="pen" type="straight" language="LA" text="inexplicabiles"/>
-        <underline method="pen" type="straight" language="LA" text="imbribus ui[a]e"/>
+        <underline method="pen" type="straight" language="LA" text="imbribus uiae"/>
         <underline method="pen" type="straight" language="LA" text="inflati amnes"/>
         <underline method="pen" type="straight" language="LA" text="Amicitias immortales"/>
         <underline method="pen" type="straight" language="LA" text="inimicitias mortales debere"/>
@@ -177,7 +180,7 @@
         <underline method="pen" type="straight" language="LA" text="labet."/>
         <underline method="pen" type="straight" language="LA" text="probis quoq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="procacibus iaculati sunt"/>
-        <underline method="pen" type="straight" language="LA" text="conditione honest[a]e pacis"/>
+        <underline method="pen" type="straight" language="LA" text="conditione honestae pacis"/>
         <underline method="pen" type="straight" language="LA" text="spe uana euectus"/>
         <underline method="pen" type="straight" language="LA" text="casum irreuocabilem sedaret."/>
         <underline method="pen" type="straight" language="LA" text="Castra tumulo"/>
@@ -186,17 +189,17 @@
         <underline method="pen" type="straight" language="LA" text="tradita Romanis"/>
         <underline method="pen" type="straight" language="LA" text="Saxis"/>
         <underline method="pen" type="straight" language="LA" text="tormento emicantibus"/>
-        <underline method="pen" type="straight" language="LA" text="suspens[a]eq[ue]"/>
+        <underline method="pen" type="straight" language="LA" text="suspensaeq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="fortuna fidei"/>
-        <underline method="pen" type="straight" language="LA" text="Pr[a]ecerptam"/>
-        <underline method="pen" type="straight" language="LA" text="l[a]etitiam"/>
+        <underline method="pen" type="straight" language="LA" text="Praecerptam"/>
+        <underline method="pen" type="straight" language="LA" text="laetitiam"/>
         <underline method="pen" type="straight" language="LA" text="occupatas iam aures"/>
         <underline method="pen" type="straight" language="LA" text="aggressus tempestiuis temporibus"/>
         <underline method="pen" type="straight" language="LA" text="rem prop&egrave; prolapsam restituit"/>
         <underline method="pen" type="straight" language="LA" text="GENERA CAVSSARVM"/>
         <underline method="pen" type="straight" language="LA" text="omnium generum scribendi, dicendiq[ue] facultatem"/>
         <underline method="pen" type="straight" language="LA" text="illa prolixiore"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; pleniorem,"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; pleniorem"/>
         <underline method="pen" type="straight" language="LA" text="Suasio"/>
         <underline method="pen" type="straight" language="LA" text="Dissuasio"/>
         <underline method="pen" type="straight" language="LA" text="Abhortatio"/>
@@ -232,11 +235,11 @@
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="multis emptus donis"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ipsorum caput semper recidentia"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="uulnerat[a]e aliquot."/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="uulneratae aliquot."/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="defloratam"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="uelut eneruata ciuitas"/>
         <mark name="dash" method="pen" place="intext"/> <!-- La -->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="agmen trahens"/>
+        <mark name="plus_sign" method="pen" place="intext" />
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="res quoque defloruere."/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="concocta sunt consilia"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Cum obsideri aures"/>
@@ -247,18 +250,19 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Amicitias immortales"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="humerus sopitus"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Rhodios fluctuantes"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Ventosum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Circumagetur hic orbis"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="labet."/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="procacibus iaculati sunt"/>
+        <mark name="plus_sign" method="pen" place="intext" />
         <mark name="equal_sign" method="pen" place="intext"/> <!-- retur -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="spe uana euectus"/>
-        <mark name="equal_sign" method="pen" place="right_margin"/> <!-- ute= -->
+        <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="casum irreuocabilem sedaret."/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Claustra Macedonie"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="tormento emicantibus"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="suspens[a]eq[ue]"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Pr[a]ecerptam"/>
-        <mark name="bracket" method="pen" place="intext" text=""/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="suspensaeq[ue]"/>
+        <mark name="plus_sign" method="pen" place="intext" />
+        <mark name="bracket" method="pen" place="intext" text="Is ad occupatas iam aures, solicitumq[ue] iam animum cun uenisset, aggressus tempestiuis temporibus rem prop&egrave; prolapsam restituit. 816.A."/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="rem prop&egrave; prolapsam restituit"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="GENERA CAVSSARVM"/>
@@ -290,10 +294,11 @@
         <mark name="horizontal_bar" method="pen" place="tail"/>
         <mark name="horizontal_bar" method="pen" place="tail"/>
         <mark name="horizontal_bar" method="pen" place="tail"/>
+        <mark name="horizontal_bar" method="pen" place="left_margin"/> <!--above mercury symbol-->
         
-        <numeral place="intext">1.</numeral>
-        <numeral place="intext">2.</numeral>
-        <numeral place="intext">3.</numeral>
+        <numeral place="intext" language="LA" text="Deliberatio">1.</numeral>
+        <numeral place="intext" language="LA" text="Demonstratio">2.</numeral>
+        <numeral place="intext" language="LA" text="Iudiciu[m]">3.</numeral>
         
     </annotation>
 </transcription>
