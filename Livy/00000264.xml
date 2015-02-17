@@ -3,7 +3,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000264.tif" pagination="242" reader="Harvey" /> 
+    <page filename="00000264.tif" pagination="242" reader="Harvey"  signature="[X1v]"/> 
     <annotation>
         <marginalia hand="Italian" anchor_text="ut Maximi cognome[n]">
             <language ident="LA">
@@ -80,8 +80,12 @@
         <mark name="apostrophe" method="pen" place="head"/> <!--deponerent-->
         <mark name="dot" method="pen" place="intext"/> <!--tenebat, donec-->
         <mark name="apostrophe" method="pen" place="intext"/> <!--appellauit-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="ut Maximi cognome[n]"/>
+        <mark name="circumflex" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="populum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="deuouit"/>
+        
+        <errata language="LA" copytext="aimis" amendedtext="animis"/>
         
     </annotation>
 </transcription>
