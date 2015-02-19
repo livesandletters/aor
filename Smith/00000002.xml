@@ -7,7 +7,9 @@
 
 <page filename="00000002.tif" reader="Other" pagination="Flyleaf"/>
     <annotation>
-        <marginalia hand="Italian"> <!-- CG: Should we introduce a third hand option for other readers? Even something like "Other" might be useful. We don't want it to get counted with Harvey's actual annotations! -->
+        <marginalia hand="Italian"> 
+            <!-- CG: Should we introduce a third hand option for other readers? Even something like "Other" might be useful. We don't want it to get counted with Harvey's actual annotations! -->
+            <!-- JE: I've put 'Other' in the 'page' section above. But happy to handle this differently if preferred? -->
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -20,7 +22,7 @@
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Heben[?] VII-2/6    <!-- CG: Looks like Heben to me. No clue what it means though. -->
+                        Heben VII-2/6
                     </marginalia_text>
                 </position>
             </language>
@@ -29,10 +31,10 @@
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Harvey dedicated his "Smithus" to to Meldway[?], but had a sect[ion?]   <!-- CG: Could this be "sub-dedication" or something like that? 
-                                                    And I've no clue what that "Meldway" word is. I can't seem to find any indications anywhere in the book about Harvey dedicating it to anyone other than Wood.
-                                                    Could it be two words? It looks like there's a space between the 'L' (E?) and the 'D.'--> 
-                        dedication to John Wood, Smith's nephew + secretary
+                        Harvey dedicated his "Smithus" to to Meldway[?], but had a sub-dedication to John Wood, Smith's nephew + secretary
+                        <!-- CG: I've no clue what that "Meldway" word is. I can't seem to find any indications anywhere in the book about Harvey dedicating it to anyone other than Wood.
+                            Could it be two words? It looks like there's a space between the 'L' (E?) and the 'D.'--> 
+                        <!-- JE: Yep, I still can't get any further on this. Jaap - any thoughts? -->
                     </marginalia_text>
                 </position>
             </language>
