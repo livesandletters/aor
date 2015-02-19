@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
 <page filename="00000013.tif" reader="Harvey" pagination="4[r]" signature="[a.iv.r]"/>
     <annotation>
@@ -39,12 +39,14 @@
         
         <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="vt quiddam invenirem"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- dissentire, mutasseque -->
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
-        <mark name="horizontal_bar" method="pen" place="left_margin"/>  <!-- CG: These look like they might be poorly formed circumflex marks, although the second looks like it's upside down. What does Jaap think? -->
-        <mark name="horizontal_bar" method="pen" place="left_margin"/>
-            <!-- CG: Dots at "dissentire, mutasseque", "Trecensia, eo", and "Admirallum, nactus" -->
+        <mark name="dot" method="pen" place="intext"/> <!-- Trecensia, eo -->
+        <mark name="dot" method="pen" place="intext"/> <!-- Admirallum, nactus -->
+        <mark name="vertical_bar" method="pen" place="left_margin"/> 
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
         
     </annotation>
 </transcription>
