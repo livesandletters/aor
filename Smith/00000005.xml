@@ -16,30 +16,18 @@
                 </position>
             </language>
         </marginalia>
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" date="1569">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Ex dono Joannis Woddi
+                        Ex dono Joannis Woddi, Aulicij, et Amici mei singularis. 
+                        Anno 1569.
                     </marginalia_text>
                     <person name="John Wood"/>
                 </position>
             </language>
             <translation>
-                The gift of John Wood.
-            </translation>
-        </marginalia>
-        <marginalia hand="Italian" date="1569">
-            <language ident="LA">
-                <position place="head" book_orientation="0">
-                    <marginalia_text>
-                        Aulicij, et Amici mei singularis.
-                        Anno 1569.
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                A prince among men and my particular friend.    <!-- CG: I've been translating "Aulicus" as courtier. Perhaps this might be something like "John Wood, courtier and my singular friend"?-->
+                The gift of John Wood, courtier and my particular friend.   
                 In the year 1569.
             </translation>
         </marginalia>
@@ -90,8 +78,8 @@
             </translation>
         </marginalia>
         
-        <!-- JE: there's some scribbling in the head - are we capturing this? -->
-        <!-- CG: I think Jaap mentioned capturing "scribbling" with a new mark, since there's some in the Castiglione as well. -->
+        <mark name="scribble" method="pen" place="head"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
+        
     </annotation>
 </transcription>
