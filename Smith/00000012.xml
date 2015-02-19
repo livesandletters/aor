@@ -10,8 +10,8 @@
         
         <underline method="pen" type="straight" language="LA" text="Obstinatulo meo"/>
         <underline method="pen" type="straight" language="LA" text="quem &agrave; sacro fonte suscepi"/>
-        <underline method="pen" type="straight" language="LA" text="disiunctum ben&egrave;"/>   <!-- CG: 'disiunctim' -->
-        <underline method="pen" type="straight" language="LA" text="coniunctum mal&egrave; vestitus"/>  <!-- CG: 'coniunctim' -->
+        <underline method="pen" type="straight" language="LA" text="disiunctim ben&egrave;"/>
+        <underline method="pen" type="straight" language="LA" text="coniunctim mal&egrave; vestitus"/>
         <underline method="pen" type="straight" language="LA" text="pertinax mulus"/>
         <underline method="pen" type="straight" language="LA" text="viginti sunt plus minus anni"/>
         <underline method="pen" type="straight" language="LA" text="me ingredi in bibliothecam tuam"/>
@@ -25,9 +25,11 @@
         <underline method="pen" type="straight" language="LA" text="diversitat&eacute;que scribendi"/>
         
         <mark name="quotation_mark" method="pen" place="right_margin"/>
-        <mark name="X_sign" method="pen" place="right_margin" language="LA" text="viginti sunt plus minus anni"/>   <!--  CG: I think this might be a plus sign too, the X sign is a big bigger. -->
+        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="viginti sunt plus minus anni"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="me ingredi in bibliothecam tuam"/>
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="cu[m] nescio quo libro fueras occupatus"/>
-            <!-- CG: A couple of dots in the second half of the page: 'Graecam, reperi' and 'memoria, &' -->
+        <mark name="dot" method="pen" place="right_margin"/> <!-- Graecam, reperi -->
+        <mark name="dot" method="pen" place="right_margin"/> <!-- memoria, & -->
         
     </annotation>
+</transcription>
