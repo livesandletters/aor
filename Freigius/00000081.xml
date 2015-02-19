@@ -27,12 +27,6 @@
                     <marginalia_text>
                         Tautologia[e]. Antinomia[e]. Commentarij. Nota[e]. }
                         rursus uetite.   
-                        <!-- CG: I'm wondering if we should add another type/attribute 
-                for "underline" or "emphasis," which captures those rare moments when Harvey underlines
-            something multiple times. Or maybe even a separate mark, like "multiple_horizontal_bar" (or something more elegant).
-            What do you and Jaap think?-->
-                        <!-- JE: Jaap? -->
-                        <!--JG: For the moment, use the scribble tag to capture these kinds of interventions. We just have to figure out how often Harvey employs this mark before creating a separate mark to capture this-->
                     </marginalia_text>  
                     <emphasis method="pen" type="straight" text="rursus"/>
                 </position>
@@ -128,6 +122,7 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Commentarios in ius fieri"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="vetatq[ue] notas iuris fieri"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="error veterum"/>
+        <mark name="scribble" method="pen" place="right_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- Infortiatum & -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="geminae leges"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="singulis rebus"/>         
