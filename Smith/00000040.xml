@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE transcription SYSTEM "../XMLschema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../XMLschema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 
 <page filename="oooooo40.tif" reader="Harvey" pagination="[17v]" signature="e.i.v"/>
     <annotation>
@@ -11,48 +11,91 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Audomarus Tala[e]us Veliam, oppidum Lucania[e], άπό τά έλεος nomen habuisse refert, aspiratione
-                        in latina voce Versa in u vocalem.
-                        grammatici nostri u consonantem vocant.
-                        <!-- JE: can someone check the Greek please? --> <!-- CG: ἀπὸ τοῦ ἕλεος -->
+                        Audomarus Tala[e]us Veliam, oppidum Lucania[e],
                     </marginalia_text>   
                     <person name="Omer Talon"/>
                     <location name="Velia"/>
+                    <location name="Lucania"/>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        ἀπὸ τοῦ ἕλεος
+                    </marginalia_text>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        nomen habuisse refert, aspiratione in latina voce Versa in u vocalem.
+                        grammatici nostri u consonantem vocant.
+                    </marginalia_text>
                 </position>
             </language>
             <translation>
-                Audomarus Talaeus reports that Velia, the city in Lucania, had the name άπό τά έλεος, with the aspiration 
+                Audomarus Talaeus reports that Velia, the city in Lucania, had the name 'apo tou heleos', with the aspiration 
                 turned in the Latin tongue into the vowel 'u'.
                 Our grammaticians call 'u' a consonant.
-                <!-- CG: The Greek (apo tou heleos) means something like "due to the marsh." 
-                Apparently the original Greek name of Velia was Elea, which has to do with the terrain, I suppose. 
-                Maybe we should also tag the location of 'Lucania.'  -->
             </translation>
         </marginalia>
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Si iu, in Juno diphthongus esset, esset, ut uidetur, in Virgiliano carmine σιωαλλοιφή. nisi forte   <!-- CG: συναλλοιφὴ -->
-                        διαίρεσιν esse putemus, et J&uuml;no sonandum arbitremur, quod nemo vnq[uam] obseruauit. Sed qui in his 
-                        uocibus, aur&atiled;, aqu&atiled;, aul&atiled;i, pict&atiled;i, tam audacem, ut ita dicam, ferit <!-- CG: "aur&atiled;i" and "aqu&atiled;i" --> 
-                        διαίρεσιν, potuit etiam eadem licentia J&uuml;no dicere.
-                        <!-- JE: Again, help with the Greek please! --> <!-- CG: διαίρεσιν is right! -->
+                        Si iu, in Juno diphthongus esset, esset, ut uidetur, in Virgiliano carmine 
+                    </marginalia_text>
+                    <person name="Virgil"/>
+                    <person name="Juno"/>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        συναλλοιφὴ.
                     </marginalia_text>
                 </position>
             </language>
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        nisi forte
+                    </marginalia_text>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        διαίρεσιν                     
+                    </marginalia_text>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        esse putemus, et J&uuml;no sonandum arbitremur, quod nemo vnq[uam] obseruauit. Sed qui in his 
+                        uocibus, aur&atiled;i, aqu&atiled;i, aul&atiled;i, pict&atiled;i, tam audacem, ut ita dicam, ferit
+                    </marginalia_text>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        διαίρεσιν,
+                    </marginalia_text>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        potuit etiam eadem licentia J&uuml;no dicere.
+                    </marginalia_text>
+                </position>
+            </language>            
             <translation>
-                If the 'iu' in 'Iuno' were a diphthong, it would - as is clear - be σιωαλλοιφή in the Virgilian hymn. But we may   
-                suppose it to be διαίρεσιν and judge that it is to be sounded 'Juno', something that no-one has previously 
-                observed. But one who, if I may say, would be so bold as to make διαίρεσιν of these vowels - aur&atiled;, 
-                aqu&atiled;, aul&atiled;i, pict&atiled;i - he could with the same wantonness say 'Juno'.
-                <!-- JE: I suspect that my translation is missing something, due to my lack of Greek. -->
-                <!-- CG: Both these Greek words are technical terms to describe the combination (synalepha) or separation (diaeresis) of vowels.
-                    "If the 'iu' were a dipthong in Juno, it would undergo 'synalepha' in Virgil's poetry [meaning counted as one syllable].
-                    But we may suppose is to undergo 'diaeresis' and judge that it is to be pronounced "J-uno," something that no-one
-                    has previously observed. [The umlaut indicates diaeresis in poetry, meaning that the vowels of the diphthong are pronounced and
-                    counted separately in the meter.] But one who would have the audacity to use diaeresis with this vowels, aura-i, aqua-i [...] 
-                    could with the same wantonness say "J-uno.""-->                
+                If the 'ju' in 'Juno' were a diphthong, it would - as is clear - undergo 'synalepha' in Virgil's poetry. Otherwise, we may suppose it undergoes
+                'diaresis' and judge that it is to be pronounced 'I-uno', something that no-one has previously noticed. But one who, if I may say, were so bold as to
+                use diaeresis with these vowels - 'aura-i', 'aqua-i', 'aula-i', 'picta-i' - could with the same wantonness say 'I-uno'.         
             </translation>
         </marginalia>
         
