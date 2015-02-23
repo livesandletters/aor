@@ -10,7 +10,7 @@
    	
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="so much furie assaulted of"/>
-    	<underline method="pen" type="straight" language="EN" text="no time to whorle their dartes"/>
+    	<underline method="pen" type="straight" language="EN" text="no time to whorle their dartes"/> <!--JG: I'd collapse these two underline tags: just put the underlined text in one tag-->
     	<underline method="pen" type="straight" language="EN" text="dartes, according"/>
     	<underline method="pen" type="straight" language="EN" text="that shooteth farre of, being in the"/>
     	<underline method="pen" type="straight" language="EN" text="hurte thee"/>
@@ -60,7 +60,7 @@
     
     	
     	<!-- Symbols -->
-    		<!-- CG: There is a sort of mark in the right margin that might be a 'supra' or something else. Any ideas? -->
+    		<!-- CG: There is a sort of mark in the right margin that might be a 'supra' or something else. Any ideas? --> <!--JG: I don't have an idea what this can be. Please just put 'unknown mark' in a comment field and we'll get back to it at some point-->
 
     	<!-- Marks -->
     	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="much furie assaulted of"/>
@@ -68,13 +68,13 @@
     	<mark name="hash" method="pen" place="right_margin"/>    	
     	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="more blindeth"/>
     	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="[the] shooting, it should not with the smoke"/>
-    	<mark name="hash" method="pen" place="right_margin" language="EN" text="to raise vp the duste, and to lette their"/>
-    	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="guided the shotte of the artillerie"/>
+    	<mark name="hash" method="pen" place="right_margin" language="EN" text="to raise vp the duste, and to lette their"/> <!--JG: I'd not link this one to underlined text, is a bit unclear I think to which text it actually refers-->
+    	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="guided the shotte of the artillerie"/> <!--JG: I'd not link this one to underlined text, is a bit unclear I think to which text it actually refers-->
     	<mark name="plus_sign" method="pen" place="right_margin"/>
     	
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="much furie assaulted of"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="time to whorle their dartes"/>
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="no other remedie"/>
+    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="no other remedie"/> <!--JG: I'd not link this one to underlined text-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="celeritie"/>
     	<mark name="comma" method="pen" place="intext"/> <!-- ordinaunce whereat -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="confusion in an armie"/>
@@ -91,7 +91,7 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="to passe ouer the heades of my men"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="most often"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="misse the footemen"/>
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="the footemen are so lowe"/>
+    	<mark name="plus_sign" method="pen" place="tail" language="EN" text="the footemen are so lowe"/>
     	
     </annotation>
 </transcription>
