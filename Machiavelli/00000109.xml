@@ -21,7 +21,7 @@
     		<language ident="EN">
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
-    					ruin against all armours, &amp; orders.
+    					ruin against all armours, &amp; orders. <!--JG: Shouldn't it be 'ruen', seems like an 'e' to me-->
     				</marginalia_text>
     			</position>
     		</language>
@@ -39,7 +39,7 @@
     	<underline method="pen" type="straight" language="EN" text="the artillerie"/>
     	<underline method="pen" type="straight" language="EN" text="manye dispraise the armours"/>
     	<underline method="pen" type="straight" language="EN" text="orders of the aunciente"/>
-    		<!-- CG: scoring beneath "armies, arguing" ... though looks to me like he ran out of ink-->
+    		<!-- CG: scoring beneath "armies, arguing" ... though looks to me like he ran out of ink--> <!--JG: You can capture this by the underline mark, chose 'scoring' as the value the method attribute-->
     	<underline method="pen" type="straight" language="EN" text="vnprofitable, hauing respect to the furie of the"/>
     	<underline method="pen" type="straight" language="EN" text="artillerie: because, this breaketh the orders, and passeth"/>
     	<underline method="pen" type="straight" language="EN" text="armours in such wise, that"/>
@@ -66,9 +66,9 @@
     	<underline method="pen" type="straight" language="EN" text="demau[n]ded, co[n]cerning the shoting"/>
     		
     	<!-- Symbols -->
+    	<symbol name="Bisected_circle" place="right_margin"/> 
     	<symbol name="Bisected_circle" place="right_margin"/>
-    	<symbol name="Bisected_circle" place="right_margin"/>
-    	<symbol name="Bisected_circle" place="right_margin" language="EN" text="to stande where it can not retche"/>
+    	<symbol name="Bisected_circle" place="right_margin" language="EN" text="to stande where it can not retche"/> <!--JG: I'm not sure about linking it to this underlined text. Symbols seem to be used to demarcate text in right margin-->
 
     	<!-- Marks -->
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="not your ordina[n]ce"/>
@@ -80,9 +80,9 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="remedie"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="this breaketh the orders"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="and passeth"/>
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="which cannot"/>
+    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="which cannot"/> <!--JG: Maybe link to cannot only? Or don't link at all-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="that cannot defend"/>
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="it importeth more"/>
+    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="it importeth more"/> <!--JG: I wouldn't link this to underlined text-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="heede not to be strike[n]"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="to strike"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="it is necessary"/>
@@ -101,7 +101,6 @@
     	<numeral place="intext" text="behinde a wall, or behinde a banke" language="EN">
     		2.
     	</numeral>
-    	
     	
     </annotation>
 </transcription>
