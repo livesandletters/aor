@@ -15,13 +15,13 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
+            <translation> <!--JG: You should include the 'I.' in your translation as well. Also end the translation with a full stop.-->
                 Useful
             </translation>
         </marginalia>
         
         <underline method="chalk" type="straight" language="LA" text="potuis quaedam fragmenta atrium circumferre"/>
-        <underline method="chalk" type="straight" language="LA" text="questus"/>
+        <underline method="chalk" type="straight" language="LA" text="questus"/> <!--JG: Should be 'quaestus'-->
         <underline method="chalk" type="straight" language="LA" text="ut popularem opinionem"/>
         <underline method="chalk" type="straight" language="LA" text="causis mutationum,"/>
         <underline method="chalk" type="straight" language="LA" text="non solum animantium,"/>
@@ -37,5 +37,6 @@
         <mark name="plus_sign" method="chalk" place="left_margin"/>
         <mark name="plus_sign" method="chalk" place="left_margin"/>
         <mark name="vertical_bar" method="chalk" place="intext"/> <!--Repub.-->
+        
     </annotation>
 </transcription>
