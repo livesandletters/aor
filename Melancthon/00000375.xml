@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000375.tif" reader="Harvey" pagination="371" signature="[aijr]"/> <!--JG: I checked some other transcription, and I think it's best to give the signature within two brackets, rather than also bracketing off the reference to recto/verso. I changed this in the other transcriptions as well-->
+    <page filename="00000375.tif" reader="Harvey" pagination="371" signature="[aijr]"/>
     <annotation>
         <marginalia hand="English_secretary">
             <language ident="LA">
@@ -28,7 +28,7 @@
         <underline method="pen" type="straight" language="LA" text="in Rep"/>
         <underline method="pen" type="straight" language="LA" text="aerarij"/>
         <underline method="pen" type="straight" language="LA" text="iudicijs quaestiones"/>
-        <underline method="chalk" type="straight" language="LA" text="incidunt, quae requirunt"/> <!-- while this appears to be underlining, the line actually extends into the right hand margin --> <!--JG: Tagging this as underline is fine. Only when a line/bar extends across the whole page, we tag it differently, namely as a page break (see Manual)-->
+        <underline method="chalk" type="straight" language="LA" text="incidunt, quae requirunt"/> <!-- while this appears to be underlining, the line actually extends into the right hand margin -->
         <underline method="pen" type="straight" language="LA" text="computationem"/>
         <underline method="chalk" type="straight" language="LA" text="numeros naturae beneficio"/>
         <underline method="chalk" type="straight" language="LA" text="ars addenda"/>
@@ -41,8 +41,8 @@
         <underline method="pen" type="straight" language="LA" text="Arithmeticen"/>
         
         <mark name="X_sign" method="chalk" place="right_margin"/> 
-        <mark name="X_sign" method="chalk" place="right_margin"/><!--JG: I think you can link this mark to the underlined text 'ciues...'-->
-        <!--JG: I think there's another X in the right margin. I wouldn't link this one to the underlined text-->
+        <mark name="X_sign" method="chalk" place="right_margin" language="LA" text="ciues cogantur discere Arithmeticam"/>
+        <mark name="X_sign" method="chalk" place="right_margin"/>
         
         <drawing name="florilegium" method="chalk" place="right_margin"/>
                      

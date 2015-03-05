@@ -8,7 +8,7 @@
     <page filename="00000376.tif" reader="Harvey" pagination="372" signature="[aijv]"/>
     <annotation>
         
-        <marginalia hand="English_secretary"> <!--JG: You can link this marginal note to the printed text 'Nihil...discere', by making use of the anchor attribute-->
+        <marginalia hand="English_secretary" anchor_text="Nihil facilius est, qu&agrave;m has ut uocant, species in arte numerandi discere.">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -16,7 +16,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation> <!-- Is this 'Simple mathematics' or 'no simple mathematics'? Not sure how to translate 'nihil' --> </translation>  <!--JG: I think it's something like 'nothing is easier than mathematics-->
+            <translation> nothing is easier than mathematics </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="longis rationibus"/>
@@ -26,7 +26,7 @@
         <underline method="chalk" type="straight" language="LA" text="uiro politico"/>
         <underline method="chalk" type="straight" language="LA" text="in cosmographia"/>
         <underline method="chalk" type="straight" language="LA" text="in locorum"/>
-        <underline method="chalk" type="straight" language="LA" text="uallis intelligendis"/> <!--JG: Should be interuallis-->
+        <underline method="chalk" type="straight" language="LA" text="interuallis intelligendis"/>
         <underline method="pen" type="straight" language="LA" text="doctrinam de rebus coelestibus"/>
         <underline method="chalk" type="straight" language="LA" text="mediocri Arithmetico"/>
         <underline method="chalk" type="straight" language="LA" text="ne omnia in doctrina rerum coelestium"/>
@@ -45,12 +45,12 @@
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="Discunt in partes centum diducere"/>
         <mark name="plus_sign" method="chalk" place="left_margin" language="LA" text="uiro politico"/>
         <mark name="plus_sign" method="chalk" place="left_margin" language="LA" text="omnia in doctrina rerum coelestium"/>
-        <mark name="bracket" method="chalk" place="left_margin" language="LA" text="cilius est"/> <!-- how much text would you recommend including in this bracket? --> <!--JG: Brackets are notoriously tricky to deal with, so in this case I actually wouldn't link it to the printed text-->
+        <mark name="bracket" method="chalk" place="left_margin"/>
         <mark name="bracket" method="chalk" place="left_margin" language="LA" text="Plato in Phedro fingit duplices aenimas,
-           quarum alteras ait alatas esse, alteris, inquit, decidisse asal. Oirr&ograve; alatas ait uolitare in coelum, fruentes"/>  <!--JG: Excellent to include the whole sentence, for here the amount of text captured by the bracket is quite clear-->
+           quarum alteras ait alatas esse, alteris, inquit, decidisse asal. Oirr&ograve; alatas ait uolitare in coelum, fruentes"/>
         
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- ait -->
-        <mark name="vertical_bar" method="chalk" place="intext" language="LA" text="congressu"/> <!--JG: I'd tag this as a horizontal bar-->
+        <mark name="horizontal_bar" method="chalk" place="intext" language="LA" text="congressu"/>
         
         
     </annotation>
