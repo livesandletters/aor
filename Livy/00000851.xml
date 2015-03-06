@@ -5,15 +5,15 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000851.tif" reader="Harvey" />
+    <page filename="00000851.tif" reader="Harvey"  pagination="829"/>
     <annotation>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Modus sit in scholijs, aphorismis, discursibus, commentationibus ullo modo. Qui Livium ipsum intim&egrave; animadvertit, plaerunq[ue] 
-                        habet abund&egrave; politicarum, militarium, ethicarumq[ue] in omni genere animadversionum.
+                        Modus sit in scholijs, aphorismis, discursibus, commentationibus vllo modo. Qui Livium ipsum intim&egrave; animaduertit, pla[e]runq[ue] 
+                        habet abund&egrave; politicarum, militarium, ethicarumq[ue] in omni genere animaduersionum.
                     </marginalia_text>
                 <person name="Livy"/>
                 </position>
@@ -28,7 +28,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Tam ditissima[e], quam strenuissima[e], callidissimaeq[ue] orbis nationi, non difficile fuit, Regibus imperare, mundoq[ue] dominari. 
+                        Tam ditissima[e], qu&agrave;m strenuissima[e], callidissima[e]q[ue] orbis nationi, non difficile fuit, Regibus imperare, mundoq[ue] dominari. 
                         Quot Reges in una urbe populari? pro se quisq[ue]. 
                     </marginalia_text>
                 </position>
@@ -43,16 +43,17 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Scite Lucianus appellat Ulyssem, et Nestorem, parasitos Agamemnonis, iam tum imperantis. Abiecti est animi, non regij, aut generosi, 
-                        viliter adularj. Reges Laconici, non reges, sed duces; non dico regali&ugrave;s, aut nobilius, sed virili&ugrave;s sapuerunt. 
+                        Scite Lucianus appellat Vlyssem, et Nestorem, parasitos Agamemnonis, iam tum imperantis. Abiecti est animi, non regij, aut generosi, 
+                        viliter adularj. Reges Laconici, non reges, sed duces; non dico regali&ugrave;s, aut nobili&ugrave;, sed virili&ugrave;s sapuerunt. 
                         Agesilaum Xenophontis, et Plutarchi cogito, illoq[ue] mult&ograve; minores. 
                     </marginalia_text>
-                <person name="Lucian"/> <!-- LS, I added this to the Person list -->
+                <person name="Lucian"/> 
                 <person name="Odysseus"/>
-                <person name="Nestor of Gerenia"/> <!-- LS, I added this to list, but please amend if I've got the wrong person! -->
-                <person name="Agamemnon"/> <!-- LS, I added this to the Person list -->
+                <person name="Nestor of Gerenia"/> 
+                <person name="Agamemnon"/>
                 <person name="Xenophon"/>
-                <person name="Agesilaus II"/> <!-- LS, I'm assuming this is the right one! -->
+                <person name="Plutarch"/>
+                <person name="Agesilaus II"/> 
                 </position>
             </language>
             <translation>
@@ -62,11 +63,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Polybius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        In Polybio no[n] minore[m], qu&agrave;m in Livio iacturam fecimus; ex quadraginta eius historiaru[m] libris, quinq[ue] tantum residuis.  
+                        In Polybio no[n] minore[m], qu&agrave;m in Liuio iacturam fecimus; ex quadraginta eius historiaru[m] libris, quinq[ue] tant&ugrave;m residuis.  
                     </marginalia_text>
                 <person name="Polybius"/>
                 <person name="Livy"/>
@@ -82,8 +83,9 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
                         Tales reguli, sua[e], qu&agrave;m publica[e] persona[e] cautiores, iuri maiestatis plurim&ugrave;m detrahunt; et sibi, suisq[ue] 
-                        posteris, non tam humili, qu&agrave;m vili obsequio indignissim&egrave; praeiudicant. Regium est, dicere, facereq[ue] regific&egrave;:
-                        quicquid usurpatur externi imperij. Sed Romanis, rerum dominis, mundiq[ue] occupatoribus, illo a[e]vo obsecundandum fuit. 
+                        posteris, non tam (
+                        humili, qu&agrave;m vili obsequio indignissim&egrave; pra[e]iudicant. Regium est, dicere, facereq[ue] regific&egrave;:
+                        quicquid vsurpatur externi imperij. Sed Romanis, rerum dominis, mundiq[ue] occupatoribus, illo a[e]uo obsecundandum fuit. 
                     </marginalia_text>
                 <emphasis method="pen" type="straight" text="Romanis"/>
                 <emphasis method="pen" type="straight" text="mundiq[ue]"/>
@@ -105,7 +107,7 @@
                         Sir Thomas Smyth, the Queenes principal secretarie; in his trauails in Fraunce, Italie, Spaine, and Germanie; but especially in his 
                         ambassages in Scotland, Fraunce, and Netherlande; found no sutch use of anie autours, as I heard himself say, as of Liuie, Plutarch, 
                         and Justinian. He mutch commended Sallust, Suetonius, Tacitus, and sum other of the best: but his classical and statarie historians 
-                        were Liuie, Plutarch, Halicarnasseus; and verie fewe other. Of the new, Cominaeus, Guicciardine, Jouius, Paulus Aemilius, Egnatius, 
+                        were Liuie, Plutarch, Halicarnasseus; and verie fewe other. Of the new, Cominaeus, Guicciardine, Jouius, Paulus &AElig;milius, Egnatius, 
                         and but fewe other. Not the most, but the Best; was his rule. And I am for Geometrical, not Arithmetical proportion. An other of owre 
                         cunningest, and shrewdest ambassadours in Fraunce, Sir Nicholas Throgmarton, was altogither for Cesar, and Liuie; Liuie, and Cesar. 
                         Not a more resolute man in Ingland: and few deeper heds: as mie Lord Burgley will still saye. 
@@ -118,21 +120,21 @@
                     <person name="Suetonius"/>
                     <person name="Tacitus"/>
                     <person name="Dionysus of Halicarnassus"/>
-                    <person name="John Amos Comenius"/> <!-- LS, I've added this person, please check it's the right one! -->
+                    <person name="Philippe de Commines"/> <!-- LS, I've added this person, please check it's the right one! -->
                     <person name="Francesco Guicciardini"/>
                     <person name="Paolo Giovio"/>
-                    <person name="Paulus Aemilius Veronensis"/> <!-- LS, I've added this person; there's 2 others with 'Aemilius' but I think this is different -->
+                    <person name="Paulus Aemilius Veronensis"/> 
                     <person name="Giovanni Battista Cipelli"/>
-                    <person name="Nicholas Throckmorton"/> <!-- LS, I've added this person -->
+                    <person name="Nicholas Throckmorton"/> 
                     <person name="Julius Caesar"/>
                     <person name="William Cecil"/> <!-- LS, I've added this person -->
-                    <location name="France"/> <!-- LS, added to Locations -->
+                    <location name="France"/> 
                     <location name="Italy"/> 
-                    <location name="Spain"/> <!-- LS, added to Locations -->
-                    <location name="Germany"/> <!-- LS, added to Locations -->
-                    <location name="Scotland"/> <!-- LS, added to Locations -->
-                    <location name="Netherlands"/> <!-- LS, added to Locations -->
-                    <location name="England"/> <!-- LS, added to Locations -->
+                    <location name="Spain"/>
+                    <location name="Germany"/> 
+                    <location name="Scotland"/> 
+                    <location name="Netherlands"/> 
+                    <location name="England"/> 
                 </position>
             </language>
         </marginalia>
@@ -145,7 +147,7 @@
         <underline method="pen" type="straight" language="LA" text="gratulatu[m]"/>
         <underline method="pen" type="straight" language="LA" text="qu&ograve;d Persea Gentiumq[ue] reges uicissent"/>
         <underline method="pen" type="straight" language="LA" text="auxissent imperium"/>
-        <underline method="pen" type="straight" language="LA" text="pr[a]estor senatu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="pr[a]etor senatu[m]"/>
         <underline method="pen" type="straight" language="LA" text="eo die"/>
         <underline method="pen" type="straight" language="LA" text="biduum"/>
         <underline method="pen" type="straight" language="LA" text="templa de&ucirc;m urbemq[ue] &amp; hospites"/>
@@ -189,19 +191,21 @@
         <underline method="pen" type="straight" language="LA" text="deos seruatores"/>
         <underline method="pen" type="straight" language="LA" text="senatum appellasse"/>
         <underline method="pen" type="straight" language="LA" text="non tam honorificam"/>
-        <underline method="pen" type="straight" language="LA" text="sibi deformem"/>
+        <underline method="pen" type="straight" language="LA" text="sibi deformem habuisse"/>
         
         <symbol name="Mercury" place="right_margin"/>
         <symbol name="Mars" place="right_margin"/>
         <symbol name="Sun" place="right_margin"/>
       
-        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="salutatum"/>
+        <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="salutatum se dixit uenisse"/> 
-        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="eo die"/>
-        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="datus Gallis effet"/>
-        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="eum qui det"/>
-        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="indignum maiestate nominis tanti tradit"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="eo die"/> <!--JG: I'd not link this to printed text, since more part of line are underlined-->
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="datus Gallis effet"/> <!--JG: Idem-->
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="eum qui det"/> <!--JG: Idem-->
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="indignum maiestate nominis tanti tradit"/> 
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="pileatum capite raso"/>
+        <mark name="horizontal_bar" method="pen" place="right_margin"/> <!--dividing marginal notes-->
+        <mark name="horizontal_bar" method="pen" place="right_margin"/> <!--dividing marginal notes-->
         <mark name="X_sign" method="pen" place="right_margin" language="LA" text="ire legatis solitum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="libertumq[ue] se P R serre"/>
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="osculo limen curiae contigisse"/>
