@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000379.tif" reader="Harvey" pagination="375" signature="[aiiijr]"/> <!--JG: Only 'r' should be between brackets-->
+    <page filename="00000379.tif" reader="Harvey" pagination="375" signature="aiiij[r]"/>
     <annotation>
         <marginalia hand="English_secretary">
             <language ident="LA">
@@ -14,7 +14,10 @@
                         .2. homstu[m] <!-- AB This is clearly not correct, but I just cannot work it out! Will have to come back to this. --> <!--JG: I think it's correct-->
                     </marginalia_text>
                 </position>
-            </language> <!--JG: Provide translation-->
+            </language>
+            <translation>
+                <!-- AB cannot find a translation for 'homstum' -->
+            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="certa &amp;"/>
