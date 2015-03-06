@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000377.tif" reader="Harvey" pagination="373" signature="[aiijr]"/> <!--JG: signature should not be in brackets (except for the 'r')-->
+    <page filename="00000377.tif" reader="Harvey" pagination="373" signature="aiij[r]"/>
     <annotation>
         <marginalia hand="English_secretary">
             <language ident="LA">
@@ -22,9 +22,9 @@
           <language ident="LA">
               <position place="right_margin" book_orientation="0">
                   <marginalia_text>
-                      sine alis <!-- AB also unsure of this one. Seems to make sense in the context of 'wings' being mentioned in the text, but it's an unusual letterform for lower-case 'a'--> <!--JG: I think 'alis' makes sense here-->
+                      sine alis.
                   </marginalia_text>
-                  <emphasis method="chalk" type="straight"/> <!--JG: Also use text attribute-->
+                  <emphasis method="chalk" type="straight" text="sine alis."/>
               </position>
           </language> 
             <translation>Without wings.</translation>
@@ -35,22 +35,28 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        alae Platonis sunt heroici impotus animorum <!-- lAB ast word is terribly unclear --><!--JG: I think it's animorum, which should be transcribed here as 'animoru[m]-->
+                        alae Platonis sunt heroici impotus animoru[m]
                     </marginalia_text>
                     <emphasis method="chalk" type="straight" text="alae Platonis"/>
                 </position>
-            </language> <!--JG: You should also include a translation-->
+            </language>
+            <translation>
+                <!-- AB Please help to translate. -->
+            </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary"><!--JG: You should tag this marginal note to the printed text-->
+        <marginalia hand="English_secretary" anchor_text="Sunt igitur alae mentis humana[e], Arithmetica &amp; Geometria.">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                       Ala[e] me[n]tis humanes, Arithmetica, et geometa[e].  <!-- AB last word is also quite blurred, please check! --><!--JG: Does 'geometae' exist at all? It could be 'geometr', but in that case the end of the word seems to be missing-->
                     </marginalia_text>
-                    <emphasis method="chalk" type="straight"/> <!--JG: You should include the words that are emphasized-->
+                    <emphasis method="chalk" type="straight" text="Ala[e] me[n]tis humanes, Arithmetica, et geometa[e]"/>
                 </position>
-            </language> <!--JG: You should also include a translation-->
+            </language>
+            <translation>
+                <!-- AB - I'm afraid this is beyond my knowledge to translate - I understand the gist of it, but couldn't offer something authoritative. -->
+            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="in inferiore"/>
