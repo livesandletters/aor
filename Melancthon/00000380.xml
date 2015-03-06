@@ -19,19 +19,19 @@
         </marginalia>
         
         <underline method="chalk" type="straight" language="LA" text="mediocriter in Arithmetica exercitati"/>
-        <underline method="chalk" type="straight" language="LA" text="scholis tradisolent"/>
+        <underline method="chalk" type="straight" language="LA" text="scholis tradi solent"/>
         <underline method="chalk" type="straight" language="LA" text="quotidianum usum conferuntur"/>
         <underline method="pen" type="straight" language="LA" text="admodum"/>
         <underline method="chalk" type="straight" language="LA" text="natura ipsa mentis humana[e]"/>
         <underline method="chalk" type="straight" language="LA" text="perspicua sunt"/>
         <underline method="pen" type="straight" language="LA" text="diuisionis"/>
-        <underline method="pen" type="straight" language="LA" text="diligentia[e]"/>
-        <underline method="chalk" type="straight" language="LA" text="causa[e] cit&ograve;"/>
+        <underline method="pen" type="straight" language="LA" text="diligentia[e]"/> <!--JG: Whe only put the 'e' of an 'ae' ligature between brackets when used in the marginal notes. In the printed text we just write 'ae'-->
+        <underline method="chalk" type="straight" language="LA" text="causa[e] cit&ograve;"/> <!--JG: Idem-->
         <underline method="pen" type="straight" language="LA" text="ab attentis"/>
-        <underline method="pen" type="straight" language="LA" text="ha[e]c ars"/>
-        <underline method="pen" type="straight" language="LA" text="alia[e]"/>
+        <underline method="pen" type="straight" language="LA" text="ha[e]c ars"/> <!--JG: Idem-->
+        <underline method="pen" type="straight" language="LA" text="alia[e]"/> <!--JG: Idem-->
         <underline method="pen" type="straight" language="LA" text="Manum esse causam"/>
-        <underline method="pen" type="straight" language="LA" text="sapientia[e]"/>
+        <underline method="pen" type="straight" language="LA" text="sapientia[e]"/> <!--JG: Idem-->
         <underline method="chalk" type="straight" language="LA" text="exercitatione, &amp; experientia"/>
         <underline method="chalk" type="straight" language="LA" text="memineritis nulla[m]"/>
         <underline method="chalk" type="straight" language="LA" text="styli exercitium"/>
@@ -40,6 +40,8 @@
         <mark name="plus_sign" method="chalk" place="left_margin"/>
         <mark name="X_sign" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="chalk" place="left_margin"/>
+        
+        <!-- JG: I think there's also a vertical bar within the text (between oritur. Deinde -->
 
     </annotation>
 </transcription>
