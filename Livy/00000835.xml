@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000835.tif" reader="Harvey" signature="[yyy 5 r]"/>
+    <page filename="00000835.tif" reader="Harvey" />
     <annotation>
         
         <marginalia hand="Italian">
@@ -14,17 +14,7 @@
                     <marginalia_text> 
                         Popilius, Legatus serius, et efficax: tanq[uam] auctoritatem habens, etiam in Reges.
                     </marginalia_text>
-                <person name="Gaius Popillius Laenas"/> <!-- LS, not sure if this is correct person or not  -->
-                </position>
-            </language>
-            <language ident="EN">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        One of doctor Dales great Examples: when he was Lord Ambassadour in Fraunce, and in Netherland.
-                    </marginalia_text>
-                <person name="Valentine Dale"/>
-                <location name="France"/>
-                <location name="Netherlands"/>
+                <person name="Gaius Popillius Laenas"/>
                 </position>
             </language>
             <translation>
@@ -36,13 +26,29 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Doctor Dale, Lord Ambassadour in Fraunce, and the Lowe Countries, was as resolute after his fashion, as Popilius himself; and stood 
+                        One of doctor Dales great Examples: when he was Lord Ambassadour in Fraunce, &amp; in Netherland.
+                    </marginalia_text>
+                <person name="Valentine Dale"/>
+                <location name="France"/>
+                <location name="Netherlands"/>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        Doctor Dale, Lord Ambassadour in Fraunce, and the Lowe Countries, was as resolute after his fashion, as Popilius himself; and stood <!--JG: Make sure to use the '&' when it's used in the orginal text. ABO has changed the & into 'and'-->
                         upon as peremptorie termes with the French Kinge, the duke of Parma, and other mightie Princes, as the stowtest Romane euer did in the 
                         like cases. When the Earle of Darbie, and other Ambassadours respectiuely quailed, he was allwaies in harte, absolute, and inuincible. 
                         The Prince of Parma was neuer so berded to his face, bie anie Ambassadour.
                     </marginalia_text>
                     <person name="Valentine Dale"/>
-                    <person name="Gaius Popillius Laenas"/> <!-- LS, not sure if this is correct person or not  -->
+                    <person name="Gaius Popillius Laenas"/> 
+                    <person name="Henry III of France"/>
+                    <person name="Alexander Farnese"/>
+                    <person name="Henry Stanley"/>
                     <location name="France"/>
                     <location name="Netherlands"/> 
                 </position>
@@ -53,16 +59,17 @@
         <underline method="pen" type="straight" language="LA" text="uirga qua[m] "/>
         <underline method="pen" type="straight" language="LA" text="circumscripsit regem: ac Prius"/>
         <underline method="pen" type="straight" language="LA" text="hoc circulo excedas"/>
-        <underline method="pen" type="straight" language="LA" text="redde responsum"/>
-        <underline method="pen" type="straight" language="LA" text="Obstupefactus ta[m] uiolento imperio, parumperquod censet senatus."/>
+        <underline method="pen" type="straight" language="LA" text="redde"/>
+        <underline method="pen" type="straight" language="LA" text="Obstupefactus ta[m] uiolento imperio, parumper"/>
+        <underline method="pen" type="straight" language="LA" text="quod censet senatus"/>
         <underline method="pen" type="straight" language="LA" text="Popilius dextra[m] regi tanquam"/>
         <underline method="pen" type="straight" language="LA" text="Et Masgabae regis Masanissae filio Puteolis nauem egresso"/>
         <underline method="pen" type="straight" language="LA" text="cum publico sumptu"/>
         <underline method="pen" type="straight" language="LA" text="Aduenienti"/>
-        <underline method="pen" type="straight" language="LA" text="extemplo senatus datus est."/>
+        <underline method="pen" type="straight" language="LA" text="extemplo senatus datus est."/> <!--JG: accent on o of extemplo-->
         <underline method="pen" type="straight" language="LA" text="quae rebus grata erant, gratiora uerbis faceret."/>
-        <underline method="pen" type="straight" language="LA" text="quadriennio patersuus in Macedoniam"/>
-        <underline method="pen" type="straight" language="LA" text="duas res ei rubori suisse:"/>
+        <underline method="pen" type="straight" language="LA" text="quadriennio pater suus in Macedoniam"/>
+        <underline method="pen" type="straight" language="LA" text="duas res ei rubori suisse:"/> <!--JG: fuisse instead of suisse-->
         <underline method="pen" type="straight" language="LA" text="rogasset cum per legatos"/>
         <underline method="pen" type="straight" language="LA" text="non impetrasset"/>
         <underline method="pen" type="straight" language="LA" text="percuniam ei pro frumento"/>
@@ -74,7 +81,7 @@
         <underline method="pen" type="straight" language="LA" text="neque emere"/>
         <underline method="pen" type="straight" language="LA" text="Masanissae satis esse"/>
         <underline method="pen" type="straight" language="LA" text="populo"/>
-        <underline method="pen" type="straight" language="LA" text="Romano supereslet"/>
+        <underline method="pen" type="straight" language="LA" text="Romano superestet"/>
         <underline method="pen" type="straight" language="LA" text="patri"/>
         <underline method="pen" type="straight" language="LA" text="Romam uenire"/>
         
@@ -85,7 +92,7 @@
         <mark name="dash" method="pen" place="right_margin"/> <!-- Macedo -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- fru -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ufu regni contentum"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="dominium &amp; ius eorum"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="dominium"/>
         
     </annotation>
 </transcription>
