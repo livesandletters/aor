@@ -40,7 +40,7 @@
 		<!ATTLIST underline language (EN|EL|FR|IT|LA|ES) #IMPLIED>
 		<!ATTLIST underline text CDATA #IMPLIED> 
 	<!ELEMENT symbol EMPTY>
-		<!ATTLIST symbol name (Asterisk|Bisected_circle|Crown|Crescent|JC|HT|LL|Mars|Mercury|Moon|Opposite_planets|Square|SS|Sun) #REQUIRED>
+		<!ATTLIST symbol name (Asterisk|Bisected_circle|Crown|JC|HT|LL|Mars|Mercury|Moon|Opposite_planets|Square|SS|Sun) #REQUIRED>
 		<!ATTLIST symbol place (head|tail|left_margin|right_margin|intext) #REQUIRED>
 		<!ATTLIST symbol language (EN|EL|FR|IT|LA|ES) #IMPLIED>
 		<!ATTLIST symbol text CDATA #IMPLIED>
