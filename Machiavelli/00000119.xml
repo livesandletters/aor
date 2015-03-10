@@ -7,6 +7,35 @@
 	
 <page filename="00000119.tif" pagination="liii[r]" reader="Harvey" signature="Oi[r]"/>
     <annotation>
+    	<!-- Margina -->
+    	<marginalia hand="Italian" anchor_text="Hovve the front of the armie ought to be made.">
+    		<language ident="EN">
+    			<position place="right_margin" book_orientation="0">
+    				<marginalia_text>
+    					I. vaward.
+    				</marginalia_text>
+    			</position>
+    		</language>
+    	</marginalia>
+    	<marginalia hand="Italian" anchor_text="Hovve the middel part of the armie ought to be ordered.">
+    		<language ident="EN">
+    			<position place="right_margin" book_orientation="0">
+    				<marginalia_text>
+    					2. battail.
+    				</marginalia_text>
+    			</position>
+    		</language>
+    	</marginalia>
+    	<marginalia hand="Italian" anchor_text="The ordering of the hinder parte of the armie">
+    		<language ident="EN">
+    			<position place="right_margin" book_orientation="0">
+    				<marginalia_text>
+    					3. rereward.
+    				</marginalia_text>
+    			</position>
+    		</language>
+    	</marginalia>
+    	
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="the reason"/>
     	<underline method="pen" type="straight" language="EN" text="first front"/>
@@ -64,17 +93,7 @@
     	<mark name="bracket" method="pen" place="intext"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="middest"/>    	
     	<mark name="dot" method="pen" place="intext"/> <!-- companie, for -->
-    	<!--JG: Comma in last line, between tenne in-->
+    	<mark name="comma" method="pen" place="intext"/> <!-- tenne in -->
     	
-    	<!-- Numerals -->    	<!--JG: This should all be captured by marginalia tag, rather than by numeral tag-->
-    	<numeral place="right_margin" text="front of the">
-    		I. vaward.
-    	</numeral>
-    	<numeral place="right_margin" text="middel part">
-    		2. battail.
-    	</numeral>
-    	<numeral place="right_margin" text="hinder parte">
-    		3. rereward.
-    	</numeral>
     </annotation>
 </transcription>
