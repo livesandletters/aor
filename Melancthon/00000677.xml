@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000677.tif" reader="Harvey" pagination="680" signature="ui[r]"/> <!--JG: Should be u[ir], since the i is attributed-->
+    <page filename="00000677.tif" reader="Harvey" pagination="680" signature="u[ir]"/>
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="Quid enim esse aut cogitari"/>
@@ -21,13 +21,13 @@
         <underline method="pen" type="straight" language="LA" text="qu&agrave;m gladio occumbere"/>
         <underline method="pen" type="straight" language="LA" text="crapula seipsos"/>
         
-        <mark name="plus_sign" method="pen" place="right_margin"/> <!--JG: This one you can link to the underlined text-->
+        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="humanitati"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/> <!--JG: This one you can link to the underlined text-->
+        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="propriae, ultro, &amp; nulla"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="ra"/> <!--JG: Text should be in comment field-->
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="cra"/> <!--JG: Text should be in comment field-->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ra -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- cra -->
         
         
     </annotation>
