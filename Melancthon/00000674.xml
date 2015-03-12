@@ -5,17 +5,17 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000674.tif" reader="Harvey" pagination="677" signature="[tviiv]"/>
+    <page filename="00000674.tif" reader="Harvey" pagination="677" signature="[tviiv]"/> <!--JG: I wouldn't include the signature here, since the recto side doesn't have one + the page is numbered-->
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="Qu&agrave;m difficile"/>
         <underline method="pen" type="straight" language="LA" text="ad uentrem uerba facere"/>
         <underline method="pen" type="straight" language="LA" text="qui aures non habet"/>
         
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="su"/>
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="ora"/>
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="haecora"/>
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="tem"/>
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="su"/> <!--JG: text should be in comment field, not in text attribute-->
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="ora"/>  <!--JG: text should be in comment field, not in text attribute-->
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="haecora"/>  <!--JG: text should be in comment field, not in text attribute-->
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="tem"/>  <!--JG: text should be in comment field, not in text attribute-->
         
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ad uentrem uerba facere"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="qui aures non habet"/>
