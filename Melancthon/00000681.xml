@@ -5,9 +5,8 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000681.tif" reader="Harvey" pagination="684" signature="uiii[r]"/>
+    <page filename="00000681.tif" reader="Harvey" pagination="684" signature="uiij[r]"/>
     <annotation>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -19,11 +18,11 @@
                 </position>
             </language>
             <translation>
-                Drinking causes many diseases.
+                Drinking causes many diseases.<!--JG: I think causa isn't a verb, but a noun. Better: Drinking, the cause of many diseases. -->
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="ipso de principio neruorum cerebro laeso"/>
+        <underline method="pen" type="straight" language="LA" text="ipso de principio neruorum cerebro laeso"/> <!--JG: ac instead of de, no?-->
         <underline method="pen" type="straight" language="LA" text="sua ui destitui"/>
         <underline method="pen" type="straight" language="LA" text="illa capitis crebra nutatio atq[ue]; grauedo"/>
         <underline method="pen" type="straight" language="LA" text="articulorum dissolutio"/>
@@ -45,17 +44,17 @@
         <underline method="pen" type="straight" language="LA" text="hanc esse fluxionem tot morborum causam"/>
         <underline method="pen" type="straight" language="LA" text="ualetudini nullam"/>
         
-        <mark name="plus_sign" method="pen" place="head" language="LA" text="ipso de principio neruorum cerebro laeso"/>
+        <mark name="plus_sign" method="pen" place="head" language="LA" text="cerebro"/>
+        
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="nutatio"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="grauedo"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="paralisim"/>
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="admoue"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="de origine ac causis morbi"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="paralisin"/>
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="admoue"/> <!--JG: Text should be in comment field-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="causis"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="dextra"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="caput"/>
         
        <errata language="LA" copytext="quid" amendedtext="qui"/> 
-        
         
     </annotation>
 </transcription>
