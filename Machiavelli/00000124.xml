@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000124.tif" pagination="lv[v]" reader="Harvey" signature="[Oiii[v]]"/>
+<page filename="00000124.tif" pagination="lv[v]" reader="Harvey" /> <!--JG: Pagination is inferred, hence everything between brackets: [lvv] > in this case you could put the second v in between brackets, for clarity: [lv[v]]-->
     <annotation>
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="vsed Flutes: for"/>
@@ -51,6 +51,7 @@
     		
     	<!-- Symbols -->
     		<!-- CG: Are these "alpha" marks to be considered new symbols? They seem to be referring to musical instruments. -->
+    	<!--JG: Interesting, do you encounter them more often? They also might be some elobarate X_signs, which I initially thought-->
     	
     	<!-- Marks -->
     	<mark name="hash" method="pen" place="left_margin"/>
@@ -66,7 +67,7 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="Trumpettes"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="incourage"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="Trompettes"/>
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="inflame"/>
+    	<mark name="plus_sign" method="pen" place="intext" />
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="Drummes"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="and Flutes"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- shewed, the -->
