@@ -5,10 +5,10 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000680.tif" reader="Harvey" pagination="683" signature="[uiiv]"/>
+    <page filename="00000680.tif" reader="Harvey" pagination="683" signature="[uijv]"/>
     <annotation>
        
-       <marginalia hand="English_secretary">
+       <marginalia hand="English_secretary" anchor_text="cerebri">
            <language ident="LA">
                <position place="left_margin" book_orientation="0">
                    <marginalia_text>
@@ -30,7 +30,7 @@
         <underline method="pen" type="straight" language="LA" text="cum cibo potuq[ue];"/>
         <underline method="pen" type="straight" language="LA" text="Venereas proruant"/>
         <underline method="pen" type="straight" language="LA" text="Hinc"/>
-        <underline method="pen" type="straight" language="LA" text="subitae mortes atq[ue]; intestata Senectus"/>
+        <underline method="pen" type="straight" language="LA" text="subitae mortes atq[ue]; intestata senectus"/>
         <underline method="pen" type="straight" language="LA" text="corporis &amp; omnium"/>
         <underline method="pen" type="straight" language="LA" text="cerebri tame[n]"/>
         <underline method="pen" type="straight" language="LA" text="enim pars cum temulentiae"/>
@@ -55,26 +55,29 @@
         <underline method="pen" type="straight" language="LA" text="ea"/>
         <underline method="pen" type="straight" language="LA" text="omnia fonte"/>
         
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="dash" method="pen" place="left_margin" language="LA" text="Bac"/>
+        <mark name="dash" method="pen" place="left_margin" language="LA" text="Bac"/> <!--JG: Text should be in comment field-->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="uapores ad caput &amp; cerebru[m] exhalat"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/> <!--JG: This one you can link to underlined text as well-->
+        <mark name="horizontal_bar" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/> <!--JG: This one you can link to underlined text as well-->
+        <mark name="horizontal_bar" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/> <!--JG: This one you can link to underlined text as well-->
         <mark name="horizontal_bar" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="horizontal_bar" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="horizontal_bar" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="con"/>
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="in"/>
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="ex"/>
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="om"/>
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="ma"/>
-        <mark name="dash" method="pen" place="right_margin" language="LA" text="praemo"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="con"/> <!--JG: Text should be in comment field-->
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="in"/> <!--JG: Text should be in comment field-->
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="ex"/> <!--JG: Text should be in comment field-->
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="om"/> <!--JG: Text should be in comment field-->
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="ma"/> <!--JG: Text should be in comment field-->
+        <mark name="dash" method="pen" place="right_margin" language="LA" text="praemo"/>  <!--JG: Text should be in comment field-->
+        
+        <mark name="plus_sign" method="pen" place="intext"/>  <!--JG: This one you can link to underlined text as well-->
+        <!--JG: Comma between Neruos uero, penultimate line-->
+        <!--JG: Comma between membra quae, penultimate line-->
         
     </annotation>
 </transcription>
