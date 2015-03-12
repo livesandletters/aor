@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000129.tif" pagination="lviii[r]" reader="Harvey" signature="Pii[r]"/>
+<page filename="00000129.tif" pagination="lviii[r]" reader="Harvey" signature="Pij[r]"/>
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -17,7 +17,7 @@
     			</position>
     		</language>
     		<translation>
-    			notable.
+    			Notable.
     		</translation>
     	</marginalia>
     	<!-- Underlines -->
@@ -67,7 +67,7 @@
     	<underline method="pen" type="straight" language="EN" text="in the ordering"/>
 
     	<!-- Marks -->
-    	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="amongest Vines"/>
+    	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="amongest Vines"/> <!--JG: I wouldn't link this mark to underlined text, since earlier that line text is underlined as well-->
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="The varyi[n]g of order"/>
     	<mark name="comma" method="pen" place="right_margin"/>
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="downe into the playne"/>
@@ -93,7 +93,7 @@
     	<mark name="dot" method="pen" place="intext"/> <!-- about, the -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="disorder not them selues"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="sodain losse"/>
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="the middest"/>
+    	<mark name="plus_sign" method="pen" place="intext" />
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="hee chaunged order"/>
     	<mark name="plus_sign" method="pen" place="tail" language="EN" text="and put his Legions on the hornes"/>
     	
@@ -101,5 +101,6 @@
     	<errata language="EN" copytext="tree" amendedtext="trees"/>
     	<errata language="EN" copytext="whom" amendedtext="who"/>
     	<errata language="EN" copytext="whom" amendedtext="who"/>
+    	
     </annotation>
 </transcription>
