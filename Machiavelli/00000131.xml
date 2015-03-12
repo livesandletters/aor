@@ -5,15 +5,15 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000131.tif" pagination="lix[r]" reader="Harvey" signature="[Piii[r]]"/>
+<page filename="00000131.tif" pagination="lix[r]" reader="Harvey" />
     <annotation>
     	<!-- Marginalia -->
-    	<marginalia hand="Italian">
+    	<marginalia hand="Italian"> <!--JG: Can't you link this marginal note to the printed text (e.g. Aniball and Scipio)?-->
     		<language ident="EN">
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
     					The braue militar sophistry, of two most famous, &amp; redowbted Captains.
-    					There running, &amp; strategematical Order, in disposing [there] Armies with
+    					There running, &amp; strategematical Order, in disposing [there] Armies with <!--JG: their instead of there?-->
     					most adua[n]tage.
     				</marginalia_text>
     			</position>
@@ -91,7 +91,7 @@
     	<mark name="dot" method="pen" place="intext"/> <!-- Pikes, and -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="footemen"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="among horsemen"/>
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="all those"/>
+    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="all those"/> <!--JG: I'm not sure whether it makes sense to link it to 'all those'-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="moste praised Anibal and Scipio"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- nations, he -->
     	<mark name="dot" method="pen" place="intext"/> <!-- straungers, behinde -->
@@ -106,5 +106,6 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="full of Veliti"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- Eliphantes, and -->
     	<mark name="dot" method="pen" place="intext"/> <!-- them, so -->
+    	
     </annotation>
 </transcription>
