@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000138.tif" pagination="lxii[v]" reader="Harvey" signature="Qii[v]"/>
+<page filename="00000138.tif" pagination="[lxii[v]]" reader="Harvey" signature="[Qii[v]]"/>
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -95,7 +95,7 @@
     	<underline method="pen" type="straight" language="EN" text="constrained"/>
     	
     	<!-- Symbols -->
-    	<symbol name="SS" place="intext"/>
+    	<symbol name="SS" place="intext"/> <!--prepared there--> <!--JG: I think this is not a SS symbol, but a section sign. I added this to the schema (as a mark).-->
 
     	<!-- Marks -->
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="causes of the victorie of him, against whom"/>
@@ -131,7 +131,7 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="wearye"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- undescritelye, so -->
     	
-    	<!-- Numerals -->
+    	<!-- Numerals --> <!--JG: Here the numerals are clearly part of the marginal note. Only use numeral tag when numbers stand on their own-->
     	<numeral place="intext" language="EN" text="the situation">
     		I.
     	</numeral>
