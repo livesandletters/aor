@@ -5,15 +5,15 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000136.tif" pagination="lxi[v]" reader="Harvey" signature="Qi[v]"/>
+<page filename="00000136.tif" pagination="lxi[v]" reader="Harvey" signature="[Qi[v]]"/>
     <annotation>
     	<!-- Marginalia -->
-    	<marginalia hand="Italian">
+    	<marginalia hand="Italian"> <!--JG: I'd link this marginal note to the printed text. You can just put 'Caesar' in the anchor attribute-->
     		<language ident="LA">
     			<position place="left_margin" book_orientation="0">
     				<marginalia_text>
     					Ca[e]sar, max[im]e omniu[m] sciebat vti Victoria.
-    				</marginalia_text>
+    				</marginalia_text> <!--JG: It's likely that Harvey speaks about Julius Caesar, who should be tagged-->
     			</position>
     		</language>
     		<translation>
@@ -104,7 +104,7 @@
     	<underline method="pen" type="straight" language="EN" text="receaue an ouerthrovv"/>
     	
     	<!-- Symbols -->
-    	<symbol name="SS" place="intext"/>
+    	<symbol name="SS" place="intext"/> <!--again. I-->
 
     	<!-- Marks -->
     	<mark name="hash" method="pen" place="left_margin" language="EN" text="Ansigne out"/>
@@ -146,5 +146,6 @@
     	<errata language="EN" copytext="whome" amendedtext="whoe"/>
     	<errata language="EN" copytext="whom" amendedtext="who"/>
     	<errata language="EN" copytext="whome" amendedtext="whoe"/>
+    	
     </annotation>
 </transcription>
