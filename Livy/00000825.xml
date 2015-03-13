@@ -5,15 +5,15 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000825.tif" reader="Harvey" />
+    <page filename="00000825.tif" reader="Harvey" /> <!--JG: Insert pagination-->
     <annotation>
         
-        <underline method="pen" type="straight" language="LA" text="lassitudo &amp; sitis ia[m] sentiebatur"/>
+        <underline method="pen" type="straight" language="LA" text="lassitudo &amp; sitis ia[m] sentiebatur, &amp;"/>
         <underline method="pen" type="straight" language="LA" text="sic affectos"/>
         <underline method="pen" type="straight" language="LA" text="rece[n]ti atq[ue] integro hosti no[n] obijcere"/>
-        <underline method="pen" type="straight" language="LA" text="ardor in animis ad dimicandu[m] utrinq[ue] erat ut co[n]suli"/>
+        <underline method="pen" type="straight" language="LA" text="ta[n]tus ardor in animis ad dimicandu[m] utrinq[ue] erat ut co[n]suli"/>
         <underline method="pen" type="straight" language="LA" text="minore arte ad"/>
-        <underline method="pen" type="straight" language="LA" text="eludendos qu&agrave;m ad hosteis opus"/>
+        <underline method="pen" type="straight" language="LA" text="suos eludendos qu&agrave;m ad hosteis opus"/>
         <underline method="pen" type="straight" language="LA" text="Nondu[m] omnibus instructis"/>
         <underline method="pen" type="straight" language="LA" text="ut maturare[n]t instruere"/>
         <underline method="pen" type="straight" language="LA" text="circu[n]ibat ipse ordines"/>
@@ -26,7 +26,7 @@
         <underline method="pen" type="straight" language="LA" text="fugiendo"/>
         <underline method="pen" type="straight" language="LA" text="certame[m] manibus emittere"/>
         <underline method="pen" type="straight" language="LA" text="suadere, dum in campo patenti hostem habeat"/>
-        <underline method="pen" type="straight" language="LA" text="nec oblatam occasionem uincendi amittat"/>
+        <underline method="pen" type="straight" language="LA" text="oblatam occasionem uincendi amittat"/>
         <underline method="pen" type="straight" language="LA" text="nihil offensus libera admonitione"/>
         <underline method="pen" type="straight" language="LA" text="tam clari adolescentis"/>
         <underline method="pen" type="straight" language="LA" text="animum istum habui Nasica"/>
@@ -34,11 +34,10 @@
         
         <mark name="dash" method="pen" place="right_margin"/> <!-- pulue -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ma -->
-        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="eludendos qu&agrave;m ad hosteis opus"/>
+        <mark name="equal_sign" method="pen" place="left_margin" />
         <mark name="dash" method="pen" place="right_margin"/> <!-- pi -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- subi -->
-        <mark name="quotation_mark" method="pen" place="right_margin" language="LA" text="ne hoste[m] quidem ludificatos"/>
-        
+        <mark name="quotation_mark" method="pen" place="right_margin" language="LA" text="ne hoste[m] quidem ludificatos"/> <!--JG: I wouldn't link this to underlined text, since other words in this line are underlined as well-->
         
     </annotation>
 </transcription>
