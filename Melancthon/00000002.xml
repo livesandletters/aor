@@ -7,7 +7,8 @@
     
 <page filename="00000002.tif" reader="Unknown" pagination="Pastedown"/>
     <annotation>
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" other_reader="Unknown">
+                    <!-- CG: Jaap, should we have another option for hand that allows for other readers? Also, is this the right way to note an unknown author?-->
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
@@ -17,13 +18,14 @@
                 </position>
             </language>
         </marginalia>
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" other_reader="Unknown">
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
                         Bravet III 1581
                         [???] of 1586
                         <!-- JE: I can't read this! -->
+                        <!-- CG: This is pretty illegible, although we might not need it since it isn't Harvey. Jaap, what do you think? -->
                     </marginalia_text>
                 </position>
             </language>
