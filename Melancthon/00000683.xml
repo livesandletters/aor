@@ -41,7 +41,10 @@
         <mark name="dash" method="pen" place="right_margin"/> <!-- praestan -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ocu -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- mem -->
-        <mark name="plus_sign" method="pen" place="intext"/>
+        
+        <!--JG: Dot between onera, donec-->
+        <!--JG: Dot between grauissima, sed-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="grauius illae [...]"/> <!--JG: Chris to add Greek characters-->
 
     </annotation>
 </transcription>
