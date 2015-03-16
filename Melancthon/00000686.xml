@@ -9,8 +9,9 @@
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="unquam ad euertendam Rempub."/>
-        <underline method="pen" type="straight" language="LA" text="Sobrium accessisse"/> <!--JG: 'Long' 's' never is a capital-->
-        <underline method="pen" type="straight" language="LA" text="ebriosorum consilio gesta est"/> <!--JG: You forgot some underlined words-->
+        <underline method="pen" type="straight" language="LA" text="sobrium accessisse"/>
+        <underline method="pen" type="straight" language="LA" text="ebriosorum consilio gesta est"/>
+        <underline method="pen" type="straight" language="LA" text="ulla concidit"/>
         <underline method="pen" type="straight" language="LA" text="ebriosi euerterint"/>
         <underline method="pen" type="straight" language="LA" text="ulla non floruit"/>
         <underline method="pen" type="straight" language="LA" text="quae &agrave; sicis ac sobrijs hominibus administraretur"/>
@@ -20,26 +21,27 @@
         <underline method="pen" type="straight" language="LA" text="Plato in"/>
         <underline method="pen" type="straight" language="LA" text="sua in Siciliam peregrinatione"/>
         <underline method="pen" type="straight" language="LA" text="uita illa"/>
-        <underline method="pen" type="straight" language="LA" text="plena Italicarum, Syracusanarumq[ue];, mensarum"/> <!--JG: Don't use a semicolon after a ligature. In the printed text a semicolon is used to signify a ligature, but we just include the 'omitted' letters in brackets: Syracusanarumq[ue]-->
+        <underline method="pen" type="straight" language="LA" text="plena Italicarum, Syracusanarumq[ue], mensarum"/>
         <underline method="pen" type="straight" language="LA" text="nullo modo mihi placuit"/>
         <underline method="pen" type="straight" language="LA" text="in die saturum"/>
         <underline method="pen" type="straight" language="LA" text="fieri"/>
-        <underline method="pen" type="curved" language="LA" text="in die satu rum fieri"/> <!--JG: saturum is one word, it's just that word-break has faded-->
+        <underline method="pen" type="curved" language="LA" text="in die saturum fieri"/>
         
         <mark name="plus_sign" method="pen" place="head" language="LA" text="sobrium"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="horizontal_bar" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="horizontal_bar" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/> 
-        <!-- Jaap - I haven't tied these plus signs (above) to the text as I don't think it's clear what they refer to - 
-            esp. with those horizontal bars. Let me know what you think. --> <!--JG: Makes sense! You do need to tag the horizontal bars, though-->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
         <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="plena Italicarum, Syracusanarumq[ue];, mensarum"/>
-        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="in die saturum"/> <!--JG: I'd not link it to printed text. Other words in this line are underlined as well-->
+        <mark name="plus_sign" method="pen" place="right_margin"/>
         
+        <mark name="dot" method="pen" place="intext"/> <!-- accessisse -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="temulentum eum uocaret"/>
-        <!--JG: Dot between accessisse, uix-->
+        
         
     </annotation>
 </transcription>
