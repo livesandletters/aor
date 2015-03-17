@@ -22,7 +22,15 @@
         <underline method="pen" type="straight" language="LA" text="euentus talium symposiorum"/>
         <underline method="pen" type="straight" language="LA" text="Angelos illic mensae"/>
         
-        <!--JG: You forgot to tag marks and symbols. The third bisected circle can be linked to underlined text-->
+        <symbol name="Bisected_circle" place="right_margin"/>
+        <symbol name="Bisected_circle" place="right_margin"/>
+        <symbol name="Bisected_circle" place="right_margin" language="LA" text="daemoniorum non eijcitur, nisi ieiunio et oratione."/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- prola -->
+        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- soci -->
+        
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="illi in fronte scriptum putemus"/>
         
     </annotation>
 </transcription>
