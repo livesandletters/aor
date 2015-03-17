@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000826.tif" reader="Harvey" /> <!--JG: Insert pagination-->
+    <page filename="00000826.tif" reader="Harvey"  pagination="804"/>
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="nunc habeo, tu habebis."/>
@@ -42,9 +42,9 @@
         <symbol name="SS" place="left_margin" language="LA" text="acie plenu[m] uiriu[m], uigente[m] &amp; corpore &amp; animo educas"/>
         
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="autoritate ueteris"/>
-        <mark name="vertical_bar" method="pen" place="intext" language="LA" text="Paulus"/> <!--JG: Paulus should be put in comment field, just to indicate where in the text the vertical bar appears-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- Paulus-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- equiti -->
-        <mark name="vertical_bar" method="pen" place="intext" language="LA" text="Rex"/> <!--JG: Rex should be put in comment field, just to indicate where in the text the vertical bar appears-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- Rex -->
         
     </annotation>
 </transcription>
