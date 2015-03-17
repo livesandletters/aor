@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000177.tif" pagination="lxxxii[r]" reader="Harvey" signature="Xii[r]"/>
+<page filename="00000177.tif" pagination="lxxxii[r]" reader="Harvey" signature="Xij[r]"/>
     <annotation>
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="heades or their"/>
@@ -37,11 +37,11 @@
     	<underline method="pen" type="straight" language="EN" text="impedimentes of"/>
     	
     	<!-- Marks -->
-    	<mark name="hash" method="pen" place="right_margin" language="EN" text="lodginges, that shall seeme"/>
+    	<mark name="hash" method="pen" place="right_margin" />
     	<mark name="hash" method="pen" place="right_margin"/>
-    	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="carriages of the publicke munition, whiche pertayne"/>
+    	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="carriages of the publicke munition, whiche pertayne"/> <!--JG: I wouldn't link this one to underlined text since it's standing in between to lines of text-->
     	
-    	<mark name="plus_sign" method="pen" place="intext"/> <!-- CG: Looks like a faint plus sign at 'The artillerie, I would'? -->
+    	<mark name="plus_sign" method="pen" place="intext"/> <!-- CG: Looks like a faint plus sign at 'The artillerie, I would'? --> <!--JG: Yeah, I agree-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="along the backe of the"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="impedimentes"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="all the same trayne"/>
@@ -54,5 +54,6 @@
     	<mark name="dot" method="pen" place="intext"/> <!-- sciences, together -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="carriages of the publicke munition"/>
     	<mark name="plus_sign" method="pen" place="intext"/>
+    	
     </annotation>
 </transcription>
