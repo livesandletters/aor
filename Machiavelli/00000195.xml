@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000195.tif" pagination="xci[r]" reader="Harvey" signature="[Ziii[r]]"/>
+<page filename="00000195.tif" pagination="xci[r]" reader="Harvey" />
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -84,14 +84,14 @@
     	<underline method="pen" type="straight" language="EN" text="disorder"/>
     	
     	<!-- Symbols -->
-    	<symbol name="SS" place="intext"/>
-    	<symbol name="SS" place="intext"/>
-    	<symbol name="SS" place="intext"/>
+    	<symbol name="SS" place="intext"/> <!--JG:  section sign-->
+    	<symbol name="SS" place="intext"/>  <!--JG:  section sign-->
+    	<symbol name="SS" place="intext"/>  <!--JG:  section sign-->
 
     	<!-- Marks -->
     	<mark name="hash" method="pen" place="right_margin"/>
     	<mark name="comma" method="pen" place="right_margin"/> <!-- Marginal text -->
-    	<mark name="hash" method="pen" place="right_margin" language="EN" text=""/>
+    	<mark name="hash" method="pen" place="right_margin" language="EN" text=""/> <!--JG: Where's this hash? There's a dash, after 'de'-->
     	<mark name="plus_sign" method="pen" place="right_margin"/>    	
     	
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="shewed the cause"/>
