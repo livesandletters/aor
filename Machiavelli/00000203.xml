@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000203.tif" pagination="xcv[r]" reader="Harvey" signature="[Aaiii[r]]"/>
+<page filename="00000203.tif" pagination="xcv[r]" reader="Harvey" />
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian" anchor_text="a citie thus builded, to be altogether inuincible">
@@ -17,6 +17,7 @@
     			</position>
     		</language>
     	</marginalia>
+    	
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="is most difficulte"/>
     	<underline method="pen" type="straight" language="EN" text="the capacitie"/>
@@ -60,7 +61,7 @@
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="ruine, which giueth thee most great"/>
     	<mark name="hash" method="pen" place="right_margin"/>    	
     	<mark name="bracket" method="pen" place="left_margin"/>
-    	<mark name="bracket" method="pen" place="left_margin"/>
+    	<mark name="bracket" method="pen" place="left_margin"/> <!--JG: I'd put the printed text in this bracket, since it's quite clear where the brackets starts and ends: 'One thing...maye retire-->
     	
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="after to go vp a brenche"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="ditche within"/>
@@ -68,7 +69,7 @@
     	<mark name="dot" method="pen" place="intext"/> <!-- diuers, because -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="ditches full of water"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="thee from mines"/>
-    	<mark name="dot" method="pen" place="intext"/> <!-- grounde, that -->
+    	<mark name="dot" method="pen" place="intext"/> <!-- grounde, the-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="Ditches without water"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="difficulte the filling of them"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="without water"/>
@@ -76,10 +77,12 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="it so deepe"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="Fortresses"/>
     	<mark name="bracket" method="pen" place="intext"/>
+    	<mark name="comma" method="pen" place="intext"/> <!-- ditches and-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="earnestly"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="defendeth a citie"/>
-    	<mark name="comma" method="pen" place="intext"/> <!-- without a -->
+    	<mark name="comma" method="pen" place="intext"/> <!-- without distante -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="buildeth the Fortresse"/>
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="nto anye refuge place in"/>
+    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="not anye refuge place in"/>
+    	
     </annotation>
 </transcription>
