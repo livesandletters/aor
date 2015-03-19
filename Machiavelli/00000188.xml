@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000188.tif" pagination="lxxxvii[v]" reader="Harvey" signature="[Yiii[v]]"/>
+<page filename="00000188.tif" pagination="lxxxvii[v]" reader="Harvey" />
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -30,7 +30,7 @@
     	
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="ordinary armie"/>
-    	<underline method="pen" type="straight" language="EN" text="about xxiij.M. souldiours"/>
+    	<underline method="pen" type="straight" language="EN" text="about xxiiij.M. souldiours"/>
     	<underline method="pen" type="straight" language="EN" text="againste the greatest"/>
     	<underline method="pen" type="straight" language="EN" text="together, were .I.M."/>
     	<underline method="pen" type="straight" language="EN" text="set againste twoo hundred"/>
@@ -77,7 +77,7 @@
     	<underline method="pen" type="straight" language="EN" text="the puissanteste enemie that is"/>
     	
     	<!-- Symbols -->
-    	<symbol name="SS" place="intext"/>
+    	<symbol name="SS" place="intext"/> <!--JG: Change to section_sign-->
 
     	<!-- Marks -->
     	<mark name="hash" method="pen" place="left_margin" language="EN" text="againste the greatest"/>
@@ -117,5 +117,6 @@
     	
     	<!-- Errata -->
     	<errata language="EN" copytext="whome" amendedtext="whoe"/>
+    	
     </annotation>
 </transcription>
