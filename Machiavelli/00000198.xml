@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000198.tif" pagination="xcii[v]" reader="Harvey" signature="[Ziv[v]]"/>
+<page filename="00000198.tif" pagination="[xcii[v]]" reader="Harvey" />
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -70,7 +70,7 @@
 
     	<!-- Marks -->
     	<mark name="plus_sign" method="pen" place="left_margin"/>
-    	<mark name="dash" method="pen" place="left_margin"/> <!-- Marginal text -->
+    	<mark name="dash" method="pen" place="left_margin"/> <!-- Marginal text --> <!--JG: I think there's also a dot after 'Tracia'-->
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="be a sured of England"/>
     	<mark name="hash" method="pen" place="left_margin" language="EN" text="much a name of iustice, [that] he"/>
     	<mark name="hash" method="pen" place="left_margin" language="EN" text="maner of winning, &amp; defending a towne"/>
@@ -91,5 +91,6 @@
     	<mark name="dot" method="pen" place="intext"/> <!-- adaies, or -->
     	<mark name="dot" method="pen" place="intext"/> <!-- Sommer, and -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="did all thinges better, and with"/>
+    	
     </annotation>
 </transcription>
