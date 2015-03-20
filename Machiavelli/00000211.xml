@@ -5,10 +5,10 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000211.tif" pagination="xcix[r]" reader="Harvey" signature="[Bbiii[r]]"/>
+<page filename="00000211.tif" pagination="xcix[r]" reader="Harvey" />
     <annotation>
     	<!-- Marginalia -->
-    	<marginalia hand="Italian">
+    	<marginalia hand="Italian"> <!--JG: can you link to printed text or not?-->
     		<language ident="EN">
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
@@ -90,6 +90,9 @@
     	<mark name="dash" method="pen" place="right_margin"/>
     	
     	<mark name="plus_sign" method="pen" place="head" language="EN" text="instrumentes"/>
+    	<mark name="dot" method="pen" place="intext"/> <!--assaultes. As-->
+    	<mark name="comma" method="pen" place="intext"/> <!--Falci, Testudeni-->
+    	<mark name="dot" method="pen" place="intext"/> <!--Testudeni, in-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="ordinaunce"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="by famine"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="throughe assaultes"/>
@@ -106,5 +109,6 @@
     	
     	<!-- Errata -->
     	<errata language="EN" copytext="whom" amendedtext="who"/>
+    	
     </annotation>
 </transcription>
