@@ -13,16 +13,16 @@
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
     					A braue Enterprise, &amp; honorable Victory, of Ca[e]sar Borgia.
-    				</marginalia_text>
+    				</marginalia_text> <!--JG: Tag Borgia-->
     			</position>
     		</language>
     	</marginalia>
-    	<marginalia hand="Italian" anchor_text="many Epigrames, made">
+    	<marginalia hand="Italian" anchor_text="many Epigrames, made"> <!--JG: You can include more than just the underlined words. I'd include the remainder of the sentence as well-->
     		<language ident="EN">
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
-    					The honour, &amp; praises of Caesar Borgia.
-    				</marginalia_text>
+    					The honour, &amp; praises of Caesar Borgia. <!--JG: You forgot a part of the marginal note-->
+    				</marginalia_text> <!--JG: Tag Borgia et al.-->
     			</position>
     		</language>
     	</marginalia>
@@ -65,10 +65,12 @@
     	<underline method="pen" type="straight" language="EN" text="understoode the contrarye, that the lesser"/>
     	
     	<underline method="pen" type="straight" language="EN" text="of the losse of Fortresse of Furlie"/>
+    	<underline method="pen" type="straight" language="EN" text="inuincible"/>
     	<underline method="pen" type="straight" language="EN" text="houses that are in a tovvne of vvar or fortresse"/>
 
     	<!-- Marks -->
-    	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="market place, the sighte of all the walle, to"/>
+    	<mark name="plus_sign" method="pen" place="left_margin" />
+    	
     	<mark name="hash" method="pen" place="right_margin"/>
     	<mark name="hash" method="pen" place="right_margin"/>
     	<mark name="hash" method="pen" place="right_margin"/>
