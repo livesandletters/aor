@@ -8,13 +8,13 @@
     <page filename="00000023.tif" reader="Harvey" signature="C.i.[r]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text=""> <!--JG: Anchor text attribute is empty-->
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Hir protestatioun for dispatching [the] Kyng.
                     </marginalia_text>
-                    <person name="Henry Stuart, Lord Darnley"/>
+                    <person name="Henry Stuart, Lord Darnley"/> <!--JG: We don't include titles when tagging people (see Manual), only in case it otherwise can become difficult to distinguish people. E.g. King Francis 1 of France-->
                 </position>
             </language>
         </marginalia>
@@ -28,7 +28,7 @@
         <underline method="pen" type="straight" language="EN" text="he of his wound"/>
         <underline method="pen" type="straight" language="EN" text="being very"/>
         <underline method="pen" type="straight" language="EN" text="baith a littill recouered"/>
-        <underline method="pen" type="straight" language="EN" text="dtrengthes not yet fully settled"/>
+        <underline method="pen" type="straight" language="EN" text="strengthes not yet fully settled"/>
         <underline method="pen" type="straight" language="EN" text="returned to thair auld pastime"/>
         <underline method="pen" type="straight" language="EN" text="that so openly as"/>
         <underline method="pen" type="straight" language="EN" text="feare nathing mair"/>
@@ -42,14 +42,13 @@
         <underline method="pen" type="straight" language="EN" text="ane gude day. And"/>
         
         <mark name="bracket" method="pen" place="right_margin" language="EN" text="of the pepill into the Quenis awin
-            lodging, and thare layed in a lower parler directly vnder the chamber quhaire the Quene hir self lay sicke."/> <!-- would it make sense to take the last few words from the previous page in order to make sense of this passage? -->
+            lodging, and thare layed in a lower parler directly vnder the chamber quhaire the Quene hir self lay sicke."/> <!-- would it make sense to take the last few words from the previous page in order to make sense of this passage? --> <!--JG: I wouldn't use text attribute in this case, since it's not entirely clear which passage is included (because 'end' of brackets doesn't coincide with comma or full stop)-->
         <mark name="bracket" method="pen" place="right_margin" language="EN" text="And quhan thay were baith a
             littill recouered, and thair strengthes not yet fully settled, thay returned to thair auld pastime againe, and that so 
             openly as thay semed to feare nathing mair than least thair wickednes should be unknawen."/>
         <mark name="bracket" method="pen" place="right_margin" language="EN" text="wald haif byandby fallen down
             againe into hir former sicknes, &amp; she plainly and exprestly protested, that vnlesse she mought by some
             meane or other be dispatched of the king, she should neuer haife any gude day."/>
-        
         
     </annotation>
 </transcription>
