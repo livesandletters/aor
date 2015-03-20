@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000213.tif" pagination="c[r]" reader="Harvey" signature="[Bbiv[r]]"/>
+<page filename="00000213.tif" pagination="c[r]" reader="Harvey" />
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -17,7 +17,7 @@
     					ransoms of [the] Pope, &amp; [the] Cardinals.
     				</marginalia_text>
     				<person name="Charles V"/>
-    				<person name="Charles III, Duke of Bourbon"/>
+    				<person name="Charles III, Duke of Bourbon"/> <!--JG: Should we also tag the person who was Pope then?-->
     				<location name="Rome"/>
     			</position>
     		</language>
@@ -146,7 +146,7 @@
 	<underline method="pen" type="straight" language="EN" text="thou wilte assault"/>
     	<underline method="pen" type="straight" language="EN" text="without comming openly"/>
     	<underline method="pen" type="straight" language="EN" text="secretelye and"/>
-    	<underline method="pen" type="straight" language="EN" text="spedely assaulte"/>
+    	<underline method="pen" type="straight" language="EN" text="speedely assaulte"/>
     	<underline method="pen" type="straight" language="EN" text="oft alwayes it shall followe"/>
     	<underline method="pen" type="straight" language="EN" text="shalt get the victorie"/>
     	<underline method="pen" type="straight" language="EN" text="succeded in oure time"/>
@@ -187,7 +187,7 @@
     	<underline method="pen" type="straight" language="EN" text="of the deceiptes &amp; policies of"/>
 
     	<!-- Marks -->
-    	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text=""/>
+    	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text=""/> <!--JG: Text attribute is empty-->
     	
     	<mark name="quotation_mark" method="pen" place="right_margin"/>
     	<mark name="quotation_mark" method="pen" place="right_margin"/>
@@ -196,14 +196,14 @@
     	<mark name="hash" method="pen" place="right_margin"/>
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="shalt get the victorie"/>
     	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="towardes the state of Urbin, and got a state in a day"/>
-    	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="towardes the state of Urbin, and got a state in a day"/>
-    	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="towardes the state of Urbin, and got a state in a day"/>
+    	<mark name="plus_sign" method="pen" place="right_margin" />
+    	<mark name="plus_sign" method="pen" place="right_margin" />
     	<mark name="plus_sign" method="pen" place="right_margin"/>
     	<mark name="dash" method="pen" place="right_margin"/> <!-- Marginal text -->
     	<mark name="dash" method="pen" place="right_margin"/> <!-- Marginal text -->
     	<mark name="plus_sign" method="pen" place="right_margin"/>
     	<mark name="plus_sign" method="pen" place="right_margin"/>
-    	<mark name="hash" method="pen" place="right_margin" language="EN" text="Souldiours, vnder the Ansigne of thsoe, that should come"/>
+    	<mark name="hash" method="pen" place="right_margin" language="EN" text="Souldiours, vnder the Ansigne of those, that should come"/>
     	<mark name="bracket" method="pen" place="right_margin"/>
     	<mark name="comma" method="pen" place="right_margin"/> <!-- Marginal text -->
     	<mark name="hash" method="pen" place="right_margin" language="EN" text="Townes men going to succour it, left the towne"/>
@@ -213,7 +213,7 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="speedely"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="alwayes"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- time, for -->
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="burthen"/>
+    	<mark name="plus_sign" method="pen" place="intext"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- burthen, & -->
     	<mark name="dot" method="pen" place="intext"/> <!-- Valentine, who -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="the state of Urbin"/>
@@ -233,5 +233,6 @@
     	
     	<!-- Errata -->
     	<errata language="EN" copytext="whome" amendedtext="whoe"/>
+    	
     </annotation>
 </transcription>
