@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000220.tif" pagination="ciii[v]" reader="Harvey" signature="[Cciii[v]]"/>
+<page filename="00000220.tif" pagination="[ciii[v]]" reader="Harvey"/>
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -32,7 +32,7 @@
     			<position place="left_margin" book_orientation="0">
     				<marginalia_text>
     					Agents, &amp; Patients, both togither. 
-    					Two Irons in [the] fiar atonce. An irregular Case, to declare irregular, &amp; singular Ualu.
+    					Two Irons in [the] fiar atonce. An irregular Case, to declare irregular, &amp; singular Valu.
     				</marginalia_text>
     			</position>
     		</language>
@@ -57,9 +57,9 @@
     		<language ident="LA">
     			<position place="intext" book_orientation="0">
     				<marginalia_text>
-    					Regulae Militares. E Vegetii lib.3.
+    					Regula[e] Militares. E Vegetij lib.3.
     				</marginalia_text>
-    				<person name="Vegetius"/>
+    				<person name="Vegetius"/> <!--JG: I'd tag Vegetius' De re Militari as well-->
     			</position>
     		</language>
     		<translation>
@@ -75,7 +75,7 @@
     			</position>
     		</language>
     		<translation>
-    			Prudence and strength.
+    			Prudence and strength. <!--JG: I'd include the number in the marginal note (and delete the corresponding numeral tag)-->
     		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
@@ -84,8 +84,8 @@
     				<marginalia_text>    	
     					All nothing worth, withowt cunning direction of [the] Captaine, 
     					&amp; (upon resolute encurragement) ualiant execution of [the] Sowldiours. 
-    					No uictorious, or ualorous Execution, without confident, &amp; curragious 
-    					Resolution: strongly pra[e]suming of Uictory.
+    					No uictorious, or ualorous Execution, without confident, &amp; curragious <!--JG: Change 'u's into v's!-->
+    					Resolution: strongly pra[e]suming of Uictory. <!--JG: Change 'u's into v's!-->
     				</marginalia_text>
     			</position>
     		</language>
@@ -135,8 +135,8 @@
     	<!-- Marks -->
     	<mark name="horizontal_bar" method="pen" place="left_margin"/>
     	<mark name="horizontal_bar" method="pen" place="left_margin"/>
-    	<mark name="bracket" method="pen" place="left_margin"/>
-    	<mark name="bracket" method="pen" place="left_margin"/>
+    	<mark name="bracket" method="pen" place="left_margin"/> <!--JG: I'd link this to printed text (all of it, not just underlined parts)-->
+    	<mark name="bracket" method="pen" place="left_margin"/> <!--JG: Idem-->
     	<mark name="quotation_mark" method="pen" place="left_margin"/>
     	
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="honour"/>
@@ -165,8 +165,8 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="without feare"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="good order"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="hope"/>
-    	<mark name="plus_sign" method="pen" place="tail" language="EN" text="that they hope to ouercome"/>
-    	<mark name="plus_sign" method="pen" place="tail" language="EN" text="that they hope to ouercome"/>
+    	<mark name="plus_sign" method="pen" place="tail" />
+    	<mark name="plus_sign" method="pen" place="tail" />
     	
     	<!-- Numerals -->
     	<numeral place="intext" language="EN" text="most vigilant to obserue">
@@ -178,7 +178,7 @@
     	<numeral place="intext" language="EN" text="least perrills">
     		I.
     	</numeral>
-    	<numeral place="intext" language="EN" text="most of the victorie">
+    	<numeral place="intext" language="EN" text="most of the victorie"> <!--JG: See my comments above-->
     		2.
     	</numeral>
     	
