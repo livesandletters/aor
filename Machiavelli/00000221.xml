@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000221.tif" pagination="ciiii[r]" reader="Harvey" signature="[Cciv[r]]"/>
+<page filename="00000221.tif" pagination="ciiii[r]" reader="Harvey" />
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -270,7 +270,7 @@
     	
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="yron: in the victory of which"/>
-    	<underline method="pen" type="straight" language="EN" text="forune may"/>
+    	<underline method="pen" type="straight" language="EN" text="fortune may"/>
     	<underline method="pen" type="straight" language="EN" text="then valiantnesse"/>
     	<underline method="pen" type="straight" language="EN" text="No purpose is better"/>
     	<underline method="pen" type="straight" language="EN" text="which is hidde"/>
@@ -319,9 +319,9 @@
 
     	<!-- Marks -->
     	<mark name="plus_sign" method="pen" place="left_margin"/>
-    	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="vntill thou haue executed"/>
+    	<mark name="plus_sign" method="pen" place="left_margin" />
     	<mark name="plus_sign" method="pen" place="left_margin"/>
-    	<mark name="dash" method="pen" place="left_margin" language="EN" text="exercise maketh"/>
+    	<mark name="dash" method="pen" place="left_margin" />
     	<mark name="plus_sign" method="pen" place="left_margin"/>
     	<mark name="double_vertical_bar" method="pen" place="left_margin" language="EN" text="of a fugiue, be to newe friends suspected"/>
     	
@@ -338,7 +338,7 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="to take it"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="then any other thing"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- men, the -->
-    	<mark name="plus_sign" method="pen" place="intext"/>
+    	<mark name="plus_sign" method="pen" place="intext" />
     	<mark name="plus_sign" method="pen" place="intext"/>
     	<mark name="plus_sign" method="pen" place="intext"/>
     	<mark name="plus_sign" method="pen" place="intext"/>
@@ -366,5 +366,6 @@
     	
     	<!-- Errata -->
     	<errata language="EN" copytext="fugiue" amendedtext="fugitiue"/>
+    	
     </annotation>
 </transcription>
