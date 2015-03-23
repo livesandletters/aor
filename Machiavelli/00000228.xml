@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000228.tif" pagination="cv[r]" reader="Harvey" signature="Ddi[r]"/>
+<page filename="00000228.tif" pagination="cv[r]" reader="Harvey" /> <!--JG: Pagination seems off? You can omit signature here (see Manual)-->
     <annotation>
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="not speake their language"/>
@@ -56,10 +56,12 @@
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="people of Italie"/>
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="same waye"/>
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="peece of Marbell ill hewed"/>
-    	<mark name="dash" method="pen" place="left_margin"/>
+    	<mark name="dash" method="pen" place="left_margin"/> <!--folish-->
+    	<mark name="dash" method="pen" place="left_margin"/> <!--prin-->
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="subtell aundswere, to write a goodly letter, to"/>
     	<mark name="plus_sign" method="pen" place="left_margin"/>
     	
+    	<mark name="dot" method="pen" place="intext"/> <!-- Italians, who-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="same necessitie"/>
     	<mark name="colon" method="pen" place="intext"/> <!-- selues -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="shame"/>
@@ -82,5 +84,6 @@
     	<mark name="dot" method="pen" place="intext"/> <!-- promptenesse -->
     	<mark name="dot" method="pen" place="intext"/> <!-- fraude, to -->
     	<mark name="plus_sign" method="pen" place="tail" language="EN" text="howe to canuas a fraude, to decke"/>
+    	
     </annotation>
 </transcription>
