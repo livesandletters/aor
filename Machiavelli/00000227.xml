@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000227.tif" pagination="cvii[r]" reader="Harvey" signature="[Ddiii[r]]"/>
+<page filename="00000227.tif" pagination="cvii[r]" reader="Harvey" />
     <annotation>
     	<!-- Marginalia -->
     	<marginalia hand="Italian">
@@ -37,14 +37,14 @@
     					of common Sowldiours; aswell faithles, 
     					as otherwise orderles. 
     					Howbeit Gain, &amp; Praise, may pra[e]uaile much, 
-    					euen with [the] Uilest, and dissolutest Creatures. 
+    					euen with [the] Vilest, and dissolutest Creatures. 
     					especially when [the] Captain shal play his 
-    					own part lustely &amp; Ualiantly.
+    					own part lustely &amp; Valiantly.
     				</marginalia_text>
     			</position>
     		</language>
     	</marginalia>
-    	<marginalia hand="Italian">
+    	<marginalia hand="Italian"> <!--JG: Link to printed text-->
     		<language ident="EN">
     			<position place="tail" book_orientation="0">
     				<marginalia_text>
@@ -67,7 +67,7 @@
     	<underline method="pen" type="straight" language="EN" text="mee in reuerence"/>
     	<underline method="pen" type="straight" language="EN" text="to loue"/>
     	<underline method="pen" type="straight" language="EN" text="to feare"/>
-    	<underline method="pen" type="straight" language="EN" text="ware"/>
+    	<underline method="pen" type="straight" language="EN" text="warre"/>
     	<underline method="pen" type="straight" language="EN" text="more to doo with me"/>
     	<underline method="pen" type="straight" language="EN" text="ashamed, which"/>
     	<underline method="pen" type="straight" language="EN" text="they be ruled by mee"/>
@@ -106,7 +106,7 @@
     	<underline method="pen" type="straight" language="EN" text="swoordes poincte"/>
   
     	<!-- Marks -->
-    	<mark name="bracket" method="pen" place="right_margin"/>
+    	<mark name="bracket" method="pen" place="right_margin"/> <!--JG: I'd tag this as a vertical bar-->
     	<mark name="horizontal_bar" method="pen" place="right_margin"/>
     	<mark name="hash" method="pen" place="right_margin"/>
     	<mark name="plus_sign" method="pen" place="right_margin"/>
