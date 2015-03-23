@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-<page filename="00000230.tif" pagination="cviii[v]" reader="Harvey" signature="[Ddiv[v]]"/>
+<page filename="00000230.tif" pagination="[cviii[v]]" reader="Harvey" />
     <annotation>
     	<!-- Underlines -->
 	<underline method="pen" type="straight" language="EN" text="a cou[n]terfaite therof"/>
@@ -73,6 +73,7 @@
 
     	<!-- Marks -->
     	<mark name="comma" method="pen" place="left_margin"/> <!-- Marginal text -->
+    	<mark name="comma" method="pen" place="left_margin"/> <!-- Marginal text -->
     	<mark name="dash" method="pen" place="left_margin"/> <!-- Marginal text -->
     	<mark name="plus_sign" method="pen" place="left_margin"/>
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="Lorde of this Prouince, and it"/>
@@ -86,7 +87,7 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="their faulte"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="daye haue states"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- Prouince, and -->
-    	<mark name="plus_sign" method="pen" place="intext" language="EN" text="learned"/>
+    	<mark name="plus_sign" method="pen" place="intext" />
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="Epaminondas"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="this order"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="with these exercises"/>
@@ -113,5 +114,6 @@
     	<mark name="comma" method="pen" place="intext"/> <!-- perfection that -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="strooken"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="I do mistrust"/>
+    	
     </annotation>
 </transcription>
