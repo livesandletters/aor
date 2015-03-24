@@ -12,23 +12,25 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Ab hoc f&egrave;re Persei bello, et &AElig;milij Pauli de maximo rege triumpho, orditur Velleij Paterculi historia. In cuius primo 
-                        libro, hi quatuor egregij viri; P. Aemilius, Q. Metellus, Scipio &AElig;milianus, L. Mummius. Secundus liber &agrave; bello Viriathi,
+                        Ab hoc fer&egrave; Persei bello, et &AElig;milij Pauli de maximo rege triumpho, orditur Velleij Paterculi historia. In cuius primo 
+                        libro, hi quatuor egregij viri; P. &AElig;milius, Q. Metellus, Scipio &AElig;milianus, L. Mummius. Secundus liber &agrave; bello Viriathi,
                         et Numantino, ad Tiberij usq[ue] imperium; cui effusius blanditur: pra[e]clarus alioqui historicus, et diligenti animadversione dignus.
                     </marginalia_text>
                 <person name="Perseus"/>
                 <person name="Paulus Aemilius Veronensis"/>
                 <person name="Marcus Velleius Paterculus"/>
-                <person name="Quintus Caecilius Metellus Macedonicus"/> <!-- LS, 3 with similar names on list. Have I chosen the correct one? -->
+                <person name="Lucius Aemilius Paullus Macedonicus"/>
+                <person name="Quintus Caecilius Metellus Macedonicus"/> 
                 <person name="Scipio Aemilianus"/>
                 <person name="Lucius Mummius Achaicus"/>
                 <person name="Viriatus Lusitanus"/>
-                <person name="Tiberius"/> <!-- LS, 3 with similar names on list. Have I chosen the correct one? -->
+                <person name="Tiberius Gracchus"/>
+                    <book title="Roman History"/>
                 </position>
             </language>
             <translation>
                 Approximately from this war of Perseus and Aemilius Paulus’ victory over the greatest king, commences the history of Velleius Paterculus. 
-                In his first book appear these four extraordinary men: Publius Aemilius Paullus, Quintus Metellus, Scipio Aemilianus and Lucius Mummius. 
+                In his first book appear these four extraordinary men: Paullus Aemilius , Quintus Metellus, Scipio Aemilianus and Lucius Mummius. 
                 The second book [covers the period] from the war of Viriathus and the Numantine war to the rule of Tiberius, whom he flatters rather 
                 immoderately; else a brilliant historian and worth careful attention.
             </translation>
@@ -36,13 +38,13 @@
         
         <underline method="pen" type="straight" language="LA" text="Martius Philippus per saltus penetrauit"/>
         <underline method="pen" type="straight" language="LA" text="compluresq[ue] urbes occupauit"/>
-        <underline method="pen" type="straight" language="LA" text="Rhodij misere legatos Roma[n]"/> <!-- LS, not sure if tilda or grave? -->
+        <underline method="pen" type="straight" language="LA" text="Rhodij misere legatos Roma[m]"/> 
         <underline method="pen" type="straight" language="LA" text="minantes, ut Perseo"/>
         <underline method="pen" type="straight" language="LA" text="Aemylio Paulo sequentis anni consuli"/>
         <underline method="pen" type="straight" language="LA" text="precatus est, ut quicquid diri populo Romano"/>
         <underline method="pen" type="straight" language="LA" text="supra domum suam conuerteretur"/>
         <underline method="pen" type="straight" language="LA" text="Perseum uicit, uniuersamq[ue] Macedoniam in potestate[m]"/>
-        <underline method="pen" type="straight" language="LA" text="exercitui ne miraretur, quod luna nocte proxima defectura esset."/>
+        <underline method="pen" type="straight" language="LA" text="exercitui ne miraretur, qu&ograve;d luna nocte proxima defectura esset."/>
         <underline method="pen" type="straight" language="LA" text="Gentius"/>
         <underline method="pen" type="straight" language="LA" text="cum rebellasset"/>
         <underline method="pen" type="straight" language="LA" text="deditione[m]"/>
@@ -64,11 +66,10 @@
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Gentius"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="legati &agrave; Cleopatra, &amp; Ptolemaeo regibus uenerunt"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="de Antiocho rege Siriae"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Perseus solicitatis"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Cleopatra"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Antiocho"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Perseus "/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Eumene rege Pergami"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="pecuniam"/>
         
