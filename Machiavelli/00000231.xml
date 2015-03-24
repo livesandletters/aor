@@ -23,12 +23,12 @@
     					Cum Strategematis Frontini, et Polya[e]ni; 
     					Ca[e]tera omnia Militaria Documenta; Ipsa Exercitatio, 
     					et Consuetudo Bellica, efficacissim&egrave; 
-    					supplebit; Hodierna[e] Experientia[e] vivis 
+    					supplebit; Hodierna[e] Experientia[e] uiuis 
     					Instructionibus, Validisq[ue] Exemplis, strenu&egrave; assuefacta.
     				</marginalia_text>
     				<person name="Frontinus"/>
     				<person name="Polyaenus"/>
-    				<book title="Stratagems"/>
+    				<book title="Stratagems"/> <!--JG: I'd tag Frontinus' book as well-->
     				<emphasis method="pen" type="straight" text="Ipsa Exercitatio"/>
     			</position>
     		</language>
@@ -37,7 +37,7 @@
     			it is necessary to add it to this Art of War, along with the Stratagems
     			of Frontinus and Polyaenus. 
     			This very exercise, and military practice, will most easily complete
-    			all other military documents, actively adapted to the living instructions a
+    			all other military documents, actively adapted to the living instructions a <!--JG: Should 'a' be deleted?-->
     			and powerful examples of today's experience.
     		</translation>
     	</marginalia>
@@ -83,7 +83,7 @@
     		<translation>
     			Virtue, and human fortune, are connected in many experiences, 
     			powerful in war. Olaus Magnus. 
-    			Caesar assigned every felicity and fortune of himself to the two 
+    			Caesar assigned every felicity and fortune of himself to the two <!--JG: Does ipsam refer to Caesar or fortune? Seems to agree with the latter..-->
     			most powerful skills: knowledge, and virtue: all glory in action [comes]
     			of these. Hidden virtue differs too little from burried ignorance.
     		</translation>
@@ -113,7 +113,8 @@
     				<person name="Matthew Sutcliffe"/>
     				<person name="Roger Williams"/>
     				<person name="Leonard Digges"/>
-    				<book title="Stratioticos"/>    				
+    				<book title="Stratioticos"/>    	
+    				<!--JG: Chris, maybe we should tag some books as well. I know that he doesn't mention the title, but he does mention the contents of the books, so it musn't be too hard to get the right titles. See also: https://books.google.co.uk/books?id=C3LPSRiBmMoC&pg=PA56&lpg=PA56&dq=gandino+fortification&source=bl&ots=PzUTef-5DE&sig=b3jqqQ5xNVTOCxmtcSgQaU7xE5U&hl=en&sa=X&ei=vTQRVd73Ocz5aPTVAg&ved=0CCYQ6AEwAQ#v=onepage&q=gandino%20fortification&f=false-->
     			</position>
     		</language>
     	</marginalia>
@@ -127,7 +128,7 @@
     	
     	<!-- Symbols -->
     	<symbol name="Mercury" place="left_margin"/>
-    	<symbol name="SS" place="left_margin"/>
+    	<symbol name="SS" place="left_margin"/> <!--JG: I think you can copy the text of the marginal note in the text attribute of the symbol-->
     	
     	<symbol name="SS" place="right_margin"/>
     	
