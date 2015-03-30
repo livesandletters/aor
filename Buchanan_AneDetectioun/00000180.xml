@@ -27,8 +27,28 @@
                         Next the Lawes, I woold haue you to be
                         well versed in authentick Histories, &amp;
                         in the chronicles of all nations; but specially
-                        in owr owne Histories (ne sis peregrinus <!--JG: Latin text should be captured in new language tag! See Manual for examples!-->
-                        domi) the example wherof most neerly
+                        in owr owne Histories 
+                    </marginalia_text>
+                    <person name="James V of Scotland"/>
+                    <person name="Mary Queen of Scots"/>
+                    <person name="James Stewart 1st Earl of Moray"/>
+                    <person name="James Hepburn"/>
+                    <person name="James VI and I"/>
+                    <person name="Henry Frederick Stuart"/>
+                    <book title="Basilikon Doron"/>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>
+                        (ne sis peregrinus domi)
+                    </marginalia_text>
+                </position>
+            </language>
+            <language ident="EN">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>
+                        the example wherof most neerly
                         concernes you. I meane not of such
                         infamous Invei[n]tiues, as Buchanans,
                         or Knoxes Chronicles: &amp; if anie
@@ -36,22 +56,14 @@
                         vntil your dayes, vse the Lawe
                         vpon the keepers therof. Ibidem. 
                     </marginalia_text>
-                    
-                    <person name="James V of Scotland"/>
-                    <person name="Mary Queen of Scots"/>
-                    <person name="James Stewart 1st Earl of Moray"/> <!-- Full title added, otherwise hard to pinpoint who this is --> <!--JG: Yes, makes sense-->
-                    <person name="James Hepburn"/>
-                    <person name="James VI and I"/>
-                    <person name="Henry Frederick Stuart"/>
-                    <person name="George Buchanan"/>
                     <person name="John Knox"/>
-                    
-                    <book title="Basilikon Doron"/>
+                    <person name="George Buchanan"/>
                     <book title="The History of the Reformation in Scotland"/>
-                    <!--JG: Do we know exactly which of the Buchanan books Harvey mentions?-->
-                    
                 </position>
-            </language> <!--JG: Latin should be translated: 'Lest you are a stranger in [your own] house'-->
+            </language>       
+            <translation>
+                Lest you are a stranger in [your own] house
+            </translation>
         </marginalia>
         
         
