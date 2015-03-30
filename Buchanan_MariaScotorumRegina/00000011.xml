@@ -28,15 +28,16 @@
                     <marginalia_text>
                         GH.
                     </marginalia_text>
+                    <person name="Gabriel Harvey"/>
                 </position>
             </language>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="Italian">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Confer the Queene Moothers Legendary in French.
+                        Confer the Queene Moothers Legendary in French. <!--JG: Tag the Queen mother-->
                     </marginalia_text>
                 </position>
             </language>
@@ -51,7 +52,17 @@
                     <person name="George Buchanan"/>
                 </position>
             </language>
-            <translation> <!-- unsure --> </translation>
+            <translation> George Buchanan's attacks. </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" other_reader="unknown">
+            <language ident="EN">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        H.3.17.
+                    </marginalia_text>
+                </position>
+            </language>
         </marginalia>
         
     </annotation>
