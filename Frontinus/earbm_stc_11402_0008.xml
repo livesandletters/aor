@@ -27,7 +27,7 @@
             <translation>Late but in earnest. No day without line.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" date="1588">
             <language ident="LA">
                 <position place="right_margin" book_orientation="270">
                     <marginalia_text>1588. Reuolutio mea[e] Reformationis, seu Annus Assuetudinis.</marginalia_text>
@@ -36,7 +36,7 @@
             <translation>1588. The turning of my reformation, or the year of experience.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" date="1578">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Precium [.] xxd. 1578.</marginalia_text> <!--JG: Unsure what follows after precium and before xxd-->
@@ -87,6 +87,9 @@
             </language>
             <translation>Not by what, but where.</translation>
         </marginalia>
+        
+        <symbol name="SS" place="head"/>
+        <symbol name="SS" place="intext" language="LA" text="Wecceri Secreta, multa habent polemica, et mechanopoietica[n] praesertim &egrave; Cardano."/>
         
         <mark name="horizontal_bar" method="pen" place="intext"/>
         <mark name="vertical_bar" method="chalk" place="intext"/>
