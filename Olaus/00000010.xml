@@ -8,7 +8,7 @@
     <page filename="00000010.tif" reader="Harvey"  signature="[aii[v]]" pagination="4"/>
     <annotation>
         
-        <underline method="pen" type="straight" language="LA" text="alter corum res Gothicas"/>
+        <underline method="pen" type="straight" language="LA" text="alter eorum res Gothicas"/>
         <underline method="pen" type="straight" language="LA" text="ver&ograve; Danus Septentrioni vicinior"/>
         <underline method="pen" type="straight" language="LA" text="nedum naturae secretos effectus"/>
         <underline method="pen" type="straight" language="LA" text="Principum gesta quasi"/>
@@ -43,7 +43,7 @@
         <underline method="pen" type="straight" language="LA" text="ipse Plin."/>
         <underline method="pen" type="straight" language="LA" text="autorem T. Liuium"/>
         <underline method="pen" type="straight" language="LA" text="&amp; ego, licet impari"/>
-        <underline method="pen" type="straight" language="LA" text="Aquilonaribus terris"/>
+        <underline method="pen" type="straight" language="LA" text="Aquilonaribus terris"/> <!--JG: I think you missed some underlining..-->
         <underline method="pen" type="straight" language="LA" text="monstrotum diuersitate, opinor"/>
         <underline method="pen" type="straight" language="LA" text="Da sapienti occasionem"/>
         <underline method="pen" type="straight" language="LA" text="addetur ei sapientia"/>
@@ -58,7 +58,7 @@
         <underline method="pen" type="straight" language="LA" text="bona saltem, &amp; integra"/>
         <underline method="pen" type="straight" language="LA" text="constanti veritate deprehendentur"/>
         
-        <mark name="bracket" method="pen" place="left_margin" language="LA" text="Arduu nanque est, vetustis nouitatem dare, nouis
+        <mark name="bracket" method="pen" place="left_margin" language="LA" text="Arduum nanque est, vetustis nouitatem dare, nouis
             autoritatem, obsoletis nitorem, obscuris lucem, fastiditis gratiam, dubiis fidem, omnibus ver&ograve; naturam, &amp; naturae suae omnia.
             Utaque etiam non assecutis (vt Plinius in praefatione Naturalis historiae asserit) voluisse, abund&egrave; pulchrum atque magnificum est"/>
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="sibimetipsi erit"/>
@@ -67,6 +67,8 @@
         
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- opportu -->
+        
+        <!--JG: Marks intext are missing! E.g. dot between 'interpretatur, prout' I think that's the only mark in the text-->
 
     </annotation>
 </transcription>
