@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000008.tif" reader="Harvey"  signature="a[i[v]]"/> <!--JG: Add pagination-->
+    <page filename="00000008.tif" reader="Harvey"  signature="a[i[v]]" pagination="2"/>
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="perquisitis omnium rerum naturis, de"/>
@@ -24,7 +24,6 @@
         <underline method="pen" type="straight" language="LA" text="fidedignis autoribus"/>
         <underline method="pen" type="straight" language="LA" text="relatione loca moresq[ue] scribentibus"/>
         <underline method="pen" type="straight" language="LA" text="referunt ex scientia vrbanas necessitates"/>
-        <underline method="pen" type="straight" language="LA" text="constringunt"/> <!--JG: I'd tag this one as a horizontal bar-->
         <underline method="pen" type="straight" language="LA" text="dubiarum rerum Aquilonarium"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; paucis hactenus cognitarum"/>
         <underline method="pen" type="straight" language="LA" text="maxim&eacute; etiam doctissimi quique hallucinati sunt, verissima, vel san&egrave;"/>
@@ -48,9 +47,10 @@
         
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- leguntur -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- aperuit. -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- AB Not sure that this is a bracket - can't find a closing bracket and not sure what text to anchor it to (if at all) --> <!--JG: Yeah, is bracket. I think that he uses this in combination with the horizontal bar in the right margin to create a new paragraph. You don't need to link this bracket to printed text-->
-        <!--JG: Dot between rationes, &-->
-        
+        <mark name="horizontal_bar" method="pen" place="intext" language="LA" text="constringunt."/>
+        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- rationes -->
+
         <errata language="LA" copytext="Rex" amendedtext="[deleted]"/>
         
         
