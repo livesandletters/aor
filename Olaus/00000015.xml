@@ -8,7 +8,8 @@
     <page filename="00000015.tif" reader="Harvey" signature="b[ir]" pagination="9" />
     <annotation>
         
-        <underline method="pen" type="straight" language="LA" text="Biarmia igitur"/>
+        <!--JG: You forgot some underlining (directly under the image)-->
+        <underline method="pen" type="straight" language="LA" text="BIARMIA igitur"/>
         <underline method="pen" type="straight" language="LA" text="cuius zenit"/>
         <underline method="pen" type="straight" language="LA" text="in ipso polo Arctico"/>
         <underline method="pen" type="straight" language="LA" text="vna medietas totius anni"/>
@@ -26,8 +27,8 @@
         <underline method="pen" type="straight" language="LA" text="nunqu&agrave;m intermissam lucem"/>
         <underline method="pen" type="straight" language="LA" text="perpetuis nubibus obfuscans"/>
         <underline method="pen" type="straight" language="LA" text="radium solarem ibi existentem, ade&ograve; debilis esse virtutis, vt eleuatos"/>
-        <underline method="pen" type="straight" language="LA" text="necq[ue] aer serenus ibi"/>
-        <underline method="pen" type="straight" language="LA" text="necq[ue] dies"/>
+        <underline method="pen" type="straight" language="LA" text="necq[ue] aer serenus ibi"/> <!--JG: neq[ue], no?-->
+        <underline method="pen" type="straight" language="LA" text="necq[ue] dies"/> <!--JG: neq[ue], no?-->
         <underline method="pen" type="straight" language="LA" text="propter continuam solaris luminis"/>
         <underline method="pen" type="straight" language="LA" text="omnia intolerabili solis ardore periclitari"/>
         <underline method="pen" type="straight" language="LA" text="Positio Plinii &amp; Solini"/>
@@ -38,7 +39,6 @@
         
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- sphaerae. Quod -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- voluit. At -->
-        
         
     </annotation>
 </transcription>
