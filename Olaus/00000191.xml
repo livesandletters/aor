@@ -12,16 +12,17 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Stratagemata Fridleui.
+                        Stratagemata Fridleuj.
                     </marginalia_text>
+                    <person name="Fridlevus"/>
                 </position>
             </language>
             <translation>
-                <!-- AB Fridleui?? -->
+                The stratagems of Fridlevus.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="flammis tecta luxerunt">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -30,8 +31,8 @@
                     <emphasis method="pen" type="straight" text="incenderentur"/>
                 </position>
             </language>
-            <translation>
-                <!-- AB - thanks in advance Jaap! -->
+            <translation> <!--JG: Chris to check translation-->
+                The roofs by which they are burned.
             </translation>
         </marginalia>
         
@@ -55,6 +56,8 @@
         
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="hirundinum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="fungis"/>
+        
+        <!--JG: Plus signs in right margin-->
         
     </annotation>
 </transcription>
