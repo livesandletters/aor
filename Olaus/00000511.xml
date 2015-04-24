@@ -10,7 +10,7 @@
         
         <marginalia hand="Italian" anchor_text="De maialibus festis.">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0"> <!-- CG: I think these might be in the right margin! -->
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Virtutes
                         Vitia} festis carminibus decantata.
@@ -25,7 +25,7 @@
         
         <marginalia hand="Italian" anchor_text="vetustorum heroum domi, forisq[ue] magnifica gesta vbilibet in orbe peracta,">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Notabile.
                     </marginalia_text>
@@ -38,7 +38,7 @@
         
         <marginalia hand="Italian" anchor_text="Vitia maritor[um]">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         ex signis explorata.
                     </marginalia_text>
@@ -51,7 +51,7 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Imitatio. A[e]mulatio.
                     </marginalia_text>
@@ -102,8 +102,8 @@
         <underline method="pen" type="straight" language="LA" text="Vitia mulieru[m]."/>
         <underline method="pen" type="straight" language="LA" text="Vitia co[m]munia."/>
         
-        <mark name="horizontal_bar" method="pen" place="right_margin" language="LA" text="explorata."/> <!-- CG: I probably wouldn't anchor these to anything, but leave their position in a comment. -->
-        <mark name="horizontal_bar" method="pen" place="right_margin" language="LA" text="A[e]mulatio."/>
+        <mark name="horizontal_bar" method="pen" place="right_margin" language="LA" text="explorata."/> <!-- under marginal note, 'explorata' -->
+        <mark name="horizontal_bar" method="pen" place="right_margin" language="LA" text="A[e]mulatio."/> <!-- under marginal note, 'A[e]mulatio' -->
         
         <numeral place="intext" language="LA" text="in lusibus alearum">1.</numeral>
         <numeral place="intext" language="LA" text="rixa tabernarum">2.</numeral>
