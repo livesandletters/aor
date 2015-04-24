@@ -20,20 +20,25 @@
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
                         XII. vel XXIIII. legales homines.
-                        Inceperu[n]t ab Anglis Catholicam fidem: supra[m] cap. 22. quid ni etiam ab ijsdem Legis?
-                        Nisi nos forte ab ipsis su[m]pserim[.]. <!-- AB could be 'et' at the end there, i.e. a Tironian mark, but I'm not sure! Any thoughts?  -->
+                        Inceperu[n]t ab Anglis Catholicam fidem: supr&agrave; cap. 22. quid ni etiam ab ijsdem Legis?
+                        Nisi nos forte ab ipsis su[m]pserim[.]. <!-- AB could be 'et' at the end there, i.e. a Tironian mark, but I'm not sure! Any thoughts?  --> <!-- CG: I think it could be "sumpserimus." Which would be an actual verb form. But the handwriting is unclear. I'll translate it like that. --> 
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                12 or 13 legal men.
+                They began from the English Catholic faith (see above, chapter 22), why not also from the same laws?
+                Unless perhaps it was us who adopted their laws. <!-- CG: Hard to render the irony here. -->
+            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="reus friuol&egrave; prouocauerat"/>
         <underline method="pen" type="straight" language="LA" text="testes subornauerat munere"/>
         <underline method="pen" type="straight" language="LA" text="iudex idoneus est"/>
-        <underline method="pen" type="straight" language="LA" text="mazim&egrave; odio"/>
+        <underline method="pen" type="straight" language="LA" text="maxim&egrave; odio"/>
         <underline method="pen" type="straight" language="LA" text="opulentia totius mundi"/>
         <underline method="chalk" type="straight" language="LA" text="oblata"/>
-        <underline method="chalk" type="straight" language="LA" text="Iudecem deferre"/>
+        <underline method="chalk" type="straight" language="LA" text="Iudicem deferre"/>
         <underline method="pen" type="straight" language="LA" text="deferre iuramentum"/>
         <underline method="pen" type="straight" language="LA" text="valde caueant"/>
         <underline method="pen" type="straight" language="LA" text="ne periuri fiant"/>
@@ -43,7 +48,7 @@
         <underline method="pen" type="straight" language="LA" text="Quae scripta sunt in libro"/>
         <underline method="pen" type="straight" language="LA" text="ponit manum super librum"/>
         <underline method="pen" type="straight" language="LA" text="bona opera"/>
-        <underline method="pen" type="straight" language="LA" text="osculator librum"/>
+        <underline method="pen" type="straight" language="LA" text="osculatur librum"/>
         <underline method="pen" type="straight" language="LA" text="orationes"/>
         <underline method="pen" type="straight" language="LA" text="neq[ue] preces"/>
         <underline method="pen" type="straight" language="LA" text="quas per os"/>
@@ -58,17 +63,17 @@
         <underline method="pen" type="straight" language="LA" text="quadam pecorina"/>
         <underline method="pen" type="straight" language="LA" text="seu pergamenica charta"/>
         <underline method="pen" type="straight" language="LA" text="charta quatrata"/>
-        <underline method="pen" type="straight" language="LA" text="Si atronus villicum"/>
-        <underline method="pen" type="straight" language="LA" text="tanquam suspectum accusauierit"/>
+        <underline method="pen" type="straight" language="LA" text="Si patronus villicum"/>
+        <underline method="pen" type="straight" language="LA" text="tanquam suspectum accusauerit"/>
         <underline method="pen" type="straight" language="LA" text="tempore messis fruges diuidendo"/>
-        <underline method="pen" type="straight" language="LA" text="aliquid qlicui mutuauerat in"/>
+        <underline method="pen" type="straight" language="LA" text="aliquid alicui mutuauerat in"/>
         <underline method="pen" type="straight" language="LA" text="patroni damnum"/>
-        <underline method="pen" type="straight" language="LA" text="iodicio duodecim legalium virorum iuramento se purgare tenetur"/>
+        <underline method="pen" type="straight" language="LA" text="iudicio duodecim legalium virorum iuramento se purgare tenetur"/>
         <underline method="pen" type="straight" language="LA" text="geminata manu"/>
         <underline method="pen" type="straight" language="LA" text="duodecim similium hominum"/>
         <underline method="pen" type="straight" language="LA" text="XXIIII,"/>
         <underline method="pen" type="straight" language="LA" text="plurium pro"/>
-        <underline method="pen" type="straight" language="LA" text="Gothicis regnis"/>
+        <underline method="pen" type="straight" language="LA" text="in Gothicis"/>
         <underline method="pen" type="straight" language="LA" text="liber ille Perusiae"/>
         <underline method="pen" type="straight" language="LA" text="e&ograve; deductus sit &agrave; regno"/>
         <underline method="pen" type="straight" language="LA" text="dominium in Italia, ac Hispania, &amp;"/>
@@ -81,20 +86,19 @@
         <underline method="pen" type="straight" language="LA" text="librum."/>
         <underline method="pen" type="straight" language="LA" text="Gothicae leges"/>
         <underline method="pen" type="straight" language="LA" text="Tenor Gothicae legis."/>
-        <underline method="pen" type="straight" language="LA" text="verificant"/>
         
-        <mark name="hash" method="pen" place="left_margin" language="EN" text="The fury."/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="hash" method="pen" place="left_margin" language="EN" text="The fury."/> <!-- CG: I'm not sure if we should attach marks to his own marginalia. Maybe just leave this un-anchored?-->
+        <mark name="plus_sign" method="pen" place="left_margin"/>   <!-- CG: I would tie this to the intext phase that you also captured with the intext plus sign. -->
         
-        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="De defensione iuratoria."/>
-        <mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- AB - is this the correct way to tag quotation marks? -->
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="De defensione iuratoria."/> <!-- CG: I would probably capture this with two separate vertical bar. Quotation marks are only for: "-->
+        <mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- AB - is this the correct way to tag quotation marks? --> <!-- CG: Straight quotation marks look more like a vertical equal sign. Quotation marks in general are more obviously like our own double quotes. -->
         <mark name="comma" method="pen" place="intext"/> <!-- iuramenti, duodena -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="iudicio duodecim legalium virorum iuramento se purgare tenetur"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="aliquot centena vocabula"/>
         
         <numeral place="intext" language="LA" text="Quae scripta sunt in libro">1.</numeral>
         <numeral place="intext" language="LA" text="bona opera">2.</numeral>
-        <numeral place="intext" language="LA" text="osculator librum">3.</numeral>
+        <numeral place="intext" language="LA" text="osculatur librum">3.</numeral>
         
     </annotation>
 </transcription>

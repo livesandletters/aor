@@ -10,7 +10,7 @@
         
         <marginalia hand="Italian" anchor_text="De maialibus festis.">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="left_margin" book_orientation="0"> <!-- CG: I think these might be in the right margin! -->
                     <marginalia_text>
                         Virtutes
                         Vitia} festis carminibus decantata.
@@ -19,8 +19,7 @@
             </language>
             <translation>
                 Virtues
-                Defects}
-                Festive songs sung.
+                Defects }   sung with festive songs.                   
             </translation>
         </marginalia>
         
@@ -63,7 +62,7 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="De maialibus festis."/>
+        <underline method="pen" type="straight" language="LA" text="De Maialibus festis."/>
         <underline method="pen" type="straight" language="LA" text="vetustorum heroum domi, forisq[ue] magnifica gesta vbilibet in orbe peracta,"/>
         <underline method="pen" type="straight" language="LA" text="saltando decantat:"/>
         <underline method="pen" type="straight" language="LA" text="quid illustriores fo[e]minae"/>
@@ -96,14 +95,14 @@
         <underline method="pen" type="straight" language="LA" text="blandiloqui"/>
         <underline method="pen" type="straight" language="LA" text="auari"/>
         <underline method="pen" type="straight" language="LA" text="crudelesq[ue] terrarum praefecti efficiunt"/>
-        <underline method="pen" type="straight" language="LA" text="qu&agrave;m excelsa, ac speplendida virtus sit"/>
-        <underline method="pen" type="straight" language="LA" text="ac oraecauere exemplis"/>
+        <underline method="pen" type="straight" language="LA" text="qu&agrave;m excelsa, ac splendida virtus sit"/>
+        <underline method="pen" type="straight" language="LA" text="ac praecauere exemplis"/>
         <underline method="pen" type="straight" language="LA" text="Cantilen[a]e heroum canuntur. Tyranni crudeles."/>
         <underline method="pen" type="straight" language="LA" text="Vitia maritor[um]."/>
         <underline method="pen" type="straight" language="LA" text="Vitia mulieru[m]."/>
         <underline method="pen" type="straight" language="LA" text="Vitia co[m]munia."/>
         
-        <mark name="horizontal_bar" method="pen" place="right_margin" language="LA" text="explorata."/>
+        <mark name="horizontal_bar" method="pen" place="right_margin" language="LA" text="explorata."/> <!-- CG: I probably wouldn't anchor these to anything, but leave their position in a comment. -->
         <mark name="horizontal_bar" method="pen" place="right_margin" language="LA" text="A[e]mulatio."/>
         
         <numeral place="intext" language="LA" text="in lusibus alearum">1.</numeral>
