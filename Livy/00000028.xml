@@ -39,7 +39,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pro associatione, et confoederatione, novo principi necessaria. Eadem Aeneae politica praxis l. 8. Aeneidos.
+                    <marginalia_text>Pro associatione, et confoederatione, novo principi necessaria. Eadem A[e]nea[e] politica praxis l. 8. A[e]neidos.
                     </marginalia_text>
                     <person name="Aeneas"/>
                     <book title="Aeneid"/>
@@ -84,7 +84,7 @@
                 By what right or treaty the Romans obtained their first wives: idem, bk. 3, c. 14.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Vrbes"/>
+        <underline method="pen" type="straight" language="LA" text="Vrbes quoq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="infimo nasci"/>
         <underline method="pen" type="straight" language="LA" text="quas sua uirtus ac dij iuuent"/>
         <underline method="pen" type="straight" language="LA" text="magnas opes magnumq[ue] nomen"/>
@@ -110,7 +110,7 @@
         <underline method="pen" type="straight" language="LA" text="ac coniugibus uenit"/>
         <underline method="pen" type="straight" language="LA" text="inuitati hospitaliter"/>
         <underline method="pen" type="straight" language="LA" text="frequentem tectis urbem"/>
-        <underline method="pen" type="straight" language="LA" text="tam breui rem Romanuam creuisse"/>
+        <underline method="pen" type="straight" language="LA" text="mirantur tam breui rem Romanuam creuisse"/>
         <underline method="pen" type="straight" language="LA" text="e&ograve; mentes"/>
         <underline method="pen" type="straight" language="LA" text="cum oculis"/>
         <underline method="pen" type="straight" language="LA" text="tum ex co[m]posito orta uis: signoq[ue] dato"/>
@@ -161,7 +161,7 @@
         <underline method="pen" type="straight" language="LA" text="persequitur"/>
         <underline method="pen" type="straight" language="LA" text="regem in praelio obtruncat, &amp;"/>
         <underline method="pen" type="straight" language="LA" text="duce hostium"/>
-        <underline method="pen" type="straight" language="LA" text="urbem primo impetu capti"/>
+        <underline method="pen" type="straight" language="LA" text="urbem primo impetu capit"/>
         <underline method="pen" type="straight" language="LA" text="cum factis uir magnificus"/>
         <underline method="pen" type="straight" language="LA" text="factorum ostentator haud minor"/>
         <underline method="pen" type="straight" language="LA" text="spolia ducis hostium caesi"/>
@@ -200,6 +200,7 @@
         <mark name="horizontal_bar" method="pen" place="right_margin"/> <!--under Mercury symbol-->
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="triple_dash" method="pen" place="right_margin"/>
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!--ma-->
@@ -223,13 +224,16 @@
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="locumq[ue]"/>
         <mark name="comma" method="pen" place="intext"/> <!--Romulus aegritudinem-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="dissimula[n]s"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- dissimula[n]s, ludos -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="nouae"/>
         <mark name="dot" method="pen" place="intext"/> <!--urbis, maxime-->
         <mark name="plus_sign" method="pen" place="intext"/> <!-- tam breui-->
         <mark name="vertical_bar" method="pen" place="intext"/> <!--after creuisse-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="co[m]posito"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="rapie[n]das"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- forte, ut -->
         <mark name="plus_sign" method="pen" place="intext"/> <!--forma excelle[n]tes-->
+        <mark name="comma" method="pen" place="intext"/> <!-- destinatas, ex -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Vnam"/>
         <mark name="comma" method="pen" place="intext"/> <!--insigne[m] a-->
         <mark name="plus_sign" method="pen" place="intext"/> <!-- ipse Romulus-->
@@ -240,15 +244,16 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="purgantium"/>
         <mark name="quotation_mark" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!--erant At-->
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!-- ciuitates, concitabant -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="legationes"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="unam"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="unanam"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="impetu"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Iupiter"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="optimis"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- c[a]ecis, me -->
         
     </annotation>
 </transcription>
