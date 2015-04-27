@@ -6,13 +6,15 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141023.xsd">
 	
-	<page filename="00000029.tif" pagination="7" reader="Harvey" /> <!-- scan 29 in ABO -->
+	<page filename="00000029.tif" pagination="7" reader="Harvey" /> 
 	<annotation>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text> Rapta[e] &agrave; Romanis Sabina[e]: corrupta &agrave; Sabinis Romana. 
-					Hinc captum ipsum Capitolium. </marginalia_text> <!-- do we record the name of these women? And of the Capitol? -->
+					Hinc captum ipsum Capitolium. </marginalia_text> 
+					<person name="Sabines"/>
+					<location name="Capitol"/>
 				</position>
 			</language>
 			<translation>The Sabine women were raped by the Romans; the Roman [state] was  
@@ -23,9 +25,12 @@
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="head" book_orientation="0"> <!-- AB Should the last few words of this marginalia be tagged to the right margin? -->
-					<marginalia_text> ( Coloniarum antiquus politismus. Und&egrave; res Romana primum propagata, et munita.
+				<position place="head" book_orientation="0"> 
+					<marginalia_text> ( Coloniarum antiquus politismus. Und&egrave; res Romana primum 
 					</marginalia_text>
+				</position>
+				<position place="right_margin" book_orientation="0">
+					<marginalia_text>propagata, et munita.</marginalia_text>
 				</position>
 			</language>
 			<translation>The ancient policy of colonies, from which the Roman state was first extended and fortified.
@@ -43,7 +48,7 @@
 		</marginalia>
 		
 		
-		<marginalia hand="English_secretary" anchor_text="Consilio etiam additus dolus"> <!--different reading date? -->
+		<marginalia hand="English_secretary" anchor_text="Consilio etiam additus dolus"> 
 			<language ident="LA">
 				<position place="right_margin" book_orientation="0">		
 					<marginalia_text> Consilio additus Dolus.</marginalia_text>
@@ -52,11 +57,12 @@
 			<translation>Deliberation coupled with deceit</translation>
 		</marginalia>
 
-		<marginalia hand="English_secretary"> <!--different reading date? -->
+		<marginalia hand="English_secretary"> 
 			<language ident="LA">
 				<position place="right_margin" book_orientation="0">		
 					<marginalia_text>Tarpeia, virgo vestalis, Capitolii proditrix.</marginalia_text>
 					<person name="Tarpeia" />
+					<location name="Capitol"/>
 				</position>
 			</language>
 			<translation>Tarpeia, a Vestal virgin, the betrayer of the Capitol.</translation>
@@ -137,8 +143,8 @@
 				</position></language>
 			<translation>Most beneficial of all is a permanent study of strategy and excellence,
 			of excellence and strategy. As the Roman state everywhere gains in strenght through both of these. The Ancients
-			were not without strategems for both sides. Who asks whether it was deception or bravery when it concerns the 
-			enemy?</translation><!--According toBO, the last sentence is a quote from Aeneid II, 390.-->
+			were not without strategems for both sides. "Who asks whether it was deception or bravery when it concerns the 
+			enemy?"</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -164,8 +170,8 @@
 				<position place="left_margin" book_orientation="0">		
 					<marginalia_text>Prius ictum, qu&agrave;m dictum.</marginalia_text>
 				</position></language>
-			<translation>truck before told.</translation> <!-- AB this seems odd...? -->
-		</marginalia> <!--In ABO this annotation is joined with previous one, and seen as 1 reader's intervention -->
+			<translation>Struck before told.</translation> 
+		</marginalia> 
 		
 		<underline method="pen" type="straight" language="LA" text="primum omnium Romae" />
 		<underline method="pen" type="straight" language="LA" text="nec irritam conditoris" />
@@ -266,7 +272,6 @@
 		<symbol name="SS" place="right_margin" /> <!-- auda- -->
 		<symbol name="SS" place="right_margin" /> <!-- Romu- -->
 		
-		<mark name="bracket" method="pen" place="head" /> <!-- AB this has been transcribed as part of the text of the marginal note. p.29 seems to imply that the mark tag is therefore redundant but I'm not 100% sure.-->
 		<mark name="plus_sign" method="pen" place="head" language="LA" text="primum" />
 		
 		<mark name="plus_sign" method="pen" place="intext" language="LA" text="rara" />
@@ -350,7 +355,7 @@
 		<mark name="plus_sign" method="pen" place="right_margin" />
 		<mark name="vertical_bar" method="pen" place="right_margin"/> <!--dolus-->
 		<mark name="plus_sign" method="pen" place="right_margin"/>
-		<mark name="equal_sign" method="pen" place="right_margin"/> <!-- close to marginal note, 'fraus' -->
+		<mark name="straight_quotation_mark" method="pen" place="right_margin"/> <!-- close to marginal note, 'fraus' --> <!--something between equal sign and straight quotation marks-->
 		<mark name="dash" method="pen" place="right_margin"/> <!--Ro-->
 		<mark name="dash" method="pen" place="right_margin"/> <!--auda-->
 		<mark name="dash" method="pen" place="right_margin"/> <!--ue-->
