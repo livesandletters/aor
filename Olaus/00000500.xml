@@ -21,7 +21,7 @@
                     <marginalia_text>
                         XII. vel XXIIII. legales homines.
                         Inceperu[n]t ab Anglis Catholicam fidem: supr&agrave; cap. 22. quid ni etiam ab ijsdem Legis?
-                        Nisi nos forte ab ipsis su[m]pserim[.]. <!-- AB could be 'et' at the end there, i.e. a Tironian mark, but I'm not sure! Any thoughts?  --> <!-- CG: I think it could be "sumpserimus." Which would be an actual verb form. But the handwriting is unclear. I'll translate it like that. --> 
+                        Nisi nos forte ab ipsis su[m]pserim[u]s.  
                     </marginalia_text>
                 </position>
             </language>
@@ -87,11 +87,11 @@
         <underline method="pen" type="straight" language="LA" text="Gothicae leges"/>
         <underline method="pen" type="straight" language="LA" text="Tenor Gothicae legis."/>
         
-        <mark name="hash" method="pen" place="left_margin" language="EN" text="The fury."/> <!-- CG: I'm not sure if we should attach marks to his own marginalia. Maybe just leave this un-anchored?-->
-        <mark name="plus_sign" method="pen" place="left_margin"/>   <!-- CG: I would tie this to the intext phase that you also captured with the intext plus sign. -->
+        <mark name="hash" method="pen" place="left_margin" language="EN" text="The fury."/> <!-- CG: I'm not sure if we should attach marks to his own marginalia. Maybe just leave this un-anchored?--> <!-- AB Will check with JG, this type of issue has appeared on p.578 as well. -->
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="iudicio duodecim legalium virorum iuramento se purgare tenetur"/>
         
-        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="De defensione iuratoria."/> <!-- CG: I would probably capture this with two separate vertical bar. Quotation marks are only for: "-->
-        <mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- AB - is this the correct way to tag quotation marks? --> <!-- CG: Straight quotation marks look more like a vertical equal sign. Quotation marks in general are more obviously like our own double quotes. -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- De defensione -->
+        <mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- iuratora -->
         <mark name="comma" method="pen" place="intext"/> <!-- iuramenti, duodena -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="iudicio duodecim legalium virorum iuramento se purgare tenetur"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="aliquot centena vocabula"/>
