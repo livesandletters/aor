@@ -19,14 +19,6 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="head" book_orientation="0">
-                    <marginalia_text>Sylla, pla[e]risque foelix; Ceceroni vehemens: vt etiam Ca[e]sar acer. (Nemo admod&ugrave;m felix, nisi idem vehemens, et acer.) </marginalia_text>
-                </position>
-            </language>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Omnes res perinde sunt, vt agas, ut eas magni facias. Spiritus int&ugrave;s alit.
                     Ca[e]sar, iudicio fortis, et inuictus.</marginalia_text>
@@ -43,10 +35,11 @@
                 <position place="right_margin" book_orientation="90">
                     <marginalia_text>Vehementissimi oratores: sic ipse Dauid: sic Vlysses: sic omnes, instructi heroica fortitudine
                     , aut Eloquentia. Diuinus furor, et numen.</marginalia_text>
-                    <person name=""/>
+                    <person name="King David"/>
+                    <person name="Odysseus"/>
                 </position>
             </language>
-            <translation>The most vigorous orators: thus David himself, thus Odesseus. Thus all instructed with heroic valor or eloquence.
+            <translation>The most vigorous orators: thus David himself, thus Odysseus. Thus all instructed with heroic valor or eloquence.
             Divine rage and will.</translation>
         </marginalia> 
         
@@ -56,22 +49,90 @@
                     <marginalia_text>Camillus furius. Papyrius Cursor.
                     In vno Ca[e]sar, multi Marij. Vim Alexandri, potissim&ugrave;m a[e]mulabatur Ca[e]sar: Vim Demostenis, Cineas.</marginalia_text>
                     <person name="Marcus Furius Camillus"/>
+                    <person name="Lucius Papirius Cursor"/>
+                    <person name="Julius Caesar"/>
+                    <person name="Gaius Marius"/> <!--JG: Not entirely sure-->
+                    <person name="Alexander the Great"/>
+                    <person name="Demosthenes"/>
+                    <person name="Cineas"/>
                 </position>
             </language>
+            <translation>Marcus Furius Camillus. Lucius Papirius Cursor. 
+                Caesar in one,  many of the Marius. <!--JG: Not entirely sure-->
+                Caesar was jealous of the most powerful strenght of Alexander; Cinaes [was jealous of] the strenght of Demosthenes.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="90">
-                    <marginalia_text>Tam in Agendo, qu&agrave;m in Dicendo, semper acris vehementia excelluit, eet fulmineus vigor:
-                    Achilles, Alexander, Ca[e]sar. vehementissimi Actors, Pericles, Demosthenes, Cineas</marginalia_text> <!--JG: Check, gaat verder met Sylla in head?-->
+                    <marginalia_text>Tam in Agendo, qu&agrave;m in Dicendo, semper acris vehementia excelluit, et fulmineus vigor:
+                    Achilles, Alexander, Ca[e]sar, vehementissimi Actors: Pericles, Demosthenes, Cineas</marginalia_text> 
+                    <person name="Achilles"/>
+                    <person name="Alexander the Great"/>
+                    <person name="Julius Caesar"/>
+                    <person name="Pericles"/>
+                    <person name="Demosthenes"/>
+                    <person name="Cineas"/>
+                </position>
+                <position place="head" book_orientation="0">
+                    <marginalia_text>Sylla, pla[e]risque foelix; Ceceroni vehemens; vt etiam Ca[e]sar acer. (Nemo admod&ugrave;m foelix, nisi idem vehemens, et acer.) </marginalia_text>
+                    <person name="Sulla"/>
+                    <person name="Cicero"/>
                 </position>
             </language>
+            <translation>In doing as well as in speaking, sharp eagerness and destrutive vigor always excell.
+            Achilles, Alexander, Caesar, most vehement actors: Perciles, Demosthenes, Cineas, Sulla, generally successful. <!--JG: Unsure, need to get back to translation-->
+            Severe to Cicero; and even Caesar [was] sharp (No one was exceedingly successful, unless similarly vehement and sharp).</translation>
         </marginalia> 
         
+        <underline method="pen" type="straight" language="EN" text="imbushementes, layde"/>
+        <underline method="pen" type="straight" language="EN" text="swete baytes"/>
+        <underline method="pen" type="straight" language="EN" text="sowre hokes"/>
+        <underline method="pen" type="straight" language="EN" text="escape danger, where gret adua[n]tage"/>
+        <underline method="pen" type="straight" language="EN" text="any instructions, any bokes"/>
+        <underline method="pen" type="straight" language="EN" text="practysed, by auncient"/>
+        <underline method="pen" type="straight" language="EN" text="gyve good occasio[n]s"/>
+        <underline method="pen" type="straight" language="EN" text="to inuente newe polycies"/>
+        <underline method="pen" type="straight" language="EN" text="and wysely to vse the olde"/>
+        <underline method="pen" type="straight" language="EN" text="Noble hartes, vndoubtedly"/>
+        <underline method="pen" type="straight" language="EN" text="not but desyre, to here of noble feates"/>
+        <underline method="pen" type="straight" language="EN" text="pleasure in seinge, how wytte with smalle force"/>
+        <underline method="pen" type="straight" language="EN" text="tymes worketh wonders,"/>
+        <underline method="pen" type="straight" language="EN" text="excedynge greatte"/>
+        <underline method="pen" type="straight" language="EN" text="strength can nat auayle"/>
+        <underline method="pen" type="straight" language="EN" text="to playe a thousande tymes at one game"/>
+        <underline method="pen" type="straight" language="EN" text="helthe of body"/>
+        <underline method="pen" type="straight" language="EN" text="refreshe his mynde"/>
+        <underline method="pen" type="straight" language="EN" text="help his memorie"/>
+        <underline method="pen" type="straight" language="EN" text="kendle his courage with"/>
+        <underline method="pen" type="straight" language="EN" text="honeste delyte"/>
+        <underline method="pen" type="straight" language="EN" text="appertayne to the safegarde"/>
         
+        <symbol name="Sun" place="right_margin"/>
         
+        <mark name="quotation_mark" method="pen" place="head"/>
         
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        
+        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="quotation_mark" method="pen" place="right_margin" language="EN" text="not but desyre, to here of noble feates"/>
+        <mark name="hash" method="pen" place="right_margin"/>
+        <mark name="hash" method="pen" place="right_margin"/>
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="Vehementissimi oratores: sic ipse Dauid: sic Vlysses: sic omnes, instructi heroica fortitudine                     , aut Eloquentia. Diuinus furor, et numen."/>
+        
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="swete baytes"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="sowre hokes"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- to wse-->
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="to inuente newe polycies"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="wytte with smalle force"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="to playe a thousande tymes at one game"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="kendle his courage with"/>
+        
+        <numeral place="intext" language="EN" text="and wysely to vse the olde">2.</numeral>
         
     </annotation>
 </transcription>
