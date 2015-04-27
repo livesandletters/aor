@@ -6,7 +6,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141023.xsd">
     
-    <page filename="00000026.tif"  pagination="4" reader="Harvey"  /> <!-- scan 26 on ABO -->
+    <page filename="00000026.tif"  pagination="4" reader="Harvey"  /> 
     <annotation>
         <marginalia hand="Italian">
             <language ident="LA">
@@ -277,7 +277,7 @@
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
         
-        <!-- AB There is a quote mark  alonside the first marginal note in left margin, next to 'gerebatur'. Tag as part of marginalia, or as mark? -->
+       <mark name="quotation_mark" method="pen" place="left_margin"/> <!--next to first marginal note in left margin-->
         <mark name="bracket" method="pen" place="left_margin"/> <!-- ad idipsum-->
         <mark name="plus_sign" method="pen" place="left_margin"/> <!--dia-->
         <mark name="equal_sign" method="pen" place="left_margin"/> <!--set-->
