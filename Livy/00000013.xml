@@ -12,7 +12,7 @@
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         Catalogus illustrium virorum in Romana Historia. Ex Aurelio Victore seriatim transcriptus. 
-                        (Lic&egrave;t idem ille liber aliis attributus, pra[e]sertim Cornelio Nepoti, et Plino Ca[e]cilio.)
+                        (Lic&egrave;t idem ille liber alijs attributus, pra[e]sertim Cornelio Nepoti, et Plino Ca[e]cilio.)
                         Meorum vnus mnemonicorum elenchorum. Proca, rex Albanoru[m]. Romulus, Romanoru[m] rex I. 
                         Numa Pompilius, Rom[anorum] rex 2. Tullus Hostilius, Rom[anorum] rex 3. 
                     </marginalia_text>
@@ -44,9 +44,8 @@
                         Numidicus. Q. Metellus Pius. ( Tiberius Gracchus. Caius Gracchus. M. Liuius Drusus. Marius pater. Marius filius. 
                         ( Cornelius Cinna. Flauius Fimbria. Viriatus Lusitanus. 
                     </marginalia_text>  
-                    <person name="Publius Horatius"/> <!-- Check other names of the Horatius' and Curiatius' triplets -->
-                    <!-- JE: if we capture these, I think it should be as 'The Horatii' and 'The Curatii'. That's how they're
-                    referred to here and in anything I can find online. -->
+                    <person name="Horatii"/> 
+                    <person name="Curatii"/>
                     <person name="Mettius Fufetius"/>
                     <person name="Ancus Marcius"/>
                     <person name="Lucius Tarquinius Pricus"/>
@@ -59,7 +58,7 @@
                     <person name="Horatius Cocles"/>
                     <person name="Gaius Mucius Scaevola"/>
                     <person name="Claelia"/>
-                    <!-- JE: are we capturing the 306 Fabii? -->
+                    <person name="Fabii"/>
                     <person name="Lucius Valerius Poplicola Balbinus Maximus"/>
                     <person name="Aulus Postumius Albus Regillensis"/>
                     <person name="Lucius Quinctius Cincinnatus"/>
@@ -118,11 +117,10 @@
                     <person name="Lucius Cornelius Cinna"/>
                     <person name="Gaius Flavius Fimbria"/>
                     <person name="Viriatus"/>
-                    <!-- JE: I've amended some of the names in this list, in line with how they are referred to on Wikipedia. -->
                 </position>
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        ) M. A[E]milius Scaurus. L. Appuleius Saturnius. L. Licinius Lucullus. L. Cornelius Sulla. Mithradates, rex 
+                        ) M. &AElig;milius Scaurus. L. Appuleius Saturnius. L. Licinius Lucullus. L. Cornelius Sulla. Mithradates, rex 
                         Ponti. Cn. Pompeius Magnus. Atq[ue] hi illustrium Romanoru[m] pra[e]stantissimi. Nisi qu&ograve;d in antiquo 
                         Additamento, hi etiam celebrantur illustres viri. Julius Ca[e]sar. Octauianus Ca[e]sar. Cato Pra[e]torius. M. 
                         Tullius Cicero. Marcus Brutus. C. Cassius Longinus. Sextus Pompeius. Marcus Antonius. Cleopatra regina. In 
@@ -147,7 +145,6 @@
                     <person name="Sextus Pompey"/>
                     <person name="Mark Antony"/>
                     <person name="Cleopatra"/>
-                    <!-- JE: Likewise, I've amended some of these names. -->
             </position>                     
             </language>
             <translation>
@@ -179,8 +176,6 @@
                 famous men, from the superior history of the Roman Republic, in particular the bravest and wisest of them all. 
                 Hardly any other memory list deserves a deeper imprint, so great is the importance of those brilliant names. 
                 In them is strikingly represented the art of remembering all Roman history.</translation>
-        <!-- JE: I've tweaked this translation in places to make more idiomatic and updated some of the names, in line with the standard 
-            names drawn from Wikipedia. -->
         </marginalia>
         
         <marginalia hand="Italian">
