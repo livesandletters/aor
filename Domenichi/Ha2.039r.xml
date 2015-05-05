@@ -57,7 +57,7 @@
 				<position place="head" book_orientation="0">
 					<marginalia_text>
 						{ Mihi placet ingenium.
-						Libri 7. Qu&ograve; legendus
+						Libri 7. Qu&ograve; legendus 
 						est sa[e]pius: cum
 						supplemento Porcatij:
 					</marginalia_text>
@@ -71,7 +71,7 @@
 			</language>
 			<translation>
 				I enjoy the ingenuity.
-				Seven books, which must be frequently read with Porcacchi's addition.
+				Seven books, which must be frequently read with Porcacchi's addition. <!--JG: Did you translate 'quo etia[m] delector'?-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -86,7 +86,7 @@
 				</position>
 			</language>
 			<translation>
-				Nothing soft or vain.	<!-- CG: Unsure of the arrangement of words. -->
+				Nothing soft or vain.	<!-- CG: Unsure of the arrangement of words. --> <!--JG: I think this is OK-->
 				As loose as it is solid: and against.
 			</translation>
 		</marginalia>
@@ -101,11 +101,11 @@
 					<person name="Marcantonio Gandino"/>
 					<person name="Johannes Jacob Wecker"/>
 				</position>
-				<position place="head" book_orientation="270">
+				<position place="head" book_orientation="270"> <!--JG: Book_orientation remains the same, no? Only place changes-->
 					<marginalia_text>
 						Speculator, et Domenicus. Spiritus meissimi.
 					</marginalia_text>
-					<person name="Guillaume Durand"/>
+					<person name="Guillaume Durand"/> <!--JG: Perhaps insert brief comment in excel sheet about which Guillaume Durand this is, since there are more scholars with this name. Btw, how do you know that speculator is a reference to Durand?-->
 					<person name="Lodovico Domenichi"/>
 					<emphasis method="chalk" type="straight"/>
 				</position>
@@ -125,7 +125,7 @@
 						euen in eueri  aspecte, life, &amp; powre. Euerie breath of 
 						Eutrapelus, is ethereal, &amp; Jouial. No spirit so full of
 					</marginalia_text>
-					<person name="Eutrapelus"/>
+					<person name="Eutrapelus"/> <!--JG: Red chalk bar as emphasis-->
 				</position>
 				<position place="tail" book_orientation="90">
 					<marginalia_text>
@@ -134,6 +134,8 @@
 				</position>
 			</language>
 		</marginalia>
+		
+		<!--JG: Did you capture the marginal notes 'dextre' and 'paradosso'?-->
 
 		
 		<!-- Underlines -->
@@ -155,10 +157,10 @@
 		<underline method="pen" type="straight" language="IT" text="l'olio santo anchora"/>
 		<underline method="pen" type="straight" language="IT" text="Mordace"/>
 		
-		<underline method="chalk" type="straight" language="IT" text="stesse sempre ammalato"/>	<!-- CG: Perhaps for these smudgy "highlights" we could add another type? Something like "smudge" or "full"? -->
+		<underline method="chalk" type="straight" language="IT" text="stesse sempre ammalato"/>	<!-- CG: Perhaps for these smudgy "highlights" we could add another type? Something like "smudge" or "full"? --> <!--JG: I think the current way of capturing it does it pretty nicely. Also, have been doing it like this for the Newberry Castiglione, and dread the prospect of having to change this-->
 		<underline method="chalk" type="straight" language="IT" text="&amp; perche S. Iacopo io? soggiunse"/>
 		<underline method="chalk" type="straight" language="IT" text="esce del letto fa un gran danno"/>
-		<underline method="chalk" type="straight" language="IT" text="raccomandatione dell'anime"/>
+		<underline method="chalk" type="straight" language="IT" text="raccomandatione dell'anima"/>
 		
 		
 		<!-- Symbols -->
