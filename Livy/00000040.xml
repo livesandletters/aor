@@ -4,18 +4,20 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141111.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
     <page filename="00000040.tif" pagination="18" reader="Harvey" />
     <annotation>
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Lucumo, vir impiger, ac strenuus: pra[e]terea etiam divitiis potens; idemq[ue] perhumanus. 
+                    <marginalia_text>Lucumo, vir impiger, ac strenuus: pra[e]tere&agrave; etiam divitijs potens; idemq[ue] perhumanus. 
                         Tanaquil uxor, foemina tam perita, et prudens, qu&agrave;m ambitiosa.
                     </marginalia_text>
                     <person name="Tarquin the Elder"/>
                     <person name="Tanaquil"/>
+                    <emphasis method="pen" type="straight" text="Lucumo,"/>
+                    <emphasis method="pen" type="straight" text="Tanaquil"/>
                 </position>
             </language>
             <translation>Lucumo, an energetic and keen man; in addition to that he was also powerful because of his wealth and very civilized as well.
@@ -25,8 +27,9 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Prudens electio Urbis novae, ad eminendum honore, et auctoritate.
+                    <marginalia_text>Prudens electio Vrbis noua[e], ad eminendum honore, et auctoritate.
                     </marginalia_text>
+                    <emphasis method="pen" type="straight" text="Vrbis noua[e]"/>
                 </position>
             </language>
             <translation>A clever choice for the new city, in order to excel in honour and authority.</translation>
@@ -44,20 +47,20 @@
         <underline method="pen" type="straight" language="LA" text="exercitu nouo conscripto"/>
         <underline method="pen" type="straight" language="LA" text="Latinorum ui c[a]epit"/>
         <underline method="pen" type="straight" language="LA" text="priorum, qui rem Romanam"/>
-        <underline method="pen" type="straight" language="LA" text="circa Palatiu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="circa Palatiu[m] sedem"/>
         <underline method="pen" type="straight" language="LA" text="Sabini Capitoliu[m]"/>
         <underline method="pen" type="straight" language="LA" text="mo[n]tem Albani implessent"/>
         <underline method="pen" type="straight" language="LA" text="Auentinu[m] nouae multitudini"/>
         <underline method="pen" type="straight" language="LA" text="quod uacuu[m] occupauera[n]t prisci"/>
         <underline method="pen" type="straight" language="LA" text="diruendae urbis eius"/>
         <underline method="pen" type="straight" language="LA" text="ne hostium semeper receptaculu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="tuta munitionibus"/>
+        <underline method="pen" type="straight" language="LA" text="urbs tuta munitionibus"/>
         <underline method="pen" type="straight" language="LA" text="praesidioque firmata ualido"/>
         <underline method="pen" type="straight" language="LA" text="acie primu[m] uincit"/>
         <underline method="pen" type="straight" language="LA" text="ingenti praeda"/>
-        <underline method="pen" type="straight" language="LA" text="multis milib[us[ Latinoru[m] in ciuitate[m] acceptis"/>
+        <underline method="pen" type="straight" language="LA" text="multis milib[us] Latinoru[m] in ciuitate[m] acceptis"/>
         <underline method="pen" type="straight" language="LA" text="ponte Sublicio, tum prim&ugrave;m in Tyberi"/>
-        <underline method="pen" type="straight" language="LA" text="fossa, haud paruum munimentum &agrave; planioribus"/>
+        <underline method="pen" type="straight" language="LA" text="quoq[ue] fossa, haud paruum munimentum &agrave; planioribus"/>
         <underline method="pen" type="straight" language="LA" text="Ingenti incremento rebus auctis"/>
         <underline method="pen" type="straight" language="LA" text="facinora clandestine fierent"/>
         <underline method="pen" type="straight" language="LA" text="carcer ad terrorem"/>
@@ -77,7 +80,7 @@
         <underline method="pen" type="straight" language="LA" text="locum forti ac strenuo uiro"/>
         <underline method="pen" type="straight" language="LA" text="regnasse Tatiu[m] Sabinu[m]"/>
         <underline method="pen" type="straight" language="LA" text="regu[m] Numa[m]"/>
-        <underline method="pen" type="straight" language="LA" text="Ancum Sabina"/>
+        <underline method="pen" type="straight" language="LA" text="Ancum Sabina matre"/>
         <underline method="pen" type="straight" language="LA" text="commigrant Romam"/>
         <underline method="pen" type="straight" language="LA" text="aquila suspensis"/>
         <underline method="pen" type="straight" language="LA" text="dicit Tanaquil"/>
@@ -86,7 +89,7 @@
         <underline method="pen" type="straight" language="LA" text="Tarquinium Priscum edidere nomen"/>
         <underline method="pen" type="straight" language="LA" text="Romanis conspicuum eum nouitas diuitaeque faciebant"/>
         <underline method="pen" type="straight" language="LA" text="quoq[ue] fortuna[m] benigno alloquio, comitate inuitandi"/>
-        <underline method="pen" type="straight" language="LA" text="benificijsq[ue]"/>
+        <underline method="pen" type="straight" language="LA" text="benificijsq[ue] quos"/>
         <underline method="pen" type="straight" language="LA" text="donec in regia[m] quoq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="fama"/>
         
@@ -97,14 +100,18 @@
         
         <symbol name="SS" place="tail"/>
         
+        <!-- AB: There is  also a plus mark and and equals sign next to the marginalia in left margin. Tag to marginalia?-->
+        
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         
+        <mark name="dot" method="pen" place="right_margin"/> <!-- Romani, Sabini -->
         <mark name="dash" method="pen" place="right_margin"/> <!--mul-->
         <mark name="dash" method="pen" place="right_margin"/> <!--Po-->
         <mark name="dash" method="pen" place="right_margin"/> <!--prae-->
         <mark name="dash" method="pen" place="right_margin"/> <!--An-->
         <mark name="plus_sign" method="pen" place="right_margin"/> 
+        <mark name="dot" method="pen" place="right_margin"/> <!-- honpros. cuius -->
         <mark name="dash" method="pen" place="right_margin"/> <!--Tar-->
         <mark name="dash" method="pen" place="right_margin"/> <!--ma-->
         <mark name="equal_sign" method="pen" place="right_margin"/> 
@@ -113,18 +120,20 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--co[n]-->
         
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="hostibus"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- arcem, Coelium -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="diruendae"/>
         <mark name="equal_sign" method="pen" place="intext" />
         <mark name="vertical_bar" method="pen" place="intext"/> <!---amplificata Anco-->
         <mark name="comma" method="pen" place="intext"/> <!--regnante Lucomo-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="impiger"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="diuitijs"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="diuitae"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="diuitiae"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Roma"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="nouo"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="uirtute"/>
         <mark name="horizontal_bar" method="pen" place="intext"/> <!--above complexa-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tarquinium"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="conspicuum"/>
+        
     </annotation>
 </transcription>
