@@ -129,7 +129,7 @@
 				</position>
 			</language>
 			<translation>
-				No one is ever prudent enough, and also strong enough. <!-- CG: Not sure how to render best the "fuit" here. -->
+				No one is ever prudent enough, and also strong enough. <!-- CG: Not sure how to render best the "fuit" here. --> <!--JG: Couldn't you render is as 'No one was every prudent and strong enough'?-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -214,7 +214,7 @@
 		<underline method="pen" type="straight" language="IT" text="molto ben sudato"/>
 		<underline method="pen" type="straight" language="IT" text="ammalata una gran gentildonna"/>
 		<underline method="pen" type="straight" language="IT" text="un caualier Napoletano"/>
-		<underline method="pen" type="straight" language="IT" text="parole si uant&ograve;"/>
+		<underline method="pen" type="straight" language="IT" text="parole si uant&ograve; d'hauere"/>
 		<underline method="pen" type="straight" language="IT" text="una medicina"/>
 		<underline method="pen" type="straight" language="IT" text="che subito"/>
 		<underline method="pen" type="straight" language="IT" text="fatta guarire"/>
@@ -249,7 +249,7 @@
 		<!-- Marks -->	
 		
 		<!-- Right margin -->
-		<mark name="dash" method="pen" place="right_margin"/>
+		<mark name="dash" method="pen" place="right_margin"/> <!--Gherar-->
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- Il bar- -->
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- corso, da ch'e' - -->
 		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- corso, da ch'e' - -->
@@ -274,19 +274,20 @@
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- ben sudato -->
 		<mark name="dot" method="pen" place="intext"/> <!-- Napolteano, il -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="una medicina"/>
+		<mark name="apostrophe" method="pen" place="intext"/> <!--guarire. Ma-->
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="cortese"/>
 		<mark name="straight_quotation_mark" method="pen" place="intext" language="IT" text="acerbamente"/>
 		<mark name="dot" method="pen" place="intext"/> <!-- acerbamente, dicendo -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="medicine"/>
-		<mark name="plus_sign" method="pen" place="intext"/> <!-- esser complessionate -->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="complessionate"/>
 		<mark name="dot" method="pen" place="intext"/> <!-- ingiuriose, come -->
 		<mark name="comma" method="pen" place="intext"/> <!-- iure, soggiunse -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- unto, & bisunto -->
 		<mark name="dot" method="pen" place="intext"/> <!-- compagno, il -->
 		<mark name="dot" method="pen" place="intext"/> <!-- scudi, -->
-		
-		
+				
 		<!-- Errata -->
 		<errata language="IT" copytext="i re" amendedtext="iure"/>
+		
     </annotation>
 </transcription>
