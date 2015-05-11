@@ -36,7 +36,7 @@
                     before [the] battail.</marginalia_text>
                 </position>
             </language>
-            <translation>The most examples of aphorisms in Zwinger's 'Theatrum', of Frontinus, Polyaenus, Valerius Maximus, Giovanni Battista Cipelli, Marcus Antonius Coccius Sabellicus,
+            <translation>Many examples of aphorisms in Zwinger's 'Theatrum', of Frontinus, Polyaenus, Valerius Maximus, Giovanni Battista Cipelli, Marcus Antonius Coccius Sabellicus,
             Erasmus, Conrad Lycosthenes. Also the devices of Xenophon, Aristotle, Plutarch and others.
             But in a few of their common places, as if the prow and the stern of all the cosmopolitan prudence.</translation>
         </marginalia>
@@ -51,7 +51,7 @@
                 </position>
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>exemplified
-                        owt of [th]e neoterical historys of Guicciardin, <!--JG: Unsure about 'ne[.]terieal'--> 
+                        owt of [th]e neoterical historys of Guicciardin, 
                     Jouius &amp; other moderne Historians.</marginalia_text>
                     <person name="Francesco Guicciardini"/>
                     <person name="Paolo Giovio"/>
@@ -63,10 +63,25 @@
         </marginalia>
         
         <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Vires.</marginalia_text>
+                </position>
+            </language>
+            <translation>Men.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
             <language ident="IT">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Patricio, della militia Romana. Macciauelli, della guerra. Frontino volgarizzato, [con l'adgionta. deleted]
-                    con Aggiunta.</marginalia_text>
+                    con Aggiunta.</marginalia_text> 
+                    <person name="Franciscus Patricius"/>
+                    <person name="Machiavelli"/>
+                    <person name="Frontinus"/>
+                    <book title="La militia Romana"/>
+                    <book title="Art of War"/>
+                    <book title="Stratagemi militari"/>
                 </position>
             </language>
             <language ident="EN">
@@ -74,6 +89,7 @@
                     <marginalia_text>That Aggiunta excellent for moderne Discourse.</marginalia_text>
                 </position>
             </language>
+            <translation>Franciscus Patricius, of the Roman army. Machiavell, of the war. Frontinus, popularized with an addition.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -85,9 +101,16 @@
                     <marginalia_text>Malim carere Theatro Vita[e] humana[e], Exemplis Decalogi,
                     et omnibus Historijs: qu&agrave;m Strategematis Frontini, Polya[e]ni,
                     Oeconomicoru[m] Exemplorum; quibus tamen necessari&ograve; addendi,
-                    Machiuelli Discursus, Jouij Elogia Bellica, et Cardani Sbutilitates.</marginalia_text>
+                    Machiuelli Discursus, Jouij Elogia Bellica, et Cardani Subtilitates.</marginalia_text>
+                    <book title="Theatrum vitae humanae"/>
+                    <book title="The stratagems"/>
+                    <book title="Discourses on Livy"/>
+                    <book title="Elogia virorum bellica"/>
+                    <book title="De subtilitate"/>
                 </position>
             </language>
+            <translation>Towards polymechanics. I rather wish to be withouth the 'Theatrum Vitae Humanae', the examples of the Decalogue, and all histories, than the Stategies of Frontinus, of Polyaenus, of the methodical examples. 
+                To which, however, it is necessary to add Machiavelli's 'Discourse', Paolo Giovio's 'Elogia Bellica', and Giralomo Cardano's 'De subtilitate'.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -107,12 +130,26 @@
             </language>
         </marginalia>
         
+        <underline method="pen" type="straight" language="EN" text="kepynge close a"/>
+        <underline method="pen" type="straight" language="EN" text="serche out the"/>
+        <underline method="pen" type="straight" language="EN" text="kepynge of an order"/>
+        <underline method="pen" type="straight" language="EN" text="conducte an armye, through"/>
+        <underline method="pen" type="straight" language="EN" text="To escape oute"/>
+        <underline method="pen" type="straight" language="EN" text="makyng traynes"/>
+        <underline method="pen" type="straight" language="EN" text="that we"/>
+        <underline method="pen" type="straight" language="EN" text="seme not to lacke, or howe we"/>   
+        <underline method="pen" type="straight" language="EN" text="the vse of"/>
+        <underline method="pen" type="straight" language="EN" text="ennemies at diuisyon"/>
+        <underline method="pen" type="straight" language="EN" text="pacifye the sedytion"/>
+        <underline method="pen" type="straight" language="EN" text="to inhibyte the desyre"/>
+        <underline method="pen" type="straight" language="EN" text="to incourage and stomacke"/>
         
+        <symbol name="Bisected_circle" place="left_margin"/>
         
+        <mark name="horizontal_bar" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="ennemies at diuisyon"/>
         
-        
-        
-        
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="diuision"/>
         
     </annotation>
 </transcription>
