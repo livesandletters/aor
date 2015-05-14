@@ -54,7 +54,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="full_page" book_orientation="270">
-                    <marginalia_text>Adrianus Papa dixebat: Curia Dominorum, est Probatoria Meritorum.
+                    <marginalia_text>Adrianus Papa dixebat: Curia Dominorum, est Probatoria Meritorum. <!--JG: Don't know which pope Adrian. Possibly Adrian VI?-->
                    </marginalia_text>
                     <emphasis method="pen" type="straight" text="Curia Dominorum"/>
                     <emphasis method="pen" type="straight" text="Probatoria Meritorum"/>
@@ -73,7 +73,7 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>Ex fruitibus eoru[m], cognoscetis eos.
-                    Nulla Mundi a[e]tas, tam Empirica, Pragmatica, Cosmopolitica, Mechanica, Chrematistica.</marginalia_text> <!--JG: Don't know which pope Adrian. Possibly Adrian VI?-->
+                    Nulla Mundi a[e]tas, tam Empirica, Pragmatica, Cosmopolitica, Mechanica, Chrematistica.</marginalia_text> 
                     <X-ref person="Matthew" book_title="Gospel of Matthew"/> <!--JG: Matthew 7:20-->
                     <emphasis method="pen" type="straight" text="Ex fruitibus eoru[m]"/>
                     <emphasis method="pen" type="straight" text="tam Empirica, Pragmatica, Cosmopolitica, Mechanica, Chrematistica."/>
@@ -86,13 +86,17 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="90">
-                    <marginalia_text>Par&ugrave;m sepulta[e] distat Inertia[e]m Celata Virtus.
-                    Quid boni, ex Thesaum abscondito?
+                    <marginalia_text>Par&ugrave;m sepulta[e] distat Inertia[e] Celata Virtus.
+                    Quid boni, ex Thesauro abscondito?
                     Docosophia, et Euschemosyne.
                     Sic luraet Lux uestra.</marginalia_text>
+                    <X-ref person="Horace" book_title="Odes"/>
+                    <X-ref person="Matthew" book_title="Gospel of Matthew"/> <!--JG: Matthew 5:16-->
                 </position>
             </language>
-            <translation></translation> <!--HIER GEBLEVEN!!-->
+            <translation>'Concealed virtue differs but little from buried idleness.' What good things from the hidden treasure chamber are there? 
+                Wisdom and refinement. <!--JG: Chris. any idea what 'docosophia' might mean?-->
+            'So let your light shine.'</translation> 
         </marginalia>
         
         <marginalia hand="Italian">
@@ -115,7 +119,7 @@
                     
                     Audacter autem qui subit periculu[m], Nec lingua, nec mens solet ei labascere.
                     
-                    Meanandri.
+                    Menandri.
                     
                     Haud ulla Diua illustrior, qu&agrave;m Audatia.
                                  
@@ -123,7 +127,7 @@
                     
                     Quis timidus unq[uam] maximas res appetit? 
                     
-                    Sofithes.
+                    Sofithei.
                     
                     Fugat Aguila una, maximu[m] grege[m] Alitu[m]; virq[ue] generosus plurimos instrenuos.
                     
@@ -138,22 +142,43 @@
                     &Egrave; gra[e]co incerti Auctoris. recita[n]t[u]r &agrave; Luciano &egrave; Tragoedia.
                     
                     Indigna res est, Muscam in homines impetu Irruere strenuo,
-                    cruore it tirgeat; Timere tela hostilia armatos viros.
-                    
-                    <!--JG: Chris, please transcribe the Greek--> Menandri.
-                        
-                    Audacia nullum est maius Viaticum.
+                    cruore ut tirgeat; Timere tela hostilia armatos viros.
                     </marginalia_text>
+                    <person name="Sophocles"/>
+                    <person name="Menander"/>
+                    <person name="Sofitheus"/>
+                    <person name="Euripides"/>
+                    <person name="Moschion"/>
                     <emphasis method="pen" type="straight" text="Audacter autem"/>
                     <emphasis method="pen" type="straight" text="Quis timidus unq[uam]"/>
                     <emphasis method="pen" type="straight" text="Fugat Aguila"/>
                     <emphasis method="pen" type="straight" text="qua[m]uis adsit"/>
                     <emphasis method="pen" type="straight" text="abest"/>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text><!--JG: Chris, please transcribe the Greek--></marginalia_text>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>Menandri. Audacia nullum est maius Viaticum.</marginalia_text>
                     <emphasis method="pen" type="straight" text="Audacia nullum"/>
                     <emphasis method="pen" type="straight" text="maius"/>
                     <emphasis method="pen" type="straight" text="est ea causa malis"/>
                 </position>
             </language>
+            <translation>I. Sophocles. 
+            But he who bodly endures danger, neither language nor mind is in the habit to waver him. 
+            
+            Menander.
+            
+            By no means any godess is more illustrious than courage.
+            
+            Euripides.<!--JG: HIER GEBLEVEN-->
+            
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
