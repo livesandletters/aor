@@ -22,7 +22,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>dux foemina facti. Si violandum est ius, ait Ca[e]sar &egrave; Tragoedia, regni causa violandum est: 
-                        alijs rebus pietatem colas. Mundi avari, et ambitiosi partim callida, partim violenta praxis.
+                        alijs rebus pietatem colas. Mundi auari, et ambitiosi partim callida, partim violenta praxis.
                     </marginalia_text>
                     <person name="Julius Caesar"/>
                     <X-ref person="Euripides" book_title="The Phoenician Women"/>
@@ -44,7 +44,7 @@
                 what that Roman said in his mimes: "In evil intention women surpass men."</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- AB: I would question whether this is a symbol rather than a letter. -->
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>w.</marginalia_text>
@@ -56,14 +56,14 @@
         <underline method="pen" type="straight" language="LA" text="consilio augere imperium"/>
         <underline method="pen" type="straight" language="LA" text="Dianae Ephesiae sanu[m]"/>
         <underline method="pen" type="straight" language="LA" text="ciuitatibus Asiae"/>
-        <underline method="pen" type="straight" language="LA" text="sanum Diane"/>
+        <underline method="pen" type="straight" language="LA" text="fanum Dian[a]e"/>
         <underline method="pen" type="straight" language="LA" text="caput rerum Roman esse"/>
         <underline method="pen" type="straight" language="LA" text="cecinere uates"/>
         <underline method="pen" type="straight" language="LA" text="ibi fore imperium"/>
-        <underline method="pen" type="straight" language="LA" text="Romanus immolat Dianae"/>
+        <underline method="pen" type="straight" language="LA" text="Romanus immolat Dianae bouem"/>
         <underline method="pen" type="straight" language="LA" text="Seruius"/>
         <underline method="pen" type="straight" language="LA" text="usu haud dubi&egrave; regnum possederat"/>
-        <underline method="pen" type="straight" language="LA" text="voces &agrave; iuuene Tarquinio audiebat"/>
+        <underline method="pen" type="straight" language="LA" text="uoces &agrave; iuuene Tarquinio audiebat"/>
         <underline method="pen" type="straight" language="LA" text="se iniussu populi regnare"/>
         <underline method="pen" type="straight" language="LA" text="uoluntate plebis, agro capto ex hostibus"/>
         <underline method="pen" type="straight" language="LA" text="ad populu[m]"/>
@@ -74,7 +74,7 @@
         <underline method="pen" type="straight" language="LA" text="res Tarquinio spem affectandi regni"/>
         <underline method="pen" type="straight" language="LA" text="agro plebis aduersum patru[m] voluntate[m]"/>
         <underline method="pen" type="straight" language="LA" text="patres"/>
-        <underline method="pen" type="straight" language="LA" text="crescendiq[ue] in cura sibi"/>
+        <underline method="pen" type="straight" language="LA" text="crescendiq[ue] in curia sibi"/>
         <underline method="pen" type="straight" language="LA" text="ipse iuuenis ardentis animi"/>
         <underline method="pen" type="straight" language="LA" text="uxore Tullia"/>
         <underline method="pen" type="straight" language="LA" text="inquietum animum"/>
@@ -99,10 +99,10 @@
         <underline method="pen" type="straight" language="LA" text="uirum nacta"/>
         <underline method="pen" type="straight" language="LA" text="muliebri cessaret audacia"/>
         <underline method="pen" type="straight" language="LA" text="Contrahit celeriter similitudo"/>
-        <underline method="pen" type="straight" language="LA" text="fere"/>
-        <underline method="pen" type="straight" language="LA" text="maulum malo"/>
+        <underline method="pen" type="straight" language="LA" text="ut fere"/>
+        <underline method="pen" type="straight" language="LA" text="malum malo"/>
         <underline method="pen" type="straight" language="LA" text="initium turbandi omnia &agrave; foemina ortu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="cretis uiri alieni assuefacta"/>
+        <underline method="pen" type="straight" language="LA" text="secretis uiri alieni assuefacta"/>
         <underline method="pen" type="straight" language="LA" text="de uiro ad"/>
         <underline method="pen" type="straight" language="LA" text="de sorore ad uirum"/>
         <underline method="pen" type="straight" language="LA" text="rectius uiduam"/>
@@ -129,7 +129,7 @@
         
         <symbol name="SS" place="left_margin"/>
         
-        <symbol name="SS" place="right_margin"/>
+        <symbol name="SS" place="right_margin" language="LA" text="caput rerum Romam esse"/>
         <symbol name="SS" place="right_margin"/>
         
         <mark name="equal_sign" method="pen" place="left_margin"/>
@@ -146,6 +146,7 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--inter-->
         <mark name="equal_sign" method="pen" place="right_margin"/> 
         <mark name="dash" method="pen" place="right_margin"/> <!--sce-->
+        <mark name="hash" method="pen" place="right_margin"/> 
         <mark name="dash" method="pen" place="right_margin"/> <!--re-->
         <mark name="dash" method="pen" place="right_margin"/> <!--Ser-->
         <mark name="dash" method="pen" place="right_margin"/> <!--ma-->
@@ -157,21 +158,26 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--ali-->
         <mark name="dash" method="pen" place="right_margin"/> <!--pr[a]e-->
         
+        <mark name="dot" method="pen" place="intext"/> <!--usus, ne-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="armis"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="consilio"/>
        <mark name="dot" method="pen" place="intext"/> <!--est, simul-->
         <mark name="dot" method="pen" place="intext"/> <!--iunxerat, saepe-->
         <mark name="vertical_bar" method="pen" place="intext"/> <!--fuit Seruius-->
+        <mark name="dot" method="pen" place="intext"/> <!-- possederat, tamen -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--regnare, conciliata-->
         <mark name="dot" method="pen" place="intext"/> <!--diuiso, ausus-->
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--est, &-->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="inequietum"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="inquietum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ultimumq[ue]"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="scelere"/>
         <mark name="comma" method="pen" place="intext"/> <!--Tarquinius Prisci-->
+        <mark name="dot" method="pen" place="intext"/> <!-- Servij (dot over 'j') -->
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="uirum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="initium"/>
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="foemina"/>
         <mark name="comma" method="pen" place="intext"/> <!--maior, prope-->
