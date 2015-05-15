@@ -34,19 +34,19 @@
         <underline method="pen" type="straight" language="LA" text="eius obtenu cognominis"/>
         <underline method="pen" type="straight" language="LA" text="liberator ille populi Romani animus latens"/>
         <underline method="pen" type="straight" language="LA" text="aperiretur te[m]pore suo"/>
-        <underline method="pen" type="straight" language="LA" text="ductus"/>
+        <underline method="pen" type="straight" language="LA" text="Tarquinijs ductus"/>
         <underline method="pen" type="straight" language="LA" text="ludibriu[m] uerius qu&agrave;m comes"/>
         <underline method="pen" type="straight" language="LA" text="aureum baculu[m]"/>
         <underline method="pen" type="straight" language="LA" text="inclusum corneo"/>
         <underline method="pen" type="straight" language="LA" text="donu[m] Apollini"/>
-        <underline method="pen" type="straight" language="LA" text="effigie[m] ingenij fui"/>
+        <underline method="pen" type="straight" language="LA" text="effigie[m] ingenij sui"/>
         <underline method="pen" type="straight" language="LA" text="iuuenu[m] sciscita[n]di, ad que[m] eorum regnum Romanu[m] esset"/>
         <underline method="pen" type="straight" language="LA" text="ex infimo specu"/>
         <underline method="pen" type="straight" language="LA" text="uestr&ucirc;m primus"/>
         <underline method="pen" type="straight" language="LA" text="osculum matri tulerit"/>
         <underline method="pen" type="straight" language="LA" text="Tarquinij"/>
         <underline method="pen" type="straight" language="LA" text="ope taceri iubent"/>
-        <underline method="pen" type="straight" language="LA" text="uter prior"/>
+        <underline method="pen" type="straight" language="LA" text="uter prior cum"/>
         <underline method="pen" type="straight" language="LA" text="ueltus si prolapsus"/>
         <underline method="pen" type="straight" language="LA" text="terram osculo contigit"/>
         <underline method="pen" type="straight" language="LA" text="co[m]munis mater omniu[m]"/>
@@ -78,7 +78,7 @@
         <underline method="pen" type="straight" language="LA" text="in conuiuio luxuq[ue] cu[m]"/>
         <underline method="pen" type="straight" language="LA" text="nocte sera"/>
         <underline method="pen" type="straight" language="LA" text="dedita[m] lan[a]e"/>
-        <underline method="pen" type="straight" language="LA" text="lucubra[n]tes ancillas"/>
+        <underline method="pen" type="straight" language="LA" text="inter lucubra[n]tes ancillas"/>
         <underline method="pen" type="straight" language="LA" text="Muliebris certaminis laus penes Lucretiam fuit"/>
         <underline method="pen" type="straight" language="LA" text="uictor"/>
         <underline method="pen" type="straight" language="LA" text="comiter inuitat regios iuuenes"/>
@@ -96,6 +96,7 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--auun-->
         <mark name="dash" method="pen" place="right_margin"/> <!--con-->
         <mark name="dash" method="pen" place="right_margin"/> <!--Er-->
+        <mark name="dot" method="pen" place="right_margin"/> <!-- Tarquinij -->
         <mark name="dash" method="pen" place="right_margin"/> <!--sum-->
         <mark name="dash" method="pen" place="right_margin"/> <!--ab-->
         <mark name="dash" method="pen" place="right_margin"/> <!--ma-->
@@ -112,10 +113,14 @@
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="donu[m]"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="effigie[m]"/>
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--esset, rem-->
+        <mark name="dot" method="pen" place="intext"/> <!--modis, inde-->
         <mark name="comma" method="pen" place="intext"/> <!--conuiuio luxuq[ue]-->
         <mark name="dot" method="pen" place="intext"/> <!--terentes, sed-->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="horizontal_bar" method="pen" place="intext"/> <!--fuit aduenie[n]s-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--fuit aduenie[n]s-->
+        
+        <errata language="LA" copytext="ind" amendedtext="inde"/>
         
     </annotation>
 </transcription>
