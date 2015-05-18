@@ -64,14 +64,14 @@
 				</position>
 			</language>
 			<translation>
-				Virtue conquers all. Carnal love conquers virtue. <!-- CG: Unsure of best way to translate Venus. Could leave it as "Venus."-->  
+				Virtue conquers all. Carnal love conquers virtue. <!-- CG: Unsure of best way to translate Venus. Could leave it as "Venus."-->  <!--JG: I'd leave it as 'Venus'-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						Veneratio antiqua[e] ( ) dignitatis. )
+						Veneratio antiqua[e] dignitatis. )
 					</marginalia_text>
 				</position>
 			</language>
@@ -84,7 +84,7 @@
 			<language ident="IT">
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						&egrave; priapo Virg.
+						(&egrave; priapo Virg.)
 					</marginalia_text>
 				</position>
 			</language>
@@ -151,14 +151,14 @@
 				</position>
 			</language>
 			<translation>
-				Life is the first boundary of man: Death is the ultimate boundary of things.
+				Life is the first boundary of man: Death is the ultimate boundary of things. <!--JG: I'd put it between inverted comma's, so that users can see this is a quote Harvey got from elsewhere-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						Nuda Marij maiestas terruit homicidas. <!-- CG: I'm not sure who this is referring to. -->
+						Nuda Marij maiestas terruit homicidas. <!-- CG: I'm not sure who this is referring to. --> <!--JG: Perhaps Gaius Marius? See: https://books.google.co.uk/books?id=wh4lkfI2TwQC&pg=PA158&lpg=PA158&dq=Naked+Marius+Roman&source=bl&ots=2ivKkB1fY5&sig=y6fl0jZ28rN3nN96FUMSF9U_D6c&hl=en&sa=X&ei=ZbZZVYbVMoH8UMvQgBg&ved=0CEYQ6AEwBg#v=onepage&q=Naked%20Marius%20Roman&f=false. Page 158-->
 					</marginalia_text>
 				</position>
 			</language>
@@ -176,14 +176,14 @@
 				</position>
 			</language>
 			<translation>
-				Above /
+				Above.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						morace.
+						mordace.
 					</marginalia_text>
 				</position>
 			</language>
@@ -216,7 +216,7 @@
 			</language>
 			<translation>
 				Caesar is most sparing in food, wine, and sleep: and even in love,
-				unless it was political. He is much greater in actualization. <!-- CG: Perhaps something like accomplishment or fulfillment would be better for entelechy? -->
+				unless it was political. He is much greater in actualization. <!-- CG: Perhaps something like accomplishment or fulfillment would be better for entelechy? --> <!--JG: I like accomplishment in this context!-->
 			</translation>
 		</marginalia>
 		
@@ -230,7 +230,7 @@
 				</position>
 			</language>
 			<translation>
-				The august majesty of the venerable high priest paralyzed the murderers. <!-- CG: Not sure if this is referring to a pope or a Roman priest. -->
+				The august majesty of the venerable high priest paralyzed the murderers. <!-- CG: Not sure if this is referring to a pope or a Roman priest. --> <!--JG: Because of the use of the word 'augusta' I'd go for pope-->
 			</translation>
 		</marginalia>
 		
@@ -238,7 +238,7 @@
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="di Spagna"/>
 		<underline method="pen" type="straight" language="IT" text="la nobilt&agrave; suole"/>
-		<underline method="pen" type="straight" language="IT" text="qui no[n] ha bisogna di co[m]pagnia"/>
+		<underline method="pen" type="straight" language="IT" text="qui no[n] ha bisogno di co[m]pagnia"/>
 		<underline method="pen" type="straight" language="IT" text="u&agrave; per terra d'amici"/>
 		<underline method="pen" type="straight" language="IT" text="Punge sul uiuo"/>
 		<underline method="pen" type="straight" language="IT" text="Lodaua uno"/>
@@ -267,7 +267,7 @@
 		<underline method="pen" type="straight" language="IT" text="nominato per ruffiano"/>
 		
 		<underline method="chalk" type="straight" language="IT" text="ma del uino"/>
-		<underline method="chalk" type="straight" language="IT" text="l'infermit&agrave; &egrave; principio"/>
+		<underline method="chalk" type="straight" language="IT" text="l'infermit&agrave; &egrave; principio della"/>
 		<underline method="chalk" type="straight" language="IT" text="infermit&agrave;"/>
 		<underline method="chalk" type="straight" language="IT" text="del mal Francese, le quali ritornano"/>
 		<underline method="chalk" type="straight" language="IT" text="quando altri non le desidera"/>
@@ -279,6 +279,7 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- co[m]pa -->
 		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- co[m]pa -->
 		<mark name="horizontal_bar" method="pen" place="right_margin"/> <!-- co[m]pa -->
+		<mark name="horizontal_bar" method="pen" place="right_margin"/> <!-- Venus-->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- cinqua[n] -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- l'infer -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- di -->
@@ -288,7 +289,7 @@
 	    	<!-- Left margin -->
 	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- cio ... gnia -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- Sibilla --> 
-		<mark name="bracket" method="pen" place="left_margin"/> <!-- Dice ... infermita -->
+		<mark name="bracket" method="pen" place="left_margin"/> <!-- Dice ... infermita --> <!--JG: This I'd link to the printed text (whole paragraph), since it's quite clear which part of the text he's bracketing-->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- infermita ... un certo -->
 		    
 	    	<!-- Head/Intext/Tail -->
