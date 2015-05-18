@@ -39,7 +39,7 @@
 			<translation>
 				The same man is always the quickest of all, the most agile, and the most eminent in words and deeds.
 				A man imcomparable in every serious enterprise.
-					<!-- CG: I assume "idem" might be referring back to Eutrapelus on the previous page? -->
+					<!-- CG: I assume "idem" might be referring back to Eutrapelus on the previous page? --> <!--JG: I think you're right. I'd tag Eutrapelus and explain this briefly in a comment-->
 			</translation>
 		</marginalia>
 		
@@ -91,13 +91,14 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						A[e]therea[e] dia[e]ta[e], entelechia[e], multiplicationis semper
+						&AElig;therea[e] dia[e]ta[e], entelechia[e], multiplicationis semper
 					</marginalia_text>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
 						memor: omniu[m]q[ue] pra[e]stantissima[e]
 					</marginalia_text>
+					<emphasis method="chalk" type="straight"/>
 				</position>
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
@@ -121,10 +122,11 @@
 					<marginalia_text>
 						Sola curat selecta: et ad suum ipsius Scopum pra[e]valida.
 					</marginalia_text>
+					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
 			<translation>
-				He applies himself only to select matters, and those most effective in reaching his goal. 
+				He applies himself only to select matters, and those most effective in reaching his goal. <!--JG: Not sure whether 'applies' is the best translation here...Takes interest in?-->
 			</translation>
 		</marginalia>
 		
@@ -181,8 +183,8 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- misfat -->
 				
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- io ... me -->
-		<mark name="bracket" method="pen" place="left_margin"/> <!-- cendo ... ha -->
+	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- io ... me --> <!--JG: If the marks are clearly visible, comments aren't necessary. Also goes for other marks (plus signs etc), with exception of 'punctuation marks'-->
+		<mark name="bracket" method="pen" place="left_margin"/> <!-- cendo ... ha --> <!--JG: Idem-->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="comma" method="pen" place="intext"/> <!-- male percioche --> 
