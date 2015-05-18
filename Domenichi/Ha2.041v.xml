@@ -42,7 +42,7 @@
 				Eudromus easily skims through all books for his worthwhile passages, 
 				which are neither many, nor long, but the most exquisite memorials
 				of so many authors, and only the treasures of all libraries. The mystery
-				of the hidden and unique character of Eudromus is autopraxia. <!-- CG: Not sure how best to translate. -->
+				of the hidden and unique character of Eudromus is autopraxia. <!-- CG: Not sure how best to translate. --> <!--JG: I'm fine with leaving it as autopraxia for the moment-->
 			</translation>
 		</marginalia>
 		
@@ -82,7 +82,7 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
-						Vulgaria, aut minuta obit&egrave;r pra[e]ter mittit:
+						Vulgaria, aut minuta obit&egrave;r pra[e]ter mittit: <!--JG: Should pra[e]termittet be one word? Seems as if dash connects the two parts-->
 						grammatica, philologica,
 					</marginalia_text>
 				</position>
@@ -107,10 +107,10 @@
 			</language>
 			<translation>
 				He casts aside vulgar or small matters: grammar, philology, all imaginary
-				and superfluous things. He applies himself onto to energetic, extraordinary,
+				and superfluous things. He applies himself onto to energetic, extraordinary, <!--JG: 'Interests' instead of 'applies'?-->
 				and very powerful activities. He does not even consider rare things themselves
 				worthy of serious study, unless they are somehow effective.
-					<!-- CG: Still unsure about the constant usage of "praevalida." Perhaps "useful"?-->
+					<!-- CG: Still unsure about the constant usage of "praevalida." Perhaps "useful"?--> <!--JG: I think we can stick to its usual meaning 'very important', since this fits in with the meaning of the marginal note-->
 			</translation>
 		</marginalia>
 		
@@ -151,6 +151,7 @@
 		
 		<!-- Symbols -->
 		<symbol name="Sun" place="right_margin"/>
+		<!--JG: JC symbol in text. Check if it can be linked to printed text-->
 		
 		<!-- Marks -->			
 		<!-- Right margin -->
@@ -164,7 +165,7 @@
 		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- lhora -->  
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- pouero huomo -->
 		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- ma; che la -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!--  -->
+	    	<mark name="bracket" method="pen" place="left_margin"/> <!--  --> <!--JG: Can't find it-->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="dot" method="pen" place="intext"/> <!-- gratia, & -->
