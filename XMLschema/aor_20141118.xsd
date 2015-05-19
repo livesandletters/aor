@@ -156,6 +156,7 @@
   <xs:attributeGroup name="attlist.X-ref">
     <xs:attribute name="person" use="required"/>
     <xs:attribute name="book_title" use="required"/>
+    <xs:attribute name="text" />
   </xs:attributeGroup>
   <xs:element name="emphasis">
     <xs:complexType>
