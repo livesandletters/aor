@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000768.tif" reader="Harvey" pagination="746" signature="[rrr1 v]"/>
+    <page filename="00000768.tif" reader="Harvey" pagination="746" signature="[rrr1v]"/>
     <annotation>        
         
         <underline method="pen" type="straight" language="LA" text="Graecorum artificum"/>
@@ -17,10 +17,11 @@
         <underline method="pen" type="straight" language="LA" text="praemijs paratos gladiatores accersere solitus"/>
         <underline method="pen" type="straight" language="LA" text="Campano bouem locutu[m] esse, fatis"/>
         
-        <symbol name="SS" place="left_margin"/>
+        <symbol name="SS" place="left_margin"/> <!--JG: This you can link to underlined text-->
         
-        <mark name="plus_sign" method="pen" place="head"/>
-        <mark name="plus_sign" method="pen" place="intext"/> <!-- armorum -->
+        <mark name="plus_sign" method="pen" place="head" language="LA" text="gladiatorum munus"/>
+        <mark name="dot" method="pen" place="intext"/> <!--fecit, &-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="armorum"/>
         
     </annotation>
 </transcription>
