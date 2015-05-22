@@ -5,14 +5,14 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000660.tif" reader="Harvey" pagination="638" signature="[hhh1 v]"/>
+    <page filename="00000660.tif" reader="Harvey" pagination="638" signature="[hhh1v]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Polyxenida[m]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
-                        sic aduersariorum uel odium, uel contemptus confutandus: post[quam] esse coeperit intolerabilis. Homo reru[m], no[n] verboru[m], 
+                        sic aduersariorum vel Odium, vel contemptus confutandus: post[quam] esse coeperit intolerabilis. Homo reru[m], no[n] verboru[m], 
                         spretus Polyxenidas.
                     </marginalia_text>
                 <person name="Polyxenidas"/>
@@ -31,8 +31,9 @@
         <underline method="pen" type="straight" language="LA" text="Gallicos adhuc"/>
         <underline method="pen" type="straight" language="LA" text="Polyxenidas regius"/>
         <underline method="pen" type="straight" language="LA" text="exul Rhodius"/>
-        <underline method="pen" type="straight" language="LA" text="Pausistratum praefectum superb&egrave; quaedam &amp; co[n]temtim in se co[n]cionante[m]"/>
-        <underline method="pen" type="straight" language="LA" text="certamine animi aduersus eum sumptonihil aliud dies noctesq[ue]"/>
+        <underline method="pen" type="straight" language="LA" text="Pausistratum praefectum superb&egrave; quaedam &amp; co[n]temptim in se co[n]cionante[m]"/>
+        <underline method="pen" type="straight" language="LA" text="certamine animi aduersus eum sumpto"/>
+        <underline method="pen" type="straight" language="LA" text="nihil aliud dies noctesq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="animo, qu&agrave;m ut uerba magnifica, eius reb[us] confutaret."/>
         <underline method="pen" type="straight" language="LA" text="Pausistrato patriaeq[ue] suae magno usui, si liceat"/>
         <underline method="pen" type="straight" language="LA" text="agend[a]e co[m]muniter rei"/>
@@ -49,30 +50,35 @@
         <underline method="pen" type="straight" language="LA" text="uelut autoratum sibi proditorem ratus est."/>
         <underline method="pen" type="straight" language="LA" text="sub rege uiueret"/>
         <underline method="pen" type="straight" language="LA" text="aduersus semetipsum"/>
-        <underline method="pen" type="straight" language="LA" text="indicia manu sua testata daretsimulatae proditionis"/>
+        <underline method="pen" type="straight" language="LA" text="indicia manu sua testata daret"/>
+        <underline method="pen" type="straight" language="LA" text="simulatae proditionis"/>
         <underline method="pen" type="straight" language="LA" text="per simulatione[m] reficie[n]di quasdam naues"/>
         <underline method="pen" type="straight" language="LA" text="Quam negligentia[m]"/>
         <underline method="pen" type="straight" language="LA" text="Polyxenidam in classe"/>
         
-        <symbol name="SS" place="left_margin"/>
+        <symbol name="SS" place="left_margin"/> <!--JG: You can link this to underlined text-->
         <symbol name="JC" place="left_margin"/>
         
+        <mark name="dot" method="pen" place="intext"/> <!--naues, &-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- suo -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--classem-->
+        <mark name="plus_sign" method="pen" place="left_margin"/> <!--JG: You can link this to printed text-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- co[n]cio -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--dixisse, praecipuo-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="uerba"/>
         <mark name="comma" method="pen" place="intext"/> <!-- eius -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="reb."/>
+        <mark name="dot" method="pen" place="intext"/> <!--fore, &-->
         <mark name="dot" method="pen" place="intext"/> <!-- percunctaretur, -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- tabel -->
+        <mark name="plus_sign" method="pen" place="left_margin"/> <!--JG: This can be linked to underlined text-->
+        <mark name="equal_sign" method="pen" place="intext"/> 
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext"/> <!--JG: This I'd link to printed text (a mark is put between two underlined words-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- omissu -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- habi -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- habi -->
