@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000737.tif" reader="Harvey" pagination="715"  signature="ooo4 [r]"/>
+    <page filename="00000737.tif" reader="Harvey" pagination="715"  signature="ooo4[r]"/>
     <annotation>        
         
         <marginalia hand="Italian">
@@ -17,7 +17,7 @@
                 </position>
             </language>
             <translation>
-                The rivalry of the royal sons
+                The rivalry of the royal sons.
             </translation>
         </marginalia>
         
@@ -48,6 +48,7 @@
         
         <symbol name="SS" place="right_margin"/>
         
+        <mark name="dot" method="pen" place="intext"/> <!--minor, medio-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- matu -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- dimi -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="crimina[n]di iuuenis"/>
