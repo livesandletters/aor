@@ -11,7 +11,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Lucumo, vir impiger, ac strenuus: pra[e]tere&agrave; etiam divitijs potens; idemq[ue] perhumanus. 
+                    <marginalia_text>+ Lucumo, vir impiger, ac strenuus: pra[e]tere&agrave; etiam divitijs potens; idemq[ue] perhumanus. 
                         Tanaquil uxor, foemina tam perita, et prudens, qu&agrave;m ambitiosa.
                     </marginalia_text>
                     <person name="Tarquin the Elder"/>
@@ -20,19 +20,19 @@
                     <emphasis method="pen" type="straight" text="Tanaquil"/>
                 </position>
             </language>
-            <translation>Lucumo, an energetic and keen man; in addition to that he was also powerful because of his wealth and very civilized as well.
+            <translation>+ Lucumo, an energetic and keen man; in addition to that he was also powerful because of his wealth and very civilized as well.
                 His wife, Tanaquil, was an equally skilful and clever as ambitious woman.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Prudens electio Vrbis noua[e], ad eminendum honore, et auctoritate.
+                    <marginalia_text>= Prudens electio Vrbis noua[e], ad eminendum honore, et auctoritate.
                     </marginalia_text>
                     <emphasis method="pen" type="straight" text="Vrbis noua[e]"/>
                 </position>
             </language>
-            <translation>A clever choice for the new city, in order to excel in honour and authority.</translation>
+            <translation>= A clever choice for the new city, in order to excel in honour and authority.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -99,9 +99,7 @@
         <symbol name="SS" place="right_margin"/>
         
         <symbol name="SS" place="tail"/>
-        
-        <!-- AB: There is  also a plus mark and and equals sign next to the marginalia in left margin. Tag to marginalia?--> <!--JG: Since the ink is similar to that of the marginalia, it seems that these marks have not been added as a later stage. Hence I'd transcribe them as being part  of the marginal note (i.e. in the marginalia_text tag-->
-        
+
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         

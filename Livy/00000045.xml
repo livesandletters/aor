@@ -42,15 +42,7 @@
             </language>
             <translation>impetuous and spirited women also love a bold and strong man. She either loves you vehemently, or mortally hates you. Often also it becomes suddenly visible, 
                 what that Roman said in his mimes: "In evil intention women surpass men."</translation>
-        </marginalia>
-        
-        <marginalia hand="Italian"> <!-- AB: I would question whether this is a symbol rather than a letter. --> <!--JG: Agreed, but not a symbol. For the time being, tag it as a drawing (type=florilegium)-->
-            <language ident="EN">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>w.</marginalia_text>
-                </position>
-            </language>
-        </marginalia>
+        </marginalia>    
         
         <underline method="pen" type="straight" language="LA" text="per armis opes acquirenentur"/>
         <underline method="pen" type="straight" language="LA" text="consilio augere imperium"/>
@@ -182,6 +174,8 @@
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="foemina"/>
         <mark name="comma" method="pen" place="intext"/> <!--maior, prope-->
         <mark name="dot" method="pen" place="intext"/> <!--nuptijs, magis-->
+        
+        <drawing name="florilegium" method="pen" place="right_margin"/>
                 
     </annotation>
 </transcription>
