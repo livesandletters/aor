@@ -19,7 +19,7 @@
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
-						Euschemosyne, et Entelechia. Qua[e] sunt ( aurea Eutrapeli specula: (
+						Euschemosyne, et Entelechia. Qua[e] sunt aurea Eutrapeli specula: ( <!--JG: Eutrapelus should be tagged-->
 					</marginalia_text>
 					<emphasis method="chalk" type="straight"/>
 				</position>
@@ -30,7 +30,7 @@
 				</position>
 			</language>
 			<translation>
-				Refinement and Actualization are some of the secrets from the divine works of Angelus Furius.
+				Refinement and Actualization are some of the secrets from the divine works of Angelus Furius. <!--JG: Part of the translation is missing-->
 			</translation>
 		</marginalia>
 		
@@ -38,7 +38,7 @@
 			<language ident="EN">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						not a clock, but a mock.
+						( not a clock, but a mock.
 					</marginalia_text>
 				</position>
 			</language>
@@ -48,7 +48,7 @@
 			<language ident="IT">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						amoroso, et ridicolo.
+						amoroso, et ridicolo.)
 					</marginalia_text>
 				</position>
 			</language>
@@ -71,7 +71,7 @@
 				</position>
 			</language>
 			<translation>
-				Fire without smoke. A heavenly regimen, art, action: all singular and exquisite things.	<!-- CG: There has to be a better translation for "Aetherea dia[e]ta." -->
+				Fire without smoke. A heavenly regimen, art, action: all singular and exquisite things.	<!-- CG: There has to be a better translation for "Aetherea dia[e]ta." --> <!--JG: Perhaps more natural: 'Art and action, a heavenly diet: all singular and exquisite things'-->
 			</translation>
 		</marginalia>		
 		<marginalia hand="Italian">
@@ -113,7 +113,7 @@
 			</language>
 			<translation>
 				Without daily exercise of the whole, and continual movement of every part, 
-				one's vital vigor wanes, and actualization itself, the most potent thing of all things
+				one's vital vigor wanes, and actualization itself, the most potent thing of all things,
 				becomes feeble. Work conquers all, but only heroic work.
 			</translation>
 		</marginalia>
@@ -132,6 +132,8 @@
 				The most serious matter with a light touch. The hidden emblem of Eutrapelus.
 			</translation>
 		</marginalia>
+		
+		<!--JG: I think two marginal notes are missing: one 'ridicolo' and a 'presse'-->
 		
 		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
 		
@@ -170,7 +172,7 @@
 		<underline method="chalk" type="straight" language="IT" text="mio, come piace a uoi, &amp; poi desiniamo"/>
 		<underline method="chalk" type="straight" language="IT" text="che por entender Iuuenal"/>
 		<underline method="chalk" type="straight" language="IT" text="alla posterit&agrave;"/>
-		<underline method="chalk" type="straight" language="IT" text="aprir la croce"/>
+		<underline method="chalk" type="straight" language="IT" text="coprir la croce"/>
 		<underline method="chalk" type="straight" language="IT" text="parlano prima, &amp; pensan poi"/>
 		
 		<!-- Symbols -->
@@ -187,7 +189,7 @@
 	    	<!-- Left margin -->
 	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- horiuolo ... ciando -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- quel ... domandato -->
-		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- prir la croce -->
+		<mark name="plus_sign" method="pen" place="left_margin" language="IT" text="coprir la croce"/> 
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- costoro -->
 		    
 	    	<!-- Head/Intext/Tail -->
