@@ -24,7 +24,7 @@
 				</position>
 			</language>
 			<translation>
-				Extemporising. As above, pg. 357.
+				Extemporising. As above, p. 357.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -36,7 +36,7 @@
 				</position>
 			</language>
 			<translation>
-				Modernity above and below. <!-- CG: Neologism stemming from "neotericus"? -->
+				Modernity above and below. <!-- CG: Neologism stemming from "neotericus"? --> <!--JG: Maybe just translate at neoterism?-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -48,7 +48,7 @@
 					</marginalia_text>
 					<person name="Torquato Tasso"/> 
 						<!-- CG: So I'm not entirely sure about this. It could also be Tasso's father Bernardo who was a famed poet too. Neither of them spent any time in Florence, so I don't understand Harvey's comment. -->
-						<!-- CG: The only thing I can find on Google on "Cesare Lilio" (the person named in the joke and who I assume is the "he" here) sends me to the same joke book. -->
+					<!-- CG: The only thing I can find on Google on "Cesare Lilio" (the person named in the joke and who I assume is the "he" here) sends me to the same joke book. --> <!--JG: OK, you can tag Cesare Lilio. Leave your previous comment in the XML file for clarification-->
 				</position>
 			</language>
 		</marginalia>
@@ -122,7 +122,7 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						industria agillimus: experimentis validissimus:
+						) industria agillimus: experimentis validissimus:
 						omni vigore exertissimus: vt iudicio solidus, =
 					</marginalia_text>
 					<emphasis method="chalk" type="straight"/>
@@ -176,12 +176,10 @@
 			</translation>
 		</marginalia>
 		
-		
-		
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="motteggiando alla Napoletana"/>
 		<underline method="pen" type="straight" language="IT" text="un suo compagno"/>
-		<underline method="pen" type="straight" language="IT" text="suplisci cancelliere"/>
+		<underline method="pen" type="straight" language="IT" text="supplisci cancelliere"/>
 		<underline method="pen" type="straight" language="IT" text="Fabritio Castiglione"/>
 		<underline method="pen" type="straight" language="IT" text="non meno studioso delle buone lettere"/>
 		<underline method="pen" type="straight" language="IT" text="prode nell'armi"/>
@@ -192,12 +190,13 @@
 		<underline method="pen" type="straight" language="IT" text="della posteriora"/>
 		<underline method="pen" type="straight" language="IT" text="o pouero"/>
 		<underline method="pen" type="straight" language="IT" text="cauallo non aspetta si bene in groppa"/>
+		<underline method="pen" type="straight" language="IT" text="come V. S."/>
 		<underline method="pen" type="straight" language="IT" text="a impiccare un Giudeo"/>
 		<underline method="pen" type="straight" language="IT" text="certi luoghi asprissimi"/>
 		<underline method="pen" type="straight" language="IT" text="co[n]fortandolo"/>
 		<underline method="pen" type="straight" language="IT" text="o beato a te"/>
 		<underline method="pen" type="straight" language="IT" text="nel seno d'Abra[m]"/>
-		<underline method="pen" type="straight" language="IT" text="tante allegrezze, in tanti"/>
+		<underline method="pen" type="straight" language="IT" text="allegrezze, in tanti"/>
 		<underline method="pen" type="straight" language="IT" text="canti"/>
 		<underline method="pen" type="straight" language="IT" text="la pi&ugrave; superba cena"/>
 		<underline method="pen" type="straight" language="IT" text="da ambe due i lati"/>
@@ -210,7 +209,7 @@
 		<underline method="pen" type="straight" language="IT" text="u&agrave; inna[n]zi"/>
 		<underline method="pen" type="straight" language="IT" text="risciacqua i bicchieri"/>
 		
-		<underline method="chalk" type="straight" language="IT" text="perche questo cauallo non aspetto si bene in groppa"/>
+		<underline method="chalk" type="straight" language="IT" text="perche questo cauallo non aspetta si bene in groppa"/>
 		<underline method="chalk" type="straight" language="IT" text="sarai nel seno d'Abra[m]"/>
 		<underline method="chalk" type="straight" language="IT" text="suoni, &amp; canti"/>
 		
@@ -227,14 +226,14 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- trat -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- & ... plisci -->
-		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- steriora --> 
+	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- & ... plisci --> <!--JG: This can be linked to the printed text-->
+		<mark name="quotation_mark" method="pen" place="left_margin" language="IT" text="steriora"/> 
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- le rispose ... me V.S. -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- hauesse ... sciacqua -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="dot" method="pen" place="intext"/> <!-- tana, riuoltosi -->
-		<mark name="vertical_bar" method="pen" place="intext"/> <!-- tana, rivoltosi. CG: Unsure of this mark. -->
+		<mark name="apostrophe" method="pen" place="intext"/> <!-- tana, rivoltosi.-->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="a un suo compagno"/>
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- cancelliere -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="lettere"/>
