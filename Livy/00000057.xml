@@ -11,11 +11,12 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Ecc&egrave; heroicum facinus Horatij Coclitis, egregii et vnici viri.
-                        Multum valet unum terribile, et admirabile opus in extremo periculo: et sit Cocles vividum, fervidumq[ue] exemplum cuiq[ue] cordato viro. 
-                        Quicquid uno corpore pra[e]stari potest ullo impetu, id extendatur animosissim&egrave;.
+                    <marginalia_text>Ecc&egrave; heroicum facinus Horatij Coclitis, egregij et vnici viri.
+                        Multum valet unum terribile, et admirabile opus in extremo periculo: et sit Cocles viuidum, feruidumq[ue] exemplum cuiq[ue] cordato viro. 
+                        Quicquid vno corpore pra[e]stari potest vllo impetu, id extendatur animosissim&egrave;.
                     </marginalia_text>
                     <person name="Horatius Cocles"/>
+                    <emphasis method="pen" type="straight" text="extremo periculo:"/>
                 </position>
             </language>
             <translation>See the heroic deed of Horatius Cocles, an outstanding and singular man!
@@ -26,11 +27,11 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>"Vnum tale facinus egregium, quale Bruti, Coclitis, Scaevola[e], Coriolani, Cla[e]lia[e], Agrippa[e] 
+                    <marginalia_text>"Vnum tale facinus egregium, quale Bruti, Coclitis, Sca[e]uola[e], Coriolani, Cla[e]lia[e], Agrippa[e] 
                         "in isto libro; hominem domi, forisq[ue] nobilitat; eumq[ue] facit, si in Liuium incidat historicum, immortalem. 
-                        "At nihil tale feci; diceret h&icirc;c iuvenis Ca[e]sar, etiam cum lacrymis: protinusq[ue] aliquid ingentius perpetraret; 
-                        "et acerrim&egrave; talis esse contenderet, qualis videri cuperet. Cert&egrave; vnica vera[e] gloria[e] via, seria solidaq[ue] virtus; pra[e]culta efficaci Arte: Et famam extendere Factis, Hoc Virtutis opus; 
-                        ait Romanorum poetarum prudentissimus.
+                        "At nihil tale feci; diceret h&icirc;c iuuenis Ca[e]sar, etiam cum lacrymis: protinusq[ue] aliquid ingentius perpetraret; 
+                        "et acerrim&egrave; talis esse contenderet, qualis videri cuperet. Cert&egrave; Vnica vera[e] gloria[e] via, seria solidaq[ue] 
+                        virtus; pra[e]culta efficaci Arte: Et Famam extendere Factis, Hoc Virtutis opus; ait Romanorum poetarum prudentissimus.
                     </marginalia_text>
                     <person name="Lucius Junius Brutus"/>
                     <person name="Horatius Cocles"/>
@@ -41,6 +42,7 @@
                     <person name="Livy"/>
                     <person name="Caesar"/>
                     <X-ref person="Virgil" book_title="Aeneid"/>
+                    <emphasis method="pen" type="straight" text="Vnum tale facinus egregium"/>
                 </position>
             </language>
             <translation>One such excellent deed of the kind as that of Brutus, Cocles, Scaevola, Coriolanus, Claelia, Agrippa in this book, makes a man renowned
@@ -51,7 +53,7 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="pro se quisq[ue]"/>
-        <underline method="pen" type="straight" language="LA" text="sublicius iter pene hostibus"/>
+        <underline method="pen" type="straight" language="LA" text="sublicius iter pen&egrave; hostibus"/>
         <underline method="pen" type="straight" language="LA" text="unus uir"/>
         <underline method="pen" type="straight" language="LA" text="Horatius Cocles"/>
         <underline method="pen" type="straight" language="LA" text="id munimnntu[m]"/> <!--error in printed text-->
@@ -91,8 +93,8 @@
         <underline method="pen" type="straight" language="LA" text="incolumnis ad suos tranauit"/>
         <underline method="pen" type="straight" language="LA" text="rem ausus plus fam[a]e habitura[m]"/>
         <underline method="pen" type="straight" language="LA" text="fidei"/>
-        <underline method="pen" type="straight" language="LA" text="Grata erga tanta[m] uirtute[m] coiotas"/>
-        <underline method="pen" type="straight" language="LA" text="statue in"/>
+        <underline method="pen" type="straight" language="LA" text="Grata erga tanta[m] uirtute[m] ciuitas"/>
+        <underline method="pen" type="straight" language="LA" text="statua in"/>
         <underline method="pen" type="straight" language="LA" text="uno die circu[n]arauit, datu[m]"/>
         <underline method="pen" type="straight" language="LA" text="priuata quoq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="publicos honores studia eminebant"/>
@@ -101,7 +103,8 @@
         <underline method="pen" type="straight" language="LA" text="primo conatu repulsus"/>
         <underline method="pen" type="straight" language="LA" text="ab oppugnanda"/>
         <underline method="pen" type="straight" language="LA" text="obsidenda[m]"/>
-        <underline method="pen" type="straight" language="LA" text="Roma[m] frume[n]ti"/>
+        <underline method="pen" type="straight" language="LA" text="ne"/>
+        <underline method="pen" type="straight" language="LA" text="Roma[m] frume[n]ti subuehi"/>
         <underline method="pen" type="straight" language="LA" text="ut praedatu[m]"/>
         <underline method="pen" type="straight" language="LA" text="per occasiones alijs"/>
         <underline method="pen" type="straight" language="LA" text="ade&ograve; infestu[m]"/>
@@ -113,6 +116,7 @@
         <underline method="pen" type="straight" language="LA" text="paruis rebus negligens ultor"/>
         <underline method="pen" type="straight" language="LA" text="graue[m] se ad maiora uindice[m]"/>
         <underline method="pen" type="straight" language="LA" text="ut eliceret praedatores"/>
+        <underline method="pen" type="straight" language="LA" text="scituros id hostes"/>
         <underline method="pen" type="straight" language="LA" text="seruitia infida"/>
         <underline method="pen" type="straight" language="LA" text="T. Herminiu[m]"/>
         <underline method="pen" type="straight" language="LA" text="uia occultu[m] co[n]sidere"/>
@@ -121,7 +125,7 @@
         <underline method="pen" type="straight" language="LA" text="co[n]currit ex insidijs"/>
         <underline method="pen" type="straight" language="LA" text="dextra laeuaq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="hinc &agrave; porta"/>
-        <underline method="pen" type="straight" language="LA" text="ab Neuia redditus"/>
+        <underline method="pen" type="straight" language="LA" text="ab N[a]euia redditus"/>
         <underline method="pen" type="straight" language="LA" text="caesi in medio pr[a]edatores"/>
         <underline method="pen" type="straight" language="LA" text="pugna[m] uiribus"/>
         <underline method="pen" type="straight" language="LA" text="ad fuga[m] septis"/>
@@ -133,7 +137,7 @@
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
-        <symbol name="SS" place="right_margin"/> <!--Could also be something like a straight quotation mark?! What do you think?-->
+        <symbol name="SS" place="right_margin"/>
         
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
@@ -167,6 +171,8 @@
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="tanta[m]"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!--co[n]tulit Porsena-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="obsidenda[m]"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="paruis"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="maiora"/>
         
         <errata copytext="munimnntu[m]" amendedtext="munimentu[m]" language="LA"/>
         <errata copytext="flumino" amendedtext="flumin" language="LA"/>
