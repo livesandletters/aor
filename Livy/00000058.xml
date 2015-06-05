@@ -109,8 +109,6 @@
             </translation>
         </marginalia>
         
-        <!-- AB checked to this point -->
-        
         <underline method="pen" type="straight" language="LA" text="C. Mutius"/>
         <underline method="pen" type="straight" language="LA" text="adolescens nobilis, cui"/>
         <underline method="pen" type="straight" language="LA" text="magno audaciq[ue] aliquo facinore eam indignitatem uindicanda[m] ratus"/>
@@ -122,7 +120,7 @@
         <underline method="pen" type="straight" language="LA" text="abdito intra uestem ferro"/>
         <underline method="pen" type="straight" language="LA" text="in confertissima turba"/>
         <underline method="pen" type="straight" language="LA" text="scriba cum rege sedens pari fer&egrave; ornatu"/>
-        <underline method="pen" type="straight" language="LA" text="uter Porsena esse"/>
+        <underline method="pen" type="straight" language="LA" text="uter Porsena esset"/>
         <underline method="pen" type="straight" language="LA" text="ignora[n]do regem"/>
         <underline method="pen" type="straight" language="LA" text="semet ipse aperiret quis esset"/>
         <underline method="pen" type="straight" language="LA" text="scribam pro rege obtruncat"/>
@@ -156,7 +154,7 @@
         <underline method="pen" type="straight" language="LA" text="beneficio tuleris"/>
         <underline method="pen" type="straight" language="LA" text="trecenti coniurauimus principes iuuentutis Romanae"/>
         <underline method="pen" type="straight" language="LA" text="in te hac uia grassaremur"/>
-        <underline method="pen" type="straight" language="LA" text="mea prima sors"/>
+        <underline method="pen" type="straight" language="LA" text="mea prima sors fuit"/>
         <underline method="pen" type="straight" language="LA" text="quo te opportunum fortuna dederit"/>
         <underline method="pen" type="straight" language="LA" text="suo quisq[ue] tempore aderunt"/>
         <underline method="pen" type="straight" language="LA" text="Mutium dimissum"/>
@@ -167,10 +165,11 @@
         <underline method="pen" type="straight" language="LA" text="dimicatio toties quot coniurati superessent, ut"/>
         <underline method="pen" type="straight" language="LA" text="pacis conditiones"/>
         <underline method="pen" type="straight" language="LA" text="lactatum in conditionibus nequicquam"/>
-        <underline method="pen" type="straight" language="LA" text="Tarquinius in regnum restitue[n]dis"/>
+        <underline method="pen" type="straight" language="LA" text="Tarquinijs in regnum restitue[n]dis"/>
         <underline method="pen" type="straight" language="LA" text="quia id negare ipse nequiuerat"/>
         <underline method="pen" type="straight" language="LA" text="negatum iri sibi"/>
-        <underline method="pen" type="straight" language="LA" text="Mutio uuirtutis causa"/>
+        <underline method="pen" type="straight" language="LA" text="Patres"/>
+        <underline method="pen" type="straight" language="LA" text="Mutio uirtutis causa"/>
         <underline method="pen" type="straight" language="LA" text="agrum dono dedere"/>
         <underline method="pen" type="straight" language="LA" text="Mutia prata"/>
         <underline method="pen" type="straight" language="LA" text="ita honorate uirtute"/>
@@ -180,7 +179,7 @@
         <underline method="pen" type="straight" language="LA" text="una ex obsidibus"/>
         <underline method="pen" type="straight" language="LA" text="frustrata custodes"/>
         <underline method="pen" type="straight" language="LA" text="dux agminis uirginum inter tela hostium"/>
-        <underline method="pen" type="straight" language="LA" text="sospitesq[ue] omnes Roman"/>
+        <underline method="pen" type="straight" language="LA" text="sospitesq[ue] omnes Romam"/>
         <underline method="pen" type="straight" language="LA" text="ubi regi"/>
         <underline method="pen" type="straight" language="LA" text="incensus ira, oratores Roman"/>
         <underline method="pen" type="straight" language="LA" text="Cloeliam obsidem"/>
@@ -204,10 +203,12 @@
         <mark name="quotation_mark" method="pen" place="left_margin"/> <!--Is a bit between straight and normal quotation mark-->
         <mark name="bracket" method="pen" place="left_margin"/>
         
+        <mark name="dot" method="pen" place="right_margin"/> <!--transfuga, fortuna-->
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!--for-->
+        <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/> <!--after erit. -->
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
@@ -215,14 +216,14 @@
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="straight_quotation_mark" method="pen" place="right_margin"/>
         
-        <mark name="dot" method="pen" place="intext"/> <!--transfuga, fortuna-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="crime[n]"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="approbant"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Approbant"/>
         <mark name="dot" method="pen" place="intext"/> <!--esset, quo-->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext"/> <!-- hostis -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="hoc"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="uni"/>
         <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="iure"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="principes"/>
         <mark name="plus_sign" method="pen" place="intext"/>
@@ -230,7 +231,9 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="pacis"/>
         <mark name="dot" method="pen" place="intext"/> <!--restitue[n]dis, magis-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="uirtutis"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- appellata. Ergo -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="honorata"/>
+        <mark name="dot" method="pen" place="intext"/> <!--uirtute, foeminae-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="publica"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="dux"/>
@@ -238,10 +241,7 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Cloeliam"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="supra"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="facinus"/>
-        
-        
-        
-        
+
     </annotation>
 </transcription>    
        
