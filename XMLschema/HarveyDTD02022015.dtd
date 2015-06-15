@@ -29,6 +29,7 @@
 						<!ELEMENT X-ref EMPTY>
 							<!ATTLIST X-ref person CDATA #REQUIRED>
 							<!ATTLIST X-ref book_title CDATA #REQUIRED>
+							<!ATTLIST X-ref language (EN|EL|FR|IT|LA|ES) #IMPLIED>
 							<!ATTLIST X-ref text CDATA #IMPLIED>
 						<!ELEMENT emphasis EMPTY> 
 							<!ATTLIST emphasis method (chalk|pen) #REQUIRED>
