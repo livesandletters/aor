@@ -10,7 +10,7 @@
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Caeso, a lustie and dowtie fellow. a terrible killcowe in his kinde.
+                    <marginalia_text>Ca[e]so, a lustie and dowtie fellow. a terrible killcowe in his kinde.
                     </marginalia_text>
                     <person name="Caeso Quinctius"/>
                 </position>
@@ -48,6 +48,7 @@
             <translation>On both sides outstanding, and whichever they tend to, of great importance.</translation>
         </marginalia>
         
+        <underline method="pen" type="straight" language="LA" text="Antij summa[m] rei positam"/>
         <underline method="pen" type="straight" language="LA" text="Antiates colonos"/>
         <underline method="pen" type="straight" language="LA" text="pal&agrave;m concilia facere"/>
         <underline method="pen" type="straight" language="LA" text="id caput, eas uires belli esse"/>
@@ -57,8 +58,8 @@
         <underline method="pen" type="straight" language="LA" text="foro personare"/>
         <underline method="pen" type="straight" language="LA" text="fabula[m] composita[m]"/>
         <underline method="pen" type="straight" language="LA" text="ne uirtute"/>
-        <underline method="pen" type="straight" language="LA" text="sed arte eludi"/>
-        <underline method="pen" type="straight" language="LA" text="occidione prop&egrave; occisos"/>
+        <underline method="pen" type="straight" language="LA" text="arte eludi"/>
+        <underline method="pen" type="straight" language="LA" text="occidione prop&egrave; occisos Volscos"/>
         <underline method="pen" type="straight" language="LA" text="nouos hostes quaeri"/>
         <underline method="pen" type="straight" language="LA" text="Antiatibus indici"/>
         <underline method="pen" type="straight" language="LA" text="geri cum plebe Romana"/>
@@ -100,8 +101,8 @@
         <underline method="pen" type="straight" language="LA" text="facu[n]diamq[ue] in foro"/>
         <underline method="pen" type="straight" language="LA" text="non lingua"/>
         <underline method="pen" type="straight" language="LA" text="manu promptior in ciuitate"/>
-        <underline method="pen" type="straight" language="LA" text="patrum agmine"/>
-        <underline method="pen" type="straight" language="LA" text="eminens inter alios, uelut omnes dictaturas consultatusq[ue] geren in uoce ac uiribus"/>
+        <underline method="pen" type="straight" language="LA" text="medio patrum agmine"/>
+        <underline method="pen" type="straight" language="LA" text="eminens inter alios, uelut omnes dictaturas consultatusq[ue] gerens in uoce ac uiribus"/>
         <underline method="pen" type="straight" language="LA" text="unus"/>
         <underline method="pen" type="straight" language="LA" text="impetus tribunitios, popularesq[ue] procellas"/>
         <underline method="pen" type="straight" language="LA" text="hoc duce"/>
@@ -149,7 +150,7 @@
         <underline method="pen" type="straight" language="LA" text="uidente pugnasse in hostem"/>
         <underline method="pen" type="straight" language="LA" text="Furius missum ab Quintio"/>
         
-        <symbol name="SS" place="right_margin"/>
+        <symbol name="SS" place="left_margin"/>
         
         <symbol name="Opposite_planets" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
@@ -162,10 +163,11 @@
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/> <!-- AB I think I would tie this to the text starting 'Caeso' where the vertical bar is, and end at
+        sustinebat. Thoughts? Happy to type it in if you agree. -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/> 
         
         <mark name="dash" method="pen" place="right_margin"/> <!--perso-->
         <mark name="dash" method="pen" place="right_margin"/> <!--ple-->
@@ -176,7 +178,6 @@
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!--incon-->
         <mark name="dash" method="pen" place="right_margin"/> <!--ci-->
-        <mark name="straight_quotation_mark" method="pen" place="right_margin"/> <!--next to pulsatos-->
         
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="maiestatem"/>
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="contumeliae"/>
