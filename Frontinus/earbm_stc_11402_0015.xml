@@ -39,8 +39,8 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="270">
                     <marginalia_text>Ex abundantia cordis, os loquit[u]r; manus, pedesq[ue] operant[u]r. Nescia virtus stare loco.</marginalia_text>
-                    <X-ref person="" book_title="Gospel of Luke"/>
-                    <X-ref person="Lucan" book_title="Pharsalia"/>
+                    <X-ref person="Luke" book_title="Gospel of Luke" language="LA" text="Ex abundantia cordis, os loquitur"/>
+                    <X-ref person="Lucan" book_title="Pharsalia" text="Nescia virtus stare loco."/>
                 </position>
             </language>
             <translation>"From the abundance of the heart, the mouth speaks." The hand and feet work. "Virtue does not know how to rest."</translation>
@@ -50,7 +50,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Est Deus in nobis: agitante calescimus illo. Languent homines, suoru[m] animorum impotes.</marginalia_text>
-                    <X-ref person="Ovid" book_title="Ars amatoria"/>
+                    <X-ref person="Ovid" book_title="Ars amatoria" language="LA" text="Est Deus in nobis: agitante calescimus illo"/>
                 </position>
             </language>
             <translation>"God is in us, by whose movement we are inflamed." Men are tired, not in control of their soul.</translation>
@@ -60,7 +60,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Vis consilij expers, mole ruit sua. Leo sine vulpe insolescit: vulpes sine leone vilescit. Nusq[ua]m Ciphra.</marginalia_text> <!--JG: Seems to me that Harvey quoted 'leo...vilescit' as well. Can't find it, though-->
-                    <X-ref person="Horace" book_title="Ode"/>
+                    <X-ref person="Horace" book_title="Odes" language="LA" text="Vis consilij expers, mole ruit sua"/>
                 </position>
             </language>
             <translation>"Force without wisdom falls of its own weight." The Lion becomes haughty without the fox; the fox becomes worthless without the lion. Nowhere a cipher.</translation> <!--JG: Last part is somewhat perplexing?-->

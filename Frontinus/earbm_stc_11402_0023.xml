@@ -74,13 +74,13 @@
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>Ex fruitibus eoru[m], cognoscetis eos.
                     Nulla Mundi a[e]tas, tam Empirica, Pragmatica, Cosmopolitica, Mechanica, Chrematistica.</marginalia_text> 
-                    <X-ref person="Matthew" book_title="Gospel of Matthew"/> <!--JG: Matthew 7:20-->
+                    <X-ref person="Matthew" book_title="Gospel of Matthew" language="LA" text="Ex fruitibus eoru[m], cognoscetis eos."/> <!--JG: Matthew 7:20-->
                     <emphasis method="pen" type="straight" text="Ex fruitibus eoru[m]"/>
                     <emphasis method="pen" type="straight" text="tam Empirica, Pragmatica, Cosmopolitica, Mechanica, Chrematistica."/>
                 </position>
             </language>
             <translation>Pope Adrian said: 'The court of lords, is the one who approves of merits.' <!--JG: Not sure whether curia here is meant as 'court/curia', or in its other meaning (grievous)-->
-            'By their fruits you will know them.' No lifetime of the world is so empirical, pragmatic, cosmopolitan, mechanic, and changeable. </translation> <!--JG: Unsure abt best way to translate 'Chrematistica'-->
+            "By their fruits you will know them." No lifetime of the world is so empirical, pragmatic, cosmopolitan, mechanic, and changeable. </translation> <!--JG: Unsure abt best way to translate 'Chrematistica'-->
         </marginalia>
         
         <marginalia hand="Italian">
@@ -90,13 +90,13 @@
                     Quid boni, ex Thesauro abscondito?
                     Docosophia, et Euschemosyne.
                     Sic luraet Lux uestra.</marginalia_text>
-                    <X-ref person="Horace" book_title="Odes"/>
-                    <X-ref person="Matthew" book_title="Gospel of Matthew"/> <!--JG: Matthew 5:16-->
+                    <X-ref person="Horace" book_title="Odes" language="LA" text="Parum sepultae distat Inertiae celata virtus."/>
+                    <X-ref person="Matthew" book_title="Gospel of Matthew" language="LA" text="Sic luraet lux vestra."/> <!--JG: Matthew 5:16-->
                 </position>
             </language>
-            <translation>'Concealed virtue differs but little from buried idleness.' What good things from the hidden treasure chamber are there? 
+            <translation>"Concealed virtue differs but little from buried idleness." What good things from the hidden treasure chamber are there? 
                 Wisdom and refinement. <!--JG: Chris. any idea what 'docosophia' might mean?-->
-            'So let your light shine.'</translation> 
+            "So let your light shine."</translation> 
         </marginalia>
         
         <marginalia hand="Italian">
@@ -149,7 +149,7 @@
                     <person name="Sofitheus"/>
                     <person name="Euripides"/>
                     <person name="Moschion"/>
-                    <X-ref person="Theodor Zwinger" book_title="Morum philosophia poetica"/> <!--vol. 2: https://books.google.co.uk/books?id=Uh48AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false-->
+                    <X-ref person="Theodor Zwinger" book_title="Morum philosophia poetica" language="LA" text="Fugat Aquila una, maximum gregem Alitum; virque generosus plurimos instrenuos. "/> <!--vol. 2: https://books.google.co.uk/books?id=Uh48AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false-->
                     <emphasis method="pen" type="straight" text="Audacter autem"/>
                     <emphasis method="pen" type="straight" text="Quis timidus unq[uam]"/>
                     <emphasis method="pen" type="straight" text="Fugat Aguila"/>
@@ -184,7 +184,7 @@
             
             Sofitheus
             
-           'One eagle routs the greatest flock of birds; one noble man routs many spiritless people.'
+           "One eagle routs the greatest flock of birds; one noble man routs many spiritless people."
            
            Euripides.
             
