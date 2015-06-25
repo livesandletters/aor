@@ -5,32 +5,19 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.087r.tif" signature="[**5r]" reader="Harvey"/>	<!-- ABO 89right -->
+	<page filename="Ha2.087v.tif" signature="[**5v]" reader="Harvey"/>	<!-- ABO 90left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Janus Lascaris Constantinopolitanus, de Carolo Gallorum Rege.
-					</marginalia_text>
-					<person name="Janus Lascaris"/>
-				</position>
-			</language>
-			<translation>
-				Janus Lascaris from Constantinople on Charles, King of the French.
-			</translation>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="head" book_orientation="0">
-					<marginalia_text>
-						Ars in sua abside: Virtus in suo apoga[e]o.
+						Venus, absolut&egrave; prohibita viro senescenti.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				Art in its apsis, virtue in its apogee.
+				Venus is absolutely forbidden to the aging man.
 			</translation>
 		</marginalia>
 		
@@ -38,71 +25,52 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						( Maximu[m] Fortij arcanu[m], omnia agere
-						Extremis viribus.)
+						( Romani semper animo parati, in
+						( Virtute, Industria ponebant omnia.
 					</marginalia_text>
-					<person name="Joachim Fortius Ringelberg"/>
 				</position>
 			</language>
 			<translation>
-				The mysterious maxim of Fortius: to do all things with the utmost strength.
+				Romans, always prepared in mind and virtue, proposed industriousness in everything. <!-- CG: Unclear. -->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						( Negligere tot vulgares /
-						mundi/
-						nugas; et Hoc agendum exequi /
-						efficacissim&egrave;: id
-						Secretum Secretorum est.)
+						( Vnicus contemnit vulgaria: 
+						et contemnitur vulgaris.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				To disregard completely the common trifles of the world: and in doing so, to perform
-				most efficiently. This is the secret of secrets.
+				A unique man holds common things in contempt;
+				a common man is held in contempt.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Non magnum est, esse 
-						) multoru[m] honoratissimu[m]
-						sed maximum est, esse omnium dignissimum.
+						Cromuellus, Henrico 8.
+						et Cecilius sub 
+						) Elizabeta regina, maximi:
+						nec arte, nec virtute,
+						nec ullo valore magni:
+						sed competenti literaru[m], rerumq[ue]
+						scientia; industria,  <!-- CG: Unsure how to capture symbol. -->
+						<!-- Continues onto facing page, in text, Ha2.088r -->
 					</marginalia_text>
+					<person name="Oliver Cromwell"/>
+					<person name="Henry VIII"/>
+					<person name="Robert Cecil"/>
+					<person name="Elizabeth I of England"/>
 				</position>
 			</language>
 			<translation>
-				It is no great thing to be one of many most honorable men, but it is the greatest thing
-				to be one of the all the most worthy men.
-			</translation>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="IT">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Guazzo.
-					</marginalia_text>
-					<person name="Stefano Guazzo"/>
-				</position>
-			</language>
-			<translation>
-				Stefano Guazzo.
-			</translation>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						M[e]ritis expendite causam.
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				Decide the cause by merit.
+				Great were Cromwell, Henry VIII, and Robert Cecil under Queen Elizabeth.
+				There is no art, virtue, or any valor of a great man, but being competent
+				in letters and the knowledge of things; through industriousness... 			
 			</translation>
 		</marginalia>
 		
@@ -110,39 +78,64 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Quod nunc est, eo vti decet: et quicquid
-						agas, agere pro viribus. Cato Maior.
+						Virtus vnita, fortior.
 					</marginalia_text>
-					<person name="Cato the Elder"/>
-					<X-ref person="Cicero" book_title="De senectute" language="LA" text="Quod est, eo uti decet: et quicquid agas, agere pro viribus"/>
 				</position>
 			</language>
 			<translation>
-				Such strength as a man has he should use, 
-				and whatever he does should be done in proportion to his strength
-				Cato the Elder.
-					<!-- Translation William Armistead Falconer -->
+				A unified virtue is stronger.
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="tail" book_orientation="0">
+					<marginalia_text>
+						multiplicata, mirabilior. humana Dea.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				Multiplied, it is more wondrous. A human goddess.
 			</translation>
 		</marginalia>
 		
-		
+		<marginalia hand="Italian">
+			<language ident="EN">
+				<position place="left_margin" book_orientation="90">
+					<marginalia_text>
+						The natures of men ar not ripe in few yeares: &amp; what wittes soone mellow, to consider,
+						do, &amp; suffer; with sound discretion, &amp; fitt distinction?
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Petrus dormit: Joannes ambulat: Marcus currit: Georgius equitat: Gabriel
-						volat. Volare, est avium, Pegasorum, Angelorum.
+						{ Homerus, Hesiodus, 
+						Pindarus, maioribus nostris optimi Poeta[e]: quia nescieru[n]t meliores. Sic optimi Oratores, Demosthenes,						
 					</marginalia_text>
-					<person name="St. Peter"/>
-					<person name="St. John"/>
-					<person name="St. Mark"/>
-					<person name="St. George"/>
-					<person name="Gabriel Harvey"/>
+					<person name="Homer"/>
+					<person name="Hesiod"/>
+					<person name="Pindar"/>
+				</position>
+				<position place="tail" book_orientation="90">
+					<marginalia_text>
+						Isocrates,
+					</marginalia_text>
+					<person name="Isocrates"/>
+				</position>
+				<position place="intext" book_orientation="90">
+					<marginalia_text>
+						Cicero.
+					</marginalia_text>
+					<person name="Cicero"/>
 				</position>
 			</language>
 			<translation>
-				Peter sleeps, John walks, Mark runs, George rides, Gabriel flies.
-				Flying belongs to birds, pegasi, and angels.
+				Homer, Hesiod, and Pindar were much better poets than ours because they knew of no one better. Likewise with the greatest orators
+				Demosthenes, Isocrates, and Cicero.			
 			</translation>
 		</marginalia>
 		
@@ -151,29 +144,29 @@
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						H&icirc;c Ca[e]lum Titan; ne se properanti&ugrave;s orbem
-						Ambiret victor; condidit ante diem.
+						In vno, voluptas, et foelicitas:  In pluribus, tristitia, et miseria.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				Here the titan Caelum was buried before his time, so that he would not circle the earth as a conqueror.
+				In unity there is pleasure and happiness: in plurality there is sadness and misery.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="right_margin" book_orientation="270">
+				<position place="right_margin" book_orientation="90">
 					<marginalia_text>
-						} Elogium, ex arcanis Entelechia[e], et Euschemosynes.
+						Juvenes admirentur, laudent, imitentur: liceat viris, a[e]mulari, excellere, [--]
+						<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				A saying taken from the mysteries of actualization and refinement.
-					<!-- CG: I still have no idea how to translate "arcanum." -->
+				Young men admire, praise, and imitate. Men are allowed to emulate, to excel [--]
 			</translation>
 		</marginalia>
-		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+		
+		
 
 
     </annotation>

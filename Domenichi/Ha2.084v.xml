@@ -5,54 +5,66 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.084v.tif" signature="[**2v]" reader="Harvey"/>	<!-- ABO 87left -->
+	<page filename="Ha2.085r.tif" signature="**3r" reader="Harvey"/>	<!-- ABO 87right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Eutrapeli pragmatica Metamorphosis.
+						Pluris valent, non qui plura possu[n]t, sed qui plus.
 					</marginalia_text>
-					<person name="Eutrapelus"/>
 				</position>
 			</language>
 			<translation>
-				The pragmatic transformation of Eutrapelus.
+				More valuable are not those men who can do more things, but those who can be more.
 			</translation>
 		</marginalia>
+		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="head" book_orientation="0">
-					<marginalia_text>
-						Juvat, in iocis
-					</marginalia_text>
-				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						haurire salem terra[e], et lucem Mundi.
+						Sanguis uva[e].
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				It is pleasing to draw salt from the earth and light from the world.
+				The blood of the grape.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						vtrunq[ue] Sapidissimum, et Splendidissimum.
-						Alij seria pra[e]tendunt: solus Eutrapelus seria
-						exequitur; perpetrat egregia.
+						Libauerunt de sanguine uva[e], filij Aaronis. Vt ecc&egrave;
+						in splendidissimo Encomio Simonis Onia[e]:
+						/ cui nullum Elogium par, in omni humanitate, Romana,
+						Attica, Heroica.
+					</marginalia_text>
+					<person name="Aaron"/>
+					<X-ref person="" book_title="Book of Ecclesiastes" language="LA" text="de sanguine uvae"/>
+				</position>
+			</language>
+			<translation>
+				The children of Aaron poured out the blood of the grape in libation.
+				And here in this most splendid encomium of Simon, son of Onia, 
+				to which no other saying is equal, in any culture, Roman, Greek, or Heroic.
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						Alij Sui, et alieni: solus Eutrapelus suissimus. Sua Singula
+						assidu&egrave; augens, et mirific&egrave; multiplicans.
 					</marginalia_text>
 					<person name="Eutrapelus"/>
 				</position>
 			</language>
 			<translation>
-				Each is most prudent and most splendid. 
-				Others assert serious matters, but only Eutrapelus carries out serious matters.
-				He accomplishes exceptional things.
+				Other men are beholden to a friend or stranger, only Eutrapelus is his very own.
+				He constantly increases and wondrously multiplies his singular deeds.
 			</translation>
 		</marginalia>
 		
@@ -60,14 +72,12 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Magna in parua mutat Eutrapelus:
-						parua in magna.
+						Omnes in vno auxeses, hyperbola[e], metamorphoses, theogonia[e].
 					</marginalia_text>
-					<person name="Eutrapelus"/>
 				</position>
 			</language>
 			<translation>
-				Eutrapelus changes great into small, and small into great.
+				All amplification, increase, transformation, theogony in one man.
 			</translation>
 		</marginalia>
 		
@@ -76,51 +86,27 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Arcana Metamorphosis Eutrapeli. Aliorum seria, in iocos conuertenda: Tui ipsius
-						Joci, in Seria. Alienis addatur hyperbolicws, aut ironicws: Tuis detrahatur: sed pra[e]ter
-						Tua,
-							<!-- CG: So the "ws" ending is a Greek adverbial construction, but he's only doing it
-							with two letters at the end. Not exactly sure what to do here. -->
+						Multi vrbani, non pragmatici: multi pragmatici, non vrbani: Da mihi vrbanu[m]
+						pragmaticum: tam politicu[m],
 					</marginalia_text>
-					<person name="Eutrapelus"/>
 				</position>
-			</language>
-			<language ident="ES">
-				<position place="left_margin" book_orientation="90">
+				<position place="head" book_orientation="90">
 					<marginalia_text>
-						todos es nada.
+						qu&agrave;m facetu[m]: Solum =
+					</marginalia_text>
+				</position>
+				<position place="right_margin" book_orientation="90">
+					<marginalia_text>
+						= Solum combinatorem salium, et stratagematu[m]: ad Optimu[m], qui esse potest, pra[e]sente[m]
+						vsum. Semper tibi pendeat [h]amus Fauoris, et Commoditatis.			
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				The mysterious transformation of Eutrapelus. The serious matters of others must be converted into playthings.
-				Your playthings must be converted into serious matters. One associates with strangers hyperbolically or ironically,
-				but withhold this tendency with your friends. Apart from your own matters, everything else is nothing.
-			</translation>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="left_margin" book_orientation="90">
-					<marginalia_text>
-						( Musa magis florida, qu&agrave;m Ver.)
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				The muse is more florida than the spring.
-			</translation>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="right_margin" book_orientation="270">
-					<marginalia_text>
-						Malim eos Auctores, in quibus nihil deest; qu&agrave;m eos, in quibus multa redundant.
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				I prefer those authors, in whom nothing is lacking, rather than those authors, in whom many things abound.
+				Many urbane men are not pragmatic, and many pragmatic men are not urbane. 
+				Give me an urbane and pragmatic man, as political as he is witty;
+				give me only him who combines wit and stratagems, 
+				approaching the best possible practice for the present time.				
 			</translation>
 		</marginalia>
 
