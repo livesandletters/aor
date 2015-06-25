@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        &AElig;qui tamen postmod&ograve; a[e]quivoci: donec tandem fundit&ugrave;s deleti.
+                        &AElig;qui tamen postmod&ograve; a[e]quiuoci: donec tandem fundit&ugrave;s deleti.
                     </marginalia_text>
                     <person name="Aequi"/>
                 </position>
@@ -22,7 +22,7 @@
         
         <underline method="pen" type="straight" language="LA" text="Nocte initum praelium est"/>
         <underline method="pen" type="straight" language="LA" text="legionibus dictatoris"/>
-        <underline method="pen" type="straight" language="LA" text="noctem operi"/>
+        <underline method="pen" type="straight" language="LA" text="uacuam noctem operi dedere"/>
         <underline method="pen" type="straight" language="LA" text="luce prima iam"/>
         <underline method="pen" type="straight" language="LA" text="circumuallati ab dictatore erant"/>
         <underline method="pen" type="straight" language="LA" text="Quintiano exercitu"/>
@@ -53,6 +53,8 @@
         <underline method="pen" type="straight" language="LA" text="Co[n]festim se dictator magistratu abdicasset"/>
         <underline method="pen" type="straight" language="LA" text="dictatura in sex menses accepta"/>
         
+        <mark name="dash" method="pen" place="right_margin"/> <!--legio-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--cir-->
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!--ha-->
