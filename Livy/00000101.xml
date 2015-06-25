@@ -10,7 +10,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>stratagema decemvirale.</marginalia_text>
+                    <marginalia_text>stratagema decemuirale.</marginalia_text>
                 </position>
             </language>
             <translation>Device of the decemvirs.</translation>
@@ -40,7 +40,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Stulti homines noui, pra[e]sertim principes, qui turpe aliquod facinus admittunt, aut odiosum excitant scandalum. 
+                        Stulti homines noui, pra[e]sertim Principes, qui turpe aliquod facinus admittunt, aut odiosum excitant scandalum. 
                         Cert&egrave; Appius stultitia sua perijt: alter Tarquinius Super[bus]. Aliud Tragoedia[e] argumentum.
                     </marginalia_text>
                     <person name="Tarquinius Superbus"/>
@@ -59,13 +59,13 @@
         <underline method="pen" type="straight" language="LA" text="comprimendos urbanos"/>
         <underline method="pen" type="straight" language="LA" text="minus in bono constans"/>
         <underline method="pen" type="straight" language="LA" text="gnauum in malitia"/>
-        <underline method="pen" type="straight" language="LA" text="egregium olin domi militiaeq[ue]"/>
+        <underline method="pen" type="straight" language="LA" text="egregium olim domi militiaeq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="collegaeq[ue] ita mutauerant"/>
         <underline method="pen" type="straight" language="LA" text="Appij qu&agrave;m sui similis mallet"/>
         <underline method="pen" type="straight" language="LA" text="adiutorem ad"/>
         <underline method="pen" type="straight" language="LA" text="aequo omnium decmuiroru[m]"/>
         <underline method="pen" type="straight" language="LA" text="Nihilo militiae"/>
-        <underline method="pen" type="straight" language="LA" text="domi melius"/>
+        <underline method="pen" type="straight" language="LA" text="domi melius respub."/>
         <underline method="pen" type="straight" language="LA" text="in ducib[us] culpa"/>
         <underline method="pen" type="straight" language="LA" text="odio"/>
         <underline method="pen" type="straight" language="LA" text="omnis penes milites"/>
@@ -81,8 +81,9 @@
         <underline method="pen" type="straight" language="LA" text="portis stationes agere"/>
         <underline method="pen" type="straight" language="LA" text="belloq[ue] ultro inferendo"/>
         <underline method="pen" type="straight" language="LA" text="hostes &agrave; co[n]silio urbis oppugnand[a]e"/>
-        <underline method="pen" type="straight" language="LA" text="clades"/>
-        <underline method="pen" type="straight" language="LA" text="nefanda facinora"/>
+        <underline method="pen" type="straight" language="LA" text="clades ab"/>
+        <underline method="pen" type="straight" language="LA" text="nefanda facinora decemuiri"/>
+        <underline method="pen" type="straight" language="LA" text="tribunorum"/>
         <underline method="pen" type="straight" language="LA" text="sermonibus"/>
         <underline method="pen" type="straight" language="LA" text="occultis"/>
         <underline method="pen" type="straight" language="LA" text="prospeculatum"/>
@@ -113,7 +114,8 @@
         <underline method="pen" type="straight" language="LA" text="uir exempli recti"/>
         <underline method="pen" type="straight" language="LA" text="domi militiae[que]"/>
         <underline method="pen" type="straight" language="LA" text="perinde uxor"/>
-        <underline method="pen" type="straight" language="LA" text="desponderant filiam L. Icilio"/>
+        <underline method="pen" type="straight" language="LA" text="instituta"/>
+        <underline method="pen" type="straight" language="LA" text="desponderant filiam L. Icilio tribunitio"/>
         <underline method="pen" type="straight" language="LA" text="uiro acri"/>
         <underline method="pen" type="straight" language="LA" text="expertae uirtutis"/>
         <underline method="pen" type="straight" language="LA" text="forma excellente[m]"/>
@@ -122,7 +124,7 @@
         <underline method="pen" type="straight" language="LA" text="crudelem superbamq[ue] uim animu[m]"/>
         <underline method="pen" type="straight" language="LA" text="Claudio clienti"/>
         <underline method="pen" type="straight" language="LA" text="seruitutem assereret"/>
-        <underline method="pen" type="straight" language="LA" text="uirgini uenienti"/>
+        <underline method="pen" type="straight" language="LA" text="uirgini uenienti in"/>
         <underline method="pen" type="straight" language="LA" text="literaru[m] ludi erant"/>
         <underline method="pen" type="straight" language="LA" text="seruamq[ue] appelans"/>
         <underline method="pen" type="straight" language="LA" text="ui abstracturum"/>
@@ -132,10 +134,11 @@
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin"/> 
-        
+        <mark name="dot" method="pen" place="right_margin"/> <!--era[n]t-->
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!--de-->
+        
         <mark name="dash" method="pen" place="right_margin"/> <!--co[m]mit-->
         <mark name="triple_dash" method="pen" place="right_margin"/> 
         <mark name="dash" method="pen" place="right_margin"/> <!--custodi-->
@@ -149,14 +152,15 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--uir-->
         
         <mark name="equal_sign" method="pen" place="intext"/> <!--above odio-->
-        <mark name="dot" method="pen" place="intext"/> <!--era[n]t.-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="utensilibus"/> 
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ultro"/> 
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="nefanda"/> 
         <mark name="comma" method="pen" place="intext"/> <!--decemuirale[m] tribunorum-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="tribunorum"/>
         <mark name="plus_sign" method="pen" place="intext"/> 
+        <mark name="dot" method="pen" place="intext"/> <!--pugnantem, militesq[ue]-->
         <mark name="diacritic" method="pen" place="intext" language="LA" text="quosdam"/> 
+        <mark name="dot" method="pen" place="intext"/> <!--permissu, postquam-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="hostium"/> 
         <mark name="equal_sign" method="pen" place="intext"/> 
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="funus"/>
@@ -169,8 +173,7 @@
         <mark name="comma" method="pen" place="intext"/> <!--se quiq[ue]-->
         
         <mark name="plus_sign" method="pen" place="tail" language="LA" text="seruamq[ue]"/>
-        
-        
+
     </annotation>
 </transcription>
 
