@@ -14,6 +14,7 @@
                     <marginalia_text>
                         Confusio linguarum, a Gothis, Vandalis, Scythis introducta.
                     </marginalia_text>
+                    <emphasis method="pen" type="straight" text="Scythis introducta"/>
                 </position>
             </language>
             <translation>
@@ -28,6 +29,8 @@
                                 ch.
                                     uide 26.
                     </marginalia_text>
+                    <emphasis method="pen" type="straight" text="ch."/>
+                    <emphasis method="pen" type="straight" text="uide 26."/>
                 </position>
             </language>
             <translation>
@@ -41,6 +44,7 @@
                         Gallorum C. 
                                 s.
                     </marginalia_text>
+                    <emphasis method="pen" type="straight" text="s."/>
                 </position>
             </language>
             <translation>
@@ -76,13 +80,6 @@
         
         <mark name="hash" method="pen" place="left_margin"/>
         <mark name="horizontal_bar" method="pen" place="left_margin"/>
-        <mark name="horizontal_bar" method="pen" place="left_margin"/> <!-- ch. -->
-        <mark name="horizontal_bar" method="pen" place="left_margin"/> <!-- uide 26. -->
-        <mark name="horizontal_bar" method="pen" place="left_margin"/> <!-- s. -->
-        <!-- JE: These bars aren't strictly speaking emphasis, although I could capture as that if easier? -->
-        <!-- CG: Actually it might be better as an emphasis. -->
-        <!-- JE: Jaap, any thoughts? To me these look like teminations of the marginal comment, rather than emphasese per se. -->
-        <!--JG: I'd c apture them as emphasis. Chris, can you change this?-->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
         
