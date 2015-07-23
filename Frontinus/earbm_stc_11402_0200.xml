@@ -12,6 +12,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Discipline.</marginalia_text>
+                    <emphasis method="pen" type="straight" text="Discipline"/>
                 </position>
             </language>
         </marginalia>
@@ -67,13 +68,72 @@
             <translation>Likewise, book 6.</translation>
         </marginalia>
         
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Greate, and woonderfull victoryes, atcheiuid w[i]th fewe experts, and pyked Sowldiours.</marginalia_text>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Comes Purl. L.I. obser. 183. 184.</marginalia_text>
+                    <person name="Jacopo di Porcia"/>
+                    <book title="The preceptes of warre"/>
+                    <emphasis method="pen" type="straight" text="183. 184."/>
+                </position>
+            </language>
+            <translation>Jacopo di Porcia, book 1, observation 183 and 184.</translation>
+        </marginalia>
         
+        <marginalia hand="Italian" anchor_text="ouercame the host of the Lacedemonie[n]s">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>Mirabilis victoria, etia[m] co[n]tr&agrave; Laceda[e]monios.</marginalia_text>
+                </position>
+            </language>
+            <translation>A wonderful victory, even against the Lacedaemonians.</translation>
+        </marginalia>
         
+        <underline method="pen" type="straight" language="EN" text="with Rutilius"/>
+        <underline method="pen" type="straight" language="EN" text="with Metellus, and afterward"/>
+        <underline method="pen" type="straight" language="EN" text="the lesse"/>
+        <underline method="pen" type="straight" language="EN" text="Rutilius armye"/>
+        <underline method="pen" type="straight" language="EN" text="more experte in discipline of"/>
+        <underline method="pen" type="straight" language="EN" text="and a very smal nomber"/>
+        <underline method="pen" type="straight" language="EN" text="ayde hym, traded in"/>
+        <underline method="pen" type="straight" language="EN" text="the great power of"/>
+        <underline method="pen" type="straight" language="EN" text="with x.l.M. me[n]"/>
+        <underline method="pen" type="straight" language="EN" text="al the hole world"/>
+        <underline method="pen" type="straight" language="EN" text="powers innumerable of his"/>
+        <underline method="pen" type="straight" language="EN" text="Cirus"/>
+        <underline method="pen" type="straight" language="EN" text="xiiii.M. men"/>
+        <underline method="pen" type="straight" language="EN" text="innumerable difficulties"/>
+        <underline method="pen" type="straight" language="EN" text="Epaminundas"/>
+        <underline method="pen" type="straight" language="EN" text="with foure thousande men"/>
+        <underline method="pen" type="straight" language="EN" text="iiii. hundred"/>
+        <underline method="pen" type="straight" language="EN" text="ouercame the host of the Lacedemonie[n]s"/>
+        <underline method="pen" type="straight" language="EN" text="xxiiii.M."/>
+        <underline method="pen" type="straight" language="EN" text="xvi. hundred"/>
+        <underline method="pen" type="straight" language="EN" text="Fouretene.M.Grekes"/>
         
+        <symbol name="SS" place="intext" language="EN" text="Epaminundas"/>
         
+        <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="Rutilius armye"/>
         
+        <mark name="plus_sign" method="pen" place="right_margin" /> <!--thought-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--accu-->
+        <mark name="horizontal_bar" method="pen" place="right_margin"/>
+        <mark name="horizontal_bar" method="pen" place="right_margin"/>
         
-        
+        <mark name="dot" method="pen" place="intext"/> <!--Rutilius, or-->
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="more experte in discipline of"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="and a very smal nomber"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="traded"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="with. xl.M.me[n]"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="al the hole world"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="xiiii.M. men"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="with foure thousande men"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="Lacedemonie[n]s"/>
         
     </annotation>
 </transcription>
