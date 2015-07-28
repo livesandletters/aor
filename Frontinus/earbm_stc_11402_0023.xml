@@ -133,29 +133,37 @@
                     
                     Euripidis.
                     
-                    Nullo in numero erit uir timidus in pra[e]lio, sed ille, qua[m]uis adsit, abest tame[n]. <!--quoted from Zwinger-->
+                    Nullo in numero erit uir timidus in pra[e]lio, sed ille, qua[m]uis adsit, abest tame[n]. <!--quoted from Zwinger, book 2, p. 902.-->
                     
                     Moschionis.
                     
-                    Ferro paruo in saltibus Ingens secatur frondiu[m] steues; <!--quoted from Zwinger-->
+                    Ferro paruo in saltibus Ingens secatur frondiu[m] strues; <!--quoted from Zwinger, book 2, p. 888-->
                     Et lanceam gens pauca numerosam domat.
                     &Egrave; gra[e]co incerti Auctoris. recita[n]t[u]r &agrave; Luciano &egrave; Tragoedia.
                     
                     Indigna res est, Muscam in homines impetu Irruere strenuo,
-                    cruore ut tirgeat; Timere tela hostilia armatos viros. <!--quoted from Zwinger-->
+                    cruore ut turgeat; Timere tela hostilia armatos viros. <!--quoted from Zwinger, book 2, p. 902-->
+                        
+                    [GREEK STUFF] Menandri. <!--JG: Chris, please transcribe and translate-->
+                        
+                        Audacia nullum est majus magnificentius Viaticum.    <!--quoted from Zwinger, book 2, p. 876-->
                     </marginalia_text>
                     <person name="Sophocles"/>
                     <person name="Menander"/>
                     <person name="Sofitheus"/>
                     <person name="Euripides"/>
                     <person name="Moschion"/>
+                    <person name="Lucian"/>
+                    <book title="Tragoedia"/>
                     <X-ref person="Theodor Zwinger" book_title="Morum philosophia poetica" language="LA" text="Fugat Aquila una, maximum gregem Alitum; virque generosus plurimos instrenuos. "/> <!--vol. 2: https://books.google.co.uk/books?id=Uh48AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false-->
+                    <X-ref person="Theodor Zwinger" book_title="Morum philosophia poetica" language="LA" text="Nullo in numero erit uir timidus in pra[e]lio, sed ille, qua[m]uis adsit"/>
+                    <X-ref person="Theodor Zwinger" book_title="Morum philosophia poetica" language="LA" text="Ferro paruo in saltibus Ingens secatur frondiu[m] strues; Et lanceam gens pauca numerosam domat."/>
+                    <X-ref person="Theodor Zwinger" book_title="Morum philosophia poetica" language="LA" text="Indigna res est, Muscam in homines impetu Irruere strenuo, cruore ut tirgeatTimere tela hostilia armatos viros"/>
                     <emphasis method="pen" type="straight" text="Audacter autem"/>
                     <emphasis method="pen" type="straight" text="Quis timidus unq[uam]"/>
                     <emphasis method="pen" type="straight" text="Fugat Aguila"/>
                     <emphasis method="pen" type="straight" text="qua[m]uis adsit"/>
                     <emphasis method="pen" type="straight" text="abest"/>
-                    
                 </position>
             </language>
             <language ident="EL">
@@ -187,6 +195,19 @@
            "One eagle routs the greatest flock of birds; one noble man routs many spiritless people."
            
            Euripides.
+           
+           "A fearful man is in no rank in battle, but he, although he is present, nevertheless is absent."
+           
+            Moschion.
+            
+            "A vast pile of leaves is cut in leaps with an small sword and a few people subdue numerous spears." Of a doubtful author from Greece.
+            They are recited by Lucian from his 'Tragedies'.
+            
+            "The unworthy matter is to charge a bothersome person with a vigorous attack into men by bloodshed so that it swells out. Hostile spears fear armed men." <!--JG: Extremely unsure about this-->
+            
+            [Greek Stuff]. Menander.
+            
+            No boldness is a more powerful or more magnificent provision.
             
             </translation>
         </marginalia>
@@ -205,7 +226,7 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>(Verus Amor nullum nouit habere modum.)</marginalia_text>
-                    <X-ref person="Sextus Propertius" book_title="Elegies"/>
+                    <X-ref person="Sextus Propertius" book_title="Elegies" language="LA" text="Verus Amor nullum nouit habere modum."/>
                     <emphasis method="pen" type="straight" text="nullum nouit"/>
                 </position>
             </language>
@@ -222,6 +243,18 @@
             </language>
             <translation>To enjoy others [is] to enjoy yourself.</translation>
         </marginalia>
+        
+        <symbol name="SS" place="full_page"/>
+        
+        <mark name="horizontal_bar" method="pen" place="full_page"/> <!--above marginal note 'vide lib.2.'-->
+        <mark name="horizontal_bar" method="pen" place="full_page"/> <!--below marginal note 'vide lib.2.'-->
+        
+        <mark name="plus_sign" method="pen" place="full_page" language="EN" text="alance"/> <!--JG: Unsure abt word-->
+        <mark name="plus_sign" method="pen" place="full_page" language="EN" text="whole bandes"/>
+        
+        <mark name="plus_sign" method="pen" place="full_page" language="LA" text="fortitudinis"/>
+        <mark name="quotation_mark" method="pen" place="full_page"/>
+        <mark name="plus_sign" method="pen" place="full_page" language="LA" text="Aquila"/>
         
     </annotation>
 </transcription>
