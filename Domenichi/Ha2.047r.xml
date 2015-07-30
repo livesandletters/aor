@@ -99,7 +99,7 @@
 					<person name="Geoffrey Chaucer"/>
 					<book title="Decameron"/>
 					<book title="Heptaméron"/>
-					<book title=""/>
+					<book title="The Canterbury Tales"/> 
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -131,7 +131,7 @@
 			<language ident="IT">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						ridicolo.
+						ridicolo.)
 					</marginalia_text>
 				</position>
 			</language>
@@ -143,7 +143,7 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						/ Pythagora[e] Arithmomachia.
+						Pythagora[e] Arithmomachia.
 						Vranomachia. Ars iocosa Ciceronis,
 						Quinctiliani; Castilionis, Vilsoni; Mensa[e] philosophica[e],
 					</marginalia_text>
@@ -156,11 +156,10 @@
 			</language>
 			<translation>
 				Pythagoras' Rithmomachia. The Uranomachia. 
-				Cicero's and Quintilians art of joking; and that of Castiglione and Wilson. <!-- CG: Which Wilson might this be? -->
+				Cicero's and Quintilians art of joking; and that of Castiglione and Wilson. <!-- CG: Which Wilson might this be? --> <!--JG: I think he's referring to Thomas Wilson's Arte of Rhetorique (1553)-->
 				and of the Mensa philosophica.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -228,15 +227,15 @@
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- d'u -->		
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- In thalamis ... si foret -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- In thalamis ... si foret -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- ti ... ce -->
 		    
 	    	<!-- Head/Intext/Tail -->
-		<mark name="quotation_mark" method="pen" place="intext"/> <!-- sproni? -->
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="ch'io lo fermi, che non ho sproni"/> 
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- Reina di Polonia -->
 		<mark name="dot" method="pen" place="intext"/> <!-- iacet, quando -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Segretario"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- lettere, e -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- lettere, e -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- ubique iacet -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Pronto"/>
@@ -249,7 +248,7 @@
 		<mark name="dot" method="pen" place="intext"/> <!-- ri, dandosi -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="denti"/>
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="uergognano"/>
-		<mark name="plus_sign" method="pen" place="intext"/> <!-- sottile -->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="sottile"/> 
 		
     </annotation>
 </transcription>
