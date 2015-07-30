@@ -39,8 +39,8 @@
 				</position>
 			</language>
 			<translation>
-				And whatever contrary or hostile thing occurs in the first, second, middle, or last instance,
-				you must always go forward more excellent. And you must proceed so much more swiftly. <!-- CG: Shaky translation. -->
+				And whatever contrary or hostile thing occurs in the first, second, middle, or last instance, <!--JG: I don't get why the verb isn't in plural, but it makes sense to translate it as you did.-->
+				one must always go forward more excellent. And one must proceed so much more swiftly. <!-- CG: Shaky translation. --> <!--JG: Made some changes, but that's it..-->
 			</translation>
 		</marginalia>
 		
@@ -182,23 +182,24 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- gen -->
 				
 	    	<!-- Left margin -->
-	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- animalia -->
-		<mark name="bracket" method="pen" place="left_margin"/> <!-- il ... io -->
-		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- quale -->
+	    <mark name="plus_sign" method="pen" place="left_margin" language="IT" text="animalia cornuta carent dentibus in superiori"/> 
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Honorato Fascitello, io ne far&ograve; forse un tratto uno honorato Fascitello"/> 
+		<mark name="plus_sign" method="pen" place="left_margin" language="IT" text="hanno manco da guardare"/> 
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="dot" method="pen" place="intext"/> <!-- tura, disse -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Honorato Fascitello"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- dottrina, mando -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- dottrina, mando -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="motti"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="honorato Fascitello"/>
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- Fascitello -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="piccola"/>
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- piu animosi -->
 		<mark name="comma" method="pen" place="intext"/> <!-- altri ilquale -->
-		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
+		<mark name="vertical_bar" method="chalk" place="intext"/> 
 		<mark name="vertical_bar" method="pen" place="intext"/>
 		<mark name="comma" method="pen" place="intext"/> <!-- sboccato il -->
 		<mark name="dot" method="pen" place="intext"/> <!-- re, gli --> 
+		
     </annotation>
 </transcription>
