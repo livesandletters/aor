@@ -14,7 +14,7 @@
 					<marginalia_text>
 						The Baker of Bononia, &amp; owr Martin Marr-Prelate, 
 					</marginalia_text>
-					<person name="Baker of Bologna"/> <!-- CG: This is some anonymous Bolognese baker who wrote a letter to the pope, but I thought I'd add him anyways. -->
+					<person name="Baker of Bologna"/> <!-- CG: This is some anonymous Bolognese baker who wrote a letter to the pope, but I thought I'd add him anyways. --> <!--JG: Makes sense to me!-->
 					<person name="Martin Marprelate"/>
 				</position>
 				<position place="left_margin" book_orientation="0">
@@ -150,14 +150,15 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- uo -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- potrebbono -->
+	    <mark name="quotation_mark" method="pen" place="left_margin"/> <!-- potrebbono -->
 		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- la mano -->
 		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- ne scendo be -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="dot" method="pen" place="intext"/> <!-- grosso, & -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Empio"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- Calauria, scorsero  -->
+		<mark name="plus_sign" method="pen" place="intext"/> <!--corsali-->
+	    <mark name="dot" method="pen" place="intext"/> <!-- Calauria, scorsero  -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Turchi"/>
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- compassione -->
 
