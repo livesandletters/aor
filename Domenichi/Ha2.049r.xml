@@ -22,7 +22,7 @@
 				</position>
 			</language>
 			<translation>
-				To speak the laughing truth, "What is forbidden?" <!-- CG: I'm not sure if these two parts go together, the comma after 'verum' is strange. -->
+				To speak the laughing truth, "What is forbidden?" <!-- CG: I'm not sure if these two parts go together, the comma after 'verum' is strange. --> <!--JG: The comma is strange, but it seems intentional. So leave like this I'd say-->
 			</translation>
 		</marginalia>
 		
@@ -74,9 +74,9 @@
 			<translation>
 				The letter of a certain Bolognese baker to the pope. Faithfully translated from an Italian copy, printed in Florence.
 				Thus the weightiest matters can be seized to the quick, with barbs of witty contempt sunk deep.
-				Whence the prudent arm themselves with effective skill, 
+				Whence the prudent to arm themselves with effective skill, 
 				or, in some degree, with combined power, with which they depend on themselves, and spurn all things of the world.				
-				<!-- CG: Harvey has basically copied out the title page of an anonymous letter to the pope translated into Latin, printed in Florence. -->
+				<!-- CG: Harvey has basically copied out the title page of an anonymous letter to the pope translated into Latin, printed in Florence. --> <!--JG: You can capture this by making use of the X-Ref tag-->
 				<!-- CG: See: https://books.google.it/books?id=bpMWBgAAQBAJ&pg=PA90&lpg=PA90&dq=litera+pistoris+bononiensis+ad+papam&source=bl&ots=Q8ovjeIYff&sig=jeS5xe3q8rkxTz9vDufTVgEGbIw&hl=en&sa=X&ei=xVcyVbPdK8jaPOXYgOAG&ved=0CCMQ6AEwAA#v=onepage&q=litera%20pistoris%20bononiensis%20ad%20papam&f=false -->
 			</translation>
 		</marginalia>
@@ -97,12 +97,12 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Furor fit la[e]sa sa[e]i&ugrave;s patientia. Mimographus.
+						Furor fit la[e]sa sa[e]i&ugrave;s patientia. Mimographus. <!--JG: Use the X-Ref tag here, since it's a quote from Publius Syrus' Maxims-->
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				Fury more often becomes a wounded patience. A writer of mimes. <!-- CG: Unsure about 'mimographus.' -->
+				"Fury more often becomes a wounded patience." A writer of mimes. <!-- CG: Unsure about 'mimographus.' --> <!--JG: I think this translation is correct-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -136,6 +136,7 @@
 						How manie verses ar here? a 100.
 						I dare warrant you, Virgil neuer made a 100. such verses.
 					</marginalia_text>
+					<person name="Virgil"/>
 				</position>
 			</language>
 		</marginalia>
@@ -146,7 +147,7 @@
 		<underline method="pen" type="straight" language="IT" text="haueua un figliuolo"/>
 		<underline method="pen" type="straight" language="IT" text="bel nuouo s'era rimaritato"/>
 		<underline method="pen" type="straight" language="IT" text="figliuolo"/>
-		<underline method="pen" type="straight" language="IT" text="habbia di quest'altra"/>
+		<underline method="pen" type="straight" language="IT" text="di quest'altra"/>
 		<underline method="pen" type="straight" language="IT" text="far primiera"/>
 		<underline method="pen" type="straight" language="IT" text="un mio amico"/>
 		<underline method="pen" type="straight" language="IT" text="uien riputato per lo piu"/>
@@ -200,15 +201,15 @@
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- giorno -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- va ... miera -->
-		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- importuno -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- va ... miera -->
+		<mark name="plus_sign" method="pen" place="left_margin" language="IT" text="importuno, &amp; noioso huomo del mondo"/> 
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!--  quella -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- dato ... come -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="dot" method="pen" place="intext"/> <!-- figliuolo, a -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="piu sul uiuo"/>
-	    	<mark name="quotation_mark" method="pen" place="intext"/> <!-- come uoi -->
+	    <mark name="quotation_mark" method="pen" place="intext"/> <!-- come uoi -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Sanazzaro"/>
 		<mark name="dot" method="pen" place="intext"/> <!-- Sanazzaro, lo -->
 		<mark name="dot" method="pen" place="intext"/> <!-- pareua, & -->
