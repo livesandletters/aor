@@ -40,7 +40,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Doctor Bond Etymologicus. <!-- CG: Can't figure this out. -->
+						Doctor Bond Etymologicus. <!-- CG: Can't figure this out. --> <!--JG: Me neither. Leave your comment in-->
 					</marginalia_text>
 				</position>
 			</language>
@@ -110,8 +110,6 @@
 			</translation>
 		</marginalia>
 		
-		
-		
 		<marginalia hand="Italian">
 			<language ident="EN">
 				<position place="left_margin" book_orientation="90">
@@ -162,8 +160,8 @@
 				
 		<!-- Symbols -->
 		<symbol name="Sun" place="head"/>
-		<symbol name="JC" place="intext"/>
-		<symbol name="Sun" place="intext"/>
+		<symbol name="JC" place="intext" language="IT" text="fatto in iure"/>
+		<symbol name="Sun" place="intext"/> <!--under marginal note, 'maximeq[ue]-->
 		<symbol name="SS" place="left_margin"/>
 		
 		<!-- Marks -->		
@@ -181,23 +179,22 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- gentil' -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- Essendosi -->
+	    <mark name="quotation_mark" method="pen" place="left_margin"/> <!-- Essendosi -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- gia, del -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- te ... ille -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- do: gli -->
 		    
 	    	<!-- Head/Intext/Tail -->
-		<mark name="quotation_mark" method="pen" place="intext"/> <!-- amor di Dio -->
+		<mark name="quotation_mark" method="pen" place="head" language="IT" text="dottorato per amor di Dio un"/> <!-- amor di Dio -->
 		<mark name="dot" method="pen" place="intext"/> <!-- scolari, & -->
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="l'ethimologia"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="indouin&ograve;"/>
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- diede -->
-		<mark name="plus_sign" method="pen" place="intext"/> <!-- in iure -->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="fatto in iure"/> 
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="la cortesia"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="gentilezza"/>
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- faded chalk mark -->
-	    	<mark name="dot" method="pen" place="intext"/> <!-- mondo, a -->
-		
+	    <mark name="dot" method="pen" place="intext"/> <!-- mondo, a -->
 
     </annotation>
 </transcription>
