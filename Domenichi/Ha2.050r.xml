@@ -42,7 +42,7 @@
 				</position>
 			</language>
 			<translation>
-				And a doctor of neither law. 
+				A doctor of neither law. 
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -113,7 +113,7 @@
 				</position>
 			</language>
 			<translation>
-				Neologism. <!-- CG: What could this be referring to? -->
+				Neologism. <!-- CG: What could this be referring to? --> <!--JG: Beats me-->
 			</translation>
 		</marginalia>
 		
@@ -203,7 +203,7 @@
 		<mark name="horizontal_bar" method="pen" place="right_margin"/> <!-- Sicilia[e] -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- no -->
 		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- massimamente -->
-		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- mas- -->
+		<mark name="quotation_mark" method="pen" place="right_margin" language="IT" text="biasimaua sempre"/>
 		<mark name="dash" method="pen" place="right_margin"/> <!-- nobilis -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- raris -->
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- si sia -->
@@ -213,17 +213,17 @@
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- per l'a -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- tendosi ... ra -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- tendosi ... ra -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- in assenza -->
-		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- simamente -->
-		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- sime virtu' -->
+		<mark name="plus_sign" method="pen" place="left_margin" language="IT" text="massimamente i grandi, e i buoni"/> 
+		<mark name="straight_quotation_mark" method="pen" place="left_margin" language="IT" text="dignissimo di molto piu alto"/>
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- to ... nemico -->
-		<mark name="bracket" method="pen" place="left_margin"/> <!-- maleuadore .. suo -->
+		<mark name="vertical_bar" method="pen" place="left_margin"/> <!-- maleuadore .. suo -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="galant'huomini"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="il dir male d'altri"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- assenza, & -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- assenza, & -->
 		<mark name="comma" method="pen" place="intext"/> <!-- litterato il -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Vescouo"/>

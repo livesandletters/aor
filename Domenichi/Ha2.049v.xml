@@ -89,10 +89,9 @@
 				</position>
 			</language>
 			<translation>
-				A new technique, a new practice, a new way of writing. <!-- CG: Unsure how to translate. -->
+				A new technique, a new practice, a new way of writing. <!-- CG: Unsure how to translate. --> <!--JG: Keep it like that but leave your comment in, will revisit later-->
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -114,7 +113,7 @@
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
 						To eleuate the autoritie of sage persons; or extenuate the account of graue
-						matters, with odd iests, or a[w]ke deuises: is sumtime none of the 
+						matters, with odd iests, or a[w]ke deuises: is sumtime none of the <!--JG: Should be apte instead of awke, no?-->
 						slightest pollicies. As leuitie often puttes downe grauitie
 					</marginalia_text>
 					<emphasis method="chalk" type="straight"/>
@@ -171,7 +170,7 @@
 		
 		<!-- Symbols -->
 		<symbol name="JC" place="intext"/>
-			<!-- CG: Unknown symbol in tail. Backwards C and C? -->
+			<!-- CG: Unknown symbol in tail. Backwards C and C? --> <!--JG: I made a note of this. Appears in more books, but we haven't figured out yet what this is-->
 		
 		<!-- Marks -->			
 		<!-- Right margin -->
@@ -181,7 +180,7 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- po -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- cherebbe -->
+	    <mark name="plus_sign" method="pen" place="left_margin" language="IT" text="non tocherebbe una donna per la uita"/> 
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- na ... polo -->
 		    
 	    	<!-- Head/Intext/Tail -->
@@ -191,7 +190,7 @@
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="Senato"/>
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
-	    	<mark name="dot" method="pen" place="intext"/> <!--  -->
+	    <mark name="dot" method="pen" place="intext"/> <!--  --> <!--JG: do you mean the dot after 'Cortese'?-->
 
     </annotation>
 </transcription>
