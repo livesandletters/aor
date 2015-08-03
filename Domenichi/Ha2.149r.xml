@@ -5,20 +5,23 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.149r.tif" signature="H4r" pagination="119" reader="Harvey"/>	<!-- ABO 152right -->
+	<page filename="Ha2.150r.tif" signature="[H5r]" pagination="121" reader="Harvey"/>	<!-- ABO 153right -->
 	<annotation>
 		<!-- Marginalia -->
+		<marginalia hand="Italian">
+			<language ident="IT">
+				<position place="head" book_orientation="0">
+					<marginalia_text>
+						Piouano.
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						{ Plus adhuc, plusq[ue] spirit&ucirc;s: et semper meli&ugrave;s adhuc,
-						meliusq[ue] dicendum, atq[ue] faciendum. Aut frustra
-					</marginalia_text>
-				</position>
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						tot Eutrapeli egragia Nota[e].
+						vbi Thesaurus, ibi Cor.
 					</marginalia_text>
 				</position>
 			</language>
@@ -26,9 +29,9 @@
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="right_margin" book_orientation="0">
+				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Satage, q[uo]d animus dictat: et perge, du[m] feruet manus.
+						Stringe, stringe: Rhetorum
 					</marginalia_text>
 				</position>
 			</language>
@@ -37,34 +40,40 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Erranti Sit medicina Confessio.)
+						Liber&egrave; in papam.
 					</marginalia_text>
 				</position>
 			</language>
 		</marginalia>
 		<marginalia hand="Italian">
-			<language ident="EN">
+			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						A Liuing hurlewind. a flowing streame.
+						) Logice subtilissime:
+						Logicorum Rhetor acutiss[im]us.
 					</marginalia_text>
 				</position>
 			</language>
 		</marginalia>
 		<marginalia hand="Italian">
-			<language ident="EN">
+			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						A liuelie
-						hurlepoole, gulfe, &amp; abisse of profounde
-						skill, &amp; practis.
+						Polytechni scopus semper practicus, et
 					</marginalia_text>
 				</position>
 			</language>
-			<language ident="FR">
+			<language ident="EL">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						trespuissant.
+						θαυματοποιητικός. <!-- Possible neologism, although verb form θαυματοποιέω exists.  -->
+					</marginalia_text>
+				</position>
+			</language>
+			<language ident="LA">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						tam efficacissimus, qua[m] expeditissimus.
 					</marginalia_text>
 				</position>
 			</language>
@@ -74,9 +83,7 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Quis putet? sed quibus hodi&egrave; inuidetur, Comiti Essexio, Equiti
-						Raleio, alijs quibusdam in Aula gratiosis; suorum aliquand&ograve;
-						miserabuntur etiam inimici.
+						Meritis perpendite Causam.
 					</marginalia_text>
 				</position>
 			</language>
@@ -87,18 +94,18 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						{ fortunatis inuident amici: infoelices miserantur inimici.
+						Sola scientia[e], et Virtutis a[e]mulatio generosissima.
 					</marginalia_text>
 				</position>
 			</language>
 		</marginalia>
 		
 		<marginalia hand="Italian">
-			<language ident="LA">
+			<language ident="EN">
 				<position place="right_margin" book_orientation="90">
 					<marginalia_text>
-						Nunq[uam] excedit Euschemosyne in pulchris: semper deficit Entelechia
-						in bonis. Ben&egrave; multi: nemo satis ben&egrave;.
+						The first Rationist, Euscopus. The first Entelechist,
+						Eudromus. Both peerles for bothe.
 					</marginalia_text>
 				</position>
 			</language>
