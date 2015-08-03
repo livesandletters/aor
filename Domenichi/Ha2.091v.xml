@@ -5,42 +5,36 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.091v.tif" signature="[A2v]" pagination="4" reader="Harvey"/>	<!-- ABO 95left -->
+	<page filename="Ha2.092v.tif" signature="[A3v]" pagination="6" reader="Harvey"/>	<!-- ABO 96left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Noua quotidi&egrave; illuminatio. Palingenesia.
+						Nunq[uam] nimis, quod nunq[uam] satis.
 					</marginalia_text>
-					<emphasis method="pen" type="straight" text="Noua quotidi&egrave;"/>
-					<emphasis method="pen" type="straight" text="illuminatio"/>
 				</position>
 			</language>
 			<translation>
-				A new illumination daily. Palingenesis. 
+				Whatever is not enough is never too much.
 			</translation>
-		</marginalia>		
+		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Quicquid mille Diaboli dixerint; Ironia est
+						Inuictus est, qui quatuor virtutibus amictus
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						angelus coeli. Agant illi Furias tragicas:
-						/ tu ride comic&egrave;:
-						et rem age ipsam. Viuitur ingenio.
+						( est.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				Whatever a thousand devils will have said, Irony is an angel from heaven. 
-				While the former stirs up tragic frenzies, you laugh comically and do the thing itself.	
-				One lives by one's abilities.
+				Unconquerable is he who is clothed in the four virtues.
 			</translation>
 		</marginalia>
 		
@@ -48,88 +42,81 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Sine la[e]titia, vita miseria: sine auda[c]ia, homo bestia.
-							<!-- CG: Looks like 'audabia' which doesn't make sense. -->
+						Fortuna sedens Apellis: nunq[uam] enim stetit.
 					</marginalia_text>
+					<person name="Apelles"/>
 				</position>
 			</language>
 			<translation>
-				Without happiness, life is a misery. Without daring, man is a beast.
+				The fortune of Apelles is seated, and indeed it never stands.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Quoties tristis, toties miser: quoties timidus,
-						toties bestia.
+						Bona Ethica, et Oeconomica faciunt bonam
+						Politicam. Cum Socratis aureo ingenio.
 					</marginalia_text>
+					<person name="Socrates"/>
 				</position>
 			</language>
 			<translation>
-				As often as he is sad, so often is he miserable. As often as he is timid, so often is he a beast. 
+				Good ethics and economics make good politics. Together with the golden genius of Socrates.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Degeneres, et pueriles animos Timor arguit.
+						Virtus currens Apellis: nunq[uam] enim sedit: stet raro.
 					</marginalia_text>
+					<person name="Apelles"/>
 				</position>
 			</language>
 			<translation>
-				Fear betrays degenerate and childish souls.
+				The virtue of Apelles is running, and indeed it never sits. Rarely will it stand up.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Pra[e]stantissimis
-						) pra[e]stantior.
+						Scopus Ciceronis ex professo:
 					</marginalia_text>
+					<person name="Cicero"/>
 				</position>
 			</language>
-			<translation>
-				More excellent than the most excellent.
-			</translation>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="IT">
+			<language ident="EL">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Il mondo de' presontuosi.
+						πάντων κρα -
 					</marginalia_text>
 				</position>
-			</language>
-			<translation>
-				The world of presumptuous men.
-			</translation>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
+				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Semper absolutus: aut nunq[uam] magnus.
+						κράτιστος.
 					</marginalia_text>
 				</position>
 			</language>
-			<translation>
-				Always free, or else never great.
-			</translation>
-		</marginalia>
-		
-		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Repetit acutus lanista; repetit.
+						Vt Caesaris,
+					</marginalia_text>
+					<person name="Julius Caesar"/>
+				</position>
+			</language>
+			<language ident="EL">
+				<position place="tail" book_orientation="0">
+					<marginalia_text>
+						τὸ πρωτέυειν.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				The sharp trainer repeats; he repeats.
+				The declared goal of Cicero, to be the best of all men.
+				Just as the goal of Cicero is to be the first among all men.
 			</translation>
 		</marginalia>
 		
@@ -138,49 +125,49 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Non lectio, aut scriptio; sed quotidiana relectio, et repetitio est, qua[e] virum facit
-						reuer&acirc; virum: incessantem, et semper magis, magisq[ue] industrium.
+						Nemo vnq[uam] satis prudens, aut fortis fuit: aut quod tertium est, satis dulcis:
+						quem nihil perturbaret, aut offenderet, quicquid accideret turbarum. [R]am industria, <!-- Perhaps this is Ramus? -->
+						effectus est prudentia[e], et fortitudinis:
+					</marginalia_text>
+				</position>
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						nec vllum noui satis industrium.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				Neither reading, nor writing, but daily re-reading and repetititon is that which, in reality, makes a man;
-				a man who is unceasing and ever more and more diligent.
+				No one was every prudent or strong enough (or sweet enough which is the third option),
+				whom nothing would have bothered or offended if some turmoil had occurred. The 
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="90">
+					<marginalia_text>
+						{ Gulielmi Birdi dictum de Axiophilo. Illum hominem nunq[uam] vidi iratum; nunq[uam]
+						<!-- Continues onto facing page, left margin, Ha2.093r -->
+					</marginalia_text>
+					<person name="William Bird"/>
+					<person name="Axiophilus"/>
+				</position>
+			</language>
+			<translation>
+				The saying of William Bird regarding Axiophilus. I never saw that man angry, never [-]
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
-			<language ident="LA">
+			<language ident="EN">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-							= alios tenet, tenet neminem. Totus vir, solus vir.
-						<!-- Continued from facing page, left margin, Ha2.091r -->
+						The archphilosopher: archphysician:  archlawier: arch[??]: archconducter at land, or sea.
 						<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
 					</marginalia_text>
 				</position>
 			</language>
-			<translation>
-				He who keeps others, keeps no one. Only a man alone is completely a man.
-			</translation>
 		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="right_margin" book_orientation="270">
-					<marginalia_text>
-						- tam necessaria acri actori, qu&agrave;m panis quotidianus. Nunq[uam] nimis, quod
-					</marginalia_text>
-				</position>
-				<position place="intext" book_orientation="270">
-					<marginalia_text>
-						nunq[uam] satis.
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				As necessary to the keen actor as daily bread. That which is never enough is never too much.
-			</translation>
-		</marginalia>		
+		
 
 
     </annotation>

@@ -5,15 +5,19 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.094r.tif" signature="[A5r]" pagination="9" reader="Harvey"/>	<!-- ABO 98right -->
+	<page filename="Ha2.095r.tif" signature="[A6r]" pagination="11" reader="Harvey"/>	<!-- ABO 98right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Obserua semper peritissima scientiaru[m]: subtiliss[im]a
-						Experimentorum: potentissima actionum.
+						Ex abundantia Cordis, os loquitur. &Egrave; bibliotheca tui ipsius
+					</marginalia_text>
+				</position>
+				<position place="right_margin" book_orientation="0">
+					<marginalia_text>
+						pectoris, peritissima[e] Sententia[e].
 					</marginalia_text>
 				</position>
 			</language>
@@ -23,9 +27,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Quorsum tot libri, et tant studia, si non plus
-						possunt doctores, qu&agrave;m
-						illiterati.
+						dilemma retortum.
 					</marginalia_text>
 				</position>
 			</language>
@@ -34,7 +36,9 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						sals&egrave;.
+						Deficiente spiritu, aut etiam paulisper languescente;
+						statim omnia animi,
+						corporisq[ue] bona flaccescunt.
 					</marginalia_text>
 				</position>
 			</language>
@@ -43,7 +47,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Medice, cura teipsum. Ante omnia, Nosce teipsu[m].
+						) Quotidi&egrave; pra[e]stantior.
 					</marginalia_text>
 				</position>
 			</language>
@@ -52,27 +56,10 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Maximus mundi Theurgus, et Panurgus.
+						{ Dimidium foelicitatis, Alacritas: et Virginitas,
+						immortalitatis dimidium. ex arcanis Eudromi.
 					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Qui se habet, nil perdidit: Ausus est dicere Seneca.
-					</marginalia_text>
-					<person name="Seneca"/>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Etiam potentissima, potenti uiro impotentiora.
-					</marginalia_text>
+					<person name="Eudromus"/>
 				</position>
 			</language>
 		</marginalia>
@@ -81,8 +68,8 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Totum in se habet, qui se habet: Ausus est dicere
-						Cassiodorus. Quod petis, int&ugrave;s habes.
+						( Ex teipso auctore singula:
+						quoti&egrave;s opus. )
 					</marginalia_text>
 				</position>
 			</language>
@@ -93,9 +80,16 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						et ipsis A[e]gyptijs operabatur periti&ugrave;s: et omnibus Magis
-						potentiora Miracula perpetrabat.
-							<!-- Continued from facing page, right margin, Ha2.093v -->
+						Cit&ograve; perficitur, quod nauiter efficitur. Viru[m] probat virtus.
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="left_margin" book_orientation="90">
+					<marginalia_text>
+						Gnomologi multi: paucissimi Mimologi.
 					</marginalia_text>
 				</position>
 			</language>
@@ -105,25 +99,15 @@
 			<language ident="LA">
 				<position place="right_margin" book_orientation="90">
 					<marginalia_text>
-						Hominum scripta, errantes planeta[e]: Artiu[m], et Virtutum impressiones, fixa[e] stella[e].
-					</marginalia_text>
-					<emphasis method="pen" type="straight" text="Hominum scripta"/>
-					<emphasis method="pen" type="straight" text="Artiu[m]"/>
-					<emphasis method="pen" type="straight" text="Virtutum"/>
-				</position>
-			</language>
-		</marginalia>
-		
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="right_margin" book_orientation="270">
-					<marginalia_text>
-						Florescat ars: virescat virtus: splendescat vir. Nunq[uam] languidus.
+						Ex viva[e] visceribus, fluentissima[e] sententia[e], et profundiss[im]a[e].
+						De viuo fonte quatuor Virtutu[m], Ethica[e]: quatuor Elementoru[m], Physica[e].
 					</marginalia_text>
 				</position>
 			</language>
 		</marginalia>
+		
+		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+
 
     </annotation>
 </transcription>

@@ -5,60 +5,28 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.097r.tif" signature="[A8r]" pagination="15" reader="Harvey"/>	<!-- ABO 100right -->
+	<page filename="Ha2.098r.tif" signature="Br" pagination="17" reader="Harvey"/>	<!-- ABO 101right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						De fa[e]ce non haurit Musa Attica: nec Aquila capit Muscas.
+						Da mihi singular Solaria.
 					</marginalia_text>
 				</position>
 			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="head" book_orientation="0">
-					<marginalia_text>
-						De minutis non curat Jureconsultus.
-					</marginalia_text>
-				</position>
-			</language>
+			<translation>
+				Give me the singular things of the sun.
+			</translation>
 		</marginalia>
 		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Affectatio Singularitatis perpetua.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Ingenij, et Virtutis panis quotidianus, Temperantia.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Contemplationis, actionisq[ue] esca.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="EN">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						A mans tounge, is his honour, or shame. Salomo.
+						Fitz-dei. Mack-dei.
+						Fitz-morgin. Mack-vulcani.
 					</marginalia_text>
 				</position>
 			</language>
@@ -67,36 +35,101 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Lingua, bonorum optimum: malorum pessimu[m].
+						Fitz Mercurij alati. Mack Pegasi
+						volantis. Archifaber mundi.
 					</marginalia_text>
+					<person name="Mercury"/>
 				</position>
 			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="EN">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						I looue Epitomes: but not Deminutiues.
-					</marginalia_text>
-				</position>
-			</language>
+			<translation>
+				The Fitz of winged Mercury. The Mack of flying Pegasus.
+				The arch-smith of the world.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
-			<language ident="LA">
+			<language ident="EL">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						( Satis: si satis prompt&egrave;, et absolute. )
+						ἐν ἀκμῆ,
 					</marginalia_text>
 				</position>
 			</language>
-		</marginalia>
-		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Magneticus, et marmoreus valor: maximus
-						mundi attractivus.
+						et
+					</marginalia_text>
+				</position>
+			</language>
+			<language ident="EL">
+				<position place="tail" book_orientation="0">
+					<marginalia_text>
+						κατ' ἐξοχὴν
+					</marginalia_text>
+				</position>
+			</language>
+			<language ident="LA">
+				<position place="tail" book_orientation="0">
+					<marginalia_text>
+						omnia.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				At the peak, and all things par excellence.
+			</translation>
+		</marginalia>
+		
+		
+		<marginalia hand="Italian">
+			<language ident="IT">
+				<position place="left_margin" book_orientation="90">
+					<marginalia_text>
+						&ograve; migliore, &ograve; niente.	
+					</marginalia_text>
+				</position>
+			</language>
+			<language ident="LA">
+				<position place="left_margin" book_orientation="90">
+					<marginalia_text>
+						Demosthenes ipse Demadi, sus Minerua[e].
+					</marginalia_text>
+					<person name="Demosthenes"/>
+					<person name="Demades"/>
+					<X-ref person="Plutarch" book_title="Moralia" language="LA" text="Demadi, sus Minerva[e]"/>
+				</position>
+			</language>
+			<translation>
+				Either better, or nothing at all. Demosthenes himself to Demadus, the sow of Minerva.
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="IT">
+				<position place="right_margin" book_orientation="90">
+					<marginalia_text>
+						{ Concetti politichi, et desegni finissimi di Lodouico Sforza, nel Fran: Guicciardini:
+						m&agrave; mal fondati, strauaganti, smisurati, e non dependenti da se stesso. Com&egrave; di Massimiliano.
+					</marginalia_text>
+					<person name="Lodovico Sforza"/>
+					<person name="Francesco Guicciardini"/>
+					<person name=""/>
+				</position>
+			</language>
+			<translation>
+				The political conceits and most refined designs of Lodovico Sforza, found in Francesco Guicciardini,
+				but which are ill-founded, extravagant, extreme, and which do not depend on he himself. As with Massimiliano.
+			</translation>
+		</marginalia>
+
+
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="tail" book_orientation="180">
+					<marginalia_text>
+						Semper iocundissimus: quicquid verboru[m], aut
+						facinorum contra.
 					</marginalia_text>
 				</position>
 			</language>
@@ -107,22 +140,21 @@
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						Elegans eloquendi facilitas; et ciuilis conversandi gratia; vtraq[ue]
-						apta, et decora; duo cuiusq[ue] pra[e]lari hominis complementa. 
+						Hebe, omnibus Nymphis, Deabusq[ue] iunior, et Senior. Filia Jovis, et Junonis,
 					</marginalia_text>
 				</position>
-			</language>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="left_margin" book_orientation="270">
+				<position place="intext" book_orientation="270">
 					<marginalia_text>
-						Fortis animus; et astutum ingenium; duo pragmatici arcana, semper securi.
+						id est, Ignis, et Aeris;
+						non Aqua[e],
+						et Terra[e].
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Younger and older than Hebe, all the Nymphs, and Goddesses. The daughters of Jove and Juno,
+				that is, of fire and air, not of water and earth.
+			</translation>
 		</marginalia>
-
     </annotation>
 </transcription>

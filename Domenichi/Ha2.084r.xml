@@ -5,19 +5,20 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.085r.tif" signature="**3r" reader="Harvey"/>	<!-- ABO 87right -->
+	<page filename="Ha2.086r.tif" signature="**4r" reader="Harvey"/>	<!-- ABO 88right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Pluris valent, non qui plura possu[n]t, sed qui plus.
+						Dexteritate, et Industria: Industra, et dexteritate.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="dexteritate."/>
 				</position>
 			</language>
 			<translation>
-				More valuable are not those men who can do more things, but those who can be more.
+				With skillfullness and industry, with industry and skillfullness.
 			</translation>
 		</marginalia>
 		
@@ -25,46 +26,24 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Sanguis uva[e].
+						Ecc&egrave; quotidi&egrave; splendidissimu[m] Encomium
+						Simonis Onia[e] apud Sapientissimum Syracidem. Et
+						quotidi&egrave; illustrius efflorescat Chrysotechnus.
+						Tam amabili discretione gratiosus, qu&agrave;m inclyta
+						magnificentia conspicuus. Aurea Simonis Euschemosyne:
+						sed Charitum candore perfusa. Nec odios&egrave; superba:
+						nec abiect&egrave; blanda: sed amabiliter gratiosa.
 					</marginalia_text>
+					<person name="Chrysotechnus"/>
+					<person name="Simon Oniae"/>
+					<book title="Sirach"/>
 				</position>
 			</language>
 			<translation>
-				The blood of the grape.
-			</translation>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Libauerunt de sanguine uva[e], filij Aaronis. Vt ecc&egrave;
-						in splendidissimo Encomio Simonis Onia[e]:
-						/ cui nullum Elogium par, in omni humanitate, Romana,
-						Attica, Heroica.
-					</marginalia_text>
-					<person name="Aaron"/>
-					<X-ref person="" book_title="Book of Ecclesiastes" language="LA" text="de sanguine uvae"/>
-				</position>
-			</language>
-			<translation>
-				The children of Aaron poured out the blood of the grape in libation.
-				And here in this most splendid encomium of Simon, son of Onia, 
-				to which no other saying is equal, in any culture, Roman, Greek, or Heroic.
-			</translation>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Alij Sui, et alieni: solus Eutrapelus suissimus. Sua Singula
-						assidu&egrave; augens, et mirific&egrave; multiplicans.
-					</marginalia_text>
-					<person name="Eutrapelus"/>
-				</position>
-			</language>
-			<translation>
-				Other men are beholden to a friend or stranger, only Eutrapelus is his very own.
-				He constantly increases and wondrously multiplies his singular deeds.
+				Here today is the most splendid encomium of Simon, son of Onia, found in the wisest Sirach.
+				And today let the illustrious Chrysotechnus bloom, as agreeable to pleasant distinction, as he
+				is notable for glorious magnificence. The golden refinement of Simon, imbued with the radiance
+				of the Graces. And he is not distastefully arrogant nor cheaply alluring, but pleasantly agreeable.
 			</translation>
 		</marginalia>
 		
@@ -72,41 +51,63 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Omnes in vno auxeses, hyperbola[e], metamorphoses, theogonia[e].
+						Neminem vult inimicu[m], quem habere potest
+						amicum. Cauet autem vtrunq[ue]: Sed quasi neutru[m].
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				All amplification, increase, transformation, theogony in one man.
+				He wants no one as an enemy whom he can have as a friend.
+				Moreover, he guards against both friends and enemies, as if they were neither.
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="left_margin" book_orientation="90">
+					<marginalia_text>
+						Prudentis est, de se loqui humillim&egrave;: sua agere altissim&egrave;.
+					</marginalia_text>
+				</position>
+			</language>
+			<language ident="EN">
+				<position place="left_margin" book_orientation="90">
+					<marginalia_text>
+						lowlie in terms: high in acts.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				The prudent man speaks most humbly about himself and performs his deeds most highly.
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="90">
+					<marginalia_text>
+						Pri&ugrave;s egit, qu&agrave;m dixit, qui profundus est pragmaticus: et omnes metuit
+						ante, neminem post.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				He who is profoundly pragmatic acted first then spoke. And he feared all who came before him and no one who came after him.
 			</translation>
 		</marginalia>
 		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="left_margin" book_orientation="90">
+				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						Multi vrbani, non pragmatici: multi pragmatici, non vrbani: Da mihi vrbanu[m]
-						pragmaticum: tam politicu[m],
+						Eutrapelus est omnis homo: vt quondam Proteus.
 					</marginalia_text>
-				</position>
-				<position place="head" book_orientation="90">
-					<marginalia_text>
-						qu&agrave;m facetu[m]: Solum =
-					</marginalia_text>
-				</position>
-				<position place="right_margin" book_orientation="90">
-					<marginalia_text>
-						= Solum combinatorem salium, et stratagematu[m]: ad Optimu[m], qui esse potest, pra[e]sente[m]
-						vsum. Semper tibi pendeat [h]amus Fauoris, et Commoditatis.			
-					</marginalia_text>
+					<person name="Eutrapelus"/>
+					<person name="Proteus"/>
 				</position>
 			</language>
 			<translation>
-				Many urbane men are not pragmatic, and many pragmatic men are not urbane. 
-				Give me an urbane and pragmatic man, as political as he is witty;
-				give me only him who combines wit and stratagems, 
-				approaching the best possible practice for the present time.				
+				Eutrapelus is every man, as if he were Proteus.
 			</translation>
 		</marginalia>
 

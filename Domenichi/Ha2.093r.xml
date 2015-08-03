@@ -5,14 +5,15 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.093r.tif" signature="A4r" pagination="7" reader="Harvey"/>	<!-- ABO 96right -->
+	<page filename="Ha2.094r.tif" signature="[A5r]" pagination="9" reader="Harvey"/>	<!-- ABO 98right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Nemini vnq[uam] satis fuit Constantia[e] in Optimis.
+						Obserua semper peritissima scientiaru[m]: subtiliss[im]a
+						Experimentorum: potentissima actionum.
 					</marginalia_text>
 				</position>
 			</language>
@@ -22,8 +23,9 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Simplicis est, in paruis ha[e]rescere, (
-						Signa in mundo maiora.
+						Quorsum tot libri, et tant studia, si non plus
+						possunt doctores, qu&agrave;m
+						illiterati.
 					</marginalia_text>
 				</position>
 			</language>
@@ -32,7 +34,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						{ i[infr]a 103. 84.
+						sals&egrave;.
 					</marginalia_text>
 				</position>
 			</language>
@@ -41,39 +43,46 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Fato
-						prudentia maior.
+						Medice, cura teipsum. Ante omnia, Nosce teipsu[m].
 					</marginalia_text>
 				</position>
 			</language>
 		</marginalia>
 		<marginalia hand="Italian">
-			<language ident="IT">
+			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-					risoluto.	
+						Maximus mundi Theurgus, et Panurgus.
 					</marginalia_text>
 				</position>
 			</language>
 		</marginalia>
 		<marginalia hand="Italian">
-			<language ident="IT">
+			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Chi la dura, La vinca.	
+						Qui se habet, nil perdidit: Ausus est dicere Seneca.
+					</marginalia_text>
+					<person name="Seneca"/>
+				</position>
+			</language>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						Etiam potentissima, potenti uiro impotentiora.
 					</marginalia_text>
 				</position>
 			</language>
-			<translation>
-				Whoever can endure it, wins it.
-			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Multi magnanimi: paucissimi longanimi.
+						Totum in se habet, qui se habet: Ausus est dicere
+						Cassiodorus. Quod petis, int&ugrave;s habes.
 					</marginalia_text>
 				</position>
 			</language>
@@ -84,40 +93,33 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						tristem; nunq[uam] timidum; nunq[uam] irresolutum; nunq[uam] ignavum, aut languidum; nunq[uam]
-						sui, aut aliorum immemorem; nunq[uam] perturbatum vllo Casu. Non noui hominem, beneficioru[m]
+						et ipsis A[e]gyptijs operabatur periti&ugrave;s: et omnibus Magis
+						potentiora Miracula perpetrabat.
+							<!-- Continued from facing page, right margin, Ha2.093v -->
 					</marginalia_text>
-				</position>
-				<position place="intext" book_orientation="90">
-					<marginalia_text>
-						magis memorem; aut iniuriarum magis
-						immemore[m]. 
-						Nec scio
-						alique[m], cuius
-						rationes, et actiones it&agrave; dependent
-						&agrave; Seipso. Ha[e]c ille sobrius generosus 
-						de Axiophilo ingenu&egrave;.
-					</marginalia_text>
-					<person name="Axiophilus"/>
 				</position>
 			</language>
-		</marginalia>		
+		</marginalia>
+		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="90">
 					<marginalia_text>
-						Hominum dicta, et facta errant: Artium, et Virtutum, non errant.
+						Hominum scripta, errantes planeta[e]: Artiu[m], et Virtutum impressiones, fixa[e] stella[e].
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="Hominum scripta"/>
+					<emphasis method="pen" type="straight" text="Artiu[m]"/>
+					<emphasis method="pen" type="straight" text="Virtutum"/>
 				</position>
 			</language>
 		</marginalia>
 		
 		
 		<marginalia hand="Italian">
-			<language ident="EN">
+			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						Manie Quintessentians, curious in other things: but One Entelechist, euer mindful of Himself.
+						Florescat ars: virescat virtus: splendescat vir. Nunq[uam] languidus.
 					</marginalia_text>
 				</position>
 			</language>

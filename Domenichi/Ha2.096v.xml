@@ -5,84 +5,53 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.096v.tif" signature="[A7v]" pagination="14" reader="Harvey"/>	<!-- ABO 100left -->
+	<page filename="Ha2.097v.tif" signature="[A8v]" pagination="16" reader="Harvey"/>	<!-- ABO 101left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						{ Aut seria vtilitas: aut merus iocus.
+						Cogito ( ) principem iuuentutis:
 					</marginalia_text>
 				</position>
-			</language>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="EN">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Sir Nicolas Trogmortons resolution.
+						Neo-arthurum: eundemq[ue] Neo-merli[num]
+						et iam tandem Hyperca[e]sarem: id
+						
+						est, Imperatorem, et Cosmopragmaticum
+						incomparabilem. Mack-dei.
 					</marginalia_text>
+					<person name="King Arthur"/>
+					<person name="Merlin"/>
+					<person name="Julius Caesar"/>
 				</position>
 			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						| Nihil prosunt omnes scientia[e], et ornamenta, nisi viro.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Decet Consiliarium, esse
-						fortiter prudentem: Ducem, esse prudenter forte.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Dies rerum, non terendus verbis. Tacitus.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						&Ocirc; temperantia Dea. Sed &ocirc; prudentia, Dearu[m] Dea.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Dies negiciorum, non terendus nugis.
-					</marginalia_text>
-				</position>
-			</language>
+			<translation>
+				I consider the prince of youth: 
+				a new Arthur, and also a new Merlin, and now, at last, someone beyond Caesar:
+				that is, an emperor and an imcomparable practical man of the world.
+				
+				Mack-dei.
+					<!-- CG: Neologisms! -->
+					<!-- CG: Mack-dei is still unclear, see Ha2.074v, where Harvey writes "Salamandrus Mack-dei." -->
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Coeli bibliotheca, Astrophili Musa[e]um.
+						Neoarthurus, et Hyperca[e]sar.
 					</marginalia_text>
-					<person name="Astrophilus"/>
+					<person name="King Arthur"/>
+					<person name="Julius Caesar"/>
 				</position>
 			</language>
+			<translation>
+				A new Arthur, and someone beyond Caesar.
+			</translation>
 		</marginalia>
 		
 		
@@ -90,32 +59,44 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Vir est, qui &agrave; Seipso dependet: et omnia spernit sui Cursus impedimenta.
-						Quem nulla perturbationis, aut vllius offensionis nubes aliquo modo obscurat: semper
-						illustrem, et
+						{ Plenaria La[e]titia, et Audacia faciunt hominem reiuuenescere; cum viuida
+						Dia[e]ta, et quotidiana Exercitatione in Sole. Sed plenaria semper, et absoluta.
+						Nam dimidata ista, et vulgaris, parum aut
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="90">
 					<marginalia_text>
-						pergentem; vt Sol.
+						nihil valet.
 					</marginalia_text>
 				</position>
 			</language>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="right_margin" book_orientation="270">
+				<position place="right_margin" book_orientation="90">
 					<marginalia_text>
-						Ingenium, ubi intenderis, valet: ubi extenderis,
-						ra[e]ualet.
+						Extraordinaria sunt, et singularia, qua[e] operantur potentum effectum, et admirabil&egrave;.
 					</marginalia_text>
 				</position>
 			</language>
-		</marginalia>
+		</marginalia>		
 		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
 
 
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="tail" book_orientation="180">
+					<marginalia_text>
+						<!-- Continued from facing page, tail, Ha2.098r -->
+						- supr&agrave; La[e]titiam. Quicquid hominu[m] obstrepuerit: aut
+						facinorum ingruerit: aut calamitatum deniq[ue] obruerit.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				
+			</translation>
+		</marginalia>
     </annotation>
 </transcription>
