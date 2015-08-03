@@ -41,7 +41,7 @@
 				</position>
 			</language>
 			<translation>
-				From similar propositions. <!-- CG: This is the name of a rhetorical strategy. Unsure how to translate in this context. -->
+				From similar propositions. <!-- CG: This is the name of a rhetorical strategy. Unsure how to translate in this context. --> <!--JG: I'd leave it like this, esp. when you can't see how it's linked or related to the printed text-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -53,7 +53,7 @@
 				</position>
 			</language>
 			<translation>
-				Above /
+				Above.
 			</translation>
 		</marginalia>
 		
@@ -82,7 +82,7 @@
 			<language ident="IT">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						LA Corte, La morte.
+						La Corte, La morte.
 					</marginalia_text>
 				</position>
 			</language>
@@ -130,7 +130,6 @@
 			</language>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -145,8 +144,6 @@
 				Whatever needs to be said or done, let it be for the highest good.
 			</translation>
 		</marginalia>
-		
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -220,15 +217,15 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- co -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- to ... mio -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- to ... mio -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- sto ... farebbe -->
-		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- nerla -->
+		<mark name="plus_sign" method="pen" place="left_margin" language="IT" text="non sapeua trattenerla con altro che dimandarle importunamente"/>
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- tildonna -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- cio ... gli -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="head" language="IT" text="punto perdersi"/>
-	    	<mark name="quotation_mark" method="pen" place="intext"/> <!-- essaudita -->
+	    <mark name="quotation_mark" method="pen" place="intext"/> <!-- essaudita -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- conosca -->
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- farebbe un'altro -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- un'altro -->
