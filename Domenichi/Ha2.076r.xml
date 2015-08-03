@@ -5,32 +5,123 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.076r.tif" signature="*3[r]" reader="Harvey"/>	<!-- ABO 79right -->
+	<page filename="Ha2.077r.tif" signature="[*5[r]]" reader="Harvey"/>	<!-- ABO 80right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
-			<language ident="LA">
+			<language ident="EN">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						= sed etiam Machiauellus, et Bodinus, quanti Politici?
-						Tanti refert, solid&egrave; fundare rem familiarem: et a Teipso
-							<!-- Continues from facing page, head, Ha2.075v -->
+						His fine &amp; excellent description of the Lowe Countries.
 					</marginalia_text>
-					<person name="Machiavelli"/>
-					<person name="Jean Bodin"/>
 				</position>
-				<position place="right_margin" book_orientation="0">
+				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						pendere: non ab amicis: qui nulli sunt egentibus.
-						Contemnuntur pauperu[m] dignissimi: a[e]stimantur diuitu[m] indignissimi.
+						His owne especial account of theise Commonplaces.
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						( Euscopius. )
+					</marginalia_text>
+					<person name="Euscopus"/>
+				</position>
+			</language>
+			<translation>
+				Euscopus. <!-- CG: Not sure about this spelling. Is it a superlative? Usually it's a second declension noun. -->
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="left_margin" book_orientation="0">
+					<marginalia_text>
+						( Ecc&egrave;  Manlij
+					</marginalia_text>
+					<person name="Johannes Jacobus Manlius"/>
+				</position>
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						Loci,
+					</marginalia_text>
+					<book title="Loci communes"/>
+				</position>
+				<position place="left_margin" book_orientation="0">
+					<marginalia_text>
+						Jociq[ue] communes.)
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				but even Machiavelli and Bodin, as Politicians?
-				It is of much importance to build a solid foundation for the patrimony of your family and to depend
-				on yourself, not on your friends, who need nothing. The worthiest of the poor are held in contempt,
-				the unworthiest the wealthy are held in esteem.				
+				Here are the common places and common jokes of Manlius.
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="0">
+					<marginalia_text>
+						( Loci Communes
+					</marginalia_text>
+				</position>
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						Fortio,
+					</marginalia_text>
+					<person name="Fortius"/>
+				</position>
+				<position place="right_margin" book_orientation="0">
+					<marginalia_text>
+						sunt ipsa ) capita reru[m]:
+						et Materiaru[m] puncta.
+						Nuda cuiusq[ue] discursus argumenta: vno, aut altro
+						termino expressa.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				Fortius' common places are themselves the origins of things and the points of the matter.
+				The bare arguments of this discourse are expressed with one or another term.
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="0">
+					<marginalia_text>
+						Vt, prude[n]tia: cautela: valor: industria.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				Such as, prudence: caution, valor, industriousness.
+			</translation>
+		</marginalia>
+		
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="left_margin" book_orientation="0">
+					<marginalia_text>
+						Summus non erit, qui non ex quaq[ue] disciplina decerpit,
+						quod ad Scopu[m] suum confert. Id citra labore[m] efficies,
+						si nihil attigeris, nisi Locos
+					</marginalia_text>
+				</position>
+				<position place="tail" book_orientation="0">
+					<marginalia_text>
+						Communes. Fortius. )
+					</marginalia_text>
+					<person name="Joachim Fortius Ringelberg"/>
+				</position>
+			</language>
+			<translation>
+				He who does not gather from this discipline that which would bear him to his goal
+				will not attain the highest point. You shall carry out this matter without any work, if you
+				arm yourself with nothing but the Common Places. Fortius.
 			</translation>
 		</marginalia>
 		
@@ -38,33 +129,28 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Prouidus est plenus: improuidus extat egenus.
+						) Locos autem Communes maxim&egrave; 
+						probo, qui Locis proprijs inseruiunt maxim&egrave;.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				He who is cautious is plentiful: he who lacks caution stands out as destitute.
+				But I most approve those common places which are most useful for
+				their proper places.
 			</translation>
 		</marginalia>
-		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="left_margin" book_orientation="270">
+				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Parum habet habilitatis, qui non potest vni abund&egrave; prouidere.
-						Quid scit, qui nescit Seipsum adiuuare?
+						( Autargia scopus Autologia[e]. )
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				He who cannot fully guard against one thing has too little ability.
-				He who does not know how to help himself, what can he know?
+				Self-sufficiency is the goal of self-study.
 			</translation>
 		</marginalia>
-		
-		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
-
 
     </annotation>
 </transcription>

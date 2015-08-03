@@ -5,227 +5,94 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.074v.tif" pagination="flyleaf" reader="Harvey"/>	<!-- ABO 78left -->
+	<page filename="Ha2.075v.tif" signature="*2[v]" reader="Harvey"/>	<!-- ABO 79left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="head" book_orientation="0">
+					<marginalia_text>
+						Generales Professores, sine speciali praxi, aut certa
+						necessariarum opum prouisione; moriuntur Mendici.
+						Vt non mod&ograve; Agrippa, et Turnebus, quanti philologi? =
+							<!-- Continues onto facing page, head, Ha2.076r -->
+					</marginalia_text>
+					<person name="Heinrich Cornelius Agrippa"/> <!-- CG: I assume he's referring to a more modern Agrippa. What do you think? -->
+					<person name="Adrianus Turnebus"/>
+				</position>
+			</language>
+			<translation>
+				General professors are without any special praxis or any particular foresight for necessary resources; they shall die poor.
+				Is it not the same for Agrippa and Turnebus as philologists?
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="tail" book_orientation="0">
+					<marginalia_text>
+						Frustr&agrave; Sapit, qui Sibi non Sapit.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				He who does not know himself knows in vain.
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="left_margin" book_orientation="90">
+					<marginalia_text>
+						Oportet regium professorem magna paruo operari: pra[e]sertim
+						Methodo Solis pra[e]sentiss[im]a et praxe Solis potentiss[im]a.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				It is necessary for the royal professor to toil a great deal over something small: especially
+				with a single most favorable method and a single most powerful praxis.
+					<!-- CG: Unclear about "magna parvo operari." Apparently operor takes the dative,
+					but I'm not sure what to do with the "magna." -->
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="tail" book_orientation="180">
+					<marginalia_text>
+						Quid habent heroici labores supr&agrave; hodiernas industrias?
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				Who holds heroic labors above daily industriousness?
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
 			<language ident="IT">
-				<position place="full_page" book_orientation="0">
+				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						egregij fatti, et aguti detti di Castruccio, cio&egrave;,
-						di Aristippo, Diogene, Bione: onde appare
-						l'arguto, e faceto humore del Macchiauelli.
-						Vita del Esopo.
+						E semplice, chi e pouero? non e fino, chi non e ricco. 
 					</marginalia_text>
-					<person name="Castruccio"/>
-					<person name="Aristippus"/>
-					<person name="Diogenes of Sinope"/>
-					<person name="Bion of Smyrna"/>
-					<person name="Machiavelli"/>
-					<person name="Aesop"/>
-					<X-ref person="Machiavelli" book_title="La vita di Castruccio Castracani"/> <!--JG: Can you include the quoted text in the text attribute?-->
+				</position>
+			</language>
+			<language ident="LA">
+				<position place="right_margin" book_orientation="270">
+					<marginalia_text>
+						Vt s. de Nanna[e]
+						panurgica Oeconomia.
+						<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				The illustrious facts and clever sayings of Castruccio, that is,
-				of Aristippus, Diogenes of Sinope, Bion of Smyrna: from whom
-				comes the clever and witty humor of Machiavelli. The life of Aesop.				
+				Is the poor man simple? The rich man is not refined.
 			</translation>
 		</marginalia>
+
 		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="full_page" book_orientation="0">
-					<marginalia_text>
-						Apophthegmata Hebra[e]oru[m], et Arabum: &agrave;
-						Drusio nouissim&egrave; collecta. scita, et salsa.
-					</marginalia_text>
-					<person name="Johannes Drusius"/>
-					<book title="Apophthegmata Hebraeorum ac Arabum"/>
-				</position>
-			</language>
-			<translation>
-				Jewish and Arabic aphorisms, collected most recently by Drusius. 
-				Clever and witty.
-			</translation>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="full_page" book_orientation="0">
-					<marginalia_text>
-						{ Maior Natura[e], et Exercitationis
-						 valor, qu&agrave;m Artis.
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				There is no greater valor of Nature and Exercise than that of Art.
-			</translation>
-		</marginalia>
-		
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="full_page" book_orientation="0">
-					<marginalia_text>
-						{ Sapiens est, qui multa nouit Natura[e] solerti&acirc;:
-						qui autem disciplina vsi fuerunt, uehementes garrulitate
-						vel&ugrave;t Corui, irrita clamant Jouis aduers&ugrave;s auem
-						diuinam. Pindarus Ode 2. Olympiorum.
-					</marginalia_text>
-					<person name="Pindar"/>
-					<book title="Olympian Odes"/>
-					<emphasis method="pen" type="straight" text="Natura[e] solerti&acirc;"/>
-					<emphasis method="pen" type="straight" text="disciplina vsi"/>
-					<emphasis method="pen" type="straight" text="uehementes garrulitate"/>
-					<emphasis method="pen" type="straight" text="irrita clamant"/>
-				</position>
-			</language>
-			<translation>
-				"The man who knows a great deal by nature is truly skillful, 
-				while those who have only learned chatter with raucous and 
-				indiscriminate tongues in vain like crows against the divine bird of Zeus."
-				  Pindar's second Olympian Ode.
-			</translation>	 <!-- Translation from Perseus Project; Diane Arnson Svarlien  -->
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="full_page" book_orientation="0">
-					<marginalia_text>
-						Telamoni nunq[uam] timor viroru[m] domitor extinxit
-						fortitudinem animi. Sic ex ingenita virtute illustri
-						quisq[ue] magnum pondus obtinet + At/qui ex disciplina
-						accepit ea qua[e] habet obscurus vir, ali&agrave;s alia spirans,
-						nunq[uam] pede exact&egrave; stabili incedit, sed infinitas
-						Virtutes insufficienti mente degustat. Idem
-						Idem 3. Nemeorum. { Horatio Dirca[e]us Cygnus.
-					</marginalia_text>
-					<book title="Nemean Odes"/>
-					<X-ref person="Horace" book_title="Odes"/>
-					<emphasis method="pen" type="straight" text="Telamoni nunq[uam] timor"/>
-					<emphasis method="pen" type="straight" text="fortitudinem animi"/>
-					<emphasis method="pen" type="straight" text="ex ingenita virtute"/>
-					<emphasis method="pen" type="straight" text="magnum pondus obtinet"/>
-					<emphasis method="pen" type="straight" text="ex disciplina"/>
-					<emphasis method="pen" type="straight" text="ali&agrave;s alia spirans"/>
-					<emphasis method="pen" type="straight" text="nunq[uam] pede exact&egrave; stabili incedit"/>
-					<emphasis method="pen" type="straight" text="infinitas"/>
-					<emphasis method="pen" type="straight" text="Virtutes"/>
-					<emphasis method="pen" type="straight" text="insufficienti mente degustat"/>
-				</position>
-			</language>
-			<translation>
-				"And fear, the subduer of men, never dulled the edge of Telamon's mind.
-				A man with inborn glory has great weight; but he who has only learned is a man in darkness, 
-				breathing changeful purposes, never taking an unwavering step, but trying his hand 
-				at countless forms of excellence with his ineffectual thought."
-				  Pindar's third Nemean Ode
-				 (in Horace, he is the Thebean swan)
-			</translation>  <!-- Translation from Perseus Project; Diane Arnson Svarlien  -->
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="full_page" book_orientation="0">
-					<marginalia_text>
-						Hieron, decerpens summitates ex singulis virtutibus.
-					</marginalia_text>
-					<emphasis method="pen" type="straight" text="singulis virtutibus"/>
-				</position>
-			</language>
-			<language ident="EL">
-				<position place="full_page" book_orientation="0">
-					<marginalia_text>
-						δρέπων κορυφὰς  ἀρετᾶν.
-					</marginalia_text>
-					<emphasis method="pen" type="straight" text=""/>
-				</position>
-			</language>
-			<language ident="LA">
-				<position place="full_page" book_orientation="0">
-					<marginalia_text>
-						Ode I. Olymp.
-					</marginalia_text>
-					<book title="Olympian Odes"/>
-				</position>
-			</language>
-			<translation>
-				"Hieron, reaping every excellence at its peak, 
-				reaping every excellence at its peak." <!-- CG: Includes same phrase in both Latin and Greek. -->
-				Pindar's first Olympian Ode.
-			</translation>	 <!-- Translation from Perseus Project; Diane Arnson Svarlien  -->
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="full_page" book_orientation="0">
-					<marginalia_text>
-						Omnis Natura pra[e]clarior fit, si conformatio qua[e]dam
-						doctrina[e] accesserit: long&egrave; ver&ograve; maxim&egrave; ijs, quibus
-						contigit meliorem ab initio sortiri, qu&agrave;m alijs.
-						Illis enim sese tant&ugrave;m vincere: his ver&ograve; alijs etiam
-						pra[e]stare accidit. Demosthenes in Erotica.
-					</marginalia_text>
-					<emphasis method="pen" type="straight" text="Natura pra[e]clarior"/>
-					<emphasis method="pen" type="straight" text="doctrina[e]"/>
-					<emphasis method="pen" type="straight" text="meliorem ab initio"/>
-					<emphasis method="pen" type="straight" text="enim sese tant&ugrave; vincere"/>
-					<emphasis method="pen" type="straight" text="ver&ograve; alijs etiam pra[e]stare"/>
-				</position>
-			</language>
-			<translation>
-				"All natural ability is improved by the addition of the appropriate education,
-				and this is especially true of talents which at the outset are inherently superior to the rest, 
-				because the one kind is capable only of improving upon itself while the other may also surpass the rest."
-				The Erotic Essay of Demosthenes.
-			</translation> <!-- Translation from Perseus Project; Norman Wentworth DeWitt  -->
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="full_page" book_orientation="0">
-					<marginalia_text>
-						Posteri dies, testes sunt sapientissimi. Pind. Ode. I.
-					</marginalia_text>
-					<X-ref person="Pindar" book_title="Olympian Odes"/> <!--JG: Should not be X-ref tag, but book tag, no?-->
-				</position>
-			</language>
-			<translation>
-				"The days to come are the wisest witnesses."
-				  Pindar's first Olympian Ode.
-			</translation>  <!-- Translation from Perseus Project; Diane Arnson Svarlien  -->
-		</marginalia>
-		
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="full_page" book_orientation="90">
-					<marginalia_text>
-						Cert&egrave; magis est radicale, quod Natura, et Exercitatione infigitur, qu&agrave;m quod Arte
-						inseritur.
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				Certainly it is more radical that Nature is fixed by Practice, rather than grafted on by Art.
-			</translation>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="full_page" book_orientation="270">
-					<marginalia_text>
-						Nulla vtilitas est vel vtilissima[e] Artis, sine assidua Exercitatione.
-						R. in Corollario Scholarum Dialecticaru[m].
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				Even the most useful art is useless without constant practice.
-				R. in the corollary of scholarly dialectics. <!-- CG: I've no idea who or what this is. Any ideas? -->
-			</translation>
-		</marginalia>
+
+
     </annotation>
 </transcription>

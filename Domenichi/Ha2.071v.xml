@@ -5,207 +5,163 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.071v.tif" pagination="460" reader="Harvey"/>	<!-- ABO 75left -->
+	<page filename="Ha2.072v.tif" pagination="flyleaf" reader="Harvey"/>	<!-- ABO 76left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
-			<language ident="IT">
-				<position place="head" book_orientation="0">
-					<marginalia_text>
-						Il Re Frederico di Denmarca.
-					</marginalia_text>
-					<person name="Frederick II of Denmark"/> <!-- CG: Seems like the most likely candidate. -->
-				</position>
-			</language>
 			<language ident="LA">
-				<position place="head" book_orientation="0">
+				<position place="full_page" book_orientation="0">
 					<marginalia_text>
-						i[nfr]a, 211.
+						Nunq[uam] ta[e]deat Domenici, aut Gandini: aut
+						ullius Monopragmatici.
 					</marginalia_text>
+					<person name="Lodovico Domenichi"/>
+					<person name="Marcantonio Gandino"/>
 				</position>
 			</language>
 			<translation>
-				King Frederick of Denmark. Above, pg. 211.
-			</translation>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="IT">
-				<position place="tail" book_orientation="0">
-					<marginalia_text>
-						Comedie facetissime del Vnico Aretino, et Machiauelli.
-					</marginalia_text>
-					<person name="Bernardo Accolti"/>
-					<person name="Machiavelli"/>
-				</position>
-			</language>
-			<translation>
-				The wittiest comedies of Bernardo Accolti and Machiavelli.
+				May we never become tired of Domenichi, Gandino, or any other single-skilled man.
 			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="tail" book_orientation="0">
+				<position place="full_page" book_orientation="0">
 					<marginalia_text>
-						Iocorum veteru[m], ac recentiu[m] Libri tres:
-						Auctor Adriano Barlando.
-						E' Macrobio: Quintiliano: Cicerone: Suetonio:
-						Laertio: Plutarcho: Pontano: Erasmo:
-						Martiale: Horatio: Ausonio: Thoma Moro.
-						Ego soleo addere Castilionis Aulicu[m]: Mensam
-						Philosophicam: Wilsoni Rhetoricam:
-						Speculum La[e]titia[e] Gallicum: Rabelaisiu[m]:
-						Manlium: nec omnin&ograve; quicq[uam] Stratagematibus
-						par, vel vtilitate, vel voluptate.
-						Techna[e], et Stratagemata, pra[e]gnantes Joci.
-						Item multa[e] Pragmaticorum Cautela[e].
+						Consilium Medicum Eobani Hessi,
+						Poeta[e] Physici, et Homerici.
+						Vtere Conuiuis non tristibus: vtere amicis,
+						Quos Chelys, et risus, et ioca salsa iuuant.
+						
+						Dominus Thomas Morus, summus Anglia[e]
+						Cancellarius; sed ut homo ingeniosissimus, ita
+						vald&egrave; vrbanus, et perfacetus; solebat illud
+						per vulgatum subinde repetere:
+						Dum sumus in Mundo, viuiamus corde jocundo.
+						Idem pro eo, quod dici solet: Sic transit
+						gloria Mundi: solebat dicere:
+						Sic transit moria glundi: quasi
+						alludens ad Moria[e] Encomiu[m]; aut vulgare
+						illud, Stultorum plena sunt Omnia.
+						Nam festiuus vir, Luciani ingenio
+						delectabatur; et sa[e]p&egrave; agebat Democritu[m].
+						Nec tantus
 					</marginalia_text>
-					<person name="Adriaan van Baerland"/>
-					<person name="Macrobius"/>
-					<person name="Quintilian"/>
-					<person name="Cicero"/>
-					<person name="Suetonius"/>
-					<person name="Diogenes Laertius"/>
-					<person name="Plutarch"/>
-					<person name="Giovanni Pontano"/>
-					<person name="Erasmus"/>
-					<person name="Martial"/>
-					<person name="Horace"/>
-					<person name="Ausonius"/>
+					<person name="Helius Eobanus Hessus"/>
+					<person name="Homer"/>
 					<person name="Thomas Moore"/>
-					<person name="Castiglione"/>
-					<person name="Thomas Wilson"/>
-					<person name="Francois Rabelais"/>
-					<person name="Johannes Jacobus Manlius"/>
-					<book title="Iocorum veterum ac recentium libri tres"/>
-					<book title="The Book of the Courtier"/>
-					<book title="Mensa Philsophica"/>
-					<book title="The Arte of Rhetorique"/>	
-					<book title="Stratagemata"/>
-					<emphasis method="pen" type="straight" text="Adriano Barlando"/>
-					<emphasis method="pen" type="straight" text="Castilionis"/>
-					<emphasis method="pen" type="straight" text="Mensam"/>
-					<emphasis method="pen" type="straight" text="Wilsoni"/>
-					<emphasis method="pen" type="straight" text="Speculum La[e]titia[e]"/>
-					<emphasis method="pen" type="straight" text="Rabelaisiu[m]"/>
-					<emphasis method="pen" type="straight" text="Manlium"/>
-					<emphasis method="pen" type="straight" text="Techna[e]"/>
-					<emphasis method="pen" type="straight" text="Stratagemata"/>
-					<emphasis method="pen" type="straight" text="Cautela[e]"/>
+					<person name="Lucian"/>
+					<person name="Democritus"/>
+					<book title="In Praise of Folly"/>
+				</position>
+			</language>
+			<language ident="EL">
+				<position place="full_page" book_orientation="0">
+					<marginalia_text>
+						ἐιρων
+					</marginalia_text>
+				</position>
+			</language>
+			<language ident="LA">
+				<position place="full_page" book_orientation="0">
+					<marginalia_text>
+						Socrates, quantus
+						ille ingeniosus vir; semper hilaris in
+						omni societate Ciuili. Etiam mortem
+						oppetiturus, iocabatur affatim; et ridebat
+						omnes, et omnia, pra[e]ter suam causam.
+						Amabat Bacchu[m]: sed eundem Janum, Osirim,
+						Apollinem. Euohe.
+					</marginalia_text>
+					<person name="Socrates"/>
+					<person name="Bacchus"/>
+					<person name="Janus"/>
+					<person name="Osiris"/>
+					<person name="Apollo"/>
+					<emphasis method="pen" type="straight" text="oppetiturus, iocabatur affatim"/>
 				</position>
 			</language>
 			<translation>
-				The Three Books of old and Recent Jokes, by Adriaan van Baerland.
-				Taken from Macrobius, Quintilian, Cicero, Suetonius, Diogenes Laertius, Plutarch, Giovanni Pontano,
-				Erasmus, Martial, Horace, Ausonius, Thomas Moore.
-				I am in the habit of adding Castiglione's Courtier, the Mensa Philosophica, Wilson's Rhetoric,
-				the French source of joy, Rabelais, Manlius. But there is nothing entirely comparable to the 
-				Stratagems, either in utility or enjoyment. Skills, stratagems, pregnant jokes.
-				Likewise, the many precautions of pragmatic men.
+				The medical advice of Eobanus Hessus, Homeric poet and natural philosopher:
+				enjoy gatherings (that aren't gloomy), enjoy friends who are delighted by the lyre,
+				laughter, and witty jokes. 
+				
+				Master Thomas Moore, High Chancellor of England, though he was a most ingenius man, 
+				was also very urbane and incredibly witty. He used to repeat constanty that common expression:
+				"While we are in the world, let us live with a happy heart."
+				Likewise, for that which is normally said, "Sic transit gloria mundi," he would say,
+				"Sic transit moria glundi," as if alluding to the Moriae Encomium.
+				Or that common phrase, "All things are full of fools."
+				Indeed he was a lively man, delighted by the genius of Lucian, and often he acted like Democritus.
+				And the ingenuity of this was was found not so much in Socratic irony, as in remaining always cheerful 
+				in every civil society. Even when he was about to meet death, he joked continuously, and he laughed
+				at everything and everyone before his trial.
+				He loved Bacchus, but also Janus, Osiris, Apolllo. Euohe!	<!-- CG: The noise that priests of Bacchus make. -->
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="full_page" book_orientation="0">
+					<marginalia_text>
+						( Venus Homeri,
+					</marginalia_text>
+				</position>
+			</language>
+			<language ident="EL">
+				<position place="full_page" book_orientation="0">
+					<marginalia_text>
+						φιλομειδὴς,
+					</marginalia_text>
+				</position>
+			</language>
+			<language ident="LA">
+				<position place="full_page" book_orientation="0">
+					<marginalia_text>
+						amica ridendi. )
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				Homer's laughter-loving Venus is fond of laughing.
 			</translation>
 		</marginalia>
 		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="left_margin" book_orientation="90">
+				<position place="full_page" book_orientation="90">
 					<marginalia_text>
-						Vita Plinio vigilia: Seneca[e] militia. Quid Ca[e]sari? quid Hyperca[e]sari?
+						Vnicus mundi magnes, est Animus. Nec ullus adamas tam penetrax: nec ipse
+						philosophorum Lapis tam multiplicabundus.
 					</marginalia_text>
-					<person name="Pliny the Elder"/>
-					<person name="Seneca"/>
-					<person name="Julius Caesar"/>
 					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
 			<translation>
-				The vigilant life is found in Pliny, the militant life in Seneca. What of Caesar? What of Super-Cesar?
+				The sole lodestone of the world is the Soul. No steel is as penetrating, nor philosophers'
+				stone as full of reproductive power. <!-- CG: Another weird neologism. -->
 			</translation>
 		</marginalia>
 		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="right_margin" book_orientation="270">
+				<position place="full_page" book_orientation="270">
 					<marginalia_text>
-						In rebus afflictis, Patie[n]tia[e] doctor Augustinus: securitatis, Epictetus: tranquilitatis,  
+						At nihil tale feci, aut dixi: meam dedecus. At plus faciam: mea 
+						Apologia. At iam feci: mea dignitas. Eudromus.
 					</marginalia_text>
-					<person name="Augustine"/>
-					<person name="Epictetus"/>
-					<emphasis method="chalk" type="straight"/>
-				</position>
-				<position place="tail" book_orientation="270">
-					<marginalia_text>
-						Seneca: serenitatis, Antoninus: iucunditatis, Vespasianus:
-						la[e]titia[e], Julius, et 
-						splendoris. 
-						Nunq[uam]
-						magnificentior, qu&agrave;m c&ugrave;m oppugnatus maxim&egrave;.
-					</marginalia_text>
-					<person name="Seneca"/>
-					<person name="Marcus Aurelius"/>
-					<person name="Vespasian"/>
-					<person name="Julius Caesar"/>
-				</position>
-			</language>
-			<translation>
-				In vexing situations, Augustine is the teacher of patience; Epictetus of safety; 
-				Seneca of tranquility; Marcus Aurelius of serenity; Vespasian of pleasantness;
-				Julius of fruitfulness and splendor. Never is Julius more magnificent than when he is
-				under heavy attack.
-			</translation>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="left_margin" book_orientation="270">
-					<marginalia_text>
-						Nihil omnes Oratores, aut Philosophi, aut etiam historici, ad Julium.
-					</marginalia_text>
-					<person name="Julius Caesar"/>
-					<emphasis method="chalk" type="straight"/>
+					<person name="Eudromus"/>
 					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
 			<translation>
-				Compared to Julius, all Orators, Philosophers, and even Historians, are nothing.
+				But I never did or said anything so great: this is my disgrace. But I shall do more: 
+				this is my apology. But now it is done: this is my dignity. Eudromus.
 			</translation>
 		</marginalia>
 		
-		<!-- Underlines -->
-		<underline method="pen" type="straight" language="IT" text="Galeno"/>
-		<underline method="pen" type="straight" language="IT" text="&amp; d'eccellenza"/>
-		<underline method="pen" type="straight" language="IT" text="professione di filosofia &amp; di medicina"/>
-		<underline method="pen" type="straight" language="IT" text="apparechio d'armi, che secretamente"/>
-		<underline method="pen" type="straight" language="IT" text="Gentil'huomini. Perche usciti"/>
-		<underline method="pen" type="straight" language="IT" text="apparecchi d'armi, &amp; addobbamenti di soldati"/>
-		<underline method="pen" type="straight" language="IT" text="che 'l Papa fosse morto"/>
-		<underline method="pen" type="straight" language="IT" text="sicurezza delle case loro"/>
-		<underline method="pen" type="straight" language="IT" text="Signor Piercamillo"/>
-		<underline method="pen" type="straight" language="IT" text="fretta dunque"/>
-		<underline method="pen" type="straight" language="IT" text="Papa &egrave; morto hoggi"/>
-		<underline method="pen" type="straight" language="IT" text="sar&agrave; egli morto ancho domani &amp; l'altro?"/>
-		
-		<!-- Symbols -->
-		<symbol name="Sun" place="head"/>
-		<symbol name="Mars" place="left_margin"/>
-		<symbol name="SS" place="tail"/>		
-		
-		<!-- Marks -->			
-		<!-- Right margin -->
-		<mark name="dash" method="pen" place="right_margin"/> <!-- d'ar -->
-		<mark name="dash" method="pen" place="right_margin"/> <!-- dubi -->
-		
-	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- fretta .. sara' -->
-		    
-	    	<!-- Head/Intext/Tail -->
-		<mark name="dot" method="pen" place="intext"/> <!-- soldati, ci -->
-		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: Piercamillo -->
-		<mark name="plus_sign" method="pen" place="intext"/> <!-- morto hoggi -->
-	    	<mark name="equal_sign" method="pen" place="intext"/> <!-- domani -->
-		<mark name="quotation_mark" method="pen" place="intext"/> <!-- l'altro? -->
-
+		<mark name="quotation_mark" method="pen" place="intext"/> 
     </annotation>
 </transcription>

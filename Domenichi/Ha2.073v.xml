@@ -5,130 +5,197 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.073v.tif" pagination="flyleaf" reader="Harvey"/>	<!-- ABO 77left -->
+	<page filename="Ha2.074v.tif" pagination="flyleaf" reader="Harvey"/>	<!-- ABO 78left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
-			<language ident="LA">
+			<language ident="IT">
 				<position place="full_page" book_orientation="0">
 					<marginalia_text>
-						Excellentissimo, nemo Satis excellens. Julianus Ca[e]sar,
-						Antica[e]sar.
+						egregij fatti, et aguti detti di Castruccio, cio&egrave;,
+						di Aristippo, Diogene, Bione: onde appare
+						l'arguto, e faceto humore del Macchiauelli.
+						Vita del Esopo.
 					</marginalia_text>
-					<person name="Julian"/>
+					<person name="Castruccio"/>
+					<person name="Aristippus"/>
+					<person name="Diogenes of Sinope"/>
+					<person name="Bion of Smyrna"/>
+					<person name="Machiavelli"/>
+					<person name="Aesop"/>
+					<X-ref person="Machiavelli" book_title="La vita di Castruccio Castracani"/> <!--JG: Can you include the quoted text in the text attribute?-->
 				</position>
 			</language>
 			<translation>
-				No one is as excellent as the most excellent. Julianus Caesar, the Anti-Caesar. 
+				The illustrious facts and clever sayings of Castruccio, that is,
+				of Aristippus, Diogenes of Sinope, Bion of Smyrna: from whom
+				comes the clever and witty humor of Machiavelli. The life of Aesop.				
 			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
-			<language ident="IT">
+			<language ident="LA">
 				<position place="full_page" book_orientation="0">
 					<marginalia_text>
-						{ Nel mondo mutabile, e leggiero,
-						  Costansa &egrave;, spesso il variar pensiero.
-						  		Canto 5. del Tasso.
+						Apophthegmata Hebra[e]oru[m], et Arabum: &agrave;
+						Drusio nouissim&egrave; collecta. scita, et salsa.
 					</marginalia_text>
-					<person name="Torquato Tasso"/>
-					<X-ref person="Torquato Tasso" book_title="Jerusalem Delivered"/> <!--JG: Can you include the quoted text in the text attribute?-->
+					<person name="Johannes Drusius"/>
+					<book title="Apophthegmata Hebraeorum ac Arabum"/>
 				</position>
 			</language>
 			<translation>
-				"In this changing and mutable world,
-				Constancy often comes from changing one's mind."
-				The fifth canto of Tasso.
+				Jewish and Arabic aphorisms, collected most recently by Drusius. 
+				Clever and witty.
 			</translation>
 		</marginalia>
+		
 		<marginalia hand="Italian">
-			<language ident="IT">
+			<language ident="LA">
 				<position place="full_page" book_orientation="0">
 					<marginalia_text>
-										sciocche.	<!-- CG: How do record the deleted H? --> 
-						Parole, che fanno ridere, o {	malediche.
-										innamorate.
-						   Macchiauelli nel Prologo di Clitia.
-						{ Parole piene di queste tre qualita, cio&egrave;,
-						sciocche, malediche, amorose; piene di risa.
-						Ma Machiauelli, non inducendo in sua Commedia
-						persone sciocche, o Iniuriose; &egrave; stato
-						necessitato ricorrere alle persone Innamorate.
-						In Commedie del Aretino, talhora persone
-						sciocche, et Iniuriose, e
+						{ Maior Natura[e], et Exercitationis
+						 valor, qu&agrave;m Artis.
 					</marginalia_text>
-					<person name="Machiavelli"/>
-					<person name="Pietro Aretino"/>
-					<book title="Clizia"/>
-					<emphasis method="pen" type="straight" text="fanno ridere"/>
-					<emphasis method="pen" type="straight" text="sciocche"/>
-					<emphasis method="pen" type="straight" text="malediche"/>
-					<emphasis method="pen" type="straight" text="innamorate"/>
-					<emphasis method="pen" type="straight" text="piene di queste"/>
-					<emphasis method="pen" type="straight" text="sciocche"/>
-					<emphasis method="pen" type="straight" text="malediche"/>
-					<emphasis method="pen" type="straight" text="amorose"/>
-					<emphasis method="pen" type="straight" text="piene di risa"/>
-					<emphasis method="pen" type="straight" text="Machiauelli"/>
-					<emphasis method="pen" type="straight" text="sciocche, o Iniuriose"/>
-					<emphasis method="pen" type="straight" text="personane Innamorate"/>
-					<emphasis method="pen" type="straight" text="Aretino"/>
-					<emphasis method="pen" type="straight" text="sciocche, et Iniuriose"/>						
+				</position>
+			</language>
+			<translation>
+				There is no greater valor of Nature and Exercise than that of Art.
+			</translation>
+		</marginalia>
+		
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="full_page" book_orientation="0">
+					<marginalia_text>
+						{ Sapiens est, qui multa nouit Natura[e] solerti&acirc;:
+						qui autem disciplina vsi fuerunt, uehementes garrulitate
+						vel&ugrave;t Corui, irrita clamant Jouis aduers&ugrave;s auem
+						diuinam. Pindarus Ode 2. Olympiorum.
+					</marginalia_text>
+					<person name="Pindar"/>
+					<book title="Olympian Odes"/>
+					<emphasis method="pen" type="straight" text="Natura[e] solerti&acirc;"/>
+					<emphasis method="pen" type="straight" text="disciplina vsi"/>
+					<emphasis method="pen" type="straight" text="uehementes garrulitate"/>
+					<emphasis method="pen" type="straight" text="irrita clamant"/>
+				</position>
+			</language>
+			<translation>
+				"The man who knows a great deal by nature is truly skillful, 
+				while those who have only learned chatter with raucous and 
+				indiscriminate tongues in vain like crows against the divine bird of Zeus."
+				  Pindar's second Olympian Ode.
+			</translation>	 <!-- Translation from Perseus Project; Diane Arnson Svarlien  -->
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="full_page" book_orientation="0">
+					<marginalia_text>
+						Telamoni nunq[uam] timor viroru[m] domitor extinxit
+						fortitudinem animi. Sic ex ingenita virtute illustri
+						quisq[ue] magnum pondus obtinet + At/qui ex disciplina
+						accepit ea qua[e] habet obscurus vir, ali&agrave;s alia spirans,
+						nunq[uam] pede exact&egrave; stabili incedit, sed infinitas
+						Virtutes insufficienti mente degustat. Idem
+						Idem 3. Nemeorum. { Horatio Dirca[e]us Cygnus.
+					</marginalia_text>
+					<book title="Nemean Odes"/>
+					<X-ref person="Horace" book_title="Odes"/>
+					<emphasis method="pen" type="straight" text="Telamoni nunq[uam] timor"/>
+					<emphasis method="pen" type="straight" text="fortitudinem animi"/>
+					<emphasis method="pen" type="straight" text="ex ingenita virtute"/>
+					<emphasis method="pen" type="straight" text="magnum pondus obtinet"/>
+					<emphasis method="pen" type="straight" text="ex disciplina"/>
+					<emphasis method="pen" type="straight" text="ali&agrave;s alia spirans"/>
+					<emphasis method="pen" type="straight" text="nunq[uam] pede exact&egrave; stabili incedit"/>
+					<emphasis method="pen" type="straight" text="infinitas"/>
+					<emphasis method="pen" type="straight" text="Virtutes"/>
+					<emphasis method="pen" type="straight" text="insufficienti mente degustat"/>
+				</position>
+			</language>
+			<translation>
+				"And fear, the subduer of men, never dulled the edge of Telamon's mind.
+				A man with inborn glory has great weight; but he who has only learned is a man in darkness, 
+				breathing changeful purposes, never taking an unwavering step, but trying his hand 
+				at countless forms of excellence with his ineffectual thought."
+				  Pindar's third Nemean Ode
+				 (in Horace, he is the Thebean swan)
+			</translation>  <!-- Translation from Perseus Project; Diane Arnson Svarlien  -->
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="full_page" book_orientation="0">
+					<marginalia_text>
+						Hieron, decerpens summitates ex singulis virtutibus.
+					</marginalia_text>
+					<emphasis method="pen" type="straight" text="singulis virtutibus"/>
+				</position>
+			</language>
+			<language ident="EL">
+				<position place="full_page" book_orientation="0">
+					<marginalia_text>
+						δρέπων κορυφὰς  ἀρετᾶν.
+					</marginalia_text>
+					<emphasis method="pen" type="straight" text=""/>
 				</position>
 			</language>
 			<language ident="LA">
 				<position place="full_page" book_orientation="0">
 					<marginalia_text>
-						Quid non?
+						Ode I. Olymp.
 					</marginalia_text>
-				</position>
-			</language>
-			<language ident="IT">
-				<position place="full_page" book_orientation="0">
-					<marginalia_text>
-						Macchiauelli, piu respettiuo, e ciuile:
-						Aretino piu impetuoso, e fantastico.
-						Quello quasi sempre politico:
-						questo quasi tutto Capriccioso.
-						{ Eccoti il Domator d'ogni gagliardo:
-						come dice Tasso del brauo Rinaldo.
-						Chi f&ugrave;, ch'ardi cotanto, e tanto fece?
-					</marginalia_text>
-					<X-ref person="Torquato Tasso" book_title="Jerusalem Delivered"/> <!--JG: Can you include the quoted text in the text attribute?-->
-					<emphasis method="pen" type="straight" text="piu respettiuo"/>
-					<emphasis method="pen" type="straight" text="piu impetuoso"/>
-					<emphasis method="pen" type="straight" text="sempre politico"/>
-					<emphasis method="pen" type="straight" text="tutto Capiccioso"/>
-					<emphasis method="pen" type="straight" text="Eccoti il Domator d'ogni gagliardo"/>
-					<emphasis method="pen" type="straight" text="ch'ardi cotanto, e tanto fece"/>
+					<book title="Olympian Odes"/>
 				</position>
 			</language>
 			<translation>
-				Words that cause laughter are either stupid, insulting, or loving.
-				In the prologue to Machiaveli's Clizia, there are words full of these three qualities;
-				that is, words which are stupid, insulting, and loving, all full of laughter.
-				But Machiavelli, by not including stupid or insulting characters in his comedy,
-				was required to make use only of loving ones.
-				In the comedies of Pietro Aretino, often there are stupid and insulting characters, and why not?
-				Machiavelli is more respectful and civil, Aretino is more impetuous and fantastical.
-				The former is almost always political, while the latter is almost completely whimsical.
-				Here then is the trainer of every healthy man. As Tasso says of brave Rinaldo:
-				"Who was is that dared so much and so much accomplished?"				
-			</translation>
+				"Hieron, reaping every excellence at its peak, 
+				reaping every excellence at its peak." <!-- CG: Includes same phrase in both Latin and Greek. -->
+				Pindar's first Olympian Ode.
+			</translation>	 <!-- Translation from Perseus Project; Diane Arnson Svarlien  -->
 		</marginalia>
+		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="full_page" book_orientation="0">
 					<marginalia_text>
-						Ridet in a[e]rumnis Amphitrioniades.
+						Omnis Natura pra[e]clarior fit, si conformatio qua[e]dam
+						doctrina[e] accesserit: long&egrave; ver&ograve; maxim&egrave; ijs, quibus
+						contigit meliorem ab initio sortiri, qu&agrave;m alijs.
+						Illis enim sese tant&ugrave;m vincere: his ver&ograve; alijs etiam
+						pra[e]stare accidit. Demosthenes in Erotica.
 					</marginalia_text>
-					<person name="Amphytrion"/>
-					<emphasis method="chalk" type="straight"/>
+					<emphasis method="pen" type="straight" text="Natura pra[e]clarior"/>
+					<emphasis method="pen" type="straight" text="doctrina[e]"/>
+					<emphasis method="pen" type="straight" text="meliorem ab initio"/>
+					<emphasis method="pen" type="straight" text="enim sese tant&ugrave; vincere"/>
+					<emphasis method="pen" type="straight" text="ver&ograve; alijs etiam pra[e]stare"/>
 				</position>
 			</language>
 			<translation>
-				In hardship, he laughs at the children of Amphitryon.
-			</translation>
+				"All natural ability is improved by the addition of the appropriate education,
+				and this is especially true of talents which at the outset are inherently superior to the rest, 
+				because the one kind is capable only of improving upon itself while the other may also surpass the rest."
+				The Erotic Essay of Demosthenes.
+			</translation> <!-- Translation from Perseus Project; Norman Wentworth DeWitt  -->
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="full_page" book_orientation="0">
+					<marginalia_text>
+						Posteri dies, testes sunt sapientissimi. Pind. Ode. I.
+					</marginalia_text>
+					<X-ref person="Pindar" book_title="Olympian Odes"/> <!--JG: Should not be X-ref tag, but book tag, no?-->
+				</position>
+			</language>
+			<translation>
+				"The days to come are the wisest witnesses."
+				  Pindar's first Olympian Ode.
+			</translation>  <!-- Translation from Perseus Project; Diane Arnson Svarlien  -->
 		</marginalia>
 		
 		
@@ -136,61 +203,29 @@
 			<language ident="LA">
 				<position place="full_page" book_orientation="90">
 					<marginalia_text>
-						Grata breuitas: nouitas: varietas. Singula celerrima: omnia
-						fluentissima. Vnicus mundi adamantinus 
-						Stylus.
-						Maxim&egrave; viuidus, et exquisitus.
+						Cert&egrave; magis est radicale, quod Natura, et Exercitatione infigitur, qu&agrave;m quod Arte
+						inseritur.
 					</marginalia_text>
-					<emphasis method="chalk" type="straight"/>
-					<emphasis method="pen" type="straight" text="Grata breuitas"/>
-					<emphasis method="pen" type="straight" text="nouitas"/>
-					<emphasis method="pen" type="straight" text="varietas"/>
 				</position>
 			</language>
 			<translation>
-				Agreeable brevity, variety, novelty. Individual things most swift, all things
-				most fluid. The sole adamantine style in the world.
-				Most lively and excellent.
+				Certainly it is more radical that Nature is fixed by Practice, rather than grafted on by Art.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="full_page" book_orientation="270">
 					<marginalia_text>
-						O[e]conomus Aristotelis, et Xenophontis: Politicus Aristotelis, et Bodini.
-						Pragmaticus Taciti, et Speculatoris: stratagematicus Gandini, et
-						Polya[e]ni: secretarius Weccheri, Baconis, omniumq[ue] polyda[e]dalorum:
-						vnicus mundi polytechnus, et polymechanus.
-						Nec ullus in Orbe panergus, tam energus.
-						Semper ad apicem operis, at negotij. |	<!-- CG: What's the best way to capture the bar at the end? -->
+						Nulla vtilitas est vel vtilissima[e] Artis, sine assidua Exercitatione.
+						R. in Corollario Scholarum Dialecticaru[m].
 					</marginalia_text>
-					<person name="Aristotle"/>
-					<person name="Xenophon"/>
-					<person name="Jean Bodin"/>
-					<person name="Tacitus"/>
-					<person name="Guillaume Durand"/> <!-- Virginia Stern identifies the Speculator as Durand -->
-					<person name="Marcantonio Gandino"/>
-					<person name="Polyaenus"/>
-					<person name="Johannes Jacob Wecker"/>
-					<person name="Francis Bacon"/>
-					<book title="Oeconomica"/>
-					<book title="Oeconomicus"/>
-					<book title="Politics"/>
 				</position>
 			</language>
 			<translation>
-				The Economics of Aristotle and Xenophon; the Politics of Aristotle and Bodin.
-				The Pragmatics of Tacitus and Guillaume Durand; the Stratagems of Gandino and Polyaenus.
-				The Secretary of Wecker and Bacon and of every multi-skilled inventor. <!-- CG: Poly-Daedalus! -->
-				the only polytechnic and polymechanic in the world.
-				In the world there is no supplement like work.
-				Always at the top of works and activities.
+				Even the most useful art is useless without constant practice.
+				R. in the corollary of scholarly dialectics. <!-- CG: I've no idea who or what this is. Any ideas? -->
 			</translation>
 		</marginalia>
-		
-		<symbol name="Sun" place="full_page"/>
-
     </annotation>
 </transcription>

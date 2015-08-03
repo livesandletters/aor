@@ -5,92 +5,125 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.075v.tif" signature="*2[v]" reader="Harvey"/>	<!-- ABO 79left -->
+	<page filename="Ha2.076v.tif" signature="*3[v]" reader="Harvey"/>	<!-- ABO 80left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Generales Professores, sine speciali praxi, aut certa
-						necessariarum opum prouisione; moriuntur Mendici.
-						Vt non mod&ograve; Agrippa, et Turnebus, quanti philologi? =
-							<!-- Continues onto facing page, head, Ha2.076r -->
+						Prudens non est, qui sibi ipsi est imprudens.
 					</marginalia_text>
-					<person name="Heinrich Cornelius Agrippa"/> <!-- CG: I assume he's referring to a more modern Agrippa. What do you think? -->
-					<person name="Adrianus Turnebus"/>
+				</position>
+			</language>
+			<language ident="IT">
+				<position place="head" book_orientation="0">
+					<marginalia_text>
+						Poco fa, chi &agrave; se non gioua.
+					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				General professors are without any special praxis or any particular foresight for necessary resources; they shall die poor.
-				Is it not the same for Agrippa and Turnebus as philologists?
+				He who is imprudent with himself is not prudent.
+				He who is not useful to himself accomplishes little.
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="tail" book_orientation="0">
+					<marginalia_text>
+						Sera nimis Vita est Crastina: viue hodie.
+						Sufficit diei sua malitia:
+						inquit ipse Christus. Sua militia:
+						ait Ca[e]sar. Hodi&egrave; mihi: cras tibi.
+						In Experientia, finis conspicitur
+						eorum, in quibus aliquis est excellentior.
+						Inter pueros puer: inter viros vir: inter senes
+						senex: qualem partem vnamquamq[ue] habemus mortale
+						genus. Percurrit autem et quatuor Virtutes
+						mortale a[e]vum. Cogitare autem decet de eo, quod
+						prop&egrave; est. Pindarus Ode 3. Nemeorum.
+						Qui vincit, reliqua in vita habet mellitam
+						tranquillitatem, propter pra[e]mia victoria[e]. Semper
+						autem quod vno quolibet die obuenit bonu[m], summu[m]
+						venit omni mortali. Idem Ode I. Olymp.
+						Luctus opprimitur grauis &agrave; potiorib[us] bonis. Ode 2.
+						Ex fluctibus semper is, qui circa pedem nauis
+						voluitur, dicitur cui libet maxim&egrave; perturbare animu[m].
+						Ode 6. Nemeorum.
+					</marginalia_text>
+					<person name="Pindar"/>
+					<book title="Nemean Odes"/>
+					<book title="Olympian Odes"/>
+					<X-ref person="Matthew" book_title="Bible" text="Sufficit diei sua malitia" language="LA"/>
+				</position>
+			</language>
+			<translation>
+				Tomorrow is too late for life: live today.
+				Christ himself says, "Sufficent for each day is its own trouble."
+				Caesar says, "Its own warfare." 
+				Today is mine, tomorrow is yours. 
+				
+				By trial the accomplishment is made manifest, of that in which a man proves himself preeminent,
+				as a boy among young boys, a man among men, or, thirdly, among elders, according to each stage 
+				which we, the race of men, possess.  And mortal life sets in motion four excellences, and bids us 
+				to think of what is at hand. 
+				Pindar's Third Nemean Ode. 
+				
+				A victor throughout the rest of his life enjoys honeyed calm, so far as contests can bestow it. 
+				But at any given time the glory of the present day is the highest one that comes to every mortal man.
+				The same, First Olympian Ode.
+				
+				Their heavy sorrow collapsed in the presence of greater blessings.
+				Second Olympian Ode.
+				
+				But the wave that rolls nearest to the ship is said to stir the spirit most of all.
+				Sixth Nemean Ode. <!-- Translations by Diane Arnson Svarllien -->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Frustr&agrave; Sapit, qui Sibi non Sapit.
+						( Hoc age. Vnum necessariu[m].
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				He who does not know himself knows in vain.
+				Do this one necessary thing.
+			</translation>
+		</marginalia>
+		
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="left_margin" book_orientation="270">
+					<marginalia_text>
+						Vald&egrave; sapit, qui Sibi ipsi nunq[uam] repugnat in Medijs, ad suum Finem:
+						sed semper Causas applicat, suo Effectui accommodatas. Memor Scopi.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				He who never contradicts himself in the middle of things until he reaches the end knows much.
+				But he always turns his mind to opportunities suitable  for his accomplishment. Mindful of the goal.
 			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="left_margin" book_orientation="90">
+				<position place="right_margin" book_orientation="90">
 					<marginalia_text>
-						Oportet regium professorem magna paruo operari: pra[e]sertim
-						Methodo Solis pra[e]sentiss[im]a et praxe Solis potentiss[im]a.
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				It is necessary for the royal professor to toil a great deal over something small: especially
-				with a single most favorable method and a single most powerful praxis.
-					<!-- CG: Unclear about "magna parvo operari." Apparently operor takes the dative,
-					but I'm not sure what to do with the "magna." -->
-			</translation>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="tail" book_orientation="180">
-					<marginalia_text>
-						Quid habent heroici labores supr&agrave; hodiernas industrias?
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				Who holds heroic labors above daily industriousness?
-			</translation>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="IT">
-				<position place="right_margin" book_orientation="270">
-					<marginalia_text>
-						E semplice, chi e pouero? non e fino, chi non e ricco. 
-					</marginalia_text>
-				</position>
-			</language>
-			<language ident="LA">
-				<position place="right_margin" book_orientation="270">
-					<marginalia_text>
-						Vt s. de Nanna[e]
-						panurgica Oeconomia.
+						Oculus semper in vexillo. Ad scopum, unaqua[e]q[ue]
 						<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				Is the poor man simple? The rich man is not refined.
+				Always keep your eye on the prize. Towards the goal ...
 			</translation>
 		</marginalia>
-
 		
 
 
