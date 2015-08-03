@@ -59,7 +59,7 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						i[nfr]a, 428.
+						i[nfr]a, 428. <!--JG: Part of marginal note (starting with 'argute') is missing-->
 					</marginalia_text>
 				</position>
 			</language>
@@ -67,7 +67,6 @@
 				Below, p. 428.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="EN">
@@ -103,7 +102,7 @@
 		<underline method="pen" type="straight" language="IT" text="affermando"/>
 		<underline method="pen" type="straight" language="IT" text="Signor si benissimo"/>
 		<underline method="pen" type="straight" language="IT" text="prima"/>
-		<underline method="pen" type="straight" language="IT" text="hebbi ueduto uoi, ch'io ui conobbi da uantaggio"/>
+		<underline method="pen" type="straight" language="IT" text="ueduto uoi, ch'io ui conobbi da uantaggio"/>
 		<underline method="pen" type="straight" language="IT" text="Vn Dottore"/>
 		<underline method="pen" type="straight" language="IT" text="foderata di pelle dozzinali"/>
 		<underline method="pen" type="straight" language="IT" text="&amp; di poco pregio"/>
@@ -122,8 +121,6 @@
 		<underline method="pen" type="straight" language="IT" text="foderato di pelli"/>
 		<underline method="pen" type="straight" language="IT" text="assimigliano alla uostra"/>
 
-
-		<underline method="chalk" type="straight" language="IT" text="palazo"/>
 		<underline method="chalk" type="straight" language="IT" text="piccola delle cose d'Archittetura, prese a raccontare"/>
 		<underline method="chalk" type="straight" language="IT" text="ch'era Puglese al comando di sua Signora"/>
 		<underline method="chalk" type="straight" language="IT" text="Signor si benissimo, n&egrave; prima hebbi ueduto uoi, ch'io ui conobbi da uantaggio"/>
@@ -139,13 +136,13 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- Dotto -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- scortesi ... hebbi  -->
+	    <mark name="bracket" method="pen" place="left_margin" language="IT" text="disse Signor si benissimo, m&egrave; prima hebbi ueduto uoi, ch'io ui conobbi da uantaggio"/>
 		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- con belle -->
-		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- assimigliano -->
+		<mark name="quotation_mark" method="pen" place="left_margin" language="IT" text="assimigliano alla uostra"/> 
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="palazzo"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- palazzo, & -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- palazzo, & -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Archittetura"/>
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- alcuni difetti -->
 		<mark name="dot" method="pen" place="intext"/> <!-- conosceua, -->
@@ -168,7 +165,6 @@
 		<mark name="comma" method="pen" place="intext"/> <!-- Mesere il -->
 		<mark name="dot" method="pen" place="intext"/> <!-- uostra, uolenda -->
 		<mark name="quotation_mark" method="pen" place="tail"/> <!-- inferire -->
-		
 
     </annotation>
 </transcription>
