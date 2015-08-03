@@ -50,7 +50,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						) Ridet graues isto
+						) Ridet graues isto <!--JG: Could this be istos? Should be checked in original-->
 						Eutrapelus: et leuissimus peragit long&egrave; grauiss[im]a.
 					</marginalia_text>
 					<person name="Eutrapelus"/>
@@ -99,7 +99,7 @@
 				</position>
 			</language>
 			<translation>
-				Above /
+				Above.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -114,8 +114,6 @@
 				One head alone for many.
 			</translation>
 		</marginalia>
-		
-		
 		
 		<marginalia hand="Italian">
 			<language ident="EN">
@@ -138,7 +136,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="EN">
 				<position place="right_margin" book_orientation="270">
@@ -148,7 +145,6 @@
 				</position>
 			</language>
 		</marginalia>
-		
 		
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="i fichi interi"/>
@@ -199,12 +195,12 @@
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- tua ma- -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- mangiano ... Pronto -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- mangiano ... Pronto -->
 		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- do poco -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="head" language="IT" text="interi"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- interi, & -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- interi, & -->
 		<mark name="quotation_mark" method="pen" place="head" language="IT" text="aperti"/>
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- aperti -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- Pronto -->
@@ -217,7 +213,7 @@
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="pratica"/>
 		<mark name="dot" method="pen" place="intext"/> <!-- discreta, in -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- quanti -->
-		<mark name="plus_sign" method="pen" place="intext"/> <!-- come risoluto -->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="come risoluto"/> 
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="poco"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="assai"/>
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- friddo -->
@@ -225,7 +221,6 @@
 		<mark name="straight_quotation_mark" method="pen" place="intext"/> <!-- auocata -->
 		<mark name="comma" method="pen" place="intext"/> <!-- Santa, piaceuolmente -->
 		<mark name="dot" method="pen" place="intext"/> <!-- ella, alle -->
-		
 
     </annotation>
 </transcription>
