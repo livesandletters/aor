@@ -5,14 +5,15 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.106r.tif" signature="Cr" pagination="33" reader="Harvey"/>	<!-- ABO 109right -->
+	<page filename="Ha2.101r.tif" signature="B4r" pagination="23" reader="Harvey"/>	<!-- ABO 104right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Vnum necessarium: reliqua speciosa.
+						<!-- Continued from facing page, head, Ha2.100v -->
+						{ In vnum Hostem omnia.
 					</marginalia_text>
 				</position>
 			</language>
@@ -21,12 +22,18 @@
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Illud materiale: ha[e]c pro forma.
+						Minuta non curat Jurisprudentia: summa
+					</marginalia_text>
+				</position>
+				<position place="right_margin" book_orientation="0">
+					<marginalia_text>
+						considerat, et finem respicit.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				That is material, this is according to form.
+				Jurisprudence cares not for minutiae, but considers the highest matters
+				and looks towards the end.
 			</translation>
 		</marginalia>
 		
@@ -34,8 +41,24 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Trismegistus in Suo Epicyclo.
+						Aurifaber Fortuna[e]. Centimanus.
 					</marginalia_text>
+					<person name="Appius Claudius Caecus"/>
+				</position>
+			</language>
+			<translation>
+				The goldsmith of Fortune. Appius Claudius Caecus.
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="EN">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						Eutrapelus, a peerles 
+						Artist: a matchles Professour: &amp; a most excelle[n]t
+						man, at euerie proofe of the Worthiest men.
+					</marginalia_text>
+					<person name="Eutrapelus"/>
 				</position>
 			</language>
 		</marginalia>
@@ -43,22 +66,9 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						In vno, voluptas, et foelicitas: in pluribus,
-						tristitia, et miseria.
+						At anie negotiation, euer Singular, for vigour, reason, &amp; diligence: which
+						easely supplie other defects; &amp; generally reigne in all specials.
 					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Da magistrum, dicebat Monophilus: id est, hac
-						hebdomade Althusium Solum:
-						proxima hebdomade Venatorium Solum. Vtrunq[ue]
-						semper ad unguem: vt nihil in mundo promptius.
-					</marginalia_text>
-					<person name="Monophilus"/>
 				</position>
 			</language>
 		</marginalia>
@@ -67,26 +77,16 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Monophili inuiolabilis Cursus.
+						In illum ingentem omnia terribilia: sed
+						Cryptic&egrave;: vt Themistocles in Xerxem.
 					</marginalia_text>
-					<person name="Monophilus"/>
+					<person name="Themistocles"/>
+					<person name="Xerxes"/>
 				</position>
 			</language>
 			<translation>
-				The inviolable path of Monophilus.
-			</translation>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="tail" book_orientation="0">
-					<marginalia_text>
-						Cui Domenicus, vnicus iocandi artifex.
-					</marginalia_text>
-					<person name="Lodovico Domenichi"/>
-				</position>
-			</language>
-			<translation>
-				For whom Domenichi, the sole master of jest.
+				All things are terrifying in that remarkable matter: but
+				concealed, as Themistocles against Xerxes.
 			</translation>
 		</marginalia>
 		
@@ -95,8 +95,36 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Vnus plan&egrave;, pleneq[ue] expositus, instar omnium: omnes obscure aut leuiter
-						propositi, instar nullius.
+						Multi Patrocli: vnus Achilles. Non multi Pompeij: vnicus Ca[e]sar.
+					</marginalia_text>
+					<person name="Patroclus"/>
+					<person name="Achilles"/>
+					<person name="Pompey"/>
+					<person name="Julius Caesar"/>
+				</position>
+			</language>
+			<translation>
+				Many Patrocluses, one Achilles. Several Pompeys, one sole Caesar.
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="left_margin" book_orientation="90">
+					<marginalia_text>
+						Pro Rege, aut Duce Optima: contra Regem, aut Ducem Maximum. 
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				On behalf of the king or best leader: against the king, or greatest leader.
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="90">
+					<marginalia_text>
+						Resolutio Achitophelis: executio Jehu: scriptio Esdra[e].
 					</marginalia_text>
 				</position>
 			</language>
@@ -107,36 +135,13 @@
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						Axiophili adamantinus delectus. Gemmifera[e] concha[e] pauca[e]: multi ecc&egrave; Canales.
-						Pondere, non numero res optima maxima constat. Hunc, atq[ue] hunc volo
-					</marginalia_text>
-					<person name="Axiophilus"/>
-				</position>
-				<position place="intext" book_orientation="270">
-					<marginalia_text>
-						Phoenicem, cum magna geruntur.
+						Sapit, qui prouidet suo Microcosmo: tam matur&egrave;, qu&agrave;m apt&egrave;.
 					</marginalia_text>
 				</position>
 			</language>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="270">
-					<marginalia_text>
-						Doctor Vnionis.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="left_margin" book_orientation="270">
-					<marginalia_text>
-						In vno, omnes.
-					</marginalia_text>
-				</position>
-			</language>
+			<translation>
+				He who provides for his microcosm both at the right time and fittingly is one who understands.
+			</translation>
 		</marginalia>
 
     </annotation>

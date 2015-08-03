@@ -5,20 +5,30 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.103v.tif" signature="[B6v]" pagination="28" reader="Harvey"/>	<!-- ABO 107left -->
+	<page filename="Ha2.104v.tif" signature="[B7v]" pagination="30" reader="Harvey"/>	<!-- ABO 108left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Astrophili diuina illuminatio.
+						Adytum Ethices, et Physices.
 					</marginalia_text>
-					<person name="Astrophilus"/>
+				</position>
+			</language>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="head" book_orientation="0">
+					<marginalia_text>
+						In paruo magnum: vt Epictetus, et Vrso.
+					</marginalia_text>
+					<person name="Epictetus"/>
+					<person name="Urso of Salerno"/>
 				</position>
 			</language>
 			<translation>
-				The divine illumination of Astrophilus.
+				The greatness in small things, as with Epictetus and Urso.
 			</translation>
 		</marginalia>
 		
@@ -26,31 +36,38 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Perennis est motus, qui facit auem 
-						Lautam, et subtilem.
-						Sic etiam piscis, purus, et delicatus.
+						Libelli parui; sed Optimi Maximi: vt regula[e] iuris; et
+						Bellorum.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				Unending is the motion which makes the bird noble and subtle.
-				Likewise, even the fish is pure and delicate.
+				Small little books, but the best greatest works, as with the rules of law and war.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Volat avis in
-						a&euml;re: piscis in aqua: vir agilis
-						in terra. Nescia virtus stare loco.
+						scit&egrave;.
 					</marginalia_text>
-					<X-ref person="Lucan" book_title="Pharsalia"/>
 				</position>
 			</language>
 			<translation>
-				The bird flies through the air, the fish in the water, the agile man on the earth.
-				"His virtue not knowing how to stand in one place."
+				Knowingly.
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						Autorum abunde: 
+						Scientia[e] parum.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				Authors in abundance, knowledge very little.
 			</translation>
 		</marginalia>
 		
@@ -58,11 +75,18 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Pra[e]gnantiss[im]a Methodo, et pra[e]santiss[im]a Praxe;
-						qua[e]uis ars statim fit facillima.
+						Ante omnia, Epictetus, et Vrso ad unguem.
+						Epitome sapientia[e] Salomonica[e].
 					</marginalia_text>
+					<person name="Epictetus"/>
+					<person name="Urso of Salerno"/>
+					<person name="Solomon"/>
 				</position>
 			</language>
+			<translation>
+				Before all things, Epictetus and Urso by heart.
+				The epitome of Solomonic wisdom.
+			</translation>
 		</marginalia>
 		
 		
@@ -70,20 +94,17 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Da mihi vnicum mundi Artificem, et singularem professorem: qui solus omniu[m]
-						est illuminatus Methodo, et Praxe; quotidana repetitione, incessanti
+						Nusqu[am] tanta Ethicorum, Physicorumq[ue] varietas tam breu&icirc;;
+						qu&agrave;m in nouissimo adyto Ethices, et Physices. Fundamentu[m],
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="90">
 					<marginalia_text>
-						assuetudine, et insuperabili zelo.
+						vt ipse vocat, Salomonicum.
 					</marginalia_text>
+					<person name="Solomon"/>
 				</position>
 			</language>
-			<translation>
-				Give me the one craftsman and singular professor of the world, who alone out of all men is illuminated
-				by method and praxis, by daily repetition, unceasing habit, and insuperable zeal.
-			</translation>
 		</marginalia>
 		
 		
@@ -91,17 +112,24 @@
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						Hic est ille, qui singula expedit promptissim&egrave;; omnia exequitur potentissim&egrave;:
-						cui nihil eorum difficile, qua[e] pla[e]riq[ue] omnib[us] 
+						Princeps omnes amat, et neminem.
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="270">
 					<marginalia_text>
-						videntur ardua; ignauis aut rudib[us].
+						Vita[e]berga, mea Academia.
 					</marginalia_text>
+					<location name="Wittenberg"/>
 				</position>
 			</language>
+			<translation>
+				The prince loves all and no one.
+				Wittenberg, my academy.
+			</translation>
 		</marginalia>
+		
+		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+
 
     </annotation>
 </transcription>

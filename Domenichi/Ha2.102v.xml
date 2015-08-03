@@ -5,26 +5,20 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.102v.tif" signature="[B5v]" pagination="26" reader="Harvey"/>	<!-- ABO 106left -->
+	<page filename="Ha2.103v.tif" signature="[B6v]" pagination="28" reader="Harvey"/>	<!-- ABO 107left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
-			<language ident="IT">
-				<position place="head" book_orientation="0">
-					<marginalia_text>
-						Questi punti.
-					</marginalia_text>
-				</position>
-			</language>
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Dictoru[m], factoru[m]q[ue] Quinta Essentia.
+						Astrophili diuina illuminatio.
 					</marginalia_text>
+					<person name="Astrophilus"/>
 				</position>
 			</language>
 			<translation>
-				These points. The fifth essence of words and deeds.
+				The divine illumination of Astrophilus.
 			</translation>
 		</marginalia>
 		
@@ -32,31 +26,40 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Vt quodq[ue] est aptissimu[m], agillimumq[ue]
-						ingenium; ita in Singulis proficit celerrim&egrave;.
+						Perennis est motus, qui facit auem 
+						Lautam, et subtilem.
+						Sic etiam piscis, purus, et delicatus.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				When anything of genius is most fitting and most agile, so it succeeds in singular endeavors most rapidly.
+				Unending is the motion which makes the bird noble and subtle.
+				Likewise, even the fish is pure and delicate.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Cit&ograve; discit, et statim operatur animus diuinus.
-						Quicquid imperauit animus, obtinuit.
+						Volat avis in
+						a&euml;re: piscis in aqua: vir agilis
+						in terra. Nescia virtus stare loco.
 					</marginalia_text>
+					<X-ref person="Lucan" book_title="Pharsalia"/>
 				</position>
 			</language>
+			<translation>
+				The bird flies through the air, the fish in the water, the agile man on the earth.
+				"His virtue not knowing how to stand in one place."
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Serius, solidusq[ue] artifex statim capit, quod sapit maxim&egrave;.
+						Pra[e]gnantiss[im]a Methodo, et pra[e]santiss[im]a Praxe;
+						qua[e]uis ars statim fit facillima.
 					</marginalia_text>
 				</position>
 			</language>
@@ -67,14 +70,19 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						In grauibus, meras Gnomas loquitur, aut Leges: In acribus, mera apophthegmata,
-						aut Stratagemata: In lepidis, meras Ironias, aut Sales.
+						Da mihi vnicum mundi Artificem, et singularem professorem: qui solus omniu[m]
+						est illuminatus Methodo, et Praxe; quotidana repetitione, incessanti
+					</marginalia_text>
+				</position>
+				<position place="intext" book_orientation="90">
+					<marginalia_text>
+						assuetudine, et insuperabili zelo.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				In serious matters, one speaks only in gnomic phrases; in subtle matters, only in aphorisms or stratagems;
-				in pleasant matters, only with irony or wit.
+				Give me the one craftsman and singular professor of the world, who alone out of all men is illuminated
+				by method and praxis, by daily repetition, unceasing habit, and insuperable zeal.
 			</translation>
 		</marginalia>
 		
@@ -83,15 +91,16 @@
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						Nihil peritius, subtilius, aut profundius. Nihil efficacius, aut potentius.
-						Prudentia, ars viuendi: fortitudo, praxis. 
+						Hic est ille, qui singula expedit promptissim&egrave;; omnia exequitur potentissim&egrave;:
+						cui nihil eorum difficile, qua[e] pla[e]riq[ue] omnib[us] 
+					</marginalia_text>
+				</position>
+				<position place="intext" book_orientation="270">
+					<marginalia_text>
+						videntur ardua; ignauis aut rudib[us].
 					</marginalia_text>
 				</position>
 			</language>
-			<translation>
-				Nothing is more experienced, more subtle, or more profound. Nothing more effective, or more potent.
-				Prudence, the art of living: strength, praxis.
-			</translation>
 		</marginalia>
 
     </annotation>

@@ -5,49 +5,80 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.105v.tif" signature="[B8v]" pagination="31" reader="Harvey"/>	<!-- ABO 109left -->
+	<page filename="Ha2.106v.tif" signature="[Cv]" pagination="34" reader="Harvey"/>	<!-- ABO 110left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
-			<language ident="IT">
+			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Vno, m&agrave; Vnico.  
-					</marginalia_text>
-				</position>
-			</language>
-			<language ident="ES">
-				<position place="head" book_orientation="0">
-					<marginalia_text>
-						Examen de ingenios.
+						Semper vir: nunq[uam] semivir.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				One, but unique. The examination of genius.
+				Always a man, never half a man.
 			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="EN">
+				<position place="head" book_orientation="0">
+					<marginalia_text>
+						Outis tooke nothing in dudgen, but all in gree.
+					</marginalia_text>
+					<person name="Odysseus"/>
+				</position>
+			</language>
 		</marginalia>
 		
 		<marginalia hand="Italian">
-			<language ident="IT">
+			<language ident="LA">
+				<position place="left_margin" book_orientation="0">
+					<marginalia_text>
+						In
+					</marginalia_text>
+				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						{ Unicismo, d'Eudromo.
+						actionibus, mera Entelechia:
 					</marginalia_text>
-					<person name="Eudromus"/>
+				</position>
+				<position place="left_margin" book_orientation="0">
+					<marginalia_text>
+						in
+					</marginalia_text>
+				</position>
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						passionibus, Ironia.
+					</marginalia_text>
+				</position>
+			</language>			
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="EN">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						Eutrapelus more resolute, &amp;
+						pleasant in all occurents, or oppositions, then Outis himself.
+						Euer liuelie: but euer discreet to the point, &amp; sharp to
+						the purpose.
+					</marginalia_text>
+					<person name="Eutrapelus"/>
 				</position>
 			</language>
-			<translation>
-				A singular deed from Eudromus.
-			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Polytechni
-						scopus semper practicus, et
-						polychrestus.
+						Nihil in mundo dignum Eutrapeli aliquo dolore, aut
+					</marginalia_text>
+					<person name="Eutrapelus"/>
+				</position>
+				<position place="left_margin" book_orientation="0">
+					<marginalia_text>
+						ira.
 					</marginalia_text>
 				</position>
 			</language>
@@ -56,20 +87,8 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						( Non hoc, et illud:
-						sed hoc vnic&egrave;, aut illud vnic&egrave;.
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				Not simply this or that, but this or that to a singular degree.
-			</translation>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Polyechni monophilia absoluta.
+						Vulgare est, queri ob vulgaria:
+						eximius spernit, qua[e] populus facit tanti.
 					</marginalia_text>
 				</position>
 			</language>
@@ -79,35 +98,22 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						stratagema pragmaticum.
+						Non est intra fortunam Virtus, aut Vir: sed supra:
+						Et qui infra est, aut succumbit ullo modo, vir non est.
 					</marginalia_text>
 				</position>
 			</language>
-			<translation>
-				Pragmatic stratagem.
-			</translation>
 		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="tail" book_orientation="0">
-					<marginalia_text>
-						) Mea Cynosura, vnica Isagoge.
-					</marginalia_text>
-				</position>
-			</language>
-			<translation>
-				My guiding star, my singular isagoge.
-			</translation>
-		</marginalia>
-
-
+		
+		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Valet animus in seipsum collectus: cum virtus vnita solidescit; et omnes
-						circumferentia[e] tendunt ad Centrum
+						Axiophili gubernatio suijpsius. Ipse sui Dominus totus qu&agrave;m rara potestas?
+						Ipse sui servus, qu&agrave;m numerosa seges?
 					</marginalia_text>
+					<person name="Axiophilus"/>
 				</position>
 			</language>
 		</marginalia>
@@ -117,19 +123,18 @@
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						Cuiusq[ue] artis vnus liber fundamentalis. Ca[e]teri ad placitum: gloriosi
+						Memineru[n]t omnia Coeli. 
 					</marginalia_text>
 				</position>
-				<position place="intext" book_orientation="270">
+			</language>
+			<language ident="FR">
+				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						magis, qu&agrave;m necessarij.
+						Epistemon, et Panurge viuement, et dextrement.
 					</marginalia_text>
 				</position>
 			</language>
 		</marginalia>
-		
-		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
-
 
     </annotation>
 </transcription>

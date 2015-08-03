@@ -5,87 +5,58 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.101v.tif" signature="[B4v]" pagination="24" reader="Harvey"/>	<!-- ABO 105left -->
+	<page filename="Ha2.102v.tif" signature="[B5v]" pagination="26" reader="Harvey"/>	<!-- ABO 106left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
+			<language ident="IT">
+				<position place="head" book_orientation="0">
+					<marginalia_text>
+						Questi punti.
+					</marginalia_text>
+				</position>
+			</language>
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Ars Natur&acirc;, et Exercitatione solidescit.
+						Dictoru[m], factoru[m]q[ue] Quinta Essentia.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				These points. The fifth essence of words and deeds.
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						Vt quodq[ue] est aptissimu[m], agillimumq[ue]
+						ingenium; ita in Singulis proficit celerrim&egrave;.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				When anything of genius is most fitting and most agile, so it succeeds in singular endeavors most rapidly.
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						Cit&ograve; discit, et statim operatur animus diuinus.
+						Quicquid imperauit animus, obtinuit.
 					</marginalia_text>
 				</position>
 			</language>
 		</marginalia>
 		
 		<marginalia hand="Italian">
-			<language ident="EN">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						As merrie as Sir Thomas Moroe:
-						as youthfull as Sir Francis Brian.
-					</marginalia_text>
-					<person name="Thomas More"/>
-					<person name="Francis Bryan"/>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Plurimu[m] valent
-						Coma Occasionis, et cuiusq[ue] ansa dexterrima.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						Stultus
-					</marginalia_text>
-				</position>
-				<position place="left_margin" book_orientation="0">
-					<marginalia_text>
-						est sapiens,
-					</marginalia_text>
-				</position>
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						cu[m]
-					</marginalia_text>
-				</position>
-				<position place="left_margin" book_orientation="0">
-					<marginalia_text>
-						in bonam
-					</marginalia_text>
-				</position>
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						partem consulit
-						Omnia.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="LA">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
-						/ ( Sol in Scorpione, Sol ).
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		
-		<marginalia hand="Italian">
-			<language ident="EN">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Art, or not art,
-						Nature, &amp; Exercise will hold their owne.
+						Serius, solidusq[ue] artifex statim capit, quod sapit maxim&egrave;.
 					</marginalia_text>
 				</position>
 			</language>
@@ -96,33 +67,31 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Magis flagrans Opifex, qu&agrave;m ipse Vulcanus. 
+						In grauibus, meras Gnomas loquitur, aut Leges: In acribus, mera apophthegmata,
+						aut Stratagemata: In lepidis, meras Ironias, aut Sales.
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				In serious matters, one speaks only in gnomic phrases; in subtle matters, only in aphorisms or stratagems;
+				in pleasant matters, only with irony or wit.
+			</translation>
 		</marginalia>
 		
-		
-		<marginalia hand="Italian">
-			<language ident="EN">
-				<position place="right_margin" book_orientation="270">
-					<marginalia_text>
-						All harsh crudities I disgest with a iest. I beare with
-						Him: but beare Him in minde.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="left_margin" book_orientation="270">
+				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						Quoti&egrave;s ipse obseruaui, potentiorem esse, Natura[e] et Exercitationis
-						Valorem, qu&agrave;m Artis.
+						Nihil peritius, subtilius, aut profundius. Nihil efficacius, aut potentius.
+						Prudentia, ars viuendi: fortitudo, praxis. 
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Nothing is more experienced, more subtle, or more profound. Nothing more effective, or more potent.
+				Prudence, the art of living: strength, praxis.
+			</translation>
 		</marginalia>
 
     </annotation>
