@@ -20,7 +20,7 @@
 				</position>
 			</language>
 			<translation>
-			 	-- aspires to stand firm beyond ignorance. <!-- CG: Unsure about translation. -->
+			 	-- aspires to stand firm beyond ignorance. Axiophilus. <!-- CG: Unsure about translation. --> <!--JG: Hmm, what to do with 'ratis'? With 'established things' or something like that? The idea of certainty and standing firm?-->
 			</translation>
 		</marginalia>
 		
@@ -48,11 +48,11 @@
 				</position>
 			</language>
 			<translation>
-				The Mensa philosophica and the Sylva nuptialis: philology most pregnant and everywhere most pleasing.
+				The Mensa philosophica and the Sylva nuptialis: philology most pregnant and everywhere most pleasing. <!--JG: See previous transcription - 47v., line 53 - where you remark that you don't know what 'Sylva nuptiali' is. Does it mean that you've found the book?-->
 			</translation>
 		</marginalia>
 		
-		<marginalia hand="Italian">
+		<marginalia hand="Italian"> <!--JG: Can be linked to underlined printed text, no?-->
 			<language ident="IT">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
@@ -139,7 +139,7 @@
 		<underline method="pen" type="straight" language="IT" text="uostro Diauolo"/>
 		<underline method="pen" type="straight" language="IT" text="l'hauermi cauato"/>
 		<underline method="pen" type="straight" language="IT" text="denari della"/>
-		<underline method="pen" type="straight" language="IT" text="senza leuarmi anco parole"/>
+		<underline method="pen" type="straight" language="IT" text="leuarmi anco parole"/>
 		<underline method="pen" type="straight" language="IT" text="dir a Voi"/>
 		<underline method="pen" type="straight" language="IT" text="stato incarcerato con"/>
 		<underline method="pen" type="straight" language="IT" text="pericolo della uita"/>
@@ -192,17 +192,17 @@
 		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- quel -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- uostro ... dir -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- uostro ... dir -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- uostro -->
-		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- occasione -->
+		<mark name="quotation_mark" method="pen" place="left_margin" language="IT" text="occasione Voi mi chiedereste per marito"/> 
 		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- si dona -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- egli ... ne -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- queste ... le -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="head" language="IT" text="denari"/>
-		<mark name="quotation_mark" method="pen" place="intext"/> <!-- anco parole -->
-	    	<mark name="dot" method="pen" place="intext"/> <!-- huomo, ilquale -->
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="leuarmi anco parole"/> 
+	    <mark name="dot" method="pen" place="intext"/> <!-- huomo, ilquale -->
 		<mark name="dot" method="pen" place="intext"/> <!-- ma, gli -->
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- o quanto desiderio -->
 		<mark name="comma" method="pen" place="intext"/> <!-- rispose io -->
@@ -218,7 +218,7 @@
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="altre lettere"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="cambio"/>
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: cambio -->
-		<mark name="quotation_mark" method="pen" place="intext"/> <!-- buona donna -->
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="Vna buona donna"/> 
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="pungere"/>
 
     </annotation>
