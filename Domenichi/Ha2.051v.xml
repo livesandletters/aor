@@ -45,7 +45,7 @@
 				</position>
 			</language>
 			<translation>
-				Only Mercury has the Quodlibetum of talent, tongue, and hand.	<!-- CG: Unsure if I should translate Quodlibetum. -->
+				Only Mercury has the Quodlibetum of talent, tongue, and hand.	<!-- CG: Unsure if I should translate Quodlibetum. --> <!--JG: I would translate it. You can put quodlibetum in brackets behind it-->
 			</translation>
 		</marginalia>
 		
@@ -68,12 +68,12 @@
 					<marginalia_text>
 						( Quod facturus eris, dicere sustuleris. Ausonius.
 					</marginalia_text>
-					<person name="Ausonius"/>
+					<person name="Ausonius"/> <!--Quote from his 'Epigramata de diversis rebus'-->
 					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
 			<translation>
-				Refrain from saying what you will do. Ausonius.
+				"Refrain from saying what you will do." Ausonius.
 			</translation>
 		</marginalia>
 		
@@ -86,7 +86,7 @@
 				</position>
 			</language>
 			<translation>
-				
+				<!--JG: Translation still needs to be done-->
 			</translation>
 		</marginalia>
 		
@@ -97,7 +97,7 @@
 					<marginalia_text>
 						Plurimus vsus facetiarum in Conuiuijs, et festiuis Colloquijs: in quibus etiam
 						delectant Problemata, qualia in Mensa Philosophica: proposita vrbana, qualia in
-						4.to Guatij, et 1.o Castilionis: a[e]nigmata, vulgo
+						4.to Guatij, et 1.o Castilionis: a[e]nigmata, vulgo <!--JG: Perhaps better to transcribe [quarto] and [primo]-->
 					</marginalia_text>
 					<person name="Stefano Guazzo"/>
 					<person name="Castiglione"/>
@@ -119,8 +119,6 @@
 				in the fourth book of Guazzi, and the first book of Castiglione, or puzzles, and riddles in the vernacular. 
 			</translation>
 		</marginalia>
-		
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -192,7 +190,7 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- huo -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- fatemi dunque -->
+	    <mark name="plus_sign" method="pen" place="left_margin"/> <!-- fatemi dunque -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- quando .. uiuere -->
 		    
 	    	<!-- Head/Intext/Tail -->
@@ -200,7 +198,7 @@
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- piu nobili -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="spilletti Milanesi"/>
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="gran cognitione"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- altro, & -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- altro, & -->
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- sulla brachetta -->
 		<mark name="dot" method="pen" place="intext"/> <!-- bracheta, le -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
@@ -211,7 +209,7 @@
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="come il sole"/>
 		<mark name="comma" method="pen" place="intext"/> <!-- dama gli -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- uoi altri huo -->
-		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="i tafani d'Agosto"/> <!-- CG: This quotation mark and the previous both look a bit weird, what do you think? -->
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="i tafani d'Agosto"/> <!-- CG: This quotation mark and the previous both look a bit weird, what do you think? --> <!--JG: I think it's OK to tag them as quotation marks-->
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- uiuere -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="un' ottimo indouino"/>
 
