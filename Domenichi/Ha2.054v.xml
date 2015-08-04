@@ -56,6 +56,7 @@
 						{ Discorso de' discorsi, il quarto di Guazzo.
 					</marginalia_text>
 					<person name="Stefano Guazzo"/> <!--JG: Maybe we should also tag Guazzo's work 'The civil conversation', don't you think?-->
+					<emphasis method="pen" type="straight" text="Discorso de' discorsi"/>
 				</position>
 			</language>
 			<translation>
@@ -129,7 +130,7 @@
 						minera insignium Dictorum, et Factorum. Nusq[uam] tantum
 						ingenij, succincta[e]q[ue] Eloquentia[e], tantulo spacio.
 					</marginalia_text>
-						<!-- CG: Again, not sure how to cite this Enchiridion. -->
+						<!-- CG: Again, not sure how to cite this Enchiridion. --> <!--JG: I wouldn't tag anything, can't find anything in Stern about a 'Apopth.. Graecorum'-->
 					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
@@ -139,7 +140,6 @@
 				in so little space.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -200,16 +200,16 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- n'ac -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- colera ... uesse -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- colera ... uesse -->
 		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- gl'e rimesso -->
 		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- nimici -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- data a te -->
-		<mark name="quotation_mark" method="pen" place="intext"/> <!-- data a te -->
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="l'hauesse data a te"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="di ualore"/>
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="piaceuolezza"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- piaceuolezza, hauendo -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- piaceuolezza, hauendo -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="amoreuolezza"/>
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- gl'e rimesso -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- con argutia -->
