@@ -20,7 +20,7 @@
 			</language>
 			<translation>
 				Actualization is the very first rhetoric, logic, mathematics
-					<!-- CG: Unsure about "primuna," am I transcribing it wrong somehow? -->
+					<!-- CG: Unsure about "primuna," am I transcribing it wrong somehow? --> <!--JG: I think it says 'primum' but there's a { underneath the 'm'-->
 			</translation>
 		</marginalia>
 		
@@ -33,7 +33,7 @@
 				</position>
 			</language>
 			<translation>
-				Above /
+				Above.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -42,7 +42,7 @@
 					<marginalia_text>
 						paradossi dell'vnico.
 					</marginalia_text>
-					<person name="Bernardo Accolti"/> <!-- CG: I can only assume that this is what Harvey means. -->
+					<person name="Bernardo Accolti"/> <!-- CG: I can only assume that this is what Harvey means. --> <!--JG: OK, let's go for it! I can't think of anything else either-->
 				</position>
 			</language>
 			<translation>
@@ -83,8 +83,6 @@
 			</translation>
 		</marginalia>
 		
-		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -103,7 +101,6 @@
 				but my adviser is more pleasant."
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -189,7 +186,8 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- l'al -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- o ... no  -->
+	    <mark name="vertical_bar" method="pen" place="left_margin"/> 
+		<mark name="bracket" method="pen" place="left_margin"/> <!-- o ... no  -->
 		<mark name="circumflex" method="pen" place="left_margin"/> <!-- o cambiando -->
 		<mark name="circumflex" method="pen" place="left_margin"/> <!-- mutation -->
 		<mark name="circumflex" method="pen" place="left_margin"/> <!-- diminution -->
@@ -204,9 +202,10 @@
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="pochi motti"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="molti"/>
 		<mark name="comma" method="pen" place="intext"/> <!-- persone se -->
-		<mark name="plus_sign" method="pen" place="intext"/> <!-- di me fatt -->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="h&agrave; di me fatto honoreuol"/> 
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="questi pochi motti"/>
 		<mark name="equal_sign" method="pen" place="intext" language="IT" text="breue discorso"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- discorso, accioche -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- discorso, accioche -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- riputato freddo -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="vertical_bar" method="pen" place="intext"/> <!-- d'esse. I MOTTI -->
