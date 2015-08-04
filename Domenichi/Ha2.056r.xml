@@ -130,7 +130,7 @@
 				</position>
 			</language>
 			<translation>
-				Cleansed by a living river.	<!-- CG: When I put this phrase into Google I get a couple of results, not sure to whom to attribute the X-ref. -->
+				Cleansed by a living river.	<!-- CG: When I put this phrase into Google I get a couple of results, not sure to whom to attribute the X-ref. --> <!--JG: Hmm, yeah, tricky. But I'd go for Horace-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -146,10 +146,10 @@
 						Aretin; [the] Apologie for Herodote; the
 						Connicatching Art; &amp; the finest Jests.
 					</marginalia_text>
+					<person name="Pietro Aretino"/>
 					<book title="A Notable Discovery of Coosnage"/>
 					<book title="The Second Part of Conny-catching"/>
 					<book title="The Thirde and Last Part of Conny-Catching"/>
-					<person name="Pietro Aretino"/>
 					<book title="Capricciosi et piacevoli ragionamenti"/>
 					<book title="Apologie pour Hérodote"/>
 				</position>
@@ -165,9 +165,9 @@
 			</language>
 			<translation>
 				<!-- CG: This is perplexing to me. Apparently Theutates can refer to Mercury. Or to druids. Or to Theuth/Thoth, another form of Mercury. I really have no idea how to translate this. -->
+				<!--JG: Considering the context in which this is written (next to passage about witty remarks and jests), I'd go for Mercury, who was, among other things, the god of eloquence-->
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -183,11 +183,10 @@
 				</position>
 			</language>
 			<translation>
-				As Domenichi in his book of jokes,so Gandino in his book of stratagems.
+				As Domenichi in his book of jokes, so Gandino in his book of stratagems.
 				Both worthy to be memorized by heart.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="EN">
@@ -228,18 +227,17 @@
 		
 	    	<!-- Left margin -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- disse io -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- rei ... mercati -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- rei ... mercati -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="head" language="IT" text="io mi rido"/>
-	    	<mark name="quotation_mark" method="pen" place="intext"/> <!-- ingannar me -->
+	    <mark name="quotation_mark" method="pen" place="intext"/> <!-- ingannar me -->
 		<mark name="comma" method="pen" place="intext"/> <!-- me che -->
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- cento -->
 		<mark name="comma" method="pen" place="intext"/> <!-- mecato, questo -->
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- dugento -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="FACETIE"/>
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- motti -->
-		
 
     </annotation>
 </transcription>
