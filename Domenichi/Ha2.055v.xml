@@ -28,7 +28,7 @@
 			</translation>
 		</marginalia>
 		
-		<marginalia hand="Italian">
+		<marginalia hand="Italian"> <!--JG: You can link this to printed text, no?-->
 			<language ident="EN">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
@@ -45,7 +45,7 @@
 				</position>
 			</language>
 			<translation>
-				above.
+				[see] above.
 			</translation>
 		</marginalia>
 		
@@ -61,7 +61,6 @@
 				Ridiculous.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -102,7 +101,7 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="90">
 					<marginalia_text>
-						Alij quatuor, Philologia pi[ct]orij; et Mensa Philosophia. <!-- CG: Unsure of the mark above the 'c' in 'pictorijj.' A shortened word? -->
+						Alij quatuor, Philologia pictorij; et Mensa Philosophia. <!-- CG: Unsure of the mark above the 'c' in 'pictorijj.' A shortened word? --><!--JG: I think it's something stylistic, see for instance the word 'coniunctim' in the marginal note in the left margin-->
 						Guatij, pra[e]sertim quartus: et Aula Ciuilis Elocutionis.
 					</marginalia_text>
 					<person name="Stefano Guazzo"/>
@@ -111,11 +110,10 @@
 				</position>
 			</language>
 			<translation>
-				Other four: the Philogia Pictorii and the Mensa philosophia. <!-- CG: Can't figure out the Philologia Pictorij, probably because something seems to be missing. -->
+				Other four: the Philogia Pictorii and the Mensa philosophia. <!-- CG: Can't figure out the Philologia Pictorij, probably because something seems to be missing. --> <!--JG: I don't think anything is missing, but I also can't find anything, annoyingly-->
 				Guazzo's work, especially the fourth book: and the Aula Civilis Elocutionis. <!-- CG: Also not sure of what the Aula Civilis Elocutionis is. The Book of the Courtier? -->
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -149,7 +147,7 @@
 		<underline method="pen" type="straight" language="IT" text="&amp; discretione"/>
 		<underline method="pen" type="straight" language="IT" text="Il Capitan"/>
 		<underline method="pen" type="straight" language="IT" text="Paolo dell'Ottonaio"/>
-		<underline method="pen" type="straight" language="IT" text="piaceuolissim"/>
+		<underline method="pen" type="straight" language="IT" text="piaceuolissimi"/>
 		<underline method="pen" type="straight" language="IT" text="un buon"/>
 		<underline method="pen" type="straight" language="IT" text="boccone dinanzi"/>
 		<underline method="pen" type="straight" language="IT" text="occasione di ragionare"/>
@@ -195,7 +193,7 @@
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- specchio -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="&amp; discretione"/>
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="piaceuolissimi"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- piaceuolissimi, & -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- piaceuolissimi, & -->
 		<mark name="dot" method="pen" place="intext"/> <!-- diceua, uedete -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="questo"/>
 		<mark name="dot" method="pen" place="intext"/> <!-- disse, non -->
