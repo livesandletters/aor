@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Ne in populari quidem Respublica, nimis oportuit esse popularem. Ned&ugrave;m id / in regno tolerabile. Novus error ducis Guisij in Gallia: aliorum alibi.
+                        Ne in populari quidem Republica, nimis oportuit esse popularem. Ned&ugrave;m id in / regno tolerabile. Novus error ducis Guisij in Gallia: aliorum alibi.
                     </marginalia_text>
                     <person name="Henry I, duke of Guise"/> <!--it's likely that Harvey talks about this member of the De Guise family-->
                     <location name="Gaul"/>
@@ -22,6 +22,7 @@
             </translation>
         </marginalia>
         
+        <underline method="pen" type="straight" language="LA" text="Sp. Melius ex equestri"/>
         <underline method="pen" type="straight" language="LA" text="praeuides"/>
         <underline method="pen" type="straight" language="LA" text="rem utile[m] pessimo exemplo, peiore co[n]silio est aggressus."/>
         <underline method="pen" type="straight" language="LA" text="frumento namq[ue]"/>
@@ -31,12 +32,14 @@
         <underline method="pen" type="straight" language="LA" text="animus insatiabilis eo quod fortuna spo[n]det: ad altiore &amp; no[n] concessa tendere"/>
         <underline method="pen" type="straight" language="LA" text="de regno agitare"/>
         <underline method="pen" type="straight" language="LA" text="id unum dignum"/>
-        <underline method="pen" type="straight" language="LA" text="certaminie, quod ingens exudandum esset, praemium"/>
-        <underline method="pen" type="straight" language="LA" text="tela in domum Melij co[n]ferri, eumq[ue] co[n]ciones domi habere: ac"/>
+        <underline method="pen" type="straight" language="LA" text="certamine, quod ingens exudandum esset, praemium"/>
+        <underline method="pen" type="straight" language="LA" text="tela in domum Melij co[n]ferri, eumq[ue] co[n]ciones domi habere: ac no[n]"/>
         <underline method="pen" type="straight" language="LA" text="dubia regni co[n]silia esse: tempus agendae rei nondum stare"/>
         <underline method="pen" type="straight" language="LA" text="partita ducibus multitudinis ministeria"/>
         <underline method="pen" type="straight" language="LA" text="serius se pen&egrave;, qu&agrave;m tutu[m] fuerit"/>
         <underline method="pen" type="straight" language="LA" text="cuius incerti uaniq[ue] autor esset, ea deferre"/>
+        <underline method="pen" type="straight" language="LA" text="plus in"/>
+        <underline method="pen" type="straight" language="LA" text="senili"/>
         <underline method="pen" type="straight" language="LA" text="concilij mod&ograve;, sed etia[m] uirtutis esse, qu&agrave;m in omnibus alijs dicerent"/>
         <underline method="pen" type="straight" language="LA" text="ne senectus sua in tam trepidis rebus damno dedecori"/>
         <underline method="pen" type="straight" language="LA" text="dictator &agrave; co[n]sule"/>
@@ -49,7 +52,7 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--mu-->
         <mark name="dash" method="pen" place="right_margin"/> <!--quoni-->
         
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!-- pessimo exemplo -->
         
     </annotation>
 </transcription>

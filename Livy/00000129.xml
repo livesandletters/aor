@@ -20,7 +20,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Ius belli seuerum, et Disciplina inviolabilis. Mult&ugrave;m valent singularia exempla. Publici respectus, privatis anteponendi. s[upr]a, i[nfr]a.
+                        Ius belli seuerum, et Disciplina inuiolabilis. Mult&ugrave;m valent singularia exempla. Publici respectus, priuatis anteponendi. s[upr]a, i[nfr]a.
                     </marginalia_text>
                 </position>
             </language>
@@ -53,7 +53,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Pauca rara, et admirabilia Disciplinae exempla, Romae mirifice profuerunt.
+                        Pauca rara, et admirabilia Disciplina[e] Exempla, Roma[e] mirific&egrave; profuerunt.
                     </marginalia_text>
                 </position>
             </language>
@@ -65,16 +65,17 @@
         <underline method="pen" type="straight" language="LA" text="fortuna hostium innititur"/>
         <underline method="pen" type="straight" language="LA" text="Non dictatorem"/>
         <underline method="pen" type="straight" language="LA" text="non Fabium prop&egrave; affixum equo"/>
-        <underline method="pen" type="straight" language="LA" text="abscissum consulem"/>
+        <underline method="pen" type="straight" language="LA" text="abscissum consulem ex"/>
         <underline method="pen" type="straight" language="LA" text="ancipiti pr[a]elio summouit"/>
-        <underline method="pen" type="straight" language="LA" text="Messium impetus"/>
+        <underline method="pen" type="straight" language="LA" text="Messium impetus per"/>
         <underline method="pen" type="straight" language="LA" text="globo fortissimorum iuuenu[m]"/>
         <underline method="pen" type="straight" language="LA" text="Consul"/>
         <underline method="pen" type="straight" language="LA" text="dictator"/>
-        <underline method="pen" type="straight" language="LA" text="signum quoque intra uallum iniecisse ferunt, quo milites acrius subiren"/>
+        <underline method="pen" type="straight" language="LA" text="signum quoque intra uallum iniecisse ferunt, quo milites acrius subirent"/>
         <underline method="pen" type="straight" language="LA" text="repetendoq[ue] signo prima[m] impressionem"/>
         <underline method="pen" type="straight" language="LA" text="Egregiae dictatur[a]e tristem memoriam"/>
         <underline method="pen" type="straight" language="LA" text="qui filium ab"/>
+        <underline method="pen" type="straight" language="LA" text="Posthumio"/>
         <underline method="pen" type="straight" language="LA" text="occasione bene pugnandi"/>
         <underline method="pen" type="straight" language="LA" text="iniussu discesserit"/>
         <underline method="pen" type="straight" language="LA" text="uictore[m] securi percussum"/>
@@ -85,9 +86,9 @@
         <underline method="pen" type="straight" language="LA" text="Imperioso quoq[ue] Manlio cognome[n]"/>
         <underline method="pen" type="straight" language="LA" text="Posthumius nulla tristi nota"/>
         <underline method="pen" type="straight" language="LA" text="Insigni magnis reb[us] anno additur"/>
-        <underline method="pen" type="straight" language="LA" text="nihil tu[m] ad rem Romana[m]"/>
+        <underline method="pen" type="straight" language="LA" text="nihil tu[m] ad rem Romana[m] pertinere"/>
         <underline method="pen" type="straight" language="LA" text="Carthaginenses tanti hostes"/>
-        <underline method="pen" type="straight" language="LA" text="Vindiq[ue] ociu[m] fuit Romanis"/>
+        <underline method="pen" type="straight" language="LA" text="Vndiq[ue] ociu[m] fuit Romanis"/>
         <underline method="pen" type="straight" language="LA" text="Nihil dignu[m] dictu actu[m] his consulibus"/>
         <underline method="pen" type="straight" language="LA" text="coelestes mod&ograve; defuerunt aquae"/>
         <underline method="pen" type="straight" language="LA" text="animos quoq[ue] multiplex religio, &amp; pleraq[ue] externa inuasit"/>
@@ -98,8 +99,8 @@
         <underline method="pen" type="straight" language="LA" text="ne qui, nisi Romani dij, neu"/>
         <underline method="pen" type="straight" language="LA" text="q[uam] patrio colerentur"/>
         <underline method="pen" type="straight" language="LA" text="ne co[n]festim bellu[m] indiceret"/>
-        <underline method="pen" type="straight" language="LA" text="foeciales prius mittendos ad res repetendas censure"/>
-        <underline method="pen" type="straight" language="LA" text="induciaeq[ue]"/>
+        <underline method="pen" type="straight" language="LA" text="foeciales prius mittendos ad res repetendas censuere"/>
+        <underline method="pen" type="straight" language="LA" text="induciaeq[ue] inde"/>
         
         <symbol name="JC" place="right_margin"/>
         
@@ -111,6 +112,8 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--coleren-->
         
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="Vni uiro Messio"/>
+        <mark name="dot" method="pen" place="intext"/> <!--uuleratus, non-->
+        <mark name="dot" method="pen" place="intext"/> <!--femur, no[n]-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="signum"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="acrius"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="repetendoq[ue] signo prima[m] impressionem"/>
@@ -119,7 +122,8 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Imperioso quoq[ue] Manlio cognome[n]"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!--above impletur-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="externa"/>
-        <mark name="vertical_bar" method="pen" place="intext"/> <!--colerentur Irae-->
+        <mark name="dot" method="pen" place="intext"/> <!--animi, donec-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--colerentur. Irae-->
         
         
     </annotation>
