@@ -32,7 +32,6 @@
 			</translation>
 		</marginalia>
 
-
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -58,6 +57,7 @@
 						Ca[e]cilius
 						Thesaurarius.
 					</marginalia_text>
+					<person name="Robert Cecil"/>
 				</position>
 				<position place="intext" book_orientation="90">
 					<marginalia_text>
@@ -67,11 +67,10 @@
 			</language>
 			<translation>
 				Whence even they ought to memorize these three by heart; while adding those things which must be added necessarily.
-				Thus he, who most excelled little while ago, was Lord Chancellor Bacon; not in quantity, but in quality. <!-- CG: This seems like an adequate translation for the Latin play on words. -->
+				Thus he, who most excelled little while ago, was Lord Chancellor Bacon; not in quantity, but in quality. <!-- CG: This seems like an adequate translation for the Latin play on words. --> <!--JG: Yes, I agree-->
 				Thus, till then it was Cecil, Lord High Treasurer. 
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -115,7 +114,6 @@
 					<marginalia_text>
 						Suada[m]
 						medulla[m].
-						
 						Nemo Crispi fluentissima[m] stili Celeritatem.
 					</marginalia_text>
 					<person name="Sallust"/>
@@ -191,7 +189,7 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- fe -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- gentile ... altro  -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- gentile ... altro  -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chak mark -->
@@ -201,7 +199,7 @@
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chak mark -->
 		<mark name="equal_sign" method="pen" place="intext" language="IT" text="l'error"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="per debito"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- debito, si -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- debito, si -->
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- quella seue -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="il capriccioso"/>
 		<mark name="comma" method="pen" place="intext"/> <!-- scolare soggiunse -->
