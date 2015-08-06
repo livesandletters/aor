@@ -54,7 +54,7 @@
 						Tranquillitas, et Constantia: Lipsius, tria, Tranq[uillitas], Const[antia], et Pietas.
 						<!-- Continues from facing page, tail, Ha2.077v -->
 					</marginalia_text>
-					<person name="Lipsius"/>
+					<person name="Lipsius"/> <!--JG: Should we also tag Lipsius' De Constantia here (although Harvey doesn't really mention the book?-->
 				</position>
 			</language>
 			<translation>
@@ -78,7 +78,6 @@
 				Eutrapelus is more full of vital energies and animal spirits, more than anyone else up till now.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -124,6 +123,39 @@
 				A game and a joke, Caesar Borgia himself, before his madness.
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="dal Franzese"/>
+		<underline method="pen" type="straight" language="IT" text="dallo Spagnuolo"/>
+		<underline method="pen" type="straight" language="IT" text="dall' Italiano, per"/>
+		<underline method="pen" type="straight" language="IT" text="cui d'vna in vn' altra lingua"/>
+		<underline method="pen" type="straight" language="IT" text="aggiugnendo qualche parola"/>
+		<underline method="pen" type="straight" language="IT" text="mischiato il mio con quello dell'autore"/>
+		<underline method="pen" type="straight" language="IT" text="N&egrave; per"/>
+		<underline method="pen" type="straight" language="IT" text="cambiato il nome d'alcuno"/>	
+		<underline method="pen" type="straight" language="IT" text="piacenza, &ograve; dispiacanza di questo"/>
+		<underline method="pen" type="straight" language="IT" text="sempre seguiti gli autori piu pregia"/>
+		<underline method="pen" type="straight" language="IT" text="sopra la medesima"/>
+		<underline method="pen" type="straight" language="IT" text="qualche diuersit&agrave; &amp; discordanza"/>
+		<underline method="pen" type="straight" language="IT" text="vn caso medesimo"/>
+		<underline method="pen" type="straight" language="IT" text="vscito da piu bocche"/>
+		<underline method="pen" type="straight" language="LA" text="quod non dictum sit prius"/>
+		<underline method="pen" type="straight" language="IT" text="simili considerationi"/>
+		<underline method="pen" type="straight" language="IT" text="diuersit&agrave;, &ograve; discordanze s&igrave; fatte, non gettano"/>
+		<underline method="pen" type="straight" language="IT" text="con nuoua inuentione, h&ograve;"/>
+		<underline method="pen" type="straight" language="IT" text="aggiugner' alcuni bei versi d'eccellenti Poeti"/>
+		<underline method="pen" type="straight" language="IT" text="Italiani"/>
+		<underline method="pen" type="straight" language="IT" text="quelli d'ottimi autori"/>
+		
+		<underline method="chalk" type="straight" language="LA" text="quod non dictum sit prius"/>
+		<underline method="chalk" type="straight" language="IT" text="aggiugner' alcuni bei versi d'eccellenti Poeti"/>
+		
+		<symbol name="Sun" place="left_margin"/>
+		<symbol name="SS" place="right_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--hab-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--quel-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--pregia-->
+		<mark name="plus_sign" method="pen" place="right_margin"/>
 		
     </annotation>
 </transcription>
