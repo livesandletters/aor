@@ -17,7 +17,7 @@
 						Vt non mod&ograve; Agrippa, et Turnebus, quanti philologi? =
 							<!-- Continues onto facing page, head, Ha2.076r -->
 					</marginalia_text>
-					<person name="Heinrich Cornelius Agrippa"/> <!-- CG: I assume he's referring to a more modern Agrippa. What do you think? -->
+					<person name="Heinrich Cornelius Agrippa"/> <!-- CG: I assume he's referring to a more modern Agrippa. What do you think? --> <!--JG: I agree, esp. since he also mentions Turnebus-->
 					<person name="Adrianus Turnebus"/>
 				</position>
 			</language>
@@ -30,7 +30,7 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Frustr&agrave; Sapit, qui Sibi non Sapit.
+						Frustr&agrave; Sapit, qui Sibi non Sapit. <!--JG: Seems to be a quote. A variant (Nequicquam sapit qui sibi non sapit) appears in Eramus' Adagia, and this phrase is sometimes attributed to Cicero-->
 					</marginalia_text>
 				</position>
 			</language>
@@ -52,7 +52,7 @@
 				It is necessary for the royal professor to toil a great deal over something small: especially
 				with a single most favorable method and a single most powerful praxis.
 					<!-- CG: Unclear about "magna parvo operari." Apparently operor takes the dative,
-					but I'm not sure what to do with the "magna." -->
+					but I'm not sure what to do with the "magna." --> <!--JG: Me neither, we should ask Lisa or Tony-->
 			</translation>
 		</marginalia>
 		
@@ -65,7 +65,7 @@
 				</position>
 			</language>
 			<translation>
-				Who holds heroic labors above daily industriousness?
+				Who holds heroic labors above daily industriousness? 
 			</translation>
 		</marginalia>
 		
@@ -90,9 +90,36 @@
 				Is the poor man simple? The rich man is not refined.
 			</translation>
 		</marginalia>
-
 		
-
-
+		<underline method="pen" type="straight" language="IT" text="per arte"/>
+		<underline method="pen" type="straight" language="IT" text="co' fatti &amp; co' detti honorati"/>
+		<underline method="pen" type="straight" language="IT" text="per l'vtile"/>
+		<underline method="pen" type="straight" language="IT" text="huomini di giuditio"/>
+		<underline method="pen" type="straight" language="IT" text="moralit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="con segno assai debole &amp; di poco momento"/>
+		<underline method="pen" type="straight" language="IT" text="piu che volentieri"/>
+		<underline method="pen" type="straight" language="IT" text="con adulationi"/>
+		<underline method="pen" type="straight" language="IT" text="vsano gli dscrittori de' tempi nostri"/>
+		<underline method="pen" type="straight" language="IT" text="nobilissima stirpe"/>
+		<underline method="pen" type="straight" language="IT" text="molt&iacute; Senatori"/>
+		<underline method="pen" type="straight" language="IT" text="molti Capitani"/>
+		<underline method="pen" type="straight" language="IT" text="huomini letterati"/>
+		<underline method="pen" type="straight" language="IT" text="de' beni della fortuna"/>
+		
+		<symbol name="SS" place="left_margin"/>
+		
+		<mark name="horizontal_bar" method="pen" place="left_margin"/>
+ 		
+ 		<mark name="dash" method="pen" place="right_margin"/> <!--quan-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--por-->
+		
+		<mark name="dot" method="pen" place="intext"/> <!--mostrarle, dico-->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="l'vtile"/>
+		<mark name="dot" method="pen" place="intext"/> <!--porto, la-->
+		<mark name="vertical_bar" method="pen" place="intext"/> <!--to, la-->
+		<mark name="dot" method="pen" place="intext"/> <!--adesso, &-->
+		<mark name="dot" method="pen" place="intext"/> <!--nostri, perche-->
+		<mark name="dot" method="pen" place="intext"/> <!--letterati, e-->
+		
     </annotation>
 </transcription>
