@@ -12,10 +12,10 @@
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Panis quotidianus Eutrapeli, { 	Facettia[e]. apophthegmata.
-										Epigrammata.						
+						Panis quotidianus Eutrapeli, { 	Facettia[e]. apophthegmata. Epigrammata.						
 					</marginalia_text>
 					<person name="Eutrapelus"/>
+					<emphasis method="pen" type="straight" text="Panis quotidianus Eutrapeli"/>
 				</position>
 			</language>
 			<translation>
@@ -30,6 +30,7 @@
 						Mens cuiusq[ue], is est quisq[ue]. Animus est omnia.
 						Epictetus est duo verba, 
 					</marginalia_text>
+					<person name="Epictetus"/>
 				</position>
 			</language>
 			<language ident="EL">
@@ -45,6 +46,7 @@
 						Seneca, duo, 
 							<!-- Continues onto facing page, tail, Ha2.078r -->
 					</marginalia_text>
+					<person name="Seneca"/>
 				</position>
 			</language>
 			<translation>
@@ -58,7 +60,7 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Viri est, quotidiana arte, et exercitatione efficere, 	vt sua singula membra	plus
+						Viri est, quotidiana arte, et exercitatione efficere, vt sua singula membra	plus
 						valeant aliorum membris: et sui externi, interniq[ue] sensus alioru[m] sensibus
 						pra[e]polleant. vt 
 					</marginalia_text>
@@ -82,8 +84,34 @@
 			</translation>
 		</marginalia>
 		
+		<underline method="pen" type="straight" language="IT" text="mi serrarono contante"/>
+		<underline method="pen" type="straight" language="IT" text="antichi"/>
+		<underline method="pen" type="straight" language="IT" text="moderni"/>
+		<underline method="pen" type="straight" language="IT" text="con applauso vniuersale"/>
+		<underline method="pen" type="straight" language="IT" text="quanta ricreatione &agrave; certi tempi &amp; hore"/>
+		<underline method="pen" type="straight" language="IT" text="queste piaceuolezze honeste"/>
+		<underline method="pen" type="straight" language="IT" text="quanto honore &amp; vtile"/>
+		<underline method="pen" type="straight" language="IT" text="far diligentissima scelta di tutto il raccolto"/>
+		<underline method="pen" type="straight" language="IT" text="quei miei congragati fiori, &amp;"/>
+		<underline method="pen" type="straight" language="IT" text="dire vna ghrilanda"/>
+		<underline method="pen" type="straight" language="IT" text="et render prospettiua piu"/>
+		<underline method="pen" type="straight" language="IT" text="qualche fioretto seluaggio"/>
+		<underline method="pen" type="straight" language="IT" text="leggiadro &amp; viuo"/>
+		<underline method="pen" type="straight" language="IT" text="alcune cose, le quali"/>
+		<underline method="pen" type="straight" language="IT" text="auuentura troppo co[m]muni, &ograve; troppo note"/>
+		<underline method="pen" type="straight" language="IT" text="che non le sapessero"/>
+		<underline method="pen" type="straight" language="IT" text="di numero molto"/>
+		<underline method="pen" type="straight" language="IT" text="forse auidamente"/>
+		<underline method="pen" type="straight" language="IT" text="dal Latino"/>
 		
-
+		<underline method="chalk" type="straight" language="IT" text="quei miei congragati fiori, &amp;"/>
+		<underline method="chalk" type="straight" language="IT" text="dire vna ghrilanda"/>
+		<underline method="chalk" type="straight" language="IT" text="colore fusse leggiadro"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--applau-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--va-->
+		<mark name="comma" method="pen" place="right_margin"/> <!--viuo-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--auida-->
 
     </annotation>
 </transcription>
