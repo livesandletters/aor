@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.076r.tif" signature="[*5[r]]" reader="Harvey"/>	<!-- ABO 80right -->
+	<page filename="Ha2.076r.tif" signature="[*4[r]]" reader="Harvey"/>	<!-- ABO 80right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -14,6 +14,7 @@
 					<marginalia_text>
 						His fine &amp; excellent description of the Lowe Countries.
 					</marginalia_text>
+					<person name="Low Countries"/>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
@@ -32,7 +33,7 @@
 				</position>
 			</language>
 			<translation>
-				Euscopus. <!-- CG: Not sure about this spelling. Is it a superlative? Usually it's a second declension noun. -->
+				Euscopus. <!-- CG: Not sure about this spelling. Is it a superlative? Usually it's a second declension noun. --> <!--JG: I'd say it probably is a variant-->
 			</translation>
 		</marginalia>
 		
@@ -92,7 +93,7 @@
 			<language ident="LA">
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						Vt, prude[n]tia: cautela: valor: industria.
+						Vt, prude[n]tia: cautela: valor: industria. <!--JG: Meaning suggests this marginal note is part of the previous one-->
 					</marginalia_text>
 				</position>
 			</language>
@@ -100,7 +101,6 @@
 				Such as, prudence: caution, valor, industriousness.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -115,7 +115,7 @@
 					<marginalia_text>
 						Communes. Fortius. )
 					</marginalia_text>
-					<person name="Joachim Fortius Ringelberg"/>
+					<person name="Joachim Fortius Ringelberg"/> <!--JG: Shouldn't you tag this person above as well, instead of just 'Fortius' (line 76)?-->
 				</position>
 			</language>
 			<translation>
@@ -151,6 +151,52 @@
 				Self-sufficiency is the goal of self-study.
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="LODOVICO"/>
+		<underline method="pen" type="straight" language="IT" text="GVICCIARDINI"/>
+		<underline method="pen" type="straight" language="IT" text="leggendo"/>
+		<underline method="chalk" type="straight" language="IT" text="apostille"/>
+		<underline method="pen" type="straight" language="IT" text="Apologi"/>
+		<underline method="pen" type="straight" language="IT" text="Parabole"/>
+		<underline method="pen" type="straight" language="IT" text="Facetie"/>
+		<underline method="pen" type="straight" language="IT" text="Esempi"/>
+		<underline method="pen" type="straight" language="IT" text="Prouerbi"/>
+		<underline method="pen" type="straight" language="IT" text="motti sententiosi"/>	
+		<underline method="pen" type="straight" language="IT" text="tendenti &agrave; moral piaceuolezza"/>
+		<underline method="pen" type="straight" language="IT" text="condita d'utilit&agrave;"/>
+		<underline method="chalk" type="straight" language="IT" text="condita d'utilit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="giornata da questo, &amp; da quello, ne' ragionamenti famigliari"/>
+		<underline method="pen" type="straight" language="IT" text="&agrave; viua voce vdiua dire, &ograve; raccontare"/>
+		<underline method="pen" type="straight" language="IT" text="tanto da' studi"/>
+		<underline method="pen" type="straight" language="IT" text="fieri colpi di Fortuna"/>
+		<underline method="pen" type="straight" language="IT" text="ridurgli succintamenta &agrave; qualche"/>
+		<underline method="pen" type="straight" language="IT" text="tollerabil compositione"/>
+		<underline method="pen" type="straight" language="IT" text="occorrenze del parlare, &amp; dello scriuere"/>
+		<underline method="chalk" type="straight" language="IT" text="nelle mie occorrenze del parlare"/>
+		<underline method="pen" type="straight" language="IT" text="mano, &amp; &agrave; mente"/>
+		<underline method="pen" type="straight" language="IT" text="gli antichi"/>
+		<underline method="pen" type="straight" language="IT" text="moderni autori"/>
+		<underline method="pen" type="straight" language="IT" text="da i cotidiani colloquij"/>
+		<underline method="pen" type="straight" language="IT" text="assai di queste piaceuolezze morali"/>
+		<underline method="pen" type="straight" language="IT" text="amici miei letter"/>
+		<underline method="pen" type="straight" language="IT" text="qiuditiosi"/>
+		
+		<symbol name="SS" place="right_margin" language="IT" text="assai di queste piaceuolezze morali"/>
+		
+		<mark name="bracket" method="pen" place="left_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--leggen-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--gior-->
+		<mark name="bracket" method="pen" place="right_margin"/>
+		
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="leggendo"/>
+		<mark name="plus_sign" method="pen" place="intext"/>	
+		<mark name="plus_sign" method="pen" place="intext"/>
+		<mark name="dot" method="pen" place="left_margin"/> <!--compositione, a-->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="antichi"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="moderni"/>
+		<mark name="plus_sign" method="pen" place="intext"/>
+		<mark name="dot" method="pen" place="left_margin"/> <!--morali, alle-->
 
     </annotation>
 </transcription>
