@@ -49,7 +49,6 @@
 			</language>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -83,13 +82,12 @@
 				</position>
 			</language>
 			<translation>
-				The efficient cause of a jovial and clever character is Temperance; the material cause
+				The efficient cause of a jovial and clever character is Temperance; the material cause 
 				is equity, in no way injurious; the internal form is Prudence; the external form is Strength; 
 				the final cause is one's own happiness and esteem; and with amusement and no displeasure.
 				These are the causes of playful civility. And this is my art of joking skillfuly. 
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -107,7 +105,7 @@
 			</language>
 			<translation>
 				The best models to be found in Rhetoric: irony, paradox, hyperbole, ellipsis, aporia, permissio, concessio.
-					<!-- CG: Not sure if I should try to approximate an English equivalent of these rhetorical terms, which are still used in Latin today. -->
+					<!-- CG: Not sure if I should try to approximate an English equivalent of these rhetorical terms, which are still used in Latin today. --> <!--JG: Best to keep Latin terms if they are still used today (makes searches for them easier as well, for end users who want to learn more about these terms)-->
 			</translation>
 		</marginalia>
 		
@@ -164,10 +162,11 @@
 		
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="argutamente"/>
-	    	<mark name="comma" method="pen" place="intext"/> <!-- so, lascio -->
+	    <mark name="comma" method="pen" place="intext"/> <!-- so, lascio -->
+		<mark name="comma" method="pen" place="intext"/> <!-- motti, tanto -->
 		<mark name="vertical_bar" method="pen" place="intext"/> <!-- stessi. Possono -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="motti"/>
-		<mark name="quotation_mark" method="pen" place="intext"/> <!-- freddi -->
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="parranno freddi"/> 
 		<mark name="dot" method="pen" place="intext"/> <!-- cio, come -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="arguto"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="mordace"/>
