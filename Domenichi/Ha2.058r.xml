@@ -47,7 +47,7 @@
 			<translation>
 				and finally thaumaturgical, and panerga.
 					<!-- CG: Really unsure how to translate panerga. I'm also not entirely sure about the order 
-					of the four marginalia that consist of the head/tail of the previous page and the head/tail of this page.-->
+					of the four marginalia that consist of the head/tail of the previous page and the head/tail of this page.--> <!--JG: I'm struggeling with panerga as well, we'll have to ask a specialist. About the order of the marginal notes, perhaps this is worth checking in the Folger as well-->
 			</translation>
 		</marginalia>
 		
@@ -77,7 +77,7 @@
 				</position>
 			</language>
 			<translation>
-				In the end, it is clear that the Academic Orator surpasses the Courtly Speaker.
+				In the end, it is clear that the Academic Orator surpasses the Courtly Speaker. <!--JG: Could this be jussive use of subjunctive? 'Let it be clear'?-->
 			</translation>
 		</marginalia>
 		
@@ -115,7 +115,7 @@
 		<underline method="pen" type="straight" language="IT" text="nello scusare"/>
 		<underline method="pen" type="straight" language="IT" text="schernire diuerse"/>
 		<underline method="pen" type="straight" language="IT" text="co[n] l'allusione"/>
-		<underline method="pen" type="straight" language="IT" text="somiglianza delle uoci"/>
+		<underline method="pen" type="straight" language="IT" text="somiglianza delle"/>
 		<underline method="pen" type="straight" language="IT" text="co 'l burlare colui che ci burla"/>
 		<underline method="pen" type="straight" language="IT" text="dir mal di colui, che dice mal"/>
 		<underline method="pen" type="straight" language="IT" text="finger qualche"/>
@@ -141,7 +141,6 @@
 		<symbol name="SS" place="left_margin"/>
 		<symbol name="SS" place="right_margin"/>
 		
-		
 		<!-- Marks -->			
 		<!-- Right margin -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- quel -->
@@ -153,8 +152,11 @@
 		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- una co -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="circumflex" method="pen" place="left_margin"/> <!-- antonomasia -->
-		<mark name="circumflex" method="pen" place="left_margin"/> <!-- hiperbole -->
+	    <mark name="circumflex" method="pen" place="left_margin"/> <!-- antonomasia -->
+		<mark name="circumflex" method="pen" place="left_margin" language="IT" text="hiperbole"/> 
+		
+		<!--JG: Chris, I'd tag all the straight quotation marks here as SS symbols-->
+		
 		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- ue tutte -->
 		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- dubita -->
 		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- de, ammonisce -->
@@ -178,7 +180,7 @@
 		<mark name="comma" method="pen" place="intext"/> <!-- capi & -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="grande"/>
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="materia da ridere"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- ridere, come -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- ridere, come -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="argomenti"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="sentimento"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="dimostra"/>
@@ -190,7 +192,6 @@
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="cose"/>
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="schernire"/>
-		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- intendendone un'altra -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="la patientia finta"/>
