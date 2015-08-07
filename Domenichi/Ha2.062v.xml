@@ -39,7 +39,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						A[e]therea[e] dieta[e] ingenium a[e]therum.
+						&AElig;therea[e] dieta[e] ingenium a[e]therum.
 					</marginalia_text>
 				</position>
 			</language>
@@ -76,8 +76,6 @@
 			</translation>
 		</marginalia>
 		
-		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -101,11 +99,10 @@
 			<translation>
 				The source of genius must always be kept clear and bright, which beasts usually obscure entirely with foul smoke.
 				Thus Pythagoras and Plato, two rare and divine philosophers, taught all of their students to be most finely self-restrained. 
-				Thus the Temperance of Apollonius of Tyana, a singular miracle after the secrets of the wise-men, <!-- CG: Wizards? Magic? -->
+				Thus the Temperance of Apollonius of Tyana, a singular miracle after the secrets of the wise-men, <!-- CG: Wizards? Magic? --> <!--JG: I'd go for wise men-->
 				the root of virtue, and the source of genius. 
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="EN">
@@ -120,7 +117,6 @@
 				</position>
 			</language>
 		</marginalia>
-		
 		
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="pane &amp; uino"/>
@@ -162,7 +158,7 @@
 		
 		<!-- Marks -->			
 	    	<!-- Left margin -->
-	    	<mark name="equal_sign" method="pen" place="left_margin"/> <!-- discreti -->
+	    <mark name="equal_sign" method="pen" place="left_margin"/> <!-- discreti -->
 		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- ladro. -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- Trappolina: -->
 		    
@@ -172,7 +168,7 @@
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: Cane? -->
 		<mark name="semicolon" method="pen" place="intext"/> <!-- Catulo & -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="d'un Dottore"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- moglie, accioche -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- moglie, accioche -->
 		<mark name="dot" method="pen" place="intext"/> <!-- herede, non -->
 		<mark name="dot" method="pen" place="intext"/> <!-- conuenirsegli, Monsignor -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="questo eccellente"/>
