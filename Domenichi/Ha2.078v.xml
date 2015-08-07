@@ -24,7 +24,7 @@
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Quiavis audeo, pra[e]ter impossibile: et quod =
+						Quiavis audeo, pra[e]ter impossibile: et quod = <!--JG: Shouldn't this be 'quidvis'. Also affects translation-->
 							<!-- Continues onto facing page, head, Ha2.080r -->
 					</marginalia_text>
 				</position>
@@ -114,7 +114,7 @@
 			<language ident="IT">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Solsequium.
+						Solsequium. <!--JG: Doesn't this go with 'Euge'? Ink seems similar and 'Euge:' does continue-->
 					</marginalia_text>
 				</position>
 			</language>
@@ -159,8 +159,7 @@
 				The hymn of the Sun, the song of songs.
 			</translation>
 		</marginalia>
-
-
+		
 		<marginalia hand="Italian">
 			<language ident="IT">
 				<position place="left_margin" book_orientation="90">
@@ -177,12 +176,56 @@
 			</language>
 			<translation>
 				He who everywhere cuts off all ornamentation, dissimilar elements, and usless things is subtly prudent.
-				And he engages only in series matters of immediate and influential use. By always doing this, he can
+				And he engages only in serious matters of immediate and influential use. By always doing this, he can
 				be faster and more accomplished than anyone else.
 			</translation>
 		</marginalia>
 		
 		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+		
+		<underline method="pen" type="straight" language="IT" text="huomini"/>
+		<underline method="pen" type="straight" language="IT" text="insatiabili"/>	
+		<underline method="pen" type="straight" language="IT" text="p[e]rsecutio[n]i principali"/>
+		<underline method="pen" type="straight" language="IT" text="L'esperienze farsi col"/>
+		<underline method="pen" type="straight" language="IT" text="audienza, &amp; speditione"/>
+		<underline method="pen" type="straight" language="IT" text="Auuocati"/>
+		<underline method="pen" type="straight" language="IT" text="L'arte deludersi con l'arte"/>
+		<underline method="pen" type="straight" language="IT" text="moltitudine d[e]lle leggi"/>
+		<underline method="pen" type="straight" language="IT" text="copia d[ella] viti"/>
+		<underline method="pen" type="straight" language="IT" text="l'affetto d'Amore"/>
+		<underline method="pen" type="straight" language="IT" text="essere inconstante"/>
+		<underline method="pen" type="straight" language="IT" text="antiuedere"/>
+		<underline method="pen" type="straight" language="IT" text="altrui"/>
+		<underline method="pen" type="straight" language="IT" text="in moi stessi"/>
+		<underline method="pen" type="straight" language="IT" text="la parte migliore"/>
+		<underline method="pen" type="straight" language="IT" text="peggiore"/>
+		<underline method="pen" type="straight" language="IT" text="Principi essere"/>
+		<underline method="pen" type="straight" language="IT" text="buona giustitia"/>
+		<underline method="pen" type="straight" language="IT" text="vera nobilit&agrave; deriuar dalla virt&ugrave;"/>
+		<underline method="pen" type="straight" language="IT" text="saluar"/>
+		<underline method="pen" type="straight" language="IT" text="Giouane"/>
+		<underline method="pen" type="straight" language="IT" text="riccho chi"/>
+		<underline method="pen" type="straight" language="IT" text="huomini accorti"/>
+		<underline method="pen" type="straight" language="IT" text="mirabili espedienti"/>
+		<underline method="pen" type="straight" language="IT" text="buon consiglio superere"/>
+		<underline method="pen" type="straight" language="IT" text="vn'errore"/>
+		<underline method="pen" type="straight" language="IT" text="bei motti, fuggirsi"/>
+		<underline method="pen" type="straight" language="IT" text="menzogne tornare"/>
+		<underline method="pen" type="straight" language="IT" text="dell'autore"/>
+		
+		<symbol name="SS" place="left_margin"/>
+		
+		<symbol name="SS" place="right_margin" language="IT" text="L'astinenza esser protettrice della virt&ugrave;"/>
+		<symbol name="SS" place="right_margin" language="IT" text="L'auuedimento dell'huomo prudente saluar talhora la patria da grauissimo periglio"/>
+		<symbol name="SS" place="right_margin" language="IT" text="Gli huomini accorti, con mirabili espedienti liberarsi da molestie perpetue"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--dan-->
+		<mark name="plus_sign" method="pen" place="right_margin"/> <!--vergogna-->
+		
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="inconstante"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="sano"/>
+		<mark name="dot" method="pen" place="intext"/> <!--sano, riccho-->
+		<mark name="dot" method="pen" place="intext"/> <!--esercito, &-->
 	
 	</annotation>	
 </transcription>
