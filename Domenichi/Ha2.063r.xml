@@ -28,7 +28,7 @@
 				</position>
 			</language>
 			<translation>
-				Nothing makes genius more subtle than than the Logic of Jurisprudence and the Diet of Theurgy.
+				Nothing makes genius more subtle than than the logic of jurisprudence and the diet of theurgy.
 			</translation>
 		</marginalia>
 		
@@ -36,14 +36,14 @@
 			<language ident="LA">
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						Diuina[e] Entelechia[e], et Fronia[e] quotidiana alimenta.
+						Diuina[e] Entelechia[e], et Ironia[e] quotidiana alimenta.
 						Cu[m] his etiam Salium, apophthegmatum, epigrammatum, gnomaru[m],
 						regularu[m] ( delitijs.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				The daily sustenance of divine Actualization and Wisdom. And with these delights found in witticisms, aphorisms,
+				The daily sustenance of divine actualization and irony. And with these delights found in witticisms, aphorisms,
 				epigrams, maxims, and principles.
 			</translation>
 		</marginalia>
@@ -56,7 +56,7 @@
 							<!-- Continued from facing page, right margin, Ha2.063v -->
 					</marginalia_text>
 					<person name="Juan Luis Vives"/>
-					<person name="Ramus"/>
+					<person name="Petrus Ramus"/>
 					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
@@ -86,6 +86,8 @@
 			<translation>
 				<!-- CG: I really have no idea how to translate this. Respectus might be a theological term; also given 
 				that he's talking about absolution and condemnation, that's probably the case. I'm still completely unsure .-->
+				<!--JG: Hmm, respectus turns out to be quite a complicated term within theological/philosophical discourses, sometimes meaning 'aspect' or 'relation'.
+					I'm not sure in this context what the right translation would be, but perhaps we should go for one that is a neutral as possible: 'A single aspect absolves, another comdemns'-->
 			</translation>
 		</marginalia>
 		
@@ -110,13 +112,12 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="EN">
 				<position place="tail" book_orientation="90">
 					<marginalia_text>
-						Knowledg
-						method
+						Knowledg,
+						method,
 					</marginalia_text>
 				</position>
 				<position place="right_margin" book_orientation="90">
@@ -130,7 +131,7 @@
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="Trappolina"/>
 		<underline method="pen" type="straight" language="IT" text="giuocare"/>
-		<underline method="pen" type="straight" language="IT" text="trappola"/>
+		<underline method="pen" type="straight" language="IT" text="trappola con"/>
 		<underline method="pen" type="straight" language="IT" text="Dottore molto"/>
 		<underline method="pen" type="straight" language="IT" text="Antigono Re"/>
 		<underline method="pen" type="straight" language="IT" text="perduto un'occhio per una"/>
@@ -177,8 +178,8 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- discon -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- do ... quel -->
-		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- ce morir -->
+	    <mark name="bracket" method="pen" place="left_margin" language="IT" text="Giuoc&ograve; egli con questo motto sopra il dubbio, potendosi intendere cosi della Trappolina gentildonna Padouana, come del giuocare a trappola con le carte: di che quel Dottore molto si dilettaua"/> 
+		<mark name="plus_sign" method="pen" place="left_margin" language="IT" text="Theocrito da"/> 
 		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- che innanzi -->
 		<mark name="equal_sign" method="pen" place="left_margin"/> <!-- io possa -->
 		    
@@ -186,7 +187,7 @@
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Trappolina"/>
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- a trappola -->
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- si dilettaua -->
-	    	<mark name="dot" method="pen" place="intext"/> <!-- solo, riuolto -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- solo, riuolto -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="ma non gi&agrave; questo"/>
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="mordere"/>
