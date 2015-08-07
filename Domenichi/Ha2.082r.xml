@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.082r.tif" signature="**2r" reader="Harvey"/>	<!-- ABO 86right -->
+	<page filename="Ha2.082r.tif" signature="**2[r]" reader="Harvey"/>	<!-- ABO 86right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -135,7 +135,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -161,7 +160,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
@@ -185,10 +183,45 @@
 				</position>
 			</language>
 			<translation>
-				I pity the man who does not know that he is a man the world half-man.
-				Nevertheless, each according to his ability: actualization for friends, irony for strangers.
+				I pity the man who does not know that he is a man and the world of half-man.
+				Nevertheless, each according to his ability: actualization for friends, irony for strangers. <!--JG: Wasn't pro se quisque not 'each for himself'?-->
 			</translation>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="assoluto procuratore"/>
+		<underline method="pen" type="straight" language="IT" text="l'ira del populo"/>
+		<underline method="pen" type="straight" language="IT" text="l'acutezza dell'ingegno"/>
+		<underline method="pen" type="straight" language="IT" text="amministrare giustitia"/>
+		<underline method="pen" type="straight" language="IT" text="pascersi volentieri"/>
+		<underline method="pen" type="straight" language="IT" text="studio d'amore"/>
+		<underline method="pen" type="straight" language="IT" text="ogni altro"/>
+		<underline method="pen" type="straight" language="IT" text="far vendetta"/>
+		<underline method="pen" type="straight" language="IT" text="dispregiare"/>
+		<underline method="pen" type="straight" language="IT" text="molti inimici"/>
+		<underline method="pen" type="straight" language="IT" text="l'hauerne vn solo"/>
+		<underline method="pen" type="straight" language="IT" text="Amor di popolo"/>
+		<underline method="pen" type="straight" language="IT" text="tutte"/>
+		<underline method="pen" type="straight" language="IT" text="detrattore"/>
+		<underline method="pen" type="straight" language="IT" text="l'adulatore"/>
+		<underline method="pen" type="straight" language="IT" text="Mezzi idonei"/>
+		<underline method="pen" type="straight" language="IT" text="alla Monarchia"/>
+		<underline method="pen" type="straight" language="IT" text="L'insolenza"/>
+		<underline method="chalk" type="straight" language="IT" text="danari impedir il"/>
+		<underline method="chalk" type="straight" language="IT" text="Chi non fa quando"/>
+		<underline method="chalk" type="straight" language="IT" text="Discretione dell'huomo"/>
+		<underline method="pen" type="straight" language="IT" text="Stratagemme di valoroso"/>
+		
+		<symbol name="Sun" place="head"/>
+		
+		<symbol name="SS" place="intext"/>
+		
+		<mark name="quotation_mark" method="pen" place="right_margin"/>
+		<mark name="dash" method="pen" place="right_margin"/> <!--de-->
+		<mark name="quotation_mark" method="pen" place="right_margin"/>
+		
+		<mark name="comma" method="pen" place="intext"/> <!--suoi non-->
+		<mark name="dot" method="pen" place="intext"/> <!--padroni, &-->
+		<mark name="dot" method="pen" place="intext"/> <!--detrattore, &-->
+		
     </annotation>
 </transcription>
