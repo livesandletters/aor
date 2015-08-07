@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.083r.tif" signature="**3r" reader="Harvey"/>	<!-- ABO 87right -->
+	<page filename="Ha2.083r.tif" signature="**3[r]" reader="Harvey"/>	<!-- ABO 87right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -43,6 +43,8 @@
 						Attica, Heroica.
 					</marginalia_text>
 					<person name="Aaron"/>
+					<person name="Simon I"/>
+					<person name="Onias I"/>
 					<X-ref person="" book_title="Book of Ecclesiastes" language="LA" text="de sanguine uvae"/>
 				</position>
 			</language>
@@ -81,7 +83,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -106,9 +107,47 @@
 				Many urbane men are not pragmatic, and many pragmatic men are not urbane. 
 				Give me an urbane and pragmatic man, as political as he is witty;
 				give me only him who combines wit and stratagems, 
-				approaching the best possible practice for the present time.				
+				approaching the best possible practice for the present time. <!--JG: Part of translation seems misssing-->				
 			</translation>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="gli adulatori"/>
+		<underline method="pen" type="straight" language="IT" text="riconciliar i domestici"/>
+		<underline method="pen" type="straight" language="IT" text="del vano cicalar de'populi"/>
+		<underline method="pen" type="straight" language="IT" text="Alle proposte punge[n]ti"/>
+		<underline method="pen" type="straight" language="IT" text="riposte morde[n]ti conuenirsi"/>
+		<underline method="pen" type="straight" language="IT" text="adosso i burlatori"/>
+		<underline method="pen" type="straight" language="IT" text="falli minuti, piu tosto"/>
+		<underline method="pen" type="straight" language="IT" text="Mio"/>
+		<underline method="pen" type="straight" language="IT" text="Tuo"/>
+		<underline method="pen" type="straight" language="IT" text="guastar il mondo"/>
+		<underline method="pen" type="straight" language="IT" text="consigli vili, essere"/>
+		<underline method="pen" type="straight" language="IT" text="contra potenti"/>
+		<underline method="pen" type="straight" language="IT" text="La virtu della"/>
+		<underline method="pen" type="straight" language="IT" text="mansueti, &amp; pietosi"/>
+		<underline method="pen" type="straight" language="IT" text="ignoranti vendere piu"/>
+		<underline method="pen" type="straight" language="IT" text="ista ignorante"/>
+		<underline method="pen" type="straight" language="IT" text="alla necessit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="h&agrave; leggi"/>
+		<underline method="pen" type="straight" language="IT" text="dall'opere sue, non"/>
+		<underline method="pen" type="straight" language="IT" text="di buona disciplina"/>
+		<underline method="pen" type="straight" language="IT" text="di co[n]tine[n]za, e"/>
+		
+		<underline method="chalk" type="straight" language="IT" text="non dall'altrui"/>
+		
+		<symbol name="SS" place="right_margin"/>
+		
+		<symbol name="JC" place="intext"/>
+		
+		<mark name="plus_sign" method="pen" place="right_margin"/>
+		<mark name="dash" method="pen" place="right_margin"/> <!--malesi-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--per-->
+		<mark name="quotation_mark" method="pen" place="right_margin"/>
+		<mark name="dash" method="pen" place="right_margin"/> <!--magna-->
+		<mark name="plus_sign" method="pen" place="right_margin"/>
+		<mark name="equal_sign" method="pen" place="right_margin"/>
+		
+		<mark name="equal_sign" method="pen" place="intext"/>
+		
     </annotation>
 </transcription>
