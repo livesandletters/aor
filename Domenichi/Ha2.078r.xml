@@ -77,7 +77,7 @@
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						Ego Phoenici S[imilis].
-							<!-- CG: Similis is a guess, but seems reasonable to me. -->
+							<!-- CG: Similis is a guess, but seems reasonable to me. --> <!--JG: Indeed, although it's strange that Harvey didn't write it out, since he'd plenty of space-->
 					</marginalia_text>				
 				</position>
 			</language>
@@ -154,6 +154,27 @@
 				to be prepared only during the fact. Sluggish is the soldier who does not sharpen his sword before the storm of battle.
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="no[n] vendetta"/>
+		<underline method="pen" type="straight" language="IT" text="di piu graui danni"/>
+		<underline method="pen" type="straight" language="IT" text="Motti arditi, &amp; piaceuoli de'"/>
+		<underline method="pen" type="straight" language="IT" text="inscusare l'inauertenza"/>
+		<underline method="pen" type="straight" language="IT" text="huomini saui"/>
+		<underline method="pen" type="straight" language="IT" text="ciaschedun'alto quesito rispo[n]dere"/>
+		<underline method="pen" type="straight" language="IT" text="mordenti"/>
+		
+		<symbol name="SS" place="left_margin"/>
+		<symbol name="SS" place="intext"/>
+		<symbol name="SS" place="tail" language="LA" text="Prudentum decet, paratissimum esse ante factum: in facto apparari, tardi, miseriq[ue] est. Stolidus miles, qui non acuit ensem ante pra[e]lij tempestatem."/>
+		
+		<mark name="straight_quotation_mark" method="pen" place="left_margin" language="IT" text="Motti arditi, &amp; piaceuoli de'"/>
+		<mark name="quotation_mark" method="pen" place="left_margin" language="IT" text="Gli huomini constanti, &amp; virili farsi beffe del male"/>
+		<mark name="quotation_mark" method="pen" place="left_margin" language="IT" text="L'audacia &agrave; tempo &amp; luogo giouar molto"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--ven-->
+		<mark name="plus_sign" method="pen" place="right_margin"/> <!--fieri-->
+		
+		<mark name="comma" method="pen" place="intext"/> <!--danni douersi-->
 
     </annotation>
 </transcription>
