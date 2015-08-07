@@ -24,7 +24,7 @@
 				</position>
 			</language>
 			<translation>
-				.all together.
+				The first Euschemonist all together.
 			</translation>
 		</marginalia>
 		
@@ -71,7 +71,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -81,10 +80,9 @@
 				</position>
 			</language>
 			<translation>
-				I praise the man who is always familiar, but never vulgar.
+				I praise the man who is always familiar, but never vulgar. The sun shines daily, but the sun still is. <!--JG: You forgot to translate the second part of the marginal note. Have a look at my translation-->
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -127,7 +125,7 @@
 		<underline method="pen" type="straight" language="IT" text="uoi anchor"/>
 		<underline method="pen" type="straight" language="IT" text="simile al Polifemo"/>
 		<underline method="pen" type="straight" language="IT" text="che dianzi tanto mi lodaste"/>
-		<underline method="pen" type="straight" language="IT" text="grande nell uergogna"/>
+		<underline method="pen" type="straight" language="IT" text="grande nella uergogna"/>
 		<underline method="pen" type="straight" language="IT" text="Francesco Doni"/>
 		<underline method="pen" type="straight" language="IT" text="quel grido &amp; fama"/>
 		<underline method="pen" type="straight" language="IT" text="c'homai si sa per tutto"/>
@@ -142,14 +140,14 @@
 		<underline method="pen" type="straight" language="IT" text="la prosuntio[n] di colui, ordin&ograve;"/>
 		<underline method="pen" type="straight" language="IT" text="uno scudo"/>
 		<underline method="pen" type="straight" language="IT" text="campo di grano"/>
-		<underline method="pen" type="straight" language="IT" text="une uite"/>
+		<underline method="pen" type="straight" language="IT" text="una uite"/>
 		<underline method="pen" type="straight" language="IT" text="un pero"/>
 		<underline method="pen" type="straight" language="IT" text="quel grano incerato e spigato"/>
 		<underline method="pen" type="straight" language="IT" text="uerdura di quella uite piena di"/>
 		<underline method="pen" type="straight" language="IT" text="bella pianta"/>
 		
 		<!-- Symbols -->
-		<symbol name="Mercury" place="right_margin"/>
+		<symbol name="Mercury" place="right_margin"/> <!--JG: Can be linked to printed text, no?-->
 		<symbol name="Sun" place="intext"/>
 		
 		<!-- Marks -->			
@@ -161,7 +159,7 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- quel -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- lifemo -->
+	    <mark name="plus_sign" method="pen" place="left_margin"/> <!-- lifemo -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- la .. diuisandogli -->
 		    
 	    	<!-- Head/Intext/Tail -->
@@ -172,11 +170,12 @@
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="bella rosa"/>
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- foglia di uite -->
 		<mark name="equal_sign" method="pen" place="intext" language="IT" text="Mercurio"/>
-	    	<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: Perdonatemi -->
+	    <mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: Perdonatemi -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="simile al Polifemo"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Francesco Doni"/>
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: fama c'homai -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="acutissimo"/>
+		<mark name="equal_sign" method="pen" place="intext"/> <!--sottile-->
 		<mark name="dot" method="pen" place="intext"/> <!-- suegliato, fu -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="molto ricco"/>
 		<mark name="dot" method="pen" place="intext"/> <!-- colui, ordino -->
