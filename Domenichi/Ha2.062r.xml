@@ -51,7 +51,7 @@
 				Ridiculous.
 			</translation>
 		</marginalia>
-		<marginalia hand="Italian">
+		<marginalia hand="Italian" anchor_text="diuersi humori di persone">
 			<language ident="IT">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
@@ -93,7 +93,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -108,7 +107,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
@@ -121,7 +119,7 @@
 			</language>
 			<translation>
 				Nothing in the world is more useful or delightful than a sharp wit, with which
-				even the most unwilling people can be overcome.
+				even the most unwilling people can be overcome. <!--JG: 'all unwilling' instead of 'the most', since omnes doesn't seem to have meaning of superlative here?-->
 			</translation>
 		</marginalia>
 		
@@ -164,11 +162,10 @@
 		<underline method="chalk" type="straight" language="IT" text="attilatamente, per non dir feminilmente"/>
 		<underline method="chalk" type="straight" language="IT" text="c'haueuano gli anelletti di"/>
 		<underline method="chalk" type="straight" language="IT" text="dita nelle mani. &amp; perche?"/>
-		<underline method="chalk" type="straight" language="IT" text="egli, portan l'anella nel"/>
-		
+		<underline method="chalk" type="straight" language="IT" text="egli, portan l'anella nelle"/>
 		
 		<!-- Symbols -->
-		<symbol name="SS" place="right_margin"/>
+		<symbol name="SS" place="right_margin" language="IT" text="diuersi humori di persone"/>
 		
 		<!-- Marks -->			
 		<!-- Right margin -->
@@ -178,13 +175,13 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- porta -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- to pronto -->
+	    <mark name="plus_sign" method="pen" place="left_margin" language="IT" text="molto pronto"/> 
 		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- quiui -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- che ... demmo -->
 		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- ler notar -->
 		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- oro a gli -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- ci gia di Libia -->
-		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- che costoro -->
+		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- che costoro --> <!--JG: I think this is a sloppy SS symbol-->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- che ... le orecchie -->
 		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- fece portar -->
 		    
@@ -195,7 +192,7 @@
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: notar -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="humori"/>
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: persone -->
-	    	<mark name="dot" method="pen" place="intext"/> <!-- passauano, a -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- passauano, a -->
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- qualche oppositione -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="humor"/>
 		<mark name="comma" method="pen" place="intext"/> <!-- nostro in -->
@@ -210,6 +207,7 @@
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="una congiettura"/>
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- habbiano dita -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: dita -->
+		<mark name="comma" method="pen" place="intext"/> <!-- io perche-->
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- orecchie -->
 		<mark name="dot" method="pen" place="intext"/> <!-- mangiar, si -->
 
