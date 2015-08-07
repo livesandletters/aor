@@ -39,7 +39,6 @@
 					<marginalia_text>
 						Veritas.
 					</marginalia_text>
-					<emphasis method="pen" type="straight" text="Veritas"/>
 				</position>
 			</language>
 			<translation>
@@ -52,7 +51,6 @@
 					<marginalia_text>
 						Adulatio.
 					</marginalia_text>
-					<emphasis method="pen" type="straight" text="Adulatio"/>
 				</position>
 			</language>
 			<translation>
@@ -65,7 +63,6 @@
 					<marginalia_text>
 						Discretio.
 					</marginalia_text>
-					<emphasis method="pen" type="straight" text="Discretio"/>
 				</position>
 			</language>
 			<translation>
@@ -89,7 +86,7 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						260. s[upr]a.
+						260. s[upr]a. 
 					</marginalia_text>
 				</position>
 			</language>
@@ -119,7 +116,7 @@
 				</position>
 			</language>
 			<translation>
-				An excellent difference in discretion.
+				An excellent distinction in discretion.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -135,7 +132,6 @@
 				Against the politics of Machiavelli.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -166,7 +162,6 @@
 				to be experienced in one's Library.
 			</translation>
 		</marginalia>
-		
 				
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -207,7 +202,7 @@
 		<underline method="pen" type="straight" language="IT" text="come adulatore"/>
 		<underline method="pen" type="straight" language="IT" text="Diocle"/>
 		<underline method="pen" type="straight" language="IT" text="suo ritratto"/>
-		<underline method="pen" type="straight" language="IT" text="disfece egregiamente a tutti i cortigiani"/>
+		<underline method="pen" type="straight" language="IT" text="sodisfece egregiamente a tutti i cortigiani"/>
 		<underline method="pen" type="straight" language="IT" text="especialmente ad Antigono"/>
 		<underline method="pen" type="straight" language="IT" text="modestia di Diocle nell'hauer"/>
 		<underline method="pen" type="straight" language="IT" text="della riputation dell'arte"/>
@@ -226,17 +221,21 @@
 		<!-- Symbols -->
 		<symbol name="SS" place="right_margin"/>
 		<symbol name="SS" place="tail"/>
-		<symbol name="Opposite_planets" place="tail"/>
+		<symbol name="Opposite_planets" place="tail" language="LA" text="Pg. 260, above."/> <!--JG: Intersting combination of symbol + marginal note (hence I added text of marginal note in text attribute-->
 		
 		<!-- Marks -->			
 		<!-- Right margin -->
+		<mark name="horizontal_bar" method="pen" place="right_margin"/>
+		<mark name="horizontal_bar" method="pen" place="right_margin"/>
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- adulatione del -->
+		<mark name="horizontal_bar" method="pen" place="right_margin"/>
+		<mark name="dash" method="pen" place="right_margin"/> <!--espe-->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- giu -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- ri -->
 		<mark name="dash" method="pen" place="right_margin"/> <!--  tut -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- gnoto ... mal -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- gnoto ... mal -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- modestia ... difetto -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- tenne ... te le -->
 		    
@@ -254,6 +253,7 @@
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="comma" method="pen" place="intext"/> <!-- uiso parendogli -->
 		<mark name="dot" method="pen" place="intext"/> <!-- pittore, & -->		
+		<mark name="dot" method="pen" place="intext"/> <!-- chi-->
 		<mark name="vertical_bar" method="pen" place="intext"/> <!-- sfacciato. Allhora -->		
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Diocle"/>
@@ -268,8 +268,8 @@
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="sola la uia del mezo &egrave; di salute"/>
 	  		
 		<!-- Numerals -->
-		<numeral place="left_margin">2.</numeral>
-		<numeral place="left_margin">3.</numeral>
+		<numeral place="left_margin">2.</numeral> <!--JG: Can this be linked to underlined text?-->
+		<numeral place="left_margin">3.</numeral> <!--JG: Idem?-->
 
     </annotation>
 </transcription>
