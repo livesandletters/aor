@@ -58,11 +58,9 @@
 				</position>
 			</language>
 			<translation>
-				More subtle than the Subtle Doctor himself.
+				More subtle than the Subtle Doctor himself. <!--JG: I think you forgot part of the translation-->
 			</translation>
 		</marginalia>
-		
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -107,7 +105,7 @@
 		<underline method="pen" type="straight" language="IT" text="Vite, e 'l Pero"/>
 		<underline method="pen" type="straight" language="IT" text="Gran uitupero"/>
 		<underline method="pen" type="straight" language="IT" text="ch'un par"/>
-		<underline method="pen" type="straight" language="IT" text="uillan tradiore"/>
+		<underline method="pen" type="straight" language="IT" text="uillan traditore"/>
 		<underline method="pen" type="straight" language="IT" text="uoglia nobilitar co'l"/>
 		<underline method="pen" type="straight" language="IT" text="molte &amp; molte maniere"/>
 		<underline method="pen" type="straight" language="IT" text="argutia"/>
@@ -123,19 +121,19 @@
 		
 		<!-- Symbols -->
 		<symbol name="SS" place="left_margin"/>
-		<symbol name="SS" place="left_margin"/>
+		<symbol name="SS" place="left_margin"/> <!--griettura, beneath marginal note-->
 		
 		<!-- Marks -->			
 		<!-- Right margin -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- signi -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- di ... uillan -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- di ... uillan -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="vertical_bar" method="pen" place="intext"/> <!-- uista. Ma -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="interpretatione"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- sapendo, montato -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- sapendo, montato -->
 		<mark name="comma" method="pen" place="intext"/> <!-- heroica in -->
 		<mark name="dot" method="pen" place="intext"/> <!-- caso, domando' -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="una seuerit&agrave; di uolto"/>
@@ -147,7 +145,6 @@
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="improuisamente"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="congiettura"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="improuisa"/>
-		
 
     </annotation>
 </transcription>
