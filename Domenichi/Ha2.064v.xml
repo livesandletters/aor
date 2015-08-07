@@ -17,7 +17,7 @@
 				</position>
 			</language>
 			<translation>
-				Daily day-break:
+				Daily day-break: hail the festive day.
 			</translation>
 		</marginalia>
 		
@@ -67,6 +67,7 @@
 					<emphasis method="pen" type="straight" text="Panacea"/>
 				</position>
 			</language>
+			<translation>Panacea.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -78,7 +79,7 @@
 				</position>
 			</language>
 			<translation>
-				Let the lively jump about at night, and vigor by day.
+				Let the lively jump about at night, and vigor by day. <!--JG: Don't you think vividus and vigor go together? 'Let the lively vigor jump about at night and day'-->
 			</translation>
 		</marginalia>
 		
@@ -97,8 +98,6 @@
 			</translation>
 		</marginalia>
 		
-		
-		
 		<marginalia hand="Italian">
 			<language ident="EN">
 				<position place="left_margin" book_orientation="270">
@@ -113,7 +112,6 @@
 			</language>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="90">
@@ -127,7 +125,7 @@
 				In the short grass of small beginnings hides the hare of many experiences.
 					<!-- CG: So I found the phrase "In exiguo quandoque cespite latet lepus" in an introductory
 					letter to Harvey and Spenser's "Three proper, and wittie familiar letters: lately passed betweene
-					two universite men." Worth X-ref'ing? -->
+					two universite men." Worth X-ref'ing? --> <!--JG: It's interesting, but in general we use the X-ref only for things that are (more or less) directly quoted from a source Harvey doesn't mention. So in this case I wouldn't use the X-ref tag. You can leave it in a comment field, though-->
 			</translation>
 		</marginalia>
 		
@@ -148,7 +146,7 @@
 		<underline method="pen" type="straight" language="IT" text="Il filosofo"/>
 		<underline method="pen" type="straight" language="IT" text="argutamente"/>
 		<underline method="pen" type="straight" language="IT" text="uil guadagno intesa"/>
-		<underline method="pen" type="straight" language="IT" text="guccion della Faggiuola"/>
+		<underline method="pen" type="straight" language="IT" text="Vguccion della Faggiuola"/>
 		<underline method="pen" type="straight" language="IT" text="a tauola, che desinaua"/>
 		<underline method="pen" type="straight" language="IT" text="in Lucca"/>
 		<underline method="pen" type="straight" language="IT" text="come Pisa haueua"/>
@@ -167,22 +165,22 @@
 			
 		<!-- Marks -->			
 	    	<!-- Left margin -->
-	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- filosofo non -->
+	    <mark name="plus_sign" method="pen" place="left_margin" language="IT" text="filosofo non ha bisogno"/> 
 		<mark name="horizontal_bar" method="pen" place="left_margin"/> <!-- chi ha, onde -->
 		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Pouera &amp; nuda uai filosofia"/>
 		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Dice la turba al uil guadagno intesa"/>
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="dot" method="pen" place="intext"/> <!-- stippo, & -->
-		<mark name="plus_sign" method="pen" place="intext"/> <!-- suoi bisogni -->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="ha, onde cauarne a' suoi"/> 
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="argutamente"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="medici"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="filosofi"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- poueramente, -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- poueramente, -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="argutamente"/>
-		<mark name="quotation_mark" method="pen" place="intext"/> <!-- intesa. -->
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="uil guadagno intesa"/> 
 		<mark name="comma" method="pen" place="intext"/> <!-- Lucca hebbe -->
-		<mark name="plus_sign" method="pen" place="intext"/> <!-- prima di desi -->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="prima di desinare"/> 
 		<mark name="comma" method="pen" place="intext"/> <!-- nare caualco' -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: serrarono -->
 		<mark name="comma" method="pen" place="intext"/> <!-- scacciato se -->
