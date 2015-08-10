@@ -31,7 +31,7 @@
 				</position>
 			</language>
 			<translation>
-				Romans, always prepared in mind and virtue, proposed industriousness in everything. <!-- CG: Unclear. -->
+				Romans, always prepared in mind and virtue, proposed industriousness in everything. <!-- CG: Unclear. --> <!--JG: Maybe employed instead of proposed? Still vague, but seems a right translation-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -58,7 +58,7 @@
 						nec arte, nec virtute,
 						nec ullo valore magni:
 						sed competenti literaru[m], rerumq[ue]
-						scientia; industria,  <!-- CG: Unsure how to capture symbol. -->
+						scientia; industria,  <!-- CG: Unsure how to capture symbol. --> <!--JG: I'd put [symbol: bisected circle] in the marginal note. I'll link the symbol to the text of the marginal note-->
 						<!-- Continues onto facing page, in text, Ha2.088r -->
 					</marginalia_text>
 					<person name="Oliver Cromwell"/>
@@ -68,7 +68,7 @@
 				</position>
 			</language>
 			<translation>
-				Great were Cromwell, Henry VIII, and Robert Cecil under Queen Elizabeth.
+				Great were Cromwell, Henry VIII, and Robert Cecil under Queen Elizabeth. <!--JG: I think it should be: 'Great were Cromwell under Henry VIII, and Robert Cecil under Queen Elizabeth...' (Henrico is abl.)-->
 				There is no art, virtue, or any valor of a great man, but being competent
 				in letters and the knowledge of things; through industriousness... 			
 			</translation>
@@ -119,6 +119,7 @@
 					<person name="Homer"/>
 					<person name="Hesiod"/>
 					<person name="Pindar"/>
+					<person name="Demosthenes"/>
 				</position>
 				<position place="tail" book_orientation="90">
 					<marginalia_text>
@@ -138,7 +139,6 @@
 				Demosthenes, Isocrates, and Cicero.			
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -162,12 +162,54 @@
 				</position>
 			</language>
 			<translation>
-				Young men admire, praise, and imitate. Men are allowed to emulate, to excel [--]
+				Young men admire, praise, and imitate. Men are allowed to emulate, to excel [--] <!--JG: aemulari = pass. inf?-->
 			</translation>
 		</marginalia>
 		
+		<underline method="pen" type="straight" language="IT" text="Venere noucere"/>
+		<underline method="pen" type="straight" language="IT" text="non giouare"/>
+		<underline method="pen" type="straight" language="IT" text="vn Principe"/>
+		<underline method="pen" type="straight" language="IT" text="Le leggi humane, perche"/>
+		<underline method="pen" type="straight" language="IT" text="vsar la vittoria nelle"/>
+		<underline method="pen" type="straight" language="IT" text="Le adulationi costar"/>
+		<underline method="pen" type="straight" language="IT" text="Saggia, &amp; vtilissima ammonitione"/>
+		<underline method="pen" type="straight" language="IT" text="La virt&ugrave;, &amp;"/>
+		<underline method="pen" type="straight" language="IT" text="far viuo l'hnomo"/>
+		<underline method="pen" type="straight" language="IT" text="Inuentioni crudeli"/>
+		<underline method="pen" type="straight" language="IT" text="macchia notabile"/>
+		<underline method="pen" type="straight" language="IT" text="non prouocare"/>
+		<underline method="pen" type="straight" language="IT" text="da far rachettare i tenaci"/>
+		<underline method="pen" type="straight" language="IT" text="Falsi testimoni"/>
+		<underline method="pen" type="straight" language="IT" text="accorti interroganti"/>
+		<underline method="pen" type="straight" language="IT" text="l'amicitia"/>
+		<underline method="pen" type="straight" language="IT" text="Pianamente &amp;"/>
+		<underline method="pen" type="straight" language="IT" text="non in"/>
+		<underline method="pen" type="straight" language="IT" text="douersi risoluere"/>
+		<underline method="pen" type="straight" language="IT" text="tutti i colpi di Fortuna"/>
+		<underline method="pen" type="straight" language="IT" text="si lasciare soprafare da'bisogni"/>
+		<underline method="pen" type="straight" language="IT" text="l'vniuerso"/>
+		<underline method="pen" type="straight" language="IT" text="non riuelare l'altrui segreto"/>
+		<underline method="pen" type="straight" language="IT" text="non communicare"/>
+		<underline method="pen" type="straight" language="IT" text="suoi di"/>
+		<underline method="pen" type="straight" language="IT" text="scasa del lor dishonesto"/>
 		
-
+		<symbol name="Sun" place="head"/>
+		
+		<symbol name="SS" place="left_margin"/>
+		<symbol name="SS" place="left_margin"/> <!--pianamente-->
+		
+		<symbol name="JC" place="intext" language="IT" text="Falsi testimoni; accorti interroganti"/>
+		<symbol name="Bisected_circle" place="intext" language="IT" text="Cromuellus, Henrico 8. et Cecilius sub Elizabeta regina, maximi: nec arte, nec virtute, nec ullo valore magni: sed competenti literaru[m], rerumq[ue] scientia; industria"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--tro-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--al-->
+		
+		<mark name="plus_sign" method="pen" place="head" language="IT" text="nuocere"/>
+		<mark name="plus_sign" method="pen" place="head" language="IT" text="non giouare"/>
+		
+		<mark name="dot" method="pen" place="intext"/>	<!--vecchi, &-->
+		<mark name="plus_sign" method="pen" place="intext"/>
+		<mark name="dot" method="pen" place="intext"/>	<!--segreto, si-->
 
     </annotation>
 </transcription>
