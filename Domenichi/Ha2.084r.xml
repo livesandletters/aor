@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.084r.tif" signature="**4r" reader="Harvey"/>	<!-- ABO 88right -->
+	<page filename="Ha2.084r.tif" signature="**4[r]" reader="Harvey"/>	<!-- ABO 88right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -28,21 +28,22 @@
 					<marginalia_text>
 						Ecc&egrave; quotidi&egrave; splendidissimu[m] Encomium
 						Simonis Onia[e] apud Sapientissimum Syracidem. Et
-						quotidi&egrave; illustrius efflorescat Chrysotechnus.
+						quotidi&egrave; illustri&ugrave;s efflorescat Chrysotechnus.
 						Tam amabili discretione gratiosus, qu&agrave;m inclyta
 						magnificentia conspicuus. Aurea Simonis Euschemosyne:
 						sed Charitum candore perfusa. Nec odios&egrave; superba:
 						nec abiect&egrave; blanda: sed amabiliter gratiosa.
 					</marginalia_text>
 					<person name="Chrysotechnus"/>
-					<person name="Simon Oniae"/>
+					<person name="Simon I"/>
+					<person name="Onias I"/>
 					<book title="Sirach"/>
 				</position>
 			</language>
 			<translation>
 				Here today is the most splendid encomium of Simon, son of Onia, found in the wisest Sirach.
 				And today let the illustrious Chrysotechnus bloom, as agreeable to pleasant distinction, as he
-				is notable for glorious magnificence. The golden refinement of Simon, imbued with the radiance
+				is notable for glorious magnificence. The golden refinement of Simon, but imbued with the radiance
 				of the Graces. And he is not distastefully arrogant nor cheaply alluring, but pleasantly agreeable.
 			</translation>
 		</marginalia>
@@ -110,6 +111,49 @@
 				Eutrapelus is every man, as if he were Proteus.
 			</translation>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="la munificentia"/>
+		<underline method="pen" type="straight" language="IT" text="La fame"/>
+		<underline method="pen" type="straight" language="IT" text="la fete"/>
+		<underline method="pen" type="straight" language="IT" text="parco nel biasimare"/>
+		<underline method="pen" type="straight" language="IT" text="L'opera &amp; fatica altrui"/>
+		<underline method="pen" type="straight" language="IT" text="solido premio"/>
+		<underline method="pen" type="straight" language="IT" text="I presenti ad huomini di magistrato"/>
+		<underline method="pen" type="straight" language="IT" text="quanta miseria gli huomini valorosi"/>
+		<underline method="pen" type="straight" language="IT" text="talhor si riducono"/>
+		<underline method="pen" type="straight" language="IT" text="qualit&agrave;, &amp; doni da' pianetti"/>
+		<underline method="pen" type="straight" language="IT" text="&agrave; gli euenti"/>
+		<underline method="pen" type="straight" language="IT" text="La parola"/>
+		<underline method="pen" type="straight" language="IT" text="l'imagine dell'animo"/>
+		<underline method="pen" type="straight" language="IT" text="La ragione"/>
+		<underline method="pen" type="straight" language="IT" text="alla forza"/>
+		<underline method="pen" type="straight" language="IT" text="PRofuntione giouanile"/>
+		<underline method="pen" type="straight" language="IT" text="Il vino douersi bere"/>
+		<underline method="pen" type="straight" language="IT" text="La gelosia partorire"/>
+		<underline method="pen" type="straight" language="IT" text="cattiui effetti"/>
+		<underline method="pen" type="straight" language="IT" text="di continenza"/>
+		<underline method="pen" type="straight" language="IT" text="L'amore non hauer leggi"/>
+		<underline method="pen" type="straight" language="IT" text="nell'humanit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="L'animo ben qualificato"/>
+		<underline method="pen" type="straight" language="IT" text="tolerar ogni fastidio"/>	
+		
+		<symbol name="Sun" place="head"/>
+		
+		<symbol name="SS" place="right_margin"/>
+		
+		<mark name="plus_sign" method="pen" place="right_margin" language="IT" text="quanta miseria gli huomini valorosi"/>
+		<mark name="quotation_mark" method="pen" place="right_margin" language="IT" text="qualit&agrave;, &amp; doni da' pianetti"/>
+		<mark name="quotation_mark" method="pen" place="right_margin"/>
+		
+		<mark name="horizontal_bar" method="pen" place="head"/>
+		
+		<mark name="dot" method="pen" place="intext"/> <!--munificentia, in-->
+		<mark name="dot" method="pen" place="intext"/> <!--biasimare, &-->
+		<mark name="plus_sign" method="pen" place="intext"/>
+		<mark name="comma" method="pen" place="intext"/> <!--fanciullo, &-->
+		<mark name="dot" method="pen" place="intext"/> <!--leggi, &-->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="qualificatio"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="tolerar"/>
+		
     </annotation>
 </transcription>
