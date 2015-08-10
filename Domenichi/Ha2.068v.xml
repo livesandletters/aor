@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.068v.tif" pagination="456" reader="Harvey"/>	<!-- ABO 73left -->
+	<page filename="Ha2.068v.tif" pagination="456" reader="Harvey" signature="[Ff4v]"/>	<!-- ABO 73left -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -36,7 +36,7 @@
 						Spiritus Julij incessans et infinitus.
 						Quaq[ue] hora, magis adhuc magisq[ue] acer.
 					</marginalia_text>
-					<person name="Julius Caesar"/> <!-- CG: Could be a pope? -->
+					<person name="Julius Caesar"/> <!-- CG: Could be a pope? --> <!--JG: Could be, esp. because of the printed text next to it. I wouldn't tag anyone here-->
 				</position>
 			</language>
 			<translation>
@@ -113,7 +113,7 @@
 					<marginalia_text>
 						Semper Tuissimus.
 					</marginalia_text>
-					<emphasis method="chalk" type="straight"/> <!-- CG: Seems like he used chalk to highlight. -->
+					<emphasis method="chalk" type="straight" text="Semper Tuissimus."/> <!-- CG: Seems like he used chalk to highlight. --> <!--JG: Yep!-->
 				</position>
 			</language>
 			<translation>
@@ -146,8 +146,6 @@
 			</translation>
 		</marginalia>
 		
-		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -160,11 +158,10 @@
 				</position>
 			</language>
 			<translation>
-				Not why, but how: Machiavelli. <!-- CG: Unsure about the distinction here. -->
+				Not why, but how: Machiavelli. <!-- CG: Unsure about the distinction here. --> <!--JG: I'd leave it as this literal translation. Not sure what Harvey want to convey here either-->
 				Not how, but why: Lipsius.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -184,7 +181,6 @@
 				Fundamental is logic, mathematics, physics, and politics; one can easily be all things.
 			</translation>
 		</marginalia>
-	
 		
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="co 'l Simonetta"/>
@@ -197,7 +193,7 @@
 		<underline method="pen" type="straight" language="IT" text="del Tosetto"/>
 		<underline method="pen" type="straight" language="IT" text="heretico"/>
 		<underline method="pen" type="straight" language="IT" text="buono essempio"/>
-		<underline method="pen" type="straight" language="IT" text="per sospetto del uulgo"/>
+		<underline method="pen" type="straight" language="IT" text="per sospetto del"/>
 		<underline method="pen" type="straight" language="IT" text="esser heretico manifesto"/>
 		<underline method="pen" type="straight" language="IT" text="non creda in Christo"/>
 		<underline method="pen" type="straight" language="IT" text="mi uergognaua"/>
@@ -220,14 +216,14 @@
 		<!-- Marks -->			
 		<!-- Right margin -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- douen -->
-		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- Rettori su 'l -->
+		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- Rettori su 'l -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- essem -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- chia -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- Per -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- rispo -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- lo heretico -->
+	    <mark name="plus_sign" method="pen" place="left_margin"/> <!-- lo heretico -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- non ... cui -->
 		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- tuo Padre -->
 		    
@@ -235,7 +231,7 @@
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: sospetto -->
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- troppo grandi -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- buona lettere -->
-	    	<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: rispondo -->
+	    <mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: rispondo -->
 		<mark name="dot" method="pen" place="intext"/> <!-- rispondo, perche -->
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- appartenga -->
 		<mark name="plus_sign" method="pen" place="tail"/> <!-- fatto tuo -->
