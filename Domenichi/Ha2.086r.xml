@@ -23,7 +23,7 @@
 				</position>
 			</language>
 			<translation>
-				Three things are most hateful, especially to a serious man:
+				Three things are most hateful of all, especially to a serious man:
 				ignornace, slothfulness, and melancholy. Three repulsive beasts.
 			</translation>
 		</marginalia>
@@ -69,7 +69,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						solertia, fide;
+						[symbol: bisected circle] solertia, fide;
 						regio fauore, diuina, humanaq[ue] fortuna gratiosi;
 						in primisq[ue] honorati.
 						<!-- Continued from facing page, in text, Ha2.087v -->
@@ -77,7 +77,7 @@
 				</position>
 			</language>
 			<translation>
-				... through skill and faith.
+				through skill and faith.
 				They are beloved by favor both kingly and divine, and by human fortune,
 				and they are honored among the first.
 			</translation>
@@ -138,8 +138,52 @@
 			</translation>
 		</marginalia>
 		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="0">
+					<marginalia_text>s[upr]a.</marginalia_text>
+				</position>
+			</language>
+			<translation>[See] above.</translation>
+		</marginalia>
+		
 		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
-
+		
+		<underline method="pen" type="straight" language="IT" text="tolerar constantemente qual si voglia accidente"/>
+		<underline method="pen" type="straight" language="IT" text="Gli vsurari"/>
+		<underline method="pen" type="straight" language="IT" text="calunniatori"/>
+		<underline method="pen" type="straight" language="IT" text="Anchore ferme &amp; stabili, della"/>
+		<underline method="pen" type="straight" language="IT" text="la magnanimit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="alli danari, &amp; alle"/>
+		<underline method="pen" type="straight" language="IT" text="La pouert&agrave; no[n] dar molestia"/>
+		<underline method="pen" type="straight" language="IT" text="Gli errori causati"/>
+		<underline method="pen" type="straight" language="IT" text="schernire siano i pronostichi, &amp; le p[er]dittioni"/>
+		<underline method="pen" type="straight" language="IT" text="dall'Astrologia"/>
+		<underline method="pen" type="straight" language="IT" text="vitio della iracondia"/>
+		<underline method="pen" type="straight" language="IT" text="fraudolenti"/>
+		<underline method="pen" type="straight" language="IT" text="malitiosi"/>
+		<underline method="pen" type="straight" language="IT" text="altrui &agrave; suo danno"/>
+		<underline method="pen" type="straight" language="IT" text="qualche astutia, o &agrave;ccorgimento"/>
+		<underline method="pen" type="straight" language="IT" text="trar talhora"/>
+		<underline method="pen" type="straight" language="IT" text="vista de' medici"/>
+		<underline method="pen" type="straight" language="IT" text="malati"/>
+		
+		<symbol name="Bisected_circle" place="intext" language="IT" text="solertia, fide; regio fauore, diuina, humanaq[ue] fortuna gratiosi; in primisq[ue] honorati."/>
+		
+		<symbol name="SS" place="right_margin"/>
+		<symbol name="SS" place="right_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--vi-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--figliuo-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--magna-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--cau-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--p[er]dittio-->
+		<mark name="plus_sign" method="pen" place="right_margin"/>
+		<mark name="equal_sign" method="pen" place="right_margin" language="IT" text="vitio della iracondia"/>
+		<mark name="quotation_mark" method="pen" place="right_margin"/>
+		<mark name="plus_sign" method="pen" place="right_margin"/>
+		
+		<mark name="dot" method="pen" place="intext"/> <!--contenti, si-->
 
     </annotation>
 </transcription>
