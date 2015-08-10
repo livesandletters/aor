@@ -37,7 +37,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -82,7 +81,7 @@
 		<underline method="pen" type="straight" language="IT" text="Boldone"/>
 		<underline method="pen" type="straight" language="IT" text="argutissimame[n]te et"/>
 		<underline method="pen" type="straight" language="IT" text="nostra porchetta far&agrave; testame[n]to"/>
-		<underline method="pen" type="straight" language="IT" text="doma[n]datlo ci&ograve; ch'ei"/>
+		<underline method="pen" type="straight" language="IT" text="doma[n]dat0lo ci&ograve; ch'ei"/>
 		<underline method="pen" type="straight" language="IT" text="Qui &egrave; il porcello"/>
 		<underline method="pen" type="straight" language="IT" text="qui sara[n]no"/>
 		<underline method="pen" type="straight" language="IT" text="cale[n]de lucernine"/>
@@ -105,24 +104,25 @@
 		<underline method="chalk" type="straight" language="IT" text="disegno d'architettura"/>
 		
 		<!-- Symbols -->
-		<symbol name="SS" place="left_margin"/>
+		<symbol name="SS" place="left_margin"/> <!--JG: Can't find this one-->
 		<symbol name="JC" place="tail"/>
 		
 		<!-- Marks -->			
 		<!-- Right margin -->
+		<!--JG: Also dash after 'ripie', no?-->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- l'appe -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- antica -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- per -->		
 		
 	    	<!-- Left margin -->
-	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- gno d'architettura -->
+	    <mark name="plus_sign" method="pen" place="left_margin" language="IT" text="gno d'architettura "/> 
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- sopranome -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- dodeci -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- cioche a me -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="acutissimo"/>
-	    	<mark name="comma" method="pen" place="intext"/> <!-- e io in -->
+	    <mark name="comma" method="pen" place="intext"/> <!-- e io in -->
 		<mark name="dot" method="pen" place="intext"/> <!-- Galeazzo, & -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="M. Achille"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Furio Camillo"/>
@@ -150,7 +150,6 @@
 		<mark name="comma" method="pen" place="intext"/> <!-- assegnate, Porcacchi -->
 		<mark name="dot" method="pen" place="intext"/> <!-- risa, sentendo -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="pronto"/>
-		
 
     </annotation>
 </transcription>
