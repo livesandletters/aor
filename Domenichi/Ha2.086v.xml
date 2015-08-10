@@ -49,7 +49,7 @@
 				</position>
 			</language>
 			<translation>
-				Common is the man who cannot move beyond speaking of ordinary things and acting within limits.
+				Common is the man who cannot move beyond speaking of ordinary things and acting within limits. <!--JG: Perhaps better: '...move beyond an ordinary manner (ordinarium modum) of speaking and acting'?-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -77,12 +77,11 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Omnia interna viuida, atq[ue] florida: externa etiam omnia, nisi aliquand&ograve; crypticws,
+						Omnia interna viuida, atq[ue] florida: externa etiam omnia, nisi aliquand&ograve; crypticws, <!--JG: Please insert Greek letters in between square brackets-->
 						et politica de Causa. Reuirescite pulchra, dulciaq[ue] omnia: et docete
 						Mundum, vti humanis bonis diuina Foelicitate. Munera, la[e]titiamq[ue]
 					</marginalia_text>
@@ -95,10 +94,9 @@
 			</language>
 			<translation>
 				All internal things are lively and florid; all external things as well, unless at any point cryptic, and with regard to some political occasion. 
-				Renew beautiful things, and all sweet things, and teach the world to enjoy divine happiness in human affairs. The gifts and joy of God. <!-- CG: Unsure why these are accusative. -->				
+				Renew beautiful things, and all sweet things, and teach the world to enjoy divine happiness in human affairs. The gifts and joy of God. <!-- CG: Unsure why these are accusative. --> <!--JG: Strange indeed. Seems as if an imperative is missing/implied or something?-->			
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -121,7 +119,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
@@ -137,10 +134,41 @@
 				</position>
 			</language>
 			<translation>
-				Mind and body are the greatest instruments, and in so far as you are able to use them with any strength, 
+				Mind and body are the greatest instruments, and in so far as you are able to use them with any strength, <!--JG: what about 'in primis'? Does primis refer to the 'actionibus'. So 'which (the instrumenta) are to be accomplished in the principal actions'-->
 				they are most strong in deed, and most powerful in effect.  Nothing shall be deficient for you in the active operations of life. <!-- CG: Unsure about translation. -->
 			</translation>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="L'humane operationi"/>
+		<underline method="pen" type="straight" language="IT" text="riso"/>
+		<underline method="pen" type="straight" language="IT" text="pianto"/>
+		<underline method="pen" type="straight" language="IT" text="Vanit&agrave; giouanile farsi ridicula"/>
+		<underline method="pen" type="straight" language="IT" text="&agrave; qual cosa"/>
+		<underline method="pen" type="straight" language="IT" text="nelle auuersit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="vbbidire all necessit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="difesa del suo difetto"/>
+		<underline method="pen" type="straight" language="IT" text="ingegnosi &amp; pronti auuedimenti"/>
+		<underline method="pen" type="straight" language="IT" text="la tenacit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="l'ostinatione altrui"/>
+		<underline method="pen" type="straight" language="IT" text="l'impossibilit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="e pouert&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="contentar di"/>
+		<underline method="pen" type="straight" language="IT" text="abusioni che cornompono"/>
+		<underline method="pen" type="straight" language="IT" text="dell'imortalit&agrave; dell'anima"/>
+		<underline method="pen" type="straight" language="IT" text="auueduta intentione"/>
+		<underline method="pen" type="straight" language="IT" text="inuidia"/>
+		<underline method="pen" type="straight" language="IT" text="dallo sdegno"/>
+		
+		<symbol name="SS" place="left_margin"/>
+		
+		<symbol name="SS" place="tail" language="LA" text="Omnia interna viuida, atq[ue] florida: externa etiam omnia, nisi aliquand&ograve; crypticws, et politica de Causa. Reuirescite pulchra, dulciaq[ue] omnia: et docete 
+			Mundum, vti humanis bonis diuina Foelicitate. Munera, la[e]titiamq[ue] Dei"/>
+		
+		<mark name="quotation_mark" method="pen" place="left_margin"/>
+		<mark name="plus_sign" method="pen" place="left_margin"/>
+		<mark name="quotation_mark" method="pen" place="left_margin"/>
+		
+		<mark name="comma" method="pen" place="right_margin"/> <!--ossibilita-->
+		
     </annotation>
 </transcription>
