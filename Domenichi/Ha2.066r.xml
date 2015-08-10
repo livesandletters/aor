@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.066r.tif" pagination="451" reader="Harvey"/>	<!-- ABO 70right -->
+	<page filename="Ha2.066r.tif" pagination="451" reader="Harvey" signature="Ff2[r]"/>	<!-- ABO 70right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -26,7 +26,7 @@
 			<language ident="IT">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						( ridicolo.
+						( ridicolo.)
 					</marginalia_text>
 				</position>
 			</language>
@@ -51,12 +51,11 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Utrumq[ue] conuenit, Et sibi sapere, et alijs: nec se, nec mundu[m] despicere. 
+						Utrunq[ue] conuenit, Et sibi sapere, et alijs: nec se, nec mundu[m] despicere. 
 					</marginalia_text>
 				</position>
 			</language>
@@ -64,7 +63,6 @@
 				It is appropriate to know both one's self and others; to disdain neither one's self nor the world.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -82,7 +80,7 @@
 			</language>
 			<translation>
 				No one is practical enough with any wordly skill; likewise neither are they practiced enough
-				swith their own person itself. Anything that I really desire in daily praxis is praxis.	<!-- CG: The structure of these phrases is unclear to me. --> 
+				with their own person itself. Anything that I really desire in daily praxis is praxis.	
 			</translation>
 		</marginalia>
 		
@@ -131,7 +129,7 @@
 		
 		<!-- Symbols -->
 		<symbol name="LL" place="head"/>
-		<symbol name="SS" place="right_margin"/>
+		<symbol name="SS" place="right_margin" language="IT" text="quel poco di studio, c'h&ograve; fatto"/>
 		<symbol name="JC" place="right_margin"/>
 		<symbol name="HT" place="right_margin"/>
 		
@@ -139,7 +137,7 @@
 		<!-- Right margin -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- an -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- ridicolo -->
-		<mark name="horizontal_bar" method="pen" place="right_margin"/> <!-- un che scriua. -->
+		<mark name="horizontal_bar" method="pen" place="right_margin"/> <!--un che scriua; continues into printed text-->
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- mia, gua -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- gra -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- Ma -->
@@ -149,19 +147,19 @@
 		<mark name="quotation_mark" method="pen" place="right_margin"/>
 		
 	    	<!-- Left margin -->
-	    	<mark name="X_sign" method="pen" place="left_margin"/> <!-- Grugno -->
-		<mark name="bracket" method="pen" place="left_margin"/> <!-- Magiro ... sta -->
-		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- tia perdonatemi -->
-		<mark name="straight_quotation_mark" method="pen" place="left_margin"/>
-		<mark name="straight_quotation_mark" method="pen" place="left_margin"/>
-		<mark name="straight_quotation_mark" method="pen" place="left_margin"/>
-		<mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+	    <mark name="X_sign" method="pen" place="left_margin"/> <!-- Grugno -->
+		<mark name="vertical_bar" method="pen" place="left_margin"/> <!-- Magiro ... sta -->
+		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- tia perdonatemi -->
+		<mark name="double_vertical_bar" method="pen" place="left_margin"/>
+		<mark name="double_vertical_bar" method="pen" place="left_margin"/>
+		<mark name="double_vertical_bar" method="pen" place="left_margin"/>
+		<mark name="double_vertical_bar" method="pen" place="left_margin"/>
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- ta ... recchi -->		
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="dot" method="pen" place="intext"/> <!-- qui, fra -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="testamenti"/>
-	    	<mark name="dot" method="pen" place="intext"/> <!-- uedere, ho -->
+	    <mark name="dot" method="pen" place="intext"/> <!-- uedere, ho -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- d'un Porcello -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Grugno"/>
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: Percioche -->
@@ -182,8 +180,7 @@
 		<mark name="dot" method="pen" place="intext"/> <!-- testa, a -->
 		<mark name="dot" method="pen" place="intext"/> <!-- recchi, a -->
 		<mark name="dot" method="pen" place="intext"/> <!-- lingua, a -->
-		<mark name="quotation_mark" method="pen" place="tail"/> <!-- recchi --> <!-- CG: Perhaps that quotation mark symbol that we've seen? A regular quotation mark seems out of place here.-->
-		<mark name="vertical_bar" method="pen" place="tail"/> 
-			
+		<mark name="quotation_mark" method="pen" place="tail"/> <!-- recchi --> <!-- CG: Perhaps that quotation mark symbol that we've seen? A regular quotation mark seems out of place here.--> <!--JG: Could be, leave your comment in the file please-->
+					
     </annotation>
 </transcription>
