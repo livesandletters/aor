@@ -31,7 +31,7 @@
 				What of prudence or fortitude?
 				To what degree is valor?
 				It continues to grow with the excesses of the ancients,
-				it is never supplied with the defects of today. <!-- CG: Unsure about these two lines. -->
+				it is never supplied with the defects of today. <!-- CG: Unsure about these two lines. --> <!--JG: Shouldn't defectus be the subject of the second sentence (nom, pl.)? Would make sense since supplentur is also in plural. 'It increases more with these excesses of the ancients; today's failures are never supplied'. I have to admit that this doesn't really makes sense to me-->
 				"What you do not want is dear at a farthing." 
 			</translation>
 		</marginalia>
@@ -41,7 +41,7 @@
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						sals&egrave; ad mensam
-						no philosophicam.
+						non philosophicam.
 					</marginalia_text>
 					<X-ref person="Anonymous" book_title="Mensa philosophica"/>
 				</position>
@@ -120,7 +120,7 @@
 				</position>
 			</language>
 			<translation>
-				What is subtle here or profound there? What is amazing or powerful? What singular or exceptional?
+				What is subtle here or profound there? What is amazing or powerful? What is singular or exceptional? <!--JG: Part of translation is missing-->
 			</translation>
 		</marginalia>
 		
@@ -139,7 +139,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -154,7 +153,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
@@ -166,7 +164,7 @@
 					</marginalia_text>
 					<emphasis method="chalk" type="straight"/>
 				</position>
-				<position place="tail" book_orientation="0">
+				<position place="tail" book_orientation="270">
 					<marginalia_text>
 						sibi ipsi, 
 						ut refert,
@@ -234,14 +232,14 @@
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- inestimabile -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- leua ... huomo -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- leua ... huomo -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- poiche ... un -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- tosi ... t'hara' -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- due paia -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="molto arguto"/>
-	    	<mark name="comma" method="pen" place="intext"/> <!-- sdentato u'hauete -->
+	    <mark name="comma" method="pen" place="intext"/> <!-- sdentato u'hauete -->
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- citta intere -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="argutamente"/>
 		<mark name="equal_sign" method="pen" place="intext" language="IT" text="Va in malhora"/>
@@ -251,7 +249,7 @@
 		<mark name="comma" method="pen" place="intext"/> <!-- Domino uilla -->
 		
 		<!-- Errata -->
-		<errata language="IT" copytext="a" amendedtext="&agrave;"/> <!-- u'hauete mangiata a -->
+		<errata language="IT" copytext="a" amendedtext="&agrave;"/> <!-- u'hauete mangiata a --> <!--JG: Do not use the errata tag, but tag it as a mark (diacritic)-->
 
     </annotation>
 </transcription>
