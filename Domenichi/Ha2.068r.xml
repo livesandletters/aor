@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.068r.tif" pagination="455" reader="Harvey"/>	<!-- ABO 72right -->
+	<page filename="Ha2.068r.tif" pagination="455" reader="Harvey" signature="Ff4[r]"/>	<!-- ABO 72right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -52,6 +52,7 @@
 					<marginalia_text>
 						no such springing Winter, as the great Apollonius Tyaneus.
 					</marginalia_text>
+					<person name="Apollonius of Tyana"/>
 				</position>
 			</language>
 		</marginalia>
@@ -111,7 +112,6 @@
 				The Muses are daughters of Jove and Mnemosyne; that is, of divine genius and memory.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="EN">
@@ -173,32 +173,32 @@
 		<underline method="chalk" type="straight" language="IT" text="una mera perspettiua"/>
 		
 		<!-- Symbols -->
-		<symbol name="SS" place="right_margin"/>
+		<symbol name="SS" place="right_margin" language="IT" text="una mera perpspettiua ne' costumi, nelle arti liberali, &amp; nella bont&agrave;"/> <!--una mera per-->
 		
 		<!-- Marks -->			
 		<!-- Right margin -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- frut -->
-		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- di gramma -->
+		<mark name="plus_sign" method="pen" place="right_margin" language="IT" text="professor di grammatica"/> 
 		<mark name="dash" method="pen" place="right_margin"/> <!-- figliuo -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- d'inge -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- Virgi -->
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- o femina -->
 				
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- Michele ... minchioni -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- Michele ... minchioni -->
 		<mark name="equal_sign" method="pen" place="left_margin"/> <!-- Beroaldo -->
-		<mark name="bracket" method="pen" place="left_margin"/> <!-- pianta .. to -->
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Se cotesta uostra pianta ha passato dodici anni, non aspettate da lei frutto di sorte alcuna"/>
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- Di ... uitruosissimo -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- minchioni -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Marullo"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Filippo Beroaldi"/>
-	    	<mark name="comma" method="pen" place="intext"/> <!-- parola gli -->
+	    <mark name="comma" method="pen" place="intext"/> <!-- parola gli -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Marullo"/>
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- piante -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: Bolognesi -->
-		<mark name="plus_sign" method="pen" place="intext"/> <!-- perbia mordace -->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="superbia mordace"/> 
 		<mark name="equal_sign" method="pen" place="intext"/> <!-- pianta ha -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="frutto"/>
 		<mark name="comma" method="pen" place="intext"/> <!-- pedante nuouamente -->
