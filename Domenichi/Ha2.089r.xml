@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.089r.tif" signature="Ar" pagination="1" reader="Harvey"/>	<!-- ABO 93right -->
+	<page filename="Ha2.089r.tif" signature="A[r]" pagination="1" reader="Harvey"/>	<!-- ABO 93right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -36,7 +36,7 @@
 			</language>
 			<translation>
 				For me this work is almost the eighth book of Domenichi.
-				An instance is sufficient, if it is sufficiently at hand. <!-- CG: Unsure. -->
+				An instance is sufficient, if it is sufficiently at hand. <!-- CG: Unsure. --> <!--JG: Didn't 'exempli causa' mean 'for the sake of example'. Something like 'It is sufficient for the sake of example, if adequately at hand'? Still seems a bit shaky to me though-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -48,14 +48,14 @@
 				</position>
 			</language>
 			<translation>
-				It is princely to receive injury and give thanks.
+				It is princely to receive injury and give thanks. <!--JG: I'd go for to thank instead of give thanks-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						s[upr]a, 49.
+						s[upr]a, 49. <!--JG: I think this should be infra (makes sense since this is the beginning of the book-->
 					</marginalia_text>
 				</position>
 			</language>
@@ -88,13 +88,12 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
 						Qui suus est, facil&egrave; fit alterius: et in quemuis est alium conuertibilis: pra[e]sertim
-						vnius generis vnum Optimum. Qui dexterrimus est Proficiendi
+						vnius generis vnum Optimum. Qui dexterrimus est proficiendi
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="90">
@@ -109,10 +108,9 @@
 			</language>
 			<translation>
 				He who is his own can easily become another's, and he is changeable into any other thing, especially
-				a single great man of a single kind. He who is most skilled in 
+				a single great man of a single kind. He who is most skilled in <!--JG: Part of translation is missing-->
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -124,9 +122,44 @@
 				</position>
 			</language>
 			<translation>
-				An earnest man cares about substantial things, and to idle men he leaves those other things which he passes over quickly. 
+				An earnest man cares about substantial things only, and to idle men he leaves those other things which he passes over quickly. 
 			</translation>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="DETTI, ET FATTI NOTABILI"/>
+		<underline method="pen" type="straight" language="IT" text="PIACEVOLI"/>
+		<underline method="pen" type="straight" language="IT" text="INGIVRIE DE' POTENTI"/>
+		<underline method="pen" type="straight" language="IT" text="non vendetta"/>
+		<underline method="pen" type="straight" language="IT" text="manco vn vitello"/>
+		<underline method="pen" type="straight" language="IT" text="ritrouar"/>
+		<underline method="pen" type="straight" language="IT" text="il ladro"/>
+		<underline method="pen" type="straight" language="IT" text="trou&ograve; vn Leone in"/>
+		<underline method="pen" type="straight" language="IT" text="leuate le mani al cielo"/>
+		<underline method="pen" type="straight" language="IT" text="vn'agnello, se tu mi"/>
+		<underline method="pen" type="straight" language="IT" text="ritrouare il ladro del mio"/>
+		<underline method="pen" type="straight" language="IT" text="prometto vn toro"/>
+		<underline method="pen" type="straight" language="IT" text="tu mi liberi dalle"/>
+		<underline method="pen" type="straight" language="IT" text="sue branche"/>
+		
+		<symbol name="SS" place="intext"/>
+		
+		<symbol name="SS" place="tail"/>
+		<symbol name="JC" place="tail"/>
+		
+		<mark name="bracket" method="pen" place="left_margin"/>
+		
+		<mark name="comma" method="pen" place="right_margin"/> <!--POTENTI-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--man-->
+		<mark name="plus_sign" method="pen" place="right_margin" language="IT" text="ritrouar"/>
+		<mark name="dash" method="pen" place="right_margin"/> <!--spa-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--ritro-->
+		
+		<mark name="vertical_bar" method="chalk" place="intext"/>
+		<mark name="comma" method="pen" place="intext"/> <!--danni-->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="il ladro"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Leone"/>
+		
+		
+		<errata language="IT" copytext="ma g aua" amendedtext="mangiava"/>
     </annotation>
 </transcription>
