@@ -33,7 +33,7 @@
 						&amp; one of Sir Philip Sidneys Storehowses, for
 						common discourse: as also
 					</marginalia_text>
-					<person name="William Fulke"/>
+					<person name="William Fulke"/> <!--JG: I've no clue about which of Fulkes' writings Harvey is talking though-->
 					<person name="Philip Sidney"/>
 				</position>
 			</language>
@@ -99,7 +99,6 @@
 						Blundeuil of [the] Mapp, &amp; the Globe.
 					</marginalia_text>
 					<person name="Thomas Blundeville"/>
-
 				</position>
 			</language>
 			<translation>
@@ -158,13 +157,13 @@
 					<person name="Machiavelli"/>
 					<person name="Guillaume Durand"/>
 					<book title="Loci Communes"/>
-						<!-- CG: Unsure about Chytraeus' "Summa Angelica" -->
+						<!-- CG: Unsure about Chytraeus' "Summa Angelica" --> <!--JG: Can't find anything either?! Also not sure abt Melanchton's Golden Legend-->
 					<book title="The Countress of Pembroke's Arcadia"/>
 					<book title="Apologie pour Hérodote"/>
-						<!-- CG: Unsure about Rabelais' Heroica. Might be Pantagruel? -->
+						<!-- CG: Unsure about Rabelais' Heroica. Might be Pantagruel? --> <!--JG: Yeah, I'd go for Pantagruel-->
 						<!-- CG: Since he's not referring to specific works here, but the comedies
 							and dialogues in general (or the histories in general), perhaps I shouldn't
-							register a specific book title? -->
+							register a specific book title? --> <!--JG: If you can't make a strong case for a particular book, because Harvey's reference is too general, you should indeed refrain from tagging a book-->
 					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
@@ -183,7 +182,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="full_page" book_orientation="90">
@@ -193,20 +191,21 @@
 					</marginalia_text>
 					<person name="Theodor Zwinger"/>
 					<person name="Abraham Ortelius"/>
+					<book title="Theatrum vitae humane"/>
+					<book title="Theatrum Orbis Terrarum"/>
 				</position>
 			</language>
 			<translation>
 				Zwinger's Theater, an example for all humanity, especially with Abraham Ortelius' theater,
-				and with the universal map of the planets. <!-- CG: "planeii" unclear. -->
+				and with the universal map of the planets. <!-- CG: "planeii" unclear. --> <!--JG: Can't find anything either. Stick to planets for now-->
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="full_page" book_orientation="270">
 					<marginalia_text>
-						Discursuum abunde est in vitali spiritu, animaliq[ue] phantasia. Vacat 
+						Discursuum abunde est in vitali spiritu, animaliq[ue] phantasia. Vacat <!--JG: discursuum is missing from translation-->
 						operibus fer&egrave; solis. Idiota est, cui non ver&ograve; fluunt dicenda.
 					</marginalia_text>
 					<emphasis method="chalk" type="straight"/>
@@ -215,11 +214,11 @@
 			<translation>
 				It abounds in the vital spirit and brute imagination of conversations. It is free from almost all
 				works alone. An idiot is someone for whom things to be said do not truly flow.
-					<!-- CG: Unsure about translation. -->
+					<!-- CG: Unsure about translation. --> <!--JG: This is Harvey at its 'best'...Can't make much more of this either-->
 			</translation>
 		</marginalia>
 		
-		<symbol name="SS" place="full_page"/>
+		<symbol name="SS" place="full_page"/> <!--Estienne-->
 		
     </annotation>
 </transcription>
