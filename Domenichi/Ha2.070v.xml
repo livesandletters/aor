@@ -106,7 +106,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -123,7 +122,6 @@
 				The vigilant life is found in Pliny, the militant life in Seneca. What of Caesar? What of Super-Cesar?
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -189,7 +187,7 @@
 		
 		<!-- Symbols -->
 		<symbol name="Sun" place="head"/>
-		<symbol name="Mars" place="left_margin"/>
+		<symbol name="Mars" place="left_margin" language="IT" text="apparecchi d'armi, &amp; addobbamenti di soldati"/>
 		<symbol name="SS" place="tail"/>		
 		
 		<!-- Marks -->			
@@ -197,14 +195,14 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- d'ar -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- dubi -->
 		
-	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- fretta .. sara' -->
+	    <!-- Left margin -->
+	    <mark name="bracket" method="pen" place="left_margin"/> <!-- fretta .. sara' -->
 		    
-	    	<!-- Head/Intext/Tail -->
+	    <!-- Head/Intext/Tail -->
 		<mark name="dot" method="pen" place="intext"/> <!-- soldati, ci -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: Piercamillo -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- morto hoggi -->
-	    	<mark name="equal_sign" method="pen" place="intext"/> <!-- domani -->
+	    <mark name="equal_sign" method="pen" place="intext"/> <!-- domani -->
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- l'altro? -->
 
     </annotation>
