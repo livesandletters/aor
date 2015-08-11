@@ -21,14 +21,14 @@
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
 						Manlij. sed ambo post Domenicu[m]: qui est
-						omniu[m] professorum delitia[e]. Pra[e]sertim cu[m] ) 4to 
+						omniu[m] professorum delitia[e]. Pra[e]sertim cu[m] ) 4to <!--JG: I think we should transcribe this as [quarto], what do you say?-->
 					</marginalia_text>
 					<person name="Johannes Jacobus Manlius"/>
 					<person name="Lodovico Domenichi"/>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						( Guazzi: et 4to Mensa[e] Philosophica[e].
+						( Guazzi: et 4to Mensa[e] Philosophica[e]. <!--JG: Idem-->
 					</marginalia_text>
 					<person name="Stefano Guazzo"/>
 					<book title="The civil conversation"/>
@@ -36,10 +36,10 @@
 				</position>
 			</language>
 			<translation>
-				A witty book for a lawyer is the Sylva nuptialis. For a theologian or doctor, it is
+				A witty book for a lawyer is the 'Sylva nuptialis'. For a theologian or doctor, it is
 				the Common Places of Manlius. But both come after Domenichi, who is
 				the delight of all professions, especially together with the fourth book of Guazzo's
-				Civil Conversation and the fourth book of the Mensa Philosophica.
+				'Civil Conversation' and the fourth book of the 'Mensa Philosophica'.
 			</translation>
 		</marginalia>
 		
@@ -97,21 +97,20 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Extremarum virium extension in solo Ca[e]sare: sed
+						Extremarum virium extensio in solo Ca[e]sare: sed
 						tanq[uam] aliud agente. Ita erat uel in tragicis Comicus.
 					</marginalia_text>
 					<person name="Julius Caesar"/>
 					<emphasis method="chalk" type="straight"/>
-					<emphasis method="pen" type="straight" text="Extramarum virium extension"/>
+					<emphasis method="pen" type="straight" text="Extramarum virium extensio"/>
 					<emphasis method="pen" type="straight" text="in solo Ca[e]sare"/>
 				</position>
 			</language>
 			<translation>
-				The reaching outward of virtue is found only in Caesar, but only as something in action. <!-- CG: Unclear about this. -->
+				The reaching outward of virtue is found only in Caesar, but only as something in action. <!-- CG: Unclear about this. --> <!--extremarum virium = outwards strenghts, not virtue-->
 				In the same way, if you will, as a comic actor was in a tragedy.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -125,7 +124,6 @@
 				Many matters are turned over and over without any goal. But half of such is greater than the whole.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -162,7 +160,7 @@
 		<underline method="pen" type="straight" language="IT" text="intelletto, &amp; per gli ornamenti conuenienti a due rari spiriti"/>
 		<underline method="pen" type="straight" language="IT" text="ui dar&ograve; gi&agrave; noia"/>
 		<underline method="pen" type="straight" language="IT" text="uengo all'alba a trouarui"/>
-		<underline method="pen" type="straight" language="IT" text="d'esser suegliata, come arriuo"/>
+		<underline method="pen" type="straight" language="IT" text="d'essere suegliata, come arriuo"/>
 		<underline method="pen" type="straight" language="IT" text="Signora Aurora"/>
 		<underline method="pen" type="straight" language="IT" text="Questi non sono i patti"/>
 		<underline method="pen" type="straight" language="IT" text="no mi dar noia"/>
@@ -178,15 +176,15 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- Signo -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="plus_sign" method="pen" place="left_margin"/> <!-- uoi asini -->
+	    <mark name="plus_sign" method="pen" place="left_margin"/> <!-- uoi asini -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- re donne -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- me .. te -->
-		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- se uengo -->
-		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- que d'essere -->
+		<mark name="plus_sign" method="pen" place="left_margin" language="IT" text="uengo all'alba a trouarui"/> 
+		<mark name="straight_quotation_mark" method="pen" place="left_margin" language="IT" text="d'essere suegliata, come arriuo"/> 
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="cosi gran discretion"/>
-	    	<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: discretion -->
+	    <mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark: discretion -->
 		<mark name="dot" method="pen" place="intext"/> <!-- sbigottita, sentendo -->
 		<mark name="comma" method="pen" place="intext"/> <!-- solazzo, fuor -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="acutezza"/>
