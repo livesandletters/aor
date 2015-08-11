@@ -38,12 +38,12 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Ratone, et diligentia. 1580.
+						Ratione, et diligentia. 1580.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				Reason and diligence. 1580.
+				Through reason and diligence. 1580.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -51,7 +51,7 @@
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						non alius: sed aliud.
-						Vade mecum. |
+						Vade mecum.
 					</marginalia_text>
 				</position>
 			</language>
@@ -82,17 +82,16 @@
 				</position>
 			</language>
 			<translation>
-				The Mack-dei Salamander.	<!-- CG: Most unclear. -->
+				The Mack-dei Salamander.	<!-- CG: Most unclear. --> <!--JG: We've to ask a specialist, no clue what this could be-->
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
 						Dei, et Regis vasallus: Artis, et Virtutis secretarius: Entelechia[e].
-						Monopragmaticus: | Euschemosynes, et ironia[e]
+						Monopragmaticus: Euschemosynes, et ironia[e]
 					</marginalia_text>
 					<emphasis method="chalk" type="straight"/>
 				</position>
@@ -112,7 +111,7 @@
 			<language ident="FR">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						 ( Combats Olympiques, non pour or,
+						 ( Combats Olympiques, non pour or,)
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="90">
@@ -123,10 +122,9 @@
 				</position>
 			</language>
 			<translation>
-				Olympic Combat: for neither gold nor silver, but solely for virtue. Pygmies, concupiscences. <!-- CG: I really have no idea what the last part is. --> 
+				Olympic Combat: for neither gold nor silver, but for the single virtue. Pygmies, concupiscences. <!-- CG: I really have no idea what the last part is. --> <!--JG: No clue either, I'll ask Lisa. I did find this though: https://books.google.co.uk/books?id=BxKZ_L0zJFYC&pg=PA935&lpg=PA935&dq=Concupiscences+Les+Pygmees&source=bl&ots=a2PchYYYWW&sig=gxRyeBheciSnk2yCjxAUlBpmBf4&hl=en&sa=X&ved=0CD0Q6AEwBGoVChMIkqC714ihxwIVSkkaCh2MswFV#v=onepage&q=Concupiscences%20Les%20Pygmees&f=false-->
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -139,7 +137,7 @@
 				<position place="intext" book_orientation="270">
 					<marginalia_text>
 						pra[e]ter vnum Gra[e]cum; vnumq[ue] Romanum;
-						et paucissimos euisdem ala[e]. |
+						et paucissimos euisdem ala[e]. 
 					</marginalia_text>
 				</position>
 			</language>
@@ -167,6 +165,8 @@
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- CORTIGIANI -->
 		<mark name="horizontal_bar" method="pen" place="intext"/> <!-- below 'vade mecum' --> 
+		
+		<mark name="vertical_bar" method="pen" place="right_margin"/> <!--under ala[e]-->
 
     </annotation>
 </transcription>
