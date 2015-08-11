@@ -39,7 +39,7 @@
 				</position>
 			</language>
 			<translation>
-				Axiophilus reads, writes, and does (just as Caesar himself once did) 
+				Axiophilus reads, writes, and does (just as Caesar himself once did) <!--JG: Part of translation missing + Axiophilus & Julius Caesar should be tagged-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -95,7 +95,7 @@
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
-			<language ident="LA">
+			<language ident="IT">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
 						gli huomini singolari di Francesco Guicciardini;
@@ -134,13 +134,12 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
 						Qui plus sapit, et minus facit, eius sapientia firma non est: Qui minus sapit, et
-						plus facit, eius sapientia firma est. Vt prudenter Hanna, in apophthegmatis
+						plus facit, eius sapientia firma est. Vt prudenter Hanna, in apophthegmatis <!--JG: I think we should tag 'Hannah' here-->
 						Hebra[e]orum Sapientum.
 					</marginalia_text>
 				</position>
@@ -150,7 +149,6 @@
 				possesses solid wisdom, like prudent Hanna in the aphorisms of the Jewish wisemen.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -164,6 +162,34 @@
 				Immediately to the thing itself, without any ornamentation. Only a solid way of proceding.
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="simulata amicitia"/>
+		<underline method="pen" type="straight" language="IT" text="lento al deliberare"/>
+		<underline method="pen" type="straight" language="IT" text="veloce ad esequire"/>
+		<underline method="pen" type="straight" language="IT" text="Fortuiti"/>
+		<underline method="pen" type="straight" language="IT" text="casi della guerra"/>
+		<underline method="pen" type="straight" language="IT" text="militia"/>
+		<underline method="pen" type="straight" language="IT" text="fortuna"/>
+		<underline method="pen" type="straight" language="IT" text="ammira[n]do tratto di giouane Principe"/>
+		<underline method="pen" type="straight" language="IT" text="&amp; concordia"/>
+		<underline method="pen" type="straight" language="IT" text="perfetti"/>
+		<underline method="pen" type="straight" language="IT" text="scuse di"/>
+		<underline method="pen" type="straight" language="IT" text="bieuoli insidie"/>
+		<underline method="pen" type="straight" language="IT" text=""/>
+		
+		<symbol name="Sun" place="head"/>
+		
+		<symbol name="SS" place="left_margin"/>
+		<symbol name="SS" place="left_margin" language="IT" text="Far mestieri d'esser lento al deliberare, e veloce ad esequire"/>
+		<symbol name="SS" place="left_margin"/>
+		
+		<symbol name="JC" place="intext"/>
+		
+		<symbol name="Sun" place="tail"/>
+		
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Far mestieri d'esser lento al deliberare, e veloce ad esequire"/>
+		
+		<mark name="dot" method="pen" place="intext"/> <!--deliberare, e-->
 
     </annotation>
 </transcription>
