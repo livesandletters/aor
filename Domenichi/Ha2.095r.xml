@@ -14,6 +14,7 @@
 					<marginalia_text>
 						Maxim&egrave; sapit, qui prouidet maxim&egrave;, vt &agrave; Seipso dependeat:
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="&agrave; Seipso dependeat"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -23,21 +24,35 @@
 						Quomod&ograve; Crates; nihilo egere philosophum.
 						Stoici; Omnia esse Sapientum. 
 					</marginalia_text>
+					<person name="Epictetus"/>
+					<person name="Seneca"/>
+					<person name="Marcus Aurelius"/>
 				</position>
 			</language>
 			<language ident="EL">
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						oti
+						ὅτι
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						monos ho sofosploustos
-						oti autarces he arete pros eudaimonian.
+						μόνος ὁ σοφὸς πλούσιος.
+						ὅτι ἀυταρκὴς ἡ ἀρετὴ πρὸς ἐυδαιμονϊαν.
 					</marginalia_text>
+					<X-ref person="Cicero" book_title="Paradoxa Stoicorum" language="EL" text="μόνος ὁ σοφὸς πλούσιος"/>
+					<X-ref person="Cicero" book_title="Paradoxa Stoicorum" language="EL" text="ὅτι ἀυταρκὴς ἡ ἀρετὴ πρὸς ἐυδαιμονϊαν"/>
 				</position>
 			</language>
+			<translation>
+				He who takes care the most that he depend only on himself is he who knows the most.
+				And he can do as much as possible in any way.
+				The sum of sums of Epictetus, of Seneca, of Marus Aurelius.
+				Crates in the same manner -- that the philosopher needs nothing. <!-- CG: I can't figure these next two lines out. They might refer to Lipsius or someone else discussing Seneca, Stoicism, etc. Which would explain the weird grammar, i.e. philosophum and sapientum in the accusative. -->
+				Of the Stoic: that the wise man is all things.
+				That only the wise man is rich.	<!-- CG: The two Greek phrases come from Cicero's Paradoxa Stoicorum -->
+				That virtue is self-sufficient for happiness.			
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -49,6 +64,10 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				The profound disciple surpasses all magistrates.
+				He who has not yet learned to live is a child.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -58,16 +77,23 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Tomorrow's wisdom is too late; learn today.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="EL">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						oti hoi sophoi eleutheroi, kai hoi moroi douloi.
+						ὅτι σοφὸι ἐλεύθεροι, καὶ ὁι μωρὸι δοῦλοι.
 					</marginalia_text>
+					<X-ref person="Cicero" book_title="Paradoxa Stoicorum" language="EL" text="ὅτι σοφὸι ἐλεύθεροι, καὶ ὁι μωρὸι δοῦλοι"/>
 				</position>
 			</language>
+			<translation>
+				That all wise men are free, and all fools are slaves.
+			</translation>
 		</marginalia>
 		
 		
@@ -79,6 +105,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Tomorrow's bounty is too late; grow today. 
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -90,6 +119,9 @@
 					<person name="Eutuchus"/>
 				</position>
 			</language>
+			<translation>
+				Eutuchus, the highest modernist. 
+			</translation>
 		</marginalia>
 		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
 

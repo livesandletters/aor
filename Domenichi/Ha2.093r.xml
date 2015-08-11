@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.093r.tif" signature="[A5r]" pagination="9" reader="Harvey"/>	<!-- ABO 98right -->
+	<page filename="Ha2.093r.tif" signature="[A5r]" pagination="9" reader="Harvey"/>	<!-- ABO 97right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -17,18 +17,25 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Always observe the most expert examples of science, the most subtle examples
+				of experimentation, and the most potent examples of action.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Quorsum tot libri, et tant studia, si non plus
+						Quorsum tot libri, et tanta studia, si non plus
 						possunt doctores, qu&agrave;m
-						illiterati.
+						illiterati?
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				What is the point so many books and so many studies, if teachers can do no more than illiterate men?
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -38,6 +45,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Witty.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -47,6 +57,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Doctor, heal thyself. Before everything, know thyself.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -56,6 +69,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				The greatest theurge and panurge of the world.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -64,8 +80,12 @@
 						Qui se habet, nil perdidit: Ausus est dicere Seneca.
 					</marginalia_text>
 					<person name="Seneca"/>
+					<X-ref person="Seneca" book_title="Epistolae ad Lucilium" language="LA" text="Qui se habet, nil perdidit"/>
 				</position>
 			</language>
+			<translation>
+				Whoever has himself can lose nothing. Seneca dared to speak.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -75,6 +95,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Even the most powerful things are less powerful than the powerful man.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -84,8 +107,14 @@
 						Totum in se habet, qui se habet: Ausus est dicere
 						Cassiodorus. Quod petis, int&ugrave;s habes.
 					</marginalia_text>
+					<person name="Cassiodorus"/>
+						<!-- Not sure of work referenced. -->
 				</position>
 			</language>
+			<translation>
+				Whoever has himself has everything in himself. Cassiodorus dared to speak.
+				Whatever you desire, you shall have within. 
+			</translation>
 		</marginalia>
 		
 		
@@ -95,10 +124,14 @@
 					<marginalia_text>
 						et ipsis A[e]gyptijs operabatur periti&ugrave;s: et omnibus Magis
 						potentiora Miracula perpetrabat.
-							<!-- Continued from facing page, right margin, Ha2.093v -->
+							<!-- Continued from facing page, right margin, Ha2.092v -->
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				and worked more skillfully than the Egyptians themselves, and carried out miracles
+				more powerful than all the wise men.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -112,6 +145,9 @@
 					<emphasis method="pen" type="straight" text="Virtutum"/>
 				</position>
 			</language>
+			<translation>
+				The writings of men are wandering planes; the articulation of the Arts and Virtues are fixed stars. <!-- CG: Unsure of 'impressiones'. -->
+			</translation>
 		</marginalia>
 		
 		
@@ -123,6 +159,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Art flourishes, virtue prospers, man begins to shine. Never languid. 
+			</translation>
 		</marginalia>
 
     </annotation>
