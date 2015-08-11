@@ -78,7 +78,7 @@
 					<person name="Janus"/>
 					<person name="Osiris"/>
 					<person name="Apollo"/>
-					<emphasis method="pen" type="straight" text="oppetiturus, iocabatur affatim"/>
+					<emphasis method="pen" type="straight" text="mortem oppetiturus, iocabatur affatim"/>
 				</position>
 			</language>
 			<translation>
@@ -89,8 +89,8 @@
 				Master Thomas Moore, High Chancellor of England, though he was a most ingenius man, 
 				was also very urbane and incredibly witty. He used to repeat constanty that common expression:
 				"While we are in the world, let us live with a happy heart."
-				Likewise, for that which is normally said, "Sic transit gloria mundi," he would say,
-				"Sic transit moria glundi," as if alluding to the Moriae Encomium.
+				Likewise, for that which is normally said, "Sic transit gloria mundi," he would say, <!--JG: I'd translate these Latin phrases as well, but perhaps put the Latin in between square brackets, so people get the pun-->
+				"Sic transit moria glundi," as if alluding to 'The praise of folly'.
 				Or that common phrase, "All things are full of fools."
 				Indeed he was a lively man, delighted by the genius of Lucian, and often he acted like Democritus.
 				And the ingenuity of this was was found not so much in Socratic irony, as in remaining always cheerful 
@@ -106,6 +106,8 @@
 					<marginalia_text>
 						( Venus Homeri,
 					</marginalia_text>
+					<person name="Homer"/>
+					<person name="Venus"/>
 				</position>
 			</language>
 			<language ident="EL">
@@ -127,7 +129,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="full_page" book_orientation="90">
@@ -143,7 +144,6 @@
 				stone as full of reproductive power. <!-- CG: Another weird neologism. -->
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -162,6 +162,7 @@
 			</translation>
 		</marginalia>
 		
-		<mark name="quotation_mark" method="pen" place="intext"/> 
+		<mark name="quotation_mark" method="pen" place="intext" language="LA" text="mortem oppetiturus, iocabatur affatim"/> 
+		
     </annotation>
 </transcription>
