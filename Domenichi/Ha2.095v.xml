@@ -35,7 +35,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						| Nihil prosunt omnes scientia[e], et ornamenta, nisi viro.
+						Nihil prosunt omnes scientia[e], et ornamenta, nisi viro.
 					</marginalia_text>
 				</position>
 			</language>
@@ -46,7 +46,7 @@
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
-					<marginalia_text>
+					<marginalia_text> <!--JG: Is there something written in chalk/pencil here? Not sure what it says and whether it's Harvey's (doesn't look like it). Also in printed text (seem to be translations of Italian words). Perhaps we should tag these and user reader attribute-->
 						Decet Consiliarium, esse
 						fortiter prudentem: Ducem, esse prudenter forte.
 					</marginalia_text>
@@ -67,7 +67,7 @@
 				</position>
 			</language>
 			<translation>
-				A day of things, not to be spent with words. Tacitus. <!-- CG: Not sure where this comes form. -->
+				A day of things, not to be spent with words. Tacitus. <!-- CG: Not sure where this comes form. --> <!--JG: Me neither. Leave open for now-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -109,7 +109,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -141,7 +140,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
@@ -156,6 +154,31 @@
 				When you apply your intellect, it prevails; when you increase your intellect, it is even stronger.  
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="pazzi"/>
+		<underline method="pen" type="straight" language="IT" text="non poter star"/>
+		<underline method="pen" type="straight" language="IT" text="tacendo"/>
+		<underline method="pen" type="straight" language="IT" text="trou&ograve; mai pazzo,"/>
+		<underline method="pen" type="straight" language="IT" text="star cheto"/>
+		<underline method="pen" type="straight" language="IT" text="L'astinenza, esser protettrice"/>
+		<underline method="pen" type="straight" language="IT" text="ami sopra tutte le cose l'astinenza"/>
+		<underline method="pen" type="straight" language="IT" text="come Sirene"/>
+		<underline method="pen" type="straight" language="IT" text="Substine"/>
+		<underline method="pen" type="straight" language="IT" text="Abstine"/>
+		<underline method="pen" type="straight" language="IT" text="buon'animo le auuersit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="volunt&agrave; ci astenghiamo"/>
+		<underline method="pen" type="straight" language="IT" text="L'Auaritia fare"/>
+		<underline method="pen" type="straight" language="IT" text="non manometteua mai vino"/>
+		<underline method="pen" type="straight" language="IT" text="aspetta che il vino inforzi"/>
+		
+		<symbol name="Sun" place="head"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--volun-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--gior-->
+		
+		<mark name="plus_sign" method="pen" place="intext"/>
+		<mark name="vertical_bar" method="pen" place="intext"/> <!--Sirene Epitteto-->
+		<mark name="dot" method="pen" place="intext"/> <!--auuersita, con-->
 
     </annotation>
 </transcription>
