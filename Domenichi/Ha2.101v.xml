@@ -69,7 +69,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -77,14 +76,18 @@
 						In grauibus, meras Gnomas loquitur, aut Leges: In acribus, mera apophthegmata,
 						aut Stratagemata: In lepidis, meras Ironias, aut Sales.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="Gnomas"/>
+					<emphasis method="pen" type="straight" text="Leges"/>
+					<emphasis method="pen" type="straight" text="apophthegmata"/>
+					<emphasis method="pen" type="straight" text="Stratagemata"/>
+					<emphasis method="pen" type="straight" text="Ironias"/>
 				</position>
 			</language>
 			<translation>
-				In serious matters, one speaks only in gnomic phrases; in subtle matters, only in aphorisms or stratagems;
+				In serious matters, one speaks only in gnomic phrases; in subtle matters, only in aphorisms or stratagems; <!--JG: translation of 'aut leges' is missing-->
 				in pleasant matters, only with irony or wit.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -100,6 +103,43 @@
 				Prudence, the art of living: strength, praxis.
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="non sanno mentire"/>
+		<underline method="pen" type="straight" language="IT" text="non ingannare"/>
+		<underline method="pen" type="straight" language="IT" text="non fare vsura"/>
+		<underline method="pen" type="straight" language="IT" text="spogliare il prossimo"/>
+		<underline method="pen" type="straight" language="IT" text="La Verit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="queste tre cose"/>
+		<underline method="pen" type="straight" language="IT" text="Vino"/>
+		<underline method="pen" type="straight" language="IT" text="Donna"/>
+		<underline method="pen" type="straight" language="IT" text="la Verit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="la Verit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="questa Virt&ugrave;"/>
+		<underline method="pen" type="straight" language="IT" text="La Verit&agrave; figliuola del Tempo"/>
+		<underline method="pen" type="straight" language="IT" text="sempre risplende"/>
+		<underline method="pen" type="straight" language="IT" text="conosce se medesimo"/>
+		<underline method="pen" type="straight" language="IT" text="Leone essendo"/>
+		<underline method="pen" type="straight" language="IT" text="vn Topo che"/>
+		<underline method="pen" type="straight" language="IT" text="Il Topo contento"/>
+		<underline method="pen" type="straight" language="IT" text="presto presto l'opera, richiese"/>
+		<underline method="pen" type="straight" language="IT" text="figliuola per moglie"/>
+		<underline method="pen" type="straight" language="IT" text="ecco la sposa che"/>
+		<underline method="pen" type="straight" language="IT" text="pest&ograve;, &amp;"/>
+		
+		<symbol name="SS" place="intext" language="IT" text="La Verit&agrave; figliuola del Tempo"/>
+		
+		<mark name="bracket" method="pen" place="left_margin"/>
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="La Verit&agrave; &egrave; figliuoloa del Tempo,
+			H&agrave; forza, &amp; h&agrave; virt&ugrave; sopra ogni cosa,
+			Onde sempre risplende, come il Sole"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--huo-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--pros-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--pa-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--prepara-->
+		
+		<mark name="vertical_bar" method="pen" place="intext"/> <!--acconsentirono. Et-->
+		<mark name="plus_sign" method="pen" place="intext"/>
 
     </annotation>
 </transcription>
