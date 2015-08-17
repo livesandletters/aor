@@ -12,7 +12,7 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="270">
                     <marginalia_text>
-                        the fairest conditioned, sweetest spoken, finest witted, &amp; best grace in the companie.
+                        " the fairest conditioned, sweetest spoken, finest witted, &amp; best graced in the companie.
                     </marginalia_text>
                 </position>
             </language>
@@ -20,7 +20,7 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0">
+                <position place="intext" book_orientation="0">
                     <marginalia_text>
                         s[upr]a.
                     </marginalia_text>
@@ -33,7 +33,7 @@
         
         <marginalia hand="Italian" anchor_text="not garish.">
             <language ident="EN">
-                <position place="right_margin" book_orientation="0">
+                <position place="intext" book_orientation="0">
                     <marginalia_text>
                         gaudy.
                     </marginalia_text>
@@ -43,9 +43,9 @@
         
         <marginalia hand="Italian" anchor_text="To gete him an especiall and hartye friend to companye withall.">
             <language ident="EN">
-                <position place="right_margin" book_orientation="0">
+                <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Such, as is commonly termid A sorn brother.
+                        such, as is commonly termid A sworn brother.
                     </marginalia_text>
                 </position>
             </language>
@@ -53,7 +53,7 @@
         
         <marginalia hand="Italian">
             <language ident="EN">
-                <position place="right_margin" book_orientation="0">
+                <position place="intext" book_orientation="0">
                     <marginalia_text>
                         Virtue{
                     </marginalia_text>
@@ -139,12 +139,15 @@
         <symbol name="Bisected_circle" place="left_margin"/>
         <symbol name="Bisected_circle" place="left_margin"/>
         <symbol name="Bisected_circle" place="left_margin"/>
+        <symbol name="SS" place="left_margin"/>
         
-        <symbol name="SS" place="right_margin" language="EN" text="be also beloued of his inferiours"/>
-        <symbol name="SS" place="right_margin" language="EN" text="good companie"/>
-        <symbol name="SS" place="right_margin" language="EN" text="handesome and clenly in his apparaile."/>
-        <symbol name="SS" place="right_margin"/>
-        <symbol name="SS" place="right_margin"/>
+        <symbol name="SS" place="right_margin"/> <!-- alongside the marginal note, 'such, as is commonly termid a sworn brother. -->
+        
+        <symbol name="SS" place="intext" language="EN" text="be also beloued of his inferiours"/>
+        <symbol name="SS" place="intext" language="EN" text="good companie"/>
+        <symbol name="SS" place="intext" language="EN" text="handesome and clenly in his apparaile."/>
+        <symbol name="SS" place="intext"/>
+        <symbol name="SS" place="intext"/>
         
         <mark name="hash" method="pen" place="left_margin"/> 
         <mark name="plus_sign" method="pen" place="left_margin"/>
@@ -163,11 +166,7 @@
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
         <mark name="dot" method="pen" place="right_margin"/> <!-- equalles, -->
-        <mark name="quotation_mark" method="pen" place="right_margin" language="EN" text="saucinesse or presumption"/>
-        <mark name="hash" method="pen" place="right_margin" language="EN" text="be no enuious or malitious person"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/> <!-- below 'faire condicioned' -->
-        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="thing that he knoweth not"/>
-        
+ 
         <mark name="comma" method="pen" place="intext"/> <!-- sort, and -->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="estimation"/>
         <mark name="dot" method="pen" place="intext"/> <!-- estimation, & -->
@@ -179,8 +178,12 @@
         <mark name="dot" method="pen" place="intext"/> <!-- most, and -->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="hartye friend"/>
         <mark name="dot" method="pen" place="intext"/> <!-- tunged, especiallie -->
+        <mark name="quotation_mark" method="pen" place="intext" language="EN" text="saucinesse or presumption"/>
+        <mark name="hash" method="pen" place="intext" language="EN" text="be no enuious or malitious person"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!-- below 'faire condicioned' -->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="vertues of"/>
         <mark name="dot" method="pen" place="intext"/> <!-- temperance, staidenesse -->
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="thing that he knoweth not"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="and place"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="confesse"/>
         

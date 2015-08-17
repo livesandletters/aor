@@ -69,9 +69,19 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        Hoc age: sed 
+                    </marginalia_text>
+                </position>
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Hoc age: sed tan[tum]q[ue] aliud agens. <!-- AB: Matt and I have looked up this abbreviation, but are unsure about if it is correct. Please check. -->
+                        tan[tum]q[ue] aliud <!-- AB: Matt and I have looked up this abbreviation, but are unsure about if it is correct. Please check. -->
+                    </marginalia_text>
+                </position>
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        agens.
                     </marginalia_text>
                 </position>
             </language>
@@ -84,7 +94,12 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Ciuilis conuersationis flos, in decora Audatia: et Aulica
+                        Ciuilis conuersationis flos, in decora Audatia: et 
+                    </marginalia_text>
+                </position>
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Aulica
                     </marginalia_text>
                 </position>
             </language>
@@ -110,7 +125,12 @@
             <language ident="IT">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Cortigiani parlano con colcezza. Guazzo.
+                        Cortigiani parlano con colcezza.
+                    </marginalia_text>
+                </position>
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Guazzo.
                     </marginalia_text>
                 </position>
             </language>
@@ -167,12 +187,13 @@
         <symbol name="SS" place="left_margin"/>
         
         <symbol name="SS" place="right_margin"/>
-        <symbol name="SS" place="right_margin" language="EN" text="vnto whoso beehouldeth"/>
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
-        <symbol name="Mercury" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
-        <symbol name="SS" place="right_margin"/>
+
+        <symbol name="SS" place="intext" language="EN" text="vnto whoso beehouldeth"/>
+        <symbol name="Mercury" place="intext"/>
+        <symbol name="SS" place="intext"/>
         
         <mark name="vertical_bar" method="chalk" place="head"/> <!-- red chalk, starts in head and extends diagonally down into text -->
         
@@ -197,18 +218,10 @@
         <mark name="hash" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="hash" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="quotation_mark" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="To be wise and well seene in discourses vpon states."/>
         <mark name="hash" method="pen" place="right_margin"/> <!-- AB: This refers to the 'grid' drawn on the page. May need to be re-tagged as a symbol or similar. -->
-        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="good ende"/>
         <mark name="hash" method="pen" place="right_margin"/>
-        
+
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="least"/>
         <mark name="dot" method="pen" place="intext"/> <!-- high, and -->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="praise himself"/>
@@ -217,10 +230,18 @@
         <mark name="dot" method="pen" place="intext"/> <!-- art, without -->
         <mark name="plus_sign" method="pen" place="intext"/> <!-- may offende -->
         <mark name="dot" method="pen" place="intext"/> <!-- lightnesse, nor -->
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="quotation_mark" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- spoken, and -->
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="To be wise and well seene in discourses vpon states."/>
         <mark name="dot" method="pen" place="intext"/> <!-- tunges, & -->
         <mark name="comma" method="pen" place="intext"/> <!-- Italian, French -->
         <mark name="comma" method="pen" place="intext"/> <!-- French, & -->
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="good ende"/>
         
         <drawing name="face" method="pen" place="right_margin"/>
         
