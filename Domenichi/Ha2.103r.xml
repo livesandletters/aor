@@ -79,7 +79,7 @@
 				</position>
 			</language>
 			<translation>
-				The rational soul is all things. The mind is above all things.
+				The rational soul is everything. The mind is above everything.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -110,7 +110,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
@@ -133,7 +132,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="270">
 					<marginalia_text>
-						= pra[e]sentia,	<!-- CG: This seems to be a substitute for 'possessio' in the above marginalia. Unsure how to mark. -->
+						= pra[e]sentia,	<!-- CG: This seems to be a substitute for 'possessio' in the above marginalia. Unsure how to mark. --> <!--JG: This is tricky, haven't seen this before. I'd link it (in anchor_text) to possessio and leave it like that-->
 					</marginalia_text>
 				</position>
 			</language>
@@ -151,9 +150,45 @@
 				</position>
 			</language>
 			<translation>
-				The Apostles, having no viaticum, lacked no viaticum.
+				The Apostles, having no viaticum, lacked no viaticum. <!--JG: Translation make sense, although I find it weird that viatici is not in acc pl-->
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="beuendo &amp; sguazzando, fin&igrave; la sua vita"/>
+		<underline method="pen" type="straight" language="IT" text="L'Amore"/>
+		<underline method="pen" type="straight" language="IT" text="infiniti errori con"/>
+		<underline method="pen" type="straight" language="IT" text="LVIGI Alamanni"/>
+		<underline method="pen" type="straight" language="IT" text="fieramente innamorato far infinitie errori con"/>
+		<underline method="pen" type="straight" language="IT" text="farsi ridiculo &agrave; ogn'uno"/>
+		<underline method="pen" type="straight" language="IT" text="Amor"/>
+		<underline method="pen" type="straight" language="IT" text="nimico al buon consiglio"/>
+		<underline method="pen" type="straight" language="IT" text="st&agrave; sempre in guai"/>
+		<underline method="pen" type="straight" language="IT" text="donna adora il variabil ciglio"/>
+		<underline method="pen" type="straight" language="IT" text="l'huom sormontan gli"/>
+		<underline method="pen" type="straight" language="IT" text="scema il fauor, crescon gli affanni"/>
+		<underline method="pen" type="straight" language="IT" text="Principi &agrave; caualcare"/>
+		<underline method="pen" type="straight" language="IT" text="figliuoli"/>
+		<underline method="pen" type="straight" language="IT" text="de' Principi"/>
+		<underline method="pen" type="straight" language="IT" text="altro, che il caualcare"/>
+		<underline method="pen" type="straight" language="IT" text="adulandoli gli"/>
+		<underline method="pen" type="straight" language="IT" text="il cauallo che non"/>
+		<underline method="pen" type="straight" language="IT" text="saputamente non caualcassero"/>
+		
+		<symbol name="Sun" place="intext"/>
+		
+		<mark name="plus_sign" method="pen" place="left_margin" language="LA" text="Articulorum, Sensuumq[ue] perennis agitatio."/>
+		<mark name="plus_sign" method="pen" place="left_margin" language="LA" text="Singularis exercendi aphorismus: apud Laertiu[m], in vita Eudoxi."/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--gen-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--grauissi-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--com-->
+		
+		<mark name="circumflex" method="pen" place="intext"/>
+		<mark name="circumflex" method="pen" place="intext"/>
+		<mark name="circumflex" method="pen" place="intext"/>
+		<mark name="circumflex" method="pen" place="intext"/>
+		<mark name="dot" method="pen" place="intext"/> <!--cose, ma-->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="saputamente non caualcassero"/>
 
     </annotation>
 </transcription>
