@@ -13,7 +13,7 @@
 				<position place="head" book_orientation="0">
 					<marginalia_text>
 						{ Pro vno Amico singula:
-							<!-- Continues onto facing page, head, Ha2.101r -->
+							<!-- Continues onto facing page, head, Ha2.100r -->
 					</marginalia_text>
 				</position>
 			</language>
@@ -34,16 +34,23 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Each for himself, rather than all the men of history. <!-- CG: Unclear translation. -->
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						In campos Esdras ieiunuus: cum suis Libris.
+						In campos Esdras ieiunus: cum suis Libris.
 					</marginalia_text>
+					<person name="Ezra"/>
 				</position>
 			</language>
+			<translation>
+				Ezra fasting in the fields with his books.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -52,8 +59,12 @@
 						Jehu in campos;
 						cum suis instrumentis: etiam ieiunus.
 					</marginalia_text>
+					<person name="Jehu"/>
 				</position>
 			</language>
+			<translation>
+				Jehu in the fields with his instruments, fasting as well.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -65,16 +76,25 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Those necessary matters of which the principles of art, and the works themselves,
+				can immediately be learned by heart.
+				All other things follow willingly.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						) Pro Micro[-]	<!-- CG: Looks like Harvey may have scribbled out the last letters. -->
+						) Pro Micro[-]	<!-- CG: Looks like Harvey may have scribbled out the last letters. Microcosmo? -->
 						Trismegisti.
 					</marginalia_text>
+					<person name="Hermes Trismegistus"/>
 				</position>
 			</language>
+			<translation>
+				On behalf of the [--] of Trismegistus.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -83,13 +103,19 @@
 					<marginalia_text>
 						Ludum, iocumq[ue] dices
 						fuisse illum alteru[m] (ne Fortium quidem excipio),
-						pra[e] ut huius rabies qua[e] dabit. Omnes
+						pra[e]ut huius rabies qua[e] dabit. Omnes
 						Furia[e], Ciphra[e], ad Hyperca[e]sarem.
 					</marginalia_text>
 					<person name="Joachim Fortius Ringelberg"/>
 					<person name="Julius Caesar"/>
+					<X-ref person="Terence" book_title="Eunuchus"/>
 				</position>
 			</language>
+			<translation>
+				"You will say that the other one was fun and games" (I don't even except Fortius) <!-- CG: Parenthetical comment is unclear here. -->
+				"in comparison with (the havoc) which this one's frenzy will create."
+				All the Furies and Cyphers to someone beyond Caesar. <!-- CG: 'Super-caesar' ? Sounds kind of ridiculous though. --> 
+			</translation>
 		</marginalia>
 		
 		
@@ -107,6 +133,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				My lord, equipped for his goal, is most subtle in the far-reaching, wide-ranging, and most profound preparations of his most potent means.
+			</translation>
 		</marginalia>
 				
 		
@@ -115,8 +144,11 @@
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
 						Nihil omnia Mundi exempla, pra[e] vnico exemplari, id est, Teipso.
-						Mnemosyna Mnemosynorum. Aut Ca[e]sar: aut Cato: aut Crassus
+						Mnemosyna Mnemosynorum. Aut Ca[e]sar: aut Cato: aut Crassus.
 					</marginalia_text>
+					<person name="Julius Caesar"/>
+					<person name="Cato"/>
+					<person name="Crassus"/>
 				</position>
 				<position place="intext" book_orientation="270">
 					<marginalia_text>
@@ -124,8 +156,16 @@
 						manus aut Jehu,
 						aut Esdra[e].
 					</marginalia_text>
+					<person name="Ahitophel"/>
+					<person name="Jehu"/>
+					<person name="Ezra"/>
 				</position>
 			</language>
+			<translation>
+				All the examples of the world are nothing, except the one examplar that is you yourself.
+				The reminder of reminders. Either Caesar, Cato, or Crassu.
+				The head of Ahitophel, the hand of Jehu or Ezra.
+			</translation>
 		</marginalia>
 
     </annotation>

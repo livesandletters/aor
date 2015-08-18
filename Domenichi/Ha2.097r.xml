@@ -12,7 +12,7 @@
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Da mihi singular Solaria.
+						Da mihi singula Solaria.
 					</marginalia_text>
 				</position>
 			</language>
@@ -114,7 +114,13 @@
 					</marginalia_text>
 					<person name="Lodovico Sforza"/>
 					<person name="Francesco Guicciardini"/>
-					<person name=""/>
+						<!-- CG: Unsure who this "Massimiliano" might refer to. -->
+					<emphasis method="pen" type="straight" text="Concetti politichi"/>
+					<emphasis method="pen" type="straight" text="desegni finissimi"/>
+					<emphasis method="pen" type="straight" text="mal fondati"/>
+					<emphasis method="pen" type="straight" text="strauaganti"/>
+					<emphasis method="pen" type="straight" text="smisurati"/>
+					<emphasis method="pen" type="straight" text="non dependenti da sestesso"/>
 				</position>
 			</language>
 			<translation>
@@ -130,9 +136,13 @@
 					<marginalia_text>
 						Semper iocundissimus: quicquid verboru[m], aut
 						facinorum contra.
+						<!-- Continues onto facing page, tail, Ha2.096v -->
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Always most cheerful: whatever words or whatever deeds against ...
+			</translation>
 		</marginalia>
 		
 		
@@ -142,6 +152,9 @@
 					<marginalia_text>
 						Hebe, omnibus Nymphis, Deabusq[ue] iunior, et Senior. Filia Jovis, et Junonis,
 					</marginalia_text>
+					<person name="Hebe"/>
+					<person name="Jove"/>
+					<person name="Juno"/>
 				</position>
 				<position place="intext" book_orientation="270">
 					<marginalia_text>
@@ -152,7 +165,7 @@
 				</position>
 			</language>
 			<translation>
-				Younger and older than Hebe, all the Nymphs, and Goddesses. The daughters of Jove and Juno,
+				Hebe is younger and older than all the Nymphs, and Goddesses. She is the daughter of Jove and Juno,
 				that is, of fire and air, not of water and earth.
 			</translation>
 		</marginalia>
