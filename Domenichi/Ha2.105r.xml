@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.105r.tif" signature="Cr" pagination="33" reader="Harvey"/>	<!-- ABO 109right -->
+	<page filename="Ha2.105r.tif" signature="C[r]" pagination="33" reader="Harvey"/>	<!-- ABO 109right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -50,14 +50,14 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						In vno, voluptas, et foelicitas: in pluribus,
+						{ In vno, voluptas, et foelicitas: in pluribus,
 						tristitia, et miseria.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
 				Pleasure and happiness in one man; 
-				sadness in misery in many men.
+				sadness in misery in many.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -76,7 +76,7 @@
 			<translation>
 				Monophiilus said, "Give me an expert." 
 				that is, this week, the sun of Althusius;
-				next week, the sun of the hunters. <!-- CG: I'm not sure who this/these are?-->
+				next week, the sun of the hunters. 
 				Both are to be learned by heart, so that nothing in the world is more ready.
 			</translation>
 		</marginalia>
@@ -108,7 +108,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -123,7 +122,6 @@
 				on display, an example for no one.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -143,7 +141,7 @@
 			<translation>
 				The adamantine discrimination of Axiophilus: few gem-bearing shells, while here there are many channels.
 				The best things are established as the greatest by their weight, not their number.  I want this and this Phoenix,
-				when great things are managed. <!-- CG: Unclear on last part. -->
+				when great things are managed.
 			</translation>
 		</marginalia>
 		
@@ -171,6 +169,41 @@
 				All things in one man.
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="La fortuna"/>
+		<underline method="pen" type="straight" language="IT" text="cieca, pazza, &amp; brutta"/>
+		<underline method="pen" type="straight" language="IT" text="Cieca"/>
+		<underline method="pen" type="straight" language="IT" text="Pazza"/>
+		<underline method="pen" type="straight" language="IT" text="inco[n]stante"/>
+		<underline method="pen" type="straight" language="IT" text="Brutta"/>
+		<underline method="pen" type="straight" language="IT" text="Alciato &agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="Bruto, dapoi"/>
+		<underline method="pen" type="straight" language="IT" text="virt&ugrave; infelici, poi che"/>
+		<underline method="pen" type="straight" language="IT" text="Vinta sol da fortuna, empia"/>
+		<underline method="pen" type="straight" language="IT" text="pensar' al fine"/>
+		<underline method="pen" type="straight" language="IT" text="Volpe affamata"/>
+		<underline method="pen" type="straight" language="IT" text="vna stanza"/>
+		<underline method="pen" type="straight" language="IT" text="corpacciata tale, che volendo poi"/>
+		<underline method="pen" type="straight" language="IT" text="per il medisimo pertugio"/>
+		<underline method="pen" type="straight" language="IT" text="altre Volpi"/>
+		<underline method="pen" type="straight" language="IT" text="suentura narrata"/>
+		<underline method="pen" type="straight" language="IT" text="della piu astute ridendo"/>
+		<underline method="pen" type="straight" language="IT" text="bisogna star cost&agrave; senza mangiare"/>
+		<underline method="pen" type="straight" language="IT" text="sia vota come"/>
+		<underline method="pen" type="straight" language="IT" text="facilmente vscire"/>
+		
+		<symbol name="Sun" place="head"/>
+		
+		<symbol name="JC" place="left_margin"/>
+		
+		<symbol name="SS" place="tail" language="LA" text="Monophili inuiolabilis Cursus."/>
+		
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Grid&ograve;, virt&ugrave; infelici, poi che giace Vinta sol da fortuna, empia, &amp; rapace"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--sen-->
+		
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="pensar' al fine"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="facilmente vscire"/>
 
     </annotation>
 </transcription>

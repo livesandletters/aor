@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.106r.tif" signature="C2r" pagination="35" reader="Harvey"/>	<!-- ABO 110right -->
+	<page filename="Ha2.106r.tif" signature="C2[r]" pagination="35" reader="Harvey"/>	<!-- ABO 110right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -73,7 +73,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -90,7 +89,6 @@
 				More fiery in performing deeds than any Achilles or Alexander, Sulla or Caesar.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -119,17 +117,56 @@
 				</position>
 			</language>
 			<translation>
-				The angelic summa of Axiophilus. The chief of points of this summa are: <!-- CG: Perhaps I should leave 'summa' in English? -->
+				The angelic summit of Axiophilus. The chief of points of this summa are: 
 				ascending from many to one;
-				with a cleansed mind, the matter must be managed, untouched by light; <!-- CG: Unsure of 'integra lucis' here. -->
-				be happy in view of the future; for which the ether is most powerful; <!-- CG: Also unsure of this. --> 
-				skill which is in possession of a noble acumen.
+				with a cleansed mind, the matter must be managed, untouched by light; <!-- CG: Unsure of 'integra lucis' here. --> <!--JG: I think your translation makes sense. Would translate 'geritur' as 'is managed', though-->
+				be happy in view of the future; for which the ether is most powerful; <!-- CG: Also unsure of this. --> <!--JG: I'd say just 'happy', without it's jussive/exhortative meaning. Translation is OK, have no clue what Harvey wants to say though-->
+				skill which is in possession of a noble acumen. <!--JG: Translation of 'valet' is missing-->
 				He distinguishes confused things at once, and nowhere grows dull.
 				He rightly attends to the current moment and fixes himself on the goal.
 				Just as the arrow of Meriones strikes the pigeon, and after the bird was pierced, he earned ten axes.	
 					<!-- Description of Meriones in Book XXIII of the Iliad. -->
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="quei poeti, i quali"/>
+		<underline method="pen" type="straight" language="IT" text="famoso Petrarca, il quale"/>
+		<underline method="pen" type="straight" language="IT" text="corone de'fiori"/>
+		<underline method="pen" type="straight" language="IT" text="Quelle d'alloro"/>
+		<underline method="pen" type="straight" language="IT" text="Cesari"/>
+		<underline method="pen" type="straight" language="IT" text="poeti"/>
+		<underline method="pen" type="straight" language="IT" text="e gli ornan"/>
+		<underline method="pen" type="straight" language="IT" text="come'l ciel le stelle"/>
+		<underline method="pen" type="straight" language="IT" text="troppo vuole, tutto perde"/>
+		<underline method="pen" type="straight" language="IT" text="certi danari in"/>
+		<underline method="pen" type="straight" language="IT" text="suo secreto confidaua"/>
+		<underline method="pen" type="straight" language="IT" text="stati furati"/>
+		<underline method="pen" type="straight" language="IT" text="che'l compare"/>
+		<underline method="pen" type="straight" language="IT" text="di bene in meglio"/>
+		<underline method="pen" type="straight" language="IT" text="sotterrare domani altri mille ducati"/>
+		<underline method="pen" type="straight" language="IT" text="con quelli che voi sapete"/>
+		<underline method="pen" type="straight" language="IT" text="di rubare quelli di pi&ugrave;"/>
+		<underline method="pen" type="straight" language="IT" text="vi ripose subito"/>
+		<underline method="pen" type="straight" language="IT" text="padrone di essa ritornato"/>
+		<underline method="pen" type="straight" language="IT" text="allegramente"/>
+		<underline method="pen" type="straight" language="IT" text="compare, &amp; guarti"/>
+		<underline method="pen" type="straight" language="IT" text="il prouerbio"/>
+		<underline method="pen" type="straight" language="IT" text="giouamento"/>
+		<underline method="pen" type="straight" language="IT" text="etiando dal nimico"/>
+		
+		<symbol name="Sun" place="head"/>
+		
+		<symbol name="SS" place="left_margin"/>
+		
+		<symbol name="SS" place="right_margin"/>
+		
+		<symbol name="SS" place="intext"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--fura-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--pe-->
+		
+		<mark name="dot" method="pen" place="intext"/> <!--ornauano, si-->
+		<mark name="apostrophe" method="pen" place="intext"/> <!--guarti. onde-->
 
     </annotation>
 </transcription>
