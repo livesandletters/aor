@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.097r.tif" signature="Br" pagination="17" reader="Harvey"/>	<!-- ABO 101right -->
+	<page filename="Ha2.097r.tif" signature="B[r]" pagination="17" reader="Harvey"/>	<!-- ABO 101right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -145,7 +145,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
@@ -169,5 +168,47 @@
 				that is, of fire and air, not of water and earth.
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="Non guari appresso"/>
+		<underline method="pen" type="straight" language="IT" text="che faccia rouinare Lansaceo"/>
+		<underline method="pen" type="straight" language="IT" text="non habbia rispetto alcuno"/>
+		<underline method="pen" type="straight" language="IT" text="non &agrave; gli huomini"/>
+		<underline method="pen" type="straight" language="IT" text="finalmente tutto &agrave; ferro &amp; fuoco"/>
+		<underline method="pen" type="straight" language="IT" text="legato dal suo giuramento"/>
+		<underline method="pen" type="straight" language="IT" text="perdon&ograve; humanamente a'Lampsaceni"/>
+		<underline method="pen" type="straight" language="IT" text="Giouane chi &egrave;"/>
+		<underline method="pen" type="straight" language="IT" text="ricco chi non"/>
+		<underline method="pen" type="straight" language="IT" text="quanto tempo"/>
+		<underline method="pen" type="straight" language="IT" text="ch'era sano"/>
+		<underline method="pen" type="straight" language="IT" text="fusse ricco"/>
+		<underline method="pen" type="straight" language="IT" text="haueua debito"/>
+		<underline method="pen" type="straight" language="IT" text="giouana assai"/>
+		<underline method="pen" type="straight" language="IT" text="ricco veramente"/>
+		<underline method="pen" type="straight" language="IT" text="accorti con mirabili espedienti"/>
+		<underline method="pen" type="straight" language="IT" text="molestie perpetue"/>
+		
+		<symbol name="Sun" place="head"/>
+		
+		<mark name="bracket" method="pen" place="left_margin"/>
+		<mark name="bracket" method="pen" place="left_margin"/>
+		<mark name="bracket" method="pen" place="left_margin"/>
+		<mark name="bracket" method="pen" place="left_margin"/>
+		
+		<mark name="horizontal_bar" method="pen" place="tail"/> <!--separating two marginalia-->
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--ap-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--pre-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--huomi-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--giuramen-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--sa-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--mu-->
+		
+		<mark name="dot" method="pen" place="intext"/> <!--Anassamene, &-->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="sano"/>
+		<mark name="dot" method="pen" place="intext"/> <!--sano, ricco-->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="debito"/>
+		<mark name="vertical_bar" method="chalk" place="intext"/>
+		<mark name="apostrophe" method="pen" place="intext"/> <!--sano, Domandato-->
+		
     </annotation>
 </transcription>
