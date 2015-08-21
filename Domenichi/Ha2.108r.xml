@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.108r.tif" signature="C4r" pagination="39" reader="Harvey"/>	<!-- ABO 112right -->
+	<page filename="Ha2.108r.tif" signature="C4[r]" pagination="39" reader="Harvey"/>	<!-- ABO 112right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -20,7 +20,7 @@
 				</position>
 			</language>
 			<translation>
-				There is a fiery vigor in them and a celestial origin.
+				"There is a fiery vigor in them and a celestial origin."
 				At last, the device of Axiophilus.
 			</translation>
 		</marginalia>
@@ -64,7 +64,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -82,7 +81,7 @@
 			</language>
 			<translation>
 				In Xenophon and Caesar all things are let loose and flow as if of their own accord. Nothing affected.
-				The praise of their chief points lies in clarity, prudence, and vigor.
+				The praise of their chief points lies in clarity, prudence, and vigor. <!--JG: Summa goes with laus, no? As in 'the highest/greates praise'-->
 			</translation>
 		</marginalia>
 			
@@ -99,6 +98,43 @@
 				Skilled is that artist who makes the singular parts of his body and mind stronger, or at least more dexterous than those of other people.
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="egregiamente le donne pudiche seruino fede al marito"/>
+		<underline method="pen" type="straight" language="IT" text="belleza d'esso Ciro"/>
+		<underline method="pen" type="straight" language="IT" text="non vi ho mai leuati gli occhi"/>
+		<underline method="pen" type="straight" language="IT" text="da dosso"/>
+		<underline method="pen" type="straight" language="IT" text="quanto Ciro"/>
+		<underline method="pen" type="straight" language="IT" text="altri huomini sieno belli, &ograve; brutti"/>
+		<underline method="pen" type="straight" language="IT" text="Le liti esser perdimento"/>
+		<underline method="pen" type="straight" language="IT" text="di tempo, di"/>
+		<underline method="pen" type="straight" language="IT" text="differenza di dare &amp;"/>
+		<underline method="pen" type="straight" language="IT" text="aperto piato"/>
+		<underline method="pen" type="straight" language="IT" text="aperta guerra"/>
+		<underline method="pen" type="straight" language="IT" text="l'altro &agrave; solo &agrave; solo"/>
+		<underline method="pen" type="straight" language="IT" text="co[n]giunti la natura"/>
+		<underline method="pen" type="straight" language="IT" text="honesto, che l'auaritia ci disgiunga"/>
+		<underline method="pen" type="straight" language="IT" text="tutte le liti sono dubbie, non manco che le guerre"/>
+		<underline method="pen" type="straight" language="IT" text="piacere cominciar &agrave; piatire"/>
+		<underline method="pen" type="straight" language="IT" text="non puo gi&agrave; &agrave; sua posta finire"/>
+		<underline method="pen" type="straight" language="IT" text="importa trecento scudi"/>
+		<underline method="pen" type="straight" language="IT" text="spenderemo il doppio"/>
+		<underline method="pen" type="straight" language="IT" text="notai"/>
+		<underline method="pen" type="straight" language="IT" text="procuratori"/>
+		<underline method="pen" type="straight" language="IT" text="auuocati, in giudici"/>
+		<underline method="pen" type="straight" language="IT" text="far de gli amici"/>
+		<underline method="pen" type="straight" language="IT" text="seruire, adulare"/>
+		
+		<symbol name="JC" place="intext"/>
+		
+		<mark name="plus_sign" method="pen" place="left_margin" language="IT" text="honesto, che l'auaritia ci disgiunga"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--quel-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--dal-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--sa-->
+		<mark name="plus_sign" method="pen" place="right_margin" language="IT" text="tutte le liti sono dubbie, non manco che le guerre"/>
+		<mark name="plus_sign" method="pen" place="right_margin"/>	
+		
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="altri huomini sieno belli, &ograve; brutti"/>
 
     </annotation>
 </transcription>

@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.107r.tif" signature="C3r" pagination="37" reader="Harvey"/>	<!-- ABO 111right -->
+	<page filename="Ha2.107r.tif" signature="C3[r]" pagination="37" reader="Harvey"/>	<!-- ABO 111right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -33,7 +33,7 @@
 				</position>
 			</language>
 			<translation>
-				The formulae for penetrating ideas: the mimes of Publius Syrus.
+				The formulae for penetrating ideas: the mimes of Publius Syrus. <!--JG: Part of translation is missing-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -92,7 +92,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -137,6 +136,34 @@
 				of roses and violets; that, that is the ambrosial syrup of the heart and brain.
 			</translation>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="morte violenta"/>
+		<underline method="pen" type="straight" language="IT" text="felicie in"/>
+		<underline method="pen" type="straight" language="IT" text="feliciemente non muore"/>
+		<underline method="pen" type="straight" language="IT" text="troppo fontuosamente"/>
+		<underline method="pen" type="straight" language="IT" text="farebbe cosi nella celebratione"/>
+		<underline method="pen" type="straight" language="IT" text="delle feste de gli Iddij"/>
+		<underline method="pen" type="straight" language="IT" text="Quanta solenne stoltitia"/>
+		<underline method="pen" type="straight" language="IT" text="giouani ricchi"/>
+		<underline method="pen" type="straight" language="IT" text="di molti medici"/>
+		<underline method="pen" type="straight" language="IT" text="vn cristero"/>
+		<underline method="pen" type="straight" language="IT" text="vn mote d'asini, poi"/>
+		<underline method="pen" type="straight" language="IT" text="duole la testa"/>
+		<underline method="pen" type="straight" language="IT" text="medicare il culo"/>
+		<underline method="pen" type="straight" language="IT" text="in capo"/>
+		<underline method="pen" type="straight" language="IT" text="qui &egrave; il mal mio"/>
+		<underline method="pen" type="straight" language="IT" text="giudici miqui"/>
+		<underline method="pen" type="straight" language="IT" text="maggior prezzo"/>
+		<underline method="pen" type="straight" language="IT" text="l'vno vn vasel d'olio"/>
+		<underline method="pen" type="straight" language="IT" text="vn porco ben grasso"/>
+		
+		<symbol name="Sun" place="head"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--fus-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--volen-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--tut-->
+		
+		<mark name="dot" method="pen" place="intext"/> <!--culo, &-->
 
     </annotation>
 </transcription>
