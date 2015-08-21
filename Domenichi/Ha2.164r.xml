@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.164r.tif" signature="K4r" pagination="151" reader="Harvey"/>	<!-- ABO 168right -->
+	<page filename="Ha2.164r.tif" signature="K4[r]" pagination="151" reader="Harvey"/>	<!-- ABO 168right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -122,6 +122,56 @@
 				</position>
 			</language>
 		</marginalia>
-
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="0">
+					<marginalia_text>
+						Omnia (in manu: singula ad vnque[m].
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="de'Principi"/>
+		<underline method="pen" type="straight" language="IT" text="osseruare la fede"/>
+		<underline method="pen" type="straight" language="IT" text="medesimo Re Francesco"/>
+		<underline method="pen" type="straight" language="IT" text="quando la defe douesse"/>
+		<underline method="pen" type="straight" language="IT" text="resta dra'Principei"/>
+		<underline method="pen" type="straight" language="IT" text="lor possanza &egrave;"/>
+		<underline method="pen" type="straight" language="IT" text="guiditij"/>
+		<underline method="pen" type="straight" language="IT" text="per leggi"/>
+		<underline method="pen" type="straight" language="IT" text="sauio"/>
+		<underline method="pen" type="straight" language="IT" text="Re Alfonso"/>
+		<underline method="pen" type="straight" language="IT" text="che la parola"/>
+		<underline method="pen" type="straight" language="IT" text="quanto'l giuramento"/>
+		<underline method="pen" type="straight" language="IT" text="de'priuati"/>
+		<underline method="pen" type="straight" language="IT" text="Principi"/>
+		<underline method="pen" type="straight" language="IT" text="della Fede saggiamente"/>
+		<underline method="pen" type="straight" language="IT" text="La fed vnqua"/>
+		<underline method="pen" type="straight" language="IT" text="esser corrotta"/>
+		<underline method="pen" type="straight" language="IT" text="&agrave; vn solo"/>
+		<underline method="pen" type="straight" language="IT" text="insieme &agrave; mille"/>
+		<underline method="pen" type="straight" language="IT" text="Basta vna volta"/>
+		<underline method="pen" type="straight" language="IT" text="s'habbia promesso"/>
+		<underline method="pen" type="straight" language="IT" text="I saui viuer'in"/>
+		<underline method="pen" type="straight" language="IT" text="teono le calunnie"/>
+		<underline method="pen" type="straight" language="IT" text="diceuano male di"/>
+		<underline method="pen" type="straight" language="IT" text="che non sar&agrave; prestato loro"/>
+		<underline method="pen" type="straight" language="IT" text="che mi correggi anche in mia"/>
+		<underline method="pen" type="straight" language="IT" text="Quinto Imperadore"/>
+		
+		<symbol name="SS" place="head"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- giura -->
+		<mark name="plus_sign" method="pen" place="right_margin"/> <!-- calunnie -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- di -->
+		<mark name="straight_quotation_mark" method="pen" place="right_margin"/> <!-- AB: Or is it an equal sign that is aligned to the marginal note? It's these things that keep me awake at night. -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- fe -->
+		
+		<mark name="dot" method="pen" place="intext"/> <!-- Principi, perche -->
+		<mark name="apostrophe" method="pen" place="intext"/> <!-- leggi. Et -->
+		<mark name="apostrophe" method="pen" place="intext"/> <!-- priuato. L'Ariosto -->
+		
     </annotation>
 </transcription>
