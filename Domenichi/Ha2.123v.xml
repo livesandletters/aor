@@ -14,6 +14,8 @@
 					<marginalia_text>
 						Oeconomia biblica: et Eudromia aphoristica.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="Oeconomia"/>
+					<emphasis method="pen" type="straight" text="aphoristica"/>
 				</position>
 			</language>
 		</marginalia>
@@ -28,6 +30,7 @@
 					<marginalia_text>
 						bibliotheca[e] Oeconomia,
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="bibliotheca[e] Oeconomia"/>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
@@ -35,11 +38,15 @@
 						facultas,
 						in analyse maximorum capitum aphoristica: cum
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="in analyse"/>
+					<emphasis method="pen" type="straight" text="aphoristica"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
 						flagranti Praxi; quanta esse potest pra[e]gnantiss[im]a.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="flagranti Praxi"/>
+					<emphasis method="pen" type="straight" text="esse potest"/>
 				</position>
 			</language>
 		</marginalia>
@@ -49,6 +56,7 @@
 					<marginalia_text>
 						Quotidi&egrave; Legendum, audiendum, docendum, exercendum.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="Quotidi&egrave; Legendum, audiendum, docendum, exercendum."/>
 				</position>
 			</language>
 		</marginalia>
@@ -97,6 +105,45 @@
 				</position>
 			</language>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="buone nuoue fratelli"/>
+		<underline method="pen" type="straight" language="IT" text="habbiano veduti"/>
+		<underline method="pen" type="straight" language="IT" text="haranno conosciuti"/>
+		<underline method="pen" type="straight" language="IT" text="di rado de' frutti del matrimonio"/>
+		<underline method="pen" type="straight" language="IT" text="Licurgo"/>
+		<underline method="pen" type="straight" language="IT" text="che lo sposo con la sposa non dormisse"/>
+		<underline method="pen" type="straight" language="IT" text="che l'vno &amp; l'altro"/>
+		<underline method="pen" type="straight" language="IT" text="maggior parte del d&igrave;, &amp; della notte"/>
+		<underline method="pen" type="straight" language="IT" text="poco &amp; di"/>
+		<underline method="pen" type="straight" language="IT" text="nascosto si trouassero"/>
+		<underline method="pen" type="straight" language="IT" text="piu gagliardi"/>
+		<underline method="pen" type="straight" language="IT" text="non vsando il coito"/>
+		<underline method="pen" type="straight" language="IT" text="l'amor"/>
+		<underline method="pen" type="straight" language="IT" text="sempre fresco &amp;"/>
+		<underline method="pen" type="straight" language="IT" text="figliuoli"/>
+		<underline method="pen" type="straight" language="IT" text="piu robusti"/>
+		<underline method="pen" type="straight" language="IT" text="Co[n]cordia"/>
+		<underline method="pen" type="straight" language="IT" text="Fede"/>
+		<underline method="pen" type="straight" language="IT" text="Prole"/>
+		<underline method="pen" type="straight" language="IT" text="prudenza"/>
+		<underline method="pen" type="straight" language="IT" text="l'esperienza nel Capitano"/>
+		<underline method="pen" type="straight" language="IT" text="apparenza corporea"/>
+		<underline method="pen" type="straight" language="IT" text="robusto &amp; gagliardo"/>
+		<underline method="pen" type="straight" language="IT" text="inesperto &amp; temerario"/>	
+		<underline method="pen" type="straight" language="IT" text="portare la soprauesta &amp; gli arnesi del Capitano"/>
+		
+		<symbol name="Sun" place="left_margin"/>
+		<symbol name="LL" place="left_margin" language="IT" text="leggi"/>
+		<symbol name="Sun" place="left_margin"/>
+		
+		<symbol name="SS" place="intext" language="IT" text="di rado de' frutti del matrimonio"/>
+		
+		<mark name="bracket" method="pen" place="right_margin"/>
+		<mark name="dash" method="pen" place="right_margin"/> <!--capi-->
+		
+		<mark name="colon" method="pen" place="intext"/> <!--veduti che-->
+		<mark name="straight_quotation_mark" method="pen" place="intext" language="IT" text="haranno conosciuti"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="piu gagliardi"/>
+		
     </annotation>
 </transcription>

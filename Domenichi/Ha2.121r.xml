@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.121r.tif" signature="Er" pagination="65" reader="Harvey"/>	<!-- ABO 125right -->
+	<page filename="Ha2.121r.tif" signature="E[r]" pagination="65" reader="Harvey"/>	<!-- ABO 125right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -48,6 +48,8 @@
 						Cogendus sibi quisq[ue] quotidi&egrave;: ne quid extrema[e] sua[e] potestatis
 						languescat.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="Cogendus sibi"/>
+					<emphasis method="pen" type="straight" text="quid extrema[e] sua[e] potestatis"/>
 				</position>
 			</language>
 		</marginalia>
@@ -79,6 +81,10 @@
 						Item prouerbia Italorum, Heiuodi, Erasmi. In primisq[ue] ioci isti, et sales Domenici,
 						Castillionis, Guatij, mensa[e] philosophica[e]: qua[e] Eutrapeli delitia[e].
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="prouerbia"/>
+					<emphasis method="pen" type="straight" text="ioci isti"/>
+					<emphasis method="pen" type="straight" text="sales"/>
+					<emphasis method="pen" type="straight" text="Eutrapeli delitia[e]"/>
 				</position>
 			</language>
 		</marginalia>
@@ -92,8 +98,69 @@
 						communes Manlij: Sylua Nuptialis, et Bartasij diuini Hymni. Multo plus, qu&agrave;m omnes
 						Italica[e] Oda[e], et discursus. Nihil Aretinus ad Rabela[e]sium.
 					</marginalia_text>
+					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="egli vn solo figliuolino"/>
+		<underline method="pen" type="straight" language="IT" text="hor lui"/>
+		<underline method="pen" type="straight" language="IT" text="hor lei riguardaua"/>
+		<underline method="pen" type="straight" language="IT" text="certo che cotesto putto fosse mio, come"/>
+		<underline method="pen" type="straight" language="IT" text="s&igrave; strana"/>
+		<underline method="pen" type="straight" language="IT" text="senza"/>
+		<underline method="pen" type="straight" language="IT" text="mutar faccia"/>
+		<underline method="pen" type="straight" language="IT" text="donare il valore di mille ducati"/>
+		<underline method="pen" type="straight" language="IT" text="parenti per giudici"/>
+		<underline method="pen" type="straight" language="IT" text="loro il caso"/>
+		<underline method="pen" type="straight" language="IT" text="il figliuolo in"/>
+		<underline method="pen" type="straight" language="IT" text="bambino &egrave; mio"/>
+		<underline method="pen" type="straight" language="IT" text="ch'io ve lo dono"/>
+		<underline method="pen" type="straight" language="IT" text="egli &egrave; vostro"/>
+		<underline method="pen" type="straight" language="IT" text="risa"/>
+		<underline method="pen" type="straight" language="IT" text="la saggia donna"/>
+		<underline method="pen" type="straight" language="IT" text="nobilissimi tra gli"/>
+		<underline method="pen" type="straight" language="IT" text="i pi&ugrave; nobili huomini del mondo"/>
+		<underline method="pen" type="straight" language="IT" text="dispregiano le ricchezze"/>
+		<underline method="pen" type="straight" language="IT" text="gloria"/>
+		<underline method="pen" type="straight" language="IT" text="piaceri"/>
+		<underline method="pen" type="straight" language="IT" text="vita"/>
+		<underline method="pen" type="straight" language="IT" text="vincono le cose"/>
+		<underline method="pen" type="straight" language="IT" text="pouert&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="l'infamia"/>
+		<underline method="pen" type="straight" language="IT" text="dolore"/>
+		<underline method="pen" type="straight" language="IT" text="morte"/>
+		
+		<symbol name="Sun" place="head"/>
+		
+		<symbol name="JC" place="right_margin" language="IT" text="parenti per giudici"/>
+		
+		<mark name="quotation_mark" method="pen" place="left_margin"/>
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="DIOGENE domandato quali fossero i pi&ugrave; nobili
+			huomini del mondo, ripose: quelli che dispregiano le ricchezze, la gloria, i piaceri, &amp; finalmente la vita: &amp; che vincono
+			le cose co[n]trarie &agrave; queste, cio&egrave; la pouert&agrave;, l'infamia, il dolore, et la morte, tollerandole"/>
+		<mark name="equal_sign" method="pen" place="left_margin"/>
+		<mark name="equal_sign" method="pen" place="left_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!--cer-->
+		<mark name="dash" method="pen" place="right_margin"/> <!--no-->
+		<mark name="circumflex" method="pen" place="right_margin"/>
+		<mark name="circumflex" method="pen" place="right_margin"/>
+		<mark name="circumflex" method="pen" place="right_margin"/>
+		<mark name="circumflex" method="pen" place="right_margin"/>
+		
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="mio"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="mio"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="dono"/>
+		<mark name="dot" method="pen" place="intext"/> <!--donna, &-->
+		<mark name="plus_sign" method="pen" place="intext"/> <!--DIOGENE-->
+		<mark name="equal_sign" method="pen" place="intext" language="IT" text="dispregiano le ricchezze"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="gloria"/>
+		<mark name="equal_sign" method="pen" place="intext" language="IT" text="piaceri"/>
+		<mark name="dot" method="pen" place="intext"/> <!--piaceri, &-->
+		<mark name="vertical_bar" method="pen" place="intext"/> <!--vita: &-->
+		<mark name="dot" method="pen" place="intext"/> <!--dolore, et-->
+		<mark name="dot" method="pen" place="intext"/> <!--morte, tollerandole-->
+		
     </annotation>
 </transcription>
