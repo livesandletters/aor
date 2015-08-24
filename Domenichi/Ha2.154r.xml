@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.154r.tif" signature="I2r" pagination="131" reader="Harvey"/>	<!-- ABO 158right -->
+	<page filename="Ha2.154r.tif" signature="I2[r]" pagination="131" reader="Harvey"/>	<!-- ABO 158right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -38,7 +38,7 @@
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
 						parum didicerunt:
-						ille pauucitate artificium effecit,
+						ille pauucitate artificum effecit,
 						vt nihil
 					</marginalia_text>
 				</position>
@@ -53,6 +53,16 @@
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
 						( singula; et cum auctoritate.
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						{ Non alius, sed aliud, miraculu[m] est.
 					</marginalia_text>
 				</position>
 			</language>
@@ -109,6 +119,50 @@
 				</position>
 			</language>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="condimento del pasto"/>
+		<underline method="pen" type="straight" language="IT" text="che piu condisca"/>
+		<underline method="pen" type="straight" language="IT" text="che la fame"/>
+		<underline method="pen" type="straight" language="IT" text="&amp; la fete:"/>
+		<underline method="pen" type="straight" language="IT" text="Dario nel"/>
+		<underline method="pen" type="straight" language="IT" text="che non haueua mai"/>
+		<underline method="pen" type="straight" language="IT" text="la miglior beuanda"/>
+		<underline method="pen" type="straight" language="IT" text="Tolomeo Re d'Egitto"/>
+		<underline method="pen" type="straight" language="IT" text="d'un p&agrave;store"/>
+		<underline method="pen" type="straight" language="IT" text="pan nero &amp; duro da"/>
+		<underline method="pen" type="straight" language="IT" text="non haueua"/>
+		<underline method="pen" type="straight" language="IT" text="cibo migliore"/>
+		<underline method="pen" type="straight" language="IT" text="Nel conuersare non"/>
+		<underline method="pen" type="straight" language="IT" text="pesare gli huomini"/>
+		<underline method="pen" type="straight" language="IT" text="cosi sottilmente"/>
+		<underline method="pen" type="straight" language="IT" text="nel conuersare"/>
+		<underline method="pen" type="straight" language="IT" text="non si dee per l'ordinario"/>
+		<underline method="pen" type="straight" language="IT" text="cosi sottilmente"/>
+		<underline method="pen" type="straight" language="IT" text="stadera del mugnaio"/>
+		<underline method="pen" type="straight" language="IT" text="la bilancia de l'orafo"/>
+		<underline method="pen" type="straight" language="IT" text="cosa schonueneuole"/>
+		<underline method="pen" type="straight" language="IT" text="che essi verame[n]te"/>
+		<underline method="pen" type="straight" language="IT" text="fa delle menete"/>
+		<underline method="pen" type="straight" language="IT" text="per quello ancora che coirono"/>
+		<underline method="pen" type="straight" language="IT" text="Vatij essere i desiderij de gli"/>
+		<underline method="pen" type="straight" language="IT" text="considerabili sono i desderij de"/>
+		<underline method="pen" type="straight" language="IT" text="Agostino desideraua"/>
+		<underline method="pen" type="straight" language="IT" text="Christo in"/>
+		<underline method="pen" type="straight" language="IT" text="Paolo predicente"/>
+		
+		<symbol name="Sun" place="right_margin"/>
+		
+		<symbol name="SS" place="intext"/>
+		
+		<mark name="bracket" method="pen" place="left_margin"/>
+		<mark name="bracket" method="pen" place="left_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- mangia -->
+		
+		<mark name="apostrophe" method="pen" place="intext"/> <!-- beuanda. Et -->
+		<mark name="quotation_mark" method="pen" place="intext"/> <!-- over marginal note, 'multitudine' -->
+		
+		<errata language="IT" copytext="coirono" amendedtext="corrono"/>
+		
     </annotation>
 </transcription>
