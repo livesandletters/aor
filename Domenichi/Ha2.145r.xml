@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.145r.tif" signature="Hr" pagination="113" reader="Harvey"/>	<!-- ABO 149right -->
+	<page filename="Ha2.145r.tif" signature="H[r]" pagination="113" reader="Harvey"/>	<!-- ABO 149right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -29,7 +29,7 @@
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						excedit semper.
+						(excedit semper.
 					</marginalia_text>
 				</position>
 			</language>
@@ -78,7 +78,7 @@
 				</position>
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						) immemor; aliorumq[ue] omniu[m]
+						immemor; aliorumq[ue] omniu[m]
 						dignissimus. Idq[ue] nullo labore: quasi ludens.
 					</marginalia_text>
 				</position>
@@ -89,7 +89,7 @@
 			<language ident="IT">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						( risposta politica.
+						( risposta politica. )
 					</marginalia_text>
 				</position>
 			</language>
@@ -106,6 +106,57 @@
 				</position>
 			</language>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="la terra"/>
+		<underline method="pen" type="straight" language="IT" text="animal terrestre"/>
+		<underline method="pen" type="straight" language="IT" text="l'huomo &egrave; il"/>
+		<underline method="pen" type="straight" language="IT" text="solo h&agrave; ristretto tanto"/>
+		<underline method="pen" type="straight" language="IT" text="il suo amplo imperio di tutta la terra"/>
+		<underline method="pen" type="straight" language="IT" text="come ristretto"/>
+		<underline method="pen" type="straight" language="IT" text="due parole"/>
+		<underline method="pen" type="straight" language="IT" text="mio"/>
+		<underline method="pen" type="straight" language="IT" text="&amp; tuo"/>
+		<underline method="pen" type="straight" language="IT" text="cagione d'ogni dissensione"/>
+		<underline method="pen" type="straight" language="IT" text="Pitagora filosofo"/>
+		<underline method="pen" type="straight" language="IT" text="amici ogni cosa fosse commune"/>
+		<underline method="pen" type="straight" language="IT" text="Platone"/>
+		<underline method="pen" type="straight" language="IT" text="sua nuoua Republica"/>
+		<underline method="pen" type="straight" language="IT" text="altri"/>
+		<underline method="pen" type="straight" language="IT" text="tra tutti"/>
+		<underline method="pen" type="straight" language="IT" text="consigli vili"/>
+		<underline method="pen" type="straight" language="IT" text="scherniti da"/>
+		<underline method="pen" type="straight" language="IT" text="magnanimi"/>
+		<underline method="pen" type="straight" language="IT" text="ARISTODEMO"/>
+		<underline method="pen" type="straight" language="IT" text="figliuol d'vn cuoco,"/>
+		<underline method="pen" type="straight" language="IT" text="Re Antigono, lo"/>
+		<underline method="pen" type="straight" language="IT" text="diminuire le spese"/>
+		<underline method="pen" type="straight" language="IT" text="non vsar tanta liberalit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="ridendosene"/>
+		<underline method="pen" type="straight" language="IT" text="queste tue parole sanno di cucina"/>
+		<underline method="pen" type="straight" language="IT" text="pro de'debili contra"/>
+		<underline method="pen" type="straight" language="IT" text="non s'intromettono gli astuti"/>
+		<underline method="pen" type="straight" language="IT" text="Lepri"/>
+		<underline method="pen" type="straight" language="IT" text="Aquile"/>
+		<underline method="pen" type="straight" language="IT" text="Volpi"/>
+		<underline method="pen" type="straight" language="IT" text="aiuteremmo"/>
+		<underline method="pen" type="straight" language="IT" text="chi voi siete"/>
+		<underline method="pen" type="straight" language="IT" text="con chi voi hauete &agrave; fare"/>
+		
+		<symbol name="Sun" place="left_margin"/>
+		
+		<mark name="quotation_mark" method="pen" place="left_margin"/>
+		<mark name="bracket" method="pen" place="left_margin"/>
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Noi vi aiuteremmo molto volontieri, se noi non 
+			sapessimo chi voi siete, &amp; con chi voi hauete &agrave; fare."/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- ter -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- re -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- di -->
+		<mark name="horizontal_bar" method="pen" place="right_margin"/> <!-- under marginalia, 'semper' -->
+		
+		<mark name="dot" method="pen" place="intext"/> <!-- terrestre, ma -->
+		<mark name="apostrophe" method="pen" place="intext"/> <!-- humana. Et -->
+		<mark name="apostrophe" method="pen" place="intext"/> <!-- Republica. Et -->
+		
     </annotation>
 </transcription>
