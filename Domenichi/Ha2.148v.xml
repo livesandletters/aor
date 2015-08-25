@@ -21,6 +21,16 @@
 		</marginalia>
 		
 		<marginalia hand="Italian">
+			<language ident="IT">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						Piouano.
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
+		
+		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
@@ -64,7 +74,7 @@
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						Circumfertur Hermolai Barbari generosum Carmen:
-						venter, pluma, Venus Laudem fugienda Seguenti.
+						venter, pluma, Venus Laudem fugienda Seguenti. | <!-- AB: I think that vertical bar should go in as part of the marginal note in the same way as we do brackets. -->
 					</marginalia_text>
 				</position>
 			</language>
@@ -120,6 +130,37 @@
 				</position>
 			</language>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="Preti"/>
+		<underline method="pen" type="straight" language="IT" text="Frati"/>
+		<underline method="pen" type="straight" language="IT" text="i pi&ugrave; saui huomini"/>
+		<underline method="pen" type="straight" language="IT" text="Piouan'Arloto, nostro"/>
+		<underline method="pen" type="straight" language="IT" text="delle sue facetie"/>
+		<underline method="pen" type="straight" language="IT" text="sententie &amp; prouerbi"/>
+		<underline method="pen" type="straight" language="IT" text="raccontarne qu&igrave; alquanti"/>
+		<underline method="pen" type="straight" language="IT" text="pi&ugrave; saui huomini del mondo"/>
+		<underline method="pen" type="straight" language="IT" text="adoprano le nostre mogli"/>
+		<underline method="pen" type="straight" language="IT" text="nutriamo i lor figliuoli"/>
+		<underline method="pen" type="straight" language="IT" text="della maluagia"/>
+		<underline method="pen" type="straight" language="IT" text="auanti"/>
+		<underline method="pen" type="straight" language="IT" text="nel"/>
+		<underline method="pen" type="straight" language="IT" text="dop&ograve;"/>
+		<underline method="pen" type="straight" language="IT" text="beesse altro che maluagia"/>
+		<underline method="pen" type="straight" language="IT" text="il capo"/>
+		<underline method="pen" type="straight" language="IT" text="barba, canuto"/>
+		<underline method="pen" type="straight" language="IT" text="capelli hanno venti anni"/>
+		
+		<symbol name="SS" place="intext"/>
+		
+		<mark name="bracket" method="pen" place="left_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- alquan -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- dia -->
+		<mark name="bracket" method="pen" place="right_margin"/>
+		<mark name="dash" method="pen" place="right_margin"/> <!-- ca -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- rispo -->
+		
+		<mark name="dot" method="pen" place="intext"/> <!-- prouerbi, mi -->
+		<mark name="comma" method="pen" place="intext"/> <!-- mogli, & -->
     </annotation>
 </transcription>
