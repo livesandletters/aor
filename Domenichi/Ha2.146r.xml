@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.146r.tif" signature="H2r" pagination="115" reader="Harvey"/>	<!-- ABO 150right -->
+	<page filename="Ha2.146r.tif" signature="H2[r]" pagination="115" reader="Harvey"/>	<!-- ABO 150right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -38,13 +38,13 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Vtinam Belleurus adeseset. Adest:
+						Vtinam Belleurus adesset. Adest:
 						et vincitur. Vt a fulminante Achille tonans Hector:
 					</marginalia_text>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						aut ab acerrimo A[e]nea
+						aut ab acerrimo &AElig;nea
 						turbulentus Turnus.
 					</marginalia_text>
 				</position>
@@ -109,6 +109,44 @@
 				</position>
 			</language>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="dottor tanto eccellente, il"/>
+		<underline method="pen" type="straight" language="IT" text="di sei"/>
+		<underline method="pen" type="straight" language="IT" text="volete pi&ugrave; di venticinque"/>
+		<underline method="pen" type="straight" language="IT" text="di s&igrave; poco"/>
+		<underline method="pen" type="straight" language="IT" text="egli ne fa ogni d&igrave;"/>
+		<underline method="pen" type="straight" language="IT" text="io non ne"/>
+		<underline method="pen" type="straight" language="IT" text="tre &ograve; quattro l'anno"/>
+		<underline method="pen" type="straight" language="IT" text="Legista ignorante"/>
+		<underline method="pen" type="straight" language="IT" text="la necessit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="sufficienza del predetto dottor Fiorentino"/>
+		<underline method="pen" type="straight" language="IT" text="fatto come la necessit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="senza leggi, diss'egli"/>
+		<underline method="pen" type="straight" language="IT" text="facetamente &agrave; quel"/>
+		<underline method="pen" type="straight" language="IT" text="la necessit&agrave; non h&agrave; legge"/>
+		<underline method="pen" type="straight" language="IT" text="di ciascuno pender dall'opere sue"/>
+		<underline method="pen" type="straight" language="IT" text="da l'altrui parole"/>
+		<underline method="pen" type="straight" language="IT" text="EDIPO"/>
+		<underline method="pen" type="straight" language="IT" text="Re Tesco suo"/>
+		<underline method="pen" type="straight" language="IT" text="cieco era"/>
+		<underline method="pen" type="straight" language="IT" text="voleua con Teseo scusare"/>
+		<underline method="pen" type="straight" language="IT" text="perdonasse"/>
+		<underline method="pen" type="straight" language="IT" text="sauio Re"/>
+		
+		<symbol name="JC" place="intext"/>
+		<symbol name="JC" place="intext"/>
+		<symbol name="SS" place="intext"/>
+		
+		<mark name="bracket" method="pen" place="left_margin"/>
+		<mark name="vertical_bar" method="pen" place="left_margin"/> <!-- AB: Not sure if this should be considered a bracket in relation to marginalia. -->
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- qua -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- Fio -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- co -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- vi -->
+		
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="tre &ograve; quattro l'anno"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="dall'opere"/>
+		
     </annotation>
 </transcription>
