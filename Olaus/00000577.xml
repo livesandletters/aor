@@ -8,7 +8,7 @@
     <page filename="00000577.tif" reader="Harvey" pagination="571"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="De podagrae incommodis">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -21,16 +21,17 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Ticinum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Ticinum. <!-- AB not sure if a specific city, or generic term. May need a location tag. -->
+                        Ticinum. 
                     </marginalia_text>
+                    <location name="Pavia"/>
                 </position>
             </language>
             <translation>
-                
+                Pavia.
             </translation>
         </marginalia>
         
@@ -42,12 +43,17 @@
                     </marginalia_text>
                 </position>
             </language>
+            <language ident="EL">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        <!-- AB Chris, please add Greek characters. Thank you! -->
+                    </marginalia_text>
+                </position>
+            </language>
             <translation>
-                <!-- AB Thanks Chris! -->
+                <!--JG: Chris, do you have an idea? Can't really figure out meaning of 'delinitoriae', at least not how it relates to 'aquae' and can't find much about 'Mundativae'-->
             </translation>
         </marginalia>
-        
-        <!-- AB Chris, please add Greek characters. Thank you! -->
         
         <underline method="pen" type="straight" language="LA" text="medici laudem maiorem assequuntur"/>
         <underline method="pen" type="straight" language="LA" text="simplicioribus medicinis vtentes"/>
@@ -56,7 +62,7 @@
         <underline method="pen" type="straight" language="LA" text="&amp; puellarum"/>
         <underline method="pen" type="straight" language="LA" text="masculos potius"/>
         <underline method="pen" type="straight" language="LA" text="qu&agrave;m foemellas"/>
-        <underline method="pen" type="straight" language="LA" text="inducunt awgrotos verbis solatiosis"/>
+        <underline method="pen" type="straight" language="LA" text="inducunt aegrotos verbis solatiosis"/>
         <underline method="pen" type="straight" language="LA" text="moenitatem locorum"/>
         <underline method="pen" type="straight" language="LA" text="&amp; garritum auium"/>
         <underline method="pen" type="straight" language="LA" text="&amp; ranarum eligant"/>
@@ -65,7 +71,7 @@
         <underline method="pen" type="straight" language="LA" text="ligat solutos"/>
         <underline method="pen" type="straight" language="LA" text="contrahit"/>
         <underline method="pen" type="straight" language="LA" text="decrescere facit corpora"/>
-        <underline method="pen" type="straight" language="LA" text="Vtantur ergo aquis"/>
+        <underline method="pen" type="straight" language="LA" text="Vtantur ergo aquis prim&ugrave;m"/>
         <underline method="pen" type="straight" language="LA" text="potu delinitoriis"/>
         <underline method="pen" type="straight" language="LA" text="thermarum exhibitionibus"/>
         <underline method="pen" type="straight" language="LA" text="siccatiuis"/>
@@ -73,18 +79,19 @@
         <underline method="pen" type="straight" language="LA" text="plurima effusione"/>
         <underline method="pen" type="straight" language="LA" text="mundantur"/>
         <underline method="pen" type="straight" language="LA" text="attractiua virtute libera"/>
-        <underline method="pen" type="straight" language="LA" text="duobus auxiliis congragatis"/>
+        <underline method="pen" type="straight" language="LA" text="duobus auxiliis congregatis"/>
         <underline method="pen" type="straight" language="LA" text="superantur"/>
         <underline method="pen" type="straight" language="LA" text="Amentur aquae munera"/>
         <underline method="pen" type="straight" language="LA" text="humani generis debellatricem"/>
         <underline method="pen" type="straight" language="LA" text="munimina lauachrorum"/>
-        <underline method="pen" type="straight" language="LA" text="edmoat uige decennium"/>
+        <underline method="pen" type="straight" language="LA" text="edomat uige decennium"/>
         <underline method="pen" type="straight" language="LA" text="potionum molliter introitus"/>
         <underline method="pen" type="straight" language="LA" text="voluptuosis aquarum remediis"/>
         <underline method="pen" type="straight" language="LA" text="Aquas ver&ograve; Bormias siccatiuas"/>
         <underline method="pen" type="straight" language="LA" text="vrbem Ticinum scaturientes"/>
         <underline method="pen" type="straight" language="LA" text="Masculi genera[n]tur ex sene"/>
-        <underline method="pen" type="straight" language="LA" text="puella. Verba solatiosa"/>
+        <underline method="pen" type="straight" language="LA" text="puella."/>
+        <underline method="pen" type="straight" language="LA" text="Verba solatiosa"/>
         <underline method="pen" type="straight" language="LA" text="Descriptio podagrae."/>
         <underline method="pen" type="straight" language="LA" text="Mors viua."/>
         <underline method="pen" type="straight" language="LA" text="in armis."/>
@@ -97,12 +104,12 @@
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
-        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="puella. Verba solatiosa"/>
+        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="Verba solatiosa"/>
         <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="Remedia ex aquis."/>
         <mark name="comma" method="pen" place="right_margin"/> <!-- interna, & -->
         <mark name="horizontal_bar" method="pen" place="right_margin"/> <!-- below marginal note -->
         
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="inducunt awgrotos verbis solatiosis"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="inducunt aegrotos verbis solatiosis"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="locorum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="&amp; garritum auium"/>
         <mark name="horizontal_bar" method="pen" place="intext" language="LA" text="De podagrae incommodis."/>
@@ -111,9 +118,8 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="potu delinitoriis"/>
         <mark name="dot" method="pen" place="intext"/> <!-- delinitoriis -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="siccatiuis"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- interna, plurima -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="indomabilis ceruix illa passionis"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- interna, plurima -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="plurima effusione"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="mundantur"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="attractiua virtute libera"/>
