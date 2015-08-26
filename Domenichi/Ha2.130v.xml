@@ -12,7 +12,7 @@
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Nemo vnq[uam] satis potuit: aut seri&ograve; voluit, quantum
+						{ Nemo vnq[uam] satis potuit: aut seri&ograve; voluit, quantum
 						potuit. Satis ben&egrave; nullus vnq[uam] dixit,
 						aut fecit.
 					</marginalia_text>
@@ -77,6 +77,8 @@
 						Omnes actiones, passionesq[ue] Nuga[e], pra[e]ter vnu[m]
 						Hoc. Proprium quarto modo, Meum Hoc.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="Proprium quarto modo"/>
+					<emphasis method="pen" type="straight" text="Meum Hoc."/>
 				</position>
 			</language>
 		</marginalia>
@@ -109,6 +111,70 @@
 				</position>
 			</language>
 		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="la fortuna variamente diuisauano"/>
+		<underline method="pen" type="straight" language="IT" text="gratiamente"/>
+		<underline method="pen" type="straight" language="IT" text="Fato"/>
+		<underline method="pen" type="straight" language="IT" text="fortuna"/>
+		<underline method="pen" type="straight" language="IT" text="predestinatione"/>
+		<underline method="pen" type="straight" language="IT" text="Sorte"/>
+		<underline method="pen" type="straight" language="IT" text="caso"/>
+		<underline method="pen" type="straight" language="IT" text="ventura son di"/>
+		<underline method="pen" type="straight" language="IT" text="dan gran noia alle"/>
+		<underline method="pen" type="straight" language="IT" text="s&ugrave; di gran nouelle"/>
+		<underline method="pen" type="straight" language="IT" text="in fine"/>
+		<underline method="pen" type="straight" language="IT" text="Iddio d'ogni"/>
+		<underline method="pen" type="straight" language="IT" text="&egrave; sauio"/>
+		<underline method="pen" type="straight" language="IT" text="Chi non &egrave; sauio, patiente, &amp; forte"/>
+		<underline method="pen" type="straight" language="IT" text="Lamentisi di s&egrave;, non della sorte"/>
+		<underline method="pen" type="straight" language="IT" text="fa i fatti suoi"/>
+		<underline method="pen" type="straight" language="IT" text="si imbratta"/>
+		<underline method="pen" type="straight" language="IT" text="Antistene filosofo"/>
+		<underline method="pen" type="straight" language="IT" text="simili cose"/>
+		<underline method="pen" type="straight" language="IT" text="porto questa cosa per me"/>
+		<underline method="pen" type="straight" language="IT" text="non per altri"/>
+		<underline method="pen" type="straight" language="IT" text="Fiorentini"/>
+		<underline method="pen" type="straight" language="IT" text="chi ca i fatti suoi"/>
+		<underline method="pen" type="straight" language="IT" text="non s'imbratta le"/>
+		<underline method="pen" type="straight" language="IT" text="non &egrave; vergogna"/>
+		<underline method="pen" type="straight" language="IT" text="facende da se stesso"/>
+		
+		<symbol name="Sun" place="left_margin"/>
+		
+		<symbol name="SS" place="intext"/> <!-- stelle: -->
+		
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Sorte, caso, ventura son di quelle Cose, che dan 
+			gran noia alle persone; Et vi si dcon s&ugrave; di gran nouelle. Ma in fine Iddio d'ogni cosa &egrave; padrone; Et chi 
+			&egrave; sauio, domina le stelle: Chi non &egrave; sauio, patiente, &amp; forte, Lamentisi di s&egrave;, non della forte."/>
+		<mark name="circumflex" method="pen" place="left_margin"/>
+		<mark name="circumflex" method="pen" place="left_margin"/>
+		<mark name="circumflex" method="pen" place="left_margin"/>
+		<mark name="circumflex" method="pen" place="left_margin"/>
+		<mark name="circumflex" method="pen" place="left_margin"/>
+		<mark name="horizontal_bar" method="pen" place="left_margin"/> <!-- under marginal note, 'nisi a seipso.' -->
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="io porto questa cosa per me, &amp; non per altri."/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- so -->
+		<mark name="bracket" method="pen" place="right_margin" language="IT" text="Chi non &egrave; sauio, patiente, &amp; forte, 
+			Lamentisi di s&egrave;, non della forte."/>
+		<mark name="dash" method="pen" place="right_margin"/> <!-- pu -->
+		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- s'imbratta le -->
+		<mark name="X_sign" method="pen" place="right_margin" language="IT" text="sue facende da se stesso"/>
+		
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="la furtuna variamente diuisauano"/>
+		<mark name="dot" method="pen" place="intext"/> <!-- opinione, disse -->
+		<mark name="comma" method="pen" place="intext"/> <!-- ventura, son -->
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="s&ugrave; di gran nouelle"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="in fine"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="&egrave; sauio"/>
+		<mark name="equal_sign" method="pen" place="intext" language="IT" text="sauio"/>
+		<mark name="equal_sign" method="pen" place="intext" language="IT" text="patiente"/>
+		<mark name="equal_sign" method="pen" place="intext" language="IT" text="fotre"/>
+		<mark name="straight_quotation_mark" method="pen" place="intext" language="IT" text="Lamentisi di s&egrave;, non della forte."/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="fa i fatti suoi"/>
+		<mark name="comma" method="pen" place="intext"/> <!-- suoi, non -->
+		<mark name="equal_sign" method="pen" place="intext" language="IT" text="si imbratta"/>
+		<mark name="apostrophe" method="pen" place="intext"/> <!-- altri. A -->
 		
     </annotation>
 </transcription>
