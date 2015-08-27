@@ -12,15 +12,17 @@
 			<language ident="EN">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Stile, or speach, all in the veine of finest Sentences; or deepest
+						{ Stile, or speach, all in the veine of finest Sentences; or deepest
 						Maxims;
 						or pithiest Apothegs; or sharpest Epigrams; or
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="Stile, or speach, all in the veine of finest"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
 						wittitest descants; or sweetest iests.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="iests."/>
 				</position>
 			</language>
 		</marginalia>
@@ -33,6 +35,7 @@
 						Sed Mens quotidi&egrave; animata; 
 						et magis magisq[ue] habituata.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="habituata"/>
 				</position>
 			</language>
 		</marginalia>
@@ -47,12 +50,13 @@
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Supr&agrave;, aut Apollonius: et long&egrave; infr&agrave;,
+						" Supr&agrave;, aut Apollonius: et long&egrave; infr&agrave;,
 						omnes Ciceronis, et Demosthenis: Aristotelis, et Platonis;
 						Taciti, et Seneca[e] imitatores.
 						Aut mult&ograve;, qu&agrave;m alij vlli, meli&ugrave;s: aut quorsum tot studia,
 						singulares
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="qu&agrave;m alij vlli, meli&ugrave;s"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -69,6 +73,9 @@
 						Aut nunc, aut nunq[uam] iaciendum aureum Fortuna[e] fundamentu[m]:
 						tam facultatum, qu&agrave;m reputationis causa.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="nunc"/>
+					<emphasis method="pen" type="straight" text="nunq[uam]"/>
+					<emphasis method="pen" type="straight" text="iaciendum aurem Fortuna[e]"/>
 				</position>
 			</language>
 		</marginalia>
@@ -81,11 +88,46 @@
 						Veritatis oratio est [--] alij.
 						<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="Veritatis oratio"/>
 				</position>
 			</language>
 		</marginalia>
-
-
-
+		
+		<underline method="pen" type="straight" language="IT" text="ma ella tanto piu noia"/>
+		<underline method="pen" type="straight" language="IT" text="Madonna"/>
+		<underline method="pen" type="straight" language="IT" text="in su quel letto, ta[n]to"/>
+		<underline method="pen" type="straight" language="IT" text="che alto non desiaua, tutta"/>
+		<underline method="pen" type="straight" language="IT" text="voglio vedere"/>
+		<underline method="pen" type="straight" language="IT" text="pass&ograve; il segno"/>
+		<underline method="pen" type="straight" language="IT" text="gettetala sopra del letto"/>
+		<underline method="pen" type="straight" language="IT" text="la conobbe, &amp; riconobbe molto"/>
+		<underline method="pen" type="straight" language="IT" text="vn figliuolino del"/>
+		<underline method="pen" type="straight" language="IT" text="di quattro &ograve;"/>
+		<underline method="pen" type="straight" language="IT" text="non passate quel segno"/>
+		<underline method="pen" type="straight" language="IT" text="ha fatto &agrave; mia madre, che il volle"/>
+		<underline method="pen" type="straight" language="IT" text="gettatala in sul letto"/>
+		<underline method="pen" type="straight" language="IT" text="saltatole addosso,"/>
+		<underline method="pen" type="straight" language="IT" text="premuta piu di"/>
+		<underline method="pen" type="straight" language="IT" text="Accorta, &amp; rimordente"/>
+		<underline method="pen" type="straight" language="IT" text="giouanetto Greco"/>
+		<underline method="pen" type="straight" language="IT" text="Ottauiano Imperadore"/>
+		<underline method="pen" type="straight" language="IT" text="gli occhi verso"/>
+		<underline method="pen" type="straight" language="IT" text="selo Cesare venire"/>
+		<underline method="pen" type="straight" language="IT" text=""/>
+		<underline method="pen" type="straight" language="IT" text=""/>
+		
+		<symbol name="Sun" place="left_margin"/>
+		
+		<mark name="circumflex" method="pen" place="left_margin"/>
+		<mark name="circumflex" method="pen" place="left_margin"/>
+		<mark name="circumflex" method="pen" place="left_margin"/>
+		<mark name="circumflex" method="pen" place="left_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- con -->
+		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- molto be- -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- pres -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- passa -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- Im -->
+		
     </annotation>
 </transcription>

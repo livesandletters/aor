@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
 	
-	<page filename="Ha2.116r.tif" signature="D4r" pagination="55" reader="Harvey"/>	<!-- ABO 120right -->
+	<page filename="Ha2.116r.tif" signature="D4[r]" pagination="55" reader="Harvey"/>	<!-- ABO 120right -->
 	<annotation>
 		<!-- Marginalia -->
 		<marginalia hand="Italian">
@@ -105,6 +105,50 @@
 				</position>
 			</language>
 		</marginalia>
-
+		
+		<marginalia hand="Italian">
+			<language ident="EN">
+				<position place="right_margin" book_orientation="0">
+					<marginalia_text>
+						The most industrious, &amp; / uigorous of all other.
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
+		
+		<underline method="pen" type="straight" language="IT" text="che io vi sommergo"/>
+		<underline method="pen" type="straight" language="IT" text="voi non sommergessime"/>
+		<underline method="pen" type="straight" language="IT" text="Proprie"/>
+		<underline method="pen" type="straight" language="IT" text="qualit&agrave; delle donne"/>
+		<underline method="pen" type="straight" language="IT" text="la vanit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="nobil donna Sanese"/>
+		<underline method="pen" type="straight" language="IT" text="lodata"/>
+		<underline method="pen" type="straight" language="IT" text="che il meritaua"/>
+		<underline method="pen" type="straight" language="IT" text="per il studio di contradire"/>
+		<underline method="pen" type="straight" language="IT" text="repulsa riceuuta"/>
+		<underline method="pen" type="straight" language="IT" text="vanit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="leggerezza"/>
+		<underline method="pen" type="straight" language="IT" text="prontamente"/>
+		<underline method="pen" type="straight" language="IT" text="la vanit&agrave;, &amp; la leggerezza alle Donne"/>
+		<underline method="pen" type="straight" language="IT" text="rimarr&agrave; egli"/>
+		<underline method="pen" type="straight" language="IT" text="magnificentia regia"/>
+		<underline method="pen" type="straight" language="IT" text="l'amplitudine del donatore"/>
+		<underline method="pen" type="straight" language="IT" text="cinquanta talenti"/>
+		<underline method="pen" type="straight" language="IT" text="ne basta dieci"/>
+		<underline method="pen" type="straight" language="IT" text="bastarebbe hauerne dieci"/>
+		<underline method="pen" type="straight" language="IT" text="me non basta darne si pochi."/>
+		
+		<symbol name="Sun" place="right_margin"/>
+		
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Io credo ben (soggiunse Alessandro) che &agrave; te 
+			bastarebbe hauerne dieci, ma &agrave; me non basta darne si pochi."/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- gentilhuo -->
+		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- vani- -->
+		<mark name="horizontal_bar" method="pen" place="right_margin"/> <!-- Ma -->
+		
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="voi non sommergessime"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Proprie"/>
+		
     </annotation>
 </transcription>

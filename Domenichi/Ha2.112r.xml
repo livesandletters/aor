@@ -12,7 +12,7 @@
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Alij ben&egrave;, sed non satis ben&egrave;: Eudromus semper, qu&agrave;m
+						Alij ben&egrave;, sed non satis ben&egrave;: Eudromus semper, ( qu&agrave;m
 						potest, optim&egrave;.
 					</marginalia_text>
 				</position>
@@ -67,6 +67,8 @@
 					<marginalia_text>
 						( Lucidissimum semper ingenium:
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="Lucidissimum"/>
+					<emphasis method="pen" type="straight" text="ingenium"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -77,6 +79,9 @@
 					<marginalia_text>
 						singula dicta, factaq[ue] splendidissima. sed sine
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="singula dicta"/>
+					<emphasis method="pen" type="straight" text="factaq[ue]"/>
+					<emphasis method="pen" type="straight" text="splendidissima"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -89,6 +94,8 @@
 						licet illustrissima 
 						( demonstratione.
 					</marginalia_text>
+					<emphasis method="pen" type="straight" text="illustrissima"/>
+					<emphasis method="pen" type="straight" text="demonstratione"/>
 				</position>
 			</language>
 		</marginalia>
@@ -96,7 +103,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Supr&agrave; ipsas ideas Taciti, Eunapij, Philostrati. Luciani.
+						Supr&agrave; ( ipsas ideas Taciti, Eunapij, Philostrati. Luciani.
 					</marginalia_text>
 				</position>
 			</language>
@@ -140,7 +147,41 @@
 			</language>
 		</marginalia>
 		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
-
-
+		
+		<underline method="pen" type="straight" language="IT" text="vi vergognate"/>
+		<underline method="pen" type="straight" language="IT" text="cose &agrave; porta aperta"/>
+		<underline method="pen" type="straight" language="IT" text="serrate l'uscio in"/>
+		<underline method="pen" type="straight" language="IT" text="chiudendolo egli medesimo"/>
+		<underline method="pen" type="straight" language="IT" text="borbottando"/>
+		<underline method="pen" type="straight" language="IT" text="nequitia de'Gouernatori"/>
+		<underline method="pen" type="straight" language="IT" text="che a'Principi"/>
+		<underline method="pen" type="straight" language="IT" text="ribellano i popoli"/>
+		<underline method="pen" type="straight" language="IT" text="BATTO di Dalmatia"/>
+		<underline method="pen" type="straight" language="IT" text="fosse ribellato"/>
+		<underline method="pen" type="straight" language="IT" text="voi medesimo"/>
+		<underline method="pen" type="straight" language="IT" text="siete agione"/>
+		<underline method="pen" type="straight" language="IT" text="custodi pastori"/>
+		<underline method="pen" type="straight" language="IT" text="ma lupi rapaci"/>
+		<underline method="pen" type="straight" language="IT" text="nutriti &amp; assuefatti i GOuernatori"/>
+		<underline method="pen" type="straight" language="IT" text="commessari dlle citt&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="cani affamati, non diuentino lupi"/>
+		<underline method="pen" type="straight" language="IT" text="tanto tirannica natura"/>
+		<underline method="pen" type="straight" language="IT" text="loro fare beneficio"/>
+		<underline method="pen" type="straight" language="IT" text="non fanno male"/>
+		<underline method="pen" type="straight" language="IT" text="il Gru, che gliel"/>
+		<underline method="pen" type="straight" language="IT" text="Il Gru"/>
+		<underline method="pen" type="straight" language="IT" text="cauato il capo di bocca &agrave; vn lupo senza lesione"/>
+		
+		<symbol name="Sun" place="left_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- ho -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- gran -->
+		<mark name="horizontal_bar" method="pen" place="right_margin"/> <!-- fi- -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- ac -->
+		
+		<mark name="plus_sign" method="pen" place="intext"/> <!-- gregge. -->
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="vn lupo senza lesione"/>
+		
+		
     </annotation>
 </transcription>

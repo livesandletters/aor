@@ -12,7 +12,7 @@
 			<language ident="EN">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						The towre takes plotters, that woold take the towre.
+						{ The towre takes plotters, that woold take the towre.
 						No man, that is no man at trialls howre.
 					</marginalia_text>
 				</position>
@@ -48,7 +48,7 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Vir non est, qui non est Semper vir.
+						/ Vir non est, qui non est Semper vir.
 					</marginalia_text>
 				</position>
 			</language>
@@ -68,6 +68,16 @@
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
+				<position place="left_margin" book_orientation="0">
+					<marginalia_text>
+						i[nfr]a, 95.
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
 				<position place="right_margin" book_orientation="90">
 					<marginalia_text>
 						Nec heri, nec hodi&egrave;, nec cras: sed sempter alacer, industrius, absolutus.
@@ -77,7 +87,34 @@
 		</marginalia>
 		
 		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
-
-
+		
+		<underline method="pen" type="straight" language="IT" text="Maniera notabile, da conoscer"/>
+		<underline method="pen" type="straight" language="IT" text="qualit&agrave;"/>
+		<underline method="pen" type="straight" language="IT" text="il Palingenio"/>
+		<underline method="pen" type="straight" language="IT" text="suoi amici"/>
+		<underline method="pen" type="straight" language="IT" text="Iddio fa gli huomini"/>
+		<underline method="pen" type="straight" language="IT" text="s'appaiano"/>
+		<underline method="pen" type="straight" language="IT" text="pares cum"/>
+		<underline method="pen" type="straight" language="IT" text="mores dispares, disparia studia"/>
+		<underline method="pen" type="straight" language="IT" text="huomini forti"/>
+		<underline method="pen" type="straight" language="IT" text="incdredibil constanza"/>
+		<underline method="pen" type="straight" language="IT" text="martiri"/>
+		<underline method="pen" type="straight" language="IT" text="di Giuliano Imperadore"/>
+		<underline method="pen" type="straight" language="IT" text="arrostiti per"/>
+		<underline method="pen" type="straight" language="IT" text="Macedonio"/>
+		<underline method="pen" type="straight" language="IT" text="ridendo"/>
+		<underline method="pen" type="straight" language="IT" text="oh la se tu pigli"/>
+		<underline method="pen" type="straight" language="IT" text="dall'altro lato"/>
+		<underline method="pen" type="straight" language="IT" text="troui cotti, &amp; stagionati"/>
+		<underline method="pen" type="straight" language="IT" text="professori del futuro"/>
+		<underline method="pen" type="straight" language="IT" text="il presente"/>
+		<underline method="pen" type="straight" language="IT" text="&egrave; in Cielo"/>
+		<underline method="pen" type="straight" language="IT" text="innanzi a'piedi"/>
+		
+		<symbol name="Sun" place="left_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- di -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- mori -->
+		
     </annotation>
 </transcription>
