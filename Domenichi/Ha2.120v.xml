@@ -25,12 +25,19 @@
 					<marginalia_text>
 						Publij: gnoma[e]
 					</marginalia_text>
+					<person name="Publius Papinius Statius"/>
 					<emphasis method="pen" type="straight" text="gnoma[e]"/>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						Epicteti, Isocratis, Menandri, Theognidis; eu[m] speculo Mancinelli;
 					</marginalia_text>
+					<person name="Epictetus"/>
+					<person name="Isocrates"/>
+					<person name="Menander"/>
+					<person name="Theognis of Megara"/>
+					<person name="Antonio Mancinelli"/>
+					<book title="Speculum de moribus et officiis"/>
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
@@ -42,6 +49,8 @@
 					<marginalia_text>
 						Plutarchi, et Laertij: qui sunt aliorum fontes:
 					</marginalia_text>
+					<person name="Plutarch"/>
+					<person name="Diogenes Laertius"/>
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
@@ -57,6 +66,7 @@
 					<marginalia_text>
 						et A[e]sopi
 					</marginalia_text>
+					<person name="Aesop"/>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
@@ -69,6 +79,13 @@
 						Emblemata Alciati, Jouij, Ruscelli.
 						Fundamentales regula[e] artiu[m], philosophia[e], medicina[e],
 					</marginalia_text>
+					<person name="Thomas More"/>
+					<person name="Martial"/>
+					<person name="John Heywood"/>
+					<person name="Angelo Poliziano"/>
+					<person name="Andrea Alciati"/>
+					<person name="Paolo Giovio"/>
+					<person name="Girolamo Ruscelli"/>
 					<emphasis method="pen" type="straight" text="Epigrammata"/>
 					<emphasis method="pen" type="straight" text="Emblemata"/>
 					<emphasis method="pen" type="straight" text="regula[e]"/>
@@ -78,11 +95,25 @@
 						theologia[e], iuris, bellorum. Secreta
 						Weccheri: stratagemata Gandini: et hodierni Mundi arcana.
 					</marginalia_text>
+					<person name="Johannes Jacob Wecker"/>
+					<person name="Marcantonio Gandino"/>
 					<emphasis method="pen" type="straight" text="Secreta"/>
 					<emphasis method="pen" type="straight" text="stratagemata"/>
 					<emphasis method="pen" type="straight" text="hodierni Mundi arcana"/>
 				</position>
 			</language>
+			<translation>
+				That which is never enough is never too much. Regarding those first matters which are most
+				valuable for one's genius and for pregnant use:
+				before all things, the mimes of Publius and the maxims of Epictetus, Isocrates, Menander, 
+				and Theognis, together with the Mirror of Mancinelli, which is a golden summary of maxims. 
+				Next, the aphorisms of Plutarch and Diogenes Laertius, which are sources for all others,
+				except some of the Jewish aphorisms, and the life of Aesop.
+				Next, the epigrams of Thomas More, Martial, Heywood, Poliziano, and  the Greeks.
+				Next, the emblems of Alciati, Giovio, Ruscelli.
+				Next, the fundamental rules of the arts, philosophy, medicine, theology, law, and war.
+				Lastly, the secrets of Wecker, the stratagems of Gandino, and the mysteries of the modern world.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -91,8 +122,12 @@
 					<marginalia_text>
 						( In exiguo cespite latet Lepus. )
 					</marginalia_text>
+					<X-ref person="Edmund Spenser" book_title="Three proper, and wittie, familiar letters" language="LA" text="In exiguo cespite latet lepus"/>
 				</position>
 			</language>
+			<translation>
+				In the short grass hides a rabbit.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -100,8 +135,12 @@
 					<marginalia_text>
 						Cantabit vacuus coram latrone viator.
 					</marginalia_text>
+					<X-ref person="Juvenal" book_title="Satires" language="LA" text="Cantabit vacuus coram latrone viator"/>
 				</position>
 			</language>
+			<translation>
+				The empty-handed  traveller will sing in the face of the robber.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -111,6 +150,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				A siren-ism.
+			</translation>
 		</marginalia>
 		
 		
@@ -121,6 +163,7 @@
 						Little Mris Byrd said, Shee thought I was almost as old as shee. Almost? quoth I;
 						na I think, I am older then you. For you haue bin married but 43 yeares: &amp; I am
 					</marginalia_text>
+					<person name=""/> <!-- CG: Unsure who this Byrd is. Also what is the abbreviation 'Mris?' Missus? -->
 				</position>
 				<position place="head" book_orientation="270">
 					<marginalia_text>
