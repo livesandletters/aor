@@ -31,7 +31,7 @@
 				</position>
 			</language>
 			<translation>
-				In Ethics, how many empty spaces there are. In Physics, there is no void.
+				How many empty spaces there are in Ethics. In Physics, there is no void.
 			</translation>
 		</marginalia>
 		
@@ -43,6 +43,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				The mind is always sweet, and disposition always elegant, but keen.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -64,6 +67,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Nothing is more unrefined than the base man when he rises high.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -71,6 +77,7 @@
 					<marginalia_text>
 						Non curat Hippoclides. Contemnit
 					</marginalia_text>
+					<X-ref person="Herodotus" book_title="The Histories" language="LA" text="Non curat Hippoclides"/>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
@@ -79,6 +86,9 @@
 					<person name="Axiophilus"/>
 				</position>
 			</language>
+			<translation>
+				Hippocleides doesn't care. Axiophilus disdains, contrary to all things.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -86,10 +96,14 @@
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
 						Placent apophthegmata, gnoma[e], epigrammata: sed si vnus
-						Liber digendus, malim facetias: nisi cu[m] opus stratgamatis.
+						Liber eligendus, malim facetias: nisi cu[m] opus stratagematis.
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Aphorisms, sayings, and epigrams are pleasing, but if one book must be chosen,
+				I prefer jokes, if not a work of stratagems.
+			</translation>
 		</marginalia>
 		
 		
@@ -100,8 +114,20 @@
 						Vulcanus, igneus Deus: A[e]olus, &auml;ereus: Neptunus, aqueus: Pluto, terreus. Deus deoru[m] vnus.
 						Phocyon, Demosthenis securis: vt Diogenes, Platonis.
 					</marginalia_text>
+					<person name="Vulcan"/>
+					<person name="Aeolus"/>
+					<person name="Neptune"/>
+					<person name="Pluto"/>
+					<person name="Phocion"/>
+					<person name="Diogenes of Sinope"/>
+					<person name="Plato"/>
+					<X-ref person="Plutarch" book_title="Parallel Lives" language="LA" text="Demosthenis securis"/> <!-- CG: This is a reference to Phocion, maybe not an exact citation. Should I X-ref it? -->
 				</position>
 			</language>
+			<translation>
+				Vulcan, a fiery god; Aeolus, an airy one; Neptune, a watery one; Pluto, an earthy one. Only one God of gods.
+				Phocyon was the chopper of Demosthenes; just as Diogenes was the chopper of Plato.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -110,15 +136,38 @@
 					<marginalia_text>
 						Diogenes, in sermone salsissimus: in
 					</marginalia_text>
+					<person name="Diogenes of Sinope"/>
 				</position>
 				<position place="right_margin" book_orientation="90">
 					<marginalia_text>
 						vita patientissimus. Magis magnanimus, qu&agrave;m Alexander: magis laboriosus,
-						qu&agrave;m Hercules: gemina illius professio. Vtri error, qu&ograve;d in tantillis subiectis, tantus artifex.
+						qu&agrave;m Hercules: gemina illius professio. Viri error, qu&ograve;d in tantillis subiectis, tantus artifex.
 					</marginalia_text>
+					<person name="Alexander the Great"/>
+					<person name="Hercules"/>
 				</position>
 			</language>
+			<translation>
+				Diogenes was most witty in speech, most patient in life, more magnanimous than Alexander, more industrious than Hercules.
+				This was his double promise. The error of man lies in so much artistry in such small subjects.
+			</translation>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text=""/>
+		
+		<symbol name="Sun" place="right_margin"/>
+		
+		<symbol name="SS" place="intext"/>
+		
+		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- above marginal note 'semper dulcis' -->
+		<mark name="bracket" method="pen" place="left_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- gon -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- Benedet -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- Mon -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- inconti -->
+		
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="voi non conoscete pur voi stessi"/>
+		
     </annotation>
 </transcription>

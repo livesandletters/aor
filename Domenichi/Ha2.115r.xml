@@ -13,7 +13,7 @@
 				<position place="head" book_orientation="0">
 					<marginalia_text>
 						Non tam lege, qu&agrave;m repete, repete, repete qua[e] lecta
-						sunt vtilissima. In animo scrib it prudens, quicquid
+						sunt vtilissima. In animo scribit prudens, quicquid
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="0">
@@ -22,6 +22,11 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Don't just read, but repeat, repeat, repeat those readings which are most useful.
+				The prudent man will write in his mind whatever he feels to be most efficacious.
+				Other things will happen of their own accord.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -39,6 +44,10 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				( The best, that euer Writt.
+				A in itself A. )
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="EN">
@@ -56,19 +65,31 @@
 						Virgilio plus Virtutis in A[e]neide:
 						Ouidio plus Artis in Metamorphosibus. Vtriusq[ue]
 					</marginalia_text>
+					<person name="Virgil"/>
+					<person name="Ovid"/>
+					<book title="Aeneid"/>
+					<book title="Metamorphoses"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
 						plurimu[m] in Seneca[e] tragoedijs: vt etiam
 					</marginalia_text>
+					<person name="Seneca"/>
 				</position>
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
 						in Lucano. Pra[e] quibus alij pla[e]riq[ue] poeta[e], quasi
 						nuga[e], et fragmenta rerum vulgarium.
 					</marginalia_text>
+					<person name="Lucan"/>
+					<X-ref person="Petrarch" book_title="Rerum vulgarium fragmenta" language="LA" text="fragmenta rerum vulgarium"/>
 				</position>
 			</language>
+			<translation>
+				More Virtue than Virgil in the Aeneid, more Art than Ovid in the Metamorphoses. <!-- CG: This construction is a bit confusing to me. -->
+				More of both in Seneca's tragedies, and even in Lucan. 
+				Compared with them, most other poets are almost trifles and fragments of common things.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -78,6 +99,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Above.
+			</translation>
 		</marginalia>
 		
 		
@@ -89,16 +113,22 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Excellently, but you remember the mindful man, and you move the agile man. <!-- CG: Unclear. -->
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="90">
 					<marginalia_text>
-						Quicqud optimu[m], Noster ulteri&ugrave;s.
+						Quicquid optimu[m], Noster ulteri&ugrave;s.
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Whatever is best is ours in the greatest degree.
+			</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="cose prohibite accendersi"/>

@@ -40,7 +40,25 @@
 					<marginalia_text>
 						exquisitissimus. Strictus, et pressus valor.
 						Nihil vanum, verbosum, aut vulgare: pra[e]ter prouerbia, et practica,
-						vulgariter accommodata.
+						non vulgariter accommodata.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				Wiser and more engaged, Eudromus at last has time for genuine aphorisms and mimes;
+				sayings and proverbs; emblems and epigrams; 	stratagems and secrets; 
+				and lastly, with witticisms and humor. The foundations of all things, the arts, philosophy, the professions.
+				And either a most vigorous Laconism of these very things, or even a most exquisite Atticism.
+				A tight and pressed valor. Nothing vain, verbose, or common: together with proverbs and practical things
+				not prepared in a common manner.
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
+			<language ident="EN">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						(Haytrollollie, Haytrollollie-lee.)
 					</marginalia_text>
 				</position>
 			</language>
@@ -50,10 +68,13 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						puncta inuentionis: spicula iudicij: elouctionis aculei.
+						puncta inuentionis: spicula iudicij: elocutionis aculei.
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				The points of invention, the stings of judgment, the barbs of expression.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -63,6 +84,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Strong in mind, mouth and hand. Sharp in severe matters; great in small matters.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -74,6 +98,11 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Genuine valor, vigor, charm.
+				But first and foremost, valor.
+				So that the world sees that you know yourself and that you are capable.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -85,6 +114,10 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Downcast is he who casts himself down. He who is not cast down from himself
+				is cast down by nothing. <!-- CG: Trying to render the worldplay; a bit challening.  -->
+			</translation>
 		</marginalia>
 		
 		
@@ -94,8 +127,13 @@
 					<marginalia_text>
 						Faxit Deus, vt magis Sim igneus Deus, qu&agrave;m Vulcanus: magis aqueus Deus, qu&agrave;m Neptunus.
 					</marginalia_text>
+					<person name="Vulcan"/>
+					<person name="Neptune"/>
 				</position>
 			</language>
+			<translation>
+				May God make it so that I am more a fiery god than Vulcan, more a watery god than Neptune.
+			</translation>
 		</marginalia>
 		
 		
@@ -108,7 +146,37 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Nothing on the outside is greater than the mind of man; nothing, even if something
+				happen to the body. The mind is emperor.
+			</translation>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="LA" text="Li debiti, ordinariamente"/>
+		<underline method="pen" type="straight" language="LA" text="l'huomo desl sonno"/>
+		<underline method="pen" type="straight" language="LA" text="Caualier Romano"/>
+		<underline method="pen" type="straight" language="LA" text="piu di cinquecento mila ducati"/>
+		<underline method="pen" type="straight" language="LA" text="Augusto comand&ograve;"/>
+		<underline method="pen" type="straight" language="LA" text="comperata la sua coltrice, dicendo"/>
+		<underline method="pen" type="straight" language="LA" text="riputarsi saui"/>
+		<underline method="pen" type="straight" language="LA" text="grandezze &amp; signorie"/>
+		<underline method="pen" type="straight" language="LA" text="Boiardo, huomo molto"/>
+		<underline method="pen" type="straight" language="LA" text="condotta del Duca di"/>
+		<underline method="pen" type="straight" language="LA" text="seruire il Re di Napoli ilquale"/>
+		<underline method="pen" type="straight" language="LA" text="Miseri voi"/>
+		<underline method="pen" type="straight" language="LA" text="non dormite mai"/>
+		<underline method="pen" type="straight" language="LA" text="esser Signori"/>
+		<underline method="pen" type="straight" language="LA" text="tanti guai"/>
+		<underline method="pen" type="straight" language="LA" text="grandezze, &amp; honori"/>
+		<underline method="pen" type="straight" language="LA" text="di voi stessi fuori"/>
+		<underline method="pen" type="straight" language="LA" text="fareste le pazzie che fate"/>
+		
+		<symbol name="Sun" place="right_margin"/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- in -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- fa -->
+		
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="di voi stessi fuori"/>
+		
     </annotation>
 </transcription>

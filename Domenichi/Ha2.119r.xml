@@ -15,6 +15,7 @@
 						Epicteti character, et typus; forma qua[e]dam dicendi,
 						agendiq[ue] pra[e]scripta,
 					</marginalia_text>
+					<person name="Epictetus"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -22,16 +23,25 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				The character and type of Epictetus is a certain form of speaking and acting,
+				ordered as if a law.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Barnabus &agrave; populo Lystrensi vocabatur Jupiter: Paulus
+						Barnabas &agrave; populo Lystrensi vocabatur Jupiter: Paulus,
 						Mercurius: quia summus ipse
 						apostolorum Orator. Quin etiam Jouis sacerdos illis
 					</marginalia_text>
+					<person name="St. Barnabas"/>
+					<person name="Jupiter"/>
+					<person name="St. Paul"/>
+					<person name="Mercurius"/>
+					<location name="Lystra"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -45,8 +55,9 @@
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						Vt ecc&egrave; Actoru[m].
+						Vt ecc&egrave; Actoru[m]
 					</marginalia_text>
+					<book title="Book of Acts"/> <!-- CG: Still unsure how to cite books of the Bible. -->
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
@@ -59,6 +70,8 @@
 						In diuinis opus est diuino apparatu:
 						| in humanis, humano: saltem tanto, quantus
 					</marginalia_text>
+					<person name="Eunapius"/>
+					<person name="Philostratus"/>
 				</position>
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
@@ -67,6 +80,18 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				St. Barnabus was called by Jupiter away from Lystra; Paul was called by Mercury
+				so that he might be the greater orator of the apostles. Indeed the priest wanted
+				to sacrifice those Jovian men, as if the Gods had come down in human form.
+				And behold! Chapter 14 of the Book of Acts.
+				
+				What is more wondrous in Eunapius or Philostratus?
+				A divine appearance is necessary in divine matteres;
+				a human apperance in human matters;
+				at least as much as necessary for execution of one's ability.
+				Other things are honorable. <!-- CG: A perplexing marginal note. -->
+			</translation>
 		</marginalia>
 		
 		
@@ -79,6 +104,10 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				The Apostles did not lack any books, nor any human instruction;
+				they were guided by the fiery and powerful spirit alone.
+			</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="venir d'vno in vn'altro stato"/>

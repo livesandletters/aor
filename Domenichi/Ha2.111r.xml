@@ -16,24 +16,32 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				A good ethical man is not disturbed by the greatest evils, and still less by small accidents.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Elenchus Optica[e]. )
+						Elenchus Optica[e].
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				A review of Optics.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Mirabilis erat Diogeni vis persuadendi:
+						) Mirabilis erat Diogeni vis persuadendi:
 						ade&ograve; vt quemlibet oratione facil&egrave; caperet. Laertius in
 					</marginalia_text>
+					<person name="Diogenes of Sinope"/>
+					<person name="Diogenes Laertius"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -44,14 +52,19 @@
 					<marginalia_text>
 						Diog.
 					</marginalia_text>
+					<book title="Lives and Opinions of Eminent Philosophers"/>
 				</position>
 			</language>
+			<translation>
+				Diogenes' power of persuasion was wondrous to such a degree that he could easily take hold of anyone with a speech.
+				Laertius in his life of Diogenes.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="EN">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Plain Natures offer, simple wittes take wrong:
+						{ Plain Natures offer, simple wittes take wrong:
 					</marginalia_text>
 				</position>
 				<position place="left_margin" book_orientation="0">
@@ -81,6 +94,10 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Absolute is the power of mind and body which completes a man.
+				To be a man means always acting with the utmost vigor.
+			</translation>
 		</marginalia>
 		
 		
@@ -90,8 +107,13 @@
 					<marginalia_text>
 						Adhuc Proa[e]resius, et Maximus in flore.
 					</marginalia_text>
+					<person name="Prohaeresius"/>
+					<person name=""/> <!-- CG: Unsure of Maximus, perhaps Valerius Maximus? -->
 				</position>
 			</language>
+			<translation>
+				Thus far Prohaeresius and Maximus in bloom.
+			</translation>
 		</marginalia>
 		
 		
@@ -103,7 +125,44 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Never has a man been spoken of in this way, as this man here.
+			</translation>
 		</marginalia>
-
+		
+		<underline method="pen" type="straight" language="IT" text="ensiato il viso:"/>
+		<underline method="pen" type="straight" language="IT" text="vno specchio di quella"/>
+		<underline method="pen" type="straight" language="IT" text="maggiori, &amp; piu ample assai che"/>
+		<underline method="pen" type="straight" language="IT" text="tanta nouit&agrave; nella"/>
+		<underline method="pen" type="straight" language="IT" text="hauere ensiato"/>
+		<underline method="pen" type="straight" language="IT" text="si marauigliando piu della catena, se ne la port&ograve;"/>
+		<underline method="pen" type="straight" language="IT" text="quella ensiatura di testa"/>
+		<underline method="pen" type="straight" language="IT" text="facende, richieder"/>
+		<underline method="pen" type="straight" language="IT" text="la front del padrone"/>
+		<underline method="pen" type="straight" language="IT" text="assai, che la collottola"/>
+		<underline method="pen" type="straight" language="IT" text="alle cose sue douerebbe esser presente"/>
+		<underline method="pen" type="straight" language="IT" text="ingrassar'il cauallo"/>
+		<underline method="pen" type="straight" language="IT" text="l'occhio del pareone"/>
+		<underline method="pen" type="straight" language="IT" text="qual concime, per ingrassar"/>
+		<underline method="pen" type="straight" language="IT" text="le pedate del"/>
+		<underline method="pen" type="straight" language="IT" text="ambedue la presenza"/>
+		<underline method="pen" type="straight" language="IT" text="Ennio Poeta &agrave; questo"/>
+		<underline method="pen" type="straight" language="IT" text="di non aspettare"/>
+		<underline method="pen" type="straight" language="IT" text="l'amico ti faccia od il parente"/>
+		<underline method="pen" type="straight" language="IT" text="Quel che tu stesso puoi &amp; dire &amp; fare"/>
+		
+		<symbol name="SS" place="left_margin"/> <!-- po, & -->
+		
+		<symbol name="Sun" place="right_margin"/>
+		
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Che l'amico ti faccia od il parente Quel che to stesso 
+			puoi &amp; dire &amp; fare."/>
+		
+		<mark name="dash" method="pen" place="right_margin"/> <!-- ma -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- Fran -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- ca -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- padro -->
+		<mark name="plus_sign" method="pen" place="right_margin" language="IT" text="alle cose sue douerebbe esser presente"/>
+		
     </annotation>
 </transcription>
