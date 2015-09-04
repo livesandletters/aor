@@ -39,14 +39,6 @@
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						excellent frends: when you need them, Ciphers, or shadowes.
-					</marginalia_text>
-				</position>
-			</language>
-		</marginalia>
-		<marginalia hand="Italian">
-			<language ident="EN">
-				<position place="intext" book_orientation="0">
-					<marginalia_text>
 						No performance: but excuses, &amp; words like emptie clowdes.
 						Sum wind: but no effect.
 					</marginalia_text>
@@ -57,7 +49,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						( Valeant, abeant, qua[e] unq[uam] non possunt pl&ugrave;s.
+						( Valeant, abeant, qua[e] unq[uam] non possunt pl&ugrave;s. <!--JG: I think it should be 'qua[e]cunq[ue]'-->
 					</marginalia_text>
 				</position>
 			</language>
@@ -111,10 +103,9 @@
 				</position>
 			</language>
 			<translation>
-				Whoever mocks, shall be mocked. The scorners must be prettily scorned. <!-- CG: 'moccat' seems like a neologism from English. --> 
+				Whoever mocks, shall be mocked. The scorners must be prettily scorned. <!-- CG: 'moccat' seems like a neologism from English. --> <!--JG: I think you're right, that's great!-->
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -125,7 +116,7 @@
 				</position>
 			</language>
 			<translation>
-				The late-hour road is nowhere near the path of the happy man.
+				The late-hour road is nowhere near the path of the happy man. <!--JG: Perhaps 'tardy' instead of 'late-hour'?-->
 			</translation>
 		</marginalia>
 		
@@ -142,7 +133,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
@@ -153,13 +143,13 @@
 			</language>
 		</marginalia>
 		
-		<underline method="pen" type="straight" language="IT" text="la fedelt&agrave; del Conestabile, &amp; i grain seruigi"/>
+		<underline method="pen" type="straight" language="IT" text="la fedelt&agrave; del Conestabile, &amp; i gran seruigi"/>
 		<underline method="pen" type="straight" language="IT" text="d'hauer bisogno di vn tal capo"/>
 		<underline method="pen" type="straight" language="IT" text="secretario"/>
 		<underline method="pen" type="straight" language="IT" text="di quel capo"/>
 		<underline method="pen" type="straight" language="IT" text="separato"/>
 		<underline method="pen" type="straight" language="IT" text="Chi non sa simulare"/>
-		<underline method="pen" type="straight" language="IT" text="non saregnare"/>
+		<underline method="pen" type="straight" language="IT" text="non sa regnare"/>
 		<underline method="pen" type="straight" language="IT" text="la superbia caualca"/>
 		<underline method="pen" type="straight" language="IT" text="vergognale le vanno in croppa"/>
 		<underline method="pen" type="straight" language="IT" text="ingannato da gli amici"/>
@@ -167,14 +157,14 @@
 		<underline method="pen" type="straight" language="IT" text="inganati da gli amici"/>
 		<underline method="pen" type="straight" language="IT" text="gli nimici si lasciauano"/>
 		<underline method="pen" type="straight" language="IT" text="gli amici"/>
-		<underline method="pen" type="straight" language="IT" text="mi fideri sempre"/>
+		<underline method="pen" type="straight" language="IT" text="mi fiderei sempre"/>
 		<underline method="pen" type="straight" language="IT" text="nimici non mai"/>
 		<underline method="pen" type="straight" language="IT" text="Da gli amici mi"/>
 		<underline method="pen" type="straight" language="IT" text="da nimici mi guarder&ograve;"/>
 		<underline method="pen" type="straight" language="IT" text="pronta risposta"/>
 		<underline method="pen" type="straight" language="IT" text="trarre vn'huomo"/>
 		<underline method="pen" type="straight" language="IT" text="di periglio"/>
-		<underline method="pen" type="straight" language="IT" text="PIRRO Rede"/>
+		<underline method="pen" type="straight" language="IT" text="PIRRO Re de"/>
 		<underline method="pen" type="straight" language="IT" text="haueuan sparlato di lui"/>
 		
 		<symbol name="SS" place="left_margin"/>
@@ -192,7 +182,7 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- lascia -->
 		
 		<mark name="dot" method="pen" place="intext"/> <!-- fatti, percio -->
-		<mark name="quotation_mark" method="pen" place="intext"/> <!-- AB: not sure whether to tag to text 'vergognale...' or add to marginal note.  -->
+		<mark name="quotation_mark" method="pen" place="intext"/> 
 
     </annotation>
 </transcription>
