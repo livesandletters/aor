@@ -88,12 +88,12 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Hora argumentetur &agrave; minor ad maius qua[e]q[ue]. <!-- CG: Unclear if 'quaeque' should be at the end. -->
+						Hora argumentetur &agrave; minor ad maius qua[e]q[ue]. <!-- CG: Unclear if 'quaeque' should be at the end. --> <!--JG: I think it should come after 'hora'-->
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				Let the hour reason from lesser to greater. <!-- CG: Unclear. -->
+				Let the hour reason from lesser to greater. <!-- CG: Unclear. --> <!--JG: 'Let every (quaeque) hour...'. Still doesn't make sense to me-->
 			</translation>
 		</marginalia>
 		
@@ -109,7 +109,6 @@
 				All things were mindful of heaven. 
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -132,11 +131,12 @@
 					<marginalia_text>
 						Frustr&agrave; fit per plura: Regularum Optima Maxima.
 					</marginalia_text>
-						<!-- CG: This seems to be a scholastic axiom that comes from William of Ockham; unsure how to X-ref. -->
+						<!-- CG: This seems to be a scholastic axiom that comes from William of Ockham; unsure how to X-ref. --> <!--JG: Like this (see below). Although this axiom was so well-known that Harvey could have read it in other books, we nevertheless cite the original work-->
+					<X-ref person="William of Ockham" book_title="Summa Logicae" language="LA" text="Frustr&agrave; fit per plura"/>
 				</position>
 			</language>
 			<translation>
-				"It is pointless to do with more..." the best and greatest of rules.
+				'It is pointless to do with more...': the best and greatest of rules.
 			</translation>
 		</marginalia>
 		
@@ -149,7 +149,7 @@
 		<underline method="pen" type="straight" language="IT" text="tacito inganno"/>
 		<underline method="pen" type="straight" language="IT" text="detrimento diletteuole"/>
 		<underline method="pen" type="straight" language="IT" text="vn Regno solitario"/>
-		<underline method="pen" type="straight" language="IT" text="che non era cosa pu grata"/>
+		<underline method="pen" type="straight" language="IT" text="che non era cosa piu grata"/>
 		<underline method="pen" type="straight" language="IT" text="piu vale la bellezza che tutte le lettere"/>
 		<underline method="pen" type="straight" language="IT" text="raccomandatione"/>
 		<underline method="pen" type="straight" language="IT" text="vn dono glorioso"/>
