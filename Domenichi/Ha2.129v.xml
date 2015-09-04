@@ -19,6 +19,9 @@
 					<emphasis method="pen" type="straight" text="dicere potuisset"/>
 				</position>
 			</language>
+			<translation>
+				Is anyone able to say the same thing more elegantly, or more prudently, or more smoothly?
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -27,6 +30,7 @@
 					<marginalia_text>
 						Huc singula Ciceronis consilia spectabant, vt esset						
 					</marginalia_text>
+					<person name="Cicero"/>
 				</position>
 			</language>
 			<language ident="EL">
@@ -40,8 +44,11 @@
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						Huc super omnes
-						aitt Plutarchus. Alexandri, et Ca[e]saris
+						ait Plutarchus. Alexandri, et Ca[e]saris
 					</marginalia_text>
+					<person name="Plutarch"/>
+					<person name="Alexander the Great"/>
+					<person name="Julius Caesar"/>
 				</position>
 			</language>
 			<language ident="EL">
@@ -62,19 +69,29 @@
 					<marginalia_text>
 						ecc&egrave; in Ca[e]saribus
 					</marginalia_text>
+					<book title="Caesars"/>
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
 						Juliani: vbi egregia inter ipsos Contentio.
 					</marginalia_text>
+					<person name="Julian"/>
 				</position>
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
 						Vnus ( ) Libellus instar historiaru[m] omnium.
-						reliqua omnis propria arte, et virtue gerenda res.
+						reliqua omnis propria arte, et virtute gerenda res.
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				The singular counsels of Cicero aimed to such an extent, in order to be the most excellent.
+				Plutarch spoke about this more than all others. The pursuit of honour and greatness
+				found in Alexander and Caesar, with both the strongest causes and the most glorious results.
+				As can be found here in Julian's Caesars, where one sees an extraordinary contrast between them.
+				One little book as an example among all books of history.		
+				The entire matter must be managed with what remains of one's own art and virtue. <!-- CG: Very unsure of this translation. -->
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="EL">
@@ -87,8 +104,11 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Sylla[e], Prompeij, Ca[e]saris.
+						Sylla[e], Pompeij, Ca[e]saris.
 					</marginalia_text>
+					<person name="Sulla"/>
+					<person name="Pompey"/>
+					<person name="Julius Caesar"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -96,6 +116,10 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				The pursuit of honor of Sulla, Pompey, and Cesar.
+				Nothing is greater.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -106,6 +130,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Knowingly.
+			</translation>
 		</marginalia>
 		
 		
@@ -116,8 +143,13 @@
 						Virtutis Certamen, et pulcherrimam insignium Meritorum a[e]mulationem laudarunt
 						omnes antiqui. Fortij scopus, ex professo Optimus Maximus.
 					</marginalia_text>
+					<person name="Joachim Fortius Ringelberg"/>
 				</position>
 			</language>
+			<translation>
+				A contest of virtue, and all ancient men praised the most beautiful emulation of distinguished service.
+				The declared goal of Fortius is to be the best and greatest.
+			</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="sua madre"/>
