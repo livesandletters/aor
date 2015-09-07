@@ -94,7 +94,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -105,6 +104,7 @@
 					<person name="John Heywood"/>
 					<person name="Erasmus"/>
 					<person name="Lodovico Domenichi"/>
+					<person name="Castiglione"/>
 					<person name="Stefano Guazzo"/>
 					<person name="Eutrapelus"/>
 					<book title="Mensa philosophica"/>
@@ -119,7 +119,6 @@
 				Castiglione, Guazzo, and the Mensa Philosophica, all of which are delights for Eutrapelus.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -136,13 +135,13 @@
 					<book title="Tthe Countess of Pembroke's Arcadia"/>
 					<book title="Apologie pour Hérodote"/>
 					<book title="Loci communes"/>
-					<book title="Sylva nuptialias"/>
+					<book title="Sylva nuptialis"/>
 					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
 			<translation>
 				And by all means, Rabelais with his ingenuity and the Countess of Pembroke's Arcadia should be added, 
-				as well as the Apology for Herodotus, the common places of Manlius, and Bartas' divine hymns.
+				as well as the Apology for Herodotus, the common places of Manlius, the 'Sylva nptialis' and Bartas' divine hymns.
 				These are much greater than all the odes and discourses of Italy. Aretino is nothing compared with Rabelais.
 			</translation>
 		</marginalia>
@@ -179,7 +178,7 @@
 		
 		<symbol name="JC" place="right_margin" language="IT" text="parenti per giudici"/>
 		
-		<mark name="quotation_mark" method="pen" place="left_margin"/>
+		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- risa-->
 		<mark name="bracket" method="pen" place="left_margin" language="IT" text="DIOGENE domandato quali fossero i pi&ugrave; nobili
 			huomini del mondo, ripose: quelli che dispregiano le ricchezze, la gloria, i piaceri, &amp; finalmente la vita: &amp; che vincono
 			le cose co[n]trarie &agrave; queste, cio&egrave; la pouert&agrave;, l'infamia, il dolore, et la morte, tollerandole"/>
@@ -200,7 +199,7 @@
 		<mark name="plus_sign" method="pen" place="intext"/> <!--DIOGENE-->
 		<mark name="equal_sign" method="pen" place="intext" language="IT" text="dispregiano le ricchezze"/>
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="gloria"/>
-		<mark name="equal_sign" method="pen" place="intext" language="IT" text="piaceri"/>
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="piaceri"/>
 		<mark name="dot" method="pen" place="intext"/> <!--piaceri, &-->
 		<mark name="vertical_bar" method="pen" place="intext"/> <!--vita: &-->
 		<mark name="dot" method="pen" place="intext"/> <!--dolore, et-->
