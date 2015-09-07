@@ -42,7 +42,7 @@
 				</position>
 			</language>
 			<translation>
-				More the seed of barley for a rooster than a gem of the East. <!-- CG: Unclear. -->
+				More the seed of barley for a rooster than a gem of the East. <!-- CG: Unclear. --> <!--JG: I think this is one of Aesop's fables (the cock and the jewel); I'd use 'rather' instead of 'more', since on of the lines of this fable is: "But for me, give me a single grain of corn before all the jewels in the world."-->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -127,7 +127,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
@@ -145,7 +144,7 @@
 				</position>
 			</language>
 			<translation>
-				Eunapius excels others, and Eutrapelus excels Eunapius.
+				Eunapius excels others, and Eutrapelus excels Eunapius. <!--JG: 'surpasses' instead of 'excels'?-->
 				One is more exquisite than all others, but with a style most fluid
 				and, likewise, most nimble.
 			</translation>
@@ -167,7 +166,7 @@
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="Amore"/>
-		<underline method="pen" type="straight" language="IT" text="chimera"/>
+		<underline method="pen" type="straight" language="IT" text="la chimera"/>
 		<underline method="pen" type="straight" language="IT" text="LA chimera"/>
 		<underline method="pen" type="straight" language="IT" text="Fulgentio"/>
 		<underline method="pen" type="straight" language="IT" text="di Leone"/>
@@ -179,7 +178,7 @@
 		<underline method="pen" type="straight" language="IT" text="&amp; fine"/>
 		<underline method="pen" type="straight" language="IT" text="Il principio"/>
 		<underline method="pen" type="straight" language="IT" text="il Leone"/>
-		<underline method="pen" type="straight" language="IT" text="il mezo"/>
+		<underline method="pen" type="straight" language="IT" text="il mezzo"/>
 		<underline method="pen" type="straight" language="IT" text="la Capra"/>
 		<underline method="pen" type="straight" language="IT" text="il fine"/>
 		<underline method="pen" type="straight" language="IT" text="resta il veleno del"/>
@@ -192,12 +191,15 @@
 		
 		<symbol name="Sun" place="right_margin"/>
 		
+		<mark name="horizontal_bar" method="pen" place="left_margin"/>
 		<mark name="bracket" method="pen" place="left_margin"/>
 		
 		<mark name="dash" method="pen" place="right_margin"/> <!-- vele -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- In -->
 		
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- Chimera -->
+		
+		<mark name="vertical_bar" method="pen" place="tail"/> <!--in between marginal notes-->
 		
     </annotation>
 </transcription>
