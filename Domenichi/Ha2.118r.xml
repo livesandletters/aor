@@ -13,13 +13,13 @@
 				<position place="head" book_orientation="0">
 					<marginalia_text>
 						{ Sufficit necessaria facultas ad officij funcutionem:
-						requiritur potentior habilitas ad meriti: dignitatem.
+						requiritur potentior habilitas ad meriti dignitatem.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
 				A necessary ability is sufficient for the function of one's office;
-				a more powerful aptitude is required for worthiness and dignity.
+				a more powerful aptitude is required for worthiness and dignity. <!--JG: rather 'for the dignity of merit' (same construction as the line above - ad + acc + gen)-->
 			</translation>
 		</marginalia>
 		
@@ -47,9 +47,9 @@
 				</position>
 			</language>
 			<translation>
-				Eutrapelus excels all in the elegant art. 
+				Eutrapelus surpasses all in the elegant art. 
 				With this art, he adds grace and dignity to his profession
-				and to every pragmatic ability. <!-- CG: Unclear on the cases. -->
+				and to every pragmatic ability. 
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -95,7 +95,7 @@
 			</language>
 			<translation>
 				He who ignores the necessary things does not know his ABCs.
-				He who knows that the most powerful matters must be selected from all things is an Alpha.
+				He who knows that the most powerful matters must be selected immediately from all things is an Alpha.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -114,7 +114,9 @@
 			</language>
 			<translation>
 				A few select matters, and not many necessary ones;
-				one can quickly excel with a few superior things.
+				one can quickly excel with a few superior things. <!--JG: I'm not sure about this translation. It seems to me that 'pauce egregia' should be translated not as plural, it being the subject of 'excellitur'.
+					However, the 'et' doesn't really make sense in this case: you would translate is like: "A little exceptional matter is quickly eminent, not with many necessary things, but with a few more superior ones'.
+					I'm not sure how to render the 'et', though. Unsure-->
 			</translation>
 		</marginalia>
 		
@@ -128,7 +130,7 @@
 				</position>
 				<position place="right_margin" book_orientation="90">
 					<marginalia_text>
-						malo esse regius procurator. *
+						malo esse regius procurator.
 					</marginalia_text>
 				</position>
 			</language>
@@ -148,7 +150,7 @@
 				</position>
 			</language>
 			<translation>
-				Play and laughter advance beyond all things. <!-- CG: Unsure. -->
+				Play and laughter advance beyond all things. <!-- CG: Unsure. --> <!--JG: I'm confused by this one as well. Will ask a specialist-->
 			</translation>
 		</marginalia>
 		
@@ -167,7 +169,7 @@
 		<underline method="pen" type="straight" language="IT" text="pensi potere col Tordo"/>
 		<underline method="pen" type="straight" language="IT" text="natura tanto contrarij"/>
 		<underline method="pen" type="straight" language="IT" text="cerchi la State"/>
-		<underline method="pen" type="straight" language="IT" text="il Verno"/>
+		<underline method="pen" type="straight" language="IT" text="egli il Verno"/>
 		<underline method="pen" type="straight" language="IT" text="Dalli ebbri"/>
 		<underline method="pen" type="straight" language="IT" text="BACCO"/>
 		<underline method="pen" type="straight" language="IT" text="annacquare il vino"/>
@@ -187,12 +189,12 @@
 			Et merta ber'in Mare &agrave; capo chino."/>
 		<mark name="equal_sign" method="pen" place="left_margin" language="IT" text="sue rare virt&ugrave;, celebre al"/>
 		
+		<mark name="horizontal_bar" method="pen" place="right_margin"/>
 		<mark name="dash" method="pen" place="right_margin"/> <!-- com -->
 		<mark name="equal_sign" method="pen" place="right_margin"/> <!-- huo- -->
 		
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- il Verno. -->
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="ber'in Mare &agrave;"/>
-		
 		
     </annotation>
 </transcription>
