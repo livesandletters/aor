@@ -81,16 +81,19 @@
 				</position>
 			</language>
 			<translation>
-				St. Barnabus was called by Jupiter away from Lystra; Paul was called by Mercury
+				St. Barnabus was called by Jupiter away from Lystra; Paul was called by Mercury 
 				so that he might be the greater orator of the apostles. Indeed the priest wanted
 				to sacrifice those Jovian men, as if the Gods had come down in human form.
 				And behold! Chapter 14 of the Book of Acts.
+				
+				<!--JG: Could it be 'St. Barnabus was called Jupiter by the Lystranian people. Paul was called Mercury, because he himself was the greatest orator of the apostles. 
+					Moreover, the priest wanted to sacrifice those Jovian men...'?-->
 				
 				What is more wondrous in Eunapius or Philostratus?
 				A divine appearance is necessary in divine matteres;
 				a human apperance in human matters;
 				at least as much as necessary for execution of one's ability.
-				Other things are honorable. <!-- CG: A perplexing marginal note. -->
+				Other things are honorable. <!-- CG: A perplexing marginal note. --> <!--JG: Yep..-->
 			</translation>
 		</marginalia>
 		
@@ -112,11 +115,11 @@
 		
 		<underline method="pen" type="straight" language="IT" text="venir d'vno in vn'altro stato"/>
 		<underline method="pen" type="straight" language="IT" text="andare di vno in vn'altro paese"/>
-		<underline method="pen" type="straight" language="IT" text="altra area conuien ritrouare"/>
+		<underline method="pen" type="straight" language="IT" text="altra aria conuien ritrouare"/>
 		<underline method="pen" type="straight" language="IT" text="bugido non credersi il"/>
 		<underline method="pen" type="straight" language="IT" text="i bugiardi,"/>
 		<underline method="pen" type="straight" language="IT" text="essi dicono il vero, egli non &egrave; lor creduto"/>
-		<underline method="pen" type="straight" language="IT" text="prefentossime"/>
+		<underline method="pen" type="straight" language="IT" text="prefentissime argutie talhora"/>
 		<underline method="pen" type="straight" language="IT" text="potesse parlare di pace"/>
 		<underline method="pen" type="straight" language="IT" text="Manetti, huomo facetissimo"/>
 		<underline method="pen" type="straight" language="IT" text="vi dia pace, onde"/>
@@ -133,11 +136,12 @@
 		
 		<symbol name="Mercury" place="left_margin"/>
 		
-		<symbol name="JC" place="head"/>
+		<symbol name="JC" place="tail"/>
 		
 		<mark name="dash" method="pen" place="right_margin"/> <!-- aui -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- Mi -->
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- Iddio -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- u -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- Pro -->
 		
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- creduto -->
@@ -146,6 +150,8 @@
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="vi dia pace, onde"/>
 		<mark name="dot" method="pen" place="intext"/> <!-- pace, onde -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="parlate voi di pace"/>
+		<mark name="vertical_bar" method="pen" place="intext"/> <!--secondo-->
+		<mark name="vertical_bar" method="chalk" place="intext"/>
 		<mark name="apostrophe" method="pen" place="intext"/> <!-- Huomini. Ma -->
 		
     </annotation>
