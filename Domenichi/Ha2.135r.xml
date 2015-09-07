@@ -12,11 +12,12 @@
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						<!-- Continued from facing page, in text, Ha2.135v -->
+						<!-- Continued from facing page, in text, Ha2.134v -->
 						= Caius Julius Guercentius, qui sexcentis audientibus
 						profitebatur, se quindecim
 						diebus mathematicas scientias perfecta explicatione
 					</marginalia_text>
+					<person name=""/> <!-- CG: I'm unsure who this is. -->
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -33,18 +34,30 @@
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						gladiatus. Post triduu[m], &agrave; Lauherno in philosophie;
-						&agrave; Brouno in Methematicis lacessitus: magis
+						gladiatus. Post triduu[m], &agrave; Lauherno in philosophia;
+						&agrave; Brouno in Mathematicis lacessitus: magis
 					</marginalia_text>
+					<person name="Richard Laugherne"/>
+					<person name="Lancelot Brown"/>
 				</position>
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
 						( specios&egrave;, qu&agrave;m energetic&egrave;.
 						Lauhernu[m], impudentem scurram, et
 						egregium nebulonem sa[e]p&egrave; appellabat. Fugit metus caus&acirc;.
-					</marginalia_text>
+					</marginalia_text>					
 				</position>
 			</language>
+			<translation>
+				... Caius Julius Guercentius, who declared to six hundred listeners,
+				that he was going to give a complete explanation of the mathematical
+				sciences in just fifteen days, including geometry, arithmetic, and astronomy.
+				In my memory, he is an illustrious professor, and a wondrous discourser 
+				on many subjects; at the same time, he was a beardless youth and an armed lecturer. <!-- CG: 'gladiatus' is perplexing. -->
+				After three days, he was provoked by Laugherne in philosophy and by Brown in mathematics,
+				however they were more showy than effective.
+				He frequently called Laugherne an impudent dandy and a singular scoundrel, who then fled in fear.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -53,8 +66,12 @@
 					<marginalia_text>
 						il fato, e predestinatione, secondo Zenone Stoico. )	
 					</marginalia_text>
+					<person name="Zeno of Citium"/>
 				</position>
 			</language>
+			<translation>
+				Fate and predestination, according to Zeno the Stoic.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -62,8 +79,12 @@
 					<marginalia_text>
 						At Aristippus tant&ograve; securi&ugrave;s dormiuisset.
 					</marginalia_text>
+					<person name="Aristippus"/>
 				</position>
 			</language>
+			<translation>
+				But Aristippus had been soundly sleeping so much. <!-- CG: Might be a citation of something? -->
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="IT">
@@ -73,6 +94,9 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Skillfully.
+			</translation>
 		</marginalia>
 		
 		
