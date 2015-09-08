@@ -46,7 +46,7 @@
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						desiderium eminus: sine instanti inuentione,
+						desiderium emin&ugrave;s: sine instanti inuentione,
 					</marginalia_text>
 				</position>
 				<position place="left_margin" book_orientation="0">
@@ -101,12 +101,13 @@
 			<translation>
 				An aloof desire is not enough without some present discovery and immediate arrangement.
 				A logician is not yet true or solid if he does not know how to discover whatever it is that he seeks,
-				or how to judge whatever it is that he finds. So great is the faculty of Logic (that is, of artificial reason);
+				or how to judge whatever it is that he finds. So great is the faculty of logic (that is, of artificial reason);
 				if any one knew how to use it.
 				
 				And especially happy is he who is capable of recognizing causes, though with subtlety;
 				that is, both in the species and individual case, as well as in the genus.
-				Even if whatever is singular is mysterious, it must still be done profoundly. <!-- CG: Unsure of this last sentence. -->
+				Even if whatever is singular is mysterious, it must still be done profoundly. <!-- CG: Unsure of this last sentence. --> <!--JG: Yeah, this is classicly vague. I'd change 'still' (etiam) for 'even' and translate 'et' just as 'and':
+				'And if whatever is singular is mysterious, it must even be done profoundly.' I think Harvey refers to the 'subtiliter' and wants to emphasize what's to be done in case of 'singular mysterious things'-->	
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -119,7 +120,7 @@
 					<person name="Giovanni Pontano"/>
 					<person name="Erasmus"/>
 					<person name="Francesco Patrizi"/>
-					<person name="John Osorius"/> <!-- CG: We had associated Osorius with 'Paulus Orosius' in the people excel, but I think it's this 16th century preacher. -->
+					<person name="John Osorius"/> <!-- CG: We had associated Osorius with 'Paulus Orosius' in the people excel, but I think it's this 16th century preacher. --> <!--JG: I agree with you that in this case it probably is John O, instead of Paulus. Will check the other files where he's tagged as well-->
 					<person name="Konrad Heresbach"/>
 				</position>
 			</language>
@@ -155,7 +156,6 @@
 			</translation>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -169,7 +169,6 @@
 				Political discourse must be plain and effective, the likeness of a living picture.
 			</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -227,7 +226,7 @@
 		<underline method="pen" type="straight" language="IT" text="quel hortolano, ilquale sueglie le radici"/>
 		<underline method="pen" type="straight" language="IT" text="tosa la pecora"/>
 		<underline method="pen" type="straight" language="IT" text="non la scortica"/>
-		<underline method="pen" type="straight" language="IT" text="degna d' Alessandro"/>
+		<underline method="pen" type="straight" language="IT" text="degna d'Alessandro"/>
 		<underline method="pen" type="straight" language="IT" text="Cinque gran"/>
 		<underline method="pen" type="straight" language="IT" text="la pace"/>
 		<underline method="pen" type="straight" language="IT" text="cinque gran"/>
@@ -237,6 +236,7 @@
 		<underline method="pen" type="straight" language="IT" text="l'inuidia"/>
 		<underline method="pen" type="straight" language="IT" text="l'ira"/>
 		<underline method="pen" type="straight" language="IT" text="la superbia"/>
+		<underline method="pen" type="straight" language="IT" text="regnerebbe"/>
 		<underline method="pen" type="straight" language="IT" text="pace perpetua"/>
 		<underline method="pen" type="straight" language="IT" text="alcun fallo"/>
 		<underline method="pen" type="straight" language="IT" text="vie inescogitabili"/>
@@ -261,6 +261,7 @@
 		<mark name="plus_sign" method="pen" place="intext"/>
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!--faded-->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="pace perpetua"/>
+		<mark name="dot" method="pen" place="intext"/> <!--bella, laquale-->
 
     </annotation>
 </transcription>
