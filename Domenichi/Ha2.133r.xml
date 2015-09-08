@@ -106,7 +106,7 @@
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						fuit, qu&agrave;m dixit. Viuida Ironia, paradoxum, hyperbole:
+						fuit, qu&agrave;m dixit. Viuida Ironia, paradoxum, hyperbole: <!--JG: Should be fecit instead of fuit-->
 						super omnes
 					</marginalia_text>
 				</position>
@@ -114,7 +114,7 @@
 					<marginalia_text>
 						Tiberios, Rabela[e]sios, Aretinos.
 					</marginalia_text>
-					<person name=""/> <!-- CG: Could this be Silius Italicus? -->
+					<person name=""/> <!-- CG: Could this be Silius Italicus? --> <!--JG: Possible, I'd go for that (but just leave in a comment that it's not entirely clear-->
 					<person name="Francois Rabelais"/>
 					<person name="Pietro Aretino"/>
 				</position>
@@ -134,7 +134,7 @@
 			<translation>
 				The occult properties of Eutrapelus; Hermes Trismegistus from the machine.
 				
-				A hero in the cloud. He was first, as he spoke. A vivid irony, paradox, hyperbole, 
+				A hero in the cloud. He was first, as he spoke. A vivid irony, paradox, hyperbole, <!--JG: acted instead of was-->
 				above all the Tiberiuses, Rabelaises, Aretinos. 
 			</translation>
 		</marginalia>
@@ -160,7 +160,6 @@
 				</position>
 			</language>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -195,7 +194,7 @@
 		<underline method="pen" type="straight" language="IT" text="Vino forma"/>
 		<underline method="pen" type="straight" language="IT" text="vino corrumpitur"/>
 		<underline method="pen" type="straight" language="IT" text="Stolti &amp;"/>
-		<underline method="pen" type="straight" language="IT" text="patroni"/>
+		<underline method="pen" type="straight" language="IT" text="padroni"/>
 		<underline method="pen" type="straight" language="IT" text="saui"/>
 		<underline method="pen" type="straight" language="IT" text="seruidori"/>
 		<underline method="pen" type="straight" language="IT" text="Xanto filosofo"/>
@@ -215,6 +214,8 @@
 			Et Propertio elegantemente disse:"/>
 		
 		<mark name="dash" method="pen" place="right_margin"/> <!-- qua -->
+		<mark name="horizontal_bar" method="pen" place="right_margin"/>
+		<mark name="horizontal_bar" method="pen" place="right_margin"/>
 		<mark name="dash" method="pen" place="right_margin"/> <!-- in -->
 		<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- aetas. -->
 		<mark name="dot" method="pen" place="right_margin"/> <!-- padroni, -->
@@ -226,9 +227,9 @@
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- per la sanita, del -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="corpo"/>
 		<mark name="equal_sign" method="pen" place="intext" language="IT" text="dell'animo"/>
-		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="temperar Bacco"/>
-		<mark name="equal_sign" method="pen" place="intext" language="IT" text="con le Ninfe"/>
-		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="la fiamme"/>
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="Bacco"/>
+		<mark name="equal_sign" method="pen" place="intext" language="IT" text="Ninfe"/>
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="fiamme"/>
 		<mark name="equal_sign" method="pen" place="intext" language="IT" text="Ninfe"/>
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="Nell'acqua fu lauato dalle Ninfe"/>
 		<mark name="equal_sign" method="pen" place="intext" language="IT" text="Vino forma"/>
