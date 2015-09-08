@@ -70,7 +70,6 @@
 			</language>
 		</marginalia>
 		
-		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="270">
@@ -119,13 +118,11 @@
 		
 		<symbol name="SS" place="left_margin"/> <!-- dotto -->
 		
-		<symbol name="JC" place="right_margin"/>
-		
 		<symbol name="JC" place="intext"/>
 		
 		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Cosi Venere oppresso ogn'intelletto, Pallade vince, 
 			e'l Mondo tien suggetto."/>
-		<mark name="bracket" method="pen" place="left_margin"/>
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="L'huomo debbe sempre sperar bene insino ch'egli h&agrave; vita"/>
 		
 		<mark name="horizontal_bar" method="pen" place="right_margin"/> <!-- under marginalia, 'or harts.' -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- gl'orec -->
@@ -135,7 +132,8 @@
 		<mark name="quotation_mark" method="pen" place="right_margin"/>
 		
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="ogni altro"/>
-		<mark name="plus_sign" method="pen" place="intext" language="IT" text="per peruenire"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="peruenire"/>
 		<mark name="apostrophe" method="pen" place="intext"/> <!-- vita; il -->
+		
     </annotation>
 </transcription>
