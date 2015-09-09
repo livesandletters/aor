@@ -25,16 +25,19 @@
 					<marginalia_text>
 						super omnes Entelechia. Crassus in
 					</marginalia_text>
+						<!-- CG: Which Crassus might this be? Marcus Licinius? -->
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
 						domo: Cicero in foro:
 					</marginalia_text>
+					<person name="Cicero"/>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						Ca[e]sar in campo voluit esse
 					</marginalia_text>
+					<person name="Caesar"/>
 				</position>
 			</language>
 			<language ident="EL">
@@ -57,13 +60,20 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				No one ever had enough good qualites, either in the mind, the body, or fortune.
+				Therefore a more severe industriousness is necessary, along with an unceasing Actualization above all things.
+				Crassus at home, Cicero in the ofrum, Caesar in the field: all wanted to the be greatest of all.
+				The eternal proposition of eminent minds. What is the point of being the best without a likeness?
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Ironia Socratis mitigat Inuidiam, et mellificat oia[m].
+						Ironia Socratis mitigat Inuidiam, et mellificat [v]ia[m]. <!-- CG: Unsure of this last word. -->
 					</marginalia_text>
+					<person name="Socrates"/>
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
@@ -73,6 +83,11 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Socrates' irony softens envy, and sweetens [the road].
+				A man has however many ways he can use,
+				always to test himself as a man.
+			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="IT">
@@ -80,6 +95,7 @@
 					<marginalia_text>
 						Pyrro.
 					</marginalia_text>
+					<person name="Pyrrhus of Epirus"/>
 				</position>
 			</language>
 		</marginalia>
@@ -93,8 +109,15 @@
 						Viuidus exultat nocte, dieq[ue] vigor.
 						Aut Nihil supr&agrave;: aut demonstra: et emineat dignior.
 					</marginalia_text>
+					<person name="Axiophilus"/>
 				</position>
 			</language>
+			<translation>
+				For Axiophilus a serious and solid man.
+				Always concerned with the outcome, most strict with every point.
+				This lively man exults vigor by day and by night.
+				Either nothing is above him, or you must prove it; and let him stand out as more worthy.
+			</translation>
 		</marginalia>
 		
 		
@@ -104,8 +127,13 @@
 					<marginalia_text>
 						Aduocatus Agrippa[e], et Speculatoris, fori monarcha.
 					</marginalia_text>
+					<person name=""/> <!-- CG: Not sure which Agrippa this is. -->
+					<person name="Guillaume Durand"/>
 				</position>
 			</language>
+			<translation>
+				The counselor of Agrippa and the Speculator, the monarch of the forum.
+			</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="necessaria a'giouani"/>
