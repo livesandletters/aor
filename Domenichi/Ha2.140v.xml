@@ -15,6 +15,10 @@
 						Achillis furore experrectus Alexander, non potuit
 						dormire. Ca[e]sarem excitauit Alexander: Julianu[m]
 					</marginalia_text>
+					<person name="Alexander the Great"/>
+					<person name="Achilles"/>
+					<person name="Julius Caesar"/>
+					<person name="Julian"/>
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
@@ -23,14 +27,25 @@
 						solusq[ue] pudor, non vincere cunctos.
 						Sherlij
 					</marginalia_text>
+					<person name="Anthony Shirley"/>
+					<X-ref person="Lucan" book_title="Pharsalia" language="LA" text="Nescia virtus stare loco, solusque pudor non vincere"/>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						magnifica[e] iam Legationes non Sinu[n]t Ergophilu[m]
 						dormire. Vnicus mundi Neopragmaticus.
 					</marginalia_text>
+					<person name="Ergophilus"/> <!-- CG: I'm wondering if this is a new name/character for Harvey or a historical person? -->
 				</position>
 			</language>
+			<translation>
+				Roused by the fury of Achilles, Alexander was unable to sleep.
+				Alexander excited Caesar, and Caesar Julian.
+				'His virtue not knowing how to stand in one place,
+				and his one disgrace, was not to conquer' those joined together.
+				Now, the magnificent ambassadors of Shirley won't let Ergophilus sleep.
+				The sole new pragmatic man in the world.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -39,6 +54,7 @@
 					<marginalia_text>
 						Cert&egrave; Arma, virumq[ue] scit: Arma, sophumq[ue] non scit..
 					</marginalia_text>
+					<X-ref person="Virgil" book_title="Aeneid" language="LA" text="Arma, virumq[ue]"/>
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
@@ -49,8 +65,10 @@
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						Polytechnus, Politicus, mundi peritus.
-						Plus habet Alexandri, qu&agrave;m Ca[e]saris. Aut Ca[e]sare est
+						Plus habet Alexandri, qu&agrave;m Ca[e]saris. Aut Ca[e]sar est
 					</marginalia_text>
+					<person name="Alexander the Great"/>
+					<person name="Julius Caesar"/>
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
@@ -64,6 +82,13 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>
+				Clearly he knows 'arms and the man,' but he doesn't know 'arms and the wise man.'
+				And he will immediately fail, as he is not poly-technical, political, or experienced enough in the world.
+				He has more of Alexander than of Caesar. Else Caesar is without a dictatorship or empire, and for that reason,
+				he needs a greater ability in the arts, professions, or mysteries.
+				For the new man, no valor of mind, body, and fortune is enough.
+			</translation>
 		</marginalia>
 		
 		
@@ -73,20 +98,25 @@
 					<marginalia_text>
 						<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
 						
-						<!-- Continued from facing page, left margin, Ha2.142r -->
-						[--]ta[e]: nedum Corde ferenti a[e]gre, id est, sordid&egrave;, et miser&egrave;.
-						Nam vulgares isti, pla[e]runq[ue] ignobiles, ordidi, miserabilas.
+						<!-- Continued from facing page, left margin, Ha2.141r -->
+						[Vxx]t[u]: nedum Corde ferenti a[e]gre, id est, sordid&egrave;, et miser&egrave;.
+						Nam vulgares isti, pla[e]runq[ue] ignobiles, sordidi, miserabil[e]s.
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="270">
 					<marginalia_text>
-						At Ille in a[e]rumno sissimis
+						At Ille in a[e]rumnosissimis
 						negociationibus
 						semper festiuissimus.
 					</marginalia_text>
 					<emphasis method="pen" type="straight" text="festiuissimus."/>
 				</position>
 			</language>
+			<translation>
+				[xxxxx]: still less through bearing a diseased heart; that is, in a foul and wretched manner.
+				For those men are vulgar, and many of them are ignoble, foul, and wretched.
+				But He remains ever lively, even while most afflicted by troubles.
+			</translation>
 		</marginalia>		
 		
 		<underline method="pen" type="straight" language="IT" text="mise per farne poi seuera dimostratione"/>
