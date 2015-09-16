@@ -85,13 +85,12 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						) distinctissima oratio, maxim&egrave;q[ue]
-						<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+						) distinctissima oratio, maxim&egrave;q[ue] emphatica.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				A most distinct oration, and especially...
+				A most distinct oration, and especially emphatic.
 			</translation>
 		</marginalia>
 		
@@ -121,7 +120,20 @@
 			</language>
 		</marginalia>
 		
-		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="270">
+					<marginalia_text>
+						Singula tam efficacissim&egrave;, qu&agrave;m Specioicissim&egrave;.
+					</marginalia_text>
+					<emphasis method="chalk" type="straight"/>
+				</position>
+			</language>
+			<translation>
+				<!-- CG: Missing text added. -->
+			</translation>
+		</marginalia>
 		
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="dottorato per amor di Dio un"/>

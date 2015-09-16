@@ -95,10 +95,9 @@
 		</marginalia>
 		
 		
-		<!-- Orientation: 90 -->
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="left_margin" book_orientation="0">
+				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
 						Miseret me mei, Si Fortius violentior: aut Ramus illustrior: aut Lipsius securior:
 						aut Tycho peritior: aut Draco 
@@ -122,7 +121,32 @@
 		</marginalia>
 		
 		
-		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="270">
+					<marginalia_text>
+						Animus est, qui facit foelicem, aut miserum.
+					</marginalia_text>
+					<emphasis method="chalk" type="straight"/>
+				</position>
+			</language>
+			<translation>
+				<!-- CG: Missing text added. -->
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="270">
+					<marginalia_text>
+						Euthymia.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				<!-- CG: Missing text added. -->
+			</translation>
+		</marginalia>
+		
 		
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="l'huomo parla"/>
