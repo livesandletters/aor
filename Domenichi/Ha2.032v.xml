@@ -56,14 +56,19 @@
     			</translation>
     		</marginalia>
         
-    		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
-    		
-    		
+        
+        
     		<marginalia hand="Italian">
     			<language ident="LA">
+    				<position place="right_margin" book_orientation="270">
+    					<marginalia_text>
+    						<!-- Continued from facing page, left margin, Ha2.033r. -->
+    						|| cedit vlli. Vir est, qui Omnes, et Neminem contemnit: solum curat Seipsum.
+    					</marginalia_text>
+    					<emphasis method="chalk" type="straight"/>
+    				</position>
     				<position place="intext" book_orientation="270">
     					<marginalia_text>
-    						<!-- Words from marginalia in gutter. -->
     						vt Diogenes solum respiciens Diogenem, +
     					</marginalia_text>
     					<person name="Diogenes of Sinope"/>
@@ -83,6 +88,8 @@
     				</position>
     			</language>
     			<translation>
+    				<!-- CG: Missing text added. -->
+    				
     				as Diogenes regarded Diogenes alone, he spurned Aristotle the philosopher, Plato the legislator, Demosthenes the orator, 
     				Demades the pragmatist, Philip the King, even Alexander, conqueror of the world. Devoted to himself alone, Diogenes revered
     				no one in his heart except Diogenes. In his estimation, a unique man.
