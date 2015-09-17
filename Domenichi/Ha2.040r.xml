@@ -8,12 +8,11 @@
 	<page filename="Ha2.040r.tif" pagination="399" reader="Harvey"/>	<!-- ABO 44right -->
 	<annotation>
 		<!-- Marginalia -->
-		<!-- Orientation: 0 -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
-						Artis, et Virtutis Occulta proprietas.	<!-- CG: I'm not sure what to make of the stuff to the left. Looks like: 7. /  --> <!--JG: I agree. You can tag this in a separate marginal note. I'd go for '7.)'-->
+						Artis, et Virtutis Occulta proprietas.
 					</marginalia_text>
 					<emphasis method="chalk" type="straight"/>
 				</position>
@@ -39,7 +38,7 @@
 				</position>
 			</language>
 			<translation>
-				An affectionate old man, though cold. Like many, above / <!--JG: In the translation I'd replace the / for a dot-->
+				An affectionate old man, though cold. Like many, [see] above. 
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -129,7 +128,7 @@
 				</position>
 			</language>
 			<translation>
-				No one is ever prudent enough, and also strong enough. <!-- CG: Not sure how to render best the "fuit" here. --> <!--JG: Couldn't you render is as 'No one was every prudent and strong enough'?-->
+				No one was ever prudent enough and strong enough.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -157,7 +156,7 @@
 			</translation>
 		</marginalia>
 		
-		<!-- Orientation: 90 -->
+		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -184,7 +183,7 @@
 			</translation>
 		</marginalia>
 		
-		<!-- Orientation: 270 -->
+
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
@@ -285,6 +284,9 @@
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- unto, & bisunto -->
 		<mark name="dot" method="pen" place="intext"/> <!-- compagno, il -->
 		<mark name="dot" method="pen" place="intext"/> <!-- scudi, -->
+		
+		<!-- Numerals -->
+		<numeral place="head">7. /</numeral>
 				
 		<!-- Errata -->
 		<errata language="IT" copytext="i re" amendedtext="iure"/>

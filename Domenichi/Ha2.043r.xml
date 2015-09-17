@@ -59,12 +59,13 @@
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						venus.
+						Venus.
 					</marginalia_text>
+					<person name="Venus"/>
 				</position>
 			</language>
 			<translation>
-				Virtue conquers all. Carnal love conquers virtue. <!-- CG: Unsure of best way to translate Venus. Could leave it as "Venus."-->  <!--JG: I'd leave it as 'Venus'-->
+				Virtue conquers all. Venus conquers virtue.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -86,10 +87,11 @@
 					<marginalia_text>
 						(&egrave; priapo Virg.)
 					</marginalia_text>
+					<person name="Virgil"/>
 				</position>
 			</language>
 			<translation>
-				It's the priapus
+				It's a Virgilian priapus.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -158,8 +160,9 @@
 			<language ident="LA">
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
-						Nuda Marij maiestas terruit homicidas. <!-- CG: I'm not sure who this is referring to. --> <!--JG: Perhaps Gaius Marius? See: https://books.google.co.uk/books?id=wh4lkfI2TwQC&pg=PA158&lpg=PA158&dq=Naked+Marius+Roman&source=bl&ots=2ivKkB1fY5&sig=y6fl0jZ28rN3nN96FUMSF9U_D6c&hl=en&sa=X&ei=ZbZZVYbVMoH8UMvQgBg&ved=0CEYQ6AEwBg#v=onepage&q=Naked%20Marius%20Roman&f=false. Page 158-->
+						Nuda Marij maiestas terruit homicidas. 
 					</marginalia_text>
+					<person name="Gaius Marius"/>
 				</position>
 			</language>
 			<translation>
@@ -216,7 +219,7 @@
 			</language>
 			<translation>
 				Caesar is most sparing in food, wine, and sleep: and even in love,
-				unless it was political. He is much greater in actualization. <!-- CG: Perhaps something like accomplishment or fulfillment would be better for entelechy? --> <!--JG: I like accomplishment in this context!-->
+				unless it was political. He is much greater in accomplishment. 
 			</translation>
 		</marginalia>
 		
@@ -230,7 +233,7 @@
 				</position>
 			</language>
 			<translation>
-				The august majesty of the venerable high priest paralyzed the murderers. <!-- CG: Not sure if this is referring to a pope or a Roman priest. --> <!--JG: Because of the use of the word 'augusta' I'd go for pope-->
+				The august majesty of the venerable pope paralyzed the murderers.
 			</translation>
 		</marginalia>
 		
@@ -289,7 +292,7 @@
 	    	<!-- Left margin -->
 	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- cio ... gnia -->
 		<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- Sibilla --> 
-		<mark name="bracket" method="pen" place="left_margin"/> <!-- Dice ... infermita --> <!--JG: This I'd link to the printed text (whole paragraph), since it's quite clear which part of the text he's bracketing-->
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Dice sauiamente il S. Casimiro Accurso: che l'infermit&agrave; &egrave; principio della morte, &amp; la morte &egrave; fine della infermit&agrave;."/> 
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- infermita ... un certo -->
 		    
 	    	<!-- Head/Intext/Tail -->

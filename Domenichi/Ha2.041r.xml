@@ -8,7 +8,6 @@
 	<page filename="Ha2.041r.tif" pagination="401" reader="Harvey"/>	<!-- ABO 45right -->
 	<annotation>
 		<!-- Marginalia -->
-		<!-- Orientation: 0 -->
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
@@ -27,6 +26,7 @@
 					<marginalia_text>
 						Idem Semper omnium alacerrimus: agillimus:
 					</marginalia_text>
+					<person name="Eutrapelus"/> <!-- "Idem" likely refers back to Eutrapelus. -->
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -39,7 +39,6 @@
 			<translation>
 				The same man is always the quickest of all, the most agile, and the most eminent in words and deeds.
 				A man imcomparable in every serious enterprise.
-					<!-- CG: I assume "idem" might be referring back to Eutrapelus on the previous page? --> <!--JG: I think you're right. I'd tag Eutrapelus and explain this briefly in a comment-->
 			</translation>
 		</marginalia>
 		
@@ -70,7 +69,7 @@
 				</position>
 			</language>
 			<translation>
-				And in working or negotiating the greatest things, nothing is as powerful, or as swift.
+				And in working or negotiating the greatest things, nothing is as powerful or as swift.
 			</translation>
 		</marginalia>
 		
@@ -110,12 +109,12 @@
 				</position>
 			</language>
 			<translation>
-				Always mindful of a lofty way of living, of actualization, of multiplying, and of decency, which most surpasses everything else.
+				Always mindful of a lofty way of living, of actualization, of multiplying, and of refinement, which most surpasses everything else.
 				Singular matters which are easily the most consummate. Eutrapelus in bloom. Never faltering in any way.
 			</translation>
 		</marginalia>
 		
-		<!-- Orientation: 90 -->		
+	
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
@@ -126,7 +125,7 @@
 				</position>
 			</language>
 			<translation>
-				He applies himself only to select matters, and those most effective in reaching his goal. <!--JG: Not sure whether 'applies' is the best translation here...Takes interest in?-->
+				He cares only for select matters, and those most effective in reaching his goal.
 			</translation>
 		</marginalia>
 		
@@ -183,8 +182,8 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- misfat -->
 				
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- io ... me --> <!--JG: If the marks are clearly visible, comments aren't necessary. Also goes for other marks (plus signs etc), with exception of 'punctuation marks'-->
-		<mark name="bracket" method="pen" place="left_margin"/> <!-- cendo ... ha --> <!--JG: Idem-->
+	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- io ... me --> 
+		<mark name="bracket" method="pen" place="left_margin"/> <!-- cendo ... ha -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="comma" method="pen" place="intext"/> <!-- male percioche --> 
