@@ -36,7 +36,7 @@
 				</position>
 			</language>
 			<translation>
-				Modernity above and below. <!-- CG: Neologism stemming from "neotericus"? --> <!--JG: Maybe just translate at neoterism?-->
+				Neoterism, above and below.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -47,8 +47,8 @@
 						the best in Florence.
 					</marginalia_text>
 					<person name="Torquato Tasso"/> 
-						<!-- CG: So I'm not entirely sure about this. It could also be Tasso's father Bernardo who was a famed poet too. Neither of them spent any time in Florence, so I don't understand Harvey's comment. -->
-					<!-- CG: The only thing I can find on Google on "Cesare Lilio" (the person named in the joke and who I assume is the "he" here) sends me to the same joke book. --> <!--JG: OK, you can tag Cesare Lilio. Leave your previous comment in the XML file for clarification-->
+					<person name="Cesare Lilio"/>
+						<!-- Unclear on which Tasso. It could also be Tasso's father Bernardo who was a famed poet too. Neither of them spent much time in Florence. -->
 				</position>
 			</language>
 		</marginalia>
@@ -160,7 +160,7 @@
 				</position>
 			</language>
 			<translation>
-				Hab, or nab. Under a good sign, or with bad fish. <!-- CG: Hard to render the pun. -->
+				Hab, or nab. Under a good sign, or with bad fish. 
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -226,7 +226,7 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- trat -->
 		
 	    	<!-- Left margin -->
-	    	<mark name="bracket" method="pen" place="left_margin"/> <!-- & ... plisci --> <!--JG: This can be linked to the printed text-->
+	    	<mark name="bracket" method="pen" place="left_margin" language="LA" text="&amp; con maniera Signorile motteggiando alla Napoletana, riuoltosi a un suo compagno si risolse con dire: supplisci cancelliere."/>
 		<mark name="quotation_mark" method="pen" place="left_margin" language="IT" text="steriora"/> 
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- le rispose ... me V.S. -->
 		<mark name="bracket" method="pen" place="left_margin"/> <!-- hauesse ... sciacqua -->
