@@ -36,7 +36,7 @@
         				</position>
         				<position place="intext" book_orientation="0">
         					<marginalia_text>
-        						aut status corruptela. Nihil vnq[uam] impu[-] 	<!-- Text illegibile, need to consult original source -->
+        						aut status corruptela. Nihil vnq[uam] impuru[m],
         					</marginalia_text>
         				</position>
         				<position place="left_margin" book_orientation="0">
@@ -46,7 +46,7 @@
         				</position>
         				<position place="intext" book_orientation="0">
         					<marginalia_text>
-        						) Absolutus Eutrapeli cursus, et Ord[o]	<!-- Need to consult original source. -->         						
+        						) Absolutus Eutrapeli cursus, et Ord[o]   						
         					</marginalia_text>
         					<person name="Eutrapelus"/>
         				</position>
@@ -64,12 +64,12 @@
         				</position>
         			</language>
         			<translation>
-        				All things are by a prudent nature, a firm judgment, an earnest mind, and a constant firmness,
+        				All things with a prudent character, a firm judgment, an earnest mind, and a constant firmness,
         				without any corruption of the body, mind and state. 
-        				Nothing should ever be [-] or feeble in any way. Firm and lengthed singularities, daily.
+        				Nothing should ever be unpure or feeble in any way. Single parts firm and extended, daily.
         				The absolute course and inviolate order of Eutrapelus.
         				Of all men, this man must be especially serious, always uncorrupted, and always multiplying, yet 
-        				with a certain facility of his, as if it were a game.         				
+        				with a certain facility, as if it were a game.         				
         			</translation>
         		</marginalia>
     		
@@ -102,7 +102,7 @@
     		
     		<marginalia hand="Italian">
     			<language ident="EN">
-    				<position place="tail" book_orientation="90">
+    				<position place="tail" book_orientation="270">
     					<marginalia_text>
     						Euerie execution, a liuing thunder: &amp; euerie discourse, a liuelie
     						Lightening.
@@ -156,7 +156,19 @@
 	    	
 	    	<!-- Right margin -->
 	    		
-    			<!-- There seem to be several circumflexes and other marks in the margin, need to consult the original. -->
+    		<mark name="circumflex" method="pen" place="right_margin"/> <!-- Circumflexes in the gutter; 13 in total; don't seem to be tied to anything in the text. -->
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
+    		<mark name="circumflex" method="pen" place="right_margin"/>
     		<mark name="dash" method="pen" place="right_margin"/> <!-- uen -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- po -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- di -->
