@@ -22,7 +22,7 @@
 	<!ATTLIST marginalia anchor_text CDATA #IMPLIED>
 	 	<!ELEMENT language (position*)>
 			<!ATTLIST language ident (EN|EL|FR|IT|LA|ES) #REQUIRED> 
-				<!ELEMENT position (marginalia_text*, person*, book*, location*, X-ref*, emphasis*, internal_ref?)>
+				<!ELEMENT position (marginalia_text*, person*, book*, location*, X-ref*, emphasis*, internal_ref*)>
 					<!ATTLIST position place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 					<!ATTLIST position book_orientation	(0|90|180|270) #REQUIRED>
 						<!ELEMENT marginalia_text (#PCDATA)>

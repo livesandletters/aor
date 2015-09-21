@@ -101,7 +101,7 @@
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="location"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="X-ref"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="emphasis"/>
-        <xs:element minOccurs="0" ref="internal_ref"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="internal_ref"/>
       </xs:sequence>
       <xs:attributeGroup ref="attlist.position"/>
     </xs:complexType>
