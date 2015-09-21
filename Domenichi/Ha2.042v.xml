@@ -46,18 +46,18 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Corruptela[e] ( ) ista[e] inficiu[n]t animu[m]: infirmant corpus: <!--JG: I'd put the brackets around descant, even though you're right that these are part of this marginal note-->
+						Corruptela[e] ista[e] inficiu[n]t animu[m]: infirmant corpus:
 					</marginalia_text>
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
 						extenuant statu[m]: omnia deniq[ue] bona Labefactant. (
-						Effoeminata omnia viros emasculant: ( <!--JG: Put this and next bracket around 'Roma...199-->
+						Effoeminata omnia viros emasculant:
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						) robustos eneruant mollia.
+						robustos eneruant mollia.
 					</marginalia_text>
 				</position>
 				<position place="left_margin" book_orientation="0">
@@ -75,8 +75,7 @@
 			<translation>
 				Such corruption infects the soul, weakens the body, and diminishes one's condition. In short, it undermines
 				all good things. All effiminate matters emasculate men, and soft things enervate the robust. Luxury exceedingly 
-				betrays the tired body in old age. Whence every opportunity for evil must be avoided. Oppose the origins. 
-					<!-- CG: I'm unsure about these last two phrases. Do you think the "origins" here refers back to "mali"?--> <!--JG: Yeah, I think the last sentence should be understood as 'Oppose the origins of evil'-->
+				betrays the tired body in old age. Whence every opportunity for evil must be avoided. Oppose the origins of evil. 
 			</translation>
 		</marginalia>
 		
@@ -94,16 +93,13 @@
 		</marginalia>
 		
 		<marginalia hand="Italian">
-			<language ident="LA">
+			<language ident="EN">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						descant. <!-- CG: Here's this word again. Unclear. --> <!--JG: See comment in previous transcription-->
+						( descant. )
 					</marginalia_text>
 				</position>
 			</language>
-			<translation>
-				They fail.
-			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -125,7 +121,7 @@
 			<language ident="IT">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Roma. Papa. s[upr]a, 199.
+						( Roma. Papa. s[upr]a, 199. )
 					</marginalia_text>
 				</position>
 			</language>
@@ -135,7 +131,21 @@
 		</marginalia>
 		
 		
-		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="270">
+					<marginalia_text>
+						Sapit, qui absolut&egrave; corruptelas contemnit, ab omniq[ue] abhorret
+						Luxurie.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				Whoever condemns absolutely corruption and abhors every luxury truly knows.
+				
+				<!-- CG: Missing text added. -->
+			</translation>
+		</marginalia>
 		
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="uolentieri alla morte"/>

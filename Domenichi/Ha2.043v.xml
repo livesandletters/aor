@@ -92,7 +92,7 @@
 				</position>
 			</language>
 			<translation>
-				( Angelus, the orator; Furius, the actor; as he himself is Actualization. <!-- CG: So Angelus Furius is another of Harvey's personae, but I'm unsure what to do with this marginalia. --> <!--JG: Leave it for the moment. At some point I need to do a comprehensive search of Harvey's use of the word Entelechy in order to see how best to translate it-->
+				( Angelus, the orator; Furius, the actor; as he himself is Actualization.
 			</translation>
 		</marginalia>
 		
@@ -144,17 +144,33 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Talis Censura Sanazarij, s[upr]a, 417. <!--JG: I think this should be infra! -->
+						Talis Censura Sanazarij, i[nfr]a, 417. 
 					</marginalia_text>
 					<person name="Jacopo Sannazaro"/>
 				</position>
 			</language>
 			<translation>
-				A similar judgment from Sannazaro above, p. 417. <!--JG: Below, not above-->
+				A similar judgment from Sannazaro, below, p. 417.
 			</translation>
 		</marginalia>
 		
-		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+		
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="270">
+					<marginalia_text>
+						<!-- Continued from facing page, left margin, Ha2.044r. -->
+						vt faciat pars qua[e]q[ue] rotantis Olympi, Purius, atq[ue] minus: libat, auisq[ue] volat.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				that every part values rotating Olympus more chastely and less. He drinks and flies away as a bird. <!-- Unclear. -->
+				
+				<!-- CG: Missing text added. -->
+			</translation>
+		</marginalia>
+		
 		
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="leggi della natura"/>
@@ -184,11 +200,10 @@
 		
 		<!-- Symbols -->
 		<symbol name="Sun" place="left_margin"/>
-		<symbol name="JC" place="intext"/> <!--JG: Can this be linked to printed text? Or otherwise to marginal note next to it?-->
+		<symbol name="JC" place="intext" language="LA" text="Epitome totius iuris."/>
 	
 		<!-- Right margin -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- secon -->
-		<mark name="dash" method="pen" place="right_margin"/> <!-- qui --> <!--JG: Isn't this printed?-->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- al -->
 		
 	    	<!-- Left margin -->

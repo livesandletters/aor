@@ -128,19 +128,26 @@
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
-				<position place="intext" book_orientation="270">
+				<position place="intext" book_orientation="90">
 					<marginalia_text>
 						Facile est euiuis, co[n]temnere quiduis pra[e]ter Seipsu[m], Rege[m],
-						<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
 					</marginalia_text>
+				</position>
+				<position place="right_margin" book_orientation="90">
+					<marginalia_text>
+						et Deum. Sed strategema non est strategema, nisi ex adyto occulta[e] philosophia[e].
+					</marginalia_text>
+					<emphasis method="chalk" type="straight"/>
+					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
 			<translation>
 				It is easy for overly lively people to condemn anything whatsoever, besides themselves, the king .... 
+				
+				<!-- CG: Missing text added. -->
 			</translation>
 		</marginalia>
 		
-		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
 		
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="andasse alle cortigiane"/>

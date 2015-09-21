@@ -40,7 +40,7 @@
         				</position>
         				<position place="intext" book_orientation="0">
         					<marginalia_text>
-        						Scopum faciunt maxim&egrave;: cautissim&eacute;q[ue] prouid[ent] <!-- Need to see original source. -->
+        						Scopum faciunt maxim&egrave;: cautissim&eacute;q[ue] prouidet, 
         					</marginalia_text>
         				</position>
         				<position place="left_margin" book_orientation="0">
@@ -72,7 +72,7 @@
         				finally, to outshine the most worthy men in worthiness.        				
         				He cares only for those common places which are especially useful
         				for his own goal, and most securely see to it that he never oppose
-        				those common men with his own goal: or that he disturb his distinguished <!-- CG: This translation seems wrong, but I can't figure out the grammar. Need to check original. -->
+        				those common men with his own goal: or that he disturb his distinguished <!-- Recheck translation. -->
         				course in any way. 
         				He is always in control of his own most acute reason, and certain of his own most
         				effective action.
@@ -142,7 +142,18 @@
     			</translation>
     		</marginalia>
         
-    		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+        
+        		<marginalia hand="Italian">
+        			<language ident="EN">
+        				<position place="right_margin" book_orientation="270">
+        					<marginalia_text>
+        						Singular for knowledg, &amp; discourse: behauiour, &amp; action.
+        						
+        						<!-- CG: Missing text added. -->
+        					</marginalia_text>
+        				</position>
+        			</language>
+        		</marginalia>
     		
 	    	<!-- Underlines -->
 	        
@@ -185,7 +196,7 @@
 	    	<!-- Right margin -->
 	    	<mark name="dash" method="pen" place="right_margin"/> <!-- gior -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- sospet -->
-    		<mark name="comma" method="pen" place="right_margin"/> <!-- mondo --> <!-- Could also belong to the tail of a letter obscured in the gutter. -->
+    		<mark name="comma" method="pen" place="right_margin"/> <!-- mondo -->
     		<mark name="bracket" method="pen" place="right_margin"/> <!-- piu ... haue -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- haue -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- infa -->

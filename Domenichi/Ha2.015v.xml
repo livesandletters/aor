@@ -146,37 +146,48 @@
     					</marginalia_text>
     				</position>
     			</language>
-    		</marginalia>    		
+    		</marginalia>    	
     		
-    		<!-- MISSING TEXT RIGHT MARGIN: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
-        
-    		<marginalia hand="Italian"> <!-- Marginalia from gutter -->
-    			<language ident="EN">
-    				<position place="intext" book_orientation="270">
-    					<marginalia_text>
-    						the in.
-    					</marginalia_text>
-    					<emphasis method="pen" type="straight" text="in"/>
-    				</position>
-    			</language>
-    		</marginalia>
     		<marginalia hand="Italian">
     			<language ident="EN">
-    				<position place="intext" book_orientation="270">
+    				<position place="right_margin" book_orientation="270">
     					<marginalia_text>
-    						notablest the Basta.
+    						<!-- Continued from facing page, left margin, Ha2.016r -->
+    						gallant conceits for their owne supremacie, &amp; the pompe of spiritual pastors:
     					</marginalia_text>
     				</position>
-    			</language>
-    		</marginalia>
-    		<marginalia hand="Italian">
-    			<language ident="EN">
+    				<position place="intext" book_orientation="270">
+    					<marginalia_text>
+    						the notablest
+    					</marginalia_text>
+    				</position>
     				<position place="tail" book_orientation="270">
     					<marginalia_text>
-    						fooles-paradise world.
+    						fooles-paradise
+    					</marginalia_text>
+    				</position>
+    				<position place="intext" book_orientation="270">
+    					<marginalia_text>
+    						in the
+    					</marginalia_text>
+    				</position>
+    				<position place="tail" book_orientation="270">
+    					<marginalia_text>
+    						World.
     					</marginalia_text>
     				</position>
     			</language>
+    			<language ident="IT">
+    				<position place="intext" book_orientation="270">
+    					<marginalia_text>
+    						Basta.
+    					</marginalia_text>
+    				</position>
+    			</language>
+    			<translation>
+    				Enough!
+    				<!-- CG: Missing text added. -->
+    			</translation>
     		</marginalia>
     		
     		

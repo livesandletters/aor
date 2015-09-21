@@ -15,7 +15,8 @@
         			<language ident="LA">
             			               <position place="head" book_orientation="0">
                     				<marginalia_text>
-                    					Plurimis literulis fit homo modica[e] habilitatis: <!-- Marginalia continues elsewhere. Unclear if in the gutter or the head of following page. --> <!--JG: We'll have to check in the original-->
+                    					Plurimis literulis fit homo modica[e] habilitatis: 
+                    					<!-- Continues onto facing page, head, Ha2.014r. -->
                     				</marginalia_text>
             			               </position>
         			</language>
@@ -109,27 +110,28 @@
     				The latter produce a common scholar: the former produces a rare sage.
     			</translation>
     		</marginalia>
-    		
-    		<!-- MISSING TEXT RIGHT MARGIN: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+   
     		
     		<marginalia hand="Italian">
     			<language ident="LA">
+    				<position place="right_margin" book_orientation="270">
+    					<marginalia_text>
+    						<!-- Continued from facing page, left margin, Ha2.014r -->
+    						plus plusq[ue] ingenij: hic operum vlterius. Flexanima[e] Eutrapelus superaggerat
+    					</marginalia_text>
+    					<person name="Eutrapelus"/>
+    				</position>
     				<position place="intext" book_orientation="270">
     					<marginalia_text>
-    						agmina <!-- Appears to continue from marginalia in gutter. Will leave translation for later. -->
+    						agmina Suad[a]e: Impressaq[ue] Fide, mirum operatur opus.
     					</marginalia_text>
     				</position>
     			</language>
+    			<translation>
+    				<!-- CG: Missing text added. -->
+    			</translation>
     		</marginalia>
-    		<marginalia hand="Italian">
-    			<language ident="LA">
-    				<position place="intext" book_orientation="270">
-    					<marginalia_text>
-    						suada[e]: Impressaq[ue] Fide, mirum operatur opus. <!-- Appears to belong to marginalia in gutter. -->
-    					</marginalia_text>
-    				</position>
-    			</language>
-    		</marginalia>
+    	
     		
         
 	    	<!-- Underlines -->

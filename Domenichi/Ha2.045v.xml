@@ -19,8 +19,9 @@
 				</position>
 				<position place="left_margin" book_orientation="0">
 					<marginalia_text>
-						Euschemosyne, et Entelechia. Qua[e] sunt aurea Eutrapeli specula: ( <!--JG: Eutrapelus should be tagged-->
+						Euschemosyne, et Entelechia. Qua[e] sunt aurea Eutrapeli specula: ( 
 					</marginalia_text>
+					<person name="Eutrapelus"/>
 					<emphasis method="chalk" type="straight"/>
 				</position>
 				<position place="intext" book_orientation="0">
@@ -30,7 +31,8 @@
 				</position>
 			</language>
 			<translation>
-				Refinement and Actualization are some of the secrets from the divine works of Angelus Furius. <!--JG: Part of the translation is missing-->
+				Refinement and Actualization are some of the secrets from the divine works of Angelus Furius.
+				They are the golden mirrors of Eutrapelus and the most pregnant practice of the world.
 			</translation>
 		</marginalia>
 		
@@ -71,7 +73,7 @@
 				</position>
 			</language>
 			<translation>
-				Fire without smoke. A heavenly regimen, art, action: all singular and exquisite things.	<!-- CG: There has to be a better translation for "Aetherea dia[e]ta." --> <!--JG: Perhaps more natural: 'Art and action, a heavenly diet: all singular and exquisite things'-->
+				Fire without smoke. Art and action, a heavenly diet: all singular and exquisite things.
 			</translation>
 		</marginalia>		
 		<marginalia hand="Italian">
@@ -83,7 +85,7 @@
 				</position>
 			</language>
 			<translation>
-				All is nothing.
+				All for naught.
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -118,6 +120,31 @@
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
+			<language ident="IT">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						ridicolo.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				Ridiculous.
+			</translation>
+		</marginalia>
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						press&egrave;.
+					</marginalia_text>
+				</position>
+			</language>
+			<translation>
+				Firmly.
+			</translation>
+		</marginalia>
+		
+		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
@@ -133,9 +160,22 @@
 			</translation>
 		</marginalia>
 		
-		<!--JG: I think two marginal notes are missing: one 'ridicolo' and a 'presse'-->
 		
-		<!-- MISSING TEXT: ILLEGIBLE DUE TO BENT PAGE. ORIGINAL SOURCE NEEDED-->
+		<marginalia hand="Italian">
+			<language ident="LA">
+				<position place="right_margin" book_orientation="270">
+					<marginalia_text>
+						Domat omnia Virtus: sed Virtus heroica: et Nescia stare loco.
+					</marginalia_text>
+					<X-ref person="Lucan" book_title="Pharsalia" language="LA" text="Nescia stare loco"/>
+				</position>
+			</language>
+			<translation>
+				Virtue conquers all things, but only heroic virtue. And 'His virtue not knowing how to stand in one place.'
+				
+				<!-- CG: Missing text added. -->
+			</translation>
+		</marginalia>
 		
 		<!-- Underlines -->
 		<underline method="pen" type="straight" language="IT" text="Do[n] Cornelio"/>

@@ -40,6 +40,7 @@
                         expedienda ex istis Romanarum antiquitatum monumentis. Sed scribendi hoc vulgare cacoethes, lectores facit saep&egrave; 
                         pigros, actores, pla[e]runq[ue] ignavos. Sapientiores Socratici, qui maluerunt
                     </marginalia_text>
+                <person name="Socrates"/>
                 </position>
             </language>
             <language ident="EL">
@@ -47,11 +48,11 @@
                     <marginalia_text>ἄγραφα ῥητα μνημονικὰ.</marginalia_text>
                 </position>
             </language>
-                        <language ident="LA">
-                            <position place="tail" book_orientation="0">
-                                <marginalia_text> Manum de tabula, inquit ille. Pennam de manu, inq[uam] ego. Iam ad Phoenicem: sed solis [sic, instead of solum] oculo.</marginalia_text>
-                            </position>
-                        </language>
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text> Manum de tabula, inquit ille. Pennam de manu, inq[uam] ego. Iam ad Phoenicem: sed solis [sic, instead of solum] oculo.</marginalia_text>
+                </position>
+            </language>
             <translation>Why am I delaying so? Pay attention and do not desire to write, not even the least trifle, but only desire to read, 
                 as much as you can, with equally clever keenness as eager and perceptive understanding. For individual issues must be fully dug 
                 out and immediately extricated from those monuments of Roman antiquities. This vulgar bad habit of writing often makes readers 
@@ -73,13 +74,13 @@
         <underline method="pen" type="straight" language="LA" text="domi seditiones"/>
         <underline method="pen" type="straight" language="LA" text="uetustate nimia"/>
         <underline method="pen" type="straight" language="LA" text="perrarae"/>
-        <underline method="pen" type="straight" language="LA" text="tempora literae"/>
+        <underline method="pen" type="straight" language="LA" text="literae"/>
         <underline method="pen" type="straight" language="LA" text="una custodia fidelis memoriae rerum"/>
         <underline method="pen" type="straight" language="LA" text="co[m]mentarijs pontificum"/>
         <underline method="pen" type="straight" language="LA" text="publicis priuatisq[ue] erant monumentis"/>
         <underline method="pen" type="straight" language="LA" text="pleraeq[ue] interiere"/>
         <underline method="pen" type="straight" language="LA" text="clariora deinceps certioraq[ue] ab secu[n]da origine"/>
-        <underline method="pen" type="straight" language="LA" text="ab stor[obis ;aetois feracoisq[ue]"/>
+        <underline method="pen" type="straight" language="LA" text="ab stirpibus laetius feraciusq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="gesta domi militiae[que] expone[n]tur"/>
         <underline method="pen" type="straight" language="LA" text="quo adminiculo erecta"/>
         <underline method="pen" type="straight" language="LA" text="eode[m] innixa M.Furio principe stetit"/>
@@ -143,7 +144,7 @@
         <underline method="pen" type="straight" language="LA" text="magna uenti uersa in hostem"/>
         
         <symbol name="SS" place="head"/>
-        <symbol name="Sun" place="tail"/>
+        <symbol name="Sun" place="head"/>
         
         <symbol name="SS" place="right_margin"/>
         <symbol name="LL" place="right_margin"/>
@@ -170,6 +171,7 @@
         
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="captam eandem"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="regibus"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- primum, co[n]sulibus -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="co[n]sulibus"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="dictatoribus"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="decemuirisq[ue]"/>
