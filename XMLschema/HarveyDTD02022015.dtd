@@ -10,13 +10,19 @@
 <!ELEMENT annotation (marginalia*, underline*, symbol*, mark*, numeral*, errata*, drawing*)>	
 	<!ELEMENT marginalia (language*, translation?)>
 	<!ATTLIST marginalia hand (English_secretary|Italian) #REQUIRED>
+	<!ATTLIST marginalia marginalia_id ID #IMPLIED>
+	<!ATTLIST marginalia marginalia_continues_to IDREF #IMPLIED>
+	<!ATTLIST marginalia marginalia_continues_from IDREF #IMPLIED>
+	<!ATTLIST marginalia marginalia_to_filename IDREF #IMPLIED>
+	<!ATTLIST marginalia marginalia_from_filename IDREF #IMPLIED>
+	<!ATTLIST marginalia book_id IDREF #IMPLIED>
 	<!ATTLIST marginalia date CDATA #IMPLIED>
 	<!ATTLIST marginalia other_reader CDATA #IMPLIED>
 	<!ATTLIST marginalia topic (Law|Astronomy|Warfare|Rhetoric) #IMPLIED> 
 	<!ATTLIST marginalia anchor_text CDATA #IMPLIED>
 	 	<!ELEMENT language (position*)>
 			<!ATTLIST language ident (EN|EL|FR|IT|LA|ES) #REQUIRED> 
-				<!ELEMENT position (marginalia_text*, person*, book*, location*, X-ref*, emphasis*)>
+				<!ELEMENT position (marginalia_text*, person*, book*, location*, X-ref*, emphasis*, internal_ref?)>
 					<!ATTLIST position place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 					<!ATTLIST position book_orientation	(0|90|180|270) #REQUIRED>
 						<!ELEMENT marginalia_text (#PCDATA)>
@@ -35,6 +41,12 @@
 							<!ATTLIST emphasis method (chalk|pen) #REQUIRED>
 							<!ATTLIST emphasis type (straight|curved|dotted) #REQUIRED>
 							<!ATTLIST emphasis text CDATA #IMPLIED>
+						<!ELEMENT internal_ref (target+)> 
+						    <!ATTLIST internal_ref text CDATA #REQUIRED>
+						          <!ELEMENT target EMPTY>
+						              <!ATTLIST target filename IDREF #REQUIRED>
+						              <!ATTLIST target book_id IDREF #REQUIRED>
+						              <!ATTLIST target text CDATA #REQUIRED>
 		<!ELEMENT translation (#PCDATA)>
 	<!ELEMENT underline EMPTY>
 		<!ATTLIST underline method (chalk|pen|scoring) #REQUIRED>
@@ -42,7 +54,7 @@
 		<!ATTLIST underline language (EN|EL|FR|IT|LA|ES) #IMPLIED>
 		<!ATTLIST underline text CDATA #IMPLIED> 
 	<!ELEMENT symbol EMPTY>
-		<!ATTLIST symbol name (Asterisk|Bisected_circle|Crown|JC|HT|LL|Mars|Mercury|Moon|Opposite_planets|Square|SS|Sun) #REQUIRED>
+		<!ATTLIST symbol name (Asterisk|Bisected_circle|Crown|JC|HT|LL|Mars|Mercury|Moon|Opposite_planets|Saturn|Square|SS|Sun|Venus) #REQUIRED>
 		<!ATTLIST symbol place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 		<!ATTLIST symbol language (EN|EL|FR|IT|LA|ES) #IMPLIED>
 		<!ATTLIST symbol text CDATA #IMPLIED>
