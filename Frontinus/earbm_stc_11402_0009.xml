@@ -89,7 +89,11 @@
             </language>
             <language ident="EL">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text></marginalia_text> <!--JG: Chris, please insert Greek-->
+                    <marginalia_text>
+                        ἅμ' ἔπος, ἅμ' ἔργον.
+                    </marginalia_text> 
+                    <X-ref person="Homer" book_title="Hymn to Hermes" language="EL"  text="ἅμ' ἔπος, ἅμ' ἔργον"/>
+                        <!-- CG: So the Homeric Hymns are not really from Homer, but I put this in the excel sheet as author: Homer, book: Hymn to Hermes. -->
                 </position>
             </language>
             <language ident="LA">
@@ -100,8 +104,9 @@
                 </position>
             </language>
             <translation>Neither rank, nor wealth, nor knowledge, nor any quality or quanity is very powerful without person virtue and public reputation. 
-            <!--JG: Chris, please translate the Greek-->
+                "Both word and deed at once."
                 Nothing is subsidiary. The actualization of Eudromus Pamphilus <!--JG: Unsure about Pamphili!-->
+                    <!-- CG: It might be an epithet for Eudromus; something like 'lover of all things.' -->
             </translation>
         </marginalia>
         
