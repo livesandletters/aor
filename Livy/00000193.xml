@@ -9,7 +9,7 @@
     <annotation>
         
         <marginalia hand="Italian">
-            <language ident="LA">
+            <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>the death of the most excellent &amp; inuincible Furius.
                     </marginalia_text>
@@ -58,7 +58,7 @@
                     <person name="Marcus Furius Camillus"/>
                     <person name="Romulus"/>
                     <person name="Flavius Eutropius"/>
-                    <book title="Breviarium Historiae Romanae"/>
+                    <book title="Breviarium Historiae Romanae"/> <!-- LS, change to xref? -->
                 </position>
             </language>
             <translation>The death of Furius Camillus, a remarkable and in all circumstances unique man.
@@ -133,6 +133,7 @@
         <mark name="quotation_mark" method="pen" place="right_margin" language="LA" text="Valerius tribunis militum"/>
         <mark name="quotation_mark" method="pen" place="right_margin" language="LA" text="galea coruo"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- uaca -->
         <mark name="circumflex" method="pen" place="right_margin" language="EN" text="Decius"/>
         
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="noui"/>
