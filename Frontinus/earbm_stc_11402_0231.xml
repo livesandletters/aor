@@ -6,6 +6,7 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
     <page filename="earbm_stc_11402_0230.tif" reader="Harvey"  signature="[Nviii[r]]"/>
+                                <!-- CG: I think the signature should be [Nviii[v]] !-->
     <annotation>
         
         <marginalia hand="Italian">
@@ -30,7 +31,9 @@
                     sa[e]pe effectus operantur.</marginalia_text>
                 </position>
             </language>
-            <translation>Political ironies, having been disguised pragmatically and cunningly. Always they serve the preformance incredibly.</translation> <!--JG: Perhaps better: 'The effect of political ironies having been disquished cunningly and pragmatically: they always work'. What do you think, Chris?-->
+            <translation>Political ironies, having been disguised pragmatically and cunningly. Always they serve the preformance incredibly.</translation> 
+            <!--JG: Perhaps better: 'The effect of political ironies having been disquished cunningly and pragmatically: they always work'. What do you think, Chris?-->
+            <!-- CG: I think the original works well. Perhaps something like: "Political irony, a pragmatic and cunning dissimulation, often works to great effect." -->
         </marginalia>
         
         <marginalia hand="Italian">
@@ -46,12 +49,25 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Socrates, Gra[e]coru[m], Sophistas, pla[e]ru[m]q[ue] laudabat [GREEK]. <!--JG: Chris, can you transcribe and translate the Greek-->
+                    <marginalia_text>Socrates, Gra[e]coru[m] Sophistas, pla[e]ru[m]q[ue] laudabat
+                        </marginalia_text>
+                    <person name="Socrates"/>
+                    <emphasis method="pen" type="straight" text="Socrates"/>
+                    </position>
+                </language>
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        ὑπερβολικῶς.
+                    </marginalia_text>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
                         Solinus tradit, quasdam in terra Aphrica familias hominum, voce, linguaq[ue] effascinare:
                         qua[e] si impensi&ugrave;s fort&egrave;</marginalia_text>
-                    <person name="Socrates"/>
                     <person name="Solinus"/>
-                    <emphasis method="pen" type="straight" text="Socrates"/>
                     <emphasis method="pen" type="straight" text="laudabat"/>
                     <emphasis method="pen" type="straight" text="familias hominum"/>
                     <emphasis method="pen" type="straight" text="voce, linguaq[ue]"/>
@@ -72,7 +88,10 @@
                     <marginalia_text>ea[e]dem derepent&egrave; emoriunt[u]r.</marginalia_text>
                 </position>
             </language>
-            <translation>Scorates and many other Greeks praised the sofists [Greek term].<!--JG: Probably have to amend my translation. Would expect the Greek term to be the object here, don't really get why 'Sophistas' is in acc.-->
+            <translation>Scorates and many other Greeks praised the sofists [Greek term].
+                        <!--JG: Probably have to amend my translation. Would expect the Greek term to be the object here, don't really get why 'Sophistas' is in acc.-->
+                        <!-- CG: so the word is 'hyperbolikos' which basically means 'hyperbolically' or 'in an exaggerated manner'. I also think the first sentence is something more like
+                        "Socrates often [plaerumque] praised the Greek sophists hyperbolically" .... i.e. to mock and discredit them. -->
             Solinus related that in Africa certain families of men work spells by voice and tongue, who, if they would exceedingly and strongly praise beautiful trees,
             abounding crops, more pleasant children, and exceptional horses; by feeding sheep and by cultivating abundance: the same families would die out suddenly. </translation>
         </marginalia>
