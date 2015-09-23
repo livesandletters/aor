@@ -59,7 +59,8 @@
     				<marginalia_text>
     					Regula[e] Militares. E Vegetij lib.3.
     				</marginalia_text>
-    				<person name="Vegetius"/> <!--JG: I'd tag Vegetius' De re Militari as well-->
+    				<person name="Vegetius"/>
+    				<book title="De re Militari"/>
     			</position>
     		</language>
     		<translation>
@@ -70,12 +71,12 @@
     		<language ident="LA">
     			<position place="intext" book_orientation="0">
     				<marginalia_text>
-    					Prudentia, et fortitudo.
+    					2. Prudentia, et fortitudo.
     				</marginalia_text>
     			</position>
     		</language>
     		<translation>
-    			Prudence and strength. <!--JG: I'd include the number in the marginal note (and delete the corresponding numeral tag)-->
+    			Prudence and strength. 
     		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
@@ -83,9 +84,9 @@
     			<position place="tail" book_orientation="0">
     				<marginalia_text>    	
     					All nothing worth, withowt cunning direction of [the] Captaine, 
-    					&amp; (upon resolute encurragement) ualiant execution of [the] Sowldiours. 
-    					No uictorious, or ualorous Execution, without confident, &amp; curragious <!--JG: Change 'u's into v's!-->
-    					Resolution: strongly pra[e]suming of Uictory. <!--JG: Change 'u's into v's!-->
+    					&amp; (upon resolute encurragement) valiant execution of [the] Sowldiours. 
+    					No victorious, or valorous Execution, without confident, &amp; curragious
+    					Resolution: strongly pra[e]suming of Victory.
     				</marginalia_text>
     			</position>
     		</language>
@@ -135,8 +136,8 @@
     	<!-- Marks -->
     	<mark name="horizontal_bar" method="pen" place="left_margin"/>
     	<mark name="horizontal_bar" method="pen" place="left_margin"/>
-    	<mark name="bracket" method="pen" place="left_margin"/> <!--JG: I'd link this to printed text (all of it, not just underlined parts)-->
-    	<mark name="bracket" method="pen" place="left_margin"/> <!--JG: Idem-->
+    	<mark name="bracket" method="pen" place="left_margin" language="EN" text="He that shal be in the warre most vigilant to obserue the deuises of the enemie; and shall take moste paine to exercise his army; shall incurre least perrills; and maye hope most of the victorie."/>
+    	<mark name="bracket" method="pen" place="left_margin" language="EN" text="Neuer conducte thy men to fight the field, if first thou hast not confirmed theyr mindes &amp; knowest them to be without feare, &amp; to be in good order: for thou oughtest neuer to enterprise any daungerous thing with thy souldiours, but when thou seest, that they hope to ouercome."/>
     	<mark name="quotation_mark" method="pen" place="left_margin"/>
     	
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="honour"/>
@@ -177,9 +178,6 @@
     	</numeral>
     	<numeral place="intext" language="EN" text="least perrills">
     		I.
-    	</numeral>
-    	<numeral place="intext" language="EN" text="most of the victorie"> <!--JG: See my comments above-->
-    		2.
     	</numeral>
     	
     	<!-- Errata -->

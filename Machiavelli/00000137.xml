@@ -63,8 +63,7 @@
     	
     	<!-- Symbols -->
     	<symbol name="Bisected_circle" place="right_margin"/>
-	<symbol name="Opposite_planets" place="right_margin"/> <!--JG: I think you can link this to the printed text: Anibal Scipio-->
-    	<symbol name="SS" place="intext"/> <!--JG: I think this is not a SS symbol, but a section sign. I added this to the schema (as a mark).-->
+	<symbol name="Opposite_planets" place="right_margin" language="EN" text="Anibal. Scipio."/>
     	
     	<!-- Marks -->
     	<mark name="plus_sign" method="pen" place="right_margin"/>
@@ -84,6 +83,7 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="to hide"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- them, wherefore -->
     	<mark name="comma" method="pen" place="intext"/> <!-- thus confusedly -->
+    	<mark name="section_sign" method="pen" place="intext"/> <!-- awaye. I -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="like vnto a wedge"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="vnto a paire of sheres"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="remeedy"/>

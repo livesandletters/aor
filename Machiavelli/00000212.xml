@@ -20,7 +20,7 @@
     			Note well.
     		</translation>
     	</marginalia>
-    	<marginalia hand="Italian"> <!--JG: Should we include hash in marginal note? Seems to refer to hash in the printed text, above the word remedy (which should be included in anchor element)-->
+    	<marginalia hand="Italian" anchor_text="some remedy"> 
     		<language ident="EN">
     			<position place="left_margin" book_orientation="0">
     				<marginalia_text>
@@ -33,7 +33,7 @@
     		<language ident="LA">
     			<position place="intext" book_orientation="0">
     				<marginalia_text>
-    					flamma, fame, ferro. <!--JG: I think we should include the 3 here, rather than tagging it as a numeral-->
+    					3. flamma, fame, ferro. 
     				</marginalia_text>
     			</position>
     		</language>
@@ -54,8 +54,9 @@
     		<language ident="EN">
     			<position place="tail" book_orientation="0">
     				<marginalia_text>
-    					Scarborowgh warning. <!-- CG: This seems to be a proverbial phrase about the capture of the castle of Scarborough. Should I mark it as a place? --> <!--JG: Yep!-->
+    					Scarborowgh warning. 
     				</marginalia_text>
+    				<location name="Scarborough"/>
     			</position>
     		</language>
     		<language ident="LA">
@@ -64,7 +65,7 @@
     					Astuti Principes alibi minantur, alibi arma inferu[n]t. Olaus.
     				</marginalia_text>
     				<person name="Olaus Magnus"/>
-    				<X-ref person="Olaus Magnus" book_title="De statu regentium et officiorum ac exercitio militari"/> <!--JG: Since he refers to Olaus, perhaps it's better to use the book tag instead of X-ref tag-->   			
+    				<book title="De statu regentium et officiorum ac exercitio militari"/>   			
     			</position>
     		</language>
     		<translation>
@@ -174,9 +175,7 @@
     	<numeral place="intext" language="EN" text="the other">
     		2.
     	</numeral>
-    	<numeral place="intext">
-    		3.
-    	</numeral>
+
     	
     	<!-- Errata -->
     	<errata language="EN" copytext="them:the" amendedtext="them: the"/>

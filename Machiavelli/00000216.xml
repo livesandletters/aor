@@ -48,12 +48,9 @@
     	<underline method="pen" type="straight" language="EN" text="the devv keping of vvatche and vvarde"/>
     	<underline method="pen" type="straight" language="EN" text="secrete conueighi[n]g"/>
     	
-    	<!-- Symbols -->
-    	<symbol name="SS" place="intext"/>    	<!--JG: Section_sign-->
-
     	<!-- Marks -->
-    	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text=""/> <!--JG: Empty text attribute. Link shouldn't be made-->
-    	<mark name="hash" method="pen" place="left_margin" language="EN" text=""/> <!--JG: Empty text attribute. Link shouldn't be made -->
+    	<mark name="plus_sign" method="pen" place="left_margin"/>
+    	<mark name="hash" method="pen" place="left_margin"/>
     	<mark name="circumflex" method="pen" place="left_margin"/>
     	<mark name="circumflex" method="pen" place="left_margin"/>
     	<mark name="circumflex" method="pen" place="left_margin"/>
@@ -65,6 +62,8 @@
     	<mark name="circumflex" method="pen" place="left_margin"/>
     	<mark name="circumflex" method="pen" place="left_margin"/>
     	<mark name="circumflex" method="pen" place="left_margin"/>    	
+    	
+    	<mark name="section_sign" method="pen" place="intext"/>
     	
     	<mark name="dot" method="pen" place="intext"/> <!-- liuely, the -->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="warde"/>

@@ -15,10 +15,10 @@
     	<underline method="pen" type="straight" language="EN" text="that you leese no time"/>
     	<underline method="pen" type="straight" language="EN" text="pacience, if with these our Ceremonies"/>
     	<underline method="pen" type="straight" language="EN" text="demaunders, maketh mee"/>
-
-	<!-- CG: Seems to be emended text with "she" "hetherto" and "those shoulde" but I'm not sure what to put for the original. -->
-    	<!--JG: I'll come back to this, since it could have been that Harvey tried to 'restore' characters that had faded. Not sure how to capture this-->
-    	<!--JG: Ok, use the errata tag to capture these instances in which Harvey seemed to 'conserve' the printed text. In the copytext I'd include 'she', 'het rto' 'those should', for in some cases the (remaineder) of the printed letters are not visible, hence we shouldn't include them in the copytext attribute-->
+    	
+    	<errata language="EN" copytext="she" amendedtext="she"/>
+    	<errata language="EN" copytext="he rto" amendedtext="hetherto"/>
+    	<errata language="EN" copytext="those shoulde" amendedtext="those shoulde"/>
 
     </annotation>
 </transcription>

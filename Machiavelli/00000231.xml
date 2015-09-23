@@ -28,7 +28,8 @@
     				</marginalia_text>
     				<person name="Frontinus"/>
     				<person name="Polyaenus"/>
-    				<book title="Stratagems"/> <!--JG: I'd tag Frontinus' book as well-->
+    				<book title="Stratagems"/> 
+    				<book title="The stratagems"/>
     				<emphasis method="pen" type="straight" text="Ipsa Exercitatio"/>
     			</position>
     		</language>
@@ -37,7 +38,7 @@
     			it is necessary to add it to this Art of War, along with the Stratagems
     			of Frontinus and Polyaenus. 
     			This very exercise, and military practice, will most easily complete
-    			all other military documents, actively adapted to the living instructions a <!--JG: Should 'a' be deleted?-->
+    			all other military documents, actively adapted to the living instructions
     			and powerful examples of today's experience.
     		</translation>
     	</marginalia>
@@ -83,9 +84,9 @@
     		<translation>
     			Virtue, and human fortune, are connected in many experiences, 
     			powerful in war. Olaus Magnus. 
-    			Caesar assigned every felicity and fortune of himself to the two <!--JG: Does ipsam refer to Caesar or fortune? Seems to agree with the latter..-->
-    			most powerful skills: knowledge, and virtue: all glory in action [comes]
-    			of these. Hidden virtue differs too little from burried ignorance.
+    			Caesar assigned every felicity and fortune itself to the two 
+    			most powerful skills: knowledge and virtue: all glory in action comes
+    			from these. Hidden virtue differs too little from burried ignorance.
     		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
@@ -113,8 +114,15 @@
     				<person name="Matthew Sutcliffe"/>
     				<person name="Roger Williams"/>
     				<person name="Leonard Digges"/>
-    				<book title="Stratioticos"/>    	
-    				<!--JG: Chris, maybe we should tag some books as well. I know that he doesn't mention the title, but he does mention the contents of the books, so it musn't be too hard to get the right titles. See also: https://books.google.co.uk/books?id=C3LPSRiBmMoC&pg=PA56&lpg=PA56&dq=gandino+fortification&source=bl&ots=PzUTef-5DE&sig=b3jqqQ5xNVTOCxmtcSgQaU7xE5U&hl=en&sa=X&ei=vTQRVd73Ocz5aPTVAg&ved=0CCYQ6AEwAQ#v=onepage&q=gandino%20fortification&f=false-->
+    				<book title="Stratioticos"/>   <!-- Digges -->
+    				<book title="De re Militari"/> <!-- Vegetius -->
+    				<book title="Art of War"/> <!-- Machiavelli -->
+    				<book title="The Practice, Proceedings, and Lawes of Armes"/> <!-- Sutcliffe --> 
+    				<book title="Stratagemata"/> <!-- Gandino -->
+    				<book title="Commentarius Bellicus"/> <!-- Rantzau -->
+    				<book title="Trattato delle fortificazioni"/> <!-- Tetti -->
+    				<book title="De bello civili"/> <!-- Caesar -->
+    				<book title="A Brief Discourse of War"/> <!-- Williams -->
     			</position>
     		</language>
     	</marginalia>
@@ -128,7 +136,7 @@
     	
     	<!-- Symbols -->
     	<symbol name="Mercury" place="left_margin"/>
-    	<symbol name="SS" place="left_margin"/> <!--JG: I think you can copy the text of the marginal note in the text attribute of the symbol-->
+    	<symbol name="SS" place="left_margin" language="EN" text="Owr Inglish militar Discipline, Under General Norris, jn [the] Dialogus, intitu[l]id, The Castle of Pollicy: Under [the] Earle of Leicester, In his owne Lawes, &amp; Ordinances. The Spanish Discipline, under [the] Duke d'Alva, 	&amp; [the] Prince of Parma, [the] best Discipline now in Esse, newly discoursid by Sir Roger Williams."/>
     	
     	<symbol name="SS" place="right_margin"/>
     	

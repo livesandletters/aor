@@ -13,16 +13,19 @@
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
     					A braue Enterprise, &amp; honorable Victory, of Ca[e]sar Borgia.
-    				</marginalia_text> <!--JG: Tag Borgia-->
+    				</marginalia_text>
+    				<person name="Cesare Borgia"/>
     			</position>
     		</language>
     	</marginalia>
-    	<marginalia hand="Italian" anchor_text="many Epigrames, made"> <!--JG: You can include more than just the underlined words. I'd include the remainder of the sentence as well-->
+    	<marginalia hand="Italian" anchor_text="The which was testified of many Epigrames, made in those dayes of his praise."> 
     		<language ident="EN">
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
-    					The honour, &amp; praises of Caesar Borgia. <!--JG: You forgot a part of the marginal note-->
-    				</marginalia_text> <!--JG: Tag Borgia et al.-->
+    					The honour, &amp; praises of Caesar Borgia, Machiauels Prince. 
+    				</marginalia_text>
+    				<person name="Cesare Borgia"/>
+    				<person name="Machiavelli"/>
     			</position>
     		</language>
     	</marginalia>

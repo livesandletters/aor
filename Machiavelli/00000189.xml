@@ -30,7 +30,7 @@
     			</position>
     		</language>
     		<translation>
-    			Hypocritically and ironically.	<!-- CG: This usage of "irony" seems peculiar to Harvey, so I'm going to try to not translate it as something like "deceptively." --> <!--JG: See below-->
+    			Hypocritically and deceptively.
     		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
@@ -39,12 +39,13 @@
     				<marginalia_text>
     					Tiberij Ca[e]saris perpetua Ironia. aliud semper	
     					pra[e]tendere; aliud intendere. Vulpina Simulatio.
-    				</marginalia_text> <!--JG: Tag him as well!-->
+    				</marginalia_text>
+    				<person name="Tiberius Caesar"/>
     			</position>
     		</language>
     		<translation>
-    			The perpetual Irony of Tiberius Caesar. Always claim one thing; <!-- CG: Idem. The ABO translator wanted to make this "the deception of Caesar." --> <!--JG: But what about the combination 'Ironia' with 'Simulatio' in this note? Does that not make the translation of Ironia as deception more likely?-->
-    			intend another thing. Foxlike simulation.
+    			The perpetual Deception of Tiberius Caesar. Always claim one thing,
+    			intend to do another. Foxlike simulation.
     		</translation>
     	</marginalia>
     	
@@ -94,10 +95,7 @@
     	
     	<!-- Symbols -->
 	<symbol name="Mercury" place="right_margin"/>
-    	<symbol name="SS" place="left_margin"/> <!--JG: is section_sign -->
-    	<symbol name="SS" place="intext"/> <!--JG: is section_sign -->
-    	<symbol name="SS" place="intext"/> <!--JG: is section_sign -->
-    	
+
     	<!-- Marks -->
     	<mark name="hash" method="pen" place="right_margin"/>
     	<mark name="hash" method="pen" place="right_margin"/>
@@ -109,6 +107,10 @@
     	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="ouercome me[n] at vnvvares"/>
     	<mark name="plus_sign" method="pen" place="right_margin" language="EN" text="purposest to hurte them"/>
     	<mark name="dash" method="pen" place="right_margin"/> <!-- Marginal text -->
+    	
+    	<mark name="section_sign" method="pen" place="right_margin"/>
+    	<mark name="section_sign" method="pen" place="intext"/>
+    	<mark name="section_sign" method="pen" place="intext"/>
     	
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="Townes"/>
     	<mark name="plus_sign" method="pen" place="intext"/>

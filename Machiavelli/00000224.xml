@@ -38,8 +38,6 @@
     	<underline method="pen" type="straight" language="EN" text="capitaine"/>
     	<underline method="pen" type="straight" language="EN" text="retourneth"/>
     	
-    	<!-- Symbols -->
-    	<symbol name="SS" place="intext"/> <!--JG: = section sign-->
 
     	<!-- Marks -->
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="keepe a horse"/>
@@ -51,6 +49,8 @@
     	<mark name="hash" method="pen" place="left_margin" language="EN" text="inuencion is sene, althoughe it were"/>
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="able more strongly to withstand"/>
     	<mark name="hash" method="pen" place="left_margin"/>
+    	
+    	<mark name="section_sign" method="pen" place="intext"/>
     	
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="weare fine cloathe"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="howe to deuise of him selfe"/>
@@ -65,7 +65,7 @@
     	
     	<!-- Errata -->
     	<errata language="EN" copytext="whome" amendedtext="whoe"/>
-    	<errata language="EN" copytext="no twarning" amendedtext="no warning"/> <!--JG: Should amended text be 'not warning' since it seems that he didn't cross out the 't'?-->
+    	<errata language="EN" copytext="no twarning" amendedtext="not warning"/>
     	
     </annotation>
 </transcription>

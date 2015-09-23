@@ -63,7 +63,7 @@
     			Strategical.
     		</translation>
     	</marginalia>
-    	<marginalia hand="Italian"> <!--JG: Link to printed text?-->
+    	<marginalia hand="Italian" anchor_text="howe thou wilte order thy army to fight ">
     		<language ident="LA">
     			<position place="left_margin" book_orientation="0">
     				<marginalia_text>
@@ -103,11 +103,11 @@
     			Men.
     		</translation>
     	</marginalia>
-    	<marginalia hand="Italian">
+    	<marginalia hand="Italian" anchor_text="Men, yron, money, and bread">
     		<language ident="EN">
     			<position place="left_margin" book_orientation="0">
     				<marginalia_text>
-    					4.	<!-- CG: Should I count this as a numeral? --> <!--JG: I'd do it as a marginal note, since this number is not part of a list. I'd link it to the printed text 'Men, yron...bread'-->
+    					4.
     				</marginalia_text>
     			</position>
     		</language>
@@ -124,16 +124,10 @@
     				<X-ref person="Livy" book_title="Ab urbe condita" language="LA" text="Capua Hannibali Cannae"/>
     			</position>
     		</language>
-    	</marginalia>
-    	<marginalia hand="Italian">
-    		<language ident="LA">
-    			<position place="left_margin" book_orientation="0">
-    				<marginalia_text>
-    					"Capua was Hannibal's at Cannae." 
-    					The hard carry out hard things: the soft soft things. <!-- CG: Unsure of this. --> <!--JG: Translation makes sense to me-->
-    				</marginalia_text>    				
-    			</position>
-    		</language>
+    		<translation>
+    			"Capua was Hannibal's at Cannae." 
+    			The hard carry out hard things: the soft soft things. 
+    		</translation>		
     	</marginalia>
     	
     	<marginalia hand="Italian">
@@ -260,8 +254,7 @@
     	<symbol name="SS" place="tail"/>
 
     	<!-- Marks -->
-    	<mark name="bracket" method="pen" place="left_margin"/> <!--JG: I'd include this one in the marginal note-->
-    	<mark name="bracket" method="pen" place="right_margin"/> <!--JG: I'd include the printed text in an attribute, since it's quite clear which part of the text he brackets off. 'Men...and yron'-->
+    	<mark name="bracket" method="pen" place="right_margin" language="EN" text="Men, yron, money, and bread, bee the strength of the warre, but of these foure, the first twoo be moste necessarye: because men and yron, finde money and bread: but breade and money finde not men and yron."/>
     	
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="feare"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- punishmente, after -->
@@ -270,7 +263,6 @@
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="occasion"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="order thy army to fight"/>
     	<mark name="dot" method="pen" place="intext"/> <!-- fight, and -->
-    			<!-- CG: Unsure of mark after "army to fight": perhaps an attempt to separate the comma from 'and' ? i.e. an errata? --> <!--JG: Difficult one! I'd put it as an errata tag indeed. Give some explanation in a comment field-->
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="the fighte"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="anye"/>
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="same"/>
@@ -286,7 +278,9 @@
     	<mark name="horizontal_bar" method="pen" place="intext"/>
     	<mark name="horizontal_bar" method="pen" place="intext"/>
     	<mark name="horizontal_bar" method="pen" place="intext"/>
-    	<!--JG: Dot between you, and?-->
+    	<mark name="dot" method="pen" place="intext"/>
+    	
+    	<errata language="EN" copytext=",and" amendedtext=", and"/> <!-- Bar seems to be separting comma from word. -->
     	
     </annotation>
 </transcription>
