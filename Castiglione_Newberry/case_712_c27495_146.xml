@@ -34,12 +34,21 @@
                     <marginalia_text>
                         Dionis
                     </marginalia_text>
-                    <person name="Dionysius the Areopagite"/> <!-- AB: bit unsure about this one - Chris, does the Greek make this any clearer? Have added him to the People doc in any case. -->
+                    <person name="Dionysius the Areopagite"/> 
+                        <!-- AB: bit unsure about this one - Chris, does the Greek make this any clearer? Have added him to the People doc in any case. -->
+                        <!-- CG: I think this is probably Dion of Syracuse, but I don't know. -->
                 </position>
             </language>
             <language ident="EL">
-                <!-- Chris, add Greek please! Thanks :) -->
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        ἀπιστία
+                    </marginalia_text>
+                </position>
             </language>
+            <translation>
+                The distrust of Dion.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="neuer to put a mannes trust in amy person in the worlde">
