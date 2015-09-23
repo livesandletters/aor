@@ -11,11 +11,27 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Tale quid de Ascanio refert Virgilius libro secundo A[e]neid. hoc autem &agrave; physicis nostris Ignis lambens vsurpatur. <!--Chris, check the Greek please-->
+                    <marginalia_text>
+                        Tale quid de Ascanio refert Virgilius libro secundo A[e]neid. hoc autem                        
                     </marginalia_text>
                     <person name="Virgil"/>
                     <person name="Ascanius"/>
                     <book title="Aeneid"/>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        μετέωρον
+                    </marginalia_text>
+                            <!-- Greek added. -->
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>                    
+                        &agrave; physicis nostris Ignis lambens vsurpatur. 
+                    </marginalia_text>                   
                 </position>
             </language>
             <translation>Vergilius reports something similar about Ascanius, in the second book of the Aeneid. 
