@@ -10,12 +10,12 @@
 <!ELEMENT annotation (marginalia*, underline*, symbol*, mark*, numeral*, errata*, drawing*)>	
 	<!ELEMENT marginalia (language*, translation?)>
 	<!ATTLIST marginalia hand (English_secretary|Italian) #REQUIRED>
-	<!ATTLIST marginalia marginalia_id ID #IMPLIED>
-	<!ATTLIST marginalia marginalia_continues_to IDREF #IMPLIED>
-	<!ATTLIST marginalia marginalia_continues_from IDREF #IMPLIED>
-	<!ATTLIST marginalia marginalia_to_filename IDREF #IMPLIED>
-	<!ATTLIST marginalia marginalia_from_filename IDREF #IMPLIED>
-	<!ATTLIST marginalia book_id IDREF #IMPLIED>
+	<!ATTLIST marginalia marginalia_id CDATA #IMPLIED>
+	<!ATTLIST marginalia marginalia_continues_to CDATA #IMPLIED>
+	<!ATTLIST marginalia marginalia_continues_from CDATA #IMPLIED>
+	<!ATTLIST marginalia marginalia_to_filename CDATA #IMPLIED>
+	<!ATTLIST marginalia marginalia_from_filename CDATA #IMPLIED>
+	<!ATTLIST marginalia book_id CDATA #IMPLIED>
 	<!ATTLIST marginalia date CDATA #IMPLIED>
 	<!ATTLIST marginalia other_reader CDATA #IMPLIED>
 	<!ATTLIST marginalia topic (Law|Astronomy|Warfare|Rhetoric) #IMPLIED> 
@@ -44,8 +44,8 @@
 						<!ELEMENT internal_ref (target+)> 
 						    <!ATTLIST internal_ref text CDATA #REQUIRED>
 						          <!ELEMENT target EMPTY>
-						              <!ATTLIST target filename IDREF #REQUIRED>
-						              <!ATTLIST target book_id IDREF #REQUIRED>
+						              <!ATTLIST target filename CDATA #REQUIRED>
+						              <!ATTLIST target book_id CDATA #REQUIRED>
 						              <!ATTLIST target text CDATA #REQUIRED>
 		<!ELEMENT translation (#PCDATA)>
 	<!ELEMENT underline EMPTY>

@@ -50,12 +50,12 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="marginalia_id" type="xs:ID"/>
-    <xs:attribute name="marginalia_continues_to" type="xs:IDREF"/>
-    <xs:attribute name="marginalia_continues_from" type="xs:IDREF"/>
-    <xs:attribute name="marginalia_to_filename" type="xs:IDREF"/>
-    <xs:attribute name="marginalia_from_filename" type="xs:IDREF"/>
-    <xs:attribute name="book_id" type="xs:IDREF"/>
+    <xs:attribute name="marginalia_id"/>
+    <xs:attribute name="marginalia_continues_to"/>
+    <xs:attribute name="marginalia_continues_from"/>
+    <xs:attribute name="marginalia_to_filename"/>
+    <xs:attribute name="marginalia_from_filename"/>
+    <xs:attribute name="book_id"/>
     <xs:attribute name="date"/>
     <xs:attribute name="other_reader"/>
     <xs:attribute name="topic">
@@ -219,8 +219,8 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.target">
-    <xs:attribute name="filename" use="required" type="xs:IDREF"/>
-    <xs:attribute name="book_id" use="required" type="xs:IDREF"/>
+    <xs:attribute name="filename" use="required"/>
+    <xs:attribute name="book_id" use="required"/>
     <xs:attribute name="text" use="required"/>
   </xs:attributeGroup>
   <xs:element name="translation" type="xs:string"/>
