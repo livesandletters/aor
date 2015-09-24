@@ -15,8 +15,11 @@
 						Lentum est, dabit: dat, hoc quoq[ue] est lentum: dedit.
 						Seneca in Hercule furente.
 					</marginalia_text>
+					<person name="Seneca"/>
+					<book title="Hercules Furens"/>
 				</position>
 			</language>
+			<translation>"Shall pay is slow – he pays; that, too, is slow – he has paid." [trans. Frank Miller, 1917]. Seneca in 'Hercules furens'.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -25,6 +28,8 @@
 					<marginalia_text>
 						Non lenta Herculis via, vt Bacchi.
 					</marginalia_text>
+					<person name="Hercules"/>
+					<person name="Bacchus"/>
 				</position>
 			</language>
 			<language ident="IT">
@@ -34,13 +39,15 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Hercules' life is not sluggish, as is Bacchus'.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Fredericusu 2. Dania[e]
+						Fredericus 2. Dania[e]
 					</marginalia_text>
+					<person name="Frederick II of Denmark"/>
 				</position>
 				<position place="right_margin" book_orientation="0">
 					<marginalia_text>
@@ -51,6 +58,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Frederick II, king of Denmark. Deprived from the prince, prince from the deprived. Both honorable.</translation> <!--JG: I don't really get this. Chris, any idea how to render this?-->
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -62,15 +70,14 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>The father of today's adolescent king, Christian 4.</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="EN">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
 						Theise great Lords, little actours: but pretty men for a time. A short floorish, &amp; Godnight.
-						
 						<!-- CG: Missing text added. -->
 					</marginalia_text>
 				</position>
@@ -86,8 +93,13 @@
 						Legere Ciceronem, aut Virgilium:
 						et singula accuratissim&egrave;.
 					</marginalia_text>
+					<person name="Demosthenes"/>
+					<person name="Homer"/>
+					<person name="Cicero"/>
+					<person name="Virgil"/>
 				</position>
 			</language>
+			<translation>Do listen to Demosthenes and Homer. Do read Cicero, or Virgil: and singular authors most accurately.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -99,6 +111,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>God listens, the king readers: the world-critic will judge.</translation> <!--JG: Unsure about criticus mundus-->
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -107,8 +120,12 @@
 					<marginalia_text>
 						Nec in astra lent&acirc; veniet, ut Baccus, vi&acirc;. Juno de Hercule.
 					</marginalia_text>
+					<person name="Bacchus"/>
+					<person name="Juno"/>
+					<person name="Hercules"/>
 				</position>
 			</language>
+			<translation>He does not come into the skies in a sluggish way, as Bacchus. Juno on Hercules.</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="Cesar' Augusto"/>
