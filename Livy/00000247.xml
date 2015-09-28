@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000247.tif" pagination="225" reader="Harvey" />
+    <page filename="00000247.tif" pagination="225" reader="Harvey"/>
     <annotation>
         
         <marginalia hand="Italian">
@@ -19,7 +19,6 @@
             <language ident="EL">
                 <position place="head" book_orientation="0">
                     <marginalia_text> ἐν ἀκμῆ:</marginalia_text>
-                        <!-- Greek added.  -->
                 </position>
             </language>
             <language ident="LA">
@@ -110,7 +109,7 @@
         <underline method="pen" type="straight" language="LA" text="Alexandro fuit bellandu[m]"/>
         <underline method="pen" type="straight" language="LA" text="Coruinum"/>
         <underline method="pen" type="straight" language="LA" text="Manliu[m] Torquatum"/>
-        <underline method="pen" type="straight" language="LA" text="Papyrium Cursorm"/>
+        <underline method="pen" type="straight" language="LA" text="Papyrium Cursorem"/>
         <underline method="pen" type="straight" language="LA" text="Fabium Maximum"/>
         <underline method="pen" type="straight" language="LA" text="duos Decios"/>
         <underline method="pen" type="straight" language="LA" text="Marcum Curium"/>
@@ -223,6 +222,7 @@
         <mark name="equal_sign" method="pen" place="left_margin"/>
         
         <mark name="triple_dash" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!--exacto-->
         <mark name="dash" method="pen" place="right_margin"/> <!--an-->
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!--no-->
@@ -253,8 +253,9 @@
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="corporis"/>
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="animi"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="co[n]silijs"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="solertius"/>
+        <mark name="equal_sign" method="pen" place="intext"/> <!-- castris -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="aciem"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="subsidijs"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="eneruatum"/>
@@ -262,7 +263,7 @@
         <mark name="apostrophe" method="pen" place="intext"/> <!--hostem, nihil-->
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="uana"/>
         <mark name="apostrophe" method="pen" place="intext"/> <!--contemnere, incruentus-->
-        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="Daria"/>
+        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="Dario"/>
         <mark name="dot" method="pen" place="intext"/> <!--uenisset, &-->
         <mark name="dot" method="pen" place="intext"/> <!--uestis, &-->
         <mark name="dot" method="pen" place="intext"/> <!--uictoribus, &-->
@@ -273,6 +274,7 @@
         <mark name="equal_sign" method="pen" place="intext" />
         <mark name="diacritic" method="pen" place="intext" language="LA" text="aduersus"/>
         <mark name="dot" method="pen" place="intext" /> <!--sit, Alexandro-->
+        <mark name="diacritic" method="pen" place="intext" language="LA" text="aduersus"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="unius"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!--uariauerit Quin-->
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="fortuna"/>
