@@ -5,11 +5,11 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000254.tif" pagination="233" reader="Harvey"  signature="u2[r]"/>
+    <page filename="00000254.tif" pagination="233" reader="Harvey"  signature="[u2 v]"/>
     <annotation>
         
         <marginalia hand="Italian">
-            <language ident="LA">
+            <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>A cunning ambush, as finely defeated.
                     </marginalia_text>
@@ -57,6 +57,8 @@
         <symbol name="Mercury" place="left_margin" language="LA" text="insidijs"/>
         <symbol name="SS" place="left_margin"/>
         
+        <mark name="dash" method="pen" place="right_margin"/> <!--mili-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--pr[a]epoten-->
         <mark name="dash" method="pen" place="right_margin"/> <!--ca-->
         <mark name="dash" method="pen" place="right_margin"/> <!--farci-->
         <mark name="dash" method="pen" place="right_margin"/> <!--insi-->
@@ -74,4 +76,3 @@
         
     </annotation>
 </transcription>
-

@@ -25,7 +25,7 @@
         <underline method="pen" type="straight" language="LA" text="ex familia"/>
         <underline method="pen" type="straight" language="LA" text="uelut fatalis tum tribunis"/>
         <underline method="pen" type="straight" language="LA" text="certame[n]"/>
-        <underline method="pen" type="straight" language="LA" text="Claudius censor circuactis"/>
+        <underline method="pen" type="straight" language="LA" text="Claudius censor circu[n]actis"/>
         <underline method="pen" type="straight" language="LA" text="Plautius collega eius"/>
         <underline method="pen" type="straight" language="LA" text="co[m]pelli ut abdicaret potuit"/>
         <underline method="pen" type="straight" language="LA" text="Sempronius erat tribunus"/>
@@ -48,6 +48,7 @@
         <underline method="pen" type="straight" language="LA" text="decemuir in annu[m] creatus"/>
         <underline method="pen" type="straight" language="LA" text="altera anno se ipse creauit"/>
         <underline method="pen" type="straight" language="LA" text="tertio nec ab se"/>
+        <underline method="pen" type="straight" language="LA" text="nec ab"/>
         <underline method="pen" type="straight" language="LA" text="priuatus fasces &amp; imperiu[m] obtinuit"/>
         <underline method="pen" type="straight" language="LA" text="obruere[n]t eum mal&egrave; parta"/>
         <underline method="pen" type="straight" language="LA" text="mal&egrave; gesta"/>
@@ -62,7 +63,7 @@
         <underline method="pen" type="straight" language="LA" text="co[n]nubia patru[m] &amp; plebis"/>
         <underline method="pen" type="straight" language="LA" text="plebi ad curules magistratus iter"/>
         <underline method="pen" type="straight" language="LA" text="hoc est nome[n] multo"/>
-        <underline method="pen" type="straight" language="LA" text="Tarquinior[m] infestius uestrae libertati"/>
+        <underline method="pen" type="straight" language="LA" text="Tarquinioru[m] infestius uestrae libertati"/>
         <underline method="pen" type="straight" language="LA" text="censores fuirint nobilissimi"/>
         <underline method="pen" type="straight" language="LA" text="nemo eoru[m] duodecim tabulas legit"/>
         <underline method="pen" type="straight" language="LA" text="id ius esse"/>
@@ -71,10 +72,10 @@
         <underline method="pen" type="straight" language="LA" text="hanc postremu[m] iusserat populus"/>
         <underline method="pen" type="straight" language="LA" text="ubi duae co[n]trariae"/>
         <underline method="pen" type="straight" language="LA" text="antiquae abrogat noua"/>
-        <underline method="pen" type="straight" language="LA" text="non tenire &AElig;mylia lege"/>
+        <underline method="pen" type="straight" language="LA" text="non teneri &AElig;mylia lege"/>
         
-        <symbol name="JC" place="intext" language="LA" text="&AElig;myliae legi"/>
-        <symbol name="SS" place="intext" language="LA" text="&AElig;mylia lege"/>
+        <symbol name="JC" place="tail" language="LA" text="&AElig;myliae potius legi"/>
+        <symbol name="LL" place="tail" language="LA" text="&AElig;mylia lege"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
@@ -96,6 +97,8 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--fem-->
         
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="fatalis"/>
+        <mark name="dot" method="pen" place="intext"/> <!--erat, cum-->
+        <mark name="dot" method="pen" place="intext"/> <!--iustam, nec-->
         <mark name="comma" method="pen" place="intext"/> <!--dominante[m] intra-->
         <mark name="straight_quotation_mark" method="pen" place="intext"/>
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="post"/> 
@@ -109,4 +112,3 @@
         
     </annotation>
 </transcription>
-

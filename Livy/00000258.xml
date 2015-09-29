@@ -5,10 +5,11 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000258.tif" pagination="236" reader="Harvey"  signature="[u4v]"/>
+    <page filename="00000258.tif" pagination="236" reader="Harvey"  signature="[u4 v]"/>
     <annotation>
+        
         <marginalia hand="Italian">
-            <language ident="LA">
+            <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>A cunning &amp; valiant Exploit.</marginalia_text>
                 </position>
@@ -69,7 +70,7 @@
         <underline method="pen" type="straight" language="LA" text="co[n]sulis ipsius uulnus"/>
         <underline method="pen" type="straight" language="LA" text="etia[m] aucta fama (ut solet)"/>
         <underline method="pen" type="straight" language="LA" text="terror patres inuasit"/>
-        <underline method="pen" type="straight" language="LA" text="dictatoreq[ue] dici"/>
+        <underline method="pen" type="straight" language="LA" text="dictatore[m]q[ue] dici"/>
         <underline method="pen" type="straight" language="LA" text="Cursor Papyrius diceretur"/>
         <underline method="pen" type="straight" language="LA" text="quo tum summa rei bellic[a]e ponebatur, dubium cuiq[uam]"/>
         <underline method="pen" type="straight" language="LA" text="Fabius infestus priuatim Papyrio erat"/>
@@ -110,12 +111,14 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--conue-->
         <mark name="dash" method="pen" place="right_margin"/> <!--princi-->
         
+        <mark name="dot" method="pen" place="intext"/> <!--hostes, quo-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Cursor"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="quo tum summa rei bellic[a]e ponebatur, dubium cuiq[uam]"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="summa"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="simultatu[m]"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="patriae"/>
         <mark name="dot" method="pen" place="intext"/> <!--ma[n]datis, co[n]sul-->
         <mark name="comma" method="pen" place="intext"/> <!--incertis quid-->
+        <mark name="comma" method="pen" place="intext"/> <!--acturus-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Papyriu[m]"/>
         
     </annotation>
