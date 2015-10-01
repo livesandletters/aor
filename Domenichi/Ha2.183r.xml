@@ -16,6 +16,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Well done!</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="EL">
@@ -25,6 +26,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation></translation> <!--JG: Chris, please translate this-->
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -36,6 +38,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Oh eyes and ears. Oh feet and hands. Oh angelic wings.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -45,6 +48,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>The unique orthopaedics of the world.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -55,6 +59,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>A game and a joke, all practical persuit.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -62,8 +67,10 @@
 					<marginalia_text>
 						{ Entelechia. Nescia stare loco.
 					</marginalia_text>
+					<X-ref person="Lucan" book_title="Pharsalia" language="LA" text="Nescia stare loco"/>
 				</position>
 			</language>
+			<translation>Actualization. "Not knowing how to stand in one place".</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -75,6 +82,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>God is all ear, eye, foot, hand: thus of a divine mind.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -84,6 +92,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+		<translation>Yesterday, today, tomorrow.q</translation>
 		</marginalia>
 		
 		
@@ -91,14 +100,29 @@
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						Hui, tam diu Cantabrigia[e], aut Valdini? At decebat Londini, Amtuerpia[e], Parisijs; Romae, Florentia[e], Mediolani,
+						Hui, tam diu Cantabrigia[e], aut Valdini? At decebat Londini, Antuerpia[e], Parisijs; Romae, Florentia[e], Mediolani,
 						Venetijs; Basilia[e], Norimberga[e], Augusta[e]; Salamantica[e], Toleti, Hispali; Constantinopoli;
 						vbiq[ue] nobilissimaru[m] Ciuitatum, atq[ue] nationu[m].
 					</marginalia_text>
+					<location name="Cambridge"/>
+					<location name="Antwerp"/>
+					<location name="Paris"/>
+					<location name="Rome"/>
+					<location name="Florence"/>
+					<location name="Milan"/>
+					<location name="Venice"/>
+					<location name="Basel"/>
+					<location name="Nürnberg"/>
+					<location name="Straubing"/>
+					<location name="Salamanca"/>
+					<location name="Toledo"/>
+					<location name="Seville"/>
+					<location name="Constantinople"/>
 				</position>
 			</language>
+			<translation>Whee, so long Cambridge, or [?]? But it seems proper to Antwerp, Paris, Florence, Milan, Venice; <!--JG: No clue what 'Valdini' can be-->
+				Basel, Nürnberg, Straubing; Salamanca, Toledo, Seville; Constantinopel; everywhere of the most nobles cities and nations.</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -107,6 +131,8 @@
 						Apollonius Tyaneus, Linguis; Artibus; Philosophia; professionibus; maximeq[ue] Arcanis;
 						omnium erat hominum facil&egrave; expeditissimus. Eadem Eudromi Pa[e]dia
 					</marginalia_text>
+					<person name="Apollonius of Tyana"/>
+					<person name="Eudromus"/>
 				</position>
 				<position place="intext" book_orientation="270">
 					<marginalia_text>
@@ -115,6 +141,8 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Apollonius of Tyana, he easily was the most skilled of all man: in languages, arts, philolsophy, professions, and greatly in mysteries. A similar 
+			uncorruptible education of Eudromus: and the most effective discipline of the world. Especially with today's most powerful practices.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -123,8 +151,11 @@
 					<marginalia_text>
 						Nullius tanta voluptas, quanta philosophi. Hierocles: et eo alacrior, Eudromus.
 					</marginalia_text>
+					<person name="Hierocles"/>
+					<person name="Eudromus"/>
 				</position>
 			</language>
+			<translation>No one's desire is as great as the philosopher's. Hierocles: and keener, Eudromus.</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="animo de"/>
