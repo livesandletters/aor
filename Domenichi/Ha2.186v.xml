@@ -13,11 +13,14 @@
 				<position place="head" book_orientation="0">
 					<marginalia_text>
 						Catonis versus adamantini, et profundi. Qu&acirc; flumen placidum est,
-						forrsan latet alti&ugrave;s vnda. Et, Tuta mag&egrave; est puppis,
+						forsan latet alti&ugrave;s vnda. Et, Tuta mag&egrave; est puppis,
 						modito qua[e] flumine fertut.
 					</marginalia_text>
+					<person name="Dionysius Cato"/>
+					<book title="Distichs of Cato"/>
 				</position>
 			</language>
+			<translation>The verse of the incorruptible and profound Cato. "Perchance the quiet rivers too deep run." And, "safest the ships which smallest waters ply." [trans. Wayland Johnson Chase, 1922]</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -31,6 +34,8 @@
 						Et, Vulnera dum sanas, dolor est Medicina doloris.
 						Et, Vitandum ducas, inimicum nomen amici.
 					</marginalia_text>
+					<person name="Dionysius Cato"/>
+					<book title="Distichs of Cato"/>
 				</position>
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
@@ -39,6 +44,10 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>And, "Sweet sounds the fowler's pipe to lure the prey". And, "Lest thus thou fail to be what thou wouldst witty seem". And, "Begin what thou to finish canst not fail.
+				Safer near shore than on the deep to sail". And, "To cure the hurt thy grief will well suffice". And, "Lest false to thee, thy fame and goods he spend."
+				And, "Behind Time's bald, his forehead's thick with hair". And, "ried friends are sure, untried may not be so." [trans. Wayland Johnson Chase, 1922]
+			</translation> <!--JG: Perhaps I should find a bit more literal translation, e.g. Minor Latin Poets, J. Wight Duff and Arnold M. Duff, Loeb Library, Cambridge, 1934-->
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="IT">
@@ -48,8 +57,8 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Discreetly.</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -59,10 +68,12 @@
 						sed fuge Litem. Sic in rebus omnibus, excerpendum est, quod inest boni: fugiendu[m], quod
 						adha[e]ret Mali.
 					</marginalia_text>
+					<X-ref person="Dionysius Cato" book_title="Distichs of Cato" language="LA" text="Cum Venere, et Baccho Lis est, et iuncta Voluptas: Quod lautum est, animo complectere, sed fuge Litem."/>
 				</position>
 			</language>
+			<translation>"With love and wine pleasure and strife are knit; Cleave to the good in these; the bad omit." [trans. Wayland Johnson Chase, 1922]
+			Thus in all matters, one must select what belongs to good things: one must avoid what is involved in bad things.</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -72,8 +83,13 @@
 						gratificandi occasio; sine suo damno. Etiam cum propria res contra ageretur, vald&egrave; dulcis:
 						vt cunq[ue] in fine, et in effectu suus. Pars beneficij est, quod petitur, ben&egrave; neges.
 					</marginalia_text>
+					<person name="Eutrapelus"/>
+					<X-ref person="Publilius Syrus" book_title="Sententiae" language="LA" text="Pars beneficij est, quod petitur, ben&egrave; neges"/>
 				</position>
 			</language>
+			<translation>Eutrapelus wished to be the polished mind of the world; annoying to no one and pleasant to everyone, any occasion of gratifying daily; without his condemnation.
+			Even if he would act against his own person, [he would be] truly delightful: as however himself in goal and in effect. <!--JG: Not sure about part 'vt...suus'-->
+			"To refuse gracefully is to confer a favour" [trans. Stone, 2005].</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="della mutatione delle cose"/>
