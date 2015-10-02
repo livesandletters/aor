@@ -18,12 +18,14 @@
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						= Non numero, sed pondere constat dignitias: et
+						= Non numero, sed pondere constat dignitas: et
 						pauca egregia, plus qu&agrave;m mille
 						Laudabilia.
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Whether it is read, or written: or even done, or said: the highest of the highest is this:
+			dignity consists not in a number but in weight: and a little excellency is more than a thousand laudabilities.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -35,6 +37,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>In speech, I hate the tautologist: in action, I love the self-practician.</translation> <!--JG: Unsure abt best way to translate 'tautopraxian'-->
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -45,6 +48,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Always towards the mark.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -54,29 +58,30 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Nothing is more apt than autotechnia.</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="left_margin" book_orientation="90">
 					<marginalia_text>
-						&Ocirc; diuina thaumaturga, Fides: omnium miraculoru[m] radix pra[e]potentissima. Ferrei Seculi, rubes magnetica.
+						&Ocirc; diuina thaumaturga, Fides: omnium miraculoru[m] radix pra[e]potentissima. Ferrei Seculi, rubes magnetica. <!--JG: I think it should be rupes, not rubes-->
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Oh faith, divine miracle-worker: the most powerful root of all miracles. Magnetic rocks, the steel of ages.</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						Imaginare quotidi&egrave; pra[e]sentem pugnam; candemq[ue] asperrima[m]
+						Imaginare quotidi&egrave; pra[e]sentem pugnam; eandemq[ue] asperrima[m]
 						contra robustissimos hostes, atq[ue] ade&ograve; peritissimos.
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>To imagine the present fight daily; and the same most-troubled [fight] against the most robust enemies, and finally the most experienced ones.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -86,8 +91,15 @@
 						Dominatur Hector, nisi domat Achilles. Capit
 						Dauidem Absolon, nisi capitur &agrave; Chusaio Achitophel.
 					</marginalia_text>
+					<person name="Hector"/>
+					<person name="Achilles"/>
+					<person name="Absalom"/>
+					<person name="King David"/>
+					<person name="Ahitophel"/>
+					<person name="Hushai"/>
 				</position>
 			</language>
+			<translation>Hector is dominated, unless Achilles dominates. Absalom seizes David, unless Ahitophel is seized by Hushai.</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="n&egrave; Dio"/>
