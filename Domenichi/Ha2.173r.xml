@@ -25,9 +25,11 @@
 					<person name="Marcantonio Gandino"/>
 					<person name="Polyaenus"/>
 					<person name="Aristotle"/>
+					<person name="Mithridates VI of Pontus"/>
 					<book title="Stratagemata"/>
 					<book title="Stratagems"/>
 					<book title="Economics"/>
+					<book title="Histories"/> <!--JG: This includes Mithridates' letter-->
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
@@ -46,10 +48,17 @@
 						Methodus historica Bodini,
 						ad omnes discursus.
 					</marginalia_text>
+					<person name="Frederick Feltrius"/>
+					<person name="Ludovico Sforza"/>
+					<person name="Cesare Borgia"/>
+					<person name="Catherine de' Medici"/>
+					<person name="Jean Bodin"/>
+					<book title="Methodus ad facilem historiarum cognitionem"/>
 				</position>
 			</language>
 			<translation>There are no books, which I do not prefer to be without than those: and these must be understood by heart before all. For public business,
-				Marcantonio Gandino and Polyaenus, with Aristotele's 'Economics' and Cicero's 'On running for the consulship'. Mithridates' 'Pragmatic letter and speech against Rome'</translation>
+				Marcantonio Gandino and Polyaenus, with Aristotele's 'Economics' and Cicero's 'On running for the consulship'. Mithridates' 'Pragmatic letter and speech against Rome'. The eulogies of 
+				Frederick Feltrius, Ludovico Sforza, and Cesare Borgia, with the history of Catherine de' Medici. Bodin's 'Method for the easy knowledge of history' for all discourses.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -60,6 +69,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Resolute.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -69,6 +79,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>He who has himself, does not lose anything.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -79,13 +90,27 @@
 						Dyniq[ue] regulis. Durandi speculum pragmaticu[m];
 						cum Bartholi distinctionib[us] et Vigelij methodo "
 					</marginalia_text>
+					<person name="Johannes Althusius"/>
+					<person name="Filippo Decio"/>
+					<person name="Dinus de Rossonibus de Mugello"/>
+					<person name="Guillaume Durand"/>
+					<person name="Bartolus de Saxoferrato"/>
+					<person name="Nicolas Virgil"/> 
+					<book title="Jurisprudentia Romana"/>
+					<book title="Lectura super titulo de regulis iuris"/>
+					<book title="De regulis juris"/>
+					<book title="Speculum iucidiale"/>
+					<book title="Distinctiones"/>
+					<book title="Methodus juris controversi"/>
 				</position>
 				<position place="left_margin" book_orientation="270">
 					<marginalia_text>
-						" Juris Controuersi. Tria illa sophistica Capita in arte Notar.
+						" Juris Controuersi. Tria illa sophistica Capita in arte Notar. <!--JG: Notar doesn't really makes sense to me. Should be notae?-->
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>For the private profession: Johannes Althusius 'Art of law': with the rules of Filippo Decio and Dinus de Rossonibus de Mugello. Guillaume Durand's 'Pragmatic mirror'; with
+				Bartolus de Saxoferrato's 'Distinctions' and Nicolas Virgil's 'Method of controversial law'. These tree sophistical headers are esteemed in art.</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="d'essernato"/>
