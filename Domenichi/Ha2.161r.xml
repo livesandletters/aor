@@ -14,8 +14,10 @@
 					<marginalia_text>
 						La ciuil conuersatione del Platone.
 					</marginalia_text>
+					<person name="Plato"/>
 				</position>
 			</language>
+			<translation>Plato's civil conversation.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -25,6 +27,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>The most difficult analysis of men.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -34,6 +37,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>The remembrance of animals.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -43,6 +47,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>A witty aphorism.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -54,8 +59,8 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>The bare analysis and the deepest anatomy of singular things. An aphoristic elucidation.</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -64,6 +69,12 @@
 						Thomas acutus: verum est: subtilis Scotus: nemo scholasticoru[m] magis: argutus Occam:
 						Laudo. Da mihi apophthegmata Laertij, et Plutarchi: epigrammata Martialis, et
 					</marginalia_text>
+					<person name="Thomas Aquinas"/>
+					<person name="Duns Scotus"/>
+					<person name="William of Ockham"/>
+					<person name="Diogenes Laertius"/>
+					<person name="Plutarch"/>
+					<person name="Martial"/>
 				</position>
 				<position place="intext" book_orientation="270">
 					<marginalia_text>
@@ -71,6 +82,12 @@
 						Cu[m] mensa philosophica: dialogis
 						Eliota[e]: apodemicis locoru[m],
 					</marginalia_text>
+					<person name="John Heywood"/>
+					<person name="Lodovico Domenichi"/>
+					<person name="Stefano Guazzo"/>
+					<person name="John Eliot"/>
+					<book title="Mensa Philosophica"/>
+					<book title="Ortho-epia gallica"/>
 				</position>
 				<position place="tail" book_orientation="270">
 					<marginalia_text>
@@ -85,6 +102,8 @@
 						Ha[e] Aulicorum
 						argutia[e]: et
 					</marginalia_text>
+					<person name="Roger Ascham"/>
+					<book title="Report and Discourse"/>
 				</position>
 				<position place="left_margin" book_orientation="270">
 					<marginalia_text>
@@ -92,8 +111,20 @@
 						Mithridatis epistola, et concione contra Romanos: stratagematis Gandini.
 							<!-- Continues onto facing page, right margin, Ha2.162v -->
 					</marginalia_text>
+					<person name="Aristotle"/>
+					<person name="Mithridates VI of Pontus"/>
+					<person name="Marcantonio Gandino"/>
+					<book title="Economics"/>
+					<book title="Politics"/>
+					<book title="Histories"/> <!--JG: This is the book in which Mithridates' letter appears -->
+					<book title="Stratagemata"/>
 				</position>
 			</language>
+			<translation>It it true that Thomas Aquinas is sharp, and that Duns Scotus is subtle. I praise no one of the scholastics more than the witty William of Ockham. <!--JG: Unsure-->
+				Give me the aphorism of Diogenes Laertius and Plutarch, Martial's epigrams, and the Heywood's, Domenichi's and Guazzo's witticisms. With the 'Mensa Philosophica': Eliot's 'Dialogues',
+				the uncovered wanderings of places and things: with Ascham's descriptions of the persons in German matters: for all discourses. These are the eloquent things of courtiers and this exactness <!--JG: Unsure about 'apodemicis detectionibus-->
+				of the world. Especially with Aristotle's Economic and political artifices: with Mithridates' letter, and his speech against the Romans: with Marcantonio Gandino's 'Stratagemata'.
+			</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="quali cose"/>

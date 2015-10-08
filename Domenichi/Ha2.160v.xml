@@ -14,9 +14,12 @@
 					<marginalia_text>
 						Nihil supra adamantinam Eunapij, Tacitiq[ue] limam.
 					</marginalia_text>
+					<person name="Eunapius"/>
+					<person name="Tacitus"/>
 					<emphasis method="pen" type="straight" text="limam."/>
 				</position>
 			</language>
+			<translation>Nothing moves beyond the uncorruptible file of Eunapius and Tacitus.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -25,6 +28,7 @@
 					<marginalia_text>
 						( Scoggins Crowe.
 					</marginalia_text>
+					<person name="John Scoggin"/>
 				</position>
 			</language>
 		</marginalia>
@@ -36,6 +40,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>The untroubled world, remains in its orbit.</translation> <!--JG: Unsure-->
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -45,25 +50,37 @@
 						Virgilius exquisit&egrave; dicit Singula:
 						omnia perstringit expedit&egrave;.
 					</marginalia_text>
+					<person name="Virgil"/>
 				</position>
 			</language>
+			<translation>Virgil says singular things exquisitely: he offends everything unimpededly.</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
 							<!-- Continued from facing page, left margin, Ha2.163r -->
-						Huc etiam Aularu[m] secreta in rhapsodijs aulicis: politici aphorismi Lipsij, Sansouini,
+						Huc etiam Aularu[m] secreta in rhapsodijs aulicis: politici aphorismi Lipsij, Sansouini, <!--JG: Don't know what this 'rhapsodijs aulicis' refers to. I think he uses this elsewhere in the Domenichi-->
 						Dana[e]i; Machiauelli etiam, Bodini, Hotomani.
 					</marginalia_text>
+					<person name="Lipsius"/>
+					<person name="Francesco Sansavino"/>
+					<person name="Lambert Daneau"/>
+					<person name="Machiavelli"/>
+					<person name="Jean Bodin"/>
+					<person name="Francois Hotman"/>
+					<person name="Maurice Poncet"/>
+					<book title="Politicorum sive Civilis doctrinae libri sex"/>
+					<book title="Concetti Politici"/>
+					<book title="Politicorum aphorismorum silva"/>
+					<book title="La France-Turquie"/>
 				</position>
 			</language>
 			<language ident="EN">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-						the Queen Mothers Legenda aurea.
+						the Queen Mothers Legenda aurea. <!--JG: Not exactly sure what this is? Variant of the 'Legenda Aurea'-->
 					</marginalia_text>
 				</position>
 				<position place="intext" book_orientation="270">
@@ -78,6 +95,8 @@
 					<emphasis method="pen" type="straight" text="Turkie"/>
 				</position>
 			</language>
+			<translation>Here also the secrets of the courts in the royal rhapsodies: the political aphorisms of Lipsius, Francesco Sansavino, and Lambert Daneau. Also of Machiavelli, Jean Bodin, and Francois Hotman.
+				The Queen Mothers Golden Legend. Maurice Poncet resolutions from Turkie.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -87,6 +106,17 @@
 						Excellent general discoursers, Arcadia: Rabelais: Apologie for herodote:
 						Manlius Common places: Agrippas vanities: Gascoignes steele glas: Greens quip.
 					</marginalia_text>
+					<person name="Rabelais"/>
+					<person name="Johannes Jacobus Manlius"/>
+					<person name="Cornelius Agrippa"/>
+					<person name="George Gascoigne"/>
+					<person name="Robert Greene"/>
+					<book title="The Countess of Pembroke's Arcadia"/>
+					<book title="Apologie pour Hérodote"/>
+					<book title="Loci communes"/>
+					<book title="De incertitudine et vanitate scientiarum"/>
+					<book title="The Steele Glas"/>
+					<book title="Quip for an Upstart Courtier"/>
 				</position>
 			</language>
 		</marginalia>

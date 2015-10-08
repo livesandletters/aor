@@ -14,6 +14,11 @@
 					<marginalia_text>
 						Bacons Essayes. Julians Ca[e]sars, &amp; Misopogon.
 					</marginalia_text>
+					<person name="Francis Bacon"/>
+					<person name="Julian"/>
+					<book title="Essays"/>
+					<book title="Caesars"/>
+					<book title="Misopogon"/>
 				</position>
 			</language>
 		</marginalia>
@@ -22,10 +27,11 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Articulu articuloru[m]: et mera sententiaru[m] spicula.
+						Articuli articuloru[m]: et mera sententiaru[m] spicula.
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>The moments of moments: and the pure stings of thoughts.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="EN">
@@ -44,6 +50,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>The remainder in the points of arts, philosophy, and the professions.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -53,10 +60,16 @@
 						Satyra[e] Persij, Juuenalis, Horatij.
 						Argutissimi etiam Ausonius, Politianus, Morus.
 					</marginalia_text>
+					<person name="Juvenal"/>
+					<person name="Ausonius"/>
+					<person name="Poliziano"/>
+					<person name="Philippus Morus"/> <!--JG: Not sure, could also be 'Hub Morus'?-->
+					<book title="Satires"/>
+					<book title="Horace's Satires"/>
 				</position>
 			</language>
+			<translation>Juvenal's and Horace's 'Satires'. Also the most eloquent Ausonius, Poliziano, and Pilippus Morus.</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="EN">
@@ -66,10 +79,17 @@
 						&amp; his art of Conniecatching: Diets drie dinner; a fresh supplie of 
 						Mensa philosophica: the Tragedie of Hamlet: Richard 3.
 					</marginalia_text>
+					<person name="John Eliot"/>
+					<person name="George Gascoigne"/>
+					<person name="Robert Greene"/>
+					<book title="Ortho-epia gallica"/>
+					<book title="The Steele Glas"/>
+					<book title="Quip for an Upstart Courtier"/>
+					<book title="The Second Part of Conny-catching"/>
+					<book title="The Thirde and Last Part of Conny-Catching"/>
 				</position>
 			</language>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -78,6 +98,16 @@
 						Excellunt aduersaria[e] orationes prudentissimoru[m] Senatoru[m], Ca[e]saris, et Catonis apud Sallust:
 						Drancis, et Turni apud Virgiliu[m]: Aiacis, et Vlyssis apud Ouidiu[m]: A[e]schinis, et
 					</marginalia_text>
+					<person name="Julius Caesar"/>
+					<person name="Cato"/>
+					<person name="Sallust"/>
+					<person name="Drances"/> 
+					<person name="Turnus"/> 
+					<person name="Virgil"/>
+					<person name="Ajax"/>
+					<person name="Odysseus"/>
+					<person name="Aeschines"/>
+					<person name="Demonsthenes"/>
 				</position>
 				<position place="intext" book_orientation="270">
 					<marginalia_text>
@@ -85,6 +115,8 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>The adversary speeches of the most prudent senators, of Caesar and Cato excel in Sallust: of Daunus and Turnus in Virgil:
+				of Ajax and Odysseus in Ovid: of Aeschines and Demonsthenes.</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="il vecchio"/>

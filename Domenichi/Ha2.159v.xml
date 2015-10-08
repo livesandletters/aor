@@ -18,10 +18,11 @@
 				</position>
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						quotidiani, et infinit.
+						quotidiani, et infiniti.
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>All these things are most short, easy, and pleasant, and are passed over most quickly: but for daily and endless use.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -42,6 +43,7 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>Resolute.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
@@ -53,39 +55,52 @@
 					</marginalia_text>
 				</position>
 			</language>
+			<translation>The sinews of art and the marrow of the intellect. The hidden qualities of professions and the specific differences of professors.</translation>
 		</marginalia>
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
 						Arts, et Virtus in specialissima specie.
-						( Prat[e]ij aurreu[m] alphabetu[m] Legu[m]
+						( Prat[e]ij aureu[m] alphabetu[m] Legu[m]
 						Rom: Lipsius de Magistratibus.
 					</marginalia_text>
+					<person name="Peter of Ravenna"/>
+					<person name="Lipsius"/>
+					<book title="Alphabetum aureum"/> <!--JG: Not entirely sure-->
+					<book title="De magistratibus veteris populi Romani"/>
 				</position>
 			</language>
+			<translation>Art and virtue are in the most special kind. Peter of Ravenna 'The golden alphabet of the Roman laws', Lipius 'On magistrates'.</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
-						Gothofredi Institutiones, cu[m] Hopperi 4.to Elementoru[m];
+						Gothofredi Institutiones, cu[m] Hopperi [quarto] Elementoru[m];
 						Principiu[m], dimidium totius. Althusij ars
 						iuris, dimidiu[m] plus toto: sed ad unguem tota.
 					</marginalia_text>
+					<person name="Denis Godefroy"/>
+					<person name="Joachim Hoppers"/>
+					<book title="Corpus juris civilis"/>
+					<book title="Elementorum iuris"/>
+					<book title="Jurisprudentia Romana"/>
 				</position>
 			</language>
+			<translation>Denis Godefroy's 'Institutions' with Joachim Hoppers's fourth book of the 'Elementorum iuris' is a start, the half of the whole. Johannes Althusius's 'Art of law' is half more than the whole: but all by heart.</translation>
 		</marginalia>
-		
 		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
-							<!-- Continued from facing page, left margin, Ha2.162r -->
+							<!-- Continued from facing page, left margin, Ha2.160v -->
 						Equitis Poncetti discursu aulico de Principijs imperij Turcici:
 					</marginalia_text>
+					<person name="Maurice Poncet"/>
+					<book title="La France-Turquie "/>
 				</position>
 			</language>
 			<language ident="IT">
@@ -93,6 +108,8 @@
 					<marginalia_text>
 						Ritratti di Guicciardini:
 					</marginalia_text>
+					<person name="Francesco Guicciardini"/>
+					<book title="Ritratti allocuzioni e pensieri scelti dalla storia d'Italia"/>
 				</position>
 			</language>
 			<language ident="LA">
@@ -100,8 +117,12 @@
 					<marginalia_text>
 						Phalardis tyranni Epistolis: Mahometis 2. epistolis.
 					</marginalia_text>
+					<book title="In Phalaridis tyranni agrigentini Epistolas"/>
+					<book title="Epistolae Maumetis"/>
 				</position>
 			</language>
+			<translation>with the golden discours of Maurice Poncet, a knight, 'on the rulers of the Turkish empire', Francesco Guicciardini's 'Ritratti', 'In Phalaridis tyranni agrigentini Epistolas', with the 'letters of Mehmed 2'.
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -109,10 +130,17 @@
 				<position place="left_margin" book_orientation="270">
 					<marginalia_text>
 						Discursus discursuu[m], Bodini Methodus historica: cum totius
-						Romana[e] historia[e] speculo aureo, Eutropio: externa[e], Justino: vtriusq[ue] simul, Neandro.
+						Romana[e] historia[e] speculo aureo, Eutropio: externa[e], Justino: vtriusq[ue] simul, Neandro. <!--JG: Unclear which 'Neander' this is.-->
 					</marginalia_text>
+					<person name="Jean Bodin"/>
+					<person name="Flavius Eutropius"/>
+					<person name="Justin"/>
+					<book title="Methodus ad facilem historiarum cognitionem"/>
+					<book title="Breviarium Historiae Romanae"/>
+					<book title="Externae historiae in compendium ab Iustino redacta"/>
 				</position>
 			</language>
+			<translation>Bodin's 'Methodus historica', the discourse of discourses: with Eutropius' 'golden mirror of all Roman history': with Justin's 'Externae'. At the same time of both, Neander.</translation>
 		</marginalia>
 		
 		<underline method="pen" type="straight" language="IT" text="L'animo ben qualificato"/>
