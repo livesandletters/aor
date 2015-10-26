@@ -94,7 +94,7 @@
 					<person name="Poggio Bracciolini"/>
 					<person name="Heinrich Bebel"/>
 					<person name="Bonaventure"/>
-						<!-- CG: Can't find anyone to match to Scogginus. --> <!--JG: I can't either..-->
+						<!-- CG: Can't find anyone to match to Scogginus. Specialist help needed. -->
 					<book title="De Oratore"/>
 					<book title="Book of the Courtier"/>
 					<book title="Mensa philosophica"/>
@@ -113,7 +113,7 @@
 						Castilionem; Barlandum,
 						Mensam Philosophicam; Manlium,
 					</marginalia_text>
-					<person name="John Skelton"/> <!-- CG: Unsure about this --> <!--JG: Makes sense. Add him to the people list please-->
+					<person name="John Skelton"/>
 					<person name="Lodovico Domenichi"/>
 					<person name="Cicero"/>
 					<person name="Castiglione"/>
@@ -131,6 +131,7 @@
 			<translation>
 				The one high-souled man of the world, having just as much authority. As superior to all. 
 					<!-- CG: Megalander seems to be a neologism stemming from "big" and "man." There's an equivalent, more or less, in Greek. -->
+					<!-- CG: Specialist help needed. -->
 				Lessons for clever jesting in Cicero's Orator, in Quintilian, and in Wilson. Likewise, in Castiglione's
 				Courtier; and in the Mensa Philosophica. { Examples in the jokes, of Barland, Manlius, Poggio,
 				Bebel, Bonaventure, Scogginus, and Skelton.
@@ -144,14 +145,14 @@
 			<language ident="LA">
 				<position place="tail" book_orientation="180">
 					<marginalia_text>
-						Excepto Vnico; alij omnes homuli, aut muliercula[e]. <!--JG: little men, no?-->
+						Excepto Vnico; alij omnes homuli, aut muliercula[e]. 
 						Tanq[uam] Pictura[e], aut statua[e], aut signa.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				With a single exception, all other little and little wives.
-				Just as if pictures, or statues, or signs.
+				With a single exception, all others are little men and women.
+				Like pictures, or statues, or signs.
 			</translation>
 		</marginalia>
 		
@@ -180,9 +181,7 @@
 		<!-- Symbols -->
 		<symbol name="Sun" place="head"/>
 		<symbol name="SS" place="intext"/>
-			<!-- CG: Weird symbol of two backwards C's, or strange quotation marks? --> <!--JG: I'd tag it as a quotation mark, but just leave 'strange quotation mark' in a comment next to it, so that I can revisit, if necessary-->
-		<symbol name="SS" place="left_margin"/> <!--JG: Can't find this one-->
-		
+					
 		<!-- Marks -->			
 		<!-- Right margin -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- Dome -->
@@ -191,15 +190,19 @@
 		<mark name="dash" method="pen" place="right_margin"/> <!-- ne -->
 		
 	    	<!-- Left margin -->
-	    <mark name="bracket" method="pen" place="left_margin"/> <!-- principio ... delle -->
+		<mark name="bracket" method="pen" place="left_margin"/> <!-- principio ... delle -->
 		    
 	    	<!-- Head/Intext/Tail -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Large chalk mark toward the right -->
 		<mark name="dot" method="pen" place="intext"/> <!-- PORCACCHI -->
+		
+		<mark name="quotation_mark" method="pen" place="intext"/>
+			<!-- CG: Strange quotation marks. --> <!--JG: I'd tag it as a quotation mark, but just leave 'strange quotation mark' in a comment next to it, so that I can revisit, if necessary-->
+		
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Achille mio"/>
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- ristampar -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- nuoue aggiunte -->
-	    <mark name="dot" method="pen" place="intext"/> <!-- burle, sia -->
+		<mark name="dot" method="pen" place="intext"/> <!-- burle, sia -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- della qualita -->
 		<mark name="apostrophe" method="pen" place="intext"/> <!-- burle, richiedendolo -->
 		<mark name="vertical_bar" method="chalk" place="intext"/> <!-- chalk mark -->
