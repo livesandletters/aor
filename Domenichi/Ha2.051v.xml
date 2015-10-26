@@ -45,7 +45,7 @@
 				</position>
 			</language>
 			<translation>
-				Only Mercury has the Quodlibetum of talent, tongue, and hand.	<!-- CG: Unsure if I should translate Quodlibetum. --> <!--JG: I would translate it. You can put quodlibetum in brackets behind it-->
+				Only Mercury has the subtlety [quodlibet] of talent, tongue, and hand.
 			</translation>
 		</marginalia>
 		
@@ -68,7 +68,8 @@
 					<marginalia_text>
 						( Quod facturus eris, dicere sustuleris. Ausonius.
 					</marginalia_text>
-					<person name="Ausonius"/> <!--Quote from his 'Epigramata de diversis rebus'-->
+					<person name="Ausonius"/> 
+					<X-ref person="Ausonius" book_title="Epigrammata de diversis rebus" language="LA" text="Quod facturus eris, dicere sustuleris"/>
 					<emphasis method="chalk" type="straight"/>
 				</position>
 			</language>
@@ -83,10 +84,11 @@
 					<marginalia_text>
 						Nusq[uam] ha[e]ret Trismegisti Quodlibetum.
 					</marginalia_text>
+					<person name="Hermes Trismegistus"/>
 				</position>
 			</language>
 			<translation>
-				<!--JG: Translation still needs to be done-->
+				The subtlety of Trismegistus never stays fixed.
 			</translation>
 		</marginalia>
 		
@@ -114,8 +116,8 @@
 			</language>
 			<translation>
 				There are many uses for jokes at dinner parties or festive gatherings, where even problems
-				are delightful, such as those found in the Mensa Philsophia, or else urbane propositions, such as those
-				in the fourth book of Guazzi, and the first book of Castiglione, or puzzles, and riddles in the vernacular. 
+				are delightful, such as those found in the Mensa Philsophia; otherwise, there are urbane propositions, 
+				such as those in the fourth book of Guazzi, and the first book of Castiglione; else puzzles, and riddles in the vernacular. 
 			</translation>
 		</marginalia>
 		
@@ -130,7 +132,7 @@
 				</position>
 			</language>
 			<translation>
-				Those most skillful in natural talent, and with the faculty of a most pregnant pragmaticism, transform [all] their readings  
+				Those most skillful in natural talent, and with the faculty of a most pregnant pragmaticism, transform [all] their readings  ...
 			</translation>
 		</marginalia>
 		
@@ -208,7 +210,7 @@
 		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="come il sole"/>
 		<mark name="comma" method="pen" place="intext"/> <!-- dama gli -->
 		<mark name="plus_sign" method="pen" place="intext"/> <!-- uoi altri huo -->
-		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="i tafani d'Agosto"/> <!-- CG: This quotation mark and the previous both look a bit weird, what do you think? --> <!--JG: I think it's OK to tag them as quotation marks-->
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="i tafani d'Agosto"/>
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- uiuere -->
 		<mark name="plus_sign" method="pen" place="intext" language="IT" text="un' ottimo indouino"/>
 
