@@ -71,6 +71,9 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Post ordinem, nihil cohortatione efficacius. s[upr]a, c.1.l.3.</marginalia_text>
+                    <internal_ref text="s[upr]a">
+                        <target filename="earbm_stc_11402_0036.xml" book_id="HoughtonSTC11402" text="[Avii[r]]"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>After the order, nothing is more effective than exhortation. [See] above, chapter 1, book 3.</translation>
@@ -124,7 +127,6 @@
         
         <mark name="vertical_bar" method="chalk" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="reproches"/>
-        
         
     </annotation>
 </transcription>
