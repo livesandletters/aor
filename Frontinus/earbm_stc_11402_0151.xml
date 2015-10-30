@@ -24,7 +24,6 @@
             </language>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -37,10 +36,14 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>i[nfr]a, c.9.L. Cornelius.</marginalia_text>
+                    <marginalia_text>i[nfr]a, c.9. L. Cornelius.</marginalia_text>
+                    <person name="Lucius Cornelius Scipio"/>
+                    <internal_ref text="i[nfr]a">
+                        <target filename="earbm_stc_11402_0166.xml" book_id="HoughtonSTC11402" text="c.9."/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation>[See] below, chapter 9, book. Cornelius.</translation> <!--JG: Strange, books 3 and 4 don't have a chapter 9-->
+            <translation>[See] below, chapter 9, book. Cornelius.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -88,7 +91,6 @@
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="and the citie"/>
         <mark name="horizontal_bar" method="pen" place="intext"/>
-        
         
     </annotation>
 </transcription>
