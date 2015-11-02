@@ -28,10 +28,9 @@
 				</position>
 			</language>
 			<translation>
-				What of prudence or fortitude?
-				To what degree is valor?
-				It continues to grow with the excesses of the ancients,
-				it is never supplied with the defects of today. <!-- CG: Unsure about these two lines. --> <!--JG: Shouldn't defectus be the subject of the second sentence (nom, pl.)? Would make sense since supplentur is also in plural. 'It increases more with these excesses of the ancients; today's failures are never supplied'. I have to admit that this doesn't really makes sense to me-->
+				What of prudence or fortitude? How much is valor?
+				It grows more with the excesses of the ancients,
+				today's defects are never supplied. <!-- CG: Unsure of translation, specialist help required. -->
 				"What you do not want is dear at a farthing." 
 			</translation>
 		</marginalia>
@@ -120,7 +119,8 @@
 				</position>
 			</language>
 			<translation>
-				What is subtle here or profound there? What is amazing or powerful? What is singular or exceptional? <!--JG: Part of translation is missing-->
+				What is subtle here or profound there? What is amazing or powerful? What is singular or exceptional?
+				Indeed everywhere there are enough vulgar matteres, actually beyond enough. 
 			</translation>
 		</marginalia>
 		
@@ -175,8 +175,8 @@
 			</language>
 			<translation>
 				Eutrapelus: truly a creature most dedicated to God,
-				a subordinate most devoted to the highest kingdom,
-				dutiful to others, as is proper,
+				a subordinate most devoted to the highest kingdom;
+				he is dutiful to others, as is proper,
 				and as concerns himself, most strict.
 			</translation>
 		</marginalia>
@@ -248,8 +248,8 @@
 		<mark name="quotation_mark" method="pen" place="intext"/> <!-- presta -->
 		<mark name="comma" method="pen" place="intext"/> <!-- Domino uilla -->
 		
-		<!-- Errata -->
-		<errata language="IT" copytext="a" amendedtext="&agrave;"/> <!-- u'hauete mangiata a --> <!--JG: Do not use the errata tag, but tag it as a mark (diacritic)-->
+		<!-- Diacritic -->
+		<mark name="diacritic" method="pen" place="intext" language="IT" text="u'hauete mangiata a"/>
 
     </annotation>
 </transcription>
