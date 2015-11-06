@@ -27,8 +27,12 @@
                     <marginalia_text> 
                         Thoas, acerrimum Suoru[m] apud Antiochu[m] Instrumentum: i[nfr]a 612. 654.
                     </marginalia_text>
-                <person name="Thoas"/> <!-- LS, I added this to the list -->
+                    <person name="Thoas"/> <!-- LS, I added this to the list -->
                     <person name="Antiochus III the Great"/>
+                    <internal_ref text="i[nfr]a">
+                        <target filename="00000634.xml" book_id="PrincetonPA6452" text="612"/>
+                        <target filename="00000676.xml" book_id="PrincetonPA6452" text="654"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
