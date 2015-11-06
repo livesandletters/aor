@@ -18,7 +18,7 @@
                 </position>
             </language>
             <translation>
-                Livy's decade
+                Livy's decade.
             </translation>
         </marginalia>
  
@@ -28,6 +28,7 @@
                     <marginalia_text> 
                         Romae &AElig;tas.
                     </marginalia_text>
+                    <location name="Rome"/>
                 </position>
             </language>
             <translation>
@@ -42,6 +43,10 @@
                         Ecc&egrave; Roma[e] quinq[ue] a[e]tates, in Uelcurionis argumento totius historia[e] Romana[e]. i[nfr]a.
                     </marginalia_text>
                     <person name="Johannes Velcurio"/>
+                    <internal_ref text="i[nfr]a">
+                        <target filename="00000965.xml" book_id="PrincetonPA6452" text="[I2[r]]"/>
+                        <target filename="00000967.xml" book_id="PrincetonPA6452" text="[I3[r]]"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
