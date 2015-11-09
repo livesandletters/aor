@@ -11,7 +11,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>L.L. Consulares.</marginalia_text>
+                    <marginalia_text>LL. Consulares.</marginalia_text>
                 </position>
             </language>
             <translation>Consular laws.</translation>
@@ -96,7 +96,7 @@
         <underline method="pen" type="straight" language="LA" text="me[n]struae quoq[ue] usurae soluere[n]tur"/>
         <underline method="pen" type="straight" language="LA" text="annuae"/>
         <underline method="pen" type="straight" language="LA" text="usurae uicesimae"/>
-        <underline method="pen" type="straight" language="LA" text="trigestimae"/>
+        <underline method="pen" type="straight" language="LA" text="trigesimae"/>
         <underline method="pen" type="straight" language="LA" text="ultr&agrave;, centesimae"/>
         <underline method="pen" type="straight" language="LA" text="ipsam forte[m], id"/>
         <underline method="pen" type="straight" language="LA" text="me[n]se uigesimo"/>
@@ -142,6 +142,7 @@
         <underline method="pen" type="straight" language="LA" text="confertur ad ducem"/>
         <underline method="pen" type="straight" language="LA" text="eam partitur inter milites"/>
         <underline method="pen" type="straight" language="LA" text="uendit, pecuniamque redacta[m] in aerarium reponit"/>
+        <underline method="pen" type="straight" language="LA" text="alios usus"/>
         <underline method="pen" type="straight" language="LA" text="Iure gentium &amp; militari"/>
         <underline method="pen" type="straight" language="LA" text="missis ligatis de"/>
         <underline method="pen" type="straight" language="LA" text="responso dato"/>
@@ -156,9 +157,9 @@
         <symbol name="SS" place="right_margin"/>
         <symbol name="Mars" place="right_margin" language="LA" text="Ardorem militarem non"/>
         
-        <symbol name="SS" place="right_margin"/>
+        <symbol name="SS" place="right_margin" language="LA" text="Ardorem militarem"/>
         <symbol name="Mercury" place="intext" language="LA" text="Ciceronem"/>
-        <symbol name="JC" place="intext"/>
+        <symbol name="JC" place="intext" language="LA" text="Iure gentium"/>
         <symbol name="Mars" place="intext"/>
         
         <mark name="dash" method="pen" place="right_margin"/> <!--ui-->
@@ -196,6 +197,7 @@
         <mark name="dot" method="pen" place="intext"/> <!--cadauera, alijq[ue]-->
         <mark name="dot" method="pen" place="intext"/> <!--ciues, ita-->
         <mark name="dot" method="pen" place="intext"/> <!--nectere[n]tur, unde-->
+        <mark name="dot" method="pen" place="intext"/> <!--facilitate[m], ut-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="annuae"/>
         <mark name="dot" method="pen" place="intext"/> <!--erat, qui-->
@@ -203,6 +205,7 @@
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="co[n]sularent"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="iuberet"/>
         <mark name="dot" method="pen" place="intext"/> <!--iuberet, ut-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Democratie fieri"/>
         <mark name="dot" method="pen" place="intext"/> <!--decernuntur, sed-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--maiorem, tametsi-->
