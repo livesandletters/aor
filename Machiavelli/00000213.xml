@@ -30,9 +30,12 @@
     			</position>
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
-    					Ca[e]sariana Inuasio, subita, et improuisa. s[upr]a, 61.b.
+    					Ca[e]sariana Inuasio, subita, et improuisa. s[upr]a, 61.b. <!--JG: Could be 'v' of 'verso'?-->
     				</marginalia_text>
     				<person name="Julius Caesar"/>
+    				<internal_ref text="s[upr]a">
+    					<target filename="00000136.xml" book_id="PrincetonU101" text="61.b."/> <!--JG: Could be 'v' of 'verso'?-->
+    				</internal_ref>
     			</position>
     		</language>
     		<translation>
@@ -59,6 +62,9 @@
     					s[upr]a, L.2.
     				</marginalia_text>
     				<book title="Book of the Courtier"/>
+    				<internal_ref text="s[upr]a">
+    					<target filename="00000054.xml" book_id="PrincetonU101" text="L.2."/>
+    				</internal_ref>
     			</position>
     		</language>
     		<language ident="EN">
@@ -69,7 +75,7 @@
     			</position>
     		</language>
     		<translation>
-    			above, second book of the Book of the Courtier.
+    			[See] above, second book of the Book of the Courtier.
     		</translation>
     	</marginalia>
     	<marginalia hand="Italian">
