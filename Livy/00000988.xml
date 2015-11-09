@@ -25,12 +25,12 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
-                        s[upr]a
+                        s[upr]a /
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                [see] above <!-- LS, not in ABO so my own translation! --> 
+                [See] above. <!-- LS, not in ABO! --> 
             </translation>
         </marginalia>
         
@@ -43,7 +43,7 @@
                 </position>
             </language>
             <translation>
-                traitors. 
+                Traitors. 
             </translation>
         </marginalia>
         
@@ -54,6 +54,10 @@
                         Leges Regia[e], s[upr]a: h&icirc;c Consulares, id est, fer&egrave; Aristocratica[e].
                     </marginalia_text>
                 <emphasis method="pen" type="straight" text="Aristocratica[e]"/>
+                    <internal_ref text="s[upr]a">
+                        <target filename="00000047.xml" book_id="PrincetonPA6452" text="[25]"/>
+                        <target filename="00000969.xml" book_id="" text="[I4[r]]"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
