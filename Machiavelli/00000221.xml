@@ -56,8 +56,11 @@
     		<language ident="LA">
     			<position place="right_margin" book_orientation="0">
     				<marginalia_text>
-    					s[upr]a, 61.b.		
+    					s[upr]a, 61.b. <!--JG: Could be 'v' of 'verso'?-->		
     				</marginalia_text>
+    				<internal_ref text="s[upr]a">
+    					<target filename="00000136.xml" book_id="PrincetonU101" text="61.b."/> <!--JG: Could be 'v' of 'verso'?-->
+    				</internal_ref>
     			</position>
     		</language>
     		<translation>
@@ -82,6 +85,9 @@
     				<marginalia_text>
     					s[upr]a, [the] 2.
     				</marginalia_text>
+    				<internal_ref text="s[upr]a">
+    					<target filename="00000054.xml" book_id="PrincetonU101" text="L.2."/>
+    				</internal_ref>
     			</position>
     		</language>
     		<translation>
