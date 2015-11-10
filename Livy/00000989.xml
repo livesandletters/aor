@@ -60,7 +60,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Affectatorem regni">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
@@ -73,7 +73,7 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="seruus homo"/>
+        <underline method="pen" type="straight" language="LA" text="Seruus homo"/>
         <underline method="pen" type="straight" language="LA" text="potest manumitti ab hero"/>
         <underline method="pen" type="straight" language="LA" text="libertate &amp; iure"/>
         <underline method="pen" type="straight" language="LA" text="seruus manumissus"/>
@@ -88,7 +88,7 @@
         <underline method="pen" type="straight" language="LA" text="ius naturae"/>
         <underline method="pen" type="straight" language="LA" text="instituere"/>
         <underline method="pen" type="straight" language="LA" text="fouere"/>
-        <underline method="pen" type="straight" language="LA" text="teri"/>
+        <underline method="pen" type="straight" language="LA" text="tueri"/>
         <underline method="pen" type="straight" language="LA" text="reges"/>
         <underline method="pen" type="straight" language="LA" text="ipsos primarios duces"/>
         <underline method="pen" type="straight" language="LA" text="pugnam capessere"/>
@@ -145,20 +145,20 @@
         <underline method="pen" type="straight" language="LA" text="merum imperium"/>
         <underline method="pen" type="straight" language="LA" text="ad totum populu[m]"/>
         <underline method="pen" type="straight" language="LA" text="una &amp; prima lex est plebeia de prouocatione"/>
-        <underline method="pen" type="straight" language="LA" text="&agrave; Coss. ad totum populum"/>
+        <underline method="pen" type="straight" language="LA" text="appellatione &agrave; Coss. ad totum populum"/>
         <underline method="pen" type="straight" language="LA" text="capitali"/>
         <underline method="pen" type="straight" language="LA" text="haec lex"/>
         <underline method="pen" type="straight" language="LA" text="est &agrave; uiolentis Coss."/>
-        <underline method="pen" type="straight" language="LA" text="relata"/>
+        <underline method="pen" type="straight" language="LA" text="relata &amp;"/>
         <underline method="pen" type="straight" language="LA" text="ad Syllae dictatoris"/>
         <underline method="pen" type="straight" language="LA" text="Caesaris potentiam"/>
         <underline method="pen" type="straight" language="LA" text="Affectatorem regni"/>
         <underline method="pen" type="straight" language="LA" text="ipsum una cu[m] bonis omnibus"/>
         <underline method="pen" type="straight" language="LA" text="cuilibet uel priuato liceat"/>
-        <underline method="pen" type="straight" language="LA" text="eum occidere impun&egrave;, bonaq[ue] eius"/>
+        <underline method="pen" type="straight" language="LA" text="eum occidere impun&egrave;, bonaq[ue] eius capere"/>
         <underline method="pen" type="straight" language="LA" text="caerimonijs noua templa inaugurari"/>
         <underline method="pen" type="straight" language="LA" text="historia primi anni consularis"/>
-        <underline method="pen" type="straight" language="LA" text="digna &amp;utilia prae caeteris"/>
+        <underline method="pen" type="straight" language="LA" text="digna &amp; utilia prae caeteris"/>
         <underline method="pen" type="straight" language="LA" text="OBSERVANDVM"/>
         <underline method="pen" type="straight" language="LA" text="secundo hoc"/>
         <underline method="pen" type="straight" language="LA" text="multa san&egrave; &amp; egregia exempla"/>
@@ -185,7 +185,7 @@
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="right_margin"/>
-        <symbol name="JC" place="intext"/>
+        <symbol name="JC" place="intext" language="LA" text="fundamenta imperij iurisq[ue] Romani"/>
         
         <mark name="dash" method="pen" place="intext"/> <!-- iu -->
         <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="Vindicta"/>
@@ -201,7 +201,7 @@
         <mark name="dash" method="pen" place="intext"/> <!-- cu -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- mortem -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="minus hominu[m] in praelio amisere"/>
         <mark name="dash" method="pen" place="intext"/> <!-- nu -->
         <mark name="dot" method="pen" place="intext"/> <!-- magistratus, -->
         <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="populus nondum ius ssum &amp; potestatem suam transtulerit"/>
@@ -211,8 +211,8 @@
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="intext"/> <!-- te -->
-        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="qu&agrave;m ui"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="quotation_mark" method="pen" place="intext" />
+        <mark name="bracket" method="pen" place="left_margin" language="LA" text="Vigesimumspetimum. Animum &amp; personam magistratus, &amp; priuatorum quoque, magis spectandam esse, qu&agrave;m alias circunstantias"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="alias circunstantias"/>
         <mark name="equal_sign" method="pen" place="intext"/>
@@ -220,18 +220,19 @@
         <mark name="dash" method="pen" place="intext"/> <!-- po -->
         <mark name="dash" method="pen" place="intext"/> <!-- co[n] -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="ad totum populu[m]"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="una &amp; prima lex est plebeia de prouocatione"/>
+        <mark name="dot" method="pen" place="intext"/> <!--capitali, de-->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- uaui -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- con -->
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" />
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- ple -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="nouam"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="insigni"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="insolita"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
