@@ -32,7 +32,7 @@
 						  		Canto 5. del Tasso.
 					</marginalia_text>
 					<person name="Torquato Tasso"/>
-					<X-ref person="Torquato Tasso" book_title="Jerusalem Delivered"/> <!--JG: Can you include the quoted text in the text attribute?-->
+					<X-ref person="Torquato Tasso" book_title="Jerusalem Delivered" language="IT" text="Nel mondo mutabile, e leggiero, Costansa &egrave;, spesso il variar pensiero."/>
 				</position>
 			</language>
 			<translation>
@@ -45,7 +45,7 @@
 			<language ident="IT">
 				<position place="full_page" book_orientation="0">
 					<marginalia_text>
-										sciocche.	<!-- CG: How do record the deleted H? --> <!--JG: sc[h-deleted]iocche-->
+										sc[h-deleted]iocche.
 						Parole, che fanno ridere, o {	malediche.
 										innamorate.
 						   Macchiauelli nel Prologo di Clitia.
@@ -94,7 +94,7 @@
 						come dice Tasso del brauo Rinaldo.
 						Chi f&ugrave;, ch'ardi cotanto, e tanto fece?
 					</marginalia_text>
-					<X-ref person="Torquato Tasso" book_title="Jerusalem Delivered"/> <!--JG: Can you include the quoted text in the text attribute?-->
+					<X-ref person="Torquato Tasso" book_title="Jerusalem Delivered" language="IT" text="Chi f&ugrave;, ch'ardi cotanto, e tanto fece?"/>
 					<emphasis method="pen" type="straight" text="piu respettiuo"/>
 					<emphasis method="pen" type="straight" text="piu impetuoso"/>
 					<emphasis method="pen" type="straight" text="sempre politico"/>
@@ -113,7 +113,7 @@
 				Machiavelli is more respectful and civil, Aretino is more impetuous and fantastical.
 				The former is almost always political, while the latter is almost completely whimsical.
 				Here then is the trainer of every healthy man. As Tasso says of brave Rinaldo:
-				"Who was is that dared so much and so much accomplished?"				
+				"Who was it that dared so much and so much accomplished?"				
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -162,13 +162,13 @@
 						Polya[e]ni: secretarius Weccheri, Baconis, omniumq[ue] polyda[e]dalorum:
 						vnicus mundi polytechnus, et polymechanus.
 						Nec ullus in Orbe panergus, tam energus.
-						Semper ad apicem operis, at negotij. |	<!-- CG: What's the best way to capture the bar at the end? --> <!--I'd tag it as a vertical bar, rather than including it in the transcription-->
+						Semper ad apicem operis, at negotij.
 					</marginalia_text>
 					<person name="Aristotle"/>
 					<person name="Xenophon"/>
 					<person name="Jean Bodin"/>
 					<person name="Tacitus"/>
-					<person name="Guillaume Durand"/> <!-- Virginia Stern identifies the Speculator as Durand -->
+					<person name="Guillaume Durand"/> 
 					<person name="Marcantonio Gandino"/>
 					<person name="Polyaenus"/>
 					<person name="Johannes Jacob Wecker"/>
@@ -183,12 +183,13 @@
 				The Pragmatics of Tacitus and Guillaume Durand; the Stratagems of Gandino and Polyaenus.
 				The Secretary of Wecker and Bacon and of every multi-skilled inventor. <!-- CG: Poly-Daedalus! -->
 				The only polytechnic and polymechanic in the world.
-				In the world there is no supplement like work.
+				Nor is there any Panergus in the world as active. <!-- CG: Unclear about this play on words. Panergus is also a character in several dramas. -->
 				Always at the top of works and activities.
 			</translation>
 		</marginalia>
 		
 		<symbol name="Sun" place="full_page"/>
+		<mark name="vertical_bar" method="pen" place="full_page"/>
 
     </annotation>
 </transcription>
