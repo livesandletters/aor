@@ -46,12 +46,15 @@
 			<language ident="IT">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Il Palingenio, s[upr]a 48.	
+						Il Palingenio, s[upr]a 48.	<!--JG: Is this reference to Marcellus Palingenius Stellatus?-->
 					</marginalia_text>
+					<internal_ref text="s[upr]a">
+						<target filename="Ha2.112v.xml" book_id="FolgersHa2" text="48"/>
+					</internal_ref>
 				</position>
 			</language>
 			<translation>
-				The Palingenio, above, pg. 38. <!-- Reference to Ha2.112v -->
+				The Palingenio, above, pg. 48. <!-- Reference to Ha2.112v -->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
