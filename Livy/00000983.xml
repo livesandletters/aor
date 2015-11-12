@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000983.tif" reader="Harvey"/>
+    <page filename="00000983.tif" reader="Harvey" signature="[K4v]"/>
     <annotation>
         
         <marginalia hand="Italian">
@@ -14,8 +14,7 @@
                     <marginalia_text> 
                         6. LL. Seruij.
                     </marginalia_text>
-                <person name="Servius Sulpicius Rufus"/> <!-- LS, or Servius Tullius? -->
-                    <!-- CG: Probably Servius Tullius! Text refers to him. -->
+                    <person name="Servius Tullius"/>
                 </position>
             </language>
             <translation>
@@ -23,7 +22,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="censum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
@@ -49,13 +48,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="classes">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
                         Regum uaria creatio.
                     </marginalia_text>
-                <emphasis method="pen" type="straight"/>
+                    <emphasis method="pen" type="straight" text="Regum uaria"/>
                 </position>
             </language>
             <translation>
@@ -84,7 +83,7 @@
         <underline method="pen" type="straight" language="LA" text="in co[n]sulibus postea"/>
         <underline method="pen" type="straight" language="LA" text="Caesaribus creandis"/>
         <underline method="pen" type="straight" language="LA" text="fer&egrave; Caesares"/>
-        <underline method="pen" type="straight" language="LA" text="milites praetoriani legerant"/>
+        <underline method="pen" type="straight" language="LA" text="quos milites praetoriani legerant"/>
         <underline method="pen" type="straight" language="LA" text="Caesares"/>
         <underline method="pen" type="straight" language="LA" text="substituerant ultima uoluntate"/>
         <underline method="pen" type="straight" language="LA" text="Senatus authoritas"/>
@@ -104,6 +103,7 @@
         <underline method="pen" type="straight" language="LA" text="potentia"/>
         <underline method="pen" type="straight" language="LA" text="Inducias"/>
         <underline method="pen" type="straight" language="LA" text="bona fide"/>
+        <underline method="pen" type="straight" language="LA" text="induciae sunt"/>
         <underline method="pen" type="straight" language="LA" text="nulla ui debet attentari"/>
         <underline method="pen" type="straight" language="LA" text="discrimina &amp; ordines ciuium hominumq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="officia publica"/>
@@ -184,19 +184,19 @@
         <symbol name="SS" place="intext"/>
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
-        <symbol name="SS" place="tail"/>
+        <symbol name="SS" place="tail" language="LA" text="Comitia, et modus suffragiorum."/>
         
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="difficiliores aliquot leges continentur"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="Sola patrum &amp; senatus authoritate"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="regnare posse regem"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- quaesitus, -->
         <mark name="dot" method="pen" place="intext"/> <!-- mutatum, -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Caesares"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="quotation_mark" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- uoluntate, -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Senatus"/>
         <mark name="dot" method="pen" place="intext"/> <!-- instituunt, -->
@@ -211,14 +211,17 @@
         <mark name="dash" method="pen" place="right_margin"/> <!-- sor -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Secundum censum"/>
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--ciuis,-->
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- cen -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- censean -->
         <mark name="dot" method="pen" place="intext"/> <!-- ignoret, -->
         <mark name="triple_dash" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="essent classici"/>
+        <mark name="dot" method="pen" place="intext"/> <!--decupla,-->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- ciuium -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- cir -->
+        <mark name="dot" method="pen" place="intext"/> <!--quinquagesimum,-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- co -->
