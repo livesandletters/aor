@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000856.tif" reader="Harvey" signature="[AAA3 v]"/>
+    <page filename="00000856.tif" reader="Harvey" signature="[AAA3v]"/>
     <annotation>
 
         <marginalia hand="Italian">
@@ -14,6 +14,7 @@
                     <marginalia_text> 
                         Nunc demum maxima[e] res ingrandescentis Roma[e].
                     </marginalia_text>
+                    <location name="Rome"/>
                 </position>
             </language>
             <translation>
@@ -38,13 +39,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="O' urbem uenalem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
                         Jugurtha. O urbem uenalem.
                     </marginalia_text>
-                <location name="Jugurtha"/> <!-- LS, I added this -->
+                    <person name="Jugurtha"/>
                 </position>
             </language>
             <translation>
@@ -56,8 +57,8 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Mirific&egrave; mihi placet Liuius: sed cum Sallustio, Ca[e]sare, Uelleio, Tacito, Suetonio: ut etiam cum Halicarnaseo, Polybio, Plutarcho, 
-                        Dione, Herodiano. Quos sa[e]pe sensi prudentissimos, suauissimosq[ue] historicos Romanos. Nec ulla[e] adhuc Historia[e] pares, exceptis
+                        Mirific&egrave; mihi placet Liuius: sed cum Sallustio, Ca[e]sare, Velleio, Tacito, Suetonio: vt etiam cum Halicarnaseo, Polybio, Plutarcho, 
+                        Dione, Herodiano. Quos sa[e]p&egrave; sensi prudentissimos, suauissimosq[ue] historicos Romanos. Nec ulla[e] adhuc Historia[e] pares, exceptis
                         Hebra[e]orum diuinis.  
                     </marginalia_text>
                 <person name="Livy"/>
@@ -70,7 +71,7 @@
                 <person name="Polybius"/>
                 <person name="Plutarch"/>
                 <person name="Cassius Dio"/>
-                <person name="Herodian"/> <!-- LS, I added this -->
+                <person name="Herodian"/> 
                 </position>
             </language>
             <translation>
@@ -79,7 +80,6 @@
                 histories whatsoever are of the same calibre, except for the holy ones of the Hebrews.
             </translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Cleopatra"/>
         <underline method="pen" type="straight" language="LA" text="Demetrium uirum suum"/>
@@ -100,7 +100,7 @@
         <underline method="pen" type="straight" language="LA" text="mal&egrave; aduersus Scordi"/>
         <underline method="pen" type="straight" language="LA" text="Lustrum"/>
         <underline method="pen" type="straight" language="LA" text="censoribus conditum"/>
-        <underline method="pen" type="straight" language="LA" text="Censa sunt"/>
+        <underline method="pen" type="straight" language="LA" text="Censa sunt ciuiu[m]"/>
         <underline method="pen" type="straight" language="LA" text="CCCXCIIII millia"/>
         <underline method="pen" type="straight" language="LA" text="Vestales"/>
         <underline method="pen" type="straight" language="LA" text="incesti damnatae"/>
@@ -132,7 +132,7 @@
         <underline method="pen" type="straight" language="LA" text="Iugurtha pulsus &agrave; C. Mario ex Numidia"/>
         <underline method="pen" type="straight" language="LA" text="auxilio Bocchi Maurorum regis adiutus"/>
 
-        <symbol name="SS" place="left_margin"/>
+        <symbol name="SS" place="left_margin" language="LA" text="Nunc demum maxima[e] res ingrandescentis Roma[e]"/>
         <symbol name="JC" place="intext"/>
         
         <mark name="plus_sign" method="pen" place="intext"/>
@@ -142,6 +142,7 @@
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Lustrum"/>
+        <mark name="dot" method="pen" place="intext"/> <!--uenerunt-->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="cl&agrave;m profugit"/>
         <mark name="dot" method="pen" place="intext"/> <!-- adiecit, -->

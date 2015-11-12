@@ -55,7 +55,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
-                        graubo??? <!-- LS, he;s written something above the underlined word eo but not sure what -->
+                        graubo??? <!-- JG: unsure about this, needs checking!-->
                     </marginalia_text>
                 </position>
             </language>
@@ -71,13 +71,13 @@
         <underline method="pen" type="straight" language="LA" text="omnia enim deliciarum instrumenta recidit"/>
         <underline method="pen" type="straight" language="LA" text="millia scortorum &agrave; castris"/>
         <underline method="pen" type="straight" language="LA" text="omni die in opere habuit"/>
-        <underline method="pen" type="straight" language="LA" text="triginta dieru[m] frumentum, ad setenos uallos ferre"/>
+        <underline method="pen" type="straight" language="LA" text="triginta dieru[m] frumentum, ad septenos uallos ferre"/>
         <underline method="pen" type="straight" language="LA" text="propter onus"/>
         <underline method="pen" type="straight" language="LA" text="Cu[m] gladio rect&egrave; uallare"/>
         <underline method="pen" type="straight" language="LA" text="uallum ferre definito"/>
         <underline method="pen" type="straight" language="LA" text="parum habiliter scutum ferenti"/>
         <underline method="pen" type="straight" language="LA" text="scutum amplius iusto ferre"/>
-        <underline method="pen" type="straight" language="LA" text="melius scuto, qu&agrave;m gladio uteretur"/>
+        <underline method="pen" type="straight" language="LA" text="quoniam melius scuto, qu&agrave;m gladio uteretur"/>
         <underline method="pen" type="straight" language="LA" text="extra ordinem deprehendit"/>
         <underline method="pen" type="straight" language="LA" text="uitibus"/>
         <underline method="pen" type="straight" language="LA" text="uirgis cec&icirc;dit"/>
@@ -88,11 +88,12 @@
         <underline method="pen" type="straight" language="LA" text="cu[m] celare"/>
         <underline method="pen" type="straight" language="LA" text="imperatoribus regum munera mos esset"/>
         <underline method="pen" type="straight" language="LA" text="accepturum se esse dixit"/>
-        <underline method="pen" type="straight" language="LA" text="in publicas tabulas"/>
+        <underline method="pen" type="straight" language="LA" text="quaestorem in publicas tabulas"/>
         <underline method="pen" type="straight" language="LA" text="ex ijs"/>
         <underline method="pen" type="straight" language="LA" text="uiris fortibus munera se daturum"/>
         <underline method="pen" type="straight" language="LA" text="fame uideret"/>
         <underline method="pen" type="straight" language="LA" text="uelocius eos absumpturos frumentum"/>
+        <underline method="pen" type="straight" language="LA" text="plures quidem"/>
         <underline method="pen" type="straight" language="LA" text="Sempronius Gracchus"/>
         <underline method="pen" type="straight" language="LA" text="cum minus agri"/>
         <underline method="pen" type="straight" language="LA" text="quod diuidi"/>
@@ -113,7 +114,7 @@
         <underline method="pen" type="straight" language="LA" text="post Carthaginem deletam"/>
         <underline method="pen" type="straight" language="LA" text="Phraatem"/>
         <underline method="pen" type="straight" language="LA" text="Parthorum"/>
-        <underline method="pen" type="straight" language="LA" text="Ptolem"/>
+        <underline method="pen" type="straight" language="LA" text="Ptolemaeus"/>
         <underline method="pen" type="straight" language="LA" text="Euergetes"/>
         <underline method="pen" type="straight" language="LA" text="nimiam eius crudelitatem"/>
         
@@ -122,20 +123,21 @@
         <symbol name="SS" place="intext"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Numantiam"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="quotation_mark" method="pen" place="intext"/>
-        <mark name="quotation_mark" method="pen" place="intext"/>
+        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="deliciarum"/>
+        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="scortorum"/>
         <mark name="semicolon" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="quotation_mark" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!--refer-->
         <mark name="dot" method="pen" place="intext"/> <!-- iussit -->
         <mark name="X_sign" method="pen" place="right_margin"/>
         <mark name="dot" method="pen" place="intext"/> <!-- gesta -->
