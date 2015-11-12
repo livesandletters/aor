@@ -23,7 +23,7 @@
 					<person name="Bion of Smyrna"/>
 					<person name="Machiavelli"/>
 					<person name="Aesop"/>
-					<X-ref person="Machiavelli" book_title="La vita di Castruccio Castracani"/> <!--JG: Can you include the quoted text in the text attribute?-->
+					<book title="La vita di Castruccio Castracani"/>
 				</position>
 			</language>
 			<translation>
@@ -86,7 +86,9 @@
 				while those who have only learned chatter with raucous and 
 				indiscriminate tongues in vain like crows against the divine bird of Zeus."
 				  Pindar's second Olympian Ode.
-			</translation>	 <!-- Translation from Perseus Project; Diane Arnson Svarlien  --> <!--JG: Incude this in translation, supra-->
+				  
+				  [Translation from Perseus Project; Diane Arnson Svarlien]
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -102,7 +104,6 @@
 						Idem 3. Nemeorum. { Horatio Dirca[e]us Cygnus.
 					</marginalia_text>
 					<book title="Nemean Odes"/>
-					<X-ref person="Horace" book_title="Odes"/> <!--JG: Use text attribute if you can-->
 					<emphasis method="pen" type="straight" text="Telamoni nunq[uam] timor"/>
 					<emphasis method="pen" type="straight" text="fortitudinem animi"/>
 					<emphasis method="pen" type="straight" text="ex ingenita virtute"/>
@@ -122,7 +123,9 @@
 				at countless forms of excellence with his ineffectual thought."
 				  Pindar's third Nemean Ode
 				 (in Horace, he is the Thebean swan).
-			</translation>  <!-- Translation from Perseus Project; Diane Arnson Svarlien  --> <!--JG: Incude this in translation, supra-->
+				 
+				 [Translation from Perseus Project; Diane Arnson Svarlien]
+			</translation> 
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -151,10 +154,12 @@
 				</position>
 			</language>
 			<translation>
-				"Hieron, reaping every excellence at its peak, 
-				reaping every excellence at its peak." <!-- CG: Includes same phrase in both Latin and Greek. -->
+				"Hieron, reaping every excellence at its peak." 
+				"Reaping every excellence at its peak."
 				Pindar's first Olympian Ode.
-			</translation>	 <!-- Translation from Perseus Project; Diane Arnson Svarlien  --> <!--JG: Include this in translation, in between square brackets-->
+				
+				[Translation from Perseus Project; Diane Arnson Svarlien]
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -179,7 +184,9 @@
 				and this is especially true of talents which at the outset are inherently superior to the rest, 
 				because the one kind is capable only of improving upon itself while the other may also surpass the rest."
 				The Erotic Essay of Demosthenes.
-			</translation> <!-- Translation from Perseus Project; Norman Wentworth DeWitt  --><!--JG: Include this in translation, in between square brackets-->
+				
+				[Translation from Perseus Project; Norman Wentworth DeWitt]
+			</translation>
 		</marginalia>
 		
 		<marginalia hand="Italian">
@@ -188,13 +195,15 @@
 					<marginalia_text>
 						Posteri dies, testes sunt sapientissimi. Pind. Ode. I.
 					</marginalia_text>
-					<X-ref person="Pindar" book_title="Olympian Odes"/> <!--JG: Should not be X-ref tag, but book tag, no?-->
+					<book title="Olympian Odes"/>
 				</position>
 			</language>
 			<translation>
 				"The days to come are the wisest witnesses."
 				  Pindar's first Olympian Ode.
-			</translation>  <!-- Translation from Perseus Project; Diane Arnson Svarlien  --> <!--JG: Include this in translation, in between square brackets-->
+				  
+				  [Translation from Perseus Project; Diane Arnson Svarlien]
+			</translation>
 		</marginalia>
 		
 		
@@ -219,11 +228,13 @@
 						Nulla vtilitas est vel vtilissima[e] Artis, sine assidua Exercitatione.
 						R. in Corollario Scholarum Dialecticaru[m].
 					</marginalia_text>
+					<person name="Petrus Ramus"/>
+					<book title="Scholarum dialectarum seu animadversionum in Organum Aristotelis"/>
 				</position>
 			</language>
 			<translation>
 				Even the most useful art is useless without constant practice.
-				R. in the corollary of scholarly dialectics. <!-- CG: I've no idea who or what this is. Any ideas? --> <!--JG: Peter Ramus, see: https://books.google.co.uk/books?id=F4V8Z-XYGcwC&pg=PA154&lpg=PA154&dq=Ramus+Scholarum+Dialecticaru&source=bl&ots=2Ik1EMA-4h&sig=XHe1168EP_3UctwNtVhGk6nR7Qc&hl=en&sa=X&ved=0CCMQ6AEwAGoVChMI6I223amUxwIVCbsUCh3Amwi5#v=onepage&q=Ramus%20Scholarum%20Dialecticaru&f=false-->
+				R. in the deduction from his Scholarum Dialecticarum. 
 			</translation>
 		</marginalia>
     </annotation>
