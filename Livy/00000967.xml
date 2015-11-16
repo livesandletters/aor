@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000967.tif" reader="Harvey" signature="I3 [r]"/>
+    <page filename="00000967.tif" reader="Harvey" signature="I3[r]"/>
     <annotation>
         
         <marginalia hand="Italian">
@@ -33,11 +33,11 @@
                 </position>
             </language>
             <translation>
-                consecrated by augury.
+                Consecrated by augury.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Roma">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
@@ -55,9 +55,9 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Multa uix audeo scribere, qua[e] obit&egrave;r cogito legens: eademq[ue] ex intimis politicorum penetralibus; qua[e]dam pro, quaedam 
+                        Multa uix audeo scribere, qua[e] obit&egrave;r cogito legens: eademq[ue] ex intimis politicorum penetralibus; qua[e]dam pro, qua[e]dam 
                         contra ha[e]c nouorum Regum instituta. Qui nesciunt propriam regni naturam, politeuma, arcana; facil&egrave; multa peccant in legibus, 
-                        moribusq[ue] regijs. Uelcurio articulate explicat acta; non politic&egrave; disputat, aut decidit agenda. Nec regiarum actionum idoneus
+                        moribusq[ue] regijs. Uelcurio articulat&egrave; explicat acta; non politic&egrave; disputat, aut decidit agenda. Nec regiarum actionum idoneus
                         arbiter ipse Liuius, in populari, senatoriaq[ue] Repub. educatus maximam partem: lic&egrave;t tandem imperatoria[e] Maiestatis non 
                         ignarus.
                     </marginalia_text>
@@ -111,12 +111,13 @@
         <symbol name="LL" place="head"/>
         <symbol name="JC" place="head"/>
 
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Republica"/>
+        <mark name="plus_sign" method="pen" place="intext" />
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="intext"/> <!-- origi -->
         <mark name="dash" method="pen" place="intext"/> <!-- ur -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="Roma significat"/>
+        <mark name="bracket" method="pen" place="intext" language="LA" text="Roma significat, Hebraic&egrave; superbiam. Graece uiolentiam, Latin&egrave; scortum, Germanic&egrave; iactantiam"/>
         
     </annotation>
 </transcription>
