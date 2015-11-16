@@ -5,21 +5,26 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000965.tif" reader="Harvey" signature="I2 [r]"/>
+    <page filename="00000965.tif" reader="Harvey" signature="I2[r]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="VELCVRIONIS ANNOTATIONES">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Mult&ugrave;m prosunt Uelcurionis Annotationes Liuiana[e] ante Machiavelli discursus politicos: post has annotationes, illi discursus 
-                        utilissimi. Ut etiam pla[e]riq[ue] Dana[e]i ex Liuio aphorismi politici. Qui propter brevitatem, et facilitatem possunt cu[m] his 
-                        annotationibus commodissim&egrave; coniungi. Deinde sagacius de Machiavello iudicabitur.
+                        Mult&ugrave;m prosunt Uelcurionis Annotationes Liuiana[e] ante Machiauelli discursus politicos: post has annotationes, illi discursus 
+                        vtilissimi. Vt etiam pla[e]riq[ue] Dana[e]i ex Liuio aphorismi politici. Qui propter breuitatem, et facilitatem possunt cu[m]
                     </marginalia_text>
                     <person name="Johannes Velcurio"/>
                     <person name="Livy"/>
                     <person name="Machiavelli"/>
                     <person name="Lambert Daneau"/>
+                    <book title="Explicationes In T. Liuii Patavini"/>
+                    <book title="Ab Urbe Condita"/>
+                    <book title="Discourses on Livy"/>
+                </position>
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>his annotationibus commodissim&egrave; coniungi. Deinde sagaci&ugrave;s de Machiavello iudicabitur.</marginalia_text>
                 </position>
             </language>
             <translation>
@@ -29,7 +34,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Aeneas">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
@@ -50,7 +55,7 @@
                         Apologia Herodoti, &agrave; Stephano, Latin&egrave;, Galliceq[ue] amplificata.
                     </marginalia_text>
                     <person name="Herodotus"/>
-                    <person name="Henri Estienne"/> <!-- LS, I added this one -->
+                    <book title="Apologie pour Hérodote"/>
                 </position>
             </language>
             <translation>
@@ -72,13 +77,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="luxuria">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
                         Uita Luxuria[e].
                     </marginalia_text>
-                <emphasis method="pen" type="straight" text="Luxuria[e]."/>
+                <emphasis method="pen" type="straight" text="Luxuria[e]"/>
                 </position>
             </language>
             <translation>
@@ -125,7 +130,7 @@
         <underline method="pen" type="straight" language="LA" text="immensas opes"/>
         <underline method="pen" type="straight" language="LA" text="auaris manibus, ut perdat, rapit"/>
         <underline method="pen" type="straight" language="LA" text="humilis fortuna"/>
-        <underline method="pen" type="straight" language="LA" text="contingi parua sinebat"/>
+        <underline method="pen" type="straight" language="LA" text="uitijs contingi parua sinebat"/>
         <underline method="pen" type="straight" language="LA" text="Tecta labor, somniq[ue], breues"/>
         <underline method="pen" type="straight" language="LA" text="Vexatae, duraeq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="Hannibal"/>
@@ -133,7 +138,7 @@
         <underline method="pen" type="straight" language="LA" text="saeuior armis"/>
         <underline method="pen" type="straight" language="LA" text="Luxuria incubuit, uictumq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="Nullum crimen abest, facinusq[ue]"/>
-        <underline method="pen" type="straight" language="LA" text="Romana"/>
+        <underline method="pen" type="straight" language="LA" text="Paupertas Romana"/>
         <underline method="pen" type="straight" language="LA" text="obscoena pecunia"/>
         <underline method="pen" type="straight" language="LA" text="turpi fregerunt secula luxu"/>
         <underline method="pen" type="straight" language="LA" text="Diuitiae molles"/>
@@ -165,20 +170,21 @@
         <underline method="pen" type="straight" language="LA" text="Imperium sine sine dedi"/>
         
         <symbol name="SS" place="right_margin"/>
-        <symbol name="SS" place="left_margin"/>
+        <symbol name="SS" place="left_margin" language="LA" text="Romanos rerum dominos"/>
         <symbol name="SS" place="left_margin"/>
         
         <mark name="horizontal_bar" method="pen" place="right_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--ueterum, quales-->
         <mark name="dash" method="pen" place="intext"/> <!-- Ca -->
         <mark name="dot" method="pen" place="intext"/> <!-- pictor, -->
         <mark name="dot" method="pen" place="intext"/> <!-- Atticus, -->
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="nobis tantus solatia uictor"/>
+        <mark name="bracket" method="pen" place="left_margin" language="LA" text="Collecta uitia per tot aetates diu In nos redundant, seculo primimur graui: Quo scelera regnant, saeuit impietas furens"/>
         <mark name="dot" method="pen" place="intext"/> <!-- redundant, -->
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="dot" method="pen" place="intext"/> <!-- Mostellaria, -->
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="auaris manibus, ut perdat, rapit"/>
+        <mark name="bracket" method="pen" place="left_margin" language="LA" text="Praestabat castas, humilis fortuna latina Quondam, nec uitijs contingi parua sinebat Tacta labor, somniq[ue] breues. &amp; ueller Thusco Vexatae, duraeq[ue] manus, ac proximus urbi Hannibal, &amp; stantes Collina turre mariti."/>
         <mark name="comma" method="pen" place="intext"/> <!-- castas -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dot" method="pen" place="intext"/> <!-- Quondam, -->
@@ -188,7 +194,8 @@
         <mark name="dot" method="pen" place="intext"/> <!-- mala, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="saeuior"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="armis"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin" language="LA" text="Nunc patimur longae pacis mala, saeuior armis Luxuria incubuit, uictumq[ue] ulciscitur orbem. Nullum crimen abest, facinusq[ue] libidinis, ex quo Paupertas Romana perit. Prima peregrinos obscoena pecunia mores Intulit, &amp; turpi fregerunt secula luxu"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="Luxuria incubuit, uictumq[ue]"/>
         <mark name="dash" method="pen" place="intext"/> <!-- pri -->
         <mark name="dot" method="pen" place="intext"/> <!-- expositione, -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- lo -->
