@@ -5,38 +5,39 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000974.tif" reader="Harvey"/>
+    <page filename="00000974.tif" reader="Harvey" signature="[I6v]"/>
     <annotation>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
-                        Quere &agrave;Medicis.
+                        Qu[a]ere &agrave; Medicis.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Find a doctor. <!-- LS, not in ABO so my translation! -->
+                To obtain from doctors. 
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="po[n]tifex"/>
         <underline method="pen" type="straight" language="LA" text="summus sacerdos, praeesset"/>
         <underline method="pen" type="straight" language="LA" text="ius pontificium habet"/>
-        <underline method="pen" type="straight" language="LA" text="patrij ritus"/>
+        <underline method="pen" type="straight" language="LA" text="patrij ritus caeremoniarum"/>
         <underline method="pen" type="straight" language="LA" text="peregrini ritus exteraeq[ue]"/>
-        <underline method="pen" type="straight" language="LA" text="autoritate pontificis"/>
+        <underline method="pen" type="straight" language="LA" text="autoritate pontificis non"/>
         <underline method="pen" type="straight" language="LA" text="signa &amp; ostenta"/>
         <underline method="pen" type="straight" language="LA" text="fer&egrave; significent immine[n]tia mala"/>
         <underline method="pen" type="straight" language="LA" text="auguria"/>
         <underline method="pen" type="straight" language="LA" text="auspicia"/>
-        <underline method="pen" type="straight" language="LA" text="abseruata diuinatione"/>
+        <underline method="pen" type="straight" language="LA" text="obseruata diuinatione"/>
         <underline method="pen" type="straight" language="LA" text="Fidem datam"/>
         <underline method="pen" type="straight" language="LA" text="honestissimu[m] uinculum societatis"/>
         <underline method="pen" type="straight" language="LA" text="iuris fundamentum"/>
         <underline method="pen" type="straight" language="LA" text="perfidia"/>
         <underline method="pen" type="straight" language="LA" text="Iurame[n]tum"/>
+        <underline method="pen" type="straight" language="LA" text="licita"/>
         <underline method="pen" type="straight" language="LA" text="Coercitionem perfidiae"/>
         <underline method="pen" type="straight" language="LA" text="periurij"/>
         <underline method="pen" type="straight" language="LA" text="lex naturae"/>
@@ -64,13 +65,13 @@
         <underline method="pen" type="straight" language="LA" text="inquietus"/>
         <underline method="pen" type="straight" language="LA" text="bellicosus"/>
         <underline method="pen" type="straight" language="LA" text="partim ad foedera"/>
-        <underline method="pen" type="straight" language="LA" text="Romano omperio"/>
+        <underline method="pen" type="straight" language="LA" text="Romano imperio"/>
         <underline method="pen" type="straight" language="LA" text="multasq[ue] colonias deduxit"/>
         <underline method="pen" type="straight" language="LA" text="Hostij Hostilij"/>
         <underline method="pen" type="straight" language="LA" text="mortem pro patria occubuerat"/>
 
         <symbol name="SS" place="left_margin"/>
-        <symbol name="Mars" place="intext"/>
+        <symbol name="Mars" place="intext" language="LA" text="bellicosus"/>
         <symbol name="SS" place="left_margin"/>
 
         <mark name="dash" method="pen" place="intext"/> <!-- sal -->
@@ -80,6 +81,7 @@
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="iuris fundamentum"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--laedendum, tamen-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- puniendum, -->
