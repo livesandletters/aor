@@ -25,7 +25,7 @@
         <underline method="pen" type="straight" language="LA" text="Sacra priuata prohiberi"/>
         <underline method="pen" type="straight" language="LA" text="public&egrave; probatis"/>
         <underline method="pen" type="straight" language="LA" text="Sacra publica fastis descripta"/>
-        <underline method="pen" type="straight" language="LA" text="fasti, libri, in"/>
+        <underline method="pen" type="straight" language="LA" text="autem fasti, libri, in"/>
         <underline method="pen" type="straight" language="LA" text="Res repeti certa"/>
         <underline method="pen" type="straight" language="LA" text="conceptisq[ue] uerbis"/>
         <underline method="pen" type="straight" language="LA" text="iustam causam"/>
@@ -35,7 +35,7 @@
         <underline method="pen" type="straight" language="LA" text="certa formula de"/>
         <underline method="pen" type="straight" language="LA" text="publico consilio &amp; decreto"/>
         <underline method="pen" type="straight" language="LA" text="latrocinium, si priuatim"/>
-        <underline method="pen" type="straight" language="LA" text="indici certa"/>
+        <underline method="pen" type="straight" language="LA" text="Bellum indici certa"/>
         <underline method="pen" type="straight" language="LA" text="bellum"/>
         <underline method="pen" type="straight" language="LA" text="iuris tutamentum, &amp; publica"/>
         <underline method="pen" type="straight" language="LA" text="certo iure belli debet"/>
@@ -45,12 +45,14 @@
         <underline method="pen" type="straight" language="LA" text="mandanda alijs in absentia regis"/>
         
         <symbol name="JC" place="right_margin"/>
-        <symbol name="Mars" place="right_margin"/>
+        <symbol name="Mars" place="right_margin" language="LA" text="de bello inferendo"/>
         
         <mark name="dash" method="pen" place="right_margin"/> <!-- descri -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- describun -->
+        <mark name="dot" method="pen" place="intext"/> <!--fasti, de-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- su -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- re -->
+        <mark name="dot" method="pen" place="intext"/> <!--redantur, uel-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ex -->
         
     </annotation>
