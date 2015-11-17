@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000964.tif" reader="Harvey"/>
+    <page filename="00000964.tif" reader="Harvey" signature="[Iv]"/>
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="septingentorum annorum mihi erit memoria"/>
@@ -43,11 +43,10 @@
         <underline method="pen" type="straight" language="LA" text="tot sententiae sunt, quot hominum capita"/>
         <underline method="pen" type="straight" language="LA" text="ut acri &amp; prudenti cogitatione"/>
         <underline method="pen" type="straight" language="LA" text="hominum aetatumq[ue] uita fuerit"/>
-        <underline method="pen" type="straight" language="LA" text="consuetudines"/>
-        <underline method="pen" type="straight" language="LA" text="quae leges"/>
+        <underline method="pen" type="straight" language="LA" text="quae consuetudines, quae leges"/>
         <underline method="pen" type="straight" language="LA" text="mores deniq[ue] fuerint cuiusque seculi"/>
         <underline method="pen" type="straight" language="LA" text="principes"/>
-        <underline method="pen" type="straight" language="LA" text="tantum imperium Romae"/>
+        <underline method="pen" type="straight" language="LA" text="tantum imperium Romae, non"/>
         <underline method="pen" type="straight" language="LA" text="splendidissimiis incrementis &amp; accessionibus ita mirabiliter auctum"/>
         <underline method="pen" type="straight" language="LA" text="ipso nihil pulchrius unquam toto terraru[m]"/>
         <underline method="pen" type="straight" language="LA" text="floruerit"/>
@@ -77,7 +76,7 @@
         <underline method="pen" type="straight" language="LA" text="uiuis exmplis illa perspicu&egrave; efficaciterq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="mutis tradunt praeceptis"/>
         <underline method="pen" type="straight" language="LA" text="expressas &amp; claras uirtutum"/>
-        <underline method="pen" type="straight" language="LA" text="generis imagines"/>
+        <underline method="pen" type="straight" language="LA" text="generis imagines intueantur"/>
         <underline method="pen" type="straight" language="LA" text="uita priuata"/>
         <underline method="pen" type="straight" language="LA" text="publica"/>
         <underline method="pen" type="straight" language="LA" text="honestum factum"/>
@@ -85,7 +84,7 @@
         <underline method="pen" type="straight" language="LA" text="nullam usquam Rempublicam"/>
         <underline method="pen" type="straight" language="LA" text="nullum imperium in orbe fuisse"/>
         <underline method="pen" type="straight" language="LA" text="magnum, durabile, incorruptum, &amp; bonis"/>
-        <underline method="pen" type="straight" language="LA" text="moribus"/>
+        <underline method="pen" type="straight" language="LA" text="quoque moribus"/>
         <underline method="pen" type="straight" language="LA" text="exemplis ita abundans, ut Romanum"/>
         <underline method="pen" type="straight" language="LA" text="immune &amp; uacuum ab auaritia, ac rapacitate"/>
         <underline method="pen" type="straight" language="LA" text="luxu &amp; libidine"/>
@@ -108,14 +107,14 @@
         <underline method="pen" type="straight" language="LA" text="libet libines"/>
         <underline method="pen" type="straight" language="LA" text="omnia, etiam optima, corrumpendi"/>
         <underline method="pen" type="straight" language="LA" text="nimium ingrauescens luxuria &amp; libido"/>
-        <underline method="pen" type="straight" language="LA" text="omniosae hinc facessant querelae"/>
+        <underline method="pen" type="straight" language="LA" text="ominosae hinc facessant querelae"/>
         <underline method="pen" type="straight" language="LA" text="auspicata comprecatione"/>
         <underline method="pen" type="straight" language="LA" text="Querelae enim"/>
         <underline method="pen" type="straight" language="LA" text="ingratae molestaeq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="necessitate coacti eas"/>
         <underline method="pen" type="straight" language="LA" text="ueritas ipsa radit"/>
-        <underline method="pen" type="straight" language="LA" text="querelae"/>
-        <underline method="pen" type="straight" language="LA" text="acceptae pessimo"/>
+        <underline method="pen" type="straight" language="LA" text="liberiores querelae &amp;"/>
+        <underline method="pen" type="straight" language="LA" text="minim&egrave; acceptae pessimo"/>
         <underline method="pen" type="straight" language="LA" text="historicis"/>
         <underline method="pen" type="straight" language="LA" text="poetae utuntur"/>
         <underline method="pen" type="straight" language="LA" text="ut deos deasq[ue]"/>
@@ -126,19 +125,20 @@
         
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
-        <symbol name="Mars" place="left_margin"/>
+        <symbol name="Mars" place="left_margin" language="LA" text="Martem; belli; militaris"/>
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
-        <symbol name="SS" place="intext"/>
+        <symbol name="SS" place="intext" language="LA" text="uiuis exemplis illaa perspicue efficaciterq[ue]"/>
         <symbol name="SS" place="intext"/>
         <symbol name="SS" place="right_margin"/>
-        <symbol name="SS" place="intext"/>
+        <symbol name="SS" place="tail"/>
         
         <mark name="dash" method="pen" place="intext"/> <!-- quonto -->
         <mark name="dash" method="pen" place="intext"/> <!-- fon -->
         <mark name="dash" method="pen" place="intext"/> <!-- gra -->
         <mark name="dash" method="pen" place="intext"/> <!-- mino -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--literis, quam-->
         <mark name="dash" method="pen" place="intext"/> <!-- credibi -->
         <mark name="dash" method="pen" place="intext"/> <!-- anti -->
         <mark name="dash" method="pen" place="intext"/> <!-- stu -->
@@ -147,6 +147,7 @@
         <mark name="dash" method="pen" place="intext"/> <!-- ho -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--urbe, foris-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="sanctissima disciplina"/>
         <mark name="dash" method="pen" place="intext"/> <!-- sci -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="enim consilijs"/>
@@ -159,7 +160,6 @@
         <mark name="dot" method="pen" place="intext"/> <!-- ualeat, -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="pristina moderatio"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- diui -->
@@ -168,6 +168,7 @@
         <mark name="dot" method="pen" place="intext"/> <!-- libido, -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- com -->
         <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--cuique, quales-->
         
     </annotation>
 </transcription>

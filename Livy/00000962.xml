@@ -5,15 +5,16 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000962.tif" reader="Harvey"/>
+    <page filename="00000962.tif" reader="Harvey" signature="[H6v]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Romae numerantur aetates quinq[ue]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
                         Roma[e] quinq[ue] a[e]tates.
                     </marginalia_text>
+                    <location name="Rome"/>
                 </position>
             </language>
             <translation>
@@ -21,14 +22,15 @@
             </translation>
         </marginalia>
        
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Imperatoribus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
                         Roma sub primis Imperatoribus florebat, pollebatq[ue] maxim&egrave;: pra[e]sertim sub Augusto, et Traiano potentissima.
                     </marginalia_text>
-                <person name="Augustus"/>
-                <person name="Trajan"/> <!-- LS, I added this one -->
+                    <person name="Augustus"/>
+                    <person name="Trajan"/> 
+                    <location name="Rome"/>
                 </position>
             </language>
             <translation>
@@ -36,7 +38,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Pontificibus Romanis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
@@ -73,7 +75,7 @@
         <underline method="pen" type="straight" language="LA" text="ARGVMENVM LIBRI PRIMI"/>
         <underline method="pen" type="straight" language="LA" text="totius historiae Romanae"/>
         <underline method="pen" type="straight" language="LA" text="regibus Albanis atq[ue] Romanis"/>
-        <underline method="pen" type="straight" language="LA" text="historiae sunt omnino necessarise, nedum utiles, ad"/>
+        <underline method="pen" type="straight" language="LA" text="historiae sunt omnino necessariae, nedum utiles, ad"/>
         <underline method="pen" type="straight" language="LA" text="reliquum corpus totum historiae Romanae cogniscendum"/>
         <underline method="pen" type="straight" language="LA" text="quasi caput eius corporis &amp; principium"/>
         <underline method="pen" type="straight" language="LA" text="breuiter Florus complectitur"/>
@@ -118,14 +120,14 @@
         <underline method="pen" type="straight" language="LA" text="qua uires eius prop&egrave;"/>
         <underline method="pen" type="straight" language="LA" text="Roma spolium barbarorum omnium"/>
         <underline method="pen" type="straight" language="LA" text="ad&egrave;o urbis terrarum praeda"/>
-        <underline method="pen" type="straight" language="LA" text="denique prouincias ditio"/>
+        <underline method="pen" type="straight" language="LA" text="denique prouincias ditiones"/>
         <underline method="pen" type="straight" language="LA" text="barbaris sibi ereptas, amisit"/>
         <underline method="pen" type="straight" language="LA" text="acta"/>
         <underline method="pen" type="straight" language="LA" text="quasi decrepita &amp;"/>
         <underline method="pen" type="straight" language="LA" text="Pontificibus Romanis"/>
         <underline method="pen" type="straight" language="LA" text="Caesaribus Germanis hactenus"/>
         <underline method="pen" type="straight" language="LA" text="circiter septingentos"/>
-        <underline method="pen" type="straight" language="LA" text="imperio libertate[m]que, nedum prouincijs"/>
+        <underline method="pen" type="straight" language="LA" text="imperio libertateque, nedum prouincijs"/>
         <underline method="pen" type="straight" language="LA" text="urbs Roma est"/>
         <underline method="pen" type="straight" language="LA" text="interim sit aliud, qu&agrave;m multorum"/>
         <underline method="pen" type="straight" language="LA" text="mancipium"/>
@@ -141,7 +143,7 @@
         <underline method="pen" type="straight" language="LA" text="magis ignauia perijt"/>
         <underline method="pen" type="straight" language="LA" text="nihil"/>
         <underline method="pen" type="straight" language="LA" text="nudos indices habeamus"/>
-        <underline method="pen" type="straight" language="LA" text="Flroi"/>
+        <underline method="pen" type="straight" language="LA" text="Flori"/>
         <underline method="pen" type="straight" language="LA" text="Eutropij"/>
         <underline method="pen" type="straight" language="LA" text="Orosij Epitomas"/>
         <underline method="pen" type="straight" language="LA" text="Plutarchi uitas utcunque"/>
@@ -193,7 +195,7 @@
         <underline method="pen" type="straight" language="LA" text="legentis memoria[m] et attentionem"/>
         <underline method="pen" type="straight" language="LA" text="lector statim"/>
         <underline method="pen" type="straight" language="LA" text="ex uno quoq[ue] libro sibi esset"/>
-        <underline method="pen" type="straight" language="LA" text="non utilis usus huiusmodi"/>
+        <underline method="pen" type="straight" language="LA" text="non inutilis usus huiusmodi"/>
         <underline method="pen" type="straight" language="LA" text="in his tantu[m] immoretur, omissis"/>
         <underline method="pen" type="straight" language="LA" text="ignauiae diuerticula et desidiae"/>
         <underline method="pen" type="straight" language="LA" text="Florus"/>
@@ -220,7 +222,7 @@
         <underline method="pen" type="straight" language="LA" text="uicissitudo, ut minima"/>
         <underline method="pen" type="straight" language="LA" text="maxima quaeq[ue] decrescant"/>
         <underline method="pen" type="straight" language="LA" text="Tolluntur in altum"/>
-        <underline method="pen" type="straight" language="LA" text="grauiore"/>
+        <underline method="pen" type="straight" language="LA" text="lapsu grauiore"/>
         <underline method="pen" type="straight" language="LA" text="potissimum Liuij scripta legi"/>
         <underline method="pen" type="straight" language="LA" text="intelligere"/>
         <underline method="pen" type="straight" language="LA" text="imitari"/>
@@ -239,7 +241,7 @@
         <underline method="pen" type="straight" language="LA" text="et membris ita"/>
         <underline method="pen" type="straight" language="LA" text="plures complectatur"/>
 
-        <symbol name="SS" place="head" language="LA" text="ARGVMENTVM LIBRI"/>        
+        <symbol name="SS" place="head" language="LA" text="ARGVMENTVM LIBRI PRIMI"/>        
         <symbol name="Sun" place="left_margin"/>
         <symbol name="SS" place="intext"/>
         <symbol name="SS" place="left_margin"/>
@@ -267,11 +269,12 @@
         <mark name="dash" method="pen" place="intext"/> <!-- fie -->
         <mark name="circumflex" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="distinctam"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="distinctam Romanam historiam"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="regibus"/>
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="pueritia"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="monarchiam"/>
+        <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Aristocratia"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="iuuentus"/>
@@ -303,11 +306,11 @@
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="tertiae aetatis"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="maxima pars Liuianae"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dot" method="pen" place="intext"/> <!-- perijt, -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="nudos indices habemus"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Flori"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Eutropij"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Orosij"/>
@@ -318,6 +321,7 @@
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Totum"/>
         <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!--Latinoru[m] princeps-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="fluenti"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="inuictoq[ue]"/>
         <mark name="plus_sign" method="pen" place="intext"/>
@@ -338,6 +342,13 @@
         <mark name="dash" method="pen" place="right_margin"/> <!-- mor -->
         <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="FLORO"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Florus aetate"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- li -->
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/> <!--ret-->
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="non inutilis usus huiusmodi"/>
+        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Florus"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- li -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
