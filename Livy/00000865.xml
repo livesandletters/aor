@@ -22,7 +22,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Cleopatra">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
@@ -36,7 +36,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Augustus">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
@@ -52,12 +52,22 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Tiberius. Drusus.</marginalia_text>
+                    <person name="Tiberius"/>
+                    <person name="Germanicus"/>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
                         Ecce quot, quantaeq[ue] res gestae, in quantula Flori Epitome. 
                     </marginalia_text>
                 <person name="Florus"/>
-                <book title="Epitome de T. Livio Bellorum omnium annorum DCC Libri duo"/> <!-- LS, I added this one -->
+                <book title="Epitome de T. Livio Bellorum omnium annorum DCC Libri duo"/>
                 </position>
             </language>
             <translation>
@@ -69,26 +79,26 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Drusus, Germanici pater. Nam alius Drusus, Germanici frater: alius, filius Germanici: ut apud Corn. Tacitum: cuius prudens, atq[ue] 
-                        solers historia, ea persequitur, qua[e] hic proxime sequi deberent. In Liuio, et Tacito; cum Sallustio etiam, ipsoq[ue] Ca[e]sare; 
-                        ingens uis maximarum rerum fortiter, prudenterq[ue] gestarum; plaerunq[ue] &agrave; Romanis, ad orbis imperium aspirantibus; interdum 
-                        etiam &agrave; Gra[e]cis, Barbarisq[ue]. Ecce Romana[e] Uirtutis Biblia, Liuius; cum Ca[e]sare, et Salustio; Tacito, et Suetonio. 
-                        Egnatius, et Pomp. La[e]tus prop&egrave; Laconici, aut potius Romani, in uena Flori, et Eutropij; Suetonij, et Frontini; Val. Maximi, 
-                        et Justini. In quo etiam genere excellunt civilium, militariumq[ue] scriptorum Principes, Justinianus, et Uegetius; duo pressi, et 
+                        Drusus, Germanici pater. Nam alius Drusus, Germanici frater: alius, filius Germanici: vt apud Corn. Tacitum: cuius prudens, atq[ue] 
+                        solers historia, ea persequitur, qua[e] h&icirc;c proxime sequi deberent. In Liuio, et Tacito; cum Sallustio etiam, ipsoq[ue] Ca[e]sare; 
+                        ingens vis maximarum rerum fortiter, prudenterq[ue] gestarum; plaerunq[ue] &agrave; Romanis, ad orbis imperium aspirantibus; interdum 
+                        etiam &agrave; Gra[e]cis, Barbarisq[ue]. Ecc&egrave; Romana[e] Virtutis Biblia, Liuius; cum Ca[e]sare, et Salustio; Tacito, et Suetonio. 
+                        Egnatius, et Pomp. La[e]tus prop&egrave; Laconici, aut poti&ugrave;s Romani, in vena Flori, et Eutropij; Suetonij, et Frontini; Val. Maximi, 
+                        et Justini. In quo etiam genere excellunt ciuilium, militariumq[ue] scriptorum Principes, Justinianus, et Vegetius; duo pressi, et 
                         neruosi auctores, tam prudentes, qu&agrave;m siccincti. Tales etiam Paterculus, Tacitus, Seneca, Cassiodorus, Sidonius, interdum 
-                        Boethus [sic], in primisq[ue] Euscopi familiaris spiritus Aurelius Victor: cum Aemilio Probo, qui exteros duces perstrinxit; Nam 
-                        Cornelium Nepotem habet, qui habet Aurelium Victorem. Quanq[uam] non spernendus Cornelius Nepos, quem, Romanorum aeuum tribus chartis 
-                        explicasse, inquit Catullus: nondum nato Aurelio Uictore. 
+                        Boethus [sic], in primisq[ue] Euscopi familiaris spiritus Aurelius Victor: cum &AElig;milio Probo, qui exteros duces perstrinxit; Nam 
+                        Cornelium Nepotem habet, qui habet Aurelium Victorem. Quanq[uam] non spernendus Cornelius Nepos, qu&agrave;m, Romanorum aeuum tribus chartis 
+                        explicasse, inquit Catullus: nondum nato Aurelio Victore. 
                     </marginalia_text>
-                <person name="Marcus Livius Drusus"/>
-                <person name="Germanicus"/> <!-- LS, I added this one -->
+                <person name="Nero Claudius Drusus"/>
+                <person name="Germanicus"/> 
                 <person name="Tacitus"/>
                 <person name="Livy"/>
                 <person name="Sallust"/>
                 <person name="Julius Caesar"/>
                 <person name="Suetonius"/>
                 <person name="Giovanni Battista Cipelli"/>
-                <person name="Julius Pomponius Laetus"/> <!-- LS, I added this one -->
+                <person name="Julius Pomponius Laetus"/> 
                 <person name="Florus"/>
                 <person name="Flavius Eutropius"/>
                 <person name="Frontinus"/>
@@ -99,14 +109,14 @@
                 <person name="Marcus Velleius Paterculus"/>
                 <person name="Tacitus"/>
                 <person name="Seneca the Elder"/>
-                <person name="Cassiodorus"/> <!-- LS, I added this one -->
-                <person name="Sidonius Apollinaris"/> <!-- LS, I added this one -->
-                <person name="Boethius"/> <!-- LS, I added this one -->
+                <person name="Cassiodorus"/>
+                <person name="Sidonius Apollinaris"/> 
+                <person name="Boethius"/> 
                 <person name="Aurelius Victor"/>
                 <person name="Euscopus"/>
                 <person name="Aemilius Probus"/>
                 <person name="Cornelius Nepos"/>
-                <person name="Catullus"/> <!-- LS, I added this one -->
+                <person name="Catullus"/> 
                 </position>
             </language>
             <translation>
@@ -140,13 +150,13 @@
         <underline method="pen" type="straight" language="LA" text="honos nemini ante eum"/>
         <underline method="pen" type="straight" language="LA" text="Marcus Antonius"/>
         <underline method="pen" type="straight" language="LA" text="Cleopatra luxuriaretur"/>
-        <underline method="pen" type="straight" language="LA" text="Medium prouinciam"/>
+        <underline method="pen" type="straight" language="LA" text="Mediam prouinciam"/>
         <underline method="pen" type="straight" language="LA" text="Armeniam reuersus"/>
         <underline method="pen" type="straight" language="LA" text="ad Cleopatram festinat"/>
-        <underline method="pen" type="straight" language="LA" text="Pompeius, cum in fidemM. Antonij"/>
+        <underline method="pen" type="straight" language="LA" text="Pompeius, cum in fidem M. Antonij"/>
         <underline method="pen" type="straight" language="LA" text="bellum aduersus eum in Asia"/>
         <underline method="pen" type="straight" language="LA" text="legatis eius oppressus est"/>
-        <underline method="pen" type="straight" language="LA" text="seditionem ueter anorum cum magna pernicie mot"/>
+        <underline method="pen" type="straight" language="LA" text="seditionem ueteranorum cum magna pernicie mot"/>
         <underline method="pen" type="straight" language="LA" text="inhibuit"/>
         <underline method="pen" type="straight" language="LA" text="tauasdem Armeniae regem"/>
         <underline method="pen" type="straight" language="LA" text="fide data perductum"/>
@@ -160,7 +170,7 @@
         <underline method="pen" type="straight" language="LA" text="ta[m] ingentibus naualibus"/>
         <underline method="pen" type="straight" language="LA" text="remissoq[ue] Octauiae"/>
         <underline method="pen" type="straight" language="LA" text="Pugnae deinde nauales"/>
-        <underline method="pen" type="straight" language="LA" text="praelia equstria secu[n]da Caesaris"/>
+        <underline method="pen" type="straight" language="LA" text="praelia equestria secu[n]da Caesaris"/>
         <underline method="pen" type="straight" language="LA" text="Antonius"/>
         <underline method="pen" type="straight" language="LA" text="Actium classe uictus Alexandriam profugit"/>
         <underline method="pen" type="straight" language="LA" text="obsessusq[ue] &agrave; Caesare"/>
@@ -191,8 +201,8 @@
         <underline method="pen" type="straight" language="LA" text="domiti &agrave; Scipione"/>
         <underline method="pen" type="straight" language="LA" text="Octauia soror Augusti"/>
         <underline method="pen" type="straight" language="LA" text="filio Marcello"/>
-        <underline method="pen" type="straight" language="LA" text="sunt, theatru[m]"/>
-        <underline method="pen" type="straight" language="LA" text="portivus, eius nomini"/>
+        <underline method="pen" type="straight" language="LA" text="monime[n]ta sunt, theatru[m]"/>
+        <underline method="pen" type="straight" language="LA" text="porticus, eius nomini"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; Druso gestum"/>
         <underline method="pen" type="straight" language="LA" text="primores pugnaueru[n]t, Senectius &amp; Anectius"/>
         <underline method="pen" type="straight" language="LA" text="Nero"/>
@@ -200,7 +210,7 @@
         <underline method="pen" type="straight" language="LA" text="ipse ex fractura"/>
         <underline method="pen" type="straight" language="LA" text="equo super crus eius"/>
         <underline method="pen" type="straight" language="LA" text="mortuus"/>
-        <underline method="pen" type="straight" language="LA" text="corpus &agrave;"/>
+        <underline method="pen" type="straight" language="LA" text="corpus &agrave; Nerone"/>
         <underline method="pen" type="straight" language="LA" text="C. Iulij conditum"/>
         <underline method="pen" type="straight" language="LA" text="Laudatus &agrave; Caesar Augusto"/>
         <underline method="pen" type="straight" language="LA" text="plure honores additi"/>
@@ -236,8 +246,11 @@
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="circumflex" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Augustus"/> <!-- LS, or straight quote marks? -->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Augustus"/> 
+        <mark name="dot" method="pen" place="intext"/> <!--mortuus,-->
+        <mark name="dot" method="pen" place="intext"/> <!--dedicata,-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- referu[m] -->
+        <mark name="dash" method="pen" place="right_margin"/> <!--col-->
         
     </annotation>
 </transcription>

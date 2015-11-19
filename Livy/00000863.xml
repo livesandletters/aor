@@ -67,8 +67,8 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Nullorum uitas, aut actiones malim, qu&agrave;m duorum splendidissim&ograve;rum principum, Julij, et Augusti; in aestuanti Leone, et 
-                        spicifera Uirgine adhuc pra[e]fulgentium. Nemo usq[uam] eum Romani calendarij honorem meruit, praeterq[uam] hij duo. Mnemosynon 
+                        Nullorum vitas, aut actiones malim, qu&agrave;m duorum splendidissim&ograve;rum principum, Julij, et Augusti; in aestuanti Leone, et 
+                        spicifera Virgine adh&ugrave;c pra[e]fulgentium. Nemo unq[uam] eum Romani calendarij honorem meruit, praeterq[uam] hij duo. Mnemosynon 
                         singulare Julij, et Augusti in omne aeuum.
                     </marginalia_text>
                 <person name="Julius Caesar"/>
@@ -110,7 +110,7 @@
         <underline method="pen" type="straight" language="LA" text="aduersus"/>
         <underline method="pen" type="straight" language="LA" text="Pharnaces Mithridatis filius, rex"/>
         <underline method="pen" type="straight" language="LA" text="ulla belli mora uictus est"/>
-        <underline method="pen" type="straight" language="LA" text="Caesar ueteranis cum seditione missionem"/>
+        <underline method="pen" type="straight" language="LA" text="Caesar ueteranis cum seditione missionem postulantibus"/>
         <underline method="pen" type="straight" language="LA" text="contra copias Iubae regis cum discrimine maximo pugnauit"/>
         <underline method="pen" type="straight" language="LA" text="Bellum in Syria Caecilius"/>
         <underline method="pen" type="straight" language="LA" text="Caesar"/>
@@ -123,9 +123,9 @@
         <underline method="pen" type="straight" language="LA" text="aetatis quadragesimonono"/>
         <underline method="pen" type="straight" language="LA" text="Petreius Iubam, seq[ue] interemit"/>
         <underline method="pen" type="straight" language="LA" text="Scipio in"/>
-        <underline method="pen" type="straight" language="LA" text="morti uocem"/>
+        <underline method="pen" type="straight" language="LA" text="honestae morti uocem"/>
         <underline method="pen" type="straight" language="LA" text="hostibus imperatorem"/>
-        <underline method="pen" type="straight" language="LA" text="Imperator bene habet"/>
+        <underline method="pen" type="straight" language="LA" text="Imperator bene se habet"/>
         <underline method="pen" type="straight" language="LA" text="Africanius occisi"/>
         <underline method="pen" type="straight" language="LA" text="Caesar quatuor triumphos duxit"/>
         <underline method="pen" type="straight" language="LA" text="Gallia"/>
@@ -142,7 +142,7 @@
         <underline method="pen" type="straight" language="LA" text="pater patriae appellaretur"/>
         <underline method="pen" type="straight" language="LA" text="sacrosanctus, ac dictator in perpetuum"/>
         <underline method="pen" type="straight" language="LA" text="inuidiae causam aduersus"/>
-        <underline method="pen" type="straight" language="LA" text="deferenti hos honores"/>
+        <underline method="pen" type="straight" language="LA" text="senatui deferenti hos honores"/>
         <underline method="pen" type="straight" language="LA" text="minim&egrave; assurrexit"/>
         <underline method="pen" type="straight" language="LA" text="M. Antonio"/>
         <underline method="pen" type="straight" language="LA" text="diadema capiti suo impositum in sella reposuit"/>
@@ -151,7 +151,7 @@
         <underline method="pen" type="straight" language="LA" text="potestas"/>
         <underline method="pen" type="straight" language="LA" text="ijs causis"/>
         <underline method="pen" type="straight" language="LA" text="conspiratione in"/>
-        <underline method="pen" type="straight" language="LA" text="capita fuerunt"/>
+        <underline method="pen" type="straight" language="LA" text="cuius capita fuerunt"/>
         <underline method="pen" type="straight" language="LA" text="Brutus"/>
         <underline method="pen" type="straight" language="LA" text="C. Trebonius"/>
         <underline method="pen" type="straight" language="LA" text="C. Cassius"/>
@@ -160,13 +160,13 @@
         <underline method="pen" type="straight" language="LA" text="curia Pompeij"/>
         <underline method="pen" type="straight" language="LA" text="est uiginti tribus uulneribus"/>
         <underline method="pen" type="straight" language="LA" text="occupatumq[ue] ab interfectoribus eius"/>
-        <underline method="pen" type="straight" language="LA" text="capitolium"/>
+        <underline method="pen" type="straight" language="LA" text="Capitolium"/>
         <underline method="pen" type="straight" language="LA" text="Obliuione deinde caedis"/>
         <underline method="pen" type="straight" language="LA" text="obsidibus Antonij &amp; Lepidi liberis"/>
         <underline method="pen" type="straight" language="LA" text="co[n]iurati &agrave; Capitolio descenderunt"/>
         <underline method="pen" type="straight" language="LA" text="Testamento"/>
         <underline method="pen" type="straight" language="LA" text="Caesaris haeres"/>
-        <underline method="pen" type="straight" language="LA" text="C. Octauius ex sorore nepos"/>
+        <underline method="pen" type="straight" language="LA" text="institutus C. Octauius ex sorore nepos"/>
         <underline method="pen" type="straight" language="LA" text="nomen adoptatus"/>
         <underline method="pen" type="straight" language="LA" text="Dictaturae honos in"/>
         <underline method="pen" type="straight" language="LA" text="perpetuum sublatus"/>
@@ -202,7 +202,7 @@
         <symbol name="SS" place="intext"/>
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="intext"/>
-        <symbol name="SS" place="right_margin"/>
+        <symbol name="SS" place="right_margin" language="LA" text="Caesari, qui primus reipub. arma sumpserat pro populo Romano, imperium &agrave; senatu"/>
         
         <mark name="plus_sign" method="pen" place="head" language="LA" text="Pompeius"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
@@ -220,21 +220,23 @@
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Caesar quatuor triumphos duxit"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- esset, -->
+        <mark name="diacritic" method="pen" place="intext" language="LA" text="quod"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- co[n]-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="conspiratione"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="dot" method="pen" place="intext"/> <!-- Cassius, -->
         <mark name="dot" method="pen" place="intext"/> <!-- Brutus, -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Pom -->
         <mark name="dot" method="pen" place="intext"/> <!-- uulneribus, -->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Oliuione"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Obliuione"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- sena -->
         <mark name="dot" method="pen" place="intext"/> <!-- acceptis, -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- par -->
@@ -242,10 +244,8 @@
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="C. Octauius"/>
         <mark name="dot" method="pen" place="intext"/> <!-- uim, -->
+        <mark name="diacritic" method="pen" place="intext" language="LA" text="aduersum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="imperium"/>
-        
-        <errata language="LA" copytext="quod" amendedtext="qu&ograve;d"/>
-        <errata language="LA" copytext="aduersum" amendedtext="aduers&ugrave;m"/>
         
     </annotation>
 </transcription>
