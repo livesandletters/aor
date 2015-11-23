@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000708.tif" signature="[mmm1 v]" reader="Harvey"  pagination="686"/>
+    <page filename="00000708.tif" signature="[mmm[v]]" reader="Harvey"  pagination="686"/>
     <annotation>
         
         <marginalia hand="Italian">
@@ -25,7 +25,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Cato maior, inimicus Scipionis Africani: ut Cato minor, Caesaris. At nomina vana Catones, prae Scipione, et Caesare.
+                        Cato maior, inimicus Scipionis Africani: vt Cato minor, Ca[e]saris. At nomina vana Catones, pra[e] Scipione, et Ca[e]sare.
                     </marginalia_text>
                     <person name="Scipio Africanus"/>
                     <person name="Cato the Elder"/>
@@ -85,7 +85,7 @@
         <underline method="pen" type="straight" language="LA" text="iuuenta bella assidu&egrave; gesta; cum senecta"/>
         <underline method="pen" type="straight" language="LA" text="res quoq[ue] defloruere"/>
         <underline method="pen" type="straight" language="LA" text="nec praebita est materia ingenio"/>
-        <underline method="pen" type="straight" language="LA" text="primum consulatum"/>
+        <underline method="pen" type="straight" language="LA" text="primum co[n]sulatum"/>
         <underline method="pen" type="straight" language="LA" text="secundus"/>
         <underline method="pen" type="straight" language="LA" text="censuram adijcias"/>
         <underline method="pen" type="straight" language="LA" text="Asiatica legatio"/>
@@ -96,7 +96,7 @@
         <underline method="pen" type="straight" language="LA" text="Punici tame[n] belli perpetrati, quo nullum neq[ue] maius"/>
         <underline method="pen" type="straight" language="LA" text="unus praecipuam gloriam"/>
         <underline method="pen" type="straight" language="LA" text="Morte Africani creuere inimicorum"/>
-        <underline method="pen" type="straight" language="LA" text="quoru[m] princeps suit M. Porcius Cato, qui uiuo quoq[ue] eo"/>
+        <underline method="pen" type="straight" language="LA" text="quoru[m] princeps fuit M. Porcius Cato, qui uiuo quoq[ue] eo"/>
         <underline method="pen" type="straight" language="LA" text="allatrare eius magnitudinem solitus"/>
         <underline method="pen" type="straight" language="LA" text="hoc autore existimantur Petilij"/>
         <underline method="pen" type="straight" language="LA" text="uiuo Africano rem"/>
@@ -163,6 +163,7 @@
         <symbol name="SS" place="left_margin"/>
         
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ro -->
+        <mark name="dot" method="pen" place="intext"/> <!-- co[n]uicijs, populo -->
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Tribu -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Car -->
@@ -170,24 +171,27 @@
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="quotation_mark" method="pen" place="intext"/>
+        <mark name="comma" method="pen" place="intext"/> <!--sanctam clari-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- sal -->
         <mark name="comma" method="pen" place="intext"/> <!-- oratio -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="gratiae ingentes"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="quotation_mark" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="remp."/>
+        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="priuatis"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="splendere aliena inuidia uoluissent"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="spolia ex Africani triumpho petere[n]t"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="bellicis"/>
         <mark name="comma" method="pen" place="intext"/> <!-- artibus -->
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="prima"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!--pri-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="iuuenta"/>
+        <mark name="semicolon" method="pen" place="intext"/> <!--gesta-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="senecta"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="materia"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="primum co[n]sulatum"/>
         <mark name="comma" method="pen" place="intext"/> <!-- co[n]sulatum -->
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="censuram"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Asiatica"/>
         <mark name="X_sign" method="pen" place="right_margin"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Punici tame[n] belli perpetrati, quo nullum neq[ue] maius"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="unus praecipuam gloriam"/>
@@ -197,22 +201,27 @@
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--ingressi, &-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="straight_quotation_mark" method="pen" place="intext"/>
-        <mark name="straight_quotation_mark" method="pen" place="intext"/>
+        <mark name="diacritic" method="pen" place="intext" language="LA" text="latius"/>
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="Antiocho"/>
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="ab alijs regibus gentibusq[ue]"/>
+        <mark name="dot" method="pen" place="intext"/> <!--gentibsq[ue]-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="triple_dash" method="pen" place="right_margin"/>
         <mark name="apostrophe" method="pen" place="intext"/> <!-- mortem -->
+        <mark name="dot" method="pen" place="intext"/> <!--esse, populum-->
+        <mark name="dot" method="pen" place="intext"/> <!--laceretur, &-->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- mactetur -->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- praetorem -->
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="straight_quotation_mark" method="pen" place="intext"/>
-        <mark name="straight_quotation_mark" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="pileatum"/>
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="triumpho"/>
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="funere"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- esset: -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="inimicum eundem"/>
         <mark name="plus_sign" method="pen" place="intext"/>
