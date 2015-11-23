@@ -5,18 +5,19 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000711.tif" signature="mmm3 [r]" reader="Harvey"  pagination="689"/>
+    <page filename="00000711.tif" signature="mmm3[r]" reader="Harvey"  pagination="689"/>
     <annotation>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Magistratus Romani, pro Reip[ublicae] utilitate; non pro dignitate privatarum personarum. pro se quisq[ue]: et qui non possunt esse 
-                        foris Scipiones, domi esse volunt Petilij: audentes eos vexare cavillando, quos non audent ben&egrave; merendo a[e]mulari.
+                        Magistratus Romani, pro Reip[ublicae] vtilitate; non pro dignitate priuatarum personarum. pro se quisq[ue]: et qui non possunt esse 
+                        foris Scipiones, domi esse volunt Petilij: audentes eos vexare cauillando, quos non audent ben&egrave; merendo a[e]mulari.
                     </marginalia_text>
-                <person name="Scipio Aemilianus"/> <!-- LS, right one? or referring to all of them?! -->
-                <person name="Quintus Petillius Cerialis"/> <!-- I added this one -->
+                    <person name="Scipio Aemilianus"/>
+                    <person name="Scipio Africanus"/>
+                    <person name="Quintus Petillius Cerialis"/> 
                 </position>
             </language>
             <translation>
@@ -30,13 +31,16 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
-                        Ingrata Scipionibus Roma: nec aedificant Africani, et Asiatici gloriosa cognomina, sine altioribus, firmioribusq[ue] fundamentis 
-                        stabilitae magnitudinis. Licuisset Scipionibus esse potentioribus, si suu[m] statu[m] privatis opibus, publicisq[ue] amicitiis valide 
-                        fundatum, qua possent Auctoritate munivissent. Deficiunt homines, nisi cogantur vinculis, aut teneantur beneficijs. 
+                        Ingrata Scipionibus Roma: nec a[e]dificant Africani, et Asiatici gloriosa cognomina, sine altioribus, firmioribusq[ue] fundamentis 
+                        stabilita[e] magnitudinis. Licuisset Scipionibus esse potentioribus, si suu[m] statu[m] priuatis opibus, publicisq[ue] amicitijs valid&egrave; 
+                        fundatum, qua
                     </marginalia_text>
-                    <person name="Scipio Aemilianus"/> <!-- LS, is he referring to all of them? should I tag them all? -->
+                    <person name="Scipio Aemilianus"/> 
                     <person name="Scipio Africanus"/>
                     <person name="Lucius Cornelius Scipio Asiaticus"/>
+                </position>
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>possent Auctoritate muniuissent. Deficiunt homines, nisi cogantur vinculis, aut teneantur beneficijs.</marginalia_text>
                 </position>
             </language>
             <translation>
@@ -51,8 +55,8 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Disciplinae militaris solidus validusq[ue] usus in Rep[ublica]. Duros dura faciunt: molles mollia. Assuescere oportet invictos: 
-                        nec unq[uam] languescere. <!-- LS, there's something that looks like a pi sign. I'm assuming it's part of unq[uam] -->
+                        Disciplina[e] militaris solidus validusq[ue] vsus in Rep[ublica]. Duros dura faciunt: molles mollia. Assuescere oportet inuictos: 
+                        nec unq[uam] languescere. 
                     </marginalia_text>
                 </position>
             </language>
@@ -65,7 +69,7 @@
         <underline method="pen" type="straight" language="LA" text="nudus ante"/>
         <underline method="pen" type="straight" language="LA" text="Corneliae magis familiae qu&agrave;m urbi"/>
         <underline method="pen" type="straight" language="LA" text="Romanae fore erubescendum"/>
-        <underline method="pen" type="straight" language="LA" text="aduersus"/>
+        <underline method="pen" type="straight" language="LA" text="Aduersus"/>
         <underline method="pen" type="straight" language="LA" text="Terentius Pr."/>
         <underline method="pen" type="straight" language="LA" text="rogationem Petiliam, &amp; senatusconsultum"/>
         <underline method="pen" type="straight" language="LA" text="iudicium de L. Scipione factum"/>
@@ -93,10 +97,10 @@
         <underline method="pen" type="straight" language="LA" text="mittiq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="se iubere"/>
         <underline method="pen" type="straight" language="LA" text="Tanto assensu auditum"/>
-        <underline method="pen" type="straight" language="LA" text="est decretum"/>
+        <underline method="pen" type="straight" language="LA" text="decretum"/>
         <underline method="pen" type="straight" language="LA" text="ade&ograve; dimissum L. Scipionem"/>
         <underline method="pen" type="straight" language="LA" text="ut uix in eadem"/>
-        <underline method="pen" type="straight" language="LA" text="factum iudicium"/>
+        <underline method="pen" type="straight" language="LA" text="uideretur factum iudicium"/>
         <underline method="pen" type="straight" language="LA" text="In bona"/>
         <underline method="pen" type="straight" language="LA" text="possessum publice"/>
         <underline method="pen" type="straight" language="LA" text="neque in ijs non mod&ograve;"/>
@@ -107,20 +111,21 @@
         <underline method="pen" type="straight" language="LA" text="nihil accepit"/>
         <underline method="pen" type="straight" language="LA" text="quae necessaria ad cultum erant"/>
         <underline method="pen" type="straight" language="LA" text="redempta ei &agrave; proximis"/>
+        <underline method="pen" type="straight" language="LA" text="Initia luxuriae introducta"/>
         <underline method="pen" type="straight" language="LA" text="exercitu Asiatico"/>
         <underline method="pen" type="straight" language="LA" text="Bacchanalia"/>
-        <underline method="pen" type="straight" language="LA" text="omnium maximum"/>
+        <underline method="pen" type="straight" language="LA" text="omnium maximum seminarium"/>
         <underline method="pen" type="straight" language="LA" text="censoribus"/>
         <underline method="pen" type="straight" language="LA" text="M. Portio Catone"/>
         <underline method="pen" type="straight" language="LA" text="uir &amp; belli &amp; pacis artibus maximus motus est"/>
         <underline method="pen" type="straight" language="LA" text="L. Quintius Flamininus"/>
         <underline method="pen" type="straight" language="LA" text="Scipio Literni decessit"/>
-        <underline method="pen" type="straight" language="LA" text="quo funera maximorum uirorum"/>
+        <underline method="pen" type="straight" language="LA" text="duo funera maximorum uirorum"/>
         <underline method="pen" type="straight" language="LA" text="Annibal &agrave; Prusia Bithyniae"/>
         <underline method="pen" type="straight" language="LA" text="dederetur Romanis"/>
         <underline method="pen" type="straight" language="LA" text="ueneno sibi mortem"/>
         <underline method="pen" type="straight" language="LA" text="Philopoemen"/>
-        <underline method="pen" type="straight" language="LA" text="Achaeorum, uir maximum, est &agrave; Messenijs interemptus ueneno"/>
+        <underline method="pen" type="straight" language="LA" text="Achaeorum, uir maximus, est &agrave; Messenijs interemptus ueneno"/>
         <underline method="pen" type="straight" language="LA" text="coloniae Pollentia"/>
         <underline method="pen" type="straight" language="LA" text="belli Macedonici"/>
         <underline method="pen" type="straight" language="LA" text="regnum suum minui &agrave; Romanis"/>
@@ -128,7 +133,7 @@
         <underline method="pen" type="straight" language="LA" text="praesidia deducere"/>
         <underline method="pen" type="straight" language="LA" text="in Liguribus"/>
         <underline method="pen" type="straight" language="LA" text="hostis uelut natus"/>
-        <underline method="pen" type="straight" language="LA" text="Romanis militarem disciplina"/>
+        <underline method="pen" type="straight" language="LA" text="Romanis militarem disciplina[m]"/>
         <underline method="pen" type="straight" language="LA" text="nec alia prouincia militem magis ad uirtutem acuebat."/>
         <underline method="pen" type="straight" language="LA" text="Asia"/>
         <underline method="pen" type="straight" language="LA" text="ditiores, qu&agrave;m fortiores exercitus"/>
@@ -153,42 +158,45 @@
         <underline method="pen" type="straight" language="LA" text="haud multum"/>
         <underline method="pen" type="straight" language="LA" text="non lixa sequebatur"/>
         <underline method="pen" type="straight" language="LA" text="non iumentorum"/>
-        <underline method="pen" type="straight" language="LA" text="praeter arma &amp; uiros"/>
+        <underline method="pen" type="straight" language="LA" text="nihil praeter arma &amp; uiros"/>
         <underline method="pen" type="straight" language="LA" text="omnem spem in armis habentes, erat"/>
         <underline method="pen" type="straight" language="LA" text="deerat"/>
         <underline method="pen" type="straight" language="LA" text="uel materia belli, uel causa"/>
         <underline method="pen" type="straight" language="LA" text="domesticam inopiam"/>
         <underline method="pen" type="straight" language="LA" text="deditione[m] gentem"/>
         <underline method="pen" type="straight" language="LA" text="arma ademit"/>
+        <underline method="pen" type="straight" language="LA" text="quia non syncera"/>
         
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
         
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- erubescendum -->
-        <mark name="comma" method="pen" place="intext"/> <!-- Aduersus  -->
+        <mark name="diacritic" method="pen" place="intext" language="LA" text="Aduersus"/> <!-- Aduersus  -->
         <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- aliorum  -->
-        <mark name="comma" method="pen" place="intext"/> <!-- Gracchum  -->
+        <mark name="apostrophe" method="pen" place="intext" language="LA" text="praeter Gracchum"/> <!-- aliorum  -->
+        <mark name="apostrophe" method="pen" place="intext"/> <!-- Gracchum  -->
+        <mark name="diacritic" method="pen" place="intext" language="LA" text="minus"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- prae -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="regem opulentissimu[m] orbis"/>
         <mark name="dot" method="pen" place="intext"/> <!-- beneficijs, -->
         <mark name="dot" method="pen" place="intext"/> <!-- incluserit, -->
         <mark name="comma" method="pen" place="intext"/> <!-- Scipionis  -->
         <mark name="comma" method="pen" place="intext"/> <!-- publice  -->
         <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--fuerat-->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
-        <mark name="apostrophe" method="pen" place="intext"/> <!-- Catone  --> <!-- LS, not sure if correct mark chosen? -->
+        <mark name="apostrophe" method="pen" place="intext"/> <!-- Catone  --> 
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- cuius -->
         <mark name="apostrophe" method="pen" place="intext"/> <!-- oratio  -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- effet --> <!-- LS, not sure if printed or written -->
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- effet --> 
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="praesidia deducere"/>
         <mark name="comma" method="pen" place="intext"/> <!-- bellorum -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Romanis militarem disciplina[m]"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>

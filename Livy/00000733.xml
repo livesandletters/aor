@@ -5,19 +5,22 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000733.tif" reader="Harvey" pagination="711"  signature="ooo2 [r]"/>
+    <page filename="00000733.tif" reader="Harvey" pagination="711"  signature="ooo2[r]"/>
     <annotation>        
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Annibal &amp; Philopoemen; Scipio">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
                         Annibal, tandem mortuus, non mordet: duarum prop&egrave; Decadum materia. Scipio etiam, et Philopaemen, mortui: 
                         tres singulares Imp[eratores].
                     </marginalia_text>
-                <person name="Hannibal"/>
-                <person name="Scipio Aemilianus"/> <!-- LS, not sure I've got the right one! -->
-                <person name="Philopoemen"/>
+                    <person name="Hannibal"/>
+                    <person name="Scipio Africanus"/> 
+                    <person name="Philopoemen"/>
+                    <emphasis method="pen" type="straight" text="Annibal"/>
+                    <emphasis method="pen" type="straight" text="Scipio"/>
+                    <emphasis method="pen" type="straight" text="Philopa[e]men"/>
                 </position>
             </language>
             <translation>
@@ -28,7 +31,7 @@
         <underline method="pen" type="straight" language="LA" text="duarum potentissimarum gentium summis imperatoribus"/>
         <underline method="pen" type="straight" language="LA" text="graue imperium regum nihil inexploratum, quod uestigari"/>
         <underline method="pen" type="straight" language="LA" text="Annibal"/>
-        <underline method="pen" type="straight" language="LA" text="omnia circa clausa custodijs"/>
+        <underline method="pen" type="straight" language="LA" text="omnia circ&agrave; clausa custodijs"/>
         <underline method="pen" type="straight" language="LA" text="uenenu[m], quod multo ant&egrave; praeparatum"/>
         <underline method="pen" type="straight" language="LA" text="Liberemus"/>
         <underline method="pen" type="straight" language="LA" text="diuturna cura PR. quando"/>
@@ -41,9 +44,9 @@
         <underline method="pen" type="straight" language="LA" text="autor esset Prusi[a]e"/>
         <underline method="pen" type="straight" language="LA" text="scelus occidendi hospitis"/>
         <underline method="pen" type="straight" language="LA" text="Execratus deinde in caput regnumq[ue] Prusiae"/>
-        <underline method="pen" type="straight" language="LA" text="Hic uitae exitus suit Annibalis"/>
+        <underline method="pen" type="straight" language="LA" text="Hic uitae exitus fuit Annibalis"/>
         <underline method="pen" type="straight" language="LA" text="Scipionem"/>
-        <underline method="pen" type="straight" language="LA" text="hocanno mortuu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="hoc anno mortuu[m]"/>
         <underline method="pen" type="straight" language="LA" text="Africanus fuisset"/>
         <underline method="pen" type="straight" language="LA" text="quo uiuo"/>
         <underline method="pen" type="straight" language="LA" text="nisi ut ille senatu moueretur"/>
@@ -60,7 +63,7 @@
         <underline method="pen" type="straight" language="LA" text="dicta, ad quam"/>
         <underline method="pen" type="straight" language="LA" text="reus absens citatus"/>
 
-        <symbol name="SS" place="right_margin"/>
+        <symbol name="SS" place="right_margin" language="LA" text="Trium clarissimoru[m] suae cuiusq[ue] gentis uirorem non magis"/>
         
         <mark name="dash" method="pen" place="right_margin"/> <!-- posue -->
         <mark name="plus_sign" method="pen" place="right_margin"/>
