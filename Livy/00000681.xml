@@ -27,7 +27,7 @@
                     <marginalia_text> 
                         Viva legum Epitome, antiqua iurisprude[n]tia. Qualis initio Iustini celebrata.
                     </marginalia_text>
-                <book title="Historiarum Philippicarum libri XLIV"/>
+                    <book title="Historiarum Philippicarum libri XLIV"/>
                 </position>
             </language>
             <translation>
@@ -36,13 +36,13 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Barbari, quibus pro legibus semper dominorum imperia fuerunt"/>
-        <underline method="pen" type="straight" language="LA" text="reges"/>
+        <underline method="pen" type="straight" language="LA" text="reges habeant"/>
         <underline method="pen" type="straight" language="LA" text="Graeci suam fortunam"/>
         <underline method="pen" type="straight" language="LA" text="uestros animos gerunt"/>
         <underline method="pen" type="straight" language="LA" text="quondam uiribus"/>
         <underline method="pen" type="straight" language="LA" text="imperium amplectebantur"/>
         <underline method="pen" type="straight" language="LA" text="imperium ubi est, ibi ut sit perpetuum"/>
-        <underline method="pen" type="straight" language="LA" text="libertatem uestris tueri"/>
+        <underline method="pen" type="straight" language="LA" text="libertatem uestris tueri armis"/>
         <underline method="pen" type="straight" language="LA" text="cum Antiocho"/>
         <underline method="pen" type="straight" language="LA" text="cum Philippo"/>
         <underline method="pen" type="straight" language="LA" text="Pyrrho Tarentini"/>
@@ -92,20 +92,22 @@
 
         <mark name="plus_sign" method="pen" place="head"/>
         <mark name="equal_sign" method="pen" place="head"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="head"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- quon -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- perpe -->
+        <mark name="dot" method="pen" place="intext"/> <!--Philippo, &-->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="straight_quotation_mark" method="pen" place="intext"/>
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="Apta"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- peten -->
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- disce -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="summan tamen hanc"/>
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Eumeni attribuerent"/>
+        <mark name="dot" method="pen" place="intext"/> <!--attribuerent, praeter-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="ciuitatis Rhodiorum"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- discepta -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ca -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- castel -->

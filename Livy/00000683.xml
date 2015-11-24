@@ -12,8 +12,11 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
-                        Artes pragmatica[e] contra potentissimos Duces, et excellentissimos uiros; duos singulares Scipiones, Africanum, et Asiaticum. 
+                        Artes pragmatica[e] contra potentissimos Duces, et excellentissimos viros; duos 
                     </marginalia_text>
+                </position>
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>singulares Scipiones, Africanum, et Asiaticum.</marginalia_text>
                     <person name="Lucius Cornelius Scipio Asiaticus"/>
                     <person name="Scipio Africanus"/>
                 </position>
@@ -28,6 +31,7 @@
         <underline method="pen" type="straight" language="LA" text="ne otiosam prouincia[m] habuisse"/>
         <underline method="pen" type="straight" language="LA" text="optimum uisum est, in Cretam"/>
         <underline method="pen" type="straight" language="LA" text="captiuorum Romanorum, atq[ue] Italici generis magnus numerus"/>
+        <underline method="pen" type="straight" language="LA" text="Cretae litus"/>
         <underline method="pen" type="straight" language="LA" text="captiuosq[ue] in suis quaeque urbibus"/>
         <underline method="pen" type="straight" language="LA" text="legatos mitterent ad"/>
         <underline method="pen" type="straight" language="LA" text="Nihil magnopere ea Cretenses mouerunt"/>
@@ -52,33 +56,34 @@
         <underline method="pen" type="straight" language="LA" text="Scipio Africanus"/>
         <underline method="pen" type="straight" language="LA" text="ei dicta, ut quidam aiunt"/>
         <underline method="pen" type="straight" language="LA" text="praeda cum Antiocho capta"/>
-        <underline method="pen" type="straight" language="LA" text="aerium fraudasset"/>
+        <underline method="pen" type="straight" language="LA" text="aerarium fraudasset"/>
         <underline method="pen" type="straight" language="LA" text="Hac die"/>
         <underline method="pen" type="straight" language="LA" text="Quirites Carthaginem uici"/>
-        <underline method="pen" type="straight" language="LA" text="Capitolium asce[n[dit"/>
-        <underline method="pen" type="straight" language="LA" text="in uoluntarium exilium"/>
-        <underline method="pen" type="straight" language="LA" text="Romae"/>
+        <underline method="pen" type="straight" language="LA" text="Capitolium asce[n]dit"/>
+        <underline method="pen" type="straight" language="LA" text="in uoluntarium exilium Liternum"/>
+        <underline method="pen" type="straight" language="LA" text="ibi"/>
+        <underline method="pen" type="straight" language="LA" text="Romae defunctus"/>
         <underline method="pen" type="straight" language="LA" text="eius monimentum utrobique"/>
         <underline method="pen" type="straight" language="LA" text="Asiaticus"/>
         <underline method="pen" type="straight" language="LA" text="eodem peculatus crimine accusatus"/>
         <underline method="pen" type="straight" language="LA" text="damnatusq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="uincula &amp; carcerem duceretur"/>
-        <underline method="pen" type="straight" language="LA" text="Tib. Semproniue"/>
+        <underline method="pen" type="straight" language="LA" text="Tib. Sempronius"/>
         <underline method="pen" type="straight" language="LA" text="Scipionibus inimicus"/>
         <underline method="pen" type="straight" language="LA" text="intercessit"/>
-        <underline method="pen" type="straight" language="LA" text="beneficium Africai filiam duxit"/>
+        <underline method="pen" type="straight" language="LA" text="beneficium Africani filiam duxit"/>
         <underline method="pen" type="straight" language="LA" text="quaestores in bona eius public&egrave; possidenda"/>
         <underline method="pen" type="straight" language="LA" text="in ijs nullum uestigium pecuniae regiae apparuit"/>
         <underline method="pen" type="straight" language="LA" text="nequaquam tantum"/>
-        <underline method="pen" type="straight" language="LA" text="quantae summe erat damnatus"/>
-        <underline method="pen" type="straight" language="LA" text="collatum &agrave; cognatis &amp; amicis innumerabilem pecuniam"/>
+        <underline method="pen" type="straight" language="LA" text="quantae summae erat damnatus"/>
+        <underline method="pen" type="straight" language="LA" text="collatam &agrave; cognatis &amp; amicis innumerabilem pecuniam"/>
         <underline method="pen" type="straight" language="LA" text="necessitati ei erat ad"/>
         <underline method="pen" type="straight" language="LA" text="IN Asia bellum"/>
         <underline method="pen" type="straight" language="LA" text="in &AElig;tolia quidem"/>
         <underline method="pen" type="straight" language="LA" text="omnia paratos esse"/>
         <underline method="pen" type="straight" language="LA" text="quo die cum exercitu Athamania[m] ingressurus"/>
         <underline method="pen" type="straight" language="LA" text="Quatuor prim&ograve; fuere coniurati aduersus"/>
-        <underline method="pen" type="straight" language="LA" text="hisenos sibi adiutores"/>
+        <underline method="pen" type="straight" language="LA" text="senos sibi adiutores"/>
         <underline method="pen" type="straight" language="LA" text="paucitate paru[m] freti"/>
         <underline method="pen" type="straight" language="LA" text="celandae rei qu&agrave;m agendae aptior erat"/>
         <underline method="pen" type="straight" language="LA" text="duo &amp; L facti"/>
@@ -89,27 +94,29 @@
         
         <symbol name="JC" place="right_margin"/>
         <symbol name="SS" place="left_margin"/>
-        <symbol name="SS" place="tail"/>
+        <symbol name="SS" place="tail" language="LA" text="custodia regiae pecuniae esse solita"/>
         
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- uenit -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--reducerent, &-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- cau -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- fu -->
         <mark name="plus_sign" method="pen" place="intext"/> <!-- fuisse -->
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- triumphauit -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Scipio Africanus"/>
         <mark name="plus_sign" method="pen" place="intext"/> <!-- aerarium -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- uexare -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- fuit -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Asiaticus"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="eodem peculatus crimine accusatus"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/> <!-- pecuniae -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="celandae rei qu&agrave;m agendae aptior erat"/>
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--erat, parem-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="custodia regiae pecuniae esse solita"/>
         
     </annotation>
