@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                       Straegema &AElig;tolis dignum. qualia illorum practica, s[upr]a 609.
+                       Strategema &AElig;tolis dignum. qualia illorum practica, s[upr]a 609.
                     </marginalia_text>
                     <internal_ref text="s[upr]a">
                         <target filename="00000631.xml" book_id="PrincetonPA6452" text="609"/>
@@ -24,7 +24,7 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="rumore[m[ celebrem Rome fuisse"/>
+        <underline method="pen" type="straight" language="LA" text="rumore[m] celebrem Rome fuisse"/>
         <underline method="pen" type="straight" language="LA" text="recipiendi Scipionis adolescentis"/>
         <underline method="pen" type="straight" language="LA" text="L. Scipionem, &amp; cum eo P. Africanum in colloquiu[m] euocatos regis"/>
         <underline method="pen" type="straight" language="LA" text="comprehensos esse; &amp; "/>
@@ -56,23 +56,23 @@
         <underline method="pen" type="straight" language="LA" text="misericordia opus"/>
         <underline method="pen" type="straight" language="LA" text="iram &amp; odium irritarent"/>
         <underline method="pen" type="straight" language="LA" text="uno senatore"/>
-        <underline method="pen" type="straight" language="LA" text="permitterent ne arbitrium de se populo"/>
-        <underline method="pen" type="straight" language="LA" text="habituri ne eosdem, quos populus Romanus, socios &amp;"/>
+        <underline method="pen" type="straight" language="LA" text="permitterentne arbitrium de se populo"/>
+        <underline method="pen" type="straight" language="LA" text="habiturine eosdem, quos populus Romanus, socios &amp;"/>
         <underline method="pen" type="straight" language="LA" text="nihil ad ea respondentes"/>
         <underline method="pen" type="straight" language="LA" text="totos adhuc Antiochi &AElig;tolos esse, &amp;"/>
         <underline method="pen" type="straight" language="LA" text="unica ea spe pend&ecirc;re animos"/>
-        <underline method="pen" type="straight" language="LA" text="bellum cum haud dubijs hostibus gerendum, perdomandos que feroces animons esse"/>
+        <underline method="pen" type="straight" language="LA" text="bellum cum haud dubijs hostibus gerendum, perdomandosque feroces animons esse"/>
         <underline method="pen" type="straight" language="LA" text="qua deinde legatio ex &AElig;tolis"/>
         <underline method="pen" type="straight" language="LA" text="permissu imperatoris, qui eam prouinciam"/>
         <underline method="pen" type="straight" language="LA" text="pro hostibus omnes futuros"/>
         <underline method="pen" type="straight" language="LA" text="sortiri"/>
         <underline method="pen" type="straight" language="LA" text="Aetoliam"/>
-        <underline method="pen" type="straight" language="LA" text="Asiam"/>
+        <underline method="pen" type="straight" language="LA" text="Asiam placuit"/>
         <underline method="pen" type="straight" language="LA" text="Asiam sortitus"/>
-        <underline method="pen" type="straight" language="LA" text="ut belum cum Antiocho gereret"/>
+        <underline method="pen" type="straight" language="LA" text="copijs ut belum cum Antiocho gereret"/>
         
         <symbol name="Mercury" place="right_margin"/>
-        <symbol name="Mars" place="right_margin"/>
+        <symbol name="Mars" place="right_margin" language="LA" text="bellum cum haud dubijs hostibus gerendum, perdomandosque feroces animons esse"/>
         
         <mark name="X_sign" method="pen" place="left_margin"/>
         <mark name="hash" method="pen" place="intext"/>
@@ -81,7 +81,8 @@
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- causa -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="L. Scipionem, &amp; cum eo P. Africanum in colloquiu[m] euocatos regis"/>
+        <mark name="equal_sign" method="pen" place="intext" />
+        <mark name="dot" method="pen" place="intext"/> <!--esse, &-->
         <mark name="apostrophe" method="pen" place="intext"/>
         <mark name="apostrophe" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- nun -->
@@ -89,10 +90,11 @@
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- con -->
         <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="culpae"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="errori"/>
+        <mark name="dot" method="pen" place="intext"/> <!--bello, &-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- re -->
-        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+        <mark name="straight_quotation_mark" method="pen" place="left_margin" language="LA" text="bellum cum haud dubijs hostibus gerendum, perdomandosque feroces animons esse"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Do -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- pro -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- AEtoli -->
