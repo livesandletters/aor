@@ -5,13 +5,22 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000675.tif" reader="Harvey" pagination="653" signature="iii3 [r]"/>
+    <page filename="00000675.tif" reader="Harvey" pagination="653" signature="iii3[r]"/>
     <annotation>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>Antiochus victus fugit.</marginalia_text>
+                </position>
+            </language>
+            <translation>Antiochus is defeated and flees.</translation>
+        </marginalia>
 
         <underline method="pen" type="straight" language="LA" text="primos fugientium caedant"/>
         <underline method="pen" type="straight" language="LA" text="Hic maior timor minorem uicit"/>
         <underline method="pen" type="straight" language="LA" text="prim&ograve; constiterunt"/>
-        <underline method="pen" type="straight" language="LA" text="redierunt in pugnam"/>
+        <underline method="pen" type="straight" language="LA" text="redierunt in"/>
         <underline method="pen" type="straight" language="LA" text="suo pr[a]esidio"/>
         <underline method="pen" type="straight" language="LA" text="duo millia"/>
         <underline method="pen" type="straight" language="LA" text="uirorum fortium"/>
@@ -37,8 +46,8 @@
         <underline method="pen" type="straight" language="LA" text="caedes est"/>
         <underline method="pen" type="straight" language="LA" text="primoru[m] fuga in castra"/>
         <underline method="pen" type="straight" language="LA" text="pr[a]esidio erant pertinacius pro uallo"/>
-        <underline method="pen" type="straight" language="LA" text="ualloq[ue] qu[a]e"/>
-        <underline method="pen" type="straight" language="LA" text="impeti ipso capturos crediderant Romani"/>
+        <underline method="pen" type="straight" language="LA" text="portis ualloq[ue], qu[a]e"/>
+        <underline method="pen" type="straight" language="LA" text="impetu ipso capturos crediderant Romani"/>
         <underline method="pen" type="straight" language="LA" text="ab ira grauiorem"/>
         <underline method="pen" type="straight" language="LA" text="quinquaginta millia peditum c[a]esa eo die"/>
         <underline method="pen" type="straight" language="LA" text="equitum"/>
@@ -47,7 +56,7 @@
         <underline method="pen" type="straight" language="LA" text="Eumenis exercitu quinq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="uictores direptis"/>
         <underline method="pen" type="straight" language="LA" text="cum magna praeda in sua"/>
-        <underline method="pen" type="straight" language="LA" text="spoliabant cesorum"/>
+        <underline method="pen" type="straight" language="LA" text="spoliabant c[a]esorum"/>
         <underline method="pen" type="straight" language="LA" text="captiuos contrahebant"/>
         <underline method="pen" type="straight" language="LA" text="legati ab Thyatira"/>
         <underline method="pen" type="straight" language="LA" text="dedendas urbes"/>
@@ -61,13 +70,13 @@
         <underline method="pen" type="straight" language="LA" text="Epheso legati ad dede[n]das urbes uenerunt"/>
         <underline method="pen" type="straight" language="LA" text="Reliquerat Ephesum Polyxenidas audita"/>
         <underline method="pen" type="straight" language="LA" text="itinere pedestri Syria[m] petijt"/>
-        <underline method="pen" type="straight" language="LA" text="Asiae ciuitates in fidem consulis, ditionemq[ue[ populi Romani sese tradeba[n]t"/>
+        <underline method="pen" type="straight" language="LA" text="Asiae ciuitates in fidem consulis, ditionemq[ue] populi Romani sese tradeba[n]t"/>
         <underline method="pen" type="straight" language="LA" text="P. Scipio"/>
         <underline method="pen" type="straight" language="LA" text="prim&ugrave;m pati labore[m] ui[a]e"/>
         <underline method="pen" type="straight" language="LA" text="caduceator ab Antiocho"/>
         <underline method="pen" type="straight" language="LA" text="P. Scipione[m] &agrave; co[n]sule"/>
         <underline method="pen" type="straight" language="LA" text="oratores mittere"/>
-        <underline method="pen" type="straight" language="LA" text="Zeusis, qui prefectus"/>
+        <underline method="pen" type="straight" language="LA" text="Zeusis, qui pr[a]efectus"/>
         <underline method="pen" type="straight" language="LA" text="prius Eumene conuento"/>
         <underline method="pen" type="straight" language="LA" text="auersum maxim&egrave; &agrave; pace credeba[n]t"/>
         <underline method="pen" type="straight" language="LA" text="P. Scipione[m]"/>
@@ -92,7 +101,7 @@
         <underline method="pen" type="straight" language="LA" text="animos, qui nostrae mentis"/>
         <underline method="pen" type="straight" language="LA" text="eosdem in omni fortuna gessimus, gerimusq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="neq[ue] eos secundae r[a]es extuleru[n]t"/>
-        <underline method="pen" type="straight" language="LA" text="nec auersae minuerunt"/>
+        <underline method="pen" type="straight" language="LA" text="nec aduersae minuerunt"/>
         <underline method="pen" type="straight" language="LA" text="Annibale[m] uestru[m] uobis dare[m] testem"/>
 
         <symbol name="Mercury" place="right_margin"/>
@@ -100,26 +109,31 @@
         <symbol name="SS" place="tail"/>
 
         <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--pugnam, &-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- An -->
+        <mark name="dot" method="pen" place="intext"/> <!--conspexit, in-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- to -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- be -->
         <mark name="comma" method="pen" place="intext"/> <!-- ingens -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--millia, mille-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ui -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--equites, &-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="cum magna praeda in sua"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- c[a]eso -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="dedendas urbes"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ti -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ephe -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="sum Polyxenidas audita"/>
         <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--erat, eo-->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- ui -->
         <mark name="horizontal_bar" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- oportet -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Afri -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="animos"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         
