@@ -32,7 +32,7 @@
         <underline method="pen" type="straight" language="LA" text="Demetriadem afferebat in potestate"/>
         <underline method="pen" type="straight" language="LA" text="quibus mendacijs"/>
         <underline method="pen" type="straight" language="LA" text="multiplicando uerbis copias eius"/>
-        <underline method="pen" type="straight" language="LA" text="erexerat multoru[m] in Grecia"/>
+        <underline method="pen" type="straight" language="LA" text="erexerat multoru[m] in Gr[a]ecia"/>
         <underline method="pen" type="straight" language="LA" text="regis spem inflabat, omnium uotis eum accersiri"/>
         <underline method="pen" type="straight" language="LA" text="concursu, ad littora futurum"/>
         <underline method="pen" type="straight" language="LA" text="classem regiam prospexissent"/>
@@ -83,23 +83,26 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Exulem illum"/>
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="Poenum esse"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="unum"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--duce, comite-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="summa petantur"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="dantem"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="accipiente[m]"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="straight_quotation_mark" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- con -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="consilium mitte[n]di Annibalis"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="unum"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
+        
+        <errata language="LA" copytext="u nde" amendedtext="unde"/> <!-- 9th line-->
         
     </annotation>
 </transcription>
