@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000636.tif" reader="Harvey" pagination="614"  signature="[fff1 v]"/>
+    <page filename="00000636.tif" reader="Harvey" pagination="614"  signature="[fff[v]]"/>
     <annotation>
         
         <marginalia hand="Italian">
@@ -17,8 +17,7 @@
                 </position>
             </language>
             <translation>
-                Arrogant and hollow boasting of the royal ambassador. But the Romans are not frightened by Olympian mountains of haughty threats
-                <!-- LS, maybe 'mountains of haughty Olympian threats'? Translation needs some tweaking! -->
+                Arrogant and hollow boasting of the royal ambassador. But the Romans are not frightened by Olympian mountains of haughty threats.
             </translation>
         </marginalia>
         
@@ -30,6 +29,7 @@
         <underline method="pen" type="straight" language="LA" text="Equitum innumerabilem uim"/>
         <underline method="pen" type="straight" language="LA" text="cataphractos"/>
         <underline method="pen" type="straight" language="LA" text="equestribus"/>
+        <underline method="pen" type="straight" language="LA" text="quam uel totius Europae exercitus in unum coacti obrui possent"/>
         <underline method="pen" type="straight" language="LA" text="copias peditum"/>
         <underline method="pen" type="straight" language="LA" text="nominibus quoq[ue] gentium uix fando auditis"/>
         <underline method="pen" type="straight" language="LA" text="Dahas"/>
@@ -42,16 +42,16 @@
         <underline method="pen" type="straight" language="LA" text="cum magno Asiae totius, partisq[ue] Europ[a]e rege."/>
         <underline method="pen" type="straight" language="LA" text="ultimis orientis terminis"/>
         <underline method="pen" type="straight" language="LA" text="liberandam Graeciam ueniat"/>
-        <underline method="pen" type="straight" language="LA" text="ut neutri parti sese"/>
+        <underline method="pen" type="straight" language="LA" text="ut neutri parti sese coniugant"/>
         <underline method="pen" type="straight" language="LA" text="petere pacem"/>
         <underline method="pen" type="straight" language="LA" text="utriq[ue] parti"/>
-        <underline method="pen" type="straight" language="LA" text="medios deceat amicos, optent"/>
+        <underline method="pen" type="straight" language="LA" text="qu&ograve;d medios deceat amicos, optent"/>
         <underline method="pen" type="straight" language="LA" text="Aetolorum legatus Archidamus"/>
         <underline method="pen" type="straight" language="LA" text="facillima &amp; tutissima esset, quietem"/>
         <underline method="pen" type="straight" language="LA" text="spectatoresq[ue] belli"/>
         <underline method="pen" type="straight" language="LA" text="fortunarum alienarum eue[n]tum"/>
         <underline method="pen" type="straight" language="LA" text="sine ullo discrimine rerum suarum opperirentur"/>
-        <underline method="pen" type="straight" language="LA" text="est inte[n]perantia lingu[a]e"/>
+        <underline method="pen" type="straight" language="LA" text="est inte[m]perantia lingu[a]e"/>
         <underline method="pen" type="straight" language="LA" text="in maledicta"/>
         <underline method="pen" type="straight" language="LA" text="communiter Romanorum"/>
         <underline method="pen" type="straight" language="LA" text="ipsius Quintij"/>
@@ -63,7 +63,7 @@
         <underline method="pen" type="straight" language="LA" text="opera seruatos"/>
         <underline method="pen" type="straight" language="LA" text="enim illum"/>
         <underline method="pen" type="straight" language="LA" text="sacrificuli uatis mod&ograve; in acie"/>
-        <underline method="pen" type="straight" language="LA" text="Quintius"/>
+        <underline method="pen" type="straight" language="LA" text="Quintius: Coram"/>
         <underline method="pen" type="straight" language="LA" text="Achaeos"/>
         <underline method="pen" type="straight" language="LA" text="Aetolorum omnem ferociam in uerbis, non in factis esse"/>
         <underline method="pen" type="straight" language="LA" text="in concilijs magis concionibusq[ue]"/>
@@ -105,17 +105,18 @@
         
         <symbol name="Mercury" place="left_margin"/>
         
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Hunc fort&egrave; ingenio uanum"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="uanum"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- co -->
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- uaniloquus -->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="uaniloquus"/> 
+        <mark name="comma" method="pen" place="intext"/> <!--uaniloquus, maria-->
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- par -->
+        <mark name="dot" method="pen" place="intext"/> <!--possent, adijciebat-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- multipli -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- naua -->
         <mark name="comma" method="pen" place="intext"/> <!-- Romanis -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="ut neutri parti sese coniungant"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="utriq[ue] parti"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="neutri"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="utriq[ue]"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- quie -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="in maledicta"/>
@@ -133,6 +134,7 @@
         <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- renidens -->
         <mark name="comma" method="pen" place="intext"/> <!-- Demetriade -->
+        <mark name="dot" method="pen" place="intext"/> <!--Chalcidem, uideretis-->
         
     </annotation>
 </transcription>
