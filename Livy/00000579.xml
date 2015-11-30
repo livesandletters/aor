@@ -5,14 +5,14 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000579.tif" reader="Harvey" pagination="557" signature="aaa3 [r]"/>
+    <page filename="00000579.tif" reader="Harvey" pagination="557" signature="aaa3[r]"/>
     <annotation>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        i[nfr]a 568.
+                        i[nfr]a, 568.
                     </marginalia_text>
                     <internal_ref text="i[nfr]a">
                         <target filename="00000590.xml" book_id="PrincetonPA6452" text="568"/>
@@ -20,7 +20,7 @@
                 </position>
             </language>
             <translation>
-                [see] below, 568.
+                [See] below, 568.
             </translation>
         </marginalia>
         
@@ -28,12 +28,22 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Stratagema oeconomicum Nabidis Tyranni, et uxoris. Nanna dell’unico Aretino. Sat, superq[ue] temporis interfusis annotatiunculis 
-                        exinanitum est: quod auctor ipse totum meruerat, aut pauci a[e]quales sui. Properare decet instantius: nec ad&egrave;o preciosum 
-                        opus remittere ullo modo. Quod simul legitur, et confestim, altiores mihi uidetur agere radices.
+                        Stratagema oeconomicum Nabidis Tyranni, et vxoris.
                     </marginalia_text>
                     <person name="Nabis of Sparta"/>
+                </position>
+            </language>
+            <language ident="IT">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Nanna dell’Vnico Aretino.</marginalia_text>
                     <person name="Pietro Aretino"/>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Sat, superq[ue] temporis interfusis annotatiunculis exinanitum est: quod auctor ipse totum meruerat, 
+                        aut pauci a[e]quales sui. Properare decet instanti&ugrave;s: nec ad&egrave;o preciosum opus remittere vllo modo. 
+                        Quod simul legitur, et confestim, altiores mihi videtur agere radices.</marginalia_text>
                     <book title="Ragionamento della Nanna e della Antonia"/>
                 </position>
             </language>
@@ -48,7 +58,7 @@
         <underline method="pen" type="straight" language="LA" text="seruilem modum lacerati atque extorti"/>
         <underline method="pen" type="straight" language="LA" text="de tabulis nouis"/>
         <underline method="pen" type="straight" language="LA" text="agro uiritim diuidendo"/>
-        <underline method="pen" type="straight" language="LA" text="nouantibus"/>
+        <underline method="pen" type="straight" language="LA" text="nouantibus res"/>
         <underline method="pen" type="straight" language="LA" text="plebem in optimates accendendam"/>
         <underline method="pen" type="straight" language="LA" text="nihil eius"/>
         <underline method="pen" type="straight" language="LA" text="memor tytannus, &agrave; quo eam ciuitatem"/>
@@ -78,7 +88,7 @@
         <underline method="pen" type="straight" language="LA" text="fraude Philoclis prodita[m]"/>
         <underline method="pen" type="straight" language="LA" text="ui"/>
         <underline method="pen" type="straight" language="LA" text="Haec disceptatio sine exitu"/>
-        <underline method="pen" type="straight" language="LA" text="inducijs que"/>
+        <underline method="pen" type="straight" language="LA" text="inducijsque"/>
         <underline method="pen" type="straight" language="LA" text="distulisse rem magis, qu&agrave;m negasse uideretur"/>
         <underline method="pen" type="straight" language="LA" text="ne sine aliqua munificentia praeteriret"/>
         <underline method="pen" type="straight" language="LA" text="decem talenta argenti dono"/>
@@ -102,14 +112,17 @@
         <mark name="dash" method="pen" place="right_margin"/> <!-- hy -->
         <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="Argos in potestate sua esse: eo"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--diceret, in-->
+        <mark name="dot" method="pen" place="intext"/> <!--comitatu, Nicostratus-->
         <mark name="dot" method="pen" place="intext"/> <!-- campi, -->
         <mark name="dot" method="pen" place="intext"/> <!-- militum, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="cum ipse uiros spoliasset"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="foeminas spoliandas"/>
+        <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="slash" method="pen" place="right_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--minando, non-->
         <mark name="dot" method="pen" place="intext"/> <!-- minando, -->
         
     </annotation>
-    
 </transcription>
