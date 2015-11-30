@@ -5,17 +5,18 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000623.tif" reader="Harvey" pagination="601" signature="eee[1 r]"/>
+    <page filename="00000623.tif" reader="Harvey" pagination="601" signature="eee[r]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Minio">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Minio, intimus Antiochi a secretis amicus.
+                        Minio, intimus Antiochi &agrave; secretis amicus.
                     </marginalia_text>
-                    <person name="Minio"/> <!-- LS, added this one -->
-                <person name="Antiochus III the Great"/>
+                    <person name="Minio"/> 
+                    <person name="Antiochus III the Great"/>
+                    <emphasis method="pen" type="straight" text="Minio"/>
                 </position>
             </language>
             <translation>
@@ -65,7 +66,7 @@
         <underline method="pen" type="straight" language="LA" text="quibus stipe[n]diu[m]"/>
         <underline method="pen" type="straight" language="LA" text="quib[us] naues ex foedere exigitis"/>
         <underline method="pen" type="straight" language="LA" text="Siciliae Graecas urbes"/>
-        <underline method="pen" type="straight" language="LA" text="imperio &amp; iurgis &amp; securib[us]"/>
+        <underline method="pen" type="straight" language="LA" text="imperio &amp; uirgis &amp; securib[us]"/>
         <underline method="pen" type="straight" language="LA" text="armis superatis, uos ijs has"/>
         <underline method="pen" type="straight" language="LA" text="leges imposuisse"/>
         <underline method="pen" type="straight" language="LA" text="Eande[m] de Smyrna"/>
@@ -79,7 +80,7 @@
         <underline method="pen" type="straight" language="LA" text="quemlibet ista"/>
         <underline method="pen" type="straight" language="LA" text="simile habet"/>
         <underline method="pen" type="straight" language="LA" text="causa"/>
-        <underline method="pen" type="straight" language="LA" text="uno &amp; perpetuo tenore iuris semper usurpato, nunqua intermisso"/>
+        <underline method="pen" type="straight" language="LA" text="uno &amp; perpetuo tenore iuris semper usurpato, nunqua[m] intermisso"/>
         <underline method="pen" type="straight" language="LA" text="foedere debent, exigimus"/>
         <underline method="pen" type="straight" language="LA" text="no[n] per"/>
         <underline method="pen" type="straight" language="LA" text="non per alium quenquam"/>
@@ -96,7 +97,9 @@
         <underline method="pen" type="straight" language="LA" text="ius post tot secula asserendi eos in seruitutem"/>
         <underline method="pen" type="straight" language="LA" text="nobis nihil sit, qu&ograve;d &agrave; Philippo liberauimus"/>
         <underline method="pen" type="straight" language="LA" text="causam ciuitatum"/>
-        <underline method="pen" type="straight" language="LA" text="quam ipsis legationes iussitpraeparatas ia[m] ant&egrave;"/>
+        <underline method="pen" type="straight" language="LA" text="quam ipsis age[n]tibus"/>
+        <underline method="pen" type="straight" language="LA" text="ciuitatum legationes iussit"/>
+        <underline method="pen" type="straight" language="LA" text="praeparatas ia[m] ant&egrave;"/>
         <underline method="pen" type="straight" language="LA" text="ab Eumene"/>
         <underline method="pen" type="straight" language="LA" text="quantumcunq[ue] uirium Antiocho decessisset"/>
         <underline method="pen" type="straight" language="LA" text="suo id"/>
@@ -135,8 +138,9 @@
         <underline method="pen" type="straight" language="LA" text="nec ignarus"/>
         <underline method="pen" type="straight" language="LA" text="consilijs quoq[ue] arcanis interesset"/>
         <underline method="pen" type="straight" language="LA" text="non utrum bellandum"/>
+        <underline method="pen" type="straight" language="LA" text="ubi"/>
         <underline method="pen" type="straight" language="LA" text="qua ratione"/>
-        <underline method="pen" type="straight" language="LA" text="uistoriam se haud dubiam"/>
+        <underline method="pen" type="straight" language="LA" text="uictoriam se haud dubiam"/>
         <underline method="pen" type="straight" language="LA" text="Europam transisset"/>
         <underline method="pen" type="straight" language="LA" text="aliqua Graeciae parte sedem"/>
         <underline method="pen" type="straight" language="LA" text="Aetolos"/>
@@ -144,7 +148,7 @@
         <underline method="pen" type="straight" language="LA" text="armis eum"/>
         <underline method="pen" type="straight" language="LA" text="antesignanos ad"/>
         <underline method="pen" type="straight" language="LA" text="asperrima quaeq[ue] belli"/>
-        <underline method="pen" type="straight" language="LA" text="uelut cornib[us] Graeciae"/>
+        <underline method="pen" type="straight" language="LA" text="duobus uelut cornib[us] Graeciae"/>
         <underline method="pen" type="straight" language="LA" text="Nabin &agrave; Peloponneso"/>
         <underline method="pen" type="straight" language="LA" text="repetente[m] Argiuorum"/>
         <underline method="pen" type="straight" language="LA" text="repetente[m] maritimas"/>
@@ -157,13 +161,14 @@
         <mark name="comma" method="pen" place="intext"/> <!-- Romani -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- impo -->
+        <mark name="dot" method="pen" place="intext"/> <!--discepat, &-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- bel -->
         <mark name="horizontal_bar" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="si alia pro"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- cau -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="quemlibet ista"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="quemlibet ista"/>
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="quemlibet ista"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- simi -->
         <mark name="comma" method="pen" place="intext"/> <!-- habet -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
@@ -175,6 +180,7 @@
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="X_sign" method="pen" place="right_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- regum -->
+        <mark name="dash" method="pen" place="right_margin"/> <!--impe-->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="per similem tentationem"/>
@@ -182,7 +188,9 @@
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="duas"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Roma -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="consilijs quoq[ue] arcanis interesset"/>
+        <mark name="dot" method="pen" place="intext"/> <!--gereretur, uictoriam-->
         <mark name="comma" method="pen" place="intext"/> <!-- colere[n]t -->
+        <mark name="dash" method="pen" place="intext"/> <!--qui-->
         
     </annotation>
 </transcription>

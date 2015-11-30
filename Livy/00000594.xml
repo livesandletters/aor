@@ -25,7 +25,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
-                        i[nfr]a 600.
+                        i[nfr]a, 600.
                     </marginalia_text>
                     <internal_ref text="i[nfr]a">
                         <target filename="00000622.xml" book_id="PrincetonPA6452" text="600"/>
@@ -33,7 +33,7 @@
                 </position>
             </language>
             <translation>
-                [see] below, 600.
+                [See] below, 600.
             </translation>
         </marginalia>
         
@@ -51,27 +51,29 @@
         <underline method="pen" type="straight" language="LA" text="lex uobis demit, cum id quod habere non licet, non habetis"/>
         <underline method="pen" type="straight" language="LA" text="Ego nullo modo abrogan"/>
         <underline method="pen" type="straight" language="LA" text="Valerius pro rogatione"/>
-        <underline method="pen" type="straight" language="LA" text="uir grauissimus COS."/>
+        <underline method="pen" type="straight" language="LA" text="uir grauissimus COS. M"/>
         <underline method="pen" type="straight" language="LA" text="non autoritate"/>
         <underline method="pen" type="straight" language="LA" text="oratione etiam longa &amp; accurata insectatus"/>
         <underline method="pen" type="straight" language="LA" text="uerba in castigandis"/>
         <underline method="pen" type="straight" language="LA" text="rogatione nostra dissuadenda"/>
-        <underline method="pen" type="straight" language="LA" text="rem"/>
+        <underline method="pen" type="straight" language="LA" text="rem defendam"/>
         <underline method="pen" type="straight" language="LA" text="non nos"/>
         <underline method="pen" type="straight" language="LA" text="temporibus duris"/>
         <underline method="pen" type="straight" language="LA" text="Verba magna"/>
         <underline method="pen" type="straight" language="LA" text="Catone[m] oratore[m] no[n] solum"/>
         <underline method="pen" type="straight" language="LA" text="etia[m] truce[m] esse"/>
+        <underline method="pen" type="straight" language="LA" text="ingenio sit"/>
         
         <symbol name="LL" place="head"/>
         
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="legatu[m] Cyneam Pyrrhus"/>
         <mark name="triple_dash" method="pen" place="right_margin" language="LA" text="legatu[m] Cyneam Pyrrhus"/>
         <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--erat, tamen-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- pu -->
-        <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="horizontal_bar" method="pen" place="left_margin"/> <!-- LS, not exactly horizontal, but don't know how else to class it! -->
-        <mark name="quotation_mark" method="pen" place="tail"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- uelim. Post-->
+        <mark name="horizontal_bar" method="pen" place="left_margin"/> 
+        <mark name="quotation_mark" method="pen" place="tail" language="LA" text="etia[m] truce[m] esse"/>
         
     </annotation>
     

@@ -5,10 +5,10 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000624.tif" reader="Harvey" pagination="602" signature="[eee1 v]"/>
+    <page filename="00000624.tif" reader="Harvey" pagination="602" signature="[eee[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Annibal no[n adhibitus est in consilium, propter colloquia cum Villio suspectus regi">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
@@ -16,7 +16,7 @@
                     </marginalia_text>
                 <person name="Hannibal"/>
                 <person name="Antiochus III the Great"/>
-                <person name="Publius Villius Tappulus"/> <!-- LS, added this one, hopefully the correct person! -->
+                <person name="Publius Villius Tappulus"/> 
                 </position>
             </language>
             <translation>
@@ -37,11 +37,12 @@
         <underline method="pen" type="straight" language="LA" text="socij praeoccuparentur"/>
         <underline method="pen" type="straight" language="LA" text="Annibale[m] quoq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="Annibal no[n] adhibitus"/>
+        <underline method="pen" type="straight" language="LA" text="consilium"/>
         <underline method="pen" type="straight" language="LA" text="colloquia cum Villio"/>
         <underline method="pen" type="straight" language="LA" text="suspectus regi"/>
         <underline method="pen" type="straight" language="LA" text="nullo postea honore habitus"/>
         <underline method="pen" type="straight" language="LA" text="contumelia[m] tacitus tulit"/>
-        <underline method="pen" type="straight" language="LA" text="percu[m]ctari causam"/>
+        <underline method="pen" type="straight" language="LA" text="percu[n]ctari causam"/>
         <underline method="pen" type="straight" language="LA" text="tempore"/>
         <underline method="pen" type="straight" language="LA" text="simpliciter iracu[n]diae"/>
         <underline method="pen" type="straight" language="LA" text="Pater Amilcar"/>
@@ -61,7 +62,7 @@
         <underline method="pen" type="straight" language="LA" text="odi, odioq[ue] sum Romanis"/>
         <underline method="pen" type="straight" language="LA" text="ueru[m] dicere"/>
         <underline method="pen" type="straight" language="LA" text="dij testes"/>
-        <underline method="pen" type="straight" language="LA" text="de bello Romano"/>
+        <underline method="pen" type="straight" language="LA" text="de bello Romano cogitabis"/>
         <underline method="pen" type="straight" language="LA" text="inter primos amicos"/>
         <underline method="pen" type="straight" language="LA" text="Annibalem habeto"/>
         <underline method="pen" type="straight" language="LA" text="ad pacem"/>
@@ -71,22 +72,25 @@
         <underline method="pen" type="straight" language="LA" text="ut bellum gereretur"/>
         <underline method="pen" type="straight" language="LA" text="Romae destinabant"/>
         <underline method="pen" type="straight" language="LA" text="hostem Antiochum"/>
-        <underline method="pen" type="straight" language="LA" text="nohil dum ad id bellum"/>
+        <underline method="pen" type="straight" language="LA" text="nihil dum ad id bellum"/>
         <underline method="pen" type="straight" language="LA" text="praeter animos parabant"/>
         
         <mark name="colon" method="pen" place="intext"/> <!-- inclusisse[n]t -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- uicto -->
         <mark name="triple_dash" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="loca opportuna"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="socij praeoccuparentur"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- mo -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- ha -->
+        <mark name="dot" method="pen" place="intext"/> <!--apto, quaesita-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- sacrifica -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="iureiurando"/>
+        <mark name="dot" method="pen" place="intext"/> <!--destitueris, ubicunq[ue]-->
+        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- mate -->
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="apostrophe" method="pen" place="intext"/> <!-- quaera[n]t -->
+        <mark name="apostrophe" method="pen" place="intext" language="LA" text="odi, odioq[ue] sum Romanis"/> <!-- quaera[n]t -->
         <mark name="apostrophe" method="pen" place="intext"/> <!-- Romanis -->
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
