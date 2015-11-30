@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
-                        Tertio strategemati non est successum: uel nimia mora: uel detectione.
+                        Tertio Strategemati non est successum: vel nimia mora: vel detectione.
                     </marginalia_text>
                 </position>
             </language>
@@ -21,13 +21,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Thoas">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
-                        Thoas, acerrimum Suoru[m] apud Antiochu[m] Instrumentum: i[nfr]a 612. 654.
+                        Thoas, acerrimum Suoru[m] apud Antiochu[m] Instrumentum: i[nfr]a, 612. 654.
                     </marginalia_text>
-                    <person name="Thoas"/> <!-- LS, I added this to the list -->
+                    <person name="Thoas"/> 
                     <person name="Antiochus III the Great"/>
                     <internal_ref text="i[nfr]a">
                         <target filename="00000634.xml" book_id="PrincetonPA6452" text="612"/>
@@ -36,7 +36,7 @@
                 </position>
             </language>
             <translation>
-                [For] Thoas, the sharpest instrument among his peers around Antiochus [see] below, 612, 654.
+                [For] Thoas, the sharpest instrument among his peers around Antiochus. [See] below, 612, 654.
             </translation>
         </marginalia>
         
@@ -47,6 +47,10 @@
                         En singulare etiam &AElig;tolorum, uti uidetur, strategema, i[nfr]a 655, seu perpetratum ab Antiocho facinus, pra[e]textu colloquij: 
                         seu designatum tantumm[odo] ab &AElig;tolis: seu etiam rumor duntaxat ab eorum Legatis astut&egrave; fictus pro tempore.
                     </marginalia_text>
+                    <person name="Antiochus III the Great"/>
+                    <internal_ref text="i[nfr]a">
+                        <target filename="00000677.xml" book_id="PrincetonPA6452" text="655"/>
+                    </internal_ref>
                 </position>
             </language>
             <language ident="EN">
@@ -66,7 +70,7 @@
         <underline method="pen" type="straight" language="LA" text="in co[n]silio fraude"/>
         <underline method="pen" type="straight" language="LA" text="omnia in maturandam perniciem eorum qui fecera[n]t, sunt acta."/>
         <underline method="pen" type="straight" language="LA" text="Dux regia"/>
-        <underline method="pen" type="straight" language="LA" text="ac noctem in scrutandis thesauris tyranni co[n]sumpsit"/>
+        <underline method="pen" type="straight" language="LA" text="diem ac noctem in scrutandis thesauris tyranni co[n]sumpsit"/>
         <underline method="pen" type="straight" language="LA" text="Aetoli uelut capta"/>
         <underline method="pen" type="straight" language="LA" text="in praedam uersi"/>
         <underline method="pen" type="straight" language="LA" text="indignitas rei"/>
@@ -78,7 +82,7 @@
         <underline method="pen" type="straight" language="LA" text="educatus cum liberis tyra[n]ni"/>
         <underline method="pen" type="straight" language="LA" text="regiam inuadunt"/>
         <underline method="pen" type="straight" language="LA" text="Alexamenum cum paucis"/>
-        <underline method="pen" type="straight" language="LA" text="resistentem obtuncant"/>
+        <underline method="pen" type="straight" language="LA" text="resistentem obtruncant"/>
         <underline method="pen" type="straight" language="LA" text="Aetoli circa"/>
         <underline method="pen" type="straight" language="LA" text="congregati c[a]eduntur"/>
         <underline method="pen" type="straight" language="LA" text="Philopoemen audita"/>
@@ -87,7 +91,7 @@
         <underline method="pen" type="straight" language="LA" text="oratione habita, qualis habenda ab Alexameno fuerat, societati Achaeoru[m] Lacedaemonios"/>
         <underline method="pen" type="straight" language="LA" text="circa Chalcidem Thoas"/>
         <underline method="pen" type="straight" language="LA" text="Euthymidam principem"/>
-        <underline method="pen" type="straight" language="LA" text="Herodorum Ciacum mercatore[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Herodorum Cianum mercatore[m]"/>
         <underline method="pen" type="straight" language="LA" text="potente[m] Chalcide propter diuitias"/>
         <underline method="pen" type="straight" language="LA" text="pr[a]eparatis ad proditionem ijs"/>
         <underline method="pen" type="straight" language="LA" text="Euthymid[a]e factionis erant"/>
@@ -102,7 +106,7 @@
         <underline method="pen" type="straight" language="LA" text="penes quos tu[m] summa reru[m]"/>
         <underline method="pen" type="straight" language="LA" text="seu ipsi per se suspicati"/>
         <underline method="pen" type="straight" language="LA" text="seu indicata re"/>
-        <underline method="pen" type="straight" language="LA" text="paui di nihil usqua[m] spei, nisi in fuga ponebant"/>
+        <underline method="pen" type="straight" language="LA" text="pauidi nihil usqua[m] spei, nisi in fuga ponebant"/>
         <underline method="pen" type="straight" language="LA" text="&amp; prodi &amp; deseri no[n] patria[m] mod&ograve;"/>
         <underline method="pen" type="straight" language="LA" text="consilio tali animum adieceru[n]t"/>
         <underline method="pen" type="straight" language="LA" text="suarum fortunarum in eade[m] insula"/>
@@ -113,15 +117,17 @@
         <underline method="pen" type="straight" language="LA" text="Chalcide[m]"/>
         <underline method="pen" type="straight" language="LA" text="fuisse Macedonas dominos"/>
         <underline method="pen" type="straight" language="LA" text="minus tolerabiles"/>
-        <underline method="pen" type="straight" language="LA" text="futuros AetolosRomanorum maxim&egrave; respectus ciuitates mouit"/>
+        <underline method="pen" type="straight" language="LA" text="futuros Aetolos"/>
+        <underline method="pen" type="straight" language="LA" text="Romanorum maxim&egrave; respectus ciuitates mouit"/>
         <underline method="pen" type="straight" language="LA" text="uirtutem nuper"/>
         <underline method="pen" type="straight" language="LA" text="uictoria iustitiam"/>
         <underline method="pen" type="straight" language="LA" text="His tuenda moenia Chalcidis oppidani"/>
         <underline method="pen" type="straight" language="LA" text="caduceator primu[m]"/>
         <underline method="pen" type="straight" language="LA" text="legati ad Aetolos missi"/>
-        <underline method="pen" type="straight" language="LA" text="suo dicto facto'ue"/>
+        <underline method="pen" type="straight" language="LA" text="suo dicto factoue"/>
         <underline method="pen" type="straight" language="LA" text="socij atq[ue] amici ad se oppugnandos uenirent"/>
         <underline method="pen" type="straight" language="LA" text="Thoas dux"/>
+        <underline method="pen" type="straight" language="LA" text="non"/>
         <underline method="pen" type="straight" language="LA" text="ad liberandos ab Romanis uenire sese"/>
         <underline method="pen" type="straight" language="LA" text="sple[n]didiore nunc"/>
         <underline method="pen" type="straight" language="LA" text="multo grauiore uinctos esse"/>
@@ -142,7 +148,7 @@
         <underline method="pen" type="straight" language="LA" text="re[m] omissam &agrave; socijs uidit"/>
 
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="diem ac noctem in scrutandis thesauris tyranni co[n]sumpsit"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- ad -->
         <mark name="X_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- con -->
@@ -153,13 +159,14 @@
         <mark name="apostrophe" method="pen" place="intext"/> <!-- fuerat -->
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- Thoas -->
+        <mark name="dot" method="pen" place="intext"/> <!--diuitias, pr[a]eparatis-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- fu -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ca -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- fu -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="uirtutem numper"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="uictoria iustitiam"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- iuuentu -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
@@ -167,10 +174,11 @@
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- habuis-sent -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- impro -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="iustu[m] bellu[m] oppugntionemq[ue] urbis mari ac"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- He -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="speculatoria"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Thro -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--repetit. Quintius-->
         
     </annotation>
 </transcription>
