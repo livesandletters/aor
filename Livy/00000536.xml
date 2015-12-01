@@ -25,7 +25,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Annibal">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
@@ -39,7 +39,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="conditiones pacis dictae">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
@@ -71,15 +71,16 @@
         <underline method="pen" type="straight" language="LA" text="singulari arte aciem eo die instruxisse"/>
         <underline method="pen" type="straight" language="LA" text="elephantos in prima fronte: quoru[m]"/>
         <underline method="pen" type="straight" language="LA" text="ordines, in quo plurimum spei ponere[n]t"/>
-        <underline method="pen" type="straight" language="LA" text="ubi omnis spes, milites Carthiginienses"/>
+        <underline method="pen" type="straight" language="LA" text="deinde auxiliares ante Carthaginiensium"/>
+        <underline method="pen" type="straight" language="LA" text="ubi omnis spes, milites Carthiginienses Afrosq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="integri cum fessis ac saucijs"/>
         <underline method="pen" type="straight" language="LA" text="Italicos"/>
         <underline method="pen" type="straight" language="LA" text="Hoc edito uelut ultimo uirtutis opere"/>
         <underline method="pen" type="straight" language="LA" text="sexto ac trigesimo post anno, qu&agrave;m puer"/>
-        <underline method="pen" type="straight" language="LA" text="no[n] praelio mod&ograve; se, sed bello uictim"/>
+        <underline method="pen" type="straight" language="LA" text="no[n] praelio mod&ograve; se, sed bello uictum"/>
         <underline method="pen" type="straight" language="LA" text="spem"/>
         <underline method="pen" type="straight" language="LA" text="in pace impetra[n]da esse"/>
-        <underline method="pen" type="straight" language="LA" text="Scipio confestim &agrave; praelio expugnatis"/>
+        <underline method="pen" type="straight" language="LA" text="Scipio confestim &agrave; praelio"/>
         <underline method="pen" type="straight" language="LA" text="expugnatis hostium castris"/>
         <underline method="pen" type="straight" language="LA" text="cum inge[n]to pr[a]eda ad"/>
         <underline method="pen" type="straight" language="LA" text="mare ac naues redijt"/>
@@ -101,8 +102,8 @@
         <underline method="pen" type="straight" language="LA" text="e&ograve; se moturum"/>
         <underline method="pen" type="straight" language="LA" text="ab contemplato situ"/>
         <underline method="pen" type="straight" language="LA" text="tam noscendi"/>
-        <underline method="pen" type="straight" language="LA" text="terrendi hostis"/>
-        <underline method="pen" type="straight" language="LA" text="tica[m], eodem"/>
+        <underline method="pen" type="straight" language="LA" text="qu&agrave;m terrendi hostis"/>
+        <underline method="pen" type="straight" language="LA" text="Vtica[m], eodem"/>
         <underline method="pen" type="straight" language="LA" text="ad Tunetem nuncius"/>
         <underline method="pen" type="straight" language="LA" text="Vermina[m] Syphacis filium"/>
         <underline method="pen" type="straight" language="LA" text="Carthaginiensibus auxilio"/>
@@ -130,10 +131,10 @@
         <underline method="pen" type="straight" language="LA" text="successoris, uenturi"/>
         <underline method="pen" type="straight" language="LA" text="ad parata[m] alterius labore ac periculo finiti belli"/>
         <underline method="pen" type="straight" language="LA" text="ad pacem"/>
-        <underline method="pen" type="straight" language="LA" text="legatis"/> <!-- LS, I'm assuming this is not one long word, & just a gap is missing -->
+        <underline method="pen" type="straight" language="LA" text="legatis"/> 
         <underline method="pen" type="straight" language="LA" text="castigatione perfidiae"/>
         <underline method="pen" type="straight" language="LA" text="tot cladibus edocti"/>
-        <underline method="pen" type="straight" language="LA" text="deos &amp; iusiura[n]dum esse crederent"/>
+        <underline method="pen" type="straight" language="LA" text="tandem deos &amp; iusiura[n]dum esse crederent"/>
         <underline method="pen" type="straight" language="LA" text="conditiones pacis"/>
         <underline method="pen" type="straight" language="LA" text="liberi legibus suis"/>
         <underline method="pen" type="straight" language="LA" text="urbes, quosq[ue] agros, quibusq[ue]"/>
@@ -156,24 +157,28 @@
         <underline method="pen" type="straight" language="LA" text="pe[n]sionibus [a]equis"/>
         <underline method="pen" type="straight" language="LA" text="annos quinquaginta soluere[n]t"/>
         <underline method="pen" type="straight" language="LA" text="obsides centu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="minores XIIII"/>
+        <underline method="pen" type="straight" language="LA" text="ne minores XIIII"/>
         <underline method="pen" type="straight" language="LA" text="XXX maiores"/>
         <underline method="pen" type="straight" language="LA" text="inducias ita se"/>
         
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
         <symbol name="Bisected_circle" place="left_margin"/>
-        <symbol name="Mercury" place="left_margin"/>
-        <symbol name="Mercury" place="left_margin"/>
+        <symbol name="Mercury" place="left_margin" language="LA" text="legati"/>
+        <symbol name="Mercury" place="left_margin" language="LA" text="legatiq[ue] XXX"/>
         <symbol name="JC" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
         
+        <mark name="dot" method="pen" place="intext"/> <!--est, cu[m]-->
         <mark name="dot" method="pen" place="intext"/> <!-- tribus, -->
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- cecide -->
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="tumultu[m] elapsus"/>
         <mark name="comma" method="pen" place="intext" /> <!-- elapsus -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="omnia"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="in praelio"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="ante aciem"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
@@ -182,8 +187,8 @@
         <mark name="dash" method="pen" place="right_margin"/> <!-- sum -->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="praelio"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="bello"/>
         <mark name="triple_dash" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext" /> <!-- praelio -->
@@ -199,9 +204,10 @@
         <mark name="dash" method="pen" place="right_margin"/> <!-- im -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="triple_dash" method="pen" place="right_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--causa, Vtica[m]-->
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="apostrophe" method="pen" place="intext"/> <!-- concilio -->
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="delenda[m]"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext" /> <!-- famam -->
         <mark name="dot" method="pen" place="intext"/> <!-- solicitaret, -->
@@ -210,11 +216,13 @@
         <mark name="dot" method="pen" place="intext"/> <!-- crederent, -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="conditiones pacis"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- tene -->
+        <mark name="dot" method="pen" place="intext"/> <!--tenerent, populandiq[ue]-->
+        <mark name="dot" method="pen" place="intext"/> <!--faceret, perfugas-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- po -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="frumentu[m]"/>
         <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="obsides"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- arbi -->
         <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
         
@@ -224,5 +232,4 @@
         <numeral place="intext" language="LA" text="Italicos">4.</numeral>
         
     </annotation>
-    
 </transcription>
