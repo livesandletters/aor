@@ -5,30 +5,32 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="00000540.tif" reader="Harvey" pagination="518" signature="[xx1 v]"/>
+    <page filename="00000540.tif" reader="Harvey" pagination="518" signature="[xx[v]]"/>
     <annotation>
         
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Silius Italicus of the warres betwene Annibal, and Scipio in Latin uerse: much like Lucan of the warres betwene Pompey, and Caesar. 
-                        But giue mee still Liuie of the one, and Caesar himself of the other: in comparison of whome Silius, and Lucan ar but trifles. No other
-                        warres in the world , comparable to theise twoe. (The next, the terrible warres betwene Sylla, and Marius: who tawgt Caesar his lesson:
-                        brauely also displayed in Latin verses bie three of M. Smythes, and mie gallant poets. of Homers and Uirgils wing.
+                        Silius Italicus of the warres betwene Annibal, &amp; Scipio in Latin verse: much like Lucan of the warres betwene Pompey, &amp; Ca[e]sar. 
+                        But giue mee still Liuie of the one, &amp; Ca[e]sar himself of the other: in comparison of whome Silius, &amp; Lucan ar but trifles. No other
+                        warres in the world , comparable to theise twoe. (The next, the terrible warres betwene Sylla, &amp; Marius: who tawght Ca[e]sar his lesson:
+                        brauely also displayed in Latin verses bie three of M. Smythes, &amp; mie gallant poets. of Homers &amp; Uirgils wing.
                     </marginalia_text>
-                <person name="Silius Italicus"/> <!-- LS, I added this one -->
-                <person name="Hannibal"/>
-                <person name="Scipio Africanus"/> <!-- LS, I think this is the right one? -->
-                <person name="Lucan"/>
-                <person name="Pompey"/>
-                <person name="Julius Caesar"/>
-                <person name="Livy"/>
-                <person name="Sulla"/>
-                <person name="Gaius Marius"/>
-                <person name="Thomas Smith"/> <!-- LS, I'm assuming it's not Smith Junior, or is it referring to 3 people? -->
-                <person name="Homer"/>
-                <person name="Virgil"/>
+                    <person name="Silius Italicus"/> <!-- LS, I added this one -->
+                    <person name="Hannibal"/>
+                    <person name="Scipio Africanus"/> 
+                    <person name="Lucan"/>
+                    <person name="Pompey"/>
+                    <person name="Julius Caesar"/>
+                    <person name="Livy"/>
+                    <person name="Sulla"/>
+                    <person name="Gaius Marius"/>
+                    <person name="Thomas Smith"/> 
+                    <person name="Homer"/>
+                    <person name="Virgil"/>
+                    <book title="The Punica"/>
+                    <book title="Pharsalia"/>
                 </position>
             </language>
         </marginalia>
@@ -37,24 +39,25 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Hanc Annibalis decadem una hebdomade non magis raptim, qu&agrave;m avide, acriterq[ue] percucurri cum Thoma Smitho, honoratissimi 
-                        Secretarij regij, Thoma Smithi filio; paulo post Ardium Hibernicarum prorege; tam prudenti, qu&agrave;m animoso, validoq[ue] iuuene. 
+                        Hanc Annibalis decadem vna hebdomade non magis raptim, qu&agrave;m auide, acriterq[ue] percucurri cum Thoma Smitho, honoratissimi 
+                        Secretarij regij, Thoma[e] Smithi filio; paulo post Ardium Hibernicarum prorege; tam prudenti, qu&agrave;m animoso, validoq[ue] iuuene. 
                         Cum eramus liberiores, et aliquando asperiores Carthaginiensium, et Romanorum Censores, qu&agrave;m decuerat homines nostra[e] 
-                        fortuna[e], uirtutis, aut etiam scientia[e]. Tant&ugrave;m didiceramus nemini veteru[m], aut nouorum adulari; et aliorum facta si non 
+                        fortuna[e], uirtutis, aut etiam scientia[e]. Tant&ugrave;m didiceramus nemini ueteru[m], aut nouorum adulari; et aliorum facta si non 
                         solido iudicio, at integro arbitrio examinare. Aristotelis, Xenophontisq[ue] politicis; et Vegetij libris de re militari, Frontiniq[ue]
                         strategematis mult&ugrave;m confidebamus. Nec semper aut Annibali, aut Marcello, aut Fabio assentabamur, aut etiam ipsi Scipionj.
                     </marginalia_text>
-                <person name="Hannibal"/>
-                <person name="Thomas Smith Junior"/>
-                <person name="Aristotle"/>
-                <person name="Xenophon"/>
-                <person name="Vegetius"/>
-                <person name="Frontinus"/>
-                <person name="Marcus Claudius Marcellus"/>
-                <person name="Quintus Fabius Maximus Rullianus"/>
-                <person name="Scipio Africanus"/>
-                <book title="De re Militari"/>
-                <book title="The stratagems"/>
+                    <person name="Hannibal"/>
+                    <person name="Thomas Smith Junior"/>
+                    <person name="Thomas Smith"/>
+                    <person name="Aristotle"/>
+                    <person name="Xenophon"/>
+                    <person name="Vegetius"/>
+                    <person name="Frontinus"/>
+                    <person name="Marcus Claudius Marcellus"/>
+                    <person name="Quintus Fabius Maximus Rullianus"/>
+                    <person name="Scipio Africanus"/>
+                    <book title="De re Militari"/>
+                    <book title="The stratagems"/>
                 </position>
             </language>
             <translation>
@@ -85,14 +88,14 @@
         <underline method="pen" type="straight" language="LA" text="uestrae ist[a]e absurd[a]e atq[ue] abhorrentes lacrym[a]e"/>
         <underline method="pen" type="straight" language="LA" text="cu[m] adempta nobis arma"/>
         <underline method="pen" type="straight" language="LA" text="ince[n]s[a]e naues"/>
-        <underline method="pen" type="straight" language="LA" text="em[m] uulnere concidimus"/>
+        <underline method="pen" type="straight" language="LA" text="e[ni]m uulnere concidimus"/>
         <underline method="pen" type="straight" language="LA" text="Nulla magna ciuitas diu quiescere potest"/>
         <underline method="pen" type="straight" language="LA" text="si foris hoste[m] no[n] habet, domi inueniit"/>
         <underline method="pen" type="straight" language="LA" text="praeualida corpora ab"/>
         <underline method="pen" type="straight" language="LA" text="fuis ipsa uirib[us] onerant"/>
         <underline method="pen" type="straight" language="LA" text="ex publicis malis sentimus"/>
         <underline method="pen" type="straight" language="LA" text="priuatas res pertinet"/>
-        <underline method="pen" type="straight" language="LA" text="eis quicq[ue] acrius, q[ue] pecuniae damnu[m] stimulat"/>
+        <underline method="pen" type="straight" language="LA" text="eis quicq[uam] acrius, q[uam] pecuniae damnu[m] stimulat"/>
         <underline method="pen" type="straight" language="LA" text="inermem ia[m] ac nuda[m]"/>
         <underline method="pen" type="straight" language="LA" text="quia tributu[m] ex priuato co[n]ferendu[m]"/>
         <underline method="pen" type="straight" language="LA" text="in publico funere co[n]ploratis"/>
@@ -108,7 +111,7 @@
         <underline method="pen" type="straight" language="LA" text="Pace"/>
         <underline method="pen" type="straight" language="LA" text="mariq[ue] parta"/>
         <underline method="pen" type="straight" language="LA" text="per l[a]eta[m] pace"/>
-        <underline method="pen" type="straight" language="LA" text="minus q[ue] uictori Italia[n]"/>
+        <underline method="pen" type="straight" language="LA" text="minus q[uam] uictori Italia[m]"/>
         <underline method="pen" type="straight" language="LA" text="effusis no[n]"/>
         <underline method="pen" type="straight" language="LA" text="agrestiu[m] etia[m] turba"/>
         <underline method="pen" type="straight" language="LA" text="triu[m]phoq[ue] omniu[m] clarissimo urbe[m] est"/>
@@ -118,7 +121,7 @@
         <underline method="pen" type="straight" language="LA" text="spectaculomagis"/>
         <underline method="pen" type="straight" language="LA" text="Syphax est"/>
         <underline method="pen" type="straight" language="LA" text="Hu[n]c rege[m] in triu[m]pho ductu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="Polybius haudquaq[ue] spernendus autor"/>
+        <underline method="pen" type="straight" language="LA" text="Polybius haudquaq[uam] spernendus autor"/>
         <underline method="pen" type="straight" language="LA" text="Africanu[m]"/>
         <underline method="pen" type="straight" language="LA" text="militaris prius fauor"/>
         <underline method="pen" type="straight" language="LA" text="popularis"/>
@@ -126,10 +129,9 @@
         <underline method="pen" type="straight" language="LA" text="Magniq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="assentatione familiari"/>
         <underline method="pen" type="straight" language="LA" text="Primus cert&egrave; hic imperator"/>
-        <underline method="pen" type="straight" language="LA" text="uictae ab se gentis est"/>
+        <underline method="pen" type="straight" language="LA" text="uictae ab se gentis est nobilitatus"/>
         <underline method="pen" type="straight" language="LA" text="exemplo deinde huius"/>
-        <underline method="pen" type="straight" language="LA" text="claraq[ue]"/>
-        <underline method="pen" type="straight" language="LA" text="cognomina familiae"/>
+        <underline method="pen" type="straight" language="LA" text="claraq[ue] cognomina familiae"/>
         
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="left_margin"/>
@@ -137,7 +139,7 @@
         
         <mark name="dash" method="pen" place="right_margin"/> <!-- pri -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="quotation_mark" method="pen" place="intext"/>
+        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="ridente[m] Annibale[m]"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- ocu -->
         <mark name="dot" method="pen" place="intext"/> <!-- posset, -->
@@ -148,21 +150,22 @@
         <mark name="dash" method="pen" place="right_margin"/> <!-- no -->
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- po -->
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="foris"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="domi"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="publicis"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="priuatas"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="pecuniae"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- spo -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- gen -->
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="priuato"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="publico"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Scipio"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Masanis -->
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="comma" method="pen" place="intext"/> <!--paternu[m] Cirtha-->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- ur -->
         <mark name="plus_sign" method="pen" place="intext"/>
@@ -171,10 +174,10 @@
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Africanu[m]"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Felicis"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Magniq[ue]"/>
+        <mark name="dot" method="pen" place="intext"/> <!--sit, parum-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- huius -->
         
     </annotation>
-    
 </transcription>
