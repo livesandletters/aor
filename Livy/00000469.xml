@@ -30,7 +30,6 @@
             <language ident="EL">
                 <position place="head" book_orientation="0">
                     <marginalia_text>ἀπὸ μηχανῆς.</marginalia_text>
-                        <!-- Greek added. -->
                 </position>
             </language>
             <translation>As Mercury, or Jupiter himself ex machina.
@@ -50,7 +49,7 @@
         <underline method="pen" type="straight" language="LA" text="nihil ferm&egrave;, pr[a]eter arma, secum"/>
         <underline method="pen" type="straight" language="LA" text="in expeditionem tulerat"/>
         <underline method="pen" type="straight" language="LA" text="auctum uoluntarijs agmen"/>
-        <underline method="pen" type="straight" language="LA" text="ueteribus militubs"/>
+        <underline method="pen" type="straight" language="LA" text="ueteribus militbus"/>
         <underline method="pen" type="straight" language="LA" text="iuuenibus, quos"/>
         <underline method="pen" type="straight" language="LA" text="species, roburq[ue] uirium aptum"/>
         <underline method="pen" type="straight" language="LA" text="Asdrubal"/>
@@ -109,7 +108,8 @@
         <underline method="pen" type="straight" language="LA" text="opprimendu[m] accelerasse"/>
         <underline method="pen" type="straight" language="LA" text="trepidatione &amp;"/>
         <underline method="pen" type="straight" language="LA" text="desertum &agrave; ducibus agmen"/>
-        <underline method="pen" type="straight" language="LA" text="fesiq[ue] aliquot somno ac uigilijs sternunt corpora"/>
+        <underline method="pen" type="straight" language="LA" text="fesiq[ue] aliquot somno ac uigilijs"/>
+        <underline method="pen" type="straight" language="LA" text="sternunt corpora"/>
         <underline method="pen" type="straight" language="LA" text="Asdrubal dum"/>        
         
         <symbol name="SS" place="intext" language="LA" text="Nero"/>
@@ -123,15 +123,16 @@
         <symbol name="SS" place="right_margin"/> <!--Sloppy SS symbol-->
         <symbol name="SS" place="right_margin"/> <!--Sloppy SS symbol-->
        
-       <mark name="quotation_mark" method="pen" place="left_margin"/>
+        <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="castra nihil aucta errorem faciebant"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="ne perditis rebus seru[m] ipse auxiliu[m] uenisset"/>
        
-       <mark name="dash" method="pen" place="right_margin"/> <!--exer-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--exer-->
         <mark name="dash" method="pen" place="right_margin"/> <!--perfun-->
         <mark name="dash" method="pen" place="right_margin"/> <!--appro-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--Licini-->
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!--bel-->
         <mark name="dash" method="pen" place="right_margin"/> <!--sume-->
@@ -143,13 +144,15 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--abscessis-->
         <mark name="dash" method="pen" place="right_margin"/> <!--pri-->
        
-       <mark name="plus_sign" method="pen" place="intext" language="LA" text="arma"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="arma"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="uoluntarijs"/>
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="sui quisq[ue] ordinis hominib[us]"/>
         <mark name="plus_sign" method="pen" place="intext" />
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" />
         <mark name="plus_sign" method="pen" place="intext"  language="LA" text="prolatando"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--Annibali, &-->
+        <mark name="dot" method="pen" place="intext"/> <!--Annibali, &-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Extempl&ograve;"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!--esse Concilio-->
         <mark name="dot" method="pen" place="intext"/> <!--uiderat, &-->
@@ -157,6 +160,7 @@
         <mark name="plus_sign" method="pen" place="intext"  language="LA" text="literas"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!--einterceptisq[ue]-->
         
+        <errata language="LA" copytext="sei ter" amendedtext="se iter"/>
         <errata language="LA" copytext="einterceptisq[ue]" amendedtext="e interceptisq[ue]"/>
         
     </annotation>
