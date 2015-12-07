@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Publii Cornelii Scipionis descriptio perinsignis: qualis etiam i[nfr]a, 460.
+                        Publii Cornelij Scipionis descriptio perinsignis: qualis etiam i[nfr]a, 460.
                     </marginalia_text>
                     <person name="Scipio Africanus"/>
                     <internal_ref text="i[nfr]a">
@@ -20,7 +20,7 @@
                     </internal_ref>
                 </position>
             </language>
-            <translation>A very remarkable description of Publius Cornelius Scipio, similarly as also below 460.
+            <translation>A very remarkable description of Publius Cornelius Scipio, similarly as also below, 460.
             </translation>
         </marginalia>
 
@@ -54,6 +54,7 @@
                     <marginalia_text>
                         habuit hoc Romuli, s[upr]a, 6.
                     </marginalia_text>
+                    <person name="Romulus"/>
                     <internal_ref text="s[upr]a">
                         <target filename="00000028.xml" book_id="PrincetonPA6452" text="6"/>
                     </internal_ref>
@@ -68,9 +69,9 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         Fabius, bello melior: Marcellus pra[e]lio: Martius facinore Nero itinere: Scipio omni bellica laude excellentissimus, 
-                        id est, arte militari, et singulari virtute; domina singularis Fortuna[e]. Ex omnibus Romanis, solo Ca[e]sare minor: 
+                        id est, arte militari, et singulari Virtute; domina singularis Fortuna[e]. Ex omnibus Romanis, solo Ca[e]sare minor: 
                         quanto difficilius erat magnum Pompeium, et sapientissimos Romanos vincere, qu&agrave;m Annibalem, et barbaros. 
-                        Ecc&egrave; Romanae Industria[e], virtutisq[ue] miracula.
+                        Ecc&egrave; Romana[e] Industria[e], virtutisq[ue] miracula.
                     </marginalia_text>
                     <person name="Fabius Maximus"/> <!--JG: Not clear which Maximus Harvey means-->
                     <person name="Marcus Claudius Marcellus"/>
@@ -101,7 +102,7 @@
         <underline method="pen" type="straight" language="LA" text="ominati extempl&ograve; sunt felix"/>
         <underline method="pen" type="straight" language="LA" text="ad unum omnes no[n]"/>
         <underline method="pen" type="straight" language="LA" text="iam residerat impetus animorum ardorq[ue]"/>
-        <underline method="pen" type="straight" language="LA" text="qu&ograve;d sauor plus ualuisset"/>
+        <underline method="pen" type="straight" language="LA" text="qu&ograve;d fauor plus ualuisset"/>
         <underline method="pen" type="straight" language="LA" text="qu&agrave;m ratio [a]etatis"/>
         <underline method="pen" type="straight" language="LA" text="inter sepulchra patris patruiq[ue] res"/>
         <underline method="pen" type="straight" language="LA" text="solicitudinem curamq[ue] hominu[m]"/>
@@ -132,6 +133,7 @@
         <underline method="pen" type="straight" language="LA" text="stirpis eum diuinae"/>
         <underline method="pen" type="straight" language="LA" text="famam in Alexandro Magno"/>
         <underline method="pen" type="straight" language="LA" text="anguis immanis"/>
+        <underline method="pen" type="straight" language="LA" text="His miraculis"/>
         <underline method="pen" type="straight" language="LA" text="ipso elusa fides est"/>
         <underline method="pen" type="straight" language="LA" text="aucta arte quadam"/>
         <underline method="pen" type="straight" language="LA" text="alia uera"/>
@@ -141,7 +143,7 @@
         <underline method="pen" type="straight" language="LA" text="adiutor ad res gerendas"/> 
         <underline method="pen" type="straight" language="LA" text="legationes ad famam aduentus eius"/>
         <underline method="pen" type="straight" language="LA" text="elato ab ingenti uirtutum suarum fiducia animo, ut nullum ferox uerbum"/>
-        <underline method="pen" type="straight" language="LA" text="ingens que omnibus quae diceret, c&ugrave;m maiestas inesset, tum fides"/>
+        <underline method="pen" type="straight" language="LA" text="ingensque omnibus quae diceret, c&ugrave;m maiestas inesset, tum fides"/>
         <underline method="pen" type="straight" language="LA" text="Martium secum habebat cum tanto honore"/>
         <underline method="pen" type="straight" language="LA" text="facil&egrave; appareret"/>
         <underline method="pen" type="straight" language="LA" text="nihil minus eum ueriri, qu&agrave;m ne quis obstaret gloriae suae"/>
@@ -152,13 +154,12 @@
         <underline method="pen" type="straight" language="LA" text="minus ratio timoris reddi"/>
         <underline method="pen" type="straight" language="LA" text="maiorem inferens metum"/>
         
-        <symbol name="SS" place="head" language="LA" text="Publii Cornelii Scipionis descriptio perinsignis: qualis etiam i[nfr]a, 460."/>
-        <symbol name="SS" place="head" language="LA" text="The most excellent Scipio, a diuine &amp; fatal man. Achilles docuit Cyrum Xenophontis: Cyrus Scipionem: Scipio Syllam: 
-            Sylla Ca[e]sare[m]: Ca[e]sar omnes posteros."/>
+        <symbol name="SS" place="head" />
+        <symbol name="SS" place="head" />
         
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
-        <symbol name="SS" place="left_margin" language="LA" text="Fabius, bello melior: Marcellus pra[e]lio: Martius facinore Nero itinere: Scipio omni bellica laude excellentissimus, id est, arte militari, et singulari virtute; domina singularis Fortuna[e]. Ex omnibus Romanis, solo Ca[e]sare minor: quanto difficilius erat magnum Pompeium, et sapientissimos Romanos vincere, qu&agrave;m Annibalem, et barbaros. Ecc&egrave; Romanae Industria[e], virtutisq[ue] miracula."/>
+        <symbol name="SS" place="left_margin" language="LA" text="Fabius, bello melior: Marcellus pra[e]lio: Martius facinore Nero itinere: Scipio omni bellica laude excellentissimus, id est, arte militari, et singulari virtute; domina singularis Fortuna[e]. Ex omnibus Romanis, solo Ca[e]sare minor: quanto difficilius erat magnum Pompeium, et sapientissimos Romanos vincere, qu&agrave;m Annibalem, et barbaros. Ecc&egrave; Romana[e] Industria[e], virtutisq[ue] miracula."/>
         
         <symbol name="SS" place="tail"/>
         <symbol name="SS" place="tail"/>
@@ -190,9 +191,9 @@
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="uirtutum"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
         
-        <errata language="LA" copytext="ciuitates" amendedtext="ciuatates"/>
+        <errata language="LA" copytext="ciuatates" amendedtext="ciuitates"/> 
         
     </annotation>
 </transcription>
