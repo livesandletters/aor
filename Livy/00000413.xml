@@ -11,7 +11,7 @@
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Martius, a most braue and terrible knight, at a pinch. Which of the Heroical worthyes cowld haue dun more at the time?
+                    <marginalia_text>Martius, a most braue &amp; terrible knight, at a pinch. Which of the Heroical worthyes cowld haue dun more at the time?
                     </marginalia_text>
                     <person name="Lucius Marcius"/>
                 </position>
@@ -62,7 +62,9 @@
         <underline method="pen" type="straight" language="LA" text="tantu[m] ausi estis sponte"/>
         <underline method="pen" type="straight" language="LA" text="quantum audeatis duce uestro autore"/>
         <underline method="pen" type="straight" language="LA" text="frangere audaciam"/>
-        <underline method="pen" type="straight" language="LA" text="differre in maiorem gloriam atq[ue] etia[m]"/>
+        <underline method="pen" type="straight" language="LA" text="differre in maiorem gloriam atq[ue] opportunitatem"/>
+        <underline method="pen" type="straight" language="LA" text="praeparati incautos"/>
+        <underline method="pen" type="straight" language="LA" text="armati inermes, atq[ue] etia[m]"/>
         <underline method="pen" type="straight" language="LA" text="per occasione[m] aggredi"/>
         <underline method="pen" type="straight" language="LA" text="Nec huius"/>
         <underline method="pen" type="straight" language="LA" text="temer&egrave;"/>
@@ -109,6 +111,7 @@
         <mark name="dash" method="pen" place="right_margin"/> <!--ne-->
         <mark name="equal_sign" method="pen" place="right_margin"/> 
         <mark name="dash" method="pen" place="right_margin"/> <!--adhor-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--mo-->
         <mark name="dash" method="pen" place="right_margin"/> <!--spon-->
         <mark name="dash" method="pen" place="right_margin"/> <!--uictori-->
         <mark name="dash" method="pen" place="right_margin"/> <!--ope-->
@@ -121,6 +124,7 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ultr&ograve; inferendo arma"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="contemptum"/>
         <mark name="dot" method="pen" place="intext"/> <!--pietas, uel-->
+        <mark name="comma" method="pen" place="intext"/> <!--milites fortuna-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="suam disciplinam"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="obedientior"/>
         <mark name="dot" method="pen" place="intext"/> <!--fuerit, ita-->
@@ -142,9 +146,9 @@
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="tutissima"/>
         <mark name="equal_sign" method="pen" place="intext" />
         
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="tail"/>
+        <mark name="plus_sign" method="pen" place="tail"/>
+        <mark name="plus_sign" method="pen" place="tail"/>
         
     </annotation>
 </transcription>
