@@ -8,7 +8,7 @@
     <page filename="00000345.tif" pagination="323" reader="Harvey" /> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Claudius Marcellus praetor">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>Valorous &amp; puissant</marginalia_text>
@@ -21,13 +21,14 @@
             </language>
         </marginalia>
         
+        <underline method="pen" type="straight" language="LA" text="Claudius Marcellus praetor Annibalis"/>
         <underline method="pen" type="straight" language="LA" text="primusq[ue] omnium tot"/>
         <underline method="pen" type="straight" language="LA" text="cladibus fessis Romanis meliorem spem belli dedit"/>
         
         <symbol name="SS" place="intext" language="LA" text="ualorous &amp; puissant Marcellus. the present hope of dismaied Roome. 
             A worthie man at a maine brunt."/>
         
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="primusq[ue] omnium tot cladibus fessis Romanis meliorem spem belli dedit"/>
+        <mark name="plus_sign" method="pen" place="intext" />
         
     </annotation>
 </transcription>
