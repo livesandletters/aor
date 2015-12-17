@@ -23,7 +23,7 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sed notatu dignum, qui ex tertia Decade excerpi poterant aphorismi, eos fer&egrave; ex Polybio fuisse descriptos; 
                         ideoq[ue] inde h&icirc;c etia[m] repetendos. Qui autem ex quarta Decade delibari potuissent, plan&egrave; cum superiorib[us] 
-                        conuenire. VndeDana[e]us sua aphoristica opera in prima Decade defunctus, omnibus abund&egrave; satisfactum existimauit. 
+                        conuenire. Vnde Dana[e]us sua aphoristica opera in prima Decade defunctus, omnibus abund&egrave; satisfactum existimauit. 
                         Eadem fer&egrave; Machiavelli ratio: exceptis nonnullis singularibus.</marginalia_text>
                     <person name="Polybius"/>
                     <book title="The Histories"/>
@@ -73,7 +73,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Pyrrhus Epirotarum rex">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Pyrrhus rex. s[upr]a, 185.</marginalia_text>
@@ -112,7 +112,7 @@
         <underline method="pen" type="straight" language="LA" text="legati Romanorum &agrave; Gallis Senonibus interfecti"/>
         <underline method="pen" type="straight" language="LA" text="bello ob id Gallis indicto"/>
         <underline method="pen" type="straight" language="LA" text="classis Romana direpta esset"/>
-        <underline method="pen" type="straight" language="LA" text="legati ad eos"/>
+        <underline method="pen" type="straight" language="LA" text="legati ad eos &agrave; senatu"/>
         <underline method="pen" type="straight" language="LA" text="pulsati sunt ob"/>
         <underline method="pen" type="straight" language="LA" text="bellum ijs indictum"/>
         <underline method="pen" type="straight" language="LA" text="Samnites defecerunt"/>
@@ -120,7 +120,7 @@
         <underline method="pen" type="straight" language="LA" text="ferret Tarentis"/>
         <underline method="pen" type="straight" language="LA" text="Valerius Leuinus"/>
         <underline method="pen" type="straight" language="LA" text="aduersus Pyrrhum pugnauit"/>
-        <underline method="pen" type="straight" language="LA" text="elephantorum maxim&egrave; inusitata facie territs"/>
+        <underline method="pen" type="straight" language="LA" text="elephantorum maxim&egrave; inusitata facie territis"/>
         <underline method="pen" type="straight" language="LA" text="corpora Romanoru[m]"/>
         <underline method="pen" type="straight" language="LA" text="omnia uersa in hoste[m] inuenit"/>
         <underline method="pen" type="straight" language="LA" text="populabandusq[ue] ad urbem"/>
@@ -128,9 +128,9 @@
         <underline method="pen" type="straight" language="LA" text="ut patriam deseret"/>
         <underline method="pen" type="straight" language="LA" text="rege tentatus"/>
         <underline method="pen" type="straight" language="LA" text="Cyneas legatus &agrave; Pyrrho"/>
-        <underline method="pen" type="straight" language="LA" text="componendae pacis causarex in urbem"/>
+        <underline method="pen" type="straight" language="LA" text="componendae pacis causa rex in urbem"/>
         <underline method="pen" type="straight" language="LA" text="Ap. Claudius"/>
-        <underline method="pen" type="straight" language="LA" text="sementia sua tenuit, ut id Pyrrho negaretur"/>
+        <underline method="pen" type="straight" language="LA" text="sententia sua tenuit, ut id Pyrrho negaretur"/>
         <underline method="pen" type="straight" language="LA" text="aduersus Pyrrhum dubio euentu"/>
         <underline method="pen" type="straight" language="LA" text="regi uenenum daturum"/>
         <underline method="pen" type="straight" language="LA" text="Pyrrhum iterum"/>
@@ -155,14 +155,13 @@
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="coronati prim&ugrave;m ob res bello bene gestas"/>
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="palmaeq[ue] tum prim&ugrave;m"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="anguem"/>
-        <mark name="bracket" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="in quo ipsum numen esse constabat"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="legati"/>
         <mark name="dot" method="pen" place="intext"/> <!--essent, bello-->
         <mark name="dot" method="pen" place="intext"/> <!--occiso, legati-->
+        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--ageret, frustra-->
-        <mark name="plus_sign" method="pen" place="tail"/>
+        <mark name="plus_sign" method="pen" place="tail"/> <!--continet-->
         
         <errata language="LA" copytext="dicibus" amendedtext="ducibus"/>
         
