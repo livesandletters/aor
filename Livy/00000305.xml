@@ -7,7 +7,7 @@
     
     <page filename="00000305.tif" pagination="283" reader="Harvey"   signature="aa4[r]"/> 
     <annotation>
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Annibal">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,7 +20,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Scipionem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -45,6 +45,8 @@
         <symbol name="SS" place="right_margin"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!--con-->
         
     </annotation>
 </transcription>
