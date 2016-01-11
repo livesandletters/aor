@@ -5,7 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
     
-    <page filename="case_712_c27495_104.tif" reader="Harvey"  signature="[K.i.[v]]"/>
+    <page filename="case_712_c27495_104.tif" reader="Harvey"  signature="[Ki[v]]"/>
     <annotation>
         
         <marginalia hand="Italian">
@@ -22,9 +22,12 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Campaspes. f. 11. 6.
+                        Campaspes. k. 11. b.
                     </marginalia_text>
                     <person name="Campaspe"/>
+                    <internal_ref text="Campaspes">
+                        <target filename="case_712_c27495_106.xml" book_id="Newberry27495" text="k. 11. b."/>
+                    </internal_ref>
                 </position>
             </language>
         </marginalia>
@@ -59,7 +62,7 @@
         <underline method="pen" type="straight" language="EN" text="burning it"/>
         <underline method="pen" type="straight" language="EN" text="staid to bid them battaile"/>
         <underline method="pen" type="straight" language="EN" text="Metrodorus"/>
-        <underline method="pen" type="straight" language="EN" text="if Athens"/>
+        <underline method="pen" type="straight" language="EN" text="of Athens"/>
         <underline method="pen" type="straight" language="EN" text="Paulus"/>
         <underline method="pen" type="straight" language="EN" text="vp his children"/>
         <underline method="pen" type="straight" language="EN" text="deck out"/>
@@ -76,13 +79,14 @@
         
         <mark name="quotation_mark" method="pen" place="head"/>
         
+        <mark name="dash" method="pen" place="intext"/> <!--Appel-->
         <mark name="bracket" method="pen" place="left_margin" language="EN" text="A table wherin Bacchus was peinted."/>
         
         <mark name="bracket" method="pen" place="right_margin" language="EN" text="And that there wer some Peincters that gaue their woorkes freely,
-            seeing vnto them no golde nor siluer was inough to value them."/>
+            seeming vnto them no golde nor siluer was inough to value them."/>
         <mark name="X_sign" method="chalk" place="right_margin"/>
         <mark name="X_sign" method="chalk" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="a knowledge in peincting"/>
         
         <mark name="dot" method="pen" place="intext"/> <!-- desires, and -->
         <mark name="dot" method="pen" place="intext"/> <!-- Appelles, but -->
