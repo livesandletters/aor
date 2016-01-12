@@ -24,6 +24,9 @@
                     <marginalia_text>
                         s[upr]a, l.I.c.4.
                     </marginalia_text>
+                    <internal_ref text="s[upr]a">
+                        <target filename="case_712_c27495_093.xml" book_id="Newberry27495" text="l.I.c.4."/> <!--JG: Not entirely sure, since books aren't divided in chapters-->
+                    </internal_ref>
                 </position>
             </language>
             <translation>
@@ -86,6 +89,7 @@
         <underline method="pen" type="straight" language="EN" text="as litle company"/>
         <underline method="pen" type="straight" language="EN" text="sighte of"/>
         <underline method="pen" type="straight" language="EN" text="noble"/>
+        
         <underline method="pen" type="straight" language="EN" text="Generall rules."/>
         <underline method="pen" type="straight" language="EN" text="Auoid curiositye"/>
         <underline method="pen" type="straight" language="EN" text="Circumstances."/>
@@ -110,10 +114,11 @@
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- circum -->
-        <mark name="pen_trial" method="pen" place="right_margin"/>
+        <mark name="scribble" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <mark name="plus_sign" method="pen" place="intext"/> <!-- curiositie -->
+        <mark name="vertical_bar" method="chalk" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="curiositie"/> 
         <mark name="plus_sign" method="pen" place="intext"/> <!-- well, what -->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="what"/>
         <mark name="dot" method="pen" place="intext"/> <!-- speaketh, the -->
@@ -124,7 +129,7 @@
         <mark name="dot" method="pen" place="intext"/> <!-- time, the -->
         <mark name="dot" method="pen" place="intext"/> <!-- it, his -->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="his profession"/>
-        <mark name="plus_sign" method="pen" place="intext"/> <!-- the ende -->
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="the ende"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="meanes"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="to doe"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="speake"/>
