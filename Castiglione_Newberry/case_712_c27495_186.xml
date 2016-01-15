@@ -46,6 +46,17 @@
         </marginalia>    
         
         <marginalia hand="Italian">
+            <language ident="IT">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Machieuel l. 7 delle Historie Fiorentine.</marginalia_text>
+                    <person name="Machiavelli"/>
+                    <book title="Florentine Histories"/>
+                </position>
+            </language>
+            <translation>Machiavelli, book 7 of the 'Florentine Histories'.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -73,7 +84,7 @@
                 </position>
             </language>
             <translation>
-                <!-- translation to be added. -->
+                It's part of intelligence to fix whatever to its webs.
             </translation>
         </marginalia>
         
@@ -90,7 +101,7 @@
         <underline method="pen" type="straight" language="EN" text="metaphor spoken"/>
         <underline method="pen" type="straight" language="EN" text="The henn sitteth abroode"/>
         <underline method="pen" type="straight" language="EN" text="without any more"/>
-        <underline method="pen" type="straight" language="EN" text="Hennes can full yll abrood&eacute; out of the best"/>
+        <underline method="pen" type="straight" language="EN" text="Hennes can full yll abrood&eacute; out of the nest"/>
         <underline method="pen" type="straight" language="EN" text="had extolled certein"/>
         <underline method="pen" type="straight" language="EN" text="famous in marcial prowesse"/>
         <underline method="pen" type="straight" language="EN" text="most honorable mention of him"/>
@@ -101,27 +112,28 @@
         <underline method="pen" type="straight" language="EN" text="of good ones and"/>
         <underline method="pen" type="straight" language="EN" text="honour me"/>
         <underline method="pen" type="straight" language="EN" text="with so excellent and vertuous personages"/>
-        <underline method="pen" type="straight" language="EN" text="pase for a good one"/>
+        <underline method="pen" type="straight" language="EN" text="passe for a good one"/>
         <underline method="pen" type="straight" language="EN" text="counterfeit Ducates"/>
         <underline method="pen" type="straight" language="EN" text="much better"/>
         <underline method="pen" type="straight" language="EN" text="the good"/>
         <underline method="pen" type="straight" language="EN" text="counterfeiters of menne"/>
         <underline method="pen" type="straight" language="EN" text="iuste cause to suspect"/>
         <underline method="pen" type="straight" language="EN" text="were false"/>
-        <underline method="pen" type="straight" language="EN" text="much more faire and brighter"/>
+        <underline method="pen" type="straight" language="EN" text="more faire and brighter"/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="EN" text="Hennes can full yll abrood&eacute; out of the nest"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
+        <mark name="equal_sign" method="pen" place="right_margin" language="EN" text="elles but to liken you vnto the aungelles, whiche were the firste and are the auntientest creatures
+            that euer God made."/>
         <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="vertical_bar" method="pen" place="right_margin"/> <!-- from mer- to met- -->
         
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="aungelles"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- made, also -->
         <mark name="dot" method="pen" place="intext"/> <!-- 'nippe', dot over the 'i' -->
         <mark name="dot" method="pen" place="intext"/> <!-- one, so -->
@@ -137,7 +149,7 @@
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         
-        <mark name="quotation_mark" method="pen" place="tail"/>
+        <mark name="quotation_mark" method="pen" place="tail" language="EN" text="more faire and brighter"/>
         
     </annotation>
 </transcription>

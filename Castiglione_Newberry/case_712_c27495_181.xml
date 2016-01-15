@@ -20,7 +20,7 @@
         </marginalia>
         
         <marginalia hand="Italian">
-            <language ident="EN"> <!-- Latin name for a book, but context of the marginalia is all English. Which language do I use? -->
+            <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         de Orat.
@@ -28,6 +28,7 @@
                     <book title="De Oratore"/>
                 </position>
             </language>
+            <translation>[Cicero's] 'De Oratore'.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Ladye Emilia Impia">
@@ -36,6 +37,7 @@
                     <marginalia_text>
                         I[m]pia.
                     </marginalia_text>
+                    <person name="Emilia Pia da Montefeltro"/> <!--JG: See: Castiglione's Allegory: Veiled Policy in The Book of the Courtier (1528), pp. 34-5-->
                 </position>
             </language>
         </marginalia>
@@ -48,6 +50,8 @@
         <underline method="pen" type="straight" language="EN" text="corpulente"/>
         <underline method="chalk" type="straight" language="EN" text="their bougettes beehynde them"/>
         <underline method="pen" type="straight" language="EN" text="bougettes beehynde"/>
+        <underline method="chalk" type="straight" language="EN" text="felowe caryeth his beefore him"/>
+        <underline method="pen" type="straight" language="EN" text="beefore him"/>
         <underline method="chalk" type="straight" language="EN" text="menne do in the Countrey of theeues"/>
         <underline method="pen" type="straight" language="EN" text="in the Countrey of theeues"/>
         <underline method="chalk" type="straight" language="EN" text="Bischizzi"/>
@@ -66,9 +70,9 @@
         <underline method="pen" type="straight" language="LA" text="maxima iuxta"/>
         <underline method="chalk" type="straight" language="EN" text="a knott of faire Romaine Ladies"/>
         <underline method="pen" type="straight" language="EN" text="knott of faire Romaine"/>
-        <underline method="pen" type="straight" language="EN" text="tjpse gentilmen"/>
-        <underline method="chalk" type="straight" language="EN" text="Quot coelum stellas, tot habet tua Roma Puellas"/>
-        <underline method="chalk" type="straight" language="EN" text="Pascua quotque hoedos, tot habet rua Roma cinaedos"/>
+        <underline method="pen" type="straight" language="EN" text="those gentilmen"/>
+        <underline method="chalk" type="straight" language="LA" text="Quot coelum stellas, tot habet tua Roma Puellas"/>
+        <underline method="chalk" type="straight" language="LA" text="Pascua quotque hoedos, tot habet rua Roma cinaedos"/>
         <underline method="pen" type="straight" language="EN" text="rout of yonge menne"/>
         <underline method="chalk" type="straight" language="EN" text="And Marcantonio"/>
         <underline method="pen" type="straight" language="EN" text="muche esteamed for hys good lyfe and"/>
@@ -76,6 +80,7 @@
         <underline method="pen" type="straight" language="EN" text="hauntinge much to"/>
         <underline method="chalk" type="straight" language="EN" text="beegat fiue of them with"/>
         <underline method="pen" type="straight" language="EN" text="fiue of them with"/>
+        
         <underline method="pen" type="straight" language="EN" text="letter or fillable"/>
         <underline method="chalk" type="straight" language="EN" text="As many boyes es preserude for loue, As Kiddes in pastures lie."/>
         <underline method="pen" type="straight" language="EN" text="As many boys es preserude"/>
@@ -95,11 +100,11 @@
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dot" method="pen" place="right_margin"/> <!-- Ladies -->
         <mark name="bracket" method="pen" place="right_margin" language="EN" text="Of wanton dames
-            Roome hath like store, As sterres be in the skie: As many boyes es preserude for loue, as Kiddes in pastures lie."/>
+            Roome hath like store, As sterres be in the skie: As many boyes es preserude for loue, As Kiddes in pastures lie."/>
         
         <mark name="dot" method="pen" place="intext"/> <!-- ynn, and -->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="Countrey of theeues"/>
-        <mark name="plus_sign" method="pen" place="intext"/> <!-- Italian, Biscizzi -->
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="Biscizzi"/> 
         <mark name="dot" method="pen" place="intext"/> <!-- Bischizzi, and -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- Greeke. And -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- Impia. It -->
