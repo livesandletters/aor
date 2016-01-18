@@ -86,7 +86,7 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        B. <!-- AB: Not sure if this should be a symbol maybe? -->
+                        B. <!-- AB: Not sure if this should be a symbol maybe? --> <!--JG: Unsure, haven't seen this before-->
                     </marginalia_text>
                 </position>
             </language>
@@ -96,7 +96,7 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        in deceiuing mens opinions and frustratin[g] [the] most probable expectation; Vnico Aretino superexcelled
+                        In deceiuing mens opinions and frustratin[g] [the] most probable expectation; Vnico Aretino superexcelled
                     </marginalia_text>
                     <person name="Bernardo Accolti"/>
                 </position>
@@ -116,7 +116,7 @@
                 </position>
             </language>
             <translation>
-                <!-- to be added. -->
+                In deceiuing mens opinions and frustratin[g] [the] most probable expectation; Vnico Aretino superexcelled, having done what has been said. Without any offence, &amp; with many delightes. <!--JG: Not sure about best way to render 'eam factis quam dictis'-->
             </translation>
         </marginalia>
         
@@ -143,7 +143,7 @@
         <underline method="pen" type="straight" language="EN" text="spoken with feare"/>
         <underline method="pen" type="straight" language="EN" text="wyth marueyle"/>
         <underline method="pen" type="straight" language="EN" text="with threatninges oute"/>
-        <underline method="pen" type="straight" language="EN" text="ouermuche furioiusnesse"/>
+        <underline method="pen" type="straight" language="EN" text="ouermuche furiousnesse"/>
         <underline method="pen" type="straight" language="EN" text="certein newlye happened cases"/>
         <underline method="pen" type="straight" language="EN" text="sometime silence"/>
         <underline method="pen" type="straight" language="EN" text="certein wonder"/>
@@ -153,24 +153,25 @@
         <underline method="pen" type="straight" language="EN" text="as be in operacion, though"/>
         <underline method="pen" type="straight" language="EN" text="fewe principles"/>
         <underline method="pen" type="straight" language="EN" text="the chief matter is"/>
-        <underline method="pen" type="straight" language="EN" text="deceiue opinion, &amp; to answere otherwise then [the[ bearer loketh for: &amp;"/>
+        <underline method="pen" type="straight" language="EN" text="deceiue opinion, &amp; to answere otherwise then [the] hearer loketh for: &amp;"/>
         <underline method="pen" type="straight" language="EN" text="this deceit"/>
         <underline method="pen" type="straight" language="EN" text="dissimulacion"/>
         <underline method="pen" type="straight" language="EN" text="or mockinge"/>
         <underline method="pen" type="straight" language="EN" text="rebukinge"/>
         <underline method="pen" type="straight" language="EN" text="comparason"/>
+        
         <underline method="pen" type="straight" language="EN" text="A contrarye"/>
         
         <symbol name="SS" place="right_margin"/>
         
         <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="valiaunt mans and a good souldiers exercise"/>
-        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
-        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin" language="EN" text="verie laughter it selfe without pourpose"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
         
-        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="doubting and heedfull consideracion"/>
         <mark name="equal_sign" method="pen" place="right_margin" language="EN" text="dreamed that his highnesse had giuen him all those kinde"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="Hensfurthe beleaued dreames no more"/>
@@ -191,6 +192,7 @@
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="but drilie"/>
         <mark name="dot" method="pen" place="intext"/> <!-- matters, and -->
         <mark name="dot" method="pen" place="intext"/> <!-- royalles, he -->
+        <mark name="dot" method="pen" place="intext"/> <!-- more, for -->
         <mark name="equal_sign" method="pen" place="intext" language="EN" text="to grope his minde"/>
         <mark name="dot" method="pen" place="intext"/> <!-- luste, doubt -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- you. I -->
@@ -201,10 +203,11 @@
         <mark name="apostrophe" method="pen" place="intext"/> <!-- silence, with -->
         <mark name="dot" method="pen" place="intext"/> <!-- wonder, at -->
         <mark name="dot" method="pen" place="intext"/> <!-- sufficient, for -->
-        <mark name="equal_sign" method="pen" place="intext" language="EN" text="in woordes"/>
+        <mark name="equal_sign" method="pen" place="intext" language="EN" text="woordes"/>
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- of. As -->
-        <mark name="equal_sign" method="pen" place="intext" language="EN" text="as be in operacion, though"/>
+        <mark name="equal_sign" method="pen" place="intext" language="EN" text="operacion"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="fewe principles"/>
+        <mark name="vertical_bar" method="chalk" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="the chief matter is"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="deceiue"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="deceuie opinion, &amp; to answere otherwise then [the] bearer loketh for: &amp;"/>
