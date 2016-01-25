@@ -16,16 +16,17 @@
         <underline method="pen" type="straight" language="EN" text="ornament of letters"/>
         <underline method="pen" type="straight" language="EN" text="marciall prowesse"/>
         <underline method="pen" type="straight" language="EN" text="woorthie qualitie"/>
-        <underline method="pen" type="straight" language="EN" text="goonesse"/>
+        <underline method="pen" type="straight" language="EN" text="goodnesse"/>
         <underline method="pen" type="straight" language="EN" text="witt"/>
         <underline method="pen" type="straight" language="EN" text="nature"/>
-        <underline method="pen" type="straight" language="EN" text="and knowlweage"/>
+        <underline method="pen" type="straight" language="EN" text="and knowleage"/>
         <underline method="pen" type="straight" language="EN" text="highe, that might not haue bine hoped"/>
         <underline method="pen" type="straight" language="EN" text="death of M. Robert"/>
         <underline method="pen" type="straight" language="EN" text="great heauinesse to"/>
         <underline method="pen" type="straight" language="EN" text="man of good beehauiour, pleasaunt and"/>
-        <underline method="chalk" type="straight" language="EN" text="moste rare in the beawtie of fisname and in the makinge of his person, with as lucky and 
+        <underline method="chalk" type="straight" language="EN" text="moste rare in the beawtie of fisnamye and in the makinge of his person, with as lucky and 
             liuely towardnes"/>
+        <underline method="pen" type="straight" language="EN" text="and liuely towardnes"/>
         <underline method="pen" type="straight" language="EN" text="man coulde haue"/>
         <underline method="pen" type="straight" language="EN" text="come to that passe"/>
         <underline method="pen" type="straight" language="EN" text="knowen them"/>
@@ -45,13 +46,14 @@
         <underline method="pen" type="straight" language="EN" text="Dukedom of Vrbin:"/>
         <underline method="pen" type="straight" language="EN" text="smalle cause therof"/>
         
-        <symbol name="SS" place="right_margin"/>
+        <underline method="pen" type="straight" language="EN" text="The promotinge of certein"/>
+        
+        <symbol name="SS" place="right_margin" language="EN" text="show more then a hope of himself"/>
         <symbol name="SS" place="right_margin"/>
         
         <symbol name="SS" place="tail"/>
         
-        <mark name="bracket" method="chalk" place="left_margin"/> <!-- AB: I think if you include 'For with' from the line above the bracket and 'handes' from 
-            the line below, you get a good sense of what this bracket is enclosing. Do you agree that it can be tagged to the text? -->
+        <mark name="bracket" method="chalk" place="left_margin"/> 
         
         <mark name="dot" method="pen" place="intext"/> <!-- worthinesse, and -->
         <mark name="dot" method="pen" place="intext"/> <!-- person, with -->
@@ -59,9 +61,6 @@
         <mark name="comma" method="pen" place="intext"/> <!-- nemours, & -->
         
         <numeral place="left_margin" language="EN" text="M. Robert of Bari.">3.</numeral>
-        
-        <errata language="EN" copytext="Nemours to" amendedtext="Nemours &amp; to"/> <!-- AB: tagged this as an intervention i=since it is missing the left-hand 
-            downward stroke that is in all the printed ampersands, the colour is different, and it is out of line. Still a bit undecided though!-->
         
     </annotation>
 </transcription>
