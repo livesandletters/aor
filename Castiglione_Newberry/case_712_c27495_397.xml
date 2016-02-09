@@ -14,12 +14,12 @@
                     <marginalia_text>
                         Cleopatra.
                     </marginalia_text>
+                    <person name="Cleopatra"/>
                 </position>
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         The Queen.
                     </marginalia_text>
-                    <person name="Cleopatra"/>
                 </position>
             </language>
         </marginalia>
@@ -43,7 +43,7 @@
                 </position>
             </language>
             <translation>
-                Modest &amp; discreet.
+                Modest and discreet.
             </translation>
         </marginalia>
         
@@ -102,12 +102,13 @@
             according to their worthinesse and desertes."/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="left_margin"/> <!-- AB: not sure if these would be better as vertical bars. -->
-        <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="vertical_bar" method="pen" place="left_margin"/> 
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
 
-        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin" language="EN" text="the Courtier, that she maye gyue her iudgement to commend and to make of gentilmen 
+            according to their worthinesse and desertes."/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
@@ -115,7 +116,7 @@
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="the Gentylmans coutesye"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin" language="EN" text="To geue her louer nothing but her minde, whan eyther the hatred of her husband, or the loue that he beareth to others inclineth her to loue"/>
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="nothing but her minde"/>
         
         <mark name="dot" method="pen" place="intext"/> <!-- Courtier, that -->
@@ -127,9 +128,9 @@
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="seene in the most necessarie languages"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="X_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="X_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- beloued, thoughe -->
-        <mark name="plus_sign" method="pen" place="intext"/> <!-- og loue. -->
+        <mark name="plus_sign" method="pen" place="intext"/> <!-- of loue. -->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="shape him that"/>
         <mark name="dot" method="pen" place="intext"/> <!-- answere that -->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="louynge communication of a sober"/>
