@@ -46,7 +46,7 @@
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
-					<marginalia_text> <!--JG: Is there something written in chalk/pencil here? Not sure what it says and whether it's Harvey's (doesn't look like it). Also in printed text (seem to be translations of Italian words). Perhaps we should tag these and user reader attribute-->
+					<marginalia_text>
 						Decet Consiliarium, esse
 						fortiter prudentem: Ducem, esse prudenter forte.
 					</marginalia_text>
@@ -57,6 +57,18 @@
 				prudently powerful.
 			</translation>
 		</marginalia>
+		
+		
+		<marginalia hand="Italian" other_reader="Unknown" anchor_text="star cheto">
+			<language ident="EN">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						quiet
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
+		
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
@@ -67,7 +79,7 @@
 				</position>
 			</language>
 			<translation>
-				A day of things, not to be spent with words. Tacitus. <!-- CG: Not sure where this comes form. --> <!--JG: Me neither. Leave open for now-->
+				A day of things, not to be spent with words. Tacitus. <!-- Unknown reference. -->
 			</translation>
 		</marginalia>
 		<marginalia hand="Italian">
@@ -95,6 +107,26 @@
 			</translation>
 		</marginalia>
 		
+		<marginalia hand="Italian" other_reader="Unknown" anchor_text="non manometteua mai vino">
+			<language ident="EN">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						[t]apped
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
+		<marginalia hand="Italian" other_reader="Unknown" anchor_text="inforzare">
+			<language ident="EN">
+				<position place="intext" book_orientation="0">
+					<marginalia_text>
+						grow sour
+					</marginalia_text>
+				</position>
+			</language>
+		</marginalia>
+		
+				
 		<marginalia hand="Italian">
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
