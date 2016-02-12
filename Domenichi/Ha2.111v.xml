@@ -88,12 +88,12 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Hora argumentetur &agrave; minor ad maius qua[e]q[ue]. <!-- CG: Unclear if 'quaeque' should be at the end. --> <!--JG: I think it should come after 'hora'-->
+						Hora qua[e]q[ue] argumentetur &agrave; minori ad maius.
 					</marginalia_text>
 				</position>
 			</language>
 			<translation>
-				Let the hour reason from lesser to greater. <!-- CG: Unclear. --> <!--JG: 'Let every (quaeque) hour...'. Still doesn't make sense to me-->
+				Every hour let one reason from the lesser to the greater. <!-- CG: Unclear. Need specialist help! -->
 			</translation>
 		</marginalia>
 		
@@ -131,7 +131,6 @@
 					<marginalia_text>
 						Frustr&agrave; fit per plura: Regularum Optima Maxima.
 					</marginalia_text>
-						<!-- CG: This seems to be a scholastic axiom that comes from William of Ockham; unsure how to X-ref. --> <!--JG: Like this (see below). Although this axiom was so well-known that Harvey could have read it in other books, we nevertheless cite the original work-->
 					<X-ref person="William of Ockham" book_title="Summa Logicae" language="LA" text="Frustr&agrave; fit per plura"/>
 				</position>
 			</language>
@@ -167,7 +166,7 @@
 		
 		<symbol name="Sun" place="head"/>
 		
-		<symbol name="SS" place="intext"/>
+		<symbol name="SS" place="intext"/> 
 		
     </annotation>
 </transcription>
