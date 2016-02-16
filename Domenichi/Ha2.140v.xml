@@ -35,7 +35,7 @@
 						magnifica[e] iam Legationes non Sinu[n]t Ergophilu[m]
 						dormire. Vnicus mundi Neopragmaticus.
 					</marginalia_text>
-					<person name="Ergophilus"/> <!-- CG: I'm wondering if this is a new name/character for Harvey or a historical person? -->
+					<person name="Ergophilus"/> <!-- CG: I'm wondering if this is a new name/character for Harvey or a historical person? --> <!--JG: I assume the former (based on Harvey's characterization of Ergophilus)-->
 				</position>
 			</language>
 			<translation>
@@ -52,7 +52,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						Cert&egrave; Arma, virumq[ue] scit: Arma, sophumq[ue] non scit..
+						Cert&egrave; Arma, virumq[ue] scit: Arma, sophumq[ue] non scit.
 					</marginalia_text>
 					<X-ref person="Virgil" book_title="Aeneid" language="LA" text="Arma, virumq[ue]"/>
 				</position>
@@ -91,8 +91,7 @@
 			</translation>
 		</marginalia>
 		
-		
-		<marginalia hand="Italian">
+		<marginalia hand="Italian" marginalia_id="Ha2.140v_0001" marginalia_continues_from="Ha2.141r_0001" book_id="FolgersHa2" marginalia_from_transcription="Ha2.141r.xml">
 			<language ident="LA">
 				<position place="right_margin" book_orientation="270">
 					<marginalia_text>
@@ -111,9 +110,7 @@
 				</position>
 			</language>
 			<translation>
-				<!-- CG: Missing text added. -->
-				
-				with a face: still less hardly bearing a heart; that is, in a foul and wretched manner.
+				face: still less hardly of bearing a heart; that is, in a foul and wretched manner.
 				For those men are vulgar, and many of them are ignoble, foul, and wretched.
 				But He remains ever lively, even while most afflicted by troubles.
 			</translation>
