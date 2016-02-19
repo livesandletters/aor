@@ -87,6 +87,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Exstat Hesiodi, ad persen fratre[m], Oeconomicu[m], et Georgicu[m] opus, inscriptu[m],</marginalia_text>
+                    <person name="Hesiod"/>
                 </position>
             </language>
             <language ident="EL">
@@ -97,7 +98,12 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>quem Virgilius in suo Georgico opere, sibi proposuit imitandu[m]; fusius tamen explicans, quae Ille breuius
-                    esset complexus. Nam cu[m] omnin&ograve; quatuor sint pra[e]cipua rustica opera; Aratio; plantatio, seu insitio, gra[e]c&egrave;</marginalia_text>
+                    esset complexus. { Nam cu[m] omnin&ograve; quatuor sint pra[e]cipua rustica opera; Aratio; plantatio, seu insitio, gra[e]c&egrave;</marginalia_text>
+                    <person name="Virgil"/>
+                    <book title="Georgics"/>
+                    <emphasis method="pen" type="straight" text="omnin&ograve; quatuor"/>
+                    <emphasis method="pen" type="straight" text="Aratio"/>
+                    <emphasis method="pen" type="straight" text="plantatio"/>
                 </position>
             </language>
             <language ident="EL">
@@ -107,8 +113,10 @@
             </language>
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>pastio maioru[m], minorumq[ue] proru[m] { Equoru[m], Bou[m]. Ouiu[m], capraru[m]. et mellificu[m]:
+                    <marginalia_text>pastio maioru[m], minorumq[ue] pecoru[m] { Equoru[m], Bou[m]. Ouiu[m], capraru[m]. et mellificiu[m]:
                     ista singula Virgili&ugrave;s, singulis libris prosequitur satis</marginalia_text>
+                    <emphasis method="pen" type="straight" text="pastio maioru[m]"/>
+                    <emphasis method="pen" type="straight" text="mellificiu[m]"/>
                 </position>
             </language>
             <language ident="EL">
@@ -120,28 +128,39 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Eodemq[ue] fer&egrave; respicit Xenophontis Oeconomicus, quasi singularis Discursus frugi Oeconomoru[m].
                     Horu[m] cu[m] Tussero Collatio, nec inutilis erit Oeconomo, nec iniucunda philosopho.</marginalia_text>
+                    <person name="Xenophon"/>
+                    <person name="Thomas Tusser"/>
+                    <book title="Oeconomicus"/>
+                    <book title="Fiue hundred pointes of good husbandrie"/>
                 </position>
             </language>
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>In corne, &amp; sheppe, cattail, more proffit, lesse pleasure:
                     In frute, &amp; hoony, more pleasure, lesse proffitt. } Al necessary, &amp; commodious in [their] kind.</marginalia_text>
+                    <emphasis method="pen" type="straight" text="sheeps"/>
                 </position>
             </language>
-            <translation>Hesiod stands out to the persian brother, economic, the work of the Georgica, entitled [Greek term], which <!--JG: Unsure about 'exstat Hesiodi' (and the rest of the sentence)-->
-            Virgil, in his work 'Georgica', set forth to imitate himself. Furius nevertheless explained, that he would e</translation> 
+            <translation>Hesiod stands out to the persian brother, economic, the work of the Georgics, entitled [Greek term], which <!--JG: Unsure about 'exstat Hesiodi' (and the rest of the sentence)-->
+                Virgil, in his work 'Georgica', set forth to imitate himself. He nevertheless explained more widely the things he would embrace more shortly.
+                For since altogether, taken before all other things, the 'rural works' consists of four books: ploughing, planting or grafting, in Greek [Greek term],
+                the grazing of the greater and lesser cattle (horses, oxes, sheep, goats) and the making of honey. Virgil pursues these singular things in his singular book enough [Greek term].
+                And in the same place, Xenophon's 'Oeconomicus' looks closely, as if the singular discourse useful for economics.
+                Since the collaction of these things by Tusser, it will be neither unuseful for the economic, nor unpleasant for the philosopher.
+                In corne, &amp; sheppe, cattail, more proffit, lesse pleasure: In frute, &amp; hoony, more pleasure, lesse proffitt. } Al necessary, &amp; commodious in [their] kind.
+            </translation> 
         </marginalia>
         
+        <underline method="pen" type="straight" language="EN" text="the plough"/>
+        <underline method="pen" type="straight" language="EN" text="The gaine not great, the paine ynough"/>
         
+        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="The gaine not great, the paine ynough"/>
         
+        <mark name="dot" method="pen" place="intext"/> <!--taught, -->
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="paine"/>
+        <mark name="dot" method="pen" place="intext"/> <!--among, -->
         
-        
-        
-        
-        
-        
-        
-        
+        <mark name="vertical_bar" method="chalk" place="tail"/>
         
     </annotation>
 </transcription>
