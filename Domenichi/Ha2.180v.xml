@@ -118,8 +118,8 @@
 			<translation>The synopsis of four virtues, and the living idea of actualization; in Martinius' edition of Julian</translation>
 		</marginalia>
 		
-		<underline method="pen" type="straight" language="IT" text="hauere spesi certe danari"/>
-		<underline method="pen" type="straight" language="IT" text="si strangul&ograve;"/>
+		<underline method="pen" type="straight" language="IT" text="hauere spesi certi danari"/>
+		<underline method="pen" type="straight" language="IT" text="si strangol&ograve;"/>
 		<underline method="pen" type="straight" language="IT" text="lasci&ograve; d'impiccarsi"/>
 		<underline method="pen" type="straight" language="IT" text="non spender sei quattrini in vn pezzo"/>
 		<underline method="pen" type="straight" language="IT" text="morte &agrave; miglior"/>
@@ -143,7 +143,9 @@
 		
 		<symbol name="Sun" place="left_margin"/>
 		
-		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Sabbato mille ducati, gli harrebbe tolti, rispos&eacute; Sabbato non &egrave; 
+		<symbol name="SS" place="intext" language="IT" text="Risposta accorta"/> <!-- CG: AB recorded this as a quotation mark, but it looks more like either a straight quote or an SS symbol. What do you think, Jaap? -->
+		
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Sabbato mille ducati, gli harrebbe tolti, rispose: Sabbato non &egrave; 
 			&amp; i danari non ci sono."/>
 		
 		<mark name="dash" method="pen" place="right_margin"/> <!-- Lu -->
@@ -153,7 +155,7 @@
 		<mark name="apostrophe" method="pen" place="intext"/> <!-- medesimo. Dinarco -->
 		<mark name="apostrophe" method="pen" place="intext"/> <!-- mercato. Et -->
 		<mark name="apostrophe" method="pen" place="intext"/> <!-- medesimo. Onde -->
-		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="Risposta accorta, &agrave; domanda impertinente"/>
+
 		
     </annotation>
 </transcription>

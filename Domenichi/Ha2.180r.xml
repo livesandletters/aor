@@ -177,7 +177,7 @@
 		
 		<symbol name="SS" place="right_margin"/> <!-- aut amico -->
 		
-		<symbol name="SS" place="intext" language="IT" text="de'Medici, i malati"/>
+		<symbol name="SS" place="intext" language="IT" text="de' Medici, i malati"/>
 		
 		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Domanda il Genouese qual sia la sua insegna; risponde il Franzese, esser vna 
 			testa di bue: adunque disse il Genouese, non ci bisogna combattere per questo, imper&ograve; che l'arme mia &egrave; vna testa di vacca."/>
@@ -185,15 +185,17 @@
 		
 		<mark name="dash" method="pen" place="right_margin"/> <!-- vsur -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- im -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- dol -->
 		<mark name="dot" method="pen" place="right_margin"/> <!-- contenti -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- conforta -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- rinco -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- Au -->
 		
-		<mark name="plus_sign" method="pen" place="intext" language="IT" text="nostra implicat con la fortuna"/>
-		<mark name="plus_sign" method="pen" place="intext" language="IT" text="data alla virt&ugrave;"/>
-		<mark name="colon" method="pen" place="intext"/> <!-- confortano cosi -->
-		<mark name="vertical_bar" method="pen" place="intext"/> <!-- bottom of page, through 'Tristitia' -->
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="fortuna"/>
+		<mark name="plus_sign" method="pen" place="intext" language="IT" text="virt&ugrave;"/>
+		<mark name="semicolon" method="pen" place="intext"/> <!-- confortano cosi -->
+		
+		<errata language="LA" copytext="Tristitia" amendedtext="Tristtia"/> <!-- CG: Nonsensical emendation. -->
 		
     </annotation>
 </transcription>
