@@ -33,7 +33,7 @@
 			<language ident="LA">
 				<position place="intext" book_orientation="0">
 					<marginalia_text>
-						) Mens diuina, vbiquetaria.
+						) Mens ( diuina, vbiquetaria.
 					</marginalia_text>
 				</position>
 			</language>
@@ -88,13 +88,13 @@
 			<translation>It is of the lazy not to consume all studies and works, which are without necessity. To succumb to useful labor is worthless: to be conquered in beautiful things is foolish.</translation>
 		</marginalia>
 		
-		<underline method="pen" type="straight" language="IT" text="li presentaua vna'bella"/>
+		<underline method="pen" type="straight" language="IT" text="li presentaua vna bella"/>
 		<underline method="pen" type="straight" language="IT" text="lingua Greca"/>
 		<underline method="pen" type="straight" language="IT" text="Cesare ancora"/>
 		<underline method="pen" type="straight" language="IT" text="non glu donaua mai niente"/>
-		<underline method="pen" type="straight" language="IT" text="glu vn'Epigramma, similmente in Grenco da"/>
+		<underline method="pen" type="straight" language="IT" text="glu vn'Epigramma, similmente in Greco da"/>
 		<underline method="pen" type="straight" language="IT" text="Il Greco"/>
-		<underline method="pen" type="straight" language="IT" text="monstrare col volto, con le parole"/>
+		<underline method="pen" type="straight" language="IT" text="mostrare col volto, con le parole"/>
 		<underline method="pen" type="straight" language="IT" text="ella molto gli piacesse"/>
 		<underline method="pen" type="straight" language="IT" text="messe mano alla sua pouera borsa"/>
 		<underline method="pen" type="straight" language="IT" text="dette parecchi soldi"/>
@@ -125,13 +125,17 @@
 		<symbol name="SS" place="intext"/> <!-- alongside marginal note ending 'aeturnum'. Symbol is rotated 90 degrees. -->
 		<symbol name="Mercury" place="intext"/>
 		
+		<mark name="plus_sign" method="pen" place="left_margin"/>
+		<mark name="quotation_mark" method="pen" place="left_margin"/>
+		<mark name="quotation_mark" method="pen" place="left_margin"/>
 		<mark name="bracket" method="pen" place="left_margin"/>
-		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Andriani io vi porto due Iddij, la florza, &amp; la persuasione, prendete hor 
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="Andriani io vi porto due Iddij, la forza, &amp; la persuasione, prendete hor 
 			voi quel che piu vi piace."/>
-		<mark name="bracket" method="pen" place="left_margin" language="IT" text="A cuigli Andriani disposero prontamente; dicendo: &amp; noi Temistocle 
+		<mark name="bracket" method="pen" place="left_margin" language="IT" text="A cui gli Andriani risposero prontamente; dicendo: &amp; noi Temistocle 
 			habbiamo due Idee la pouert&agrave;, &amp; l'impossibilit&agrave;, prendete voi quella ch'&agrave; voi piace."/>
 		
 		<mark name="dash" method="pen" place="right_margin"/> <!-- do -->
+		<mark name="dash" method="pen" place="right_margin"/> <!-- ha -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- pre -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- glise -->
 		<mark name="dash" method="pen" place="right_margin"/> <!-- so -->
@@ -141,9 +145,8 @@
 		<mark name="dot" method="pen" place="intext"/> <!-- mia, che -->
 		<mark name="bracket" method="pen" place="intext"/> <!-- darei. Or -->
 		<mark name="dot" method="pen" place="intext"/> <!-- salmente, lo -->
-		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="Imperadore ridendo piu de gli"/>
+		<mark name="quotation_mark" method="pen" place="intext" language="IT" text="ridendo"/>
 		<mark name="dot" method="pen" place="intext"/> <!-- dot over 'i' on 'mila' -->
-		<mark name="bracket" method="pen" place="intext"/> <!-- Alongside Mercury symbol -->
 		<mark name="dot" method="pen" place="intext"/> <!-- forza, & -->
 		<mark name="dot" method="pen" place="intext"/> <!-- l'impossibilita, prendete -->
 
