@@ -123,29 +123,20 @@
     			<position place="left_margin" book_orientation="90">
     				<marginalia_text>
     					Vulgaris est, qui loquitur, aut exequitur, vt vulgaris.
-    					Extraordinariu[m] viru[m] decet oratio, actioq[ue] extraordinaria: 
+    					Extraordinariu[m] viru[m] decet oratio, actioq[ue] extraordinaria: " 
     				</marginalia_text>
     				<emphasis method="chalk" type="straight"/>
+    			</position>
+    			<position place="tail" book_orientation="90">
+    				<marginalia_text>" singulare[m], vtraq[ue] singularis. </marginalia_text>
     			</position>
     		</language>
     		<translation>
     			Commonplace is he who speaks or performs as a commoner.
-    			It is fitting that the speech and action of extraordinary men be extraordinary.
+    			It is fitting that the speech and action of extraordinary men be extraordinary: [and] each singular things is singular. <!--JG: Unsure, Chris please check.-->
     		</translation>
     	</marginalia>
-    	<marginalia hand="Italian">
-    		<language ident="LA">
-    			<position place="tail" book_orientation="90">
-    				<marginalia_text>
-    					singulare[m], vtraq[ue] singularis. 
-    				</marginalia_text>
-    				<emphasis method="pen" type="straight"/>
-    			</position>
-    		</language>
-    		<translation>
-    			<!-- I'm really unsure the best way to translate this, perhaps we should ask Lisa? --> <!--JG: I'll ask her, this is too abstract for me as well-->
-    		</translation>
-    	</marginalia>
+    	
     	<marginalia hand="Italian">
     		<language ident="LA">
     			<position place="right_margin" book_orientation="270">
@@ -156,7 +147,7 @@
     			</position>
     		</language>
     		<translation>
-    			I prefer the wise dwarf to the [?] giant:	<!-- I'm not entirely sure about "cacotam," though I think I transcribed it correctly." --> <!--JG: I seems to be related to the word cacus, but I really can find anything about cacotam, and I think your transcription is correct. I'll ask Lisa as well!-->
+    			I prefer the wise dwarf to the [?] giant:	<!-- I'm not entirely sure about "cacotam," though I think I transcribed it correctly." --> <!--JG: I seems to be related to the word cacus, but I really can find anything about cacotam, and I think your transcription is correct. I'll ask a specialist-->
     			and I have greater esteem for the iron horse than the golden ass.
     		</translation>
     	</marginalia>
@@ -235,9 +226,7 @@
     	<mark name="plus_sign" method="pen" place="intext" language="IT" text="secreta"/> 
     	<mark name="quotation_mark" method="pen" place="intext"/> <!-- cosa.] -->
     	
-    	<mark name="quotation_mark" method="pen" place="tail" language="LA" text="singulare[m]"/>
-    	
-    	
+    	<mark name="vertical_bar" method="pen" place="tail"/> <!--beneath marginal note 'singularis'-->
  
     </annotation>
 </transcription>
