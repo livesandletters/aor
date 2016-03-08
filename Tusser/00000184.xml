@@ -39,7 +39,7 @@
         <underline method="pen" type="straight" language="EN" text="Dairie. 70"/>
         <underline method="pen" type="straight" language="EN" text="Washing"/>
         <underline method="pen" type="straight" language="EN" text="Malting"/>
-        <underline method="pen" type="straight" language="EN" text="time bulfwiferie"/> <!--JG: Should be 'huswiferie' instead of 'bulwiferie'-->
+        <underline method="pen" type="straight" language="EN" text="time huswiferie"/>
         <underline method="pen" type="straight" language="EN" text="afternoone workes"/>
         <underline method="pen" type="straight" language="EN" text="Huswiferie Evening"/>
         <underline method="pen" type="straight" language="EN" text="Supper time huswiferie"/>
@@ -62,7 +62,7 @@
         <symbol name="SS" place="left_margin" language="EN" text="Instructions to huswiferie"/>
         <symbol name="SS" place="intext" language="EN" text="The times to rise in winter and sommer. 74.b."/>
         <symbol name="Asterisk" place="intext" language="EN" text="seruantes"/> <!--JG: This is not an asterisk. I think you've already tagged it as a plus sign below-->
-        
+        <!-- KS: The plus sign tagged below is the one after 78.a. and b., but there is either an asterisk or another plus sign right after seruantes I think. -->
         <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="Huswiferie morning workes."/>
         <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="Huswiferie breakefast workes."/>
         <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="Huswiferie admonitions or lessons."/>
@@ -82,9 +82,10 @@
         <mark name="bracket" method="pen" place="intext" language="EN" text="a.and.b. Supper time huswiferie. 73.b.74.a. After Supper workes of Huswiferie. 74.a.and b. Of bedtime in winter and sommer. 74.b. The times to rise in winter and sommer. 74.b. Of bearing and forbearing. 74.b."/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="Of bearing and forbearing. 74.b."/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="The good huswifelie physicke. 75.b."/>
-        <mark name="plus_sign" method="pen" place="intext" language="EN" text="Certaine table lessons. 78.a."/> <!--JG: I think you missed the plus sign standing in front of 'huswiferie and bad...'-->
-        <mark name="plus_sign" method="pen" place="intext" language="EN" text="Lessons for waiting servantes. 78.a. and b."/>
-        <!-- JG: I think the bracket starting at 'The Inholder posie' is missing -->
+        <mark name="bracket" method="pen" place="intext" language="EN" text="The Inholder posie. 77.b. Certaine table lessons. 78.a. Lessons for waiting seruantes. 78a. and b. Husbandly posies for [the] hal. 78.b Posies"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="huswiferie and bad. 76.a. &amp; b."/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="Certaine table lessons. 78.a."/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="Lessons for waiting seruantes. 78.a. and b."/>
         
     </annotation>
 </transcription>
