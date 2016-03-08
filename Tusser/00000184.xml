@@ -13,7 +13,8 @@
                 <position place="head" book_orientation="0">
                     <marginalia_text>Cose del mondo.</marginalia_text>                  
                 </position>             
-            </language>           
+            </language>
+            <translation>Matters of the world.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -27,22 +28,22 @@
     
         <underline method="pen" type="straight" language="EN" text="Huswiferie"/>
         <underline method="pen" type="straight" language="EN" text="praise of huswiferie"/>
-        <underline method="pen" type="straight" language="EN" text="description of huswife and huswiferie"/>
-        <underline method="pen" type="straight" language="EN" text="Instructions to bulwiferie"/>
+        <underline method="pen" type="straight" language="EN" text="description of huswife and"/>
+        <underline method="pen" type="straight" language="EN" text="Instructions to huswiferie"/>
         <underline method="pen" type="straight" language="EN" text="Huswiferie morning workes"/>
         <underline method="pen" type="straight" language="EN" text="breakefast workes"/>
-        <underline method="pen" type="straight" language="EN" text="huswiferie admonitions"/>
+        <underline method="pen" type="straight" language="EN" text="huswifelie admonitions"/>
         <underline method="pen" type="straight" language="EN" text="Brewing"/>
         <underline method="pen" type="straight" language="EN" text="Baking"/>
         <underline method="pen" type="straight" language="EN" text="Cookerie"/>
-        <underline method="pen" type="straight" language="EN" text="Dairie"/>
+        <underline method="pen" type="straight" language="EN" text="Dairie. 70"/>
         <underline method="pen" type="straight" language="EN" text="Washing"/>
         <underline method="pen" type="straight" language="EN" text="Malting"/>
-        <underline method="pen" type="straight" language="EN" text="time bulfwiferie"/>
+        <underline method="pen" type="straight" language="EN" text="time bulfwiferie"/> <!--JG: Should be 'huswiferie' instead of 'bulwiferie'-->
         <underline method="pen" type="straight" language="EN" text="afternoone workes"/>
         <underline method="pen" type="straight" language="EN" text="Huswiferie Evening"/>
         <underline method="pen" type="straight" language="EN" text="Supper time huswiferie"/>
-        <underline method="pen" type="straight" language="EN" text="Of bedtime in winter"/>
+        <underline method="pen" type="straight" language="EN" text="Of bedtime in"/>
         <underline method="pen" type="straight" language="EN" text="times to rise in winter"/>
         <underline method="pen" type="straight" language="EN" text="bearing"/>
         <underline method="pen" type="straight" language="EN" text="forbearing. 74.b."/>
@@ -55,12 +56,12 @@
         <underline method="pen" type="straight" language="EN" text="fourteene, to fourescore"/>
         <underline method="pen" type="straight" language="EN" text="Inholders posie"/>
         <underline method="pen" type="straight" language="EN" text="table lessons"/>
-        <underline method="pen" type="straight" language="EN" text="posies for"/>
+        <underline method="pen" type="straight" language="EN" text="posies for [the]"/>
         
         <symbol name="SS" place="left_margin" language="EN" text="praise of huswiferie"/>
         <symbol name="SS" place="left_margin" language="EN" text="Instructions to huswiferie"/>
         <symbol name="SS" place="intext" language="EN" text="The times to rise in winter and sommer. 74.b."/>
-        <symbol name="Asterisk" place="intext" language="EN" text="seruantes"/>
+        <symbol name="Asterisk" place="intext" language="EN" text="seruantes"/> <!--JG: This is not an asterisk. I think you've already tagged it as a plus sign below-->
         
         <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="Huswiferie morning workes."/>
         <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="Huswiferie breakefast workes."/>
@@ -77,10 +78,14 @@
         <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="Huswiferie Evening works."/>
         <mark name="bracket" method="pen" place="left_margin" language="EN" text="Huswiferie morning workes. 68.b.69.a. Huswiferie breakefast workes. 69.a. Huswiferie admonitions or lessons. 69.a. and b. Brewing. 70.a. and b. Baking. 70.b. Cookierie. 70.b. Dairie. 70.b.71.a. Scowring. 71.a. Washing. 71.a. and b. Malting. 71.b. Dinner time huswiferie. 71.b. 72.a and b. Huswiferie afternoone workes. 72.b.73.a. Huswiferie Evening works.73."/>
         
-        <mark name="plus_sign" method="pen" place="intext" language="EN" text="A description of huswife and huswiferie. 66.b67.a."/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="A description of huswife and huswiferie. 66.b.67.a."/>
         <mark name="bracket" method="pen" place="intext" language="EN" text="a.and.b. Supper time huswiferie. 73.b.74.a. After Supper workes of Huswiferie. 74.a.and b. Of bedtime in winter and sommer. 74.b. The times to rise in winter and sommer. 74.b. Of bearing and forbearing. 74.b."/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="Of bearing and forbearing. 74.b."/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="The good huswifelie physicke. 75.b."/>
-        <mark name="plus_sign" method="pen" place="intext" language="EN" text="Certaine table lessons. 78.a."/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="Certaine table lessons. 78.a."/> <!--JG: I think you missed the plus sign standing in front of 'huswiferie and bad...'-->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="Lessons for waiting servantes. 78.a. and b."/>
+        <!-- JG: I think the bracket starting at 'The Inholder posie' is missing -->
+        
+    </annotation>
+</transcription>
         
