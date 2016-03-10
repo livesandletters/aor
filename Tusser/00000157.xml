@@ -9,7 +9,7 @@
     <annotation>
         
         <underline method="pen" type="straight" language="EN" text="nurserie"/>
-        <underline method="pen" type="straight" language="EN" text="their owne brest"/>
+        <underline method="pen" type="straight" language="EN" text="their owne brest, their"/>
         <underline method="pen" type="straight" language="EN" text="wrauling and rocking, be"/>
         <underline method="pen" type="straight" language="EN" text="let huswife be nurse"/>
         <underline method="pen" type="straight" language="EN" text="hilback and filbellie,"/>
@@ -25,7 +25,7 @@
         <underline method="pen" type="straight" language="EN" text="for prentise, for plough, nor for schooles"/>
         <underline method="pen" type="straight" language="EN" text="betweene good"/>
         <underline method="pen" type="straight" language="EN" text="huswiferie"/>
-        <underline method="pen" type="straight" language="EN" text="euill"/>
+        <underline method="pen" type="straight" language="EN" text="and euill"/>
         <underline method="pen" type="straight" language="EN" text="till nine"/>
         <underline method="pen" type="straight" language="EN" text="rise with the cock"/>
         <underline method="pen" type="straight" language="EN" text="huswiferie tooteth"/>
@@ -33,7 +33,7 @@
         
         <symbol name="Opposite_planets" place="right_margin"/>
         
-       <mark name="plus_sign" method="pen" place="head" language="EN" text="nurserie"/>
+        <mark name="plus_sign" method="pen" place="head" language="EN" text="nurserie"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
@@ -44,9 +44,9 @@
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="that children were better, vnborne than vntaught."/>
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="fit neither for prentise, for plough, nor for schooles."/>
         
-        <mark name="dot" method="pen" place="intext" language="EN" text="fitly, giue"/>
-        <mark name="dot" method="pen" place="intext" language="EN" text="big, giue"/>
-        <mark name="dot" method="pen" place="intext" language="EN" text="youth, and"/>
+        <mark name="dot" method="pen" place="intext" language="EN" text="fitly, giue"/> <!--JG: with dots and other punctuation marks, we don't capture the printed text in a text attribute, but in a comment field-->
+        <mark name="dot" method="pen" place="intext" language="EN" text="big, giue"/> <!--JG: Idem -->
+        <mark name="dot" method="pen" place="intext" language="EN" text="youth, and"/> <!--JG: Idem-->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="cockneies"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="to rise with the cock."/>
         
