@@ -17,7 +17,7 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian"> <!--JG: I'd tag it to the printed text ('doth....must')-->
+        <marginalia hand="Italian" anchor_text="Doth cause good sp&eacute;ede, confesse of force we must.">
             <language ident="ES">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>poco, y bueno.</marginalia_text>
@@ -30,7 +30,7 @@
         <underline method="pen" type="straight" language="EN" text="in Musiek"/>
         <underline method="pen" type="straight" language="EN" text="nature first,"/>
         <underline method="pen" type="straight" language="LA" text="Grossum caput, is"/>
-        <underline method="pen" type="straight" language="EN" text="learned Mules, l&eacute;ene"/> <!--JG: Should be 'Muses', watch out with the 's' and the 'l'!-->
+        <underline method="pen" type="straight" language="EN" text="learned Muses, l&eacute;ene"/>
         <underline method="pen" type="straight" language="EN" text="homelie breaker, mar fine ambling ball."/>
         <underline method="pen" type="straight" language="EN" text="rod in mad"/>
         <underline method="pen" type="straight" language="EN" text="gentle skill, doth make the proper"/>
@@ -38,8 +38,7 @@
         <underline method="pen" type="straight" language="EN" text="quickly well, for"/>
         <underline method="pen" type="straight" language="EN" text="Mistaught at first"/>
         <underline method="pen" type="straight" language="EN" text="taught"/>
-        <underline method="pen" type="straight" language="EN" text="God, how shortly doth ercell"/> <!--JG: Should be 'excell', notice the difference beteween the 'r' and the 'x' (the latter has a small extension at the bottom of the letter, a line gently bending to the left-->
-        <underline method="pen" type="straight" language="EN" text="Although as ships, must tarrie winde"/>
+        <underline method="pen" type="straight" language="EN" text="God, how shortly doth excell"/> 
         <underline method="pen" type="straight" language="EN" text="perfect howers, abide their"/>
         <underline method="pen" type="straight" language="EN" text="easie steps, and perfect way to trust,"/>
         <underline method="pen" type="straight" language="EN" text="cause good sp&eacute;ede, confesse of force"/>
@@ -55,8 +54,8 @@
         
         <mark name="plus_sign" method="pen" place="head" language="EN" text="come by learning"/>
         
-        <mark name="bracket" method="pen" place="left_margin"/> <!--JG: Can be linked to the printed text-->
-        <mark name="bracket" method="pen" place="left_margin"/> <!--JG: Idem-->
+        <mark name="bracket" method="pen" place="left_margin" language="EN" text="Yet easie steps, and perfect way to trust, Doth cause good sp&eacute;ede, confesse of force we must."/>
+        <mark name="bracket" method="pen" place="left_margin" language="EN" text="Apt learning childe; apt time that thing to frame: Apt cunning man to teach, else all is naught;"/>
         
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="homelie breaker, mar fine ambling ball."/>
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="homelie breaker, mar fine ambling ball."/>
