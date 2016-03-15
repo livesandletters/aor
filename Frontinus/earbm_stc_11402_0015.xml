@@ -48,7 +48,7 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0">
+                <position place="right_margin" book_orientation="270">
                     <marginalia_text>Est Deus in nobis: agitante calescimus illo. Languent homines, suoru[m] animorum impotes.</marginalia_text>
                     <X-ref person="Ovid" book_title="Ars amatoria" language="LA" text="Est Deus in nobis: agitante calescimus illo"/>
                 </position>
@@ -60,13 +60,14 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Vis consilij expers, mole ruit sua. Leo sine vulpe insolescit: vulpes sine leone vilescit. Nusq[ua]m Ciphra.</marginalia_text> <!--JG: Seems to me that Harvey quoted 'leo...vilescit' as well. Can't find it, though-->
+                    <!--KS: Could it be in reference to Aesop's fable of the lion and the fox? Can't find an exact quote, however.-->
                     <X-ref person="Horace" book_title="Odes" language="LA" text="Vis consilij expers, mole ruit sua"/>
                 </position>
             </language>
             <translation>"Force without wisdom falls of its own weight." The Lion becomes haughty without the fox; the fox becomes worthless without the lion. Nowhere a cipher.</translation> <!--JG: Last part is somewhat perplexing?-->
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>( Traynes, wyles.</marginalia_text>
@@ -77,20 +78,20 @@
         <underline method="pen" type="straight" language="EN" text="Ulisses"/>
         <underline method="pen" type="straight" language="EN" text="time"/>
         <underline method="pen" type="straight" language="EN" text="place"/>
-        <underline method="pen" type="straight" language="EN" text="Strenght"/>
-        <underline method="pen" type="straight" language="EN" text="Policie prouydeth, that they"/>
+        <underline method="pen" type="straight" language="EN" text="Strength"/>
+        <underline method="pen" type="straight" language="EN" text="Policie prouydeth, that the"/>
         <underline method="pen" type="straight" language="EN" text="strokes in"/>
         <underline method="pen" type="straight" language="EN" text="ryghte place"/>
         <underline method="pen" type="straight" language="EN" text="tyme"/>
         <underline method="pen" type="straight" language="EN" text="Many mo fieldes"/>
         <underline method="pen" type="straight" language="EN" text="polycie"/>
-        <underline method="pen" type="straight" language="EN" text="strenght"/>
+        <underline method="pen" type="straight" language="EN" text="strength"/>
         <underline method="pen" type="straight" language="EN" text="townes wonne"/>
         <underline method="pen" type="straight" language="EN" text="by sleightes, whyche"/>
         <underline method="pen" type="straight" language="EN" text="martiall feates"/>
         <underline method="pen" type="straight" language="EN" text="and strength of bodye"/>
         <underline method="pen" type="straight" language="EN" text="anymated with wytte and polycie"/>
-        <underline method="pen" type="straight" language="EN" text="Strategemes, sleightes, &amp; craftes, vsed by the nobles capytaynes"/>
+        <underline method="pen" type="straight" language="EN" text="Strategemes, sleightes, &amp; craftes, vsed by the noblest capytaynes"/>
         <underline method="pen" type="straight" language="EN" text="hystories treate of"/>
         <underline method="pen" type="straight" language="EN" text="capitaynes shall"/>
         <underline method="pen" type="straight" language="EN" text="imagination, inuention"/>
@@ -109,9 +110,9 @@
         
         <mark name="plus_sign" method="pen" place="tail" language="EN" text="escape al trappes, gynnes"/>
         
-        <mark name="vertical_bar" method="pen" place="intext"/> <!--force Wherfore-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--force. Wherfore-->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="imagination"/>
-        <mark name="plus_sign" method="pen" place="intext" language="EN" text="invention"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="inuention"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="dexteritie"/>
         
     </annotation>
