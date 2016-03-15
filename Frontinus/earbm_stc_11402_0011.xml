@@ -11,7 +11,7 @@
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>The most famous Enginers of this day, In Millan, &amp; in Noriberg. Millan lernid of Cardan, or perhaps
+                    <marginalia_text>The most famous Enginers at this day, In Millan, &amp; in Noriberg. Millan lernid of Cardan, or perhaps
                     Bombarders, Canoners, harnes, swords, targets, [etc.]</marginalia_text>
                     <person name="Girolamo Cardano"/>
                     <location name="Milan"/>
@@ -23,7 +23,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="90">
-                    <marginalia_text>Noua Italoru[m], et Hisparnoum Stratagemata, adiuncta Frontino; mera Imitatio, Frontini, et Polya[e]ni.</marginalia_text>
+                    <marginalia_text>Noua Italoru[m], et Hisparnoum Strategemata, adiuncta Frontino; mera Imitatio, Frontini, et Polya[e]ni.</marginalia_text>
                     <person name="Frontinus"/>
                     <person name="Polyaenus"/>
                 </position>
@@ -43,16 +43,15 @@
         <marginalia hand="English_secretary" anchor_text="Loue hath no leaden heles">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Looue is not leaden heelid[.]</marginalia_text> <!--JG: Unsure, another letter after 'heelid'?-->
+                    <marginalia_text>Looue is not leaden heelid[.]</marginalia_text>
                 </position>
             </language>
-            <translation>Knowingly.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="90">
-                    <marginalia_text>In Frontino, plus Romanoru[m] Strategematu[m]; in Polya[e]no, plus Graecoru[m], et Barbarorum.
+                    <marginalia_text>In Frontino, plus Romanoru[m] Strategematu[m]; in Polya[e]no, plus Gra[e]coru[m], et Barbarorum.
                     Frontino sola fere polemica: Polya[e]no, etia[m] techna[e] Oeconomica[e], Politica[e], Tyrannica[e].
                     Pauca[e] in vtroq[ue] mechanica[e].</marginalia_text> 
                     <person name="Frontinus"/>
@@ -70,11 +69,11 @@
                     <marginalia_text>Tria, aut quatuor propria, et inaudita Strategemata; digna sexcentis scriptis, et vsitatis. 
                         Politicu[m], et polymechanicum Ingeniu[m], miras Inuentiones excogitat.</marginalia_text>
                 </position>
-                <position place="tail" book_orientation="0">
+                <position place="tail" book_orientation="270">
                     <marginalia_text>Inopinata, et incredibilia valet plurimu[m].</marginalia_text>
                 </position>
             </language>
-            <translation>Three or four particular and novel strategies; worthy of 600 texts and common usage. <!--JG: Unsure abt best translation of usitatis-->
+            <translation>Three or four particular and novel strategies; worthy of 600 texts and common usage.
           Political and polymechanic devices come up with wonderful inventions. The unforeseen and the extraordinary is worth much.
             </translation> 
         </marginalia>
@@ -109,11 +108,12 @@
         <underline method="pen" type="straight" language="EN" text="that fond loue hath wynges"/>
         <underline method="pen" type="straight" language="EN" text="and seldome abydeth longe"/>
         <underline method="pen" type="straight" language="EN" text="a place"/>
-        <underline method="pen" type="straight" language="EN" text="beynge hyther and theyther ledde by folye, and phansy"/>
-        <underline method="pen" type="straight" language="EN" text="discrete loue hath his wynges and flyeth fast"/>
+        <underline method="pen" type="straight" language="EN" text="beynge hyther and thyther ledde by folye, and phansy"/>
+        <underline method="pen" type="straight" language="EN" text="discrete loue hath his wynges and"/>
+        <underline method="pen" type="straight" language="EN" text="flyeth fast"/>
         <underline method="pen" type="straight" language="EN" text="no leaden heles"/>
         <underline method="pen" type="straight" language="EN" text="labour light"/>
-        <underline method="pen" type="straight" language="EN" text="where loue hyreth the workman"/>
+        <underline method="pen" type="straight" language="EN" text="where loue hyreth the workeman"/>
         <underline method="pen" type="straight" language="EN" text="fethers of his wynges are so softe, that"/>
         <underline method="pen" type="straight" language="EN" text="betwene our shulders"/>
         <underline method="pen" type="straight" language="EN" text="burdeyn"/>
@@ -131,7 +131,7 @@
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="labour light"/>
         
         <mark name="dot" method="pen" place="intext"/> <!--castelles, with-->
-        <mark name="dot" method="pen" place="intext"/> <!--fortresses-->
+        <mark name="dot" method="pen" place="intext"/> <!--fortresses, for-->
         <mark name="dot" method="pen" place="intext"/> <!--trauayle, Can-->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="discrete loue hath his wynges"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="and flyeth fast"/>
