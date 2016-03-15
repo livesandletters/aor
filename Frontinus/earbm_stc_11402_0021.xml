@@ -11,10 +11,11 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>In mediocriter, imperfecteq[ue] excellentibus, Minuit pra[e]sentia famam: vt nuper in Sordello, et Piuinino:
+                    <marginalia_text>In mediocriter, imperfecteq[ue] excellentibus, Minuit pra[e]sentia famam: vt nuper in Sordello, et Piccinino:
                     (pra[e]sertim cum magna Virtus non cerneretur, sed parua persona): In perfect&egrave; autem, potenterq[ue] Excellentibus,
                    </marginalia_text>
                     <person name="Sordello"/>
+                    <person name="Niccolas Piccininus"/>
                     <emphasis method="chalk" type="straight"/>
                 </position>
                 <position place="left_margin" book_orientation="0">
@@ -28,7 +29,7 @@
                     <person name="Solomon"/>
                 </position>
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Scipione; cu[m] a pergrinis,</marginalia_text>
+                    <marginalia_text>Scipione; cu[m] a peregrinis,</marginalia_text>
                     <person name="Scipio Africanus"/>
                 </position>
                 <position place="left_margin" book_orientation="0">
@@ -39,7 +40,7 @@
                 </position>
             </language>
             <translation>In excellent things, presence lessens reputation moderately and incompletely: 
-                as recently in Sordello and Piuinino (especially when a great virtue is not distinguished, but an unimportant person [is]). <!--JG: Unsure about Piuinino. Could this be Niccolo Piccinino?-->
+                as recently in Sordello and Niccolas Piccininus (especially when a great virtue is not distinguished, but an unimportant person [is]). 
             But in excellent things, presence surpasses reputation completely and powerfully: as once  in Salomon and in Scipio. Since therefore, they are watched over by 
             strangers of honour.</translation> 
         </marginalia>
@@ -83,7 +84,7 @@
                     <marginalia_text>In proprijs homines Symphatijs, et Antipathijs facil&egrave; capiuntur.</marginalia_text>
                 </position>
             </language>
-            <translation>Men are easily captured in their own symphaties and antipathies.</translation>
+            <translation>Men are easily captured in their own sympathies and antipathies.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -104,16 +105,16 @@
         <underline method="pen" type="straight" language="EN" text="enmies to treason"/>
         <underline method="pen" type="straight" language="EN" text="tournyng the course"/>
         <underline method="pen" type="straight" language="EN" text="of ryuers"/>
-        <underline method="pen" type="straight" language="EN" text="breake out one that"/>
+        <underline method="pen" type="straight" language="EN" text="breake oute on that"/>
         <underline method="pen" type="straight" language="EN" text="are not loked for"/>
         <underline method="pen" type="straight" language="EN" text="safegarde of the beseged, what diligent"/>
         
-        <mark name="horizontal_bar" method="pen" place="left_margin"/>
+        <mark name="horizontal_bar" method="pen" place="left_margin"/> <!--curved-->
         
-        <mark name="horizontal_bar" method="pen" place="intext"/>
+        <mark name="horizontal_bar" method="pen" place="intext"/> <!--curved-->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="sodeyne assaute"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="are not loked for"/>
-        <mark name="horizontal_bar" method="pen" place="intext"/>
+        <mark name="horizontal_bar" method="pen" place="intext"/> <!--curved-->
         
         <mark name="plus_sign" method="pen" place="tail" language="LA" text="Amoris vi&acirc; semper procedendu[m] alacriter: summa Audatia, et Industria. Solus fo[e]liciss[imi]s Cursus."/>
         
