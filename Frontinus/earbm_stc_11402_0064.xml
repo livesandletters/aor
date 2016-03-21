@@ -55,18 +55,19 @@
             <translation>A clever trick overcomes large forces.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Sertorius">
+        <marginalia hand="English_secretary" anchor_text="Sertorius">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sertorius two Horses, on fatt, th'other leane.</marginalia_text>
                     <person name="Quintus Sertorius"/>
+                    <emphasis method="pen" type="straight" text="Sertorius"/>
                     <emphasis method="pen" type="straight" text="two Horses"/>
                     <emphasis method="pen" type="straight" text="on fatt"/>
                 </position>
             </language>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Com. Purl. L.I. obser. 83. </marginalia_text>
@@ -90,7 +91,7 @@
                     <X-ref person="Ovid" book_title="Remedia Amoris" text="Difficiles aditus, impetus omnis habet" language="LA"/>
                 </position>
             </language>
-            <translation>'All of us find approaching its onrush difficult [trans. Kline, 2001]:' except when unexpected.</translation> <!--JG: Unsure abt translation-->
+            <translation>'All of us find approaching its onrush difficult [trans. Kline, 2001]:' except when unexpected.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -142,6 +143,8 @@
         <underline method="pen" type="straight" language="EN" text="Romaynes army"/>
         <underline method="pen" type="straight" language="EN" text="all together"/>
         <underline method="pen" type="straight" language="EN" text="shall fynde them"/>
+        
+        <symbol name="SS" place="head"/>
         
         <symbol name="JC" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
