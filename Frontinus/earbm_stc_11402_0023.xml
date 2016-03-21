@@ -8,34 +8,51 @@
     <page filename="earbm_stc_11402_0023.tif" reader="Harvey"  pagination="flyleaf"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>Aristomenes.
                     Pliny. L.ii.c.37. writeth that Aristomenes, by his suttle Stratagemes, and warlike shiftes (being alance) <!--JG: Unsure about this word-->
                         did putt to flighte whole bandes of men. An argume[n]t as wel of his craftines, and suttelty, as of his excelle[n]s, and wonderfull fortitude.
-                        Jonathas. Alexander.
-                        After he had slaine CCC. Lancedemonians, he was by the once, or twise taken captiue, and cast into pryson, but escapid [their] hands by creeping owte at A litle narrowe hoale in [the]
-                        prison; as Foxes and Wesels doe.
+                    </marginalia_text>
+                    <person name="Aristomenes"/>
+                    <person name="Pliny the Elder"/>
+                    <book title="Natural History"/>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>Jonathas. Alexander.</marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">            
+            <language ident="EN">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>
+                        After he had slaine CCC. Lacedemonians, he was by the once, or twise taken captiue, and cast into pryson, but escapid [their] hands by creeping owte at A litle narrowe hoale in [the]
+                        prison; as Foxes, and Wesels doe.
                         Being agayne taken he espied conuenient tyme, whe[n] his keepers, and Jaylers were well whitled w[i]th wine, and fast lulled; and then crawlid and rowlid himself to [the]
                         fier; and there burning asunder [the] Cordes, and Gyuer,
-                        wherewith he was tyed, (togyther w[i]th part of his body,
+                        wherewith he was tyed, (togyther w[i]th [the] part of his body,
                         where they were fastenid) escapid agayne.
-                        Being takin [the] third tyme, [the] Lacedemonians his Enemyes, meaning to make suer <!--JG: Unsure abt this word--> work with him, and desiring to see what
+                        Being takin [the] third tyme, [the] Lacedemonians his Enemyes, meaning to make suer work with him, and desiring to see what
                         was within him, ripped his brest, and fownd his Harte to be overgrowne with heare. Leuin[u]s Lemnius L.1. de [E[.]ples <!--JG: Unsure abt this word-->
                         Alciate in his Emblemes, under [the] name of Aristomenes,
                         commendith Charles [the] fifte.
                     </marginalia_text>
-                    <person name="Aristomenes"/>
-                    <person name="Pliny the Elder"/>
-                    <person name="Levinus Lemnius"/>
-                    <person name="Andrea Alciati"/>
-                    <person name="Charles V"/>
-                    <book title="Natural History"/>
-                    <book title="De habitu et constitutione corporis"/> <!--JG: Chapter VII-->
-                    <book title="Emblemata"/>
-                    <emphasis method="pen" type="straight" text="Aristomenes"/>
-                    <emphasis method="pen" type="straight" text="Alciate in his Emblemes, under [the] name of Aristomenes, commendith Charles [the] fifte."/>
+                        <person name="Levinus Lemnius"/>
+                        <person name="Andrea Alciati"/>
+                        <person name="Aristomenes"/>
+                        <person name="Charles V"/>
+                        <book title="De habitu et constitutione corporis"/> <!--JG: Chapter VII-->
+                        <book title="Emblemata"/>
+                        <emphasis method="pen" type="straight" text="Aristomenes"/>
+                        <emphasis method="pen" type="straight" text="Alciate in his Emblemes, under [the] name of Aristomenes, commendith Charles [the] fifte."/>
                 </position>
             </language>
         </marginalia>
@@ -54,8 +71,9 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="full_page" book_orientation="270">
-                    <marginalia_text>Adrianus Papa dixebat: Curia Dominorum, est Probatoria Meritorum. <!--JG: Don't know which pope Adrian. Possibly Adrian VI?-->
+                    <marginalia_text>Adrianus Papa dixebat: Curia Dominorum, est Probatoria Meritorum.
                    </marginalia_text>
+                    <person name="Pope Adrian VI"/>
                     <emphasis method="pen" type="straight" text="Curia Dominorum"/>
                     <emphasis method="pen" type="straight" text="Probatoria Meritorum"/>
                 </position>
@@ -80,12 +98,12 @@
                 </position>
             </language>
             <translation>Pope Adrian said: 'The court of lords, is the one who approves of merits.' <!--JG: Not sure whether curia here is meant as 'court/curia', or in its other meaning (grievous)-->
-            "By their fruits you will know them." No lifetime of the world is so empirical, pragmatic, cosmopolitan, mechanic, and changeable. </translation> <!--JG: Unsure abt best way to translate 'Chrematistica'-->
+            "By their fruits you will know them." No lifetime of the world is so empirical, pragmatic, cosmopolitan, mechanic, and changeable. </translation> <!--JG: Unsure abt best way to translate 'Chrematistica'--> <!--KS: I would opt for 'rewarding' or 'enriching'-->
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="right_margin" book_orientation="90">
+                <position place="right_margin" book_orientation="270">
                     <marginalia_text>Par&ugrave;m sepulta[e] distat Inertia[e] Celata Virtus.
                     Quid boni, ex Thesauro abscondito?
                     Docosophia, et Euschemosyne.
@@ -133,7 +151,7 @@
                     
                     Euripidis.
                     
-                    Nullo in numero erit uir timidus in pra[e]lio, sed ille, qua[m]uis adsit, abest tame[n]. <!--quoted from Zwinger, book 2, p. 902.-->
+                    Nullo in numero erit uir timidus in pra[e]lio, Sed ille, qua[m]uis adsit, abest tame[n]. <!--quoted from Zwinger, book 2, p. 902.-->
                     
                     Moschionis.
                     
@@ -142,7 +160,7 @@
                     &Egrave; gra[e]co incerti Auctoris. recita[n]t[u]r &agrave; Luciano &egrave; Tragoedia.
                     
                     Indigna res est, Muscam in homines impetu Irruere strenuo,
-                    cruore ut turgeat; Timere tela hostilia armatos viros. <!--quoted from Zwinger, book 2, p. 902-->
+                    cruore ut turgeat; Tjmere tela hostilia armatos viros. <!--quoted from Zwinger, book 2, p. 902-->
                         
                     </marginalia_text>
                     <X-ref person="Theodor Zwinger" book_title="Morum philosophia poetica" language="LA" text="Fugat Aquila una, maximum gregem Alitum; virque generosus plurimos instrenuos. "/> <!--vol. 2: https://books.google.co.uk/books?id=Uh48AAAAcAAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false-->
@@ -180,21 +198,20 @@
                     <X-ref person="Theodor Zwinger" book_title="Morum philosophia poetica" language="LA" text="Indigna res est, Muscam in homines impetu Irruere strenuo, cruore ut turgeat; Timere tela hostilia armatos viros"/>                
                     <emphasis method="pen" type="straight" text="Audacia nullum"/>
                     <emphasis method="pen" type="straight" text="maius"/>
-                    <emphasis method="pen" type="straight" text="est ea causa malis"/>
                 </position>
             </language>
             <translation>I. Sophocles. 
-            But he who bodly endures danger, neither language nor mind is in the habit to waver him. 
+            But he who boldly endures danger, neither language nor mind is in the habit to waver him. 
             
             Menander.
             
-            By no means any godess is more illustrious than courage.
+            By no means any goddess is more illustrious than courage.
             
             Euripides. 
             
             Can he, who is a coward, ever desire the greatest matters? <!--JG: Deel nog vertalen. Wachten op imput Chris--> <!-- CG: Perhaps 'approach' instead of 'desire'? -->
             
-            Sofitheus
+            Sofitheus.
             
            "One eagle routs the greatest flock of birds; one noble man routs many spiritless people."
            
@@ -221,9 +238,10 @@
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>{ E gra[e]co Eueni. Cu[m] prudente juuat permultu[m] Audatia Mente; Mente earens, multis est ea causa malis.</marginalia_text>
                     <person name="Evenus"/>
+                    <emphasis method="pen" type="straight" text="est ea causa malis"/>
                 </position>
             </language>
-            <translation>From the Greek Evenus. Very many people help with a prudent and bol mind; for many people, lacking a mind is the cause of evil.</translation>
+            <translation>From the Greek Evenus. Very many people help with a prudent and bold mind; for many people, lacking a mind is the cause of evil.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -239,9 +257,9 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>(Verus Amor nullum nouit habere modum.)</marginalia_text>
+                    <marginalia_text>(Verus Amor nullu[m] nouit habere modu[m].)</marginalia_text>
                     <X-ref person="Sextus Propertius" book_title="Elegies" language="LA" text="Verus Amor nullum nouit habere modum."/>
-                    <emphasis method="pen" type="straight" text="nullum nouit"/>
+                    <emphasis method="pen" type="straight" text="nullu[m] nouit"/>
                 </position>
             </language>
             <translation>True love knows to have no limit.</translation>
