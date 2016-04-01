@@ -49,7 +49,7 @@
                 </position>
             </language>
             <translation>Look at book one of Polyaenus, how deceitfully and craftily Gylippus, producing secrets, complained about the produced secrets.
-            Hence aiming for the occasion, only carrying for matters of the altar.</translation> <!--JG: Unsure abt rerum solus gerend arum-->
+            Hence aiming for the occasion, only carrying for matters of the altar.</translation> <!--JG: Unsure abt rerum solus gerend arum--> <!--KS: 'the only one managing matters of the alter'?-->
         </marginalia>
         
         <marginalia hand="Italian">
@@ -66,14 +66,14 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Item Seuthes, Ibid.</marginalia_text>
+                    <marginalia_text>Ite[m] Seuthes, Ibid.</marginalia_text>
                     <person name="Seuthes I"/>
                 </position>
             </language>
             <translation>Likewise Seuthes I. Ibidem.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Alexander makith his owne men (in his Enemyes apparrel) wast, and destroy his owne Entry.</marginalia_text>
@@ -105,6 +105,7 @@
         
         <underline method="pen" type="straight" language="EN" text="chasynge theym"/>
         <underline method="pen" type="straight" language="EN" text="wonte to leaue theyr campe without defence"/>
+        <underline method="pen" type="straight" language="EN" text="his time"/>
         <underline method="pen" type="straight" language="EN" text="his armye"/>
         <underline method="pen" type="straight" language="EN" text="with the lyght harneysed"/>
         <underline method="pen" type="straight" language="EN" text="backe syde of their tentes"/>
@@ -119,9 +120,9 @@
         <underline method="pen" type="straight" language="EN" text="scatter abrode in hope"/>
         <underline method="pen" type="straight" language="EN" text="certayne of his men"/>
         <underline method="pen" type="straight" language="EN" text="Illyriens apparayle"/>
-        <underline method="pen" type="straight" language="EN" text="to waste and distroy his owne countreye"/>
-        <underline method="pen" type="straight" language="EN" text="Epirus"/>
-        <underline method="pen" type="straight" language="EN" text="now carlesse"/>
+        <underline method="pen" type="straight" language="EN" text="waste and distroy his owne countreye"/>
+        <underline method="pen" type="straight" language="EN" text="Epirus:"/>
+        <underline method="pen" type="straight" language="EN" text="nowe carelesse"/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
@@ -130,7 +131,7 @@
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="to waste and distroy his owne countreye"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="waste and distroy his owne countreye"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
@@ -151,7 +152,7 @@
         <mark name="vertical_bar" method="chalk" place="intext"/>
         <mark name="vertical_bar" method="chalk" place="intext"/>
         
-        <mark name="plus_sign" method="pen" place="intext" language="EN" text="owne men"/>
+        <mark name="plus_sign" method="pen" place="tail" language="EN" text="owne men"/>
         
     </annotation>
 </transcription>
