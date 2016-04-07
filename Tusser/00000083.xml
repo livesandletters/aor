@@ -8,7 +8,7 @@
     <page filename="00000083.tif" reader="Harvey" pagination="39[r]" signature="L.j."/>
     <annotation>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="Italian">
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>[The] kitchen Herbal.</marginalia_text>
@@ -16,10 +16,11 @@
             </language>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="Italian">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>The first book of Table philosophy,</marginalia_text>
+                    <book title="The schoolemaster, or teacher of table philosophie"/>
                 </position>
             </language>
             <language ident="LA">
@@ -54,7 +55,7 @@
         <underline method="pen" type="straight" language="EN" text="Buglas."/>
         <underline method="pen" type="straight" language="EN" text="Burrage."/>
         <underline method="pen" type="straight" language="EN" text="Cresses."/>
-        <underline method="pen" type="straight" language="EN" text="French Saffro"/>
+        <underline method="pen" type="straight" language="EN" text="French Saffro[n]"/>
         <underline method="pen" type="straight" language="EN" text="Liuerwort."/>
         <underline method="pen" type="straight" language="EN" text="Mercurie"/>
         <underline method="pen" type="straight" language="EN" text="Onions from December"/>
@@ -72,12 +73,12 @@
         
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="Patience."/>
         
-       <mark name="bracket" method="pen" place="intext" language="EN" text="Haue spoone meat inough, for cart and the plough."/>
-       <mark name="bracket" method="pen" place="intext" language="EN" text="is poore mans care. And not to boast, of sod and roast."/>
-       <mark name="bracket" method="pen" place="intext" language="EN" text="Let oxe once fat, lose nothing of that."/>
-       <mark name="dash" method="pen" place="intext" language="EN" text="To spare aright"/>
+       <mark name="vertical_bar" method="pen" place="intext" language="EN" text="Haue spoone meat inough, for cart and the plough."/>
+        <mark name="vertical_bar" method="pen" place="intext" language="EN" text="is poore mans care. And not to boast, of sod and roast."/>
+        <mark name="vertical_bar" method="pen" place="intext" language="EN" text="Let oxe once fat, lose nothing of that."/>
+        <mark name="dash" method="pen" place="intext" /> <!--To spare aright-->
        <mark name="plus_sign" method="pen" place="intext" language="EN" text="Seedes and herbes for"/>
-       <mark name="horizontal_bar" method="pen" place="intext" language="EN" text="Aens."/>
+       <mark name="horizontal_bar" method="pen" place="intext"/>
         
         <mark name="horizontal_bar" method="pen" place="intext"/>
         <mark name="horizontal_bar" method="pen" place="intext"/>
@@ -86,5 +87,6 @@
         <mark name="horizontal_bar" method="pen" place="intext"/>
         <mark name="horizontal_bar" method="pen" place="intext"/>
         <mark name="horizontal_bar" method="pen" place="intext"/>
+        
     </annotation>
 </transcription>
