@@ -11,11 +11,11 @@
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Castles, Townes, &amp; Cities, easely surprized. On way for pirats, &amp; other Aduenturers of valu, to aspire
+                    <marginalia_text>Castels, Townes, &amp; Cities, easely surprized. On way for pirats, &amp; other Aduenturers of valu, to aspire
                     to pety</marginalia_text>
                 </position>
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>principalityes. nearsy seaxost [etc].</marginalia_text> <!--JG: Unsure abt nearsy-->
+                    <marginalia_text>principalityes. nearsy seacost [etc].</marginalia_text> <!--JG: Unsure abt nearsy--> <!--KS: Think it says 'near [the]'-->
                 </position>
             </language>
         </marginalia>
@@ -42,13 +42,14 @@
             </language>
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>ut supr&agrave; Iugur. L2.c.4.</marginalia_text>
+                    <marginalia_text>ut supr&agrave; Iugur. L.2.c.4.</marginalia_text>
                     <person name="Jugurtha"/>
                     <internal_ref text="supr&agrave;">
                         <target filename="earbm_stc_11402_0103.xml" book_id="HoughtonSTC11402" text="[Eviii[v]]"/>
                     </internal_ref>
                 </position>
             </language>
+            <translation>As above: book 2, chapter 4.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -91,8 +92,8 @@
         
         <symbol name="SS" place="right_margin"/>
         
-        <mark name="quotation_mark" method="chalk" place="head" language="EN" text="Castles, Townes, &amp; Cities, easely surprized. On way for pirats, &amp; other Aduenturers of valu, to aspire
-            to pety principalityes. nearsy seaxost [etc]."/>
+        <mark name="quotation_mark" method="chalk" place="head" language="EN" text="Castels, Townes, &amp; Cities, easely surprized. On way for pirats, &amp; other Aduenturers of valu, to aspire
+            to pety principalityes. near [the] seacost [etc]."/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
         

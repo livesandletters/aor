@@ -46,10 +46,10 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Lucullus">
+        <marginalia hand="English_secretary" anchor_text="Lucullus">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Lucullus, circu[m]specte, and wary</marginalia_text>
+                    <marginalia_text>Lucullus, circu[m]specte, and wary.</marginalia_text>
                     <person name="Lucius Licinius Lucullus"/>
                 </position>
             </language>
@@ -75,16 +75,17 @@
         <marginalia hand="Italian" anchor_text="priuily hyrynge">
             <language ident="EN">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Had not Myl. of Beicester now in [the] Low Cu[n]trys, need to haue an eie to Captain Skink, so long Spanish? </marginalia_text>
+                    <marginalia_text>Had not Myl. of Leicester now in [the] Low Cu[n]tryes, need to haue an eie to Captain Skink, so long Spanish? </marginalia_text>
                     <person name="Robert Dudley"/>
                     <person name="Maarten Schenck"/>
+                    <location name="Leicester"/>
                     <location name="Netherlands"/>
                 </position>
             </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="EN" text="myghte kepe theyr araye"/>
-        <underline method="pen" type="straight" language="EN" text="gyue bakce a"/>
+        <underline method="pen" type="straight" language="EN" text="gyue backe a"/>
         <underline method="pen" type="straight" language="EN" text="space"/>
         <underline method="pen" type="straight" language="EN" text="wayte for the same purpose, to ryse"/>
         <underline method="pen" type="straight" language="EN" text="of theyr ennemies"/>
@@ -112,7 +113,7 @@
         <mark name="plus_sign" method="pen" place="left_margin" language="EN" text="wayte for the same purpose, to ryse"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
-        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="wayte for the same purpose, to ryse"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
@@ -125,8 +126,8 @@
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
-        <mark name="bracket" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="bracket" method="pen" place="intext"/> <!--Mithridates, whom-->
+        <mark name="bracket" method="pen" place="intext"/> <!--chiualrie, sette-->
         <mark name="dot" method="pen" place="intext"/> <!--hym, whych-->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="layde priuie wayte"/>
         
