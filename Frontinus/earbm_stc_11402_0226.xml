@@ -21,7 +21,7 @@
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Petrachs</marginalia_text>
+                    <marginalia_text>Petrarchs</marginalia_text>
                     <person name="Petrarch"/>
                 </position>
                 <position place="right_margin" book_orientation="0">
@@ -38,21 +38,21 @@
         </marginalia>
         
         <marginalia hand="Italian">
-            <language ident="EN">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Martiall Axiomes.</marginalia_text>
-                    <person name="Martial"/>
-                </position>
-            </language>
-        </marginalia>
-        
-        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>s[upr]a.</marginalia_text>
                 </position>
             </language>
             <translation>[See] above.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Martiall Axiomes.</marginalia_text>
+                    <person name="Martial"/>
+                </position>
+            </language>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="That what so euer is profytable to the, is hurtefull to thyne aduersarie">
@@ -85,7 +85,7 @@
             <translation>[See] above.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="these generalle rules of warre, taken out of Vegetius">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>&Egrave; libro 3. Vegetij de Re Militari: cap. 26.</marginalia_text>
@@ -98,11 +98,11 @@
         
         <underline method="pen" type="straight" language="EN" text="vnarmed were"/>
         <underline method="pen" type="straight" language="EN" text="the Perseans"/>
-        <underline method="pen" type="straight" language="EN" text="theyr harneys vpon his owone souldiours"/>
+        <underline method="pen" type="straight" language="EN" text="theyr harneys vpon his owne souldiours"/>
         <underline method="pen" type="straight" language="EN" text="enmies, were in the same shippes, whiche"/>
         <underline method="pen" type="straight" language="EN" text="knewe the shyppes and the apparayle of them, whiche"/>
         <underline method="pen" type="straight" language="EN" text="stode aboue the hatches"/>
-        <underline method="pen" type="straight" language="EN" text="beinge sodynly"/>
+        <underline method="pen" type="straight" language="EN" text="beinge sodeynly"/>
         <underline method="pen" type="straight" language="EN" text="in one selfe day, vanquished"/>
         <underline method="pen" type="straight" language="EN" text="bothe by see"/>
         <underline method="pen" type="straight" language="EN" text="and on the"/>
@@ -119,17 +119,16 @@
         <symbol name="SS" place="intext" language="EN" text="Petrarchs Triumph of fame: more worth, then all [the] other fiue, 
             for vse in [the] world. Vt nobilibus factis, dictisue inclarescas."/>
         
-        <mark name="page_break" method="pen" place="left_margin"/>
-        
         <mark name="X_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="being sodenly"/>
+        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="being sodeynly"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="horizontal_bar" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="That what so euer is profytable"/>
         
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="Perseans"/>
+        <mark name="dot" method="pen" place="intext"/> <!--Cyprus, he-->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="harneys"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="owne"/>
         <mark name="bracket" method="pen" place="intext"/>
@@ -141,8 +140,9 @@
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="in one selfe day"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="vertical_bar" method="chalk" place="intext"/>
+        <mark name="page_break" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--vacant, we-->
-        <mark name="plus_sign" method="pen" place="intext" language="EN" text="in one selfe day"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="profytable"/>
         <mark name="dot" method="pen" place="intext"/> <!--aduersarie, and-->
         
     </annotation>
