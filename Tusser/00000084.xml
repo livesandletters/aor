@@ -11,7 +11,7 @@
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>The Alphabete of proffit.</marginalia_text>
+                    <marginalia_text>The Alphabeth of proffit.</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -28,7 +28,7 @@
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>{S'aueris, Creesies, &amp; Garlick: three whot fellowes. Item Rocket, Rue, &amp; Mustard seed.</marginalia_text>
+                    <marginalia_text>{S'auerie, Creesies, &amp; Garlick: three whot fellowes. Item Rocket, Rue, &amp; Mustard seed.</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -44,20 +44,20 @@
         <marginalia hand="Italian" anchor_text="Skirrets">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Su call it perwinds.</marginalia_text> <!--KS: Not sure about 'Su'-->
+                    <marginalia_text>Su[m] call it perwinde.</marginalia_text> 
                 </position>
             </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="EN" text="Sommer sauerie"/>
+        <underline method="pen" type="straight" language="EN" text="Tanzie"/>
         <underline method="pen" type="straight" language="EN" text="Winter sauerie"/>
         <underline method="pen" type="straight" language="EN" text="rootes for sallets"/>
-        <underline method="chalk" type="straight" language="EN" text="sallets"/>
         <underline method="pen" type="straight" language="EN" text="and sauce"/>
         <underline method="pen" type="straight" language="EN" text="Alexanders"/>
         <underline method="pen" type="straight" language="EN" text="Artichoks."/>
         <underline method="pen" type="straight" language="EN" text="Blessed thistle"/>
-        <underline method="chalk" type="straight" language="EN" text="Carduus"/>
+        <underline method="chalk" type="straight" language="EN" text="Carduus"/> <!--JG: This is not chalk, it's ink from the other page bleeding through, so you can delete this tag-->
         <underline method="pen" type="straight" language="EN" text="Cucumbers"/>
         <underline method="pen" type="straight" language="EN" text="Cresies, sowe with Lettice"/>
         <underline method="pen" type="straight" language="EN" text="Mustard s&eacute;ede"/>
@@ -73,7 +73,6 @@
         <underline method="pen" type="straight" language="EN" text="Skirrets"/>
         
         <underline method="pen" type="straight" language="EN" text="Tarragon"/>
-        <underline method="pen" type="straight" language="EN" text="Violets of"/>
         <underline method="pen" type="straight" language="EN" text="Capers"/>
         <underline method="pen" type="straight" language="EN" text="Lemmans"/>
         <underline method="pen" type="straight" language="EN" text="Oliues"/>
@@ -99,7 +98,7 @@
         <underline method="pen" type="straight" language="EN" text="Camamel"/>
         <underline method="pen" type="straight" language="EN" text="Sw&eacute;ete fennell"/>
         
-        <symbol name="SS" place="intext" language="EN" text="{S'aueris, Creesies, &amp; Garlick: three whot fellowes. Item Rocket, Rue, &amp; Mustard seed."/>
+        <symbol name="SS" place="intext" language="EN" text="{S'auerie, Creesies, &amp; Garlick: three whot fellowes. Item Rocket, Rue, &amp; Mustard seed."/>
         
         <mark name="horizontal_bar" method="pen" place="left_margin"/>
         <mark name="horizontal_bar" method="pen" place="left_margin"/>
@@ -120,7 +119,8 @@
         <mark name="dot" method="pen" place="intext"/> <!--Cresies, sowe-->
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="Cresies, sowe with Lettice"/>
         
-       <mark name="equal_sign" method="pen" place="intext" language="EN" text="rootes"/>
+        <mark name="horizontal_bar" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="EN" text="rootes"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="to boile"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="to butter"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="Cabbegis"/>
@@ -128,7 +128,7 @@
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="Strowing herbes"/>
         <mark name="quotation_mark" method="pen" place="intext" language="EN" text="Strowing herbes"/>
         
-        <errata language="EN" copytext="Lettice" amendedtext="Lettices"/>
+        <errata language="EN" copytext="Lettice" amendedtext="Lettices"/> <!--JG: Unsure, could also be bracket-->
         
     </annotation>
 </transcription>
