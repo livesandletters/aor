@@ -19,16 +19,20 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Who goeth a borrowing, goeth a sorrowing.">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>i[nfr]a.</marginalia_text> <!-- JG: internal reference to be established later -->
+                    <marginalia_text>i[nfr]a.</marginalia_text>
+                    <internal_ref text="">
+                        <target filename="00000036.tif" book_id="PrincetonRB16th99a" text="To borow to daie, and to morow to mis"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>[See] below.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="EN" text="September abstract"/>
+        <underline method="pen" type="straight" language="EN" text="Septembers abstract"/>
+        
         <underline method="pen" type="straight" language="EN" text="Now enter John"/>
         <underline method="pen" type="straight" language="EN" text="champion vseth"/>
         <underline method="pen" type="straight" language="EN" text="woodland refuseth"/>
@@ -49,25 +53,26 @@
         <underline method="pen" type="straight" language="EN" text="better crop mowes"/>
         <underline method="pen" type="straight" language="EN" text="corne sowen in"/>
         <underline method="pen" type="straight" language="EN" text="thick, nor too thin"/>
-        <underline method="pen" type="straight" language="EN" text="want of seede"/>
-        <underline method="pen" type="straight" language="EN" text="yeeldeth weede"/>
+        <underline method="pen" type="straight" language="EN" text="want of s&eacute;ede"/>
+        <underline method="pen" type="straight" language="EN" text="y&eacute;eldeth w&eacute;ede"/>
+        
         <underline method="pen" type="straight" language="EN" text="With sling, or bowe"/>
-        <underline method="pen" type="straight" language="EN" text="keepe corne from Crowe"/>
+        <underline method="pen" type="straight" language="EN" text="k&eacute;epe corne from Crowe"/>
         <underline method="pen" type="straight" language="EN" text="Trench hedge and sorrow"/>
         <underline method="pen" type="straight" language="EN" text="water may thorow"/>
-        <underline method="pen" type="straight" language="EN" text="Deepe dike saues"/>
+        <underline method="pen" type="straight" language="EN" text="D&eacute;epe dike saues"/>
         <underline method="pen" type="straight" language="EN" text="from drouers, and such"/>
         <underline method="pen" type="straight" language="EN" text="Sell webster thy wull"/>
         <underline method="pen" type="straight" language="EN" text="For feare of drabs"/>
         <underline method="pen" type="straight" language="EN" text="gather thy crabs"/>
         <underline method="pen" type="straight" language="EN" text="Pluck fruite to last"/>
         <underline method="pen" type="straight" language="EN" text="when Mihell is past"/>
-        <underline method="pen" type="straight" language="EN" text="fruid brused will rot"/>
+        <underline method="pen" type="straight" language="EN" text="fruit brused will rot"/>
         <underline method="pen" type="straight" language="EN" text="Light ladder, and long,"/>
         <underline method="pen" type="straight" language="EN" text="Driue hiue"/>
         <underline method="pen" type="straight" language="EN" text="for waxe, and for honie"/>
-        <underline method="pen" type="straight" language="EN" text="Good dwelling giue bee"/>
-        <underline method="pen" type="straight" language="EN" text="or hence goes shee"/>
+        <underline method="pen" type="straight" language="EN" text="Good dwelling giue b&eacute;e"/>
+        <underline method="pen" type="straight" language="EN" text="or hence goes sh&eacute;e"/>
         <underline method="pen" type="straight" language="EN" text="Put bore in stie"/>
         
         <symbol name="SS" place="head"/>
@@ -75,24 +80,26 @@
         <symbol name="Sun" place="right_margin"/>
         
         <mark name="plus_sign" method="pen" place="head" language="EN" text="Septembers abstract"/>
-        <mark name="bracket" method="pen" place="head" language="EN" text="Septembers abstract. Chap. 14"/>
+        <mark name="bracket" method="pen" place="head" language="EN" text="Septembers abstract. Chap. 14."/>
         
         <mark name="horizontal_bar" method="chalk" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="fruit brused will rot"/>
-        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="or hence goes shee"/>
+        <mark name="plus_sign" method="pen" place="right_margin" language="EN" text="or hence goes sh&eacute;e"/>
         
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="champion vseth"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="tits, and such"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="charges quite"/>
         <mark name="bracket" method="pen" place="intext" language="EN" text="Light head, and purse, what lightnes wurse?"/>
-        <mark name="plus_sign" method="pen" place="intext" language="EN" text="a sorowing"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="a sorrowing"/>
         <mark name="bracket" method="pen" place="intext" language="EN" text="Few lends, (but fooles) their working tooles"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext" language="EN" text="keepe corne from Crowe"/>
+        
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="k&eacute;epe corne from Crowe"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="that water may thorow"/>
         <mark name="plus_sign" method="pen" place="intext" />
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="when Mihell is past"/>
-        <mark name="plus_sign" method="pen" place="intext" language="EN" text="or hence goes shee"/>
+        <mark name="plus_sign" method="pen" place="intext" language="EN" text="or hence goes sh&eacute;e"/>
         
     </annotation>
 </transcription>
