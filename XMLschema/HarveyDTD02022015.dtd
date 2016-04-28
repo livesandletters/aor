@@ -42,7 +42,7 @@
 							<!ATTLIST emphasis type (straight|curved|dotted) #REQUIRED>
 							<!ATTLIST emphasis text CDATA #IMPLIED>
 						<!ELEMENT internal_ref (target+)> 
-						    <!ATTLIST internal_ref text CDATA #REQUIRED>
+						    <!ATTLIST internal_ref text CDATA #IMPLIED>
 						          <!ELEMENT target EMPTY>
 						              <!ATTLIST target filename CDATA #REQUIRED>
 						              <!ATTLIST target book_id CDATA #REQUIRED>
