@@ -212,6 +212,7 @@
   </xs:element>
   <xs:attributeGroup name="attlist.internal_ref">
     <xs:attribute name="text"/>
+    <xs:attribute name="anchor_text"/>
   </xs:attributeGroup>
   <xs:element name="target">
     <xs:complexType>
