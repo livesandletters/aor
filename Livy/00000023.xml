@@ -19,7 +19,7 @@
                 <translation>Fifteen Latin kings: seven Roman ones. A great diversity of men and matters.</translation>
             </marginalia>
             
-            <marginalia hand="Italian">
+            <marginalia hand="Italian" anchor_text="Numa Pompilius ritus sacrorum tradidit.">
                 <language ident="LA">
                     <position place="right_margin" book_orientation="0">
                         <marginalia_text>Numa Pompilius: sacrorum Auctor.</marginalia_text>
@@ -44,20 +44,20 @@
                         <marginalia_text>filia, patris corpus carpento facile contudit.</marginalia_text>
                     </position>
                 </language>
-                <translation>The daughter easily crushes her father's body with a chariot</translation>
+                <translation>The daughter easily crushes her father's body with a chariot.</translation>
             </marginalia>
             
-            <marginalia hand="Italian">
+            <marginalia hand="Italian" anchor_text="Tarquinius">
                 <language ident="LA">
                     <position place="right_margin" book_orientation="0">
                         <marginalia_text>Tarquinius tyrannus.</marginalia_text>
                         <person name="Lucius Tarquinius Superbus"/>
                     </position>
                 </language>
-                <translation>The tyrant Tarquinius</translation>
+                <translation>The tyrant Tarquinius.</translation>
             </marginalia>
             
-            <marginalia hand="Italian">
+            <marginalia hand="Italian" anchor_text="Iunius Brutus">
                 <language ident="LA">
                     <position place="right_margin" book_orientation="0">
                         <marginalia_text>Jun[ius] Brutus tyrannomastix.</marginalia_text>
@@ -70,7 +70,7 @@
             <marginalia hand="Italian">
                 <language ident="LA">
                     <position place="intext" book_orientation="0">
-                        <marginalia_text>Primus Liber totus monarchicus: sed nouis Priniipibus magis opportunus,
+                        <marginalia_text>Primus Liber totus monarchicus: sed nouis Principibus magis opportunus,
                         qu&agrave;m</marginalia_text>
                     </position>
                     <position place="right_margin" book_orientation="0">
@@ -83,7 +83,7 @@
                     or chance.</translation>
             </marginalia>
             
-            <marginalia hand="Italian">
+            <marginalia hand="Italian" anchor_text="scriptores">
                 <language ident="LA">
                     <position place="right_margin" book_orientation="0">
                         <marginalia_text>scriptores</marginalia_text>
@@ -91,6 +91,7 @@
                 </language>
                 <translation>authors</translation>
             </marginalia>
+            
             <marginalia hand="Italian">
                 <language ident="EL">
                     <position place="tail" book_orientation="0">
@@ -109,13 +110,13 @@
             <marginalia hand="Italian">
                 <language ident="LA">
                     <position place="tail" book_orientation="0">
-                        <marginalia_text>Artes Legum, et Armorum: civili, militariq[ue] prudentia seri&ograve;, solideq[ue]
+                        <marginalia_text>Artes Legum, et Armorum: ciuili, militariq[ue] prudentia seri&ograve;, solideq[ue]
                         firmata[e]; et assidue magis, magisq[ue] propagata[e]. Nulla Historia, tam industrijs fortibusq[ue]
                         actis, quam prudentibus Consilijs, magis seria, atq[ue] solida. Nugarum pleni sunt pla[e]rique Libri: Romani, 
                         Legibus, et Armis, facti sunt Orbis Domini: nec vlla mundi Instrumenta hodie efficaciora, quam Justiniani Leges,
                         et Ca[e]saris militia; antiquioris Prudentia[e], Fortitudinisq[ue] summa Capita; et tot acrium seculorum 
-                        pra[e]gnantissimi fructus. Hinc omnes Ciuiles, bellica[e]q[ue] Controversia[e], accurat&egrave;, ac potenter 
-                        composita[e]; semperq[ue] compondenda[e]. Soli fer&egrave; Romani, acres efficacesq[ue] mundi Actores; et in 
+                        pra[e]gnantissimi fructus. Hinc omnes Ciuiles, bellica[e]q[ue] Controuersia[e], accurat&egrave;, ac potenter 
+                        composita[e]; semperq[ue] componenda[e]. Soli fer&egrave; Romani, acres efficacesq[ue] mundi Actores; et in 
                         omni fortuna viri.
                         </marginalia_text>
                         <person name="Justinian"/>
@@ -132,9 +133,7 @@
                     circumstances, men.</translation>
             </marginalia>
             
-            <underline method="pen" type="curved"/> <!--large underline after first paragraph-->
-            
-            <underline method="pen" type="straight" language="LA" text="Aduentus Aenae in Italiam"/>
+            <underline method="pen" type="straight" language="LA" text="Aduentus Aeneae in Italiam"/>
             <underline method="pen" type="straight" language="LA" text="Ascanij regnum Albae"/>
             <underline method="pen" type="straight" language="LA" text="Syluiorum regum"/>
             <underline method="pen" type="straight" language="LA" text="&agrave; Marte"/>
@@ -142,7 +141,7 @@
             <underline method="pen" type="straight" language="LA" text="Vrbs &agrave; Romulo condita"/>
             <underline method="pen" type="straight" language="LA" text="Senatus lectus"/>
             <underline method="pen" type="straight" language="LA" text="Sabinis bellatum"/>
-            <underline method="pen" type="straight" language="LA" text="Optima spolia"/>
+            <underline method="pen" type="straight" language="LA" text="Opima spolia"/>
             <underline method="pen" type="straight" language="LA" text="centurias populus"/>
             <underline method="pen" type="straight" language="LA" text="Veientes uicti"/>
             <underline method="pen" type="straight" language="LA" text="Numa Pompilius ritus sacrorum tradidit. Iano templum constituit: eiusq[ue] portam, pacatis omnibus circ&agrave; populis, primus clausit: cum dea Aegeria sibi congressus nocturnos esse simulans, feroces populi animos ad religionem perpulit"/>
@@ -152,7 +151,7 @@
             <underline method="pen" type="straight" language="LA" text="Alba diruta"/>
             <underline method="pen" type="straight" language="LA" text="Sabinis bellum indictum"/>
             <underline method="pen" type="straight" language="LA" text="fulmine Tullus"/>
-            <underline method="pen" type="straight" language="LA" text="Ancus Marcius caerimonias &agrave; Numa institutas renouauit"/>
+            <underline method="pen" type="straight" language="LA" text="Ancus Marcius ca[e]rimonias &agrave; Numa institutas renouauit"/>
             <underline method="pen" type="straight" language="LA" text="Politorium"/>
             <underline method="pen" type="straight" language="LA" text="diruit"/>
             <underline method="pen" type="straight" language="LA" text="pontem Sublicium"/>
@@ -192,11 +191,11 @@
             <underline method="pen" type="straight" language="LA" text="ex eorum praeda"/>
             <underline method="pen" type="straight" language="LA" text="templum Ioui in"/>
             <underline method="pen" type="straight" language="LA" text="Terminus &amp; Iuuentas"/>
-            <underline method="pen" type="straight" language="LA" text="quorum arae moueri non potuerunt"/>
+            <underline method="pen" type="straight" language="LA" text="quorum ara[e] moueri non potuerunt"/>
             <underline method="pen" type="straight" language="LA" text="Filius sextus Tarquinius dolo"/>
             <underline method="pen" type="straight" language="LA" text="dolo"/>
             <underline method="pen" type="straight" language="LA" text="Huius filijs Delphos profectis"/>
-            <underline method="pen" type="straight" language="LA" text="quis eorum renaturus"/>
+            <underline method="pen" type="straight" language="LA" text="quis eorum regnaturus"/>
             <underline method="pen" type="straight" language="LA" text="eum"/>
             <underline method="pen" type="straight" language="LA" text="primus matrem"/>
             <underline method="pen" type="straight" language="LA" text="Iunius Brutus"/>
@@ -205,7 +204,7 @@
             <underline method="pen" type="straight" language="LA" text="eius euentus rei comprobauit"/>
             <underline method="pen" type="straight" language="LA" text="impotenter se"/>
             <underline method="pen" type="straight" language="LA" text="in odium suum"/>
-            <underline method="pen" type="straight" language="LA" text="expugnatam nocturna"/>
+            <underline method="pen" type="straight" language="LA" text="expugnatam"/>
             <underline method="pen" type="straight" language="LA" text="nocturna ui"/>
             <underline method="pen" type="straight" language="LA" text="filio eius"/>
             <underline method="pen" type="straight" language="LA" text="Lucretiae pudicitiam"/>
@@ -223,7 +222,7 @@
             <underline method="pen" type="straight" language="LA" text="creuerit, ut iam magnitudine laboret sua"/>
             <underline method="pen" type="straight" language="LA" text="primae origines"/>
             <underline method="pen" type="straight" language="LA" text="h[a]ec noua, quibus"/>
-            <underline method="pen" type="straight" language="LA" text="praeuale[n]tis populi uires"/>
+            <underline method="pen" type="straight" language="LA" text="pra[e]uale[n]tis populi uires"/>
             <underline method="pen" type="straight" language="LA" text="conspectu malorum qu[a]e nostra"/>
             <underline method="pen" type="straight" language="LA" text="prisca illa"/>
             <underline method="pen" type="straight" language="LA" text="expers curae"/>
@@ -242,11 +241,11 @@
             <underline method="pen" type="straight" language="LA" text="conditorisq[ue] sui parente[m] Martem"/>
             <underline method="pen" type="straight" language="LA" text="gentes humanae"/>
             <underline method="pen" type="straight" language="LA" text="qu&agrave;m imperium patiuntur"/>
-            <underline method="pen" type="straight" language="LA" text="haec &amp; his"/>
+            <underline method="pen" type="straight" language="LA" text="ha[e]c &amp; his"/>
             <underline method="pen" type="straight" language="LA" text="haud equidem in magno"/>
             <underline method="pen" type="dotted" language="LA" text="pro se quisq[ue]"/>
             <underline method="pen" type="straight" language="LA" text="acriter intendat"/>
-            <underline method="pen" type="straight" language="LA" text="quae uita"/>
+            <underline method="pen" type="straight" language="LA" text="qua[e] uita"/>
             <underline method="pen" type="straight" language="LA" text="qui mores fuerint"/>
             <underline method="pen" type="straight" language="LA" text="per quos uiros"/>
             <underline method="pen" type="straight" language="LA" text="quibusq[ue] artibus"/>
@@ -258,8 +257,8 @@
             <symbol name="SS" place="left_margin"/>
             <symbol name="SS" place="left_margin"/>
             
-            <symbol name="SS" place="right_margin"/>
             <symbol name="SS" place="right_margin"/> <!-- below marginal note-->
+            <symbol name="SS" place="right_margin"/>
             <symbol name="Mars" place="right_margin"/>
             
             <symbol name="SS" place="tail"/> <!--above Legum in marginal note-->
@@ -277,31 +276,32 @@
             <mark name="dash" method="pen" place="right_margin"/> <!--ope-->
             <mark name="dash" method="pen" place="right_margin"/> <!--ui-->
             <mark name="plus_sign" method="pen" place="right_margin"/> <!--rerum-->
-            <mark name="X_sign" method="pen" place="right_margin"/> <!--Et-->
+            <mark name="plus_sign" method="pen" place="right_margin"/> <!--Et-->
             <mark name="X_sign" method="pen" place="right_margin"/> <!--potissimum-->
-            <mark name="bracket" method="pen" place="right_margin"/> <!--mo...perium-->
+            <mark name="bracket" method="pen" place="right_margin"/> <!--mo- ... perium-->
             
+            <mark name="apostrophe" method="pen" place="intext"/> <!--regnum Albae-->
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="Albae"/>
             <mark name="vertical_bar" method="pen" place="intext"  /> <!--continentur. Numitoris-->
-            <mark name="vertical_bar" method="pen" place="intext"  /> <!--filia a-->
-            <mark name="vertical_bar" method="pen" place="intext" /> <!--Marte compressa-->
+            <mark name="apostrophe" method="pen" place="intext"  /> <!--filia a-->
+            <mark name="apostrophe" method="pen" place="intext" /> <!--Marte compressa-->
             <mark name="equal_sign" method="pen" place="intext" language="LA" text="Senatus lectus"/>
-            <mark name="equal_sign" method="pen" place="intext" language="LA" text="centurias populas"/>
+            <mark name="equal_sign" method="pen" place="intext" language="LA" text="centurias populus"/>
             <mark name="vertical_bar" method="pen" place="intext"  /> <!--secratus. Numa-->
-            <mark name="plus_sign" method="pen" place="intext" language="LA" text="Pompilus ritus"/> 
+            <mark name="plus_sign" method="pen" place="intext" language="LA" text="Pompilius ritus"/> 
             <mark name="plus_sign" method="pen" place="intext"/> <!--primus clausit-->
             <mark name="hash" method="pen" place="intext"/> <!--sibi-->
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="religionem"/> 
             <mark name="vertical_bar" method="pen" place="intext"  /> <!--perpulit. Tullus-->
             <mark name="equal_sign" method="pen" place="intext" language="LA" text="fulmine Tullus"/>
-            <mark name="vertical_bar" method="pen" place="intext" /> <!--est. Ancius-->
-            <mark name="plus_sign" method="pen" place="intext"/> <!-- Ancius -->
+            <mark name="vertical_bar" method="pen" place="intext" /> <!--est. Ancus-->
+            <mark name="plus_sign" method="pen" place="intext"/> <!-- Ancus -->
             <mark name="equal_sign" method="pen" place="intext" language="LA" text="fines imperij protulit"/>
             <mark name="vertical_bar" method="pen" place="intext" /> <!--condidit. Tarquinius-->
             <mark name="equal_sign" method="pen" place="intext" language="LA" text="Centum additis"/> 
             <mark name="equal_sign" method="pen" place="intext" language="LA" text="equitum centurias ampliauit"/> 
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="auguris"/> 
-            <mark name="plus_sign" method="pen" place="intext" language="LA" text="nouacula cotem praedicere"/> 
+            <mark name="plus_sign" method="pen" place="intext" language="LA" text="nouacula cotem pra[e]cidere"/> 
             <mark name="equal_sign" method="pen" place="intext" language="LA" text="urbem muro circundedit"/> 
             <mark name="vertical_bar" method="pen" place="intext" /> <!--fecit. Seruius-->
             <mark name="plus_sign" method="pen" place="intext"  language="LA" text="caput arsisse traditum"/>
@@ -309,9 +309,9 @@
             <mark name="equal_sign" method="pen" place="intext"  language="LA" text="lustrum condidit"/>
             <mark name="equal_sign" method="pen" place="intext"  language="LA" text="classes, centuriasq[ue]"/>
             <mark name="vertical_bar" method="pen" place="intext"/> <!--fecit. Lucius-->
-            <mark name="vertical_bar" method="pen" place="intext"/> <!--superbus, occiso-->
+            <mark name="apostrophe" method="pen" place="intext"/> <!--superbus, occiso-->
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="occiso Seruio eius socero"/> 
-            <mark name="vertical_bar" method="pen" place="intext"/> <!--socero, inuasit-->
+            <mark name="apostrophe" method="pen" place="intext"/> <!--socero, inuasit-->
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="inuasit regnum"/>
             <mark name="equal_sign" method="pen" place="intext" language="LA" text="Armatos circa"/> 
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="fraude"/> 
@@ -324,7 +324,9 @@
             <mark name="quotation_mark" method="pen" place="intext" language="LA" text="Lucretiae pudicitiam"/> 
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="Bruti opera maxim&egrave;"/> 
             <mark name="vertical_bar" method="pen" place="intext"/> <!--uigintiquinq[ue]. Tunc-->
-            <mark name="plus_sign" method="pen" place="intext" language="LA" text="consules, primum"/>
+            <mark name="plus_sign" method="pen" place="intext" language="LA" text="consules, prim&ugrave;m"/>
+            
+            <mark name="page_break" method="pen" place="intext"/>
             
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="principis terrarum populi"/> 
             <mark name="dot" method="pen" place="intext"/> <!--est, nobilitate-->
@@ -334,16 +336,16 @@
             <mark name="dot" method="pen" place="intext"/> <!--auerta[m], omnis-->
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="poeticis magis decora fabulis"/> 
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="miscendo humana diuinis"/>
-            <mark name="vertical_bar" method="pen" place="intext"/> <!--diuinis, primordia-->
+            <mark name="apostrophe" method="pen" place="intext"/> <!--diuinis, primordia-->
             <mark name="quotation_mark" method="pen" place="intext" language="LA" text="primordia urbiu[m] augustiora"/>
-            <mark name="vertical_bar" method="pen" place="intext"/> <!--augustiora faciat-->
+            <mark name="apostrophe" method="pen" place="intext"/> <!--augustiora faciat-->
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="ad deos referre"/> 
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="ea belli gloria est"/> 
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="parente[m] Martem"/> 
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="qu&agrave;m imperium patiuntur"/> 
             <mark name="comma" method="pen" place="intext" /> <!--mihi pro-->
             <mark name="comma" method="pen" place="intext" /> <!--quisq[ue] acriter-->
-            <mark name="horizontal_bar" method="pen" place="intext" /> <!--quisq[ue] acriter-->
+            <mark name="apostrophe" method="pen" place="intext" /> <!--quisq[ue] acriter-->
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="quae uita"/>
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="qui mores fuerint"/>
             <mark name="plus_sign" method="pen" place="intext" language="LA" text="per quos uiros"/>
