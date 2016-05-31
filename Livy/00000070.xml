@@ -23,7 +23,7 @@
             <translation>One should not heedlessly provoke fierce and untamed spirits.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="ducibus ualidiorem, qu&agrave;m exercitu rem Romana[m]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>In Duce, qu&agrave;m in Exercitu, plus momenti.
@@ -38,7 +38,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Externus Timor, maximum Concordia[e] Vinculu[m]. 
-                        fictus aliquando Timor, stratagema ad erigendum, uniendu[m]q[ue] animos multitudinis.
+                        fictus aliquando Timor, stratagema ad erigendum, vniendu[m]q[ue] animos multitudinis.
                     </marginalia_text>
                     <emphasis method="pen" type="straight" text="Externus Timor"/>
                 </position>
@@ -183,6 +183,7 @@
         <mark name="comma" method="pen" place="intext"/> <!--sacerdotibus ta[n]ta-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="hostem"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ad"/>
+        <mark name="apostrophe"method="pen" place="intext"/> <!--mater-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="inuidia"/>
         <mark name="dot" method="pen" place="intext"/> <!--tradunt, alij-->
         
