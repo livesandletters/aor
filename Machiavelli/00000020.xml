@@ -7,17 +7,19 @@
 	
 <page filename="00000020.tif" pagination="ii[v]" reader="Harvey" signature="[Aiii[v]]"/>
     <annotation>
-    	<!-- Marginalia -->
+    
     	<marginalia hand="Italian" marginalia_id="00000020_0001" marginalia_continues_to="00000021_0001" marginalia_to_transcription="00000020.xml" book_id="PrincetonU101">
     		<language ident="LA">
     			<position place="head" book_orientation="0">
     				<marginalia_text>
-    					M. Antonius Columna, pra[e]clarissimus Iuurnis, post paterna[m] Etrusco bello
+    					M. Antonius Columna, pra[e]clarissimus Iuuenis, post paterna[m] Etrusco bello
     					mortem; Prospero Patruo, et Fabritio huius patrueli, 
     					celeberrimis Ducibus adha[e]sit: ab hisq[ue] certissimis militia[e] pra[e]ceptis imbutus,
     						<!-- Marginalia continues onto the head of 00000021.tif -->
     				</marginalia_text>
     				<person name="Marcantonio Colonna"/>
+    				<person name="Prospero Colonna"/>
+    				<person name="Fabrizio Colonna"/>
     			</position>
     		</language>
     		<translation>
@@ -26,19 +28,19 @@
     			and having learned from these men the most certain principles of war,
     		</translation>
     	</marginalia>
-    	
-    	<!-- Underlines -->
+
 	<underline method="pen" type="straight" language="EN" text="where largelye of the same gentilman"/>
     	<underline method="pen" type="straight" language="EN" text="matters of warre, both wittyly and prudently"/>
     	<underline method="pen" type="straight" language="EN" text="learne hereby manye thinges"/>
     	<underline method="pen" type="straight" language="EN" text="onely to the life of Souldiours, but"/>
     	<underline method="pen" type="straight" language="EN" text="ciuill mens liues, whiche grauely of a moste wise"/>
     	<underline method="pen" type="straight" language="EN" text="was disputed"/>
-    	
-    	<!-- Marks -->
+
     	<mark name="hash" method="pen" place="right_margin"/>	<!-- Connects marginalia to following page  -->
+    	
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="matters of warre, both wittyly and prudently"/>
     	<mark name="hash" method="pen" place="left_margin" language="EN" text="ciuill mens liues, whiche grauely of a moste wise"/>
+    	
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="moste wise"/>
 
     </annotation>
