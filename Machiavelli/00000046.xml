@@ -7,8 +7,8 @@
 	
 <page filename="00000046.tif" pagination="xvi[v]" reader="Harvey" signature="[Div[v]]"/>
     <annotation>
-    	<!-- Marginalia -->
-    	<marginalia hand="Italian"> <!--JG: Could link marginal note to printed text-->
+
+    	<marginalia hand="Italian" anchor_text="Tribunes of warre ; Conestables">
     		<language ident="EN">
     			<position place="left_margin" book_orientation="0">
     				<marginalia_text>
@@ -17,8 +17,7 @@
     			</position>
     		</language>
     	</marginalia>
-    	
-    	<!-- Underlines -->
+
 	<underline method="pen" type="straight" language="EN" text="vsed in the fained exercise"/>
     	<underline method="pen" type="straight" language="EN" text="could easely worke in the true"/>
     	<underline method="pen" type="straight" language="EN" text="the Romane"/>
@@ -34,17 +33,15 @@
     	<underline method="pen" type="straight" language="EN" text="by lot they"/>
     	<underline method="pen" type="straight" language="EN" text="Tribe they chose foure of the best"/>
     	<underline method="pen" type="straight" language="EN" text="choise mighte"/>
-    	
-    	<!-- Symbols -->
+
     	<symbol name="Bisected_circle" place="left_margin"/>
     	
-    	<!-- Marks -->
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="could easely worke in the true"/>
     	<mark name="plus_sign" method="pen" place="left_margin" language="EN" text="Legions of Romane"/>
+    	
     	<mark name="plus_sign" method="pen" place="intext" language="EN" text="Conestables"/>
     	
     	<errata copytext="whome" amendedtext="whoe" language="EN"/>
 
-    	
     </annotation>
 </transcription>
