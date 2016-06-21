@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                      Hactenus Chronologia septum Regum Romanorum.  
+                      Hacten&ugrave;s Chronologia septum Regum Romanorum.  
                     </marginalia_text>
                 </position>
             </language>
@@ -21,13 +21,13 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Tomyris Maslagetarum"/>
+        <underline method="pen" type="straight" language="LA" text="Tomyris Massagetarum"/>
         <underline method="pen" type="straight" language="LA" text="autoribus Liuio"/>
         <underline method="pen" type="straight" language="LA" text="Dionysio."/>
         <underline method="pen" type="straight" language="LA" text="maluimus hos sequi"/>
         <underline method="pen" type="straight" language="LA" text="ut ex proposito"/>
         <underline method="pen" type="straight" language="LA" text="omnia reliqua seposuimus"/>
-        <underline method="pen" type="straight" language="LA" text="Iudaeorum captiuitas"/>
+        <underline method="pen" type="straight" language="LA" text="Iudaeorum captiuitas iam"/>
         <underline method="pen" type="straight" language="LA" text="Defecerant etiam Lydorum Aegyptiorumq[ue]; regna"/>
         <underline method="pen" type="straight" language="LA" text="sub Cyro"/>
         <underline method="pen" type="straight" language="LA" text="obtinentibus Persis"/>
@@ -37,10 +37,11 @@
         
         <symbol name="SS" place="left_margin"/>
         
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tomyris Maslagetarum"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
+        
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tomyris Massagetarum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="obtinentibus Persis"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--sumus. Caeter&ugrave;m-->
         <mark name="dot" method="pen" place="intext"/> <!--historiam [over comma]-->
         <mark name="dot" method="pen" place="intext"/> <!--sufficiant [over comma]-->
         <mark name="dot" method="pen" place="intext"/> <!--Cyro [over comma]-->
