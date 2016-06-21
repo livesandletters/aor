@@ -12,8 +12,8 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Praeclarissima nomina Liuiana[e] historia[e]. Quoru[m] vald&egrave; prodest ars qua[e]dam memorativa in historijs Romanis; 
-                        passim inculcatis, accurataq[ue] animadversione adhuc digniss[im]is. 
+                        Pra[e]clarissima nomina Liuiana[e] historia[e]. Quoru[m] uald&egrave; prodest ars qua[e]dam memoratiua in historijs Romanis; 
+                        passim inculcatis, accurataq[ue] animaduersione adhuc digniss[im]is. 
                     </marginalia_text> 
                 <book title="Ab Urbe Condita"/>
                 </position>
@@ -28,8 +28,8 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Omnia dicendi genera exquisit&egrave; obseruans, nullum reperi in singulis eloquendi, variandiq[ue] formulis Livio parem: n&eacute; Ciceronem 
-                        quidem, excepta verborum, phrasiumq[ue] singulari puritate, et elegantia. Nec tamen Plinio, aut Vitruvio carere potest, aut etiam 
+                        Omnia dicendi genera exquisit&egrave; obseruans, nullum reperi in singulis eloquendi, variandiq[ue] formulis Liuio parem: n&eacute; Ciceronem 
+                        quidem, excepta verborum, phrasiumq[ue] singulari puritate, et elegantia. Nec tamen Plinio, aut Vitruuio carere potest, aut etiam 
                         Celso, propter plurimarum in mundo rerum, experimentorum, operumq[ue] necessariam vbiq[ue] nomenclaturam, et disertam explicationem. 
                     </marginalia_text>
                     <person name="Livy"/>
@@ -52,7 +52,7 @@
         <underline method="pen" type="straight" language="LA" text="Decemuirum"/>
         <underline method="pen" type="straight" language="LA" text="Tribunorum militum, qui consulari"/> 
         <underline method="pen" type="straight" language="LA" text="Praetorum"/>
-        <underline method="pen" type="straight" language="LA" text="Cenforum"/>
+        <underline method="pen" type="straight" language="LA" text="Censorum"/>
         <underline method="pen" type="straight" language="LA" text="Pontificum Maximorum"/>
         <underline method="pen" type="straight" language="LA" text="REGES"/>
         <underline method="pen" type="straight" language="LA" text="COSS. PRIMAE DECADIS"/>
@@ -85,15 +85,22 @@
         <underline method="pen" type="straight" language="LA" text="T. Virgilius C[a]elimontanus"/>
         <underline method="pen" type="straight" language="LA" text="C. Iulius"/>
         <underline method="pen" type="straight" language="LA" text="Capitolinus IIII"/>
+        <underline method="pen" type="straight" language="LA" text="Capitolinus V"/>
         <underline method="pen" type="straight" language="LA" text="Quintius Capitolinus"/>
         <underline method="pen" type="straight" language="LA" text="C. Iulius III"/>
         
         <symbol name="SS" place="intext"/>
         <symbol name="SS" place="intext" language="LA" text="Iunius Brutus"/>
         
+        <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="P. Valerius"/>
+        <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="P. Valerius"/>
+        <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="Valerius Publicola III"/>
+        <mark name="quotation_mark" method="pen" place="left_margin"/> <!-- P. Valerius IIII -->
+        
         <mark name="plus_sign" method="pen" place="head" language="LA" text="REGVM,"/> 
         <mark name="plus_sign" method="pen" place="head" language="LA" text="CONSVLVM,"/>
         <mark name="plus_sign" method="pen" place="head" language="LA" text="DICTATORUM"/>
+        
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Decemuirum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Tribunorum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Praetorum"/>
@@ -104,11 +111,6 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Seruius Tullus gener Tarquinij"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text=".44."/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="nepos Tarquinij"/>
-        <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="P. Valerius"/>
-        <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="P. Valerius"/>
-        <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="Valerius Publicola III"/>
-        <mark name="quotation_mark" method="pen" place="left_margin"/> <!-- P. Valerius IIII -->
-        
+ 
     </annotation>
-    
 </transcription>
