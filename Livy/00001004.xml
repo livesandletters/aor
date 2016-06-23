@@ -9,8 +9,8 @@
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="Accusatorio spiritu.)"/>
-        <underline method="pen" type="straight" language="LA" text="finem fecundi"/>
-        <underline method="pen" type="straight" language="LA" text="complectens decemannos"/>
+        <underline method="pen" type="straight" language="LA" text="finem secundi"/>
+        <underline method="pen" type="straight" language="LA" text="complectens decem annos"/>
         <underline method="pen" type="straight" language="LA" text="actiones sunt"/>
         <underline method="pen" type="straight" language="LA" text="ciuiles"/>
         <underline method="pen" type="straight" language="LA" text="criminales"/>
@@ -38,14 +38,14 @@
         <underline method="pen" type="straight" language="LA" text="actio non capitalis"/>
         <underline method="pen" type="straight" language="LA" text="capitalem"/>
         <underline method="pen" type="straight" language="LA" text="licet reos eripere iudicio"/>
-        <underline method="pen" type="straight" language="LA" text="lata[m]"/>
+        <underline method="pen" type="straight" language="LA" text="ante lata[m]"/>
         <underline method="pen" type="straight" language="LA" text="deniq[ue] reos"/>
         <underline method="pen" type="straight" language="LA" text="magistratum"/>
         <underline method="pen" type="straight" language="LA" text="tametsi malum"/>
         <underline method="pen" type="straight" language="LA" text="iniuria aut ui afficere"/>
         <underline method="pen" type="straight" language="LA" text="manaret ad bonos quoq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="Improba uox est plebis conuiciantis"/>
-        <underline method="pen" type="straight" language="LA" text="infirmius esse ministris manistratuum"/>
+        <underline method="pen" type="straight" language="LA" text="infirmius esse ministris magistratuum"/>
         <underline method="pen" type="straight" language="LA" text="qui contemnant"/>
         <underline method="pen" type="straight" language="LA" text="quenq[ue] ea magna atq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="improbae"/>
@@ -57,7 +57,7 @@
         <underline method="pen" type="straight" language="LA" text="Non licet iure militari"/>
         <underline method="pen" type="straight" language="LA" text="ordinem redigere"/>
         <underline method="pen" type="straight" language="LA" text="magistratum castrensem"/>
-        <underline method="pen" type="straight" language="LA" text="centurioni uel tribuni"/>
+        <underline method="pen" type="straight" language="LA" text="centurioni uel tribuno"/>
         <underline method="pen" type="straight" language="LA" text="gregarius miles"/>
         <underline method="pen" type="straight" language="LA" text="magistratu[m]"/>
         <underline method="pen" type="straight" language="LA" text="priuatos affectus"/>
@@ -77,17 +77,19 @@
         <symbol name="JC" place="intext"/>
         <symbol name="SS" place="intext"/>
         
-        <mark name="plus_sign" method="pen" place="intext" />
         <mark name="dash" method="pen" place="right_margin"/> <!-- pr[a]estan -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- iu -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- hor -->
+        <mark name="dash" method="pen" place="right_margin"/> <!--nul-->
+        
+        <mark name="plus_sign" method="pen" place="intext" />
         <mark name="dot" method="pen" place="intext"/> <!--alicuius, -->
         <mark name="dot" method="pen" place="intext"/> <!-- capitalem, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="magistratum"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- hor -->
         <mark name="dot" method="pen" place="intext"/> <!-- anarchiam, -->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!--nul-->
         <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--charitati,-->
         <mark name="dot" method="pen" place="intext"/> <!-- habebantur, -->
         
     </annotation>
