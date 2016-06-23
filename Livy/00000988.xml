@@ -17,7 +17,7 @@
                 </position>
             </language>
             <translation>
-                The law of embassadors.
+                The law of ambassadors.
             </translation>
         </marginalia>
   
@@ -126,7 +126,7 @@
         <underline method="pen" type="straight" language="LA" text="regem agere Romae"/>
         <underline method="pen" type="straight" language="LA" text="pro capitali"/>
         <underline method="pen" type="straight" language="LA" text="affectare regnum"/>
-        <underline method="pen" type="straight" language="LA" text="Spurio"/>
+        <underline method="pen" type="straight" language="LA" text="Spurio Cassio"/>
         <underline method="pen" type="straight" language="LA" text="Manlio"/>
         <underline method="pen" type="straight" language="LA" text="Gracchis"/>
         <underline method="pen" type="straight" language="LA" text="Senatum Brutus"/>
@@ -156,7 +156,7 @@
         <underline method="pen" type="straight" language="LA" text="publico ipsi iuri"/>
         <underline method="pen" type="straight" language="LA" text="Bruto, qui charitatem reipub. praetulit"/>
         <underline method="pen" type="straight" language="LA" text="sibi priuatim erat cum Tarquinio"/>
-        <underline method="pen" type="straight" language="LA" text="ius naturae"/>
+        <underline method="pen" type="straight" language="LA" text="probat ius naturae"/>
         <underline method="pen" type="straight" language="LA" text="publica priuatis"/>
         <underline method="pen" type="straight" language="LA" text="propria"/>
         <underline method="pen" type="straight" language="LA" text="contra legem naturae &amp; contra conscientiam"/>
@@ -168,7 +168,7 @@
         <underline method="pen" type="straight" language="LA" text="aliquis cum potestate"/>
         <underline method="pen" type="straight" language="LA" text="public&egrave; ab inferioribus statui"/>
         <underline method="pen" type="straight" language="LA" text="Finito enim"/>
-        <underline method="pen" type="straight" language="LA" text="reperebantur ab eo rogationes gestorum"/>
+        <underline method="pen" type="straight" language="LA" text="repetebantur ab eo rogationes gestorum"/>
         <underline method="pen" type="straight" language="LA" text="impun&egrave; contra"/>
         <underline method="pen" type="straight" language="LA" text="Consules"/>
         <underline method="pen" type="straight" language="LA" text="totius populi suffragijs"/>
@@ -186,7 +186,7 @@
         <underline method="pen" type="straight" language="LA" text="imparia &amp; non aequa"/>
         <underline method="pen" type="straight" language="LA" text="multa pro arbitrio regis"/>
         <underline method="pen" type="straight" language="LA" text="iura cuilibet ex aequo &amp; pari"/>
-        <underline method="pen" type="straight" language="LA" text="esse &amp; prodesse tam inopi"/>
+        <underline method="pen" type="straight" language="LA" text="praeesse &amp; prodesse tam inopi"/>
         <underline method="pen" type="straight" language="LA" text="omnes ligare"/>
         <underline method="pen" type="straight" language="LA" text="leges non debent esse telis"/>
         <underline method="pen" type="straight" language="LA" text="potentes impun&egrave; abire"/>
@@ -222,13 +222,26 @@
         <symbol name="SS" place="left_margin"/>
         <symbol name="JC" place="intext"/>
         
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="aliquantum imminuit Publicola"/>
+        <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="insignia gestare"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="insigne metuendum"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="regem agere Romae"/>
+        <mark name="equal_sign" method="pen" place="left_margin" />
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- priua -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- cha -->
+        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="Aristocratia"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- con -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- suppli -->
+        
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="aristocratiam"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="monarchiam"/>
         <mark name="dot" method="pen" place="intext"/> <!-- quadraginta, -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- Publicola, -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Publicola"/>
         <mark name="dash" method="pen" place="intext"/> <!-- consen -->
         <mark name="dot" method="pen" place="intext"/> <!-- est, -->
@@ -237,18 +250,13 @@
         <mark name="dot" method="pen" place="intext"/> <!-- fide, -->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- detrectet, -->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="aliquantum imminuit Publicola"/>
         <mark name="dot" method="pen" place="intext"/> <!-- Publicola, -->
-        <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="insignia gestare"/>
         <mark name="dot" method="pen" place="intext"/> <!-- gestare, -->
         <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="insigne metuendum"/>
         <mark name="dash" method="pen" place="intext"/> <!-- sumen -->
-        <mark name="dot" method="pen" place="intext"/> <!-- prouincialibus, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- proconsulibus, -->
         <mark name="comma" method="pen" place="intext"/> <!-- potentiae -->
-        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="regem agere Romae"/>
         <mark name="dot" method="pen" place="intext"/> <!-- regnum, -->
-        <mark name="equal_sign" method="pen" place="left_margin" />
         <mark name="dot" method="pen" place="intext"/> <!-- diminutum, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="patribus co[n]scriptis"/>
         <mark name="dot" method="pen" place="intext"/> <!-- ordine, -->
@@ -258,25 +266,21 @@
         <mark name="dot" method="pen" place="intext"/> <!-- regi, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="muniendum"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="charitatem priuatam"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- priua -->
-        <mark name="dot" method="pen" place="intext"/> <!-- tam, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- priuatam, -->
         <mark name="plus_sign" method="pen" place="intext" />
-        <mark name="dash" method="pen" place="right_margin"/> <!-- cha -->
         <mark name="dot" method="pen" place="intext"/> <!-- praeferri, -->
+        <mark name="diacritic" method="pen" place="intext"/> <!--contra-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- potest, -->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="repetebantur ab eo rogationes gestorum"/>
         <mark name="dot" method="pen" place="intext"/> <!-- actorum, -->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="Aristocratia"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- con -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--conuentu. Supra-->
         <mark name="dot" method="pen" place="intext"/> <!-- sunt, -->
         <mark name="dot" method="pen" place="intext"/> <!-- legum, -->
         <mark name="dot" method="pen" place="intext"/> <!-- mandata, -->
         <mark name="dot" method="pen" place="intext"/> <!-- affectum, -->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- suppli -->
+        <mark name="dot" method="pen" place="intext"/> <!--caedi, deinde-->
         
     </annotation>
 </transcription>
