@@ -10,12 +10,12 @@
         
         <underline method="pen" type="straight" language="LA" text="quingentis coronatis"/>
         <underline method="pen" type="straight" language="LA" text="summam qui non possideret"/>
-        <underline method="pen" type="straight" language="LA" text="classicus"/>
+        <underline method="pen" type="straight" language="LA" text="classicus: id"/>
         <underline method="pen" type="straight" language="LA" text="non censeretur in classe"/>
         <underline method="pen" type="straight" language="LA" text="Seruij quarta"/>
         <underline method="pen" type="straight" language="LA" text="non censa"/>
         <underline method="pen" type="straight" language="LA" text="sexto ordini capite censorum &amp; proletariorum"/>
-        <underline method="pen" type="straight" language="LA" text="non haberent"/>
+        <underline method="pen" type="straight" language="LA" text="cum non haberent"/>
         <underline method="pen" type="straight" language="LA" text="penderent tributum"/>
         <underline method="pen" type="straight" language="LA" text="alijs tributarijs oneribus"/>
         <underline method="pen" type="straight" language="LA" text="immunes"/>
@@ -63,7 +63,7 @@
         <underline method="pen" type="straight" language="LA" text="comitia"/>
         <underline method="pen" type="straight" language="LA" text="conuentum ciuium &amp; hominum"/>
         <underline method="pen" type="straight" language="LA" text="Romae tria comitiorum"/>
-        <underline method="pen" type="straight" language="LA" text="Cenuriata"/>
+        <underline method="pen" type="straight" language="LA" text="Centuriata"/>
         <underline method="pen" type="straight" language="LA" text="Curiata"/>
         <underline method="pen" type="straight" language="LA" text="Tributa"/>
         <underline method="pen" type="straight" language="LA" text="centuriata comitia"/>
@@ -196,80 +196,87 @@
         <underline method="pen" type="straight" language="LA" text="similibus commercijs &amp; contractibus"/>
         <underline method="pen" type="straight" language="LA" text="primus"/>
         
-        <symbol name="SS" place="intext"/>
         <symbol name="SS" place="left_margin" language="LA" text="esset authoritas, maiorq[ue] uis suffragiorum"/>
+        
         <symbol name="SS" place="right_margin"/>
-        <symbol name="JC" place="intext" language="LA" text="Iureconsultos"/>
+        
         <symbol name="JC" place="tail" language="LA" text="Leges commerciales"/>
         
+        <symbol name="SS" place="intext"/>
+        <symbol name="JC" place="intext" language="LA" text="Iureconsultos"/>
+        
         <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="sexto ordini capite censorum &amp; proletariorum"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="secundum censum &amp; facultates"/>
+        <mark name="quotation_mark" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- col -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Augu -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- haben -->
+        <!--two elongated dots... apostrophe?-->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- aesti -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ob -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Tribus -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- co -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- insti -->
+        
         <mark name="dash" method="pen" place="intext"/> <!-- quar -->
         <mark name="dash" method="pen" place="intext"/> <!-- an -->
-        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="sexto ordini capite censorum &amp; proletariorum"/>
         <mark name="dash" method="pen" place="intext"/> <!-- secun -->
-        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="secundum censum &amp; facultates"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="intext"/> <!-- lu -->
-        <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="ex publico"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="equos emendos"/>
         <mark name="dash" method="pen" place="intext"/> <!-- or -->
+        <mark name="dot" method="pen" place="intext"/> <!--coguntur &-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="alimentum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="comitium"/>
         <mark name="dash" method="pen" place="intext"/> <!-- co[n] -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="homines"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="comitia"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="centuriata"/>
         <mark name="dash" method="pen" place="intext"/> <!-- ma -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="extra urbem"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Pontifices"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--consensulatae. Comitia-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="curiata"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="intra urbem"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="sacerdotes"/>
-        <mark name="dot" method="pen" place="intext"/> <!--ferebantur,-->
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--ferebantur, ut-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--patet. Comitia-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="intext"/> <!-- tri -->
-        <mark name="dot" method="pen" place="intext"/> <!-- differre, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- differre, ut-->
         <mark name="bracket" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- dictae, -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- col -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Augu -->
+        <mark name="dot" method="pen" place="intext"/> <!-- dictae, Tribus-->
         <mark name="dot" method="pen" place="intext"/> <!-- Sacerdotum, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Incensos"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- haben -->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Censura"/>
+        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="disciplinae Romanae priuatim publiceq[ue] regimen"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- aesti -->
         <mark name="bracket" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="notae censuriae"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- Senatores, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- ciues, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- quinta -->
+        <mark name="dot" method="pen" place="intext"/> <!-- Senatores, &-->
+        <mark name="dot" method="pen" place="intext"/> <!-- ciues, honestiores-->
+        <mark name="dot" method="pen" place="intext"/> <!-- quinta Muros-->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- publica, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- publica, ut-->
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="locupletioribus"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ob -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="leges agrariae"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Tribus -->
-        <mark name="dot" method="pen" place="intext"/> <!--consule,-->
+        <mark name="dot" method="pen" place="intext"/> <!--consule, ut-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="uita Gracchorum"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- co -->
-        <mark name="dot" method="pen" place="intext"/> <!--fratrum,-->
+        <mark name="dot" method="pen" place="intext"/> <!--fratrum, qua-->
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="diacritic" method="pen" place="intext" language="LA" text="quod"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- insti -->
-        
-        <errata language="LA" copytext="quod" amendedtext="q&ugrave;od"/>
         
     </annotation>
 </transcription>
