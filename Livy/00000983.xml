@@ -8,7 +8,7 @@
     <page filename="00000983.tif" reader="Harvey" signature="[K4v]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="LEGES SERVII TVLLII">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
@@ -35,7 +35,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="classes">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
@@ -108,7 +108,7 @@
         <underline method="pen" type="straight" language="LA" text="discrimina &amp; ordines ciuium hominumq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="officia publica"/>
         <underline method="pen" type="straight" language="LA" text="opulentiam"/>
-        <underline method="pen" type="straight" language="LA" text="uel nobiltatem"/>
+        <underline method="pen" type="straight" language="LA" text="uel nobilitatem"/>
         <underline method="pen" type="straight" language="LA" text="uel prudentiam"/>
         <underline method="pen" type="straight" language="LA" text="sordidi"/>
         <underline method="pen" type="straight" language="LA" text="nobiles"/>
@@ -129,7 +129,7 @@
         <underline method="pen" type="straight" language="LA" text="quisq[ue] pro suis uiribus"/>
         <underline method="pen" type="straight" language="LA" text="Seruij institutum"/>
         <underline method="pen" type="straight" language="LA" text="long&egrave; saluberrimum urbi"/>
-        <underline method="pen" type="straight" language="LA" text="census"/>
+        <underline method="pen" type="straight" language="LA" text="census aestimatio"/>
         <underline method="pen" type="straight" language="LA" text="facultatum cuiusq[ue] ciuis"/>
         <underline method="pen" type="straight" language="LA" text="coniectura, quantu[m] quisq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="facultatum suarum proportione geometrica"/>
@@ -160,7 +160,7 @@
         <underline method="pen" type="straight" language="LA" text="Tertia, quingentis"/>
         <underline method="pen" type="straight" language="LA" text="Quarta, ducentis"/>
         <underline method="pen" type="straight" language="LA" text="Quinta &amp; infima, centum &amp; decem"/>
-        <underline method="pen" type="straight" language="LA" text="adhuc parue, uel saltem mediocres"/>
+        <underline method="pen" type="straight" language="LA" text="adhuc paruae, uel saltem mediocres"/>
         <underline method="pen" type="straight" language="LA" text="intra annos trecentos"/>
         <underline method="pen" type="straight" language="LA" text="creuere ipsorum facultates"/>
         <underline method="pen" type="straight" language="LA" text="tempore belli Punici secundi"/>
@@ -180,51 +180,57 @@
         <underline method="pen" type="straight" language="LA" text="Senatorius"/>
         <underline method="pen" type="straight" language="LA" text="triginta millia coronatorum"/>
         
-        <symbol name="SS" place="intext"/>
-        <symbol name="SS" place="intext"/>
+        
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
+        
         <symbol name="SS" place="tail" language="LA" text="Comitia, et modus suffragiorum."/>
         
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="difficiliores aliquot leges continentur"/>
+        <symbol name="SS" place="intext"/>
+        <symbol name="SS" place="intext"/>
+        
         <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="Sola patrum &amp; senatus authoritate"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
+        <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- opu -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- sor -->
+        <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- cen -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- censean -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- cir -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- co -->
+        
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="difficiliores aliquot leges continentur"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="regnare posse regem"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- quaesitus, -->
         <mark name="dot" method="pen" place="intext"/> <!-- mutatum, -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Caesares"/>
         <mark name="quotation_mark" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- uoluntate, -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Senatus"/>
         <mark name="dot" method="pen" place="intext"/> <!-- instituunt, -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="maiestas"/>
-        <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="potentia"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="officia"/>
-        <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- opu -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- sor -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Secundum censum"/>
+        <mark name="dot" method="pen" place="intext"/> <!--agant, sed-->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!--ciuis,-->
-        <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- cen -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- censean -->
-        <mark name="dot" method="pen" place="intext"/> <!-- ignoret, -->
+        <mark name="dot" method="pen" place="intext"/> <!--ciuis, quo-->
+        <mark name="dot" method="pen" place="intext"/> <!-- ignoret, &-->
         <mark name="triple_dash" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="essent classici"/>
         <mark name="dot" method="pen" place="intext"/> <!--decupla,-->
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- ciuium -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- cir -->
-        <mark name="dot" method="pen" place="intext"/> <!--quinquagesimum,-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- ciuium. Verum -->
+        <mark name="dot" method="pen" place="intext"/> <!--quinquagesimum, censa-->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- co -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--Senatu[m]. Postea-->
         
     </annotation>
 </transcription>
