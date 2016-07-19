@@ -31,14 +31,14 @@
         <underline method="pen" type="straight" language="LA" text="uxoris Tanaquilis"/>
         <underline method="pen" type="straight" language="LA" text="fer&egrave; incredibilis prudentia"/>
         <underline method="pen" type="straight" language="LA" text="solertia"/>
-        <underline method="pen" type="straight" language="LA" text="scire incrementa"/>
+        <underline method="pen" type="straight" language="LA" text="scire incrementa iuris"/>
         <underline method="pen" type="straight" language="LA" text="Romani &amp; disciplinae"/>
         <underline method="pen" type="straight" language="LA" text="accessiones aedificiorum"/>
         <underline method="pen" type="straight" language="LA" text="exempla iure ac ratione"/>
         <underline method="pen" type="straight" language="LA" text="TARQVINII PRISCI"/>
         <underline method="pen" type="straight" language="LA" text="tutela exire"/>
         <underline method="pen" type="straight" language="LA" text="fiant puberes"/>
-        <underline method="pen" type="straight" language="LA" text="maiores natu quatuordecim"/>
+        <underline method="pen" type="straight" language="LA" text="maiores natu quatuordecim annis"/>
         <underline method="pen" type="straight" language="LA" text="curatores, usque"/>
         <underline method="pen" type="straight" language="LA" text="uicesimumprimum"/>
         <underline method="pen" type="straight" language="LA" text="adulti, sub cura"/>
@@ -54,17 +54,18 @@
         <underline method="pen" type="straight" language="LA" text="uigesimumprimum annum egreditur"/>
         <underline method="pen" type="straight" language="LA" text="patre emancipatur"/>
         <underline method="pen" type="straight" language="LA" text="est liberatur &agrave; patria potestate"/>
+        <underline method="pen" type="straight" language="LA" text="neque adultus"/>
         <underline method="pen" type="straight" language="LA" text="filiusfamili&agrave;s, est sui arbitrij"/>
         <underline method="pen" type="straight" language="LA" text="Sola uirilis aetas"/>
         <underline method="pen" type="straight" language="LA" text="reb&ugrave;s politicis administrandis"/>
         <underline method="pen" type="straight" language="LA" text="Iuuenes enim"/>
         <underline method="pen" type="straight" language="LA" text="de aetate promoue[n]dorum ad honores"/>
         <underline method="pen" type="straight" language="LA" text="sunt delegandi ad publica"/>
-        <underline method="pen" type="straight" language="LA" text="illi uiuis exmplis principum &amp; peritorum"/>
+        <underline method="pen" type="straight" language="LA" text="illi uiuis exemplis principum &amp; peritorum"/>
         <underline method="pen" type="straight" language="LA" text="nobilium liberi"/>
         <underline method="pen" type="straight" language="LA" text="ad senes &amp; peritissimos quosque"/>
         <underline method="pen" type="straight" language="LA" text="quibus astarent"/>
-        <underline method="pen" type="straight" language="LA" text="uiuis exmplis"/>
+        <underline method="pen" type="straight" language="LA" text="uiuis exemplis"/>
         <underline method="pen" type="straight" language="LA" text="Iura ciuitatis &amp;"/>
         <underline method="pen" type="straight" language="LA" text="ex libris"/>
         <underline method="pen" type="straight" language="LA" text="uel usu"/>
@@ -91,13 +92,14 @@
         <underline method="pen" type="straight" language="LA" text="patricius"/>
         <underline method="pen" type="straight" language="LA" text="nongenti senatores"/>
         <underline method="pen" type="straight" language="LA" text="Iulius autem Caesar"/>
+        <underline method="pen" type="straight" language="LA" text="monarcha"/>
         <underline method="pen" type="straight" language="LA" text="senatum bellis"/>
         <underline method="pen" type="straight" language="LA" text="ex omni hominum colluuie"/>
         <underline method="pen" type="straight" language="LA" text="Gallos"/>
         <underline method="pen" type="straight" language="LA" text="Germanos"/>
         <underline method="pen" type="straight" language="LA" text="aliosq[ue] peregrinos"/>
         <underline method="pen" type="straight" language="LA" text="per iocum"/>
-        <underline method="pen" type="straight" language="LA" text="quis Senatori"/>
+        <underline method="pen" type="straight" language="LA" text="ne quis Senatori"/>
         <underline method="pen" type="straight" language="LA" text="uiam monstraret in curiam"/>
         <underline method="pen" type="straight" language="LA" text="loqueretur per interpretem"/>
         <underline method="pen" type="straight" language="LA" text="pristinum numerum &amp; nobilitatem"/>
@@ -118,40 +120,44 @@
         <underline method="pen" type="straight" language="LA" text="ordines spectandi"/>
         
         <symbol name="SS" place="left_margin" language="LA" text="Tarquinij Prisci, optimi principis, scripsit"/>
-        <symbol name="SS" place="right_margin" language="LA" text="illi uiuis exmplis principum &amp; peritorum"/>
+        
+        <symbol name="SS" place="right_margin" language="LA" text="illi uiuis exemplis principum &amp; peritorum"/>
         <symbol name="JC" place="right_margin" language="LA" text="Iura ciuitatis"/>
         <symbol name="SS" place="right_margin"/>
-            
-        <mark name="dot" method="pen" place="intext"/> <!-- pacis, -->
+        
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/> 
-        <mark name="vertical_bar" method="pen" place="intext"/>
+            
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ex -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- administran -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- in -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- conscri -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Tybe -->
+        <mark name="dash" method="pen" place="right_margin"/> <!--next to suppleuit-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--next to suppleuit-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--next to suppleuit-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--next to suppleuit-->
+        <!--quadruple dash-->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Ger-->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- mon -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- inter -->
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- adula -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- sacerdo -->
+        
+        <mark name="dot" method="pen" place="intext"/> <!-- pacis, -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--solertia. Ergo-->
         <mark name="dot" method="pen" place="intext"/> <!--annis, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="uicesimumprimum"/>
         <mark name="dot" method="pen" place="intext"/> <!--annum, intra-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--consensu, ut-->
         <mark name="quotation_mark" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ex -->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- administran -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- in -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- conscri -->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Tybe -->
-        <mark name="dash" method="pen" place="right_margin"/> <!--next to suppleuit-->
-        <mark name="dash" method="pen" place="right_margin"/> <!--next to suppleuit-->
-        <mark name="dash" method="pen" place="right_margin"/> <!--next to suppleuit-->
-        <mark name="dash" method="pen" place="right_margin"/> <!--next to suppleuit-->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Ger-->
         <mark name="dot" method="pen" place="intext"/> <!--peregrinos, ut-->
         <mark name="straight_quotation_mark" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- mon -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- inter -->
-        <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="quotation_mark" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- adula -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- sacerdo -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Ludi sacri"/>
         
     </annotation>
