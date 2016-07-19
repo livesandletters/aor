@@ -66,7 +66,7 @@
         <underline method="pen" type="straight" language="LA" text="de inaugurando rege, &amp; consecrando eo per certas"/>
         <underline method="pen" type="straight" language="LA" text="Hebraeos"/>
         <underline method="pen" type="straight" language="LA" text="prosperis initijs, Deoq[ue]"/>
-        <underline method="pen" type="straight" language="LA" text="sub Consulibus paululum"/>
+        <underline method="pen" type="straight" language="LA" text="sub Consulibus"/>
         <underline method="pen" type="straight" language="LA" text="praeterqu&agrave;m auguri"/>
         <underline method="pen" type="straight" language="LA" text="de Iani templo"/>
         <underline method="pen" type="straight" language="LA" text="belli tempore aperiendo"/>
@@ -81,7 +81,7 @@
         <underline method="pen" type="straight" language="LA" text="Numa decem mensibus Romuli"/>
         <underline method="pen" type="straight" language="LA" text="Ianuarium habentem"/>
         <underline method="pen" type="straight" language="LA" text="Februarium"/>
-        <underline method="pen" type="straight" language="LA" text="trecentos quinquagintaquinq[ue]dies"/>
+        <underline method="pen" type="straight" language="LA" text="trecentos quinquagintaquinq[ue] dies"/>
         <underline method="pen" type="straight" language="LA" text="annus Romanus"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; Numa in Iulium Caesare[m]"/>
         <underline method="pen" type="straight" language="LA" text="annus Graecus"/>
@@ -113,7 +113,7 @@
         <underline method="pen" type="straight" language="LA" text="Carolus Magnus"/>
         <underline method="pen" type="straight" language="LA" text="Mathematicae periti"/>
         <underline method="pen" type="straight" language="LA" text="minuta cesent huic quoq[ue] Augustano anno"/>
-        <underline method="pen" type="straight" language="LA" text="Ioannes"/>
+        <underline method="pen" type="straight" language="LA" text="Ioannes de"/>
         <underline method="pen" type="straight" language="LA" text="Mathematicus peritissimus"/>
         <underline method="pen" type="straight" language="LA" text="aequinoctium uernum suo tempore"/>
         <underline method="pen" type="straight" language="LA" text="ad octauum Calendas"/>
@@ -140,8 +140,8 @@
         <underline method="pen" type="straight" language="LA" text="dies intercisi"/>
         <underline method="pen" type="straight" language="LA" text="de Calendis"/>
         <underline method="pen" type="straight" language="LA" text="Nonis"/>
-        <underline method="pen" type="straight" language="LA" text="Idibus"/>
-        <underline method="pen" type="straight" language="LA" text="Nefastos"/>
+        <underline method="pen" type="straight" language="LA" text="et Idibus"/>
+        <underline method="pen" type="straight" language="LA" text="Nefastos autem"/>
         <underline method="pen" type="straight" language="LA" text="ominosos, infaustos, &amp; quasi"/>
         <underline method="pen" type="straight" language="LA" text="Sacerdotes"/>
         <underline method="pen" type="straight" language="LA" text="sacerdotia"/>
@@ -160,7 +160,7 @@
         <underline method="pen" type="straight" language="LA" text="uiua defoderetur"/>
         <underline method="pen" type="straight" language="LA" text="neglect&egrave; sacra"/>
         <underline method="pen" type="straight" language="LA" text="uirgis &agrave; Po[n]tifice"/>
-        <underline method="pen" type="straight" language="LA" text="Salij"/>
+        <underline method="pen" type="straight" language="LA" text="Salij sacerdotes"/>
         <underline method="pen" type="straight" language="LA" text="Feciales"/>
         <underline method="pen" type="straight" language="LA" text="repetendis"/>
         <underline method="pen" type="straight" language="LA" text="indicendo"/>
@@ -174,28 +174,13 @@
         <underline method="pen" type="straight" language="LA" text="supremam autoritatem haberent"/>
         
         <symbol name="JC" place="right_margin"/>
+        
         <symbol name="SS" place="tail"/>
         
         <mark name="quotation_mark" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- consecrantur, -->
-        <mark name="dash" method="pen" place="intext"/> <!-- pau -->
-        <mark name="dash" method="pen" place="intext"/> <!-- au -->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Religionibus"/>
-        <mark name="dash" method="pen" place="intext"/> <!-- uul -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- illigandos, -->
-        <mark name="dash" method="pen" place="intext"/> <!-- reti -->
-        <mark name="dash" method="pen" place="intext"/> <!-- men -->
-        <mark name="dash" method="pen" place="intext"/> <!-- sum -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="annus Romanus"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="annus Graecus"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- diebus, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- horae, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- solis, -->
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="dash" method="pen" place="intext"/> <!-- di -->
-        <mark name="dot" method="pen" place="intext"/> <!--superat, ideo-->
-        <mark name="dash" method="pen" place="intext"/> <!-- no -->
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- quar -->
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- co[n] -->
@@ -205,8 +190,27 @@
         <mark name="dash" method="pen" place="right_margin"/> <!-- Quirina -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- fic -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ci -->
-        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- cae -->
+        
+        <mark name="dot" method="pen" place="intext"/> <!-- consecrantur, -->
+        <mark name="dash" method="pen" place="intext"/> <!-- pau -->
+        <mark name="dash" method="pen" place="intext"/> <!-- au -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Religionibus"/>
+        <mark name="dash" method="pen" place="intext"/> <!-- uul -->
+        <mark name="dot" method="pen" place="intext"/> <!-- illigandos, -->
+        <mark name="dash" method="pen" place="intext"/> <!-- reti -->
+        <mark name="dash" method="pen" place="intext"/> <!-- men -->
+        <mark name="dash" method="pen" place="intext"/> <!-- sum -->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="annus Romanus"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="annus Graecus"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- diebus, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- horae, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- solis, -->
+        <mark name="dash" method="pen" place="intext"/> <!-- di -->
+        <mark name="dot" method="pen" place="intext"/> <!--superat, ideo-->
+        <mark name="dash" method="pen" place="intext"/> <!-- no -->
+        <mark name="dot" method="pen" place="intext"/> <!--sexto, ubi-->
+        <mark name="dot" method="pen" place="intext"/> <!--negocijs, quos-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         
