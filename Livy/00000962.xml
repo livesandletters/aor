@@ -42,7 +42,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
-                        decrepita a[e]tas sub pontificibus: quam Florus ignorauit in quatuor a[e]tatibus populi Romani. s[upr]a in compendio historia[e] 
+                        decrepita a[e]tas sub Pontificibus: quam Florus ignorauit in quatuor a[e]tatibus populi Romani. s[upr]a in compendio historia[e] 
                         Romana[e]: quasi synopsi totius Liuij.
                     </marginalia_text>
                 <person name="Florus"/>
@@ -62,7 +62,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Observationes erudita[e], prudentes, politica[e], seria[e], valdeq[ue] memorabiles. pra[e]sertim polyhistori, philologo, politico, 
+                        Obseruationes erudita[e], prudentes, politica[e], seria[e], valdeq[ue] memorabiles. pra[e]sertim Polyhistori, philologo, politico, 
                         iurisconsulto.
                     </marginalia_text>
                 </position>
@@ -72,11 +72,11 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="ARGVMENVM LIBRI PRIMI"/>
+        <underline method="pen" type="straight" language="LA" text="ARGVMENTVM LIBRI PRIMI"/>
         <underline method="pen" type="straight" language="LA" text="totius historiae Romanae"/>
         <underline method="pen" type="straight" language="LA" text="regibus Albanis atq[ue] Romanis"/>
         <underline method="pen" type="straight" language="LA" text="historiae sunt omnino necessariae, nedum utiles, ad"/>
-        <underline method="pen" type="straight" language="LA" text="reliquum corpus totum historiae Romanae cogniscendum"/>
+        <underline method="pen" type="straight" language="LA" text="reliquum corpus totum historiae Romanae cognoscendum"/>
         <underline method="pen" type="straight" language="LA" text="quasi caput eius corporis &amp; principium"/>
         <underline method="pen" type="straight" language="LA" text="breuiter Florus complectitur"/>
         <underline method="pen" type="straight" language="LA" text="prima epitome"/>
@@ -92,7 +92,8 @@
         <underline method="pen" type="straight" language="LA" text="omnia illa quae ab historicis, uel ab oratoribus"/>
         <underline method="pen" type="straight" language="LA" text="poetis"/>
         <underline method="pen" type="straight" language="LA" text="Romana repub. eiusq[ue] uiris et uiribus"/>
-        <underline method="pen" type="straight" language="LA" text="Romanis unquam sunt"/>
+        <underline method="pen" type="straight" language="LA" text="Romanis legibus et"/>
+        <underline method="pen" type="straight" language="LA" text="de iure &amp; magistratibus Romanis unquam sunt"/>
         <underline method="pen" type="straight" language="LA" text="ingressum patefaciunt hi duo libri"/>
         <underline method="pen" type="straight" language="LA" text="diligentissimeq[ue] perlegi utrunq[ue] conuenit"/>
         <underline method="pen" type="straight" language="LA" text="aetates quinq[ue] &agrave; prima"/>
@@ -137,7 +138,7 @@
         <underline method="pen" type="straight" language="LA" text="primo libro"/>
         <underline method="pen" type="straight" language="LA" text="Secundam aetatem quoque totam"/>
         <underline method="pen" type="straight" language="LA" text="centum &amp; decem libris"/>
-        <underline method="pen" type="straight" language="LA" text="tertiae aetatis"/>
+        <underline method="pen" type="straight" language="LA" text="tertiae aetatis initia"/>
         <underline method="pen" type="straight" language="LA" text="triginta libris"/>
         <underline method="pen" type="straight" language="LA" text="maxima pars Liuianae"/>
         <underline method="pen" type="straight" language="LA" text="magis ignauia perijt"/>
@@ -241,36 +242,61 @@
         <underline method="pen" type="straight" language="LA" text="et membris ita"/>
         <underline method="pen" type="straight" language="LA" text="plures complectatur"/>
 
-        <symbol name="SS" place="head" language="LA" text="ARGVMENTVM LIBRI PRIMI"/>        
+        <symbol name="SS" place="head" language="LA" text="ARGVMENTVM LIBRI PRIMI"/>     
+        
         <symbol name="Sun" place="left_margin"/>
+        <symbol name="SS" place="left_margin"/>
+        <symbol name="SS" place="left_margin"/>
+        <symbol name="SS" place="left_margin"/>
+        <symbol name="SS" place="left_margin"/>
+        
         <symbol name="SS" place="intext"/>
-        <symbol name="SS" place="left_margin"/>
-        <symbol name="SS" place="left_margin"/>
-        <symbol name="SS" place="left_margin"/>
-        <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="intext"/>
         <symbol name="SS" place="intext"/>
         <symbol name="SS" place="intext"/>
         
         <mark name="plus_sign" method="pen" place="head" language="LA" text="totius hostiriae Romanae"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        
         <mark name="circumflex" method="pen" place="left_margin"/>
         <mark name="circumflex" method="pen" place="left_margin"/>
+        <mark name="circumflex" method="pen" place="left_margin"/>
+        <mark name="circumflex" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ciui -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- mor -->
+        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="FLORO"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- li -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- li -->
+        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- se -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- de -->
+        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Hispa -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- an -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ty -->
+        <mark name="dot" method="pen" place="right_margin"/> <!-- crescant -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- inuen -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- obser -->
+        
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Romanis legibus"/>
         <mark name="dash" method="pen" place="intext"/> <!-- mo -->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="circumflex" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="intext"/> <!-- fie -->
-        <mark name="circumflex" method="pen" place="left_margin"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--conuenit. In-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="distinctam Romanam historiam"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="regibus"/>
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="pueritia"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="monarchiam"/>
@@ -296,9 +322,7 @@
         <mark name="dot" method="pen" place="intext"/> <!-- triginta, -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="mancipium"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Primae aetatis"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
@@ -307,8 +331,6 @@
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="tertiae aetatis"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="maxima pars Liuianae"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dot" method="pen" place="intext"/> <!-- perijt, -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="nudos indices habemus"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Flori"/>
@@ -318,7 +340,6 @@
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="quartam"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="quintam aetatem"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Totum"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/> <!--Latinoru[m] princeps-->
@@ -328,7 +349,6 @@
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="liberius paulo"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ciui -->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
@@ -339,51 +359,37 @@
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Liuiu[m] docendi opera[m]"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- mor -->
-        <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="FLORO"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Florus aetate"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- li -->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/> <!--ret-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="non inutilis usus huiusmodi"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Florus"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- li -->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- se -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- de -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="talia increme[n]ta"/>
         <mark name="dot" method="pen" place="intext"/> <!-- obseruare, -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Hispa -->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- an -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="straight_quotation_mark" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ty -->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- superfuit, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="quinta[m]"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="minima"/>
-        <mark name="dot" method="pen" place="right_margin"/> <!-- crescant -->
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="quaeq[ue] decrescant"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="obseruatio"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="imitatio"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- inuen -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="in Liuio"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- obser -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Liuij oratio ut copiosa et grauis"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="longiore"/>
