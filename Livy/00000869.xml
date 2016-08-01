@@ -25,10 +25,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Glareano nullus Livij literatior glossographus ante Velcurionem: nec ullus exactior Chronologus, aut Geographus ante Funccium, et 
+                        Glareano nullus Liuij literatior glossographus ante Velcurionem: nec vllus exactior Chronologus, aut Geographus ante Funccium, et 
                         Mercatorem. Tutius erit, interpretes sequi maxim&egrave; credibiles: et in pauca pra[e]cipua inquirere diligenti&ugrave;s; nonnulla 
                         etiam momentosa examinare curiosi&ugrave;s. Quod uideo fecisse paucos industrios, et solertes lectores. Gelenij castigationes in Plinium malim,
-                        qu&agrave;m in Liuium. Ibi Hermolao Barbaro secundus: h&icirc;c Glareano, Uelcurioni, Sabellico, alijs.
+                        qu&agrave;m in Liuium. Ibi Hermolao Barbaro secundus: h&icirc;c Glareano, Velcurioni, Sabellico, alijs.
                     </marginalia_text>
                     <person name="Johannes Velcurio"/>
                     <person name="Heinrich Glarean"/>
@@ -53,7 +53,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        An &AElig;neas, et Antenor, patria[e] proditores? qu&ograve;d non.
+                        An &AElig;na[e]as, et Antenor, patria[e] proditores? qu&ograve;d non.
                     </marginalia_text>
                     <person name="Aeneas"/>
                     <person name="Antenor"/>
@@ -127,6 +127,7 @@
         <underline method="pen" type="straight" language="LA" text="Priami filia[m]"/>
         <underline method="pen" type="straight" language="LA" text="Creusam"/>
         <underline method="pen" type="straight" language="LA" text="Lauinia[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Ascaniu[m]"/>
         <underline method="pen" type="straight" language="LA" text="Error"/>
         <underline method="pen" type="straight" language="LA" text="Liuio duplex uideri potest"/>
         <underline method="pen" type="straight" language="LA" text="Syluium Ascanij"/>
@@ -136,13 +137,17 @@
         
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
+        
         <symbol name="SS" place="right_margin" language="EL" text="καὶ παῖδες παίδων, τοίηεν"/>
         
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="nec nisi annotatio[n]e digna"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
         <mark name="dot" method="pen" place="right_margin"/> <!-- ANNOTATIONES, -->
+        
         <mark name="dash" method="pen" place="intext"/> <!-- ope -->
         <mark name="dash" method="pen" place="intext"/> <!-- gen -->
         <mark name="dash" method="pen" place="intext"/> <!-- li -->
-        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="nec nisi annotatio[n]e digna"/>
         <mark name="dash" method="pen" place="intext"/> <!-- Ser -->
         <mark name="dash" method="pen" place="intext"/> <!-- Ante -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="patria[m] perdidisse dicu[n]tur"/>
