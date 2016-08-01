@@ -25,13 +25,13 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Exstat eruditi Galli libera, et arguta in Liuium inuectiua: pra[e]sertim vbi agit de suis Gallis. Quos fictorum uitiorum queritur 
+                        Exstat eruditi Galli libera, et arguta in Liuium inuectiua: pra[e]sertim vbi agit de suis Gallis. Quos fictorum vitiorum queritur 
                         &agrave; Liuio insimulatos. Quod etiam Bodinus, suis maioribus fauens, aliquant&ograve; miti&ugrave;s in Liuio red&aacute;rguit. Alios etiam 
                         nonnullos Liuij errores, Bodinus, et certi alij critici confidenter taxarunt. Qu&ograve;d profusus est in alienis laudibus: in 
                         reprehensionibus parcus: in prodigijs sa[e]p&egrave; incredibilibus narrandis nimius: in directis, obliquisq[ue] concionibus interserendis 
                         immoderatus: qu&ograve;d etiam Justinus &egrave; Trogo animaduertit: suorum Romanorum prodigus fautor: alijs pra[e]sertim Gallis non 
                         satis candidus: Brenni copijs contra Polybium iniquus: qua[e] non prorsus deleta[e], vt ille, Appianus, Justinus fabulantur; sed Thracum 
-                        uictrices, circa Bizantium diu regnarunt. Quin idem etiam nouissim&egrave; Lipsio, siquidem iusto, supinus alibi, aut frigidus, 
+                        victrices, circa Bizantium diu regnarunt. Quin idem etiam nouissim&egrave; Lipsio, siquidem iusto, supinus alibi, aut frigidus, 
                         im&ograve; et
                     </marginalia_text>
                     <person name="Livy"/>
@@ -55,7 +55,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Utinam nunq[uam] magis supinus, aut frigidus ipse Lipsius, atq[ue] ad&egrave;o
+                        Vtinam nunq[uam] magis supinus, aut frigidus ipse Lipsius, atq[ue] ad&egrave;o
                     </marginalia_text>
                 <person name="Lipsius"/>
                 </position>
@@ -89,7 +89,7 @@
             </translation>
         </marginalia>
        
-        <underline method="pen" type="straight" language="LA" text="turbandi omnia foemina ortum est"/>
+        <underline method="pen" type="straight" language="LA" text="turbandi omnia &agrave; foemina ortum est"/>
         <underline method="pen" type="straight" language="LA" text="uirum tanquam mare suapte natura quietum, procellosis"/>
         <underline method="pen" type="straight" language="LA" text="quibusdam uentis furoris agitauit, ut regnum affectaret"/>
         <underline method="pen" type="straight" language="LA" text="parricidium senis, cuius mortem expectare"/>
@@ -160,6 +160,7 @@
         <underline method="pen" type="straight" language="LA" text="pater huius"/>
         <underline method="pen" type="straight" language="LA" text="Priscu[m]"/>
         <underline method="pen" type="straight" language="LA" text="auorum aut proauoru[m] memoria"/>
+        <underline method="pen" type="straight" language="LA" text="&agrave; sui te[m]poris"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; posteriori seculo inditu[m]"/>
         <underline method="pen" type="straight" language="LA" text="prisci Latini"/>
         <underline method="pen" type="straight" language="LA" text="quib[us] tu, quem potissimu[m]"/>
@@ -176,14 +177,13 @@
         
         <mark name="plus_sign" method="pen" place="left_margin"/>        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
+        
         <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="regno in rempub. commutato"/> 
         <mark name="plus_sign" method="pen" place="right_margin" />
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- mer -->
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="apostrophe" method="pen" place="intext"/> <!-- genuerat --> 
         <mark name="horizontal_bar" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- uo -->
         <mark name="plus_sign" method="pen" place="right_margin"/>
@@ -192,5 +192,8 @@
         <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="tuum, aut labori cedere, cuius semper uictor extitisti"/>
         <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="quorum inter primos est Liuius, quoties falso accusantur"/>
         
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="apostrophe" method="pen" place="intext"/> <!-- genuerat --> 
+
     </annotation>
 </transcription>
