@@ -17,7 +17,7 @@
                 </position>
             </language>
             <translation>
-                Terse histories, certainly, but absolutely superb.
+                Short histories, certainly, but absolutely superb.
             </translation>
         </marginalia>
         
@@ -25,7 +25,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Perge, dum fervet animus: et reliqua arct&egrave; coha[e]rentia, strict&egrave; connecte.
+                        Perge, dum feruet animus: et reliqua arct&egrave; coha[e]rentia, strict&egrave; connecte.
                     </marginalia_text>
                 </position>
             </language>
@@ -75,16 +75,18 @@
         
         <symbol name="JC" place="right_margin"/>
         
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Ro -->
+        
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="deleretur"/>
         <mark name="dot" method="pen" place="intext"/> <!--dissuadente,-->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Ro -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Nicomede filio"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- haberet, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- esset, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- haberet, alter-->
+        <mark name="dot" method="pen" place="intext"/> <!-- esset, tertius-->
         <mark name="apostrophe" method="pen" place="intext"/> <!-- habere --> 
-        <mark name="comma" method="pen" place="intext"/> <!-- Macedonum -->
+        <mark name="comma" method="pen" place="intext"/> <!-- Macedonum inertia-->
         <mark name="apostrophe" method="pen" place="intext"/> <!-- occisi -->
         
     </annotation>
