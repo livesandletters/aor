@@ -14,22 +14,37 @@
                     <marginalia_text> 
                         Potentia[e] Romanoru[m] prior Scipio viam aperuerat: luxuria[e] posterior aperuit. Quippe, remoto Carthaginis metu, sublataq[ue] 
                         imperij a[e]mul&acirc;; non gradu, sed pra[e]cipiti cursu &agrave; virtute descitum, ad vitia transcursum; vetus disciplina deserta, noua 
-                        inducta; in somnum a vigiliis, ab armis ad voluptates, a negotijs in otium conuersa ciuitas. Tum Scipio Nasica in Capitolio porticus; 
-                        tum illas circundatas duabus a[e]dibus Metellus; tum in circo Cn[aeus] Octavius mult&ograve; amenissimam moliti sunt: publicamq[ue] 
-                        magnificentia[m] secuta priuata luxuria est. Paterculus l. 2. hist[oriae] Romana[e]. Partim Ciceronis elegantia[e]; partim Liuij uigori;
-                        partim Sallustij breuitatis affinis.
+                        inducta; in somnum a vigilijs, ab armis ad voluptates, &agrave; negotijs in otium conuersa ciuitas. Tum Scipio Nasica in Capitolio porticus; 
+                        tum illas circundatas duabus a[e]dibus Metellus; tum in circo Cn[aeus]
                     </marginalia_text>
                 <person name="Scipio Africanus"/>
                 <person name="Publius Cornelius Scipio Nasica Corculum"/>
                 <person name="Quintus Caecilius Metellus Macedonicus"/>
                 <person name="Gnaeus Octavius"/> 
-                <person name="Marcus Velleius Paterculus"/>
-                <person name="Cicero"/>
-                <person name="Livy"/>
-                <person name="Sallust"/>
-                <book title="Roman History"/>
                 <location name="Rome"/>
                 <location name="Carthage"/>
+                </position>
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Octauius mult&ograve; amenissimam moliti sunt: publicamq[ue] 
+                        magnificentia[m] secuta priuata Luxuria est. 
+                    </marginalia_text>
+                </position>
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        Paterculus l. 2. hist[oriae] 
+                    </marginalia_text>
+                    <person name="Marcus Velleius Paterculus"/>
+                    <book title="Roman History"/>
+                </position>
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Romana[e]. Partim Ciceronis elegantia[e]; partim Liuij vigori;
+                        partim Sallustij breuitati affinis.
+                    </marginalia_text>
+                    <person name="Cicero"/>
+                    <person name="Livy"/>
+                    <person name="Sallust"/>
                 </position>
             </language>
             <translation>
@@ -78,12 +93,12 @@
                 </position>
             </language>
             <translation>
-                Viriathus killed by traitors.
+                Viriatus killed by traitors.
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Carthago"/>
-        <underline method="pen" type="straight" language="LA" text="labore maximo obsessa, &amp; perpartes capta"/>
+        <underline method="pen" type="straight" language="LA" text="CArthago"/>
+        <underline method="pen" type="straight" language="LA" text="labore maximo obsessa, &amp; per partes capta"/>
         <underline method="pen" type="straight" language="LA" text="Mancino legato"/>
         <underline method="pen" type="straight" language="LA" text="Scipione consule"/>
         <underline method="pen" type="straight" language="LA" text="prouincia Africa data est"/>
@@ -129,24 +144,26 @@
 
         <symbol name="SS" place="intext"/>
 
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Man -->
-        <mark name="dot" method="pen" place="intext"/> <!-- legato, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- dedisset, -->
         <mark name="horizontal_bar" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- uenator, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- latro, -->
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="in Syria regnabat"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Man -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Vi -->
-        <mark name="dot" method="pen" place="intext"/> <!-- tumulatus, -->
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- gessit -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- fre -->
+        
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- legato, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- dedisset, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- uenator, &-->
+        <mark name="dot" method="pen" place="intext"/> <!-- latro, -->
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- tumulatus, uir-->
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- gessit frequentius-->
         
     </annotation>
 </transcription>
