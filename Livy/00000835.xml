@@ -39,9 +39,9 @@
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Doctor Dale, Lord Ambassadour in Fraunce, and the Lowe Countries, was as resolute after his fashion, as Popilius himself; and stood <!--JG: Make sure to use the '&' when it's used in the orginal text. ABO has changed the & into 'and'-->
-                        upon as peremptorie termes with the French Kinge, the duke of Parma, and other mightie Princes, as the stowtest Romane euer did in the 
-                        like cases. When the Earle of Darbie, and other Ambassadours respectiuely quailed, he was allwaies in harte, absolute, and inuincible. 
+                        Doctor Dale, Lord Ambassadour in Fraunce, &amp; the Lowe Countries, was as resolute after his fashion, as Popilius himself: and stood
+                        upon as peremptorie termes with the French Kinge, the duke of Parma, &amp; other mightie Princes, as the stowtest Romane euer did in the 
+                        like cases. When the Earle of Darbie, &amp; other Ambassadours respectiuely quailed, he was allwaies in harte, absolute, &amp; inuincible. 
                         The Prince of Parma was neuer so berded to his face, bie anie Ambassadour.
                     </marginalia_text>
                     <person name="Valentine Dale"/>
@@ -64,7 +64,7 @@
         <underline method="pen" type="straight" language="LA" text="quod censet senatus"/>
         <underline method="pen" type="straight" language="LA" text="Popilius dextra[m] regi tanquam"/>
         <underline method="pen" type="straight" language="LA" text="Et Masgabae regis Masanissae filio Puteolis nauem egresso"/>
-        <underline method="pen" type="straight" language="LA" text="cum publico sumptu"/>
+        <underline method="pen" type="straight" language="LA" text="cum publico sumptu perduceret"/>
         <underline method="pen" type="straight" language="LA" text="Aduenienti"/>
         <underline method="pen" type="straight" language="LA" text="extempl&ograve; senatus datus est."/>
         <underline method="pen" type="straight" language="LA" text="quae rebus grata erant, gratiora uerbis faceret."/>
@@ -74,7 +74,7 @@
         <underline method="pen" type="straight" language="LA" text="non impetrasset"/>
         <underline method="pen" type="straight" language="LA" text="percuniam ei pro frumento"/>
         <underline method="pen" type="straight" language="LA" text="regnum &agrave; populo Romano partum auctumq[ue]"/>
-        <underline method="pen" type="straight" language="LA" text="ufu regni contentum"/>
+        <underline method="pen" type="straight" language="LA" text="usu regni contentum"/>
         <underline method="pen" type="straight" language="LA" text="dominium &amp; ius eorum"/>
         <underline method="pen" type="straight" language="LA" text="Sumere itaque"/>
         <underline method="pen" type="straight" language="LA" text="non se rogare"/>
@@ -87,11 +87,13 @@
         
         <symbol name="JC" place="right_margin" language="LA" text="regnum &agrave; populo Romano partum auctumq[ue]"/>
         
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- senatus. -->
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="quae rebus grata erant, gratiora uerbis faceret."/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- Macedo -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- fru -->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="ufu regni contentum"/>
+        
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- senatus. Tum-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="usu regni contentum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="dominium"/>
         
     </annotation>
