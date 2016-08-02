@@ -14,7 +14,7 @@
                     <marginalia_text> 
                         Julius.
                     </marginalia_text>
-                <person name="Julius Caesar"/> <!-- LS, or someone else? -->
+                <person name="Julius Caesar"/>
                 </position>
             </language>
             <translation>
@@ -28,7 +28,7 @@
                     <marginalia_text> 
                         Micat inter omn&egrave;s Julium sydus.
                     </marginalia_text>
-                    <person name="Julius Caesar"/> <!-- LS, or someone else? -->
+                    <person name="Julius Caesar"/>
                 </position>
             </language>
             <translation>
@@ -40,7 +40,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Praxis hypocritica, et tyrannica. Tanta facinora audebat &AElig;gyptus in duos Romanoru[m] Imperatorum maximos.
+                        praxis hypocritica, et tyrannica. Tanta facinora audebat &AElig;gyptus in duos Romanoru[m] Imperatorum maximos.
                     </marginalia_text>
                 </position>
             </language>
@@ -67,9 +67,9 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Nullorum vitas, aut actiones malim, qu&agrave;m duorum splendidissim&ograve;rum principum, Julij, et Augusti; in aestuanti Leone, et 
-                        spicifera Virgine adh&ugrave;c pra[e]fulgentium. Nemo unq[uam] eum Romani calendarij honorem meruit, praeterq[uam] hij duo. Mnemosynon 
-                        singulare Julij, et Augusti in omne aeuum.
+                        Nullorum vitas, aut actiones malim, qu&agrave;m duorum splendidissim&ograve;rum Principum, Julij, et Augusti; in aestuanti Leone, et 
+                        spicifera Virgine adh&ugrave;c pra[e]fulgentium. Nemo vnq[uam] eum Romani calendarij honorem meruit, praeterq[uam] hij duo. Mnemosynon 
+                        singulare Julij, et Augusti in omne a[e]vum.
                     </marginalia_text>
                 <person name="Julius Caesar"/>
                 <person name="Augustus"/>
@@ -199,51 +199,57 @@
         <underline method="pen" type="straight" language="LA" text="senator esset"/>
         
         <symbol name="SS" place="head"/>
-        <symbol name="SS" place="intext"/>
+        
         <symbol name="SS" place="right_margin"/>
-        <symbol name="SS" place="intext"/>
         <symbol name="SS" place="right_margin" language="LA" text="Caesari, qui primus reipub. arma sumpserat pro populo Romano, imperium &agrave; senatu"/>
         
+        <symbol name="SS" place="intext"/>
+        <symbol name="SS" place="intext"/>
+        
         <mark name="plus_sign" method="pen" place="head" language="LA" text="Pompeius"/>
+        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- illachrymauit -->
-        <mark name="dot" method="pen" place="intext"/> <!-- dictator -->
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- im -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ca -->
-        <mark name="dot" method="pen" place="intext"/> <!-- dirueretur -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- uolebant, -->
-        <mark name="double_vertical_bar" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- curaretur, -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- co[n]-->
+        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Pom -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- sena -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- par -->
+        
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--exiert. Cornelia-->
+        <mark name="dot" method="pen" place="intext"/> <!-- illachrymauit, sine -->
+        <mark name="dot" method="pen" place="intext"/> <!-- dictator -->
+        <mark name="dot" method="pen" place="intext"/> <!-- dirueretur, tutela -->
+        <mark name="dot" method="pen" place="intext"/> <!-- uolebant, bellum-->
+        <mark name="double_vertical_bar" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- curaretur, inter-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Caesar quatuor triumphos duxit"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- esset, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- esset, inuidiae-->
         <mark name="diacritic" method="pen" place="intext" language="LA" text="quod"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- co[n]-->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--est. Ex-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="conspiratione"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- Cassius, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- Brutus, -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Pom -->
-        <mark name="dot" method="pen" place="intext"/> <!-- uulneribus, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- Cassius, &-->
+        <mark name="dot" method="pen" place="intext"/> <!-- Brutus, in-->
+        <mark name="dot" method="pen" place="intext"/> <!-- uulneribus, occupatumq[ue]-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Obliuione"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- sena -->
-        <mark name="dot" method="pen" place="intext"/> <!-- acceptis, -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- par -->
+        <mark name="dot" method="pen" place="intext"/> <!-- acceptis, co[n]iurati-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="C. Octauius"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="C. Octauius"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- uim, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- uim, &-->
         <mark name="diacritic" method="pen" place="intext" language="LA" text="aduersum"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="imperium"/>
         
