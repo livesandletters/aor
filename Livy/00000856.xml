@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
-                        Nunc demum maxima[e] res ingrandescentis Roma[e].
+                        Nunc dem&ugrave;m maxima[e] res ingrandescentis Roma[e].
                     </marginalia_text>
                     <location name="Rome"/>
                 </position>
@@ -22,7 +22,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
@@ -35,17 +35,18 @@
                 </position>
             </language>
             <translation>
-                Micipsa: Masanissa’s son. See The war of Jugurtha by Sallust.
+                Micipsa: Masanissa’s son. See 'Jugurthine War' by Sallust.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="O' urbem uenalem">
+        <marginalia hand="English_secretary" anchor_text="O' urbem uenalem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
-                        Jugurtha. O urbem uenalem.
+                        Jugurtha. &Ocirc; urbem uenalem.
                     </marginalia_text>
                     <person name="Jugurtha"/>
+                    <emphasis method="pen" type="straight" text="Jugurtha"/>
                 </position>
             </language>
             <translation>
@@ -97,7 +98,7 @@
         <underline method="pen" type="straight" language="LA" text="Adherbalem regno expulit"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; senatu restitutus"/>
         <underline method="pen" type="straight" language="LA" text="Cato Porcius COS"/>
-        <underline method="pen" type="straight" language="LA" text="mal&egrave; aduersus Scordi"/>
+        <underline method="pen" type="straight" language="LA" text="mal&egrave; aduersus Scordiscos"/>
         <underline method="pen" type="straight" language="LA" text="Lustrum"/>
         <underline method="pen" type="straight" language="LA" text="censoribus conditum"/>
         <underline method="pen" type="straight" language="LA" text="Censa sunt ciuiu[m]"/>
@@ -106,7 +107,7 @@
         <underline method="pen" type="straight" language="LA" text="incesti damnatae"/>
         <underline method="pen" type="straight" language="LA" text="Cimbrigens uaga"/>
         <underline method="pen" type="straight" language="LA" text="populabundi in Illyricum"/>
-        <underline method="pen" type="straight" language="LA" text="Liuius Drufus COS"/>
+        <underline method="pen" type="straight" language="LA" text="Liuius Drufus COS."/>
         <underline method="pen" type="straight" language="LA" text="feliciter"/>
         <underline method="pen" type="straight" language="LA" text="magnumq[ue] honorem"/>
         <underline method="pen" type="straight" language="LA" text="Adherbal bello petitus &agrave; Iugurtha"/>
@@ -117,6 +118,7 @@
         <underline method="pen" type="straight" language="LA" text="multos pecunia in senatu corrupisse"/>
         <underline method="pen" type="straight" language="LA" text="Romam uenit"/>
         <underline method="pen" type="straight" language="LA" text="regulum quendam nomine"/>
+        <underline method="pen" type="straight" language="LA" text="interfectum"/>
         <underline method="pen" type="straight" language="LA" text="Romae cu[m] periclitaretur"/>
         <underline method="pen" type="straight" language="LA" text="causam capitis dicere iussus"/>
         <underline method="pen" type="straight" language="LA" text="cl&agrave;m profugit"/>
@@ -125,7 +127,7 @@
         <underline method="pen" type="straight" language="LA" text="cit&ograve; perituram, si emptorem inuenerit"/>
         <underline method="pen" type="straight" language="LA" text="pacemq[ue] etiam multum"/>
         <underline method="pen" type="straight" language="LA" text="esse seruandam"/>
-        <underline method="pen" type="straight" language="LA" text="Caecilius Metellus COS"/>
+        <underline method="pen" type="straight" language="LA" text="Caecilius Metellus COS."/>
         <underline method="pen" type="straight" language="LA" text="duobus praelijs"/>
         <underline method="pen" type="straight" language="LA" text="Iugurtha[m] fudit"/>
         <underline method="pen" type="straight" language="LA" text="uniuersam"/>
@@ -135,19 +137,19 @@
         <symbol name="SS" place="left_margin" language="LA" text="Nunc demum maxima[e] res ingrandescentis Roma[e]"/>
         <symbol name="JC" place="intext"/>
         
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="horizontal_bar" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Lustrum"/>
         <mark name="dot" method="pen" place="intext"/> <!--uenerunt-->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="cl&agrave;m profugit"/>
         <mark name="dot" method="pen" place="intext"/> <!-- adiecit, -->
-        <mark name="horizontal_bar" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="dot" method="pen" place="intext"/> <!-- est, -->
         
     </annotation>
