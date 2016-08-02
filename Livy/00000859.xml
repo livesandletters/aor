@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Sylla, Marius. 
+                        Sylla. Marius. 
                     </marginalia_text>
                 <person name="Sulla"/>
                 <person name="Gaius Marius"/>
@@ -41,7 +41,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Ecc&egrave; L[ucius] Sylla, vir terribilis, ingens, et sua tempestate mirabilis. Quantus belli, pacisq[ue] pragmaticus?
+                        Ecc&egrave; L[ucius] Sylla, vir terribilis, ingens, et sua tempestate mirabilis. Quantus belli, pacisq[ue] Pragmaticus?
                     </marginalia_text>
                 <person name="Sulla"/>
                 </position>
@@ -89,11 +89,11 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        De bello ciuili, Mariano atq[ue] Syllano. Augustinus l. 3. c. 27 de Civ. Qualis fuerit Syllana uictoria, uindex Mariana[e] crudelitatis.
-                        c. 28. De Syllanis actibus, quorum se da[e]mones ostentauerunt adiutores. l. 1. [sic] c. 24. De connexione bellorum, quae adventum 
-                        Christi plurima, et grauissima pra[e]cesserunt, l. 3. c. 30. pra[e]sertim bella Marij, et Sylla[e]; Sertorij, et Catilina[e]; Lepidi, 
+                        De bello ciuili, Mariano atq[ue] Syllano. Augustinus l. 3. c. 27. de Ciu. Qualis fuerit Syllana victoria, vindex Mariana[e] crudelitatis.
+                        c. 28. De Syllanis actibus, quorum se da[e]mones ostentauerunt adiutores. l. 1. [sic] c. 24. De connexione bellorum, qua[e] aduentum 
+                        Christi plurima, et grauissima pra[e]cesserunt, L. 3. c. 30. pra[e]sertim bella Marij, et Sylla[e]; Sertorij, et Catilina[e]; Lepidi, 
                         et Catuli; Pompeij, et Ca[e]saris; Augusti, et inimicoru[m], Cassij, Bruti, Sexti Pompeij, L. Antonij, qui Triumuiri frater, Lepidi 
-                        triumuiri, M. ipsius Antonij Triumuiri. Quo uicto, omnibus iam confectis bellis ciuilibus, solus superfuit Imperator. 
+                        triumuiri, M. ipsius Antonij Triumuiri. Quo victo, omnibus iam confectis bellis ciuilibus, solus superfuit Imperator. 
                     </marginalia_text>
                 <person name="Gaius Marius"/>
                 <person name="Sulla"/>
@@ -127,7 +127,7 @@
         <underline method="pen" type="straight" language="LA" text="uelut captam eam"/>
         <underline method="pen" type="straight" language="LA" text="&amp; rapinis"/>
         <underline method="pen" type="straight" language="LA" text="omnibus aduersae partis nobilibus trucidatis"/>
-        <underline method="pen" type="straight" language="LA" text="M. Antoinio eloquentissimo"/>
+        <underline method="pen" type="straight" language="LA" text="M. Antonio eloquentissimo"/>
         <underline method="pen" type="straight" language="LA" text="C. Caesare"/>
         <underline method="pen" type="straight" language="LA" text="pater Crassus"/>
         <underline method="pen" type="straight" language="LA" text="indignum uirtute sua pateretur"/>
@@ -166,7 +166,7 @@
         <underline method="pen" type="straight" language="LA" text="apparatum contra Syllam, quod"/>
         <underline method="pen" type="straight" language="LA" text="Sylla in Italiam cum exercitu traiecit: missisq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="C. Marius"/>
-        <underline method="pen" type="straight" language="LA" text="Marij filius COS"/>
+        <underline method="pen" type="straight" language="LA" text="Marij filius COS."/>
         <underline method="pen" type="straight" language="LA" text="L. Damasippus praetor ex uoluntate C. Marij co[n]sulis"/>
         <underline method="pen" type="straight" language="LA" text="senatum contraxisset"/>
         <underline method="pen" type="straight" language="LA" text="omne[m], quae"/>
@@ -175,7 +175,7 @@
         <underline method="pen" type="straight" language="LA" text="Sylla C."/>
         <underline method="pen" type="straight" language="LA" text="urbem Romam ex inimicorum"/>
         <underline method="pen" type="straight" language="LA" text="manibus recepit"/>
-        <underline method="pen" type="straight" language="LA" text="Praetera res &agrave; legatis"/>
+        <underline method="pen" type="straight" language="LA" text="Praeterea res &agrave; legatis"/>
         <underline method="pen" type="straight" language="LA" text="eadem ibique fortuna partium gestas"/>
         <underline method="pen" type="straight" language="LA" text="Carbonem, exercitu eius ad"/>
         <underline method="pen" type="straight" language="LA" text="crudelitate, qua[n]ta in nullo homine unquam fuit, inquinauit"/>
@@ -185,23 +185,28 @@
         <underline method="pen" type="straight" language="LA" text="uniuersam Italia[m] caedibus"/>
         <underline method="pen" type="straight" language="LA" text="Praenestinos inermes interimi"/>
         
-        <symbol name="SS" place="right_margin"/>
-        <symbol name="SS" place="intext" language="LA" text="Sylla Athenas"/>
         <symbol name="JC" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
         
+        <symbol name="SS" place="right_margin"/>
+        
+        <symbol name="SS" place="intext" language="LA" text="Sylla Athenas"/>
+        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- capi -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- gla -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="uirtibus"/>
-        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="uitia"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- uitia, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- uideretur, -->
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- capi -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- gla -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- con -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ma -->
+        
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="uirtutibus"/>
+        <mark name="quotation_mark" method="pen" place="intext" language="LA" text="uitia"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- uitia, haud-->
+        <mark name="dot" method="pen" place="intext"/> <!-- uideretur, per-->
+        <mark name="bracket" method="pen" place="intext"/> <!--continet.-->
         
     </annotation>
 </transcription>
