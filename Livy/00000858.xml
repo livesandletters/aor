@@ -13,7 +13,7 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
                         De Mithridatis edicto, quo omnes Ciues Romanos, qui intra Asiam inuenirentur, iussit occidi. Augustinus l. 3. c. 22. de ciuitate Dei. 
-                        Et ibi L. Uiues.
+                        Et ibi L. Viues.
                     </marginalia_text>
                 <person name="Mithridates II of Cius"/>
                 <person name="Augustine"/>
@@ -28,7 +28,7 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Cn. Pompeius Picentes"/>
-        <underline method="pen" type="straight" language="LA" text="praetextae, aliaq[ue] magistratum ornamen"/>
+        <underline method="pen" type="straight" language="LA" text="praetextae, aliaq[ue] magistratuum ornamen"/>
         <underline method="pen" type="straight" language="LA" text="Libertini tum primum militare coeperunt"/>
         <underline method="pen" type="straight" language="LA" text="Cornelius Sylla legatus Samnites praelio"/>
         <underline method="pen" type="straight" language="LA" text="L. Sylla Hirpinos"/>
@@ -76,13 +76,15 @@
         <underline method="pen" type="straight" language="LA" text="Carbone &amp; Sertorio Ianiculum occupaueru[n]t"/>
 
         <symbol name="SS" place="intext"/>
+        
         <symbol name="SS" place="left_margin"/>
         
         <mark name="dash" method="pen" place="right_margin"/> <!-- do -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Plan -->
+        
         <mark name="dot" method="pen" place="intext"/> <!-- tribus, -->
         <mark name="dot" method="pen" place="intext"/> <!-- est, -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Mithridates"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Plan -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Cinna &amp; Marius"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Carbone &amp; Sertorio Ianiculum occupaueru[n]t"/>
 
