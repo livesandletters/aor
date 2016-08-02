@@ -27,7 +27,7 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
                         De rebus &agrave; Pompeio, et Ca[e]sare egregi&egrave; gestis desiderata; ing&egrave;ns iactura prae reliquis. Nisi qu&ograve;d 
-                        pra[e]cipuarum tamen rerum isto loco defectio, ab ipso est Ca[e]sare auctorum principe, cum suo Hirtio, energeticoos suppleta, et <!--JG: Chris, can you insert the character in 'energetic-s'? This is Greek, right?-->
+                        pra[e]cipuarum tamen rerum isto loco defectio, ab ipso est Ca[e]sare auctorum Principe, cum suo Hirtio, energeticωs suppleta, et
                         excellentissim&egrave;. Neq[ue] enim vllus Ca[e]saris competens Historicus, pra[e]terq[uam] ipse Ca[e]sar; suorum consiliorum, actionumq[ue] 
                         peritissimus interpres.
                     </marginalia_text>
@@ -95,15 +95,19 @@
         
         <symbol name="SS" place="intext"/>
         <symbol name="SS" place="intext" language="LA" text="Pompeium, universos eius partium Italia omnino expulit"/>
+        
+        <symbol name="SS" place="left_margin"/>
         <symbol name="Mars" place="left_margin" language="LA" text="Thessaliam bello"/>
+        
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
         
         <mark name="dash" method="pen" place="right_margin"/> <!-- Gallo -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- can -->
-        <mark name="comma" method="pen" place="intext"/> <!-- corpus -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="cum se dimissurum"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Mau -->
+        
+        <mark name="comma" method="pen" place="intext"/> <!-- corpus -->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="cum se dimissurum"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- natus, -->
         
