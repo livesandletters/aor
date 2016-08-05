@@ -15,7 +15,7 @@
         <underline method="pen" type="straight" language="LA" text="Vigiles"/>
         <underline method="pen" type="straight" language="LA" text="scutum in uigiliam ferre uetuit"/>
         <underline method="pen" type="straight" language="LA" text="enim in pugnam uigilem"/>
-        <underline method="pen" type="straight" language="LA" text="hostium aduentum, recipat"/>
+        <underline method="pen" type="straight" language="LA" text="hostium aduentum, recipiat"/>
         <underline method="pen" type="straight" language="LA" text="ut fulgentib[us] armis procul"/>
         <underline method="pen" type="straight" language="LA" text="conspici ab hoste"/>
         <underline method="pen" type="straight" language="LA" text="ipse nihil prouideat"/>
@@ -56,26 +56,28 @@
         <underline method="pen" type="straight" language="LA" text="aut morte memorabili inituros"/>
 
         <symbol name="SS" place="left_margin"/>
-        <symbol name="SS" place="left_margin"/> <!--sloppy SS symbol-->
-        <symbol name="SS" place="left_margin"/> <!--sloppy SS symbol-->
-        <symbol name="SS" place="left_margin"/> <!--sloppy SS symbol-->
         <symbol name="SS" place="left_margin"/>
+        
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
         
         <mark name="dash" method="pen" place="right_margin"/> <!-- singu -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Vigi -->
+        <mark name="dash" method="pen" place="right_margin"/> <!--aduocaue-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--ha-->
+        
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Vigiles"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Stationum quoq[ue]"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Vnum imperatorem"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!--aduocaue-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="ualidissimum"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="pernicissimum"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!--ha-->
         <mark name="dot" method="pen" place="intext"/> <!--habeat, arma-->
         <mark name="dot" method="pen" place="intext"/> <!--apta, cibum-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="arma apta"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="sed rerum praesens effectus erat"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
         
     </annotation>
 </transcription>
