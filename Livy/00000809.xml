@@ -14,7 +14,7 @@
                     <marginalia_text> 
                         Ab hoc fer&egrave; Persei bello, et &AElig;milij Pauli de maximo rege triumpho, orditur Velleij Paterculi historia. In cuius primo 
                         libro, hi quatuor egregij viri; P. &AElig;milius, Q. Metellus, Scipio &AElig;milianus, L. Mummius. Secundus liber &agrave; bello Viriathi,
-                        et Numantino, ad Tiberij usq[ue] imperium; cui effusius blanditur: pra[e]clarus alioqui historicus, et diligenti animadversione dignus.
+                        et Numantino, ad Tiberij vsq[ue] imperium; cui effusi&ugrave;s blanditur: pra[e]clarus alioqui historicus, et diligenti animaduersione dignus.
                     </marginalia_text>
                 <person name="Perseus"/>
                 <person name="Paulus Aemilius Veronensis"/>
@@ -63,10 +63,11 @@
         <symbol name="Mercury" place="right_margin"/>
         <symbol name="Moon" place="right_margin"/>
         
-        <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Gentius"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--esset. Gentius-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Gentius"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--missus. Ab-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Cleopatra"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Antiocho"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Perseus "/>
