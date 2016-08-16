@@ -24,7 +24,7 @@
         <underline method="pen" type="straight" language="LA" text="affectati regni"/>
         <underline method="pen" type="straight" language="LA" text="ueneno necatus"/>
         <underline method="pen" type="straight" language="LA" text="ad Perseum"/>
-        <underline method="pen" type="straight" language="LA" text="Libri Numae Po[n]pilij in agro L. Petilij"/>
+        <underline method="pen" type="straight" language="LA" text="Libri Numae Po[m]pilij in agro L. Petilij"/>
         <underline method="pen" type="straight" language="LA" text="arca lapidea clausi"/>
         <underline method="pen" type="straight" language="LA" text="dissoluendarum religionum erant"/>
         <underline method="pen" type="straight" language="LA" text="iurauit"/>
@@ -37,9 +37,12 @@
         
         <symbol name="JC" place="right_margin"/>
         
+        <mark name="dot" method="pen" place="intext"/> <!--iussisset, Theoxena-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="erat uenenum"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="ueneno necatus"/>
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- deuenit -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- deuenit. Item -->
+        <mark name="dot" method="pen" place="intext"/> <!--seruareniurq[ue], &-->
+        <mark name="dot" method="pen" place="intext"/> <!--cogitauit, uoluitq[ue]-->
         
         <errata language="LA" copytext="contra rem" amendedtext="contrarem"/>
         <errata language="LA" copytext="rem pub." amendedtext="rempub."/>
