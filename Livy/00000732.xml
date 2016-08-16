@@ -11,7 +11,7 @@
         <underline method="pen" type="straight" language="LA" text="Philopoemenem captum adduci"/>
         <underline method="pen" type="straight" language="LA" text="ade&ograve; incredibilis"/>
         <underline method="pen" type="straight" language="LA" text="non pro uano modo&ograve;"/>
-        <underline method="pen" type="straight" language="LA" text="uix sano nuncius"/>
+        <underline method="pen" type="straight" language="LA" text="uix pro sano nuncius"/>
         <underline method="pen" type="straight" language="LA" text="pro se quisq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="adducebant Philopoemene[m], potuerunt"/>
         <underline method="pen" type="straight" language="LA" text="misericordia praesentis tanti uiri faceret"/>
@@ -20,14 +20,14 @@
         <underline method="pen" type="straight" language="LA" text="obstupuerant ad magnitudine[m] pristinae eius fortunae uirtutisq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="nec cuiquam uni custodia[m] eius"/>
         <underline method="pen" type="straight" language="LA" text="esse thesaurum publicum"/>
-        <underline method="pen" type="straight" language="LA" text="faxum ingens"/>
+        <underline method="pen" type="straight" language="LA" text="saxum ingens"/>
         <underline method="pen" type="straight" language="LA" text="machina superimpositum"/>
         <underline method="pen" type="straight" language="LA" text="ita loco potius qu&agrave;m homini cuiquam credendam custodiam rati"/>
         <underline method="pen" type="straight" language="LA" text="memor pristinorum"/>
         <underline method="pen" type="straight" language="LA" text="parcendum"/>
         <underline method="pen" type="straight" language="LA" text="eum remedia quaere[n]da esse"/>
         <underline method="pen" type="straight" language="LA" text="utrum maturarent, an differrent"/>
-        <underline method="pen" type="straight" language="LA" text="pars auidior poene"/>
+        <underline method="pen" type="straight" language="LA" text="uicit pars auidior poene"/>
         <underline method="pen" type="straight" language="LA" text="qui uenenum ferret."/>
         <underline method="pen" type="straight" language="LA" text="Accepto poculo"/>
         <underline method="pen" type="straight" language="LA" text="nihil aliud locutum feru[n]t"/>
@@ -46,10 +46,13 @@
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin" language="LA" text="omnibus humanis co[n]gestis honoribus, ut ne diuinis"/>
         
-        <mark name="apostrophe" method="pen" place="intext"/> <!-- quisq[ue] --> 
-        <mark name="dot" method="pen" place="intext"/> <!-- esset, -->
-        <mark name="dash" method="pen" place="right_margin"/> <!--pristino-->
         <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!--pristino-->
+        
+        <mark name="apostrophe" method="pen" place="intext"/> <!-- quisq[ue] --> 
+        <mark name="dot" method="pen" place="intext"/> <!-- esset, procul-->
+        <mark name="dot" method="pen" place="intext"/> <!--audebant, nec-->
         
     </annotation>
 </transcription>
