@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Magistratus Romani, pro Reip[ublicae] vtilitate; non pro dignitate priuatarum personarum. pro se quisq[ue]: et qui non possunt esse 
+                        Magistratus Romani, pro Reip[ublicae] vtilitate; non pro dignitate Priuatarum Personarum. pro se quisq[ue]: et qui non possunt esse 
                         foris Scipiones, domi esse volunt Petilij: audentes eos vexare cauillando, quos non audent ben&egrave; merendo a[e]mulari.
                     </marginalia_text>
                     <person name="Scipio Aemilianus"/>
@@ -56,7 +56,7 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
                         Disciplina[e] militaris solidus validusq[ue] vsus in Rep[ublica]. Duros dura faciunt: molles mollia. Assuescere oportet inuictos: 
-                        nec unq[uam] languescere. 
+                        nec vnq[uam] languescere. 
                     </marginalia_text>
                 </position>
             </language>
@@ -171,39 +171,11 @@
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
         
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- erubescendum -->
-        <mark name="diacritic" method="pen" place="intext" language="LA" text="Aduersus"/> <!-- Aduersus  -->
-        <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="apostrophe" method="pen" place="intext" language="LA" text="praeter Gracchum"/> <!-- aliorum  -->
-        <mark name="apostrophe" method="pen" place="intext"/> <!-- Gracchum  -->
-        <mark name="diacritic" method="pen" place="intext" language="LA" text="minus"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- prae -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="regem opulentissimu[m] orbis"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- beneficijs, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- incluserit, -->
-        <mark name="comma" method="pen" place="intext"/> <!-- Scipionis  -->
-        <mark name="comma" method="pen" place="intext"/> <!-- publice  -->
-        <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!--fuerat-->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
-        <mark name="apostrophe" method="pen" place="intext"/> <!-- Catone  --> 
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- cuius -->
-        <mark name="apostrophe" method="pen" place="intext"/> <!-- oratio  -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- effet --> 
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="praesidia deducere"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- bellorum -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Romanis militarem disciplina[m]"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="straight_quotation_mark" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
@@ -211,6 +183,40 @@
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
         
+        <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- prae -->
+        <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="right_margin"/>
+        
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- erubescendum. Aduersus -->
+        <mark name="diacritic" method="pen" place="intext" language="LA" text="Aduersus"/> <!-- Aduersus  -->
+        <mark name="dot" method="pen" place="intext"/> <!--secessissent, paulo-->
+        <mark name="apostrophe" method="pen" place="intext" language="LA" text="praeter Gracchum"/> <!-- aliorum  -->
+        <mark name="apostrophe" method="pen" place="intext"/> <!-- Gracchum  -->
+        <mark name="diacritic" method="pen" place="intext" language="LA" text="minus"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="regem opulentissimu[m] orbis"/>
+        <mark name="dot" method="pen" place="intext"/> <!--deuicerit, imperium-->
+        <mark name="dot" method="pen" place="intext"/> <!-- beneficijs, plurimos-->
+        <mark name="dot" method="pen" place="intext"/> <!-- incluserit, non-->
+        <mark name="dot" method="pen" place="intext"/> <!--esse, mittiq[ue]-->
+        <mark name="comma" method="pen" place="intext"/> <!-- Scipionis possessum-->
+        <mark name="comma" method="pen" place="intext"/> <!-- publice quaestores-->
+        <mark name="dot" method="pen" place="intext"/> <!--fuerat, nihil-->
+        <mark name="apostrophe" method="pen" place="intext"/> <!-- Catone  --> 
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- cuius -->
+        <mark name="apostrophe" method="pen" place="intext"/> <!-- oratio  -->
+        <mark name="dot" method="pen" place="intext"/> <!-- esset coloniae--> 
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="praesidia deducere"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- bellorum Romanis-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="Romanis militarem disciplina[m]"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="straight_quotation_mark" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--extendebat, nihil-->
+
     </annotation>
 </transcription>
 
