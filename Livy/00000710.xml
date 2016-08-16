@@ -25,10 +25,10 @@
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Worthie Pescennius took exceptions to the vntrained and vnexercised youth of Scipio: but might not iust exception be taken to his 
-                        fading and drouping age: when right magnanimitie, and pollicie might haue made him admirable? His frend Masinissa, and his aduersarie 
+                        Worthie Pescenninus tooke exceptions to the vntrained &amp; vnexercised youth of Scipio: but might not iust exception be taken to his 
+                        fading &amp; drouping age: when right magnanimitie, &amp; pollicie might haue made him admirable? His frend Masinissa, &amp; his aduersarie 
                         Cato, atchieued great actions, when they were mutch elder, then Scipio was, when he dyed. Which may seeme to die in the melancholie 
-                        moode of a drouping Malcontent. A base end for so braue A captaine, and so worthie a man.
+                        moode of a drouping Malcontent. A base end for so braue A captaine, &amp; so worthie a man.
                     </marginalia_text>
                 <person name="Pescennius Niger"/> <!-- LS, 135-194 AD -->
                 <person name="Scipio Africanus"/> <!-- LS, 236-183 BC -->
@@ -81,7 +81,7 @@
         <underline method="pen" type="straight" language="LA" text="temperantiae fideique]"/>
         <underline method="pen" type="straight" language="LA" text="morte occubuisse"/>
         <underline method="pen" type="straight" language="LA" text="illorum tueri gloriam"/>
-        <underline method="pen" type="straight" language="LA" text="fatis esset"/>
+        <underline method="pen" type="straight" language="LA" text="satis esset"/>
         <underline method="pen" type="straight" language="LA" text="Africanum tantum paternas superauisse laudes"/>
         <underline method="pen" type="straight" language="LA" text="fecerit, non sanguine humano"/>
         <underline method="pen" type="straight" language="LA" text="stirpe diuina satum"/>
@@ -103,7 +103,7 @@
         <underline method="pen" type="straight" language="LA" text="quo die ad"/>
         <underline method="pen" type="straight" language="LA" text="L. Scipio Antiochum deuicisset"/>
         <underline method="pen" type="straight" language="LA" text="aeger P. Scipio"/>
-        <underline method="pen" type="straight" language="LA" text="ab esset"/>
+        <underline method="pen" type="straight" language="LA" text="abesset"/>
         <underline method="pen" type="straight" language="LA" text="non fuisse minorem eum exercitu[m]"/>
         <underline method="pen" type="straight" language="LA" text="qu&agrave;m Annibalis, cum quo"/>
         <underline method="pen" type="straight" language="LA" text="Annibalem eunde[m] fuisse"/>
@@ -117,7 +117,7 @@
         <underline method="pen" type="straight" language="LA" text="data pax esset"/>
         <underline method="pen" type="straight" language="LA" text="ex X legatis"/>
         <underline method="pen" type="straight" language="LA" text="Cn. Manlium accusarent"/>
-        <underline method="pen" type="straight" language="LA" text="modo&ograve; ad criminis fidem"/>
+        <underline method="pen" type="straight" language="LA" text="mod&ograve; ad criminis fidem"/>
         <underline method="pen" type="straight" language="LA" text="ne ad moram quidem triumphi"/>
         <underline method="pen" type="straight" language="LA" text="in Scipione"/>
         <underline method="pen" type="straight" language="LA" text="ipsas leges pacis, ut nimium acco[m]modatas Antiocho"/>
@@ -167,19 +167,27 @@
         <symbol name="JC" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
         
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Afri -->
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Afri -->
+        <mark name="dash" method="pen" place="right_margin"/> <!--Eu-->
+        
+        <mark name="plus_sign" method="pen" place="head"/>
+        
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="de tanto uiro"/>
         <mark name="apostrophe" method="pen" place="intext"/> <!-- uiro -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="praees eodem"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="praedes eodem"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="P. Scipio Nasica"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- suos -->
+        <mark name="comma" method="pen" place="intext"/> <!-- suos &-->
+        <mark name="dot" method="pen" place="intext"/> <!--auxissent, non-->
+        <mark name="dot" method="pen" place="intext"/> <!--occubuisse, cum-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="cum Anotiocho"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="cum Antiocho"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- deuicisset, aeger-->
@@ -188,8 +196,7 @@
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="bellum quidem"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="in pace crime[n]"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="ipsas leges pacis, ut nimium acco[m]modatas Antiocho"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="dash" method="pen" place="left_margin"/> <!--Eu-->
+        <mark name="dot" method="pen" place="intext"/> <!--Macedoniam, Nabi-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
