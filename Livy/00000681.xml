@@ -25,7 +25,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Viva legum Epitome, antiqua iurisprude[n]tia. Qualis initio Iustini celebrata.
+                        Viua legum Epitome, antiqua iurisprude[n]tia. Qualis initio Iustini celebrata.
                     </marginalia_text>
                     <book title="Historiarum Philippicarum libri XLIV"/>
                 </position>
@@ -93,25 +93,28 @@
         <mark name="plus_sign" method="pen" place="head"/>
         <mark name="equal_sign" method="pen" place="head"/>
         <mark name="plus_sign" method="pen" place="head"/>
+        
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- quon -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- perpe -->
-        <mark name="dot" method="pen" place="intext"/> <!--Philippo, &-->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="Apta"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- peten -->
-        <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- disce -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="summan tamen hanc"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- discepta -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Ca -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- castel -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- So -->
+        
+        <mark name="dot" method="pen" place="intext"/> <!--Philippo, &-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--sint. Apta-->
+        <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="Apta"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--est. Post-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--ictu[m]. Auditae-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="summam tamen hanc"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Eumeni attribuerent"/>
         <mark name="dot" method="pen" place="intext"/> <!--attribuerent, praeter-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="ciuitatis Rhodiorum"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- discepta -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ca -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- castel -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- so -->
         
     </annotation>
 </transcription>

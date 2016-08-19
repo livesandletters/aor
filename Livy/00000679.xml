@@ -26,7 +26,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        pro se energeticoos: sed modeste, et perite. <!--JG: Chris, is there a Greek character in 'energetic.s'?-->
+                        pro se energeticωs: sed modest&egrave;, et perit&egrave;.
                     </marginalia_text> 
                 </position>
             </language>
@@ -39,7 +39,7 @@
         <underline method="pen" type="straight" language="LA" text="illis auditis, mihi ne"/>
         <underline method="pen" type="straight" language="LA" text="ea postulata eorum"/>
         <underline method="pen" type="straight" language="LA" text="nihil quod contra me"/>
-        <underline method="pen" type="straight" language="LA" text="quod ad ipsos qiudem"/>
+        <underline method="pen" type="straight" language="LA" text="quod ad ipsos quidem"/>
         <underline method="pen" type="straight" language="LA" text="propri&egrave; pertineat"/>
         <underline method="pen" type="straight" language="LA" text="causam ciuitatum Graecarum"/>
         <underline method="pen" type="straight" language="LA" text="liberari eas dicent"/>
@@ -151,37 +151,39 @@
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
         
-        <mark name="dash" method="pen" place="right_margin"/> <!-- libe -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="me attinet"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="X_sign" method="pen" place="left_margin"/>
+        <mark name="triple_dash" method="pen" place="left_margin"/> <!-- quadruple dash-->
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="X_sign" method="pen" place="left_margin"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- libe -->
         <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- comea -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ue -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- im -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- opulentissi -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Pelopon -->
+        
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="me attinet"/>
+        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--pr[a]estitit, sed-->
-        <mark name="X_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="inexuperabilia"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- comea -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="relictis rebus meis"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="nulla expeditio"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="X_sign" method="pen" place="left_margin"/>
-        <mark name="comma" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- eu -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- im -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- opulentissi -->
+        <mark name="comma" method="pen" place="intext"/> <!--expulsus, amissis-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Pelopon -->
+        <mark name="dot" method="pen" place="intext"/> <!--est, si-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ipsi teneretis"/>
         
         
