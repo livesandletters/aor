@@ -12,13 +12,13 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Articuli Foederis Romani cum rege Antiocho
+                        Articuli Foederis Romani cum Rege Antiocho.
                     </marginalia_text>
                 <person name="Antiochus III the Great"/>
                 </position>
             </language>
             <translation>
-                The clauses of the Roman treaty with King Antiochus
+                The clauses of the Roman treaty with King Antiochus.
             </translation>
         </marginalia>
         
@@ -55,7 +55,7 @@
         <underline method="pen" type="straight" language="LA" text="armamentaq[ue] earu[m]"/>
         <underline method="pen" type="straight" language="LA" text="ue plures qu&agrave;m dece[m] naues"/>
         <underline method="pen" type="straight" language="LA" text="nauigato citra Calycandrum"/>
-        <underline method="pen" type="straight" language="LA" text="Milites mercede condudcendi ex ijs gentibus"/>
+        <underline method="pen" type="straight" language="LA" text="Milites mercede conducendi ex ijs gentibus"/>
         <underline method="pen" type="straight" language="LA" text="ditione populi Romani"/>
         <underline method="pen" type="straight" language="LA" text="Antiocho regi ius ne esto"/>
         <underline method="pen" type="straight" language="LA" text="pecuniae debentur"/>
@@ -66,7 +66,7 @@
         <underline method="pen" type="straight" language="LA" text="dato intra duodecim"/>
         <underline method="pen" type="straight" language="LA" text="pensionibus aequis"/>
         <underline method="pen" type="straight" language="LA" text="talentum"/>
-        <underline method="pen" type="straight" language="LA" text="ne minus pondo LXXX Romanis"/>
+        <underline method="pen" type="straight" language="LA" text="minus pondo LXXX Romanis"/>
         <underline method="pen" type="straight" language="LA" text="Eumeni regi talenta CCCL"/>
         <underline method="pen" type="straight" language="LA" text="Obsides Romanis XX"/>
         <underline method="pen" type="straight" language="LA" text="triennio mutato"/>
@@ -103,9 +103,6 @@
         <underline method="pen" type="straight" language="LA" text="elepha[n]tos quoq[ue] accepisset"/>
         <underline method="pen" type="straight" language="LA" text="donoq[ue] Eumeni omnes dedisset"/>
         <underline method="pen" type="straight" language="LA" text="deinde causas"/>
-        <underline method="pen" type="straight" language="LA" text="inter nouas accepisset"/>
-        <underline method="pen" type="straight" language="LA" text="donoq[ue] Eumeni omnes dedisset"/>
-        <underline method="pen" type="straight" language="LA" text="deinde causas"/>
         <underline method="pen" type="straight" language="LA" text="multis inter nouas res"/>
         <underline method="pen" type="straight" language="LA" text="cognouit"/>
         <underline method="pen" type="straight" language="LA" text="Ariarates rex"/>
@@ -114,18 +111,22 @@
         
         <symbol name="JC" place="left_margin" language="LA" text="legibus"/>
         
-        <mark name="plus_sign" method="pen" place="intext" text="foedus" language="LA"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
         <mark name="X_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- qui -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Tra -->
+        <mark name="X_sign" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ac -->
+        
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="foedus"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="cremaretq[ue]"/>
-        <mark name="X_sign" method="pen" place="right_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ac -->
         <mark name="dot" method="pen" place="intext"/> <!--remissa, in-->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
+        <errata language="LA" copytext="quinquenn um" amendedtext="quinquennium"/>
         
     </annotation>
 </transcription>
