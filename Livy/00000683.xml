@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text> 
-                        Artes pragmatica[e] contra potentissimos Duces, et excellentissimos viros; duos 
+                        Artes pragmatica[e] contra Potentissimos Duces, et excellentissimos viros; duos 
                     </marginalia_text>
                 </position>
                 <position place="right_margin" book_orientation="0">
@@ -96,25 +96,27 @@
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="tail" language="LA" text="custodia regiae pecuniae esse solita"/>
         
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- uenit -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!--reducerent, &-->
+        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="celandae rei qu&agrave;m agendae aptior erat"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- cau -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- fu -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- uexare -->
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
+        
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- uenit. Caeterum -->
+        <mark name="dot" method="pen" place="intext"/> <!--reducerent, &-->
         <mark name="plus_sign" method="pen" place="intext"/> <!-- fuisse -->
-        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- triumphauit -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- triumphauit. Scipio -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Scipio Africanus"/>
         <mark name="plus_sign" method="pen" place="intext"/> <!-- aerarium -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- uexare -->
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- fuit -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- fuit. L. -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Asiaticus"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="eodem peculatus crimine accusatus"/>
-        <mark name="vertical_bar" method="pen" place="right_margin"/>
-        <mark name="vertical_bar" method="pen" place="right_margin"/>
-        <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/> <!-- pecuniae -->
-        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="celandae rei qu&agrave;m agendae aptior erat"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--erat, parem-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="custodia regiae pecuniae esse solita"/>
