@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text> 
-                        Annon hic flaccescit, ac quodammod&ograve; senescit admirabilis illa virtus Africani? Quid hic vnius Africani, tam ingenti dignu[m] Duce? 
+                        Annon h&icirc;c flaccescit, ac quodammod&ograve; senescit admirabilis illa virtus Africani? Quid hic vnius Africani, tam ingenti dignu[m] Duce? 
                         Legatio inutilis, i[nfr]a, 686.
                     </marginalia_text>
                     <person name="Scipio Africanus" />
@@ -107,27 +107,30 @@
         <symbol name="SS" place="left_margin"/> 
         <symbol name="SS" place="intext"/>
         
-        <mark name="dash" method="pen" place="right_margin"/> <!-- prius -->
-        <mark name="dot" method="pen" place="intext"/> <!--inferrentur, demittere-->
         <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="stabiliendae nauis causa iussit"/>
-        <mark name="equal_sign" method="pen" place="right_margin" language="LA" text="hostiu[m] naues ferreas"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="tanquam indomitae &amp; insociabili genti, succensebant"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- prius -->
+        <mark name="equal_sign" method="pen" place="right_margin" language="LA" text="hostiu[m] naues ferreas"/>
+        <mark name="comma" method="pen" place="right_margin"/> <!-- non -->
+        
+        <mark name="dot" method="pen" place="intext"/> <!--inferrentur, demittere-->
+        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- uidit, -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- uexandi, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- uexandi, sublatis-->
         <mark name="straight_quotation_mark" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!-- remige, X -->
-        <mark name="comma" method="pen" place="intext"/> <!-- nauis -->
-        <mark name="comma" method="pen" place="right_margin"/> <!-- non -->
-        <mark name="comma" method="pen" place="intext"/> <!-- Ephesi -->
+        <mark name="comma" method="pen" place="intext"/> <!-- nauis in-->
+        <mark name="comma" method="pen" place="intext"/> <!-- Ephesi fugae-->
+        <mark name="comma" method="pen" place="intext"/> <!--erat manserunt-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Eumene rege"/>
         <mark name="dot" method="pen" place="intext"/> <!-- data, ea -->
-        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="tanquam indomitae &amp; insociabili genti, succensebant"/>
         
         <errata language="LA" copytext="prmo" amendedtext="primo"/>
         

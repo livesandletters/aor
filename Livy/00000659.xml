@@ -46,19 +46,21 @@
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
         
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="ipsa remissio"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
+        <mark name="equal_sign" method="pen" place="right_margin" language="LA" text="suspicione[m] dempsit, nouare eu[m] quicquam uelle."/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- beni -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- pos -->
+        
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="acerrimus"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="incredibili celeritate"/>
-        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="ipsa remissio"/>
-        <mark name="equal_sign" method="pen" place="right_margin" language="LA" text="suspicione[m] dempsit, nouare eu[m] quicquam uelle."/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- beni -->
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="dexteritas"/>
-        <mark name="dot" method="pen" place="intext"/> <!--erant, virum-->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- pos -->
+        <mark name="dot" method="pen" place="intext"/> <!--erant, uirum-->
         
     </annotation>
 </transcription>
