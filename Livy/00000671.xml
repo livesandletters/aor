@@ -26,7 +26,7 @@
         <underline method="pen" type="straight" language="LA" text="omnibus cura regis Eumenis"/>
         <underline method="pen" type="straight" language="LA" text="uer&ograve; res Romanis auxit animos"/>
         <underline method="pen" type="straight" language="LA" text="co[n]cessum"/>
-        <underline method="pen" type="straight" language="LA" text="transitum cernentibus in Asiam; quam re[m] magni certaminis futuram crediderunt"/>
+        <underline method="pen" type="straight" language="LA" text="transitum cernentibus in Asiam, quam re[m] magni certaminis futuram crediderunt"/>
         <underline method="pen" type="straight" language="LA" text="P. Scipionem propiore"/>
         <underline method="pen" type="straight" language="LA" text="quia Salius erat"/>
         <underline method="pen" type="straight" language="LA" text="dies legatus ab Antiocho in"/>
@@ -59,7 +59,7 @@
         <underline method="pen" type="straight" language="LA" text="ubi is uenit"/>
         <underline method="pen" type="straight" language="LA" text="consulem adijt, petitq[ue] ut"/>
         <underline method="pen" type="straight" language="LA" text="Aduocato freque[n]ti concilio"/>
-        <underline method="pen" type="straight" language="LA" text="legati uerba sunt"/>
+        <underline method="pen" type="straight" language="LA" text="legati uerba sunt audita"/>
         <underline method="pen" type="straight" language="LA" text="eam ipsam fiduciam impetrandi"/>
         <underline method="pen" type="straight" language="LA" text="esse"/>
         <underline method="pen" type="straight" language="LA" text="q[uod] priores legati nihil impetrassent"/>
@@ -118,32 +118,34 @@
         <symbol name="Opposite_planets" place="right_margin"/>
 
         <mark name="X_sign" method="pen" place="left_margin" language="LA" text="transitum cernentibus in Asiam; quam re[m] magni certaminis futuram crediderunt"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- Asiam, -->
+        <mark name="quotation_mark" method="pen" place="left_margin"/> <!--unknown mark-->
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="triple_dash" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="auri pondus ingens est pollicitus"/>
+        
         <mark name="equal_sign" method="pen" place="right_margin" language="LA" text="transitum cernentibus in Asiam; quam re[m] magni certaminis futuram crediderunt"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- conse -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Heracli -->
-        <mark name="dot" method="pen" place="intext"/> <!-- mandata, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- RomanoR, -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- sa -->
-        <mark name="dot" method="pen" place="intext"/> <!-- faciebat, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- sit, -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="exploratum"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- explo -->
         <mark name="dot" method="pen" place="right_margin"/> <!-- esset, -->
-        <mark name="quotation_mark" method="pen" place="left_margin"/> <!--unknown mark-->
-        <mark name="dot" method="pen" place="right_margin"/> <!--exepectasset, ubi-->
-        <mark name="comma" method="pen" place="intext"/> <!-- Is -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="triple_dash" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="right_margin"/>
+        
+        <mark name="dot" method="pen" place="intext"/> <!-- Asiam, quam-->
+        <mark name="dot" method="pen" place="intext"/> <!-- mandata, quam-->
+        <mark name="dot" method="pen" place="intext"/> <!-- RomanoR, quos-->
+        <mark name="dot" method="pen" place="intext"/> <!-- faciebat, notumq[ue]-->
+        <mark name="dot" method="pen" place="intext"/> <!-- sit, sicut-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="exploratum"/>
+        <mark name="dot" method="pen" place="intext"/> <!--exepectasset, ubi-->
+        <mark name="comma" method="pen" place="intext"/> <!-- Is multis-->
         <mark name="comma" method="pen" place="intext"/> <!--cupiditate pacis-->
-        <mark name="comma" method="pen" place="intext"/> <!-- causa -->
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- causa regem-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--passurum. Ea-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="magna"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="parua"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="auri pondus ingens est pollicitus"/>
-        <mark name="dot" method="pen" place="right_margin"/> <!--pollicitus, &-->
+        <mark name="dot" method="pen" place="intext"/> <!--pollicitus, &-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="nomine ta[n]tum regio"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="societatem omnis"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="fortunam"/>
