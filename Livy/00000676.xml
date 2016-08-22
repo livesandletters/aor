@@ -8,7 +8,7 @@
     <page filename="00000676.tif" reader="Harvey" pagination="654" signature="[iii3v]"/>
     <annotation>
 
-        <underline method="pen" type="straight" language="LA" text="quas pares paribas ferebamus conditiones"/>
+        <underline method="pen" type="straight" language="LA" text="quas pares paribus ferebamus conditiones"/>
         <underline method="pen" type="straight" language="LA" text="easdem nunc uictores uictis ferimus"/>
         <underline method="pen" type="straight" language="LA" text="Europa abstinete"/>
         <underline method="pen" type="straight" language="LA" text="Asiaq[ue] omni, quae cis"/>
@@ -32,13 +32,13 @@
         <underline method="pen" type="straight" language="LA" text="serius facit, qu&agrave;m facere"/>
         <underline method="pen" type="straight" language="LA" text="nunc moratus fuerit"/>
         <underline method="pen" type="straight" language="LA" text="sciat, regum"/>
-        <underline method="pen" type="straight" language="LA" text="maiestatum difficilius ab summo fastigio ad medium"/>
+        <underline method="pen" type="straight" language="LA" text="maiestatem difficilius ab summo fastigio ad medium"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; medijs ad ima praecipitari"/>
         <underline method="pen" type="straight" language="LA" text="his mandatis ab rege"/>
         <underline method="pen" type="straight" language="LA" text="omnem pacis conditionem"/>
         <underline method="pen" type="straight" language="LA" text="Romam mitti legatos placuit"/>
         <underline method="pen" type="straight" language="LA" text="Ephesum ad Cos."/>
-        <underline method="pen" type="straight" language="LA" text="obsides ab rege adducti sunt:&amp; legati"/>
+        <underline method="pen" type="straight" language="LA" text="obsides ab rege adducti sunt: &amp; legati"/>
         <underline method="pen" type="straight" language="LA" text="cum triumphi spe procoss."/>
         <underline method="pen" type="straight" language="LA" text="Minutius"/>
         <underline method="pen" type="straight" language="LA" text="Acilius ex &AElig;tolia"/>
@@ -57,18 +57,22 @@
         <symbol name="SS" place="left_margin"/>
         
         <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="obsides"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- arbi -->
         <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="equal_sign" method="pen" place="right_margin"/> 
+        <mark name="dash" method="pen" place="right_margin"/> <!-- argen -->
+        
+        <mark name="dot" method="pen" place="intext"/> <!--pepigerimus, facturos-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="obsides"/>
         <mark name="dot" method="pen" place="intext"/> <!--dedetis, &-->
         <mark name="plus_sign" method="pen" place="intext"/> <!-- regum -->
-        <mark name="equal_sign" method="pen" place="right_margin"/> 
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--praecipitari. Cum-->
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="obsides"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- argen -->
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- fuit -->
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- nunciata -->
+        <mark name="dot" method="pen" place="intext"/> <!--triumphus, Acilio-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- fuit. Huius-->
+        <mark name="apostrophe" method="pen" place="intext"/> <!--magnis-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- nunciata. Ex -->
         
         <errata language="LA" copytext="deinee" amendedtext="deinde"/>
         

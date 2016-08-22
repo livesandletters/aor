@@ -62,7 +62,7 @@
         <underline method="pen" type="straight" language="LA" text="dedendas urbes"/>
         <underline method="pen" type="straight" language="LA" text="Antiochus cum paucis fugiens"/>
         <underline method="pen" type="straight" language="LA" text="modica manu armatoru[m]"/>
-        <underline method="pen" type="straight" language="LA" text="media ferm&egrave; nocte Sardeis"/>
+        <underline method="pen" type="straight" language="LA" text="media ferm&egrave; nocte Sardeis concessit"/>
         <underline method="pen" type="straight" language="LA" text="Seleucum filium"/>
         <underline method="pen" type="straight" language="LA" text="quarta uigilia cum"/>
         <underline method="pen" type="straight" language="LA" text="quibus spretis co[n]sensu"/>
@@ -85,7 +85,7 @@
         <underline method="pen" type="straight" language="LA" text="ad mandata ede[n]da"/>
         <underline method="pen" type="straight" language="LA" text="tam quid ipsi dicamus"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; uobis quaeramus"/>
-        <underline method="pen" type="straight" language="LA" text="piaculo expiare errore[m] regis; pacem"/>
+        <underline method="pen" type="straight" language="LA" text="piaculo expiare errore[m] regis, pacem"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; uictoribus"/>
         <underline method="pen" type="straight" language="LA" text="Maximo semper animo"/>
         <underline method="pen" type="straight" language="LA" text="uictis regibus"/>
@@ -93,7 +93,7 @@
         <underline method="pen" type="straight" language="LA" text="animo decet"/>
         <underline method="pen" type="straight" language="LA" text="quae uos dominos orbis terrarum fecit"/>
         <underline method="pen" type="straight" language="LA" text="positis iam aduersus"/>
-        <underline method="pen" type="straight" language="LA" text="qu&agrave;m deos consulere &amp; parcere uos generi"/>
+        <underline method="pen" type="straight" language="LA" text="secus qu&agrave;m deos consulere &amp; parcere uos generi"/>
         <underline method="pen" type="straight" language="LA" text="decretum erat, quid responderetur"/>
         <underline method="pen" type="straight" language="LA" text="respondere Africanum"/>
         <underline method="pen" type="straight" language="LA" text="ex ijs quae"/>
@@ -109,32 +109,38 @@
         <symbol name="SS" place="tail"/>
 
         <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!--pugnam, &-->
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="sum Polyxenidas audita"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- An -->
-        <mark name="dot" method="pen" place="intext"/> <!--conspexit, in-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- to -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- be -->
-        <mark name="comma" method="pen" place="intext"/> <!-- ingens -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!--millia, mille-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ui -->
-        <mark name="dot" method="pen" place="intext"/> <!--equites, &-->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="cum magna praeda in sua"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- c[a]eso -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="dedendas urbes"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ti -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ephe -->
-        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="sum Polyxenidas audita"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!--erat, eo-->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- ui -->
         <mark name="horizontal_bar" method="pen" place="right_margin"/>
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- oportet -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Afri -->
+        
+        <mark name="dot" method="pen" place="intext"/> <!--constiterunt, deinde-->
+        <mark name="dot" method="pen" place="intext"/> <!--pugnam, &-->
+        <mark name="dot" method="pen" place="intext"/> <!--conspexit, in-->
+        <mark name="comma" method="pen" place="intext"/> <!-- ingens &-->
+        <mark name="dot" method="pen" place="intext"/> <!--inclinauit, &-->
+        <mark name="dot" method="pen" place="intext"/> <!--millia, mille-->
+        <mark name="dot" method="pen" place="intext"/> <!--equites, &-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="cum magna praeda in sua"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="dedendas urbes"/>
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--erat, eo-->
+        <mark name="dot" method="pen" place="intext"/> <!--inue[n]to, tum-->
+        <mark name="dot" method="pen" place="intext"/> <!--regis, pacem-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- oportet. Iam -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="animos"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         
     </annotation>
