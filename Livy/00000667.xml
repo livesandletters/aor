@@ -34,7 +34,7 @@
         <underline method="pen" type="straight" language="LA" text="ne tu[m] quide[m]"/>
         <underline method="pen" type="straight" language="LA" text="Lyciam audebat"/>
         <underline method="pen" type="straight" language="LA" text="coniungi ueteri regiae"/>
-        <underline method="pen" type="straight" language="LA" text="Antiochus no[n] ciuitatu[m] modo"/>
+        <underline method="pen" type="straight" language="LA" text="Antiochus no[n] ciuitatu[m] mod&ograve;"/>
         <underline method="pen" type="straight" language="LA" text="co[n]trahebat praesidia"/>
         <underline method="pen" type="straight" language="LA" text="ad Prusia[m] Bithyniae regem"/>
         <underline method="pen" type="straight" language="LA" text="quibus transitu[m] in Asia[m] Romanoru[m] increpabat"/>
@@ -79,22 +79,25 @@
         <symbol name="SS" place="right_margin"/>
         <symbol name="Opposite_planets" place="right_margin"/>
 
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ap -->
         <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="potuisset, no[n] omnis summersa aut capta classis hostium foret, redierunt"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ap -->
         <mark name="equal_sign" method="pen" place="right_margin" language="LA" text="Annibal ictus uno praelio aduerso"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- regio -->
-        <mark name="dot" method="pen" place="intext"/> <!-- praesidia, -->
-        <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- expugnatos, -->
         <mark name="comma" method="pen" place="right_margin"/> <!-- Prusiam -->
+        
+        <mark name="dot" method="pen" place="intext"/> <!-- praesidia, sed-->
+        <mark name="horizontal_bar" method="pen" place="intext"/> <!--omia-->
+        <mark name="dot" method="pen" place="intext"/> <!-- expugnatos, se-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="praeter consuetudinem"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- Romani -->
+        <mark name="comma" method="pen" place="intext"/> <!-- Romani augendi-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="augendi omni honore regum"/>
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="domesticis"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dot" method="pen" place="intext"/> <!-- Antiocho, & -->
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- esset. -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- esset. Antiochus-->
         
         <errata language="LA" copytext="omia" amendedtext="om[n]ia"/>
         
