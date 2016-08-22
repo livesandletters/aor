@@ -9,11 +9,11 @@
     <annotation>
 
         <underline method="pen" type="straight" language="LA" text="Nullum unquam hostem Romani aequ&egrave; contempserunt"/>
-        <underline method="pen" type="straight" language="LA" text="undiq[ue] est,duceret extempl&ograve;, &amp; uteretur ardore militum, qui"/>
+        <underline method="pen" type="straight" language="LA" text="undiq[ue] est, duceret extempl&ograve;, &amp; uteretur ardore militum, qui"/>
         <underline method="pen" type="straight" language="LA" text="pugnandum cum tot millibus hostium"/>
         <underline method="pen" type="straight" language="LA" text="par numerus pecoru[m] trucidandus"/>
         <underline method="pen" type="straight" language="LA" text="castra inuadere"/>
-        <underline method="pen" type="straight" language="LA" text="Domitiius ad explora[n]dum"/>
+        <underline method="pen" type="straight" language="LA" text="Domitius ad explora[n]dum"/>
         <underline method="pen" type="straight" language="LA" text="parte adiri uallum hostium"/>
         <underline method="pen" type="straight" language="LA" text="Nec Antiochus ultr&agrave; tergiuersandum"/>
         <underline method="pen" type="straight" language="LA" text="suorum animos minueret detrectando"/>
@@ -69,6 +69,7 @@
         <underline method="pen" type="straight" language="LA" text="funditores"/>
         <underline method="pen" type="straight" language="LA" text="Elymaei sagittarij"/>
         <underline method="pen" type="straight" language="LA" text="inde auxiliares misti omniu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Syri"/>
         <underline method="pen" type="straight" language="LA" text="falcatae quadrig[a]e &amp; cameli, quos"/>
         <underline method="pen" type="straight" language="LA" text="dromadas"/>
         <underline method="pen" type="straight" language="LA" text="Arabes sagittarij"/>
@@ -78,23 +79,15 @@
         <symbol name="Mars" place="right_margin"/>
         <symbol name="Opposite_planets" place="right_margin"/>
         
-        <mark name="dash" method="pen" place="right_margin"/> <!-- diffe-->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Nullum unquam hostem Romani aequ&egrave; contempserunt"/>
         <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- diffe-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- tan -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- exi -->
-        <mark name="dot" method="pen" place="intext"/> <!--retulit, postero-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ter -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- tenuerunt -->
-        <mark name="dot" method="pen" place="intext"/> <!-- signa -->
-        <mark name="dot" method="pen" place="intext"/> <!-- erant -->
-        <mark name="dot" method="pen" place="intext"/> <!-- claudeba[n]t -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- su -->
-        <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- ua -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- aci -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ro -->
@@ -102,9 +95,21 @@
         <mark name="X_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- adiun -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ar -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="falcatae quadrig[a]e &amp; cameli"/>
         <mark name="hash" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ci -->
+        
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Nullum unquam hostem Romani aequ&egrave; contempserunt"/>
+        <mark name="dot" method="pen" place="intext"/> <!--esset, per--> 
+        <mark name="dot" method="pen" place="intext"/> <!--retulit, postero-->
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- tenuerunt, hastatorum -->
+        <mark name="dot" method="pen" place="intext"/> <!-- signa, deinde -->
+        <mark name="dot" method="pen" place="intext"/> <!-- erant, triarij -->
+        <mark name="dot" method="pen" place="intext"/> <!--opposuit, ex-->
+        <mark name="dot" method="pen" place="intext"/> <!-- claudeba[n]t, quatuor-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--uincu[n]tur. Regia-->
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="falcatae quadrig[a]e &amp; cameli"/>
         
         <errata language="LA" copytext="regiprum" amendedtext="regiorum"/>
         
