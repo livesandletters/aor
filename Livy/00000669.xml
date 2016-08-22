@@ -12,13 +12,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        detectum Polyxenida[e] arcanum
+                        detectum Polyxenida[e] arcanum.
                     </marginalia_text>
                 <person name="Polyxenidas"/> <!-- LS, I added this name -->
                 </position>
             </language>
             <translation>
-                Polyxenidas' secret discovered
+                Polyxenidas' secret discovered.
             </translation>
         </marginalia>
         
@@ -26,12 +26,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Naumachia vtrinq[ue], perita, et valida
+                        Naumachia, vtrinq[ue] perita, et valida.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Naval battle: skilled and strong on both sides
+                Naval battle: skilled and strong on both sides.
             </translation>
         </marginalia>
         
@@ -39,7 +39,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Pyromachia terribilis
+                        Pyromachia terribilis.
                     </marginalia_text>
                 </position>
             </language>
@@ -71,13 +71,13 @@
         <underline method="pen" type="straight" language="LA" text="partib[us] "/>
         <underline method="pen" type="straight" language="LA" text="excipiens insequenteis"/>
         <underline method="pen" type="straight" language="LA" text="suo quanq[ue] ordine in fro[n]te[m] instruxisset"/>
-        <underline method="pen" type="straight" language="LA" text="explicuere ordine[m]"/>
+        <underline method="pen" type="straight" language="LA" text="explicuere ordine[m] primae"/>
         <underline method="pen" type="straight" language="LA" text="cum hoste[m] conspexere"/>
         <underline method="pen" type="straight" language="LA" text="aciem aduersam explicuit"/>
         <underline method="pen" type="straight" language="LA" text="tantum laeuo euecta cornu"/>
         <underline method="pen" type="straight" language="LA" text="ut amplecti &amp; circumire dexterum cornu"/>
         <underline method="pen" type="straight" language="LA" text="Eudamus"/>
-        <underline method="pen" type="straight" language="LA" text="non posse exaequare ordinem"/>
+        <underline method="pen" type="straight" language="LA" text="non posse exaequare ordinem Romanos"/>
         <underline method="pen" type="straight" language="LA" text="tantum no[n]"/>
         <underline method="pen" type="straight" language="LA" text="circumiri &agrave; dextero"/>
         <underline method="pen" type="straight" language="LA" text="concitat naues"/>
@@ -85,7 +85,7 @@
         <underline method="pen" type="straight" language="LA" text="praetoriae naui, in qua Polyxenidas erat, sua[m] obiecit"/>
         <underline method="pen" type="straight" language="LA" text="totis clasib[us]"/>
         <underline method="pen" type="straight" language="LA" text="ab omni parte pugna"/>
-        <underline method="pen" type="straight" language="LA" text="Romanis"/>
+        <underline method="pen" type="straight" language="LA" text="Romanis LXXX"/>
         <underline method="pen" type="straight" language="LA" text="classis undenonaginta"/>
         <underline method="pen" type="straight" language="LA" text="maximae formae"/>
         <underline method="pen" type="straight" language="LA" text="Robore nauium &amp; uirtute militum Romani long&egrave; Rhodios"/>
@@ -125,19 +125,22 @@
         <underline method="pen" type="straight" language="LA" text="possessione maris pulsus"/>
         <underline method="pen" type="straight" language="LA" text="longinqua tueri diffidebat se posse"/>
         
-        <mark name="dot" method="pen" place="intext"/> <!--naues, cum-->
         <mark name="X_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- pau -->
         <mark name="dash" method="pen" place="right_margin"/> <!--mit-->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ro -->
-        <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- mer -->
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- memora -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- An -->
         
+        <mark name="dot" method="pen" place="intext"/> <!--naues, cum-->
+        <mark name="dot" method="pen" place="intext"/> <!--pugnabant, ex-->
+        <mark name="equal_sign" method="pen" place="intext"/>
+
     </annotation>
 </transcription>
