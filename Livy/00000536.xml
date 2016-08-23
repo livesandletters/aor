@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Nunc dem&ugrave;m, Romanorum Imperatorum maximus, Scipio: et admirabilium uictoriarum ingenti gloria, soli ex omnibus mundi summis 
+                        Nunc dem&ugrave;m, Romanorum Imperatorum maximus, Scipio: et admirabilium victoriarum ingenti gloria, soli ex omnibus mundi summis 
                         Ducibus, secundus Alexandro Magno.
                     </marginalia_text>
                 <person name="Scipio Africanus"/>
@@ -43,7 +43,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Conditiones pacis, post tam immanem uictoriam. honorifica[e] conditiones pro tempore: nec tam violenta[e], aut superba[e], quam metuere
+                        Conditiones Pacis, post tam immanem victoriam. honorifica[e] conditiones pro tempore: nec tam violenta[e], aut superba[e], qu&agrave;m metuere
                         poterant ita victi.
                     </marginalia_text>
                 </position>
@@ -169,62 +169,68 @@
         <symbol name="JC" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
         
-        <mark name="dot" method="pen" place="intext"/> <!--est, cu[m]-->
-        <mark name="dot" method="pen" place="intext"/> <!-- tribus, -->
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- cecide -->
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ho -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Ita -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- sum -->
+        <mark name="triple_dash" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- di -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- nu[n] -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ue -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- im -->
+        <mark name="triple_dash" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- tene -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- po -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- arbi -->
+        
+        <mark name="dot" method="pen" place="intext"/> <!--est, cu[m]-->
+        <mark name="dot" method="pen" place="intext"/> <!-- tribus, elepha[n]tis-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--undecim. Victores-->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--cecidere. Annibal-->
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="tumultu[m] elapsus"/>
-        <mark name="comma" method="pen" place="intext" /> <!-- elapsus -->
+        <mark name="comma" method="pen" place="intext" /> <!-- elapsus Adrumetum-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="omnia"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="in praelio"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="ante aciem"/>
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--instruxisse, elephantos-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ho -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Ita -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- sum -->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--refugisset, accitusq[ue]-->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--Carthagine sexto-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="praelio"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="bello"/>
-        <mark name="triple_dash" method="pen" place="right_margin"/>
-        <mark name="bracket" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext" /> <!-- praelio -->
+        <mark name="bracket" method="pen" place="intext"/> <!--esse. Scipio-->
+        <mark name="comma" method="pen" place="intext" /> <!-- praelio expugnatis-->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- di -->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- redijt, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- redijt, nuncio-->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- nu[n] -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ue -->
+        <mark name="dot" method="pen" place="intext"/> <!--ratus, misso-->
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="ramisq[ue] oleae"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- im -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="triple_dash" method="pen" place="right_margin"/>
         <mark name="dot" method="pen" place="intext"/> <!--causa, Vtica[m]-->
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--effugit. Tu[m]-->
         <mark name="apostrophe" method="pen" place="intext"/> <!-- concilio -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="delenda[m]"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext" /> <!-- famam -->
-        <mark name="dot" method="pen" place="intext"/> <!-- solicitaret, -->
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="comma" method="pen" place="intext" /> <!-- famam solicitaret-->
+        <mark name="dot" method="pen" place="intext"/> <!-- solicitaret, ad-->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- crederent, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- crederent, conditiones-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="conditiones pacis"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- tene -->
         <mark name="dot" method="pen" place="intext"/> <!--tenerent, populandiq[ue]-->
         <mark name="dot" method="pen" place="intext"/> <!--faceret, perfugas-->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- po -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="frumentu[m]"/>
-        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="obsides"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- arbi -->
-        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
         
         <numeral place="intext" language="LA" text="elephantos in prima fronte">1.</numeral>
         <numeral place="intext" language="LA" text="deinde auxiliares ante Carthaginiensium">2.</numeral>
