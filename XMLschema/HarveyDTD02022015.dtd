@@ -74,7 +74,7 @@
 	   <!ATTLIST errata copytext CDATA #REQUIRED>
 	   <!ATTLIST errata amendedtext CDATA #REQUIRED>
 	<!ELEMENT drawing EMPTY>
-	   <!ATTLIST drawing name (face|manicule|map|florilegium) #REQUIRED>
+	   <!ATTLIST drawing name (face|manicule|florilegium) #REQUIRED>
 	   <!ATTLIST drawing method (chalk|pen) #REQUIRED>
 	   <!ATTLIST drawing place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 	   <!ATTLIST drawing language (EN|EL|FR|IT|LA|ES) #IMPLIED>
