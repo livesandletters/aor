@@ -27,7 +27,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text> 
-                        Dioclis egregiu[m] facinus, urbis occupatio.
+                        Dioclis egregiu[m] facinus, vrbis occupatio.
                     </marginalia_text>
                 <person name="Diocles"/> 
                 </position>
@@ -51,14 +51,14 @@
             <language ident="LA"> 
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Error Alexameni, paul&ograve; post a Philopoemene reformatus.
+                        Error Alexameni, paul&ograve; post &agrave; Philopoemene reformatus.
                     </marginalia_text>
                 <person name="Philopoemen"/>
                 <person name="Alexamenus of Aetolia"/>
                 </position>
             </language>
             <translation>
-                The mistake of Alexamenes, corrected a little later by Philopoemen.
+                The mistake of Alexamenus, corrected a little later by Philopoemen.
             </translation>
         </marginalia>
         
@@ -81,9 +81,9 @@
         <underline method="pen" type="straight" language="LA" text="Lacedaemone"/>
         <underline method="pen" type="straight" language="LA" text="urbi uis afferenda"/>
         <underline method="pen" type="straight" language="LA" text="tyrannus dolo capie[n]dus"/>
-        <underline method="pen" type="straight" language="LA" text="spoliatum maritimis"/>
+        <underline method="pen" type="straight" language="LA" text="spoliatum maritimis oppidis"/>
         <underline method="pen" type="straight" language="LA" text="intra moenia etiam Lacedaemonijs"/>
-        <underline method="pen" type="straight" language="LA" text="Achaeis co[m]plusum"/>
+        <underline method="pen" type="straight" language="LA" text="Achaeis co[m]pulsum"/>
         <underline method="pen" type="straight" language="LA" text="occupasset occidere"/>
         <underline method="pen" type="straight" language="LA" text="gratia[m] rei apud Lacedaemonios"/>
         <underline method="pen" type="straight" language="LA" text="Causam mittendi"/>
@@ -119,7 +119,7 @@
         <underline method="pen" type="straight" language="LA" text="corpora exerceret"/>
         <underline method="pen" type="straight" language="LA" text="consuetudine leuiore[m] laborem fore"/>
         <underline method="pen" type="straight" language="LA" text="comitate ac benignitate"/>
-        <underline method="pen" type="straight" language="LA" text="ducis etiam non iniucundum fieri"/>
+        <underline method="pen" type="straight" language="LA" text="ducis etiam non iniucundum fieri posse"/>
         <underline method="pen" type="straight" language="LA" text="Educi inde frequenter ante"/>
         <underline method="pen" type="straight" language="LA" text="Satellites tyranni"/>
         <underline method="pen" type="straight" language="LA" text="tyrannus cum tribus summum equitibus, inter"/>
@@ -179,45 +179,50 @@
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="left_margin"/>
         
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="ac nocte inge[n]s iter emensus"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="X_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- ius -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- lo -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="intext"/> <!-- est. -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="X_sign" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Damo -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="co[n]cilio arcano gentis"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- essent, -->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Alexamenus"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="simul animos acueret"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- acue -->
-        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- man -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- uulne -->
+        
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="ac nocte inge[n]s iter emensus"/>
+        <mark name="dot" method="pen" place="intext"/> <!--posset, media-->
+        <mark name="bracket" method="pen" place="intext"/> <!-- est. Lacedaemone-->
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="co[n]cilio arcano gentis"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- essent, ac-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="Alexamenus"/>
+        <mark name="dot" method="pen" place="intext"/> <!--uenit, que[m]-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="simul animos acueret"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="corpora"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="suetudine leuiore[m] laborem fore"/>
-        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="etiam non iucundum fieri"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="etiam non iniucundum fieri"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Educi"/>
-        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
         <mark name="straight_quotation_mark" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" />
-        <mark name="dot" method="pen" place="intext"/> <!-- concessisset, -->
+        <mark name="dot" method="pen" place="intext"/> <!-- concessisset, tum-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="audendaq[ue]"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="animos"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="dextrasq[ue]"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- man -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="colligit"/>
         <mark name="straight_quotation_mark" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- uulne -->
-        <mark name="comma" method="pen" place="intext"/> <!-- Aetolis -->
+        <mark name="comma" method="pen" place="intext"/> <!-- Aetolis citato-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="regiam"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext" />
+        
         <mark name="equal_sign" method="pen" place="tail"/>
         
     </annotation>
