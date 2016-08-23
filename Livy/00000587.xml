@@ -8,6 +8,7 @@
     <page filename="00000587.tif" reader="Harvey" pagination="565" signature="bbb[r]"/>
     <annotation>
 
+        <underline method="pen" type="straight" language="LA" text="Boij"/>
         <underline method="pen" type="straight" language="LA" text="gens minim&egrave; ad morae taediu[m]"/>
         <underline method="pen" type="straight" language="LA" text="Romana restitit prim&ograve;"/>
         <underline method="pen" type="straight" language="LA" text="deinde signa acriter intulit"/>
@@ -23,13 +24,16 @@
         <underline method="pen" type="straight" language="LA" text="aduersamq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="prospera pugna obliterauerit"/>
         
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="prospera pugna obliterauerit"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- cura -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Mar -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- quadragin -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ca -->
-        <mark name="dot" method="pen" place="intext"/> <!--capta, &-->
-        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="prospera pugna obliterauerit"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- intercludere -->
+        
+        <mark name="dot" method="pen" place="intext"/> <!--capta, &-->
+        <mark name="dot" method="pen" place="intext"/> <!--multos, ex-->
         
         <errata language="LA" copytext="militari" amendedtext="militaria"/>
         
