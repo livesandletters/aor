@@ -28,7 +28,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Stratagema oeconomicum Nabidis Tyranni, et vxoris.
+                        Stratagema Oeconomicum Nabidis Tyranni, et vxoris.
                     </marginalia_text>
                     <person name="Nabis of Sparta"/>
                 </position>
@@ -92,7 +92,7 @@
         <underline method="pen" type="straight" language="LA" text="distulisse rem magis, qu&agrave;m negasse uideretur"/>
         <underline method="pen" type="straight" language="LA" text="ne sine aliqua munificentia praeteriret"/>
         <underline method="pen" type="straight" language="LA" text="decem talenta argenti dono"/>
-        <underline method="pen" type="straight" language="LA" text="Nabis firmato"/>
+        <underline method="pen" type="straight" language="LA" text="Nabis sirmato"/>
         <underline method="pen" type="straight" language="LA" text="praesidio Argis"/>
         <underline method="pen" type="straight" language="LA" text="cum ipse uiros spoliasset"/>
         <underline method="pen" type="straight" language="LA" text="foeminas spoliandas"/>
@@ -108,19 +108,21 @@
         <symbol name="SS" place="right_margin"/>
         <symbol name="SS" place="left_margin"/>
         
-        <mark name="straight_quotation_mark" method="pen" place="intext"/>
+        <mark name="quotation_mark" method="pen" place="left_margin"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- hy -->
         <mark name="plus_sign" method="pen" place="right_margin" language="LA" text="Argos in potestate sua esse: eo"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!--diceret, in-->
-        <mark name="dot" method="pen" place="intext"/> <!--comitatu, Nicostratus-->
-        <mark name="dot" method="pen" place="intext"/> <!-- campi, -->
-        <mark name="dot" method="pen" place="intext"/> <!-- militum, -->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="cum ipse uiros spoliasset"/>
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="foeminas spoliandas"/>
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="slash" method="pen" place="right_margin"/>
-        <mark name="quotation_mark" method="pen" place="left_margin"/>
+        
+        <mark name="straight_quotation_mark" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--diceret, in-->
+        <mark name="dot" method="pen" place="intext"/> <!--comitatu, Nicostratus-->
+        <mark name="dot" method="pen" place="intext"/> <!-- campi, inermis-->
+        <mark name="dot" method="pen" place="intext"/> <!-- militum, inermes-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="cum ipse uiros spoliasset"/>
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="foeminas spoliandas"/>
         <mark name="dot" method="pen" place="intext"/> <!--minando, non-->
         <mark name="dot" method="pen" place="intext"/> <!-- minando, -->
         

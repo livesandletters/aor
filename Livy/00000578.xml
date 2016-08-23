@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Pro legatis, oratoribus, pragmaticis, causarum, commoditatumq[ue] negociatoribus. vt s[upr]a, i[nfr]a.
+                        Pro Legatis, oratoribus, pragmaticis, causarum, commoditatumq[ue] negociatoribus. vt s[upr]a, i[nfr]a.
                     </marginalia_text>
                 </position>
             </language>
@@ -38,7 +38,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
-                        Nouit mundum, qui nouit Liuium. H&icirc;c, s[upr]a, i[nfr]a, sa[e]pissim&egrave;. Eum vnum legens, spiritu[m] mihi uideor ipsius 
+                        Nouit mundum, qui nouit Liuium. H&icirc;c, s[upr]a, i[nfr]a, sa[e]pissim&egrave;. Eum vnum legens, spiritu[m] mihi videor ipsius 
                         Ca[e]saris, et Sallustij; Suetonij, et Taciti; Eutropij, et Paterculi; Valerij Max., et Frontini; Ciceronis etiam, et Quinctiliani; 
                         Virgilij, et vtriusq[ue] Seneca[e]; omnium deniq[ue] pra[e]stantium Romanorum imbibere. Qui mihi in suis quibusdam prudentia[e] 
                         apicibus, super summos Gra[e]corum: pra[e]sertim press&egrave; compacti, aut distinct&egrave; variati, quo decet opportun&ograve; 
@@ -100,18 +100,21 @@
         
         <symbol name="Mercury" place="left_margin"/>
         
+        <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="uerius, compedes eas Graeciae appellare"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="quotation_mark" method="pen" place="left_margin"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- appa -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- tene -->
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="quotation_mark" method="pen" place="left_margin" language="LA" text="uerius, compedes eas Graeciae appellare"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- co[n]tra -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ar -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- habe -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Tyran -->
-        <mark name="quotation_mark" method="pen" place="left_margin"/>
+        
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="apostrophe" method="pen" place="intext"/> <!--orationem-->
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
         
     </annotation>
 </transcription>
