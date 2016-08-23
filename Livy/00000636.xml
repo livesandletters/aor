@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text> 
-                        Superba, atq[ue] uana iactantia Legati Regij. At Romani non terrentur Olympicis montibus gloriosarum minarum.
+                        Superba, atq[ue] vana iactantia Legati Regij. At Romani non terrentur Olympicis montibus gloriosarum minarum.
                     </marginalia_text>
                 </position>
             </language>
@@ -27,9 +27,9 @@
         <underline method="pen" type="straight" language="LA" text="Antiochi legatus"/>
         <underline method="pen" type="straight" language="LA" text="pleriq[ue] quos opes regiae alunt, uaniloquus maria terras inani sonitu uerborum compleuit"/>
         <underline method="pen" type="straight" language="LA" text="Equitum innumerabilem uim"/>
-        <underline method="pen" type="straight" language="LA" text="cataphractos"/>
-        <underline method="pen" type="straight" language="LA" text="equestribus"/>
-        <underline method="pen" type="straight" language="LA" text="quam uel totius Europae exercitus in unum coacti obrui possent"/>
+        <underline method="pen" type="straight" language="LA" text="quos cataphractos"/>
+        <underline method="pen" type="straight" language="LA" text="equestribus copijs"/>
+        <underline method="pen" type="straight" language="LA" text="qua[m]quam uel totius Europae exercitus in unum coacti obrui possent"/>
         <underline method="pen" type="straight" language="LA" text="copias peditum"/>
         <underline method="pen" type="straight" language="LA" text="nominibus quoq[ue] gentium uix fando auditis"/>
         <underline method="pen" type="straight" language="LA" text="Dahas"/>
@@ -42,7 +42,7 @@
         <underline method="pen" type="straight" language="LA" text="cum magno Asiae totius, partisq[ue] Europ[a]e rege."/>
         <underline method="pen" type="straight" language="LA" text="ultimis orientis terminis"/>
         <underline method="pen" type="straight" language="LA" text="liberandam Graeciam ueniat"/>
-        <underline method="pen" type="straight" language="LA" text="ut neutri parti sese coniugant"/>
+        <underline method="pen" type="straight" language="LA" text="ut neutri parti sese coniungant"/>
         <underline method="pen" type="straight" language="LA" text="petere pacem"/>
         <underline method="pen" type="straight" language="LA" text="utriq[ue] parti"/>
         <underline method="pen" type="straight" language="LA" text="qu&ograve;d medios deceat amicos, optent"/>
@@ -58,7 +58,7 @@
         <underline method="pen" type="straight" language="LA" text="ingratos"/>
         <underline method="pen" type="straight" language="LA" text="non uictoriam"/>
         <underline method="pen" type="straight" language="LA" text="mod&ograve; de Philippo"/>
-        <underline method="pen" type="straight" language="LA" text="uitute Aetoloru[m] partam"/>
+        <underline method="pen" type="straight" language="LA" text="uirtute Aetoloru[m] partam"/>
         <underline method="pen" type="straight" language="LA" text="ipsumq[ue] &amp; exercitum"/>
         <underline method="pen" type="straight" language="LA" text="opera seruatos"/>
         <underline method="pen" type="straight" language="LA" text="enim illum"/>
@@ -105,35 +105,38 @@
         
         <symbol name="Mercury" place="left_margin"/>
         
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="uanum"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- co -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="uaniloquus"/> 
-        <mark name="comma" method="pen" place="intext"/> <!--uaniloquus, maria-->
         <mark name="double_vertical_bar" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="X_sign" method="pen" place="left_margin"/>
+        <mark name="X_sign" method="pen" place="left_margin"/>
+        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+        <mark name="horizontal_bar" method="pen" place="left_margin"/>
+        <mark name="horizontal_bar" method="pen" place="left_margin"/>
+        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- co -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- par -->
-        <mark name="dot" method="pen" place="intext"/> <!--possent, adijciebat-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- multipli -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- naua -->
-        <mark name="comma" method="pen" place="intext"/> <!-- Romanis -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="neutri"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="utriq[ue]"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- quie -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="in maledicta"/>
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- obijceret -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="right_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- mentien -->
-        <mark name="X_sign" method="pen" place="left_margin"/>
-        <mark name="X_sign" method="pen" place="left_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!--mul-->
+        
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="uanum"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="uaniloquus"/> 
+        <mark name="comma" method="pen" place="intext"/> <!--uaniloquus maria-->
+        <mark name="dot" method="pen" place="intext"/> <!--possent, adijciebat-->
+        <mark name="comma" method="pen" place="intext"/> <!-- Romanis principe-->
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="neutri"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="utriq[ue]"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="in maledicta"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- obijceret. Ad -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="peditum equitumq[ue] nubes iactat"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="consternit maria suis classibus"/>
-        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
-        <mark name="horizontal_bar" method="pen" place="left_margin"/>
-        <mark name="horizontal_bar" method="pen" place="left_margin"/>
-        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- renidens -->
-        <mark name="comma" method="pen" place="intext"/> <!-- Demetriade -->
+        <mark name="comma" method="pen" place="intext"/> <!-- renidens condimentis-->
+        <mark name="comma" method="pen" place="intext"/> <!-- Demetriade nunc-->
         <mark name="dot" method="pen" place="intext"/> <!--Chalcidem, uideretis-->
         
     </annotation>
