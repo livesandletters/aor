@@ -66,13 +66,16 @@
         
         <symbol name="LL" place="head"/>
         
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="legatu[m] Cyneam Pyrrhus"/>
+        <mark name="horizontal_bar" method="pen" place="left_margin"/> 
+        
         <mark name="triple_dash" method="pen" place="right_margin" language="LA" text="legatu[m] Cyneam Pyrrhus"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- pu -->
+        
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="legatu[m] Cyneam Pyrrhus"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--erat, tamen-->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- pu -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- uelim. Post-->
-        <mark name="horizontal_bar" method="pen" place="left_margin"/> 
+        
         <mark name="quotation_mark" method="pen" place="tail" language="LA" text="etia[m] truce[m] esse"/>
         
     </annotation>

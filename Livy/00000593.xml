@@ -46,11 +46,11 @@
         <underline method="pen" type="straight" language="LA" text="suos quaeq[ue] domi rogare"/>
         <underline method="pen" type="straight" language="LA" text="blandiores in publico q[uam] in priuato"/>
         <underline method="pen" type="straight" language="LA" text="matronas co[n]tineret"/>
-        <underline method="pen" type="straight" language="LA" text="quae leges hic rogare[n]tuur abrogare[n]tur"/>
+        <underline method="pen" type="straight" language="LA" text="quae leges hic rogare[n]tur abrogare[n]tur"/>
         <underline method="pen" type="straight" language="LA" text="ne priuata[m] quide[m] rem agere foeminas sine autore"/>
         <underline method="pen" type="straight" language="LA" text="manu esse parentu[m], fratru[m], uirorum."/>
         <underline method="pen" type="straight" language="LA" text="etiam remp. capessere"/>
-        <underline method="pen" type="straight" language="LA" text="foro propr&egrave;, &amp; co[n]cionibus"/>
+        <underline method="pen" type="straight" language="LA" text="foro prop&egrave;, &amp; co[n]cionibus"/>
         <underline method="pen" type="straight" language="LA" text="aliae rogationes"/>
         <underline method="pen" type="straight" language="LA" text="frenos impotenti naturae, &amp; indomito animali"/>
         <underline method="pen" type="straight" language="LA" text="libertatem, im&ograve; licentiam, si"/>
@@ -82,22 +82,25 @@
         
         <symbol name="LL" place="head"/>
         
-        <mark name="dash" method="pen" place="right_margin"/> <!-- dis -->
         <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- instituisset, -->
-        <mark name="comma" method="pen" place="intext"/> <!-- nostra -->
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="ne priuata[m] quide[m] rem agere foeminas sine autore"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- dis -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- su -->
         <mark name="dash" method="pen" place="right_margin"/> <!--consulta-->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- blan -->
-        <mark name="plus_sign" method="pen" place="left_margin" language="LA" text="ne priuata[m] quide[m] rem agere foeminas sine autore"/>
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!--animali, &-->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- iniu -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- reli -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- instituisset, minus-->
+        <mark name="comma" method="pen" place="intext"/> <!-- nostra -->
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--animali, &-->
+        
         <mark name="plus_sign" method="pen" place="tail"/>
         
     </annotation>
