@@ -59,10 +59,10 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
                         Prim&ograve; Alexandri Magni; poste&agrave; Pyrrhi; tandem etiam Annibalis fortuitus interitus, Romanis fortunatus. 
-                        Intere&agrave; quoq[ue] domestica[e] Carthaginensium factiones Romanis peropportuna[e]. De quo divino Romanoru[m] fato prudenter 
+                        Intere&agrave; quoq[ue] domestica[e] Carthaginensium factiones Romanis peropportuna[e]. De quo diuino Romanoru[m] fato prudenter 
                         Plutarchus in memorabili illo libello de fortuna Roman[orum]. Cui profuerit etiam adiungere duos Plutarchi insignes libros de fortuna,
                         et virtute Alexandri. Tres erudito Polyhistori, sagaciq[ue] Critico Libri cum primis necessarij. Nunc Liuius: ali&agrave;s Plutarchus 
-                        meus eximius antesignanus. Vterq[ue] suo loco unicus: vt etiam alij illustres auctores: suo quisq[ue] tempore singularis. Vt iam san&egrave; 
+                        meus eximius antesignanus. Vterq[ue] suo loco vnicus: vt etiam alij illustres auctores: suo quisq[ue] tempore singularis. Vt iam san&egrave; 
                         noster Liuius: cui fer&egrave; incumbo, tanq[uam] Phoenici; admirorq[ue] vt aquilum Iouis, Solisq[ue] Romani. Sed quot interim perdidi
                         momenta aurea? Nunc ad ipsum Liuium.
                     </marginalia_text>
@@ -168,59 +168,62 @@
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
         
-        <mark name="dash" method="pen" place="right_margin"/> <!-- An -->
-        <mark name="comma" method="pen" place="intext"/> <!-- accolam -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Per -->
-        <mark name="dot" method="pen" place="intext"/> <!-- audisset, -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="quotation_mark" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="quotation_mark" method="pen" place="left_margin"/>
+        <mark name="apostrophe" method="pen" place="left_margin"/> 
+        
+        <mark name="dash" method="pen" place="right_margin"/> <!-- An -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Per -->
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- Afri -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ca -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- exter -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ue -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ui -->
+        
+        <mark name="comma" method="pen" place="intext"/> <!-- accolam tanto-->
+        <mark name="dot" method="pen" place="intext"/> <!-- audisset, Ephesum-->
         <mark name="comma" method="pen" place="intext"/> <!--demeret periculi-->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="quotation_mark" method="pen" place="right_margin"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- Afri -->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="apostrophe" method="pen" place="intext"/> <!-- refert -->
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--crederet, respondisset-->
         <mark name="hash" method="pen" place="intext" language="LA" text="Alexandrum"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="parua"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--peragresset. qu[a]erente-->
+        <mark name="dot" method="pen" place="intext"/> <!--poneret, Pyrrhum-->
         <mark name="hash" method="pen" place="intext" language="LA" text="Pyrrhum"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="castra"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ca -->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="loca"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="praesidia"/>
-        <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- exter -->
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--mallent. exequenti-->
         <mark name="hash" method="pen" place="intext" language="LA" text="semetipsum"/>
-        <mark name="semicolon" method="pen" place="intext"/> <!--Scipioni-->
+        <mark name="semicolon" method="pen" place="intext"/> <!--Scipioni &-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ante Alexandru[m]"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="ante omnes alios imperatores esse"/>
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="Punico"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- responsum -->
+        <mark name="comma" method="pen" place="intext"/> <!-- responsum &-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="assentationis"/>
         <mark name="diacritic" method="pen" place="intext" language="LA" text="quod"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ue -->
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--secreuisset. Villius-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="mors eius suspectior"/>
         <mark name="apostrophe" method="pen" place="intext"/> <!-- suae -->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="facinorum"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="ueneno"/>
         <mark name="diacritic" method="pen" place="intext" language="LA" text="quod"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="Minione"/>
-        <mark name="apostrophe" method="pen" place="left_margin"/>
-        <mark name="apostrophe" method="pen" place="left_margin"/>
-        <mark name="apostrophe" method="pen" place="left_margin"/> 
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="secreta"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ui -->
-        <mark name="dot" method="pen" place="intext"/> <!-- Romani -->
+        <mark name="dot" method="pen" place="intext"/> <!-- Romani, sed-->
         
         <numeral place="right_margin">1.</numeral>
         <numeral place="right_margin">2.</numeral>
