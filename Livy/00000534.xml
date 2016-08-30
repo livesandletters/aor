@@ -32,7 +32,7 @@
                 </position>
             </language>
             <translation>
-                Scipio's's formation.
+                Scipio's formation.
             </translation>
         </marginalia>
         
@@ -41,7 +41,7 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
                         Talis Imperator, Papyrius Cursor, magnific&egrave; la[e]tus, tanq[uam] certus bona[e] Fortuna[e]; et tam vincendi confidentissimus 
-                        Auctor, qu&agrave;m pugnandi peritissimus, fortissimusq[ue] Artifex. s[upr]a, 264.
+                        Auctor, qu&agrave;m Pugnandi peritissimus, fortissimusq[ue] Artifex. s[upr]a, 264.
                     </marginalia_text>
                 <person name="Lucius Papirius Cursor"/>
                     <internal_ref text="s[upr]a">
@@ -61,7 +61,7 @@
         <underline method="pen" type="straight" language="LA" text="Annibal"/>
         <underline method="pen" type="straight" language="LA" text="me bellu[m]"/>
         <underline method="pen" type="straight" language="LA" text="que[m] eius poeniteret"/>
-        <underline method="pen" type="curved" language="LA" text="quoad ipsi inuid&ecirc;re"/>
+        <underline method="pen" type="curved" language="LA" text="q[uo]ad ipsi inuid&ecirc;re"/>
         <underline method="pen" type="straight" language="LA" text="quem pacis"/>
         <underline method="pen" type="straight" language="LA" text="poeniteat"/>
         <underline method="pen" type="straight" language="LA" text="de co[n]ditionib[us] superiorib[us]"/>
@@ -83,13 +83,13 @@
         <underline method="pen" type="straight" language="LA" text="dant &amp; dabunt"/>
         <underline method="pen" type="straight" language="LA" text="me"/>
         <underline method="pen" type="straight" language="LA" text="humanae infirmitatis memini"/>
-        <underline method="pen" type="straight" language="LA" text="uis fortun[a]e reputo"/>
-        <underline method="pen" type="straight" language="LA" text="omnia qu[a]ecu[m]q[ue] agimus, subiecta esse mille casib[us]"/>
+        <underline method="pen" type="straight" language="LA" text="uim fortun[a]e reputo"/>
+        <underline method="pen" type="straight" language="LA" text="omnia qu[a]ecu[m]q[ue] agimus, subiecta esse mille casib[us] scio."/>
         <underline method="pen" type="straight" language="LA" text="superb&egrave;, &amp; uiole[n]ter"/>
         <underline method="pen" type="straight" language="LA" text="si priusq[uam]"/>
-        <underline method="pen" type="straight" language="LA" text="aspernarer"/>
         <underline method="pen" type="straight" language="LA" text="te tua uolu[n]tate cedente[m]"/>
         <underline method="pen" type="straight" language="LA" text="ipsum ueniente[m] ad pacem"/>
+        <underline method="pen" type="straight" language="LA" text="aspernarer"/>
         <underline method="pen" type="straight" language="LA" text="co[n]serta restita[n]tem ac tergiuersantem"/>
         <underline method="pen" type="straight" language="LA" text="quid ad ea"/>
         <underline method="pen" type="straight" language="LA" text="inducias expugnataru[m]"/>
@@ -97,7 +97,7 @@
         <underline method="pen" type="straight" language="LA" text="adijcit"/>
         <underline method="pen" type="straight" language="LA" text="refera[m] ad consiliu[m]"/>
         <underline method="pen" type="straight" language="LA" text="bellu[m] parate"/>
-        <underline method="pen" type="straight" language="LA" text="quonia[m] pacem pati no[n]"/>
+        <underline method="pen" type="straight" language="LA" text="quonia[m] pacem pati no[n] potuistis"/>
         <underline method="pen" type="straight" language="LA" text="infecta"/>
         <underline method="pen" type="straight" language="LA" text="ex colloquio ad suos"/>
         <underline method="pen" type="straight" language="LA" text="uerba pacata"/>
@@ -135,7 +135,7 @@
         <underline method="pen" type="straight" language="LA" text="p[ro]pter metum"/> 
         <underline method="pen" type="straight" language="LA" text="animis perfidia"/>
         <underline method="pen" type="straight" language="LA" text="colloquiu[m] Annibalis in secreto habitu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="liberu[m] singenti, qua uelit flecti"/>
+        <underline method="pen" type="straight" language="LA" text="liberu[m] fingenti, qua uelit flecti"/>
         <underline method="pen" type="straight" language="LA" text="ominat[ur]"/>
         <underline method="pen" type="straight" language="LA" text="quonda[m] auspicijs patres"/>
         <underline method="pen" type="straight" language="LA" text="portendisse deos"/>
@@ -165,76 +165,87 @@
         <underline method="pen" type="straight" language="LA" text="unq[ue] in acie ant&egrave;"/>
         
         <symbol name="JC" place="left_margin"/>
-        <symbol name="JC" place="right_margin"/>
         <symbol name="Mars" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
         <symbol name="SS" place="left_margin"/>
-        <symbol name="SS" place="intext" language="LA" text="deos"/>
+        <symbol name="SS" place="left_margin"/>
+        
+        <symbol name="JC" place="right_margin"/>
         <symbol name="SS" place="right_margin"/>
         
+        <symbol name="SS" place="intext" language="LA" text="deos"/>
+        
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="horizontal_bar" method="pen" place="left_margin"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- pa -->
-        <mark name="vertical_bar" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- Ro -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Carthagini -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- co[n] -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- ha -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- co[n]ditio, -->
-        <mark name="dot" method="pen" place="intext"/> <!--Sicilia, neq[ue]-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- pericu -->
-        <mark name="dot" method="pen" place="intext"/> <!--periculum, &-->
-        <mark name="dot" method="pen" place="intext"/> <!--dederu[n]t, &-->
         <mark name="dash" method="pen" place="right_margin"/> <!-- da -->
+        <mark name="dash" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- obstri -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- con -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- decernen -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- exci -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ue -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- do-->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- uul -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- prin -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- instrue -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- da-->
+        
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--poeniteat. Aduersus-->
+        <mark name="dot" method="pen" place="intext"/> <!-- co[n]ditio, ut-->
+        <mark name="dot" method="pen" place="intext"/> <!--Sicilia, neq[ue]-->
+        <mark name="dot" method="pen" place="intext"/> <!--periculum, &-->
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--dederu[n]t, &-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="me"/>
         <mark name="dot" method="pen" place="intext"/> <!--memini, &-->
-        <mark name="dash" method="pen" place="right_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- obstri -->
+        <mark name="plus_sign" method="pen" place="intext"/> <!--adijcit, est-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="ad consiliu[m]"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- con -->
-        <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- decernen -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--potuistis. Ita-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="orbe[m] terraru[m]"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- exci -->
-        <mark name="comma" method="pen" place="intext"/> <!-- die -->
+        <mark name="comma" method="pen" place="intext"/> <!-- die duoru[m]-->
         <mark name="dot" method="pen" place="intext"/> <!--exercitus, multa-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="cum oculis magis"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- uires -->
+        <mark name="comma" method="pen" place="intext"/> <!-- uires simul-->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--gestas, tot-->
-        <mark name="plus_sign" method="pen" place="intext" language="LA" text="ad signem"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ue -->
-        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--occisos, &-->
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="ad insignem"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--referebat. Scipio-->
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="Scipio"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="confessione[m] hostiu[m]"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="metum"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- hoc -->
+        <mark name="comma" method="pen" place="intext"/> <!-- hoc colloquiu[m]-->
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="liberu[m]"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="ominat[ur]"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ue-->
+        <mark name="dot" method="pen" place="intext"/> <!--insulas, ea-->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- dop-->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- uul -->
         <mark name="quotation_mark" method="pen" place="intext" language="LA" text="laeto"/>
         <mark name="apostrophe" method="pen" place="intext"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- prin -->
-        <mark name="comma" method="pen" place="intext"/> <!-- principes -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- instrue -->
-        <mark name="comma" method="pen" place="intext"/> <!-- dista[n]tes -->
+        <mark name="comma" method="pen" place="intext"/> <!-- principes triarijs-->
+        <mark name="comma" method="pen" place="intext"/> <!-- dista[n]tes ut-->
         <mark name="dot" method="pen" place="intext"/> <!--cornu, Masanissa[m]-->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- da-->
-        <mark name="horizontal_bar" method="pen" place="left_margin"/>
+        <mark name="comma" method="pen" place="intext"/> <!--antesignanis, uia[m]-->
+        
+        <mark name="quotation_mark" method="pen" place="tail"/>
         
     </annotation>
 </transcription>
