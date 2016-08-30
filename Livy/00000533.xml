@@ -41,7 +41,7 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text> 
                         Ecc&egrave; tandem Annibal, cautior consiliarius, qu&agrave;m ferocior Dux. Quid mirum, si Annibal Fabium fecerit politicum, et 
-                        pragmaticum; cum Scipio Annibalem ipsium faciat oratorem, et philosophum? Alius est iuuenilis Fortitudinis spiritus: alius virilis 
+                        pragmaticum; cum Scipio Annibalem ipsium faciat Oratorem, et Philosophum? Alius est iuuenilis Fortitudinis spiritus: alius virilis 
                         prudentia[e]: alius senilis Temperantia[e]. Et sua cuiq[ue] phrasis, suus stilus; magis, minusue temperatus, ac quodammod&ograve; froenatus.
                     </marginalia_text>
                 <person name="Hannibal"/>
@@ -68,7 +68,7 @@
         <underline method="pen" type="straight" language="LA" text="Annibal prior"/>
         <underline method="pen" type="straight" language="LA" text="primus bellu[m]"/>
         <underline method="pen" type="straight" language="LA" text="prop&egrave; in manib[us] uictoria[m]"/>
-        <underline method="pen" type="straight" language="LA" text="ad pace[mn] pete[m]"/>
+        <underline method="pen" type="straight" language="LA" text="ad pace[m] pete[m]"/>
         <underline method="pen" type="straight" language="LA" text="te mihi potissimu[m]"/>
         <underline method="pen" type="straight" language="LA" text="multa egregia"/>
         <underline method="pen" type="straight" language="LA" text="Annibalem"/>
@@ -95,11 +95,11 @@
         <underline method="pen" type="straight" language="LA" text="in meliore uestra fortuna"/>
         <underline method="pen" type="straight" language="LA" text="de pace agitur"/>
         <underline method="pen" type="straight" language="LA" text="quorum &amp; maxim&egrave; interest pacem esse"/>
-        <underline method="pen" type="straight" language="LA" text="qui quod cunq[ue] egerimus"/>
+        <underline method="pen" type="straight" language="LA" text="qui quodcunq[ue] egerimus"/>
         <underline method="pen" type="straight" language="LA" text="ratu[m] ciuitates nostrae"/>
         <underline method="pen" type="straight" language="LA" text="animo tantu[m]"/>
         <underline method="pen" type="straight" language="LA" text="non abhorrente &agrave; quietis co[n]silijs"/>
-        <underline method="pen" type="straight" language="LA" text="ad me"/>
+        <underline method="pen" type="straight" language="LA" text="ad me attinet"/>
         <underline method="pen" type="straight" language="LA" text="aetas senem"/>
         <underline method="pen" type="straight" language="LA" text="puer"/>
         <underline method="pen" type="straight" language="LA" text="iam secundae"/>
@@ -124,7 +124,7 @@
         <underline method="pen" type="straight" language="LA" text="calamitate uestr[a]e domus"/>
         <underline method="pen" type="straight" language="LA" text="decus insigne uirtutis pietatisq[ue] eximi&egrave; c[a]episti"/>
         <underline method="pen" type="straight" language="LA" text="amissas Hispanias"/>
-        <underline method="pen" type="straight" language="LA" text="co[n]sul"/>
+        <underline method="pen" type="straight" language="LA" text="co[n]sul creatus"/>
         <underline method="pen" type="straight" language="LA" text="ad tutanda[m]"/>
         <underline method="pen" type="straight" language="LA" text="Italia[m] paru[m]"/>
         <underline method="pen" type="straight" language="LA" text="tra[n]sgressus in Africam, duob[us]"/>
@@ -207,60 +207,66 @@
         <symbol name="JC" place="right_margin"/>
         
         <mark name="equal_sign" method="pen" place="head"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- sunt -->
-        <mark name="dot" method="pen" place="intext"/> <!--duces, sed-->
-        <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="vertical_bar" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- co[n]spectu -->
+        
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="X_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="Non temer&egrave; incerta casuu[m] reputat, quem fortuna nunqua[m] decepit"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="X_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="X_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="equal_sign" method="pen" place="left_margin"/>
+        
         <mark name="dash" method="pen" place="right_margin"/> <!-- admira -->
-        <mark name="circumflex" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!--uenire[m], l[a]etor-->
-        <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- ulti -->
-        <mark name="equal_sign" method="pen" place="intext" language="LA" text="tibi cessisse"/>
         <mark name="dash" method="pen" place="right_margin"/> <!-- ludibri -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- Roma -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- qui -->
         <mark name="dash" method="pen" place="right_margin"/> <!-- im -->
-        <mark name="comma" method="pen" place="intext"/> <!-- enim -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="dash" method="pen" place="right_margin"/> <!-- for -->
+        <mark name="dash" method="pen" place="right_margin"/> <!-- ali -->
+        <mark name="X_sign" method="pen" place="right_margin"/>
+        
+        <mark name="comma" method="pen" place="intext"/> <!-- sunt no[n]-->
+        <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--duces, sed-->
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="vertical_bar" method="pen" place="intext"/> <!--pares. Paulisper-->
+        <mark name="comma" method="pen" place="intext"/> <!-- co[n]spectu admiratione-->
+        <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="dot" method="pen" place="intext"/> <!--habui, is-->
+        <mark name="dot" method="pen" place="intext"/> <!--uenire[m], l[a]etor-->
+        <mark name="equal_sign" method="pen" place="intext"/>
+        <mark name="equal_sign" method="pen" place="intext" language="LA" text="tibi cessisse"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- enim ne-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- reuertentem -->
-        <mark name="X_sign" method="pen" place="left_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!--esse, &-->
+        <mark name="comma" method="pen" place="intext"/> <!-- reuertentem unde-->
         <mark name="dot" method="pen" place="intext"/> <!--sum, iam-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="rationem sequi"/>
-        <mark name="dash" method="pen" place="right_margin"/> <!-- for -->
-        <mark name="equal_sign" method="pen" place="left_margin" language="LA" text="Non temer&egrave; incerta casuu[m] reputat, quem fortuna nunqua[m] decepit"/>
         <mark name="dot" method="pen" place="intext"/> <!--Cannas, id-->
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- ereptis, -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- ereptis, me-->
         <mark name="equal_sign" method="pen" place="intext"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- dij, -->
-        <mark name="dash" method="pen" place="right_margin"/> <!-- ali -->
-        <mark name="X_sign" method="pen" place="left_margin"/>
-        <mark name="dot" method="pen" place="intext"/> <!-- oru[m], -->
-        <mark name="comma" method="pen" place="intext"/> <!-- orbatu[m] -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
+        <mark name="dot" method="pen" place="intext"/> <!-- dij, no[n]-->
+        <mark name="dot" method="pen" place="intext"/> <!-- oru[m], satis-->
+        <mark name="dot" method="pen" place="intext"/> <!--uideras, hic-->
+        <mark name="comma" method="pen" place="intext"/> <!-- orbatu[m] ante-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="bonis"/>
-        <mark name="X_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="nostris dubijs"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="est pax"/>
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="certa pax"/>
-        <mark name="X_sign" method="pen" place="right_margin"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--uires, tum-->
-        <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- id -->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="equal_sign" method="pen" place="intext"/>
         <mark name="dot" method="pen" place="intext"/> <!--irrogemus, no[n]-->
-        <mark name="equal_sign" method="pen" place="left_margin"/>
         
     </annotation>
 </transcription>
