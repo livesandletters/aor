@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Vnius hominis immensa vis: sed profundi mathematici, et subtilissimi mechanici.
+                        Vnius hominis immensa vis: sed profundi mathematici, et subtilissimi mechanicj.
                     </marginalia_text>
                 </position>
             </language>
@@ -36,7 +36,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Unus artifex instar mille bellatorum: nec mille bellatores instar vnius artificis. 
+                        Vnus artifex instar mille bellatorum: nec mille bellatores instar vnius artificis. 
                         Tanti valet peritissima Mechanica, in primisq[ue] Mechanopoetica.
                     </marginalia_text>
                 </position>
@@ -54,13 +54,18 @@
         <underline method="pen" type="straight" language="LA" text="perleui momento ludificaretur"/>
         <underline method="pen" type="straight" language="LA" text="omni genere tormentorum instruxit"/>
         <underline method="pen" type="straight" language="LA" text="caeteris nauibus sagittarij funditoresq[ue]. &amp; uelites etiam, quorum telum inhabile ad remittendu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="uix quenquam sine uulnere"/>
         <underline method="pen" type="straight" language="LA" text="turres co[n]tabulatas"/>
         
         <symbol name="SS" place="left_margin"/>
         
+        <mark name="dash" method="pen" place="right_margin"/> <!--tormen-->
+        <mark name="dash" method="pen" place="right_margin"/> <!--quinquere-->
+        
+        <mark name="plus_sign" method="pen" place="intext" language="LA" text="nisi unus"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="unicus"/>
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="bellicorum tormentoru[m]"/>
-        <mark name="comma" method="pen" place="intext"/> <!--que qui-->
+        <mark name="comma" method="pen" place="intext"/> <!--que quibus-->
         <mark name="equal_sign" method="pen" place="intext" language="LA" text="perleui"/>
         
     </annotation>
