@@ -9,7 +9,6 @@
     <page filename="Ha2.005v.tif" pagination="330" reader="Harvey"/> <!-- ABO 10left -->
     <annotation>
         
-        <!-- Marginalia -->
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="head" book_orientation="0">
@@ -42,6 +41,7 @@
             	</position>
             </language>
         </marginalia>
+    	
     	<marginalia hand="Italian">
     		<language ident="IT">
     			<position place="intext" book_orientation="0">
@@ -54,6 +54,7 @@
     			ridiculous.
     		</translation>
     	</marginalia>
+    	
     	<marginalia hand="Italian">
     		<language ident="IT">
     			<position place="intext" book_orientation="0">
@@ -113,11 +114,12 @@
     			</position>
     		</language>
     	</marginalia>
+    	
     	<marginalia hand="Italian">
     		<language ident="LA">
     			<position place="left_margin" book_orientation="90">
     				<marginalia_text>
-    					&Ocirc; sordide, vbi sunt aetheri spiritus?
+    					&Ocirc; sordide, vbi sunt a[e]theri spiritus?
     				</marginalia_text>
     				<emphasis method="chalk" type="straight"/>
     			</position>
@@ -131,16 +133,13 @@
     		<language ident="EN">
     			<position place="right_margin" book_orientation="270">
     				<marginalia_text>
-    					Alwais sum singularitie in action, or counsell: in speach, or behauiour.
+    					Allwais sum singularitie in action, or counsell: in speach, or behauiour.
     				</marginalia_text>
     				<emphasis method="chalk" type="straight"/>
     			</position>
     		</language>
     	</marginalia>
-    	
-        
-        <!-- Underlines -->
-        
+    
     	<underline method="pen" type="straight" language="IT" text="si cerca"/>
     	<underline method="pen" type="straight" language="IT" text="uorrebbe trouare"/>
     	<underline method="pen" type="straight" language="IT" text="una ricamatrice"/>
@@ -150,7 +149,7 @@
     	<underline method="pen" type="straight" language="IT" text="lauino prima le mani"/>
     	<underline method="pen" type="straight" language="IT" text="la lepre si"/>
     	<underline method="pen" type="straight" language="IT" text="guardare in dietro"/>
-    	<underline method="pen" type="straight" language="IT" text="i cani le danno"/>
+    	<underline method="pen" type="straight" language="IT" text="cani le danno"/>
     	<underline method="pen" type="straight" language="IT" text="non ha gli occhi al culo"/>
     	<underline method="pen" type="straight" language="IT" text="Giuochi Carnascialeschi"/>
     	<underline method="pen" type="straight" language="IT" text="Giuliano de' Medici"/>
@@ -176,45 +175,43 @@
     	<underline method="pen" type="straight" language="IT" text="lettere Greghe"/>
     	<underline method="pen" type="straight" language="IT" text="appar&ograve; il Barghella"/>
     	
-        <!-- Symbols: Asterisk|Bisected_circle|Crown|Crescent|JC|HT|LL|Mars|Mercury|Opposite_planets|Square|SS|Sun -->
-        <!-- No apparent symbols -->
-        
-    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|tilde|triple_dash|vertical_bar|X_sign -->
-    	<!-- Right margin -->
     	<mark name="dash" method="pen" place="right_margin"/> <!-- l'huo -->
     	<mark name="dash" method="pen" place="right_margin"/> <!-- ri -->
     	<mark name="dash" method="pen" place="right_margin"/> <!-- fa -->
     	<mark name="dash" method="pen" place="right_margin"/> <!-- dis -->
-    	<mark name="plus_sign" method="pen" place="right_margin"/> <!-- cacare; & -->
-    	<mark name="bracket" method="pen" place="right_margin"/> <!-- soleua ... lettere -->
-    	<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- io non -->
-    	<mark name="quotation_mark" method="pen" place="right_margin"/> <!-- Greghe, -->
+    	<mark name="plus_sign" method="pen" place="right_margin"/>
+    	<mark name="bracket" method="pen" place="right_margin"/>
+    	<mark name="quotation_mark" method="pen" place="right_margin"/>
+    	<mark name="quotation_mark" method="pen" place="right_margin"/>
     	
-    	<!-- Left margin -->
-    	<mark name="quotation_mark" method="pen" place="left_margin" /> <!-- si lauino -->
-    	<mark name="bracket" method="pen" place="left_margin" /> <!-- questo .. un fanciullo -->
-    	<mark name="equal_sign" method="pen" place="left_margin" /> <!-- re passaua -->
-    	<mark name="quotation_mark" method="pen" place="left_margin" /> <!-- & Lionardazzo -->
-    	<mark name="vertical_bar" method="pen" place="left_margin" />
-    	<mark name="bracket" method="pen" place="left_margin" /> <!-- pree ... che -->
+    	<mark name="quotation_mark" method="pen" place="left_margin" />
+    	<mark name="bracket" method="pen" place="left_margin" />
+    	<mark name="equal_sign" method="pen" place="left_margin" />
+    	<mark name="quotation_mark" method="pen" place="left_margin" /> 
+    	<mark name="horizontal_bar" method="chalk" place="left_margin" />
+    	<mark name="bracket" method="pen" place="left_margin" />
     	    	
-    	<!-- Intext -->
-    	<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Last paragraph on the left -->
-    	<mark name="vertical_bar" method="chalk" place="intext"/> <!-- Last paragraph on the right -->
-    	<mark name="plus_sign" method="pen" place="intext" text="cerca"/> <!--  -->
-    	<mark name="plus_sign" method="pen" place="intext"/> <!-- trouare. ] -->
+    	<mark name="vertical_bar" method="chalk" place="intext"/>
+    	<mark name="plus_sign" method="pen" place="intext" text="cerca"/>
+    	<mark name="plus_sign" method="pen" place="intext"/>
     	<mark name="plus_sign" method="pen" place="intext"/> <!-- piu pulita -->
     	<mark name="dot" method="pen" place="intext"/> <!-- sua, quelli -->
     	<mark name="vertical_bar" method="pen" place="intext"/> <!-- mani . Et -->
-    	<mark name="dot" method="pen" place="intext"/> <!-- caccia, dis -->
+    	<mark name="dot" method="pen" place="intext"/> <!-- caccia, disse -->
+    	<mark name="vertical_bar" method="chalk" place="intext"/>
+    	<mark name="dot" method="pen" place="intext"/> <!--guardispensa, che-->
     	<mark name="dot" method="pen" place="intext"/> <!-- passaua, & -->
-    	<mark name="vertical_bar" method="pen" place="intext"/> <!-- ; & -->
-    	<mark name="plus_sign" method="pen" place="intext"/> <!-- fanciullo.] -->
+    	<mark name="vertical_bar" method="pen" place="intext"/> <!-- cacare; & -->
+    	<mark name="plus_sign" method="pen" place="intext"/> 
     	<mark name="quotation_mark" method="pen" place="intext"/> <!-- & soleua -->
     	<mark name="dot" method="pen" place="intext"/> <!-- pesce, & -->
+    	<mark name="vertical_bar" method="chalk" place="intext"/>
+    	<mark name="vertical_bar" method="chalk" place="intext"/>
     	<mark name="quotation_mark" method="pen" place="intext"/> <!-- Straight quotes. Carluzzo, -->
     	<mark name="plus_sign" method="pen" place="intext"/> <!-- lettere Greghe -->
     	<mark name="vertical_bar" method="pen" place="intext"/> <!-- merdazzo. Et -->
+    	
+    	<mark name="vertical_bar" method="chalk" place="tail"/>
         
     </annotation>
 </transcription>
