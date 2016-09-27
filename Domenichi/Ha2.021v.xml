@@ -8,8 +8,6 @@
 	<page filename="Ha2.021v.tif" pagination="362" reader="Harvey"/>	<!-- ABO 026left -->
     	<annotation>
     		
-            	<!-- Marginalia -->
-    		
         		<marginalia hand="Italian">
         			<language ident="LA">
             			<position place="head" book_orientation="0">
@@ -26,7 +24,7 @@
         				</position>
         			</language>
         			<translation>
-        				The best and greatest regard for Reason and Diligence. With the most discreet art of Decorum and the most cirscumspect art of Caution.
+        				The best and greatest regard for Reason and Diligence. With the most discreet art of Decorum and the most circumspect art of Caution.
         			</translation>
         		</marginalia>
     		<marginalia hand="Italian">
@@ -106,11 +104,9 @@
     			</language>
     		</marginalia>
     		
-    		
-	    	<!-- Underlines -->
-	        
     		<underline method="pen" type="straight" language="IT" text="medesimo S. Marc'"/>
     		<underline method="pen" type="straight" language="IT" text="conosciuto per ispia"/>
+    		<underline method="pen" type="straight" language="IT" text="alcuna di nuouo"/>
     		<underline method="pen" type="straight" language="IT" text="di nuoue"/>
     		<underline method="pen" type="straight" language="IT" text="segretario"/>
     		<underline method="pen" type="straight" language="IT" text="segretario certa"/>
@@ -125,38 +121,30 @@
     		<underline method="pen" type="straight" language="IT" text="pungere sul uiuo"/>
     		<underline method="pen" type="straight" language="IT" text="&egrave; scusabile"/>
     		<underline method="pen" type="straight" language="IT" text="prouocato"/>
-    		<underline method="pen" type="straight" language="IT" text="'l Petrarcha"/>
+    		<underline method="pen" type="straight" language="IT" text="'Petrarcha"/>
     		<underline method="pen" type="straight" language="IT" text="persona destra"/>
-    		<underline method="pen" type="straight" language="IT" text="saputo valere de' suggetti"/>
+    		<underline method="pen" type="straight" language="IT" text="saputo ualere de' suggetti"/>
     		<underline method="pen" type="straight" language="IT" text="alcuni rimatori antichi"/>
-    		<underline method="pen" type="straight" language="IT" text="fatto honore"/>
+    		<underline method="pen" type="straight" language="IT" text="haueuasene fatto honore"/>
     		<underline method="pen" type="straight" language="IT" text="non lasciare si tosto mancare"/>
     		<underline method="pen" type="straight" language="IT" text="che no[n] era"/>
     		<underline method="pen" type="straight" language="IT" text="quiui l'Humore"/>
     		<underline method="pen" type="straight" language="IT" text="molto libero"/>
     		<underline method="pen" type="straight" language="IT" text="huomo di poche cerimonie"/>
     		<underline method="pen" type="straight" language="IT" text="misesi a sedere fra gli"/>
-    		<underline method="pen" type="straight" language="IT" text="'l Petrarcha"/>
+    		<underline method="pen" type="straight" language="IT" text="'Petrarcha"/>
 	       
-	       
-	    	<!-- Symbols: Asterisk|Bisected_circle|Crown|Crescent|JC|HT|LL|Mars|Mercury|Opposite_planets|Square|SS|Sun -->
-	        		
-	    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|straight_quotation_mark|tilde|triple_dash|vertical_bar|X_sign -->
-	    	
-	    	<!-- Right margin -->
 	    	<mark name="dash" method="pen" place="right_margin"/> <!-- mantengo -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- Fio -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- ragionamen -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- Arago -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- in -->
-	    	
-	    	<!-- Left margin -->
-	    	<mark name="equal_sign" method="pen" place="left_margin"/> <!-- rio? -->
-    		<mark name="bracket" method="pen" place="left_margin"/> <!-- co ... rentino -->
-    		<mark name="plus_sign" method="pen" place="left_margin"/> <!-- uoi farmi -->
-    		<mark name="hash" method="pen" place="left_margin"/> <!-- re de' suggetti -->
-		    
-	    	<!-- Intext -->
+
+	    	<mark name="equal_sign" method="pen" place="left_margin"/>
+    		<mark name="bracket" method="pen" place="left_margin"/>
+    		<mark name="plus_sign" method="pen" place="left_margin"/>
+    		<mark name="hash" method="pen" place="left_margin"/>
+
 	    	<mark name="dot" method="pen" place="intext"/> <!-- cagioni, il -->
     		<mark name="plus_sign" method="pen" place="intext"/> <!-- per ispia -->
     		<mark name="dot" method="pen" place="intext"/> <!-- ispia, & -->
@@ -173,8 +161,8 @@
     		<mark name="vertical_bar" method="chalk" place="intext" /> <!-- Chalk mark in middle of page. -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="prouocato"/>
     		<mark name="comma" method="pen" place="intext"/> <!-- destra s'era -->
-    		<mark name="plus_sign" method="pen" place="intext"/> <!-- antichi Provenzali -->
-    		<mark name="quotation_mark" method="pen" place="intext"/> <!-- poche cerimonie -->
+    		<mark name="comma" method="pen" place="intext"/> <!-- antichi Provenzali -->
+    		<mark name="quotation_mark" method="pen" place="intext"/>
 
     </annotation>
 </transcription>
