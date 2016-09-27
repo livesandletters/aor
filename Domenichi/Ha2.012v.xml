@@ -9,8 +9,6 @@
 	<page filename="Ha2.012v.tif" pagination="344" reader="Harvey"/>	<!-- ABO  17left -->
     	<annotation>
     		
-            		<!-- Marginalia -->
-    		
         		<marginalia hand="Italian">
         			<language ident="LA">
            			<position place="head" book_orientation="0">
@@ -126,9 +124,6 @@
     			</translation>
     		</marginalia>
         
-        
-	    	<!-- Underlines -->
-	        
     		<underline method="pen" type="straight" language="IT" text="Innacquaua"/>
     		<underline method="pen" type="straight" language="IT" text="Signore auaro"/>
     		<underline method="pen" type="straight" language="IT" text="uino"/>
@@ -154,43 +149,35 @@
     		<underline method="pen" type="straight" language="IT" text="Si fanno bene"/>
     		<underline method="pen" type="straight" language="IT" text="chi"/>
     		<underline method="pen" type="straight" language="IT" text="chi un"/>
-    		<underline method="pen" type="straight" language="IT" text="Gnasse"/>
+    		<underline method="pen" type="straight" language="IT" text="Gnaffe"/>
     		<underline method="pen" type="straight" language="IT" text="il figliuolo mezzano di babbeta"/>
     		<underline method="pen" type="straight" language="IT" text="haurebbe a dar parecchi"/>
     		<underline method="pen" type="straight" language="IT" text="Cardinale di Monte"/>
     		<underline method="pen" type="straight" language="IT" text="creato Papa"/>
-    		<underline method="pen" type="straight" language="IT" text="Giulo terzo"/>
+    		<underline method="pen" type="straight" language="IT" text="Giulio terzo"/>
     		  
-	       
-	    	<!-- Symbols: Asterisk|Bisected_circle|Crown|Crescent|JC|HT|LL|Mars|Mercury|Opposite_planets|Square|SS|Sun -->
-	        
-	        
 	    	<symbol name="Sun" place="head"/>
-	      		
-	    	<!-- Marks: apostrophe|box|bracket|circumflex|comma|dash|dot|equal_sign|hash|horizontal_bar|plus_sign|quotation_mark|semicolon|straight_quotation_mark|tilde|triple_dash|vertical_bar|X_sign -->
-	    	
-	    	<!-- Right margin -->
+
 	    	<mark name="dash" method="pen" place="right_margin"/> <!-- mu -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- asi -->
+    		<mark name="dash" method="pen" place="right_margin"/> <!--tornan-->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- let -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- fa -->
     		<mark name="dash" method="pen" place="right_margin"/> <!-- co -->
-	    	
-	    	<!-- Left margin -->
-	    	<mark name="quotation_mark" method="pen" place="left_margin"/> <!-- loro i denti -->
-    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/> <!-- quanto si da -->
-		    
-	    	<!-- Intext -->
+	
+	    	<mark name="quotation_mark" method="pen" place="left_margin"/>
+    		<mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+
 	    	<mark name="plus_sign" method="pen" place="head" language="IT" text="auaro"/>
+    		
     		<mark name="dot" method="pen" place="intext"/> <!-- seruidori, & -->
     		<mark name="comma" method="pen" place="intext"/> <!-- mangiato credo -->
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="mancar"/>
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="Pronto"/>
     		<mark name="plus_sign" method="pen" place="intext" language="IT" text="uiuo"/>
-    		<mark name="vertical_bar" method="pen" place="intext"/> <!-- Bernia: il -->
-    		<mark name="quotation_mark" method="pen" place="intext"/> <!--freddo.] -->
-    		<mark name="quotation_mark" method="pen" place="intext"/> <!--dar parecchi. -->
+    		<mark name="apostrophe" method="pen" place="intext"/> <!-- Bernia: il -->
+    		<mark name="quotation_mark" method="pen" place="intext"/>
+    		<mark name="quotation_mark" method="pen" place="intext"/>
     		
-
     </annotation>
 </transcription>
