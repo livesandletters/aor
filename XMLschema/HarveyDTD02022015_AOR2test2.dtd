@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT transcription (page, annotation)>
+<!ELEMENT page EMPTY>
+	<!ATTLIST page filename CDATA #REQUIRED>
+	<!ATTLIST page pagination CDATA #IMPLIED>
+	<!ATTLIST page signature CDATA #IMPLIED>
+	<!ATTLIST page reader CDATA #REQUIRED>
+	<!ATTLIST page origin (extraneous) #IMPLIED>
+	<!ATTLIST page status (floating|fixed) #IMPLIED>
+	<!ATTLIST page host_page CDATA #IMPLIED>
+	<!ATTLIST page related_page CDATA #IMPLIED>
+<!ELEMENT annotation (marginalia*, underline*, symbol*, mark*, numeral*, errata*, visual*)>	
+	<!ELEMENT marginalia (language*, translation?)>
+	<!ATTLIST marginalia hand (English_secretary|Italian|typescript) #REQUIRED>
+	<!ATTLIST marginalia method (pen|pencil|typewriter) #IMPLIED>
+	<!ATTLIST marginalia marginalia_id CDATA #IMPLIED>	
+	<!ATTLIST marginalia marginalia_continues_to CDATA #IMPLIED>
+	<!ATTLIST marginalia marginalia_continues_from CDATA #IMPLIED>
+	<!ATTLIST marginalia marginalia_to_transcription CDATA #IMPLIED>
+	<!ATTLIST marginalia marginalia_from_transcription CDATA #IMPLIED>
+	<!ATTLIST marginalia book_id CDATA #IMPLIED>
+	<!ATTLIST marginalia date CDATA #IMPLIED>
+	<!ATTLIST marginalia other_reader CDATA #IMPLIED>
+	<!ATTLIST marginalia topic (Law|Astronomy|Warfare|Rhetoric) #IMPLIED>
+	<!ATTLIST marginalia anchor_text CDATA #IMPLIED>
+	 	<!ELEMENT language (position*)>
+			<!ATTLIST language ident (EN|EL|FR|IT|LA|ES) #REQUIRED> 
+				<!ELEMENT position (marginalia_text*, person*, book*, location*, X-ref*, emphasis*, internal_ref*)>
+					<!ATTLIST position place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
+					<!ATTLIST position book_orientation	(0|90|180|270) #REQUIRED>
+						<!ELEMENT marginalia_text (#PCDATA|marginalia_ref)*>
+						<!ELEMENT marginalia_ref (#PCDATA)>
+						      <!ATTLIST marginalia_ref id CDATA #REQUIRED>
+						      <!ATTLIST marginalia_ref filename CDATA #REQUIRED>
+						      <!ATTLIST marginalia_ref book_id CDATA #REQUIRED>
+						<!ELEMENT person EMPTY>
+							<!ATTLIST person name CDATA #REQUIRED>
+						<!ELEMENT book EMPTY>
+							<!ATTLIST book title CDATA #REQUIRED>
+						<!ELEMENT location EMPTY>
+							<!ATTLIST location name CDATA #REQUIRED>
+						<!ELEMENT X-ref EMPTY>
+							<!ATTLIST X-ref person CDATA #REQUIRED>
+							<!ATTLIST X-ref book_title CDATA #REQUIRED>
+							<!ATTLIST X-ref language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+							<!ATTLIST X-ref text CDATA #IMPLIED>
+						<!ELEMENT emphasis EMPTY> 
+							<!ATTLIST emphasis method (chalk|pen) #REQUIRED>
+							<!ATTLIST emphasis type (straight|curved|dotted) #REQUIRED>
+							<!ATTLIST emphasis text CDATA #IMPLIED>
+						<!ELEMENT internal_ref (target+)> 
+						    <!ATTLIST internal_ref text CDATA #IMPLIED>
+						    <!ATTLIST internal_ref anchor_text CDATA #IMPLIED>
+						          <!ELEMENT target EMPTY>
+						              <!ATTLIST target filename CDATA #REQUIRED>
+						              <!ATTLIST target book_id CDATA #REQUIRED>
+						              <!ATTLIST target text CDATA #REQUIRED>
+		<!ELEMENT translation (#PCDATA)>
+	<!ELEMENT underline EMPTY>
+		<!ATTLIST underline method (chalk|pen|scoring) #REQUIRED>
+		<!ATTLIST underline type (straight|curved|dotted|double|grid) #REQUIRED>
+		<!ATTLIST underline language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+		<!ATTLIST underline text CDATA #IMPLIED> 
+		<!ATTLIST underline anchor_text CDATA #IMPLIED> 
+	<!ELEMENT symbol EMPTY>
+		<!ATTLIST symbol name (Asterisk|Bisected_circle|Crown|JC|HT|LL|Mars|Mercury|Moon|Opposite_planets|Saturn|Square|SS|Sun|Venus) #REQUIRED>
+		<!ATTLIST symbol place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
+		<!ATTLIST symbol language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+		<!ATTLIST symbol text CDATA #IMPLIED>
+	<!ELEMENT mark EMPTY>
+		<!ATTLIST mark name	(apostrophe|box|bracket|circumflex|colon|comma|dash|diacritic|dot|double_vertical_bar|equal_sign|est_mark|hash|horizontal_bar|page_break|pen_trial|plus_sign|quotation_mark|scribble|section_sign|semicolon|slash|straight_quotation_mark|tick|tilde|triple_dash|vertical_bar|X_sign) #REQUIRED>
+		<!ATTLIST mark method (chalk|pen) #REQUIRED>
+		<!ATTLIST mark place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
+		<!ATTLIST mark language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+		<!ATTLIST mark text CDATA #IMPLIED>
+	<!ELEMENT numeral (#PCDATA)>
+	    <!ATTLIST numeral place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
+	    <!ATTLIST numeral language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+	    <!ATTLIST numeral text CDATA #IMPLIED>
+	<!ELEMENT errata EMPTY>
+	   <!ATTLIST errata language  (EN|EL|FR|IT|LA|ES) #REQUIRED>
+	   <!ATTLIST errata copytext CDATA #REQUIRED>
+	   <!ATTLIST errata amendedtext CDATA #REQUIRED>
+	<!ELEMENT visual (structure*, information*)>
+	   <!ATTLIST visual taxonomy (drawing|tree|table) #REQUIRED>
+	   <!ATTLIST visual type (face|manicule|florilegium|genealogical_tree|ramus_tree|astrological_chart) #REQUIRED>
+	   <!ATTLIST visual method (chalk|pen) #REQUIRED>
+	   <!ATTLIST visual place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
+	   <!ATTLIST visual language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+	   <!ATTLIST visual text CDATA #IMPLIED> <!--JG: Anchor text-->
+	       <!ELEMENT structure (tree*, table*)>
+	           <!ELEMENT tree (entity*, note*, tree_translation*)>
+	               <!ELEMENT entity (#PCDATA)>
+	                   <!ATTLIST entity id ID #REQUIRED>
+	                   <!ATTLIST entity relationship IDREFS #IMPLIED>
+	                   <!ATTLIST entity anchor_text CDATA #IMPLIED>
+	               <!ELEMENT note (#PCDATA)>
+	                   <!ATTLIST note id ID #IMPLIED>
+	                   <!ATTLIST note internal_ref IDREFS #IMPLIED>
+	                   <!ATTLIST note anchor_text CDATA #IMPLIED>
+	               <!ELEMENT tree_translation (#PCDATA)>
+			 <!ELEMENT table (tr*, table_text*, table_translation*)> 
+			     <!ELEMENT tr (td*)>
+			         <!ELEMENT td (#PCDATA)>
+			             <!ATTLIST td function (label|data|empty) #REQUIRED>
+			             <!ATTLIST td desc CDATA #IMPLIED>
+			             <!ATTLIST td data CDATA #IMPLIED>
+			     <!ELEMENT table_text (#PCDATA)>
+			     <!ELEMENT table_translation (#PCDATA)>
+		 <!ELEMENT information (info_person*, info_book*, info_location*)>
+		      <!ELEMENT info_person EMPTY>
+							<!ATTLIST info_person name CDATA #REQUIRED>
+						<!ELEMENT info_book EMPTY>
+							<!ATTLIST info_book title CDATA #REQUIRED>
+						<!ELEMENT info_location EMPTY>
+							<!ATTLIST info_location name CDATA #REQUIRED>
+			       
+	               
+	           
+	       
+	
+			
+
