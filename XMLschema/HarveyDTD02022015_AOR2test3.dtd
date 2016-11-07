@@ -89,13 +89,26 @@
 	   <!ATTLIST composite_marginalia place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 	   <!ATTLIST composite_marginalia book_orientation (0|90|180|270) #REQUIRED>
 	   <!ATTLIST composite_marginalia anchor_text CDATA #IMPLIED>  
+	   <!ATTLIST composite_marginalia marginalia_id CDATA #IMPLIED>	
+	   <!ATTLIST composite_marginalia marginalia_continues_to CDATA #IMPLIED>
+	   <!ATTLIST composite_marginalia marginalia_continues_from CDATA #IMPLIED>
+	   <!ATTLIST composite_marginalia marginalia_to_transcription CDATA #IMPLIED>
+	   <!ATTLIST composite_marginalia marginalia_from_transcription CDATA #IMPLIED>
 	       <!ELEMENT component (calculation*, drawing*, tree*, table*)>
-	           <!ELEMENT calculation (#PCDATA)>
+	           <!ELEMENT calculation (#PCDATA|calculation_anchor)*>
 			     <!ATTLIST calculation type (arithmetic|measurement|logic|algebra|geometry|calculus) #REQUIRED>
-			     <!ATTLIST calculation anchor_text CDATA #IMPLIED>
+			     <!ATTLIST calculation id ID #IMPLIED>
+			     <!ATTLIST calculation component_relationship IDREFS #IMPLIED>
+			         <!ELEMENT calculation_anchor (#PCDATA)>
+			             <!ATTLIST calculation_anchor data CDATA #IMPLIED>
 			   <!ELEMENT drawing EMPTY>
 			     <!ATTLIST drawing type (face|manicule|florilegium) #REQUIRED>
+			     <!ATTLIST drawing id ID #IMPLIED>
+			     <!ATTLIST drawing component_relationship IDREFS #IMPLIED>
+			     <!ATTLIST drawing anchor_text CDATA #IMPLIED>
 	           <!ELEMENT tree (branch*)>
+	             <!ATTLIST tree id ID #IMPLIED>
+			     <!ATTLIST tree component_relationship IDREFS #IMPLIED>
 	               <!ATTLIST tree type (genealogical_tree|ramus_tree) #REQUIRED>
 	               <!ELEMENT branch (#PCDATA)>
 	                   <!ATTLIST branch id ID #REQUIRED>
@@ -104,16 +117,20 @@
 	                   <!ATTLIST branch anchor_text CDATA #IMPLIED>
 			 <!ELEMENT table (tr*)> 
 			     <!ATTLIST table type (astrological_chart|standard_table) #REQUIRED>
+			     <!ATTLIST table id ID #IMPLIED>
+			     <!ATTLIST table component_relationship IDREFS #IMPLIED>
 			     <!ATTLIST table aggregated_information CDATA #IMPLIED>
 			     <!ELEMENT tr (td*)>
 			         <!ELEMENT td (#PCDATA)>
 			             <!ATTLIST td function (label|data|empty) #REQUIRED>
-			             <!ATTLIST td desc CDATA #IMPLIED>
+			             <!ATTLIST td desc CDATA #IMPLIED> <!--JG: kan verwijderd worden-->
 			             <!ATTLIST td anchor_text CDATA #IMPLIED>
 			             <!ATTLIST td anchor_data CDATA #IMPLIED>
 		  <!ELEMENT text (note*, note_symbol*, note_person*, note_book*, note_location*)>
 		      <!ATTLIST text hand (English_secretary|Italian|typescript) #REQUIRED>
 		      <!ATTLIST text language_ident (EN|EL|FR|IT|LA|ES) #REQUIRED>
+		      <!ATTLIST text id ID #IMPLIED>
+			  <!ATTLIST text component_relationship IDREFS #IMPLIED>
 		      <!ELEMENT note (#PCDATA)>
 		          <!ATTLIST note id ID #IMPLIED>
 	              <!ATTLIST note internal_ref IDREFS #IMPLIED>
