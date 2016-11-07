@@ -50,7 +50,7 @@
 							<!ATTLIST X-ref text CDATA #IMPLIED>
 						<!ELEMENT emphasis EMPTY> 
 							<!ATTLIST emphasis method (chalk|pen) #REQUIRED>
-							<!ATTLIST emphasis type (straight|curved|dotted) #REQUIRED>
+							<!ATTLIST emphasis type (straight|curved|dotted|double) #REQUIRED>
 							<!ATTLIST emphasis text CDATA #IMPLIED>
 						<!ELEMENT internal_ref (target+)> 
 						    <!ATTLIST internal_ref text CDATA #IMPLIED>
