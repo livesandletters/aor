@@ -488,11 +488,13 @@
           <xs:enumeration value="IT"/>
           <xs:enumeration value="LA"/>
           <xs:enumeration value="ES"/>
+          <xs:enumeration value="DE"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
     <xs:attribute name="text"/>
   </xs:attributeGroup>
+  <!-- http://www.loc.gov/standards/iso639-2/php/code_list.php -->
   <xs:element name="errata">
     <xs:complexType>
       <xs:attributeGroup ref="attlist.errata"/>

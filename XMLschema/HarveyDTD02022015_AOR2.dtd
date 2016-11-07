@@ -84,7 +84,7 @@
 		<!ATTLIST mark internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->
 	<!ELEMENT numeral (#PCDATA)>
 	    <!ATTLIST numeral place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
-	    <!ATTLIST numeral language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+	    <!ATTLIST numeral language (EN|EL|FR|IT|LA|ES|DE) #IMPLIED> <!--http://www.loc.gov/standards/iso639-2/php/code_list.php-->
 	    <!ATTLIST numeral text CDATA #IMPLIED>
 	<!ELEMENT errata EMPTY>
 	   <!ATTLIST errata language  (EN|EL|FR|IT|LA|ES) #REQUIRED>
