@@ -68,7 +68,7 @@
 		<!ATTLIST underline id CDATA #IMPLIED> <!--functions as ID-->
 		<!ATTLIST underline internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->
 	<!ELEMENT symbol EMPTY>
-		<!ATTLIST symbol name (Asterisk|Bisected_circle|Crown|JC|HT|LL|Mars|Mercury|Moon|Opposite_planets|Saturn|Square|SS|Sun|Venus) #REQUIRED>
+		<!ATTLIST symbol name (Asterisk|Bisected_circle|Crown|JC|HT| Hieroglyphic_Monad|LL|Mars|Mercury|Moon|Opposite_planets|Saturn|Square|SS|Sun|Venus) #REQUIRED>
 		<!ATTLIST symbol place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 		<!ATTLIST symbol language (EN|EL|FR|IT|LA|ES) #IMPLIED>
 		<!ATTLIST symbol text CDATA #IMPLIED>
