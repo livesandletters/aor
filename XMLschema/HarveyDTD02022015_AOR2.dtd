@@ -26,7 +26,7 @@
 	<!ATTLIST marginalia topic (Law|Astronomy|Warfare|Rhetoric) #IMPLIED>
 	<!ATTLIST marginalia anchor_text CDATA #IMPLIED>
 	 	<!ELEMENT language (position*)>
-			<!ATTLIST language ident (EN|EL|FR|IT|LA|ES) #REQUIRED> 
+			<!ATTLIST language ident (EN|EL|FR|IT|LA|ES|DE) #REQUIRED> 
 				<!ELEMENT position (marginalia_text*, marginalia_symbol*, person*, book*, location*, X-ref*, emphasis*, internal_ref*)>
 					<!ATTLIST position place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 					<!ATTLIST position book_orientation	(0|90|180|270) #REQUIRED>
@@ -46,7 +46,7 @@
 						<!ELEMENT X-ref EMPTY>
 							<!ATTLIST X-ref person CDATA #REQUIRED>
 							<!ATTLIST X-ref book_title CDATA #REQUIRED>
-							<!ATTLIST X-ref language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+							<!ATTLIST X-ref language (EN|EL|FR|IT|LA|ES|DE) #IMPLIED>
 							<!ATTLIST X-ref text CDATA #IMPLIED>
 						<!ELEMENT emphasis EMPTY> 
 							<!ATTLIST emphasis method (chalk|pen) #REQUIRED>
@@ -63,14 +63,14 @@
 	<!ELEMENT underline EMPTY>
 		<!ATTLIST underline method (chalk|pen|scoring) #REQUIRED>
 		<!ATTLIST underline type (straight|curved|dotted|double|grid) #REQUIRED>
-		<!ATTLIST underline language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+		<!ATTLIST underline language (EN|EL|FR|IT|LA|ES|DE) #IMPLIED>
 		<!ATTLIST underline text CDATA #IMPLIED>
 		<!ATTLIST underline id CDATA #IMPLIED> <!--functions as ID-->
 		<!ATTLIST underline internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->
 	<!ELEMENT symbol EMPTY>
 		<!ATTLIST symbol name (Asterisk|Bisected_circle|Crown|JC|HT| Hieroglyphic_Monad|LL|Mars|Mercury|Moon|Opposite_planets|Saturn|Square|SS|Sun|Venus) #REQUIRED>
 		<!ATTLIST symbol place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
-		<!ATTLIST symbol language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+		<!ATTLIST symbol language (EN|EL|FR|IT|LA|ES|DE) #IMPLIED>
 		<!ATTLIST symbol text CDATA #IMPLIED>
 		<!ATTLIST symbol id CDATA #IMPLIED> <!--functions as ID-->
 		<!ATTLIST symbol internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->
@@ -78,7 +78,7 @@
 		<!ATTLIST mark name	(apostrophe|box|bracket|circumflex|colon|comma|dash|diacritic|dot|double_vertical_bar|equal_sign|est_mark|hash|horizontal_bar|page_break|pen_trial|plus_sign|quotation_mark|scribble|section_sign|semicolon|slash|straight_quotation_mark|tick|tilde|triple_dash|vertical_bar|X_sign) #REQUIRED>
 		<!ATTLIST mark method (chalk|pen) #REQUIRED>
 		<!ATTLIST mark place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
-		<!ATTLIST mark language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+		<!ATTLIST mark language (EN|EL|FR|IT|LA|ES|DE) #IMPLIED>
 		<!ATTLIST mark text CDATA #IMPLIED>
 		<!ATTLIST mark id CDATA #IMPLIED> <!--functions as ID-->
 		<!ATTLIST mark internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->
@@ -89,7 +89,7 @@
 	    <!ATTLIST numeral id CDATA #IMPLIED> <!--functions as ID-->
 		<!ATTLIST numeral internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->
 	<!ELEMENT errata EMPTY>
-	   <!ATTLIST errata language  (EN|EL|FR|IT|LA|ES) #REQUIRED>
+	   <!ATTLIST errata language  (EN|EL|FR|IT|LA|ES|DE) #REQUIRED>
 	   <!ATTLIST errata copytext CDATA #REQUIRED>
 	   <!ATTLIST errata amendedtext CDATA #REQUIRED>
 	   <!ATTLIST errata id CDATA #IMPLIED> <!--functions as ID-->
@@ -104,7 +104,7 @@
 	   <!ATTLIST drawing anchor_text CDATA #IMPLIED>   
 	       <!ELEMENT drawing_text (#PCDATA)>
 	           <!ATTLIST drawing_text hand (English_secretary|Italian|typescript) #REQUIRED>
-	           <!ATTLIST drawing_text language_ident (EN|EL|FR|IT|LA|ES) #REQUIRED>
+	           <!ATTLIST drawing_text language_ident (EN|EL|FR|IT|LA|ES|DE) #REQUIRED>
 	       <!ELEMENT drawing_person EMPTY>
 	           <!ATTLIST drawing_person name CDATA #IMPLIED>
 	       <!ELEMENT drawing_book EMPTY>
@@ -142,7 +142,7 @@
 	           <!ELEMENT note (#PCDATA)>
 	               <!ATTLIST note id ID #IMPLIED>
 	               <!ATTLIST note hand (English_secretary|Italian|typescript) #REQUIRED>
-	               <!ATTLIST note language_ident (EN|EL|FR|IT|LA|ES) #REQUIRED>
+	               <!ATTLIST note language_ident (EN|EL|FR|IT|LA|ES|DE) #REQUIRED>
 	               <!ATTLIST note internal_ref IDREFS #IMPLIED>
 	               <!ATTLIST note anchor_text CDATA #IMPLIED>
 	          <!ELEMENT note_symbol EMPTY>
@@ -166,7 +166,7 @@
 			     <!ATTLIST td anchor_data CDATA #IMPLIED>   
 	         <!ELEMENT table_text (#PCDATA)>
 	           <!ATTLIST table_text hand (English_secretary|Italian|typescript) #REQUIRED>
-	           <!ATTLIST table_text language_ident (EN|EL|FR|IT|LA|ES) #REQUIRED>
+	           <!ATTLIST table_text language_ident (EN|EL|FR|IT|LA|ES|DE) #REQUIRED>
 	         <!ELEMENT table_person EMPTY>
 	           <!ATTLIST table_person name CDATA #IMPLIED>
 	       <!ELEMENT table_book EMPTY>
