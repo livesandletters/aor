@@ -86,10 +86,14 @@
 	    <!ATTLIST numeral place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 	    <!ATTLIST numeral language (EN|EL|FR|IT|LA|ES|DE) #IMPLIED> <!--http://www.loc.gov/standards/iso639-2/php/code_list.php-->
 	    <!ATTLIST numeral text CDATA #IMPLIED>
+	    <!ATTLIST numeral id CDATA #IMPLIED> <!--functions as ID-->
+		<!ATTLIST numeral internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->
 	<!ELEMENT errata EMPTY>
 	   <!ATTLIST errata language  (EN|EL|FR|IT|LA|ES) #REQUIRED>
 	   <!ATTLIST errata copytext CDATA #REQUIRED>
 	   <!ATTLIST errata amendedtext CDATA #REQUIRED>
+	   <!ATTLIST errata id CDATA #IMPLIED> <!--functions as ID-->
+	   <!ATTLIST errata internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->        
 	<!ELEMENT drawing (drawing_text*, drawing_person*, drawing_book*, drawing_location*, drawing_symbol*, drawing_text_translation?)>
 	   <!ATTLIST drawing type (face|manicule|florilegium|crown) #REQUIRED>
 	   <!ATTLIST drawing book_orientation (0|90|180|270) #REQUIRED>
