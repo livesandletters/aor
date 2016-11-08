@@ -628,7 +628,7 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.drawing_person">
-    <xs:attribute name="name"/>
+    <xs:attribute name="name" use="required"/>
   </xs:attributeGroup>
   <xs:element name="drawing_book">
     <xs:complexType>
@@ -636,7 +636,7 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.drawing_book">
-    <xs:attribute name="name"/>
+    <xs:attribute name="name" use="required"/>
   </xs:attributeGroup>
   <xs:element name="drawing_location">
     <xs:complexType>
@@ -644,7 +644,7 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.drawing_location">
-    <xs:attribute name="name"/>
+    <xs:attribute name="name" use="required"/>
   </xs:attributeGroup>
   <xs:element name="drawing_symbol">
     <xs:complexType>

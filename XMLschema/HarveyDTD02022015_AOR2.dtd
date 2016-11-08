@@ -106,11 +106,11 @@
 	           <!ATTLIST drawing_text hand (English_secretary|Italian|typescript) #REQUIRED>
 	           <!ATTLIST drawing_text language_ident (EN|EL|FR|IT|LA|ES|DE) #REQUIRED>
 	       <!ELEMENT drawing_person EMPTY>
-	           <!ATTLIST drawing_person name CDATA #IMPLIED>
+	           <!ATTLIST drawing_person name CDATA #REQUIRED>
 	       <!ELEMENT drawing_book EMPTY>
-	           <!ATTLIST drawing_book name CDATA #IMPLIED>
+	           <!ATTLIST drawing_book name CDATA #REQUIRED>
 	       <!ELEMENT drawing_location EMPTY>
-	           <!ATTLIST drawing_location name CDATA #IMPLIED>
+	           <!ATTLIST drawing_location name CDATA #REQUIRED>
 	       <!ELEMENT drawing_symbol EMPTY>
 	           <!ATTLIST drawing_symbol name CDATA #IMPLIED>
 	       <!ELEMENT drawing_text_translation (#PCDATA)>
