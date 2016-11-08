@@ -129,10 +129,10 @@
 	   <!ATTLIST tree place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 	   <!ATTLIST tree method (chalk|pen) #REQUIRED>
 	   <!ATTLIST tree id CDATA #IMPLIED> <!--functions as ID-->
-	   <!ATTLIST tree marginalia_continues_to CDATA #IMPLIED>
-	   <!ATTLIST tree marginalia_continues_from CDATA #IMPLIED>
-	   <!ATTLIST tree marginalia_to_transcription CDATA #IMPLIED>
-	   <!ATTLIST tree marginalia_from_transcription CDATA #IMPLIED>
+	   <!ATTLIST tree tree_continues_to CDATA #IMPLIED>
+	   <!ATTLIST tree tree_continues_from CDATA #IMPLIED>
+	   <!ATTLIST tree tree_to_transcription CDATA #IMPLIED>
+	   <!ATTLIST tree tree_from_transcription CDATA #IMPLIED>
 	      <!ELEMENT branch (#PCDATA)>
 	       <!ATTLIST branch id ID #REQUIRED>
 	       <!ATTLIST branch relationship IDREFS #IMPLIED>

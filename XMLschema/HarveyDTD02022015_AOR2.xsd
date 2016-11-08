@@ -759,10 +759,10 @@
       </xs:simpleType>
     </xs:attribute>
     <xs:attribute name="id"/>
-    <xs:attribute name="marginalia_continues_to"/>
-    <xs:attribute name="marginalia_continues_from"/>
-    <xs:attribute name="marginalia_to_transcription"/>
-    <xs:attribute name="marginalia_from_transcription"/>
+    <xs:attribute name="tree_continues_to"/>
+    <xs:attribute name="tree_continues_from"/>
+    <xs:attribute name="tree_to_transcription"/>
+    <xs:attribute name="tree_from_transcription"/>
   </xs:attributeGroup>
   <!-- functions as ID -->
   <xs:element name="branch">
