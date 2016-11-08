@@ -95,7 +95,7 @@
 	   <!ATTLIST errata id CDATA #IMPLIED> <!--functions as ID-->
 	   <!ATTLIST errata internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->        
 	<!ELEMENT drawing (drawing_text*, drawing_person*, drawing_book*, drawing_location*, drawing_symbol*, drawing_text_translation?)>
-	   <!ATTLIST drawing type (face|manicule|florilegium|crown) #REQUIRED>
+	   <!ATTLIST drawing type (face|manicule|florilegium|crown|coat_of_arms) #REQUIRED>
 	   <!ATTLIST drawing book_orientation (0|90|180|270) #REQUIRED>
 	   <!ATTLIST drawing place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 	   <!ATTLIST drawing method (chalk|pen) #REQUIRED>
