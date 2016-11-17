@@ -186,7 +186,28 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.marginalia_symbol">
-    <xs:attribute name="name" use="required"/>
+    <xs:attribute name="name" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="Asterisk"/>
+          <xs:enumeration value="Bisected_circle"/>
+          <xs:enumeration value="Crown"/>
+          <xs:enumeration value="JC"/>
+          <xs:enumeration value="HT"/>
+          <xs:enumeration value="Hieroglyphic_Monad"/>
+          <xs:enumeration value="LL"/>
+          <xs:enumeration value="Mars"/>
+          <xs:enumeration value="Mercury"/>
+          <xs:enumeration value="Moon"/>
+          <xs:enumeration value="Opposite_planets"/>
+          <xs:enumeration value="Saturn"/>
+          <xs:enumeration value="Square"/>
+          <xs:enumeration value="SS"/>
+          <xs:enumeration value="Sun"/>
+          <xs:enumeration value="Venus"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
   </xs:attributeGroup>
   <xs:element name="person">
     <xs:complexType>

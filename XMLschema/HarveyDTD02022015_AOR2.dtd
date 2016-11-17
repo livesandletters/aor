@@ -36,7 +36,7 @@
 						      <!ATTLIST marginalia_ref filename CDATA #REQUIRED>
 						      <!ATTLIST marginalia_ref book_id CDATA #REQUIRED>
 						<!ELEMENT marginalia_symbol EMPTY>
-						    <!ATTLIST marginalia_symbol name CDATA #REQUIRED>  
+						    <!ATTLIST marginalia_symbol name (Asterisk|Bisected_circle|Crown|JC|HT| Hieroglyphic_Monad|LL|Mars|Mercury|Moon|Opposite_planets|Saturn|Square|SS|Sun|Venus) #REQUIRED>  
 						<!ELEMENT person EMPTY>
 							<!ATTLIST person name CDATA #REQUIRED>
 						<!ELEMENT book EMPTY>
