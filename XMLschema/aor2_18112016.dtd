@@ -99,7 +99,7 @@
 	   <!ATTLIST drawing book_orientation (0|90|180|270) #REQUIRED>
 	   <!ATTLIST drawing place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 	   <!ATTLIST drawing method (chalk|pen) #REQUIRED>
-	   <!ATTLIST drawing language (EN|EL|FR|IT|LA|ES) #IMPLIED>
+	   <!ATTLIST drawing language (EN|EL|FR|IT|LA|ES|DE|CY) #IMPLIED>
 	   <!ATTLIST drawing id CDATA #IMPLIED> <!--functions as ID-->
 	   <!ATTLIST drawing internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->
 	   <!ATTLIST drawing anchor_text CDATA #IMPLIED>   
