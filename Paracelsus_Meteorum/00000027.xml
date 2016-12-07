@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "C:\Users\CELLadmin\Documents\GitHub\aor\XMLschema\aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../../GitHub/aor/XMLschema/HarveyDTD02022015_AOR2.xsd">
+    <page filename="00000027.tif" reader="John Dee" pagination="7" signature="Biij"/> 
+    <annotation>
+        
+        <marginalia hand="Italian" anchor_text="Saturni; Minium; Cerussam; Gla&sharp-S;; Spiritum">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>&Saturn; Minium Cerussam Vitrum Spiritus</marginalia_text>
+                    <marginalia_symbol name="Saturn"/>
+                </position>
+            </language>
+            <translation>Saturn. Minium. Ceruse. Glass. Spirit.</translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="DE" text="Goldt vn[d] Silber vnd Kupffer"/>
+        <underline method="pen" type="straight" language="DE" text="so were doch ein jeglichs wie das ander am leibe doch in der forme nit"/>
+        <underline method="pen" type="double" language="DE" text="Pley"/>
+        <underline method="pen" type="double" language="DE" text="wie Pley"/>
+        
+        <mark name="comma" method="pen" place="intext"/> <!--viere Pley-->
+        
+    </annotation>
+</transcription>
+

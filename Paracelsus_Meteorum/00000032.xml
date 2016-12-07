@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="00000032.tif" reader="John Dee" pagination="[9[v]"  signature="[C[v]]"/> 
+    <annotation>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>&Sun; Solis ignis sal bal</marginalia_text>
+                    <marginalia_symbol name="Sun"/>
+                </position>
+            </language>
+            <translation>Son: fire, salt, balsam.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Der schnee Regen">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>Nix Pluvia</marginalia_text>
+                </position>
+            </language>
+            <translation>Snow. Rain.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="die Kunst werden sei gescheide[n] vo[n] einander">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Separatio trium primaru[m] spagirica.</marginalia_text>
+                </position>
+            </language>
+            <translation>The alchemical seperation of the three primary [species].</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Philosophia">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Philosophia</marginalia_text>
+                </position>
+            </language>
+            <translation>Philosophy.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Impressiones Coelestes">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Impressio[n]es Coelestes</marginalia_text>
+                </position>
+            </language>
+            <translation>Heavenly impressions.</translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="DE" text="Sonne"/>
+        <underline method="pen" type="straight" language="DE" text="Der schnee"/>
+        <underline method="pen" type="straight" language="DE" text="Regen"/>
+        <underline method="pen" type="straight" language="DE" text="mehr auf den fr&uuml;chten"/>
+        <underline method="pen" type="straight" language="DE" text="die Kunst werden sei gescheide[n] vo[n] einander"/>
+        <underline method="pen" type="straight" language="DE" text="das Fewer"/>
+        <underline method="pen" type="straight" language="DE" text="der Philosophia wol"/>
+        <underline method="pen" type="straight" language="DE" text="eim andern namen auch"/>
+        <underline method="pen" type="straight" language="DE" text="der Philosophia"/>
+        <underline method="pen" type="straight" language="DE" text="Few Sulphur"/>
+        <underline method="pen" type="straight" language="DE" text="als Liquor"/>
+        <underline method="pen" type="double" language="DE" text="des Elementen"/>
+        <underline method="pen" type="double" language="DE" text="der tugendt vnd kreffen"/>
+        
+        <mark name="slash" method="pen" place="intext"/> <!--fewr Sulphur-->
+        <mark name="slash" method="pen" place="intext"/>
+        <mark name="slash" method="pen" place="intext"/>
+        <mark name="bracket" method="pen" place="intext"/>
+        
+        <numeral place="intext" text="Sulphur">1.</numeral>
+        <numeral place="intext" text="Sal">2</numeral>
+        <numeral place="intext" text="Balsam">.3.</numeral>
+        
+        <errata language="LA" copytext="Bals." amendedtext="Sulphur"/>
+        
+        <table type="standard_table" place="left_margin">
+            <tr>
+                <td function="label">Synonima</td>
+            </tr>
+            <tr>
+                <td function="label">Ignis</td>
+                <td function="label" anchor_text="Sal">Sal</td>
+                <td function="label" anchor_text="Balsam">Balsamus</td>
+            </tr>
+            <tr>
+                <td function="label" anchor_text="[Bals - deleted]">Sulphur</td>
+                <td function="label" anchor_text="Sal">Sal</td>
+                <td function="label">Liquor</td>
+            </tr>
+            <tr>
+                <td function="empty"/>
+                <td function="empty"/>
+                <td function="label" anchor_text="Mercurius">Mercurius</td>
+            </tr>
+            <table_text_translation>Synonyms. Fire. Salt. Balsam. Sulfur. Salt. Liquid. Mercury.</table_text_translation> <!--JG: How to translate a table?-->
+        </table>
+        
+    </annotation>
+</transcription>
