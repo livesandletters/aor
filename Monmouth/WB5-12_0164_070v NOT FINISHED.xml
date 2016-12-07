@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    
+    <page filename="WB5-12_0164_070v.tif" reader="Dee"/>
+    <annotation>
+        
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Helena[e] [deleted ahemius] alterius sororis ip[?]ius Arthuri, [deleted quid] Anna habuit Loth maretu[m]. sup[?] fol. 68 [????] pr[a]eterea nullu[m] f[???] Anna habere poterat, qui Arturo supp[???]
+                    </marginalia_text>
+                    <person name="Helena"/>
+                    <person name="Arthur"/>
+                    <person name="Anna"/>
+                    <person name="Loth"/>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="regem Hoelum"/>
+        <underline method="pen" type="straight" language="LA" text="sororis Arthuri"/>
+        <underline method="pen" type="straight" language="LA" text="ex Dubricio rege Armoricorum"/>
+        <underline method="pen" type="double" language="LA" text="auunculo"/>
+        <underline method="pen" type="double" language="LA" text="in nemus"/>
+        <underline method="pen" type="straight" language="LA" text="Caledonis veneru[n]t"/>
+        
+        <tree type="genealogical_tree" book_orientation="0" place="head" method="pen">
+            <branch id="b1" person_name="Dubricius" relationship="b2">Dubricius, rex Armoricae</branch>
+            <branch id="b2" person_name="Helena" relationship="b1">Helena. soror Arthuri Regis</branch>
+            <branch id="b3" person_name="Hoelus" relationship="b1">Hoelus</branch>
+            <tree_text>
+                <note hand="English_secretary" language_ident="EN" internal_ref="b2">
+                    hedt sister.
+                </note>
+            </tree_text>
+        </tree>
+        
+    </annotation>
+</transcription>

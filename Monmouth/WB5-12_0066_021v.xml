@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    
+    <page filename="WB5-12_0066_021v.tif" reader="Dee"/>
+    <annotation>
+        
+        <marginalia hand="typescript" anchor_text="Gurguintus Brabtrucus">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Gurganus Varfdrugh i est Barbatus.
+                    </marginalia_text>
+                    <person name="Gurgiunt Brabtruc"/>
+                </position>
+            </language>
+            <translation>Gurguintus Varfdrugh is Brabtrucus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="270">
+                    <marginalia_text>
+                        Anno 20 olymp. 125. Pausanias.
+                    </marginalia_text>
+                    <person name="Pausanias"/>
+                </position>
+            </language>
+            <translation>The 20th Olympic year. 125. Pausanias.</translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="hic in Daciam cu[m] exercitu profectus regem sibi tributum"/>
+        <underline method="pen" type="straight" language="LA" text="denegantem interemit"/>
+        <underline method="pen" type="straight" language="LA" text="Sisillius"/>
+        <underline method="pen" type="straight" language="LA" text="qui diebus patris tributu[m] reddebat huic reddere diffugeret &amp;"/>
+        <underline method="pen" type="straight" language="LA" text="subiectionem abnegaret: q[uo]d ipse grauiter ferens duxit nauigiu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="in Dacia[m] afflictoq[ue] durissimis praeliis populo interfecit"/>
+        <underline method="pen" type="straight" language="LA" text="regem, patriamq[ue] pristino uigo supposuit"/>
+        <underline method="pen" type="straight" language="LA" text="insulas Orcades"/>
+        
+        <tree type="genealogical_tree" book_orientation="270" place="tail" method="pen" tree_continues_to="WB5-12_0067_022r">
+            <branch id="b1" relationship="b2" person_name="Belinus">Belinus</branch>
+            <branch id="b2" relationship="b1" person_name="Brennus">Brennus</branch>
+            
+            <branch id="b3" relationship="b1" person_name="Gurguintus">Gurguintus</branch>
+            <branch id="b4" relationship="b3" person_name="Guintelinus">Guithelinus</branch>
+            <branch id="b5" relationship="b4" person_name="Sisillus">Sisillius</branch>
+            <branch id="b6" relationship="b5 b7" person_name="Kimarus">Kimarus</branch>
+            <branch id="b7" relationship="b5 b6" person_name="Elanius">Elani[us]</branch>
+            
+            <branch id="b8" relationship="b7">Morind[us]</branch>
+            <branch id="b9" relationship="b8 b10 b11 b12 b13" person_name="Gorbomannus">Gorbonian[us]</branch>
+            <branch id="b10" relationship="b8 b9 b11 b12 b13" person_name="Archigallo">Archigallo 1.2</branch>
+            <branch id="b11" relationship="b8 b9 b10 b12 b13" person_name="Elidurus">Elidurus 1.2.3</branch>
+            <!--Dee uses 'F[ratres]' as a reference to somewhere further down the tree.-->
+            <branch id="b12" relationship="b8 b9 b10 b11 b13" person_name="Vigenius">Vigenij</branch>
+            <branch id="b13" relationship="b8 b9 b10 b11 b12" person_name="Peredurus">Peredur[us]</branch>
+            
+            <branch id="b14" relationship="b10 b15" person_name="Morgan">Morganus</branch>
+            <branch id="b15" relationship="b10 b14" person_name="Emerianus">Emerianus</branch>
+            
+            <branch id="b16" relationship="b12" person_name="Idwall">Idwallo</branch>
+            <branch id="b17" relationship="b13">Filius</branch> <!--Runno, son of Peredurus-->
+            
+            <branch id="b18" relationship="b11" person_name="Geruntius">Geruntus</branch>
+            <branch id="b19" relationship="b18 b20" person_name="Cathell">Catellus</branch> <!--These relationships are not made explicit by Dee.-->
+            <branch id="b20" relationship="b18 b19" person_name="Coill">Coilus</branch>
+            
+            <branch id="b21" relationship="b20" person_name="Porrex">Porrex</branch>
+            <branch id="b22" relationship="b21" person_name="Cheryn">Cherinus</branch>
+            <branch id="b23" relationship="b22 b24 b25" person_name="Fulgenius">Fulgenius</branch>
+            <branch id="b24" relationship="b22 b23 b25" person_name="Eldadus">Eldadus</branch>
+            <branch id="b25" relationship="b22 b23 b24" person_name="Androgeus">Androgeus</branch>
+            <branch id="b26" relationship="b25">Filius</branch> <!--Urianus, son of Androgeus-->
+            <branch id="b27" relationship="b26" person_name="Eliud">Eliud</branch>
+            <branch id="b28" relationship="b27" person_name="Cledaucus">Dedacus</branch>
+            
+            <tree_text>
+                <note hand="Italian" language_ident="LA" id="WB5-12_0066_021v_n0001">
+                    A[nn]o Mundi 3689: ante Chri[st]i Anno 276.    
+                </note>
+            </tree_text>
+            <tree_text_translation>The year of the world 3689: the year 276 before Christ.</tree_text_translation>
+        </tree>
+        
+    </annotation>
+</transcription>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    
+    <page filename="WB5-12_0026_001v.tif" reader="Dee"/>
+    <annotation>
+        
+        <marginalia hand="English_secretary" >
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>
+                        Ascanius &AElig;nea[e] ex Creusa filius, sine liberis mora[e]batur sed Syluius Posthumus, qui post fratre regnabat, etia[m] Ascanius di[???]butor. Vide Seruium super 4. &AElig;neidos
+                    </marginalia_text> <!--Unsure of one word.-->
+                    <person name="Ascanius"/>
+                    <person name="Aeneas"/>
+                    <person name="Creusa"/>
+                    <person name="Sylvius Posthumus"/>
+                </position>
+            </language>
+            <translation>Ascanius, the son of Aeneas with Creusa, died without children but Sylvius Posthumus, who ruled after [his] brother, was ??? like Ascanius. See Servius above, 4. Aeneides.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="genuit[que] filium cui nomen erat Syluio">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        1. Vide, an Ascanius habuerit filum, non Syluium. Vide supra, solutio. 
+                        2. Deinde vide de eius morte. tempore et genere mortij. 
+                        3. quas nept[e]s habuerat Lauinia[s].
+                    </marginalia_text>
+                    <person name="Ascanius"/>
+                    <person name="Sylvius Posthumus"/>
+                    <person name="Lavinia"/>
+                </position>
+            </language>
+            <translation>1. Look, Ascanius has a son, not Sylvius. See solution above. 2. Then look from his death. from the time and nature of his death. 3. He had Lavinia as granddaughter.</translation>
+        </marginalia>
+        
+        <underline method="pen" type="double" language="LA" text="genuitq[ue] filium"/>
+        <underline method="pen" type="straight" language="LA" text="vxorem ducens"/>
+        <underline method="pen" type="straight" language="LA" text="expulsus"/>
+        
+        <mark name="plus_sign" method="pen" place="intext"/>
+        
+        <tree type="genealogical_tree" book_orientation="270" place="left_margin" method="pen">
+            <branch id="b1" person_name="Anchises">Anchises</branch>
+            <branch id="b2" relationship="b1 b3 b5" person_name="Aeneas">&AElig;neas</branch>
+            <branch id="b3" relationship="b2" person_name="Creusa">Creusa</branch>
+            <branch id="b4" relationship="b2 b3" person_name="Ascanius">Ascanius</branch>
+            
+            <branch id="b5" relationship="b2" person_name="Lavinia">Lavinia</branch>
+            <branch id="b6" relationship="b2 b5" person_name="Sylvius Posthumus">Syluius Posthumus</branch>
+            <branch id="b7" relationship="b6" person_name="Aeneas Silvius">Syliu[s]</branch>
+            <branch id="b8" relationship="b7" person_name="Brutus of Troy">Brut[us]</branch>
+            
+            <tree_text>
+                <note hand="Italian" language_ident="LA" internal_ref="b4">
+                    Sine liberos. aut Seruius ducet
+                </note>
+                <note hand="Italian" language_ident="LA" internal_ref="b6">
+                    qui et Ascanius dictus est vt Seruius sup. Vergilium ducet.
+                </note>
+                <note_person name="Servius"/>
+                <note_person name="Ascanius"/>
+                <note_person name="Vergil"/>
+            </tree_text>
+            <tree_text_translation>Without children, but he led Servius. Who together with Ascanius led Servius [sup.?] it is said by Vergil.</tree_text_translation>
+        </tree>
+           
+    </annotation>
+</transcription>

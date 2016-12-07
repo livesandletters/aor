@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    
+    <page filename="WB5-12_0217_097r.tif" reader="Dee"/>
+    <annotation>
+        
+        <underline method="pen" type="straight" language="LA" text="Qui cu[m] vicem nobiliu[m] obtinere coepissent extuleru[n]t se vltra q[uam] dignitas expetebat"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; vt Gildas"/>
+        <underline method="pen" type="straight" language="LA" text="odiu[m] veritatis"/>
+        <underline method="pen" type="straight" language="LA" text="amorq[uam] me[n]dacii"/>
+        <underline method="pen" type="straight" language="LA" text="admirandu[]m est degeneres tales deo ob talia scelera inuisos patria[m] illa[m] amittere qua[m] p[re]dicto mo maculauerant"/>
+        <underline method="pen" type="straight" language="LA" text="p[er]mitteret: ciues pristin[a]e dignitati restituere"/>
+        <underline method="pen" type="straight" language="LA" text="Ide[m] etenim nobis atauus"/>
+        <underline method="pen" type="straight" language="LA" text="Malgo"/>
+        <underline method="pen" type="straight" language="LA" text="post Arthuru[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Iago Cadua"/>
+        
+        <mark name="bracket" method="pen" place="intext"/> <!--auat qui-->
+        
+        <drawing type="crown" book_orientation="0" place="tail" method="pen"/> <!--Malgo-->
+        
+        <tree type="genealogical_tree" book_orientation="0" place="tail" method="pen">
+            <branch id="b1" person_name="Maelgwn" anchor_text="Malgo">Malgo</branch>
+            <branch id="b2" relationship="b1" person_name="Enniana" anchor_text="Ennian[a]">Ennian[a]</branch>
+            <branch id="b3" relationship="b2" person_name="Beli ap Rhun" anchor_text="Belin">Beli</branch>
+            <branch id="b4" relationship="b3" person_name="Iago ap Beli" anchor_text="Iago">Jago</branch>
+            <branch id="b5" relationship="b4" person_name="Caduanus" anchor_text="Caduanu[m]">Caduanus</branch>
+            
+            <branch id="b6" relationship="b1" person_name="Rhun Hir" anchor_text="Run">Run</branch>
+            <branch id="b7" relationship="b6 b13">filia</branch>
+            <branch id="b8" relationship="b7" person_name="Alanus">Alanus</branch>
+            <branch id="b9" relationship="b8" person_name="Hoelus">Hoelus</branch>
+            <branch id="b10" relationship="b9" person_name="Salomon">Salomon</branch>
+            <branch id="b11">Alanus</branch>
+            
+            <branch id="b12" person_name="Hoelus Magnus">Hoelus Magnus</branch>
+            <branch id="b13" relationship="b12 b7" person_name="Hoelus Dux">Hoelus Dux</branch>    
+        </tree>
+        
+    </annotation>
+</transcription>
