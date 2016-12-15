@@ -43,47 +43,54 @@
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
                         Nennius Bannochorensis collegij po[n]tifex scripsit de origine Brytanno[rum] de vrbibus Cornub[iae]
-                        Cosmographia[m] historia[e] [....] Alternij Nennij chronico[?] in Latinum ver[t???]
+                        Cosmographia historia[e] mundi 
+                        Alterius Nennij chronico[?] in Latinum ver[t???]
                         floruit sub Caduuano Brytanno[rum] Duce a[nn]o &agrave; chro[no] incarnato 620
                     </marginalia_text>
                     <person name="Nennius"/>
                     <person name="Caduanus"/>
-                    <location name="Cornwall"/>
+                    <book title="De origine Britannorum"/>
+                    <book title="De urbibus Cornubiae"/>
+                    <book title="Cosmographia historiae mundi"/>
+                    <location name="Bangor"/>
                 </position>
             </language>
-            <translation>Nennius of Bannoch, wrote of the origins of the Britons, of the Cornish cities [...] flourished under Caduanus, leader of the Britons in the year 620.</translation>
+            <translation>Nennius of Bangor, priest of the high college, wrote "De origine Britannorum"; "De urbibus Cornubiae"; and "Cosmographia historiae mundi". [...]. Flourished under Caduanus, leader of the Britons in the year 620.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Samuel Beulannis, scripsit annotatio[n]es in Nenniu[m] 
-                        Historia[m] et itineraria[m] Arthuri [facta?] apud Scotos 
+                        Samuel Beulanius, scripsit annotatio[n]es in Nenniu[m] 
+                        Historia[m] et itineraria[m] Arthuri facta apud Scotos 
                         floruit sub Cadwallone [deleted Brytannor[um]] Brytanno[rum] duce A[nn]o 640
                     </marginalia_text>
-                    <person name="Samuel"/>
+                    <person name="Samuel Beulanius"/>
                     <person name="Nennius"/>
-                    <person name="Arthur"/>
                     <person name="Cadwallon"/>
+                    <book title="Annotationes in Nennium"/>
+                    <book title="Historia itineraria"/>
+                    <book title="Arthuri facta apud Scotos"/>
                 </position>
             </language>
-            <translation>Samuel wrote annotations in Nennius[' writings]. The history and itinerary of Arthur with the Scots. Flourished under Cadwallon, leader of the Britons, in the year 640.</translation>
+            <translation>Samuel Beulanius wrote "Annotationes in Nennium"; "Historia itineraria"; and "Arthuri facta apud Scotos". Flourished under Cadwallon, leader of the Britons, in the year 640.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Baleus { Huius ac Nennij [...]ncvsq[ue] manet historia[e] inter tot bello[rum][...]les, nam vis a Beda et Polydoro (scriptoru[m] raritat[] criminalib[us]) no[n] v[???]
+                        Baleus { Huius ac Nennij [??]ncvsq[ue] manet historia[e] inter tot bello[rum] [??]les, nam vis a Beda et Polydoro (scriptoru[m] raritat[] criminalib[us]) no[n] v[???]
                     </marginalia_text>
                     <person name="Baloeus"/>
                     <person name="Nennius"/>
+                    <person name="Bede"/>
                     <person name="Polydore Vergil"/>
                 </position>
             </language>
-            <translation>Baleus { </translation>
-        </marginalia>
+            <translation></translation> <!--Transcription and translation lacking.--> 
+    </marginalia>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
@@ -92,8 +99,10 @@
                         Humbertus de bello[rum] Britannico[rum]
                     </marginalia_text>
                     <person name="Humbertus"/>
+                    <book title="De bellorum Britannicorum"/>
                 </position>
             </language>
+            <translation>Humbertus' "De bellorum Britannicorum".</translation>
         </marginalia>
         
         <mark name="vertical_bar" method="pen" place="intext"/>
