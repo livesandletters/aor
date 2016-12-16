@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        ???
+                        [???] perfectus[?] in mem[???]
                     </marginalia_text>
                 </position>
             </language>
@@ -57,8 +57,8 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Gelandia no[n] debet censeri exigua Insula c??? ne? Hibernia minor ??? asserit Nicolaus Geun[us?] qui - ea fuerit: et ??? minister milites quot Islan[d]ia, vel Orcades ???
-                    </marginalia_text>
+                        Gelandia no[n] debet censeri exigua Insula c[??] ne[?] Hibernia minor sit[???]re asserit Nicolaus Geun[us?] qui - ea fuerit: et [???] ministret milites quot Itinera, vel Orcades [???]
+                    </marginalia_text> <!--Transcription and translation incomplete.-->
                     <location name="Gothland"/>
                     <location name="Ireland"/>
                     <location name="Orkney Islands"/>
@@ -108,6 +108,8 @@
         <numeral place="right_margin">
             1200
         </numeral>
+        
+        <errata language="LA" copytext="Ad" amendedtext="At"/>
 
     </annotation>
 </transcription>
