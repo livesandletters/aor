@@ -8,7 +8,7 @@
     <page filename="WB5-12_0176_076v.tif" reader="Dee"/>
     <annotation>
         
-        <marginalia hand="English_secretary" anchor_text="Sater rex Demetorum">
+        <marginalia hand="Italian" anchor_text="Sater rex Demetorum">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -20,7 +20,7 @@
             <translation>Sater, king of the Demetians.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -33,41 +33,57 @@
             <translation>Gothland. Friesland.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="Italian" anchor_text="Vrbgeni[us]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        at[???] vrien
+                        at[?] Vrien
+                    </marginalia_text> <!--'atr'?-->
+                    <person name="Urien"/>
+                </position>
+            </language>
+            <translation>Urien.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        [deleted Uab] Vab pabo post Prijdem
                     </marginalia_text>
                 </position>
             </language>
+            <translation>[...] after Prijdes[?].</translation> <!--No idea about 'vab pabo'.-->
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="Italian" internal_ref="Maluasi[us] rex Islandia[e]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        [deleted Uab] Vab pabo post Prijdem???
-                    </marginalia_text>
-                </position>
-            </language>
-        </marginalia>
-        
-        <marginalia hand="English_secretary" internal_ref="Maluasi[us] rex Islandia[e]">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>
-                        Maluasius Rex Islandia[e]. Ileu vab Kynvard.
+                        Maluasius Rex Islandia[e].
                     </marginalia_text>
                     <person name="Maluasius"/>
                     <location name="Iceland"/>
+                </position>
+            </language>
+            <translation>Maluasius, king of Iceland.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="CY">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Ileu vab Kynvarch.
+                    </marginalia_text>
+                    <person name="Llew"/>
+                    <person name="Kynvarch"/>
                     <emphasis method="pen" type="double" text="Ileu"/>
                 </position>
             </language>
-            <translation>Maluasius, king of Iceland. ????</translation>
+            <translation>Llew son of Kynvarch.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -78,22 +94,25 @@
             <translation>Six cooperating and adjacent islands mentioned.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="Acellius rex Dacoru[m]" internal_ref="WB5-12_0176_076v_u0001">
+        <marginalia hand="Italian" anchor_text="Acellius rex Dacoru[m]" internal_ref="WB5-12_0176_076v_u0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        habet ??? magus circa h??? tempora. Attilius Regens Gallia[e] et ???. e??? ??? memenit Loth Regis Norvegi[a]e.
-                    </marginalia_text>
+                        habet Io[ann]es Magnus circa h??? tempora. Attilius Regens Gallia[e] et ?uetior. e[?] etia[m] memor[??]t Loth Regis Norvegi[a]e.
+                    </marginalia_text> <!--Transcription and translation incomplete.-->
+                    <person name="Johannes Magnus"/>
                     <person name="Attilius"/>
                     <person name="Lot"/>
                     <location name="Norway"/>
                 </position>
             </language>
+            <translation>Johannes Magnus had around this time. Attilius, ruling Gaul and [...]</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Sater rex Demetorum"/>
         <underline method="pen" type="straight" language="LA" text="Londoniensis"/>
         <underline method="pen" type="straight" language="LA" text="apostolic[a]e sedis legatus"/>
+        <underline method="pen" type="straight" language="LA" text="Vrbgeni[us] ex"/>
         <underline method="pen" type="straight" language="LA" text="map apo:"/>
         <underline method="pen" type="double" language="LA" text="Ex collateralibus"/>
         <underline method="pen" type="straight" language="LA" text="rex Hyberni[a]e"/>
