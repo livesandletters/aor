@@ -75,7 +75,7 @@
 		<!ATTLIST symbol id CDATA #IMPLIED> <!--functions as ID-->
 		<!ATTLIST symbol internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->
 	<!ELEMENT mark EMPTY>
-		<!ATTLIST mark name	(apostrophe|box|bracket|circumflex|colon|comma|dash|diacritic|dot|double_vertical_bar|equal_sign|est_mark|hash|horizontal_bar|page_break|pen_trial|plus_sign|quotation_mark|scribble|section_sign|semicolon|slash|straight_quotation_mark|tick|tilde|triple_dash|tripunctus|vertical_bar|X_sign) #REQUIRED>
+		<!ATTLIST mark name	(apostrophe|box|bracket|circumflex|colon|comma|dash|diacritic|dot|double_vertical_bar|equal_sign|est_mark|hash|horizontal_bar|page_break|pen_trial|plus_sign|quotation_mark|quattuorpunctus|scribble|section_sign|semicolon|slash|straight_quotation_mark|tick|tilde|triple_dash|tripunctus|vertical_bar|X_sign) #REQUIRED>
 		<!ATTLIST mark method (chalk|pen) #REQUIRED>
 		<!ATTLIST mark place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 		<!ATTLIST mark language (EN|EL|FR|IT|LA|ES|DE|CY) #IMPLIED>
