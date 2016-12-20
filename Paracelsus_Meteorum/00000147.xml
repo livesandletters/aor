@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="00000147.tif" reader="John Dee" pagination="67" signature="Riij"/> 
+    <annotation>
+        
+        <marginalia hand="Italian" anchor_text="Die kleine Welt ist aber der Mensch">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Homo Microcosmus
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>Man, the microcosm.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Ho[min]is Pellis
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>The banished humans.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Matrix Microcosmus minimus, seu potius Elachistocosmus
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>The matrix as lesser microcosm, or better: Elachistocosm.</translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="DE" text="haut"/>
+        <underline method="pen" type="straight" language="DE" text="fleisch vnd was dann"/>
+        <underline method="pen" type="straight" language="DE" text="ist das sein"/>
+        <underline method="pen" type="straight" language="DE" text="der Mensch"/>
+        <underline method="pen" type="straight" language="DE" text="die zwo Welt"/>
+        <underline method="pen" type="straight" language="DE" text="einander"/>
+        <underline method="pen" type="straight" language="DE" text="kleine das"/>
+        <underline method="pen" type="straight" language="DE" text="die Welt vnd"/>
+        <underline method="pen" type="straight" language="DE" text="zwey widerwertige"/>
+        <underline method="pen" type="straight" language="DE" text="ding nicht zusammen in eine Welt fallen"/>
+        <underline method="pen" type="straight" language="DE" text="die kleinest"/>
+        <underline method="pen" type="straight" language="DE" text="ein fass gebunden"/>
+        <underline method="pen" type="straight" language="DE" text="hat jr "/>
+        <underline method="pen" type="double" language="DE" text="sonder gef&auml;ss haut"/>
+        <underline method="pen" type="double" language="DE" text="vnd gebewdt"/>
+        <underline method="pen" type="double" language="DE" text="das"/>
+        <underline method="pen" type="double" language="DE" text="die kleineste Welt"/>
+        
+        <tree type="ramus_tree" book_orientation="0" place="tail" method="pen">
+            <branch id="b1">Mundus</branch>
+            <branch id="b2" relationship="b1">Maximus.</branch>
+            <branch id="b3" relationship="b2">Limbus</branch>
+            <branch id="b4" relationship="b1">Minor</branch>
+            <branch id="b5" relationship="b4">Homo</branch>
+            <branch id="b6" relationship="b1">Minimus</branch>
+            <branch id="b7" relationship="b6">Matrix</branch>
+        </tree>
+        
+    </annotation>
+</transcription>
