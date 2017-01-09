@@ -60,10 +60,79 @@
     </xs:attribute>
   </xs:attributeGroup>
   
+  <xs:element name="text">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="attlist.text"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.text">
+    <xs:attribute ref="hand" use="required"/>
+    <xs:attribute ref="language" use="required"/>
+  </xs:attributeGroup>
+  
   <xs:element name="translation" type="xs:string"/>
   
-  <!-- Should we also declare text (now marginalia_text), language, position, etc globally, since it appears in various types of marginalia? -->
+  <xs:attribute name="language">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="EN"/>
+        <xs:enumeration value="EL"/>
+        <xs:enumeration value="FR"/>
+        <xs:enumeration value="IT"/>
+        <xs:enumeration value="LA"/>
+        <xs:enumeration value="ES"/>
+        <xs:enumeration value="DE"/>
+        <xs:enumeration value="CY"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
   
+  <xs:attribute name="place">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="head"/>
+        <xs:enumeration value="tail"/>
+        <xs:enumeration value="left_margin"/>
+        <xs:enumeration value="right_margin"/>
+        <xs:enumeration value="intext"/>
+        <xs:enumeration value="full_page"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  
+  <xs:attribute name="book_orientation">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="0"/>
+        <xs:enumeration value="90"/>
+        <xs:enumeration value="180"/>
+        <xs:enumeration value="270"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  
+  <xs:attribute name="hand">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="English_secretary"/>
+        <xs:enumeration value="Italian"/>
+        <xs:enumeration value="typescript"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  
+  <xs:attribute name="method">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="chalk"/>
+        <xs:enumeration value="pen"/>
+        <xs:enumeration value="pencil"/>
+        <xs:enumeration value="typewriter"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  
+ <!--- end of the global elements and attributes-->    
   
   <xs:element name="transcription">
     <xs:complexType>
@@ -117,6 +186,7 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  
   <xs:element name="marginalia">
     <xs:complexType>
       <xs:sequence>
@@ -127,24 +197,8 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.marginalia">
-    <xs:attribute name="hand" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="English_secretary"/>
-          <xs:enumeration value="Italian"/>
-          <xs:enumeration value="typescript"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="method">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="pen"/>
-          <xs:enumeration value="pencil"/>
-          <xs:enumeration value="typewriter"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="hand" use="required"/>
+    <xs:attribute ref="method" use="required"/>
     <xs:attribute name="marginalia_id"/>
     <xs:attribute name="marginalia_continues_to"/>
     <xs:attribute name="marginalia_continues_from"/>
@@ -206,28 +260,8 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.position">
-    <xs:attribute name="place" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="head"/>
-          <xs:enumeration value="tail"/>
-          <xs:enumeration value="left_margin"/>
-          <xs:enumeration value="right_margin"/>
-          <xs:enumeration value="intext"/>
-          <xs:enumeration value="full_page"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="book_orientation" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="0"/>
-          <xs:enumeration value="90"/>
-          <xs:enumeration value="180"/>
-          <xs:enumeration value="270"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="place" use="required"/>
+    <xs:attribute name="book_orientation" use="required"/>
   </xs:attributeGroup>
   <xs:element name="marginalia_text">
     <xs:complexType mixed="true">
@@ -254,20 +288,7 @@
   <xs:attributeGroup name="attlist.X-ref">
     <xs:attribute name="person" use="required"/>
     <xs:attribute name="book_title" use="required"/>
-    <xs:attribute name="language">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute name="language"/>
     <xs:attribute name="text"/>
   </xs:attributeGroup>
   <xs:element name="emphasis">
@@ -276,14 +297,7 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.emphasis">
-    <xs:attribute name="method" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="chalk"/>
-          <xs:enumeration value="pen"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="method" use="required"/>
     <xs:attribute name="type" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:token">
@@ -325,15 +339,7 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.underline">
-    <xs:attribute name="method" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="chalk"/>
-          <xs:enumeration value="pen"/>
-          <xs:enumeration value="scoring"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="method" use="required"/>
     <xs:attribute name="type" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:token">
@@ -346,26 +352,12 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="language">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="language"/>
     <xs:attribute name="text"/>
     <xs:attribute name="id"/>
     <xs:attribute name="internal_ref"/>
   </xs:attributeGroup>
-  <!-- functions as ID -->
-  <!-- functions as IDREFS -->
+  
   <xs:element name="symbol">
     <xs:complexType>
       <xs:attributeGroup ref="attlist.symbol"/>
@@ -396,38 +388,12 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="place" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="head"/>
-          <xs:enumeration value="tail"/>
-          <xs:enumeration value="left_margin"/>
-          <xs:enumeration value="right_margin"/>
-          <xs:enumeration value="intext"/>
-          <xs:enumeration value="full_page"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="language">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="place" use="required"/>
+    <xs:attribute ref="language"/>
     <xs:attribute name="text"/>
     <xs:attribute name="id"/>
     <xs:attribute name="internal_ref"/>
   </xs:attributeGroup>
-  <!-- functions as ID -->
-  <!-- functions as IDREFS -->
   <xs:element name="mark">
     <xs:complexType>
       <xs:attributeGroup ref="attlist.mark"/>
@@ -470,46 +436,13 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="method" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="chalk"/>
-          <xs:enumeration value="pen"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="place" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="head"/>
-          <xs:enumeration value="tail"/>
-          <xs:enumeration value="left_margin"/>
-          <xs:enumeration value="right_margin"/>
-          <xs:enumeration value="intext"/>
-          <xs:enumeration value="full_page"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="language">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="method" use="required"/>
+    <xs:attribute ref="place" use="required"/>
+    <xs:attribute ref="language"/>
     <xs:attribute name="text"/>
     <xs:attribute name="id"/>
     <xs:attribute name="internal_ref"/>
   </xs:attributeGroup>
-  <!-- functions as ID -->
-  <!-- functions as IDREFS -->
   <xs:element name="numeral">
     <xs:complexType mixed="true">
       <xs:attributeGroup ref="attlist.numeral"/>
@@ -528,58 +461,28 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="language">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="language"/>
     <xs:attribute name="text"/>
     <xs:attribute name="id"/>
     <xs:attribute name="internal_ref"/>
   </xs:attributeGroup>
-  <!-- http://www.loc.gov/standards/iso639-2/php/code_list.php -->
-  <!-- functions as ID -->
-  <!-- functions as IDREFS -->
   <xs:element name="errata">
     <xs:complexType>
       <xs:attributeGroup ref="attlist.errata"/>
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.errata">
-    <xs:attribute name="language" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="language" use="required"/>
     <xs:attribute name="copytext" use="required"/>
     <xs:attribute name="amendedtext" use="required"/>
     <xs:attribute name="id"/>
     <xs:attribute name="internal_ref"/>
   </xs:attributeGroup>
-  <!-- functions as ID -->
-  <!-- functions as IDREFS -->
+  
   <xs:element name="drawing">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" maxOccurs="unbounded" ref="drawing_text"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="text"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="person"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="book"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="location"/>
@@ -602,86 +505,14 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="book_orientation" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="0"/>
-          <xs:enumeration value="90"/>
-          <xs:enumeration value="180"/>
-          <xs:enumeration value="270"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="place" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="head"/>
-          <xs:enumeration value="tail"/>
-          <xs:enumeration value="left_margin"/>
-          <xs:enumeration value="right_margin"/>
-          <xs:enumeration value="intext"/>
-          <xs:enumeration value="full_page"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="method" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="chalk"/>
-          <xs:enumeration value="pen"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="language">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="book_orientation" use="required"/>
+    <xs:attribute ref="place" use="required"/>
+    <xs:attribute ref="method" use="required"/>
     <xs:attribute name="id"/>
     <xs:attribute name="internal_ref"/>
     <xs:attribute name="anchor_text"/>
   </xs:attributeGroup>
-  <!-- functions as ID -->
-  <!-- functions as IDREFS -->
-  <xs:element name="drawing_text">
-    <xs:complexType mixed="true">
-      <xs:attributeGroup ref="attlist.drawing_text"/>
-    </xs:complexType>
-  </xs:element>
-  <xs:attributeGroup name="attlist.drawing_text">
-    <xs:attribute name="hand" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="English_secretary"/>
-          <xs:enumeration value="Italian"/>
-          <xs:enumeration value="typescript"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="language_ident" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-  </xs:attributeGroup>
+  
   <xs:element name="calculation">
     <xs:complexType mixed="true">
       <xs:sequence>
@@ -703,41 +534,12 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="book_orientation" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="0"/>
-          <xs:enumeration value="90"/>
-          <xs:enumeration value="180"/>
-          <xs:enumeration value="270"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="place" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="head"/>
-          <xs:enumeration value="tail"/>
-          <xs:enumeration value="left_margin"/>
-          <xs:enumeration value="right_margin"/>
-          <xs:enumeration value="intext"/>
-          <xs:enumeration value="full_page"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="method" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="chalk"/>
-          <xs:enumeration value="pen"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute name="book_orientation" use="required"/>
+    <xs:attribute ref="place" use="required"/>
+    <xs:attribute ref="method" use="required"/>
     <xs:attribute name="id"/>
     <xs:attribute name="internal_ref"/>
   </xs:attributeGroup>
-  <!-- functions as ID -->
-  <!-- functions as IDREFS -->
   <xs:element name="calculation_anchor">
     <xs:complexType mixed="true">
       <xs:attributeGroup ref="attlist.calculation_anchor"/>
@@ -765,43 +567,15 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="book_orientation" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="0"/>
-          <xs:enumeration value="90"/>
-          <xs:enumeration value="180"/>
-          <xs:enumeration value="270"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="place" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="head"/>
-          <xs:enumeration value="tail"/>
-          <xs:enumeration value="left_margin"/>
-          <xs:enumeration value="right_margin"/>
-          <xs:enumeration value="intext"/>
-          <xs:enumeration value="full_page"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="method" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="chalk"/>
-          <xs:enumeration value="pen"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute name="book_orientation" use="required"/>
+    <xs:attribute ref="place" use="required"/>
+    <xs:attribute ref="method" use="required"/>
     <xs:attribute name="id"/>
     <xs:attribute name="tree_continues_to"/>
     <xs:attribute name="tree_continues_from"/>
     <xs:attribute name="tree_to_transcription"/>
     <xs:attribute name="tree_from_transcription"/>
   </xs:attributeGroup>
-  <!-- functions as ID -->
   <xs:element name="branch">
     <xs:complexType mixed="true">
       <xs:attributeGroup ref="attlist.branch"/>
@@ -831,45 +605,16 @@
   </xs:element>
   <xs:attributeGroup name="attlist.note">
     <xs:attribute name="id" type="xs:ID"/>
-    <xs:attribute name="hand" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="English_secretary"/>
-          <xs:enumeration value="Italian"/>
-          <xs:enumeration value="typescript"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="language_ident" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="hand" use="required"/>
+    <xs:attribute name="language" use="required"/>
     <xs:attribute name="internal_ref" type="xs:IDREFS"/>
     <xs:attribute name="anchor_text"/>
-  </xs:attributeGroup>
-  <xs:element name="note_symbol">
-    <xs:complexType>
-      <xs:attributeGroup ref="attlist.note_symbol"/>
-    </xs:complexType>
-  </xs:element>
-  <xs:attributeGroup name="attlist.note_symbol">
-    <xs:attribute name="name" use="required"/>
   </xs:attributeGroup>
   <xs:element name="table">
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="tr"/>
-        <xs:element minOccurs="0" maxOccurs="unbounded" ref="table_text"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="text"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="person"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="book"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="location"/>
@@ -888,24 +633,11 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="place" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="head"/>
-          <xs:enumeration value="tail"/>
-          <xs:enumeration value="left_margin"/>
-          <xs:enumeration value="right_margin"/>
-          <xs:enumeration value="intext"/>
-          <xs:enumeration value="full_page"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
+    <xs:attribute ref="place" use="required"/>
     <xs:attribute name="id"/>
     <xs:attribute name="internal_ref"/>
     <xs:attribute name="aggregated_information"/>
   </xs:attributeGroup>
-  <!-- functions as ID -->
-  <!-- functions as IDREFS -->
   <xs:element name="tr">
     <xs:complexType>
       <xs:sequence>
@@ -930,35 +662,5 @@
     </xs:attribute>
     <xs:attribute name="anchor_text"/>
     <xs:attribute name="anchor_data"/>
-  </xs:attributeGroup>
-  <xs:element name="table_text">
-    <xs:complexType mixed="true">
-      <xs:attributeGroup ref="attlist.table_text"/>
-    </xs:complexType>
-  </xs:element>
-  <xs:attributeGroup name="attlist.table_text">
-    <xs:attribute name="hand" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="English_secretary"/>
-          <xs:enumeration value="Italian"/>
-          <xs:enumeration value="typescript"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="language_ident" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
   </xs:attributeGroup>
 </xs:schema>
