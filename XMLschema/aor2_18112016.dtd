@@ -63,7 +63,7 @@
 	<!ELEMENT underline EMPTY>
 		<!ATTLIST underline method (chalk|pen|scoring) #REQUIRED>
 		<!ATTLIST underline type (straight|curved|dotted|double|grid|triple) #REQUIRED>
-		<!ATTLIST underline language (EN|EL|FR|IT|LA|ES|DE|CY) #IMPLIED>
+		<!ATTLIST underline language (EN|EL|FR|IT|LA|ES|DE|CY) #REQUIRED>
 		<!ATTLIST underline text CDATA #IMPLIED>
 		<!ATTLIST underline id CDATA #IMPLIED> <!--functions as ID-->
 		<!ATTLIST underline internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->

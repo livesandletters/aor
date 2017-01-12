@@ -352,8 +352,8 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute ref="language"/>
-    <xs:attribute name="text"/>
+    <xs:attribute ref="language" use="required"/>
+    <xs:attribute name="text" use="required"/>
     <xs:attribute name="id"/>
     <xs:attribute name="internal_ref"/>
   </xs:attributeGroup>

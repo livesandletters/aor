@@ -336,7 +336,7 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="language">
+    <xs:attribute name="language" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:token">
           <xs:enumeration value="EN"/>
