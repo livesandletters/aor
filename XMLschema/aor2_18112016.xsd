@@ -47,7 +47,7 @@
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="errata"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="drawing"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="calculation"/>
-        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tree"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="graph"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="table"/>
       </xs:sequence>
     </xs:complexType>
@@ -71,7 +71,7 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="method">
+    <xs:attribute name="method" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:token">
           <xs:enumeration value="pen"/>
@@ -80,7 +80,7 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="marginalia_id"/>
+    <xs:attribute name="id"/>
     <xs:attribute name="marginalia_continues_to"/>
     <xs:attribute name="marginalia_continues_from"/>
     <xs:attribute name="marginalia_to_transcription"/>
@@ -622,20 +622,6 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="language">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="EN"/>
-          <xs:enumeration value="EL"/>
-          <xs:enumeration value="FR"/>
-          <xs:enumeration value="IT"/>
-          <xs:enumeration value="LA"/>
-          <xs:enumeration value="ES"/>
-          <xs:enumeration value="DE"/>
-          <xs:enumeration value="CY"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
     <xs:attribute name="id"/>
     <xs:attribute name="internal_ref"/>
     <xs:attribute name="anchor_text"/>
@@ -657,7 +643,7 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="language_ident" use="required">
+    <xs:attribute name="language" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:token">
           <xs:enumeration value="EN"/>
@@ -769,14 +755,14 @@
   <xs:attributeGroup name="attlist.calculation_anchor">
     <xs:attribute name="data"/>
   </xs:attributeGroup>
-  <xs:element name="tree">
+  <xs:element name="graph">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" maxOccurs="unbounded" ref="branch"/>
-        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tree_text"/>
-        <xs:element minOccurs="0" ref="tree_text_translation"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="node"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="link"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="graph_text"/>
+        <xs:element minOccurs="0" ref="graph_text_translation"/>
       </xs:sequence>
-      <xs:attributeGroup ref="attlist.tree"/>
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.tree">
@@ -825,18 +811,35 @@
     <xs:attribute name="tree_from_transcription"/>
   </xs:attributeGroup>
   <!-- functions as ID -->
-  <xs:element name="branch">
+  <xs:element name="node">
     <xs:complexType mixed="true">
-      <xs:attributeGroup ref="attlist.branch"/>
+      <xs:attributeGroup ref="attlist.node"/>
     </xs:complexType>
   </xs:element>
-  <xs:attributeGroup name="attlist.branch">
+  <xs:attributeGroup name="attlist.node">
     <xs:attribute name="id" use="required" type="xs:ID"/>
     <xs:attribute name="relationship" type="xs:IDREFS"/>
     <xs:attribute name="person_name"/>
     <xs:attribute name="anchor_text"/>
   </xs:attributeGroup>
-  <xs:element name="tree_text">
+  <xs:element name="link">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.link"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.link">
+    <xs:attribute name="to" use="required" type="xs:IDREFS"/>
+    <xs:attribute name="from" use="required" type="xs:IDREFS"/>
+    <xs:attribute name="relationship" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="has_child"/>
+          <xs:enumeration value="has_spouse"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:element name="graph_text">
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="note"/>
@@ -863,7 +866,7 @@
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
-    <xs:attribute name="language_ident" use="required">
+    <xs:attribute name="language" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:token">
           <xs:enumeration value="EN"/>
@@ -912,7 +915,7 @@
   <xs:attributeGroup name="attlist.note_location">
     <xs:attribute name="name" use="required"/>
   </xs:attributeGroup>
-  <xs:element name="tree_text_translation" type="xs:string"/>
+  <xs:element name="graph_text_translation" type="xs:string"/>
   <xs:element name="table">
     <xs:complexType>
       <xs:sequence>
@@ -957,25 +960,27 @@
   <xs:element name="tr">
     <xs:complexType>
       <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="th"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="td"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="th">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="attlist.th"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.th">
+    <xs:attribute name="label"/>
+    <xs:attribute name="anchor_text"/>
+    <xs:attribute name="anchor_data"/>
+  </xs:attributeGroup>
   <xs:element name="td">
     <xs:complexType mixed="true">
       <xs:attributeGroup ref="attlist.td"/>
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.td">
-    <xs:attribute name="function" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="label"/>
-          <xs:enumeration value="data"/>
-          <xs:enumeration value="empty"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
     <xs:attribute name="anchor_text"/>
     <xs:attribute name="anchor_data"/>
   </xs:attributeGroup>
