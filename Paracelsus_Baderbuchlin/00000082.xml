@@ -6,21 +6,24 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="0000082.tif" reader="John Dee" pagination="endpaper"/> 
 <annotation>
-    <marginalia hand="Italian" other_reader="Wait Winthrop">
+    
+    <marginalia hand="Italian" other_reader="Wait Winthrop" method="pen">
        <language ident="LA">
            <position place="full_page" book_orientation="180">
                <marginalia_text>Wait Winthrop</marginalia_text>
-               <person name="Wait Winthrop"/>
                <marginalia_symbol name="Hieroglyphic_Monad"/>
+               <person name="Wait Winthrop"/>
            </position>
        </language>
    </marginalia>
     
-    <marginalia hand="Italian" other_reader="Unknown">
+    <marginalia hand="Italian" other_reader="Unknown" method="pencil">
         <language ident="EN">
-            <position place="full_page" book_orientation="180"></position>
-            <marginalia_text>168</marginalia_text>
+            <position place="full_page" book_orientation="180">
+            <marginalia_text>168 [deleted]</marginalia_text>
+            </position>
         </language>
+        
     </marginalia>
     
     </annotation>
