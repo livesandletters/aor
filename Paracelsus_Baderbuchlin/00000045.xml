@@ -13,7 +13,7 @@
                     <marginalia_text>Generalis</marginalia_text>
                 </position>
             </language>
-            <translation>In general.</translation> <!-- to be added -->
+            <translation>In general.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
@@ -43,11 +43,11 @@
             <translation>Gout.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="DE" text="so au&sharp-S;erthalb den bederen"/>
+        <underline method="pen" type="straight" language="DE" text="simplicium so au&sharp-S;erthalb den bederen"/>
         <underline method="pen" type="straight" language="DE" text="der composition in"/>
         <underline method="pen" type="double" language="DE" text="die hitz"/>
         <underline method="pen" type="straight" language="DE" text="die seure / etc."/>
-        <underline method="pen" type="straight" language="DE" text="welche au&sharp-S; den selben liquoribus / feuchtigkeiten / de&sharp-S; lands erwachsen"/>
+        <underline method="pen" type="straight" language="DE" text="welche au&sharp-S; den selben liquoribus feuchtigkeiten de&sharp-S; lands erwachsen"/> <!--JG: I wouldn't include 'welche au&sharp-S;', I think what you see is ink bleeding through from the next page-->
         <underline method="pen" type="straight" language="DE" text="das de&sharp-S; bads eygenschafft vnnd die diet z&u_ring;sammen stim[m]end"/>
         <underline method="pen" type="straight" language="DE" text="die abstinentz"/>
         <underline method="pen" type="straight" language="DE" text="confortieren"/>
@@ -59,7 +59,7 @@
         <underline method="pen" type="double" language="DE" text="solcher viscositer"/>
         <underline method="pen" type="straight" language="DE" text="mit aller v&ouml;lle in essen vnd trincken baden sollen"/>
         
-        <symbol name="Sun" place="right_margin"/>
+        <symbol name="Sun" place="right_margin"/> <!--JG: I'd add 'goldischen' to the text element (and LA to the language one), since we saw on one of the next pages that Dee links the Sun to gold-->
         
     </annotation>
 </transcription>
