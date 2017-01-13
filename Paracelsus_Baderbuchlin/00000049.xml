@@ -4,25 +4,25 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="00000045.tif" reader="John Dee"  signature="[Eiiij]"/> 
+    <page filename="00000049.tif" reader="John Dee"  signature="[Eiiij]"/> 
     <annotation>
         
-        <marginalia hand="Italian" method="pen" anchor_text="werme"> <!-- by a stroke -->
+        <marginalia hand="Italian" method="pen" anchor_text="werme"> <!--FSF:  by a stroke -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Balmei p.perimi Calor unde</marginalia_text> <!--JG: 'Balnei piperini Calor Vnde', something like 'Pepper baths, hence the colour'-->
+                    <marginalia_text>Balmei pipirimi Calor unde</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- to be added -->
+            <translation>Pepper baths, hence the heat</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Centrum Thirnumu[m]</marginalia_text> <!-- to be checked --> <!--JG: 'Centrum Therniarum'-->
+                    <marginalia_text>Centrum Therniaru[m]</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- to be added -->
+            <translation></translation> <!--FSF: to be added -->
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="vitriolischen mineralien">
@@ -36,9 +36,6 @@
                 </position>
             </language>
             <translation>Vitriol.</translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" method="pen" anchor_text="Alabasterstein"> <!--JG: I'd include this marginal note in the previous one, followed by a '}'-->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Alabastru[m]</marginalia_text>
@@ -131,7 +128,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="viscositates paralisis">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Them that haue long lyve s... and begyn to amend</marginalia_text> <!-- to be completed --> <!--JG: 'sick', no?-->
+                    <marginalia_text>Them that haue long lyve sick and begyn to amend</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -139,19 +136,19 @@
         <marginalia hand="Italian" method="pen" anchor_text="viscositates paralisis">
             <language ident="EN">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>The bath co[m]pos... of vitriol</marginalia_text> <!-- to be completed --> <!--JG: Can't figure out this word either. Sent an email to Robyn-->
+                    <marginalia_text>The bath co[m]pos... of vitriol</marginalia_text> <!--FSF to be completed --> <!--JG: Can't figure out this word either. Sent an email to Robyn-->
                 </position>
             </language>
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>ex tribus p[erso]nis &Venus;&Sun;&Saturn;&Mars;</marginalia_text> <!--JG: Could it be 'primis'? Check the transcriptions of the other Paracelsus book, I think the term 'tribus primis' occurs quite often-->
+                    <marginalia_text>ex tribus p[ri]mis &Venus;&Sun;&Saturn;&Mars;</marginalia_text>
                     <marginalia_symbol name="Venus"/>
                     <marginalia_symbol name="Sun"/>
                     <marginalia_symbol name="Saturn"/>
                     <marginalia_symbol name="Mars"/>
                 </position>
-                <translation>from the three persons</translation> <!--JG: Translation should come after closing the language tag-->
             </language>
+            <translation>from the three prime bodies</translation> <!-- FSF: to be checked -->
         </marginalia>        
         
         <underline method="pen" type="double" language="DE" text="werme"/>
@@ -182,7 +179,7 @@
         
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <!--JG: Also tag the manicule in the tail, which you can link to the underscored text-->
+        <drawing type="manicule" book_orientation="0" place="tail" method="pen" anchor_text="in langen kranckheyten gelegen sind"></drawing>
         
     </annotation>
 </transcription>
