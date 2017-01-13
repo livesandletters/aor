@@ -12,22 +12,25 @@
                     <marginalia_text>Caput hoc est Initiatis conscriptum</marginalia_text>
                 </position>
             </language>
+            <translation>This chapter is the composition for the introductory rites</translation> <!--JG: Don't get Initiatis conscriptum-->
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Nota mysteriu, si sis philosophus</marginalia_text>
+                    <marginalia_text>Nota mysteriu, si sis Philosophus</marginalia_text> <!--JG: Should be 'mysteriu[m]', note the horizontal bar above the 'u'-->
                 </position>
             </language>
+            <translation>Note the mystery, if you are a philosopher.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ignis occasionatus: Innaturalis:</marginalia_text> <!-- unknown marginalia -->
+                    <marginalia_text>Ignis occasionatus: n[oste]r [scilicet] Innaturalis:</marginalia_text> 
                 </position>
             </language>
+            <translation>The occasion of fire: certainly unnatural to us.</translation> <!--JG: Don't get the noster here-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="spiritus vitrioli" method="pen">
@@ -39,7 +42,7 @@
             <translation>The spirit of vitriol.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen">
+        <marginalia hand="Italian" method="pen"> <!--JG: This one should be captured as a numeral, following the other two numbers added to the printed text-->
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>3</marginalia_text>
@@ -47,15 +50,18 @@
             </language>
         </marginalia>
         
+        <!--JG: You forgot to transcribe one marginal note, 'Prima Materia', which you can translate as 'Prime matter.'-->
+        
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>suum absq[ue] igne socium consequetur</marginalia_text>
                 </position>
             </language>
+            <translation>Without fire it obtains its ally.</translation> <!--JG: Unsure-->
         </marginalia>
         
-        <underline method="pen" type="straight" language="DE" text="auss welchen compositzen ein werme entspzingt"/>
+        <underline method="pen" type="straight" language="DE" text="auss welchen compositzen ein werme entspzingt"/> <!-- JG: This should be transcribed with a scharfes s instead of ss-->
         <underline method="pen" type="straight" language="DE" text="der aquarum regum die da kalt sind so bald sy z&uuml;samen gegossen werden ein gewaltigen sudt haben"/>
         <underline method="pen" type="straight" language="DE" text="das der spiritus vitrioli der an im selbs kalt ist so er in ein kalt wasser gesch&uuml;tt wird das selbig siedend heyss macht."/>
         <underline method="pen" type="straight" language="DE" text="prima materia"/>
@@ -67,7 +73,18 @@
         <underline method="pen" type="straight" language="DE" text="sren"/> <!-- DO: unclear whether this is underlined or not -->
         <underline method="pen" type="straight" language="DE" text="nitrischen salia"/>
         <underline method="pen" type="straight" language="LA" text="liquoribus metallorum"/>
-        <underline method="pen" type="straight" language="DE" text="kalt wasser z&uuml; wermen on holtz oder feur"/>
+        <underline method="pen" type="straight" language="DE" text="kalt wasser z&u wermen on holtz oder feur"/>
+        
+        <numeral place="intext" language="LA" text="spiritus vitrioli">1.</numeral>
+        <numeral place="intext" language="LA" text="kalt wasser">2.</numeral>
+        
+        <numeral place="intext" language="DE" text="nitrischen salia">1.</numeral>
+        <numeral place="intext" language="LA" text="liquoribus metallorum">2.</numeral>
+        
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        
+        <!-- JG: Several links between several underlining. Needs to be transcribed later -->
+        
         
         
     </annotation>
