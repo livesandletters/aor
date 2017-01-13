@@ -19,19 +19,19 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Dieta vbi inna</marginalia_text> <!-- last word to be checked --> <!--JG: Could it be 'iuuat'?-->
+                    <marginalia_text>Dieta vbi iuvat</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- to be added -->
+            <translation>Where the diet assists</translation> <!-- FSF: to be checked -->
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="darumb so m&u_ring;&sharp-S; da ein compositum / hinz&u_ring;th&uuml;ung eines z&u_ring;satzes sein / damit es volkommen werd / dann ihr sehend au&sharp-S;erthalb in der natur wie manichmal die correctiones beschehen m&uuml;ssen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Thermaru[m] subsidia, sive correcti ones</marginalia_text> <!-- sive and onesto be checked --> <!--JG: I think it's correctiones! Dee has the annoying habit of not signyfing where he breaks off words. I think it's 'sive' too-->
+                    <marginalia_text>Thermaru[m] subsidia, sive correctiones</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- to be added -->
+            <translation>The additions to or corrections of the bath</translation> <!-- FSF: to be checked -->
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="entschuldigung">
@@ -43,7 +43,7 @@
             <translation>Note.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen"> <!--JG: Can we link this marginal note to the printed text, if only to the word 'compositum'?-->
+        <marginalia hand="Italian" method="pen" anchor_text="compositum">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Compositum.</marginalia_text>
@@ -52,16 +52,11 @@
             <translation>Composition.</translation>
         </marginalia>
         
-        <!-- in text: the words wellen (straight underlining) and brunnen (double underlining) are connected by a pen stroke-->
-        
-        <!-- stroke from entschuldigung on this page to entschuldigung on the next page [Eiij] -->
+        <!-- FSF: stroke from entschuldigung on this page to entschuldigung on the next page [Eiij] -->
         
         <underline method="pen" type="straight" language="DE" text="der zeyt"/>
         <underline method="pen" type="double" language="LA" text="gradibus mineralium"/> 
-        <underline method="pen" type="straight" language="DE" text="genommen sol werden"/> <!--JG: I think this is bleedthrough from the previous page-->
-        
-        <!-- JG: I'd transcribe wellen (as underline). What we probably end up doing is giving these annotations a unique ID, and then connect them through a separate tag, referring to the IDs-->
-        
+        <underline method="pen" type="double" language="DE" text="wellen"/> <!-- FSF: in text: the words wellen (straight underlining) and brunnen (double underlining) are connected by a pen stroke--> <!-- JG: I'd transcribe wellen (as underline). What we probably end up doing is giving these annotations a unique ID, and then connect them through a separate tag, referring to the IDs-->
         <underline method="pen" type="straight" language="DE" text="kranckheyt gewaltig"/>
         <underline method="pen" type="straight" language="DE" text="abstinentz"/>
         <underline method="pen" type="straight" language="DE" text="nach stund"/>
@@ -70,7 +65,7 @@
         <underline method="pen" type="double" language="DE" text="brunnen"/>
         <underline method="pen" type="straight" language="DE" text="ob der selbig"/>
         <underline method="pen" type="double" language="DE" text="durch andre"/>
-        <underline method="pen" type="straight" language="DE" text="einer entschuldigung"/> <!--JG: I think the line below 'einer' is bleedthrough from the previous page-->
+        <underline method="pen" type="straight" language="DE" text="entschuldigung"/>
         <underline method="pen" type="straight" language="DE" text="vil so lusts halben"/>
         <underline method="pen" type="double" language="DE" text="ettlichs"/>
         <underline method="pen" type="straight" language="DE" text="theils in kreffte[n]"/>
@@ -80,9 +75,9 @@
         <underline method="pen" type="double" language="DE" text="die correctiones"/>
         
         <mark name="tripunctus" place="left_margin" method="pen"/>
-        <mark name="comma" place="intext" text="abstinentz nach" method="pen"/> <!--JG: With comma's we don't use the text and language attribute, but just put the words in a comment -->
-        <mark name="tripunctus" place="right_margin" method="pen"/> <!-- with a tail -->
-        <mark name="bracket" place="intext" method="pen"/> <!--JG: Where's this one, can't find it-->
+        <mark name="comma" place="intext" method="pen"/> <!--FSF: abstinentz nach -->
+        <mark name="tripunctus" place="right_margin" method="pen"/> <!-- FSF: with a tail -->
+        <mark name="bracket" place="right_margin" method="pen"/>
     
         <drawing method="pen" place="left_margin" book_orientation="0" type="manicule"/>
        
