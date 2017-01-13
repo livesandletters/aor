@@ -10,7 +10,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="werme"> <!-- by a stroke -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Balmei p.perimi Calor unde</marginalia_text>
+                    <marginalia_text>Balmei p.perimi Calor unde</marginalia_text> <!--JG: 'Balnei piperini Calor Vnde', something like 'Pepper baths, hence the colour'-->
                 </position>
             </language>
             <translation></translation> <!-- to be added -->
@@ -19,7 +19,7 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Centrum Thirnumu[m]</marginalia_text> <!-- to be checked -->
+                    <marginalia_text>Centrum Thirnumu[m]</marginalia_text> <!-- to be checked --> <!--JG: 'Centrum Therniarum'-->
                 </position>
             </language>
             <translation></translation> <!-- to be added -->
@@ -38,7 +38,7 @@
             <translation>Vitriol.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="Alabasterstein">
+        <marginalia hand="Italian" method="pen" anchor_text="Alabasterstein"> <!--JG: I'd include this marginal note in the previous one, followed by a '}'-->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Alabastru[m]</marginalia_text>
@@ -89,7 +89,7 @@
                     <marginalia_text>contractio</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- translation to be added -->
+            <translation>Contraction.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="leprosischen">
@@ -104,7 +104,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="&ouml;lschenckel">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Ulcera maligna</marginalia_text>
+                    <marginalia_text>Vlcera maligna</marginalia_text>
                 </position>
             </language>
             <translation>Malign ulcer.</translation>
@@ -131,7 +131,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="viscositates paralisis">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Them that haue long lyve s... and begyn to amend</marginalia_text> <!-- to be completed -->
+                    <marginalia_text>Them that haue long lyve s... and begyn to amend</marginalia_text> <!-- to be completed --> <!--JG: 'sick', no?-->
                 </position>
             </language>
         </marginalia>
@@ -139,18 +139,18 @@
         <marginalia hand="Italian" method="pen" anchor_text="viscositates paralisis">
             <language ident="EN">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>The bath compos... of vitriol</marginalia_text> <!-- to be completed -->
+                    <marginalia_text>The bath co[m]pos... of vitriol</marginalia_text> <!-- to be completed --> <!--JG: Can't figure out this word either. Sent an email to Robyn-->
                 </position>
             </language>
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>ex tribus p[erso]nis &Venus;&Sun;&Saturn;&Mars;</marginalia_text>
+                    <marginalia_text>ex tribus p[erso]nis &Venus;&Sun;&Saturn;&Mars;</marginalia_text> <!--JG: Could it be 'primis'? Check the transcriptions of the other Paracelsus book, I think the term 'tribus primis' occurs quite often-->
                     <marginalia_symbol name="Venus"/>
                     <marginalia_symbol name="Sun"/>
                     <marginalia_symbol name="Saturn"/>
                     <marginalia_symbol name="Mars"/>
                 </position>
-                <translation>from the three persons</translation>
+                <translation>from the three persons</translation> <!--JG: Translation should come after closing the language tag-->
             </language>
         </marginalia>        
         
@@ -164,16 +164,16 @@
         <underline method="pen" type="straight" language="DE" text="Alabasterstein"/>
         <underline method="pen" type="double" language="DE" text="vierdten"/>
         <underline method="pen" type="straight" language="DE" text="theil der globel nimpt es seyn centrum"/>
-        <underline method="pen" type="straight" language="DE" text="podagrischen mucilagnies"/>
+        <underline method="pen" type="straight" language="DE" text="podagrischen mucilagines"/>
         <underline method="pen" type="straight" language="LA" text="viscositates paralisis"/>
         <underline method="pen" type="straight" language="DE" text="kleinen schlag"/>
         <underline method="pen" type="straight" language="DE" text="g&auml;der vn[nd] neruam zewesserig worden"/>
         <underline method="pen" type="straight" language="LA" text="consumptiones"/>
-        <underline method="pen" type="straight" language="DE" text="bringt widerumm"/>
+        <underline method="pen" type="straight" language="DE" text="bringt widerum[m]"/>
         <underline method="pen" type="straight" language="DE" text="es den contractis g&u_ring;tt ist"/>
         <underline method="pen" type="straight" language="DE" text="den leprosischen"/>
         <underline method="pen" type="double" language="DE" text="ein grosse d&uuml;rre"/>
-        <underline method="pen" type="straight" language="DE" text="beschlossene haut"/>
+        <underline method="pen" type="straight" language="DE" text="beschlossne haut"/>
         <underline method="pen" type="straight" language="DE" text="&ouml;lschenckel"/>
         <underline method="pen" type="straight" language="DE" text="wenn sy vormals darz&u_ring; bereyt sind mit den mundificationibus reinigungen"/>
         <underline method="pen" type="straight" language="DE" text="stelts"/>
@@ -181,6 +181,8 @@
         <underline method="pen" type="straight" language="DE" text="in langen kranckheyten gelegen sind"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
+        
+        <!--JG: Also tag the manicule in the tail, which you can link to the underscored text-->
         
     </annotation>
 </transcription>
