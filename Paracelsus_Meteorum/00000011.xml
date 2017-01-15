@@ -12,7 +12,7 @@
                     <marginalia_text>Christianus Ratz scit vbi isti libri Paracelsi su[n]t. [Et - deleted] vt mihi retulit Georgius Marquarolus 1567. feb. 20.
                     
                     Archidoxa
-                    De renovatione et Restauratione, Th[eo]ph[ras]ti Germanae Ph[ilosoph]i et Medici, [.iti] Paracelsi magni.
+                    De renovatione et Restauratione, Th[eo]ph[ras]ti Germaniae Ph[ilosoph]i et Medici, [.iti] Paracelsi magni.
                     Morboru[m] com[m]e[n]tarij
                     </marginalia_text>
                     <person name="Christian Ratz"/> <!--JG: Don't know who this guy is-->
@@ -24,45 +24,63 @@
             </language>
             <language ident="DE">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>Die erst buch von den naturlichen ding[en]</marginalia_text>
+                    <marginalia_text>Die erst bu[e]ch von den naturlichen ding[en]</marginalia_text>
                     <book title="Von natürlichen dingen"/>
                 </position>
             </language>
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>Liber de virtutibus mineratu[m] in der medicin <!--JG: Don't know this work-->
-                    Liber de nascentibus et terra et virtutibus eor[um]
-                    Phi[lippi] Th[eophras]ti. Ihren Vrsprung der minerall vnd metal.
-                    De diuina prouidentia in consideratione fabricationis mundi et om[n]i creat... &amp;c  <!--JG: Don't know this work-->
-                    Von den 14 gradation &amp;c Th[eopras]ti  <!--JG: Don't know this work--> 
-                    Liber de [Muctag...] <!--JG: Don't know this work-->
-                    Alter Fragmenta Th[eopras]ti <!--JG: Don't know this work-->
-                    De transmutatione metallor[um]</marginalia_text>
+                    Liber de nascentibus ex terra et virtutibus eor[um]
+                        Phi[lippi] Th[eophras]ti. </marginalia_text>
                     <book title="Liber de nascentibus ex terra"/>
-                    <book title="Elf trakat von Ursprung"/>
-                    <book title="De transmutatione mettalorum"/>
                 </position>
             </language>
             <language ident="DE">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>ist am ander ort auch zubekommen doch zu gep&uuml;render zeit.</marginalia_text>
+                    <marginalia_text>Ihren Vrsprung der minerall vnd metal. </marginalia_text>
+                    <book title="Elf trakat von Ursprung"/>
                 </position>
             </language>
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>Jo[hann]es habet. 1. de creatione ho[mini]is 2. der grund der arzneije <!--JG: Don't know this work-->
+                    <marginalia_text>De diuina prouidentia in consideratione fabricationis mundi et om[n]i creaturarum &amp;c</marginalia_text>  <!--JG: Don't know this work-->
+                </position>
+            </language>
+            <language ident="DE">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>Von den 14 gradation &amp;c Th[eopras]ti</marginalia_text>  <!--JG: Don't know this work--> 
+                </position>
+            </language>
+            <language ident="LA">
+                <position placae="full_page" book_orientation="0">
+                    <marginalia_text>Liber de [Muctag...] <!--JG: Don't know this work--> <!--KS: Mucdagine? Still clueless, though.-->
+                    Alter Fragmenta Th[eopras]ti <!--JG: Don't know this work-->
+                    De transmutatione metallor[um]</marginalia_text>
+                    <book title="De transmutatione metallorum"/>
+                </position>
+            </language>
+            <language ident="DE">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>ist am ander[en] ort auch zubekommen doch zu gep&uuml;render zeit.</marginalia_text>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>Jo[hann]es habet. 1. de creatione ho[mini]is 2. der grund der arzneije
                     </marginalia_text>
                     <book title="De creatione hominis"/>
+                    <book title="Paragranum"/>
                 </position>
             </language>
             <translation>Christian Ratz knows where those books of Paracelsus are. As Georgius Marquarolus told me, 20 February 1567.
             <!--JG: Insert titles books once I've found them--> 'De transmutatione metallorum', has also arrived at another place, yet at a more fitting time.
-            John has: 1) 'De creatione hominis' 2) 'Der grund...' </translation>
+            John has: 1) 'De creatione hominis' 2) 'Paragranum'.</translation>
         </marginalia>
         
         <drawing type="scientific_instrument" book_orientation="0" place="full_page" method="pen">
-            <drawing_text hand="Italian" language_ident="EN">By this is more done at ones des[...] than at ten tymes by an ale[mb]ik.</drawing_text>
-            <drawing_text hand="Italian" language_ident="LA">J D [...] prior apponi posse [...] [...] [...] tali.</drawing_text> <!--JG: impossible to read-->
+            <drawing_text hand="Italian" language_ident="EN">by this is more done at ones des[...]ing than at ten tymes by an ale[mb]ik.</drawing_text>
+            <drawing_text hand="Italian" language_ident="LA">J D suspiror tale quid apponi posse [p[os]t] [etia[m]] [siue] tali.</drawing_text> <!--JG: impossible to read--> <!--KS: makes no sense-->
             <drawing_person name="John Dee"/>
             <drawing_text_translation><!-- JG: insert translation --></drawing_text_translation>
         </drawing>
