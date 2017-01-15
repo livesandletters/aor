@@ -20,7 +20,7 @@
         <marginalia hand="Italian" anchor_text="erste[n] Matery na&sharp-S; sein">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Materia[e] prima[e] Aqueorum, humidae. </marginalia_text>
+                    <marginalia_text>Materia[e] prima[e] Aqueoru[m], humida[e]. </marginalia_text>
                 </position>
             </language>
             <translation>The first materials [consist of] watery and humid [elements].</translation> 
@@ -29,25 +29,27 @@
         <marginalia hand="Italian" anchor_text="Erden">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Materia[e] prima[e] Terremorum, [.]illa. </marginalia_text> <!--JG: Unsure, both abt transcription-->
+                    <marginalia_text>Materia[e] prima[e] Terrenorum, sicca. </marginalia_text>
                 </position>
             </language>
-            <translation>The first materials [consist of] earthy [elements] [...].</translation>  
+            <translation>The first materials [consist of] earthy and dry [elements].</translation>  
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="hat nun sein mutter au&sharp-S; dem Element wasser: Vnd im Element wasser wachsen die Vltimae materiae, der anfang Liquidum ist vnd Humidum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Materia[e] prima[e] Materna[e], Liquido[rum] </marginalia_text> 
+                    <marginalia_text>Mineraliu[m] prima[e] Materia[e], Liquido[rum] </marginalia_text> 
                 </position>
             </language>
-            <translation>The first maternal materials [consist of] liquid [elements].</translation>  
+            <translation>The first materials [consist of] mineral and liquid [elements].</translation>  
         </marginalia>
         
-        <underline method="pen" type="straight" language="DE" text="Dan[n] wie das ist das vo[n] im wachst also ist auch das dasselbige gemacht vn[d] geboren hat"/>
+        <underline method="pen" type="straight" language="DE" text="Dan[n] wie das ist das vo[n] jm wachst also ist auch das dasselbige gemacht vn[d] geboren hat"/>
         <underline method="pen" type="straight" language="DE" text="saltz"/>
         <underline method="pen" type="straight" language="DE" text="stein"/>
-        <underline method="pen" type="straight" language="DE" text="seiner erste[n] Matery na&sharp-S; sein"/>
+        <underline method="pen" type="straight" language="DE" text="seiner erste[n]"/>                                                          
+        <underline method="pen" type="double" language="DE" text="Matery na&sharp-S;"/>
+        <underline method="pen" type="straight" language="DE" text="sein"/>
         <underline method="pen" type="straight" language="DE" text="in ein Coagulation"/>
         <underline method="pen" type="straight" language="DE" text="d&uuml;rrer Materia"/>
         <underline method="pen" type="straight" language="DE" text="Compactirt sey"/>
@@ -55,8 +57,6 @@
         <underline method="pen" type="double" language="LA" text="Liquidum ist vnd Humidum"/>
         
         <mark name="bracket" method="pen" place="left_margin" language="DE" text="hat nun sein mutter au&sharp-S; dem Element wasser: Vnd im Element wasser wachsen die Vltimae materiae, der anfang Liquidum ist vnd Humidum"/>
-        
-        
+     
     </annotation>
 </transcription>
-
