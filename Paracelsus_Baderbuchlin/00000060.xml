@@ -19,7 +19,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="wasser tugend">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Aquae vis</marginalia_text>
+                    <marginalia_text>[AE] Aquae vis</marginalia_text>
                 </position>
             </language>
             <translation>Benefits of water.</translation>
@@ -37,19 +37,19 @@
         <marginalia hand="Italian" method="pen" anchor_text="vlcerationes vesciae verletzte blasen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>vlcerationes vesica</marginalia_text>
+                    <marginalia_text>vlcerationes vesica</marginalia_text> <!--JG: Should be 'vesica[e]'-->
                 </position>
             </language>
-            <translation>Preparation of the mud.</translation>
+            <translation>Preparation of the mud.</translation> <!--JG: Check translation, vesica is bladder, no? And ulceratio is sore or ulcer. So, ulcers of the bladder, or something alike-->
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="reolis [...] pilis albis">
+        <marginalia hand="Italian" method="pen" anchor_text="reolis; pilis albis">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Reola Pili albi</marginalia_text>
                 </position>
             </language>
-            <translation>.</translation> <!-- FSF: to be added -->
+            <translation>.</translation> <!-- FSF: to be added --> <!--JG: Pili albi is white hairs, I think. Unsure about reola, maybe refers to a plant or something like that?-->
         </marginalia>
         
         <underline method="pen" type="straight" language="DE" text="vbelgeheilten"/>
@@ -72,12 +72,16 @@
         <underline method="pen" type="straight" language="LA" text="pilis albis"/>
         <underline method="pen" type="double" language="DE" text="der zeyt vnd g&u_ring;ten weg"/>
         
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/> <!--JG: I'd capture this as a vertical bar-->
         <mark name="tripunctus" method="pen" place="left_margin"/> <!-- FSF: with tail -->
         <mark name="tripunctus" method="pen" place="left_margin"/> <!-- FSF: with tail -->
         <mark name="tripunctus" method="pen" place="left_margin"/> <!-- FSF: with tail -->
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="f&uuml;rderen den somen er sy wol oder vbel geseyt"></drawing>
+        <!-- JG: There's a bracket in the text as well, between compositum and was -->
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="f&uuml;rderen den somen er sy wol oder vbel geseyt"/>
+        
+        <!--JG: link between two sets of underlined words. To be captured at a later stage-->
         
     </annotation>
 </transcription>
