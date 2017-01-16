@@ -10,21 +10,21 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>Archidoxis Theophrastiae pars prima
-                    Noven lirbi de misterijs Naturae Theophr. Bombast de Hohenb. Suevij Heremitae, Naturalium rerum docti Paracelsi Mag[ist]ri Phi[lippus] industriasissimi
-                    lib[er] 1. de misterijs Microcosmi
-                    [liber] 2. [de misterijs] elementor[um] 
-                    [liber] 3. [de misterijs] s[anct]a essentia
-                    [liber] 4. [de misterijs] Arcani
-                    [liber] 5. [de misterijs] ...tractionum
-                    [liber] 6. [de misterijs] s...
-                    [liber] 7. [de misterijs] ...
+                    <marginalia_text>Archidoxis Theophrastiae pars prima <!--JG: Remember, in marginal notes the ae ligature has to be captured as followed a[e]. So 'Theoprastia[e]'-->
+                    Noven libri de misterijs Natura[e] Theophr. Bombast de Hohenb. Suevij Heremita[e], Naturaliu[m] rerum docti Paracelsi Mag[ist]ri Phi[lippus] industriasissimi <!--JG: I think it should be 'Magni Ph[ilipp]i'. See transcription 00000011.xml of 'Das buch meteorum'-->
+                    lib[er] 1. de Misterijs Microcosmi
+                    [liber] 2. [de Misterijs] elementor[um] <!--JG: Should be 'Elementorum', make sure to capture the use of capitals-->
+                    [liber] 3. [de Misterijs] s[anct]a essentia
+                    [liber] 4. [de Misterijs] Arcani
+                    [liber] 5. [de Misterijs] ...tractionum <!--JG: Extractionum-->
+                        [liber] 6. [de Misterijs] s... <!--JG: specificor[um]-->
+                        [liber] 7. [de Misterijs] ... <!--JG: Elixis-->
                     [liber] 8. De misterijs extremis
-                    liber 9 De praxi, sed no[n] est impressus</marginalia_text> 
+                    liber 9 De praxi, sed no[n] est impressus</marginalia_text> <!--JG: Don't forget to tag Parcelusus, his book(s), etc-->
                 </position>
             </language>
             <translation>The first part of Theophrastus' Archidoxa
-                Nine books on the mysteries of nature by Theophrastus Bombast of Hohenberg, Paracelsus learned in natural matters
+                Nine books on the mysteries of nature by Theophrastus Bombast of Hohenberg, Paracelsus learned in natural matters <!--JG: Did you translate 'Suevij Heremita[e]'-->
                 Book 1 On the mysteries of the microcosmos
                 Book 2 On the mysteries of the elements
                 Book 3 On the mysteries of the holy essence
@@ -40,10 +40,10 @@
         <marginalia hand="Italian" date="24 Juli 1640" other_reader="John Winthrop">
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>This above written and the name on the top of the frontisspice of this booke [and] ... writing in the middle of the fro[n]tisspice and the severall notes in the margent through the whole booke, was written 
-                        by that famous Philosopher and Chimist John Dee. with his owne hand. this J[ohn] Dee ...was hay... wrote the philosophicall treatise called Monae Hieroglifica. also Propaideumata Aphoriastic 
-                        also the learned preace before Euclides elementa in English in folio. he was warden of Manchester. I have dito ere books y were his ... he hath written his name and manz notes .. he for with thez are worthy.. the more ..... 
-                        John Winthrop. Juli 24 1640..</marginalia_text>
+                    <marginalia_text>This above written and the name on the top of the frontisspice of this booke [and] [the] writing in the middle of the fro[n]tisspice and the severall notes in the margent through the whole booke, was written 
+                        by that famous Philosopher and Chimist John Dee. w[i]th his owne hand. this J[ohn] Dee: was he [that] wrote the philosophicall treatise called Monae Hieroglifica. also Propaideumata Aphoriastic 
+                        also the learned preface before Euclides Elements in English in folio. he was warden of Manchester. I have dito ere books [that] were his wher he hath written his name and many notes [etc]: for w[i]ch they are worthyly the more esteemed. 
+                        John Winthrop. Juli 24 1640..</marginalia_text> <!--JG: You should also tag the people mentioned in this note, Dee, Winthrop, Euclid, and geographical locations such as Manchester-->
                     <book title="Hieroglyphic Monad"/>
                     <book title="Propaedumata Aphoristica"/>
                     <book title="Stoicheia"/>
