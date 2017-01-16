@@ -10,10 +10,10 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Istam primam materiam trium, Ego, Q, Essam. eorundem haud male iudicari censeo</marginalia_text>
+                    <marginalia_text>Istam primam materia[m] triu[m], Ego, Q, Ess[enti]am eorundem haud male iudicari censeo</marginalia_text> <!--JG: Could Essam be 'Essentiam', since 'am' appears in superscript?-->
                 </position>
             </language>
-            <translation>I, Q, Essam, recommend that these three prime materials of them are by no means badly assessed.</translation> <!-- FSF: to be checked -->
+            <translation>I, Q, Essam, recommend that these three prime materials of them are by no means badly assessed.</translation> <!-- JG: 'I, Q, recommend that this prime matter of the three, their essence, is by no means to be judged badly'. Not sure, no clue about 'Q'-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="die sieben mineralia">
@@ -32,7 +32,7 @@
                     <marginalia_text>7 Mineralia</marginalia_text>
                 </position>
             </language>
-            <translation>Saturn Jupiter Mars Sun Venus Mercury Moon 7 Minerals </translation>
+            <translation>Saturn, Jupiter, Mars, Sun, Venus, Mercury, Moon. 7 Minerals.</translation>
         </marginalia>
                
         <marginalia hand="Italian" anchor_text="die tugend krafft vnnd eygenschafft">
@@ -41,7 +41,7 @@
                     <marginalia_text>Thermarum virtus unde</marginalia_text>
                 </position>
             </language>
-            <translation>Hence the properties of the baths</translation>
+            <translation>Hence the properties of the baths.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -50,7 +50,7 @@
                     <marginalia_text>Confortatio</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- FSF: to be added -->
+            <translation>Invigoration.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="DE" text="So die sieben mineralia ligen in primis tribus"/>
@@ -82,12 +82,12 @@
         
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin" text="verb&ouml;seret"/>
+        <mark name="circumflex" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="" method="" place=""/>
-        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/> <!--JG: You can capture the printed text from 'Weiter...stond' in the anchor attribute-->
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
