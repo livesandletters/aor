@@ -1,53 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?> <!--JG: In your file this line appeared twice. Watch out for this, this will cause the validator to give an error-->
+<?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="00000069.tif" reader="John Dee" pagination="_____"/> <!--JG: If there's no page number, just get rid of the pagination attribute. There's a signature though, which you should use-->
+    <page filename="00000069.tif" reader="John Dee" signature="hii"/> 
     <annotation>
         
         <marginalia hand="Italian" method="pen">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Try our salt witches in England</marginalia_text> <!--JG: Tag England as a geographical location-->
+                    <marginalia_text>Try our salt witches in England</marginalia_text>
+                <location name="England"/>
                 </position>
             </language> 
         </marginalia>
         
-        <marginalia> <!--JG: You forgot the specify some attributes, such as hand and method-->
+        <marginalia hand="Italian" method="pen" anchor_text="podagrae vund paralysis hinweg nimpt auch all hydropisen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Podagras parabyly hydropsy hyposarcb[?] </marginalia_text> <!--JG: Should be 'Podraga Paralysis, hydropisis, hyposarcha' (corresponds to words in printed text, which you should include in the anchor tag-->
-                    <!--Difficulty deciphering the end of the fourth word i.e. hyposarc[..]-->
+                    <marginalia_text>Podraga, paralysis, hydropsis, hyposarcha</marginalia_text> 
                 </position>
             </language>
             <translation>Gout, paralysis, hydropsy, and 'hyposarcha'.</translation> <!--JG: Need to find good translation of hyposarcha, is related to hydropsy but word seems to appear mainly in Paracelcian writings-->
         </marginalia>
 
-        <marginalia> <!--JG: You forgot the specify some attributes, such as hand and method. Add this 'vnnd artzeten werden die Beder so gar mi&sharp-S;braucht-->
-            <language ident="LA">
+            <marginalia hand="Italian" method="pen" anchor_text="vnnd artzeten werden die Beder so gar mi&sharp-S;braucht"> 
+                <language ident="DE">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Abylas bimarcu[s]</marginalia_text> <!--JG: Should be 'Abysus Thermaru[m]-->
-                    <translation>The abyss of baths.</translation> <!--JG: Translation is the child element of marginalia, should be declared after closing the language element-->
+                    <marginalia_text>Abysus Thermaru[m]</marginalia_text>
                 </position>
             </language>
+                <translation>The abyss of baths.</translation>
         </marginalia>
         
         <underline method="pen" type="double" language="DE" text="sicher"/>
         <underline method="pen" type="straight" language="DE" text="offen"/>
         <underline method="pen" type="double" language="DE" text="Blaten"/>
-        <underline method="pen" type="double" language="DE" text="A[insert charcter]k podagr[]"/> <!--JG: Should be 'fl&uuml;&sharp-S; podagrae'-->
+        <underline method="pen" type="double" language="DE" text="fl&uuml;&sharp-S; podagrae"/> 
         <underline method="pen" type="double" language="DE" text="im anfang derselbigen"/>
-        <underline method="pen" type="double" language="DE" text="gedder sterctr"/> <!-- JG: Should be 'ge&auml;der sterckt' -->
-        <underline method="pen" type="single" language="DE" text="die gleitch"/> <!--JG: Value 'single' doesn't exist. Do not enter random value, but pick one form the predefined list-->
-        <underline method="pen" type="double" language="DE" text="von fl[u]ssen oder liquoribus tumpt verserts"/> <!--JG: tumpt should be 'kumpt'-->
-        
-        <!--JG: 'hinweg' is underscored as well, as is 'das weiter ohn alle' -->
+        <underline method="pen" type="double" language="DE" text="ge&auml;der streckt"/> 
+        <underline method="pen" type="straight" language="DE" text="die gleitch"/> 
+        <underline method="pen" type="double" language="DE" text="von fl&uuml;ssen oder liquoribus kumpt verzerts"/> 
+        <underline method="pen" type="straight" language="DE" text="hinweg"/>
+        <underline method="pen" type="straight" language="DE" text="das weiter ohn alle"/>   
         <underline method="pen" type="double" language="DE" text="dans vil selgamer "/>
-        <underline method="pen" type="straight" language="DE" text="unnd argeren / werden die Beder so gar mikbzauchr"/> <!--JG: unnd should be 'vnnd', make sure to transcribe a 'v' and do not silently change it to a 'u'. Also, do not transcribe the '/' in the printed text. Also, be careful with your transcription, it should be 'vnnd artzeten werden die Beder so gar mi&sharp-S;braucht'-->
-  
-        <drawing name="manicule" method="pen" place="left_margin"anchor_text="hinweg" />
-        <drawing name="manicule" method="pen" place="right_margin" anchor_text="an im selbs nicht"/>
+        <underline method="pen" type="straight" language="DE" text="vnnd artzeten werden die Beder so gar mi&sharp-S;braucht"/> 
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="hinweg"></drawing>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="an im selbs nicht"></drawing>
         
     </annotation>
-</transcription
+</transcription>
