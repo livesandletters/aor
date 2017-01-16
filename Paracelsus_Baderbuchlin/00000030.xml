@@ -10,7 +10,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>A Centro ora consendunt ... circumf...</marginalia_text>
+                    <marginalia_text>A Centro ora consendunt ... circumf...</marginalia_text> <!--JG: Should be 'A Centro o[mn]ia contendu[n]t [ad] Circufere[n]tia[m]' I think-->
                 </position>
             </language>
             <translation></translation> <!-- FSF: to be added -->
@@ -19,7 +19,7 @@
         <marginalia hand="Italian" anchor_text="tincturen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Cataractae Thermarum no[mi]numq[ue] insere...</marginalia_text>
+                    <marginalia_text>Cataractae Thermarum no[mi]numq[ue] insere...</marginalia_text> <!--JG: Cataracta[e] Thermaru[m] no[n] numq[uam] interclusa[e]'-->
                 </position>
             </language>
             <translation></translation> <!-- FSF: to be added -->
@@ -40,7 +40,7 @@
         <mark name="tripunctus" method="pen" place="left_margin"/> <!-- FSF: with tail -->
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
 
     </annotation>
 </transcription>
