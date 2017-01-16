@@ -4,13 +4,13 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="00000058.tif" reader="John Dee"  signature="[Fiiijv]"/> 
+    <page filename="00000058.tif" reader="John Dee"  signature="[Fiiijv]"/> <!--JG: Capture the signature as follows [Fiiij[v]], i.e. put the verso indication in separate brackets-->
     <annotation>
         
-        <marginalia hand="Italian" method="pen" anchor_text="misthauffen">
+        <marginalia hand="Italian" method="pen" anchor_text="misthauffen">  <!--JG: Internal reference, needs to be codified later-->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>super tractatu 3 cap. 6 n. 8.</marginalia_text>
+                    <marginalia_text>super tractatu 3 cap. 6 n. 8.</marginalia_text> <!--JG: should be 'supr[a]' I think, Harvey uses this often as well-->
                 </position>
             </language>
             <translation>See above in treaty 3, chapter 6, number 8.</translation>
@@ -37,7 +37,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="realger fixo">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Realgur fixu</marginalia_text> <!-- FSF: to be checked -->
+                    <marginalia_text>Realgur fixu</marginalia_text> <!-- FSF: to be checked --> <!--JG: Should be 'realgar fixu[m]'. See: https://en.wikipedia.org/wiki/Realgar & http://logeion.uchicago.edu/index.html#realgar-->
                 </position>
             </language>
             <translation></translation> <!-- FSF: to be added -->
@@ -46,7 +46,7 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Centru[m]</marginalia_text>
+                    <marginalia_text>Centru[m]</marginalia_text> <!--JG: Should be transcribed as 'Ce[n]tru[m]'-->
                 </position>
             </language>
             <translation>The centre.</translation>
@@ -56,7 +56,7 @@
         <underline method="pen" type="double" language="DE" text="misthauffen"/>
         <underline method="pen" type="double" language="DE" text="durch feule"/>
         <underline method="pen" type="double" language="DE" text="hitz empfacht"/>
-        <underline method="pen" type="double" language="DE" text="ein itrum"/>
+        <underline method="pen" type="double" language="DE" text="ein nitrum"/>
         <underline method="pen" type="double" language="DE" text="dem erdtschwebel"/>
         <underline method="pen" type="straight" language="DE" text="nitrische"/>
         <underline method="pen" type="triple" language="DE" text="au&sharp-S;"/>
@@ -68,9 +68,9 @@
         <underline method="pen" type="straight" language="DE" text="serpentinischer"/>
         <underline method="pen" type="straight" language="DE" text="realger fixo"/>
         
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin" language="DE" text="auff der ban ist dergleichen z&u_ring; f&uuml;rderen das b&ouml;&sharp-S; so z&u_ring; b&ouml;sem geschickt ist darin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="auff der ban ist dergleichen z&u_ring; f&uuml;rderen das b&ouml;&sharp-S; so z&u_ring; b&ouml;sem geschickt ist darin"/>
    
     </annotation>
 </transcription>
