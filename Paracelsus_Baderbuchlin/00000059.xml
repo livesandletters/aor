@@ -10,7 +10,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="weissen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Menstruum album</marginalia_text>
+                    <marginalia_text>Menstruum album</marginalia_text> <!--JG: Should be transcribed as: 'Menstruu[m] albu[m]'. Don't forget to use the brackets to show that letter is omitted in the orginal and indicated, in this case, by horizontal bar over the 'u'-->
                 </position>
             </language>
             <translation>White menstruation.</translation>
@@ -25,13 +25,13 @@
             <translation>Fevers.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="visco der erden">
+        <marginalia hand="Italian" method="pen" anchor_text="resolvierten visco der erden">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Viscus Terrae resolutus</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- FSF: to be added -->
+            <translation></translation> <!-- FSF: to be added --> <!--JG: What about 'the dispersed entrails of the earth'?-->
         </marginalia>
         
         <underline method="pen" type="straight" language="DE" text="weissen"/>
@@ -52,7 +52,7 @@
         <mark name="comma" method="pen" place="intext"/>
         <mark name="tripunctus" method="pen" place="left_margin"/> <!-- FSF: with tail -->
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="f&uuml;rderen den somen er sy wol oder vbel geseyt"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="f&uuml;rderen den somen er sy wol oder vbel geseyt"/>
         
     </annotation>
 </transcription>
