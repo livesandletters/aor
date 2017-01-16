@@ -10,7 +10,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="separation">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Calorie causa</marginalia_text> <!-- FSF: to be checked -->
+                    <marginalia_text>Calorie causa</marginalia_text> <!-- FSF: to be checked --> <!-- JG: I'd say 'Caloris causa' -->
                 </position>
             </language>
             <translation></translation> <!-- to be added -->
@@ -46,8 +46,10 @@
       
         <errata language="LA" copytext="scamontanea" amendedtext="scamonea"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="geh&ouml;r f&uuml;rdert ein yetlichen somen der da vndersthet ein kranckheyt z&u_ring;bringen oder ein gesundtheyt."></drawing>
-                
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="geh&ouml;r f&uuml;rdert ein yetlichen somen der da vndersthet ein kranckheyt z&u_ring;bringen oder ein gesundtheyt."/>
+        
+        <!-- JG: What about the three '/' through letters of the word scamentanea in the printed text? Should be captured by an errata tag I think-->
+
     </annotation>
 </transcription>
