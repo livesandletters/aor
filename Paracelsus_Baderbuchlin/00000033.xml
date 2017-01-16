@@ -14,7 +14,7 @@
                     <marginalia_symbol name="Venus"/>
                 </position>
             </language>
-            <translation>Venus</translation>
+            <translation>Venus.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="marte">
@@ -33,7 +33,7 @@
                     <marginalia_symbol name="Jupiter"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation></translation> <!--JG: Just write the name of the symbol-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Saturno">
@@ -43,13 +43,13 @@
                     <marginalia_symbol name="Saturn"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation></translation> <!--JG: Just write the name of the symbol-->
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="lang leben">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Vita longe ex &Saturn;</marginalia_text>
+                    <marginalia_text>Vita longa ex &Saturn;</marginalia_text>
                     <marginalia_symbol name="Saturn"/>
                 </position>
             </language>
@@ -62,7 +62,7 @@
                     <marginalia_text>Tribus primis</marginalia_text>
                 </position>
             </language>
-            <translation>The three primes.</translation>
+            <translation>The three primes.</translation> <!--JG: Because of the case, this probably should be translated differently, i.e. not as nominative?-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="schmaragdischen">
@@ -84,7 +84,7 @@
         </marginalia>
 
         <underline method="pen" type="straight" language="LA" text="floribus aeris"/>
-        <underline method="pen" type="straight" language="DE" text="Aestiomenischen vn[nd] cancrenischen"/>
+        <underline method="pen" type="straight" language="DE" text="Aestiomenischen vn[d] cancrenischen"/>
         <underline method="pen" type="double" language="DE" text="lang leben"/>
         <underline method="pen" type="straight" language="DE" text="Vber die alle sind"/>
         <underline method="pen" type="straight" language="DE" text="safft vnd feuchte"/>
@@ -93,11 +93,13 @@
         <underline method="pen" type="straight" language="DE" text="gedulden in jnen kein verbringen der unkeuschheit on t&ouml;dtlichen schaden:"/>
         <underline method="pen" type="straight" language="DE" text="safft"/>
         
-        <symbol name="Venus" place="left_margin"/>
+        <symbol name="Venus" place="left_margin"/> <!--JG: Link to printed text via text attribute-->
         <symbol name="Jupiter" place="left_margin"/>
-        <symbol name="Saturn" place="left_margin"/>
+        <symbol name="Saturn" place="left_margin"/> <!--JG: Link to printed text via text attribute-->
 
         <mark name="scribble" method="pen" place="intext"/>
+        
+        <!--JG: You can use errata tag to capture an instance where a word is deleted, as happens here. Put [deleted] into amended_text attribute-->
         
     </annotation>
 </transcription>
