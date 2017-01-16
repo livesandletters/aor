@@ -10,11 +10,11 @@
         <marginalia hand="Italian" date="31 May 1594">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>mofl... coll - Doctor Padler - 3
+                    <marginalia_text>most excelle[n]t Doctor Padler - 3
                     Discipulus - Mr Barker - 2
                     Discipulus - Mr Alpad - 1
-                    -1594. Maij Ultimo
-                    7. gradij 4,9 sanguinis,</marginalia_text> 
+                    -1594. Maij Vltimo
+                    7. gradij 4[us] est miles [4] sa[n]guinis [...]</marginalia_text>  <!--JG: Try to find these people; check for example Bill Sherman's book on Dee-->
                 </position>
             </language>
             <translation>
@@ -23,18 +23,18 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" date="31 May 1594" other_reader="Mr Ball">
+        <marginalia hand="Italian" date="31 May 1594" other_reader="Mr Ball"> <!--JG: Why is Mr Ball the other reader?-->
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>Goodman Alkmstri in Strannington in Norfolk
+                    <marginalia_text>{ Goodman Alkmstri in Strannington in Norfolk
                         Mr Ball. Maz 31 1594
-                        Anchor, Anachor, Arrilos
-                        hi kristrolh ... begean that half Raym..d
+                        Anchor, Anachor, Arrilos.
+                        he [kir...elf] the vycar that half Raymund
                         Lully his works in a skroll; and holp
                         Mr Ball to a sight of it.</marginalia_text>
                     <book title="Hieroglyphic Monad"/>
                     <book title="Propaedumata Aphoristica"/>
-                    <book title="Stoicheia"/>
+                    <book title="Stoicheia"/> <!-- JG: Tag people (e.g. Raymond Lull) and places as well -->
                 </position>
             </language>
         </marginalia>
