@@ -3,13 +3,13 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="00000069.tif" reader="John Dee" signature="[H[v]]"/> 
+    <page filename="00000068.tif" reader="John Dee" signature="[H[v]]"/> 
     <annotation>
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>unde aquava[m] unes</marginalia_text> <!-- uncertain about this transcription, translation field to be updated later -->
+                    <marginalia_text>unde aquava[m] unes</marginalia_text> <!-- JG: Should be 'Vnde aquaru[m] vires'-->
                 </position>
             </language>
             <translation></translation>
@@ -23,20 +23,20 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Note</translation>
+            <translation>Note</translation> <!--JG: Keep to modern spelling rules, so finish with full stop-->
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="vn zeytigen vitriols">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Vitrioliu[m]</marginalia_text>
+                    <marginalia_text>Vitrioliu[m]</marginalia_text> <!--JG: Should be 'Vitriolu[m]--> <!--JG: Include Mars symbol in text of marginal note (find the symbol among the special characters)-->
                     <marginalia_symbol name="Mars"/>
                 </position>
             </language>
-            <translation>sulphuric acid</translation>
+            <translation>sulphuric acid</translation> <!--JG: Keep to modern spelling rules, so 'Sulphuric acid.'-->
         </marginalia>
         
-        <marginalia hand="Italian" method="pen">
+        <marginalia hand="Italian" method="pen"> <!--JG: I think you've tagged this marginal note twice.-->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Vitrioliu[m]</marginalia_text>
@@ -49,7 +49,7 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Calle</marginalia_text>
+                    <marginalia_text>[Call...]</marginalia_text> <!--JG: No idea what's written here. Need to get back to it at some point-->
                 </position>
             </language>
             <translation></translation>
@@ -58,12 +58,11 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>baln[eum], potiy</marginalia_text> <!-- uncertain what the second word here refers to -->
+                    <marginalia_text>baln[eum], Potus</marginalia_text> <!--JG: Not entirely sure-->
                 </position>
             </language>
-            <translation>bath, </translation>
+            <translation>Bath, drink.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="DE" text="vnnd errrincken in denen wassern darumb die krafft sich dem wasser z&u_ring;gleichnet."/>
         <underline method="pen" type="straight" language="DE" text="reglich wachssen"/>
@@ -72,8 +71,8 @@
         <underline method="pen" type="straight" language="DE" text="marten"/>
         <underline method="pen" type="straight" language="DE" text="z&u_ring;stercken den magen"/>
         <underline method="pen" type="double" language="DE" text="von feule"/>  
-        <underline method="pen" type="straight" language="DE" text="h&ugrave;tten"/>
-        <underline method="pen" type="straight" language="DE" text="hyposarca"/>
+        <underline method="pen" type="straight" language="DE" text="h&uuml;tten"/>
+        <underline method="pen" type="straight" language="LA" text="in hyposarca"/>
         <underline method="pen" type="straight" language="DE" text="z&u_ring;stercken die feule darau&sharp-S; zetreyben"/>
         <underline method="pen" type="straight" language="DE" text="feule de&sharp-S; mo&sharp-S; "/>
         
@@ -83,7 +82,9 @@
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
+        
+        <!--JG: Link between marginal note and mark, to be captured at a later stage-->
         
         </annotation>
 </transcription>
