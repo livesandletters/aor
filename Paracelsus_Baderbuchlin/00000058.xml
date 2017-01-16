@@ -4,13 +4,13 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="00000058.tif" reader="John Dee"  signature="[Fiiijv]"/> <!--JG: Capture the signature as follows [Fiiij[v]], i.e. put the verso indication in separate brackets-->
+    <page filename="00000058.tif" reader="John Dee"  signature="[Fiiij[v]]"/>
     <annotation>
         
         <marginalia hand="Italian" method="pen" anchor_text="misthauffen">  <!--JG: Internal reference, needs to be codified later-->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>super tractatu 3 cap. 6 n. 8.</marginalia_text> <!--JG: should be 'supr[a]' I think, Harvey uses this often as well-->
+                    <marginalia_text>supr[a] tractatu 3 cap. 6 n. 8.</marginalia_text>
                 </position>
             </language>
             <translation>See above in treaty 3, chapter 6, number 8.</translation>
@@ -37,16 +37,16 @@
         <marginalia hand="Italian" method="pen" anchor_text="realger fixo">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Realgur fixu</marginalia_text> <!-- FSF: to be checked --> <!--JG: Should be 'realgar fixu[m]'. See: https://en.wikipedia.org/wiki/Realgar & http://logeion.uchicago.edu/index.html#realgar-->
+                    <marginalia_text>Realgar fixu[m]</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- FSF: to be added -->
+            <translation>Fixed realgar</translation> <!-- FSF: unsure -->
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Centru[m]</marginalia_text> <!--JG: Should be transcribed as 'Ce[n]tru[m]'-->
+                    <marginalia_text>Ce[n]tru[m]</marginalia_text>
                 </position>
             </language>
             <translation>The centre.</translation>
