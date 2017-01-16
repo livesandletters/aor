@@ -13,7 +13,7 @@
 <!ELEMENT annotation (marginalia*, underline*, symbol*, mark*, numeral*, errata*, drawing*, calculation*, graph*, table*)>	
 	<!ELEMENT marginalia (language*, translation?)>
 	<!ATTLIST marginalia hand (English_secretary|Italian|typescript) #REQUIRED>
-	<!ATTLIST marginalia method (pen|pencil|typewriter) #REQUIRED>
+	<!ATTLIST marginalia method (pen|pencil|typewriter) #IMPLIED>
 	<!ATTLIST marginalia id CDATA #IMPLIED>	
 	<!ATTLIST marginalia marginalia_continues_to CDATA #IMPLIED>
 	<!ATTLIST marginalia marginalia_continues_from CDATA #IMPLIED>
