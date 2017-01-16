@@ -5,7 +5,7 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="00000067.tif" reader="John Dee" signature="H"/>
     <annotation>
-        <marginalia hand="Italian" method="pen">
+        <marginalia hand="Italian" method="pen"> <!--JG: You can link this marginal note to the underscored text next to which it is put. Use the anchor attribute-->
             <language ident ="LA">
                 <position place ="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -14,34 +14,34 @@
                 </position>
             </language>
             <translation>
-                Note
+                Note.
             </translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="nach">
             <language ident="DE">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>
+                    <marginalia_text> 
                         noch
                     </marginalia_text>
                 </position>
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="zeytig">
+        <marginalia hand="Italian" method="pen" anchor_text="Die mineralia von denen es seyn seure empfacht sind nicht zeytig vnnd ligen [noch] nach inn der ersten">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Mineralia incoctas ad hinc in prima materia <!-- MB. Uncertain about the latter part of this transcription -->
+                        Mineralia incoctas ad hinc in prima materia <!-- MB. Uncertain about the latter part of this transcription --> <!--JG: I think it should be 'Mineralia incocta adhuc in prima materia'-->
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Raw minerals from here on the 'prima materia'</translation>
+            <translation>Raw minerals from here on the 'prima materia'</translation> <!--JG: 'Raw minerals still [are] in the prime matter.' -->
         </marginalia>
         
         <underline method="pen" type="straight" language="DE" text="kalch gewermbt ohn alle krafft vnd art desselbigen kalchs"/>
         <underline method="pen" type="straight" language="DE" text="warmen wassern"/>
-        <underline method="pen" type="straight" language="DE" text="Thalck vnnd"/>
+        <underline method="pen" type="straight" language="DE" text="art Chalck vnnd"/>
         <underline method="pen" type="double" language="DE" text="sauren Brunnen"/>
         <underline method="pen" type="straight" language="LA" text="vitrioli"/>
         <underline method="pen" type="straight" language="LA" text="cupri"/>
