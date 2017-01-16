@@ -3,13 +3,12 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="00000070.tif" reader="John Dee" pagination="_____"/> <!--JG: Previous page has signature, so use that one, and add 'v' (verso). It should become '[Hij[v]]'. If there's not page number, get rid of this attribute. See Manual for info-->
+    <page filename="00000070.tif" reader="John Dee" signature="[Hij[v]]"/> 
     <annotation>
         <marginalia hand="Italian" method="pen" anchor_text="der simplicibus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Singulorum prachc torn balncorum virtute in q bus berbis vol lya simplicibus q[uibus] d[e] a[gitur]
-                    modo antur</marginalia_text> <!--JG: Should be 'Singulorum pra[e]dictorum balneorum virtutes in q[ui]bus herbis vel alijs simplicibus q[uo]da[m] modo inveniantur'-->
+                    <marginalia_text>Singuloru[m] pra[e]dictorum balneorum virtutes in q[ui]bus herbis vel alijs simplicibus q[uo]da[m] modo inveniantur</marginalia_text>
                 </position>
             </language>
             <translation>The virtues of the aforesaid singular baths in which herbs or other simple things may be discovered in a certain way.</translation>
@@ -19,7 +18,7 @@
           <language ident="LA">
               <position place="left_margin" book_orientation="0">
                   <marginalia_text>
-                      Laxa cbmobia <!--JG: Should be 'Lexa' [not sure about the second word either]-->
+                      Lexa <!--MB: Uncertainity about the second word - ch??obia]-->
                   </marginalia_text>
               </position>
           </language>
@@ -29,20 +28,20 @@
           <language ident="LA">
             <position place="tail" book_orientation="0">
                 <marginalia_text>
-                   Nota de birbus et semper therma optatos officibus producontibus <!--JG: Nota de herbis et Thermis, no[n] semper optatos effectus producentibus-->
+                    Nota de herbis et Thermis, no[n] semper optatos effectus producentibus
                 </marginalia_text>
             </position>        
           </language>
           <translation>Note about the herbs and the baths, not always revealing the desired effects.</translation> 
       </marginalia>
         
-        <underline method="pen" type="straight" language="DE" text="merden nachuolgend welchen treureren oder thermis [as in bath] simplicibus sy sich vergleichen"/> <!--JG: merden should be mercken, watch out for the 'ck' which can be a bit tricky-->
+        <underline method="pen" type="straight" language="DE" text="mercken nachuolgend welchen treureren oder thermis [as in bath] simplicibus sy sich vergleichen"/>
         <underline method="pen" type="straight" language="DE" text="lua artetica"/>
         <underline method="pen" type="straight" language="DE" text="artemisia"/>
-        <underline method="pen" type="straight" language="DE" text="Iaffa münchs"/> <!--JG: should be m&uuml;nchs, make sure to use the special characters as defined in the DTD. You can access them easily by typing a '&'-->
-        <underline method="pen" type="straight" language="DE" text="Camomillæ"/> <!--JG: In underscored text, we do not make use of 'ae' ligature. Just type 'ae'-->
-        <underline method="pen" type="double" language="DE" text="abgel&ouml;schten talch"/> <!--JG: Should be 'kalch', watch out for 'k'-->
-        <underline method="pen" type="double" language="DE" text="bolo resoluto"/> <!--JG: Language should be 'LA', no?-->
+        <underline method="pen" type="straight" language="DE" text="Iaffa m&uuml;nchs"/>
+        <underline method="pen" type="straight" language="DE" text="Camomillae"/> 
+        <underline method="pen" type="double" language="DE" text="abgel&ouml;schten kalch"/>
+        <underline method="pen" type="double" language="LA" text="bolo resoluto"/> 
         <underline method="pen" type="double" language="DE" text="specificiert"/>
         <underline method="pen" type="double" language="DE" text="hilff"/>
         <underline method="pen" type="straight" language="DE" text="abschlahen"/>
