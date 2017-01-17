@@ -5,7 +5,7 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="00000067.tif" reader="John Dee" signature="H"/>
     <annotation>
-        <marginalia hand="Italian" method="pen"> <!--JG: You can link this marginal note to the underscored text next to which it is put. Use the anchor attribute-->
+        <marginalia hand="Italian" method="pen" anchor_text="kalch gewermbt ohn alle krafft vnd art desselbigen kalchs">
             <language ident ="LA">
                 <position place ="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -32,11 +32,11 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Mineralia incoctas ad hinc in prima materia <!-- MB. Uncertain about the latter part of this transcription --> <!--JG: I think it should be 'Mineralia incocta adhuc in prima materia'-->
+                        Mineralia incocta adhunc in prima materia
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Raw minerals from here on the 'prima materia'</translation> <!--JG: 'Raw minerals still [are] in the prime matter.' -->
+            <translation>Raw minerals still [are] in the prime matter'</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="DE" text="kalch gewermbt ohn alle krafft vnd art desselbigen kalchs"/>
