@@ -9,13 +9,21 @@
         <language ident="LA">
             <position place="head" book_orientation="0">
                 <marginalia_text>
+<<<<<<< HEAD
                     Vitriolu[m], ?s tillicidiu[m] cupri consider Ripleys words in Medulla Alchymiae <!--JG: 'stillicidiu[m]'. You should open and close language tags to reflect that marginal note is written in several languages. Ask me and I'll show you how to do this-->
+=======
+                    Vitriolu[m], stillicidiu[m] cupri consider Ripleys words in Medulla Alchymiae
+>>>>>>> 33d3bc7f452319c520cc14c3dccd1d2d60be327a
                 </marginalia_text>
                 <person name="Ripley"/>
                 <book title="Medulla Alchymiae"/>
             </position>
         </language>
+<<<<<<< HEAD
         <translation>Sulphur, ?, copper</translation> <!--JG: Amend translation of Latin words + include English text in translation as well (just copy paste)-->
+=======
+        <translation>Sulphur, rain water collected from the eaves of a house, copper</translation>
+>>>>>>> 33d3bc7f452319c520cc14c3dccd1d2d60be327a
     </marginalia>
         
     <marginalia hand="Italian" method="pen">
@@ -61,12 +69,13 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text> <!-- JG: 'Margazitaru[m] Antimonij, Salnitru[m], matrices rubroru[n] granator[um] -->
                         Calx - Margazitavu[m] Antimonnium, sal mitriu[m] matrices rubrore granate auru[m] margazitavum 
-                        Granate Auru[m] immaturu[m] auripigment {?] Vitriolu[m]
+                        Granate Auru[m] immaturu[m] auripigment, Vitriolu[m]
                     </marginalia_text>
                 </position>
             </language>
             <translation>Limestone, pyrite, antimony, source of red granate, gold, pyrite, raw gold, arsenic, auripigment, [?], vitriolu[m]   </translation>
             <!-- M.B  Margazitavum or margazichen is a Paracelsian term referring to pyrite and pyrite like minerals such as chalcopyrite-->
+            <!-- M.B The word at very bottom of the tail of the page is particularly difficult to decipher, it is possibly 'auripigment'but hard to verify with any degree of certainity -->
         </marginalia>
         
         <underline method="pen" type="straight" language="DE" text="und milteren etlich schwer kranckheyten aber kein gewale z&ucirc; heilen"/>
