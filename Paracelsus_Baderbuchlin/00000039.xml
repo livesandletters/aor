@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="00000039.tif" reader="John Dee"  signature="[Diij]"/> 
+    <page filename="00000039.tif" reader="John Dee"  signature="[Diij]"/> <!--JG: Don't use brackets here, signature is printed, not inferred-->
     <annotation>
         
         <marginalia hand="Italian" anchor_text="eysen z&u_ring; kupffer"> 
@@ -16,7 +16,7 @@
             <translation>Iron to cupper.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="s&uuml;sse wasser">
+        <marginalia hand="Italian" anchor_text="s&uuml;sse wasser"> <!--JG: Is the anchor text correct? Shouldn't it be 'holtz z&u_ring; steinen machen'-->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Lignum in lapidem</marginalia_text>
@@ -34,10 +34,10 @@
             <translation>From salt gem.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="saltzbirgen">
+        <marginalia hand="Italian" anchor_text="saltzbirgen"> 
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>In england, at Knaesborough, bz Wetherbz in yorkshyre, is a well by the river syde which in the space of a wynter turneth any wood to stone.</marginalia_text>
+                    <marginalia_text>In england, at Knaesborough, bz Wetherbz in [the - deleted] yorkshyre, is a well by the river syde which in the space of a wynter turneth any wood to stone.</marginalia_text> <!--JG: Tag the geographical locations!-->
                 </position>
             </language>
         </marginalia>
@@ -48,6 +48,8 @@
         <underline method="pen" type="straight" language="LA" text="sal gemmae"/>
         <underline method="pen" type="double" language="DE" text="holtz z&u_ring; steinen machen"/>
         <underline method="pen" type="straight" language="DE" text="herten das eysen"/>
+        
+        <!--JG: I think the stuff below is from the previous transcription. It's perfectly fine to copy and paste to speed up the process, but do check your transcriptions before uploading them-->
         <underline method="pen" type="straight" language="DE" text="saltzbrunnen vnnd saltzbirgen"/>
         <underline method="pen" type="double" language="DE" text="sauren wassern"/>
         <underline method="pen" type="straight" language="DE" text="liquoribus s&auml;ften Vitrioli"/>
