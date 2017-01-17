@@ -1,2 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="00000005.tif" reader="John Dee"/>
+    <annotation>
+        <marginalia hand="English_secretary" date="1549" method="pen">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>Joannes Deeus 1549 Decebre</marginalia_text>
+                    <person name="John Dee"/>
+                </position>
+            </language>
+            <translation>John Dee 1549 December</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" method="pen">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Lovanii 108</marginalia_text>
+                    <location name="Levan"/>
+                </position>
+            </language>
+            <translation>Levan October 8</translation>
+ 
+        </marginalia>
+        
+        <!-- DO: unknown symbols -->
+    </annotation>
+</transcription>
