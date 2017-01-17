@@ -10,14 +10,14 @@
         <marginalia hand="English_secretary" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Strabo qua aetate Mundi fuit</marginalia_text>
+                    <marginalia_text>Strabo qua aetate Mundi fuit</marginalia_text> <!--JG: Should be transcribed as 'a[e]tate'-->
                     <person name="Strabo"/>
                 </position>
             </language>
-            <translation>Strabo was what age of the world</translation> <!-- DO: unsure of translation -->
+            <translation>In which age of the world Strabo lived.</translation> <!--JG: Not entirely sure-->
         </marginalia>
         
-        <marginalia hand="English_secretary" method="pen">
+        <marginalia hand="English_secretary" method="pen"> <!--JG: You can include this with the previous marginal note. Also, it should be 'pag', not 'pay'-->
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>pay 148 198 261 278 279</marginalia_text>
@@ -33,18 +33,19 @@
                     <location name="Asia"/>
                 </position>
             </language>
-            <translation>Strabo, Asiatic</translation>
+            <translation>Strabo, an Asiatic man.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="temporare, cum tranquillitatem orbi fecisset Augustus"/>
+        <underline method="pen" type="straight" language="LA" text="tempore, cum tranquillitatem orbi fecisset Augustus"/>
         <underline method="pen" type="straight" language="LA" text="retineret Tiberius"/>
         <underline method="pen" type="straight" language="LA" text="ille Alpinas"/>
-        <underline method="pen" type="straight" language="LA" text="Plinius ac Tacitus"/>
+        <underline method="pen" type="straight" language="LA" text="Plinius ac Tacitus, oculati"/>
         <underline method="pen" type="straight" language="LA" text="Rheni catarractae"/>
         <underline method="pen" type="straight" language="LA" text="De Strabone"/>
         <underline method="pen" type="straight" language="LA" text="viro Asiatico"/>
         <underline method="pen" type="straight" language="LA" text="toties adisse"/>
         <underline method="pen" type="straight" language="LA" text="Strabo hic noster"/>
         <underline method="pen" type="straight" language="LA" text="principum genealogias"/>
+        
              </annotation>
 </transcription>
