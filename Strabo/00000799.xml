@@ -3,16 +3,16 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="00000799.tif" reader="John Dee" signature="[Xx2[v]" />
+    <page filename="00000799.tif" reader="John Dee" signature="[xX2[v]" />
     <annotation>
         
         <marginalia hand="Italian" method="pen" anchor_text="Paro ceanitas">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Paroceanitas</marginalia_text>
+                    <marginalia_text>Paroceanitas</marginalia_text> <!-- JG: Should be 'Paroceanita[e]' --> <!--JG: I think it refers to the name of some sort of tribe, see: https://books.google.co.uk/books?id=V1dGAAAAYAAJ&pg=PA315&lpg=PA315&dq=Paroceanitas&source=bl&ots=dQSLk8wQO1&sig=lvxI4gwt7qLrXd1ElSFP4OFlaxA&hl=en&sa=X&ved=0ahUKEwjZ5O3SwMnRAhVFWxoKHVVXAT8Q6AEIGjAA#v=onepage&q=Paroceanitas&f=false-->
                     <person name="Paroceanitas"/>
                 </position>
-            </language>
+            </language> <!--JG: Translate as well-->
         </marginalia>        
         
         <marginalia hand="Italian" method="pen" anchor_text="Caesar Augustus">
@@ -21,17 +21,17 @@
                     <marginalia_text>Augustus</marginalia_text>
                     <person name="Augustus"/>
                 </position>
-            </language>
+            </language> <!--JG: Translate as well (in case of the name, just give the standard identifier we use or the English variant of a Latin name)-->
         </marginalia> 
         
-            <underline method="pen" type="straight" language="LA" text="belli &amp; pacisartibus/>
+            <underline method="pen" type="straight" language="LA" text="belli &amp; pacis artibus"/>
             <underline method="pen" type="straight" language="LA" text="Paro ceanitas"/>    
             <underline method="pen" type="straight" language="LA" text="ac semper eis aliquid additur"/>
-            <underline method="pen" type="straight" language="LA" text="etiam nonnullae ciuitates liberae conditionis, aliae ab initio per amicitiam Romanis adiun ctae, aliae ab ipsis honoris gratia libertate"/>
-            <underline method="pen" type="straight" language="LA" text="secundum quasd&atiled; patriae leges uiuunt"/> 
+            <underline method="pen" type="straight" language="LA" text="etiam nonnullae ciuitates liberae conditionis, aliae ab initio per amicitiam Romanis adiunctae, aliae ab ipsis honoris gratia libertate"/>
+            <underline method="pen" type="straight" language="LA" text="secundum quasd&atiled; patriae leges uiuunt"/> <!--JG: should be 'quasda[m]'-->
             <underline method="pen" type="straight" language="LA" text="Caesar Augustus"/>
             <underline method="pen" type="straight" language="LA" text="Pacis &amp; belli"/>
-            <underline method="pen" type="double" language="LA" text="uixerit potestat&euml;"/>
+            <underline method="pen" type="double" language="LA" text="uixerit potestat&euml;"/> <!--JG: Should be 'potestate[m]'-->
             <underline method="pen" type="straight" language="LA" text="aliae Caesaris"/>      
             
                 <!--Note Greek underscored portion in the right margin still needs to be transcribed  -->
