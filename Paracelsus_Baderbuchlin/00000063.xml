@@ -5,24 +5,30 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="00000063.tif" reader="John Dee" signature="Giij"/>
     <annotation>
+        
     <marginalia hand="Italian" method="pen">
         <language ident="LA">
             <position place="head" book_orientation="0">
                 <marginalia_text>
-                    Vitriolu[m], ?s tillicidiu[m] cupri consider Ripleys words in Medulla Alchymiae <!--JG: 'stillicidiu[m]'. You should open and close language tags to reflect that marginal note is written in several languages. Ask me and I'll show you how to do this-->
+                    Vitriolu[m], stillicidiu[m] cupri 
                 </marginalia_text>
                 <person name="Ripley"/>
                 <book title="Medulla Alchymiae"/>
             </position>
         </language>
-        <translation>Sulphur, rain water collected from the eaves of a house, copper</translation> <!--JG: Amend translation of Latin words + include English text in translation as well (just copy paste)-->
+        <language ident="EN">
+            <position place="head" book_orientation="0">
+                <marginalia_text>consider Ripleys words in Medulla Alchymiae</marginalia_text>
+            </position>
+        </language>
+        <translation>Sulphur, rain water collected from the eaves of a house, copper. Consider Ripley's words in Medulla Alchymiae.</translation>
     </marginalia>
         
     <marginalia hand="Italian" method="pen">
         <language ident="LA">
             <position place="right_margin" book_orientation="0">
                 <marginalia_text>
-                    Correctionis ubi ad hi?? <!--JG: Correctio[n]es vbi adhibenda[e]-->
+                    Correctio[n]es vbi adhibenda[e]
                 </marginalia_text>
             </position>
         </language>
@@ -35,16 +41,16 @@
                     <marginalia_text>Centru[m]</marginalia_text> 
                 </position>
             </language>
-            <translation></translation> <!-- JG: You forgot the translation -->
+            <translation>Centre.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="matrices der wilden roten Granat&ecirc;">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Matricis granatoru[m]</marginalia_text> <!--JG: Should be 'Matrices'-->
+                    <marginalia_text>Matrices granatoru[m]</marginalia_text>
                 </position>
             </language>
-            <translation>the source of garnet</translation> <!--JG: Use modern spelling and interpunction! Also, translation should be: The sources of garnets' (nominative and genitive are both in plural here)-->
+            <translation>The sources of garnets.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="unzeytigen golds">
@@ -53,7 +59,7 @@
                     <marginalia_text>Auru[m] immaturu[m]</marginalia_text>
                 </position>
             </language>
-            <translation>Raw gold</translation>
+            <translation>Raw gold.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="">
@@ -65,34 +71,35 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Limestone, pyrite, antimony, source of red granate, gold, pyrite, raw gold, arsenic, auripigment, [?], vitriolu[m]   </translation>
+            <translation>Limestone, pyrite, antimony, source of red granate, gold, pyrite, raw gold, arsenic, auripigment, [?], vitriolu[m]</translation>
             <!-- M.B  Margazitavum or margazichen is a Paracelsian term referring to pyrite and pyrite like minerals such as chalcopyrite-->
             <!-- M.B The word at very bottom of the tail of the page is particularly difficult to decipher, it is possibly 'auripigment'but hard to verify with any degree of certainity -->
         </marginalia>
         
-        <underline method="pen" type="straight" language="DE" text="und milteren etlich schwer kranckheyten aber kein gewale z&ucirc; heilen"/> <!--JG: Should be 'vnd'-->
-        <underline method="pen" type="straight" language="DE" text="dan wo dz haubtstuct niche traffr vnud"/> <!--JG: krafft-->
+        <underline method="pen" type="straight" language="DE" text="vnd milteren etlich schwer kranckheyten aber kein gewale z&ucirc; heilen"/>
+        <underline method="pen" type="straight" language="DE" text="dan wo dz haubtstuct niche krafft vnud"/>
         <underline method="pen" type="straight" language="DE" text="gewalthet damag man durch die correctiones nicht trafft"/>
         <underline method="pen" type="straight" language="DE" text="het damag man durch die correctiones nichts inbringen"/>
         <underline method="pen" type="double" language="DE" text="kalch"/>
-        <underline method="pen" type="straight" language="LA" text="Antimonn"/> <!--JG: Antimonij-->
+        <underline method="pen" type="straight" language="LA" text="Antimonij"/>
         <underline method="pen" type="straight" language="LA" text="salni"/>
         <underline method="pen" type="straight" language="DE" text="dem sechsten theil der"/>
         <underline method="pen" type="double" language="DE" text="matrices der wilden roten Granat&ecirc;"/>
-        <underline method="pen" type="straight" language="DE" text="&agrave;rtz de&sharp-S; silbers"/> [??] <!--JG: Use comment field, otherwise Oxygen will give an error! Should be '&auml;rtz'-->
+        <underline method="pen" type="straight" language="DE" text="&auml;rtz de&sharp-S; silbers"/>
         <underline method="pen" type="double" language="DE" text="vnzeytigen golds"/>
-        <underline method="pen" type="straight" language="DE" text="grad der hitz am lersten wie am ersten"/> {??] <!--JG: Use comment field, otherwise Oxygen will give an error! Should be 'letsten'-->
+        <underline method="pen" type="straight" language="DE" text="grad der hitz am letsten wie am ersten"/>
         <underline method="pen" type="straight" language="DE" text="dem kupfferischen vitriol"/>
         <underline method="pen" type="straight" language="LA" text="arsenic"/>
-        <underline method="pen" type="straight" language="De" text="auripigment"/> <!--JG: Watch out, your attributes create errors. Should be 'DE'-->
-        <underline method="pen" type="double" language="DE" text="fiv vnd vnfiv"/> <!--JG: fix vnd vnfix-->
-        <underline method="pen" type="double" language="DE" text="sozglicherem grad"/> <!--JG: sorglicherem-->
-        <underline method="pen" type="double" language="DE" text="die geschw&agrave;r/"/>[??] <!--JG: Use comment field, otherwise Oxygen will give an error! Should be 'geschw&auml;r'-->
-        
+        <underline method="pen" type="straight" language="DE" text="auripigment"/>
+        <underline method="pen" type="double" language="DE" text="fiv vnd vnfix"/>
+        <underline method="pen" type="double" language="DE" text="sorglicherem grad"/>
+        <underline method="pen" type="double" language="DE" text="die geschw&auml;r/"/>
+       
+        <mark name="tripunctus" method="pen" place="head"/>
+        <mark name="tripunctus" method="pen" place="left_margin"/>
+       
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
-        
-        <!--JG: There's a mark (tripunctus) in the left margin and head as well-->
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/> 
         
     </annotation>
 </transcription>
