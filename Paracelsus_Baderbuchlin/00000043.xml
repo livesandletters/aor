@@ -7,7 +7,7 @@
     <page filename="00000043.tif" reader="John Dee"  signature="E"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="pulmoso"> <!--JG: I'd use the errata tag in this case, since Dee is correction a misspelled word-->
+        <marginalia hand="Italian" anchor_text="pulmoso"> <!--JG: I'd use the errata tag in this case, since Dee is correction a misspelled word. Since you've done so already, you can delete this marginal note-->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>plumoso</marginalia_text>
@@ -37,6 +37,8 @@
         <errata language="LA" copytext="pulmoso" amendedtext="plumoso"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="beschehe on das"/>
+        
+        <!--JG: There's a numeral as well in the left margin!!-->
    
     </annotation>
 </transcription>
