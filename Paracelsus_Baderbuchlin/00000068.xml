@@ -9,7 +9,7 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>unde aquava[m] unes</marginalia_text> <!-- JG: Should be 'Vnde aquaru[m] vires'-->
+                    <marginalia_text>Vnde aquaru[m] vires</marginalia_text>
                 </position>
             </language>
             <translation></translation>
@@ -23,27 +23,16 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Note</translation> <!--JG: Keep to modern spelling rules, so finish with full stop-->
+            <translation>Note.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="vn zeytigen vitriols">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Vitrioliu[m]</marginalia_text> <!--JG: Should be 'Vitriolu[m]--> <!--JG: Include Mars symbol in text of marginal note (find the symbol among the special characters)-->
-                    <marginalia_symbol name="Mars"/>
+                    <marginalia_text>Vitriolu[m] &Mars;</marginalia_text> 
                 </position>
             </language>
-            <translation>sulphuric acid</translation> <!--JG: Keep to modern spelling rules, so 'Sulphuric acid.'-->
-        </marginalia>
-        
-        <marginalia hand="Italian" method="pen"> <!--JG: I think you've tagged this marginal note twice.-->
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Vitrioliu[m]</marginalia_text>
-                    <marginalia_symbol name="Mars"/>
-                </position>
-            </language>
-            <translation>sulphuric acid</translation>
+            <translation>Sulphuric acid.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
