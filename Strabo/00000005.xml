@@ -9,24 +9,25 @@
         <marginalia hand="English_secretary" date="1549" method="pen">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Joannes Deeus 1549 Decebre</marginalia_text>
+                    <marginalia_text>Joannes De&euml;us 1549 Decebre</marginalia_text> <!-- JG: Should be 'Dece[m]bre' -->
                     <person name="John Dee"/>
                 </position>
             </language>
-            <translation>John Dee 1549 December</translation>
+            <translation>John Dee, December 1549.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" method="pen">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Lovanii 108</marginalia_text>
-                    <location name="Levan"/>
+                    <location name="Levan"/> <!--JG: Use the English name to tag this place (Louvain). Change in the location spreadsheet if necessary-->
                 </position>
             </language>
-            <translation>Levan October 8</translation>
+            <translation>Louvain 10 [shilling].</translation> <!--JG: Uncertain-->
  
         </marginalia>
         
         <!-- DO: unknown symbols -->
+        
     </annotation>
 </transcription>
