@@ -7,10 +7,10 @@
     <page filename="00000042.tif" reader="John Dee"  signature="[Diiij[v]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="au&sharp-S; den fr&uuml;chten"> 
+        <marginalia hand="Italian" anchor_text="au&sharp-S; den fr&uuml;chten"> <!--JG: Anchor text doesn't make sense. Watch out with copy-paste!-->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Non semper est eidem fidendum medicinae</marginalia_text>
+                    <marginalia_text>Non semper est eidem fidendum medicinae</marginalia_text> <!--JG: Use brackets to signify ligature! 'No[n]'-->
                 </position>
             </language>
             <translation>Not at all times is a certain medicine to be trusted.</translation>
@@ -25,7 +25,7 @@
             <translation>Time.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Mercurio Solis"> 
+        <marginalia hand="Italian" anchor_text="Mercurio Solis"> <!--JG: 'mercurius corporis', no?-->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>&Mercury; corporis</marginalia_text>
@@ -38,7 +38,7 @@
         <marginalia hand="Italian" anchor_text="frantzosen"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Morbus gallius</marginalia_text>
+                    <marginalia_text>Morbus gallius</marginalia_text> <!--JG: I think it should be 'gallicus'-->
                 </position>
             </language>
             <translation>The illness of the French.</translation>
@@ -50,7 +50,7 @@
                     <marginalia_text>Serpentina</marginalia_text>
                 </position>
             </language>
-            <translation>serpent</translation>
+            <translation>serpent</translation> <!--JG: Use modern spelling/interpunction-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="materia Berlata"> 
@@ -59,7 +59,7 @@
                     <marginalia_text>Materia perlata</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- FSF: to be added -->
+            <translation></translation> <!-- FSF: to be added --> <!--JG: From 'perlatus'? Is the printed text of any help?-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Theoric"> 
@@ -77,13 +77,13 @@
                     <marginalia_text>Ex fructibus seu effectibus rerum intelligere naturas</marginalia_text>
                 </position>
             </language>
-            <translation>To understand the [baths'] nature from their fruits or effects.</translation>
+            <translation>To understand the [baths'] nature from their fruits or effects.</translation> <!--JG: Translate 'rerum' as well-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="wassern"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Aquae virtutes</marginalia_text>
+                    <marginalia_text>Aqua[e] virtutes</marginalia_text>
                 </position>
             </language>
             <translation>The properties of water.</translation>
@@ -91,8 +91,8 @@
         
         <marginalia hand="Italian"> 
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Minerales aquae  ... virtutes </marginalia_text>
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Minerales aquae  ... virtutes </marginalia_text> <!--JG: Minerales a[e]qua[n]t o[mn]es virtutes tu[m] Lapidu[m] herbaru[m]-->
                 </position>
             </language>
             <translation>The properties of water.</translation>
@@ -101,7 +101,7 @@
         <underline method="pen" type="straight" language="DE" text="die zeit der heilung"/>
         <underline method="pen" type="straight" language="LA" text="mercurius corporis"/>
         <underline method="pen" type="straight" language="DE" text="heilt die frantzosen"/>
-        <underline method="pen" type="double" language="DE" text="zeyt vnnd art der kranckheyt"/>
+        <underline method="pen" type="double" language="DE" text="zeit vnnd art der kranckheyt"/>
         <underline method="pen" type="straight" language="DE" text="so verderbt er gleich souil als er g&u_ring;tt macht."/>
         <underline method="pen" type="straight" language="DE" text="nicht all"/>
         <underline method="pen" type="straight" language="DE" text="allen"/>
@@ -111,8 +111,8 @@
         <underline method="pen" type="straight" language="DE" text="erfarenheyt"/>
         <underline method="pen" type="straight" language="DE" text="wann in den wassern sind alle die virtutes tugenden so kreuter vnnd stein gebend"/>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="zeyt vnnd art der kranckheyt"></drawing>
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="Theoric au&sharp-S; welcher die concordantz vnd das compositum entspringt"></drawing>        
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="zeyt vnnd art der kranckheyt"/>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="Theoric au&sharp-S; welcher die concordantz vnd das compositum entspringt"/>        
         
     </annotation>
 </transcription>
