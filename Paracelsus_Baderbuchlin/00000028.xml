@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="00000028.tif" reader="John Dee" signature="[Cij]"/> <!--JG: Signature should be [Cij[v]]. Chech the Transcriber's Manual for correct syntax-->
+    <page filename="00000028.tif" reader="John Dee" signature="[Cij [v]]"/> 
     <annotation>
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
@@ -18,7 +18,7 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Nota mysteriu, si sis Philosophus</marginalia_text> <!--JG: Should be 'mysteriu[m]', note the horizontal bar above the 'u'-->
+                    <marginalia_text>Nota mysteriu[m], si sis Philosophus</marginalia_text> 
                 </position>
             </language>
             <translation>Note the mystery, if you are a philosopher.</translation>
@@ -41,16 +41,18 @@
             </language>
             <translation>The spirit of vitriol.</translation>
         </marginalia>
+ 
         
-        <marginalia hand="Italian" method="pen"> <!--JG: This one should be captured as a numeral, following the other two numbers added to the printed text-->
-            <language ident="EN">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>3</marginalia_text>
+        <marginalia hand="Italian" anchor_text="prima materia" method="pen">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Prima Materia</marginalia_text>
                 </position>
             </language>
+            <translation>Prime matter</translation>
         </marginalia>
         
-        <!--JG: You forgot to transcribe one marginal note, 'Prima Materia', which you can translate as 'Prime matter.'-->
+       
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
@@ -61,27 +63,31 @@
             <translation>It catches up on its companion without fire.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="DE" text="auss welchen compositzen ein werme entspzingt"/> <!-- JG: This should be transcribed with a scharfes s instead of ss-->
+        <underline method="pen" type="straight" language="DE" text="au&sharp-S; welchen compositzen ein werme entspzingt"/>
         <underline method="pen" type="straight" language="DE" text="der aquarum regum die da kalt sind so bald sy z&u_ring;samen gegossen werden ein gewaltigen sudt haben"/>
-        <underline method="pen" type="straight" language="DE" text="das der spiritus vitrioli der an im selbs kalt ist so er in ein kalt wasser gesch&uuml;tt wird das selbig siedend heyss macht."/> <!-- JG: 'heyss' should be transcribed with a scharfes s instead of ss-->
-        <underline method="pen" type="straight" language="DE" text="prima materia"/> <!--JG: Language should be 'LA'-->
-        <underline method="pen" type="straight" language="DE" text="auch in andren"/> <!--JG: Should be 'andren', watch out for confusing the 'z' and 'r'-->
-        <underline method="pen" type="straight" language="DE" text="andzen salibus"/> <!--JG: Should be 'andren', watch out for confusing the 'z' and 'r'-->
+        <underline method="pen" type="straight" language="DE" text="das der spiritus vitrioli der an im selbs kalt ist so er in ein kalt wasser gesch&uuml;tt wird das selbig siedend hey&sharp-S; macht."/>
+        <underline method="pen" type="straight" language="LA" text="prima materia"/>
+        <underline method="pen" type="straight" language="DE" text="auch in andren"/> 
+        <underline method="pen" type="straight" language="DE" text="andren salibus"/> 
         <underline method="pen" type="double" language="DE" text="wasser tingiert"/>
         <underline method="pen" type="straight" language="DE" text="hitz und in den krefften"/>
         <underline method="pen" type="straight" language="DE" text="vom lufft"/>
-        <underline method="pen" type="straight" language="DE" text="sren"/> <!-- DO: unclear whether this is underlined or not --> <!--JG: I think so. Should be 'jren'-->
+        <underline method="pen" type="straight" language="DE" text="jren"/>
         <underline method="pen" type="straight" language="DE" text="nitrischen salia"/>
         <underline method="pen" type="straight" language="LA" text="liquoribus metallorum"/>
         <underline method="pen" type="straight" language="DE" text="kalt wasser z&u_ring; wermen on holtz oder feur"/>
+        
+        <mark name="bracket" method="pen" place="right_margin"/>
         
         <numeral place="intext" language="LA" text="spiritus vitrioli">1.</numeral>
         <numeral place="intext" language="LA" text="kalt wasser">2.</numeral>
         
         <numeral place="intext" language="DE" text="nitrischen salia">1.</numeral>
         <numeral place="intext" language="LA" text="liquoribus metallorum">2.</numeral>
+        <numeral place="right_margin">3.</numeral>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        
         
         <!-- JG: Several links between several underlining. Needs to be transcribed later -->
         
