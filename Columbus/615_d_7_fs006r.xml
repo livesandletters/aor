@@ -15,7 +15,7 @@
             <translation>Library.</translation> 
         </marginalia>
     
-        <marginalia hand="Italian" method="pen" anchor_text="che n&ouml; sia scritta di man del sudetto"> <!--JG: Should be 'no[n]'. Remember, horizontal bar often denotes 'm' or 'n'-->
+        <marginalia hand="Italian" method="pen" anchor_text="che no[n] sia scritta di man del sudetto">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Nota</marginalia_text>
@@ -23,25 +23,23 @@
             </language>
             <translation>Note.</translation>
         </marginalia>
-        
-        <!--JG: Language of all underlining should be set to "IT"-->
     
-        <underline method="pen" type="straight" language="LA" text="scritta gi&agrave; dall'Illustr. D. Ernando Colombo,"/>
-        <underline method="pen" type="straight" language="LA" text="del sudetto D."/>
-        <underline method="pen" type="double" language="LA" text="molte piu lettere"/>
-        <underline method="pen" type="straight" language="LA" text="maggiore di Siuiglia"/> 
-        <underline method="pen" type="straight" language="LA" text="numerosissima, ma ricchiss. libraria"/>  
-        <underline method="pen" type="double" language="LA" text="scienza rarissimi"/>
-        <underline method="pen" type="straight" language="LA" text="l'historia non sia vera"/>  
-        <underline method="pen" type="straight" language="LA" text="dal figliuolo, per relatione &amp; lettere, &egrave; stata"/> 
-        <underline method="pen" type="straight" language="LA" text="molta prudenza scritta"/>
-        <underline method="pen" type="straight" language="LA" text="no[n] sia scritta"/>
-        <underline method="pen" type="straight" language="LA" text="di man del sudetto"/>  
-        <underline method="pen" type="straight" language="LA" text="ha hauuto n&ouml; sia il proprio originale"/> <!--JG: Should be 'no[n]'. Remember, horizontal bar often denotes 'm' or 'n'-->
-        <underline method="pen" type="straight" language="LA" text="D. Luigi Colombo"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; figliuolo dell'Illustr. D. Diego, primogenito di D. Christoforo"/>
+        <underline method="pen" type="straight" language="IT" text="scritta gi&agrave; dall'Illustr. D. Ernando Colombo,"/>
+        <underline method="pen" type="straight" language="IT" text="del sudetto D."/>
+        <underline method="pen" type="double" language="IT" text="molte piu lettere"/>
+        <underline method="pen" type="straight" language="IT" text="maggiore di Siuiglia"/> 
+        <underline method="pen" type="straight" language="IT" text="numerosissima, ma ricchiss. libraria"/>  
+        <underline method="pen" type="double" language="IT" text="scienza rarissimi"/>
+        <underline method="pen" type="straight" language="IT" text="l'historia non sia vera"/>  
+        <underline method="pen" type="straight" language="IT" text="dal figliuolo, per relatione &amp; lettere, &egrave; stata"/> 
+        <underline method="pen" type="straight" language="IT" text="molta prudenza scritta"/>
+        <underline method="pen" type="straight" language="IT" text="no[n] sia scritta"/>
+        <underline method="pen" type="straight" language="IT" text="di man del sudetto"/>  
+        <underline method="pen" type="straight" language="IT" text="ha hauuto no[n] sia il proprio originale"/>
+        <underline method="pen" type="straight" language="IT" text="D. Luigi Colombo"/>
+        <underline method="pen" type="straight" language="IT" text="&amp; figliuolo dell'Illustr. D. Diego, primogenito di D. Christoforo"/>
         
-        <mark name="equal_sign" method="pen" place="intext" text="scitta"/> <!--JG: In this case we don't capture 'scitta' in text attribute, but in comment field-->
+        <mark name="equal_sign" method="pen" place="intext" text="scitta"/> <!--scitta-->
         <mark name="comma" method="pen" place="intext"/><!--hauuto, no[n]-->
    
    
