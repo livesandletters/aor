@@ -16,18 +16,17 @@
             <translation>Vitriol.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="s&uuml;sse wasser">
+        <marginalia hand="Italian" anchor_text="saure wasser">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0"> <!--JG: Should be left margin-->
-                    <marginalia_text>Aqua[e] ocidae</marginalia_text> <!--JG: Should be acida[e], no? Remember to use the brackets to signify ligatures!-->
+                <position place="left_margin" book_orientation="0"> 
+                    <marginalia_text>Aqua[e] acida[e]</marginalia_text>
                 </position>
             </language>
-            <translation>Medical waters.</translation> <!--JG: Translation isn't correct-->
-        </marginalia>
+            <translation>Acid waters.</translation>
         
         <marginalia hand="Italian" anchor_text="saltzbrunnen">
             <language ident="LA"> 
-                <position place="right_margin" book_orientation="0"> <!--JG: Should be left margin-->
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>Salini pontes</marginalia_text>
                 </position>
             </language>
@@ -36,7 +35,7 @@
         
         <marginalia hand="Italian" anchor_text="saltzbirgen">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0"> <!--JG: Should be left margin-->
+                <position place="left_margin" book_orientation="0"> 
                     <marginalia_text>Salini montes</marginalia_text>
                 </position>
             </language>
@@ -45,7 +44,7 @@
         
         <marginalia hand="Italian" anchor_text="die tugend Vitrioli">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0"> <!--JG: Should be left margin-->
+                <position place="left_margin" book_orientation="0"> 
                     <marginalia_text>Vitrioli virtutes</marginalia_text>
                 </position>
             </language>
@@ -54,11 +53,10 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0"> <!--JG: Should be tail-->
-                    <marginalia_text>De er.g.ne</marginalia_text> <!--JG: Seems like 'erugine', do some research. See: https://books.google.co.uk/books?id=Bb32Th4WAK0C&pg=PA96&lpg=PA96&dq=erugine+latin&source=bl&ots=DX3WYIeCtj&sig=m5z0gsduWA_eEGq7Trfgl0QC9RU&hl=en&sa=X&ved=0ahUKEwjmx8y7-sjRAhWCCBoKHZw0DEkQ6AEIITAB#v=onepage&q=erugine%20latin&f=false-->
-                </position>
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>De erugine</marginalia_text>
             </language>
-            <translation>Medical waters</translation>
+            <translation>On loud disgorging/vomitting</translation> <!-- FSF: an appropriate term for vomitting to be added -->
         </marginalia>
         
         <underline method="pen" type="straight" language="DE" text="dem Vitriol"/>

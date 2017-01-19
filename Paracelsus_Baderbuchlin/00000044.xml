@@ -10,10 +10,10 @@
         <marginalia hand="Italian"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Nota bene Methodum brimis capituli</marginalia_text> <!--JG: It's 'huius', not 'brimis'-->
+                    <marginalia_text>Nota bene Methodum huius capituli</marginalia_text>
                 </position>
             </language>
-            <translation>Note well the method of the first chapter.</translation>
+            <translation>Note well the method of this chapter.</translation>
         </marginalia>
         
         <marginalia hand="Italian"> 
@@ -31,18 +31,19 @@
                     <marginalia_text>Sulphur Antimonij Lepram curat</marginalia_text> 
                 </position>
             </language>
-            <translation>Sulfur of ... cures leprosy.</translation> <!-- FSF: to be completed --> <!--JG: Do more research on Antimonius, must be information to find-->
+            <translation>Sulfur of antimony cures leprosy.</translation>
         </marginalia>
         
-        <marginalia hand="Italian"> 
+        <marginalia hand="Italian" anchor_text="hydroposim wassersucht au&sharp-S; dem sal gemmae vnd alumine rocho"> 
             <language ident="LA">
-                <position place="head" book_orientation="0"> <!--JG: Position isn't correct-->
-                    <marginalia_text>hydroposim curat sal gemma alumin rochum</marginalia_text> <!--JG: gemma[e]; Alumen; rochu[m]. -->
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>hydroposim curat sal gemma[e] Alumen rochu[m]</marginalia_text>
                 </position>
             </language>
-            <translation> Gem salt and .. alum cures dropsz.</translation>
+            <translation> Gem salt and alum (rochum) cures dropsy.</translation> <!-- FSF: to be completed -->
         </marginalia>
-        
+
+
         <underline method="pen" type="straight" language="LA" text="mercurio"/>
         <underline method="pen" type="straight" language="LA" text="sulphure"/>
         <underline method="pen" type="straight" language="LA" text="sale"/>
@@ -58,15 +59,15 @@
         <underline method="pen" type="straight" language="DE" text="was hydroposim"/>
         <underline method="pen" type="double" language="DE" text="gemmae vnd"/>
         
-        <symbol name="Mercury" place="right_margin"/> <!--JG: Link to printed text via text attribute-->
-        <symbol name="Salt" place="right_margin"/> <!--JG: Link to printed text via text attribute-->
-        <symbol name="Sulfur" place="right_margin"/> <!--JG: Link to printed text via text attribute-->
+        <symbol name="Mercury" place="right_margin" text="mercurium"/>
+        <symbol name="Salt" place="right_margin" text="salem"/>
+        <symbol name="Sulfur" place="right_margin" text="sulphur"/>
+        
+        <mark name="tripunctus" method="pen" place="left_margin"/>
         
         <numeral place="left_margin">1</numeral>
         <numeral place="left_margin">2</numeral>
         <numeral place="left_margin">3</numeral>
-        
-        <mark name="tripunctus" method="pen" place="left_margin"/> <!--JG: See the validator, mark can't come after numeral. Adhere to the hierarchy of the XML schema-->
         
         <errata language="LA" copytext="pulmoso" amendedtext="plumoso"/>
 

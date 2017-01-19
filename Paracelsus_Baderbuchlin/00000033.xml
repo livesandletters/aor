@@ -33,7 +33,7 @@
                     <marginalia_symbol name="Jupiter"/>
                 </position>
             </language>
-            <translation></translation> <!--JG: Just write the name of the symbol-->
+            <translation>Jupiter.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Saturno">
@@ -43,7 +43,7 @@
                     <marginalia_symbol name="Saturn"/>
                 </position>
             </language>
-            <translation></translation> <!--JG: Just write the name of the symbol-->
+            <translation>Saturn.</translation>
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="lang leben">
@@ -62,7 +62,7 @@
                     <marginalia_text>Tribus primis</marginalia_text>
                 </position>
             </language>
-            <translation>The three primes.</translation> <!--JG: Because of the case, this probably should be translated differently, i.e. not as nominative?-->
+            <translation>On the three primes.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="schmaragdischen">
@@ -93,15 +93,16 @@
         <underline method="pen" type="straight" language="DE" text="gedulden in jnen kein verbringen der unkeuschheit on t&ouml;dtlichen schaden:"/>
         <underline method="pen" type="straight" language="DE" text="safft"/>
         
-        <symbol name="Venus" place="left_margin"/> <!--JG: Link to printed text via text attribute-->
-        <symbol name="Jupiter" place="left_margin"/>
-        <symbol name="Saturn" place="left_margin"/> <!--JG: Link to printed text via text attribute-->
+        <symbol name="Venus" place="left_margin" text="venere"/> 
+        <symbol name="Jupiter" place="left_margin" text="Iouis"/>
+        <symbol name="Saturn" place="left_margin" text="Saturno"/> 
 
         <mark name="scribble" method="pen" place="intext"/>
         
-        <!--JG: You can use errata tag to capture an instance where a word is deleted, as happens here. Put [deleted] into amended_text attribute-->
+        <numeral place="intext" text="au&sharp-S;">1</numeral>
+        <numeral place="intext" text="durch sy">2</numeral>
         
-        <!--JG: You forgot to tag the two numbers who appear in the printed text (1 and 2). Use the numeral tag-->
+        <errata language="DE" copytext="Marte" amendedtext="materia"/>
         
     </annotation>
 </transcription>
