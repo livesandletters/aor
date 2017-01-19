@@ -10,7 +10,7 @@
         <marginalia hand="Italian" anchor_text="au&sharp-S; den fr&uuml;chten"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Ex fructibus eorum cognosc... eos</marginalia_text> <!--JG: 'cognoscetis'-->
+                    <marginalia_text>Ex fructibus eorum cognoscetis eos</marginalia_text> <!--JG: 'cognoscetis'-->
                 </position>
             </language>
             <translation>From the fruits of these .</translation>
@@ -19,26 +19,31 @@
         <marginalia hand="Italian" anchor_text="geist de&sharp-S; quecksilbers"> <!-- FSF: connected with a stroke -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Nota. Quid si hunc Mercurium vocamus succum ex tribus primis ut ubiq[ue] supra nominamus? At ... spiritus </marginalia_text> <!--JG: 'vocemus'; 'succu[m]'; 'vbiq[ue]'; 'no[m]in]auit'; 'At [Venus symbol or 'Venerij'?] spiritus co[n]tra[...] et [square] spiritus.' Check whether printed text can help you decipher this. Also work with opening and closing language elements to show positional change of marginal note-->
+                    <marginalia_text>Nota. Quid si hunc Mercurium vocemus succu[m] ex tribus primis ut vbiq[ue] supra no[m]inauit?</marginalia_text>
+                </position>
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>At &Mercury;ij spiritus co[n]tra[...] et &Salt; spiritus</marginalia_text> <!-- FSF: to be checked and completed -->
+                    <marginalia_symbol name="Mercury"/>
+                    <marginalia_symbol name="Salt"/>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Mercurio Solis"> <!--JG: Include the other symbols with text, which are linked to Mercurius, as well in this marginal note-->
+        <marginalia hand="Italian" anchor_text="Mercurio Solis">
             <language ident="LA">
-                <position place="head" book_orientation="0"> <!--JG: Position is wrong-->
-                    <marginalia_text>Mercurius &Sun;15</marginalia_text>
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Mercurius &Sun;15&Venus;15&Mercury;ij</marginalia_text>
                     <marginalia_symbol name="Sun"/>
                 </position>
             </language>
-            <translation>Mercury Sun 15.</translation>
+            <translation>Mercury Sun 15 Venus 15 Mercury 2.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="spiritibus salis"> 
             <language ident="LA">
-                <position place="head" book_orientation="0"> <!--JG: Position is wrong-->
-                    <marginalia_text>spiritus saliae</marginalia_text> <!--JG: Use brackets to signify ligature!-->
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>spiritus salia[e]</marginalia_text>
                 </position>
             </language>
             <translation>The spirits of salt.</translation>  
@@ -46,16 +51,16 @@
         
         <marginalia hand="Italian" anchor_text="eysen z&u_ring; kupffer"> 
             <language ident="LA">
-                <position place="head" book_orientation="0"> <!--JG: Position is wrong-->
-                    <marginalia_text>Thermarum ...</marginalia_text> <!--JG: Nocumenta--> <!--JG: Use brackets to signify ligature! And should be 'Thermaru[m]'-->
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Thermaru[m] Nocumenta</marginalia_text> 
                 </position>
             </language>
-            <translation></translation> <!-- FSF: to be added -->
+            <translation>Nuisance of the baths.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="concordantz"> 
             <language ident="LA">
-                <position place="head" book_orientation="0"> <!--JG: Position is wrong-->
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>Concordantia.</marginalia_text>
                 </position>
             </language>
