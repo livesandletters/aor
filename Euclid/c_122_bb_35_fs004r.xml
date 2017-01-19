@@ -4,13 +4,13 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="c_122_bb_35_fs004r.tif" reader="John Dee"  signature=""/> 
+    <page filename="c_122_bb_35_fs004r.tif" reader="John Dee"  signature=""/> <!--JG: Should use pagination attribute, value 'title page'-->
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!--JG: Use date attribute-->
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Ioannes Dee 1558 Augusto mese, Lo[n]dini</marginalia_text>
+                    <marginalia_text>Joannes Dee 1558 Augusto mese, Lo[n]dini</marginalia_text>
                     <person name="John Dee"/>
                     <location name="London"/>
                 </position>
@@ -27,7 +27,7 @@
             <translation>The ... Elements.</translation> <!-- FSF: to be completed -->
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!--JG: You've already captured this marginal note. Yet some stuff in right margin still needs to be captured-->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Ioannes Dee 1558 Augusto mese, Lo[n]dini</marginalia_text>
@@ -41,13 +41,13 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Sam Io.shel</marginalia_text>
+                    <marginalia_text>Sam Io.shel</marginalia_text> <!--JG: 'Sam: Torshel'? See whether you can find info about Sam[uel] Torshel-->
                 </position>
             </language>
             <translation>Sam</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!--JG: You've already captured this marginal note-->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Ioannes Dee 1558 Augusto mese, Lo[n]dini</marginalia_text>
@@ -55,15 +55,15 @@
                     <location name="London"/>
                 </position>
             </language>
-            <translation>John Dee 1558 in August in London</translation>
+            <translation>John Dee, 1558 in August in London</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>a. 2758</marginalia_text>
-                    <person name="John Dee"/>
-                    <location name="London"/>
+                    <person name="John Dee"/> <!--JG: Incorrect-->
+                    <location name="London"/> <!--JG: Incorrect-->
                 </position>
             </language>
             <translation></translation>
@@ -75,19 +75,16 @@
                     <marginalia_text>TR. Ex dono Amicissimi.....</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation></translation> <!--JG: Translate-->
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!--JG: Use other reader attribute, 'unknown modern reader'-->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>30</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
         </marginalia>
- 
-        <mark name="" method="" place=""/>
- 
+        
     </annotation>
 </transcription>
