@@ -16,40 +16,40 @@
         <marginalia hand="Italian" anchor_text="chiamata Frislanda" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>A Non Frislanda sed Grontanda</marginalia_text>
-                <location name="Frisland"/>
+                    <marginalia_text>A Non Frislanda sed Grontanda</marginalia_text> <!--JG: I think it should be 'Grontonda'. No clue what Dee is referring to, so just tag as 'Grontonda' and add it to the spreadsheet-->
+                    <location name="Frisland"/>
                     <location name=""/>
                 </position>
             </language>
-            <translation>A Not Frisland but Grontanda</translation>
+            <translation>A. Not Frisland but Grontonda.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen">
+        <marginalia hand="Italian" method="pen"> <!--JG: Use anchor tag to link to printed text-->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>gradui qui respondet miliaria 56 2/3</marginalia_text>
+                    <marginalia_text>gradui qui respondet miliaria 56. 2/3</marginalia_text> <!--JG: 'vni', not 'qui'. Use special characters to transribe 2/3 (&Twothird;)--> 
                 </position>
             </language>
-            <translation></translation> <!-- translation needed -->
+            <translation>56 &Twothird; miles corresponds to one degree.</translation> 
         </marginalia>
         
         <underline method="pen" type="double" language="IT" text="nel mese di Febraio"/>
         <underline method="pen" type="straight" language="IT" text="oltra Tile isola cento leghe"/>
         <underline method="pen" type="straight" language="IT" text="settantatre gradi"/>
         <underline method="pen" type="straight" language="IT" text="non sessantatre"/>
-        <underline method="pen" type="double" language="IT" text="a quest'isola"/>
+        <underline method="pen" type="double" language="IT" text="a quest' isola"/>
         <underline method="pen" type="straight" language="IT" text="grande, come l'Inghilterra"/>
         <underline method="pen" type="straight" language="IT" text="non era congelato il mare"/>
         <underline method="pen" type="double" language="IT" text="braccia, &amp; discendeua"/>
         <underline method="pen" type="double" language="IT" text="di cui"/>
-        <underline method="pen" type="straight" language="IT" text="moderni &egrave;"/>  <!-- DO: underlining has been crossed out -->
+        <underline method="pen" type="straight" language="IT" text="moderni &egrave;"/>  <!-- DO: underlining has been crossed out --> <!--JG: Tag a 'grid' (see type attribute)-->
         <underline method="pen" type="double" language="IT" text="chiamata Frislanda"/>
         <underline method="pen" type="straight" language="IT" text="Sirene nella costa della"/>
         <underline method="pen" type="straight" language="IT" text="che il grado risponde nella terra a cinquantasei miglia, &amp; duo terzi."/>
         
-        <mark name="X_sign" method="pen" place="right_margin"/>
-        <mark name="X_sign" method="pen" place="right_margin"/>
-        <mark name="X_sign" method="pen" place="right_margin"/>
+        <mark name="X_sign" method="pen" place="right_margin"/> <!-- JG: Should be plus sign -->
+        <mark name="X_sign" method="pen" place="right_margin"/> <!-- JG: Should be plus sign -->
+        <mark name="X_sign" method="pen" place="right_margin"/> <!-- JG: Should be plus sign -->
         
         
         
