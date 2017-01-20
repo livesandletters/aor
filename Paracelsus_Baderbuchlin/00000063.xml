@@ -6,42 +6,36 @@
     <page filename="00000063.tif" reader="John Dee" signature="Giij"/>
     <annotation>
         
-    <marginalia hand="Italian" method="pen">
-        <language ident="LA">
-            <position place="head" book_orientation="0">
-                <marginalia_text>
+        <marginalia hand="Italian" method="pen">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>
                     Vitriolu[m], stillicidiu[m] cupri 
-                </marginalia_text>
-                <person name="Ripley"/>
+                    </marginalia_text>
+                    <person name="Ripley"/>
                 <book title="Medulla Alchymiae"/>
-            </position>
-        </language>
-        <language ident="EN">
-            <position place="head" book_orientation="0">
-                <marginalia_text>consider Ripleys words in Medulla Alchymiae</marginalia_text>
-                <person name="George Ripley"/>
-            </position>
-        </language>
-        <translation>Sulphur, rain water collected from the eaves of a house, copper. Consider Ripley's words in Medulla Alchymiae.</translation> <!--JG: Unsure-->
-    </marginalia>
-        
-    <marginalia hand="Italian" method="pen">
-        <language ident="LA">
-            <position place="right_margin" book_orientation="0">
-                <marginalia_text>
-                    Correctio[n]es vbi adhibenda[e]
-                </marginalia_text>
-            </position>
-        </language>
-<<<<<<< Updated upstream
-        <translation>Where corrections must be brought in.</translation>
-            
+                </position>
+            </language>
+            <language ident="EN">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>consider Ripleys words in Medulla Alchymiae</marginalia_text>
+                    <person name="George Ripley"/>
+                </position>
+            </language>
+            <translation>Sulphur, rain water collected from the eaves of a house, copper. Consider Ripley's words in Medulla Alchymiae.</translation> <!--JG: Unsure-->
         </marginalia>
-=======
-        <translation></translation>
-            </marginalia>
         
->>>>>>> Stashed changes
+        <marginalia hand="Italian" method="pen" anchor_text="da mag man durch die correctiones nicht inbringen"> <!-- FSF: anchor text added -->
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                    Correctio[n]es vbi adhibenda[e]
+                    </marginalia_text>
+                </position>
+            </language>
+        <translation>Where corrections must be brought in.</translation>
+        </marginalia>
+
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -51,7 +45,7 @@
             <translation>Centre.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="matrices der wilden roten Granat&ecirc;">
+        <marginalia hand="Italian" method="pen" anchor_text="matrices der wilden roten Granate[n];"> <!-- FSF: corrected the [n] -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Matrices granatoru[m]</marginalia_text>
@@ -69,10 +63,11 @@
             <translation>Raw gold.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="">
+        <marginalia hand="Italian" method="pen" anchor_text="Margazichen Animonij; salniters; matrices der wilden roten Granate[n]; g&ouml;ldischen kisigen Granaten; &auml;rtz de&sharp-S; silbers; vitriol; arsenic; auripigment; schwebel fix vnd vnfix"> <!-- FSF: anchor text added -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text> <!-- JG: 'Margazitaru[m] Antimonij, Salnitru[m], matrices rubroru[n] granator[um] [...] Margazit[ri] Granat[a] Auru[m] incoctu[m] argente Arsenic[um] auripigme[n]t sulph. fix[um] et no[n] fix[um] Vitriolu[m]  -->
+                    <marginalia_text> <!-- JG: 'Margazitaru[m] Antimonij, Salnitru[m], matrices rubroru[n] granator[um] [...] Margazit[ri] Granat[a] Auru[m] incoctu[m] argente Arsenic[um] auripigme[n]t sulph. fix[um] et no[n] fix[um] Vitriolu[m]  --> 
+                        <!-- FSF: aurei Margazitri Granat[ae] -->
                         Calx - Margazitavu[m] Antimonnium, sal mitriu[m] matrices rubrore granate auru[m] margazitavum 
                         Granate Auru[m] immaturu[m] auripigment, Vitriolu[m]
                     </marginalia_text>
