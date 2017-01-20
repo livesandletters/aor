@@ -135,8 +135,7 @@
 	   <!ATTLIST tree tree_from_transcription CDATA #IMPLIED>
 	      <!ELEMENT node (#PCDATA)>
 	       <!ATTLIST node id ID #REQUIRED>
-	       <!ATTLIST node relationship IDREFS #IMPLIED>
-	       <!ATTLIST node person_name CDATA #IMPLIED>
+	       <!ATTLIST node person CDATA #IMPLIED>
 	       <!ATTLIST node anchor_text CDATA #IMPLIED>
 	     <!ELEMENT link EMPTY>
 	       <!ATTLIST link to IDREFS #REQUIRED>
