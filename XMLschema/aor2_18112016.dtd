@@ -124,15 +124,15 @@
 	       <!ELEMENT calculation_anchor (#PCDATA)>
 			 <!ATTLIST calculation_anchor data CDATA #IMPLIED>       
 	<!ELEMENT graph (node*, link*, graph_text*, graph_text_translation?)>
-	   <!ATTLIST tree type (genealogical_tree|ramus_tree) #REQUIRED> 
-	   <!ATTLIST tree book_orientation (0|90|180|270) #REQUIRED>
-	   <!ATTLIST tree place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
-	   <!ATTLIST tree method (chalk|pen) #REQUIRED>
-	   <!ATTLIST tree id CDATA #IMPLIED> <!--functions as ID-->
-	   <!ATTLIST tree tree_continues_to CDATA #IMPLIED>
-	   <!ATTLIST tree tree_continues_from CDATA #IMPLIED>
-	   <!ATTLIST tree tree_to_transcription CDATA #IMPLIED>
-	   <!ATTLIST tree tree_from_transcription CDATA #IMPLIED>
+	   <!ATTLIST graph type (genealogical_tree|ramus_tree) #REQUIRED> 
+	   <!ATTLIST graph book_orientation (0|90|180|270) #REQUIRED>
+	   <!ATTLIST graph place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
+	   <!ATTLIST graph method (chalk|pen) #REQUIRED>
+	   <!ATTLIST graph id CDATA #IMPLIED> <!--functions as ID-->
+	   <!ATTLIST graph tree_continues_to CDATA #IMPLIED>
+	   <!ATTLIST graph tree_continues_from CDATA #IMPLIED>
+	   <!ATTLIST graph tree_to_transcription CDATA #IMPLIED>
+	   <!ATTLIST graph tree_from_transcription CDATA #IMPLIED>
 	      <!ELEMENT node (#PCDATA)>
 	       <!ATTLIST node id ID #REQUIRED>
 	       <!ATTLIST node person CDATA #IMPLIED>
