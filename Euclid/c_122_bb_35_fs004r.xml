@@ -4,10 +4,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="c_122_bb_35_fs004r.tif" reader="John Dee"  signature=""/> <!--JG: Should use pagination attribute, value 'title page'-->
+    <page filename="c_122_bb_35_fs004r.tif" reader="John Dee"  signature="" pagination="title page"/>
     <annotation>
         
-        <marginalia hand="Italian"> <!--JG: Use date attribute-->
+        <marginalia hand="Italian" date="August 1558">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Joannes Dee 1558 Augusto mese, Lo[n]dini</marginalia_text>
@@ -27,46 +27,48 @@
             <translation>The ... Elements.</translation> <!-- FSF: to be completed -->
         </marginalia>
         
-        <marginalia hand="Italian"> <!--JG: You've already captured this marginal note. Yet some stuff in right margin still needs to be captured-->
+        <marginalia hand="Italian">
             <language ident="LA">
-                <position place="head" book_orientation="0">
-                    <marginalia_text>Ioannes Dee 1558 Augusto mese, Lo[n]dini</marginalia_text>
-                    <person name="John Dee"/>
-                    <location name="London"/>
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>Sam: Torshel</marginalia_text>
+                    <person name="Samuel Torshell"/>
                 </position>
             </language>
-            <translation>John Dee 1558 in August in London</translation>
+            <translation>Samuel Torshell</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>Sam Io.shel</marginalia_text> <!--JG: 'Sam: Torshel'? See whether you can find info about Sam[uel] Torshel-->
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>T I: I: K</marginalia_text>
                 </position>
             </language>
-            <translation>Sam</translation>
+            <translation></translation> <!-- FSF: to be added -->
         </marginalia>
         
-        <marginalia hand="Italian"> <!--JG: You've already captured this marginal note-->
+        <marginalia hand="Italian" method="pencil" other_reader="unknown modern reader">
             <language ident="LA">
-                <position place="head" book_orientation="0">
-                    <marginalia_text>Ioannes Dee 1558 Augusto mese, Lo[n]dini</marginalia_text>
-                    <person name="John Dee"/>
-                    <location name="London"/>
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>K</marginalia_text>
                 </position>
             </language>
-            <translation>John Dee, 1558 in August in London</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>a. 2758</marginalia_text>
-                    <person name="John Dee"/> <!--JG: Incorrect-->
-                    <location name="London"/> <!--JG: Incorrect-->
                 </position>
             </language>
             <translation></translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" other_reader="unknown modern reader">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>30</marginalia_text>
+                </position>
+            </language>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -75,16 +77,12 @@
                     <marginalia_text>TR. Ex dono Amicissimi.....</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!--JG: Translate-->
+            <translation>A present from my dearest.</translation> <!-- FSF: TR maybe an abbreviation for Torshell? -->
         </marginalia>
+
+        <numeral place="right_margin">30</numeral>
         
-        <marginalia hand="Italian"> <!--JG: Use other reader attribute, 'unknown modern reader'-->
-            <language ident="LA">
-                <position place="head" book_orientation="0">
-                    <marginalia_text>30</marginalia_text>
-                </position>
-            </language>
-        </marginalia>
+        <!-- FSF: there is also a scribble or florilegium that looks like an abbreviation of a name or so -->
         
     </annotation>
 </transcription>
