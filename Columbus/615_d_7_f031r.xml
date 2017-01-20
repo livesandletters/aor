@@ -4,14 +4,14 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="615_d_7_f031rtif" reader="John Dee" pagination="31" signature="[Dvij]"/> 
+    <page filename="615_d_7_f031rtif" reader="John Dee" pagination="31" signature="[Dvij]"/> <!--JG: If there's a page number, you don't need to continue with inferring the signature (only do so when page number is absent). No need to delete this signatures, just so you know for next time, saves you some work-->
     
     <annotation>
         
         <marginalia hand="Italian" method="pen">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>The cause of Colu[m]bus his unkindenes taking [?] Portugall</marginalia_text> <!-- DO: unsure of penultimate word -->
+                    <marginalia_text>The cause of Colu[m]bus his unkindenes taking [?] Portugall</marginalia_text> <!-- DO: unsure of penultimate word --> <!--JG: 'w[i]th' I think-->
                     <person name="Columbus"/>
                     <location name="Portugal"/>
                 </position>
@@ -67,13 +67,9 @@
         <underline method="pen" type="straight" language="IT" text="con le carte, ch' ei fabricaua"/>
         <underline method="pen" type="straight" language="IT" text="prattiche co'l Re Enrico settimo, padre"/>
         
-        <mark name="comma" method="pen" place="intext" language="IT" text="del padre nel suo"/>
+        <mark name="comma" method="pen" place="intext" language="IT" text="del padre nel suo"/> <!--JG: With comma we don't use the text attribute, put the words between which the comma is put in a comment field-->
         
         <mark name="straight_quotation_mark" method="pen" place="right_margin"/>
-        
-     
-        
-                
         
     </annotation>
 </transcription>
