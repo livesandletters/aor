@@ -8,10 +8,10 @@
     
     <annotation>
         
-        <marginalia hand="Italian" method="pen">
+        <marginalia hand="Italian" method="pen"> <!--JG: You can use anchor attribute to link to the printed text. You don't need to capture the whole para, just select keywords separated by semicolon. In this case 'chiamati Michele, e Gasparo Cortereale; l'anno 1502 perirono'-->
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Michael Gaspar} Cortereale perier[u]nt. A[nn]o 1502</marginalia_text>  <!-- DO: English and Latin but have tagged as Latin -->
+                    <marginalia_text>Michael Gaspar} Cortereale perier[u]nt. A[nn]o 1502</marginalia_text> 
                     <person name="Miguel Corte-Real"/>
                     <person name="Gaspar Corte-Real"/> 
                 </position>
