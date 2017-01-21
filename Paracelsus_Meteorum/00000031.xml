@@ -22,13 +22,13 @@
         <marginalia hand="Italian" anchor_text="drey ersten drey st&uuml;ck ne[m]lich Ignis, Sal vnd Balsamus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Tria prima Ignis sal. Balsam[us] Sulph. Sal. Mercur[ius]. Liquor.</marginalia_text>
+                    <marginalia_text>Tria prima Ignis Sal. Balsam[us] Sulph. Sal. Mercur[ius]. Liquor.</marginalia_text>
                 </position>
             </language>
             <translation>The first three [are] fire, salt, balsam. Sulfer, salt, mercury, liquid.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Also der Him[m]el auch ist fewr sal, vnd Balsam">
+        <marginalia hand="Italian" anchor_text="Also der Him[m]el auch ist Fewr Sal, vnd Balsam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Coeli ignis sal Balsamus.</marginalia_text>
@@ -40,9 +40,9 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>fol.5.b.  7 [.]. Miror, cum ante Ignem pro Eleme[n]to admittere no[n] vellet tamqu[am] [generationi] ineptum,
-                    nunc ver&ograve; pro facundissimo [h[ae]mine] ponat, vnum [...] ex tribus primis, vnde cu[m] Eleme[n]ta [...], tum Creaturae reliquae o[mn]es
-                    orr.centur [sal] sulphurem nonne minus offendisse in hoc loco sed vide [pagina[m]] [sequetem].</marginalia_text> <!--JG: very uncertain, need to return to this later-->
+                    <marginalia_text>fol.5.b.  7 [.]. Miror, cum ante, Ignem pro Eleme[n]to admittere no[n] vellet tamqu[am] generationi ineptum,
+                    nunc ver&ograve; pro facundissimo semine ponat, vnum [...] ex tribus primis, vnde cu[m] Eleme[n]ta [ipa.], tum Creatura[e] reliqua[e] o[mn]es
+                    orr.centur <!--KS: 'orientur'?-->: sed sulphurem nonne <!--KS: 'nomi[n]e[m]'?--> minus offendisse in hoc loco sed vide [pagina[m]] [seque[n]tem].</marginalia_text> <!--JG: very uncertain, need to return to this later-->
                     <internal_ref>
                         <target filename="00000024.xml" book_id="9689847" text="fol.5.b."/>
                     </internal_ref>
@@ -52,6 +52,7 @@
             </translation>
         </marginalia>
         
+        <underline method="pen" type="straight" language="DE" text="Pley"/>
         <underline method="pen" type="straight" language="DE" text="durch die Kunst der Natur dahin"/>
         <underline method="pen" type="double" language="DE" text="Wort"/>
         <underline method="pen" type="straight" language="DE" text="drey ersten"/>
