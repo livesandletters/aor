@@ -26,26 +26,27 @@
         <marginalia hand="Italian" method="pen" anchor_text="gi&agrave; l'anno auanti la gloriosa Reina D&oacute;na Isabella era passata a miglior vita.">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Elizabeth</marginalia_text> <!--JG: Find out which queen this was and tag her!-->
+                    <marginalia_text>Elizabeth</marginalia_text>
+                    <person name="Isabella I of Castile"/>
                 </position>
             </language>
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Regina auanti A[nn]o 1504 <!--JG: Should be 'mortua'. 'Queen Elizabeth died in 1504'-->
+                        Regina mortua A[nn]o 1504
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Queen [Elizabeth] lived until 1504. </translation>
+            <translation>Queen Elizabeth died in 1504. </translation>
           </marginalia> 
         
         <marginalia hand="Italian" method="pen">
-            <language ident="LA> <!--JG: Error in XML-->
+            <language ident="IT">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Invidioso <!-- Uncertain about word following 'Invidioso --></marginalia_text> <!--JG: 'Spagnuolo'-->
+                    <marginalia_text>Invidioso Spagnuolo</marginalia_text>
                 </position>
             </language>
-            <translation>Envious</translation>
+            <translation>Envious Spaniard</translation>
         </marginalia> 
         
         <underline method="pen" type="straight" language="IT" text="&amp; noi in riposo, l'abero siruppe in IIII pezzi"/>
@@ -53,8 +54,8 @@
         <underline method="pen" type="straight" language="IT" text="picciolo albero"/>
         <underline method="pen" type="straight" language="IT" text="DCC leghe"/>
         <underline method="pen" type="straight" language="IT" text="Porto di S. Lucar di Barameda"/>
-        <underline method="pen" type="straight" language="IT" text="gi&agrave; l'anno auanti la gloriosa Reina D&oacute;na Isabella era passata a miglior vita"/> <!--JG: Do[n]na-->
-        <underline method="pen" type="straight" language="IT" text="secco, &amp; contrario a&apos; suoi negocij"/><!--JG: Not need to use &apos;, just transcribe a'-->
+        <underline method="pen" type="straight" language="IT" text="gi&agrave; l'anno auanti la gloriosa Reina Don[n]a Isabella era passata a miglior vita"/>
+        <underline method="pen" type="straight" language="IT" text="secco, &amp; contrario a suoi negocij"/>
         <underline method="pen" type="double" language="IT" text="volont&agrave; di totalmente piuarnelo"/>
         <underline method="pen" type="double" language="IT" text="la vergogna"/>
         
