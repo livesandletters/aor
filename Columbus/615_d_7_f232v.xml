@@ -13,10 +13,10 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="per l infermit&agrave; della">
+        <marginalia hand="Italian" method="pen" anchor_text="per l infermit&agrave; della"> <!--JG: Add 'gotta' as well in the achor attribute, most important word-->
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Chrytofer Colon his govt[government]</marginalia_text>
+                    <marginalia_text>Chrytofer Colon his govt[government]</marginalia_text> <!--JG: Should be 'Christofer Colon his gowt'-->
                     <person name="Columbus"/>
                 </position>
             </language>
@@ -26,15 +26,15 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Lares</marginalia_text>
-                    <person name="Lares"/>
+                    <person name="Lares"/> <!--JG: Try to find name of the person, rather than just tagging them by referring only to surname or, in this case, the town/region he was a commander of. It was Nicolas de Ovando. See: https://books.google.co.uk/books?id=7hJLAwAAQBAJ&pg=PA183&lpg=PA183&dq=lares+commander&source=bl&ots=LI7JZP1W3v&sig=tO4j9NBWRrW4SOqTNZLaFrCv-qk&hl=en&sa=X&ved=0ahUKEwjaxL-4pNvRAhVJI8AKHdZ0DWQQ6AEIMjAE#v=onepage&q=lares%20commander&f=false-->
                 </position>
             </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="per obedientia del suo essiglio"/>
-        <underline method="pen" type="straight" language="IT" text="per l infermit&agrave; della"/>
+        <underline method="pen" type="straight" language="IT" text="per l infermit&agrave; della"/> <!--JG: Should be l'infermit&agrave;-->
         <underline method="pen" type="straight" language="IT" text="Commendator Lares"/>
-        <underline method="pen" type="straight" language="IT" text="Morales"/>
+        <underline method="pen" type="straight" language="IT" text="Tesorier Morales"/>
         
     </annotation>
 </transcription>
