@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Eclipsis A[nn]o
+                        Eclipsis A[nn]o <!--JG: You should transcribe the moon symbol as well. It's part of the special characters -->
                     </marginalia_text>
                     <marginalia_symbol name="Moon"/>
                 </position>
@@ -23,44 +23,46 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Eclipse in the year 1504, on the 29th of February</translation>
+            <translation>Eclipse in the year 1504, on the 29th of February</translation> <!--JG: The moon should figure in your translation as well-->
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Eclipsis Eclipsis totalis A[nn]o 1504
+                        Eclipsis Eclipsis totalis A[nn]o 1504 <!--JG: 'Eclipsis totalis [moon]' should be a separate marginal note. Translate as 'A total eclipse of the moon'--> <!--JG: You forgot to transcribe a word 'erat'-->
                     </marginalia_text>
-                    <marginalia_symbol name="Moon"/>
                     <marginalia_symbol name="Moon"/>
                 </position>
             </language>
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Febr[uary] 29 hor[a] 13 m[inute] 36 ad meridiem, dimidia duratis. Hor[a] 1. m[inutes] 46. Puncata 13.
+                        Febr[uary] 29 hor[a] 13 m[inute] 36 ad meridiem, dimidia duratis. Hor[a] 1. m[inutes] 46. Puncata 13. <!--JG: It's likely 'Febr[uarii]' since the marginal note is in Latin. Similarly, it should be 'm[inutae]'. If you don't know a word, indicate it in the transcription, rather than omitting it. E.g. [...]; 'meridianu[m] [...] [...]'; 'duratio'; 'm[inutae]'. I think it's 'puncta', puncata has to many letters (and doesn't seem to exist) -->
                         <!-- MB. Not sure of the two scribbled words following 'ad meridiem' possibly 'tub g???'. Last part of marginalia possibly refers to 'astrological puncta' -->
                     </marginalia_text>
                 </position>
             </language>
-            <language ident="LA">
+            <translation>There was an eclipse of the moon in the year 1504, on the 29th of February. Hour 13, minute 36, towards noon [...]. Half a duration. One hour, 46 minutes. Magnitude 13.</translation>
+        </marginalia>
+        <language ident="LA"> <!--JG: This can all be deleted, no need to tag this twice-->
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        46 ad puncta 13
+                        46 ad puncta 13 
                     </marginalia_text>
                 </position>
             </language>
         </marginalia>
         
-        <underline method="pen" type="straight" language="IT" text="dar loro X volte pi&ugrave;"/>
+        <underline method="pen" type="straight" language="IT" text="dar loro x volte pi&ugrave;"/>
         <underline method="pen" type="straight" language="IT" text="che si daua"/>
         <underline method="pen" type="double" language="IT" text="no fare i lor"/>
-        <underline method="pen" type="straight" language="IT" text="Ricordossi, che nel terzo d&igrave; doueua"/>
+        <underline method="pen" type="straight" language="IT" text="Ricordossi, che nel terzo d&igrave; doueua essere"/>
         <underline method="pen" type="straight" language="IT" text="di Luna da prima notte"/>
         <underline method="pen" type="straight" language="IT" text="che noi erauamo Christiani, &amp; credeuamo"/>
-        <underline method="pen" type="straight" language="IT" text="tutta l Isola erano"/>
+        <underline method="pen" type="straight" language="IT" text="tutta l'Isola erano"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="dar loro X volte pi&ugrave; di quel, che si dauna prima: conciosia che essi ben sapeuano fare i lor"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="dar loro X volte pi&ugrave; di quel, che si dauna prima"/>
+        
     </annotation>
 </transcription>
