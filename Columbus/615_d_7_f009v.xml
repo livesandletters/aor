@@ -6,21 +6,21 @@
     <page filename="615_d_7_f009v.tif" reader="John Dee" pagination="[9v]" signature="[Bv]"/> 
     <annotation>
         <marginalia hand="Italian" anchor_text="Mastiche" method="pen">
-            <language ident="LA"> <!--JG: Should be "IT"-->
+            <language ident="IT">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Mastiche</marginalia_text>  <!-- DO: unsure if location? --> <!--JG: Don't think so since the text talks about 'alcuni arbori'. You can translate it as 'mastic'-->
+                    <marginalia_text>Mastiche</marginalia_text>  
                 </position>
             </language>
-            <translation></translation>
+            <translation>Mastic</translation>
         </marginalia>
        
-       <marginalia hand="Italian" method="pen"> <!--JG: use anchor attribute: 'per mar ventitre anni anni senza vsirne per alcun tempo'-->
+       <marginalia hand="Italian" anchor_text="per mar ventitre anni senza vscirne per alcun tempo" method="pen"> 
            <language ident="LA">
                <position place="left_margin" book_orientation="0">
-                   <marginalia_text>23 anni, navigatium edifrinze</marginalia_text> <!-- DO: unsure of final two words --> <!--JG: 23 anni, navigationu[m] co[n]tinuorum. 23 years of continuous voyages-->
+                   <marginalia_text>23 anni, navigationu[m] co[n]tinuorum</marginalia_text>
                </position>
            </language>
-           <translation>23 years, </translation>
+           <translation>23 years of continuous voyages </translation>
        </marginalia>
         
         <marginalia hand="Italian" anchor_text="di quatordici anni" method="pen">
@@ -45,7 +45,7 @@
         
        <underline method="pen" type="straight" language="IT" text="il Settentrione, cio&egrave; l'Inghilterra"/>
         <underline method="pen" type="straight" language="IT" text="di quatordici anni, &amp; che sempre segu&igrave; il mare"/>
-        <underline method="pen" type="straight" language="IT" text="non hebbe se non poco vento, che &egrave; Nordeste"/> <!--JG: You can delete this, I think it's bleedthrough from previous page-->
+
        
     </annotation>
 </transcription>
