@@ -7,12 +7,12 @@
 
 <annotation>
     
-<marginalia hand="Italian" method="pen"> <!--JG: Link to printed text via anchor tag-->
+<marginalia hand="Italian" anchor_text="videro le lettere per mano del Dottor Viglialano" method="pen"> 
     <language ident="EN">
         <position place="right_margin" book_orientation="0">
-            <marginalia_text>The King of England's letters to Chry[s]tofer Colon. Vide fol[io] 31.32 120.b.34.b.</marginalia_text> <!--JG: I think it should be 'The King of Englands letters to Christofer Colon. Vide fol .31.32 120.v.34.v'-->
+            <marginalia_text>The King of England's letters to Christofer Colon. Vide fol .31 .32 120.v.34.v</marginalia_text> 
             <person name="Columbus"/>
-            <location name="England"/> <!--JG: Don't tag as location. Find out who the king of England was at this time and tag him-->
+            <location name="Henry VII"/> 
         </position>
     </language>
 </marginalia>
@@ -25,7 +25,7 @@
                 <marginalia_text>Ammiragglio - Vicere - </marginalia_text>
             </position>
         </language>
-        <translation>Admiral - Viceroy - </translation> <!--JG: With translation you don't need to copy layout of marginal note. So: Admiral. Viceroy.-->
+        <translation>Admiral. Viceroy. - </translation> 
     </marginalia>
     
     <underline method="pen" type="straight" language="IT" text="figliuoli"/>
@@ -39,7 +39,10 @@
     <underline method="pen" type="straight" language="IT" text="Dottor Viglialano"/>
     <underline method="pen" type="straight" language="IT" text="dall'altro canto l'Ammiraglio dimandaua l'Ammiragliato, &amp; titolo di Vicere, &amp; altre cose di grande stima"/>
     
-    <mark name="quotation_mark" method="pen" place="left_margin"/> <!--JG: You should tag this mark four times!-->
+    <mark name="quotation_mark" method="pen" place="left_margin"/>
+    <mark name="quotation_mark" method="pen" place="left_margin"/>
+    <mark name="quotation_mark" method="pen" place="left_margin"/>
+    <mark name="quotation_mark" method="pen" place="left_margin"/>
     
     <!--JG: Links between underline to be established later-->
 
