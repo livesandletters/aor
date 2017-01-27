@@ -129,10 +129,10 @@
 	   <!ATTLIST graph place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 	   <!ATTLIST graph method (chalk|pen) #REQUIRED>
 	   <!ATTLIST graph id CDATA #IMPLIED> <!--functions as ID-->
-	   <!ATTLIST graph tree_continues_to CDATA #IMPLIED>
-	   <!ATTLIST graph tree_continues_from CDATA #IMPLIED>
-	   <!ATTLIST graph tree_to_transcription CDATA #IMPLIED>
-	   <!ATTLIST graph tree_from_transcription CDATA #IMPLIED>
+	   <!ATTLIST graph graph_continues_to CDATA #IMPLIED>
+	   <!ATTLIST graph graph_continues_from CDATA #IMPLIED>
+	   <!ATTLIST graph graph_to_transcription CDATA #IMPLIED>
+	   <!ATTLIST graph graph_from_transcription CDATA #IMPLIED>
 	      <!ELEMENT node (#PCDATA)>
 	       <!ATTLIST node id ID #REQUIRED>
 	       <!ATTLIST node person CDATA #IMPLIED>
