@@ -9,7 +9,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="quantit&agrave;, &amp; arrostito lo conseruano molto tempo.">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text><!-- M.B. Uncertain of word preceding 'ro[a]sted --> ro[a]sted and kept.</marginalia_text>
+                    <marginalia_text><!-- M.B. Uncertain of word preceding 'ro[a]sted --> ro[a]sted and kept.</marginalia_text> <!--JG: Should be 'fish rosted and kept'. Do not include '[a]', because the word isn't abbreviated or shortened in any way'-->
                 </position>
             </language>
         </marginalia>
@@ -22,17 +22,17 @@
             </language>
             <language ident="IT">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>birre</marginalia_text>
+                    <marginalia_text>birre</marginalia_text> <!--JG: Should be 'beere'. Not need to open a new language tag, can be put in one marginalia_text element-->
                 </position>
             </language>
-            <translation>English beers.</translation>
+            <translation>English beers.</translation> <!--JG: Should be 'English beer.'-->
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="quantit&agrave;, &amp; arrostito lo conseruano molto tempo."/> 
         <underline method="pen" type="straight" language="IT" text="vin rosso"/>
         <underline method="pen" type="straight" language="IT" text="&amp; bianco"/> 
         <underline method="pen" type="straight" language="IT" text="la Ceruosa in Inghilterra"/>
-        <underline method="pen" type="straight" language="IT" text="fanno il vinp, boll&eacute;dolo con acqua, et con le loro specie"/> 
+        <underline method="pen" type="straight" language="IT" text="fanno il vino, boll&eacute;dolo con acqua, et con le loro specie"/> <!--JG: Again, it's not an accent, should be 'bolle[n]dolo'-->
 
     </annotation>
 </transcription>
