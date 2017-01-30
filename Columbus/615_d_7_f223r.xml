@@ -6,7 +6,7 @@
     <page filename="615_d_7_f223r.tif" reader="John Dee" pagination="223"/>
     <annotation>
         
-        <marginalia hand="Italian" method="pen" anchor_text="&amp; da vn cane, il qual">
+        <marginalia hand="Italian" method="pen" anchor_text="&amp; da vn cane, il qual"> <!--JG: Just link to 'vn cane'-->
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,7 +20,7 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        An Italian [and] a Lobard"
+                        An Italian [and] a Lobard <!--JG: Should be 'An Italen a Lo[m]bard-->
                     </marginalia_text>
                 </position>
             </language>
@@ -30,6 +30,8 @@
         <underline method="pen" type="straight" language="IT" text="&amp; ritirandosi poi, come nel giuoco"/>
         <underline method="pen" type="straight" language="IT" text="&amp; da vn cane, il qual"/>
         <underline method="pen" type="straight" language="IT" text="che era Italiano, &amp; Lombardo"/>
+        
+        <!--JG: Capture the two marks in the right margin as well. Mark is a bit weird, I'd go for a quotation sign-->
         
     </annotation>
 </transcription>
