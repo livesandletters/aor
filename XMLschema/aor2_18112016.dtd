@@ -53,12 +53,17 @@
 							<!ATTLIST emphasis type (straight|curved|dotted|double) #REQUIRED>
 							<!ATTLIST emphasis text CDATA #IMPLIED>
 						<!ELEMENT internal_ref (target+)> 
-						    <!ATTLIST internal_ref text CDATA #IMPLIED>
-						    <!ATTLIST internal_ref anchor_text CDATA #IMPLIED>
-						          <!ELEMENT target EMPTY>
-						              <!ATTLIST target filename CDATA #REQUIRED>
-						              <!ATTLIST target book_id CDATA #REQUIRED>
-						              <!ATTLIST target text CDATA #REQUIRED>
+	                       <!ATTLIST internal_ref text CDATA #IMPLIED>
+	                       <!ATTLIST internal_ref anchor_prefix CDATA #IMPLIED>
+	                       <!ATTLIST internal_ref anchor_suffix CDATA #IMPLIED>
+	                       <!ATTLIST internal_ref anchor_text CDATA #IMPLIED>
+		                      <!ELEMENT target EMPTY>
+			                     <!ATTLIST target filename CDATA #IMPLIED >
+			                     <!ATTLIST target book_id CDATA #IMPLIED >
+			                     <!ATTLIST target ref CDATA #REQUIRED>
+			                     <!ATTLIST target text CDATA #REQUIRED>
+			                     <!ATTLIST target prefix CDATA #IMPLIED>
+			                     <!ATTLIST target suffix CDATA #IMPLIED>
 		<!ELEMENT translation (#PCDATA)>
 	<!ELEMENT underline EMPTY>
 		<!ATTLIST underline method (chalk|pen|scoring) #REQUIRED>
@@ -95,7 +100,7 @@
 	   <!ATTLIST errata id CDATA #IMPLIED> <!--functions as ID-->
 	   <!ATTLIST errata internal_ref CDATA #IMPLIED> <!--functions as IDREFS-->        
 	<!ELEMENT drawing (drawing_text*, drawing_person*, drawing_book*, drawing_location*, drawing_symbol*, drawing_text_translation?)>
-	   <!ATTLIST drawing type (face|manicule|florilegium|crown|coat_of_arms|scientific_instrument) #REQUIRED>
+	   <!ATTLIST drawing type (face|manicule|florilegium|crown|coat_of_arms|scientific_instrument|animal) #REQUIRED>
 	   <!ATTLIST drawing book_orientation (0|90|180|270) #REQUIRED>
 	   <!ATTLIST drawing place (head|tail|left_margin|right_margin|intext|full_page) #REQUIRED>
 	   <!ATTLIST drawing method (chalk|pen) #REQUIRED>
