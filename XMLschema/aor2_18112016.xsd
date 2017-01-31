@@ -196,7 +196,6 @@
           <xs:enumeration value="JC"/>
           <xs:enumeration value="HT"/>
           <xs:enumeration value="Hieroglyphic_Monad"/>
-          <xs:enumeration value="Jupiter"/>
           <xs:enumeration value="LL"/>
           <xs:enumeration value="Mars"/>
           <xs:enumeration value="Mercury"/>
@@ -297,6 +296,8 @@
   </xs:element>
   <xs:attributeGroup name="attlist.internal_ref">
     <xs:attribute name="text"/>
+    <xs:attribute name="anchor_prefix"/>
+    <xs:attribute name="anchor_suffix"/>
     <xs:attribute name="anchor_text"/>
   </xs:attributeGroup>
   <xs:element name="target">
@@ -305,9 +306,12 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.target">
-    <xs:attribute name="filename" use="required"/>
-    <xs:attribute name="book_id" use="required"/>
+    <xs:attribute name="filename"/>
+    <xs:attribute name="book_id"/>
+    <xs:attribute name="ref" use="required"/>
     <xs:attribute name="text" use="required"/>
+    <xs:attribute name="prefix"/>
+    <xs:attribute name="suffix"/>
   </xs:attributeGroup>
   <xs:element name="translation" type="xs:string"/>
   <xs:element name="underline">
@@ -370,9 +374,9 @@
           <xs:enumeration value="Bisected_circle"/>
           <xs:enumeration value="Crown"/>
           <xs:enumeration value="JC"/>
+          <xs:enumeration value="Jupiter"/>
           <xs:enumeration value="HT"/>
           <xs:enumeration value="Hieroglyphic_Monad"/>
-          <xs:enumeration value="Jupiter"/>
           <xs:enumeration value="LL"/>
           <xs:enumeration value="Mars"/>
           <xs:enumeration value="Mercury"/>
@@ -591,6 +595,7 @@
           <xs:enumeration value="crown"/>
           <xs:enumeration value="coat_of_arms"/>
           <xs:enumeration value="scientific_instrument"/>
+          <xs:enumeration value="animal"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -765,9 +770,10 @@
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="graph_text"/>
         <xs:element minOccurs="0" ref="graph_text_translation"/>
       </xs:sequence>
+      <xs:attributeGroup ref="attlist.graph"/>
     </xs:complexType>
   </xs:element>
-  <xs:attributeGroup name="attlist.tree">
+  <xs:attributeGroup name="attlist.graph">
     <xs:attribute name="type" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:token">
@@ -807,10 +813,10 @@
       </xs:simpleType>
     </xs:attribute>
     <xs:attribute name="id"/>
-    <xs:attribute name="tree_continues_to"/>
-    <xs:attribute name="tree_continues_from"/>
-    <xs:attribute name="tree_to_transcription"/>
-    <xs:attribute name="tree_from_transcription"/>
+    <xs:attribute name="graph_continues_to"/>
+    <xs:attribute name="graph_continues_from"/>
+    <xs:attribute name="graph_to_transcription"/>
+    <xs:attribute name="graph_from_transcription"/>
   </xs:attributeGroup>
   <!-- functions as ID -->
   <xs:element name="node">
@@ -820,8 +826,7 @@
   </xs:element>
   <xs:attributeGroup name="attlist.node">
     <xs:attribute name="id" use="required" type="xs:ID"/>
-    <xs:attribute name="relationship" type="xs:IDREFS"/>
-    <xs:attribute name="person_name"/>
+    <xs:attribute name="person"/>
     <xs:attribute name="anchor_text"/>
   </xs:attributeGroup>
   <xs:element name="link">
