@@ -49,6 +49,7 @@
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="calculation"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="graph"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="table"/>
+        <xs:element ref="physical_link"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -596,7 +597,6 @@
           <xs:enumeration value="coat_of_arms"/>
           <xs:enumeration value="scientific_instrument"/>
           <xs:enumeration value="animal"/>
-          <xs:enumeration value="canon"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -1055,4 +1055,46 @@
     <xs:attribute name="name"/>
   </xs:attributeGroup>
   <xs:element name="table_text_translation" type="xs:string"/>
+  <xs:element name="physical_link">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="marginal_annotation"/>
+        <xs:element ref="liink"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="marginal_annotation">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.marginal_annotation"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.marginal_annotation">
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="marginalia"/>
+          <xs:enumeration value="underline"/>
+          <xs:enumeration value="mark"/>
+          <xs:enumeration value="symbol"/>
+          <xs:enumeration value="numeral"/>
+          <xs:enumeration value="errata"/>
+          <xs:enumeration value="drawing"/>
+          <xs:enumeration value="calculation"/>
+          <xs:enumeration value="graph"/>
+          <xs:enumeration value="table"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="idref" use="required"/>
+    <xs:attribute name="text"/>
+  </xs:attributeGroup>
+  <xs:element name="liink">
+    <xs:complexType>
+      <xs:attributeGroup ref="attlist.liink"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.liink">
+    <xs:attribute name="from" use="required"/>
+    <xs:attribute name="to" use="required"/>
+  </xs:attributeGroup>
 </xs:schema>
