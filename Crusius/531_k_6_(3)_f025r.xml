@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Nota eadem etate magna[m] differentia[m] in Anni quantitate.
+                        Nota eadem etate magna[m] differe[n]tia[m] in Anni quantitate. <!--KS: looks like '[a]etate' instead of 'etate'.-->
                     </marginalia_text>
                 </position>
             </language>
@@ -46,11 +46,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="nouam reuolutionum tabellam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Staduj Tabula Reuolutionu[m]
+                        Stadij Tabula Reuolutionu[m]
                     </marginalia_text>
                 </position>
             </language>
@@ -63,7 +63,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Maxima anni Magnitudo [...] minima &Sun; Eccentricitates et sole in pregeg.. exst... 365. hor[ae] .5. m[inutae] .?5. sec[undi] .9. <!-- FSF: to be completed -->
+                        Maxima anni Magnitudo in minima &Sun; Eccentricitates et sole in periges existe[n]ter 365. hor[ae] .5. m[inutae] .?5. sec[undi] .9. <!-- FSF: to be completed -->
                     </marginalia_text>
                     <marginalia_symbol name="Sun"/>
                 </position>
@@ -75,14 +75,17 @@
         
         <underline method="pen" type="straight" language="EL" text="instabilitatem"/> <!-- FSF: Greek to be added -->
         <underline method="pen" type="straight" language="LA" text="annus tropicus apparens"/>
-        <underline method="pen" type="double" language="LA" text="vna eademq[ue] tempestate sinijpsi multum dissimilis"/>
-        <underline method="pen" type="double" language="LA" text="vt Einholdus"/>
+        <underline method="pen" type="double" language="LA" text="vna eademq[ue] tempestate sibijpsi multum dissimilis"/>
+        <underline method="pen" type="double" language="LA" text="vt Reinholdus"/>
         <underline method="pen" type="straight" language="LA" text="In minima enim eccentrotete"/>
         <underline method="pen" type="straight" language="LA" text="propinquum"/>
+        <underline method="pen" type="straight" language="LA" text="anni minima"/>
         <underline method="pen" type="straight" language="LA" text="Sole in apogeo"/>
         <underline method="pen" type="straight" language="LA" text="hor.5.scr.54ia/72a/ Maxima"/>
         <underline method="pen" type="straight" language="LA" text="hor.5.scr.57ia/"/>
-        <underline method="pen" type="double" language="LA" text="qua[e] sie exemplo"/>
+        <underline method="pen" type="straight" language="LA" text="medijs"/>
+        <underline method="pen" type="straight" language="LA" text="hor.5.scr.55ia/382a"/>
+        <underline method="pen" type="double" language="LA" text="quae si exemplo"/>
         <underline method="pen" type="double" language="LA" text="exemplo stadij"/>
         <underline method="pen" type="straight" language="LA" text="tenente apogeon aut perigeon"/>
         <underline method="pen" type="straight" language="LA" text="scrupulis 1ia/ 312a/"/>
@@ -91,13 +94,16 @@
         <underline method="pen" type="straight" language="LA" text="exhibent, hor. 10 scr. 50ia/"/>
         <underline method="pen" type="straight" language="LA" text="horis ferm&egrave;"/>
         <underline method="pen" type="double" language="LA" text="duabus"/>
-        <underline method="pen" type="straight" language="LA" text="tabulae reuolutionum, qua[e] meam peruen&ecirc;re noticiam"/>
+        <underline method="pen" type="straight" language="LA" text="tabulae reuolutionum, quae meam peruen&ecirc;re noticiam"/>
         <underline method="pen" type="straight" language="LA" text="fas est &agrave; certitudine calculi Astronomici aberrant"/>
-        <underline method="pen" type="straight" language="LA" text="siue per modos ina[e]qualitatis"/>
+        <underline method="pen" type="straight" language="LA" text="siue per modos inaequalitatis"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
+        
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
+        
+        <mark name="comma" method="pen" place="intext"/> <!--est à-->
         
     </annotation>
 </transcription>
