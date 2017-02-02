@@ -228,7 +228,7 @@
   </xs:element>
   <xs:attributeGroup name="attlist.marginalia">
     <xs:attribute ref="hand" use="required"/>
-    <xs:attribute ref="method" use="required"/>
+    <xs:attribute ref="method"/>
     <xs:attribute name="id"/>
     <xs:attribute name="marginalia_continues_to"/>
     <xs:attribute name="marginalia_continues_from"/>
@@ -291,7 +291,7 @@
   </xs:element>
   <xs:attributeGroup name="attlist.position">
     <xs:attribute ref="place" use="required"/>
-    <xs:attribute name="book_orientation" use="required"/>
+    <xs:attribute ref="book_orientation" use="required"/>
   </xs:attributeGroup>
   <xs:element name="marginalia_text">
     <xs:complexType mixed="true">
