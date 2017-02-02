@@ -153,8 +153,8 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.target">
-    <xs:attribute name="filename"/>
-    <xs:attribute name="book_id"/>
+    <xs:attribute name="filename"/> <!--obsolete-->
+    <xs:attribute name="book_id"/> <!--obsolete-->
     <xs:attribute name="ref" use="required"/>
     <xs:attribute name="text" use="required"/>
     <xs:attribute name="prefix"/>
@@ -579,10 +579,10 @@
     <xs:attribute ref="place" use="required"/>
     <xs:attribute ref="method" use="required"/>
     <xs:attribute name="id"/>
-    <xs:attribute name="tree_continues_to"/>
-    <xs:attribute name="tree_continues_from"/>
-    <xs:attribute name="tree_to_transcription"/>
-    <xs:attribute name="tree_from_transcription"/>
+    <xs:attribute name="graph_continues_to"/>
+    <xs:attribute name="graph_continues_from"/>
+    <xs:attribute name="graph_to_transcription"/>
+    <xs:attribute name="graph_from_transcription"/>
   </xs:attributeGroup>
   <xs:element name="node">
     <xs:complexType mixed="true">
@@ -694,8 +694,8 @@
   <xs:element name="physical_link">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="marginal_annotation"/>
-        <xs:element ref="relation"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="marginal_annotation"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="relation"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>

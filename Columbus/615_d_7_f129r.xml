@@ -4,7 +4,7 @@
 
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016test06012017.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016test06012017.xsd"> <!--JG: Test transcription. At some point refer to correct XML schema-->
     <page filename="615_d_7_f129r.tif" reader="John Dee" pagination="129" signature="R"/>
     <annotation>
         
@@ -68,6 +68,11 @@
         <underline method="pen" type="straight" language="IT" text="molte Cibe"/>
         <underline method="pen" type="straight" language="IT" text="alle braccia"/>
         <underline method="pen" type="straight" language="IT" text="Colecibi sono"/>
+      
+      <physical_link>
+          <marginal_annotation type="calculation" idref=""/>
+          <relation from="" to=""/>
+      </physical_link>
         
     </annotation>
 </transcription>

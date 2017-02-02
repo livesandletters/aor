@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT physical_link (marginal_annotation*, relation*)>
+	       <!ELEMENT marginal_annotation EMPTY>
+	           <!ATTLIST marginal_annotation type (marginalia|underline|mark|symbol|numeral|errata|drawing|calculation|graph|table) #REQUIRED>	
+   	            <!ATTLIST marginal_annotation idref CDATA #REQUIRED>
+   	            <!ATTLIST marginal_annotation text CDATA #IMPLIED>
+	               <!ELEMENT relation EMPTY>
+   	                <!ATTLIST relation from CDATA #REQUIRED>
+   	                <!ATTLIST relation to CDATA #REQUIRED>
