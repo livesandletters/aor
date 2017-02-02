@@ -12,13 +12,16 @@
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
                         qui vult ergo proficere in hac sapientia, oportet ista[m] admirabile[m] mixtionem,
-                        seu arcanu[m] componere: &amp; postea ip[su]m mutare de natura
+                        seu arcanu[m] maximu[m] componere: &amp; postea ip[su]m mutare de natura
                         in natura[m], Luca sic dicente in Turba. Pluribus rebus &amp;e
                     </marginalia_text>
+                    <person name="Lucas"/>
+                    <book title="Turba philosophorum"/> <!-- FSF: to be checked with the list online -->
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                Therefore, the one who wants to succeed in this practical wisdom ought to compose this astonishing mixture or the greatest secret.
+                And afterwards, Lucas says in the Turba philosophorum, to change from the nature to the nature. Many more things etc.
             </translation>
         </marginalia>
         
@@ -26,14 +29,15 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Nam vt tertatur Geber, Ars talis no[n] co[n]sistit in pluralitate rerum, cum
+                        Nam vt testatur Geber, Ars talis no[n] co[n]sistit in pluralitate rerum, cum
                         dicit. Est enim lapis vnus, Medecina vna, in q[uo] magisteriu[m] m[ateria]m co[n]sistit. <!-- FSF: not sure about the m[ateria]m, see Capelli pp. 221-2 -->
                     </marginalia_text>
                     <person name="Geber"/>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                For, as Geber testifies, such an art does not consist of the plurality of things/matters, he says. 
+                For it is one stone, one medicine of which the magisterial matter constists. <!-- FSF: of which sentence not clear -->
             </translation>
         </marginalia>
         
@@ -41,20 +45,30 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        In vna ergo re consistit totum magistrerium istud: s[ed] in ARgento vino:
-                        &amp; hoc expresse dicit Alphidius filio suo. Scitp fili quod hoc sapis
-                        qui est radix, de quo o[mn]es sapientes tractaverunt, Argentu[m] vinum
+                        In vna ergo re consistit totum magisterium istud: s[cilicet] in Argento vivo:
+                        &amp; hoc expresse dicit Alphidius filio suo. Scito fili quod hoc sapis
+                        qui est radix, de quo o[mn]es sapientes tractaverunt, Argentu[m] viuum
                         est. Et est quoddam Argentum vinum Albi coloris, &amp; plus quam Speculu[m]
-                        splendens. Item fertur in turba. Initum totius operis est Albedo
-                        [id est] Argentu[m] vinum. Rubor&apos;q[ue] succedit. Notetis ergo quod Anima
+                        splendens. Item fertur in turba. Initium totius operis est Albedo
+                        [id est] Argentu[m] vinum. Rubor&apos;q[ue] succedit. Notetis ergo quod Acetum,
+                        Agnus, Aibachest, Albedo, Alborach, Albu[m] plumbum, Anima,
                         Aqua albificans, Aqua gravis, Aqua mercurialis, Aqua mundificata, Aqua sicca, Aqua talchi, Aqua vina, Aqua viscosa
                         Aqua vita[e], Aqua vicma[e], Argentum vinum sapientum,
                     </marginalia_text>
                     <person name="Alphidius"/>
+                    <person name="son of Alphidius"/> <!-- FSF: not sure if important; not yet in list -->
+                    <book title="Turba philosophorum"/> <!-- FSF: to be checked with the list online -->
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                Therefore one whole magestrial thing consists of one thing/matter, certainly mercury. 
+                And this Alphidius said to his son clearly.
+                Know, my son, that this stone which is the root from which all widom is extracted, is mercury.
+                And there is a certain mercury of white colour, an even much more splendour copy.
+                Likewise it is considered in the Assemlby of Philosophers. 
+                The beginning of the entire work is whiteness, that is mercury. And redness follows.
+                Therefore, take not what vinegar, lamb, <!-- Aibachest -->, whiteness, <!-- Alborach -->, tin, <!-- anima -->,
+                <!-- FSF: the following terms are all related to water and I am not sure of how to translate them; hopefully the secondary literature will help -->
             </translation>
         </marginalia>
         
