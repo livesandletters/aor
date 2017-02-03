@@ -4,7 +4,6 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="615_d_7_f022v.tif" reader="John Dee" pagination="22" signature="[Cvi [v]]"/> 
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="capo di Chiara" method="pen">
@@ -16,10 +15,15 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="quaranta anni" method="pen">
+        <marginalia hand="Italian" anchor_text="quaranta anni auanti" method="pen">
+            <language ident="EN">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>40 yeres</marginalia_text>
+                </position>
+            </language>
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>40 yeres Ergo, A[nn]o 1452</marginalia_text>
+                    <marginalia_text>Ergo, A[nn]o 1452.</marginalia_text>
                 </position>
             </language>
             <translation>40 years, therefore the year 1452.</translation>
@@ -42,7 +46,7 @@
                     <person name="Femaldolmos"/>
                 </position>
             </language>
-            <translation>Femaldolmos</translation> 
+            <translation>Femaldolmos.</translation> 
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="por Nordeste"/>
@@ -63,8 +67,7 @@
         
         <mark name="bracket" method="pen" place="intext"/>
         
-        <drawing type="manicule" book_orientation="0" place="tail" method="pen" anchor_text="cosa vengono"></drawing>
-        
-        
+        <drawing type="manicule" book_orientation="0" place="tail" method="pen" anchor_text="cosa vengono"/>
+           
     </annotation>
 </transcription>
