@@ -188,7 +188,7 @@
 	       <!ELEMENT table_symbol EMPTY>
 	           <!ATTLIST table_symbol name CDATA #IMPLIED>  
 	       <!ELEMENT table_text_translation (#PCDATA)>
-	  <!ELEMENT physical_link (marginal_annotation, relation)>
+	  <!ELEMENT physical_link (marginal_annotation*, relation*)>
 	       <!ELEMENT marginal_annotation EMPTY>
 	           <!ATTLIST marginal_annotation type (marginalia|underline|mark|symbol|numeral|errata|drawing|calculation|graph|table) #REQUIRED>	
    	            <!ATTLIST marginal_annotation idref CDATA #REQUIRED>
