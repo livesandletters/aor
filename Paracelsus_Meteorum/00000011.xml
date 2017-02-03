@@ -3,10 +3,10 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../../../../GitHub/aor/XMLschema/HarveyDTD02022015_AOR2.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="00000011.tif" reader="John Dee" pagination="front endpaper"/> 
     <annotation>
-        <marginalia hand="English_secretary" marginalia_id="00000011_0001">
+        <marginalia hand="English_secretary" id="NYSLWin189:00000011:m0001">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>Christianus Ratz scit vbi isti libri Paracelsi su[n]t. [Et - deleted] vt mihi retulit Georgius Marquarolus 1567. feb. 20.
@@ -53,7 +53,7 @@
                 </position>
             </language>
             <language ident="LA">
-                <position placae="full_page" book_orientation="0">
+                <position place="full_page" book_orientation="0">
                     <marginalia_text>Liber de [Muctag...] <!--JG: Don't know this work--> <!--KS: Mucdagine? Still clueless, though.-->
                     Alter Fragmenta Th[eopras]ti <!--JG: Don't know this work-->
                     De transmutatione metallor[um]</marginalia_text>
@@ -79,8 +79,8 @@
         </marginalia>
         
         <drawing type="scientific_instrument" book_orientation="0" place="full_page" method="pen">
-            <drawing_text hand="Italian" language_ident="EN">by this is more done at ones des[...]ing than at ten tymes by an ale[mb]ik.</drawing_text>
-            <drawing_text hand="Italian" language_ident="LA">J D suspiror tale quid apponi posse [p[os]t] [etia[m]] [siue] tali.</drawing_text> <!--JG: impossible to read--> <!--KS: makes no sense-->
+            <drawing_text hand="Italian" language="EN">by this is more done at ones des[...]ing than at ten tymes by an ale[mb]ik.</drawing_text>
+            <drawing_text hand="Italian" language="LA">J D suspiror tale quid apponi posse [p[os]t] [etia[m]] [siue] tali.</drawing_text> <!--JG: impossible to read--> <!--KS: makes no sense-->
             <drawing_person name="John Dee"/>
             <drawing_text_translation><!-- JG: insert translation --></drawing_text_translation>
         </drawing>
