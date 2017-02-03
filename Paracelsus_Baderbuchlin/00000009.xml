@@ -7,7 +7,7 @@
     <page filename="00000009.tif" reader="John Dee"  signature=""/> <!-- FSF: signature to be added -->
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" id="NYSLWin189:00000009:m0001">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>Archidoxis Theophrastiae pars prima <!--JG: Remember, in marginal notes the ae ligature has to be captured as followed a[e]. So 'Theoprastia[e]'-->
@@ -48,6 +48,7 @@
                     <book title="Propaedumata Aphoristica"/>
                     <book title="Stoicheia"/>
                     <internal_ref>
+                        <target ref="NYSLWin189:00000009:m0001" text="above" prefix="This " suffix=" written"/>
                         <target ref="NYSLWin189:00000011:m0001" text="top" prefix="the " suffix=" of"/>
                         <target ref="NYSLWin189:00000011:m0002" text="middle" prefix="the " suffix=" of"/>
                     </internal_ref>
