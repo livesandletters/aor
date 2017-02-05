@@ -30,10 +30,10 @@
   
   <xs:element name="symbol_in_text"> <!-- I.e. all the symbols that do not stand on their own, but appear with/as part of the text of a reader's intervention-->
     <xs:complexType>
-      <xs:attributeGroup ref="attlist.marginalia_symbol"/>
+      <xs:attributeGroup ref="attlist.symbol_in_text"/>
     </xs:complexType>
   </xs:element>
-  <xs:attributeGroup name="attlist.marginalia_symbol">
+  <xs:attributeGroup name="attlist.symbol_in_text">
     <xs:attribute name="name" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:token">
@@ -318,7 +318,7 @@
   <xs:attributeGroup name="attlist.X-ref">
     <xs:attribute name="person" use="required"/>
     <xs:attribute name="book_title" use="required"/>
-    <xs:attribute name="language"/>
+    <xs:attribute ref="language"/>
     <xs:attribute name="text"/>
   </xs:attributeGroup>
   <xs:element name="emphasis">
@@ -368,41 +368,13 @@
   
   <xs:element name="symbol">
     <xs:complexType>
-      <xs:attributeGroup ref="attlist.symbol"/>
+      <xs:attributeGroup ref="attlist.symbol_in_text"/>
+      <xs:attribute ref="place" use="required"/>
+      <xs:attribute ref="language"/>
+      <xs:attribute name="text"/>
+      <xs:attribute name="id"/>
     </xs:complexType>
   </xs:element>
-  <xs:attributeGroup name="attlist.symbol">
-    <xs:attribute name="name" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:token">
-          <xs:enumeration value="Asterisk"/>
-          <xs:enumeration value="Bisected_circle"/>
-          <xs:enumeration value="Crown"/>
-          <xs:enumeration value="JC"/>
-          <xs:enumeration value="HT"/>
-          <xs:enumeration value="Hieroglyphic_Monad"/>
-          <xs:enumeration value="Jupiter"/>
-          <xs:enumeration value="LL"/>
-          <xs:enumeration value="Mars"/>
-          <xs:enumeration value="Mercury"/>
-          <xs:enumeration value="Moon"/>
-          <xs:enumeration value="Opposite_planets"/>
-          <xs:enumeration value="Salt"/>
-          <xs:enumeration value="Saturn"/>
-          <xs:enumeration value="Square"/>
-          <xs:enumeration value="SS"/>
-          <xs:enumeration value="Sulfur"/>
-          <xs:enumeration value="Sun"/>
-          <xs:enumeration value="Venus"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute ref="place" use="required"/>
-    <xs:attribute ref="language"/>
-    <xs:attribute name="text"/>
-    <xs:attribute name="id"/>
-    <xs:attribute name="internal_ref"/>
-  </xs:attributeGroup>
   
   <xs:element name="mark">
     <xs:complexType>
@@ -451,7 +423,6 @@
     <xs:attribute ref="language"/>
     <xs:attribute name="text"/>
     <xs:attribute name="id"/>
-    <xs:attribute name="internal_ref"/>
   </xs:attributeGroup>
   
   <xs:element name="numeral">
@@ -464,7 +435,6 @@
     <xs:attribute ref="language"/>
     <xs:attribute name="text"/>
     <xs:attribute name="id"/>
-    <xs:attribute name="internal_link"/>
   </xs:attributeGroup>
   
   <xs:element name="errata">
@@ -513,7 +483,6 @@
     <xs:attribute ref="place" use="required"/>
     <xs:attribute ref="method" use="required"/>
     <xs:attribute name="id"/>
-    <xs:attribute name="internal_link"/>
     <xs:attribute name="anchor_text"/>
   </xs:attributeGroup>
   
@@ -542,7 +511,6 @@
     <xs:attribute ref="place" use="required"/>
     <xs:attribute ref="method" use="required"/>
     <xs:attribute name="id"/>
-    <xs:attribute name="internal_link"/>
   </xs:attributeGroup>
   <xs:element name="calculation_anchor">
     <xs:complexType mixed="true">
@@ -630,7 +598,7 @@
     <xs:attribute name="id" type="xs:ID"/>
     <xs:attribute ref="hand" use="required"/>
     <xs:attribute ref="language" use="required"/>
-    <xs:attribute name="internal_link" type="xs:IDREFS"/>
+    <xs:attribute name="internal_link" type="xs:IDREFS"/> <!--Internal reference (within annotation)-->
     <xs:attribute name="anchor_text"/>
   </xs:attributeGroup>
   
@@ -660,7 +628,6 @@
     </xs:attribute>
     <xs:attribute ref="place" use="required"/>
     <xs:attribute name="id"/>
-    <xs:attribute name="internal_link"/> 
     <xs:attribute name="aggregated_information"/>
   </xs:attributeGroup>
   <xs:element name="tr">
@@ -690,6 +657,7 @@
     <xs:attribute name="anchor_text"/>
     <xs:attribute name="anchor_data"/>
   </xs:attributeGroup>
+  
   <xs:element name="physical_link">
     <xs:complexType>
       <xs:sequence>
