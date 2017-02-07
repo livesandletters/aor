@@ -6,10 +6,11 @@
     <page filename="615_d_7_f194r.tif" reader="John Dee" pagination="194" signature="Bbij"/>
     <annotation>
         
-        <marginalia hand="Italian" method="pen" anchor_text="">
+        <marginalia hand="Italian" method="pen" anchor_text="l' vtile manifesto">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Christofer Colon his </marginalia_text>
+                    <marginalia_text>Christofer Colon his first proposal </marginalia_text>
+                    <person name="Colombus"/>
                 </position>
             </language>
         </marginalia>
@@ -22,10 +23,10 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="">
-            <language ident="LA">
+        <marginalia hand="Italian" method="pen" anchor_text="scopritori">
+            <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Da</marginalia_text>
+                    <marginalia_text>Dascoueries</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -34,14 +35,16 @@
             <language ident="IT">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Paria</marginalia_text>
+                    <location name="Paria"/>
                 </position>
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="">
+        <marginalia hand="Italian" method="pen" anchor_text="la prouincia di Paria, la qual fu la prima regione, che della terra ferma">
             <language ident="EN">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>THis fir Paria </marginalia_text>
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>THis first firma land detrothed Paria.</marginalia_text>
+                    <location name="Paria"/>
                 </position>
             </language>
         </marginalia>
@@ -57,6 +60,11 @@
         <underline method="pen" type="double" language="IT" text="region nuoua, ma che seguono la scoperta"/>
         <underline method="pen" type="straight" language="IT" text="prouincia di Paria"/>
         <underline method="pen" type="straight" language="IT" text="regione, che della terra ferma gi&agrave; fu trouata"/>
+        
+        <mark name="bracket" method="pen" place="right_margin" text="che la principal cosa, alla qual egli si era offerto, prima che scoprisse le Indie, egli l' hauea gi&agrave; adempiuta, che era mostrar, 
+            che v'erano delle Isole, &amp; che la strada era facile, &amp; nauigabile, &amp; l' vtile manifesto &amp; le genti molto domestiche, &amp; disarmate"/>
+        <mark name="bracket" method="pen" place="right_margin" text="la prouincia di Paria, la qual fu la prima regione, che della terra ferma gi&agrave; fu trouata"/>
+        
     </annotation>
 </transcription>
 
