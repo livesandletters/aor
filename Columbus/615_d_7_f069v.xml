@@ -29,7 +29,8 @@
         <marginalia hand="Italian" anchor_text="Caribi; mangiarseli" method="pen">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Caribi, the men eaters.</marginalia_text> <!--JG: I'd tag the Caribi here (people tag): https://en.wikipedia.org/wiki/Island_Caribs-->
+                    <marginalia_text>Caribi, the men eaters.</marginalia_text>
+                    <person name="Caribs"/>
                 </position>
             </language>
         </marginalia>
@@ -37,7 +38,7 @@
         <marginalia hand="Italian" anchor_text="lasciasse Christiani" method="pen">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Note this intent of leaving men insyde</marginalia_text> <!--JG: Isn't the last word 'behynde'?-->
+                    <marginalia_text>Note this intent of leaving men behynde</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -68,7 +69,7 @@
         
         <mark name="bracket" method="pen" place="left_margin" language="IT" text="tanto amore"/>
         
-        <mark name="bracket" method="pen" place="left_margin"/> <!--JG: I'd capture the last four lines of the printed text, starting with 'egli fermasse' in the text attribute-->
+        <mark name="bracket" method="pen" place="left_margin" language="IT" text="egli fermasse qui habitationi, &amp; vi lasciasse Christiani, i quali trafficassero, &amp; s'informassero del paese, &amp; della gente, apprendendo quella lingua, e tenendo prattica con quel popolo"/>
         
         <drawing type="manicule" book_orientation="0" place="tail" method="pen"/>
         
