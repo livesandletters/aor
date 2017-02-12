@@ -36,7 +36,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="che per arte magica hauesse fatto nascer quella burasca per vendicarsi del Bouadiglia">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Magik in to Christophir Colon</marginalia_text>
+                    <marginalia_text>Magik in to Christophir Colon</marginalia_text> <!--JG: I think it should be 'imputed', but check whether this matches the Italian text. Also, should be 'Christopher'-->
                     <!--MB word following 'magik' needs to be confirmed.  -->
                     <person name="Colombus"/>
                 </position>
@@ -51,10 +51,12 @@
         <underline method="pen" type="straight" language="IT" text="Azua"/>
         <underline method="pen" type="double" language="IT" text="prattico marinaio"/>
         <underline method="pen" type="double" language="IT" text="sauio Astrologo"/>
-        <underline method="pen" type="double" language="IT" text="il luogo"/>
-        <underline method="pen" type="straight" language="IT" text="che per arte magica hauesse fatto nascer quella burasca per vendicarsi del Bouadiglia"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>
+        <underline method="pen" type="double" language="IT" text="conosceua il luogo"/>
+        <underline method="pen" type="double" language="IT" text="che per arte magica hauesse"/>
+        <underline method="pen" type="straight" language="IT" text="fatto nascer quella burasca per vendicarsi del Bouadiglia"/>
+        
+        <mark name="bracket" method="pen" place="left_margin"/> <!-- JG: Should be right margin -->
+        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- JG: Should be right margin + should be bracket + should include underscored text in text attribute -->
         
     </annotation>
 </transcription>
