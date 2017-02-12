@@ -13,10 +13,10 @@
                     <location name="Casine"/>
                 </position>
             </language>
-            <translation>The tip of the Casine.</translation>
+            <translation>The tip of the Casine.</translation> <!--JG: You can omit 'the' here, no, if Casine is a location-->
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="di Honduras">
+        <marginalia hand="Italian" method="pen" anchor_text="di Honduras"> <!--JG: It part of previous marginal note (la punta is implied, take into account when translating)-->
             <language ident="IT">
                 <position place="head" book_orientation="0">
                     <marginalia_text>di Honduras</marginalia_text>
@@ -26,11 +26,11 @@
             <translation>of the Honduras</translation>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen">
+        <marginalia hand="Italian" method="pen"> <!--JG: Is part of previous marginal note. Is Latin, so open and close language tags-->
             <language ident="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>idol</marginalia_text>
-                    <!-- M.B. Possibly 'Ido or Idol' needs further confirmation. -->
+                    <marginalia_text>idol</marginalia_text> 
+                    <!-- M.B. Possibly 'Ido or Idol' needs further confirmation. --> <!--JG: That's correct, should be 'ide[m]'-->
                 </position>
             </language>
         </marginalia>
@@ -43,7 +43,7 @@
                     <location name="Casine"/>
                 </position>
             </language>
-            <translation>The tip of the Casine.</translation>
+            <translation>The tip of the Casine.</translation> <!--JG: You can omit 'the' here, no, if Casine is a location-->
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="non volen">
@@ -57,11 +57,10 @@
         <marginalia hand="Italian" method="pen" anchor_text="Pietro di Ledesma">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Pietro di Lidisima</marginalia_text>
+                    <marginalia_text>Pietro di Lidisima</marginalia_text> <!--JG: Is a person, find out who this is and tag accordingly (and include in person spreadsheet, and give English name in translation-->
                 </position>
             </language>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="IT" text="di Beragua verso Occidente"/>
         <underline method="pen" type="straight" language="IT" text="Costa di Cariai"/>
@@ -72,17 +71,19 @@
         <underline method="pen" type="straight" language="IT" text="il nome di tutte"/>
         <underline method="pen" type="straight" language="IT" text="quel della principlale"/>
         <underline method="pen" type="straight" language="IT" text="non volen"/>
-        <underline method="pen" type="double" language="IT" text="do confe&sharp-S;ar"/>
+        <underline method="pen" type="double" language="IT" text="do confe&sharp-S;ar"/> <!--JG: should be transcribed as 'confessar'-->
         <underline method="pen" type="straight" language="IT" text="a se stessi quello"/>
         <underline method="pen" type="straight" language="IT" text="Pietro di Ledesina"/>
         <underline method="pen" type="straight" language="IT" text="quel viaggio di Beragua"/>
-        <underline method="pen" type="straight" language="IT" text="egli conofceau quelle regioni, &amp; che erano di quelle, ch' ei con l' Ammiraglio"/>
+        <underline method="pen" type="straight" language="IT" text="egli conofceua quelle regioni, &amp; che erano di quelle, ch' ei con l' Ammiraglio"/>
         <underline method="pen" type="straight" language="IT" text="aiutato a scoprire"/>
         <underline method="pen" type="straight" language="IT" text="&amp; I' Isola"/>
         <underline method="pen" type="straight" language="IT" text="istessa forma"/>
         <underline method="pen" type="straight" language="IT" text="distanza"/>
         <underline method="pen" type="straight" language="IT" text="Di modo che due volte giace situata nella carta vna medesima terra"/>
-        <mark name="bracket" method="pen" place="head"/>
+        
+        <mark name="bracket" method="pen" place="head"/> <!--JG: Transcribe this as part of marginal note, not as separate tag-->
+        
     </annotation>
 </transcription>
 
