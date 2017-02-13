@@ -7,6 +7,47 @@
     
     <annotation>
         
+       <marginalia hand="Italian">
+           <language ident="EN">
+               <position place="head" book_orientation="0">
+                   <marginalia_text>Note this side well for many reports</marginalia_text>
+               </position>
+           </language>
+       </marginalia> 
+        
+        <marginalia hand="Italian" anchor_text="gl' Indiani stauano obedienti, &amp; con gran paura dell' Ammiraglio,">
+            <language ident="EN">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Note of the Indians</marginalia_text>
+                </position>
+            </language>
+        </marginalia> 
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>The Indians pray to h equipment.</marginalia_text>
+                    <!-- M.B. Difficulty deciphering words following 'Indians' -->
+                </position>
+            </language>
+        </marginalia> 
+       
+        <marginalia hand="Italian" anchor_text="MCCCCXCIX">
+            <language ident="EN">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>1499</marginalia_text>
+                </position>
+            </language>
+        </marginalia> 
+        
+        <marginalia hand="Italian" anchor_text="Nostro Signore, dicendomi, O huomo di poca fede, non hauer paura, io sono.">
+            <language ident="EN">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Heavenly cumfort</marginalia_text>
+                </position>
+            </language>
+        </marginalia> 
+        
         <underline method="pen" type="straight" language="IT" text="gl' Indiani stauano obedienti, &amp; con gran paura dell' Ammiraglio,"/>
         <underline method="pen" type="straight" language="IT" text="volontieri si faceano Christiani"/>
         <underline method="pen" type="straight" language="IT" text="di andar vestito"/>
@@ -20,7 +61,11 @@
         <underline method="pen" type="straight" language="IT" text="speranza del mondo"/>
         <underline method="pen" type="straight" language="IT" text="a S. Domenico"/>
         
+        <mark name="quotation_mark" method="pen" place="right_margin"/> 
         <mark name="comma" method="pen" place="intext"/> <!-- quindi, il -->
+        <mark name="bracket" method="pen" place="right_margin" text="gl' Indiani stauano obedienti, &amp; con gran paura dell' Ammiraglio,"/>
+        <mark name="bracket" method="pen" place="right_margin"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
     </annotation>
 </transcription>
