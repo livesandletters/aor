@@ -9,31 +9,33 @@
         <marginalia hand="Italian" method="pen" anchor_text="grandissimo errore">
             <language ident="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>The cart makers errors ditailed.</marginalia_text> <!--JG: Should be 'detected'-->
+                    <marginalia_text>The cart makers errors detected.</marginalia_text> 
                 </position>
             </language>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="Guanara">
-            <language ident="EN"> <!--JG: IT, or is English name the same?-->
+            <language ident="IT">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Guanara</marginalia_text>
                     <location name="Guanara"/>
                 </position>
             </language>
+            <translation>Republic of Guanara</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="Capo di Honduras">
-            <language ident="EN"> <!--JG: Should be IT-->
+            <language ident="IT">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Capo di Honduras</marginalia_text>
                     <location name="Honduras"/>
                 </position>
-            </language> <!--JG: Translate-->
+            </language>
+            <translation>Honduras</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="punta di casine">
-            <language ident="EN"> <!--JG: Should be IT-->
+            <language ident="IT">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Punta di Casine</marginalia_text>
                     <location name="Casine"/>
