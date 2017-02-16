@@ -6,12 +6,13 @@
     <page filename="615_d_7_f164r.tif" reader="John Dee" pagination="164" signature="Xiiij"/>    
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="IT">
+        <marginalia hand="Italian" anchor_text="XXX d Agosto">
+            <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>Angusti 30.</marginalia_text> <!-- Note, Du Cange, late Latin variant for Augusti -->
                 </position>
             </language>
+            <translation>August 30</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="San Domenico">
@@ -19,6 +20,14 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>San Domenico</marginalia_text>
                     <location name="San Domenico"/>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ma trou&ograve; nondimeno tutto il contrario">
+            <language ident="IT">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Yll rule</marginalia_text>
                 </position>
             </language>
         </marginalia>
