@@ -235,7 +235,7 @@
     <xs:attribute name="marginalia_to_transcription"/>
     <xs:attribute name="marginalia_from_transcription"/>
     <xs:attribute name="book_id"/>
-    <xs:attribute name="internal_link"/>
+    <xs:attribute name="internal_ref"/>
     <xs:attribute name="date"/>
     <xs:attribute name="other_reader"/>
     <xs:attribute name="topic">
@@ -447,7 +447,7 @@
     <xs:attribute name="copytext" use="required"/>
     <xs:attribute name="amendedtext" use="required"/>
     <xs:attribute name="id"/>
-    <xs:attribute name="internal_link"/>
+    <xs:attribute name="internal_ref"/>
   </xs:attributeGroup>
   
   <xs:element name="drawing">
@@ -511,6 +511,7 @@
     <xs:attribute ref="place" use="required"/>
     <xs:attribute ref="method" use="required"/>
     <xs:attribute name="id"/>
+    <xs:attribute name="internal_ref"/>
   </xs:attributeGroup>
   <xs:element name="calculation_anchor">
     <xs:complexType mixed="true">
@@ -546,6 +547,7 @@
     <xs:attribute ref="place" use="required"/>
     <xs:attribute ref="method" use="required"/>
     <xs:attribute name="id"/>
+    <xs:attribute name="internal_ref"/>
     <xs:attribute name="graph_continues_to"/>
     <xs:attribute name="graph_continues_from"/>
     <xs:attribute name="graph_to_transcription"/>
@@ -628,6 +630,7 @@
     </xs:attribute>
     <xs:attribute ref="place" use="required"/>
     <xs:attribute name="id"/>
+    <xs:attribute name="internal_ref"/>
     <xs:attribute name="aggregated_information"/>
   </xs:attributeGroup>
   <xs:element name="tr">

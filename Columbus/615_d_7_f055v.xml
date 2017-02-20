@@ -28,7 +28,7 @@
         <marginalia hand="Italian" anchor_text="XIX di Ottobre" method="pen">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>19 octob[e]r.</marginalia_text>
+                    <marginalia_text>19 octobr.</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -36,7 +36,7 @@
         <marginalia hand="Italian" anchor_text="Saometto" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Saometto. Ins Isabella</marginalia_text>
+                    <marginalia_text>4. Saometto. Ins Isabella</marginalia_text>
                     <location name="Isabela"/>
                 </position>
             </language>
@@ -51,15 +51,13 @@
         <underline method="pen" type="straight" language="IT" text="chiamata Saometto"/>
         <underline method="pen" type="straight" language="IT" text="nome l' Isabella"/>
         <underline method="pen" type="straight" language="IT" text="per proceder con ordine ne' suoi nomi"/>
-        <underline method="pen" type="straight" language="IT" text="Guahani"/>
+        <underline method="pen" type="straight" language="IT" text="Guanahani"/>
         <underline method="pen" type="straight" language="IT" text="seconda"/>
         
         <mark name="tripunctus" method="pen" place="left_margin"/>
         
-        <numeral place="left_margin">1</numeral>  <!-- DO: possibly links to page 51r -->
-        <numeral place="left_margin">2</numeral>
-        <numeral place="left_margin">4</numeral>
+        <numeral place="left_margin" text="Guanahani">1</numeral>  <!-- DO: see page 51r -->
+        <numeral place="left_margin" text="San Saluatore">2</numeral>
         
     </annotation>
-    
 </transcription>
