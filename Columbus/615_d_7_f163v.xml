@@ -22,7 +22,7 @@
             </language>
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Hisp[ania].</marginalia_text>
+                    <marginalia_text>Hisp[ania].</marginalia_text> <!--JG: Not sure about this, fourth letter is definitely not a 'p'-->
                 </position>
             </language>
             <translation>All gold. Spain.</translation>
@@ -40,16 +40,16 @@
         <marginalia hand="Italian" anchor_text="i Testimoni.">
             <language ident="IT">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>i Testimoni</marginalia_text> 
+                    <marginalia_text>I Testimoni</marginalia_text> 
                 </position>
             </language>
-            <translation>the witnesses.</translation>
+            <translation>The witnesses.</translation> <!--JG: Should be plural, no?-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="XVI di Agosto">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>16 August</marginalia_text> 
+                    <marginalia_text>16 August</marginalia_text> <!--JG: Be careful, it's '16 Augusti', it's in Latin (so change language tag)-->
                 </position>
             </language>
         </marginalia>
@@ -80,9 +80,9 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="monti Tutti Oro"/>
-        <underline method="pen" type="straight" language="IT" text="d' oro"/>
+        <underline method="pen" type="straight" language="IT" text="d'oro"/>
         <underline method="pen" type="straight" language="IT" text="VI"/>
-        <underline method="pen" type="straight" language="IT" text="le Guardie"/>
+        <underline method="pen" type="straight" language="IT" text="chiam&ograve; le Guardie"/>
         <underline method="pen" type="straight" language="IT" text="i Testimoni"/>
         <underline method="pen" type="straight" language="IT" text="del troppo vegghiare gli occhi gli"/>
         <underline method="pen" type="straight" language="IT" text="maggior parte"/>
@@ -90,7 +90,7 @@
         <underline method="pen" type="triple" language="IT" text="&amp; piloti"/>
         <underline method="pen" type="straight" language="IT" text="allhora noruesteato, le aguglie noruestearono"/>
         <underline method="pen" type="straight" language="IT" text="fretta piu d'vna quarta"/>
-        <underline method="pen" type="straight" language="IT" text="zo vento"/>
+        <underline method="pen" type="straight" language="IT" text="mezo vento"/>
         <underline method="pen" type="straight" language="IT" text="sempre erano"/>
         <underline method="pen" type="straight" language="IT" text="notar cio&ograve;"/>
         <underline method="pen" type="straight" language="IT" text="al Norueste"/>
