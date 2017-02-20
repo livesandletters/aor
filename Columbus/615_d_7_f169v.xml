@@ -6,25 +6,25 @@
     <page filename="615_d_7_f169v.tif" reader="John Dee" pagination="[169v]" signature="[Y[v]]"/>    
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="lor fauore, &amp; notitia era stata questa">
+        <marginalia hand="Italian" anchor_text="lor fauore, &amp; notitia era stata questa"> <!--JG: Only use anchor-text attribute when there's a direct link between marginal note and underscored text. Not the case here I think!-->
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>The Indians by the Spaniards to </marginalia_text> <!-- M.B Note difficulty transcribing, return to this later -->
+                    <marginalia_text>The Indians by the Spaniards to </marginalia_text> <!-- M.B Note difficulty transcribing, return to this later --> <!--JG: 'The Indians seduced by the Spaniards to vse violence'-->
                 </position>
             </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="di VIII, O X per ciascuna"/>
         <underline method="pen" type="straight" language="IT" text="che nel primo tondo della Luna"/>
-        <underline method="pen" type="straight" language="IT" text="vno di quello, &amp; il principale"/>
+        <underline method="pen" type="straight" language="IT" text="vno di quelli, &amp; il principale"/>
         <underline method="pen" type="straight" language="IT" text="essendo buono Astrologo"/>
-        <underline method="pen" type="straight" language="IT" text="sapere il d&igrave; certo del plenilunio,"/>
-        <underline method="pen" type="straight" language="IT" text="questi lo pun&igrave;"/>
+        <underline method="pen" type="straight" language="IT" text="sapere il d&igrave; certo del plenilunio, assalt&ograve;"/>
+        <underline method="pen" type="straight" language="IT" text="percioche questi lo pun&igrave;"/>
         <underline method="pen" type="straight" language="IT" text="che egli hauea meritata"/>
         <underline method="pen" type="straight" language="IT" text="si scoprisse"/>
         <underline method="pen" type="straight" language="IT" text="lor fauore, &amp; notitia era stata questa"/>
         
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/> <!--JG: Should be vertical bar-->
         <mark name="bracket" method="pen" place="left_margin"/>
         
     </annotation>
