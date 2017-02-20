@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="di CLX ammalati di mal Francese">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>160 sik of the frinch porks</marginalia_text> 
+                    <marginalia_text>160 sik of the frinch porks</marginalia_text> <!--JG: '160 sik of the french pocks'-->
                 </position>
             </language>
         </marginalia>
@@ -44,25 +44,28 @@
         <underline method="pen" type="straight" language="IT" text="morta, &amp; de gli"/>
         <underline method="pen" type="straight" language="IT" text="di CLX ammalati di mal Francese"/>
         <underline method="pen" type="straight" language="IT" text="erano solleuati con"/>
-        <underline method="pen" type="straight" language="IT" text="dal giorno, che l' Ammiraglio"/>
+        <underline method="pen" type="straight" language="IT" text="cominiciando dal giorno, che l' Ammiraglio"/>
         <underline method="pen" type="straight" language="IT" text="anno MCCCCXCVI"/>
-        <underline method="pen" type="straight" language="IT" text="XXX mesi dal girono della sua tornata"/>
+        <underline method="pen" type="straight" language="IT" text="scorsi XXX mesi dal girono della sua tornata"/>
         <underline method="pen" type="double" language="IT" text="nel principio"/>
-        <underline method="pen" type="straight" language="IT" text="tornata, &amp; d' essere di breue soccorsi, fu nella gente alcuna quiete"/>
-        <underline method="pen" type="straight" language="IT" text="primo anno, mancando loro di quelle cose di Castiglia"/>
-        <underline method="pen" type="straight" language="IT" text="le infermit&agrave;"/>
+        <underline method="pen" type="straight" language="IT" text="tornata, &amp; d' essere di breue soccorsi, fu nella gente"/>
+        <underline method="pen" type="double" language="IT" text="alcuna quiete"/>
+        <underline method="pen" type="straight" language="IT" text="il primo anno, mancando loro di quelle cose di Castiglia"/>
+        <underline method="pen" type="straight" language="IT" text="crescendo le infermit&agrave;"/>
         <underline method="pen" type="straight" language="IT" text="le querele di"/>
         <underline method="pen" type="straight" language="IT" text="discontenti, fra i"/>
-        <underline method="pen" type="straight" language="IT" text="pretenda farsi Capo di parte"/>
+        <underline method="pen" type="straight" language="IT" text="pretenda farsi"/>
+        <underline method="pen" type="double" language="IT" text="Capo di parte"/>
         <underline method="pen" type="double" language="IT" text="Francesco Orlando"/>
         <underline method="pen" type="double" language="IT" text="Ximeno"/>
         <underline method="pen" type="straight" language="IT" text="lasciarlo giudice maggiore, che non meno era vbidito"/>
         
         <mark name="bracket" method="pen" place="intext"/> <!-- ( Di che -->
-        <mark name="bracket" method="pen" place="left_margin"/>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <mark name="bracket" method="pen" place="left_margin"/> <!--JG: Link this to printed text-->
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> <!--JG: This one you can attach to the printed text (use text attribute)-->
         
     </annotation>
 </transcription>
