@@ -27,12 +27,11 @@
             </language>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Cuba, chiam&ograve; Giouanna in memoria del Prencipe Don Giouanni" method="pen">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>5. Cuba a[f]t[e]r Giouanna.</marginalia_text>
-                    <person name="Don Giovanni"/>
+                    <marginalia_text>5. Cuba a[f]t[e]r Giouanna.</marginalia_text> <!--JG: Abbreviation makes sense, but I think it should be 'a[f]te[r]'-->
+                    <person name="Don Giovanni"/> <!--JG: Be more specific when tagging a person. Could be this guy: https://it.wikipedia.org/wiki/Giovanni_II_di_Castiglia of a family member. See whether you can figure out which family member it must have been-->
                     <location name="Cuba"/>
                 </position>
             </language>
@@ -44,7 +43,7 @@
                     <marginalia_text>Lignu[m] Aloes</marginalia_text>
                 </position>
             </language>
-            <translation>Aloeswood</translation>
+            <translation>Aloeswood.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="cerimonie del possesso" method="pen">
@@ -70,10 +69,7 @@
         
         <mark name="tripunctus" method="pen" place="left_margin" language="IT" text="che con quei nomi si sodisfacesse alla memoria dello spirituale, &amp; del temporale"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- DO: commas around 'della' -->
-            
-        
+        <mark name="comma" method="pen" place="intext"/> <!-- DO: commas around 'della' --> <!--JG: Tag every comma separately-->
 
     </annotation>
-    
 </transcription>
