@@ -22,7 +22,7 @@
             </language>
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Hisp[ania].</marginalia_text> <!--JG: Not sure about this, fourth letter is definitely not a 'p'-->
+                    <marginalia_text>His</marginalia_text> <!--JG: Not sure about this, fourth letter is definitely not a 'p'-->
                 </position>
             </language>
             <translation>All gold. Spain.</translation>
@@ -43,15 +43,16 @@
                     <marginalia_text>I Testimoni</marginalia_text> 
                 </position>
             </language>
-            <translation>The witnesses.</translation> <!--JG: Should be plural, no?-->
+            <translation>The witnesses.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="XVI di Agosto">
-            <language ident="EN">
+            <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>16 August</marginalia_text> <!--JG: Be careful, it's '16 Augusti', it's in Latin (so change language tag)-->
+                    <marginalia_text>16 Augusti</marginalia_text>
                 </position>
             </language>
+            <translation>16 August</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="la Beata">
