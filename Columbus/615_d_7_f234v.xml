@@ -8,7 +8,7 @@
        <marginalia hand="Italian" method="pen">
            <language ident="EN">
                <position place="left_margin" book_orientation="0">
-                   <marginalia_text>As rule of the spaniards.</marginalia_text>
+                   <marginalia_text>As rule of the spaniards.</marginalia_text> <!-- FSF: I would say it starts with 'The ill rule' -->
                    <!-- M.B. Uncertain about word preceding rule, 'iff' -->
                </position>
            </language>
@@ -17,18 +17,19 @@
         <underline method="pen" type="straight" language="IT" text="camin della punta del"/>
         <underline method="pen" type="straight" language="IT" text="faceuano mille insulti a gl Indiani"/>
         <underline method="pen" type="straight" language="IT" text="togliendo"/>
-        <underline method="pen" type="straight" language="IT" text="l altre cose, che piu ad essi"/>
-        <underline method="pen" type="straight" language="IT" text="glie la haurebbe pagate"/>
-        <underline method="pen" type="straight" language="IT" text="li concedeano, che l amazzassero"/>
-        <underline method="pen" type="straight" language="IT" text="ma era ancora stato cagione di tutto il ma le de gl Indiani dell altra Isola"/>
+        <underline method="pen" type="straight" language="IT" text="l'altre cose, che pi&ugrave; ad essi"/>
+        <underline method="pen" type="straight" language="IT" text="glie le haurebbe pagate"/>
+        <underline method="pen" type="straight" language="IT" text="li concedeano, che l'amazzassero"/>
+        <underline method="pen" type="straight" language="IT" text="ma era ancora stato cagione di tutto il male de gl'Indiani dell'altra Isola"/>
         <underline method="pen" type="straight" language="IT" text="sero con la sua morte"/>
         <underline method="pen" type="straight" language="IT" text="con tal disegno"/>
-        <underline method="pen" type="straight" language="IT" text="rimaneua a popolare in quell"/>
+        <underline method="pen" type="straight" language="IT" text="rimaneua a popolare in quell'"/>
         <underline method="pen" type="straight" language="IT" text="ogni Canoa alcuni Indiani, che vogassero."/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="hash" method="pen" place="intext" text="la sua morte"/>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="con tal disegno rimaneua a popolare in quell"/>
+        <mark name="hash" method="pen" place="intext" text="la sua morte"/> <!-- FSF: not sure if not rather to be captured as underlining? -->
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="con tal disegno rimaneua a popolare in quell'"/>
         
     </annotation>
 </transcription>
