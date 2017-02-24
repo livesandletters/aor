@@ -10,10 +10,10 @@
             <language ident="IT">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Porto del Brasil.</marginalia_text>
-                    <location name="Brazil"/>
+                    <location name="Brazil"/> <!-- FSF: I think it could also be tagged as Gioachma, given the text  "che gl'Indiani chiamano Gioachemo" -->
                 </position>
             </language>
-            <translation>The port of Brazil.</translation>
+            <translation>The port of Brazil.</translation> <!-- FSF: The text says the place is called Gioachema; I couldn't figure out though where that is -->
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="molte correnti lo gittarono">
@@ -29,14 +29,14 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Le pozze</marginalia_text>
                 </position>
-            </language>
+            </language> <!-- FSF: to be translated; maybe puddle?  -->
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="Gioachemo">
             <language ident="IT">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Gioachimo, hauin </marginalia_text>
-                    <!-- M.B. Giachimo, Havana? need to confirm second word at later point. -->
+                    <!-- M.B. Giachimo, Havana? need to confirm second word at later point. --> <!-- FSF: it looks to me like hauen -->
                     <location name="Gioachemo"/>
                 </position>
             </language>
@@ -45,15 +45,16 @@
         <underline method="pen" type="straight" language="IT" text="Manati, ne"/>
         <underline method="pen" type="straight" language="IT" text="de' terrestri animali, dicono"/>
         <underline method="pen" type="straight" language="IT" text="pesci esser veramente vitelli,"/>
-        <underline method="pen" type="double" language="IT" text="che dell' herba"/>
+        <underline method="pen" type="double" language="IT" text="che dell'herba"/>
         <underline method="pen" type="straight" language="IT" text="del Brasil"/>
         <underline method="pen" type="straight" language="IT" text="Gioachemo"/>
-        <underline method="pen" type="straight" language="IT" text="vn' altro braccui di fortuna, che douea venire"/>
+        <underline method="pen" type="straight" language="IT" text="vn'altro braccio di fortuna, che douea"/>
+        <underline method="pen" type="double" language="IT" text="venire"/>
         <underline method="pen" type="straight" language="IT" text="molte correnti lo gittarono"/>
         <underline method="pen" type="straight" language="IT" text="a Giamaica"/>
         <underline method="pen" type="straight" language="IT" text="le pozze"/>
-        <underline method="pen" type="straight" language="IT" text="molte pozze nell' arena"/>
+        <underline method="pen" type="straight" language="IT" text="molte pozze"/>
+        <underline method="pen" type="double" language="IT" text="nell' arena"/>
         
     </annotation>
 </transcription>
-
