@@ -6,10 +6,10 @@
     <page filename="615_d_7_f195r.tif" reader="John Dee" pagination="195" signature="Bbiij"/>
     <annotation>
         
-        <marginalia hand="Italian" method="pen" anchor_text="IX di Maggio del MDII">
+        <marginalia hand="Italian" method="pen" anchor_text="IX di Maggio del MDII" date="9 May 1502">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>1502 May 9</marginalia_text>
+                    <marginalia_text>1502 May .9.</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -17,8 +17,8 @@
         <marginalia hand="Italian" method="pen" anchor_text="D. Bartolomeo Colombo">
             <language ident="IT">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Barth. Colo[mbo] Fir. Colo[mbo]</marginalia_text>
-                    <person name="Bartholomew Columbus"/>
+                    <marginalia_text>Barth. Colo[mbo] Fer. Colo[mbo]</marginalia_text>
+                    <person name="Bartholomew Columbus"/> <!-- FSF: his brother is mentioned in the text (suo fratello), which could be Fer. Columbus, possibly Fernand (https://en.wikipedia.org/wiki/Ferdinand_Columbus); this to be put in achor text and name tag -->
                 </position>
             </language>
         </marginalia>
@@ -57,6 +57,7 @@
         <underline method="pen" type="straight" language="IT" text="calar la"/>
         <underline method="pen" type="straight" language="IT" text="a' XV di Giugno"/>
         <underline method="pen" type="straight" language="IT" text="Isola di Matinino"/>
+        
         <drawing type="manicule" book_orientation="0" place="tail" method="pen"></drawing>
         
     </annotation>
