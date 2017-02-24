@@ -10,7 +10,9 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>24 ships to st</marginalia_text> <!--JG: Don't think it's '1'. Seems 'st' to me. Maybe abbreviation of s[ome]t[hing?-->
-                    <!-- M.B. Possibly to refers to 'che non si saluarono se non III, &ograve; IIII di tutti i XXVI II nauigli.' ?? -->
+                    <!-- M.B. Possibly to refers to 'che non si saluarono se non III, &ograve; IIII di tutti i XXVI II nauigli.' ?? --> 
+                    <!-- FSF: I think it is 24 ships lost; the text talks about three or four ships of 28 which couldn't be saved, which would make the 24 lost ships; 
+                        that's why I would suggest the anchor text che non si saluarono se non III, o IIII di tutti i XVIII nauagli -->
                 </position>
             </language>
         </marginalia>
@@ -29,23 +31,22 @@
                     <marginalia_text>Ingratitudo maxima</marginalia_text>
                 </position>
             </language>
-            <translation>Great ingratitude. </translation>
+            <translation>Great ingratitude.</translation> <!-- FSF: translation needs to be superlative, Greatest ingratitude or so -->
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="la maggior parte de'"/>
-        <underline method="pen" type="straight" language="IT" text="tutti i XXVI"/>
+        <underline method="pen" type="straight" language="IT" text="tutti i XXVIII"/>
         <underline method="pen" type="straight" language="IT" text="Ammiraglio preueduta cotal"/>
-        <underline method="pen" type="straight" language="IT" text="accoglienza, che anco &agrave; gli stata fatta sarebbe, non che &agrave; loro, ch erano di vna istessa natione"/>
+        <underline method="pen" type="straight" language="IT" text="accoglienza, che anco &agrave; gli strani stata fatta sarebbe, non che &agrave; loro, che erano di vna iste&sharp-S;a natione"/>
         <underline method="pen" type="straight" language="IT" text="raddoppiaua la ingiuria, &amp; ingratitudine,"/>
         <underline method="pen" type="straight" language="IT" text="da se data a lore inhonore"/>
         <underline method="pen" type="straight" language="IT" text="negato il rifugio"/>
-        <underline method="pen" type="straight" language="IT" text="paro della sua"/>
+        <underline method="pen" type="straight" language="IT" text="riparo della sua"/>
         <underline method="pen" type="straight" language="IT" text="partirono III nauigli"/>
         
         <mark name="bracket" method="pen" place="left_margin" text="accoglienza, che anco &agrave; gli stata fatta sarebbe, non che &agrave; loro, ch erano di vna istessa natione"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
-
