@@ -6,7 +6,7 @@
     <page filename="615_d_7_f194v.tif" reader="John Dee" pagination="[194v]" signature="[Bbij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian" method="pen" anchor_text="MDI">
+        <marginalia hand="Italian" method="pen" anchor_text="MDI" date="1501">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>1501</marginalia_text>
@@ -17,7 +17,8 @@
         <marginalia hand="Italian" method="pen" anchor_text="">
             <language ident="IT">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Fernando Colon his first voyage was his farther[est] </marginalia_text>
+                    <marginalia_text>Fernando Colon his first voyage was his farther[est] </marginalia_text> 
+                    <!-- FSF: since Fernando was travelling with his father Christopher, I think the last word is just father; in any case, Fernando Columbus needs to be tagged, as does his father, if he is referred to here -->
                     <person name="Colombus"/>
                 </position>
             </language>
@@ -30,14 +31,13 @@
         <underline method="pen" type="straight" language="IT" text="di LXX"/>
         <underline method="pen" type="straight" language="IT" text="&amp; di L"/>
         <underline method="pen" type="straight" language="IT" text="CXL"/>
+        <underline method="pen" type="straight" language="IT" text="io era"/>
         
         <mark name="triple_dash" method="pen" place="tail" text="io era" />
         <mark name="comma" method="pen" place="intext" text="porto il"/>
-        <mark name="horizontal_bar" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         
     </annotation>
 </transcription>
-
