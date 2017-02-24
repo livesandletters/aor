@@ -17,7 +17,7 @@
         <marginalia hand="Italian" method="pen" anchor_text="li due terzi meno di quel, che valeuano">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>2/3</marginalia_text>
+                    <marginalia_text>2/3</marginalia_text> <!-- FSF: aren't these to be captured as numerals? -->
                 </position>
             </language>
         </marginalia>
@@ -39,21 +39,22 @@
             </language>
         </marginalia>
         
-        <underline method="pen" type="straight" language="IT" text="che i Re non erano lauoratori, ne mercatanti, ne voleuano quelle terre per loro vtile : ma"/>
+        <underline method="pen" type="straight" language="IT" text="che i Re non erano lauoratori, ne mercatanti, ne voleuano quelle terre per loro vtile: ma"/>
         <underline method="pen" type="straight" language="IT" text="aiuto de' lor buoni sudditi"/>
         <underline method="pen" type="double" language="IT" text="vendendo"/>
-        <underline method="pen" type="double" language="IT" text="li due terzi meno di quel, che valeuano"/>
+        <underline method="pen" type="straight" language="IT" text="li due terzi"/>
+        <underline method="pen" type="double" language="IT" text="meno di quel, che valeuano"/>
         <underline method="pen" type="straight" language="IT" text="cose di giustitia, ne hauea altro rispetto, che di farsi ricco, &amp; acquistar la gratia"/>
-        <underline method="pen" type="straight" language="IT" text="che armata manu cercasse di liberar l' Ammiraglio"/>
+        <underline method="pen" type="straight" language="IT" text="che armata manu cercasse di liberar l'Ammiraglio"/>
         <underline method="pen" type="straight" language="IT" text="ottenuto piu facilmente il castigo di cosi fatta persona, &amp; rimedio al torto, che"/>
-        <underline method="pen" type="straight" language="IT" text="lasci&ograve; d' imprigionarlo co' suoi"/>
+        <underline method="pen" type="straight" language="IT" text="lasci&ograve; d'imprigionarlo co' suoi"/>
         <underline method="pen" type="straight" language="IT" text="suonando con corni presso"/>
         <underline method="pen" type="straight" language="IT" text="per li cantoni molti libelli infamatorij"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- nome, vendendo -->
-        <mark name="comma" method="pen" place="intext"/> <!-- tutto, dall -->
+        <mark name="comma" method="pen" place="intext" text="nome vendendo"/>
+        <mark name="comma" method="pen" place="intext" text="tutto dall"/>
+        
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
         
     </annotation>
 </transcription>
-
