@@ -24,7 +24,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        sie[n]tia <!--JG: Should be 'scie[n]tia'-->
+                        scie[n]tia
                     </marginalia_text>
                 </position>
             </language>
@@ -93,12 +93,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Mathematicas minore[m] p[ar]te[m] sapienti. in se habere <!-- FSF: to be checked --> <!--JG: I think it should be 'sapientia[e]'-->
+                        Mathematicas minore[m] p[ar]te[m] sapientia[e] in se habere
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added --> <!--JG: 'Mathematics has a smaller part of wisdom in it'-->
+                Mathematics has a smaller part of wisdom in it.
             </translation>
         </marginalia>
         
@@ -106,12 +106,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Mathematicas min[us] principior[um] in se habere, alijs scientijs orbe <!-- FSF: to be checked --> <!--JG: Not entirely sure about 'orbe'. A genitive would make sense there, but it doesn't seem to be orbis either. Perhaps you should try to translate it and see what makes sense-->
+                        Mathematicas min[us] principior[um] in se habere, [quod deleted] alijs scientijs orbe 
+                        <!-- FSF: to be checked --> <!--JG: Not entirely sure about 'orbe'. A genitive would make sense there, but it doesn't seem to be orbis either. Perhaps you should try to translate it and see what makes sense-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                There are fewer principles in Mathematics than in other sciences in the world. <!-- FSF: this is a possible translation with orbe; it would work -->
             </translation>
         </marginalia>
         
@@ -126,7 +127,7 @@
         <underline method="pen" type="straight" language="LA" text="quia principioru[m] minus qu&agrave;m alia[e]"/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/> <!--JG: This one I'd link to the underscored text-->
+        <mark name="plus_sign" method="pen" place="left_margin" text="Mathematicas min[us] principior[um] in se habere, [quod deleted] alijs scientijs orbe" language="LA"/>
         
         <mark name="plus_sign" method="pen" place="tail"/>
         
