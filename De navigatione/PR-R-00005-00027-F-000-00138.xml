@@ -11,8 +11,8 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Per illu[m] op[er]ari no[n] debet, vt ia[m] ostendit, ... in horizonte obliquo: <!--JG: Would 'sicut' make sense? Can't figure it out either.-->
-                        sed quid sup[er] <!--JG: I'd say se[m]p[e]r instead of super--> refert secu[m] rectum horizo[n]te[m], perficiet cursum suu[m] ... <!--JG: ac--> si esset sub a[e]quale re: <!--JG: Not entirely sure abt sub, seem to be 4 letters-->
+                        Per illu[m] op[er]ari no[n] debet, vt ia[m] ostendit, ... in horizonte obliquo: <!--JG: Would 'sicut' make sense? Can't figure it out either.--> <!-- FSF: possibly habet? -->
+                        sed quid se[m]p[e]r refert secu[m] rectum horizo[n]te[m], perficiet cursum suu[m] ac si esset sub a[e]quale re: <!--JG: Not entirely sure abt sub, seem to be 4 letters-->
                         et quonia[m] no[n] est. faciet <!--JG: Not sure abt faciet either--> circulu[m] a[e]quatori simile[m], ... <!--JG: 'sicut'?--> parallelu[m]. <!-- FSF: to be checked -->
                     </marginalia_text>
                 </position>
@@ -30,8 +30,8 @@
         <underline method="pen" type="straight" language="LA" text="ostendit, nunquam per illum procedit: im&ograve; diuersa loca mutando, diuersas apparentias mutat"/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="left_margin"/> <!--JG: Should be vertical bar-->
-        <mark name="bracket" method="pen" place="left_margin"/> <!--JG: You can easily anchor this to underscored text-->
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin" text="Leste enim acus quum illum non debeat operari ut ostendit, nunquam per illum procedit: im&ograve; diuersa loca mutando, diuersas apparentias mutat" language="LA"/>
 
     </annotation>
 </transcription>
