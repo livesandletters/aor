@@ -69,6 +69,7 @@
   <xs:attributeGroup name="attlist.text">
     <xs:attribute ref="hand" use="required"/>
     <xs:attribute ref="language" use="required"/>
+    <xs:attribute name="anchor_text"/>
   </xs:attributeGroup>
   
   <xs:element name="translation" type="xs:string"/>
@@ -184,7 +185,7 @@
     <xs:attribute name="origin">
       <xs:simpleType>
         <xs:restriction base="xs:token">
-          <xs:enumeration value="extraneous"/>
+          <xs:enumeration value="inserted"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>

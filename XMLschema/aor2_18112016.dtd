@@ -6,7 +6,7 @@
 	<!ATTLIST page pagination CDATA #IMPLIED>
 	<!ATTLIST page signature CDATA #IMPLIED>
 	<!ATTLIST page reader CDATA #REQUIRED>
-	<!ATTLIST page origin (extraneous) #IMPLIED>
+	<!ATTLIST page origin (inserted) #IMPLIED>
 	<!ATTLIST page status (floating|fixed) #IMPLIED>
 	<!ATTLIST page host_page CDATA #IMPLIED>
 	<!ATTLIST page related_page CDATA #IMPLIED>
@@ -179,6 +179,7 @@
 	         <!ELEMENT table_text (#PCDATA)>
 	           <!ATTLIST table_text hand (English_secretary|Italian|typescript) #REQUIRED>
 	           <!ATTLIST table_text language_ident (EN|EL|FR|IT|LA|ES|DE|CY) #REQUIRED>
+	           <!ATTLIST table_text anchor_text CDATA #IMPLIED>
 	         <!ELEMENT table_person EMPTY>
 	           <!ATTLIST table_person name CDATA #IMPLIED>
 	       <!ELEMENT table_book EMPTY>
