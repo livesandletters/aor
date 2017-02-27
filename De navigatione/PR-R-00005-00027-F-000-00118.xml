@@ -11,12 +11,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        falsum, si de acu intelligas / at rei natura reru[m] est. <!--JG: Isn't it 'verus', instead of 'rerus'?-->
+                        falsum, si de acu intelligas / at rei natura veru[m] est.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                It is wrong, if you understand. But the things has a nature of things. <!-- FSF: to be checked --> <!--JG: It is wrong, if you understand about a needle, but the nature of a thing is true-->
+                It is wrong, if you understand with a needle, but it is true in the nature of a thing.
             </translation>
         </marginalia>
         
@@ -24,26 +24,33 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        non posse in quatuor quartos ... quartes diuidi, et et ... quarta[m] respo[n]dere vero ortui [etc] <!-- FSF: to be completed --> <!--JG: no[n] posse in quatuor quartas ina[e]quales dividi, et et lineas quarta[m] respo[n]dere vero ortui / [etc]-->
+                        non posse in quatuor quartos ina[e]quales diuidi, et et lineas quarta[m] respo[n]dere vero ortui [etc] 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                One cannot divide in four unequal quarters and also to respond <!-- FSF: to be completed -->
             </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        [... deleted]
+                    </marginalia_text>
+                </position>
+            </language>
         </marginalia>
 
         <underline method="pen" type="straight" language="LA" text="nostra[e] altitudinis parallelu[m] com meridiano, horizontem in quatuor quartas non a[e]qualiter"/>
         <underline method="pen" type="double" language="LA" text="spiritui"/>
-        <underline method="pen" type="straight" language="LA" text="necessitatur, sed quod tibi ratio"/> <!--JG: You can delete this, bleed through from the previous page-->
         <underline method="pen" type="straight" language="LA" text="acum in leste eadem altitudine procedere"/>
         <underline method="pen" type="straight" language="LA" text="Quod esse nequit absque altitudinis diminutione illius partis, unde nauis profecta fuit. Interrogatio"/>
         <underline method="pen" type="straight" language="LA" text="illuc non"/>
         <underline method="pen" type="straight" language="LA" text="reiecta, ueram aggrediamur expositionem. Et ne tantum temporis consumatur, absque"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> <!--JG: I'd link this to the underscorde text-->
-        
-        <!-- FSF: there is something deleted in the left margin, which I cannot read --> <!--JG: Just capture as marginal note [... - deleted]-->
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="reiecta, ueram aggrediamur expositionem. Et ne tantum temporis consumatur, absque"/>
 
     </annotation>
 </transcription>
