@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="terra molto bassa, &amp; dishabitata">
             <language ident ="IT">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Tirra dishabitata.</marginalia_text>
+                    <marginalia_text>Terra dishabitata.</marginalia_text>
                 </position>
             </language>
             <translation>The uninhabited land.</translation>
@@ -18,7 +18,7 @@
         <marginalia hand="Italian" anchor_text="e piene di buonissima acqua">
             <language ident ="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Pitts of watir to </marginalia_text> <!-- M.B. Uncertain of final word in this transcription. -->
+                    <marginalia_text>Pitts of water to </marginalia_text> <!-- M.B. Uncertain of final word in this transcription. --> <!-- FSF: I can't decipher it either. I think it ends in nd -->
                 </position>
             </language>
         </marginalia>
@@ -36,27 +36,26 @@
         <marginalia hand="Italian" anchor_text="Bocca della Serpe">
             <language ident ="IT">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Bocca dilla Sirpe</marginalia_text> 
+                    <marginalia_text>Bocca della Serpe</marginalia_text> 
                     <location name="Serpent's Mouth"/>
                 </position>
             </language>
             <translation>Serpent's Mouth.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="IT" text="pannicelli copriuano"/>
+        <underline method="pen" type="straight" language="IT" text="dell'Arenale"/>
         <underline method="pen" type="straight" language="IT" text="da gl' Indiani"/>
         <underline method="pen" type="straight" language="IT" text="dishabitata"/>
-        <underline method="pen" type="straight" language="IT" text="nall' arena, &amp; per buona sorte"/>
+        <underline method="pen" type="straight" language="IT" text="nall'arena, &amp; per buona sorte"/>
         <underline method="pen" type="double" language="IT" text="trouarono fatte"/>
         <underline method="pen" type="straight" language="IT" text="piene di buonissima acqua"/>
         <underline method="pen" type="straight" language="IT" text="Norueste"/>
         <underline method="pen" type="straight" language="IT" text="Bocca della Serpe"/>
-        <underline method="pen" type="straight" language="IT" text="due punte Occidentali della Trinit&agrave;"/>
+        <underline method="pen" type="straight" language="IT" text="due punte Occidentali della Trinit&agrave; con"/>
         <underline method="pen" type="straight" language="IT" text="Tramo[n]tana Mezodi"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- sorte, le -->
+        <mark name="comma" method="pen" place="intext" text="sorte le" language="IT"/>
         
     </annotation>
 </transcription>
-
