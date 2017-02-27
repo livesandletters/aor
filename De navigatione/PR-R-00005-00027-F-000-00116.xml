@@ -11,18 +11,18 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        nisi qua[n]tu[m] magnetis dectimatio eos deviare tenerit <!-- FSF: to be checked --> <!--JG: Not sure abt last word, perhaps 'fecerit'-->
+                        nisi qua[n]tu[m] magnetis declinatio eos deviare fecerit 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                Unless the declination of the magnet makes them deviate. <!-- FSF: I don't know how to fit in the quantum -->
             </translation>
         </marginalia>
 
         <underline method="pen" type="straight" language="LA" text="omnes rumi leste oeste inuicem a[e]quidistantes procedunt, ut necessarium"/>
         <underline method="pen" type="straight" language="LA" text="in leste nauigantes, ad illum nunquam redeant"/>
-        <underline method="pen" type="straight" language="LA" text="de altitudine"/> <!-- FSF: underscoring with little feet like millepedes as before --> <!--JG: Yet, I'd tag this as 'grid', even though it's a variant. Also, think it should be 'eade[m]', not de-->
+        <underline method="pen" type="grid" language="LA" text="eade[m] altitudine"/>
 
     </annotation>
 </transcription>
