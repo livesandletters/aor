@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="XVII di Giugno">
             <language ident ="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>27</marginalia_text>
+                    <marginalia_text>27</marginalia_text> <!-- FSF: I would capture this all as a Latin note reading Iunij 27, 27 June in translation -->
                 </position>
             </language>
             <language ident="LA">
@@ -23,7 +23,9 @@
         <marginalia hand="Italian" anchor_text="Di buona vista">
             <language ident ="IT">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>I[s]ol[a] de bona Vista</marginalia_text> <!-- M.B. Note, uncertain about 'I[s]ol[a] could also be 'Iul' ?? -->
+                    <marginalia_text>I[s]ol[a] de bona Vista</marginalia_text> 
+                    <!-- M.B. Note, uncertain about 'I[s]ol[a] could also be 'Iul' ?? --> 
+                    <!-- FSF: not sure either; I see Inl or Ins.; but possibly Inl as an abbreciation for Insula, given that the bona indicates that the entire note is in Latin rather than Italian (buona), hence also insula rather than isola -->
                 </position>
             </language>
         </marginalia>
@@ -31,12 +33,10 @@
         <underline method="pen" type="straight" language="IT" text="del Sale"/>
         <underline method="pen" type="straight" language="IT" text="Di buona"/>
         <underline method="pen" type="straight" language="IT" text="lontano dalla verit&agrave;"/>
-        <underline method="pen" type="straight" language="IT" text="&ecirc; maninconica, &amp; miserabile"/>
+        <underline method="pen" type="straight" language="IT" text="&ecirc; maninconica, &amp; miserabile"/> <!-- FSF: wrong diactic; I'd go for &egrave; -->
         <underline method="pen" type="straight" language="IT" text="ueggono alcun nauiglio"/>
         <underline method="pen" type="straight" language="IT" text="di acqua, &amp; di sale"/>
-        <underline method="pen" type="straight" language="IT" text="la sterilit&agrave; dell' Isola"/>
-        
+        <underline method="pen" type="straight" language="IT" text="la sterilit&agrave; dell'Isola"/>
                
     </annotation>
 </transcription>
-
