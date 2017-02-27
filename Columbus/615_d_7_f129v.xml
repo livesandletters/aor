@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016test06012017.xsd"> <!--JG: Test transcription; when checking, change reference to correct schema-->
+    <page filename="615_d_7_f129v.tif" reader="John Dee" signature="[R[v]]" pagination="[129v]"/> 
+    <annotation>
+        
+        <marginalia hand="Italian" id="BL615d.7:615_d_7_f129v:m0001">
+            <language ident="IT">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>Guanini</marginalia_text>
+                    <location name="Guanin"/>
+                </position>
+            </language>
+            <translation>Guanin.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Note discorde</marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="IT" text="Guanini li portano" id="BL615d.7:615_d_7_f129v:u0001"/>
+        <underline method="pen" type="double" language="IT" text="di fiorino"/>
+        <underline method="pen" type="straight" language="IT" text="Guabonito"/>
+        <underline method="pen" type="straight" language="IT" text="Albeborael"/>
+        <underline method="pen" type="straight" language="IT" text="Guahagiona"/>
+        <underline method="pen" type="straight" language="IT" text="figliuolo di Hiauana"/>
+        <underline method="pen" type="straight" language="IT" text="credo, che porr&ograve; prima quel, che duouria esse ultimo"/>
+        <underline method="pen" type="straight" language="IT" text="quei del paese"/>
+        <underline method="pen" type="straight" language="IT" text="furono donne un' altra"/>
+        <underline method="pen" type="straight" language="IT" text="l'or me delle loro"/>
+        
+        <mark name="vertical_bar" method="pen" place="intext"/>
+        <mark name="bracket" method="pen" place="intext"/> <!--Dicono-->
+        
+        <errata language="IT" copytext="Hiauna" amendedtext=""/>
+        
+        <physical_link>
+            <marginal_annotation idref="BL615d.7:615_d_7_f129v:m0001"/>
+            <marginal_annotation idref="BL615d.7:615_d_7_f129v:u0001"/>
+            <relation from="BL615d.7:615_d_7_f129v:m0001" to="BL615d.7:615_d_7_f129v:u0001" type="undirected"/>
+        </physical_link>
+           
+    </annotation>
+</transcription>
