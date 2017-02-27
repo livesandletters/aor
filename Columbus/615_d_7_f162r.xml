@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Note Tidis and Ebs bore</marginalia_text> <!-- i.e. Tides and ebs -->
+                    <marginalia_text>Note Tidis and Ebs bore</marginalia_text> <!-- FSF: I think it reads 'Tides' and 'here' -->
                 </position>
             </language>
         </marginalia>
@@ -17,7 +17,7 @@
         <marginalia hand="Italian" anchor_text="le correnti">
             <language ident="IT">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>The current</marginalia_text> 
+                    <marginalia_text>The curre[n]t</marginalia_text> 
                 </position>
             </language>
         </marginalia>
@@ -25,17 +25,17 @@
         <marginalia hand="Italian" anchor_text="tre braccia">
             <language ident="IT">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>} thre[e] faddom</marginalia_text>  <!-- i.e. three fathom of water -->
+                    <marginalia_text> thre faddom</marginalia_text>
                 </position>
             </language>
         </marginalia>
         
-        <!-- M.B. Note. Omega symbol in right margin check how to transcribe this in the XML -->
+        <!-- M.B. Note. Omega symbol in right margin check how to transcribe this in the XML --> <!-- FSF: the text describes a harbour in the shape of a horseshoe (porto, fatto in forma di ferro di cauallo) -->
         
         <marginalia hand="Italian" anchor_text="Xi di Agosto">
             <language ident="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>August 11</marginalia_text>
+                    <marginalia_text>Augusti 11</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -44,22 +44,23 @@
         <underline method="pen" type="straight" language="IT" text="di giusante"/>
         <underline method="pen" type="double" language="IT" text="all' Oriente"/>
         <underline method="pen" type="double" language="IT" text="montante all'"/>
-        <underline method="pen" type="straight" language="IT" text="mezo dol"/>
-        <underline method="pen" type="double" language="IT" text="l' acqua del fiume"/>
-        <underline method="pen" type="straight" language="IT" text="non ard&igrave; di passar pi&ugrave; ol"/>
+        <underline method="pen" type="straight" language="IT" text="mezo dolce"/>
+        <underline method="pen" type="double" language="IT" text="l'acqua del fiume"/>
+        <underline method="pen" type="straight" language="IT" text="non ard&igrave; di passar pi&ugrave; oltre"/>
         <underline method="pen" type="straight" language="IT" text="uoleua tre braccia di acqua, &amp; era di cento botte;"/>
         <underline method="pen" type="double" language="IT" text="surse"/>
         <underline method="pen" type="double" language="IT" text="sicurissima"/>
-        <underline method="pen" type="straight" language="IT" text="forma di ferro di"/>
+        <underline method="pen" type="straight" language="IT" text="forma di ferro di cauallo"/>
         <underline method="pen" type="straight" language="IT" text="il Corriero"/>
         <underline method="pen" type="straight" language="IT" text="era passo"/>
         <underline method="pen" type="straight" language="IT" text="ui era una bocca"/>
-        <underline method="pen" type="straight" language="IT" text="due leghe di Ostro Tramontanaå"/>
-        <underline method="pen" type="straight" language="IT" text="di ciascun di quelli usciua vn fiume"/><underline method="pen" type="straight" language="IT" text=""/>
+        <underline method="pen" type="straight" language="IT" text="due leghe di Ostro Tramontanaå"/> <!-- FSF: split this in double and straight -->
+        <underline method="pen" type="straight" language="IT" text="di ciascun di quelli usciua vn fiume"/>
         <underline method="pen" type="double" language="IT" text="cosi dolce"/>
         <underline method="pen" type="straight" language="IT" text="essere Isole, tutte erano vna terra"/>
-        <underline method="pen" type="straight" language="IT" text="quattro, &amp; cinque braccia"/>
+        <underline method="pen" type="straight" language="IT" text="quattro, &amp; cinque braccia di"/>
+        
+        <mark name="bracket" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
-
