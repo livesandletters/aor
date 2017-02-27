@@ -6,10 +6,10 @@
     <page filename="615_d_7_f164r.tif" reader="John Dee" pagination="164" signature="Xiiij"/>    
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="XXX d Agosto">
+        <marginalia hand="Italian" anchor_text="XXX d Agosto" date=""> <!-- FSF: date also to be captured here? -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Angusti 30.</marginalia_text> <!-- Note, Du Cange, late Latin variant for Augusti -->
+                    <marginalia_text>Angusti 30.</marginalia_text>
                 </position>
             </language>
             <translation>August 30</translation>
@@ -27,20 +27,20 @@
         <marginalia hand="Italian" anchor_text="ma trou&ograve; nondimeno tutto il contrario">
             <language ident="IT">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Yll rule.</marginalia_text>
+                    <marginalia_text>yll rule.</marginalia_text>
                 </position>
             </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="che si trouasse pien di"/>
-        <underline method="pen" type="straight" language="IT" text="per vedersi tanto al Ponente"/>
+        <underline method="pen" type="straight" language="IT" text="marauiglia, per vedersi tanto al Ponente"/>
         <underline method="pen" type="straight" language="IT" text="forze delle correnti mancauano"/>
         <underline method="pen" type="double" language="IT" text="subito"/>
         <underline method="pen" type="straight" language="IT" text="di San"/>
         <underline method="pen" type="straight" language="IT" text="a' XXX d"/>
         <underline method="pen" type="straight" language="IT" text="il sito"/>
         <underline method="pen" type="straight" language="IT" text="di suo padre"/>
-        <underline method="pen" type="double" language="IT" text="maluagit&agrave; di vn' Orlando"/>
+        <underline method="pen" type="double" language="IT" text="maluagit&agrave; di vn'Orlando"/>
         <underline method="pen" type="double" language="IT" text="giudice generale"/>
         <underline method="pen" type="straight" language="IT" text="vista quasi perduta dal souerchio vegghiare"/>
         <underline method="pen" type="straight" language="IT" text="ma trou&ograve; nondimeno tutto il contrario"/>
@@ -48,5 +48,6 @@
         <underline method="pen" type="straight" language="IT" text="erano in gran tumulto, &amp; seditione"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
+        
     </annotation>
 </transcription>
