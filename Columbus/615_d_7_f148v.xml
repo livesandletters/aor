@@ -19,7 +19,7 @@
         <marginalia hand="Italian">
             <language ident ="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>S_ fol. 123 b.</marginalia_text> <!-- MB. Uncertain of first s-word or what folio Dee is referencing here. -->
+                    <marginalia_text>S_ fol. 123 b.</marginalia_text> <!-- MB. Uncertain of first s-word or what folio Dee is referencing here. --> <!--JG: It's 'sup[r]a'. Should be 'v' instead instead of 'b'. Check the Transcriber's Manual for the correct way of capturing internal references-->
                 </position>
             </language>
         </marginalia>
@@ -27,7 +27,7 @@
         <marginalia hand="Italian" anchor_text="XX di Aprile">
             <language ident ="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Aprilis. 20:</marginalia_text>
+                    <marginalia_text>Ap[r]ilis. 20:</marginalia_text>
                 </position>
             </language>
             <translation>April 20.</translation>
@@ -36,7 +36,7 @@
         <marginalia hand="Italian">
             <language ident ="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>The courli kept in the pavalhill of 22</marginalia_text> <!-- MB. Uncertain of some of the words in this transcription.  -->
+                    <marginalia_text>The courli kept in the pavalhill of 22</marginalia_text> <!-- MB. Uncertain of some of the words in this transcription.  --> <!--JG: 'The Course kept in the parallell of 22'-->
                 </position>
             </language>
         </marginalia>
@@ -52,7 +52,7 @@
         <marginalia hand="Italian" anchor_text="XX di Maggio">
             <language ident ="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>May. 20:</marginalia_text> 
+                    <marginalia_text>May. 20:</marginalia_text> <!--JG: Watch out, should be transcribed as 'Maij'-->
                 </position>
             </language>
         </marginalia>
@@ -60,7 +60,7 @@
         <marginalia hand="Italian" anchor_text="itinerario">
             <language ident ="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Itineraria Christofer Colon</marginalia_text>  <!-- MB. Possibly itinerario. -->
+                    <marginalia_text>Itineraria Christofer Colon</marginalia_text>  <!-- MB. Possibly itinerario. --> <!--JG: No, 'Itinerariu[m]'-->
                     <person name="Christopher Columbus"/>
                 </position>
             </language>
@@ -73,13 +73,13 @@
         <underline method="pen" type="straight" language="IT" text="s'&egrave; detto"/>
         <underline method="pen" type="straight" language="IT" text="&amp; questo,"/>
         <underline method="pen" type="straight" language="IT" text="non era natiuo"/>
-        <underline method="pen" type="double" language="IT" text="ma de' Caribi"/>
+        <underline method="pen" type="triple" language="IT" text="ma de' Caribi"/>
         <underline method="pen" type="double" language="IT" text="per&ograve;"/>
         <underline method="pen" type="straight" language="IT" text="Guadalupe"/>
         <underline method="pen" type="straight" language="IT" text="ventiduo"/>
         <underline method="pen" type="double" language="IT" text="haueua l'esperienza"/>
         <underline method="pen" type="straight" language="IT" text="che hora si"/>
-        <underline method="pen" type="double" language="IT" text="bena Tramontana"/>
+        <underline method="pen" type="double" language="IT" text="bene a Tramontana"/>
         <underline method="pen" type="double" language="IT" text="trouare i venti Vendauali"/>
         <underline method="pen" type="straight" language="IT" text="a' XX di"/>
         <underline method="pen" type="straight" language="IT" text="giauano sei oncie di pane al d&igrave;"/>
@@ -92,12 +92,15 @@
         <underline method="pen" type="double" language="IT" text="Questa matina"/>
         <underline method="pen" type="double" language="IT" text="aguglie Fiaminghe"/>
         
-        
         <mark name="equal_sign" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="X_sign" method="pen" place="left_margin"/>
-        <errata language="IT" copytext="sapeue, oue" amendedtext="sapeue, piloti oue"/> 
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        
+        <errata language="IT" copytext="sapeue, oue" amendedtext="sapeue, piloti oue"/> <!--JG: See pp. 89-90 of the Manual, capture as marginal note, link to printed text via anchor tag-->
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        
+        <!--JG: There's a physical link, connecting two marginal notes. Check the Manual and see whether you can work this out. If not, let me know since it's a new tag-->
         
     </annotation>
 </transcription>
