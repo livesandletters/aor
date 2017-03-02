@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="615_d_7_f094v.tif" reader="John Dee" pagination="[94[v]]" signature="[Mvi[v]]"/> <!-- M.B: Is this signature inferred on the basis of 93r? there is no signature on the recto of 94. -->
+    <page filename="615_d_7_f094v.tif" reader="John Dee" pagination="[94[v]]" signature="[Mvi[v]]"/> <!-- M.B: Is this signature inferred on the basis of 93r? there is no signature on the recto of 94. --> 
     
     <annotation>
         
@@ -20,8 +20,8 @@
         <marginalia hand="Italian" method="pen">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Nay that is not so: it was all occupyed in th[e] [fort?].</marginalia_text>  <!-- DO: can't work out the final word --> 
-                    <!-- MB: Looks like 'fort' to me, as if Dee is arguing against the assertion 'hauessero portato il corpo della nave il corpo della naue,' -->
+                    <marginalia_text>Nay that is not so: it was all occupyed in th[e] fort.</marginalia_text> 
+                    
                 </position>
             </language>
         </marginalia>
@@ -69,7 +69,9 @@
         <underline method="pen" type="double" language="IT" text="il corpo della"/>
         <underline method="pen" type="straight" language="IT" text="perd&egrave; l'Ammiraglio"/>
         <underline method="pen" type="straight" language="IT" text="lor trouato, nelle medesime case"/>
-        <underline method="pen" type="double" language="IT" text="ferri"/> <!-- MB: Two underlined passages appear to be missing after here (after 'ferri'): 'stato il corpo' and 'quella naue' -->
+        <underline method="pen" type="double" language="IT" text="ferri"/>
+        <underline method="pen" type="double" language="IT" text="stato il corpo"/>
+        <underline method="pen" type="double" language="IT" text="di quella naue"/>
         <underline method="pen" type="triple" language="IT" text="stato il"/> 
         <underline method="pen" type="double" language="IT" text="costame di"/>
         <underline method="pen" type="grid" language="IT" text="alcun'altra"/> 
@@ -85,7 +87,7 @@
         
         <mark name="bracket" method="pen" place="intext"/>  <!-- scriuere di -->
         <mark name="bracket" method="pen" place="intext"/>  <!-- di quel -->
-        <mark name="bracket" method="pen" place="left_margin"/> <!-- MB: This perhaps is closer to a vertical line than a bracket. -->
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
         
         <mark name="comma" method="pen" place="intext"/>  <!-- Guadalupe Caribi -->
         <mark name="comma" method="pen" place="intext"/>  <!-- doue era -->
@@ -93,6 +95,9 @@
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        
+        
+        <!-- Physical link to be established -->
         
     </annotation>
     
