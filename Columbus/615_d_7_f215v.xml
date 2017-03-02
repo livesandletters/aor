@@ -7,22 +7,28 @@
     <annotation>
         
         <marginalia hand="Italian" method="pen" anchor_text="subitamente venne quel fiume di Betlem tanto grosso">
-            <language ident="LA"> 
+            <language ident="EN"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Betlem fl.[ume]</marginalia_text> <!-- FSF: I think 'The sudden swelling and violent streming of Betlem fl.'; this also corresponds with the anchor text -->
-                    <!-- M.B. Difficulty deciphering Dee's hand here, possibly the preceding text is in English -->
+                    <marginalia_text>The sudden swelling and violent streming of</marginalia_text>
                 </position>
             </language>
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Betlem fl.[ume]</marginalia_text>
+                    <location name="Belen"/>
+                </position>
+            </language>
+            <translation>The sudden swelling and violent streaming of Belen river.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Betlem fl.[ume]</marginalia_text>
-                    <location name="Betlem"/>
+                    <location name="Belen"/>
                 </position>
             </language>
-            <translation>Betlem River.</translation>
+            <translation>Belen river.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="subitamente venne quel fiume di Betlem tanto grosso"/>
