@@ -14,7 +14,7 @@
                     <marginalia_text>12 octob[er] mane hora 2.</marginalia_text>
                 </position>
             </language>
-            <translation>12 Octob[er]. 2 hours in the morning.</translation>
+            <translation>12 October. 2 hours in the morning.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="due leghe" method="pen">
@@ -25,7 +25,7 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Roderigo di Triana" method="pen" internal_ref="615_d_7_f050v_u0001">
+        <marginalia hand="Italian" anchor_text="Roderigo di Triana" method="pen" internal_ref="615_d_7_f050v_u0001" id="615_d_7_f050v_m0001">
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>There vppon he went to the moones and renownced christes fayth. a pitifull case.</marginalia_text>
@@ -45,6 +45,15 @@
         <underline method="pen" type="straight" language="IT" text="veduta la luce nel"/>
         
         <mark name="tripunctus" method="pen" place="left_margin" text="vna casa" language="IT"/>
+        
+        <physical_link>
+            <marginal_annotation idref="BL615d.7:615_d_7_f050v:u0001"/>
+            
+            <marginal_annotation idref="BL615d.7:615_d_7_f050v:m0001"/>
+            
+            <link from="BL615d.7:615_d_7_f050v:u0001" to="BL615d.7:615_d_7_f050v:m0001" />       
+            
+        </physical_link>
         
     </annotation>
 </transcription>
