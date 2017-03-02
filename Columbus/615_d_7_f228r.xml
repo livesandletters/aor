@@ -5,24 +5,21 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="615_d_7_f228r.tif" reader="John Dee" pagination="228" signature="Ffiiij"/>
     <annotation>
-        <marginalia hand="Italian" method="pen" anchor_text=""> <!-- FSF: I think this is exactly what is in the text: Le Testugini; and it's in Italian then -->
-            <language ident="LA">
+        
+        <marginalia hand="Italian" method="pen" anchor_text="le Testugini">
+            <language ident="IT">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        Le Liphog<!-- uncertain about middle letters -->a
-                    </marginalia_text>
+                    <marginalia_text>Le Testugini</marginalia_text>
                 </position>
             </language>
-            <translation><!-- update after transcription --> </translation>
+            <translation>The Tortoises</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="giardino della Reina">
-            <language ident="LA"> <!-- FSF: this is Italian, not Latin; I'd translate it according to the wikipedia entry https://en.wikipedia.org/wiki/Jardines_de_la_Reina: given that the whole page is talking about Cuba, I think it is this -->
+            <language ident="IT">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        Giardino della Renia
-                    </marginalia_text>
-                    <location name="Giardino della Reina"/>
+                    <marginalia_text>Giardino della Renia</marginalia_text>
+                    <location name="Jardines de la Reina"/>
                 </position>
             </language>
         </marginalia>
