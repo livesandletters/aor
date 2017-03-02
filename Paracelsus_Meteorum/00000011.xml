@@ -24,7 +24,7 @@
             </language>
             <language ident="DE">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>Die erst bu[e]ch von den naturlichen ding[en]</marginalia_text>
+                    <marginalia_text>D[as] erst bu[e]ch von den naturlichen ding[en]</marginalia_text> <!-- FSF:  Iwould suggest that there is a superscript o over the u -->
                     <book title="Von natürlichen dingen"/>
                 </position>
             </language>
@@ -54,8 +54,8 @@
             </language>
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>Liber de [Muctag...] <!--JG: Don't know this work--> <!--KS: Mucdagine? Still clueless, though.-->
-                    Alter Fragmenta Th[eopras]ti <!--JG: Don't know this work-->
+                    <marginalia_text>Liber de [Muctag...] <!--JG: Don't know this work--> <!--KS: Mucdagine? Still clueless, though.--> <!-- FSF: I think it is Mucilagine, see https://it.wikipedia.org/wiki/Mucillagine-->
+                    Alter Fragmenta Th[eopras]ti <!--JG: Don't know this work--> <!-- FSF: is this not to be captured as German? -->
                     De transmutatione metallor[um]</marginalia_text>
                     <book title="De transmutatione metallorum"/>
                 </position>
@@ -84,7 +84,6 @@
             <drawing_person name="John Dee"/>
             <drawing_text_translation><!-- JG: insert translation --></drawing_text_translation>
         </drawing>
-        
         
     </annotation>
 </transcription>
