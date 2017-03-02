@@ -7,7 +7,7 @@
     <page filename="c_120_b_4_(2)_f019v.tif" reader="John Dee" pagination="19[v]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="animae eleme[n]taris Voarchadumic[a]e">
+        <marginalia hand="Italian" anchor_text="animae eleme[n]taris Voarchadumic[a]e" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,18 +20,21 @@
             <translation>Air: elementary: constant ; Voarchadumica.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         <!--triangle--> vide inf[ra]: pag:36:
                     </marginalia_text> 
+                    <internal_ref>
+                        <target ref="C.120.b.4.(2.):c_120_b_4_(2)_f036v" text="36" />
+                    </internal_ref>
                 </position>
             </language>
             <translation>See below: page 36.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="ut supra">
+        <marginalia hand="Italian" anchor_text="ut supra" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -39,14 +42,18 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>13: As above.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
                         vide pagina precede[n]te
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="C.120.b.4.(2.):c_120_b_4_(2)_f019r" text="pagina precede[n]te"/>                
+                    </internal_ref>
                 </position>
             </language>
             <translation>See the preceding page.</translation>
