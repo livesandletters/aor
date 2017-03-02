@@ -35,13 +35,13 @@
         <underline method="pen" type="straight" language="LA" text="rubedine"/>
         <underline method="pen" type="straight" language="LA" text="rubificataq[ue]"/>
         <underline method="pen" type="double" language="LA" text="sumatur pars una"/>
-        <underline method="pen" type="straight" language="LA" text="Oleo aute[m]" id="c_12_b_4_(2)_f021v_u0001"/>
+        <underline method="pen" type="straight" language="LA" text="Oleo aute[m]" id="c_120_b_4_(2)_f021v_u0001"/>
         <underline method="pen" type="straight" language="LA" text="mollibus"/>
         <underline method="pen" type="straight" language="LA" text="duris"/>
         <underline method="pen" type="double" language="LA" text="nouus Ad&aacute;m"/>
         <underline method="pen" type="double" language="LA" text="uel Sulfur"/>
         <underline method="pen" type="straight" language="LA" text="rubificatae"/>
-        <underline method="pen" type="straight" language="LA" text="tresq[ue]" internal_ref="c_12_b_4_(2)_f021v_u0001"/>
+        <underline method="pen" type="straight" language="LA" text="tresq[ue]" internal_ref="c_120_b_4_(2)_f021v_u0001" id="c_120_b_4_(2)_f021v:u0002"/>
         <underline method="pen" type="double" language="LA" text="partes Terrae"/>
         <underline method="pen" type="straight" language="LA" text="Substantia rubea"/>
         <underline method="pen" type="double" language="LA" text="Auri, &amp; Arge[n]ti ana"/>
@@ -53,6 +53,17 @@
         
         <mark name="bracket" method="pen" place="intext"/> <!--lustrari: quae-->
         <mark name="bracket" method="pen" place="intext"/> <!--Mutatione: simul-->
+        
+        <physical_link>
+            
+            <marginal_annotation idref="C.120.b.4.(2.):c_120_b_4_(2)_f021v:u0001"/>
+            
+            <marginal_annotation idref="C.120.b.4.(2.):c_120_b_4_(2)_f021v:u0002"/>
+            
+            <relation from="C.120.b.4.(2.):c_120_b_4_(2)_f021v:u0001" to="C.120.b.4.(2.):c_120_b_4_(2)_f021v:u0002" type="undirected"/>
+            
+        </physical_link>
+        
         
     </annotation>
 </transcription>
