@@ -7,11 +7,11 @@
     <page filename="c_120_b_4_(2)_f001r.tif" reader="John Dee" pagination="Flyleaf"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Joannes Dee 1559 18 Juny ex dono magister Joannis Baptista[e] Danielis
+                        Joannes Dee 1559 18 Juny ex dono magister Joannis Baptista[e] Danielis  <!-- DO: 'Junij', 'magistri'? -->
                     </marginalia_text>
                     <person name="John Dee"/>
                     <person name="Joannes Baptista Daniel"/>
@@ -20,7 +20,7 @@
             <translation>John Dee, 18 June 1559, from the gift of master Joannes Baptista Daniel.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary" method="pen">  <!-- DO: other reader tag? -->
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -30,7 +30,7 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -41,7 +41,7 @@
             <translation></translation> <!--KS: Not sure what this is referring to.-->
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="90">
                     <marginalia_text>
@@ -52,7 +52,7 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -63,7 +63,7 @@
             <translation>Bright when red: et cetera.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" other_reader="unknown">
+        <marginalia hand="English_secretary" other_reader="unknown" method="pen">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>K. [1033.h./2 - deleted]</marginalia_text>
@@ -71,7 +71,7 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -82,7 +82,7 @@
             <translation>Two red earths.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -93,7 +93,7 @@
             <translation>1530.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -103,9 +103,10 @@
             </language>
             <translation>Solution. Amalgam. Elixir.</translation>
         </marginalia>
-        
+                
         <numeral place="intext">9</numeral>
         
+               
         <!--KS: Triangular scheme to be figured out.-->
         
     </annotation>
