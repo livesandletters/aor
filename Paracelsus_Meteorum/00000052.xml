@@ -51,7 +51,7 @@
             <translation>The creation of God in six days.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Also ist ein Corpus Solis">
+        <marginalia hand="Italian" anchor_text="Also ist ein Corpus Solis"> <!-- FSF: isn't this an errata, so 'Also ist sal ein corpus solis', as it is visualised in the margin -->
             <language ident="DE">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>sal</marginalia_text>
@@ -80,11 +80,9 @@
         <symbol name="Sun" place="head"/>
         <symbol name="Moon" place="head"/>
         
-        <mark name="X_sign" method="pen" place="right_margin"/>
-        
+        <mark name="X_sign" method="pen" place="right_margin"/>        
         <mark name="comma" method="pen" place="intext"/> <!--materia alle-->
-        <mark name="circumflex" method="pen" place="intext"/>
-        
+        <mark name="circumflex" method="pen" place="intext"/>    
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         
     </annotation>
