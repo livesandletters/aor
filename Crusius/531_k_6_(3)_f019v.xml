@@ -4,10 +4,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="531_k_6_(3)_f019v.tif" reader="John Dee" pagination="[019v]"/> 
+    <page filename="531_k_6_(3)_f019v.tif" reader="John Dee" pagination="[019v]" signature="[E3v]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="armillis" internal_ref="531_k_6_(3)_f019v_u001">
+        <marginalia hand="Italian" anchor_text="armillis" internal_ref="531_k_6_(3)_f019v_u0001" id="531_k_6_(3)_f019v_m0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -20,7 +20,15 @@
         
         <underline method="pen" type="straight" language="LA" text="scrupulo primo"/>
         <underline method="pen" type="straight" language="LA" text="Im&ograve;, ne integras quidem horas absq[ue] singulari industria ex"/>
-        <underline method="pen" type="double" language="LA" text="armillis depraehe[n]di" id="531_k_6_(3)_f019v_u001"/>
+        <underline method="pen" type="double" language="LA" text="armillis depraehe[n]di" id="531_k_6_(3)_f019v_u0001"/>
+        
+        <physical_link>
+            <marginal_annotation idref="531.k.6.(3.):531_k_6_(3)_f019v:u0001"/>
+            <marginal_annotation idref="531.k.6.(3.):531_k_6_(3)_f019v:m0001"/>
+            
+            <relation from="531.k.6.(3.):531_k_6_(3)_f019v:u0001" to="531.k.6.(3.):531_k_6_(3)_f019v:m0001" type="directed"/>
+            
+        </physical_link>
         
     </annotation>
 </transcription>
