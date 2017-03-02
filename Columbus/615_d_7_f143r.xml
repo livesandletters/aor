@@ -9,7 +9,7 @@
         <marginalia hand="Italian">
             <language ident ="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Note this scandalu against the Christian name.</marginalia_text> 
+                    <marginalia_text>Note this scandalu[m] agaynst the Christian name.</marginalia_text> 
                 </position>
             </language>
         </marginalia>
@@ -27,24 +27,22 @@
         <marginalia hand="Italian" anchor_text="Giouan Matteo">
             <language ident ="EN">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Giouan Matteo: a Indian Christianised!</marginalia_text> 
+                    <marginalia_text>Giouan Matteo: a Indian Christianised!</marginalia_text> <!-- FSF: I think there is a so missing, which you have captured as a ! -->
                     <person name="Giovanni Matteo"/>
                 </position>
             </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="Ma poi si sdegn&ograve; &amp;"/>
-        <underline method="pen" type="straight" language="IT" text="per colpa d' altri de"/>
-        <underline method="pen" type="double" language="IT" text="alla legge Christiana; essendo che i Christiani fossero tristi, &amp; gli tenessero delle sue terre per forza. Pe&ograve; lo 
-            consigliauano a non curar piu cosa alcuna de' Christiani'"/>
+        <underline method="pen" type="straight" language="IT" text="per colpa d'altri de"/>
+        <underline method="pen" type="double" language="IT" text="alla legge Christiana; essendo che i Christiani fossero tristi, &amp; gli tenessero delle sue terre per forza. Pe&ograve; lo consigliauano a non curar piu cosa alcuna de' Christiani'"/>
         <underline method="pen" type="straight" language="IT" text="Cacique principale, il qual ci mostraua buona volont&agrave;, dicendo di volere esser"/>
         <underline method="pen" type="straight" language="IT" text="Mauiatu&egrave;"/>
         <underline method="pen" type="straight" language="IT" text="Giouan Borgognone"/>
         <underline method="pen" type="straight" language="IT" text="Giouan Matteo"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="vertical_bar" method="pen" place="right_margin"/>
+        <mark name="vertical_bar" method="pen" place="right_margin"/> <!-- FSF: I would capture them both as brackets -->
         
     </annotation>
 </transcription>
-
