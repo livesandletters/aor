@@ -7,20 +7,20 @@
     <page filename="c_120_b_4_(2)_f021r.tif" reader="John Dee" pagination="21" signature="E"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="componitur">
+        <marginalia hand="Italian" anchor_text="componitur" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Compositum nostru[m] &Sun; &Moon;
                     </marginalia_text>
-                    <marginalia_symbol name="Sun"/>
-                    <marginalia_symbol name="Moon"/> <!--KS: Unsure, looks like both sun and moon intertwined.-->
+                    <symbol_in_text name="Sun"/>
+                    <symbol_in_text name="Moon"/> <!--KS: Unsure, looks like both sun and moon intertwined.-->
                 </position>
             </language>
             <translation>Our composition. Sun and moon.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="rubicu[n]dissimum Stagnum; Sale elebr&oacute; elementaribus naturis rubificatis; primam Materiam artis">
+        <marginalia hand="Italian" anchor_text="rubicu[n]dissimum Stagnum; Sale elebr&oacute; elementaribus naturis rubificatis; primam Materiam artis" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -37,7 +37,7 @@
         <underline method="pen" type="straight" language="LA" text="cum proportione suae"/>
         <underline method="pen" type="straight" language="LA" text="componitur"/>
         <underline method="pen" type="double" language="LA" text="post nigrificationem"/>
-        <underline method="pen" type="straight" language="LA" text="rubricu[n]dissimum Stagnum"/>
+        <underline method="pen" type="straight" language="LA" text="rubicu[n]dissimum Stagnum"/>
         <underline method="pen" type="straight" language="LA" text="cum Sale elebrot"/>
         <underline method="pen" type="straight" language="LA" text="elementaribus naturis rubificatis"/>
         <underline method="pen" type="straight" language="LA" text="primam Materiam"/>
