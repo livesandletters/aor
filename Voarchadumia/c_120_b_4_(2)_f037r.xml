@@ -4,10 +4,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="c_120_b_4_(2)_f037v.tif" reader="John Dee" pagination="37" signature="I"/> 
+    <page filename="c_120_b_4_(2)_f037r.tif" reader="John Dee" pagination="37" signature="I"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="arenam albam">
+        <marginalia hand="Italian" anchor_text="arenam albam" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,7 +20,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Terra residua">
+        <marginalia hand="Italian" anchor_text="Terra residua" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,11 +29,11 @@
                 </position>
             </language>
             <translation>
-                Read soil.
+                Read soil.  <!-- DO: 'The residual soil'? -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -50,6 +50,7 @@
         <underline method="pen" type="straight" language="LA" text="Frigido"/>
         <underline method="pen" type="straight" language="LA" text="arenam albam"/>
         <underline method="pen" type="straight" language="LA" text="humidi"/>
+        <underline method="pen" type="straight" language="LA" text="Aer"/>
         <underline method="pen" type="straight" language="LA" text="cum Sicco"/>
         <underline method="pen" type="straight" language="LA" text="Argentum uiuum ut dictum est, mundatum ab Argento uiuo"/>
         <underline method="pen" type="straight" language="LA" text="coagulatu[m]"/>
@@ -59,7 +60,7 @@
         <mark name="circumflex" method="pen" place="intext"/>
         
         <errata language="LA" copytext="receptorum" amendedtext="receptarum"/>
-        <errata language="LA" copytext="Aer" amendedtext="Aeris"/>
+        <errata language="LA" copytext="Aer" amendedtext="Aeris"/>  <!-- DO: I know what you mean but I think this should perhaps be tagged as marginalia rather than errata? -->
         <errata language="LA" copytext="retinentem" amendedtext="retinent"/>
         <errata language="LA" copytext="albificantem" amendedtext="albificant"/>
         
