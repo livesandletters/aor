@@ -16,7 +16,9 @@
                 </position>
             </language>
             <translation>
-                See folio 12 "Theoretical'  <!-- DO: if 'Theorica[e]' refers to a book, I'm not sure if it should be translated? The only book I have found as a possible suggestion is: https://www.britannica.com/topic/Theoricae-novae-planetarum but can't be sure if this is the one -->
+                See folio 12 of the "Theoretical'  
+                <!-- DO: if 'Theorica[e]' refers to a book, I'm not sure if it should be translated? The only book I have found as a possible suggestion is: https://www.britannica.com/topic/Theoricae-novae-planetarum but can't be sure if this is the one -->
+                <!-- FSF: possibly an internal reference? -->
             </translation>
         </marginalia>
         
@@ -30,8 +32,7 @@
             </language>
             <translation>Days: 13 9/24.</translation>
         </marginalia>
-        
-        
+             
         <marginalia hand="Italian" anchor_text="in pane" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
@@ -67,10 +68,8 @@
         <underline method="pen" type="grid" language="LA" text="uniusmet ponderis"/>
         <underline method="pen" type="straight" language="LA" text="dies tres"/>
         
-        <numeral place="intext">720</numeral>
-        <numeral place="intext" text="ducentis septuaginta" language="LA">270</numeral>  <!-- DO: not sure if these should be transcribed as 72|0 and 27|0? -->
-        
-       
+        <numeral place="intext">72|0</numeral>
+        <numeral place="intext" text="ducentis septuaginta" language="LA">27|0</numeral>  <!-- DO: not sure if these should be transcribed as 72|0 and 27|0? -->
         
     </annotation>
 </transcription>
