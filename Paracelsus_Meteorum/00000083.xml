@@ -10,7 +10,7 @@
         <marginalia hand="Italian" anchor_text="ein au&sharp-S;zug von dem andern">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Aristotelicos philosophia.</marginalia_text>
+                    <marginalia_text>Aristotelicos philosophia.</marginalia_text> <!-- FSF: I would suggest Aristotelica, so that it agrees with philosophia; Dee's a often has a little scribbly line at the end with a hook downwards, which I think is the case here too -->
                     <person name="Aristotle"/>
                 </position>
             </language>
@@ -47,7 +47,9 @@
         <underline method="pen" type="straight" language="DE" text="oder ein Frucht"/>
         <underline method="pen" type="straight" language="DE" text="Regensternen in"/>
         
-        <mark name="bracket" method="pen" place="right_margin" language="DE" text="Vnd wiewol sich begibet das in etlichen Regionibus der Regensternen effectus nicht alle mal f&uuml;r sich gehet sondern selte[n] oder gar nichts Regnet: Dasselbige ist nicht der gepresten das die Sternen nicht da seindt sonder sie werde[n] au&sharp-S;ged&ouml;rret au&sharp-S; demselbigen Landts vnd Regionis Winden vnd constellationen"/>
+        <mark name="bracket" method="pen" place="right_margin" language="DE" text="Vnd wiewol sich begibet das in etlichen Regionibus der Regensternen effectus nicht alle mal
+            f&uuml;r sich gehet sondern selte[n] oder gar nichts Regnet: Dasselbige ist nicht der gepresten das dieSternen nicht da seindt sondern sie werde[n] au&sharp-S;ged&ouml;rret
+            au&sharp-S; demselbigen Landts vnd Regionis Winden vnd constellationen"/>
         
     </annotation>
 </transcription>
