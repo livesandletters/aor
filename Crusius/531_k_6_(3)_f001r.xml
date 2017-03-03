@@ -7,7 +7,15 @@
     <page filename="531_k_6_(3)_f001r.tif" reader="John Dee" pagination="[001r]" signature="[A1]"/> 
     <annotation>
         
-        <!--KS: unfamiliar marginal note in top right corner -'7GGe'?-->
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>
+                        7GGe
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
         
         <marginalia hand="Italian" other_reader="unknown" method="pen">
             <language ident="EN">
@@ -23,7 +31,9 @@
         <marginalia hand="Italian" other_reader="unknown" method="pen">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>6. N. v</marginalia_text>
+                    <marginalia_text>
+                        6. N. v
+                    </marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -31,7 +41,9 @@
         <marginalia hand="Italian" other_reader="unknown" method="pen">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Crusices P[?]s</marginalia_text>
+                    <marginalia_text>
+                        Crusices P(?)k
+                    </marginalia_text>
                     <person name="Paulus Crusius"/>
                 </position>
             </language>
@@ -48,7 +60,7 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen">
+        <marginalia hand="Italian" method="pen" date="1568">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
