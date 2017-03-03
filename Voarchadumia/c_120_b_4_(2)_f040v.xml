@@ -4,10 +4,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="c_120_b_4_(2)_f040v.tif" reader="John Dee" pagination="40" signature="[Iiv[v]]"/> 
+    <page filename="c_120_b_4_(2)_f040v.tif" reader="John Dee" pagination="40[v]" signature="[Iiv[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <!-- FSF: some sort of genealogical tree or streamline -->
@@ -15,7 +15,7 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Anthybar: Marthek: Stagno: uel Riso&oacute;">
+        <marginalia hand="Italian" anchor_text="Anthybar: Marthek: Stagno: uel Riso&oacute;" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -37,25 +37,28 @@
                     <marginalia_text>
                         vix vide pag[ina] 63
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="C.120.b.4.(2.):c_120_b_4_(2)_f063r" text="pag[ina] 63"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
-                See page 63. <!-- FSF: not sure how to translate vix in this context -->
+                See page 63. <!-- FSF: not sure how to translate vix in this context -->  <!-- DO: Could it mean 'with difficulty' = 'carefully'? -->
             </translation>
         </marginalia>
             
         <underline method="pen" type="straight" language="LA" text="uiuo septies mu[n]datu[m]"/>
         <underline method="pen" type="straight" language="LA" text="&aacute; penultima"/>
-        <underline method="pen" type="straight" language="LA" text="est humidum albu[m]"/>
+       
 
         <symbol name="Moon" place="right_margin"/>        
         
-        <numeral place="intext" language="LA" text="septies"></numeral>
-        <numeral place="intext" language="LA" text="Coagulumq[ue">2</numeral>
+        <numeral place="intext" language="LA" text="uiuo septies mu[n]datu[m]">1</numeral>
+        <numeral place="intext" language="LA" text="Coagulumq[ue]">2</numeral>
         <numeral place="intext" language="LA" text="Ignis">3</numeral>
         <numeral place="intext" language="LA" text="Aeris">4</numeral>
  
-        <errata language="LA" copytext="cum Arena alba" amendedtext="deleted"/>      
+        <errata language="LA" copytext="cum Arena alba" amendedtext="[deleted]"/>      
 
         <drawing type="manicule" book_orientation="0" place="intext" method="pen"></drawing>       
         
