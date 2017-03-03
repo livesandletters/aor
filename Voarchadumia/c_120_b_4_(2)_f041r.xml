@@ -7,7 +7,7 @@
     <page filename="c_120_b_4_(2)_f041r.tif" reader="John Dee" pagination="41" signature="K"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="substantia agens in hoc toto mu[n]do est unum [scilicet] Calor">
+        <marginalia hand="Italian" anchor_text="substantia agens in hoc toto mu[n]do est unum [scilicet] Calor" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,16 +20,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Et est calidus &amp; siccus in quarto">
+        <marginalia hand="Italian" anchor_text="Et est calidus &amp; siccus in quarto" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Calidus et siccus in 4o
+                        Calidus et siccus in 4&o_super;                    
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure how to translate this -->
+                <!-- FSF: not sure how to translate this -->  <!-- DO: Hot and dry in 4o? -->
             </translation>
         </marginalia>
         
@@ -37,18 +37,18 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Im&ograve; summa est 83: sed putandum est hoc no[n] latuisse 
+                        {Im&ograve; summa est 83: sed putandum est hoc no[n] latuisse 
                         authorem: Ip[soru]m tante[n] numeru[m] suu[m] mysteriu[m] nobis obijcere 
-                        ante oc....: hor... mysteriu[m] cum suis ...tri, proposito b q[ua]drare
+                        ante oc....: hor... mysteriu[m] cum suis ...tri, proposito b[?] q[ua]drare
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                <!-- FSF: to be added --> <!-- DO: At the lowest point the highest is 83: but this thinking was not concealed by the author:.... -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -58,7 +58,7 @@
             </language>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="mistam"/> <!-- FSF: the underlining has little feet like millipede like in folio 38r-->
+        <underline method="pen" type="grid" language="LA" text="mistam"/>
         <underline method="pen" type="straight" language="LA" text="Calore enim sublato nullus omnino Motus est"/>
         
     </annotation>
