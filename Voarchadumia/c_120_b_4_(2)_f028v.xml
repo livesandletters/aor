@@ -7,7 +7,7 @@
     <page filename="c_120_b_4_(2)_f028v.tif" reader="John Dee" pagination="28[v]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Tortam">
+        <marginalia hand="Italian" anchor_text="Tortam" method="pen">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -16,21 +16,21 @@
                     <emphasis type="straight" method="pen" text="Retortam"/>
                 </position>
             </language>
-            <translation>Chemistry.</translation>
+            <translation>Chemistry.</translation>  <!-- DO: I think he's referring to a (chemistry) retort: https://en.wikipedia.org/wiki/Retort - makes more sense with his comment below -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="spiraculi in sigollo">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        spiraculu[m] in sigollo rostri Alembici vel retorta[e] et recipie[n]tis
+                        spiraculu[m] in sigollo rostri Alembici vel retorta[e] et recipie[n]tis <!-- DO: sigillo -->
                     </marginalia_text>
                 </position>
             </language>
-            <translation>The vent in the relief of the beak of an alembic or of chemistry and the recorded.</translation> <!--KS: Not sure at all about translation-->
+            <translation>The vent in the relief of the beak of an alembic or of chemistry and the recorded.</translation> <!--KS: Not sure at all about translation--> <!-- DO: Maybe something like: 'The air hole in the figure of the beak of an alembic or a retort and its receptacle'. Not really sure about 'recipientis' though -->
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Tuthia alba">
+        <marginalia hand="Italian" anchor_text="Tuthia alba" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -38,7 +38,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>White metal.</translation>
+            <translation>White metal.</translation>  <!-- DO: I'm not sure how or if this should be translated. I think the book's talking about zinc oxide, otherwise (apparently) known as Tuthia alba. -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Tortam"/>
@@ -55,7 +55,7 @@
 
         <mark name="tripunctus" method="pen" place="left_margin"/>
         
-        <mark name="bracket" method="pen" place="right_margin"/> <!--etiam cum-->
+        <mark name="bracket" method="pen" place="right_margin"/> 
         
         <mark name="comma" method="pen" place="intext"/> <!--simul p[er]-->
         <mark name="comma" method="pen" place="intext"/> <!--etiam cum-->
