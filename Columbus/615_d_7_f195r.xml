@@ -14,11 +14,12 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" method="pen" anchor_text="D. Bartolomeo Colombo">
+        <marginalia hand="Italian" method="pen" anchor_text="D. Bartolomeo Colombo, suo fratello">
             <language ident="IT">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Barth. Colo[mbo] Fer. Colo[mbo]</marginalia_text>
-                    <person name="Bartholomew Columbus"/> <!-- FSF: his brother is mentioned in the text (suo fratello), which could be Fer. Columbus, possibly Fernand (https://en.wikipedia.org/wiki/Ferdinand_Columbus); this to be put in achor text and name tag -->
+                    <person name="Bartholomew Columbus"/> 
+                    <person name="Ferdinand Columbus"/>
                 </position>
             </language>
         </marginalia>
