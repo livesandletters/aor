@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="Taquimo">
             <language ident="IT">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Port[o] Taquimo i af del Brasile</marginalia_text> <!-- FSF: I think the al is deleted -->
+                    <marginalia_text>Port[o] Taquimo i del Brasile</marginalia_text>
                     <location name="Taquimo"/>
                 </position>
             </language>
@@ -27,17 +27,17 @@
         <marginalia hand="Italian" anchor_text="Taquimo">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Fl[ume] porto del Brasile</marginalia_text> <!-- FSF: as in other later instances, this is the article il, just capitalised -->
+                    <marginalia_text>Il porto del Brasile</marginalia_text>
                     <location name="Taquimo"/>
                 </position>
             </language>
-            <translation>The river [that flows through] the port in Brasil.</translation>
+            <translation>The port of Brasil.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Tumults maliously procurid </marginalia_text> <!-- M.B. i.e. 'Tumults maliciousy procured' ??? uncertain transcription --> <!-- FSF: 'Tumults malitiousy procured' -->
+                    <marginalia_text>Tumults malitiousy procured</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -63,9 +63,10 @@
         <underline method="pen" type="double" language="IT" text="alla ve[n]tura"/>
         <underline method="pen" type="straight" language="IT" text="Taquimo"/>
         <underline method="pen" type="straight" language="IT" text="di torre a gl'Indiani quel"/>
-        <underline method="pen" type="straight" language="IT" text="potesse, &amp; caricar di verzino, &amp; di schiaui."/> <!-- FSF: I would separate di schiaui and capture it as double underscoring -->
+        <underline method="pen" type="straight" language="IT" text="potesse, &amp; caricar di verzino, &amp; di schiaui."/>
+        <underline method="pen" type="double" language="IT" text="di schiaui."/>
         <underline method="pen" type="double" language="IT" text="tutto dato al mal fare"/>
-        <underline method="pen" type="straight" language="IT" text="membro"/> <!-- FSF: I think this is double -->
+        <underline method="pen" type="double" language="IT" text="membro"/>
         <underline method="pen" type="double" language="IT" text="Vescouo"/>
         <underline method="pen" type="straight" language="IT" text="di suscitare vn'altro nuouo tumulto"/>
         <underline method="pen" type="straight" language="IT" text="che la Reina"/>
@@ -77,12 +78,11 @@
         <underline method="pen" type="straight" language="IT" text="XX huomini da van Cacique"/>
         <underline method="pen" type="straight" language="IT" text="cosi"/>
         <underline method="pen" type="straight" language="IT" text="coglierlo all'improuiso"/>
-        <underline method="pen" type="straight" language="IT" text="veniua"/> <!-- FSF: I don't see any underlining; this might however be an errata -->
         <underline method="pen" type="triple" language="IT" text="di ladro il fedele"/>
 
         <!-- M.B. Uncertain about "4" symbol in margin above manicle  -->
-        <mark name="quotation_mark" method="pen" place="right_margin"/>
-        <mark name="quotation_mark" method="pen" place="right_margin"/> <!-- FSF: both erratas? -->
+        <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="equal_sign" method="pen" place="right_margin"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
