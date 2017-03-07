@@ -9,13 +9,13 @@
         <marginalia hand="Italian" anchor_text="Matrimino: delle quali riferia tutto quello, che si legge delle Amazone">
             <language ident ="IT">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>tarde, Matrimin&oacute; Amazones</marginalia_text> <!-- M.B. Not entirely certain if first is 'tarde'  --> 
+                    <marginalia_text>Matrimin&oacute; Amazones</marginalia_text> <!-- M.B. Not entirely certain if first is 'tarde'  --> 
                     <!-- FSF: I don't think it is tarde, but I am not sure what it is either; f..se is what I can read; also, the last e is an &egrave; -->
                 <location name="Martinique"/>
                     <location name="Amazon"/>
                 </position>
             </language>
-            <translation>Slow, Martinique, Amazon</translation>
+            <translation>Martinique, Amazon</translation> <!-- MB. Add untranscribed term to translation later. -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="paiono dotate di piu ragione, che quelli delle altre Isole">
@@ -43,7 +43,8 @@
         <underline method="pen" type="double" language="IT" text="comeuna scala, &amp; porta"/>
         <underline method="pen" type="straight" language="IT" text="donne contente con alcuni"/>
         
-        <!-- FSF: there are two marks to be captured, two brackets -->
+        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
