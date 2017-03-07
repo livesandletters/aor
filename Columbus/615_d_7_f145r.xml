@@ -51,25 +51,26 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident ="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>A&o_super; 1496.</marginalia_text> <!-- FSF: I would capture it A[nn]o 1496 -->
+                    <marginalia_text>A[nn]o 1496.</marginalia_text>
                 </position>
             </language>
-            <translation>The year of 1496.</translation> <!-- FSF: In the year -->
+            <translation>In the year of 1496.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Il primo Christiani adunque furono quello, che di sopra habbiam detto nell' Isola Spagnuola">
             <language ident ="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>The first Christians in Hispaniola: was after 4 years</marginalia_text> <!-- MB. Final word of this marginalia eludes me.  --> <!-- FSF: Could the last word read 'enhabiting'? -->
+                    <marginalia_text>The first Christians in Hispaniola: was after 4 years enhabiting</marginalia_text>
                 </position>
             </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="castigar li Signori, quando ne son degni"/>
-        <underline method="pen" type="straight" language="IT" text="&amp; ammaestrarli in quella. percioche non possono, e non san contradire"/> <!-- FSF: i would split this in straight and double -->
+        <underline method="pen" type="straight" language="IT" text="&amp; ammaestrarli in quella. percioche non"/>
+        <underline method="pen" type="double" language="IT" text="possono, e non san contradire"/>
         <underline method="pen" type="straight" language="IT" text="Gianauuari&ugrave;"/>
-        <underline method="pen" type="straight" language="IT" text="Christiani, col far loro sola"/>
-        <underline method="pen" type="double" language="IT" text="mente conoscere, che u; &egrave; un Dio"/> <!-- FSF: solamente is one word -->
+        <underline method="pen" type="straight" language="IT" text="Christiani, col far loro"/>
+        <underline method="pen" type="double" language="IT" text="solamente conoscere, che u; &egrave; un Dio"/>
         <underline method="pen" type="straight" language="IT" text="quale ha fatte"/>
         <underline method="pen" type="double" language="IT" text="tutte le"/>
         <underline method="pen" type="straight" language="IT" text="&amp; cre&ograve; il Cielo"/>
@@ -81,7 +82,8 @@
         <underline method="pen" type="straight" language="IT" text="miglior fine"/>
         <underline method="pen" type="double" language="IT" text="poi rideranno"/>
         <underline method="pen" type="double" language="IT" text="per li quali"/>
-        <underline method="pen" type="straight" language="IT" text="bisogno di forza, &amp; di castigo."/> <!-- FSF: I would split this in straight and double -->
+        <underline method="pen" type="double" language="IT" text="bisogno di forza,"/>
+        <underline method="pen" type="straight" language="IT" text="&amp; di castigo."/>
         <underline method="pen" type="double" language="IT" text="Il primo"/>
         <underline method="pen" type="double" language="IT" text="Battesimo nell'Isola"/>
         <underline method="pen" type="straight" language="IT" text="san Matteo"/>
@@ -89,8 +91,8 @@
         <underline method="pen" type="double" language="IT" text="procederebbe, se ci"/>
         <underline method="pen" type="double" language="IT" text="gli ammaestrasse"/>
         
-        <mark name="equal_sign" method="pen" place="right_margin"/> <!-- FSF: I think it is an errata connecting insegnato -->
-        <!-- FSF: there is a bracket to be captured as a sign -->
+        <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
