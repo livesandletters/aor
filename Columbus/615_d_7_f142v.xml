@@ -19,6 +19,7 @@
             <language ident ="IT">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Guaiacauanu</marginalia_text> 
+                    <person name="Guaiacauanu"/>
                 </position>
             </language>
         </marginalia>
@@ -39,16 +40,16 @@
                     <location name="The Fort Conception"/>
                 </position>
             </language>
-            <translation>The Fort of Conception.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Garionex">
-            <language ident ="LA">
+            <language ident ="IT">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Garionex</marginalia_text> 
+                    <person name="Garionex"/> <!-- MB. Cacique name therefore not modernised/translated. -->
                 </position>
             </language>
-        </marginalia> <!-- FSF: all the notes that are in a language other than English aren't translated, but the one in English is; I am not sure how we are supposed to translate names; also, Garionex seems to be a name, so I am no sure if it should be captured as a Latin note -->
+        </marginalia> 
         
         <underline method="pen" type="straight" language="IT" text="era il Guaicauan&ugrave;"/>
         <underline method="pen" type="straight" language="IT" text="chiam&ograve; Giouanni"/>
