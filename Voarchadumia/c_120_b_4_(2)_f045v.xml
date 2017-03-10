@@ -4,10 +4,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="c_120_b_4_(2)_f045r.tif" reader="John Dee" pagination="45" signature="[L[v]]"/> 
+    <page filename="c_120_b_4_(2)_f045v.tif" reader="John Dee" pagination="45[v]" signature="[L[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Triturationem">
+        <marginalia hand="Italian" anchor_text="Triturationem" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -20,7 +20,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="generatione[m]">
+        <marginalia hand="Italian" anchor_text="generatione[m]" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -33,7 +33,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -46,11 +46,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Alterationem">
+        <marginalia hand="Italian" anchor_text="Alterationem" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Resolutionem
+                        Resolutione[m]
                     </marginalia_text>
                 </position>
             </language>
@@ -59,7 +59,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -73,15 +73,22 @@
         </marginalia>
         
         <underline method="pen" type="double" language="LA" text="ex lapideo A&apos;ludel in lapideo Caraha&apos;"/>
-        <underline method="pen" type="triple" language="LA" text="coniunctionem"/> <!-- FSF: the underlining has little feet like millipede like in folio 38r-->
-        <underline method="pen" type="straight" language="LA" text="Corru[tione[m]: Generatione[m]: Augme[n]ationem"/> 
+        <underline method="pen" type="triple" language="LA" text="coniunctionem"/> 
+        <underline method="pen" type="straight" language="LA" text="Corruptione[m]: Generatione[m]: Augme[n]tationem"/> 
         <underline method="pen" type="straight" language="LA" text="Fixationem"/> 
         <underline method="pen" type="straight" language="LA" text="Alterationem: cum"/>
-        <underline method="pen" type="straight" language="LA" text="lapideo"/> <!-- FSF: the underlining has little feet like millipede like in folio 38r-->
+        <underline method="pen" type="grid" language="LA" text="lapideo"/>
 
-        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="bracket" method="pen" place="intext"/>  <!-- adustiui: qui -->
+        
+        <mark name="bracket" method="pen" place="intext"/>  <!-- nigredine[m]: ab -->
+        
         
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
+        
+        
+        <!-- DO: He also appears to have circled the dot above 'uiuum', possibly an erratum? -->
+        
         
     </annotation>
 </transcription>
