@@ -124,11 +124,10 @@
         <marginalia hand="Italian" anchor_text="sanctum Clerum" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>S[ain]t Cler.</marginalia_text>
-                    <person name=""/>
+                    <marginalia_text>S[anc]t[us] Cler[us]</marginalia_text>  <!-- DO: not sure if this is the name of a Saint -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>The holy clergy.</translation>
         </marginalia>
         
         
@@ -167,7 +166,7 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="Rollo baptizatur" method="pen">
+        <marginalia hand="Italian" anchor_text="Rollo baptizatur" method="pen" id="10552-2 D1/17-c-11(2):498:m0001">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Rollo baptizatur.</marginalia_text>
@@ -178,7 +177,7 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="imposuit ei nomen suum" method="pen">
+        <marginalia hand="Italian" anchor_text="imposuit ei nomen suum" method="pen" id="10552-2 D1/17-c-11(2):498:m0002">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Robertus vocatur.</marginalia_text>
@@ -311,6 +310,19 @@
             <relation from="10552-2 D1/17-c-11(2):498:u0001" to="10552-2 D1/17-c-11(2):498:u0002" type="undirected"/>
             
         </physical_link>
+        
+        
+        <physical_link>
+            
+            <marginal_annotation idref="10552-2 D1/17-c-11(2):498:m0001"/>
+            <marginal_annotation idref="10552-2 D1/17-c-11(2):498:m0002"/>
+            
+            <relation from="10552-2 D1/17-c-11(2):498:m0001" to="10552-2 D1/17-c-11(2):498:m0002" type="undirected"/>
+            
+        </physical_link>
+        
+        
+        
         
         
     </annotation>
