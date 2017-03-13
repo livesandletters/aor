@@ -10,17 +10,29 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Rhesus Vauchan</marginalia_text>
-                    <person name=""/>
+                    <person name="Rees Vazhan"/>
                 </position>
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Glomorganciamn">
+        <marginalia hand="Italian" anchor_text="Comiti Hertfordiae">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Glamorgancia</marginalia_text>
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>de clare sed Herefordi</marginalia_text> <!-- MB. Uncertain about word preceding 'c_ido'?'Hererford continues to the edge if the page and last letter appears as an [i].' -->
+                    <person name="Gilbert de Clare, 6th Earl of Herford"/>
                 </position>
             </language>
+            <translation>Gilbert de Clare, 6th Earl of Herford"</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Glomorganciam">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Glamorgancia.</marginalia_text>
+                    <location name="Glamorgan"/>
+                </position>
+            </language>
+            <translation>Glarmorgan</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="crux dicta Neoti"/>
@@ -30,6 +42,9 @@
         <underline method="pen" type="straight" language="LA" text="vallem Regalem"/>
         <underline method="pen" type="double" language="LA" text="leges Anglicanas"/>
         <underline method="pen" type="straight" language="LA" text="Glomorganciam quae ad ditionem Comitis Glouerniae noscitur pertinere"/>
+        
+        <mark name="comma" method="pen" place="intext"/> <!-- redditus ad -->
+        <mark name="tripunctus" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
