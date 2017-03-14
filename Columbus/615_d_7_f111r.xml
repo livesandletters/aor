@@ -20,15 +20,15 @@
         <underline method="pen" type="double" language="IT" text="hauere"/>
         <underline method="pen" type="straight" language="IT" text="a' XIIII di Maggio deliber&ograve;"/>
         <underline method="pen" type="straight" language="IT" text="tornare all'Isola di Cuba"/>
-        <underline method="pen" type="straight" language="IT" text="nauigato cinquecento, &ograve; seicente leghe di quella, &amp;"/>
+        <underline method="pen" type="straight" language="IT" text="nauigato cinquecento, &ograve; seicente leghe di quella, &amp;"/>  <!-- MB. Underlined,'d&igrave; da' is not captured  -->
         <underline method="pen" type="straight" language="IT" text="Indiano molto giouane"/>
         <underline method="pen" type="straight" language="IT" text="di voler venire in Castiglia ; &amp;"/>
         <underline method="pen" type="straight" language="IT" text="marauigliatosi lo Ammiraglio, command&ograve;, ch'ei fosse"/>
         
-        <mark name="bracket" method="pen" place="right_margin"/>
-                
-        
+        <!-- MB. Vertical line in right margin needs to be captured. -->
+                      
         <!-- Drawing: the bay was shaped like a horseshoe ['In questo porto, simile di forma ad vn ferro di cauallo'] -->
+        <!-- MB. Update schema with category for drawing. -->
         
         
         
