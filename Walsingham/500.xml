@@ -25,7 +25,6 @@
                 <position place="head" book_orientation="0">
                     <marginalia_text>Henricus Ep[iscop]us Baiocensis.</marginalia_text>
                     <person name="Bishop Heinrich I of Bayeux"/>
-                    <location name="Bayeux"/> <!--JG: Don't tag location if it's part of someone's title-->
                 </position>
             </language>
             <translation>Heinrich, Bishop of Bayeux.</translation>
@@ -53,7 +52,7 @@
         <marginalia hand="Italian" anchor_text="Alano debita indulsit, &amp; ad sua redire concessit" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Alano Bryt[taniae] co[n]donatur.</marginalia_text>
+                    <marginalia_text>Alano Bryt[aniae] co[n]donatur.</marginalia_text>
                     <person name="Alan I of Brittany"/>
                     <location name="Brittany"/>
                 </position>
@@ -196,9 +195,9 @@
         <drawing type="crown" book_orientation="0" place="head" method="pen"/>
         
         <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
-            <node id="n1">Carolus</node>
-            <node id="n2">Ogina</node>
-            <node id="n3">Ludouicus</node>
+            <node id="n1" person="Charles the Simple">Carolus</node>
+            <node id="n2" person="Eadgifu of Wessex">Ogina</node>
+            <node id="n3" person="Louis IV of France">Ludouicus</node>
             
             <link to="n2" from="n1" relationship="has_spouse"/>
             <link to="n1" from="n2" relationship="has_spouse"/>
@@ -206,8 +205,8 @@
         </graph>
         
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
-            <node id="n4">Guliel. comes Picta</node>
-            <node id="n5">Gerloc</node>
+            <node id="n4" person="William I, Count of Poitou">Guliel. comes Picta</node>
+            <node id="n5" person="Gerloc">Gerloc</node>
             
             <link to="n5" from="n4" relationship="has_spouse"/>
             <link to="n4" from="n5" relationship="has_spouse"/>
