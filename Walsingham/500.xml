@@ -11,12 +11,12 @@
         <marginalia hand="Italian" anchor_text="filia[m] Herberti Comitis" method="pen">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Filia Herberti Comitis vxor [Richardi deleted] Gulielmi Longa spata.</marginalia_text>
+                    <marginalia_text>Filia Herberti Comitis vxor [Richardi - deleted] Gulielmi Longa spata.</marginalia_text>
                     <person name="Herbert II of Vermandois"/>
                     <person name="William I Longsword"/>
                 </position>
             </language>
-            <translation>Daughter of Count Herbert. Wife of [Richard deleted] William Longsword.</translation>
+            <translation>Daughter of Count Herbert. Wife of William Longsword.</translation>
         </marginalia>
         
         
@@ -25,12 +25,11 @@
                 <position place="head" book_orientation="0">
                     <marginalia_text>Henricus Ep[iscop]us Baiocensis.</marginalia_text>
                     <person name="Bishop Heinrich I of Bayeux"/>
-                    <location name="Bayeux"/>
+                    <location name="Bayeux"/> <!--JG: Don't tag location if it's part of someone's title-->
                 </position>
             </language>
             <translation>Heinrich, Bishop of Bayeux.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Danico more iuncta" method="pen">
             <language ident="LA">
@@ -38,9 +37,8 @@
                     <marginalia_text>Matrimoniu[m] Danicorum</marginalia_text>
                 </position>
             </language>
-            <translation>Marriage of the Danes.</translation>
+            <translation>A marriage of the Danes.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Richardumq[ue]" method="pen">
             <language ident="LA">
@@ -49,9 +47,8 @@
                     <person name="Richard I of Normandy"/>
                 </position>
             </language>
-            <translation>Richard is born.</translation>
+            <translation>Richard was born.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Alano debita indulsit, &amp; ad sua redire concessit" method="pen">
             <language ident="LA">
@@ -64,7 +61,6 @@
             <translation>Alan of Brittany is pardoned.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Carolus rex Francorum" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -75,7 +71,6 @@
             <translation>Charles, King of the Franks.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Carolus ab Herberto comite captus in custodiam Peroni traditur, &amp; in custodia Herberti moritur" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -84,9 +79,8 @@
                     <person name="Herbert II of Vermandois"/>
                 </position>
             </language>
-            <translation>Charles, King of the Franks, captured and imprisoned by Count Herbert: he died in captivity.</translation>
+            <translation>Charles, King of the Franks, was captured and imprisoned by Count Herbert: he died in captivity.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Ludowicum" method="pen">
             <language ident="LA">
@@ -103,12 +97,11 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Henricus Rex transrhenanus.</marginalia_text>
-                    <person name=""/>
+                    <person name=""/> <!--JG: Right person needs to be found. Rather tricky-->
                 </position>
             </language>
             <translation>Henry, King of the trans-Rhine region.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Hugone magno" method="pen">
             <language ident="LA">
@@ -120,7 +113,6 @@
             <translation>Hugh the Great.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Herberto" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -131,18 +123,16 @@
             <translation>Herbert.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Lotharinum" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Lotharin[i deleted]us, Ludouici filius.</marginalia_text>
+                    <marginalia_text>Lotharin[i - deleted]us, Ludouici filius.</marginalia_text>
                     <person name="Lothair of France"/>
                     <person name="Louis IV of France"/>
                 </position>
             </language>
             <translation>Lothair, the son of Louis.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Sanctiq[ue] Petri Monasterium" method="pen">
             <language ident="LA">
@@ -152,7 +142,6 @@
             </language>
             <translation>The monastery of Saint Peter.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="sorori" method="pen">
             <language ident="LA">
@@ -197,7 +186,6 @@
         <underline method="pen" type="straight" language="LA" text="&amp; charitatem quam incaut&egrave; spreuerat ab eis recipiens"/>
         <underline method="pen" type="straight" language="LA" text="sorori suae"/>
         
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- partibus regnorum -->
         <mark name="comma" method="pen" place="intext"/>  <!-- patre ductam -->
         <mark name="comma" method="pen" place="intext"/>  <!-- ductam Rhotomagensibus -->
@@ -205,11 +193,7 @@
         <mark name="comma" method="pen" place="intext"/>  <!-- Ethelstani libenti -->
         <mark name="comma" method="pen" place="intext"/>  <!-- muniens a -->
         
-        
-        
-        <drawing type="crown" book_orientation="0" place="head" method="pen"></drawing>
-        
-        
+        <drawing type="crown" book_orientation="0" place="head" method="pen"/>
         
         <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
             <node id="n1">Carolus</node>
@@ -221,7 +205,6 @@
             <link to="n3" from="n1 n2" relationship="has_child"/>  
         </graph>
         
-        
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
             <node id="n4">Guliel. comes Picta</node>
             <node id="n5">Gerloc</node>
@@ -230,11 +213,5 @@
             <link to="n4" from="n5" relationship="has_spouse"/>
         </graph>
         
-        
-        
-        
-        
-        
     </annotation>
-    
 </transcription>
