@@ -30,14 +30,14 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="" method="pen">
+        <marginalia hand="Italian" anchor_text="iterum repetens sibi copulauit" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Popa denuo recepta ad Ducis [thorum?].</marginalia_text>
+                    <marginalia_text>Popa denuo recepta ad Ducis thorum.</marginalia_text> 
                     <person name="Poppa of Bayeux"/>
                 </position>
             </language>
-            <translation>Poppa received again at </translation>
+            <translation>Poppa again retaken to the Duke's bed.</translation>
         </marginalia>
         
         
@@ -54,13 +54,13 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" method="pen">
+        <marginalia hand="Italian" anchor_text="terminos sui Ducatus per circuitum dilatare non desistens" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>[Daminij?] Dilatatio</marginalia_text>
+                    <marginalia_text>[Danninij?] Dilatatio</marginalia_text>
                 </position>
             </language>
-            <translation>The expanding of the </translation>
+            <translation>The expanding of the </translation>  <!-- DO: The expanding of the Danish? It looks more like 'Daminij' or 'Daminis' though... -->
         </marginalia>
         
         
@@ -77,7 +77,7 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="" method="pen">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Alanus ad anglia fugit</marginalia_text>
@@ -96,7 +96,7 @@
                     <person name="Berengar II of Neustria"/>
                 </position>
             </language>
-            <translation>Berengarius united with the Duke??</translation>
+            <translation>Berengarius united with the Duke.</translation>
         </marginalia>
         
         
@@ -104,21 +104,21 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Rihulphus.</marginalia_text>
-                    <person name=""/>
+                    <person name="Rudolph of France"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Rudolph.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="" method="pen">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Rihulfi fuga.</marginalia_text>
-                    <person name=""/>
+                    <person name="Rudolph of France"/>
                 </position>
             </language>
-            <translation>The flight of Rihulphus.</translation>
+            <translation>The flight of Rudolph.</translation>
         </marginalia>
         
         
@@ -128,7 +128,7 @@
                     <marginalia_text>Pratum belli</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The Meadow wars.</translation>  <!-- DO: Not sure if 'Pratum' refers to a specific location, but I can't find it... -->
         </marginalia>
         
         
@@ -146,22 +146,73 @@
         
         <marginalia hand="Italian" anchor_text="" method="pen">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Gallica [traduo[n]to?] ducis illa[m] [?] filiam comitis </marginalia_text>
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Gallica [traductio?] dicit illa[m] fuisse filiam Heberti Comitis [sonliz?]</marginalia_text>  <!-- DO: Can't make this out -->
+                    <person name="Herbert II of Vermandois"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Gallica [?] said that she was the daughter of Count Herbert  [?].</translation>
+        </marginalia>
+        
+     
+        <marginalia hand="Italian" anchor_text="Fistanuensis castri" method="pen">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Castru[m] Fistanuense vbi natus est Richardus primus Dux. Nor.</marginalia_text>
+                    <person name="Richard I of Normandy"/>
+                    <location name="Fecamp"/>
+                    <location name="Normandy"/>
+                </position>
+            </language>
+            <translation>Fecamp where Richard the first Duke of Normandy was born.</translation>
         </marginalia>
         
         
         <marginalia hand="Italian" anchor_text="" method="pen">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>vulgariter hodie Feseant du[m] niter S[anc]t[us] Valeri et stable de grace.</marginalia_text>  <!-- DO: Not sure about this -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>Commonly today </translation>
         </marginalia>
+        
+        
+        <underline method="pen" type="straight" language="LA" text="assensum furi"/>
+        <underline method="pen" type="double" language="LA" text="Longapetentis"/>
+        <underline method="pen" type="straight" language="LA" text="villa"/>
+        <underline method="pen" type="straight" language="LA" text="volens edictum"/>
+        <underline method="pen" type="double" language="LA" text="ducatum"/>
+        <underline method="pen" type="double" language="LA" text="longo tempore"/>
+        <underline method="pen" type="straight" language="LA" text="sua Gisla sine"/>
+        <underline method="pen" type="straight" language="LA" text="repudiatam Popam"/>
+        <underline method="pen" type="double" language="LA" text="iterum repetens"/>
+        <underline method="pen" type="straight" language="LA" text="cum Alano &amp; Berengario"/>
+        <underline method="pen" type="double" language="LA" text="iubens"/>
+        <underline method="pen" type="straight" language="LA" text="militiaeq[ue] suae principem"/>
+        <underline method="pen" type="straight" language="LA" text="inquit mihi"/>
+        <underline method="pen" type="straight" language="LA" text="vno viuens lustro"/>
+        <underline method="pen" type="straight" language="LA" text="consumptus senio"/>
+        <underline method="pen" type="straight" language="LA" text="eius Gulielmus totius monarchiam Ducatus Northmannici"/>
+        <underline method="pen" type="straight" language="LA" text="Ducatus per circuitum"/>
+        <underline method="pen" type="straight" language="LA" text="Berengarius &amp; Alanus Britones"/>
+        <underline method="pen" type="straight" language="LA" text="incensorem"/>
+        <underline method="pen" type="straight" language="LA" text="Berengario sibi"/>
+        <underline method="pen" type="straight" language="LA" text="Rihulphus"/>
+        <underline method="pen" type="straight" language="LA" text="a suis"/>
+        <underline method="pen" type="straight" language="LA" text="trecentis Loricatis militibus"/>
+        <underline method="pen" type="straight" language="LA" text="reperit ex eis interijsse nullum"/>
+        <underline method="pen" type="straight" language="LA" text="Pratum belli"/>
+        <underline method="pen" type="straight" language="LA" text="Fistanuensis castri"/>
+        <underline method="pen" type="straight" language="LA" text="natum fore ex puella nomine"/>
+        
+        
+        <mark name="comma" method="pen" place="intext"/>   <!-- viribus laboribus -->
+        
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        
+        
         
         
     </annotation>
