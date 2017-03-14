@@ -7,10 +7,10 @@
     
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="EN">
+        <marginalia hand="Italian" anchor_text="millesimo ducentesimo nonagesimo secu[n]do">
+            <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>12 of 2</marginalia_text>
+                    <marginalia_text>1292</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -18,7 +18,8 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>orha[m]</marginalia_text> <!-- MB. Uncertain of this transcription -->
+                    <marginalia_text>[N]orha[m]</marginalia_text> <!-- MB. Uncertain of this transcription --> <!--JG: Original need to be checked-->
+                    <location name="Norham"/>
                 </position>
             </language>
             <translation></translation>
@@ -40,7 +41,7 @@
                     <person name="Ralph de Diceto"/>
                 </position>
             </language>
-            <translation>Ralph de Diceto</translation>
+            <translation>Ralph de Diceto.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
@@ -54,40 +55,31 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>qui iurauit ei fides litatem: F [?] ibidem Rex Angliae il Daria K[?] anno Rega sui  16. pirdo mait Mal colanid Rigir frotored, et ex </marginalia_text> <!-- MB: Couldn't decipher the last few words. -->
+                    <marginalia_text>qui iurauit ei fidelitatem: Item ibidem Rex Angliae et Dacia[e] Kanut[us] anno Regni sui 16 perdomuit Malcolinu[m] Rege[m] scotoru[m] et ex tunc [..].
+                        Vidi infra in Ypodig- pag[ina] 73.</marginalia_text>
+                    <person name="Cnut the Great"/>
+                    <person name="Malcolm II of Scotland"/>
+                    <book title="Ypodigma"/>
+                    <internal_ref>
+                        <target ref="RCP10552-2:569:u0001" text="73"/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation>Who swore loyalty to him in faith and equality: in the Kingom of England ... and </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Vidi infra in Ypodig pag[ina] 73.</marginalia_text>
-                </position>
-            </language>
-            <translation>See below in Ypodig. page 73.</translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Camitis</marginalia_text>
-                </position>
-            </language>
-            <translation>Count</translation>
+            <translation>Who swore loyalty to him: likewise, the same Cnut, king of England and Denmark, in the sixteenth year of his reign subdued Malcolinus, king of Scotland, and from then [..]. See below in the Ypodigma, page 73.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Angliae, Scotiae, Daciae, &amp; Norwagiae">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Angliae, Scotiae, Daciae, Norwagia</marginalia_text>
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Canutus, Anglia[e], Scotioru[m], Dacia[e], Norwagia[e]</marginalia_text>
+                    <person name="Cnut the Great"/>
                     <location name="England"/>
                     <location name="Scotland"/>
                     <location name="Denmark"/>
                     <location name="Norway"/>
                 </position>
             </language>
+            <translation>Cnut the Great, [king of] England, Scotland, Denmark and Norway.</translation>
         </marginalia>
               
         <underline method="pen" type="straight" language="LA" text="ducentesimo nonagesimo"/>
@@ -123,6 +115,7 @@
         
         <errata language="LA" copytext="Northumb" amendedtext="[deleted]"/>
         <errata language="LA" copytext="Et" amendedtext="[deleted]"/>
+        
     </annotation>
 </transcription>
 
