@@ -7,9 +7,66 @@
     
     <annotation>
         
-        <underline method="pen" type="straight" language="LA" text="chartas"/>
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>&sharp-S;</marginalia_text> <!-- MB. Uncertain of what the eszett refers to, Cappelli lists 'solidi, sunt or sive' as possible scribal abbreviations. -->
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Quam aculeate in istos religoosus illius optatui.</marginalia_text>
+                </position>
+            </language>
+            <translation>How pointed are these devout wishes. </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Regem Angliae ad recuperandam terram Sanctam">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Rex Angliae [prafartur ortorus??] alys in nego cio terra s[ancct]ae.</marginalia_text> <!-- MB. Partial transscriptiob (and tranlsation) have difficulty transcribing the two words following 'Rex Angliae' -->
+                </position>
+            </language>
+            <translation>The king of England ....deny the sacred land.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Nota</marginalia_text>
+                </position>
+            </language>
+            <translation>Note.</translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="chartas suas tradiderunt Regi Edwardo, regnum Scotiae cum castellis, iuribus"/>
+        <underline method="pen" type="straight" language="LA" text="praetulit Iohannem de Bayllol, qui recognouit"/>
+        <underline method="pen" type="straight" language="LA" text="Scotiae capitalem dominum, fecinq[ue] ei homagium"/>
+        <underline method="pen" type="straight" language="LA" text="fidelitatem iurauit"/>
+        <underline method="pen" type="straight" language="LA" text="gestis anni sequentis plenius declaratur"/> 
+        <underline method="pen" type="straight" language="LA" text="more canum cadaueribus assistentium"/>
+        <underline method="pen" type="straight" language="LA" text="Resus Wallicus condemnatur."/> 
+        <underline method="pen" type="straight" language="LA" text="filius Mereduci captus illucque"/>
+        <underline method="pen" type="straight" language="LA" text="omnibus in regnum Scotiae ius"/>
+        <underline method="pen" type="double" language="LA" text="vendicantibus"/>
+        <underline method="pen" type="double" language="LA" text="quo iure regnum"/> 
+        <underline method="pen" type="straight" language="LA" text="vendicabant, plenius declararent"/>
+        <underline method="pen" type="double" language="LA" text="magna expectatione"/> 
+        <underline method="pen" type="straight" language="LA" text="vnusquisquescire cupit, quis in rengo gentium dominabitur."/>
+        <underline method="pen" type="double" language="LA" text="primi vicesimus"/>
+        <underline method="pen" type="straight" language="LA" text="ducem &amp; capitaneum omnium constituit Christianorum"/>
+        
+        
+        
+        <mark name="bracket" method="pen" place="intext"/> <!-- haerede. Quo -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- expectat. Post -->
+        <mark name="comma" method="pen" place="intext"/> <!-- iuribus praetulit -->
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
+        <errata language="LA" copytext="discutione" amendedtext="discuione"/>
         
     </annotation>
     
 </transcription>
-
