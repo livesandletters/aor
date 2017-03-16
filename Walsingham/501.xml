@@ -44,21 +44,11 @@
         <marginalia hand="Italian" anchor_text="Botoni" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Boto</marginalia_text>
-                    <person name=""/>
+                    <marginalia_text>Boto. Danus.</marginalia_text>
+                    <person name="Boto"/>
                 </position>
             </language>
-            <translation></translation>
-        </marginalia>
-        
-        
-        <marginalia hand="Italian" anchor_text="Danica" method="pen">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Danus.</marginalia_text>
-                </position>
-            </language>
-            <translation>Danish.</translation>
+            <translation>Boto. Danish.</translation>
         </marginalia>
         
         
@@ -91,7 +81,7 @@
                     <marginalia_text>Comitatus Consta[n]tie[n]sis</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation></translation>  <!-- DO: Not sure how to translate this -->
         </marginalia>
         
         
@@ -99,9 +89,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Herlewinus Comes.</marginalia_text>
+                    <person name="Count Herlewinus"/>  <!-- DO: I can't actually find this person... -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>Count Herlewinus.</translation>
         </marginalia>
         
         
@@ -113,9 +104,67 @@
                     <person name="Gonthard, Archbishop of Rouen"/>
                 </position>
             </language>
-            <translation>Franco and Gunardus, Archbishops of Rouen.</translation>
+            <translation>Franco and Gonthard, Archbishops of Rouen.</translation>
         </marginalia>
         
+        
+        <marginalia hand="Italian" anchor_text="Comes Arnulfus" method="pen">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Arnulfi Comitis. Flandria[e] conspiratio contra Williunm Duce.</marginalia_text>
+                    <person name="Arnulf I, Count of Flanders"/>
+                    <person name="William I Longsword"/>
+                </position>
+            </language>
+            <translation>The conspiracy of Arnulf, Count of Flanders, against Duke William.</translation>
+        </marginalia>
+        
+        
+        <underline method="pen" type="straight" language="LA" text="Abbate Martino"/>
+        <underline method="pen" type="straight" language="LA" text="Cypriani sublatos"/>
+        <underline method="pen" type="straight" language="LA" text="militum septus cuneis"/>
+        <underline method="pen" type="straight" language="LA" text="&agrave; Lodarijs"/>
+        <underline method="pen" type="straight" language="LA" text="obligans inibi monachum"/>
+        <underline method="pen" type="double" language="LA" text="cucullam &amp; stamineam"/>
+        <underline method="pen" type="straight" language="LA" text="ab illo"/>
+        <underline method="pen" type="straight" language="LA" text="filius nomine Richardus"/>
+        <underline method="pen" type="straight" language="LA" text="quia quod Deo voui, ineuitabiliter &agrave; me complebitur factis"/>
+        <underline method="pen" type="straight" language="LA" text="puerum a Fiscamio"/>
+        <underline method="pen" type="straight" language="LA" text="Normannici seu Britannici"/>
+        <underline method="pen" type="straight" language="LA" text="Baiocas"/>
+        <underline method="pen" type="straight" language="LA" text="Botoni"/>
+        <underline method="pen" type="straight" language="LA" text="ibi lingua eruditus Danica"/>
+        <underline method="pen" type="straight" language="LA" text="nomine Sweno"/>
+        <underline method="pen" type="straight" language="LA" text="Constantinensem"/>
+        <underline method="pen" type="straight" language="LA" text="comitatum"/>
+        <underline method="pen" type="straight" language="LA" text="Arnulfus Flandrensis Comes homo"/>
+        <underline method="pen" type="straight" language="LA" text="Comiti vocabulo Herlewino grauissimum"/>
+        <underline method="pen" type="straight" language="LA" text="monasteriolum"/>
+        <underline method="pen" type="straight" language="LA" text="Franco Rhotomagensis Archiepiscopus moritur: cui successit Gunardus"/>
+        <underline method="pen" type="straight" language="LA" text="de ducis morte"/>
+        <underline method="pen" type="straight" language="LA" text="subdola, vnanimiter conspirant in mortem"/>
+        <underline method="pen" type="straight" language="LA" text="se cu[m] eo amicitiam velle habere"/>
+        <underline method="pen" type="straight" language="LA" text="podagrico chiragricoq[ue] detineretur"/>
+        <underline method="pen" type="straight" language="LA" text="quod monachicu[m] toto conatu sitiret habitum"/>
+        <underline method="pen" type="straight" language="LA" text="Guliel.dux cupit monachus"/>
+        <underline method="pen" type="straight" language="LA" text="Arnulfus patria turbator"/>
+        
+        
+        
+        
+        
+        <mark name="comma" method="pen" place="intext"/> <!-- ipse militum -->
+        <mark name="comma" method="pen" place="intext"/> <!-- cuneis duxit -->
+        <mark name="comma" method="pen" place="intext"/> <!-- redemit se -->
+        <mark name="comma" method="pen" place="intext"/> <!-- spiritu in -->
+        <mark name="comma" method="pen" place="intext"/> <!-- Botoni suae -->
+        <mark name="comma" method="pen" place="intext"/> <!-- suo nomine -->
+        <mark name="comma" method="pen" place="intext"/> <!-- Comes homo -->
+        <mark name="comma" method="pen" place="intext"/> <!-- versutus nequiens -->
+        <mark name="comma" method="pen" place="intext"/> <!-- magno domino -->
+        <mark name="comma" method="pen" place="intext"/> <!-- suo auxilio -->
+        <mark name="comma" method="pen" place="intext"/> <!-- morte corde -->
+      
         
         
         
