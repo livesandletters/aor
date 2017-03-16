@@ -4,59 +4,60 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="c_120_b_4_(2)_f061v.tif" reader="John Dee" pagination="61" signature="[P[v]]"/> 
+    <page filename="c_120_b_4_(2)_f061v.tif" reader="John Dee" pagination="61[v]" signature="[P[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        et a lib: dica 1000 10000 &amp;c <!-- FSF: to be checked -->
+                        et a lib: dica 1000 10000 &amp;c <!-- FSF: to be checked -->  <!-- DO: To me it looks like 'at' and 'dicit' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                <!-- FSF: to be added -->  <!-- DO:Perhaps 'But from the book it says 1000 10000 etc.' -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Vnica[e]:charatti:Vnica[e]
+                        Vnica[e]:charatti Vnica[e]  <!-- DO: I think the first and third words are 'Vncia[e]' again -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                <!-- FSF: to be added --> <!-- DO: Not sure how to translate this either. 'Unciae' is 'twelfths' or 'of the tweflth' and all I can find for 'charatti' is that 'charattus' might be 'carat'. 'Twelfths: Carats Twelfths'? -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Vna Vnica co[n]tinet charattos 144:
+                        Vna Vnica co[n]tinet charattos 144:   <!-- DO: 'uncia' -->
                     </marginalia_text>
                 </position>
             </language>
+            <!-- DO: Translation might be: One twelfth contains 144 carats. -->
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Qualitate vtrimsq[ue] Metalli h&icirc;c co[n]mixti semper supponit esse Marcam, id est, vncias octo: scilicet charattos 1152.
+                        Qualitate vtrimsq[ue] Metalli h&icirc;c co[n]mixti semper supponit esse Marcam, id est, vncias octo: scilicet charattos 1152.  <!-- DO: I think it's 'Qua[n]titate' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                <!-- FSF: to be added -->  
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="supra .C. partes: supra .D. partes"/>
+        <underline method="pen" type="straight" language="LA" text="supra .C. partes: supra. D. partes"/>
         <underline method="pen" type="straight" language="LA" text=".7.1008"/>
         <underline method="pen" type="straight" language="LA" text=".6.864"/>
         <underline method="pen" type="straight" language="LA" text=".5.720"/>
