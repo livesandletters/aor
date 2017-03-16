@@ -581,6 +581,7 @@
         <xs:restriction base="xs:token">
           <xs:enumeration value="has_child"/>
           <xs:enumeration value="has_spouse"/>
+          <xs:enumeration value="transgenerational"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
