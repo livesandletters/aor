@@ -4,7 +4,6 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="037.tif" reader="John Dee" pagination="17" signature="B.iij."/>
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="millesimo ducentesimo nonagesimo secu[n]do">
@@ -22,13 +21,13 @@
                     <location name="Norham"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation></translation> <!-- FSF: translation missing -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="apud Northumb">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>at Norham</marginalia_text>
+                    <marginalia_text>at Norham</marginalia_text> <!-- FSF: given the scribble over the a and the fact that there are hardly any English annotations, could it also be a[u]t[em] Norham, as if to correct Northumb?  -->
                     <location name="Norham"/>
                 </position>
             </language>
@@ -56,7 +55,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>qui iurauit ei fidelitatem: Item ibidem Rex Angliae et Dacia[e] Kanut[us] anno Regni sui 16 perdomuit Malcolinu[m] Rege[m] scotoru[m] et ex tunc [..].
-                        Vidi infra in Ypodig- pag[ina] 73.</marginalia_text>
+                        Vidi infra in Ypodig- pag[ina] 73.</marginalia_text> <!-- FSF: Vide -->
                     <person name="Cnut the Great"/>
                     <person name="Malcolm II of Scotland"/>
                     <book title="Ypodigma"/>
@@ -92,25 +91,25 @@
         <underline method="pen" type="straight" language="LA" text="protestando se ius coronae suae vsque ad effusionem sanguinis"/>
         <underline method="pen" type="straight" language="LA" text="monasteria Angliae"/>
         <underline method="pen" type="straight" language="LA" text="Scotiae"/>
-        <underline method="pen" type="straight" language="LA" text="Walliae"/>
+        <underline method="pen" type="straight" language="LA" text="Walliae"/> <!-- FSF: previously, the VV were not transcribed as Ws -->
         <underline method="pen" type="straight" language="LA" text="Mariani Scoti"/>
-        <underline method="pen" type="straight" language="LA" text="Wilhelmi de Malmesburia"/>
+        <underline method="pen" type="straight" language="LA" text="Wilhelmi de Malmesburia"/> <!-- FSF: see above -->
         <underline method="pen" type="straight" language="LA" text="Rogeri de Houeden"/>
         <underline method="pen" type="straight" language="LA" text="Henrici de Huntyngdon"/>
         <underline method="pen" type="straight" language="LA" text="Radulphi de Luzeto"/>
         <underline method="pen" type="double" language="LA" text="nongentesimo decimo"/>
-        <underline method="pen" type="straight" language="LA" text="Rex Edwardus senior"/>
-        <underline method="pen" type="straight" language="LA" text="praedict[a]e gentes elegerunt sibi Edwardum praedictum in dominum &amp; pattonum"/>
+        <underline method="pen" type="straight" language="LA" text="Rex Edwardus senior"/> <!-- FSF: see above -->
+        <underline method="pen" type="straight" language="LA" text="praedict[a]e gentes elegerunt sibi Edwardum praedictum in dominum &amp; pattonum"/> <!-- FSF: see above -->
         <underline method="pen" type="straight" language="LA" text="Scoti[a]e Constantinu[m]"/>
         <underline method="pen" type="double" language="LA" text="sub se permisit"/>
         <underline method="pen" type="straight" language="LA" text="Edgarus"/>
         <underline method="pen" type="straight" language="LA" text="Angliae"/>
         <underline method="pen" type="straight" language="LA" text="Scotiae"/>
         <underline method="pen" type="straight" language="LA" text="Daciae"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; Norwagiae"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; Norwagiae"/> <!-- FSF: see above -->
         <underline method="pen" type="straight" language="LA" text="de se tenendum"/>
         
-        <mark name="dagger" method="pen" place="intext"/> <!-- Scotorum, ET, -->
+        <mark name="dagger" method="pen" place="intext"/> <!-- Scotorum, Et -->
         <mark name="dagger" method="pen" place="right_margin"/>
         
         <errata language="LA" copytext="Northumb" amendedtext="[deleted]"/>
@@ -118,4 +117,3 @@
         
     </annotation>
 </transcription>
-

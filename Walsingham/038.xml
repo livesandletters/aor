@@ -4,21 +4,22 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="038.tif" reader="John Dee" pagination="18"/>
-    
     <annotation>
+        
+        <!-- FSF: shouldn't the errata text also be captured as an intext marginalia -->
         
         <underline method="pen" type="straight" language="LA" text="fidelitatis"/>
         <underline method="pen" type="straight" language="LA" text="filios Malcolini successiu&egrave;"/>
         <underline method="pen" type="straight" language="LA" text="Scotiae de co[n]sensu"/>
         <underline method="pen" type="straight" language="LA" text="Dauid Rex"/>
-        <underline method="pen" type="straight" language="LA" text="Wilhelmus Rex"/>
+        <underline method="pen" type="straight" language="LA" text="Wilhelmus Rex"/> <!-- FSF: VV -->
         <underline method="pen" type="straight" language="LA" text="dicit Rogerus de Houeden"/>
         <underline method="pen" type="straight" language="LA" text="Regi Richardo"/>
         <underline method="pen" type="straight" language="LA" text="Iohanni Regi"/>
         <underline method="pen" type="straight" language="LA" text="Alexander Rex"/>
-        <underline method="pen" type="straight" language="LA" text="fecit ei homagiu[n]"/>
+        <underline method="pen" type="straight" language="LA" text="fecit ei homagiu[n]"/> <!-- FSF: [m] -->
         <underline method="pen" type="straight" language="LA" text="chartis regum"/>
-        <underline method="pen" type="straight" language="LA" text="Ite[m] repertum est in bullis Papalibus Scotiae directis, Reges Scotorum excommunicatos suisse, quia noluerant obedire dominis suis Anglorum Regibus"/>
+        <underline method="pen" type="straight" language="LA" text="Ite[m] repertum est in bullis Papalibus Scotiae directis, Reges Scotorum excommunicatos suisse, quia noluerant obedire dominis suis Anglorum Regibus"/> <!-- FSF: fuisse -->
         <underline method="pen" type="straight" language="LA" text="ordinationi super Rege Scotiae"/>
         <underline method="pen" type="double" language="LA" text="se ignorare"/>
         <underline method="pen" type="straight" language="LA" text="quod talis superioritas"/>
@@ -36,32 +37,30 @@
         <underline method="pen" type="straight" language="LA" text="Patricius de Dunbar"/>
         <underline method="pen" type="straight" language="LA" text="Iohannes"/>
         <underline method="pen" type="straight" language="LA" text="Nicolaus de Sules"/>
-        <underline method="pen" type="straight" language="LA" text="Wilhelmus de Ros"/>
-        <underline method="pen" type="straight" language="LA" text="Princeps dominus Edwardus Dei gratia Rex Angliae,"/>
+        <underline method="pen" type="straight" language="LA" text="Wilhelmus de Ros"/> <!-- FSF: VV -->
+        <underline method="pen" type="straight" language="LA" text="Princeps dominus Edwardus Dei gratia Rex Angliae,"/> <!-- FSF: vv -->
         <underline method="pen" type="double" language="LA" text="per bonas sufficient&eacute;sque"/>
         <underline method="pen" type="straight" language="LA" text="rationes nos informauerit, quod ad eum spectat, &amp; habere debet superius dominium regni Scotiae, &amp; 
             cognitionem in audiendo examinando &amp; definiendo ius nostrum"/>
-        <underline method="pen" type="straight" language="LA" text="de propria nostra voluntate sine omnia violentia &amp; coactione volumus, annuimus &amp; co[n]cedimus"/>
+        <underline method="pen" type="straight" language="LA" text="de propria nostra voluntate sine omnia violentia &amp; coactione volumus, annuimus &amp; co[n]cedimus"/> <!-- FSF: omni -->
         <underline method="pen" type="straight" language="LA" text="vt recipiamus ius cora[m] eo"/>
         <underline method="pen" type="straight" language="LA" text="superiori domino terrae"/>
         <underline method="pen" type="straight" language="LA" text="superioris domini &amp; submissione"/>
         
-        
-        <mark name="bracket" method="pen" place="intext"/> <!-- homagiu[n] Item -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- homagiu[m] Item -->
         <mark name="bracket" method="pen" place="intext"/> <!-- Scotiae Ite[m] -->
         <mark name="bracket" method="pen" place="intext"/> <!-- Angliam. Post -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- c Facta -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- &c Facta -->
         <mark name="comma" method="pen" place="intext"/> <!-- nostrum habet -->
         <mark name="comma" method="pen" place="intext"/> <!-- informauerit quod -->
         <mark name="comma" method="pen" place="intext"/> <!-- Scotia &amp; -->
         <mark name="dash" method="pen" place="left_margin"/>
+        
         <errata language="LA" copytext="Northumb" amendedtext="Norrham"/>
         <errata language="LA" copytext="habet" amendedtext="[deleted]"/>
-        <errata language="LA" copytext="Northumb" amendedtext="Norham"/>
+        <errata language="LA" copytext="Northumb" amendedtext="Norham"/> <!-- FSF: this also as an intext marginalia? -->
         <errata language="LA" copytext="recognitione" amendedtext="Recognitione"/>
         <errata language="LA" copytext="domini" amendedtext="Domini"/>
         
-        
     </annotation>
 </transcription>
-
