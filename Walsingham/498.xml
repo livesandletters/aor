@@ -13,11 +13,12 @@
                 <position place="head" book_orientation="0">
                     <marginalia_text>Popa, filia Guidonis, Comitis Siluanietensis: Mater Gulielmi Longaspata., et formosa[e] Gerloc</marginalia_text>
                     <person name="Poppa of Bayeux"/>
+                    <person name="Gui, Count of Senlis"/>
                     <person name="William I Longsword"/>
                     <person name="Gerloc"/>
                 </position>
             </language>
-            <translation>Poppa, the daughter of Guido, the Count of Silvania: Mother of William Longsword, and beautiful Gerloc.</translation>  <!-- DO: can't identify the father 'Guidonis Comitis Siluanietensis' -->
+            <translation>Poppa, the daughter of Gui, Count of Senlis. Mother of William Longsword, and beautiful Gerloc.</translation>
         </marginalia>
         
         
@@ -71,7 +72,6 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Richardus Dux Burgundionum</marginalia_text>
                     <person name="Richard, Duke of Burgundy"/>
-                    <location name="Burgundy"/>
                 </position>
             </language>
             <translation>Richard, Duke of Burgundy.</translation>
@@ -82,9 +82,10 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Walterius Ep[iscop]us.</marginalia_text>
+                    <person name="Bishop Walter"/>   <!-- DO: I can't identify this person -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>Bishop Walter</translation>
         </marginalia>
         
         
@@ -134,7 +135,7 @@
         <marginalia hand="Italian" anchor_text="Berengerio &amp; Alano" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Berengarius Alanus] Bryt[aniae] Princ[ipes]</marginalia_text>
+                    <marginalia_text>Berengarius Alanus] Bryt[anniae] Princ[ipes]</marginalia_text>
                     <person name="Berengar II of Neustria"/>
                     <person name="Alan I of Brittany"/>
                     <location name="Brittany"/>
@@ -237,7 +238,7 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Ep[iscop]us s. var, fuga ilapsu[m] no[n] repie[n]tes </marginalia_text>  <!-- DO: Not really sure about any of these words -->
+                    <marginalia_text>Ep[iscop]us s. var, fuga elapsu[m] no[n] rep[ie]nctes </marginalia_text>  <!-- DO: Not really sure about any of these words -->
                 </position>
             </language>
             <translation></translation>
