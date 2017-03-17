@@ -4,10 +4,8 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="039.tif" reader="John Dee" pagination="19" signature="B.iiij."/>
-    
     <annotation>
-        
-        
+
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
@@ -19,7 +17,7 @@
         <marginalia hand="Italian" anchor_text="quosque">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Quosq[ue]</marginalia_text>
+                    <marginalia_text>Quosq[ue]</marginalia_text> <!-- FSF: I read quousq[ue] -->
                 </position>
             </language>
             <translation>Until what time.</translation>
@@ -37,11 +35,11 @@
         <underline method="pen" type="straight" language="LA" text="castra &amp; terram totam sibi reddi, vt per seysinam pacificam ius superioris dominij,"/>
         <underline method="pen" type="straight" language="LA" text="suas literas recognouerant"/>
         <underline method="pen" type="straight" language="LA" text="Quia de bona voluntate nostra &amp; communi assensu sine omni coactione, annuimus"/>
-        <underline method="pen" type="straight" language="LA" text="concessimus nobili Principi domino Edwardo"/>
+        <underline method="pen" type="straight" language="LA" text="concessimus nobili Principi domino Edwardo"/> <!-- FSF: vv -->
         <underline method="pen" type="straight" language="LA" text="superior dominus terrae"/>
         <underline method="pen" type="straight" language="LA" text="definire vendicationes"/>
         <underline method="pen" type="straight" language="LA" text="superiori domino"/>
-        <underline method="pen" type="straight" language="LA" text="quod factum suum habedimus firmum"/>
+        <underline method="pen" type="straight" language="LA" text="quod factum suum habedimus firmum"/> <!-- FSF: habebimus -->
         <underline method="pen" type="straight" language="LA" text="declaratur coram"/>
         <underline method="pen" type="straight" language="LA" text="complere sine iudicio"/>
         <underline method="pen" type="straight" language="LA" text="sine executione"/>
@@ -62,7 +60,7 @@
         <underline method="pen" type="straight" language="LA" text="Scoti per"/>
         
         <mark name="comma" method="pen" place="intext"/> <!-- pacificam ius -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- c Has -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- &c Has -->
         <mark name="bracket" method="pen" place="intext"/> <!-- restitueret fulminandum -->
         <mark name="bracket" method="pen" place="intext"/> <!-- fulminandum. Scoti  -->
         
@@ -71,4 +69,3 @@
     </annotation>
     
 </transcription>
-
