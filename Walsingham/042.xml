@@ -14,7 +14,7 @@
                     <person name="Eric II of Norway "/>
                 </position>
             </language>
-            <translation>In the thirteenth year of the reign of Eric II of Norway.</translation> <!--JG: Your translation is correct, yet does not follow the exact words in the marginal note. Hence it should be 'In the thirteenth year [of the reign] of Eric II of Norway.'-->
+            <translation>In the thirteenth year [of the reign] of Eric II of Norway.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Dauid Regis Scotorum descenderat seniore, adiudicauit Rex">
@@ -29,12 +29,12 @@
         <marginalia hand="Italian" anchor_text="Robertus nempe de Brus, inter quem &amp; ipsum Iohanne[s] de Balliolo">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Quo[m] pra[?] inter Rob[ertus]. Brus et Jo[h]ann[es] Baliol erat.</marginalia_text> <!-- MB. Not certain of word following quo[m]. --> <!--JG: Quom doesn't exist, think it should be Qu[o]mod[o] pra[e]cipua...'. The translation is a bit tricky, seems praecipua doesn't seem to qualify anything. I'd go for 'How the particular [relation] between Robert de Brus and John Baliol was'-->
+                    <marginalia_text>Qu[o]mod[o] pra[e]cipua inter Rob[ertus]. Brus et Jo[h]ann[es] Baliol erat.</marginalia_text>
                     <person name="Robert V de Brus"/>
                     <person name="John Balliol"/>
                 </position>
             </language>
-            <translation>When [...] between Robert V de Brus and John Balliol</translation>
+            <translation>How the particular [relation] between Robert de Brus and John Baliol was.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
@@ -58,10 +58,10 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>et fide et fidilitatum vobis portabo</marginalia_text> <!--JG: Watch out for the contractions! 'Et fide[m] et fidelitate[m] vobis portabo', which translates as: 'I will bring faith and fidelity to you'-->
+                    <marginalia_text>et fide[m] et fidelitate[m] vobis portabo</marginalia_text>
                 </position>
             </language>
-            <translation>And the faith and the faithful will be favourable to you.</translation> <!-- M.B: Uncertain about this translation. -->
+            <translation>I will bring faith and fidelity to you.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="nostri teritiodecimo"/>
@@ -81,13 +81,12 @@
         <underline method="pen" type="double" language="LA" text="Regis"/>
         <underline method="pen" type="straight" language="LA" text="Dauid secunda"/>
         <underline method="pen" type="double" language="LA" text="lapidem regalem"/>
-        <underline method="pen" type="straight" language="LA" text="que[m] Iacob supposuerat capiti suo, dum iret de Bersabec &amp; pergeret Ara[m]"/> <!--JG: This isn't underscore, is deletion, capture by errata tag!-->
         <underline method="pen" type="straight" language="LA" text="qui testu[m] natiuitatis"/>
         <underline method="pen" type="straight" language="LA" text="nouu[m] castrum"/>
         <underline method="pen" type="straight" language="LA" text="eidem fecit"/>
         <underline method="pen" type="double" language="LA" text="homagium sub his verbis"/>
         <underline method="pen" type="straight" language="LA" text="Angliae superior domine Scotiae"/>
-        <underline method="pen" type="straight" language="LA" text="hijs quae ad hoc spectant"/> <!--JG: This contraction you do need to signal, qu[a]e, see Manual, p. 92-->
+        <underline method="pen" type="straight" language="LA" text="hijs qu[a]e ad hoc spectant"/>
         <underline method="pen" type="straight" language="LA" text="suo &amp; alterius iure saluo."/>
         <underline method="pen" type="straight" language="LA" text="eidem regnum Scotiae integraliter cu[m] omnibus pertinentijs restituit indilat&egrave;"/>
         
@@ -104,9 +103,9 @@
         <mark name="bracket" method="pen" place="intext"/> <!-- mori. ) Et -->
         <mark name="double_vertical_bar" method="pen" place="intext"/> <!-- indilat&egrave; Transit -->
         
-        <numeral place="tail">2</numeral> <!--JG: Delete and include in genealogical tree-->
         <numeral place="left_margin">3</numeral>
         
+        <errata language="LA" copytext="que[m] Iacob supposuerat capiti suo, dum iret de Bersabec &amp; pergeret Ara[m]" amendedtext="[deleted]"/>
         <errata language="LA" copytext="putant" amendedtext="possunt"/> 
         
         <drawing type="face" book_orientation="0" place="right_margin" method="pen"/>
@@ -117,12 +116,12 @@
             <node id="n3" person="William the Lion">Wil[he]mus R[ex].</node>
             <node id="n4" person="Alexander II of Scotland">Alex R[ex].</node>
             <node id="n5" person="David, Earl of Huntingdon">David</node>
-            <node id="n6" person="Margaret of Huntingdon">Margaret</node> <!--JG: Include number-->
-            <node id="n7" person="Isobel of Huntingdon">Isabel</node> <!--JG: Include number-->
-            <node id="n8" person="Dervorguilla of Galloway">D&ograve;ruidill</node> <!--JG: Include number-->
-            <node id="n9" person="Marian Mac Lachlan, of Galloway">Marioria</node> <!--JG: Include number-->
-            <node id="n10" person="Robert V de Brus">Rob Bruci</node> <!-- JG: Think it should be 'Bruce' -->
-            <node id="n11" person="Robert VI de Brus">Rob. Bruci</node> <!-- JG: Think it should be 'Bruce' -->
+            <node id="n6" person="Margaret of Huntingdon">2 Margaret</node>
+            <node id="n7" person="Isobel of Huntingdon">2 Isabel</node>
+            <node id="n8" person="Dervorguilla of Galloway">2 D&ograve;ruidill</node>
+            <node id="n9" person="Marian Mac Lachlan, of Galloway">2 Marioria</node>
+            <node id="n10" person="Robert V de Brus">Rob Bruce</node>
+            <node id="n11" person="Robert VI de Brus">Rob. Bruce</node>
             <node id="n12" person="John Balliol">Jo[hnann]es Baliol R[ex].</node>
             
             <link to="n1" from="n2" relationship="has_child"/>
