@@ -6,7 +6,7 @@
     
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="che fu giunto" method="pen">
+        <marginalia hand="Italian" anchor_text="che fu giunto" method="pen" id="BL615d.7:615_d_7_f072r:m0001">
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Ergo he had byn at Baueche</marginalia_text>
@@ -18,7 +18,7 @@
         <marginalia hand="Italian" anchor_text="part&igrave; conproponimento di volere andare alle Isole di Babeca" method="pen">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>sup[ra] fol. 60 Baueche. Iles</marginalia_text>
+                    <marginalia_text>sup[ra] fol. 60 Baueche. Iles</marginalia_text> <!-- MB: Reference requires a book tag.  -->
                     <location name="Baueche"/>
                 </position>
             </language>
@@ -46,7 +46,7 @@
         <underline method="pen" type="straight" language="IT" text="era della patria di Martino Alfonso"/>
         <underline method="pen" type="straight" language="IT" text="part&igrave; con proponimento di volere andare alle Isole di Babeca"/>
         <underline method="pen" type="double" language="IT" text="molto oro"/>
-        <underline method="pen" type="double" language="IT" text="che fu giunto"/>
+        <underline method="pen" type="double" language="IT" text="che fu giunto" id="BL615d.7:615_d_7_f072r:u0001"/>
         <underline method="pen" type="double" language="IT" text="il contrario di quel"/>
         <underline method="pen" type="double" language="IT" text="verso la Spagnuola"/>
         <underline method="pen" type="double" language="IT" text="XX"/>
@@ -54,10 +54,10 @@
         <underline method="pen" type="double" language="IT" text="del Natale"/>
         <underline method="pen" type="straight" language="IT" text="ad vna fiumara"/>
         <underline method="pen" type="straight" language="IT" text="Fiume di Gratia"/>
-        <underline method="pen" type="straight" language="IT" text="XVI"/>
+        <underline method="pen" type="straight" language="IT" text="XVI d&igrave;"/>
         <underline method="pen" type="straight" language="IT" text="dando per ci&ograve; cose"/>
         <underline method="pen" type="straight" language="IT" text="per acquistarlasi, &amp; per tenerla queta"/>
-        <underline method="pen" type="straight" language="IT" text="contenta, ch'egli sotto citolo di Capitano si rimanesse sol resto. &amp; volle"/>
+        <underline method="pen" type="straight" language="IT" text="contenta, ch'egli sotto titolo di Capitano si rimanesse sol resto. &amp; volle"/>
         <underline method="pen" type="straight" language="IT" text="presso a Monte"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
@@ -66,7 +66,13 @@
         
         <mark name="comma" method="pen" place="intext"/>  <!-- DO: comma between 'oro, egli' -->   
         
-        
+        <physical_link>
+            <marginal_annotation idref="BL615d.7:615_d_7_f072r:m0001"/>
+            <marginal_annotation idref="BL615d.7:615_d_7_f072r:u0001"/>
+            
+            <relation from="BL615d.7:615_d_7_f072r:m0001" to="BL615d.7:615_d_7_f072r:u0001" type="undirected"/>
+            
+        </physical_link>
         
     </annotation>
     
