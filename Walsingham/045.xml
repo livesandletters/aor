@@ -4,14 +4,13 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="045.tif" reader="John Dee" pagination="25" signature="C."/>
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Iohannem de Brytannia">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Brytannia</marginalia_text>
-                    <location name="Britain"/>
+                    <location name="Britain"/> <!-- FSF: I think the text is referring to John of Brittany, Earl of Richmond; for that reason, the transaltion and the location tag should be Brittany -->
                 </position>
             </language>
             <translation>Britain.</translation>
@@ -22,4 +21,3 @@
         
     </annotation>
 </transcription>
-
