@@ -27,7 +27,6 @@
             <translation>For although midheaven is of the greatest valor, nevertheless the tenth house always ought to obtain its sign.</translation> <!--JG: Not entirely sure how to render 'significatum'-->
         </marginalia>
         
-        
         <marginalia hand="English_secretary" anchor_text="ascendente medietate; in descendente; verum quod inductio fuerat posterioris">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -36,7 +35,6 @@
             </language>
             <translation>The threefold consideration of the direction..</translation>
         </marginalia>
-        
         
         <marginalia hand="English_secretary" anchor_text="maxime autem in occidentali parte">
             <language ident="LA">
@@ -47,25 +45,52 @@
             <translation>Why more in the western part?</translation>
         </marginalia>
         
+        <marginalia hand="English_secretary"  anchor_text="In particularibus autem Firmico indulget, ob bonorum autorum inopiam: uerum tantum ille abest &agrave; ueritate, quantum ab errore Ptolemaeus">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Ptolom[a]ei co[m]me[n]datio supra Firmicum...</marginalia_text>
+                    <person name="Ptolemy"/>
+                    <person name="Julius Firmicus Maternus"/>
+                </position>
+            </language>
+            <translation>The excellence of Ptolemy above Firmicus.</translation>
+        </marginalia>
         
+        <marginalia hand="English_secretary"  anchor_text="In particularibus autem Firmico indulget, ob bonorum autorum inopiam: uerum tantum ille abest &agrave; ueritate, quantum ab errore Ptolemaeus">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>Maiorem commendationem metetur Ptolom[a]e[us] maiorem et firmiculi.</marginalia_text>
+                    <person name="Ptolemy"/>
+                    <person name="Julius Firmicus Maternus"/>
+                </position>
+            </language>
+            <translation>Ptolemy deserves greater recommendation, greater even than 'little' Firmicus.</translation> <!--JG: Firmiculi as diminutive of Firmicus? Unsure-->
+        </marginalia>
         
+        <marginalia hand="English_secretary" anchor_text="maxime autem in occidentali parte">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Cum de anno sumus certi, qua vo[c]e scrutemur anni partem in qua eventus sese sit ostensurus.</marginalia_text>
+                </position>
+            </language>
+            <translation>Since about a year we are certain by which voice we explore the part of the year in which the event may be about to show itself.</translation> <!--JG: Uncertain, esp 'cum de anno'-->
+        </marginalia>
         
+        <underline method="pen" type="double" language="LA" text="fortitudinis"/>
+        <underline method="pen" type="straight" language="LA" text="alia significati"/>
+        <underline method="pen" type="straight" language="LA" text="ascendente medietate"/>
+        <underline method="pen" type="straight" language="LA" text="In descendente"/>
+        <underline method="pen" type="straight" language="LA" text="uerum"/>
+        <underline method="pen" type="straight" language="LA" text="inductio fuerat posterioris loci qui propinquior cordi coeli esset ad antecedente[m], in successione signorum"/>
+        <underline method="pen" type="straight" language="LA" text="inuentum, radios Planetarum dirigi, atque directo loco occurrere, maxime autem in occidentali parte"/>
+        <underline method="pen" type="straight" language="LA" text="firmandum geniturae tempus"/>
         
+        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/>
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        <numeral place="intext" language="LA" text="ascendete medietate">1</numeral>
+        <numeral place="intext" language="LA" text="in descendente">2</numeral>
+        <numeral place="intext" language="LA" text="uerum">3</numeral>
         
     </annotation>
 </transcription>
