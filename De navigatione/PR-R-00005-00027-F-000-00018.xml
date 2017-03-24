@@ -4,21 +4,23 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="PR-R-00005-00027-F-000-00018.tif" reader="John Dee" pagination="[6[v]]"/> 
+    <page filename="PR-R-00005-00027-F-000-00018.tif" reader="John Dee" pagination="[6[v]]" signature="[Avi[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Tractatus Doctoris Petri Nonij">
+        <marginalia hand="Italian" anchor_text="Tractatus Doctoris Petri Nonij" method="pen">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0">
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Tractatus Petri Nonij
+                        Tractatus Petri Nonij.
                     </marginalia_text>
+                    <person name="Pedro Nunes"/>
                 </position>
             </language>
+            <translation></translation>  <!-- DO: Translation needed: 'The tract of Pedro Nunes.'? -->
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Hic incipit Tractatus Doctoris Petri Nonij, dein quicquid Mathematica dixerit, est quod ipse."/>
-        <underline method="pen" type="double" language="LA" text="Doctor iuxta dixit"/>
+        <underline method="pen" type="straight" language="LA" text="Hic incipit Tractatus Doctoris Petri Nonij, dein quicquid Mathematica dixerit"/>
+        <underline method="pen" type="straight" language="LA" text="quod ipse Doctor iuxta literam dixit, Philosophia"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         
