@@ -52,10 +52,23 @@
           <xs:enumeration value="Salt"/>
           <xs:enumeration value="Saturn"/>
           <xs:enumeration value="Square"/>
+          <xs:enumeration value="Trine"/>
           <xs:enumeration value="SS"/>
           <xs:enumeration value="Sulfur"/>
           <xs:enumeration value="Sun"/>
           <xs:enumeration value="Venus"/>
+          <xs:enumeration value="Aries"/>
+          <xs:enumeration value="Cancer"/>
+          <xs:enumeration value="Libra"/>
+          <xs:enumeration value="Capricorn"/>
+          <xs:enumeration value="Taurus"/>
+          <xs:enumeration value="Leo"/>
+          <xs:enumeration value="Scorpio"/>
+          <xs:enumeration value="Aquarius"/>
+          <xs:enumeration value="Gemini"/>
+          <xs:enumeration value="Virgo"/>
+          <xs:enumeration value="Sagittarius"/>
+          <xs:enumeration value="Pices"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -85,6 +98,7 @@
         <xs:enumeration value="ES"/>
         <xs:enumeration value="DE"/>
         <xs:enumeration value="CY"/>
+        <xs:enumeration value="IW"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
@@ -130,6 +144,14 @@
         <xs:enumeration value="pen"/>
         <xs:enumeration value="pencil"/>
         <xs:enumeration value="typewriter"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  
+  <xs:attribute name="colour">
+    <xs:simpleType>
+      <xs:restriction base="xs:token">
+        <xs:enumeration value="red"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:attribute>
@@ -186,6 +208,7 @@
       <xs:simpleType>
         <xs:restriction base="xs:token">
           <xs:enumeration value="inserted"/>
+          <xs:enumeration value="separate"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -230,6 +253,7 @@
   <xs:attributeGroup name="attlist.marginalia">
     <xs:attribute ref="hand" use="required"/>
     <xs:attribute ref="method"/>
+    <xs:attribute ref="colour"/>
     <xs:attribute name="id"/>
     <xs:attribute name="marginalia_continues_to"/>
     <xs:attribute name="marginalia_continues_from"/>
@@ -271,6 +295,7 @@
           <xs:enumeration value="ES"/>
           <xs:enumeration value="DE"/>
           <xs:enumeration value="CY"/>
+          <xs:enumeration value="IW"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -349,6 +374,7 @@
   </xs:element>
   <xs:attributeGroup name="attlist.underline">
     <xs:attribute ref="method" use="required"/>
+    <xs:attribute ref="colour"/>
     <xs:attribute name="type" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:token">
@@ -410,6 +436,7 @@
           <xs:enumeration value="semicolon"/>
           <xs:enumeration value="slash"/>
           <xs:enumeration value="straight_quotation_mark"/>
+          <xs:enumeration value="small_circle"/>
           <xs:enumeration value="tick"/>
           <xs:enumeration value="tilde"/>
           <xs:enumeration value="triple_dash"/>
@@ -421,6 +448,7 @@
       </xs:simpleType>
     </xs:attribute>
     <xs:attribute ref="method" use="required"/>
+    <xs:attribute ref="colour"/>
     <xs:attribute ref="place" use="required"/>
     <xs:attribute ref="language"/>
     <xs:attribute name="text"/>
@@ -487,6 +515,7 @@
     <xs:attribute ref="book_orientation" use="required"/>
     <xs:attribute ref="place" use="required"/>
     <xs:attribute ref="method" use="required"/>
+    <xs:attribute ref="colour"/>
     <xs:attribute name="id"/>
     <xs:attribute name="anchor_text"/>
   </xs:attributeGroup>
