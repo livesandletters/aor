@@ -11,17 +11,20 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        <!-- de -->mo[n]stratio[n]es <!-- pr -->opter quid.
+                        Demo[n]stratio[n]es propter quid.
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="p[ri]mo m[od]o certitudinis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        <!--  -->nus modus <!--  --> itudinis
+                        Primus modus certitudinis
                     </marginalia_text>
                 </position>
             </language>
@@ -31,7 +34,17 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        <!--  --> effectus
+                        Causae. effectus
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Qua Apoloni[us] magnus diffinie[n]tes et ariste[us] s[e]c[un]d[u]m pithagorica[m] disciplina[m]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Apolonius Aristeus
                     </marginalia_text>
                 </position>
             </language>
@@ -41,6 +54,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
+                        Mathematica in primo modo certitudinis
                     </marginalia_text>
                 </position>
             </language>
@@ -50,17 +64,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        <!-- ma -->thematica <!-- ... --> primo modo <!-- ... -->titudinis
-                    </marginalia_text>
-                </position>
-            </language>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>
-                        <!--  -->
+                        Numerus
                     </marginalia_text>
                 </position>
             </language>
@@ -70,7 +74,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        <!-- ... -->meri pitha<!--  --> infra
+                        Numeri pithagorici infra
                     </marginalia_text>
                 </position>
             </language>
@@ -115,9 +119,9 @@
         <underline method="pen" type="straight" language="LA" text="circa rem"/>
         <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m"/>
 
-        <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="equal_sign" method="pen" place="right_margin"/>
-        <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="equal_sign" method="pen" place="right_margin"/> <!-- etiam -->
+        <mark name="equal_sign" method="pen" place="right_margin"/> <!-- ingeniauit -->
+        <mark name="equal_sign" method="pen" place="right_margin"/> <!-- introductoria -->
         <mark name="bracket" method="pen" place="intext" text="vt in seque[n]tib[us] patebit"/>
         <mark name="comma" method="pen" place="intext"/> <!-- introductoria q[ua] -->
         
