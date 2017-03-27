@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Gulielmus Com[it]is Bar[es] infra in Ypodig[ma] Pag[ina] 98.</marginalia_text> <!-- FSF: Comes -->
+                    <marginalia_text>Gulielmus Comes Bar[es] infra in Ypodig[ma] Pag[ina] 98.</marginalia_text>
                     <person name="William de Bares"/>
                     <book title="Ypodigma"/>
                     <internal_ref>
@@ -23,11 +23,11 @@
         <marginalia hand="Italian" anchor_text="Hugone de Veer filio Comitis Oxoniensis">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Hugo de Veer fil[io]. Commitis Ox[oniensis].</marginalia_text> <!-- FSF: the name Hugo in the text is ablativ, that's why filio; here it is in the nominativ, so it should be fil[ius] -->
+                    <marginalia_text>Hugo de Veer fil[ius]. Commitis Ox[oniensis].</marginalia_text>
                     <person name="Hugh de Vere, 4th Earl of Oxford"/>
                 </position>
             </language>
-            <translation>Hugh de Vere, 4th Earl of Oxford</translation> <!-- FSF: the translation of the annotation should be HUgh de Vere, son of the Earl of Oxford -->
+            <translation>Hugh de Vere, son of the Earl of Oxford</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Micha&ecirc;lis, Alienora"/>
