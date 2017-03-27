@@ -21,7 +21,8 @@
         <marginalia hand="Italian" anchor_text="Pernague" method="pen">
             <language ident="IT">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pernague</marginalia_text>  <!-- DO: Can't find a translation for this -->
+                    <marginalia_text>Pernague</marginalia_text>  <!-- DO: Can't find a translation for this --> <!-- MB. I think this is a Guernsey French term to refer to a kind of women's clothing/leggings. See https://books.google.co.uk/books?id=nJo-AAAAYAAJ&pg=PA381&dq=Pernague&hl=en&sa=X&redir_esc=y#v=onepage&q=Pernague&f=false
+                    -->
                 </position>
             </language>
             <translation></translation>
@@ -40,6 +41,7 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Mari Il[e].</marginalia_text>  <!-- DO: not sure if this is a location - could it be 'fl[umen] referring to 'fiume de' Mari'?  -->
+                <!-- MB. I think this is 'fl[umen]] as the text refers  to 'fiume de' Mari'. -->
                 </position>
             </language>
         </marginalia>
@@ -75,7 +77,7 @@
         <underline method="pen" type="straight" language="IT" text="fur prese XII persone"/>
         <underline method="pen" type="double" language="IT" text="si quietamente, &amp; senza"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- DO: commas around 'dette' -->
+        <mark name="comma" method="pen" place="intext"/> <!-- DO: commas around 'dette' --> <!-- MB. Commas should be marked using two tags -->
         
         
     </annotation>
