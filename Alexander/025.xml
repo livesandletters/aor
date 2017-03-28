@@ -20,11 +20,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="alteru[m]......">
+        <marginalia hand="Italian" anchor_text="alteru[m] vero nihil factum est">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        [id est] nihil est inde alter<!--  -->
+                        [id est] nihil est inde alteratu[m].
                     </marginalia_text>
                 </position>
             </language>
@@ -50,7 +50,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        2o Euclid <!--  -->
+                        2o Euclidis
                     </marginalia_text>
                     <person name="Euclid"/>
                 </position>
@@ -91,7 +91,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Pares numeri vt su[n]t alter cause <!--  -->
+                        Pares numeri vt su[n]t alteratio[n]is causa[e]
                     </marginalia_text>
                 </position>
             </language>
@@ -104,12 +104,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Syllogismus impossibilis
+                        Syllogismus ad impossibile
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                An impossible syllogism.
+                A syllogism to the impossible.
             </translation>
         </marginalia>
         
@@ -169,6 +169,7 @@
         
         <mark name="tripunctus" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="horizontal_bar" method="pen" place ="right_margin"/>
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- abunda[n]tia -->
         
         <numeral place="left_margin">9</numeral>
