@@ -7,7 +7,18 @@
     <page filename="043.tif" reader="John Dee"/> 
     <annotation>
         
-        <!-- FSF: right marginalia illegible -->
+        <marginalia hand="Italian" anchor_text="Unde hoc est subiectu[m] v[niuersa]le veru[m]">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        vniuersale subiectum verum.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="et p[ri]mo"/>
         <underline method="pen" type="straight" language="LA" text="si passio illa adhuc insit remoto illo cui inesse dicebat[ur] no[n] videt[ur] esse illud v[niversa]le. fuisse v[niversa]le subiectu[m]"/>
