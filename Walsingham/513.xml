@@ -12,9 +12,10 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Nota: Burgundia[e] partes [ maiore[m] esse Ducatum minorem trans Aone esse comitatu[m]</marginalia_text>
+                    <location name="Burgundy"/>
                 </position>
             </language>
-            <translation>Note: The parts of Burgundy [ The majority being a duchy; The minority across the Saone being a county.</translation>
+            <translation>Note: The parts of Burgundy [ The majority being a duchy; the minority across the Saone being a county.</translation>
         </marginalia>
         
         
@@ -33,7 +34,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Walterius et euis vxor suspensi.</marginalia_text>
-                    <person name=""/>
+                    <person name=""/>    <!-- DO: Still haven't identified Walterius... -->
                 </position>
             </language>
             <translation>Walter and his wife strung up.</translation>
@@ -70,18 +71,18 @@
                     <person name="Hugh, Count of Burgundy "/>
                 </position>
             </language>
-            <translation>Hugh, Count of [?] [is] Hugh de Chalon.</translation>
+            <translation>Hugh, Count of Cabilionensis [is] Hugh de Chalon.</translation>  <!-- DO: Not sure how best to tanslate, as Cabilionensis is the Latin name for Chalon. It would seem odd to have them both as 'Chalon' in the translation -->
         </marginalia>
         
         
         <marginalia hand="Italian" anchor_text="castrumq[ue] Menwaldum" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Menwaldt castru[m]</marginalia_text>
-                    <location name="Menaldum"/>
+                    <marginalia_text>Menwaldt castru[m]</marginalia_text>   
+                    <location name="Mainvault"/>   <!-- DO: Not completely sure if this is the correct place -->
                 </position>
             </language>
-            <translation>Menaldum.</translation>
+            <translation>Mainvault camp.</translation>
         </marginalia>
         
         
@@ -101,7 +102,7 @@
                     <marginalia_text>Affin que Richard le cheuachast si voussist liber gallic[u]s</marginalia_text>
                 </position>
             </language>
-            <translation>So that Richard could ride it if he wanted to. Liber Gallicus.</translation>
+            <translation>So that Richard could ride it if he wanted to. Liber Gallicus.</translation>  <!-- DO: 'Liber Gallicus' presumably an external reference - not sure which book though -->
         </marginalia>
         
         
@@ -162,10 +163,41 @@
         
         
         <underline method="pen" type="straight" language="LA" text="proditorem cum vxore propria"/>
+        <underline method="pen" type="straight" language="LA" text="assueti hostes fugare Normanni, terga vertere nulli"/>
+        <underline method="pen" type="straight" language="LA" text="Burgundionum dux"/>
+        <underline method="pen" type="straight" language="LA" text="Robertum Francorum"/>
+        <underline method="pen" type="straight" language="LA" text="Landricum"/>
+        <underline method="pen" type="straight" language="LA" text="intra Altissiodorum"/>
+        <underline method="pen" type="straight" language="LA" text="Robertum filiu[m] suu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="trans Aone"/>
+        <underline method="pen" type="straight" language="LA" text="nomine Adeliz"/>
+        <underline method="pen" type="straight" language="LA" text="comite Cabilonensi, Hugone nomine"/>
+        <underline method="pen" type="straight" language="LA" text="sineret generum suum abire"/>
+        <underline method="pen" type="straight" language="LA" text="Menwaldum"/>
+        <underline method="pen" type="straight" language="LA" text="vrbem Cabilonensem"/>
+        <underline method="pen" type="straight" language="LA" text="equestrem sellam"/>
+        <underline method="pen" type="straight" language="LA" text="indulta Rainaldu[m] reddidit"/>
+        <underline method="pen" type="straight" language="LA" text="obsidibus"/>
+        <underline method="pen" type="straight" language="LA" text="apud Fiscamium"/>
+        <underline method="pen" type="straight" language="LA" text="accitum Richardum filium"/>
+        <underline method="pen" type="double" language="LA" text="fratremq[ue]"/>
+        <underline method="pen" type="straight" language="LA" text="suum Robertu[m] comitatui Oxunensi"/>
+        <underline method="pen" type="straight" language="LA" text="1026"/>
+        <underline method="pen" type="straight" language="LA" text="paulisper superuixeat"/>
         
+        <mark name="tripunctus" method="pen" place="head"/>
         
+        <mark name="tripunctus" method="pen" place="left_margin"/>
+       
+        <mark name="tripunctus" method="pen" place="left_margin"/>
         
+        <mark name="comma" method="pen" place="intext"/>  <!-- opinione Rainaldus -->
         
+        <errata language="LA" copytext="superuixeat" amendedtext="superuixerat"/>
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        
+        <!-- DO: Drawing of horse saddle in left margin -->
         
         
         
