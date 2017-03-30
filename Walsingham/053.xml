@@ -4,7 +4,6 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="053.tif" reader="John Dee" pagination="33"/>
-    
     <annotation>
        
         <marginalia hand="Italian">
@@ -23,7 +22,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>alt wrauimus vide in Ypod.[igma] pag[ina] 82</marginalia_text>
+                    <marginalia_text>alt wrauimus vide in Ypod.[igma] pag[ina] 82</marginalia_text> <!-- FSF: as in the text, it should be iurauimus; the first word is definitely an abbreviation, possibly al[i]a, but I am not sure -->
                 </position>
             </language>
             <translation></translation>
@@ -34,11 +33,11 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Anno R[egni] R[egis] Ed[vvardi]. 25.</marginalia_text>
                 </position>
-            </language>
+            </language> <!-- FSF: translation to be added: In the 25th year of the reign of King Edward -->
         </marginalia>
         
         
-        <underline method="pen" type="straight" language="LA" text="sicut potest de iure facere tanquam dominus de feodo suo, quia nos ei homagium nostrum"/>
+        <underline method="pen" type="straight" language="LA" text="sicut potest de iure facere tanquam dominus de feodo suo, quia nos ei homagium nostrum"/> <!-- FSF: nostru[m] -->
         <underline method="pen" type="straight" language="LA" text="plena potestate"/>
         <underline method="pen" type="double" language="LA" text="voluntate reddimus ei terram Scotiae"/>
         <underline method="pen" type="straight" language="LA" text="gentem totam cum homagijs"/>
@@ -55,18 +54,18 @@
         <underline method="pen" type="straight" language="LA" text="nostris, &amp; eos"/>
         <underline method="pen" type="straight" language="LA" text="Insuper &amp; iuramus tactis sacrosanctis Euangelijs, &amp; poste&agrave; nos omnes, &amp; quilibet nostrum,"/>
         <underline method="pen" type="straight" language="LA" text="se secit homagium dicto domino nostro regi Angliae in haec verba."/>
-        <underline method="pen" type="straight" language="LA" text="legalitatem seruabo Edvvardo regi Angliae &amp; haeredibus suis, de"/>
+        <underline method="pen" type="straight" language="LA" text="legalitatem seruabo Edvvardo regi Angliae &amp; haeredibus suis, de"/> 
+        <!-- FSF: I think terreno honore, co[n]tra is left out -->
         <underline method="pen" type="straight" language="LA" text="omnes qui possunt viuere &amp; mori:"/>
         <underline method="pen" type="straight" language="LA" text="arma"/>
         <underline method="pen" type="straight" language="LA" text="nec ero in consilio vel auxilio contra eum, vel haeredes suos"/>
         <underline method="pen" type="straight" language="LA" text="sed fideliter recognoscam, &amp; fideliter faciam seruitia, quae pertinent ad tenementum, quod de eo tenere clamito, sic"/>
-        <underline method="pen" type="straight" language="LA" text="rengi regis Angliae Edvvardi"/>
+        <underline method="pen" type="straight" language="LA" text="regni regis Angliae Edvvardi"/>
         <underline method="pen" type="double" language="LA" text="domini nostri"/>
         <underline method="pen" type="straight" language="LA" text="vicesimo quinto"/>
         <underline method="pen" type="straight" language="LA" text="cui mandauit rex, vt omnes tenentes de rege terras aliquas vocaret, &amp; eorum homagia fidelitat&eacute;sque reciperet."/>
         <underline method="pen" type="double" language="LA" text="quo[n]dam regem"/>
         <underline method="pen" type="double" language="LA" text="Londonias ad turrim"/>
-        
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
@@ -89,4 +88,3 @@
         
     </annotation>
 </transcription>
-
