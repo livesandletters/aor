@@ -43,6 +43,18 @@
         </marginalia>
         
         
+        <marginalia hand="Italian" anchor_text="Doli"  method="pen">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Comitatus Doli.</marginalia_text>
+                    <location name="Dol-de-Bretagne"/>
+                </position>
+            </language>
+            <translation>The county of Dol.</translation>
+        </marginalia>
+        
+        
+        
         <marginalia hand="Italian" anchor_text="Abricatensem comitatum"  method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -68,14 +80,49 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Roberti Richardi Ducis N[orthmanniae] solicitudo pro suis Nepotibus Aluredo et Edwardo Ethelredi regis Ang[lorum] filijs</marginalia_text>
-                    <person name=""/>
+                    <person name="Richard II, Duke of Normandy"/>
+                    <person name="Edward the Confessor"/>
+                    <person name="Alfred Aetheling"/>
+                    <person name="Aethelred II"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To Richard, Duke of Normandy, [goes] the care of his nephews Alfred and Edward, the sons of Aethelred, King of the English.</translation>  <!-- DO: Not sure about the translation, and no idea where 'Roberti' fits in - possibly a separate marginal note or a mistake? -->
         </marginalia>
         
         
+        <marginalia hand="Italian" anchor_text="Fiscamium in littore ponti"  method="pen">
+            <language ident="EN">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Fiscamium in littore ponti.</marginalia_text>
+                    <location name="Fecamp"/>
+                </position>
+            </language>
+            <translation>Fecamp on the sea shore.</translation>
+        </marginalia>
         
+        
+        <underline method="pen" type="straight" language="LA" text="fretus affinitate regali patrem a solo pepulit"/>
+        <underline method="pen" type="straight" language="LA" text="Cioca vocatur"/>
+        <underline method="pen" type="straight" language="LA" text="relicto filio ad patrem sunt reuersi, duci obsides"/>
+        <underline method="pen" type="straight" language="LA" text="eius Henricus"/>
+        <underline method="pen" type="straight" language="LA" text="Roberto viuente Francorum"/>
+        <underline method="pen" type="straight" language="LA" text="matre Constantia"/>
+        <underline method="pen" type="straight" language="LA" text="Comes Alanus"/>
+        <underline method="pen" type="straight" language="LA" text="Doli"/>
+        <underline method="pen" type="straight" language="LA" text="Abrincatensem"/>
+        <underline method="pen" type="straight" language="LA" text="cum dedecore"/>
+        <underline method="pen" type="double" language="LA" text="Rodonis"/>
+        <underline method="pen" type="straight" language="LA" text="Ethelredus"/>
+        <underline method="pen" type="straight" language="LA" text="auu[n]culo"/>
+        <underline method="pen" type="straight" language="LA" text="fabricari"/>
+        <underline method="pen" type="straight" language="LA" text="apud Fiscamium"/>
+        <underline method="pen" type="straight" language="LA" text="vocatur Gernsi"/>
+        <underline method="pen" type="straight" language="LA" text="futurum regnare sine sanguinis effusione"/>
+        
+        
+        <mark name="comma" method="pen" place="intext"/>  <!-- viuente Francorum -->
+        
+        <errata language="LA" copytext="Flandoniam" amendedtext="Flandriam"/>
         
         
     </annotation>
