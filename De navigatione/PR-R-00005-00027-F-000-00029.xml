@@ -4,12 +4,12 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="PR-R-00005-00027-F-000-00029.tif" reader="John Dee" pagination="12"/> 
+    <page filename="PR-R-00005-00027-F-000-00029.tif" reader="John Dee" pagination="12" signature="Biiij"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Pythagoras">
+        <marginalia hand="Italian" anchor_text="Pythagoras" method="pen">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Pythagoras
                     </marginalia_text>
@@ -17,16 +17,16 @@
                 </position>
             </language>
             <translation>
-                Pythagoras
+                Pythagoras.
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="totu[m] orbem septe[m] soli fueru[n]t"/>
-        <underline method="pen" type="straight" language="LA" text="Pythagoras samius, qui plus omnibus alijs Mathematicis"/>
+        <underline method="pen" type="straight" language="LA" text="Pythagoras Samius, qui plus omnibus alijs in Mathematicis"/>
         <underline method="pen" type="straight" language="LA" text="in morale[m]"/>
         <underline method="pen" type="straight" language="LA" text="naturale[m]"/>
-        <underline method="pen" type="straight" language="EL" text="λογι.ή"/>
-        <underline method="pen" type="straight" language="LA" text="Ha[e]c est scie[n]tia qua[e] cognoscit reru[m] causas &amp; principia, tam diuinaru[m] qu&agrave;m humanaru[m], qua[n]tu[m] humano intellectu capi potest"/>
+        <underline method="pen" type="straight" language="EL" text="λογι.ή"/>  <!-- DO: Is there a letter missing from this word? -->
+        <underline method="pen" type="straight" language="LA" text="Haec est scie[n]tia quae cognoscit reru[m] causas &amp; principia, tam diuinaru[m] qu&agrave;m humanaru[m], qua[n]tu[m] humano intellectu capi potest"/>
 
     </annotation>
 </transcription>
