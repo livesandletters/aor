@@ -4,7 +4,6 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="082.tif" reader="John Dee" pagination="62" signature="[F.[v]]"/>
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Comes de Fif">
@@ -12,7 +11,7 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Comes de Fif.</marginalia_text>
                     <person name="Donnchadh IV, Earl of Fife"/>
-                    <location name="Fife"/>
+                    <location name="Fife"/> <!-- FSF: Don't tag a place if it is part of the name -->
                 </position>
             </language>
             <translation>Earl of Fife.</translation>
@@ -21,12 +20,12 @@
         <marginalia hand="Italian" anchor_text="vxorem ac fratrem suum Nigellum ibi cepit">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Uxor Rob[ertus] Brus Nigelleus fr[ater] Rob.[ertus] Brus</marginalia_text>
+                    <marginalia_text>Uxor Rob[erti] Brus Nigellus fr[ater] Rob[erti] Brus</marginalia_text>
                     <person name="Robert VI de Brus"/>
                     <person name="Nigel de Brus"/>
                 </position>
             </language>
-            <translation>Wife of Robertus Brus. Nigel, brother of Robertus Brus.</translation>
+            <translation>Wife of Robert Brus. Nigel, brother of Robert Brus.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Robertus de Brus aspirans ad regnum Scotiae, nobilem"/>
@@ -42,5 +41,3 @@
         
     </annotation>
 </transcription>
-    
-   
