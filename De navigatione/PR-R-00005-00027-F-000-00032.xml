@@ -7,11 +7,11 @@
     <page filename="PR-R-00005-00027-F-000-00032.tif" reader="John Dee" pagination="[13[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="corpus">
+        <marginalia hand="Italian" anchor_text="corpus" method="pen">  <!-- DO: I would anchor 'puncta, linae, superficiesue, quae interdum sunt, interdum non sunt' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Puncta linea[e] [etc] interdum esse interdu[m] no[n]
+                        Puncta linea[e] [etc] interdum esse interdu[m] no[n]   <!-- DO: It looks like 'lineas' to me, and makes more sense to be accusative with the infinitive-->
                     </marginalia_text>
                 </position>
             </language>
@@ -22,9 +22,10 @@
         
         <underline method="pen" type="straight" language="LA" text="habet esse"/>
         <underline method="pen" type="straight" language="LA" text="Ex nihilo"/>
-        <underline method="pen" type="straight" language="LA" text="his eni[m] corpus diffinitur"/>
-        <underline method="pen" type="straight" language="LA" text="corpus, lineam, &amp; superficiem sol&ugrave;m accidentia esse, qua[e] fingi possunt ad faciendum intelligere"/>
-        <underline method="pen" type="straight" language="LA" text="qu&ograve;d ipsa per se sint res"/> <!-- FSF: underscoring with little feet like millepedes, as seen already in other work annotated by Dee-->
+        <underline method="pen" type="straight" language="LA" text="corpus, lineam, &amp; superficiem sol&ugrave;m accidentia"/>
+        <underline method="pen" type="straight" language="LA" text="quae fingi possunt ad faciendum intelligere"/>
+        <underline method="pen" type="straight" language="LA" text="qu&ograve;d"/>
+        <underline method="pen" type="grid" language="LA" text="ipsa per se sint res"/> <!-- FSF: underscoring with little feet like millepedes, as seen already in other work annotated by Dee-->  <!-- DO: I would tag these as 'grid' underlining -->
         <underline method="pen" type="straight" language="LA" text="generentur uel corrumpantur"/>
         <underline method="pen" type="straight" language="LA" text="quidem qu&ograve;d quandoque sint, quandoque"/>
         <underline method="pen" type="straight" language="LA" text="non enim indiuisibile punctum, bipartitum esse potest"/>
