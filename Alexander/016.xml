@@ -230,12 +230,16 @@
         <underline method="pen" type="straight" language="LA" text="s[ecundu]m hos viginti q[ua]ttuor recots qua[n]tu[m] ad repletentione[m] loci no[n]"/>
         <underline method="pen" type="straight" language="LA" text="q[ua]re corp[or]is p[ar]ticule sunt sup[er]ficies"/>
         
-        <numeral method="pen" place="left_margin">.1.</numeral>
-        <numeral method="pen" place="left_margin" >.2.</numeral>
-        <numeral method="pen" place="left_margin">.3.</numeral>
+        <mark name="comma" method="pen" place="intext"/> <!-- mathematicis h[abe]ns -->
         
-        <errata language="LA" copytext="sitium" amendedtext="situm"/>
+        <numeral place="left_margin">.1.</numeral>
+        <numeral place="left_margin" >.2.</numeral>
+        <numeral place="left_margin">.3.</numeral>
+        
+        <errata language="LA" copytext="." amendedtext=","/> <!-- vni[us] [et] -->
         <errata language="LA" copytext="latitudo" amendedtext="deleted"/>
+        <errata language="LA" copytext="sitium" amendedtext="situm"/>
+        <errata language="LA" copytext="" amendedtext=""/>
         <errata language= "LA" copytext="quida[m]" amendedtext="quide[m]"/>
         
         <!-- FSF: I think Dee shaded the representation of a body -->

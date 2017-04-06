@@ -133,10 +133,20 @@
         <underline method="pen" type="straight" language="LA" text="Millesimo quinge[n]tesimoquarto.vndecimo Kale[n]das februarij"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- colueru[n]t Babilo[n]ia -->
+        <mark name="dot" method="pen" place="intext"/> <!-- Egipcij Sine -->
+        <mark name="comma" method="pen" place="intext"/> <!-- attigit indicauerit -->
         
+        <errata language="LA" copytext=":" amendedtext="?"/> <!-- mathematica[m] cu[m] -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- obseruauit mirati -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- indicauerit sua[m]que -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- doctissime ita -->
+        <errata language="LA" copytext=":" amendedtext=","/> <!-- caues vt -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- docta q[uod] -->
+        <errata language="LA" copytext=":" amendedtext=","/> <!-- potui Om[n]es -->
         <errata language="LA" copytext="Arestotelis" amendedtext="Aristotelis"/>
-        <errata language="LA" copytext="." amendedtext=","/>
-        <errata language="LA" copytext=":" amendedtext=","/>
+        <errata language="LA" copytext=":" amendedtext=","/> <!-- Arestotelis q[ua]s -->
+        <errata language="LA" copytext=":" amendedtext=","/> <!-- sit exacto -->
         
     </annotation>
 </transcription>

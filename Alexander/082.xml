@@ -7,6 +7,45 @@
     <page filename="082.tif" reader="John Dee" signature="Gi"/> 
     <annotation>
         
+        <marginalia hand="Italian" anchor_text="r[ati]one sup[er]antis [et] sup[er]ati">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        r[ati]o[n]e sup[er]a[n]tis et sup[er]ati
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="via resolutio[n]is [et] c[om]positio[n]is">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Co[m]positio Resolutio.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="q[uod] differu[n]t sol. lux. dies. lumen. sple[n]dor. claritas. [et] color">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Sol. lux. dies sple[n]dor claritas color.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -32,7 +71,12 @@
         <underline method="pen" type="straight" language="LA" text="[et] sensato in n[ume]ra s[e]c[un]da p[ar]te laci[us] tractabimus"/>
         <underline method="pen" type="straight" language="LA" text="de hijs par[um] e[st] mathe"/>
         
+        <mark name="horizontal_bar" method="pen" place="intext"/>
+        <mark name="horizontal_bar" method="pen" place="intext"/>
+        
         <numeral place="left_margin">2</numeral>
         
+        <errata language="LA" copytext="tq[uam]" amendedtext="q[uam]"/>
+              
     </annotation>
 </transcription>

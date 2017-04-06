@@ -192,7 +192,11 @@
         <underline method="pen" type="straight" language="LA" text="q[uod] positio p[ro]prie p[ar]tium mathematice co[n]siderat[ur]"/>
 
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="intext" language="LA" text="et no[n] phisicu[m]"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- est p[raese]ns -->
+        <mark name="comma" method="pen" place="intext"/> <!-- simul et -->
+        <mark name="comma" method="pen" place="intext"/> <!-- instantaneis et -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- et no[n] phisicu[m] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- locati loci -->
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- p[ar]ticule -->
         
         <!-- FSF: Dee drew a representation of four bodies or so in the left margin; I don't know how to capture that -->
