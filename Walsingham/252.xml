@@ -7,6 +7,7 @@
     <annotation>
         
         <marginalia hand="Italian" other_reader="Unknown" anchor_text="Nec mora, consuetis adhibitis instrumentis missilibus scilicet"> <!-- MB. Mark as 'other reader' since this doesn't look like Dee' hand -->
+            <!-- FSF: again, I am not sure as with the one before (Kensington) if that is just Dee writing differently -->
             <language ident="LA">
               <position place="left_margin" book_orientation="0">
                   <marginalia_text>A[nn]o: 1379 tormenta in navibus</marginalia_text>
@@ -19,6 +20,8 @@
             </language>
             <translation>In the year of 1379 artillery (great ordinance) on ships.</translation>
         </marginalia>
+        
+        <!-- FSF: the language needs to change back to Latin for the 'in navibus', I think -->
         
         <underline method="pen" type="straight" language="LA" text="quae vulgus gunnas vocant"/>
         
@@ -40,10 +43,12 @@
         <mark name="comma" method="pen" place="intext"/> <!-- arcus, quid -->
         <mark name="comma" method="pen" place="intext"/> <!-- animose, tam -->
         <mark name="comma" method="pen" place="intext"/> <!-- erat, wuin -->
-        <mark name="circumflex" method="pen" place="intext"/> <!-- non enimå  -->
+        <mark name="circumflex" method="pen" place="intext"/> <!-- non enim  -->
         <mark name="comma" method="pen" place="intext"/> <!-- memoratus, nec -->
-        <mark name="comma" method="pen" place="intext"/> <!--  -->
+        
+        <!-- FSF: all printed again, except for the circumflex -->
         
         <errata language="LA" copytext="onerarequae" amendedtext="onerariquae"/>
+        
     </annotation>
 </transcription>
