@@ -4,10 +4,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="PR-R-00005-00027-F-000-00025.tif" reader="John Dee" pagination="10"/> 
+    <page filename="PR-R-00005-00027-F-000-00025.tif" reader="John Dee" pagination="10" signature="Bij"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="multi disciplinas Mathematicas uenerantur &amp; amant">
+        <marginalia hand="Italian" anchor_text="multi disciplinas Mathematicas uenerantur &amp; amant" method="pen">  <!-- DO: Perhaps the second half of this sentence should be anchored instead (from 'quia') as this is where the actual 'fruits' of mathematics are stated, and this second half is underlined -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,11 +20,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="certissima earu[m] principia, &agrave; quibusdam nega[n]tur.">
+        <marginalia hand="Italian" anchor_text="certissima earu[m] principia, &agrave; quibusdam nega[n]tur" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Certissima principia Math. nega[n]tur a q[ui]busda[m]
+                        Certissima principia Math[ematicae] nega[n]tur a q[ui]busda[m]
                     </marginalia_text>
                 </position>
             </language>
@@ -34,11 +34,9 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="operationibus &amp; figuris, quae"/>
-        <underline method="pen" type="straight" language="LA" text="quia regula[e] &amp; propositiones Mathematica[e] inuenta[e] sunt &amp; deseruiu[n], ut per eas &amp; earu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="res naturales"/>
-        <underline method="pen" type="straight" language="LA" text="atq[ue] ordines elementoru[m]"/>
-        <underline method="pen" type="straight" language="LA" text="motus ca[e]lorum"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; eorundem"/>
+        <underline method="pen" type="straight" language="LA" text="quia regulae &amp; propositiones Mathematicae inuentae sunt &amp; deseruiu[n]t, ut per eas &amp;"/>
+        <underline method="pen" type="straight" language="LA" text="res naturales atq[ue] ordines elementoru[m]"/>
+        <underline method="pen" type="straight" language="LA" text="motus ca[e]lorum &amp; eorundem"/>
         <underline method="pen" type="straight" language="LA" text="quod dolentius dicendu[m]"/>
         <underline method="pen" type="straight" language="LA" text="certissima earu[m] principia, &agrave; quibusdam nega[n]tur"/>
         <underline method="pen" type="straight" language="LA" text="sunt scientiaru[m] modi"/>

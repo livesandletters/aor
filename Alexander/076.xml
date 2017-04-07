@@ -7,6 +7,58 @@
     <page filename="076.tif" reader="John Dee"/> 
     <annotation>
         
+        <marginalia hand="Italian" anchor_text="formale[m] causam">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        formalis causa
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Vtrum aut[em] causa illa sit materialis">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Materialis c[aus]a
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Definitiones vt fine <!-- FSF: not sure here -->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="p[ro]pter quid">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Propter quid
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -24,6 +76,9 @@
         <underline method="pen" type="straight" language="LA" text="ista[m] causam q[uod] o[mn]is angulus in semicirculo"/>
         <underline method="pen" type="straight" language="LA" text="p[ri]ncepts aut[em] alteratio[n]is est dualis [et]"/>
         <underline method="pen" type="straight" language="LA" text="diuisio[n]es [et] subdiuisio[n]es"/>
+        
+        <errata language="LA" copytext="q[ua]tuoro" amendedtext="q[ua]tuor"/>
+        <errata language="LA" copytext="." amendedtext=","/> <!-- q[ua]tuoro portet -->
         
     </annotation>
 </transcription>

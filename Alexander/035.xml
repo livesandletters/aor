@@ -20,11 +20,38 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Cu[m] mathematica ex immediatis p[ri]ncipijs necessarijs no[n] aliter se habe[n]tibus p[ro]cedit
+            et q[uae] maxi[m]e alijs p[ro]porcionata est intellectui nostro. cum semp[er] effectum ex causa demo[n]strat">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        Demo[n]strat&iacute;o mathemat&iacute;ca
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="q[ui]a est [...] q[ui]d est">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Quid est Quia est
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="no[n] potest p[ro]bari de ip[s]is sicut sunt principia">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Principia no[n] possunt p[ro]bari
                     </marginalia_text>
                 </position>
             </language>
@@ -37,7 +64,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        Pra[e]cognitio Principij
                     </marginalia_text>
                 </position>
             </language>
@@ -46,11 +73,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="principiata">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        Principiatu[m]
                     </marginalia_text>
                 </position>
             </language>
@@ -59,11 +86,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="p[rae]cognoscere vtraq[ue] cognitio[n]e, siue vtroq[ue] m[od]o">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        Pra[e]cognoscere vtroq[ue] modo
                     </marginalia_text>
                 </position>
             </language>
@@ -72,11 +99,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="vnitas principiu[m] et principiatu[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        Vnitas principiu[m] [et] principiatu[m]
                     </marginalia_text>
                 </position>
             </language>
@@ -85,37 +112,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="p[rae]cognosca[n]tur">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        
+                        Pra[e]cognitio
                     </marginalia_text>
                 </position>
             </language>
@@ -155,6 +156,14 @@
             nostro. cum semp[er] effectum ex causa demo[n]strat"/>
         <mark name="bracket" method="pen" place="right_margin" language="LA" text="q[ua]re in o[mn]i silogismo demo[n]stratiuo p[re]cognoscit[ur] maior co[n]clusione. minor vero eode[m] t[em]p[or]e co[n]clusionis
             et hec p[re]cognitio c[on]clusionu[m] est ex p[ri]ncipiatis [et] no[n] p[ri]ncipijs"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- sit ex -->
+        <mark name="semicolon" method="pen" place="intext"/> <!-- alijs et -->
+        <mark name="comma" method="pen" place="intext"/> <!-- principia q[ua]re -->
+        <mark name="comma" method="pen" place="intext"/> <!-- cognitio[n]e siue -->
+        
+        <errata language="LA" copytext="." amendedtext=","/> <!-- eo q[uod] -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- esse no[n] -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- erit c[on]clusio -->
         
     </annotation>
 </transcription>

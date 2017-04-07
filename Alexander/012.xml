@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                
+                Demonstration of the purpose.
             </translation>
         </marginalia>
         
@@ -28,6 +28,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                First method of certainty.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="effectu[m]">
@@ -38,6 +41,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                Causes and effects.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Qua Apoloni[us] magnus diffinie[n]tes et ariste[us] s[e]c[un]d[u]m pithagorica[m] disciplina[m]">
@@ -46,8 +52,13 @@
                     <marginalia_text>
                         Apolonius Aristeus
                     </marginalia_text>
+                    <person name="Apollonius"/>
+                    <person name="Aristaeus"/>
                 </position>
             </language>
+            <translation>
+                Apollonius Aristaeus
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -58,6 +69,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                Mathematics in the first method of certainty.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -68,6 +82,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                Number.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="pithagoras">
@@ -78,6 +95,9 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                For Pythagorean numbers, see below.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Mathematica est scientia certissima et demonstratina quantitatis">
@@ -122,15 +142,25 @@
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- etiam -->
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- ingeniauit -->
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- introductoria -->
-        <mark name="bracket" method="pen" place="intext" text="vt in seque[n]tib[us] patebit"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- introductoria q[uae] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- causis ex -->
+        <mark name="comma" method="pen" place="intext"/> <!-- aristeu[m] qui -->
+        <mark name="comma" method="pen" place="intext"/> <!-- e[ni]m que[m] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- machina vnica -->
+        <mark name="comma" method="pen" place="intext"/> <!-- gen[us] qua[n]titate[m] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- qua[n]titate[m] qua[m] -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- vt in seque[n]tib[us] patebit -->
         <mark name="comma" method="pen" place="intext"/> <!-- introductoria q[ua] -->
         
         <errata language="LA" copytext="philossophantes" amendedtext="philosophantes"/>
+        <errata language="LA" copytext="." amendedtext=","/> <!-- imbuti atq[ue] -->
+        <errata language="LA" copytext="p[ri]ncipys" amendedtext="p[ri]ncipijs"/>
         <errata language="LA" copytext="." amendedtext=","/> <!-- philosophantes secretissima -->
-        <errata language="LA" copytext="p[ri]ncip..s" amendedtext="p[ri]ncipijs"/>
         <errata language="LA" copytext="." amendedtext=","/>
         <errata language="LA" copytext="." amendedtext=", aiunt,"/>
+        <errata language="LA" copytext="." amendedtext=","/> <!-- ei[us] p[ri]us -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- mathematica o[mn]es -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- p[ro]fusus semi[n]auit -->
         
     </annotation>
 </transcription>

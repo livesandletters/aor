@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                
+                Commensurabile.
             </translation>
         </marginalia>        
         
@@ -24,12 +24,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        D&iacute;metru[m] esse inco[m]me[n]surabile costa[e]
+                        D&iacute;ametru[m] esse inco[m]me[n]surabile costa[e]
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Term.
+                The diameter is incommensurabile of the side.
             </translation>
         </marginalia>
         
@@ -42,7 +42,7 @@
                 </position>
             </language>
             <translation>
-                
+                Ninth fifth.
             </translation>
         </marginalia>
         
@@ -56,7 +56,7 @@
                 </position>
             </language>
             <translation>
-                Term.
+                Square numbers cannot be identical in double proportions.
             </translation>
         </marginalia>
         
@@ -69,7 +69,7 @@
                 </position>
             </language>
             <translation>
-                
+                Square numbers cannot be in double proportion.
             </translation>
         </marginalia>
         
@@ -88,9 +88,21 @@
         <underline method="pen" type="straight" language="LA" text="quare no[n] erit q[ua]dratus q[ua]drato duplus relinquit[ur] p[er] impossibile oste[n]sum dyametru[m] esse assimetru[m] coste"/>
         <underline method="pen" type="straight" language="LA" text="paria esse equalia imparibus"/>
         
+        <mark name="comma" method="pen" place="intext"/> <!-- co[mmun]is vt -->
+        <mark name="comma" method="pen" place="intext"/> <!-- cubit[us] vel -->
+        <mark name="comma" method="pen" place="intext"/> <!-- huiusmo[d]i q[ua] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- falsa q[ua]re -->
+        <mark name="comma" method="pen" place="intext"/> <!-- costa dato -->
+        <mark name="comma" method="pen" place="intext"/> <!-- impari silogisando -->
+        <mark name="comma" method="pen" place="intext"/> <!-- tertiu[m] sunt -->
+        <mark name="comma" method="pen" place="intext"/> <!-- eq[ua]les maior -->
+        <mark name="comma" method="pen" place="intext"/> <!-- dyametri duplu[m] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- primi q[uo]d -->
+        <mark name="comma" method="pen" place="intext"/> <!-- quinti due -->
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- simetrum -->
         
+        <errata language="LA" copytext="." amendedtext=","/> <!-- equale[m] impari -->
         <errata language="LA" copytext="p[ro]positione[m]" amendedtext="p[ro]portione[m]"/>
         <errata language="LA" copytext="p[ro]positione[m]" amendedtext="p[ro]portione[m]"/>
         <errata language="LA" copytext="anoni" amendedtext="a noni"/>

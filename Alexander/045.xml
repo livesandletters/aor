@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Euclides in decimo tractavit ..., no[n] numeros vt q[ui]dam co[n]te[n]dit <!-- FSF: not sure -->
+                        Euclides in decimo tractavit Lineas, no[n] numeros vt q[ui]dam co[n]te[n]dit
                     </marginalia_text>
                     <person name="Euclid"/>
                 </position>
@@ -21,7 +21,83 @@
             </translation>
         </marginalia>
         
-        <!-- FSF: there are more marginalia on the right, but these are illegible -->
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Linea[e]
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Lines.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="cum rationale et irratinale">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        numer.{ r[ati]onales irrationales
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Rational and irrational numbers.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="diuersa subiecta vt diuersa">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        diuersa subiecta vt diuersa
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="genus subalternatu[m]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        genus subalternatu[m]
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="methaphisicu[m]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Metaphysic[us]
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Duo cubi vn[us] cubus multiplicatione efficiu[n]tur
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="habes ex algebra et"/>
         <underline method="pen" type="straight" language="LA" text="ex decimo geometrie"/>
@@ -39,6 +115,7 @@
         <underline method="pen" type="straight" language="LA" text="q[uod] si cubus in cubum ducat[ur] cubum vnu[m] p[ro]ducat"/>
         
         <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- cubus sicut -->
         
         <errata language="LA" copytext="irratinale" amendedtext="irrationale"/>
         

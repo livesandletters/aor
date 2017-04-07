@@ -7,6 +7,84 @@
     <page filename="062.tif" reader="John Dee" signature="Eiij"/> 
     <annotation>
         
+        <marginalia hand="Italian" anchor_text="">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Demo[n]stratio quia.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="stelle no[n] scintillant">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Planeta[e] non scintillant.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="scintillatio non est in re visa">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Scintillatio no[n] est in re visa
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="c[on]uersione">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Co[n]versione, ex quia fieri p[otes]t quid.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="planete">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Planeta[e]
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Luna recipi lume[n] circulariter.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="effectu[m] c[on]uertibile[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -100,7 +178,10 @@
         <underline method="pen" type="straight" language="LA" text="nisi a remotis"/>      
         <underline method="pen" type="straight" language="LA" text="licet a p[ro]pi[n]quo forami[ni]s teneat lume[n] forma[m] forami[ni]s, a remotis v[er]o [et] paulati"/>      
         
+        <mark name="comma" method="pen" place="intext"/> <!-- alio est -->
         <mark name="bracket" method="pen" place="left_margin"/>
+
+        <errata language="LA" copytext="." amendedtext=","/> <!-- loco [et] -->
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
@@ -119,6 +200,14 @@
             <link to="n6 n7" from="n5" relationship="has_child"/>
             <link to="n8" from="n6 n7" relationship="has_child"/>
         </graph> <!--JG: Finn, make sure to translate the contents of this Ramus tree-->
+        
+        There is another Ramus tree in the gutter
+        
+        1.quia
+        1.1. p[er] effectu[m]
+        1.1.1 r[ati]o
+        1.1.2 no[n] r[ati]o
+        1.2. p[er] causa[m] mediata[m]
         
     </annotation>
 </transcription>

@@ -46,7 +46,57 @@
             </translation>
         </marginalia>
         
-        <!-- FSF: marginalia on the right illegible -->
+        <marginalia hand="Italian" anchor_text="p[er]spectiu[us]">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Perspectiui r[ati]o
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="demo[n]stratio">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Demo[n]str[ati]o Negatiua
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Arithmetica anti[ui]or geometria
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Musica
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                nu[m]eru[m] sonoru[m]
+            </translation>
+        </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="redijt sicut possibile est ad forma[m] corporis a quo p[ro]cedit. p[er]spectiu[us]"/>
         <underline method="pen" type="straight" language="LA" text="minis no[n] impediet. quin lume[n] emissum a no[n] rotundo corp[or]e a remotis. p[ro]pter c[on]cursum piramidu[m] laterataru[m] ad rotu[n]ditate[m] te[n]dant quia"/>
@@ -62,6 +112,8 @@
             immediate sunt scie[n]tie subalt[er]nantes tocius quadrauuij sc[ilicet] arismetrica et geometrica s[e]c[un]d[u]m q[uod] diuidentes p[ri]mu[m] hoc gen[us] qua[n]titatis in co[n]tinuam"/>
         <underline method="pen" type="straight" language="LA" text="Sublate v[er]o ternario ad quinario et ceteris nu[m]eris tota scie[n]tia trianguli o[mn]i[u]mq[ue] forma polligoniar[um] c[on]sumpta est"/>
         <underline method="pen" type="straight" language="LA" text="v[er]e et immediate subalt[er]na[n]tes"/>
+        
+        <errata language="LA" copytext="." amendedtext=","/> <!-- remotis p[ro]pter -->
         
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
         

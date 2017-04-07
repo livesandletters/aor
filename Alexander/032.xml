@@ -7,7 +7,57 @@
     <page filename="032.tif" reader="John Dee"/> 
     <annotation>
         
-        <!-- FSF: marginalia illegible -->
+        <marginalia hand="Italian" anchor_text="quare petere id q[uo]d est in principio est ide[m] ad p[ro]batione[m] ip[s]ius sumere">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Petitio principii
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="de no[n] p[ro]pter hoc accidere falsum">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        De no[n] p[ro]pter hoc accidere falsu[m]
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="no[n] causa[m] vt causa[m] ponere">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        No[n] causa[m] vt causa[m] ponere
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="zenonis">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        zenon
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="est quare q[ua] per principiu[m] nata sunt oste[n]di. no[n] valent demo[n]strare p[ro]positu[m] eo q[uod] posteriora
             sunt p[ro]posito et potius p[ro]bant[ur] per p[ro]positu[m] q[uam] p[ro]positu[m] p[er] ipsa"/>
@@ -22,6 +72,8 @@
         <underline method="pen" type="straight" language="LA" text=""/>
         
         <mark name="bracket" method="pen" place="intext" language="LA" text="Que"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- p[ri]ncipiu[m] Hoc -->
+        
         
     </annotation>
 </transcription>

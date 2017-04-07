@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                
+                Universal affirmation.
             </translation>
         </marginalia>
         
@@ -37,12 +37,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Euclidius Demo[n]stratio[n]es no[n] a signis sed ex causa tame[n] no[n] su[n]t omnes tales
+                        Euclidis Demo[n]stratio[n]es no[n] a signis sed ex causa tame[n] no[n] su[n]t omnes tales
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Euclid's demonstration are not by sign, but by cause all in this way.
             </translation>
         </marginalia>
         
@@ -68,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                
+                Universally.
             </translation>
         </marginalia>
         
@@ -81,7 +81,7 @@
                 </position>
             </language>
             <translation>
-                
+                Petition of principle.
             </translation>
         </marginalia>
         
@@ -107,7 +107,7 @@
                 </position>
             </language>
             <translation>
-                
+                All angles or a semicircle are equal.
             </translation>
         </marginalia>
         
@@ -154,6 +154,12 @@
         <underline method="pen" type="straight" language="LA" text="co[mmun]e sine signo v[niversa]l[ite]r non fit silogismus"/>
         
         <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- om[n]ino hoc -->
+        <mark name="comma" method="pen" place="intext"/> <!-- eiusde[m] cu[m] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- linea[m] idem -->
+        <mark name="comma" method="pen" place="intext"/> <!-- co[n]tra q[ua]re -->
+        
+        <numeral place="intext">3</numeral>
         
         <errata language="LA" copytext="equas" amendedtext="equos"/>
         

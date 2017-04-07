@@ -11,12 +11,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Per sensib<!--  --> formas <!--  -->ter demo<!--  --> suas <!--  -->
+                        Per sensibiles formas Geometer demo[n]strat suas intellectuales co[n]clusio[n]es
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Through sensible forms the geometer demonstrates its intellectual conclusions.
             </translation>
         </marginalia>
         
@@ -24,12 +24,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Mathema <!--  -->
+                        Mathematica abstractio
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Mathematical abstraction.
             </translation>
         </marginalia>
         
@@ -37,38 +37,38 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Termi <!--  -->
+                        Termini mathematicales in syllogismis co[n]notatiue accipiu[n]tur
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Mathematical terms are accepted by syllogisms.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="petitio q[uo]d in p[ri]ncipio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Petitio <!--  -->
+                        Petitio eius q[uod] est in principio
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Petition of what has been in the beginning.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="diffinitu[m] aut[em] c[aus]a diffinit[i]o[n]is">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        definitu[m] <!--  -->
+                        definitu[m] causa definitionis
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Defined by the cause of the definition.
             </translation>
         </marginalia>
         
@@ -86,6 +86,8 @@
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- c[on]currere diffinitu[m] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- diffinitionis s[em]p[er] -->
         
     </annotation>
 </transcription>

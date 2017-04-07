@@ -46,7 +46,57 @@
             </translation>
         </marginalia>
         
-        <!-- FSF: right marginalia illegible -->
+        <marginalia hand="Italian" anchor_text="vt quid mathematici">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        vt quid Mathematici
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="p[er]spectiuus naturalis">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Perspectiuus naturalis
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="zenius">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        zenius
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        vide infra <!-- FSF: there is a little thing before vide; I am not sure what that is -->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="q[ue] de particularib[us] no[n] probat[ur] passio nisi p[er] accide[n]s p[ro]pter"/>
         <underline method="pen" type="straight" language="LA" text="q[ua]re in doctrinalib[us] non est instare p[ar]ticularit[er] cu[m] dixim[us] q[uod] magis in hijs mote sunt cause q[uam] effectus"/>
@@ -66,6 +116,10 @@
         <underline method="pen" type="straight" language="LA" text="sunt na[m]q[uam] co[m]munit[er] dice[n]do in c[on]tinua decupla p[ro]portio[n]e. [et] hoc"/>
         <underline method="pen" type="straight" language="LA" text="affirmatiuis in s[e]c[un]da figura no[n] est ibi"/>
         <underline method="pen" type="straight" language="LA" text="gratia materie vt q[ua]n[do] sunt t[er]mini c[on]uertibiles"/>
+        
+        <mark name="comma" method="pen" place="intext"/> <!-- est videm[us] -->
+        
+        <errata language="LA" copytext="," amendedtext="[deleted]"/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>

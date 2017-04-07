@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                
+                That is, nothing was changed thereupon.
             </translation>
         </marginalia>
         
@@ -96,7 +96,7 @@
                 </position>
             </language>
             <translation>
-                
+                Equal numbers are like of different alteration.
             </translation>
         </marginalia>
         
@@ -167,11 +167,13 @@
         <underline method="pen" type="straight" language="LA" text="linea tra[n]suersalis p[ro]tracta in q[ua]drato equilatere"/>
         <underline method="pen" type="straight" language="LA" text="eq[uales ex q[ua]rta"/>
         
+        <mark name="comma" method="pen" place="intext"/> <!-- dicit non -->
+        <mark name="comma" method="pen" place="intext"/> <!-- augetur alterari -->
         <mark name="tripunctus" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="horizontal_bar" method="pen" place ="right_margin"/>
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- abunda[n]tia -->
-        
+
         <numeral place="left_margin">9</numeral>
         <numeral place="left_margin">7</numeral>
         <numeral place="left_margin">5</numeral>
@@ -181,6 +183,8 @@
         <numeral place="left_margin">6</numeral>
         <numeral place="left_margin">4</numeral>
         <numeral place="left_margin">2</numeral>
+        
+        <errata language="LA" copytext="." amendedtext=","/> <!-- necesse Om[n]e -->
         
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
         

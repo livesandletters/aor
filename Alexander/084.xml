@@ -7,6 +7,32 @@
     <page filename="084.tif" reader="John Dee" signature="Gij"/> 
     <annotation>
         
+        <marginalia hand="Italian" anchor_text="binomiu[m]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Binomium.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="mi[n]ebilib[us] [et] alchimicis"> <!-- FSF: although the first word doesn't read mineralibus, I think it is just a  misprint -->
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Mineralia Alchimica
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
         <underline method="pen" type="straight" language="LA" text="mi[n]ebilib[us]"/> <!-- FSF: not sure about the abbreviation -->
         <underline method="pen" type="straight" language="LA" text="in nostra s[e]c[un]da p[ar]te naturalis ph[ilosoph]ie declarabim[us]"/>
         

@@ -7,7 +7,70 @@
     <page filename="060.tif" reader="John Dee" signature="Eij"/> 
     <annotation>
         
-        <!-- FSF: right marginalia illegible -->
+        <marginalia hand="Italian" anchor_text="c[on]uertibilitatis">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Convertibilitas
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Vniversalis affirmatiua simpliciter co[n]versa r[ati]o[n]e materia[e] supra
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="potissima e[ni]m demo[n]stratio[n]es">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Potissima demonstratio
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="vnu[m] mediu[m] ad vna[m] co[n]clusione[m]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Vnu[m] mediu[m] ad vnm co[n]clusione[m]
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="no[n]augent[ur] p[er] diuersa media ad demonstrandu[m]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Potissima demo[n]stratio no[n] p[otes]t augeri p[er] plura media
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
         
         <marginalia hand="Italian">
             <language ident="EN">
@@ -248,6 +311,8 @@
         <numeral place="right_margin">1</numeral>
         <numeral place="right_margin">2</numeral>
         <numeral place="right_margin">3</numeral>
+        
+        <drawing>florilegium left margin</drawing>
         
         <errata language="LA" copytext="2" amendedtext="[deleted]"/>
         

@@ -122,7 +122,7 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                Mediate and immediate propositions.
             </translation>
         </marginalia>
         
@@ -132,10 +132,11 @@
                     <marginalia_text>
                         Nichomachus
                     </marginalia_text>
+                    <person name="Nichomachus of Gerasa"/>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                Nichomachus of Gerasa
             </translation>
         </marginalia>
         
@@ -148,7 +149,7 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                Mediate propositions.
             </translation>
         </marginalia>
         
@@ -173,16 +174,22 @@
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                Mathematics.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Ta[n]git nobilitate[m] methaphisice q[uae] demonstrat i[m]mediatas causas mathematicu[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Mataphysicus demonstrat Mathematu[m] causas.
+                        Metaphysicus demonstrat Mathematu[m] causas.
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                A metaphysician reveals the causes. <!-- FSF: not sure about mathematum -->
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -220,7 +227,11 @@
         <underline method="pen" type="straight" language="LA" text="solu[m] methaphisico"/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- q[ue] qua[m] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- est no[n] -->
         <mark name="plus_sign" method="pen" place="intext"/>
+        
+        <errata language="LA" copytext="." amendedtext=","/> <!-- mediate In -->
 
     </annotation>
 </transcription>

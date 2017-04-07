@@ -7,13 +7,53 @@
     <page filename="049.tif" reader="John Dee" signature="[Dij[v]]"/> 
     <annotation>
         
-        <!-- FSF: marginalia largely illegible -->
+        <marginalia hand="Italian" anchor_text="linea visualis est aliquo m[od]o alteru[m] genus a linea simplicit[er]">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        linea visualis geometrice
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="linear[um] s[e]c[un]d[u]m abstractione[m]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Linea secu[n]du[m] abstractione[m]
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="aliqua[m] esse co[n]clusione[m] demo[n]stra[n]da[m]
+            p[ro] p[ri]ncipio ad aliqua[m] alia[m] sumit[ur] vt lacius dicet[ur]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Co[n]clusio demo[n]strat..tis p[ro] principio alicui[us] accipi p[otes]t.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="vt linea visualis est aliquo"/>
         <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m se"/>  
         <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m abstractione[m]"/>  
         <underline method="pen" type="straight" language="LA" text="p[ro]pter quid"/>  
         <underline method="pen" type="straight" language="LA" text="no[n] esse in co[n]uenie[n]s aliqua[m] esse co[n]dusione[m] demo[n]stra[n]da[m] q[uae] p[ro] p[ri]ncipio ad aliqua[m] alia[m] sumit[ur] vt lacius dicet[ur]"/>  
+       
+        <mark name="comma" method="pen" place="intext"/> <!-- quid spectat -->
        
     </annotation>
 </transcription>
