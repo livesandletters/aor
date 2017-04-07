@@ -20,6 +20,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>tandem</marginalia_text> <!-- MB. Not certain of this transcription but appears to be a type of correction to 'ta[n]dem. -->
+                    <!-- FSF: could it be tantam? I think it is a correction -->
                 </position>
             </language>
             <translation>At length.</translation>
@@ -28,9 +29,9 @@
         <marginalia hand="Italian" anchor_text="ducis Lancastriae">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Diix Lancastria[e]</marginalia_text>
+                    <marginalia_text>Dux Lancastria[e]</marginalia_text>
                     <person name="John Gaunt"/>
-                    <location name="Lancaster"/>
+                    <location name="Lancaster"/> <!-- FSF: location tag not to be used when place part of name -->
                 </position>
             </language>
             <translation>Duke Lancaster.</translation>
@@ -45,12 +46,12 @@
         <underline method="pen" type="straight" language="LA" text="talibus incursibus tuerentur"/>
         <underline method="pen" type="straight" language="LA" text="ta[n]dem"/>
         <underline method="pen" type="straight" language="LA" text="nostris ver&ograve; proceribus &amp; militia quae dudum conducta fuerat, diceba[n]tur probosa"/>
-        <underline method="pen" type="straight" language="LA" text="co[n]mune vulgus solet inferre"/>
+        <underline method="pen" type="straight" language="LA" text="co[m]mune vulgus solet inferre"/>
         <underline method="pen" type="straight" language="LA" text="per paucorum"/>
         <underline method="pen" type="straight" language="LA" text="Barones &amp; comites"/>
         <underline method="pen" type="straight" language="LA" text="procerum aduerjus"/>
         <underline method="pen" type="double" language="LA" text="agitati, illud aegr&egrave; fereba[n]t"/>
-        <underline method="pen" type="straight" language="LA" text="qua[n]uis se reos agnoscerent"/>
+        <underline method="pen" type="straight" language="LA" text="qua[m]uis se reos agnoscerent"/>
         <underline method="pen" type="straight" language="LA" text="culpabiles"/>
         <underline method="pen" type="straight" language="LA" text="foret inertia manifesta, tamen eidem Iohanni Philpot non sol&ugrave;m occult&egrave; insidiari, sed public&egrave; improperari c[a]eperunt"/>
         <underline method="pen" type="straight" language="LA" text="licere sibi talia facere sine consilio"/>
@@ -77,8 +78,8 @@
         <mark name="circumflex" method="pen" place="intext"/> <!-- meaque -->
         <mark name="circumflex" method="pen" place="intext"/> <!-- patriaeque -->
         
-        <errata language="LA" copytext="ta[n]dem" amendedtext="tandem"/> <!-- MB. Not certain of this is an errata. -->
-        <errata language="LA" copytext="praenoscerit" amendedtext="praenosceret"/>
+        <errata language="LA" copytext="ta[n]dem" amendedtext="tandem"/> <!-- MB. Not certain of this is an errata. --> <!-- FSF: possibly tantam, see above -->
+        <errata language="LA" copytext="praenoscerit" amendedtext="praenoscere"/>
         <errata language="LA" copytext="dominia" amendedtext="domina"/>
         <errata language="LA" copytext="experire" amendedtext="experiri"/>
         
@@ -88,4 +89,3 @@
         
     </annotation>
 </transcription>
-
