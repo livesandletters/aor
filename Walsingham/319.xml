@@ -9,7 +9,8 @@
         <marginalia hand="Italian" anchor_text="sororis videlicet regis Bo&euml;miae VVynceslai">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Anna soror vencellai alii Historum no?ant</marginalia_text> <!-- MB. Not sure about the latter part of this transcription, alii and the no__ contraction.  -->
+                    <marginalia_text>Anna soror Vencellai alij Historum no?ant</marginalia_text> <!-- MB. Not sure about the latter part of this transcription, alii and the no__ contraction.  -->
+                    <!-- FSF: the last word is no[m]i[n]ant; the one before is not Historum, it starts with Heten? -->
                     <person name="Anne of Bohemia"/>
                     <person name="Wenceslaus IV of Bohemia"/>
                 </position>
@@ -18,7 +19,7 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="nouae regin[a]e"/>
-        <underline method="pen" type="grid" language="LA" text="sorois"/>
+        <underline method="pen" type="grid" language="LA" text="sororis"/>
         <underline method="pen" type="straight" language="LA" text="videlicet regis Bo&euml;miae VVyanceslai filij quondam regis"/>
         <underline method="pen" type="straight" language="LA" text="Boemiae, &amp; Imperatoris"/>
         <underline method="pen" type="straight" language="LA" text="filia domini Mediolanensis Barnabonis"/>
@@ -28,6 +29,7 @@
         <mark name="comma" method="pen" place="intext"/> <!-- Imperatoris, qui -->
         <mark name="comma" method="pen" place="intext"/> <!-- reliquo, sequuta -->
         <mark name="comma" method="pen" place="intext"/> <!-- futurum, vt  -->
+        <!-- FSF: all printed -->
         
     </annotation>
 </transcription>
