@@ -19,11 +19,10 @@
         <marginalia hand="Italian" anchor_text="ta[n]dem">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>tandem</marginalia_text> <!-- MB. Not certain of this transcription but appears to be a type of correction to 'ta[n]dem. -->
-                    <!-- FSF: could it be tantam? I think it is a correction -->
+                    <marginalia_text>tantam</marginalia_text>
                 </position>
             </language>
-            <translation>At length.</translation>
+            <translation>So much.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ducis Lancastriae">
@@ -31,7 +30,6 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Dux Lancastria[e]</marginalia_text>
                     <person name="John Gaunt"/>
-                    <location name="Lancaster"/> <!-- FSF: location tag not to be used when place part of name -->
                 </position>
             </language>
             <translation>Duke Lancaster.</translation>
@@ -78,7 +76,7 @@
         <mark name="circumflex" method="pen" place="intext"/> <!-- meaque -->
         <mark name="circumflex" method="pen" place="intext"/> <!-- patriaeque -->
         
-        <errata language="LA" copytext="ta[n]dem" amendedtext="tandem"/> <!-- MB. Not certain of this is an errata. --> <!-- FSF: possibly tantam, see above -->
+        <errata language="LA" copytext="ta[n]dem" amendedtext="tantam"/>
         <errata language="LA" copytext="praenoscerit" amendedtext="praenoscere"/>
         <errata language="LA" copytext="dominia" amendedtext="domina"/>
         <errata language="LA" copytext="experire" amendedtext="experiri"/>
