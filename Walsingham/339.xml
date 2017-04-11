@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE transcription SYSTEM "http://www-uat.livesandletters.ac.uk/schema/aor_20141023.dtd">
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
-<transcription xmlns:xsi="http://www-uat.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www-uat.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="339.tif" reader="John Dee" pagination="319" signature="Ee.iiij."/>
     <annotation>
         
@@ -32,11 +32,11 @@
         <mark name="bracket" method="pen" place="right_margin"/> 
         
         <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">
-            <node id="n1" person="">Petrus Rex</node>
-            <node id="n2" person="">Henricus Rex</node>
-            <node id="n3" person="">Isabella</node>
-            <node id="n4">Comes Ca[m]brigia[e]</node>
-            <node id="n5">Edw</node>
+            <node id="n1" person="Peter of Castile">Petrus Rex hisp[ania]</node>
+            <node id="n2" person="Henry IV of Castile">Henricus Rex Hisp[ania]</node> <!-- MB. Not sure of the word following Hisp[ania], something like vs?pp. -->
+            <node id="n3" person="Isabella of Castile, Duchess of York">Isabella</node>
+            <node id="n4" person="Edmund of Langley, 1st Duke of York">Edm[undus]: Comes Ca[m]brigia[e]</node>
+            <node id="n5" person="Edward of Norwich, 2nd Duke of York">Edw</node>
             
         </graph>
         
