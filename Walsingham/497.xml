@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="497.tif" reader="John Dee" pagination="5" signature="Aiij"/> 
+    <page filename="497.tif" reader="John Dee" pagination="5" signature="Aiij"/> <!-- MB. Signature should be 'A.iij.' -->
     <annotation>
         
         
@@ -32,7 +32,7 @@
         <marginalia hand="Italian" anchor_text="Gertrudem quam asportauerant &agrave; Brita[n]nia" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Gertrudis Brytanna: vt ve[?]</marginalia_text> <!-- DO: not sure of final word -->
+                    <marginalia_text>Gertrudis Brytanna: vt ve[?]</marginalia_text> <!-- DO: not sure of final word --> <!-- MB. Finding difficult to decipher the last word as well, 've' seems likely.  -->
                     <person name="Gertrude of Nivelles"/>
                 </position>
             </language>
@@ -66,7 +66,8 @@
         <marginalia hand="Italian" anchor_text="Rainaldus dux totius Franciae" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Rainaldus Dux Fr[ancia].</marginalia_text>  <!-- DO: I'm struggling to identify this person. Might be: https://en.wikipedia.org/wiki/Ragenold_of_Neustria -->
+                    <marginalia_text>Rainaldus Dux Fr[ancia].</marginalia_text>  <!-- DO: I'm struggling to identify this person. Might be: https://en.wikipedia.org/wiki/Ragenold_of_Neustria --> 
+                    <!-- MB. Seems to fit with the dates and I wasn't able to find any other French dukes named Rainaldus in the same century.-->
                     <location name="France"/>
                 </position>
             </language>
@@ -112,7 +113,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Mellenda</marginalia_text>
-                    <location name=""/>             <!-- DO: Not sure about this location -->
+                    <location name=""/>             <!-- DO: Not sure about this location --> <!-- MB. The only reference to Mellende I can find is in Walsingham's text. There is a seaport town named Melinda or Melinde but I don't think its the same location. https://books.google.co.uk/books?id=FN0TAAAAYAAJ&pg=PA1172&dq=roman+town+melenda&hl=en&sa=X&ved=0ahUKEwjXxfvT1pzTAhVBnBoKHZ33BQQQ6AEILDAC#v=onepage&q=roman%20town%20melenda&f=false  -->
                 </position>
             </language>
             <translation></translation>
@@ -175,12 +176,12 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Gemeticum"/>
-        <underline method="pen" type="straight" language="LA" text="sacram virginem"/>
-        <underline method="pen" type="straight" language="LA" text="capella S. Vedasti"/>
+        <underline method="pen" type="straight" language="LA" text="sacram virginem"/> <!-- MB. I think you've missed' &agrave; Brita[n]nia' -->
+        <underline method="pen" type="straight" language="LA" text="capella S. Vedasti"/> 
         <underline method="pen" type="double" language="LA" text="super altare ponentes"/>
         <underline method="pen" type="straight" language="LA" text="ibidem"/>
         <underline method="pen" type="straight" language="LA" text="Sanctae Gertrudis"/>
-        <underline method="pen" type="straight" language="LA" text="aduentum Franco"/>
+        <underline method="pen" type="straight" language="LA" text="aduentum Franco"/> <!-- MB. I think you've missed 'inter' and 'ad maenia'. -->
         <underline method="pen" type="straight" language="LA" text="totius Comitatus"/>
         <underline method="pen" type="double" language="LA" text="sorte eligentes"/>
         <underline method="pen" type="straight" language="LA" text="pacta fidelitate"/>
@@ -196,7 +197,7 @@
         <underline method="pen" type="straight" language="LA" text="aequali dominio"/>
         <underline method="pen" type="straight" language="LA" text="Hastingo"/>
         <underline method="pen" type="straight" language="LA" text="parte pessundedit, &amp; in solitudinem redegit"/>
-        <underline method="pen" type="straight" language="LA" text="Carolo Regi"/>
+        <underline method="pen" type="straight" language="LA" text="inquit Carolo Regi"/>
         <underline method="pen" type="straight" language="LA" text="expeditius duci"/>
         <underline method="pen" type="straight" language="LA" text="Rollando eius signifero"/>
         <underline method="pen" type="straight" language="LA" text="municipium Mellende"/>
