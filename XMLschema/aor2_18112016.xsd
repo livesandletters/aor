@@ -498,6 +498,7 @@
     <xs:attribute name="type" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:token">
+          <xs:enumeration value="arrow"/>
           <xs:enumeration value="face"/>
           <xs:enumeration value="manicule"/>
           <xs:enumeration value="florilegium"/>
@@ -610,6 +611,7 @@
         <xs:restriction base="xs:token">
           <xs:enumeration value="has_child"/>
           <xs:enumeration value="has_spouse"/>
+          <xs:enumeration value="has_sibling"/>
           <xs:enumeration value="transgenerational"/>
         </xs:restriction>
       </xs:simpleType>
