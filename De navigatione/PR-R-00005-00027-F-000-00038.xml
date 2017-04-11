@@ -7,7 +7,7 @@
     <page filename="PR-R-00005-00027-F-000-00038.tif" reader="John Dee" pagination="[16[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Illud quod significat nomen, notius est apud nos, qu&agrave;m illud quod significat diffinitio">
+        <marginalia hand="Italian" anchor_text="Illud quod significat nomen, notius est apud nos, qu&agrave;m illud quod significat diffinitio" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,7 +20,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Circulus">
+        <marginalia hand="Italian" anchor_text="Circulus" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -33,12 +33,12 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">  <!-- DO: I would anchor 'nomen est quod a sensu comprehenditur' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Diffinitio
-                        Qui p[otes]t nome[n] sensu co[m]prehe[n]di, cu[m] sit quid rationabile, et vniversale [etc] <!-- FSF: to be checked -->
+                        Qui p[otes]t nome[n] sensu co[m]prehe[n]di, cu[m] sit quid rationabile, et vniversale [etc] <!-- FSF: to be checked -->  <!-- DO: Not sure about the word after 'quid', or translation -->
                     </marginalia_text>
                 </position>
             </language>
@@ -47,11 +47,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Magis universale
+                        Magis universale    <!-- DO: vniversale -->
                     </marginalia_text>
                 </position>
             </language>
@@ -60,7 +60,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Cognitio autem uniuersalis est, rem cognoscereper suas causas: cognitio ver&ograve; particularis, ut Aristoteles affirmat, est cognoscere eam per sensum">
+        <marginalia hand="Italian" anchor_text="Cognitio autem uniuersalis est, rem cognoscere per suas causas: cognitio ver&ograve; particularis, ut Aristoteles affirmat, est cognoscere eam per sensum" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -69,17 +69,17 @@
                 </position>
             </language>
             <translation>
-                Universal and particular enquiries.
+                Universal and particular enquiries.   <!-- DO: 'Inquiry' singular? -->
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="ad circunferentiam sunt a[e]quales"/>
+        <underline method="pen" type="straight" language="LA" text="ad circunferentiam sunt aequales"/>
         <underline method="pen" type="straight" language="LA" text="distinctum &amp; determinatum per elementa"/>
         <underline method="pen" type="straight" language="LA" text="constituitur"/>
-        <underline method="pen" type="straight" language="LA" text="Cognitio autem uniuersalis est, rem cognoscereper suas causas: cognitio"/>
+        <underline method="pen" type="straight" language="LA" text="Cognitio autem uniuersalis est, rem cognoscere per suas causas: cognitio"/>
         <underline method="pen" type="straight" language="LA" text="eam per sensum"/> 
-        <underline method="pen" type="straight" language="LA" text="Et Ptoloma[e]us asserit, nullam maiorem esse utilitatem &amp; excellentiam humanam"/>
-        <underline method="pen" type="straight" language="LA" text="natura[e] humana[e] uniuersalis noscere"/>
+        <underline method="pen" type="straight" language="LA" text="Et Ptolomaeus asserit, nullam maiorem esse utilitatem &amp; excellentiam humanam qu&agrave;m secretorum naturae humanae uniuersalis noscere ueritatem"/>
+        
 
         <mark name="plus_sign" method="pen" place="right_margin"/> 
         
