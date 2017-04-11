@@ -33,10 +33,15 @@
         
         <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">
             <node id="n1" person="Peter of Castile">Petrus Rex hisp[ania]</node>
-            <node id="n2" person="Henry IV of Castile">Henricus Rex Hisp[ania]</node> <!-- MB. Not sure of the word following Hisp[ania], something like vs?pp. -->
+            <node id="n2" person="Henry II of Castile">Henricus Rex Hisp[ania]</node> <!-- MB. Not sure of the word following Hisp[ania], something like vs?pp. -->
             <node id="n3" person="Isabella of Castile, Duchess of York">Isabella</node>
             <node id="n4" person="Edmund of Langley, 1st Duke of York">Edm[undus]: Comes Ca[m]brigia[e]</node>
-            <node id="n5" person="Edward of Norwich, 2nd Duke of York">Edw</node>
+            <node id="n5" person="Edward of Norwich, 2nd Duke of York">Edw[ardus]</node>
+            
+            <link to="n1" from="n3" relationship="has_child"/>
+            <link to="n3" from="n4" relationship="has_spouse"/>
+            <link to="n3" from="n5" relationship="has_child"/>
+            <link to="n2" from="n5" relationship="transgenerational"/>
             
         </graph>
         
