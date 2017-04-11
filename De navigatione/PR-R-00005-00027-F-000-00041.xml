@@ -4,31 +4,35 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="PR-R-00005-00027-F-000-00041.tif" reader="John Dee" pagination="18"/> 
+    <page filename="PR-R-00005-00027-F-000-00041.tif" reader="John Dee" pagination="18" signature="Cij"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="metaphysicus">
+        <marginalia hand="Italian" anchor_text="metaphysicus" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Metaphysical.. <!-- FSF: not sure -->
+                        Metaphysical.. <!-- FSF: not sure -->  <!-- DO: Is it just a weird 's' at the end, and just 'Metaphysicus'? -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                <!-- FSF: to be added -->  <!-- DO: 'Metaphysician'? -->
             </translation>
         </marginalia>
         
-        <underline method="pen" type="double" language="LA" text="quantu[m] aliquid accidit unicuique eoru[m]; sed quu[m] speculatur co[m]munium unumquodque, speculatur circa ens in quantu[m] est ens"/>
+        <underline method="pen" type="double" language="LA" text="inquantu[m] aliquid accidit unicuique eoru[m]: sed quu[m] speculatur co[m]munium unumquodque, speculatur circa ens inquantu[m] est ens"/>
         <underline method="pen" type="straight" language="LA" text="substa[n]tia"/>
-        <underline method="pen" type="straight" language="LA" text="de cause rei dicere"/>
+        <underline method="pen" type="straight" language="LA" text="de causa rei dicere"/>
         <underline method="pen" type="straight" language="LA" text="co[n]siderare"/>
-        <underline method="pen" type="straight" language="LA" text="Na[m] quum causa[e] no[n] cognoscantur, ueritas in demo[n]stratione"/>
-        <underline method="pen" type="straight" language="LA" text="Mathematicus aloquid cui natura no[n] consentiat demo[n]strare poterit: qua[n]doquide[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Na[m] quum causae no[n] cognoscantur, ueritas in demo[n]stratione"/>
+        <underline method="pen" type="straight" language="LA" text="Mathematicus aliquid cui natura no[n] consentiat demo[n]strare poterit: qua[n]doquide[m]"/>
 
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="vertical_bar" method="pen" place="right_margin"/> <!-- FSF: there are in fact three vertical lines -->
+        <mark name="vertical_bar" method="pen" place="right_margin"/> 
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
+
+
 
     </annotation>
 </transcription>
