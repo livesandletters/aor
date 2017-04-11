@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="528.tif" reader="John Dee" pagination="34"/>
+    
+    
+    <annotation>
+        
+        
+        <marginalia hand="Italian" anchor_text="Bamburgh castellum s[cilicet] ipsius Comitis; Moreal" method="pen">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>Castellu[m] de Bamburgh. Comitis Stephani de Albamarla. Moreal.</marginalia_text>  <!-- DO: I can't actually find Moreal Castle... -->
+                    <person name="Stephen of Aumale"/>
+                    <location name="Bamburgh Castle"/>
+                </position>
+            </language>
+            <translation>Bamburgh Castle, of Stephen, Count of Aumale. Moreal.</translation>
+        </marginalia>
+        
+           
+        <marginalia hand="Italian" anchor_text="Abbatis Herlewini" method="pen">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Herlewinus [?] Abbas et fundator Monasteris Becce[n]sis</marginalia_text>  <!-- DO: Not sure about the word after 'Herlewinus' -->
+                    <person name="Herluin of Bec"/>
+                    <location name="Bec Abbey"/>
+                </position>
+            </language>
+            <translation>Herluin, Abbot and founder of Bec Abbey.</translation>
+        </marginalia>
+        
+        
+        <underline method="pen" type="straight" language="LA" text="castella"/>
+        <underline method="pen" type="straight" language="LA" text="Monasterio S. Oswini"/>
+        <underline method="pen" type="double" language="LA" text="castellum s[cilicet] ipsius"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; oculos"/>
+        <underline method="pen" type="straight" language="LA" text="Moreal Castellum"/>
+        <underline method="pen" type="straight" language="LA" text="Moreal"/>
+        <underline method="pen" type="straight" language="LA" text="Gulielmi de Anco"/>
+        <underline method="pen" type="straight" language="LA" text="duello victi"/>
+        <underline method="pen" type="straight" language="LA" text="Comitem Odone[m] de"/>
+        <underline method="pen" type="straight" language="LA" text="praedicti Stephani patrem"/>
+        <underline method="pen" type="straight" language="LA" text="pontem ferreu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="pontem ferreum"/>
+        <underline method="pen" type="straight" language="LA" text="Gerardi signifer"/>
+        <underline method="pen" type="straight" language="LA" text="viri, &amp; de[n]tes"/>
+        <underline method="pen" type="straight" language="LA" text="collum &amp; humeros vsq[ue] in pectora diffidit"/>
+        <underline method="pen" type="straight" language="LA" text="quendam medium secauit"/>
+        <underline method="pen" type="double" language="LA" text="Abbatis Herlewini"/>
+        
+        
+        <mark name="comma" method="pen" place="intext"/>  <!-- post illum -->
+        
+        <mark name="circumflex" method="pen" place="intext"/>  <!-- promocionem Beccensis -->
+        
+        <errata language="LA" copytext="promocionem Beccensis" amendedtext="promocionem Anselmi Beccensis"/>
+        
+        
+        <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
+            
+            <node id="n1" person="Odo, Count of Champagne">Odo, Comes Campani[a]e</node>
+            <node id="n2" person="Stephen of Aumale">Stephanus comes Alb[amarlae]</node>
+            
+            <link to="n2" from="n1" relationship="has_child"/>
+            
+        </graph>
+        
+
+        
+    </annotation>
+    
+    
+</transcription>
