@@ -18,7 +18,10 @@
         <marginalia hand="English_secretary" >
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>At distingue de ip[s]ius aspectus spe[cat]: s[cili]c[et] an &#x25A1; uel &#x25B3; uel &#9741;.</marginalia_text> <!--JG: Unsure abt 'spectat'-->
+                    <marginalia_text>At distingue de ip[s]ius aspectus spe[cat]: s[cili]c[et] an &Square; uel &Trine; uel &Opposition;.</marginalia_text> <!--JG: Unsure abt 'spectat'-->
+                    <symbol_in_text name="Square"/>
+                    <symbol_in_text name="Trine"/>
+                    <symbol_in_text name="Opposite_planets"/>
                 </position>
             </language>
             <translation>But distinguish of their own aspect [...]: of course whether a square, trine, or opposition.</translation>
