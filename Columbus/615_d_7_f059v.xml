@@ -40,10 +40,10 @@
         <marginalia hand="Italian" anchor_text="Mari" method="pen">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Mari Il[e].</marginalia_text>  <!-- DO: not sure if this is a location - could it be 'fl[umen] referring to 'fiume de' Mari'?  -->
-                <!-- MB. I think this is 'fl[umen]] as the text refers  to 'fiume de' Mari'. -->
+                    <marginalia_text>Mari fl[umen]</marginalia_text>  
                 </position>
             </language>
+            <translation>Mari river.</translation>  <!-- DO: I can't identify this river so not sure of translation -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="prese XII persone" method="pen">
@@ -77,7 +77,9 @@
         <underline method="pen" type="straight" language="IT" text="fur prese XII persone"/>
         <underline method="pen" type="double" language="IT" text="si quietamente, &amp; senza"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- DO: commas around 'dette' --> <!-- MB. Commas should be marked using two tags -->
+        <mark name="comma" method="pen" place="intext"/> <!-- lor dette -->
+        
+        <mark name="comma" method="pen" place="intext"/> <!-- dette Amache -->
         
         
     </annotation>
