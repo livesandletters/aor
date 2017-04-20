@@ -7,15 +7,18 @@
     <annotation>
         
         
-        <marginalia hand="Italian" anchor_text="Edmundus Mortymer obijt, iuuenis quem retulimus ante captum ab Ovveno Glendor">
+        <marginalia hand="Italian" anchor_text="Edmundus Mortymer obijt, iuuenis quem retulimus ante captum ab Ovveno Glendor"> 
+            <!-- FSF: to be added in accordance with below: , vel taedio dirae captiuitatis, vel metu mortis, vel ex alia wua nescitur causa, conuersus retrorsum cum Ovveno, contra regem Angliae se sentire professus est, dum nuptias satis humiles &amp; suae generositati impares co[n]trahit, cu[m] filia dicti Ovveni -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Owena Glyndor Edmundus Mortimer = ?iha</marginalia_text> <!-- MB. Uncertain of word following 'Mortimer ='.-->
+                    <marginalia_text>Owena Glyndor Edmundus Mortimer = ?iha</marginalia_text> <!-- MB. Uncertain of word following 'Mortimer ='.--> 
+                    <!-- FSF: the little 9 after Owen is the abbreviation for [us], so Owen[us] -->
+                    <!-- FSF: the missing word is filia. It is like a genealogical tree. EM marries OG's daughter, as described in the text -->
                     <person name="Owen Glendwoer"/>
                     <person name="Edmund Mortimer, 5th Earl of March"/>
                 </position>
             </language>
-            <translation>Owen Glendwoer, Edmund Mortimer.</translation>
+            <translation>Owen Glendwoer, Edmund Mortimer.</translation> <!-- FSF: to be amended -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Henricus Percy">
@@ -28,7 +31,7 @@
             <translation>Henry Percy.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Thomas Percy">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Thomas Percy.</marginalia_text>
@@ -56,11 +59,10 @@
         <underline method="pen" type="straight" language="LA" text="repente[m] host is regis apparuit"/>
         <underline method="pen" type="straight" language="LA" text="Thomas Percy"/>
         <underline method="pen" type="straight" language="LA" text="partuus Henrici"/>
-        <underline method="pen" type="straight" language="LA" text="speciali, ressit ad nepotem, augens"/>
-        <underline method="pen" type="straight" language="LA" text="congregasse, nisi"/>
+        <underline method="pen" type="straight" language="LA" text="speciali, recessit ad nepotem, augens"/>
+        <underline method="pen" type="straight" language="LA" text="nisi"/>
         <underline method="pen" type="double" language="LA" text="pro saluatione personarum suarum, &amp;"/>
-        <underline method="pen" type="straight" language="LA" text="reipublicae meliori gubernatione."/>
-        <underline method="pen" type="double" language="LA" text="gubernatione."/>
+        <underline method="pen" type="straight" language="LA" text="reipublicae meliori gubernatione"/>
         <underline method="pen" type="straight" language="LA" text="&amp; tallagia regis concessa"/>
         <underline method="pen" type="double" language="LA" text="in vsus indebitos"/>
         <underline method="pen" type="double" language="LA" text="inutiliter consumeba[n]tur"/>
@@ -70,6 +72,7 @@
         
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
+        
         <errata language="LA" copytext="sensus" amendedtext="Census"/>
         
     </annotation>
