@@ -7,11 +7,11 @@
     <page filename="PR-R-00005-00027-F-000-00113.tif" reader="John Dee" pagination="54"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="nos per circulum minorem non posse, sed per maiorem naviagere">
+        <marginalia hand="Italian" anchor_text="nos per circulum minorem non posse, sed per maiorem naviagere" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        An per circulos maiores aut minores naviganus?
+                        An per circulos maiores aut minores navigan[us]?
                     </marginalia_text>
                 </position>
             </language>
@@ -20,18 +20,20 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Per Circulu[m] Minimum
+                        Per Circulu[m] Minimum    <!-- DO: Final word can't be made out (I would say), so put in brackets? -->
                     </marginalia_text>
                 </position>
             </language>
+            <translation></translation>  <!-- DO: Translation needed: 'On a smaller circle'? -->
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="ubique AEquatorem petere, &amp; illuc ire nunquam, im&ograve; a[e]quali emsper distantia &amp; altitudine peragrare, conuenisses me"/>
-        <underline method="pen" type="straight" language="LA" text="Mathematicorum autem exacta discussio non in uniuersis est flagitanda: sed in hisce dumtaxat qua[e] materia uacant. quapropter"/>
+        <underline method="pen" type="straight" language="LA" text="ubique AEquatorem petere"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; illuc ire nunquam, im&ograve; aequali semper distantia &amp; altitudine peragrare, conuenisses me"/>
+        <underline method="pen" type="straight" language="LA" text="Mathematicorum autem exacta discussio non in uniuersis est flagitanda: sed in hisce dumtaxat quae materia uacant. quapropter"/>
         <underline method="pen" type="straight" language="LA" text="per circulum minorem non posse, sed per maiorem naviagere"/>
 
     </annotation>
