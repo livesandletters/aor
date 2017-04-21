@@ -7,7 +7,7 @@
     <page filename="c_120_b_4_(2)_f019r.tif" reader="John Dee" pagination="19" signature="[Diii]"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -17,18 +17,21 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="90">
                     <marginalia_text>
-                        fit oleu[m] vitri materia prima totius. vide pagina sequite ad ha.. nota[m] <!-- FSF: to be completed; parts not visible; connected with a stroke to folio 18v; at the end of the marginalia a mark/symbol of a five-dotted cross -->
+                        fit oleu[m] vitri materia prima totius. vide pagina sequite ad ha.. nota[m] <!-- FSF: to be completed; parts not visible; connected with a stroke to folio 18v; at the end of the marginalia a mark/symbol of a five-dotted cross -->  <!-- DO: I think it might be 'Artis' instead of 'totius', and 'seque[n]te' instead of 'sequite'. Last part possibly 'ad hanc nota[m]'? Also note the 'est' mark between 'vitri' and 'materia' -->
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="BLC.120.b.4:c_120_b_(2)_f019v" text="pagina sequente" prefix="vide" suffix="ad"/>         <!-- DO: Internal ref to be checked -->
+                    </internal_ref>
                 </position>
             </language>
-            <translation></translation> <!-- FSF: to be added -->
+            <translation></translation> <!-- FSF: to be added -->  <!-- DO: [...] See following page to this note. -->
         </marginalia>
  
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <!-- FSF: some tables, circles and other drawings -->
@@ -36,7 +39,7 @@
             </language>
         </marginalia>
  
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -47,7 +50,7 @@
             <translation>See.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -58,7 +61,7 @@
             <translation>Of our earth.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -72,16 +75,22 @@
         </marginalia>
         
         <underline method="pen" type="grid" language="LA" text="solutis"/>
-        <underline method="pen" type="straight" language="LA" text="cal&oacute; pali"/>
+        <underline method="pen" type="straight" language="LA" text="cal&oacute; pali" id="BLC.120.b.4:c_120_b_(2)_f019r:u0001"/>
         <underline method="pen" type="straight" language="LA" text="uegetalis"/>
         <underline method="pen" type="straight" language="LA" text="mineralis"/>
         <underline method="pen" type="straight" language="LA" text="uegetalis"/>
         <underline method="pen" type="straight" language="LA" text="animalis"/>
         <underline method="pen" type="straight" language="LA" text="nocte[m], &amp; diem"/>
-        <underline method="pen" type="straight" language="LA" text="Sal al&iacute; cal&iacute;"/>
+        <underline method="pen" type="straight" language="LA" text="Sal al&iacute; cal&iacute;" id="BLC.120.b.4:c_120_b_(2)_f019r:u0002"/>
         <underline method="pen" type="straight" language="LA" text="Oleum uitri"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
+        
+        
+  
+            
+      <!-- DO: Physical link from previous page - does this need to be captured in any way (again)? -->
+        
  
     </annotation>
 </transcription>
