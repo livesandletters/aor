@@ -11,12 +11,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        formalis ca[usis] Mathemat.1  <!-- DO: I think 'formalis' is nominative singular, so it must be 'formalis causa'? I'm not sure what case 'Mathematic.' should be though - I'm guessing genitive?  -->
+                        formalis c[aus]a Mathemat.1
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                In formal mathematical cases 1.  <!-- DO: The above change would make it 'The formal cause / case of mathematics' -->
+                The formal case of mathematics 1. 
             </translation>
         </marginalia>
         
@@ -24,12 +24,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Metaph..2    <!-- DO: Probably 'Metaph[ysica]'? -->
+                        Metaph..2
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->  <!-- DO: Metaphysics .2. -->
+                Metaphysics 2.
             </translation>
         </marginalia>
         
@@ -59,10 +59,6 @@
         <underline method="pen" type="straight" language="LA" text="procedere debet per fines ad principium: quod est &agrave; demonstratione formali &amp; mathematica"/>
 
         <mark name="plus_sign" method="pen" place="left_margin"/> 
-        
-        <numeral place="left_margin">1</numeral>   <!-- DO: I think the numerals only need to be captured once (either in marginal note or as separate numerals) but I'm not sure which to go for here. I'm leaning towards marginal note -->
-        <numeral place="left_margin">2</numeral>
-        <numeral place="left_margin">3</numeral>
         
     </annotation>
 </transcription>
