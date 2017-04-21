@@ -7,7 +7,7 @@
     <page filename="PR-R-00005-00027-F-000-00118.tif" reader="John Dee" pagination="[56[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">   <!-- DO: I'd anchor the underlined text here -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,24 +20,24 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        non posse in quatuor quartos ina[e]quales diuidi, et et lineas quarta[m] respo[n]dere vero ortui [etc] 
+                        non posse in quatuor quartos ina[e]quales diuidi, et et lineas quarta[m] respo[n]dere vero ortui [etc]  <!-- DO: 'quatuor quartas' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                One cannot divide in four unequal quarters and also to respond <!-- FSF: to be completed -->
+                One cannot divide in four unequal quarters and also to respond <!-- FSF: to be completed -->  <!-- DO: Not sure either. Something like 'and the lines correctly correspond to the origin' but I don't know about the second 'quartam' -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        [... deleted]
+                        [deleted]
                     </marginalia_text>
                 </position>
             </language>
@@ -47,8 +47,8 @@
         <underline method="pen" type="double" language="LA" text="spiritui"/>
         <underline method="pen" type="straight" language="LA" text="acum in leste eadem altitudine procedere"/>
         <underline method="pen" type="straight" language="LA" text="Quod esse nequit absque altitudinis diminutione illius partis, unde nauis profecta fuit. Interrogatio"/>
-        <underline method="pen" type="straight" language="LA" text="illuc non"/>
-        <underline method="pen" type="straight" language="LA" text="reiecta, ueram aggrediamur expositionem. Et ne tantum temporis consumatur, absque"/>
+        <underline method="pen" type="double" language="LA" text="illuc non"/>
+        <underline method="pen" type="straight" language="LA" text="reiecta, ueram aggrediamur expositionem. Et ne tantum temporis consumatur, absque"/>   <!-- DO: I think this is all underlined ('Expositione autem' and then 'reiecta' to the end of the page). It doesn't look like bleedthrough if you look at the pages before and after -->
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="reiecta, ueram aggrediamur expositionem. Et ne tantum temporis consumatur, absque"/>
 
