@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="504.tif" reader="John Dee" pagination="12"/> 
+    <page filename="504.tif" reader="John Dee" pagination="12"/> <!-- MB. Add signature [B.ij.[v]]  -->
     <annotation>
         
         <marginalia hand="Italian" method="pen">
@@ -13,7 +13,7 @@
                     <marginalia_text>cap. 40.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation></translation> <!-- MB. Translation missing? -->
         </marginalia>
         
         
@@ -32,6 +32,7 @@
                 </position>
             </language>
             <translation>In Normandy on the Seine there are Avranches and [?], Coutances and [?], Bayeux and [?]. Lisieux and [?]. Evreux, Caen, Falaise, and many other towns, fortresses and castles.</translation> <!-- DO: I don't know what the second word in each pairing is. Possibly referring to the people of each place or an alternative name? -->
+            <!--  -->
         </marginalia>
         
         
@@ -246,7 +247,7 @@
         <mark name="comma" method="pen" place="intext"/>  <!-- ambo die -->
         <mark name="comma" method="pen" place="intext"/>  <!-- lapsus in -->
         
-        <mark name="est_mark" method="pen" place="right_margin"/>  <!-- DO: Not sure if these are est marks or something else -->
+        <mark name="est_mark" method="pen" place="right_margin"/>  <!-- DO: Not sure if these are est marks or something else --> 
         <mark name="est_mark" method="pen" place="tail"/>
         
         <errata language="LA" copytext="Lekherlewyn" amendedtext="[deleted]"/>
