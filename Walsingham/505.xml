@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="505.tif" reader="John Dee" pagination="13" signature="Biij"/> 
+    <page filename="505.tif" reader="John Dee" pagination="13" signature="B.iij."/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Bernardo Siluanetensi" method="pen">
@@ -42,7 +42,7 @@
         <marginalia hand="Italian" anchor_text="quotidianu[m] victu[m]" method="pen" id="RCP10552-2:505:m0001">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Richardus Dux Normaoria[e] [?] a[e]tate matura erat</marginalia_text>  <!-- DO: not sure about 'Normaoria[e]' or the word which follows - it looks like 'cra[n]diu[m]'? -->
+                    <marginalia_text>Richardus Dux Normaoria[e] [?] a[e]tate matura erat</marginalia_text>  <!-- DO: not sure about 'Normaoria[e]' or the word which follows - it looks like 'cra[n]diu[m]'? --> <!-- MB. Not sure about this one either. -->
                     <person name="Richard I of Normandy"/>
                 </position>
             </language>
@@ -93,11 +93,12 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="" method="pen">
+        <marginalia hand="Italian" anchor_text="" method="pen"> <!-- MB. Anchor text should be Raldulphus Torta? -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>filius Radulfi Torta[e]</marginalia_text>
-                    <person name="Rodolf Torta"/>    <!-- DO: Can't find out who his son is at the moment... -->
+                    <person name="Rodolf Torta"/>    <!-- DO: Can't find out who his son is at the moment... --> 
+                    <!-- MB. I think it is Gautier (Walter) de Torta,  see: https://www.geni.com/people/Gautier-de-Torta-Bishop-of-Paris/6000000031859179867 -->
                 </position>
             </language>
             <translation>The son of Rodolf Torta.</translation>
@@ -195,6 +196,7 @@
         <underline method="pen" type="straight" language="LA" text="Radulphus Torta"/>
         <underline method="pen" type="straight" language="LA" text="quotidianu[m] victu[m]" id="RCP10552-2:505:u0001"/>
         <underline method="pen" type="straight" language="LA" text="qua[m] 12. nu[m]mos"/>
+        <underline method="pen" type="straight" language="LA" text="Quamobre[m] dux iuuenis"/>
         <underline method="pen" type="straight" language="LA" text="ciuitatis praesule[m]"/>
         <underline method="pen" type="straight" language="LA" text="nomine Emmam illi despondit"/>
         <underline method="pen" type="straight" language="LA" text="totius fraudis incentorem"/>
@@ -219,7 +221,7 @@
         <mark name="comma" method="pen" place="intext"/> <!-- Normannis intra -->
         
         <mark name="tripunctus" method="pen" place="left_margin"/>
-           
+        <!-- MB. Symbol underneath the tripunctus on the left margin needs to be captured. -->   
         
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
             
