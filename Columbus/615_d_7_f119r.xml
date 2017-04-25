@@ -30,10 +30,12 @@
         <marginalia hand="Italian" anchor_text="Isola Isabella" method="pen"> 
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Isabella Isola I know not, but the [a[l]tre?] Isabella is [?] fol. 101. v.</marginalia_text>  <!-- DO: not sure about a couple of words -->
-                    <!-- MB: I cannot decipher the word before 'fol' either s...?. -->
+                    <marginalia_text>Isabella Isola I know not, but the atol Isabella is sup[ra] fol. 101. v.</marginalia_text>  <!--JG: Not sure abt 'atol'. Text on f. 101v talks about fortress-->
                     <location name="Isabela"/>
                     <location name="La Isabela"/>
+                    <internal_ref>
+                        <target ref="BL615d.7:615_d_7_f101vr:m0001" text="fol. 101. v."/>
+                    </internal_ref>
                 </position>
             </language>
         </marginalia>
@@ -57,12 +59,5 @@
         
         <errata language="IT" copytext="dell'Isola" amendedtext="[deleted]"/>
         
-        
-        
-        
-        
-        
-        
     </annotation>
-    
 </transcription>
