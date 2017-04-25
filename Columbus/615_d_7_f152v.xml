@@ -12,22 +12,17 @@
                     <marginalia_text>[Iulij deleted] 21 Iunij</marginalia_text>
                 </position> 
             </language>
-            <translation>21 July.</translation>
+            <translation>21 June.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Pietro di Arana">
             <language ident ="IT">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pietro di Arana</marginalia_text>
+                    <marginalia_text>Pietro di Arana sup[r]a fol[io]: 109</marginalia_text>
                     <person name="Peter d' Arana"/>
-                </position>
-            </language>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident ="IT">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>1409</marginalia_text> <!-- M.B. Indecipherable marking before '1409' --> <!-- FSF: something like sup[er] or se[m]per, though neither would make sense here really... -->
+                    <internal_ref>
+                        <target ref="BL615d.7:615_d_7_f109r" text="f[o]l[io]. 109"/>
+                    </internal_ref>
                 </position>
             </language>
         </marginalia>
@@ -59,7 +54,7 @@
         <underline method="pen" type="straight" language="IT" text="lasciaua di stare in ceruello"/>
         <underline method="pen" type="straight" language="IT" text="diligenza tutti li spatij"/>
         
-        <errata language="IT" copytext="Luglio " amendedtext="[deleted]"/>
+        <errata language="IT" copytext="Luglio" amendedtext="[deleted]"/>
         
     </annotation>
 </transcription>
