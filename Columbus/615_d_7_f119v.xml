@@ -12,9 +12,12 @@
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Adamania , for Adam and Eue. as Saona and Mona wer first [iles] named</marginalia_text>  <!-- DO: not sure about the last two words --> 
-                    <!-- MB: I read 'named' too but uncertain about the word preceding that.-->
+                    <!-- MB: I read 'named' too but uncertain about the word preceding that.--> <!--JG: Not entirely sure either-->
+                    <person name="Adam"/>
+                    <person name="Eve"/>
                     <location name="Saona Island"/>
                     <location name="Mona Island"/>
+                    <emphasis method="pen" type="straight" text="Adam and Eue"/>
                 </position>
             </language>
         </marginalia>
@@ -75,11 +78,11 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>[?] de Regio [monte?] [?] hanc eclipsis die 14. hor [1us?] in 45 ad meridian [vt mente?] iste ver&ograve; [punit?] die 15 nocte.</marginalia_text>  <!-- DO: can't work this out -->
-                    <!-- MB. Could the first word be an abbreviation, "Iom i.e. Iovi optimo maximo? -->  <!-- DO: Still struggling with this but I think it must be 'ponit hanc' and 'vt mentem'. I'm now doubting 'eclipsis' because of the accusative 'hanc'. Doesn't really look like 'eclipsem' though... -->
+                    <marginalia_text>Jo[ha]n[n]es de Regio monte ponit hanc eclips[em] die 14. hor[ae] 19 m[inutae] 45 ad meridia[m] vt mense[m]. Iste ver&ograve; ponit die 15 nocte.</marginalia_text> 
+                    <person name="Regiomontanus"/>
                 </position>
             </language>
-            <translation></translation>  <!-- DO: translation to follow [about whether the eclipse was on September 14 or 15] -->  <!-- '[?] places this eclipse on day 14 [at the first hour?] in 45 AD, as the month. Actually, that [?] on day 15 by night.-->
+            <translation>Regiomontanus sets this eclipse on the fourteenth day, nineteenth hour, 45 minutes, toward midday, as the month. Actually, he places [it] in the night of the fifteenth day.</translation>  <!--JG: Unsure abt translation-->
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="armati di archi, &amp; saette auuelenate"/>
@@ -99,12 +102,11 @@
         <underline method="pen" type="straight" language="IT" text="a' XX del"/>    
         
         
-        <mark name="straight_quotation_mark" method="pen" place="left_margin"/>
+        <mark name="double_vertical_bar" method="pen" place="left_margin"/>
         
         <mark name="equal_sign" method="pen" place="right_margin"/>  <!-- chiamauano -->
         
         <errata language="IT" copytext="XV" amendedtext="[deleted]"/>
-        
         
         <physical_link>
             
@@ -116,8 +118,5 @@
             
         </physical_link>
         
-        
-        
     </annotation>
-    
 </transcription>
