@@ -9,12 +9,14 @@
     
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="ei non uolle giustitiare un si gran personaggio" method="pen">
+        <marginalia hand="Italian" anchor_text="ei non uolle giustitiare un si gran personaggio" method="pen" id="BL615d.7:615_d_7_f123v:m0001">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Why did they exercut afterward greater persons then he without thinking of Spayn? vid Infra folio 148. v.</marginalia_text>
-                    <!-- MB. Possible to establish a book link here? -->
                     <location name="Spain"/>
+                    <internal_ref>
+                        <target ref="BL615d.7:615_d_7_f148v:m0001" text="folio 148. v."/>
+                    </internal_ref>
                 </position>
             </language>
         </marginalia>
@@ -46,8 +48,7 @@
         <marginalia hand="Italian" method="pen">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>he ment to [send? tend?] him and was [a?] ship hand, but the ship [was?] drowned as som after say, but he sayth so</marginalia_text>  <!-- DO: not sure about this -->
-                    <!-- MB. I would go for 'send' here, not sure about the final two words though. -->
+                    <marginalia_text>he ment to send him and was in ship [...], but the ship was drowned as som after say, but he sayth so</marginalia_text> <!--JG: Unsure abt word after ship--> 
                 </position>
             </language>
         </marginalia>
@@ -56,6 +57,9 @@
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>fol[io] 148. v.</marginalia_text>
+                    <internal_ref>
+                        <target ref="BL615d.7:615_d_7_f148v" text="148. v."/>
+                    </internal_ref>
                 </position>
             </language>
         </marginalia>
