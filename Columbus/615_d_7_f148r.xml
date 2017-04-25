@@ -9,13 +9,21 @@
         <marginalia hand="Italian" anchor_text="Matrimino: delle quali riferia tutto quello, che si legge delle Amazone">
             <language ident ="IT">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Matrimin&oacute; Amazones</marginalia_text> <!-- M.B. Not entirely certain if first is 'tarde'  --> 
-                    <!-- FSF: I don't think it is tarde, but I am not sure what it is either; f..se is what I can read; also, the last e is an &egrave; -->  <!-- DO: I'd say 'forte'? -->
-                <location name="Martinique"/>
+                    <marginalia_text>fort&egrave; Matrimin&oacute;</marginalia_text> 
+                    <location name="Martinique"/>
+                </position>
+            </language>
+            <translation>The fort Martinique.</translation> 
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Amazone">
+            <language ident ="IT">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>Amazones</marginalia_text>
                     <location name="Amazon"/>
                 </position>
             </language>
-            <translation>Martinique, Amazon</translation> <!-- MB. Add untranscribed term to translation later. -->
+            <translation>The Amazon.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="paiono dotate di piu ragione, che quelli delle altre Isole">
