@@ -6,7 +6,7 @@
     <page filename="615_d_7_f148v.tif" reader="John Dee" pagination="[148v]" signature="[Tiiij[v]]"/>    
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="il Re Caminabo">
+        <marginalia hand="Italian" anchor_text="il Re Caminabo" id="BL615d.7:615_d_7_f148v:m0002">
             <language ident ="IT">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Il Re Caminabo</marginalia_text> 
@@ -99,12 +99,17 @@
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="X_sign" method="pen" place="left_margin"/>
         
-        <errata language="IT" copytext="sapeue, oue" amendedtext="sapeue, piloti oue"/> <!--JG: See pp. 89-90 of the Manual, capture as marginal note, link to printed text via anchor tag-->
+        <errata language="IT" copytext="sapeue, oue" amendedtext="sapeue, piloti oue"/> 
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
-        <!--JG: There's a physical link, connecting two marginal notes. Check the Manual and see whether you can work this out. If not, let me know since it's a new tag-->
-        
+        <physical_link>
+            <marginal_annotation idref="BL615d.7:615_d_7_f148v:m0002"/>
+            <marginal_annotation idref="BL615d.7:615_d_7_f148v:m0001"/>
+            
+            <relation from="BL615d.7:615_d_7_f148v:m0002" to="BL615d.7:615_d_7_f148v:m0001" type="undirected"/>
+            
+        </physical_link>        
     </annotation>
 </transcription>
         
