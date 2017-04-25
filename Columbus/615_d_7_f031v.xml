@@ -28,7 +28,7 @@
         <marginalia hand="Italian" method="pen">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Portugal Iles</marginalia_text> <!--KS: Not sure about 'Iles'...-->
+                    <marginalia_text>Portugal [Iles]</marginalia_text> <!--KS: Not sure about 'Iles'...-->
                     <location name="Portugal"/>
                 </position>
             </language>
@@ -38,6 +38,9 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>Vide fol[io] 35.</marginalia_text>
+                    <internal_ref>
+                        <target ref="BL615d.7:615_d_7_f035r:m0001" text="fol[io] 35"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>Look at fol[io] 35.</translation>
