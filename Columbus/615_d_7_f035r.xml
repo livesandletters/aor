@@ -7,18 +7,23 @@
 
 <annotation>
     
-<marginalia hand="Italian" anchor_text="videro le lettere per mano del Dottor Viglialano" method="pen"> 
+    <marginalia hand="Italian" anchor_text="videro le lettere per mano del Dottor Viglialano" method="pen" id="BL615d.7:615_d_7_f035r:m0001"> 
     <language ident="EN">
         <position place="right_margin" book_orientation="0">
             <marginalia_text>The King of England's letters to Christofer Colon. Vide fol .31 .32 120.v.34.v</marginalia_text> 
             <person name="Columbus"/>
             <location name="Henry VII"/> 
+            <internal_ref>
+                <target ref="BL615d.7:615_d_7_f031r" text=".31"/>
+                <target ref="BL615d.7:615_d_7_f032r" text=".32"/>
+                <target ref="BL615d.7:615_d_7_f120v" text="120.v"/>
+                <target ref="BL615d.7:615_d_7_f034v" text="34.v"/>
+            </internal_ref>
         </position>
     </language>
 </marginalia>
     
-<!--JG: Internal references to be established at a later point-->
-    
+  
     <marginalia hand="Italian" anchor_text="dall'altro canto l'Ammiraglio dimandaua l'Ammiragliato, &amp; titolo di Vicere" method="pen">
         <language ident="IT">
             <position place="tail" book_orientation="0">
