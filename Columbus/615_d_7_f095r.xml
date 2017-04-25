@@ -5,8 +5,6 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="615_d_7_f095r.tif" reader="John Dee" pagination="95"/> 
-    
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Borichen" method="pen">
@@ -15,14 +13,15 @@
                     <marginalia_text>Borichen</marginalia_text>
                     <location name="Puerto Rico"/>
                 </position>
-            </language> <!-- MB: 'Puerto Rico' could also be added to the translation field. --> 
+            </language>
+            <translation>Puerto Rico.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Caribi" method="pen">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Caribi</marginalia_text>
-                    <person name="Caribs"/><!-- MB: I don't think this is a personal name but rather refers to the Carribeans. Preceding text notes 'that the inhabitants of this island were the 'Caribi' (che gli habitanti di questa Isola erano Caribi).-->
+                    <location name="Caribbean"/>
                 </position>
             </language>
         </marginalia>
@@ -69,12 +68,6 @@
         
         <errata language="IT" copytext="C" amendedtext="C"/>
         
-        
-        
-        
-        
-        
     </annotation>
-    
 </transcription>
     
