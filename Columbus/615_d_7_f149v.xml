@@ -6,10 +6,10 @@
     <page filename="615_d_7_f149v.tif" reader="John Dee" pagination="[149v]"/>    
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" id="BL615d.7:615_d_7_f149v:m0001">
             <language ident ="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>A marvaylous error in Latitude</marginalia_text> <!-- FSF: I think it is mervaylous -->
+                    <marginalia_text>A mervaylous error in Latitude</marginalia_text>
                 </position>
             </language>
           </marginalia>
@@ -25,7 +25,7 @@
         <marginalia hand="Italian">
             <language ident ="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Well sayd if you allwayes made such account of them.</marginalia_text> <!-- FSF: I am not sure if it says account -->
+                    <marginalia_text>Well sayd if you allwayes made such accownt of them.</marginalia_text>
                 </position>
             </language>
         </marginalia>
@@ -33,7 +33,7 @@
         <underline method="pen" type="straight" language="IT" text="auanti temper&ograve;"/>
         <underline method="pen" type="straight" language="IT" text="furia delle"/>
         <underline method="pen" type="straight" language="IT" text="al capo di san"/>
-        <underline method="pen" type="straight" language="IT" text="canal di Fiandra"/>
+        <underline method="pen" type="straight" language="IT" text="canal di Fiandra" id="BL615d.7:615_d_7_f149v:u0001"/>
         <underline method="pen" type="straight" language="IT" text="in Inghilterra"/>
         <underline method="pen" type="double" language="IT" text="errauano"/>
         <underline method="pen" type="double" language="IT" text="in Gallicia"/>
@@ -51,7 +51,15 @@
         <mark name="comma" method="pen" place="intext" text="che poi" language="IT"/>
         <mark name="comma" method="pen" place="intext" text="poi presse" language="IT"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="A marvaylous error in Latitude" ></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="A marvaylous error in Latitude" />
+        
+        <physical_link>
+            <marginal_annotation idref="BL615d.7:615_d_7_f149v:m0001"/>
+            <marginal_annotation idref="BL615d.7:615_d_7_f149v:u0001"/>
+            
+            <relation from="BL615d.7:615_d_7_f149v:m0001" to="BL615d.7:615_d_7_f149v:u0001" type="directed"/>
+            
+        </physical_link>
         
     </annotation>
 </transcription>
