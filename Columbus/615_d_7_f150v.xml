@@ -25,9 +25,11 @@
         <marginalia hand="Italian" anchor_text="un Pietro Fernandez Coronel">
             <language ident ="IT">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Pietro Fernandez Coronel sfo fl[orins]. 109.</marginalia_text> <!-- M.B. Meaning of final abbreviations obscure --> 
-                    <!-- FSF: fl. abbreviation for florins? word before that again an abbreviation, I'd say, though I can't figure out what it is-->
-                    <person name=" Peter Fernandez Coronel"/>
+                    <marginalia_text>Pietro Fernandez Coronel sup[ra] f[o]l[io]. 109.</marginalia_text>
+                    <person name="Peter Fernandez Coronel"/>
+                    <internal_ref>
+                        <target ref="BL615d.7:615_d_7_f109r" text="f[o]l[io]. 109"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>Peter Fernandez Coronel</translation>
