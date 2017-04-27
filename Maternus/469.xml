@@ -6,21 +6,6 @@
     <page filename="469.tif" reader="John Dee"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Aquarius"> <!-- FSF: I am not sure if this is a new way of capturing symbols in marginalia, but I would have used the symbol tag rather than the marginalia one -->
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <symbol_in_text name="Aquarius"/>
-                </position>
-            </language>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="Pisces">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <symbol_in_text name="Pices"/>
-                </position>
-            </language>
-        </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Depositas &amp; opes, terrae'q[ue] exurere uenas"/>
         <underline method="pen" type="straight" language="LA" text="Quod ferrum"/>
@@ -28,6 +13,9 @@
         <underline method="pen" type="straight" language="LA" text="Qua retrahis"/>
         <underline method="pen" type="straight" language="LA" text="Quippe etiam mundi faciem, sedes'q[ue] mouebit Sidereas, coelum'q[ue] nouum uersabit in orbem"/>
         <underline method="pen" type="straight" language="LA" text="Hos tribuunt mores, atq[ue] has nascentibus arteis Bis fex materia propria pollentia"/>
+        
+        <symbol name="Aquarius" place="left_margin" text="Aquarius"/>
+        <symbol name="Pices" place="left_margin" text="Pisces"/>
         
     </annotation>
 </transcription>
