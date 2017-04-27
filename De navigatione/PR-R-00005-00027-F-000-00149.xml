@@ -11,20 +11,26 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Aliud operatur magne.. qua[m] ostendit <!-- FSF: to be competed -->
+                        Aliud operatur magne.. qua[m] ostendit <!-- FSF: to be competed -->  <!-- DO: Not sure - looks like 'magneis' so I'm assuming either 'magnetis' or just 'magnes' with the tail of the 'p' above -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Why the courses beyond the equator ought to be punished. <!-- FSF: to be checked -->
+                <!-- FSF: to be checked -->  <!-- DO: 'The other magnet works, as it shows'? -->
             </translation>
         </marginalia>
 
-        <underline method="pen" type="straight" language="LA" text="decidunt ab altitudine in qua erant. Quoniam ualde parua declinatio est, circa punctum contingentia[e]"/>
-        <underline method="pen" type="straight" language="LA" text="Quamuis enim in globo ita totum (ut asseris) repra[e]sentetur, neque ob id rumus leste oeste illud 
-            esse poterit quod acus repra[e]sentat extra AEquatorem, propter differentiam qua[e] est inter opus &amp; demonstrationem"/>
+        <underline method="pen" type="straight" language="LA" text="decidunt ab altitudine in qua erant. Quoniam"/>
+        <underline method="pen" type="straight" language="LA" text="parua declinatio est, circa punctum contingentiae"/>
+        <underline method="pen" type="straight" language="LA" text="Quamuis enim in globo ita totum (ut asseris) repraesentetur, neque ob id rumus leste oeste illud 
+            esse poterit quod acus repraesentat extra AEquatorem, propter differentiam quae est inter opus &amp; demonstrationem"/>
+        
+        
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
+        
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        
         
     </annotation>
 </transcription>

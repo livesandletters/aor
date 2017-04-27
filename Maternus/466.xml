@@ -3,10 +3,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="435.tif" reader="John Dee" signature="R 4"/>
+    <page filename="435.tif" reader="John Dee" signature="R 4"/> <!-- FSF: wrong filename -->
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Aries">
+        <marginalia hand="Italian" anchor_text="Aries"> <!-- FSF: as in files 467-9, I would tag these as symbols rather than marginalia -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <symbol_in_text name="Aries"/>
@@ -22,8 +22,7 @@
             </language>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Deniq[ue] si non est fati, cur traditur orodo. Cunct&aacute; q[ue] temporibus certis uentura canuntur."/>
+        <underline method="pen" type="straight" language="LA" text="Deniq[ue] si non est fati, cur traditur ordo? Cuncta'q[ue] temporibus certis uentura canuntur?"/>
         
     </annotation>
 </transcription>
-
