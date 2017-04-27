@@ -11,6 +11,7 @@
             <language ident="FR">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Et dedens ordonnerent Neel de S[ain]t Sauueur, qui viconte estoit de Constentin: Raoul de [Trony?] de et Rogier son filz, et leur gens, et puis s'enretourna Richard a Rouen</marginalia_text>  <!-- DO: I can't make out the word after 'Raoul de'; the English version of their name is 'Trosny' and the French is 'Ternois', but this doesn't appear to be either -->
+                    <!-- MB. I read 'Raoul de Trony' as well, perhaps Dee dropped the S? -->
                     <person name="Nigel I of Saint Sauveur"/>
                     <person name="Raoul I of Tosny"/>
                     <person name="Roger I of Tosny"/>
@@ -19,7 +20,7 @@
                     <location name="Rouen"/>
                 </position>
             </language>
-            <translation>And they had ordered inside Nigel of Saint Sauveur, who was Viscount of Coutances, Raoul of Tosny and his son Roger, and their people, and then Richard retourned to Rouen.</translation>  <!-- DO: Not sure about this translation -->
+            <translation>And they had ordered inside Nigel of Saint Sauveur, who was Viscount of Coutances, Raoul of Tosny and his son Roger, and their people, and then Richard returned to Rouen.</translation>  <!-- DO: Not sure about this translation -->
         </marginalia>
         
         
@@ -51,6 +52,8 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Auxendunum</marginalia_text>
                     <location name="Isle of Axholme"/>   <!-- DO: Definitely not sure about this location, but the Isle of Axholme is part of https://en.wikipedia.org/wiki/Kingdom_of_Lindsey where Cnut had allies... -->
+                    <!-- MB. I think the location is Ashdon. "The most through and recent discussion of the site by C.R.Hart identifies Auxendunum/Assundun with Ashdon" but there is apparently lingering disagreement among scholars whether it is modern day Ashdon or Ashingdon. Ashdon seems to be the more common attribution though.
+                        See:  https://books.google.co.uk/books?id=UExnAAAAMAAJ&q=Auxendunum&dq=Auxendunum&hl=en&sa=X&ved=0ahUKEwjj0qXg-7_TAhUEHxoKHRjSCRgQ6AEITTAH  and  https://en.wikipedia.org/wiki/Battle_of_Assandun.-->
                 </position>
             </language> 
             <translation>The Isle of Axholme.</translation>  
@@ -87,6 +90,7 @@
                 </position>
             </language> 
             <translation>The clearer accession of King Edward will stand here.</translation>  <!-- DO: Translation doesn't make sense -->
+            <!-- MB. Maybe it is 'ortius' rather than ortus? -->
         </marginalia>
         
         
@@ -178,7 +182,7 @@
         <underline method="pen" type="straight" language="LA" text="Danorum regem"/>
         <underline method="pen" type="straight" language="LA" text="vocabulo Gunnildem"/>
         <underline method="pen" type="straight" language="LA" text="Henrico Romanorum"/>
-        <underline method="pen" type="double" language="LA" text="inteximus"/>
+        <underline method="pen" type="double" language="LA" text="serie inteximus"/>
         <underline method="pen" type="straight" language="LA" text="vt Edwardi"/>
         <underline method="pen" type="straight" language="LA" text="Odo Carnotensis"/>
         <underline method="pen" type="double" language="LA" text="medietatem Dorcastrini"/>
