@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="PR-R-00005-00027-F-000-00169.tif" reader="John Dee" pagination="82"/> 
+    <page filename="PR-R-00005-00027-F-000-00169.tif" reader="John Dee" pagination="82" signature="Lij"/> 
     <annotation>
         
         <marginalia hand="Italian">
@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                At the horizon under one Meridian. <!-- FSF: to be checked -->
+                At the horizon under one Meridian. <!-- FSF: to be checked -->    <!-- DO: I'm wondering whether it's two separate notes: 'horizontis' referring to 'ad unum solum punctum iret', and 'sub vno Meridiano' referring to 'proficisceretur a minima vel maxima altitudine'?? -->
             </translation>
         </marginalia>
         
@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                Equator
+                The equator.
             </translation>
         </marginalia>
         
@@ -46,17 +46,19 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="ducerent nos ad se se inuice[m] seca[n]dum: &amp;"/>
+        <underline method="pen" type="straight" language="LA" text="ducerent nos ad sese inuice[m] seca[n]dum: &amp;"/>
         <underline method="pen" type="double" language="LA" text="punctum"/>
         <underline method="pen" type="straight" language="LA" text="iret, &amp; semper"/>
         <underline method="pen" type="straight" language="LA" text="maxima"/>
-        <underline method="pen" type="straight" language="LA" text="sectiones no[n] sunt extra AEquatore[m]: im&ograve; circuli sunt minores, qui nohol secare possunt in ce[n]tro horizontis in partes a[e]quales. Et si loca inuenta"/>
+        <underline method="pen" type="straight" language="LA" text="sectiones no[n] sunt extra AEquatore[m]: im&ograve; circuli sunt minores, qui nihil secare possunt in ce[n]tro horizontis in partes aequales. Et si loca inuenta"/>
         <underline method="pen" type="straight" language="LA" text="propter falsitatem"/>
         <underline method="pen" type="straight" language="LA" text="propulsionem aquarum"/>
-        <underline method="pen" type="straight" language="LA" text="Et quum in longitudine melius a[e]stimetur"/>
-        <underline method="pen" type="double" language="LA" text="uer&egrave;"/>
+        <underline method="pen" type="straight" language="LA" text="Et quum in longitudine melius aestimetur"/>
+        <underline method="pen" type="double" language="LA" text="quam uer&egrave;"/>
         
         <mark name="circumflex" method="pen" place="intext"/>
+        
+        <mark name="comma" method="pen" place="intext"/>  <!-- aphiae sectiones -->
         
         <errata language="LA" copytext="d.e.c." amendedtext="d.c.e."/>
   
