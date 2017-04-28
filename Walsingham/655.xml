@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="655.tif" reader="John Dee" pagination="153" signature="V.iij"/>
+    
+    
+    <annotation>
+        
+        
+        <marginalia hand="Italian" anchor_text="arma sua">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Arma regis</marginalia_text>
+                </position>
+            </language>
+            <translation>The King's coat of arms.</translation>
+        </marginalia>
+        
+        
+        <marginalia hand="Italian" anchor_text="Rogerus Comes Marchiae">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Rogerus Comes Marchia[e].</marginalia_text>
+                    <person name="Roger Mortimer, 4th Earl of March"/>
+                </position>
+            </language>
+            <translation>Roger, Earl of March.</translation>
+        </marginalia>
+        
+        
+        <underline method="pen" type="straight" language="LA" text="D. de Spenser, comite[m] Gloucestriae"/>
+        <underline method="pen" type="straight" language="LA" text="mutauit arma sua"/>
+        <underline method="pen" type="straight" language="LA" text="terraru[m] ducis Glouerniae"/>
+        <underline method="pen" type="straight" language="LA" text="comitis Arundeliae"/>
+        <underline method="pen" type="straight" language="LA" text="comitis de Warwico"/>
+        <underline method="pen" type="straight" language="LA" text="facta &amp; lata"/>
+        <underline method="pen" type="straight" language="LA" text="quibus graues"/>
+        <underline method="pen" type="straight" language="LA" text="quomodolibet"/>
+        <underline method="pen" type="straight" language="LA" text="alijs"/>
+        <underline method="pen" type="straight" language="LA" text="Herefordiae relegauit ad decennium, contra iustitiam &amp; iura militaria"/>
+        <underline method="pen" type="straight" language="LA" text="Northfolciae perpetuo damnauit"/>
+        <underline method="pen" type="double" language="LA" text="eo"/>
+        <underline method="pen" type="straight" language="LA" text="die"/>
+        <underline method="pen" type="straight" language="LA" text="idem dux Norfolciae ducem Glouerniae fecerat suffocari"/>
+        <underline method="pen" type="straight" language="LA" text="H."/>
+        <underline method="pen" type="straight" language="LA" text="dominae K. de"/>
+        <underline method="pen" type="straight" language="LA" text="licentiae papae, iurauit qu&ograve;d si clerus constanter restitisset papae in praesenti negotio ipse manus apposuisset"/>
+        <underline method="pen" type="double" language="LA" text="Rogerus Comes"/>
+        <underline method="pen" type="straight" language="LA" text="Marchiae"/>
+        
+        
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
+        
+        <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">
+            
+            <node id="n1" person="John of Gaunt">Io[hann]es Dux</node>
+            <node id="n2" person="Katherine Swynford">Katharina</node>
+            
+            <link to="n2" from="n1" relationship="has_spouse"/>
+            <link to="n1" from="n2" relationship="has_spouse"/>
+            
+        </graph>
+        
+        
+    </annotation>
+    
+</transcription>
