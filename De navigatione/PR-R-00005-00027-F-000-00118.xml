@@ -7,7 +7,7 @@
     <page filename="PR-R-00005-00027-F-000-00118.tif" reader="John Dee" pagination="[56[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" method="pen">   <!-- DO: I'd anchor the underlined text here -->
+        <marginalia hand="Italian" method="pen" anchor_text="nostra[e] altitudinis parallelu[m] com meridiano, horizontem in quatuor quartas non a[e]qualiter">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -24,12 +24,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        non posse in quatuor quartos ina[e]quales diuidi, et et lineas quarta[m] respo[n]dere vero ortui [etc]  <!-- DO: 'quatuor quartas' -->
+                        non posse in quatuor quartas ina[e]quales diuidi, et et lineas quarta[m] respo[n]dere vero ortui [etc]
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                One cannot divide in four unequal quarters and also to respond <!-- FSF: to be completed -->  <!-- DO: Not sure either. Something like 'and the lines correctly correspond to the origin' but I don't know about the second 'quartam' -->
+                It cannot be divided in four unequal quarters and also to the lines correctly correspond to the origin <!-- FSF: second 'quartam' unclear -->  
             </translation>
         </marginalia>
         
@@ -48,7 +48,8 @@
         <underline method="pen" type="straight" language="LA" text="acum in leste eadem altitudine procedere"/>
         <underline method="pen" type="straight" language="LA" text="Quod esse nequit absque altitudinis diminutione illius partis, unde nauis profecta fuit. Interrogatio"/>
         <underline method="pen" type="double" language="LA" text="illuc non"/>
-        <underline method="pen" type="straight" language="LA" text="reiecta, ueram aggrediamur expositionem. Et ne tantum temporis consumatur, absque"/>   <!-- DO: I think this is all underlined ('Expositione autem' and then 'reiecta' to the end of the page). It doesn't look like bleedthrough if you look at the pages before and after -->
+        <underline method="pen" type="straight" language="LA" text="Expositione autem hac reiecta, ueram aggrediamur expositionem. Et ne tantum temporis consumatur, absque eo qu&ograve;d causa sciatur, 
+            eam declarare conabor: quia officium meum causas explicare est: tuum uer&ograve;, effectum considerare"/> 
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="reiecta, ueram aggrediamur expositionem. Et ne tantum temporis consumatur, absque"/>
 
