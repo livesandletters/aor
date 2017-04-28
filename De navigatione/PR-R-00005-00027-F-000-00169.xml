@@ -7,16 +7,29 @@
     <page filename="PR-R-00005-00027-F-000-00169.tif" reader="John Dee" pagination="82" signature="Lij"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="ad unum solum punctum iret">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        horizo[n]tis sub vno Meridiano
+                        horizo[n]tis 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                At the horizon under one Meridian. <!-- FSF: to be checked -->    <!-- DO: I'm wondering whether it's two separate notes: 'horizontis' referring to 'ad unum solum punctum iret', and 'sub vno Meridiano' referring to 'proficisceretur a minima vel maxima altitudine'?? -->
+                At the horizon.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="proficisceretur a minima vel maxima altitudine">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        sub vno Meridiano
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Under one Meridian.
             </translation>
         </marginalia>
         
@@ -57,7 +70,6 @@
         <underline method="pen" type="double" language="LA" text="quam uer&egrave;"/>
         
         <mark name="circumflex" method="pen" place="intext"/>
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- aphiae sectiones -->
         
         <errata language="LA" copytext="d.e.c." amendedtext="d.c.e."/>
