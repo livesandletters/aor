@@ -9,14 +9,56 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Ita eligere debes significatore[m] diuitiaru[m], ex &Jupiter; lic[et] et secunda
-                    et eor[um] d[omi]nis per accidens / Cum igitur dominus secund[a]e fuerit &Mars; [etc]</marginalia_text>
+                    <marginalia_text>Ita eligere debes significatore[m] diuitiaru[m], ex &Jupiter; lic[et] et secunda //
+                    et eor[um] d[omi]nis per accidens / Cum igitur dominus secund[a]e fuerit &Mars; [etc]</marginalia_text> <!--JG: Unsure-->
+                    <symbol_in_text name="Jupiter"/>
+                    <symbol_in_text name="Mars"/>
                 </position>
             </language>
-            <translation>Thus you ought to chose the signifier of the wealthy, from Jupiter, although</translation> <!--JG: Translation to finish-->
+            <translation>Thus you ought to chose the signifier of the wealthy, from Jupiter, although even the second and by their lords through the accident. When
+                therefore the lord of the second was Mars, et cetera.
+            </translation> <!--JG: Unsure-->
         </marginalia>
         
+        <marginalia hand="English_secretary" anchor_text="cum luminaria fixis fortunatis copulantur">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>&Sun; &Moon; cu[m] fixis fortunatis.</marginalia_text>
+                    <symbol_in_text name="Sun"/>
+                    <symbol_in_text name="Moon"/>
+                </position>
+            </language>
+            <translation>The sun and the moon with fixed fortunes.</translation>
+        </marginalia>
         
+        <marginalia hand="English_secretary" anchor_text="quae">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>eas diuitias</marginalia_text>
+                </position>
+            </language>
+            <translation>Those riches.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" >
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>proveniunt</marginalia_text>
+                </position>
+            </language>
+            <translation>They come forth</translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="quae"/>
+        <underline method="pen" type="straight" language="LA" text="uxorum"/>
+        <underline method="pen" type="straight" language="LA" text="cum luminaria fixis fortunatis copulantur"/>
+        <underline method="pen" type="straight" language="LA" text="Est igitur prima uis mutui dominij"/>
+        <underline method="pen" type="straight" language="LA" text="caput Ioui"/>
+        <underline method="pen" type="straight" language="LA" text="aut significatori iungatur"/>
+        <underline method="pen" type="straight" language="LA" text="hae monume[n]tis operu[m] &amp; literarum"/>
+        <underline method="pen" type="straight" language="LA" text="ex diuitijs"/>
+        <underline method="pen" type="straight" language="LA" text="ex iustitia"/>
+        <underline method="pen" type="straight" language="LA" text="probitate"/>
         
     </annotation>
 </transcription>
