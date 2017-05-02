@@ -3,14 +3,42 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="367.tif" reader="John Dee" pagination="109" signature="I 2"/>
+    <page filename="367.tif" reader="John Dee" pagination="110" signature=""/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Quartae autem anni sunt solius">
+        <marginalia hand="Italian" anchor_text="Sol in medio coeli Saturno">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        ru rodri Ca[e]li
+                        tu[m] in rodri Co[e]li
+                    </marginalia_text>
+                    <symbol_in_text name="Sun"/>
+                </position>
+            </language>
+            <translation>
+               [...] the heavens.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Cum no[n] fuerit inter aliquem planetarum, &amp; significatorem ictisal aspectus, et fuerit uterq[ue] in eodem circulo, &amp; circulis parallelis in nadir uel anahat, uel in aequinoctiali itinere">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Et illa mea opimio is [?] quod medius [or melius] fuerit parallelos aqua quod zodiacae [?] 
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                [...] the heavens.
+            </translation>
+        </marginalia>
+        
+        
+        <marginalia hand="Italian" anchor_text="Sol in medio coeli Saturno">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Sicit[?] in dixit in 2. aptioris.
                     </marginalia_text>
                 </position>
             </language>
@@ -18,7 +46,40 @@
                 
             </translation>
         </marginalia>
-        
+            
+            <marginalia hand="Italian" anchor_text="Sola[m]">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        Unita
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                United.
+            </translation>
+            </marginalia>
+            
+        <marginalia hand="Italian" anchor_text="Cum diuersificantur duo climata, diuersificatur planetaru[m] aspectus &amp; eoru[m] radii.">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Planetar[u]m aspectus radi[?] climatis variantum.[??]
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
+            </marginalia>
+            
+                <marginalia hand="Italian">
+                    <language ident="EN">
+                        <position place="left_margin" book_orientation="0">
+                            <marginalia_text>
+                               1698.
+                            </marginalia_text>
+                        </position>
+                    </language>
+        </marginalia>
         
         
         <underline method="pen" type="straight" language="LA" text="Saturno erit in signo masculino orientalis"/>
@@ -29,6 +90,9 @@
         <underline method="pen" type="straight" language="LA" text="sunt 1413."/>
         <underline method="pen" type="double" language="LA" text="Cum diuersisicantur"/>
         <underline method="pen" type="straight" language="LA" text="duo climata, diuersisicatur planetaru[m] aspectus &amp; eoru[m] radii."/>
+        
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
         
     </annotation>
 </transcription>
