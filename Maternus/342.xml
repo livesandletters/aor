@@ -3,18 +3,18 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="342.tif" reader="John Dee" signature="G 2"/> <!-- FSF: pagination missing -->
+    <page filename="342.tif" reader="John Dee" pagination="75" signature="G 2"/>
     <annotation>
         
-        <mark name="bracket" method="chalk" place="right_margin"/>
-        <mark name="bracket" method="chalk" place="right_margin"/>
-        <mark name="vertical_bar" method="chalk" place="right_margin"/>
-        <mark name="vertical_bar" method="chalk" place="right_margin"/>
-        <mark name="bracket" method="chalk" place="right_margin"/>
-        <mark name="bracket" method="chalk" place="right_margin"/>
-        <mark name="bracket" method="chalk" place="right_margin"/>
-        <mark name="dash" method="chalk" place="right_margin"/> <!-- FSF: for the last, there is also the option of a triple dash -->
-        <mark name="dash" method="chalk" place="right_margin"/> <!-- FSF: all these are in red, for which there is the section colour in the mark tag -->
+        <mark name="bracket" method="chalk" place="right_margin" colour="red"/>
+        <mark name="bracket" method="chalk" place="right_margin" colour="red"/>
+        <mark name="vertical_bar" method="chalk" place="right_margin" colour="red"/>
+        <mark name="vertical_bar" method="chalk" place="right_margin" colour="red"/>
+        <mark name="bracket" method="chalk" place="right_margin" colour="red"/>
+        <mark name="bracket" method="chalk" place="right_margin" colour="red"/>
+        <mark name="bracket" method="chalk" place="right_margin" colour="red"/>
+        <mark name="triple_dash" method="chalk" place="right_margin" colour="red"/>
+        <mark name="triple_dash" method="chalk" place="right_margin" colour="red"/>
 
     </annotation>
 </transcription>
