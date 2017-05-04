@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="038.tif" reader="John Dee" pagination="14" signature="[B j.[v]]"/>
+    <annotation>
+        
+        <marginalia hand="Italian" anchor_text="Aeneas">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>
+                        Vide omnino co[m]me[n]taria Seruij in A[E]neida virgilij
+                    </marginalia_text>
+                    <person name="Virgil"/>
+                    <person name="Maurus Servius Honoratus"/>
+                    <book title="Aeneid"/>
+                    <book title="In Vergilii Aeneidem commentarii"/>
+                </position>
+            </language>
+            <translation>
+                See entirely [Maurus] Servius's [Honoratus] commentaries on Virgil's Aeneid.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Aliter , Dionysio Halicarnasseo
+                    </marginalia_text>
+                    <person name="DIonysus of Halicarnassus"/>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Hic condidit">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        dubito
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                I doubt [it].
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        .. liberis <!-- FSF: some disappears in the gutter -->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                
+            </translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="suscepit Ascanius"/>
+        <underline method="pen" type="straight" language="LA" text="Hic condidit"/>
+        <underline method="pen" type="straight" language="LA" text="Tiberim genuitq[ue]"/>
+        <underline method="pen" type="straight" language="LA" text="nepti Lauiniae"/>
+        
+        <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
+            <node id="n1" person="Anchiles"></node>
+            <node id="n2" person="Venus"></node>
+            <node id="n3" person="A[E]neas"></node>
+            <node id="n4" person="Creusa"></node>
+            <node id="n5" person="Lavinia"></node>
+            <node id="n6" person="Ascanius"></node>
+            <node id="n7" person="Sylui[us] Posthum[us]"></node>
+            <node id="n8" person="Syluius"></node>
+            <node id="n9" person="Lavinia[e] Nepes"></node>
+            <node id="n10" person="Brutus"></node>
+            <node id="n11" person="Innogen"></node>
+            <node id="n12" person="Locrinus"></node>
+            <node id="n13" person="Albanastus"></node>
+            <node id="n14" person="Camber"></node>
+            <link to="n3" from="n1 n2" relationship="has_child"/>
+            <link to="n7" from="n3 n5" relationship="has_child"/>
+            <link to="n6" from="n3 n4" relationship="has_child"/>
+            <link to="n8 n9" from="n6" relationship="has_child"/>
+            <link to="n10" from="n8 n9" relationship="has_child"/>
+            <link to="n12 n13 n14" from="n10 n11" relationship="has child"/>
+        </graph>
+        
+    </annotation>
+</transcription>
