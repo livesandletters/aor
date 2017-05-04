@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -24,12 +23,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Sed si tum p[ro]cessent p[er] circulu[m] minore[m], no[n] retinebu[n] angulos a[e]quales cu[m] meridianis <!-- FSF: to be checked -->  <!-- DO: Not sure about 'minore[m]' - it looks like there's an 'i' between the 'n' and 'o' - possibly 'maiorem' but looks like there's another letter in there. Also I think it must be 'retinebu[n]t' -->
+                        Sed si tum p[ro]cessent p[er] circulu[m] minore[m], no[n] retinebu[n]t angulos a[e]quales cu[m] meridianis <!-- FSF: to be checked -->  <!-- DO: Not sure about 'minore[m]' - it looks like there's an 'i' between the 'n' and 'o' - possibly 'maiorem' but looks like there's another letter in there -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->  <!-- DO: 'But if they then procede through a [greater] circle, they will not retain equal angles with the meridian'?? -->
+                But if they then procede through a [greater] circle, they will not retain equal angles with the meridian
             </translation>
         </marginalia>
 
@@ -45,7 +44,9 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        <mark name="plus_sign" method="pen" place="left_margin"/>   <!-- DO: Not completely sure but I think this and the figure next to it are 'I d' i.e. Dee's initials -->
+        <mark name="plus_sign" method="pen" place="left_margin"/>   
+        <!-- DO: Not completely sure but I think this and the figure next to it are 'I d' i.e. Dee's initials --> 
+        <!-- FSF: but why would the d be in lower case then? I am not sure what to do with the d, either way -->
 
     </annotation>
 </transcription>
