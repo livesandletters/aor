@@ -6,7 +6,6 @@
     <page filename="013.tif" reader="John Dee" pagination="7" signature="a 4"/>
     <annotation>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -15,7 +14,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Practice the mother of the arts.</translation>
+            <translation>Practice the mother of the arts.</translation> <!-- FSF: for this translation it would have to reat matrem; but I am not sure about what mr could stand for -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="indociles">
@@ -29,7 +28,7 @@
             <translation>Unteachable.</translation>
         </marginalia>
         
-        <!-- MB. Capture arrow with new sign. -->
+        <!-- MB. Capture arrow with new sign. --> <!-- FSF: is this not simply a bracket, given how it is used? -->
         <mark name="dash" method="pen" place="intext"/> <!-- scribendi -->
         <mark name="tripunctus" method="pen" place="right_margin"/>
         
