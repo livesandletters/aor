@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                Demonstration of the purpose.  <!-- DO: Demonstrations -->
+                Demonstrations of the purpose.
             </translation>
         </marginalia>
         
@@ -126,6 +126,19 @@
             </translation>
         </marginalia>
         
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        aiunt,
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                They say.
+            </translation>
+        </marginalia>
+        
         <underline method="pen" type="straight" language="LA" text="p[ro]pter quid.quib[us]"/>
         <underline method="pen" type="straight" language="LA" text="secretissima nature. exemplis mathematicalib[us]"/>
         <underline method="pen" type="straight" language="LA" text="in p[ri]mo m[od]o certitudinis"/>
@@ -149,22 +162,18 @@
         <mark name="comma" method="pen" place="intext"/> <!-- machina vnica -->
         <mark name="comma" method="pen" place="intext"/> <!-- gen[us] qua[n]titate[m] -->
         <mark name="comma" method="pen" place="intext"/> <!-- qua[n]titate[m] qua[m] -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- vt in seque[n]tib[us] patebit -->   <!-- DO: Brackets to be captured individually, in the same way as commas -->
-        <mark name="comma" method="pen" place="intext"/> <!-- introductoria q[ua] -->               <!-- DO: Can't find this one... -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- aristoteles vt -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- patebit m[u]lta -->
         
         <errata language="LA" copytext="philossophantes" amendedtext="philosophantes"/>
         <errata language="LA" copytext="." amendedtext=","/> <!-- imbuti atq[ue] -->
         <errata language="LA" copytext="p[ri]ncipys" amendedtext="p[ri]ncipijs"/>
         <errata language="LA" copytext="." amendedtext=","/> <!-- philosophantes secretissima -->
         <errata language="LA" copytext="." amendedtext=","/>  <!-- disciplia[m] hoc -->
-        <errata language="LA" copytext="." amendedtext=", aiunt,"/>                   <!-- DO: Think this should just be captured as marginal note -->
+        <errata language="LA" copytext="." amendedtext=","/>      
         <errata language="LA" copytext="." amendedtext=","/> <!-- ei[us] p[ri]us -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- mathematica o[mn]es -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- p[ro]fusus semi[n]auit -->
-                                                                                                  <!-- DO: Also there's some kind of correction to a word on line 14 ('p[rin]cipuo'?), but not sure what it is -->
-        
-        
-        
         
     </annotation>
 </transcription>

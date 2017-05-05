@@ -28,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                Aristotle cannot be understood fully except for his mathematical knowledge.  <!-- DO: I think it means 'Aristotle cannot be fully understood without mathematical knowledge'? The printed text: 'Who dares acknowledge Aristotle without mathematical understanding?' -->
+                Aristotle cannot be fully understood was it not for his mathematical knowledge.
             </translation>
         </marginalia>
         
@@ -55,7 +55,7 @@
                 </position>
             </language>
             <translation>
-                The writings of Alexander.
+                The writings of Andreas Alexander.
             </translation>
         </marginalia>
         
@@ -79,7 +79,10 @@
                         Ecclesia.
                     </marginalia_text>
                 </position>
-            </language>   <!-- DO: Translation needed -->
+            </language>
+            <translation>
+                The Church.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="divo Gregorio">
@@ -92,7 +95,7 @@
                 </position>
             </language>
             <translation>
-                Gregory of Nazianzus.  <!-- DO: Should just be translated as 'Gregory' -->
+                Gregory of Nazianzus.
             </translation>
         </marginalia>
         
@@ -132,7 +135,7 @@
         <underline method="pen" type="straight" language="LA" text="astrologia[m]"/>
         <underline method="pen" type="straight" language="LA" text="Boeti[us] ph[ilosoph]ie lumi[n]a, nu[m]q[uam] t[a]m[en] sapi[enti]e nom[en] adepti fuisse[n]t"/>
         <underline method="pen" type="straight" language="LA" text="se tu[n]c maxi[m]e ad summa[m] sapie[n]tia[m] p[er]uenisse. cu[m] ridicule [et] [pro]teruede bonis artibus: q[ua]s tu[m] primis adhuc labris non attigit indicauerit"/>
-        <underline method="pen" type="straight" language="LA" text="putare[n]t se ia[m] p[er]uennise"/> <!-- FSF: or p[re]uenisse -->
+        <underline method="pen" type="straight" language="LA" text="putare[n]t se ia[m] p[er]uennise"/>
         <underline method="pen" type="straight" language="LA" text="phi[losophi]e q[ua] esse docta, q[uam] videri malu[n]t"/>
         <underline method="pen" type="straight" language="LA" text="Om[n]es mathematicas demo[n]stratio[n]es Arestotelis"/>
         <underline method="pen" type="straight" language="LA" text="racionali"/>
@@ -147,8 +150,8 @@
         <mark name="dot" method="pen" place="intext"/> <!-- Egipcij Sine -->
         <mark name="comma" method="pen" place="intext"/> <!-- attigit indicauerit -->
         
-        <errata language="LA" copytext=":" amendedtext="?"/> <!-- mathematica[m] cu[m] -->  <!-- DO: Not sure if this is just part of the 'q' ligature above??? -->
-        <errata language="LA" copytext="." amendedtext=","/> <!-- obseruauit mirati -->      <!-- DO: With many of these (below), I can't really tell if they are altered full stops or just inserted commas... -->
+        <errata language="LA" copytext=":" amendedtext="?"/> <!-- mathematica[m] cu[m] -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- obseruauit mirati -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- indicauerit sua[m]que -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- doctissime ita -->
         <errata language="LA" copytext=":" amendedtext=","/> <!-- caues vt -->
@@ -156,7 +159,7 @@
         <errata language="LA" copytext=":" amendedtext=","/> <!-- potui Om[n]es -->
         <errata language="LA" copytext="Arestotelis" amendedtext="Aristotelis"/>
         <errata language="LA" copytext=":" amendedtext=","/> <!-- Arestotelis q[ua]s -->
-        <errata language="LA" copytext=":" amendedtext=","/> <!-- sit exacto -->  <!-- DO: Originally a full stop -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- sit exacto -->
         
     </annotation>
 </transcription>
