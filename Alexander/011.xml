@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="004.tif" reader="John Dee"/> 
+    <page filename="011.tif" reader="John Dee"/> 
     <annotation>
         
         <marginalia hand="Italian" other_reader="unknown" method="pencil">
@@ -28,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                Aristotle cannot be understood fully except for his mathematical knowledge.
+                Aristotle cannot be understood fully except for his mathematical knowledge.  <!-- DO: I think it means 'Aristotle cannot be fully understood without mathematical knowledge'? The printed text: 'Who dares acknowledge Aristotle without mathematical understanding?' -->
             </translation>
         </marginalia>
         
@@ -79,20 +79,20 @@
                         Ecclesia.
                     </marginalia_text>
                 </position>
-            </language>
+            </language>   <!-- DO: Translation needed -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="divo Gregorio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Gregorius
+                        Gregorius.
                     </marginalia_text>
                     <person name="Gregory of Nazianzus"/>
                 </position>
             </language>
             <translation>
-                Gregory of Nazianzus.
+                Gregory of Nazianzus.  <!-- DO: Should just be translated as 'Gregory' -->
             </translation>
         </marginalia>
         
@@ -105,7 +105,7 @@
                 </position>
             </language>
             <translation>
-                The disgraceful kind of pseudo-learned.
+                The disgraceful kind of the pseudo-learned.
             </translation>
         </marginalia>
         
@@ -130,24 +130,25 @@
         <underline method="pen" type="straight" language="LA" text="Musica[m]"/>
         <underline method="pen" type="straight" language="LA" text="loyca[m]"/>
         <underline method="pen" type="straight" language="LA" text="astrologia[m]"/>
-        <underline method="pen" type="straight" language="LA" text="Boeti[us] ph[ilosoph]ie lumi[n]a, n[m]q[uam] t[a]m[en] sapi[enti]e nom[en] adepti fuisse[n]t"/>
+        <underline method="pen" type="straight" language="LA" text="Boeti[us] ph[ilosoph]ie lumi[n]a, nu[m]q[uam] t[a]m[en] sapi[enti]e nom[en] adepti fuisse[n]t"/>
         <underline method="pen" type="straight" language="LA" text="se tu[n]c maxi[m]e ad summa[m] sapie[n]tia[m] p[er]uenisse. cu[m] ridicule [et] [pro]teruede bonis artibus: q[ua]s tu[m] primis adhuc labris non attigit indicauerit"/>
         <underline method="pen" type="straight" language="LA" text="putare[n]t se ia[m] p[er]uennise"/> <!-- FSF: or p[re]uenisse -->
         <underline method="pen" type="straight" language="LA" text="phi[losophi]e q[ua] esse docta, q[uam] videri malu[n]t"/>
         <underline method="pen" type="straight" language="LA" text="Om[n]es mathematicas demo[n]stratio[n]es Arestotelis"/>
         <underline method="pen" type="straight" language="LA" text="racionali"/>
+        <underline method="pen" type="straight" language="LA" text="naturali"/>
         <underline method="pen" type="straight" language="LA" text="morali"/>
         <underline method="pen" type="straight" language="LA" text="Lipsens[um] hec alioquin"/>
         <underline method="pen" type="straight" language="LA" text="Reliqua etia[m] p[ro]pe die[m] in luce[m] dabo"/>
-        <underline method="pen" type="straight" language="LA" text="Millesimo quinge[n]tesimoquarto.vndecimo Kale[n]das februarij"/>
+        <underline method="pen" type="straight" language="LA" text="Millesimo quinge[n]tesimoquarto. vndecimo Kale[n]das februarij"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- colueru[n]t Babilo[n]ia -->
         <mark name="dot" method="pen" place="intext"/> <!-- Egipcij Sine -->
         <mark name="comma" method="pen" place="intext"/> <!-- attigit indicauerit -->
         
-        <errata language="LA" copytext=":" amendedtext="?"/> <!-- mathematica[m] cu[m] -->
-        <errata language="LA" copytext="." amendedtext=","/> <!-- obseruauit mirati -->
+        <errata language="LA" copytext=":" amendedtext="?"/> <!-- mathematica[m] cu[m] -->  <!-- DO: Not sure if this is just part of the 'q' ligature above??? -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- obseruauit mirati -->      <!-- DO: With many of these (below), I can't really tell if they are altered full stops or just inserted commas... -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- indicauerit sua[m]que -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- doctissime ita -->
         <errata language="LA" copytext=":" amendedtext=","/> <!-- caues vt -->
@@ -155,7 +156,7 @@
         <errata language="LA" copytext=":" amendedtext=","/> <!-- potui Om[n]es -->
         <errata language="LA" copytext="Arestotelis" amendedtext="Aristotelis"/>
         <errata language="LA" copytext=":" amendedtext=","/> <!-- Arestotelis q[ua]s -->
-        <errata language="LA" copytext=":" amendedtext=","/> <!-- sit exacto -->
+        <errata language="LA" copytext=":" amendedtext=","/> <!-- sit exacto -->  <!-- DO: Originally a comma -->
         
     </annotation>
 </transcription>
