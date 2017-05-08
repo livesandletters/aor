@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="325.tif" reader="John Dee" pagination="301" signature="Cc"/>
+    <annotation>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        eius vxor fuit Juditha filia Caroli calui Imper. Cuspinianus <!-- FSF: I am not sure as to who these people are. Possibly Charles, the son of Charlemagne? -->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                His wife was Juditha, daughter of Charles
+            </translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="VVallenses cum Danis"/>
+        <underline method="pen" type="straight" language="LA" text="Aethelulfus"/>
+        <underline method="pen" type="straight" language="LA" text="Eadulfum"/>
+        <underline method="pen" type="straight" language="LA" text=".xx."/>
+        <underline method="pen" type="straight" language="LA" text="de regina sua"/>
+        <underline method="pen" type="straight" language="LA" text="Eadbaldus"/>
+        <underline method="pen" type="straight" language="LA" text="Aethelbertus"/>
+        <underline method="pen" type="straight" language="LA" text="non de matrimonio generatu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="omnia regna"/>
+        <underline method="pen" type="straight" language="LA" text="occidentalium Saxonum"/>
+        <underline method="pen" type="straight" language="LA" text="VVlfvvardus"/>
+        
+        <mark name="bracket" method="pen" place="right_margin"/>
+        
+        <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
+            <node id="n1" person="A[E]thelulfus"></node>
+            <node id="n2" person="Juditsa filia Caroli"></node>
+            <node id="n3" person="A[E]thelstanus"></node>
+            <node id="n4" person="Eadvaldus"></node>
+            <node id="n5" person="A[E]thelbertus"></node>
+            <node id="n6" person="A[E]thelredus"></node>
+            <node id="n7" person="A[E]lfridus"></node>
+            <link to="n1" from="n2" relationship="has_spouse"/>
+            <link to="n3 n4 n5 n6 n7" from="n1 n2" relationship="has_child"/>
+        </graph>
+        
+    </annotation>
+</transcription>
