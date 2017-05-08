@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="344.tif" reader="John Dee" pagination="320" signature="[Dd iiij[v]]"/>
+    <annotation>
+        
+        <underline method="pen" type="straight" language="LA" text="Hinguar"/>
+        <underline method="pen" type="straight" language="LA" text="Hubba"/>
+        <underline method="pen" type="straight" language="LA" text="fuisse Lothbrocum"/>
+        <underline method="pen" type="straight" language="LA" text="Humbertus"/>
+        <underline method="pen" type="straight" language="LA" text="Ceolnothus"/>
+        <underline method="pen" type="straight" language="LA" text="eos Gytro quidam"/>
+        
+        <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
+            <node id="n1" person="Lothbrocus" anchor_text="Lothbrocum"></node>
+            <node id="n2" person="Hinguar" anchor_text="Hinguar"></node>
+            <node id="n3" person="Hubba" anchor_text="Hubba"></node>
+            <link to="n2 n3" from="n1" relationship="has_child"/>
+        </graph>
+        
+    </annotation>
+</transcription>
