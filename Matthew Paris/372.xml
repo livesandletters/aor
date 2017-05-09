@@ -8,9 +8,9 @@
         
         <marginalia hand="Italian" anchor_text="Legecestriam">
             <language ident="EN">
-                <position place="tail" book_orientation="0">
+                <position place="tail" book_orientation="0"> <!--JG: Wrong position-->
                     <marginalia_text>
-                        Legecestria. <!-- FSF: possibly Leicester? -->
+                        Legecestria. <!-- FSF: possibly Leicester? --> <!--JG: http://faculty.arts.ubc.ca/sechard/hrb_ches.htm When you've found out, use location tag as well-->
                     </marginalia_text>
                 </position>
             </language>
@@ -21,11 +21,11 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="tail" book_orientation="0">
+                <position place="tail" book_orientation="0"> <!--JG: Wrong position-->
                     <marginalia_text>
                         J.D. 
                         Legecestria. forsam primu[m] Cefr[a]e Territoriu[m], erat illud. Wirhalia brachium. vel forsan hix intelligit in illa[m] siluosa lege affrens ditonis parte[m] qua[e] d[ice]r[e] Wirhalias etc <!-- FSF: not sure -->
-                    </marginalia_text>
+                    </marginalia_text> <!-- JG: 'Cestrae' 'Wirhalia[e]', not sure about affrens, since two letters follow. 'astrensis' perhaps?-->
                     <person name="John Dee"/>
                 </position>
             </language>
@@ -36,9 +36,9 @@
         
         <marginalia hand="Italian">
             <language ident="EN">
-                <position place="tail" book_orientation="0">
+                <position place="tail" book_orientation="0"> 
                     <marginalia_text>
-                        The river of Lee that runs by Ware which by statuts (in quene Elizabeth her tyme made) shuld so brought to London
+                        The river of Lee that runs by Ware which by statuts (in quene Elizabeth her tyme made) shuld so brought to London <!--JG: 'statute'? Also, tag the names of the rivers and places by making use of the location tag!-->
                     </marginalia_text>
                     <person name="Elizabeth I of England"/>
                 </position>
