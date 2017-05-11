@@ -93,12 +93,13 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="" method="pen"> <!-- MB. Anchor text should be Raldulphus Torta? -->
+        <marginalia hand="Italian" anchor_text="filiu[m] suum" method="pen"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>filius Radulfi Torta[e]</marginalia_text>
-                    <person name="Rodolf Torta"/>    <!-- DO: Can't find out who his son is at the moment... --> 
-                    <!-- MB. I think it is Gautier (Walter) de Torta,  see: https://www.geni.com/people/Gautier-de-Torta-Bishop-of-Paris/6000000031859179867 -->
+                    <person name="Rodolf Torta"/> 
+                    <person name="Walter Torta"/>
+                    
                 </position>
             </language>
             <translation>The son of Rodolf Torta.</translation>
@@ -221,7 +222,7 @@
         <mark name="comma" method="pen" place="intext"/> <!-- Normannis intra -->
         
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        <!-- MB. Symbol underneath the tripunctus on the left margin needs to be captured. -->   
+       
         
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
             
