@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                Term.              <!-- DO: 'A common limit'? -->
+                Common term.              <!-- DO: 'A common limit'? -->
             </translation>
         </marginalia>
         
@@ -96,7 +96,7 @@
                 </position>
             </language>
             <translation>
-                Area.          <!-- DO: More like 'surface'? -->
+                Area.          <!-- DO: More like 'surface'? --> <!-- FSF: my impression is that superficies is a technical term for area -->
             </translation>
         </marginalia>
         
@@ -109,7 +109,7 @@
                 </position>
             </language>
             <translation>
-                Area.        <!-- DO: 'Plain'? I think 'superficies siue plana' is referring to specifically flat / 2D surfaces-->
+                Plain.
             </translation>
         </marginalia>
         
@@ -162,11 +162,11 @@
                 </position>
             </language>
             <translation>
-                Term.       <!-- DO: Not sure about translation. I'd say something like 'a physical structure'?? -->
+                A physical body.       <!-- DO: Not sure about translation. I'd say something like 'a physical structure'?? -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="termin[us]">     <!-- DO: I would anchor 'viginti a[ua]ttuor rectos' instead -->
+        <marginalia hand="Italian" anchor_text="viginti a[ua]ttuor rectos"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -188,7 +188,7 @@
                 </position>
             </language>
             <translation>
-                Term.          <!-- DO: 'Repletion of the place'? Not really sure how to translate... -->
+                Repletion of the place.
             </translation>
         </marginalia>
         
@@ -196,14 +196,14 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Particula corporis su[n]t corpora: vt line[a]e partes linea, na[m] nec ex punctis linea aut ex sup[er]ficiebus corpus.   <!-- DO: It looks like the word after 'partes' is 'linea[e]', which makes sense as a plural like 'corpora' -->
+                        Particula corporis su[n]t corpora: vt line[a]e partes linea[e], na[m] nec ex punctis linea aut ex sup[er]ficiebus corpus.
                         Vt est notissimu[m].
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The components of bodies are bodies, as parts of a line are a line, for a line does not derive from a line,   <!-- DO: So, 'the parts of a line are lines'.  Technically also 'the parts of a body'. Not sure about the end part, is it something like 'for a line does not derive from a point, or a body from surfaces'? Doesn't really make sense though... I'm also wondering if the printed text is perhaps using 'corpus' as 'structure' in general, hence the picture on the right?-->
-                nor a body from, as is most noteworthy
+                The components of bodies are bodies, as the parts of a line are lines, for a line does not derive from a line, nor a body from, as is most noteworthy  
+                <!-- DO: Technically also 'the parts of a body'. Not sure about the end part, is it something like 'for a line does not derive from a point, or a body from surfaces'? Doesn't really make sense though... I'm also wondering if the printed text is perhaps using 'corpus' as 'structure' in general, hence the picture on the right?-->
             </translation>
         </marginalia>
         
@@ -230,7 +230,9 @@
         
         <mark name="comma" method="pen" place="intext"/> <!-- mathematicis h[abe]ns -->
         
-        <numeral place="left_margin">.1.</numeral>          <!-- DO: I would say these are part of the marginal notes (from the ones that I can see)? -->
+        <numeral place="left_margin">.1.</numeral>          
+        <!-- DO: I would say these are part of the marginal notes (from the ones that I can see)? --> 
+        <!-- FSF: not sure; to me they seem like dividing the marginalia, so don't belongto one alone -->
         <numeral place="left_margin" >.2.</numeral>
         <numeral place="left_margin">.3.</numeral>
         
