@@ -15,7 +15,7 @@
             <translation>Poets.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="non propter historias mod&ograve;">
+        <marginalia hand="Italian" anchor_text="non propter historias mod&ograve;"> <!-- FSF: Because every single marginal note is beginning with capitals, I am not sure if it is Poetae historiae; but I am not sure at all, just a thought -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>historia[e]</marginalia_text>
@@ -70,14 +70,13 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="plus habet in recessu, qu&agrave;m fronte promittit"/>
-        <underline method="pen" type="straight" language="LA" text="rerum dicat propri&egrave;, &amp; copios&egrave;."/>
+        <underline method="pen" type="straight" language="LA" text="rerum dicat propri&egrave;, &amp; copios&egrave;"/>
         <underline method="pen" type="straight" language="LA" text="&amp; quae uel sola omni studiorum genere, plus habeat operis, qu&agrave;m ostentationis"/>
         
+        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/>
         
-        <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="bracket" method="pen" place="right_margin"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
-
