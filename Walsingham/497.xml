@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="497.tif" reader="John Dee" pagination="5" signature="Aiij"/> <!-- MB. Signature should be 'A.iij.' -->
+    <page filename="497.tif" reader="John Dee" pagination="5" signature="A.iij."/>
     <annotation>
         
         
@@ -32,11 +32,11 @@
         <marginalia hand="Italian" anchor_text="Gertrudem quam asportauerant &agrave; Brita[n]nia" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Gertrudis Brytanna: vt ve[?]</marginalia_text> <!-- DO: not sure of final word --> <!-- MB. Finding difficult to decipher the last word as well, 've' seems likely.  -->
+                    <marginalia_text>Gertrudis Brytanna: vt ve[?]</marginalia_text> <!-- DO: not sure of final word --> <!-- MB. Finding difficult to decipher the last word as well, 've' seems likely.  -->  <!-- DO: Perhaps 've[ro]' -->
                     <person name="Gertrude of Nivelles"/>
                 </position>
             </language>
-            <translation>British Gertrude: as</translation>
+            <translation></translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Franco Rotomagensis Archiepiscopus" method="pen">
@@ -176,12 +176,15 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Gemeticum"/>
-        <underline method="pen" type="straight" language="LA" text="sacram virginem"/> <!-- MB. I think you've missed' &agrave; Brita[n]nia' -->
+        <underline method="pen" type="straight" language="LA" text="sacram virginem"/>
+        <underline method="pen" type="straight" language="LA" text="&agrave; Brita[n]nia"/>
         <underline method="pen" type="straight" language="LA" text="capella S. Vedasti"/> 
         <underline method="pen" type="double" language="LA" text="super altare ponentes"/>
         <underline method="pen" type="straight" language="LA" text="ibidem"/>
         <underline method="pen" type="straight" language="LA" text="Sanctae Gertrudis"/>
-        <underline method="pen" type="straight" language="LA" text="aduentum Franco"/> <!-- MB. I think you've missed 'inter' and 'ad maenia'. -->
+        <underline method="pen" type="straight" language="LA" text="aduentum Franco"/>
+        <underline method="pen" type="straight" language="LA" text="inter"/>
+        <underline method="pen" type="straight" language="LA" text="propellunt ad maenia"/>
         <underline method="pen" type="straight" language="LA" text="totius Comitatus"/>
         <underline method="pen" type="double" language="LA" text="sorte eligentes"/>
         <underline method="pen" type="straight" language="LA" text="pacta fidelitate"/>
