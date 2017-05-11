@@ -4,11 +4,11 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="018.tif" reader="John Dee"/> 
+    <page filename="018.tif" reader="John Dee" signature="[Av[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="S[e]c[undu]m motu[m] an[te] firmu[m] et s[e]c[un]d[u]m modu[m] retro solidum 
-            S[e]c[un]d[u]m vero motu[m] dextru[m] spissum et s[e]c[un]d[u]m motu[m] sinistru[m] crassussinistru[m] ">
+        <marginalia hand="Italian" anchor_text="S[e]c[un]d[u]m motu[m] an[te] firmu[m] et s[e]c[un]d[u]m motu[m] retro solidum 
+            S[e]c[un]d[u]m vero motu[m] dextru[m] spissum et s[e]c[un]d[u]m motu[m] sinistru[m] crassussinistru[m]">   <!-- DO: Isn't the final contraction just 'crassu[m]'? -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -17,7 +17,7 @@
                 </position>
             </language>
             <translation>
-                Firm solid dense heavy.
+                Firm, solid, dense, heavy.
             </translation>
         </marginalia>
         
@@ -41,12 +41,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        positio. situs ordo. permanentia
+                        positio. situs. ordo. permanentia
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Position, places, order, permanence.
+                Position, places, order, permanence.      <!-- DO: 'situs' could be plural, but I'd probably go for singular as in the printed text ('situm') and like the other words in this list -->
             </translation>
         </marginalia>
         
@@ -64,7 +64,7 @@
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="sic ea que multitudini et magnitudini co[m]p[ar]ant[ur] 
-            ad aliquid respectiue qua[n]titatis dicunt[ur] et no[n] per se">
+            ad aliquid respectiue qua[n]titatis dicunt[ur] et no[n] p[er] se">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -73,7 +73,7 @@
                 </position>
             </language>
             <translation>
-                
+                                   <!-- DO: Not really sure how to translate; perhaps just the three terms separately, 'Quantity, by comparison, in itself', as they don't seem to make a sentence - they're just terms from the printed text ('by comparison of quantity and not in itself') -->
             </translation>
         </marginalia>
         
@@ -86,14 +86,12 @@
                 </position>
             </language>
             <translation>
-                like nothing of quantity is contrary.
+                Like nothing of quantity is contrary.
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="nullam linea[m] esse sitam in diuersis superficiebus nec vna[m] sup[er]ficie[m] i[n] diuersis sorporibus. nec vnu[m] corpus in diuersis locis"/>
-        <underline method="pen" type="straight" language="LA" text="nu[m]erus"/>
-        <underline method="pen" type="straight" language="LA" text="tempus"/>
-        <underline method="pen" type="straight" language="LA" text="et motus"/>
+        <underline method="pen" type="straight" language="LA" text="nullam linea[m] esse sitam in diuersis superficiebus nec vna[m] sup[er]ficie[m] i[n] diuersis corporibus. nec vnu[m] corpus in diuersis locis"/>
+        <underline method="pen" type="straight" language="LA" text="est nu[m]erus tempus et motus"/>
         <underline method="pen" type="straight" language="LA" text="neq[ue] p[er]manetia[m]"/>
         <underline method="pen" type="straight" language="LA" text="autem d[iffe]r[enti]a mathematice loque[n]do inter"/>
         <underline method="pen" type="double" language="LA" text="positione[m] situm et ordinem"/>
@@ -101,7 +99,7 @@
         <underline method="pen" type="straight" language="LA" text="na[m] situs e[st] habentiu[m] locum p[er] p[ri]mu[m] mediu[m] et postremu[m] s[e]c[un]d[u]m dime[n]siones siue dista[n]cias"/>
         <underline method="pen" type="straight" language="LA" text="et p[er]manentia[m] p[ar]tiu[m]"/>
         <underline method="pen" type="straight" language="LA" text="quid sit habere p[er]mane[n]tiam et situm"/>
-        <underline method="pen" type="straight" language="LA" text="aliquid respctiue que=a[n]titatis dicunt[ur] et no[n] p[er] se"/>
+        <underline method="pen" type="straight" language="LA" text="aliquid respectiue qua[n]titatis dicunt[ur] et no[n] p[er] se"/>
         <underline method="pen" type="straight" language="LA" text="qua[n]titati per se nihil"/>
         <underline method="pen" type="straight" language="LA" text="qua[n]titate[m] per se hoc est sub formis que essencialit[er] sunt qua[n]titates vt"/>
         
@@ -111,6 +109,10 @@
         <mark name="comma" method="pen" place="intext"/> <!-- firmu[m] et -->
         <mark name="comma" method="pen" place="intext"/> <!-- loco et -->
         <mark name="comma" method="pen" place="intext"/> <!-- esse alia -->
+        
+        <!-- DO: Have the commas at 'dista[n]cias et' (about halfway down the page, left-hand side) and 'dices s[e]c[un]d[u]m' (10 lines up from the bottom) been added by Dee?  -->
+        
+        
         
     </annotation>
 </transcription>
