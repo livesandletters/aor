@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="513.tif" reader="John Dee" pagination="21" signature="Ciij"/> 
-    
     <annotation>
         
         <marginalia hand="Italian" method="pen">
@@ -18,7 +16,6 @@
             <translation>Note: The parts of Burgundy [ The majority being a duchy; the minority across the Saone being a county.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Landricum Niuernensem" method="pen">
             <language ident="LA">
                 <position place="head" book_orientation="0">
@@ -29,7 +26,6 @@
             <translation>Landry. Count of Nevers.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="proditorem cum vxore propria patibulo suspendi iussit" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -39,7 +35,6 @@
             </language>
             <translation>Walter and his wife strung up.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Robertum filiu[m] suu[m] ducatui subrogauit" method="pen">
             <language ident="LA">
@@ -52,7 +47,6 @@
             <translation>Robert, the son of Robert, King of the Franks, becomes Duke.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Rainaldus trans Aone fluuium Burgundionum Comes" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -63,28 +57,25 @@
             <translation>Reginald, Count of Burgundy across the Saone.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="comite Cabilonensi, Hugone nomine" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Hugo Comes Cabilionensis [est] de Chalon.</marginalia_text>
+                    <marginalia_text>Hugo Comes Cabilionensis [est] de Chalon.</marginalia_text> <!-- FSF; the abbreviation is [id est], isn't it? -->
                     <person name="Hugh, Count of Burgundy "/>
                 </position>
             </language>
             <translation>Hugh, Count of Cabilionensis [is] Hugh de Chalon.</translation>  <!-- DO: Not sure how best to tanslate, as Cabilionensis is the Latin name for Chalon. It would seem odd to have them both as 'Chalon' in the translation -->
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="castrumq[ue] Menwaldum" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Menwaldt castru[m]</marginalia_text>   
-                    <location name="Mainvault"/>   <!-- DO: Not completely sure if this is the correct place -->
+                    <location name="Mainvault"/>   <!-- DO: Not completely sure if this is the correct place --> <!-- FSF: not sure either, but it would be in the historical location of Burgundy -->
                 </position>
             </language>
-            <translation>Mainvault camp.</translation>
+            <translation>Mainvault camp.</translation> <!-- FSF: I would translate it as castle not camp -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="vrbem Cabilonensem" method="pen">
             <language ident="EN">
@@ -95,7 +86,6 @@
             </language>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="ferens equestrem sellam in humeris genibus prouolutus adolescentis Richardi" method="pen">
             <language ident="FR">
                 <position place="right_margin" book_orientation="0">
@@ -104,7 +94,6 @@
             </language>
             <translation>So that Richard could ride it if he wanted to. Liber Gallicus.</translation>  <!-- DO: 'Liber Gallicus' presumably an external reference - not sure which book though -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="suo ducatui praefecit" method="pen">
             <language ident="LA">
@@ -129,16 +118,14 @@
             <translation>His sons.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="illi debitum persolueret" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>fratri: Richardus.</marginalia_text> 
-                </position>
+                </position> <!-- FSF: shouldn't he be tagged as him https://en.wikipedia.org/wiki/Richard_III,_Duke_of_Normandy -->
             </language>
             <translation>To his brother: Richard.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Robertu[m] comitatui Oxunensi" method="pen">
             <language ident="LA">
@@ -151,16 +138,14 @@
             <translation>Robert becomes Count of Hiemois.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="1026" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>A[nn]&o_super; 1026.</marginalia_text>
+                    <marginalia_text>A[nn]&o_super; 1026.</marginalia_text> <!-- FSF: I would just write A[nn]o -->
                 </position>
             </language>
             <translation>In the year 1026.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="proditorem cum vxore propria"/>
         <underline method="pen" type="straight" language="LA" text="assueti hostes fugare Normanni, terga vertere nulli"/>
@@ -186,23 +171,17 @@
         <underline method="pen" type="straight" language="LA" text="paulisper superuixeat"/>
         
         <mark name="tripunctus" method="pen" place="head"/>
-        
         <mark name="tripunctus" method="pen" place="left_margin"/>
-       
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- opinione Rainaldus -->
+        <!-- FSF: in line 18 there is another comma between comite Cabilonensi -->
+        <!-- FSF: in line 19 there is another comma between nomine and dolo -->
         
         <errata language="LA" copytext="superuixeat" amendedtext="superuixerat"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
         <!-- DO: Drawing of horse saddle in left margin -->
-        
-        
-        
-        
-        
+
     </annotation>
-    
 </transcription>
