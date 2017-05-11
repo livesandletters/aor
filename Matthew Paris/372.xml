@@ -8,10 +8,11 @@
         
         <marginalia hand="Italian" anchor_text="Legecestriam">
             <language ident="EN">
-                <position place="tail" book_orientation="0"> <!--JG: Wrong position-->
+                <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Legecestria. <!-- FSF: possibly Leicester? --> <!--JG: http://faculty.arts.ubc.ca/sechard/hrb_ches.htm When you've found out, use location tag as well-->
+                        Legecestria.
                     </marginalia_text>
+                    <location name="Leicester"/>
                 </position>
             </language>
             <translation>
@@ -21,16 +22,17 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="tail" book_orientation="0"> <!--JG: Wrong position-->
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         J.D. 
-                        Legecestria. forsam primu[m] Cefr[a]e Territoriu[m], erat illud. Wirhalia brachium. vel forsan hix intelligit in illa[m] siluosa lege affrens ditonis parte[m] qua[e] d[ice]r[e] Wirhalias etc <!-- FSF: not sure -->
-                    </marginalia_text> <!-- JG: 'Cestrae' 'Wirhalia[e]', not sure about affrens, since two letters follow. 'astrensis' perhaps?-->
+                        Legecestria. forsam primu[m] Cestr[a]e Territoriu[m], erat illud. Wirhaliae brachium. vel forsan hix intelligit in illa[m] siluosa lege astrensis ditonis parte[m] qua[e] d[ice]r[e] Wirhalias etc 
+                    </marginalia_text>
                     <person name="John Dee"/>
+                    <location name="Leicester"/>
                 </position>
             </language>
             <translation>
-                
+                Leicester, pirhaps first 
             </translation>
         </marginalia>
         
@@ -38,9 +40,11 @@
             <language ident="EN">
                 <position place="tail" book_orientation="0"> 
                     <marginalia_text>
-                        The river of Lee that runs by Ware which by statuts (in quene Elizabeth her tyme made) shuld so brought to London <!--JG: 'statute'? Also, tag the names of the rivers and places by making use of the location tag!-->
+                        The river of Lee that runs by Ware which by statute (in quene Elizabeth her tyme made) shuld so brought to London
                     </marginalia_text>
                     <person name="Elizabeth I of England"/>
+                    <location name="Lea"/>
+                    <location name="Ware"/>
                 </position>
             </language>
         </marginalia>
