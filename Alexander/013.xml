@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                11 distinctions of continued quantities.     <!-- DO: 'quantitatis' singular - 'a continuous quantity'? -->
+                11 distinctions of a continuous quantity.
             </translation>
         </marginalia>
         
@@ -37,7 +37,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Quatuor famosa[e] distinctio[n]es numeri.   <!-- DO: Capital 'N'? -->
+                        Quatuor famosa[e] distinctio[n]es Numeri.
                     </marginalia_text>
                 </position>
             </language>
@@ -76,12 +76,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Mathematicus no[n] demo[n]strat principa no[n] ideo q[uod] co[mmun]ia su[n]t sed ob alia[m] causa[m].       <!-- DO: 'Principia' -->
+                        Mathematicus no[n] demo[n]strat principia no[n] ideo q[uod] co[mmun]ia su[n]t sed ob alia[m] causa[m].
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                A mathematician does not demonstrate principles, not for the reason that they are common, but for other reasons. <!-- FSF: to be returned to --> <!-- DO: This seems correct to me, though 'causam' is singular -->
+                A mathematician does not demonstrate principles, not for the reason that they are common, but for another reason.
             </translation>
         </marginalia>
         
@@ -94,7 +94,7 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->     <!-- DO: 'The whole quadrivium in sum'? -->
+                The whole quadrivium in sum.
             </translation>
         </marginalia>
         
@@ -102,14 +102,30 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        De continuo vndecim libri Euclidis <!-- deleted: hysiclis/hysictis puta[n]tur -->   <!-- DO: Can be captured as '[hysiclis/hysictis puta[n]tur deleted]'. I'm assuming it's 'hysiclis', as this comes up in relation to Euclid and Alexander when searched, though I don't know what it means... -->
-                        De Numeris quatuor: qui[n]dicem o[mn]es su[n]t. Ciuiliter                           <!-- DO: I would capture 'Ciuiliter' as a separate note, anchoring this word in the printed text -->
+                        De continuo vndecim libri Euclidis [hysiclis/hysictis puta[n]tur deleted] <!-- deleted: hysiclis/hysictis puta[n]tur -->   
+                        <!-- DO: I'm assuming it's 'hysiclis', as this comes up in relation to Euclid and Alexander when searched, though I don't know what it means... -->
+                        <!-- FSF: see used also here https://www.rootenbergbooks.com/images/upload/cat319_2.pdf -->
+                        De Numeris quatuor: qui[n]dicem o[mn]es su[n]t.                           
                     </marginalia_text>
                     <person name="Euclid"/>
                 </position>
             </language>
             <translation>
                 <!-- FSF: to be added -->   <!-- DO: Not sure how to translate either -->
+                About the four numbers, there are fifteen in total.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ciuiliter">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Ciuiliter
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Civilly.
             </translation>
         </marginalia>
         
@@ -188,7 +204,7 @@
                 </position>
             </language>
             <translation>
-                A metaphysician reveals the causes. <!-- FSF: not sure about mathematum -->
+                A metaphysician reveals the causes of mathematics.
             </translation>
         </marginalia>
         
@@ -229,7 +245,8 @@
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- q[ue] qua[m] -->
         <mark name="comma" method="pen" place="intext"/> <!-- est no[n] -->
-        <mark name="plus_sign" method="pen" place="intext"/>                         <!-- DO: Circumflex (under the inserted 'et') also needs to be captured -->
+        <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>
         
         <errata language="LA" copytext="." amendedtext=","/> <!-- mediate In -->
 
