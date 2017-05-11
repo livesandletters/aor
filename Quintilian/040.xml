@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="040.tif" reader="John Dee" pagination="34" signature="[C[v]]"/>
+    <page filename="040.tif" reader="John Dee" pagination="34" signature="[c[v]]"/>
     <annotation>
         
         <marginalia hand="Italian">
@@ -39,7 +39,7 @@
                     <marginalia_text>Mappa</marginalia_text>
                 </position>
             </language>
-            <translation>napkin.</translation>
+            <translation>Napkin.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="gurdos">
@@ -48,7 +48,7 @@
                     <marginalia_text>Gurdi</marginalia_text>
                 </position>
             </language>
-            <translation>Idiot.</translation>
+            <translation>Idiot.</translation> <!-- FSF: isn't this plural? -->
         </marginalia>
         
         
@@ -61,9 +61,8 @@
             <translation>Roman speech.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="licet omnia Italica pro Romanis"/>
-        <underline method="pen" type="straight" language="LA" text="maxima ex parte Romanus inde conuersus est."/>
+        <underline method="pen" type="straight" language="LA" text="maxima ex parte Romanus inde conuersus est"/>
         <underline method="pen" type="straight" language="LA" text="Nunc recentiores instituerunt, Graecis nominibus Graecas declinationes potius dare: quod tamen ipsum"/>
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
@@ -71,4 +70,3 @@
         
     </annotation>
 </transcription>
-
