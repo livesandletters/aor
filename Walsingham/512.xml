@@ -3,13 +3,13 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="512.tif" reader="John Dee" pagination="20"/> <!-- FSF: signature missing [C.ij.[v]] -->
+    <page filename="512.tif" reader="John Dee" pagination="20" signature="[C.ij.[v]]"/>  
     <annotation>
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>liber gallicus</marginalia_text>  <!-- DO: External reference? -->
+                    <marginalia_text>liber gallicus</marginalia_text>  <!-- DO: External reference needed -->
                 </position>
             </language>
             <translation></translation>
@@ -25,8 +25,7 @@
                     <location name="Tillieres"/>
                 </position>
             </language>
-            <translation>And so Dreux, which had been used to the custom of Normandy, was changed to the French custom, and Tillieres, which was of the French custom, was changed to the custom of Normandy.</translation>
-            <!-- FSF: to be more literal, I wouldn't translate something like ... Dreux where people had been used to the custom; but I am not sure if that is actually better, if it sounds okay in English... -->
+            <translation>And so Dreux, where people had been used to the custom of Normandy, was changed to the French custom, and Tillieres, which was of the French custom, was changed to the custom of Normandy.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
@@ -41,11 +40,12 @@
         <marginalia hand="Italian" anchor_text="castrum Doli; Salemone aduocato" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Salomon, advocatus Doli Castri.</marginalia_text>  <!-- DO: Haven't identified this person yet... --> 
-                    <!-- FSF: I think it is him https://en.wikipedia.org/wiki/Salomon,_King_of_Brittany; for the castle of Dol, see also https://en.wikipedia.org/wiki/Duchy_of_Dol-Combourg -->
+                    <marginalia_text>Salomon, advocatus Doli Castri.</marginalia_text>
+                    <person name="Salomon, King of Brittany"/>
+                    <location name="Dol-de-Bretagne"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Salomon, an advocate of Dol Castle.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Rex autem Francorum Robertus" method="pen">
@@ -71,7 +71,8 @@
         <marginalia hand="Italian" anchor_text="Dorocasinum" method="pen">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Dreux</marginalia_text> <!-- FSF: shouldn't the location be added -->
+                    <marginalia_text>Dreux</marginalia_text>
+                    <location name="Dreux"/>
                 </position>
             </language>
         </marginalia>
@@ -85,7 +86,7 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Richardus" method="pen"> <!-- FSF: maybe to be add to the anchor text: quandam sororem Iudith nomine [...] in connubium petijt per legatos -->
+        <marginalia hand="Italian" anchor_text="quandam sororem Iudith nomine, corpore elegantem, omniq[ue] morum honestate pollentem, hanc in connubium petijt per legatos" method="pen"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Richardi secundi nuptia[e]</marginalia_text>  
@@ -95,7 +96,7 @@
             <translation>The nuptials of Richard the Second.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Iudith; Michaelis Archangeli" method="pen"> <!-- FSF: for the anchor text, I would go: ad limina Michaelis Archangeli, vbi dux illam suscipiens cu[m] honore, eam sibi iunxit legitimo iure -->
+        <marginalia hand="Italian" anchor_text="ad limina Michaelis Archangeli, vbi dux illam suscipiens cu[m] honore, eam sibi iunxit legitimo iure" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Nuptia[e] Ducis et Iudith apud S[anctus] Michaele[m] Arch[angelum]</marginalia_text>
@@ -181,7 +182,7 @@
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
             
             <node id="n1" person="Richard II, Duke of Normandy">Richardus Secundus Dux N[orthmanniae]</node>
-            <node id="n2" person="Judith of Brittany" anchor_text="">Iudith</node>
+            <node id="n2" person="Judith of Brittany">Iudith</node>
             <node id="n3" person="Geoffrey I, Duke of Brittany">Galfredus</node>
             <node id="n4" person="Richard III, Duke of Normandy">Richardus</node>
             <node id="n5" person="Robert I, Duke of Normandy">Robertus</node>
