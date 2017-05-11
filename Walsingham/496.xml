@@ -19,7 +19,7 @@
         <marginalia hand="Italian" anchor_text="Lituis" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Lituis</marginalia_text>  <!-- DO: I can't identify this location -->
+                    <marginalia_text>Lituis</marginalia_text>  <!-- DO: I can't identify this location, possibly https://en.wikipedia.org/wiki/Litteau just going by the name -->
                 </position>
             </language>
             <translation></translation>
@@ -33,7 +33,7 @@
                     <location name="Friesland"/>
                 </position>
             </language>
-            <translation>Bjorn arrived on his return to Frisia.</translation> <!-- DO: not sure about this translation --> <!--JG: 'It should be 'died' instead of 'arrived'-->
+            <translation>Bjorn died on his return to Frisia.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Carolum simplicem regem Francorum" method="pen">
@@ -145,6 +145,8 @@
         
         
         <mark name="comma" method="pen" place="intext"/>  <!-- Hastingus Bier -->
+        
+        <mark name="comma" method="pen" place="intext"/>  <!-- Lituis vento -->
             
         <mark name="comma" method="pen" place="intext"/>  <!-- impellente deuoluitur -->
         
