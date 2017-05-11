@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="498.tif" reader="John Dee" pagination="6"/>  <!-- MB. Verso signature missing. -->
+    <page filename="498.tif" reader="John Dee" pagination="6" signature="[A.iij.[v]]"/> 
     <annotation>
         
         
@@ -84,6 +84,7 @@
                     <marginalia_text>Walterius Ep[iscop]us.</marginalia_text>
                     <person name="Bishop Walter"/>   <!-- DO: I can't identify this person --> 
                     <!-- MB. Perhaps 'Walterius Rofensis episcopus' see https://books.google.co.uk/books?id=Wyk250eKP_wC&pg=PA84&dq=walterius+rofensis&hl=en&sa=X&ved=0ahUKEwjXxcKDpIvTAhXFBBoKHe6zCrwQ6AEIHjAA#v=onepage&q=walterius%20rofensis&f=false -->
+                    <!-- DO: I think he's too late (https://en.wikipedia.org/wiki/Walter_(bishop_of_Rochester)); might be this person or his uncle: https://en.wikipedia.org/wiki/Walter_(archbishop_of_Sens) -->
                 </position>
             </language>
             <translation>Bishop Walter</translation>
@@ -126,10 +127,11 @@
         <marginalia hand="Italian" anchor_text="sanctum Clerum" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>S[anc]t[us] Cler[us]</marginalia_text>  <!-- DO: not sure if this is the name of a Saint -->
+                    <marginalia_text>S[anc]t[us] Cler[us]</marginalia_text> 
+                    <location name="Saint-Clair-sur-Epte"/>
                 </position>
             </language>
-            <translation>The holy clergy.</translation>
+            <translation>Saint-Clair-sur-Epte.</translation>
         </marginalia>
         
         
@@ -239,10 +241,10 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Ep[iscop]us s. var, fuga elapsu[m] no[n] rep[ie]nctes </marginalia_text>  <!-- DO: Not really sure about any of these words -->
+                    <marginalia_text>Ep[iscop]us s. var, fuga elapsu[m] no[n] rep[er]ie[n]tes </marginalia_text>  <!-- DO: Not really sure about this, or the translation -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>[??] not realising their escape.</translation>
         </marginalia>
         
         
