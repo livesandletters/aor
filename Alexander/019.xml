@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="019.tif" reader="John Dee"/> 
+    <page filename="019.tif" reader="John Dee" signature="[Avi[v]]"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="magnu[m] vel paruu[m]. multu[m] vel paucu[m]">
@@ -42,12 +42,12 @@
                 </position>
             </language>
             <translation>
-                Often and often within a number.
+                Often and often within a number.        <!-- DO: I'm not sure about this translation; I think 'multiplex' is more like 'manifold' and then 'submultiplex' is something weird like 'internally manifold', but really I think they can probably just be left as 'multiplex' and 'submultiplex' -->
             </translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="Et sic dicim[us] duos nu[m]eros versari p[ro]portionu[m] ducem et comitem">
+        <marginalia hand="Italian" anchor_text="Et sic dicim[us] duos nu[m]eros versari p[ro]portione ducem et comitem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -56,17 +56,17 @@
                 </position>
             </language>
             <translation>
-                Leader and follower of proportions. <!-- FSF: I am not sure what this is referring to -->
+                Leader and follower of proportions. <!-- FSF: I am not sure what this is referring to -->  <!-- DO: I think this translation is correct -->
             </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text= "Hic declarat q[uod] vnu[m]quodq[ue] eoru[m] q[ua] nu[m]eram[us] seu me[n]suram[us] significa[n]t
             q[uan]titates sub formis q[ua] essencialit[er] sunt qua[n]titates. multu[m] vero et paucum. si[mi]liter magnu[m] [et] paruu[m]
-            no[m]i[n]a no[n] significa[n]t q[uan]titates principalit[er] sed qliq[ui]d circa qua[n]titate[m]">
+            no[m]i[n]a no[n] significa[n]t q[uan]titates principalit[er] sed qliq[ui]d circa qua[n]titate[m]">  <!-- DO: I would just anchor the final sentence here -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Significare{qua[n]titatem aliq[ui]d circa qua[n]titate[m]
+                        Significare {qua[n]titatem aliq[ui]d circa qua[n]titate[m]
                     </marginalia_text>
                 </position>
             </language>
@@ -76,9 +76,14 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="quis qua[n]titatib[us] p[er]"/>
-        <underline method="pen" type="straight" language="LA" text="dicunt[u] sc[ilicet] forme circa qua[n]ta"/>
+        <underline method="pen" type="straight" language="LA" text="dicunt[ur] sc[ilicet] forme circa qua[n]ta"/>
         <underline method="pen" type="straight" language="LA" text="eoru[m] q[uae] nu[m]eram[us] seu me[n]suram[us] significa[n]t q[uan]titates sub formis q[uae] essencialit[er] sunt qua[n]titates. multu[m]"/>
         <underline method="pen" type="straight" language="LA" text="sed aliq[ui]d circa qua[n]titate[m]"/>
+        
+        
+        <!-- DO: Marks need to be captured - I think there are: equals signs line 2 and then about halfway down the page; a comma seven lines up from the bottom ('no[m]i[n]a no[n]') and an altered full stop in the same line -->
+                                             <!-- I also think Dee has restored a letter in 'submultiplice[m]' (halfway down, right hand side), which can be captured using the errata tag  -->                                   
+        
         
     </annotation>
 </transcription>
