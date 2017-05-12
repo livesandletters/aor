@@ -20,7 +20,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="quod p[re]dicti termini s[e]c[un]d[u]m q[uod] in co[n]creto sunt posicionem co[n]plectitur">
+        <marginalia hand="Italian" anchor_text="quod p[re]dicti termini s[e]c[un]d[u]m q[uod] in co[n]creto sunt posicionem co[n]cernu[n]t">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,11 +29,11 @@
                 </position>
             </language>
             <translation>
-                Concrete terms.
+                Concrete terms.    <!-- DO: As before, I'd perhaps suggest 'boundaries' or 'limits' for 'termini'... -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Forma autem in eius sub stancialis qualitas est">
+        <marginalia hand="Italian" anchor_text="Forma autem in eius sub stancialis qualitas est">  <!-- DO: Assuming 'substancialis' is one word spread over two lines? -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -59,7 +59,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Can anchor 'forma trigoni' and 'figura trigoni' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -72,30 +72,29 @@
             </translation>
         </marginalia>
         
+        <underline method="pen" type="straight" language="LA" text="intra ad"/>
         <underline method="pen" type="straight" language="LA" text="substantialem"/>
-        <underline method="pen" type="straight" language="LA" text="extra ad"/>
-        <underline method="pen" type="straight" language="LA" text="ab intus est forma q[uae] substancialis"/>
+        <underline method="pen" type="straight" language="LA" text="extra"/>
+        <underline method="pen" type="straight" language="LA" text="corporis ab intus est forma q[uae] substancialis dicitur"/>
         <underline method="pen" type="straight" language="LA" text="Nam curuu[m] significat substantia[m] curuitas v[er]o qualitate[m]. nam forma[m] eius substantialem in ea"/>
-        <underline method="pen" type="straight" language="LA" text="Est autem forma et figura a s[e]c[un]d[u]m esse vnu[m]. differunt aute[m] in hoc. Forma nam[que] inest
-            substantie s[e]c[un]d[u]m q[uod] qualis et figura s[u]b[stantia]e s[ecundu]m q[uod] quanta. Nam figura eterminus quantitatis et forma terminus materie"/>
+        <underline method="pen" type="straight" language="LA" text="extra. Est autem forma et figura s[e]c[un]d[u]m esse vnu[m]. differunt aute[m] in hoc. Forma namq[ue] inest
+            substantie s[e]c[un]d[u]m q[uod] qualis et figura s[u]b[stantia]e s[ecundu]m q[uod] quanta Nam figura terminus quantitatis et forma terminus materie"/>
         <underline method="pen" type="straight" language="LA" text="termini s[e]c[un]d[u]m q[uod] in co[n]creto sunt posicionem co[n]cernu[n]t"/>
-        <underline method="pen" type="straight" language="LA" text="et quod spissum est om[n]ibus motibus crporis co[n]plectitur"/>
+        <underline method="pen" type="straight" language="LA" text="et quod spissum est om[n]ibus motibus corporis co[n]plectitur"/>    <!-- DO: Not sure if the contraction is 'co[m]plectitur'? -->
         <underline method="pen" type="straight" language="LA" text="positionem"/>
         <underline method="pen" type="straight" language="LA" text="situm"/>
         <underline method="pen" type="straight" language="LA" text="permanentia[m]"/>
         <underline method="pen" type="straight" language="LA" text="a priori sunt"/>
-        <underline method="pen" type="straight" language="LA" text="soliditas"/>
-        <underline method="pen" type="straight" language="LA" text="spissitudo"/>
-        <underline method="pen" type="straight" language="LA" text="lenitas"/>
-        <underline method="pen" type="straight" language="LA" text="asperitas"/>
-        <underline method="pen" type="straight" language="LA" text="densitas"/>
+        <underline method="pen" type="straight" language="LA" text="soliditas spissitudo lenitas asperitas densitas"/>
         <underline method="pen" type="straight" language="LA" text="raritas"/>
-        <underline method="pen" type="straight" language="LA" text="forma"/>
-        <underline method="pen" type="straight" language="LA" text="figura trigoni sunt tres linee"/>
+        <underline method="pen" type="straight" language="LA" text="Nam forma"/>
+        <underline method="pen" type="straight" language="LA" text="figura trigoni sunt tres linee clause"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- quantitatis et -->
         <mark name="bracket" method="pen" place="right_margin"/>
+        
+        <!-- DO: Think there's a comma between 'substancialis qualitas', and a full stop changed into a comma at 'forme figura' (both towards the end of the middle paragraph) -->
         
         <!-- FSF: possibly there is a 1 in the right margin -->
         
