@@ -74,7 +74,7 @@
                     <location name="Mainvault"/>   <!-- DO: Not completely sure if this is the correct place --> <!-- FSF: not sure either, but it would be in the historical location of Burgundy -->
                 </position>
             </language>
-            <translation>Mainvault camp.</translation> <!-- FSF: I would translate it as castle not camp -->
+            <translation>Mainvault castle.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="vrbem Cabilonensem" method="pen">
@@ -122,7 +122,9 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>fratri: Richardus.</marginalia_text> 
-                </position> <!-- FSF: shouldn't he be tagged as him https://en.wikipedia.org/wiki/Richard_III,_Duke_of_Normandy -->
+                    <person name="Robert I, Duke of Normandy"/>
+                    <person name="Richard III, Duke of Normandy"/>
+                </position> 
             </language>
             <translation>To his brother: Richard.</translation>
         </marginalia>
@@ -173,9 +175,9 @@
         <mark name="tripunctus" method="pen" place="head"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        <mark name="comma" method="pen" place="intext"/>  <!-- opinione Rainaldus -->
-        <!-- FSF: in line 18 there is another comma between comite Cabilonensi -->
-        <!-- FSF: in line 19 there is another comma between nomine and dolo -->
+        <mark name="comma" method="pen" place="intext"/>  <!-- opinione Rainaldus -->   <!-- DO: Not sure if this is printed -->
+        <!-- FSF: in line 18 there is another comma between comite Cabilonensi -->  <!-- DO: Not sure about this one -->
+        <mark name="comma" method="pen" place="intext"/>  <!-- nomine dolo -->
         
         <errata language="LA" copytext="superuixeat" amendedtext="superuixerat"/>
         
