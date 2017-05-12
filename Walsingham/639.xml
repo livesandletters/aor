@@ -9,13 +9,12 @@
         <marginalia hand="Italian" anchor_text="dux Lancastriaa proponeret regnum Castellae vendicare">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Castella[e] vendicatio p[ro] Io[hanne] Duce La[n]c[astriae]</marginalia_text>  <!-- DO: Not sure about 'p[ro]' --> 
-                    <!-- FSF: it is p[er] not p[ro]; also per goes with accusative, so Iohannem Ducem, as indicated in caase of Duce[m] -->
+                    <marginalia_text>Castella[e] vendicatio p[er] Io[hannem] Duce[m] La[n]c[astriae]</marginalia_text>  
                     <person name="John of Gaunt"/>
                     <location name="Castile"/>
                 </position>
             </language>
-            <translation>The avenging of Castile for John, Duke of Lancaster.</translation>
+            <translation>The avenging of Castile by John, Duke of Lancaster.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Eodem tempore rex Portugaliae intoxicatus haustu laetifero, dolo reginae vitam finiuit"/>
@@ -33,7 +32,8 @@
         <underline method="pen" type="straight" language="LA" text="profectioni quicqua[m]"/>
         <underline method="pen" type="straight" language="LA" text="portum Geromiae"/>
         <underline method="pen" type="straight" language="LA" text="Rex Portugalia exspirat"/>
-        <!-- FSF: I think you forgot Dux Lancastria[e] regnum Histpania vendicat -->
+        <underline method="pen" type="straight" language="LA" text="Dux Lancastria regnum Hispania vendicat"/>
+        
 
         <mark name="bracket" method="pen" place="left_margin"/>
 
