@@ -8,7 +8,7 @@
     <annotation>
         
         <marginalia hand="Italian" anchor_text="S[e]c[un]d[u]m motu[m] an[te] firmu[m] et s[e]c[un]d[u]m motu[m] retro solidum 
-            S[e]c[un]d[u]m vero motu[m] dextru[m] spissum et s[e]c[un]d[u]m motu[m] sinistru[m] crassussinistru[m]">   <!-- DO: Isn't the final contraction just 'crassu[m]'? -->
+            S[e]c[un]d[u]m vero motu[m] dextru[m] spissum et s[e]c[un]d[u]m motu[m] sinistru[m] crassu[m]"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -46,7 +46,7 @@
                 </position>
             </language>
             <translation>
-                Position, places, order, permanence.      <!-- DO: 'situs' could be plural, but I'd probably go for singular as in the printed text ('situm') and like the other words in this list -->
+                Position, place, order, permanence. 
             </translation>
         </marginalia>
         
@@ -72,8 +72,9 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                                   <!-- DO: Not really sure how to translate; perhaps just the three terms separately, 'Quantity, by comparison, in itself', as they don't seem to make a sentence - they're just terms from the printed text ('by comparison of quantity and not in itself') -->
+            <translation>             
+                <!-- FSF: or Quantity by comparison thhough itself --> 
+                <!-- DO: Not really sure how to translate; perhaps just the three terms separately, 'Quantity, by comparison, in itself', as they don't seem to make a sentence - they're just terms from the printed text ('by comparison of quantity and not in itself') -->
             </translation>
         </marginalia>
         
@@ -109,10 +110,7 @@
         <mark name="comma" method="pen" place="intext"/> <!-- firmu[m] et -->
         <mark name="comma" method="pen" place="intext"/> <!-- loco et -->
         <mark name="comma" method="pen" place="intext"/> <!-- esse alia -->
-        
-        <!-- DO: Have the commas at 'dista[n]cias et' (about halfway down the page, left-hand side) and 'dices s[e]c[un]d[u]m' (10 lines up from the bottom) been added by Dee?  -->
-        
-        
+        <mark name="comma" method="pen" place="intext"/> <!-- dista[n]cias et -->
         
     </annotation>
 </transcription>
