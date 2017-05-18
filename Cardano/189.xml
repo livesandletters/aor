@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="189.tif" reader="John Dee"  pagination="85" signature="Y"/>
+    <annotation>
+        
+        <marginalia hand="English_secretary" anchor_text="filios">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Vnde de filiabus co[n]ijciemus?</marginalia_text>
+                </position>
+            </language>
+            <translation>From where do we conclude about the daughters?</translation> <!--JG: Unsure-->
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="fratres">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Vnde ia[m] colligemus sororum significatores?</marginalia_text>
+                </position>
+            </language>
+            <translation>From where do we collect the significators of the sisters now?</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Regula[e] pulolur[um]</marginalia_text> <!--JG: Unsure abt 'pulolurum'-->
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Id est, cu[m] de aliq[u]a significatio[n]e iudiciu[m] ferem[us] / debem[us] eius rei significatore[m]
+                    co[m]parare cu[m] suo dispositore et alijs planetis bonis et malis [etc].</marginalia_text> 
+                </position>
+            </language>
+            <translation>That is, when we consider a judgement about any signification, we ought to compare the significator of that matter
+            with its dispositor and with other planets, good and evil, et cetera.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Elegans Analogia.</marginalia_text> 
+                </position>
+            </language>
+            <translation>An elegant analogy.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="dominator">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>significator.</marginalia_text> 
+                </position>
+            </language>
+            <translation>Significator.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>Regula indicandi.</marginalia_text> 
+                </position>
+            </language>
+            <translation>Rule of indication.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="in tempore illo">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>in aliquo tempore</marginalia_text> 
+                </position>
+            </language>
+            <translation>In any time.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" >
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>Vide initiu[m] capitis</marginalia_text> 
+                </position>
+            </language>
+            <translation>See the beginning of the chapter.</translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="loco opposita luminariu[m], &amp; domini ascendentis nequaqua[m]"/>
+        <underline method="pen" type="straight" language="LA" text="filios"/>
+        <underline method="pen" type="straight" language="LA" text="dant fratres"/>
+        <underline method="pen" type="straight" language="LA" text="non ab ep qu&ograve;d fuit in genitura"/>
+        <underline method="pen" type="straight" language="LA" text="in tempore illo"/>
+        
+        <mark name="section_sign" method="pen" place="intext"/>
+        <mark name="section_sign" method="pen" place="intext"/>
+        <mark name="section_sign" method="pen" place="intext"/>
+        
+        <graph type="ramus_tree" book_orientation="0" place="tail" method="pen">
+            <node id="n1">Significatum fructuli</node>
+            <node id="n2" anchor_text="domini secundu[m] substantiam">D[omi]n[u]s secundu[m] sub[stanti]am</node>
+            <node id="n3" anchor_text="domini agri">D[omi]n[u]s agri</node>
+            <node id="n4" anchor_text="domini secundu[m] accidens">D[omi]n[u]s secundu[m] acc[ide]ns</node>
+            <node id="n5" anchor_text="colonum">Colonus</node> <!--JG: Not entirely sure, guess based on printed text-->
+            
+            <link to="n2" from="n1"/>
+            <link to="n3" from="n1"/>
+            
+            <link to="n4" from="n1"/>
+            <link to="n5" from="n1"/>
+            
+            <translation>The signification of the little fruit <!--JG: Unsure-->
+            The lord according to substance
+            The lord of the field
+            The lord according to circumstance
+            Farmer</translation>
+        </graph>
+        
+    </annotation>
+</transcription>
+
