@@ -4,9 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="524.tif" reader="John Dee" pagination="30" signature="Diij"/>
-    
-    
+    <page filename="524.tif" reader="John Dee" pagination="30" signature="[D.iij.[v]]"/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Alam in coniugem" method="pen">
@@ -21,8 +19,6 @@
             <translation>Adeliza, daughter of William, whom Harold was to marry.</translation>
         </marginalia>
         
-        
-        
         <marginalia hand="Italian" anchor_text="Clitone" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -33,7 +29,6 @@
             <translation>Aetheling.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Ciuitatem Excestriam sibi rebellem obsedit &amp; infregit" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -41,9 +36,8 @@
                     <location name="Exeter"/>
                 </position>
             </language>
-            <translation>The attack of Exeter.</translation>
+            <translation>The attack on Exeter.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="sorore[m] tuam"/>
         <underline method="pen" type="straight" language="LA" text="meam Alam in coniugem"/>
@@ -63,30 +57,20 @@
         <underline method="pen" type="straight" language="LA" text="monasteria totius Angliae perscrutari"/>
         <underline method="pen" type="straight" language="LA" text="ditiores Angli in eis deposuerant"/>
         
-        
         <mark name="bracket" method="pen" place="intext"/>  <!-- Osberni, quem -->
-        
         <mark name="bracket" method="pen" place="intext"/>  <!-- constituerat, custodes -->
-        
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        
         <mark name="tripunctus" method="pen" place="tail"/>
-        
-        
+
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
-            
             <node id="n1" person="Osbern the Steward">Osbernus</node>
             <node id="n2" person="William FitzOsbern">Gulielmus Comes Heref[ordiae]</node>
             <node id="n3" person="Roger de Breteuil">Rogerus</node>
             <node id="n4" person="Emma de Breteuil">filia</node>
-            
             <link to="n2" from="n1" relationship="has_child"/>
             <link to="n3" from="n2" relationship="has_child"/>
             <link to="n4" from="n2" relationship="has_child"/>
-            
         </graph>
         
     </annotation>
-    
-    
 </transcription>
