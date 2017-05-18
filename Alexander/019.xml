@@ -42,11 +42,10 @@
                 </position>
             </language>
             <translation>
-                Often and often within a number.        <!-- DO: I'm not sure about this translation; I think 'multiplex' is more like 'manifold' and then 'submultiplex' is something weird like 'internally manifold', but really I think they can probably just be left as 'multiplex' and 'submultiplex' -->
+                Multiplex submultiplex.
             </translation>
         </marginalia>
-        
-        
+
         <marginalia hand="Italian" anchor_text="Et sic dicim[us] duos nu[m]eros versari p[ro]portione ducem et comitem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -56,13 +55,11 @@
                 </position>
             </language>
             <translation>
-                Leader and follower of proportions. <!-- FSF: I am not sure what this is referring to -->  <!-- DO: I think this translation is correct -->
+                Leader and follower of proportions.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text= "Hic declarat q[uod] vnu[m]quodq[ue] eoru[m] q[ua] nu[m]eram[us] seu me[n]suram[us] significa[n]t
-            q[uan]titates sub formis q[ua] essencialit[er] sunt qua[n]titates. multu[m] vero et paucum. si[mi]liter magnu[m] [et] paruu[m]
-            no[m]i[n]a no[n] significa[n]t q[uan]titates principalit[er] sed qliq[ui]d circa qua[n]titate[m]">  <!-- DO: I would just anchor the final sentence here -->
+        <marginalia hand="Italian" anchor_text= "si[mi]liter magnu[m] [et] paruu[m] no[m]i[n]a no[n] significa[n]t q[uan]titates principalit[er] sed qliq[ui]d circa qua[n]titate[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -80,10 +77,10 @@
         <underline method="pen" type="straight" language="LA" text="eoru[m] q[uae] nu[m]eram[us] seu me[n]suram[us] significa[n]t q[uan]titates sub formis q[uae] essencialit[er] sunt qua[n]titates. multu[m]"/>
         <underline method="pen" type="straight" language="LA" text="sed aliq[ui]d circa qua[n]titate[m]"/>
         
+        <mark name="equal_sign" method="pen" place="right_margin"/> <!-- qua[n]titas -->
+        <mark name="equal_sign" method="pen" place="right_margin"/> <!-- dicunt[ur] -->
         
-        <!-- DO: Marks need to be captured - I think there are: equals signs line 2 and then about halfway down the page; a comma seven lines up from the bottom ('no[m]i[n]a no[n]') and an altered full stop in the same line -->
-                                             <!-- I also think Dee has restored a letter in 'submultiplice[m]' (halfway down, right hand side), which can be captured using the errata tag  -->                                   
-        
+        <errata language="LA" copytext="." amendedtext=","/> <!-- no[m]i[n]a no[n] -->
         
     </annotation>
 </transcription>
