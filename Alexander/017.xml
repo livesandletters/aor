@@ -15,7 +15,9 @@
                     </marginalia_text>
                 </position>
             </language>
-            <!-- FSF: I am not sure about corpulans -->   <!-- DO: Something along the lines of: 'Everything connecting through a method of continuation, it is inseparable.'? -->
+            <translation>
+                Everything connecting through a method of continuation, is inseparable.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="linee se tangu[n]t in punctis indiuisibilibus et sup[er]ficies lineis et corp[or]a sup[er]ficiebus et t[em]p[or]a instantaneis, et loca reple[n]dis corporib[us]"> <!-- FSF: not sure about tempora -->
@@ -27,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                Note that the place is in return touching the body that is to be completed.  <!-- DO: I'm not sure about the translation. Something like, 'Note that the places go back to meet themselves in order to complete the structures / by completing the structures'? I think he's basically saying that points are joined together (by lines), completing the shape. Not really sure how best to translate it though. Also, perhaps it should just be "translated" as 'loci', as below?  -->
+                Note that the places go back to meet themselves in order to complete the structures.
             </translation>
         </marginalia>
         
@@ -48,7 +50,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Temp[us] est Metaohysici    <!-- DO: Assuming this is a typo, 'Metaphysici'? -->
+                        Temp[us] est Metaphysici 
                     </marginalia_text>
                 </position>
             </language>
@@ -79,7 +81,7 @@
                 </position>
             </language>
             <translation>
-                Tangent.          <!-- DO: Plural? -->
+                Tangents.          
             </translation>
         </marginalia>
         
@@ -144,7 +146,7 @@
                 </position>
             </language>
             <translation>
-                To complete a place mathematically.         <!-- DO: Again, do you think all these instances of 'locum' refer to a (mathematical) locus? -->
+                To complete a place mathematically.         <!-- DO: Again, do you think all these instances of 'locum' refer to a (mathematical) locus? --> <!-- FSF: I am not sure about this! -->
             </translation>
         </marginalia>
         
@@ -161,7 +163,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="qui[n]q[ue] regularia">   <!-- DO: I would anchor 'positio p[ro]prie p[ar]tium mathematice' -->
+        <marginalia hand="Italian" anchor_text="positio p[ro]prie p[ar]tium mathematice">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -195,15 +197,19 @@
         <underline method="pen" type="straight" language="LA" text="q[uod] positio p[ro]prie p[ar]tium mathematice co[n]siderat[ur]"/>
 
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- est p[raese]ns -->           <!-- DO: Is there also an inserted comma between 'se et' (11 lines down)? -->
+        <mark name="comma" method="pen" place="intext"/> <!-- se et -->
+        <mark name="comma" method="pen" place="intext"/> <!-- est p[raese]ns -->     
         <mark name="comma" method="pen" place="intext"/> <!-- simul et -->
         <mark name="comma" method="pen" place="intext"/> <!-- instantaneis et -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- et no[n] phisicu[m] -->    <!-- DO: Brackets to be tagged individually, in the same way as commas -->  <!-- DO: Comma between 'diuiso s[e]c[un]d[ae]' (about halfway down, on the far right)? -->
-        <mark name="comma" method="pen" place="intext"/> <!-- locati loci -->              <!-- DO: To me, this looks like one of those instances where Dee has changed a full stop into a comma? -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- mathematicu[m] et -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- phisicu[m] p[ro]ut -->
+        <mark name="comma" method="pen" place="intext"/> <!-- diuiso s[e]c[un]d[ae] -->
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- p[ar]ticule -->
-                                                                                           <!-- DO: Commas between 'punctu[m] qui' and 'alterius vtriusq[ue]'? (both seven lines up from the bottom) -->
-                                                                                           <!-- DO: Do you think Dee has added the contraction mark to 'corpis' ('corp[or]is') (about halfway down, close to the 'locus physicus' note)? -->
+        <mark name="comma" method="pen" place="intext"/> <!-- alterius vtriusq[ue] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- punctu[m] qui -->
         
+        <errata language="LA" copytext="corp[or]is" amendedtext="corp[or]is"/> <!-- it seems that since Dee's underlining covered up the abbreviation of corp[or]is, Dee added it afterwards, not to obscure the word -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- locati loci -->
         
         <!-- FSF: Dee drew a representation of four bodies or so in the left margin; I don't know how to capture that -->
         
