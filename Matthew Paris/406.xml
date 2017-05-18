@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="406.tif" reader="John Dee" pagination="382"/>
+    <annotation>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        &AElig;lfricus proditor.
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Ælfric Cild, the traitor.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        &AElig;lfricus proditor.
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="munitae, Aelfricum"/>
+        <underline method="pen" type="straight" language="LA" text="Dux Aelfricus"/>
+        <underline method="pen" type="double" language="LA" text="proditor"/>
+        <underline method="pen" type="straight" language="LA" text="Aelfricus"/>
+        <underline method="pen" type="double" language="LA" text="clam"/>
+        <underline method="pen" type="double" language="LA" text="Aelfrici Ducis nauem"/>
+        <underline method="pen" type="straight" language="LA" text="ipso vix elapso"/>
+        <underline method="pen" type="straight" language="LA" text="Frana, &amp; Frithegistus, simul &amp; Godvvin[us]"/>
+        <underline method="pen" type="straight" language="LA" text="Algarus praedicti Aelfrici proditoris filius, luminibus est priuatus"/>
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        
+        <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
+            <node id="n1" person="Ælfric Cild">&AElig;lfricus. Proditor</node>
+            <node id="n2">Algarus</node>
+            <link to="n2" from="n2" relationship="has_child"/>
+        </graph>
+        
+        <!-- FSF: a pair of eyes is drawn in the tail -->
+        
+    </annotation>
+</transcription>
