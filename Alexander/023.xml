@@ -29,11 +29,11 @@
                 </position>
             </language>
             <translation>
-                Concrete terms.    <!-- DO: As before, I'd perhaps suggest 'boundaries' or 'limits' for 'termini'... -->
+                Concrete boundaries.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Forma autem in eius sub stancialis qualitas est">  <!-- DO: Assuming 'substancialis' is one word spread over two lines? -->
+        <marginalia hand="Italian" anchor_text="Forma autem in eius substancialis qualitas est">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -59,7 +59,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Can anchor 'forma trigoni' and 'figura trigoni' -->
+        <marginalia hand="Italian" anchor_text="forma trigoni [...] 'figura trigoni'">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -80,7 +80,7 @@
         <underline method="pen" type="straight" language="LA" text="extra. Est autem forma et figura s[e]c[un]d[u]m esse vnu[m]. differunt aute[m] in hoc. Forma namq[ue] inest
             substantie s[e]c[un]d[u]m q[uod] qualis et figura s[u]b[stantia]e s[ecundu]m q[uod] quanta Nam figura terminus quantitatis et forma terminus materie"/>
         <underline method="pen" type="straight" language="LA" text="termini s[e]c[un]d[u]m q[uod] in co[n]creto sunt posicionem co[n]cernu[n]t"/>
-        <underline method="pen" type="straight" language="LA" text="et quod spissum est om[n]ibus motibus corporis co[n]plectitur"/>    <!-- DO: Not sure if the contraction is 'co[m]plectitur'? -->
+        <underline method="pen" type="straight" language="LA" text="et quod spissum est om[n]ibus motibus corporis co[m]plectitur"/>
         <underline method="pen" type="straight" language="LA" text="positionem"/>
         <underline method="pen" type="straight" language="LA" text="situm"/>
         <underline method="pen" type="straight" language="LA" text="permanentia[m]"/>
@@ -93,8 +93,9 @@
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- quantitatis et -->
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- substancialis qualitas -->
         
-        <!-- DO: Think there's a comma between 'substancialis qualitas', and a full stop changed into a comma at 'forme figura' (both towards the end of the middle paragraph) -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- forme figura -->
         
         <!-- FSF: possibly there is a 1 in the right margin -->
         
