@@ -5,9 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="515.tif" reader="John Dee" pagination="23" signature="Ciiij"/> 
-    
     <annotation>
-        
         
         <marginalia hand="Italian"  method="pen">
             <language ident="LA">
@@ -19,18 +17,16 @@
             <translation>Baldwin.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="moritur Francorum rex Robertus, cui successit filius eius Henricus"  method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>A[nn]&o_super; 1030 Robertus R[ex] Fr[ancorum] morit[u]r succesit Henricus.</marginalia_text>
+                    <marginalia_text>A[nn]&o_super; 1030 Robertus R[ex] Fr[ancorum] morit[u]r succesit Henricus.</marginalia_text> <!-- FSF: A[nn]o, see above -->
                     <person name="Robert II of France"/>
                     <person name="Henry I of France"/>
                 </position>
             </language>
             <translation>In the year 1030, Robert, King of the Franks, dies; Henry succeeds.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Comes Alanus"  method="pen">
             <language ident="LA">
@@ -42,7 +38,6 @@
             <translation>Alan, Count of Brittany.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Doli"  method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -52,7 +47,6 @@
             </language>
             <translation>The county of Dol.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Abricatensem comitatum"  method="pen">
             <language ident="LA">
@@ -64,7 +58,6 @@
             <translation>The county of Avranches.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Rodonis"  method="pen">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
@@ -73,7 +66,6 @@
                 </position>
             </language>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="duos filios Edwardu[m] &amp; Aluredum non longo post patria[m] repetens, Richardo eorum auu[n]culo reliquit nutriendos"  method="pen">
             <language ident="LA">
@@ -88,9 +80,10 @@
                     <emphasis method="pen" type="straight" text="Richardi"/>
                 </position>
             </language>
-            <translation>To Robert / Richard, Duke of Normandy, [goes] the care of his nephews Alfred and Edward, the sons of Aethelred, King of the English.</translation>  <!-- DO: Not sure about the translation - I think he's possibly suggesting the two uncles which it could refer to (Robert or Richard) -->
+            <translation>To Robert / Richard, Duke of Normandy, [goes] the care of his nephews Alfred and Edward, the sons of Aethelred, King of the English.</translation>  
+            <!-- DO: Not sure about the translation - I think he's possibly suggesting the two uncles which it could refer to (Robert or Richard) -->
+            <!-- FSF: solicitudo is subject, so the concern of Rober and Richard goes towards their offsprings Alfred and Erdward? -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Fiscamium in littore ponti"  method="pen">
             <language ident="EN">
@@ -101,7 +94,6 @@
             </language>
             <translation>Fecamp on the sea shore.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="fretus affinitate regali patrem a solo pepulit"/>
         <underline method="pen" type="straight" language="LA" text="Cioca vocatur"/>
@@ -121,12 +113,9 @@
         <underline method="pen" type="straight" language="LA" text="vocatur Gernsi"/>
         <underline method="pen" type="straight" language="LA" text="futurum regnare sine sanguinis effusione"/>
         
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- viuente Francorum -->
         
         <errata language="LA" copytext="Flandoniam" amendedtext="Flandriam"/>
-        
-        
+ 
     </annotation>
-    
 </transcription>
