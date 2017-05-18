@@ -17,11 +17,11 @@
                 </position>
             </language>
             <translation>
-                Term.          <!-- DO: Translation needed; not sure how to translate though...  -->
+                Demonstratively negative.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="termin[us]">  <!-- DO: Anchor text: 'inter [...] impossibile'? -->
+        <marginalia hand="Italian" anchor_text="inter illa[m] et circulu[m] aliam lineam rectam capi est impossibile">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -54,7 +54,7 @@
                     <marginalia_text>
                         Brison.
                     </marginalia_text>
-                    <person name="Bryson"/>          <!-- DO: I would suggest making this tag more specific, as there seem to be two classical Brysons. On the People spreadsheet, this person is given as an alternative name: https://en.wikipedia.org/wiki/Bryson_of_Achaea   but I think the one referred to here is this guy: https://en.wikipedia.org/wiki/Bryson_of_Heraclea as he wrote about squaring the circle -->
+                    <person name="Bryson of Heraclea"/>
                 </position>
             </language>
             <translation>
@@ -99,7 +99,7 @@
                 </position>
             </language>
             <translation>
-                Type, figure.     <!-- DO: Not sure but another translation of 'species' can be outline or shape; do you think that is what this refers to? -->
+                Shape, figure.
             </translation>
         </marginalia>
         
@@ -116,10 +116,9 @@
         <underline method="pen" type="straight" language="LA" text="cuse"/>
         <underline method="pen" type="straight" language="LA" text="differunt speciebus. Ita etiam figuris"/>
         <underline method="pen" type="straight" language="LA" text="etia[m] est vna figura"/>
+        <underline method="pen" type="straight" language="LA" text="Quadratura negati[u]e euclidis"/>
         
-        
-        <!-- DO: I think the text above the first diagram has been underlined, and is there a small comma at 'negatiue ex' in the fourth line? -->
-        
+        <mark name="comma" method="pen" place="intext"/> <!-- negatiue ex' -->
         
     </annotation>
 </transcription>
