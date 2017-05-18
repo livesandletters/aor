@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="514.tif" reader="John Dee" pagination="22"/> 
-    
+    <page filename="514.tif" reader="John Dee" pagination="22"/> <!-- FSF: signature is missing -->
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="post biennium" method="pen">
             <language ident="LA">
@@ -17,18 +15,16 @@
             </language>
             <translation>After two years.</translation>
         </marginalia>
-        
-        
+
         <marginalia hand="Italian" anchor_text="1028" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>A[nn]&o_super; 1028</marginalia_text>
+                    <marginalia_text>A[nn]&o_super; 1028</marginalia_text> <!-- FSF: since you are expanding the abbreviation anyway, I'd go A[nn]o -->
                 </position>
             </language>
             <translation>In the year 1028.</translation>
         </marginalia>
-        
-        
+       
         <marginalia hand="Italian" anchor_text="veneno" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -37,7 +33,6 @@
             </language>
             <translation>Poison.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Robertum Archipraesulem" method="pen">
             <language ident="LA">
@@ -49,8 +44,7 @@
             <translation>Archbishop Robert.</translation>
         </marginalia>
         
-        
-        <marginalia hand="Italian" anchor_text="Ebroicensis" method="pen">
+        <marginalia hand="Italian" anchor_text="Ebroicensis" method="pen"> <!-- FSF: I think with the marginalia above, this is one; Robert was also Count of Evreux, so I think the marginalia just gives his name and titles -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Ebroicensis.</marginalia_text>
@@ -59,7 +53,6 @@
             </language>
             <translation>Evreux.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Gulielmus Bellemensis" method="pen">
             <language ident="LA">
@@ -71,7 +64,6 @@
             <translation>William of Belleme.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="castro Alencio" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -82,7 +74,6 @@
             <translation>The Alencon camp.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="equestrem cellam" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -91,7 +82,6 @@
             </language>
             <translation>The horse's saddle.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="filios suos fulconem atq[ue] Robertum" method="pen">
             <language ident="LA">
@@ -105,7 +95,6 @@
             <translation>Fulk, Robert ] Sons of William of Belleme.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="iugulato Fulcone" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -116,16 +105,15 @@
             <translation>Fulk is slain.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text></marginalia_text>   <!-- DO: Not sure what this word is - looks like 'Proplium'? -->
+                    <!-- FSF: I think it is pra[e]lium for fight or battle -->
                 </position>
             </language>
             <translation></translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="animam exhalauit" method="pen">
             <language ident="LA">
@@ -137,11 +125,10 @@
             <translation>William of Belleme dies.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Baldewinus Flandrensis Satrapa, cupiens sobolem suam innormare regali prosapia, Robertum Francorum regem expetijt, poscens eius filiam dari suo filio Baldewino" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Baldwinus [Insulanus deleted] Barbalus Comes Fl[andriae] cu[m] Roberto R[ex] Fr[ancorum] agit pro filia sua Adeli, infanti adhuc, vt suo filio Bald[wino] vxor in promptu esset, integra, et ex stirpe regia.</marginalia_text>  <!-- DO: Not completely sure about 'stirpe' -->
+                    <marginalia_text>Baldwinus [Insulanus deleted] Barbalus Comes Fl[andriae] cu[m] Roberto R[ex] Fr[ancorum] agit pro filia sua Adeli, infanti adhuc, vt suo filio Bald[wino] vxor in promptu esset, integra, et ex stirpe regia.</marginalia_text> 
                     <person name="Baldwin IV, Count of Flanders"/>
                     <person name="Robert II of France"/>
                     <person name="Adele of France"/>
@@ -150,7 +137,6 @@
             </language>
             <translation>Baldwin the Bearded, Count of Flanders, with Robert, King of the Franks, acted on behalf of his daughter, Adele, still a child, so that she would readily be the wife to his son Baldwin, intact, and of royal lineage.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="suum Robertum"/>
         <underline method="pen" type="straight" language="LA" text="post biennium contempto"/>
@@ -181,7 +167,6 @@
         <errata language="LA" copytext="temore" amendedtext="tempore"/>
 
         
-        
  <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
      <node id="n1" person="Rodulf of Ivry">Radulfus Comes</node>
      <node id="n2" person="Hugh, Bishop of Bayeux">Hugo ep[iscop]us Baioces</node>
@@ -208,11 +193,11 @@
               Talus
           </note>
           <person name="William I Talvas"/>   
-      </graph_text>              <!-- DO: Need to add translation -->
+      </graph_text>              <!-- DO: Need to add translation --> <!-- FSF: maybe for his name Talvas? -->
       
       <graph_text>
           <note hand="Italian" language="LA">
-              D[?] Bellesme[n]sis o[mn]ib[us]q[ue] alijs interfectis  <!-- DO: Not sure what the first word is. Translation: All the others killed -->
+              D[?] Bellesme[n]sis o[mn]ib[us]q[ue] alijs interfectis  <!-- DO: Not sure what the first word is. Translation: All the others killed --> <!-- FSF: this is the abbreviation for D[omi]n[u]s -->
           </note>
       </graph_text>
       
@@ -224,5 +209,4 @@
   </graph>
         
     </annotation>
-    
 </transcription>
