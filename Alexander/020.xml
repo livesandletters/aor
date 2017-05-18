@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                Term.       <!-- DO: Translation needed: 'Large and small are relative'? -->
+                Large and small are relative.
             </translation>
         </marginalia>
         
@@ -73,7 +73,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="termin[us]">  <!-- DO: Anchor 'qua[n]titas p[er] se absoluta [et] no[n] respectiua'? -->
+        <marginalia hand="Italian" anchor_text="qua[n]titas p[er] se absoluta [et] no[n] respectiua">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -90,16 +90,16 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Co[n]traria de nominatione      <!-- DO: I think 'denominatione' is all one word, like the printed text (there is also an equals sign). As such, I'd translate 'A contrary denomination' -->
+                        Co[n]traria denominatione
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Contrary to the nomination.
+                A contrary denomination.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="termin[us]">  <!-- DO: Anchor text, probably 'Est nanqu[am] [...] fingunt[ur]' -->
+        <marginalia hand="Italian" anchor_text="Est nanqu[am] inequale in maius [et] minus q[uae] c[on]traria sibimet deno[m]i[n]atio[n]e fingunt[ur]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -122,7 +122,7 @@
                 </position>
             </language>
             <translation>
-                Established around the equal and unequal.  <!-- DO: Include 'relatiua' somehow? 'Relativity established...'? -->
+                Relatives established around the equal and unequal.
             </translation>
         </marginalia>
         
@@ -131,7 +131,8 @@
         <underline method="pen" type="double" language="LA" text="in de celo"/>
         <underline method="pen" type="straight" language="LA" text="remissione[m] s[ecundu]m q[uod] qua[n]titas p[er] se absoluta [et] no[n] respectiua"/>
         <underline method="pen" type="straight" language="LA" text="Magis aut[em] [et] minus st??? de absolutis no[n] respectiuis"/> <!-- FSF: not sure what the abbreviation of the st is -->
-        <underline method="pen" type="straight" language="LA" text="Na[m] senari[us] vt senari[us] p[er] se nec minor"/>      <!-- DO: I think there's also underlining in the line above ('qui[d]qu[am]'?) -->
+        <underline method="pen" type="straight" language="LA" text="qui[d]qu[am]"/>
+        <underline method="pen" type="straight" language="LA" text="Na[m] senari[us] vt senari[us] p[er] se nec minor"/>
         <underline method="pen" type="straight" language="LA" text="p[ro]prietas no[n] p[ro]priu[m] quarto m[od]o"/>
         <underline method="pen" type="straight" language="LA" text="Inequale v[er]o gemina diuisione nome[n] importat ad"/>
         <underline method="pen" type="straight" language="LA" text="c[on]traria sibimet deno[m]i[n]atio[n]e"/>
@@ -141,9 +142,7 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        <!-- DO: I think there's also a full stop changed into a comma ('angulat[ur] de'), about halfway down -->
-        
-        
+        <errata language="LA" copytext="." amendedtext=","/> <!-- angulat[ur] de --> 
         
     </annotation>
 </transcription>
