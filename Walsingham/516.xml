@@ -4,8 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="516.tif" reader="John Dee" pagination="24"/> 
-    
+    <page filename="516.tif" reader="John Dee" pagination="24"/> <!-- FSF: signature missing -->
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Robertum vtriusq[ue] auunculum, Normannorum vi[delicet] Archipresulem" method="pen">
@@ -20,7 +19,6 @@
             <translation>Robert, Archbishop of Rouen, the uncle of Richard and Alan.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="eis Gulielmum filium suum" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -32,16 +30,14 @@
             <translation>William the Conqueror the natural son of this Robert.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="1034" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>A[nn]&o_super; 1034</marginalia_text>
+                    <marginalia_text>A[nn]&o_super; 1034</marginalia_text> <!-- FSF: Ann[o] -->
                 </position>
             </language>
             <translation>In the year 1034.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Gulielmus Roberti ducis filius Roberto successit" method="pen">
             <language ident="LA">
@@ -54,7 +50,6 @@
             <translation>William, Duke of Normandy.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Hugone montis fortis cum Walchelino" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -66,7 +61,6 @@
             <translation>Hugh de Montfort. Walchelin.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="tutor ipsius pueri, scilicet domini, Occensis siquidem Comes Gislebertus" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -76,19 +70,19 @@
                 </position>
             </language>
             <translation>Gilbert, Count of Eu. Tutor of William, Duke of Normandy.</translation>   <!-- DO: Not completely sure about Eu for Occensis - it might actually refer to the region Eure, but as he was Count of Eu this is how I've translated it -->
+            <!-- FSF: not sure either -->
         </marginalia>
-        
-        
+   
         <marginalia hand="Italian" anchor_text="" method="pen">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>vasselm</marginalia_text>     <!-- DO: Not sure what this is -->
+                    <!-- FSF: there is a little French village called vasselin; but it is not in Normandy nor anywhere near that concerns this bit, as far as I can see https://www.google.co.uk/maps/place/38890+Vasselin,+France/@45.6293502,5.4328765,14z/data=!3m1!4b1!4m5!3m4!1s0x478b3b5649edc305:0x408ab2ae4be6430!8m2!3d45.631122!4d5.453654 -->
                     <emphasis method="pen" type="straight" text="vasselm"/>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Walchelino" method="pen">
             <language ident="LA">
@@ -98,9 +92,8 @@
                     <emphasis method="pen" type="straight" text="Walchelinus"/>
                 </position>
             </language>
-            <translation>Baron Walchelin de Ferriers. Liber Galiicus.</translation>  <!-- DO: Not sure about expansion of 'Dns' to 'Dominus', or of the translation of this word here  -->
+            <translation>Baron Walchelin de Ferriers. Liber Gallicus.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Occensis siquidem Comes Gislebertus non multo post perimitur" method="pen">
             <language ident="LA">
@@ -111,7 +104,6 @@
             </language>
             <translation>Gilbert, Count of Eu, is killed.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Robertum vtriusq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="Archipr[a]esulem"/>
@@ -135,15 +127,12 @@
         <underline method="pen" type="straight" language="LA" text="Cnuto ducem instituit haredem regni"/>
         <underline method="pen" type="straight" language="LA" text="Dux peregrinatur ad Hierosolymas"/>
         <underline method="pen" type="straight" language="LA" text="Roberti mors"/>
-        
-        
+
         <!-- DO: I think there's some sort of mark between 'atrocem. enarrasset' and possibly Dee has crossed out the accent on 'immenor' at the bottom of the page -->
-        
+        <!-- FSF: I agree on the crossing out of the accent -->
+        <!-- FSF: there is another errata of Anglis to Angelis and a circumflex; see third last line of the middle paragraph -->
         
         <errata language="LA" copytext="ducem" amendedtext="[deleted]"/>
-        
-        
-        
-    </annotation>
     
+    </annotation> 
 </transcription>
