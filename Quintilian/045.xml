@@ -3,10 +3,21 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="045.tif" reader="John Dee" pagination="39" signature="C 4"/>
+    <page filename="045.tif" reader="John Dee" pagination="39" signature="c 4"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured at a later point. -->
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Ὀρθοέπεια
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                The correct diction.
+            </translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Tullius">
             <language ident="LA">
@@ -21,10 +32,10 @@
         <marginalia hand="Italian" anchor_text="Sed abolita, atque abrogata retinere, insolentiae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Absoluta et abrogata no[n] su[n]t retinenda mordicus</marginalia_text>
+                    <marginalia_text>Absoluta et abrogata no[n] su[n]t retinenda mordicus</marginalia_text> <!-- FSF: I read Abolita as the first word -->
                 </position>
             </language>
-            <translation>They are not abolute and abolised but firmly held.</translation>
+            <translation>They are not abolute and abolised but firmly held.</translation> <!-- FSF: I'd translate as Banished and abolished things are not to be upheld tenaciously. -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Antonius Gnipho">
@@ -38,10 +49,8 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Quid enim tam necessarium, qu&agrave;m certa locutio"/>
-        <underline method="pen" type="straight" language="LA" text="Sed abolita, atque abrogata retinere, insolentiae"/>
+        <underline method="pen" type="straight" language="LA" text="sed abolita, atque abrogata retinere, insolentiae"/>
         <underline method="pen" type="straight" language="LA" text="est licentiosum"/>
-        
         
     </annotation>
 </transcription>
-
