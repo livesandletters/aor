@@ -3,11 +3,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="047.tif" reader="John Dee" pagination="41" signature="C 5"/>
+    <page filename="047.tif" reader="John Dee" pagination="41" signature="c 5"/>
     <annotation>
         
-        
-        <marginalia hand="Italian" anchor_text="Senatui">
+        <marginalia hand="Italian" anchor_text="Senatui nomen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Senatus.</marginalia_text>
@@ -34,7 +33,6 @@
             <translation>Hare.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="uulpes">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -47,7 +45,7 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Luens</marginalia_text> <!-- M.B. Not sure if this correct it looks like luens but noit sure if that make sense here. -->
+                    <marginalia_text>Luens</marginalia_text> <!-- M.B. Not sure if this correct it looks like luens but noit sure if that make sense here. --> <!-- FSF: I'd say lucus as in the text, lucus for grove -->
                 </position>
             </language>
             <translation></translation>
@@ -80,7 +78,7 @@
             <translation>Man.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="stella">
+        <marginalia hand="Italian" anchor_text="stella"> <!-- FSF: I'd make these two notes like before -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Verbu[m] stella.</marginalia_text>
@@ -134,10 +132,7 @@
             <translation>Flying alone.</translation>
         </marginalia>
         
-        
-        
-        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
-
