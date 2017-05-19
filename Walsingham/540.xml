@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="540.tif" reader="John Dee" pagination="44"/>
-    
+    <page filename="540.tif" reader="John Dee" pagination="44"/> <!-- FSF: signature -->
     <annotation>
-        
-        
+       
         <marginalia hand="Italian" anchor_text="Sciticu[m]" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -18,7 +15,6 @@
             </language>
             <translation>Scythian.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="genealogiam" method="pen">
             <language ident="LA">
@@ -29,7 +25,6 @@
             <translation>Genealogy.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Sicia" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
@@ -39,7 +34,6 @@
             </language>
             <translation>Scythia.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="ita versus meridiem trans illius fines protenditur"/>        
         <underline method="pen" type="straight" language="LA" text="Haec aute[m] propri&eacute; patria Scotoru[m]"/>
@@ -56,32 +50,19 @@
         <underline method="pen" type="straight" language="LA" text="Sciticus, Scoticus" id="RCP10552-2:540:u0002"/>
         <underline method="pen" type="straight" language="LA" text="Hiberniae descriptio"/>
         
-        
         <mark name="plus_sign" method="pen" place="intext"/>
-        
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        
         <mark name="plus_sign" method="pen" place="intext"/>
-        
         
         <errata language="LA" copytext="filius Simonis" amendedtext="[deleted]"/>
         
-        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        
         <physical_link>
-            
             <marginal_annotation idref="RCP10552-2:540:u0001"/>
-            
             <marginal_annotation idref="RCP10552-2:540:u0002"/>
-            
             <relation from="RCP10552-2:540:u0001" to="RCP10552-2:540:u0002" type="undirected"/>
-            
         </physical_link>
         
-        
     </annotation>
-    
-    
 </transcription>
