@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="554.tif" reader="John Dee" pagination="58"/>
-    
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="500. transmisit Wallenses" method="pen">
@@ -19,8 +16,7 @@
             <translation>500 Welsh soldiers sent across.</translation>
         </marginalia>
         
-        
-        <marginalia hand="Italian" anchor_text="occiditur" method="pen">
+        <marginalia hand="Italian" anchor_text="occiditur" method="pen"> <!-- FSF: anchor Richardus Mareschalli -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Richardus. Maris[challi] occiditur.</marginalia_text>
@@ -30,16 +26,15 @@
             <translation>Richard Marshal killed.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>J. Diuij</marginalia_text>  <!-- DO: Not sure about this, or what it means -->
+                    <!-- FSF: I have a feeling that not all is legible and that the J might be the abbreviation for John Dee, the D is simply disappeared in the gutter; the other word might be dimisi... or so as in the text -->
                 </position>
             </language>
             <translation></translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Mareschalli Gilbertus" method="pen">
             <language ident="LA">
@@ -51,7 +46,6 @@
             <translation>Gilbert Marshal.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Iohannes Scotus vltimus comes Cestriae" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -62,7 +56,6 @@
             <translation>John the Scot, the final Earl of Chester.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="Wasconia 500. transmisit"/>
         <underline method="pen" type="straight" language="LA" text="Richardus Mareschalli contra"/>
         <underline method="pen" type="double" language="LA" text="ibidem deceptus"/>
@@ -70,12 +63,8 @@
         <underline method="pen" type="double" language="LA" text="eius Gilbertus"/>
         <underline method="pen" type="straight" language="LA" text="comes Mareschalli Gilbertus"/>
         
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- comitatu Germanus -->
         <mark name="comma" method="pen" place="intext"/>   <!-- eius Gilbertus -->
         
-        
-        
     </annotation>
-    
 </transcription>
