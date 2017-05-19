@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="531.tif" reader="John Dee" pagination="37" signature="Eiij"/>
-    
-    
     <annotation>
-        
-        
+      
         <marginalia hand="Italian" anchor_text="Tenerchebray" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -21,7 +17,6 @@
             <translation>Tinchebray.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Robertus de Beleasino in fugamversus est" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -29,9 +24,8 @@
                     <person name="Robert of Belleme, 3rd Earl of Shrewsbury"/>
                 </position>
             </language>
-            <translation>Robert of Belleme, having escaped by fleeing.</translation>  <!-- DO: Not sure how to translate - this sounds odd -->
+            <translation>Robert of Belleme, having escaped by fleeing.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="rex Henricus Abbathiam Eliensem ad Episcopalem mutauit sedem" method="pen">
             <language ident="LA">
@@ -40,9 +34,8 @@
                     <location name="Ely Cathedral"/>
                 </position>
             </language>
-            <translation>Ely Cathedral founded, the episcopal seat.</translation>
+            <translation>Ely Cathedral founded, the episcopal seat.</translation> <!-- FSF: I'd translate as: The abbey in Ely was made an episcopal seat. See https://en.wikipedia.org/wiki/Ely_Cathedral -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Baldewinus Comes Flandriae" method="pen">
             <language ident="LA">
@@ -54,17 +47,15 @@
             <translation>Baldwin, Count of Flanders.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="On" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>On</marginalia_text>
-                    <location name=""/>          <!-- DO: I still can't identify this location. According to Wikipedia, Baldwin VII died at Bures-en-Brai, so it might be there -->
+                    <location name=""/>          <!-- DO: I still can't identify this location. According to Wikipedia, Baldwin VII died at Bures-en-Brai, so it might be there --> <!-- FSF: possibly!! -->
                 </position>
             </language>
             <translation></translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Gulielmus Crispinus" method="pen">
             <language ident="LA">
@@ -76,7 +67,6 @@
             <translation>William Crispin.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Fulconem Angegauensium comitem" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -86,7 +76,6 @@
             </language>
             <translation>Fulk, Count of Anjou.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Gaufrido Plantagenet" method="pen">
             <language ident="LA">
@@ -98,7 +87,6 @@
             <translation>Geoffrey Plantagenet.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -107,9 +95,8 @@
                     <location name="Chester"/>
                 </position>
             </language>
-            <translation>1574: his monument at Chester still stands.</translation>   <!-- DO: Not sure about this -->
+            <translation>1574: his monument at Chester still stands.</translation>   <!-- DO: Not sure about this --> <!-- FSF: I think it is fine -->
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Castrum Comitis"/>
         <underline method="pen" type="straight" language="LA" text="Robertus de Beleasino, &amp; Comes Gulielmus de Moritonia"/>
@@ -130,40 +117,25 @@
         <underline method="pen" type="straight" language="LA" text="Alij ver&ograve; dicunt qu&ograve;d"/>
         <underline method="pen" type="straight" language="LA" text="sepultus sit apud Spiram"/>
         
-        
-        <symbol name="Crown" place="right_margin"/>
-        
+        <symbol name="Crown" place="right_margin"/> <!-- FSF: I have captured crowns as drawings, so I am not sure whether it is a symbol or drawing -->
         
         <mark name="comma" method="pen" place="intext"/>  <!-- Normanniae comes -->
         <mark name="comma" method="pen" place="intext"/>  <!-- Gulielmo sub -->
         <mark name="comma" method="pen" place="intext"/>  <!-- Alemanniae sepultus -->
-        
        <mark name="plus_sign" method="pen" place="left_margin"/>
         
-        
         <numeral place="right_margin" language="LA" text="Matilda">1</numeral>
-        
         <numeral place="right_margin" language="LA" text="Adeliza">2</numeral>
         
-        
         <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">
-            
             <node id="n1" person="Henry I of England"></node>     <!-- Designated by the crown -->
             <node id="n2" person="Matilda of Scotland">Matilda</node>
             <node id="n3" person="Adeliza of Louvain">Adeliza</node>
-            
             <link to="n2" from="n1" relationship="has_spouse"/>
             <link to="n1" from="n2" relationship="has_spouse"/>
-            
             <link to="n3" from="n1" relationship="has_spouse"/>
-            <link to="n1" from="n3" relationship="has_spouse"/>
-            
-            
+            <link to="n1" from="n3" relationship="has_spouse"/>  
         </graph>
         
-        
     </annotation>
-    
-    
-    
 </transcription>
