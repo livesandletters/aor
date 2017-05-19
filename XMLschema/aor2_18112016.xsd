@@ -49,6 +49,7 @@
           <xs:enumeration value="Mercury"/>
           <xs:enumeration value="Moon"/>
           <xs:enumeration value="Opposite_planets"/>
+          <xs:enumeration value="Conjunction"/>
           <xs:enumeration value="Salt"/>
           <xs:enumeration value="Saturn"/>
           <xs:enumeration value="Square"/>
@@ -69,6 +70,9 @@
           <xs:enumeration value="Virgo"/>
           <xs:enumeration value="Sagittarius"/>
           <xs:enumeration value="Pices"/>
+          <xs:enumeration value="North_Node"/>
+          <xs:enumeration value="South_Node"/>
+          <xs:enumeration value="Sextile"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -506,6 +510,7 @@
           <xs:enumeration value="coat_of_arms"/>
           <xs:enumeration value="scientific_instrument"/>
           <xs:enumeration value="animal"/>
+          <xs:enumeration value="chain"/>
           <xs:enumeration value="canon"/>
           <xs:enumeration value="divining rod"/>
           <xs:enumeration value="map"/>
@@ -606,7 +611,7 @@
   <xs:attributeGroup name="attlist.link">
     <xs:attribute name="to" use="required" type="xs:IDREFS"/>
     <xs:attribute name="from" use="required" type="xs:IDREFS"/>
-    <xs:attribute name="relationship" use="required">
+    <xs:attribute name="relationship"> <!--JG: Only required in the case of a genealogical tree!-->
       <xs:simpleType>
         <xs:restriction base="xs:token">
           <xs:enumeration value="has_child"/>
