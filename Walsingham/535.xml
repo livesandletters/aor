@@ -5,30 +5,27 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="535.tif" reader="John Dee" pagination="39" signature="F.j."/>
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Rodericus autem regulus de Conmat" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Rodericus Reg[ulus] de Conm[at]</marginalia_text>
-                    <person name="Rory O'Connor"/>    <!-- DO: Not 100% sure it's him... -->
+                    <person name="Rory O'Connor"/>
                 </position>
             </language>
             <translation>Rory, King of Connacht.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Hugo de S. Moore" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Hugo de S. Moore</marginalia_text>
+                    <marginalia_text>Hugo de S. Moore</marginalia_text> <!-- FSF: would this S abbreviation also have to be expanded? Sancto? -->
                     <person name="Hugh de Mortimer"/>
                 </position>
             </language>
             <translation>Hugh de Mortimer.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Radulphus de Faie" method="pen">
             <language ident="LA">
@@ -39,7 +36,6 @@
             </language>
             <translation>Raoul de Faye.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Rex pater regis"/>
         <underline method="pen" type="straight" language="LA" text="&amp; Lismorum"/>
@@ -67,17 +63,10 @@
         <underline method="pen" type="straight" language="LA" text="Hybernenses"/>
         
         <mark name="comma" method="pen" place="intext"/>   <!-- regis filij -->
-        
         <mark name="comma" method="pen" place="intext"/>   <!-- regis animu[m] -->
-        
         <mark name="comma" method="pen" place="intext"/>   <!-- debitam non -->
-        
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        
-        
     </annotation>
-    
-    
 </transcription>
