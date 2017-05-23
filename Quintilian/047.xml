@@ -45,10 +45,10 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Luens</marginalia_text> <!-- M.B. Not sure if this correct it looks like luens but noit sure if that make sense here. --> <!-- FSF: I'd say lucus as in the text, lucus for grove -->
+                    <marginalia_text>Lucus</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Grove.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ludus">
@@ -78,13 +78,22 @@
             <translation>Man.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="stella"> <!-- FSF: I'd make these two notes like before -->
+        <marginalia hand="Italian" anchor_text="uerba">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Verbu[m] stella.</marginalia_text>
+                    <marginalia_text>Verbu[m].</marginalia_text>
                 </position>
             </language>
-            <translation>The word, star.</translation>
+            <translation>Verb.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="stella">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>stella.</marginalia_text>
+                </position>
+            </language>
+            <translation>Star.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="coelibes">
