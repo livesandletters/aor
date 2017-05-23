@@ -18,7 +18,7 @@
         <marginalia hand="Italian" anchor_text="C. Caesar">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>C[auis]. Ca[e]sar.</marginalia_text> <!-- FSF: is this meant to be Gaius? -->
+                    <marginalia_text>G[auis]. Ca[e]sar.</marginalia_text>
                     <person name="Julius Caesar"/>
                 </position>
             </language>
@@ -37,11 +37,11 @@
         <marginalia hand="Italian" anchor_text="quamuis capsis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Capsus obiect</marginalia_text> <!-- FSF: Capsis instead of capsus and maybe abbreviation of obiect[ati]o? -->
+                    <marginalia_text>Capsis obiect[ati]o</marginalia_text> <!-- FSF: Capsis instead of capsus and maybe abbreviation of obiect[ati]o? --> 
                     <X-ref person="Cicero" book_title="Orator"/>
                 </position>
             </language>
-            <translation>Repositories object.</translation> <!-- M.B. Uncertain if second word is obiecto or something else? -->
+            <translation>Throwing boxes.</translation> <!-- M.B. Uncertain if second word is obiecto or something else? -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Lupercalia">
@@ -78,12 +78,12 @@
                     <marginalia_text>Varia duoru[m] compositio verborum.</marginalia_text>
                 </position>
             </language>
-            <translation>Two type of compound words.</translation> <!-- FSF: Various compositions of/ways to compound two words -->
+            <translation>Various ways to compound two words.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Sed autoritatem consuetudo superauit"/>
         <underline method="pen" type="straight" language="LA" text="ex tribus nostrae utiq[ue] linguae non concesserim: quamuis"/>
-        <underline method="pen" type="straight" language="LA" text="Sed haec non tam ex tribus, qu&agrave;m ex particulis trium coeunt"/> <!-- FSF: Isn't it co&euml;unt? -->
+        <underline method="pen" type="straight" language="LA" text="Sed haec non tam ex tribus, qu&agrave;m ex particulis trium co&euml;unt"/>
         <underline method="pen" type="straight" language="LA" text="Romani suum ex utroq[ue]; alieno fecerunt."/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
