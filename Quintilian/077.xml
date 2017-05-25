@@ -27,7 +27,7 @@
         <marginalia hand="Italian" anchor_text="sterilia">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Orois sterilitas</marginalia_text> <!-- M.B. Uncertain of the meaning of the contraction 'Orios'. -->
+                    <marginalia_text>Orois sterilitas</marginalia_text> <!-- M.B. Uncertain of the meaning of the contraction 'Orios'. --> <!-- FSF: it's or[ati]o[n]is, so of the speech -->
                 </position>
             </language>
             <translation>[?] sterility.</translation>
@@ -54,20 +54,19 @@
         <marginalia hand="Italian" anchor_text="quotidianum sermone[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Sermo quotidian[u]s</marginalia_text>
+                    <marginalia_text>Sermo quotidian[us]</marginalia_text>
                 </position>
             </language>
             <translation>Daily speech.</translation>
         </marginalia>
         
-        
-        
-        <underline method="pen" type="straight" language="LA" text="nudas atq[ue[ inornatas indicare"/>
-        <underline method="pen" type="straight" language="LA" text="peius tamen illud quod ex inopia. quam quod ex copita, uenit"/>
+        <underline method="pen" type="straight" language="LA" text="nudas atq[ue] inornatas indicare"/>
+        <underline method="pen" type="straight" language="LA" text="peius tamen illud quod ex inopia, qu&agrave;m quod ex copita, uenit"/>
         <underline method="pen" type="straight" language="LA" text="Facile remediu[m] est"/>
-        <underline method="pen" type="straight" language="LA" text="Sit modo unde excidi po&sharp-S;it, &amp; quod excalpi: Erit"/>
+        <underline method="pen" type="straight" language="LA" text="Sit mod&ograve; unde excidi po&sharp-S;it, &amp; quod excalpi: Erit"/> <!-- FSF: watch out for diacritics on words like modo, quam, quod; you have missed some, which I now added -->
         
         <mark name="bracket" method="pen" place="right_margin"/>
+        
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         

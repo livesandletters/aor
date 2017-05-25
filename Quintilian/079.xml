@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="extemporalis garrulitas, nec expectat cogitatio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Extemporalis oro mala est multis De cau&sharp-S;is </marginalia_text>
+                    <marginalia_text>Extemporalis oro mala est multis De cau&sharp-S;is </marginalia_text> <!-- FSF: oro for or[ati]o -->
                 </position>
             </language>
             <translation>Spontaneous speech is bad, in a number of cases. </translation>
@@ -17,11 +17,10 @@
         
        <!-- M.B. Greek marginalia to be captured at later point. -->
         
-        
         <marginalia hand="Italian" anchor_text="ut si quaratur">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Qua[e]stionume formula[e].</marginalia_text>
+                    <marginalia_text>Qua[e]stionum formula[e].</marginalia_text>
                 </position>
             </language>
             <translation>Method of investigations.</translation>
@@ -33,13 +32,13 @@
                     <marginalia_text>Gra[e]ci historici</marginalia_text>
                 </position>
             </language>
-            <translation>History of the Greeks.</translation>
+            <translation>History of the Greeks.</translation> <!-- FSF: although it sounds odd, it translates more as historical Greeks -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Liuius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Liusius.</marginalia_text>
+                    <marginalia_text>Liuius.</marginalia_text>
                 </position>
             </language>
             <translation>Livy.</translation>
@@ -51,12 +50,10 @@
                     <marginalia_text>Exe[m]pla in o[mni]b[us] causis potentissima</marginalia_text> 
                 </position>
             </language>
-            <translation>Example are for this reason all the most powerful.</translation>
-        </marginalia>
+            <translation>Example are for this reason all the most powerful.</translation> <!-- FSF: For all these reasons, examples are most powerful -->
+        </marginalia>       
         
-       
-        
-        <underline method="pen" type="straight" language="LA" text="extemporalis garrulitas, nec expectata cogitatio, &amp; uix surge[n]di mora, circulatoriae uer&egrave; iactationis est."/>
+        <underline method="pen" type="straight" language="LA" text="extemporalis garrulitas, nec expectata cogitatio, &amp; uix surge[n]di mora, circulatoriae uer&egrave; iactationis est"/>
         <underline method="pen" type="straight" language="LA" text="discet recte dicere, qu&agrave;m cito"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
@@ -64,6 +61,5 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
            
-        
     </annotation>
 </transcription>
