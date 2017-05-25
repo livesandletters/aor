@@ -4,23 +4,23 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="027.tif" reader="John Dee"/> 
+    <page filename="027.tif" reader="John Dee" signature="[Biij[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: You can anchor 'o[mn]es ... eq[ua]les' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        O[mn]es anguli semicirculoru[m] su[n]t a[e]q[ua]les. quare et o[mn]es anguli co[n]tinge[n]tia[e] ergo no[n] possu[n]t p[er] angulos co[n]tinge[n]tia[e] diuidi vt quide[m] putabant.
+                        O[mn]es anguli semicirculoru[m] su[n]t a[e]q[ua]les. quare et o[mn]es anguli co[n]tinge[n]tia[e] ergo no[n] possu[n]t p[er] angulos co[n]tinge[n]tia[e] diuidi vt quide[m] putabant.  <!-- DO: It looks like 'quida[m]', in which case, 'as some thought'? -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                All angles of semicircles are equal. And therefore all angles <!-- of the contingentiae --> cannot be divided by the angles of the <!-- contingentiae -->as indeed they thought.
+                All angles of semicircles are equal. And therefore all angles <!-- of the contingentiae --> cannot be divided by the angles of the <!-- contingentiae -->as indeed they thought.  <!-- DO: Not sure how to translate 'contingentiae' either. Maybe 'angles of proximity'? -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: Anchor 'affirmat[u]m'? -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -33,22 +33,23 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Can anchor text, 'demo[n]strat[i]o[n]ib[us] ... c[aus]a' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Euclidis Demo[n]stratio[n]es no[n] a signis sed ex causa tame[n] no[n] su[n]t omnes tales
                     </marginalia_text>
+                    <person name="Euclid"/>
                 </position>
             </language>
             <translation>
-                Euclid's demonstration are not by sign, but by cause all in this way.
+                Euclid's demonstrations are not by sign, but by cause all in this way.   <!-- DO: I'd keep 'signs' as plural, and I think the ending is something like 'however not all are such/thus'  -->
             </translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0">
+                <position place="intext" book_orientation="0">
                     <marginalia_text>
                         ex
                     </marginalia_text>
@@ -59,7 +60,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'v[niversa]l[ite]r'? -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -81,7 +82,7 @@
                 </position>
             </language>
             <translation>
-                Petition of principle.
+                A petition of principle.
             </translation>
         </marginalia>
         
@@ -98,7 +99,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: The relevant text can be anchored -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -107,7 +108,7 @@
                 </position>
             </language>
             <translation>
-                All angles or a semicircle are equal.
+                All angles or a semicircle are equal.   <!-- DO: 'All angles of semircicles'? -->
             </translation>
         </marginalia>
         
@@ -116,16 +117,16 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Alia tibi summe speculatione[m] q[uo]modo sup[er] a[e]q[ua]les circu[m]fere[n]tias, 
-                        vt a[e] K b et L a anguli a[e]quali (the last letter really has disappeared in the gutter) sicut l b a [et] K a b p[er] 27 tertij
+                        vt a[e] K b et L a anguli a[e]quali (the last letter really has disappeared in the gutter) sicut l b a [et] K a b p[er] 27 tertij     <!-- DO: 'Alia' is signified as a contraction... -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                                  <!-- Translation needed -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'signo'? -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -138,14 +139,13 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="no[n] ex signis s[ed] ex c[aus]a"/> <!-- FSF: not sure about cause -->
+        <underline method="pen" type="straight" language="LA" text="no[n] ex signis s[ed] ex c[aus]a"/> 
         <underline method="pen" type="straight" language="LA" text="opinio[n]e achimedis"/>
-        <underline method="pen" type="straight" language="LA" text="om[n]ino"/>
-        <underline method="pen" type="straight" language="LA" text="hoc e[st] v[niversa]l[ite]r"/>
+        <underline method="pen" type="straight" language="LA" text="om[n]ino hoc e[st] v[niversa]l[ite]r"/>
         <underline method="pen" type="straight" language="LA" text="esse eq[ua]les"/>
         <underline method="pen" type="straight" language="LA" text="angulu[m] incisio[n]is"/>
         <underline method="pen" type="straight" language="LA" text="ex p[ri]ncipio est petet"/>
-        <underline method="pen" type="straight" language="LA" text="manifestu[m] q[ue]m in o[mn]i silogismo oportet v[niversa]l[ite]r esse"/>
+        <underline method="pen" type="straight" language="LA" text="manifestu[m] q[ue]m in o[mn]i silogismo oportet v[niversa]l[ite]r esse"/>  <!-- DO: I think the following word is underlined as well but not sure what it is -->
         <underline method="pen" type="straight" language="LA" text="p[ro]pter q[ui]d"/>
         <underline method="pen" type="straight" language="LA" text="esse a priori"/>
         <underline method="pen" type="straight" language="LA" text="p[re]supposit[ur]"/>
@@ -155,11 +155,11 @@
         
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- om[n]ino hoc -->
-        <mark name="comma" method="pen" place="intext"/> <!-- eiusde[m] cu[m] -->
-        <mark name="comma" method="pen" place="intext"/> <!-- linea[m] idem -->
-        <mark name="comma" method="pen" place="intext"/> <!-- co[n]tra q[ua]re -->
+        <mark name="comma" method="pen" place="intext"/> <!-- eiusde[m] cu[m] -->       
+        <mark name="comma" method="pen" place="intext"/> <!-- linea[m] idem -->        <!-- DO: I think there's also a comma between 'eq[ua]les oc[c]ludit[ur]' in the following line -->
+        <mark name="comma" method="pen" place="intext"/> <!-- co[n]tra q[ua]re -->     <!-- DO: It looks like there's another marking on 'co[n]tra' - has it been changed into 'centra'? -->
         
-        <numeral place="intext">3</numeral>
+        <numeral place="intext">3</numeral>       <!-- DO: Not entirely sure what this is... -->
         
         <errata language="LA" copytext="equas" amendedtext="equos"/>
         
