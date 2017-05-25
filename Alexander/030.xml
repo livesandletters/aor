@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="030.tif" reader="John Dee"/> 
+    <page filename="030.tif" reader="John Dee" signature="[Bv]"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="">
@@ -20,7 +20,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="termin[us]">
+        <marginalia hand="Italian" anchor_text="termin[us]">   <!-- DO: Anchor 'passione[m]' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,15 +29,15 @@
                 </position>
             </language>
             <translation>
-                Proper passion.
+                Proper passion.       <!-- DO: Maybe 'A particular passion'? -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="termin[us]">
+        <marginalia hand="Italian" anchor_text="termin[us]">  <!-- DO: Anchor 'Ad ... d[e]mo[n]strat[i]o[n]ib[us] -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Reductio ad terminos complexos
+                        Reductio ad terminos complexos              <!-- DO: I can only see part of the note, but wondering whether the letters after 'terminos' are 'in' (or 'inn'?) making 'incomplexos'? I think this fits with the printed text and makes more sense ('reduction to simple terms') -->
                     </marginalia_text>
                 </position>
             </language>
@@ -46,20 +46,20 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="">  <!-- DO: Anchor 'diffinit[i]o[nem] ... passionis'? -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        definitio {subiecto passio[n]e
+                        definitio {subiecto passio[n]e   <!-- DO: It looks like 'subiecti', which matches the text. I can't make out the final letter of 'passion[?]' but makes me wonder if it's also in the genitive? -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Definition by subject or by passion.
+                Definition by subject or by passion.  <!-- DO: so, 'of subject' -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="">  <!-- DO: Maybe do 'resolutio ... i[n]co[m]plexos'? -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -68,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                The resolution to simple terms is not always to be made.
+                The resolution to simple terms is not always to be made.  <!-- DO: I'd just say, 'A resolution in simple terms...' -->
             </translation>
         </marginalia>
         
@@ -82,7 +82,7 @@
                 </position>
             </language>
             <translation>
-                There are many proportiones in the continuities, which we cannot explain with rational numbers, but only with irrational one[s]. See Diophantes of Alexandria.
+                There are many proportions in the continuities, which we cannot explain with rational numbers, but only with irrational ones. See Diophantus of Alexandria.
             </translation>
         </marginalia>
         
@@ -101,9 +101,9 @@
         <underline method="pen" type="straight" language="LA" text="m[od]o pl[ur]es t[er]mi[ni] ponu[n]t[ur] loco vni[us] extremitat[is] v[e]l medij q[uo] q[ua]nq[uam] no[n] h[abe]nt vnu[m] nome[n] i[m]positu[m]"/>
         <underline method="pen" type="straight" language="LA" text="loco maior[is] extre[m]itat[is]"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- rectis hoc -->
-        <mark name="dash" method="pen" place="intext"/> <!-- isocheles -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- Ad -->
+        <mark name="comma" method="pen" place="intext"/> <!-- rectis hoc -->      <!-- DO: Commas between 'aliud q[uo]d' and 'est nec' in line 4. Just after this 'rectis hoc' comma there's a full stop changed into a comma as well. --> 
+        <mark name="dash" method="pen" place="intext"/> <!-- isocheles -->        <!-- DO: Is this more of a vertical bar? I also wonder if the changes you have tagged as errata are also just lines to split the words, not sure though... -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- t[er]mi[n]o. Ad -->
         
         <errata language="LA" copytext="ysogeles" amendedtext="ysoeles"/>
         <errata language="LA" copytext="ysogeles" amendedtext="ysoeles"/>
