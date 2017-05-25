@@ -6,7 +6,7 @@
     <page filename="122.tif" reader="John Dee" pagination="116" signature="[h 2[v]]"/>
     <annotation> 
         
-        <marginalia hand="Italian" anchor_text="esse qui nihil ab eo scriptum putent">
+        <marginalia hand="Italian" anchor_text="esse qui nihil ab eo scriptum putent"> <!-- FSF: I am not sure about the anchor; I think this is just an indication that this page is about the Greek writers -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Gra[e]ci Scriptores</marginalia_text>
@@ -108,7 +108,7 @@
         <marginalia hand="Italian" anchor_text="C. Valgius">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>G[aius] Valgius</marginalia_text>
+                    <marginalia_text>G[aius] Valgius</marginalia_text> <!-- FSF: I'd read it as a C -->
                     <person name="Valgius Rufus"/>
                 </position>
             </language>
@@ -125,11 +125,9 @@
             <translation>Atticus.</translation>
         </marginalia>
         
-       
-        
-        <underline method="pen" type="straight" language="LA" text="Caesaris Augusti fuit, &amp; Th&ocirc;dorus Gadareus"/>
+        <underline method="pen" type="straight" language="LA" text="Caesaris Augusti fuit, &amp; Th&ocirc;dorus"/>
         <underline method="pen" type="straight" language="LA" text="Tyberius"/>
-        <underline method="pen" type="straight" language="LA" text="psit Theod&ocirc;dorus, cuius auditorem Hermagora[m] sunt qui"/>
+        <underline method="pen" type="straight" language="LA" text="scripsit Theod&ocirc;dorus, cuius auditorem Hermagora[m] sunt qui"/>
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
