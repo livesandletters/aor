@@ -20,7 +20,7 @@
             </translation>
         </marginalia>        
         
-        <marginalia hand="Italian" anchor_text="termin[us]">  <!-- DO: I think you should anchor 'dyameter est co[m]mensurabilis coste' -->
+        <marginalia hand="Italian" anchor_text="dyameter est co[m]mensurabilis coste">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                The diameter is incommensurable of the side.   <!-- DO:  'incommensurable with the side' -->
+                The diameter is incommensurable with the side.  
             </translation>
         </marginalia>
         
@@ -42,7 +42,7 @@
                 </position>
             </language>
             <translation>
-                Ninth fifth.    <!-- DO: Not really sure because I don't understand the printed text... Are these two separate things, i.e. 'Ninth, fifth'? -->
+                Ninth of a fifth.
             </translation>
         </marginalia>
         
@@ -56,11 +56,11 @@
                 </position>
             </language>
             <translation>
-                Square numbers cannot be identical in double proportions.  <!-- DO: I'd translate 'invice[m]' as something like 'mutually', and I'd keep 'proportione' singular -->
+                Square numbers cannot be constant in the proportion to each other.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="termin[us]">  <!-- DO: I'd anchor the underlined text -->
+        <marginalia hand="Italian" anchor_text="q[ua]dratus q[ua]drato duplus relinquit[ur]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -73,8 +73,7 @@
             </translation>
         </marginalia>
         
-        
-        <!-- DO: I'd say 'Co[m]me[n]surabile' is underlined as well -->
+        <underline method="pen" type="straight" language="LA" text="Co[m]me[n]surabile"/>
         <underline method="pen" type="straight" language="LA" text="q[ua] mutuo me[n]surari p[ossu]nt"/>
         <underline method="pen" type="straight" language="LA" text="nona[m] quinti"/>
         <underline method="pen" type="straight" language="LA" text="septima[m] decimi"/>
@@ -96,18 +95,19 @@
         <mark name="comma" method="pen" place="intext"/> <!-- coste dato -->
         <mark name="comma" method="pen" place="intext"/> <!-- impari silogisando -->
         <mark name="comma" method="pen" place="intext"/> <!-- tertiu[m] sunt -->
-        <mark name="comma" method="pen" place="intext"/> <!-- eq[ua]les maior -->        <!-- DO: Also a comma between 'primi quare' -->
+        <mark name="comma" method="pen" place="intext"/> <!-- eq[ua]les maior -->     
+        <mark name="comma" method="pen" place="intext"/> <!-- primi quare -->
         <mark name="comma" method="pen" place="intext"/> <!-- dyametri duplu[m] -->
         <mark name="comma" method="pen" place="intext"/> <!-- primi q[uo]d -->
         <mark name="comma" method="pen" place="intext"/> <!-- quinti due -->
-        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="bracket" method="pen" place="intext"/> <!-- impossibile Q[ue] -->
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- simetrum -->
         
         <errata language="LA" copytext="." amendedtext=","/> <!-- equale[m] impari -->
         <errata language="LA" copytext="p[ro]positione[m]" amendedtext="p[ro]portione[m]"/>
         <errata language="LA" copytext="p[ro]positione[m]" amendedtext="p[ro]portione[m]"/>
         <errata language="LA" copytext="anoni" amendedtext="a noni"/>
-        <errata language="LA" copytext="p[ro]positione[m]" amendedtext="p[ro]portione[m]"/>     <!-- DO: Is there a circumflex attached to this word as well, or possibly some kind of marking on the word below? -->
+        <errata language="LA" copytext="p[ro]positione[m]" amendedtext="p[ro]portione[m]"/>  
         
     </annotation>
 </transcription>
