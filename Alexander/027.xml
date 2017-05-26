@@ -33,7 +33,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Can anchor text, 'demo[n]strat[i]o[n]ib[us] ... c[aus]a' -->
+        <marginalia hand="Italian" anchor_text="demo[n]strat[i]o[n]ib[us] euclidisticis) no[n] ex signis s[ed] ex c[aus]a"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -43,7 +43,7 @@
                 </position>
             </language>
             <translation>
-                Euclid's demonstrations are not by sign, but by cause all in this way.   <!-- DO: I'd keep 'signs' as plural, and I think the ending is something like 'however not all are such/thus'  -->
+                Euclid's demonstrations are not by signs, but by cause however not all are such.  
             </translation>
         </marginalia>
         
@@ -99,7 +99,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: The relevant text can be anchored -->
+        <marginalia hand="Italian" anchor_text="o[mn]es anguli semicirc[u]lor[um] sunt eq[ua]les">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -108,7 +108,7 @@
                 </position>
             </language>
             <translation>
-                All angles or a semicircle are equal.   <!-- DO: 'All angles of semircicles'? -->
+                All angles of semicircles are equal. 
             </translation>
         </marginalia>
         
@@ -116,8 +116,8 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Alia tibi summe speculatione[m] q[uo]modo sup[er] a[e]q[ua]les circu[m]fere[n]tias, 
-                        vt a[e] K b et L a anguli a[e]quali (the last letter really has disappeared in the gutter) sicut l b a [et] K a b p[er] 27 tertij     <!-- DO: 'Alia' is signified as a contraction... -->
+                        Alia[m] tibi summe speculatione[m] q[uo]modo sup[er] a[e]q[ua]les circu[m]fere[n]tias, 
+                        vt a[e] K b et L a anguli a[e]quali (the last letter really has disappeared in the gutter) sicut l b a [et] K a b p[er] 27 tertij
                     </marginalia_text>
                 </position>
             </language>
@@ -126,7 +126,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'signo'? -->
+        <marginalia hand="Italian" anchor_text="signo"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -145,7 +145,7 @@
         <underline method="pen" type="straight" language="LA" text="esse eq[ua]les"/>
         <underline method="pen" type="straight" language="LA" text="angulu[m] incisio[n]is"/>
         <underline method="pen" type="straight" language="LA" text="ex p[ri]ncipio est petet"/>
-        <underline method="pen" type="straight" language="LA" text="manifestu[m] q[ue]m in o[mn]i silogismo oportet v[niversa]l[ite]r esse"/>  <!-- DO: I think the following word is underlined as well but not sure what it is -->
+        <underline method="pen" type="straight" language="LA" text="manifestu[m] q[ue]m in o[mn]i silogismo oportet v[niversa]l[ite]r esse. Q[ue]"/>
         <underline method="pen" type="straight" language="LA" text="p[ro]pter q[ui]d"/>
         <underline method="pen" type="straight" language="LA" text="esse a priori"/>
         <underline method="pen" type="straight" language="LA" text="p[re]supposit[ur]"/>
@@ -156,12 +156,14 @@
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- om[n]ino hoc -->
         <mark name="comma" method="pen" place="intext"/> <!-- eiusde[m] cu[m] -->       
-        <mark name="comma" method="pen" place="intext"/> <!-- linea[m] idem -->        <!-- DO: I think there's also a comma between 'eq[ua]les c[on]cludit[ur]' in the following line -->
-        <mark name="comma" method="pen" place="intext"/> <!-- co[n]tra q[ua]re -->     <!-- DO: It looks like there's another marking on 'co[n]tra' - has it been changed into 'centra'? -->
+        <mark name="comma" method="pen" place="intext"/> <!-- linea[m] idem -->   
+        <mark name="comma" method="pen" place="intext"/> <!-- eq[ua]les c[on]cludit[ur] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- co[n]tra q[ua]re --> 
         
-        <numeral place="intext">3</numeral>       <!-- DO: Not entirely sure what this is... -->
+        <numeral place="intext">3</numeral>
         
         <errata language="LA" copytext="equas" amendedtext="equos"/>
+        <errata language="LA" copytext="co[n]tra" amendedtext="ce[n]tra"/>
         
         <!-- FSF: Dee changed the schema in the left margin, which I am not sure how to capture -->
         
