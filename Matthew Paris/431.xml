@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="431.tif" reader="John Dee" pagination="407"/>
+    <annotation>
+        
+        <underline method="pen" type="straight" language="LA" text="Olauus praedicando"/>
+        <underline method="pen" type="straight" language="LA" text="Robertus Normannorum"/>
+        <underline method="pen" type="straight" language="LA" text="itinere clausuras"/>
+        
+        <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
+            <node id="n1" person="Harald Grenske">Haraldus R</node>
+            <node id="n2" person="Olaf II Haraldsson" anchor_text="Olauus">Olaus R</node>
+            <link to="n2" from="n1" relationship="has_child"/>
+        </graph>
+        
+    </annotation>
+</transcription>
