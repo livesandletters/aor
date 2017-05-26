@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="031.tif" reader="John Dee"/> 
+    <page filename="031.tif" reader="John Dee" signature="[Bv[v]]"/> 
     <annotation>
         
         <marginalia hand="Italian">
@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                Through sensible forms the geometer demonstrates its intellectual conclusions.
+                Through sensible forms the geometer demonstrates its intellectual conclusions.   <!-- DO: Assuming geometer is a person, 'demonstrates his...'? -->
             </translation>
         </marginalia>
         
@@ -33,7 +33,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor text, maybe 'termini ... recipiu[n]t[ur]' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -42,11 +42,11 @@
                 </position>
             </language>
             <translation>
-                Mathematical terms are accepted by syllogisms.
+                Mathematical terms are accepted by syllogisms.   <!-- DO: 'co[n]notatiue' hasn't really been translated, but I don't know what to do with it either. Presumably 'connotatively' but no idea what that sentence would mean in practice... Maybe 'with effects'...?-->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="petitio q[uo]d in p[ri]ncipio">
+        <marginalia hand="Italian" anchor_text="petitio ei[us] q[uo]d in p[ri]ncipio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -55,7 +55,7 @@
                 </position>
             </language>
             <translation>
-                Petition of what has been in the beginning.
+                A petition of what has been in the beginning.
             </translation>
         </marginalia>
         
@@ -75,12 +75,12 @@
         <underline method="pen" type="straight" language="LA" text="in abstracto"/>
         <underline method="pen" type="straight" language="LA" text="recto"/>
         <underline method="pen" type="straight" language="LA" text="sed de his q[ui] per illos intelligunt[ur] sicut c[on]tingit p[er]cipue in geometricis"/>
-        <underline method="pen" type="straight" language="LA" text="q[ui]a no[n] demo[n]strat de osta in plano p[er]tracta sed de ea que p[er] ista[m] intelligit[ur]"/>
+        <underline method="pen" type="straight" language="LA" text="q[ui]a no[n] demo[n]strat de ista in plano p[ro]tracta sed de ea que p[er] ista[m] intelligit[ur]"/>
         <underline method="pen" type="straight" language="LA" text="facia[m] nisi lineis abstract[is] ad si[mi]litudine[m] illar[um] [et] ideo mathematic[us] abstrahit a materia"/>
-        <underline method="pen" type="straight" language="LA" text="quare termini mathematicales in silogisticis r[ati]o[ni]bus, co[n]notiue recipiu[n]t[ur] na[m] significa[n]t tria[n]gulu[m] hic descriptu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="quare termini mathematicales in silogisticis r[ati]o[ni]bus. co[n]notatiue recipiu[n]t[ur] na[m] significa[n]t tria[n]gulu[m] hic descriptu[m]"/>
         <underline method="pen" type="straight" language="LA" text="cu[m] solu[m]m[od]o c[on]notat formale[m] dispositionem materie"/>
         <underline method="pen" type="straight" language="LA" text="s[ecundu]m rem [et] no[n] t[a]m[en] s[ecundu]m c[on]cessione[m]"/>
-        <underline method="pen" type="straight" language="LA" text="[et] fit digressio ad aliq[ui]d aliud. q[uo]d est nat[m] oste[n]di p[er] ip[su]m"/>
+        <underline method="pen" type="straight" language="LA" text="[et] fit digressio ad aliq[ui]d aliud. q[uo]d est natu[m] oste[n]di p[er] ip[su]m"/>
         <underline method="pen" type="straight" language="LA" text="diffinitu[m] aut[em] c[aus]a diffinit[i]o[n]is s[em]p[er] cu[m]"/>
         <underline method="pen" type="straight" language="LA" text="effectu[m] inducit ad cause p[ro]batione[m]"/>
         
@@ -88,6 +88,8 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- c[on]currere diffinitu[m] -->
         <mark name="comma" method="pen" place="intext"/> <!-- diffinitionis s[em]p[er] -->
+        
+                                              <!-- DO: Also a full stop changed into a comma at 'r[ati]o[ni]bus. co[n]notatiue' (just to the left of the third marginal note) -->
         
     </annotation>
 </transcription>
