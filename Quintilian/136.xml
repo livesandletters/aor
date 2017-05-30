@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="136.tif" reader="John Dee" pagination="130" signature="[i[v]]"/>
+    <annotation>
+        
+        <!-- M.B. Greek marginalia to be captured. -->
+        
+        <marginalia hand="Italian" anchor_text="Thrasybulo">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Thrasibulus.</marginalia_text>
+                    <person name="Thrasybulus"/>
+                </position>
+            </language>
+            <translation>Thrasybulus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Coniectura dicta est &agrave; co[n]iectua">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Unde dicitur co[n]iectu[u]</marginalia_text>
+                </position>
+            </language>
+            <translation>Derived from 'coniectu' (to throw together)</translation> <!-- M.B. I've opted for this translation rather than a purely literal one since the passage is discussing the derivation of the word 'Coinectura' from 'co[n]iectu'.  -->
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="coniectores">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Coniectores.</marginalia_text>
+                </position>
+            </language>
+            <translation>Interpreters.</translation>
+        </marginalia>
+        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        
+    </annotation>
+</transcription>
+
