@@ -21,7 +21,7 @@
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Cu[m] mathematica ex immediatis p[ri]ncipijs necessarijs no[n] aliter se habe[n]tibus p[ro]cedit
-            et q[uae] maxi[m]e alijs p[ro]porcionata est intellectui nostro. cum semp[er] effectum ex causa demo[n]strat">
+            et q[uae] maxi[m]e p[er] alijs p[ro]porcionata est intellectui nostro. cum semp[er] effectum ex causa demo[n]strat">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -43,7 +43,7 @@
                 </position>
             </language>
             <translation>
-                What it is, because iti is.
+                What it is, because it is.
             </translation>
         </marginalia>
         
@@ -60,7 +60,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'p[rae]cognitio'? -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -82,11 +82,11 @@
                 </position>
             </language>
             <translation>
-                Beginning.
+                Beginning.         <!-- DO: I'm not really sure what this word means, but I think it can be translated as 'principiate', e.g. looking at: https://plato.stanford.edu/entries/meister-eckhart/ -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="p[rae]cognoscere vtraq[ue] cognitio[n]e, siue vtroq[ue] m[od]o">
+        <marginalia hand="Italian" anchor_text="p[rae]cognoscere vtraq[ue] cognitio[n]e siue vtroq[ue] m[od]o">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -95,7 +95,7 @@
                 </position>
             </language>
             <translation>
-                To learn by both methods.
+                To learn by both methods.   <!-- DO: 'To foresee...'? -->
             </translation>
         </marginalia>
         
@@ -108,7 +108,7 @@
                 </position>
             </language>
             <translation>
-                
+                                    <!-- DO: 'Unifying the principle and the principiate'? -->
             </translation>
         </marginalia>
         
@@ -121,7 +121,7 @@
                 </position>
             </language>
             <translation>
-                Foreknowledge
+                Foreknowledge.
             </translation>
         </marginalia>
         
@@ -138,32 +138,39 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Cum mathematica ex immediatis p[ri]ncipijs necessarijs no[n] aliter se habe[n]tibus p[ro]cedit et q[uae] maxi[m]e p[re] alijs p[ro]porcionata est intellectui 
+        <underline method="pen" type="straight" language="LA" text="Cum mathematica ex immediatis p[ri]ncipijs necessarijs no[n] aliter se habe[n]tibus p[ro]cedit et q[uae] maxi[m]e p[er] alijs p[ro]porcionata est intellectui 
             nostro. cum semp[er] effectum ex causa demo[n]strat"/>
-        <underline method="pen" type="straight" language="LA" text="q[ui]d"/>
+        <underline method="pen" type="straight" language="LA" text="passione q[ui]d"/>
         <underline method="pen" type="straight" language="LA" text="quid significat nome[n]"/>
-        <underline method="pen" type="straight" language="LA" text="q[ue] est"/>
+        <underline method="pen" type="straight" language="LA" text="q[ue] est quonia[m]"/>
         <underline method="pen" type="straight" language="LA" text=" oportet reli[n]qui. q[ui]a"/>
-        <underline method="pen" type="straight" language="LA" text="aute[m] de passio[n]ibus"/>
+        <underline method="pen" type="straight" language="LA" text="aute[m] de passio[n]ibus quid"/>
         <underline method="pen" type="straight" language="LA" text="suu[m] q[ue] sunt"/>
-        <underline method="pen" type="straight" language="LA" text="quia est, et quid est"/>
-        <underline method="pen" type="straight" language="LA" text="S[ed] minor si[mi]le t[em]p[or]e habe[n]t noticia cu[m] c[on]clusio[n]e Et"/> <!-- FSF: not sure about simile tempore -->
+        <underline method="pen" type="straight" language="LA" text="quia est. et quid"/>
+        <underline method="pen" type="straight" language="LA" text="S[ed] minor si[mi]le t[em]p[or]e habet[ur] noticia cu[m] c[on]clusio[n]e Et"/> <!-- FSF: not sure about simile tempore -->
         <underline method="pen" type="straight" language="LA" text="q[ua]re in o[mn]i silogismo demo[n]stratiuo p[re]cognoscit[ur] maior co[n]clusione. minor vero eode[m] t[em]p[or]e co[n]clusionis
-            et hec p[re]cognitio c[on]clusionu[m] est ex p[ri]ncipiatis [et] no[n] p[ri]ncipijs"/>
-        <underline method="pen" type="straight" language="LA" text=""/>
+            et hec p[rae]cognitio c[on]clusionu[m] est ex p[ri]ncipiatis [et] no[n] p[ri]ncipijs"/>
         
-        <mark name="vertical_bar" method="pen" place="right_margin" language="LA" text="Cum mathematica ex immediatis p[ri]ncipijs necessarijs no[n] aliter se habe[n]tibus p[ro]cedit et q[uae] maxi[m]e p[re] alijs p[ro]porcionata est intellectui 
+        
+        <mark name="vertical_bar" method="pen" place="right_margin" language="LA" text="Cum mathematica ex immediatis p[ri]ncipijs necessarijs no[n] aliter se habe[n]tibus p[ro]cedit et q[uae] maxi[m]e p[er] alijs p[ro]porcionata est intellectui 
             nostro. cum semp[er] effectum ex causa demo[n]strat"/>
         <mark name="bracket" method="pen" place="right_margin" language="LA" text="q[ua]re in o[mn]i silogismo demo[n]stratiuo p[re]cognoscit[ur] maior co[n]clusione. minor vero eode[m] t[em]p[or]e co[n]clusionis
-            et hec p[re]cognitio c[on]clusionu[m] est ex p[ri]ncipiatis [et] no[n] p[ri]ncipijs"/>
+            et hec p[rae]cognitio c[on]clusionu[m] est ex p[ri]ncipiatis [et] no[n] p[ri]ncipijs"/>
+        
         <mark name="comma" method="pen" place="intext"/> <!-- sit ex -->
         <mark name="semicolon" method="pen" place="intext"/> <!-- alijs et -->
         <mark name="comma" method="pen" place="intext"/> <!-- principia q[ua]re -->
         <mark name="comma" method="pen" place="intext"/> <!-- cognitio[n]e siue -->
         
+        <!-- DO: Commas between 'est et' and 'hoc quid' (about 10 lines down), and between 'sunt habent' and 'sunt s[ed]' (right hand side, about halfway down) -->
+        
         <errata language="LA" copytext="." amendedtext=","/> <!-- eo q[uod] -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- esse no[n] -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- erit c[on]clusio -->
+        
+        <!-- DO: Altered commas between 'equicruru[m] habere' (about 17 lines down) and, I think, 'p[rae]scire q[uod]', 'p[rae]cognoscere quia' and 'est et', all about halfway down. Also 'erit c[on]clusio' 11 lines up. -->
+        
+        <!-- DO: Not sure if some king of correction has been made to 'libes'(?) at the end of the second paragraph? -->
         
     </annotation>
 </transcription>
