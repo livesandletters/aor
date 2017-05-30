@@ -6,7 +6,109 @@
     <page filename="129.tif" reader="John Dee" pagination="123"/>
     <annotation>
         
-        <!-- M.B. In progress -->
+        <!-- M.B. Greek marginalia to be captured at later point. -->
+        
+        <marginalia hand="Italian" anchor_text="Tria sunt item, quae praestare debeat orator, ut doceat, moueat">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Tria oratoris munera</marginalia_text>
+                </position>
+            </language>
+            <translation>Three duties of the orator.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="affectus">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Affectus</marginalia_text>
+                </position>
+            </language>
+            <translation>Emotion.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="probationem">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Probatio</marginalia_text>
+                </position>
+            </language>
+            <translation>Proof.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Celsus">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Celsus.</marginalia_text>
+                    <person name="Aulus Cornelius Celsus"/>
+                </position>
+            </language>
+            <translation>Celsus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="esse quaestiones aut in scripto, aut in non scripto: in scripto, sunt de iure: in non scripto, de re: illud legale,
+            hoc rationae genus.">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Qu[a]estionis Diuisiones</marginalia_text>
+                </position>
+            </language>
+            <translation>A division of questions.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Hermagoras">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Hermagoras</marginalia_text>
+                    <person name="Hermagoras of Temnos"/>
+                </position>
+            </language>
+            <translation>Hermagoras.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="quaestiones esse aut infinitas">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Qua[e]stio[n]es infinit[i]</marginalia_text>
+                </position>
+            </language>
+            <translation>Indefinite questions.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Infinitae sunt quae remotis personis, &amp; temporibus &amp; lo cis, caeterisq[ue] simulibus, in utranq[ue] partem tracantur, quod
+            Graeci θέσιν dicunt, Cicero propositum, alij quaestiones uniuersales ciuiles">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Infinita[e] qua[e]stionis Nomina.</marginalia_text>
+                </position>
+            </language>
+            <translation>The names for indefinite questions.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Cicero">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Cicero</marginalia_text>
+                    <person name="Cicero"/>
+                </position>
+            </language>
+            <translation>Cicero.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="esse quaestiones aut in scripto, aut in non scripto: in scripto, sunt de iure: in non scripto, de re: illud legale, hoc
+            rationale genus">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Qua[e]stiones in scripto no[n] scripto } De iure. De re. } Legale Rationale } Genus </marginalia_text>
+                </position>
+            </language>
+            <translation>Questions in writing or not in writing { by law or by fact { legal or rational { type.</translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="natura, arte, exercitatione, cui"/>
+        <underline method="pen" type="straight" language="LA" text="omnia in"/>
+        
+        <mark name="bracket" method="pen" place="right_margin"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
