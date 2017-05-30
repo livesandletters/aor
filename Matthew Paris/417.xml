@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="416.tif" reader="John Dee" pagination="392" signature="[Kk iiij[v]]"/>
+    <page filename="417.tif" reader="John Dee" pagination="393"/>
     <annotation>
         
         <marginalia hand="Italian">
@@ -11,7 +11,7 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Pons Lo[n]d[inii]
-                    </marginalia_text>
+                    </marginalia_text> <!--JG: I'd add a location as well: London-->
                 </position>
             </language>
             <translation>
@@ -28,12 +28,12 @@
                 </position>
             </language>
             <translation>
-                Earl of Devon. <!-- FSF: I am not sure who it is, see https://en.wikipedia.org/wiki/Earl_of_Devon -->
+                Earl of Devon. <!-- FSF: I am not sure who it is, see https://en.wikipedia.org/wiki/Earl_of_Devon --> <!--JG: I think you can just tag him as 'Almarus, Earl of Devon'. See: https://books.google.co.uk/books?id=Hz4PAAAAQAAJ&pg=PA71&lpg=PA71&dq=almarus+earl+of+devon&source=bl&ots=nKnvwhZ7wB&sig=8vNAgRKciISUoXhFlMVQeLih4fo&hl=en&sa=X&ved=0ahUKEwilq8SrlJfUAhWqJsAKHckVBK8Q6AEIKDAA#v=onepage&q=almarus%20earl%20of%20devon&f=false-->
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="strata publica[e]"/>
-        <underline method="pen" type="straight" language="LA" text="quicquid masculini sexus ad manus venire, iugularent"/>
+        <underline method="pen" type="straight" language="LA" text="stratae publica[e]"/>
+        <underline method="pen" type="straight" language="LA" text="quicquid masculini sexus ad manus veniret, iugularent"/>
         <underline method="pen" type="straight" language="LA" text="foeminas ad suam explenduam libidinem reseruarent"/>
         <underline method="pen" type="straight" language="LA" text="suorum in Thamesi flumine"/>
         <underline method="pen" type="double" language="LA" text="nec pontem, nec vadum"/>
@@ -47,9 +47,9 @@
         <underline method="pen" type="triple" language="LA" text="iniust&egrave; exhaeredauerat"/>
         
         <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">
-            <node id="n1" person="Sweyn Forkbeard"></node>
+            <node id="n1" person="Sweyn Forkbeard"></node> <!--JG: Is this Suanus R? If so, this should appear in between the node tags-->
             <node id="n2" person="Cnut the Great" anchor_text="Cnutoni">Cnuto</node>
-            <link to="n2" from="n1" relationship="has_child"/>
+            <link to="n2" from="n1" relationship="has_child"/> 
         </graph>
         
     </annotation>

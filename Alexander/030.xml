@@ -4,14 +4,14 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="030.tif" reader="John Dee"/> 
+    <page filename="030.tif" reader="John Dee" signature="[Bv]"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Planetaru[m] motus si in co[m]me[n]surabiles nu[m]q[uam] maternu[m] ... copulabu[n]tur eode[m] puncto. <!-- FSF: to be completed -->
+                        Planetaru[m] motus si in co[m]me[n]surabiles nu[m]q[uam] maternu[m] ... copulabu[n]tur eode[m] puncto. <!-- FSF: to be completed; mot sure about this one bit which looks like bi? -->
                     </marginalia_text>
                 </position>
             </language>
@@ -20,7 +20,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="termin[us]">
+        <marginalia hand="Italian" anchor_text="passione[m]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,37 +29,37 @@
                 </position>
             </language>
             <translation>
-                Proper passion.
+                Proper passion.  
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="termin[us]">
+        <marginalia hand="Italian" anchor_text="Ad reducendu[m] h[uius]mo[d]i silogismu[m] i[n] t[er]mi[n]os inco[m]plexos siue simplices fallit[ur] i[n] h[uius]mo[d]i d[e]mo[n]strat[i]o[n]ib[us]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Reductio ad terminos complexos
+                        Reductio ad terminos incomplexos   
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Reduction to complex terms.
+                Reduction to simple terms.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="diffinit[i]o[nem] subieti vel passionis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        definitio {subiecto passio[n]e
+                        definitio {subiecti passio[n]is   
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Definition by subject or by passion.
+                Definition of subject or of passion.  
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="resolutio i[n] t[erm]i[n]os i[n]co[m]plexos">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -68,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                The resolution to simple terms is not always to be made.
+                A rendering into simple terms is not always to be made.  
             </translation>
         </marginalia>
         
@@ -82,7 +82,7 @@
                 </position>
             </language>
             <translation>
-                There are many proportiones in the continuities, which we cannot explain with rational numbers, but only with irrational one[s]. See Diophantes of Alexandria.
+                There are many proportions in the continuities, which we cannot explain with rational numbers, but only with irrational ones. See Diophantus of Alexandria.
             </translation>
         </marginalia>
         
@@ -101,12 +101,16 @@
         <underline method="pen" type="straight" language="LA" text="m[od]o pl[ur]es t[er]mi[ni] ponu[n]t[ur] loco vni[us] extremitat[is] v[e]l medij q[uo] q[ua]nq[uam] no[n] h[abe]nt vnu[m] nome[n] i[m]positu[m]"/>
         <underline method="pen" type="straight" language="LA" text="loco maior[is] extre[m]itat[is]"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- rectis hoc -->
-        <mark name="dash" method="pen" place="intext"/> <!-- isocheles -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- Ad -->
+        <mark name="comma" method="pen" place="intext"/> <!-- rectis hoc -->   
+        <mark name="comma" method="pen" place="intext"/> <!-- aliud q[uo]d -->
+        <mark name="comma" method="pen" place="intext"/> <!-- est nec -->
+        <mark name="comma" method="pen" place="intext"/> <!-- rectis hoc --> 
+        <mark name="dash" method="pen" place="intext"/> <!-- isocheles -->     
+        <mark name="bracket" method="pen" place="intext"/> <!-- t[er]mi[n]o. Ad -->
         
         <errata language="LA" copytext="ysogeles" amendedtext="ysoeles"/>
         <errata language="LA" copytext="ysogeles" amendedtext="ysoeles"/>
+        <errata language="LA" copytext="." amendedtext=","/> <!-- m[od]o O[mn]is -->
         
     </annotation>
 </transcription>
