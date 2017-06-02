@@ -7,16 +7,16 @@
     <page filename="037.tif" reader="John Dee" signature="[Cij[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: I think you can anchor 'Sed linea ... corpore' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Varia[e] opiniones mathemaaticoru[m], q[uo]modo punctum line[a]e, linea sup[er]ficei et sup[er]ficies corpori insit et corpus loco.
+                        Varia[e] opiniones mathematicoru[m], q[uo]modo punctum line[a]e, linea sup[er]ficei et sup[er]ficies corpori insit et corpus loco.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                There are various opinions of mathematicians on who a point of a line, a line of an area and the area of a body <!-- FSF: corpori is not genitive, but the parallel structure led me to assume a genitive --> are in <!-- FSF: to be completed -->
+                There are various opinions of mathematicians on who a point of a line, a line of an area and the area of a body <!-- FSF: corpori is not genitive, but the parallel structure led me to assume a genitive --> are in <!-- FSF: to be completed -->  <!-- DO: They could all be dative. Apparently 'inesse' can make 'to be involved with'. I'm not sure if it takes the dative, but if so could be something like: 'The various opinions of mathematicians, on how a point connects to a line, a line to an area (surface?), and an area to body, and a body to a locus'-->
             </translation>
         </marginalia>
         
@@ -33,7 +33,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor text, 'quare ... positio est' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -42,7 +42,7 @@
                 </position>
             </language>
             <translation>
-                Definition position supposition.
+                Definition, position, supposition.
             </translation>
         </marginalia>
 
@@ -68,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                How a point is in a line.
+                How a point is in a line.  <!-- DO: As above, maybe 'is connected to a line'? -->
             </translation>
         </marginalia>
         
@@ -107,7 +107,7 @@
                 </position>
             </language>
             <translation>
-                The Generation of an area.
+                The generation of an area.
             </translation>
         </marginalia>
         
@@ -120,26 +120,26 @@
                 </position>
             </language>
             <translation>
-                
+                   <!-- DO: Not really sure how to translate, maybe 'All should always be connected to themselves'? -->
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="cu[m] diffinitio sit quid esse rei. suppositio aut[em] esse v[e]l no[n] esse. quid aut[em]"/>
-        <underline method="pen" type="straight" language="LA" text="quare diffinitio poricio est cu[m] no[n] p[ro]bat. et suppositio positio est. quodia[m]"/>
+        <underline method="pen" type="straight" language="LA" text="demo[n]stratio[n]is cu[m] diffinitio sit quid esse rei. suppositio aut[em] esse v[e]l no[n] esse. quid aut[em]"/>
+        <underline method="pen" type="straight" language="LA" text="quare diffinitio posicio est cu[m] no[n] p[ro]bat[ur]. et suppositio positio est. quonia[m]"/>
         <underline method="pen" type="straight" language="LA" text="ide[m] esse suppositione[m] et diffinitione[m] s[e]c[un]d[u]m positione[m] differu[n]t t[ame]n in hoc cu[m] suppositio sit p[ro]posicio
-            q[uo] accipit sum[tu[m] c[om]positiue diffinitio vero expositiue"/>
+            q[uo] accipit sumptu[m] c[om]positiue diffinitio vero expositiue"/>        <!-- DO: Also I think 'et o[mn]i loco' -->
         <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m co[m]une[m] scolam mathematicoru[m]"/>
         <underline method="pen" type="straight" language="LA" text="essenciale formale"/>
         <underline method="pen" type="straight" language="LA" text="et corpus loco"/>
-        <underline method="pen" type="straight" language="LA" text="Cu[m] linea no[n] co[n]stituat[ur] ex punctis"/>
+        <underline method="pen" type="straight" language="LA" text="Cu[m] linea no[n] co[n]stituat[ur] ex"/>
         <underline method="pen" type="straight" language="LA" text="Sed linea "/>
         <underline method="pen" type="double" language="LA" text="mensurat[ur] pu[n]ctis"/>
-        <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m quod sunt termini co[m]munes"/>
+        <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m q[uod] sunt termini co[m]munes"/>
         <underline method="pen" type="straight" language="LA" text="vltima cu[m] p[ri]mis vnu[m] [et] neutrius p[er] se sicut dixim[us]"/>
         <underline method="pen" type="straight" language="LA" text="q[ui]a ill[u]d q[uo]d ymaginat[ur] moueri est i[n]diuisibile"/>
         <underline method="pen" type="straight" language="LA" text="et co[n]tinuitas est formale"/>
-        <underline method="pen" type="straight" language="LA" text="i[n] latu[m] causat sup[er]ficie[m]"/>
-        <underline method="pen" type="straight" language="LA" text="ita corpus locum. q[ua]re pu[n]ctus es principiu[m] linee sine quo no[n] est linea et linea principiu[m] sup[er]ficiet sine qua no[n] est sup[er]ficies et
+        <underline method="pen" type="straight" language="LA" text="latu[m] causat sup[er]ficie[m]"/>
+        <underline method="pen" type="straight" language="LA" text="ita corpus locum. q[ua]re pu[n]ctus est principiu[m] linee sine quo no[n] est linea et linea principiu[m] sup[er]ficie sine qua no[n] est sup[er]ficies et
             sup[er]ficies principiu[m] corp[or]is sine quo no[n] est corpus et corp[us] p[ri]ncipium loci sine quo no[n] est loc[us] et de istis no[n] est dicere in quoda[m] sic in quoda[m]"/>
         <underline method="pen" type="straight" language="LA" text="semp[er] sic eade[m] ratione formali et essenciali"/>
         
@@ -147,11 +147,11 @@
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- actu supponit[ur] -->
-        <mark name="comma" method="pen" place="intext"/> <!-- c[om]positione diffinitio -->
+        <mark name="comma" method="pen" place="intext"/> <!-- c[om]positive diffinitio -->
         <mark name="comma" method="pen" place="intext"/> <!-- sup[er]ficie[m] et -->
         
         <errata language="LA" copytext="." amendedtext=","/> <!-- potentia s[ed] -->
-        <errata language="LA" copytext="quid i[n]" amendedtext="quide[m]"/>
+        <errata language="LA" copytext="quid i[n]" amendedtext="quide[m]"/>         <!-- DO: I think this happens twice in the same line -->
         
     </annotation>
 </transcription>
