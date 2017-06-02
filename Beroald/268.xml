@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="268.tif" reader="John Dee" pagination="244" signature="[x.ij.[v]]"/>
+    
+    <annotation>
+        
+        
+        <marginalia hand="Italian" anchor_text="Ituraea">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Itura[e]a.</marginalia_text>
+                    <location name="Iturea"/>
+                </position>
+            </language>
+            <translation>Iturea.</translation>
+        </marginalia>
+        
+        
+        <marginalia hand="Italian" anchor_text="Hieronymum" id="RCPD126.6:268:m0001">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Hieronymus.</marginalia_text>
+                    <person name="Jerome"/>
+                </position>
+            </language>
+            <translation>Jerome.</translation>
+        </marginalia>
+        
+        
+        <underline method="pen" type="straight" language="LA" text="is Arado insulae"/>
+        <underline method="pen" type="straight" language="LA" text="Emath, Ituraeam, &iacute;dque bona"/>
+        <underline method="pen" type="straight" language="LA" text="spectat Ituraea"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; Hieronymum" id="RCPD126.6:268:u0001"/>
+        <underline method="pen" type="triple" language="LA" text="proptere&agrave;"/>
+        <underline method="pen" type="double" language="LA" text="esse in terra"/>
+        
+        
+        <physical_link>
+            
+            <marginal_annotation idref="RCPD126.6:268:m0001"/>
+            <marginal_annotation idref="RCPD126.6:268:u0001"/>
+            
+            <relation from="RCPD126.6:268:m0001" to="RCPD126.6:268:u0001" type="directed"/>
+            
+        </physical_link>
+        
+        
+    </annotation>
+    
+</transcription>
