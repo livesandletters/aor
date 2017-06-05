@@ -16,11 +16,11 @@
                 </position>
             </language>
             <translation>
-                
+                            <!-- DO: As on previous page. Not sure how to translate but I think it roughly means 'connecting to itself'... -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: You can anchor 'loco ... p[er] se' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                The body itself is in a place.
+                The body itself is in a place.     <!-- DO: Not sure about translation -->
             </translation>
         </marginalia>
         
@@ -50,7 +50,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Secundus malus de p[er] se inesse
+                        Secundus malus de p[er] se inesse      <!-- DO: Think the second word's 'modus', like the printed text -->
                     </marginalia_text>
                 </position>
             </language>
@@ -63,12 +63,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        perfect[us] Num.
+                        perfect[us] Num.   <!-- DO: 'Num[erus]' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Perfect number.
+                A perfect number.
             </translation>
         </marginalia>
         
@@ -81,7 +81,7 @@
                 </position>
             </language>
             <translation>
-                Triangle.
+                A triangle.
             </translation>
         </marginalia>
         
@@ -94,7 +94,7 @@
                 </position>
             </language>
             <translation>
-                
+                            <!-- Translation needed -->
             </translation>
         </marginalia>
         
@@ -104,12 +104,13 @@
         <underline method="pen" type="straight" language="LA" text="sic linea p[er] se inest triangulo"/>
         <underline method="pen" type="straight" language="LA" text="om[n]i hic"/>
         <underline method="pen" type="straight" language="LA" text="est dici p[er] se"/>
-        <underline method="pen" type="straight" language="LA" text="et loco corpus quonia[m] illud inest p[er] se q[uo]d ingedit[ur] eius diffinitione[m] quidditatiua[m] linea ingredit[ur]"/>
+        <underline method="pen" type="straight" language="LA" text="et loco corpus quonia[m] illud inest p[er] se q[uo]d ingredit[ur] eius diffinitione[m] quidditatiua[m] vt linea ingredit[ur]"/>
         <underline method="pen" type="straight" language="LA" text="locus vltima superficies corporis continentis"/>
-        <underline method="pen" type="straight" language="LA" text="q[ua]n[do] accidens p[ro]priu[m] p[er]docat[ur] de subiecto"/>
-        <underline method="pen" type="straight" language="LA" text="no[n]. Cui[us] textus intellectus breuit[er] patet q[uo]cunq[ue] accidentia sic sunt in subiectis q[uod] t[ame]n ip[s]a subieccta sunt de ratio[n]e ip[s]or[um] accide[n]tiu[m] et p[er]tine[n]t ad
+        <underline method="pen" type="straight" language="LA" text="accidens p[ro]priu[m] p[er]dicat[ur] de subiecto"/>
+        <underline method="pen" type="straight" language="LA" text="no[n]. Cui[us] textus intellectus breuit[er] patet q[uo]cunq[ue] accidentia sic sunt"/>
+        <underline method="pen" type="straight" language="LA" text="subiectis q[uod] t[ame]n ip[s]a subieccta sunt de ratio[n]e ip[s]or[um] accide[n]tiu[m] et p[er]tine[n]t ad
             diffinitione[m] q[ua] dicit quid est ip[s]oru[m] accidenciu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="accidencia insunt p[er] subiectis"/>
+        <underline method="pen" type="straight" language="LA" text="accidencia insunt p[er] se subiectis"/>
         <underline method="pen" type="straight" language="LA" text="que[m]libet limite[m] nu[m]eroru[m] vn[us] solus"/>
         <underline method="pen" type="straight" language="LA" text="ingredit[ur] diffinitione[m] eoru[m] triangulus"/>
         <underline method="pen" type="straight" language="LA" text="sumu[n]tur p[ro] passionib[us] q[uae] p[ro]ut sunt"/>
@@ -117,6 +118,11 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- eq[ui]laterus nisi -->
+        
+        
+        <!-- DO: There are also commas at 'ip[s]o[rum] q[ua]' and 'insunt vt' (4th line of para 2) -->
+        
+        
         
     </annotation>
 </transcription>
