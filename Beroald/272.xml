@@ -32,13 +32,14 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="India Sabaei">
+        <marginalia hand="Italian" anchor_text="Sabaeos Indicos">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Saba[e]i India</marginalia_text>
+                    <marginalia_text>Saba[e]i Indici</marginalia_text>
+                    <location name="Saba"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Indian Sabaeans.</translation>
         </marginalia>
         
         
@@ -46,12 +47,75 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Sab[a]ei. Taxila[e]</marginalia_text>
+                    <location name="Saba"/>
+                    <location name="Taxila"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Sabaeans. People of Taxila.</translation>
         </marginalia>
         
         
+        <marginalia hand="Italian" anchor_text="videtur longius" id="RCPD126.6:272:m0001">
+            <language ident="EN">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>O</marginalia_text>            <!-- DO: Not sure what this is... -->
+                </position>
+            </language>
+        </marginalia>
+        
+        
+        <marginalia hand="Italian" anchor_text="varia populorum Sabaeorum esse genera mirum videri non debet, quum varia familiarum illarum, siue gentium capita memoret Scriptura">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Varia populoru[m] Saba[e]orum genera ex varijs orta capitibus</marginalia_text>
+                    <location name="Saba"/>
+                </position>
+            </language>
+            <translation>Various groups of Sabaean peoples originated in different capitals.</translation>  <!-- DO: Not sure about translation -->
+        </marginalia>
+        
+        
+        
+        <underline method="pen" type="straight" language="LA" text="Hus"/>
+        <underline method="pen" type="straight" language="LA" text="Edom, quae habitas in terra Hus"/>
+        <underline method="pen" type="straight" language="LA" text="Hus regio Syriae"/>
+        <underline method="pen" type="straight" language="LA" text="Chaldaei &amp; Sabaei"/>
+        <underline method="pen" type="straight" language="LA" text="Syriae regiones"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; Saba"/>
+        <underline method="pen" type="straight" language="LA" text="Ophir"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; Heuila"/>
+        <underline method="pen" type="straight" language="LA" text="familia eiusdem nominis"/>
+        <underline method="pen" type="straight" language="LA" text="sunt Saba &amp; Heuila"/>
+        <underline method="pen" type="straight" language="LA" text="sunt &agrave; Messa, pergentibus ad Sephar montem Orientalem"/>
+        <underline method="pen" type="straight" language="LA" text="montana Sephar"/>
+        <underline method="pen" type="straight" language="LA" text="quae sunt in Oriente"/>
+        <underline method="pen" type="straight" language="LA" text="latera, ita Saba filius Iectan"/>
+        <underline method="pen" type="straight" language="LA" text="Saba is, qui in filiis Abraham ex Cetura natus"/>
+        <underline method="pen" type="straight" language="LA" text="Sabaeos Persis"/>
+        <underline method="pen" type="straight" language="LA" text="Prim&ugrave;m Sabaei"/>
+        <underline method="pen" type="straight" language="LA" text="hos sunt Pasagardae"/>
+        <underline method="pen" type="straight" language="LA" text="sunt Tasci. qui"/>
+        <underline method="pen" type="straight" language="LA" text="videtur Saba Arahami"/>
+        <underline method="pen" type="straight" language="LA" text="dicitur emissus ab Abrahamo ad"/>
+        <underline method="pen" type="double" language="LA" text="plagam Orie[n]tlem"/>
+        <underline method="pen" type="double" language="LA" text="videtur longius" id="RCPD126.6:272:u0001"/>
+        <underline method="pen" type="double" language="LA" text="Sabaeos Indicos"/>
+        <underline method="pen" type="double" language="LA" text="India Sabaei"/>
+        <underline method="pen" type="straight" language="LA" text="Sabaei &amp; Taxili viri"/>
+        <underline method="pen" type="grid" language="LA" text="genitum capita"/>
+        
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        
+        
+        <physical_link>
+            
+            <marginal_annotation idref="RCPD126.6:272:m0001"/>  
+            <marginal_annotation idref="RCPD126.6:272:u0001"/>
+            
+            <relation from="RCPD126.6:272:m0001" to="RCPD126.6:272:u0001" type="directed"/>
+            
+        </physical_link>
        
         
     </annotation>
