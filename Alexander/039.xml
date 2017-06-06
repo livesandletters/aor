@@ -11,33 +11,33 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Isoceles Isopleuros scalenos} Tria[n]guli su[n]t passiones in numeri <!-- FSF: not sure -->
+                        Isoceles Isopleuros scalenos} Tria[n]guli su[n]t passiones in numeri <!-- FSF: not sure -->   <!-- DO: Looks like 'an' rather than 'in', though seems a bit odd -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                <!-- FSF: to be added -->     <!-- DO: 'Isosceles, Equilateral, Scalene} Triangles are properties or numbers'?? -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor text, maybe 'sine disiu[n]ctione ... nu[m]eri'? -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Prop[ri]a passio{simpl[icite]r, siue disiunctione p[re]dicat[ur] p[er] disiunctione[m] vel opposita <!-- FSF: not sure -->
+                        Prop[ri]a passio {simpl[icite]r, siue disiunctione p[re]dicat[ur] p[er] disiunctione[m] vel opposita <!-- FSF: not sure -->  <!-- DO: I think it's 'sine' instead of 'siue', like the printed text -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                <!-- FSF: to be added -->  <!-- DO: Something like 'An individual property is asserted {simply, without separation; through separation or opposites'?  -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Can anchor 'egidio' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Ph[ilosoph[us Egidius <!-- FSF: possibly Giles of Rome, not sure -->
+                        Ph[ilosoph]us Egidius <!-- FSF: possibly Giles of Rome, not sure -->  <!-- DO: I would say yes, looking at: https://books.google.co.uk/books?id=My6oDQAAQBAJ&pg=PT332&lpg=PT332&dq=aegidius+mathematician&source=bl&ots=jyiYd0Nr4X&sig=zCQakx_qe7XwnBXi6fpLrBKrTVI&hl=en&sa=X&ved=0ahUKEwi7w7uNkanUAhUIIsAKHf82Av0Q6AEIPjAE#v=onepage&q=aegidius&f=false -->
                     </marginalia_text>
                 </position>
             </language>
@@ -46,7 +46,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'p[rae]dicatio[n]es' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -55,11 +55,11 @@
                 </position>
             </language>
             <translation>
-                
+                               <!-- DO: 'Predictions in themselves'? -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'vniuersali' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -98,11 +98,11 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="[sca]leno[m] et ysochelem p[re]nomi[n]ata esse passionis"/>
-        <underline method="pen" type="straight" language="LA" text="S[ed] no[n] videt[ur] mihi vir paule hoc de me[n]te p[hilosoph]i et etia[m] d[omi]no egodio"/>
-        <underline method="pen" type="straight" language="LA" text="mihi o[mn]ia uiusmo[d]i referre ta[n]q[uam] passio[n]es nu[m]eri"/>
-        <underline method="pen" type="straight" language="LA" text="patet igit[ur] breuit[er] q[uod] o[mn]es p[re]dicatio[n]es in quib[us] effectus v est p[ro]pria passio p[re]dicat[ur] de cause sc[ilicet] de subiecto sunt in secundo
-            modo dicendi. In quibus autem cause i[d est] subiectum de effectu supple passione sunt in primo"/>
+        <underline method="pen" type="straight" language="LA" text="[sca]leno[m] et ysochelem p[re]nomi[n]ata esse passiones"/>
+        <underline method="pen" type="straight" language="LA" text="videt[ur] mihi vir paule hoc de me[n]te p[hilosoph]i et etia[m] d[omi]no egidio"/>
+        <underline method="pen" type="straight" language="LA" text="mihi o[mn]ia huiusmo[d]i referre ta[n]q[uam] passio[n]es nu[m]eri"/>
+        <underline method="pen" type="straight" language="LA" text="patet igit[ur] breuit[er] q[uod] o[mn]es p[re]dicatio[n]es in quib[us] effectus vt est p[ro]pria passio p[re]dicat[ur] de causa sc[ilicet] de subiecto sunt in secundo 
+            modo dicendi. In quibus autem cause i[d est] subiectum de effectu supple passione sunt in primo"/>  <!-- DO: Should these be 'p[rae]dicatio[n]es'/'p[rae]dicat[ur]'? -->
         <underline method="pen" type="straight" language="LA" text="aliq[ua]n[do] p[ro]pria passio exp[ri]mat[ur]"/>
         <underline method="pen" type="straight" language="LA" text="v[er]o p[er] disiu[n]ctione[m]"/>
         <underline method="pen" type="straight" language="LA" text="par v[e]l impar"/>
@@ -110,14 +110,18 @@
         <underline method="pen" type="straight" language="LA" text="duo opposita"/>
         <underline method="pen" type="straight" language="LA" text="sicut p[ri]ncipiu[m] essenciale et no[n] p[re]dicabile s[e]c[un]d[u]m rectu[m] q[uod] det[er]minet[ur] ad certu[m] aliquod"/>
         <underline method="pen" type="straight" language="LA" text="sicut p[ro]prie passio[n]es"/>
-        <underline method="pen" type="straight" language="LA" text="accipit[ur] p[er] disiu[n]ct[i]o[n]e[m]"/>
-        <underline method="pen" type="straight" language="LA" text="v[e]l est q[uod] cu[m] de o[mn]i et p[er] se sit [et] s[e]c[un]d[u]m q[uod] ip[s]um est i[d est] q[uod] p[re]dicatu[m] dicat adeq[ua]tionem [et] conuertibilitate cum subiecto"/>
+        <underline method="pen" type="straight" language="LA" text="opposito accipit[ur] p[er] disiu[n]ct[i]o[n]e[m]"/>
+        <underline method="pen" type="straight" language="LA" text="v[e]l est q[uod] cu[m] de o[mn]i et p[er] se sit [et] s[e]c[un]d[u]m q[uod] ip[s]um est i[d est] q[uod] p[re]dicatu[m] dicat adeq[ua]tionem [et] conuertibilitate cum subiecto"/>  <!-- DO: I think the first contraction is something else...? -->
         <underline method="pen" type="straight" language="LA" text="quolibet p[ri]mo"/>
-        <underline method="pen" type="straight" language="LA" text="sic p[ri]mu[m] est demo[n]strare q[iod] int[er] ip[su]m subiectu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="sic p[ri]mu[m] est demo[n]strare q[uod] int[er] ip[su]m subiectu[m]"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>  <!-- DO: Manicule -->
+        
+        <!-- DO: I think there is a comma at 'se hec' (about 12 lines up from the bottom) -->
+        
+        <!-- DO: Looks like he has altered 'proprios' to 'proprias' in the second line -->
         
     </annotation>
 </transcription>
