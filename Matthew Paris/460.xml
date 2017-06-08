@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="460.tif" reader="John Dee" pagination="436" signature="[Oo ij[v]]"/>
+    <annotation>
+        
+        <marginalia hand="Italian" anchor_text="fuga simulata">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        fuga simulata
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                A simulated flight.
+            </translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="illo presbyteros videri"/>
+        <underline method="pen" type="straight" language="LA" text="qu&ograve;d faciam"/>
+        <underline method="pen" type="straight" language="LA" text="cum vtroq[ue] labio rasam"/>
+        <underline method="pen" type="straight" language="LA" text="haberent, vnd&egrave;"/>
+        <underline method="pen" type="straight" language="LA" text="Gurtha"/>
+        <underline method="pen" type="straight" language="LA" text="sacramentu[m] feceris"/>
+        <underline method="pen" type="straight" language="LA" text="more suo, fuga simulata"/>
+        
+        <errata language="LA" copytext="faciam" amendedtext="faciem"/>
+        
+        <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
+            <node id="n1" person="Harold Godwinson">Haraldus</node>
+            <node id="n2" anchor_text="Gurtha" person="Gyrth Godwinson">Gurtha</node>
+            <link to="n1" from="n2" relationship="has_sibling"/>
+            <link to="n2" from="n1" relationship="has_sibling"/>
+        </graph>
+        
+    </annotation>
+</transcription>
