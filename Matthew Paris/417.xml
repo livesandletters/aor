@@ -11,7 +11,8 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Pons Lo[n]d[inii]
-                    </marginalia_text> <!--JG: I'd add a location as well: London-->
+                    </marginalia_text>
+                    <location name="London"/>
                 </position>
             </language>
             <translation>
@@ -25,10 +26,11 @@
                     <marginalia_text>
                         Almarus Comes Deuoniensis
                     </marginalia_text>
+                    <person name="Almarus, Earl of Devon"/>
                 </position>
             </language>
             <translation>
-                Earl of Devon. <!-- FSF: I am not sure who it is, see https://en.wikipedia.org/wiki/Earl_of_Devon --> <!--JG: I think you can just tag him as 'Almarus, Earl of Devon'. See: https://books.google.co.uk/books?id=Hz4PAAAAQAAJ&pg=PA71&lpg=PA71&dq=almarus+earl+of+devon&source=bl&ots=nKnvwhZ7wB&sig=8vNAgRKciISUoXhFlMVQeLih4fo&hl=en&sa=X&ved=0ahUKEwilq8SrlJfUAhWqJsAKHckVBK8Q6AEIKDAA#v=onepage&q=almarus%20earl%20of%20devon&f=false-->
+                Almarus, Earl of Devon.
             </translation>
         </marginalia>
         
@@ -47,7 +49,7 @@
         <underline method="pen" type="triple" language="LA" text="iniust&egrave; exhaeredauerat"/>
         
         <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">
-            <node id="n1" person="Sweyn Forkbeard"></node> <!--JG: Is this Suanus R? If so, this should appear in between the node tags-->
+            <node id="n1" person="Sweyn Forkbeard">Suanus R</node>
             <node id="n2" person="Cnut the Great" anchor_text="Cnutoni">Cnuto</node>
             <link to="n2" from="n1" relationship="has_child"/> 
         </graph>
