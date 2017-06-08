@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Dupla p[ro]portio no[n] est r[ati]o[n]alis cubor[um] aut <!-- symbold of a suqare --> or[um]
+                        Dupla p[ro]portio no[n] est r[ati]o[n]alis cubor[um] aut &Square;or[um]
                     </marginalia_text>
                 </position>
             </language>
@@ -24,12 +24,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Accidentia co[mmun]ia
+                        Accidentia co[mmun]ia    
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Common accidents.
+                Common accidents.       <!-- DO: 'occurrences' rather than 'accidents'? -->
             </translation>
         </marginalia>
         
@@ -46,7 +46,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: I'd anchor 'p[er] ... dixim[us]' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -55,7 +55,7 @@
                 </position>
             </language>
             <translation>
-                Passion explained by the opposite names.
+                Passion explained by the opposite names.    <!-- DO: I think 'passio' can be translated as 'property' (as in mathematical property) -->
             </translation>
         </marginalia>
         
@@ -72,7 +72,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Can anchor 'algebra' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -94,11 +94,11 @@
                 </position>
             </language>
             <translation>
-                Proper accidents are to be extrapolated from demonstrations, not commonly known ones, not to be extracted. <!-- FSF: I am not really sure -->
+                Proper accidents are to be extrapolated from demonstrations, not commonly known ones, not to be extracted. <!-- FSF: I am not really sure -->  <!-- DO: Not sure either -->
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="equalia nu[n]q[uam] c[on]stituu[n]t cubu[m] v[e]l quadratu[m] cu[m] dupla p[ro]portio no[n] sit rationalis"/>
+        <underline method="pen" type="straight" language="LA" text="equalia nu[n]q[uam] c[on]stituu[n]t cubu[m] v[e]l quadratu[m] cu[m] dupla p[ro]portio no[n] sit rationalis p[ro]portio"/>
         <underline method="pen" type="straight" language="LA" text="tibi algebra aperuit"/>
         <underline method="pen" type="straight" language="LA" text="ex ineq[ua]libus hoc bene co[n]tingit sicut postea dicem[us] Secundu[m]"/>
         <underline method="pen" type="straight" language="LA" text="q[uo]dlibet"/>
@@ -107,7 +107,7 @@
         <underline method="pen" type="straight" language="LA" text="na[m] pulcr[um] [et] a[m]miratiuu[m]"/>
         <underline method="pen" type="straight" language="LA" text="etia[m] q[uae] sunt freque[n]ter"/>
         <underline method="pen" type="straight" language="LA" text="no[n] vt sunt sepe sed vt sunt semp[er] sed"/>
-        <underline method="pen" type="straight" language="LA" text="q[uo] referunt[er] ad suas causas q[uo]"/>
+        <underline method="pen" type="straight" language="LA" text="q[uo] referunt[ur] ad suas causas q[uo]"/>
         <underline method="pen" type="straight" language="LA" text="illis vbi p[ro]pria passio de subiecto non vno no[m]i[n]e exp[ri]mit[ur] s[ed] p[er] duo opposita sicut i[n]"/>
         <underline method="pen" type="straight" language="LA" text="semp[er] est in ordine ad illa[m] causam"/>
         <underline method="pen" type="straight" language="LA" text="Sic rationalis nu[m]eri causa est p[ro]portio nota"/>
@@ -117,6 +117,8 @@
         
         <mark name="comma" method="pen" place="intext"/> <!-- fiunt demo[n]strationes -->
         <mark name="comma" method="pen" place="intext"/> <!-- demo[n]strabilia sunt -->
+        
+        <!-- DO: I think there's a comma at 'ostensum est' in the fourth line? There is also one at 'demo[n]strabilia sunt' in the middle of the second paragraph -->
         
     </annotation>
 </transcription>
