@@ -9,10 +9,10 @@
         <marginalia hand="Italian" anchor_text="Nam consultant aut plures, aut singuli, sed in utriq[ue] differentia: quia &amp; in pluribus multum interest, senatus sit, an populus: Romani, an Fidenates; Graeci, an Barbari.">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>In persona que spectanda</marginalia_text>
+                    <marginalia_text>In persona qu[a]e spectanda</marginalia_text>
                 </position>
             </language>
-            <translation>And to be tested in person.</translation>
+            <translation>And to be tested in person.</translation> <!-- FSF: or In a person that is to be considered -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="timor, qu&agrave;m spes">
@@ -27,7 +27,7 @@
         <marginalia hand="Italian" anchor_text="M. Cicero, qui ita scribit ad Brutum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Cicero ad Brutu[m]</marginalia_text>
+                    <marginalia_text>Cicero ad Brutu[m]</marginalia_text> <!-- FSF: I think the text is meant https://en.wikipedia.org/wiki/Epistulae_ad_Brutum -->
                     <person name="Cicero"/>
                     <person name="Lucius Junius Brutus"/>
                 </position>
@@ -35,11 +35,11 @@
             <translation>Cicero to Brutus.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="destinatus est mihi hic locus duodecimo">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>.12&o_super; h&o_super;.</marginalia_text> <!-- M.B. 12 obviously refers to duodecimo, I think the h&o_super; superscript might be ho[c]??  -->
+                    <!-- FSF: I think it is libro; when finishing the anchor text to the end, there is libro, which agrees with the duodecimo before -->
                 </position>
             </language>
             <translation>This twelveth [book].</translation>
@@ -54,7 +54,7 @@
             <translation>Declaimers</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="nescio an etia[m] naturaliter apus plurimos"/>
+        <underline method="pen" type="straight" language="LA" text="nescio an etia[m] naturaliter apud plurimos"/>
         <underline method="pen" type="straight" language="LA" text="ualeat malorum timor, qu&agrave;m spes bonorum: sicut facilior"/>
         <underline method="pen" type="straight" language="LA" text="Sed no[n] est semper rectis in suadendo locus. Sed"/>
         

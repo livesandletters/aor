@@ -9,35 +9,35 @@
         <marginalia hand="Italian" anchor_text="utilia honestis praeferimus, ut cu[m] suademus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Utilia honestis interdu[m] pra[e]fere[n]da</marginalia_text>
+                    <marginalia_text>Vtilia honestis interdu[m] pra[e]fere[n]da</marginalia_text>
                 </position>
             </language> 
-            <translation>Expediency is occasionally preferred to honours.</translation>
+            <translation>Expediency is occasionally preferred to honours.</translation> <!-- FSF: I'd translate Useful things are sometimes to be preferred over the honest ones.-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Liberos enim natura omnes">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Liberi sum ?oes</marginalia_text>  <!-- M.B. Uncertain of the 3rd contracted word. -->
+                    <marginalia_text>Liberi sum ?oes</marginalia_text>  <!-- M.B. Uncertain of the 3rd contracted word. --> <!-- FSF: contraction for o[mn]es -->
                 </position>
             </language> 
-            <translation>Free[...]</translation>
+            <translation>Free[...]</translation> <!-- FSF: Everyone is free. -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="uerbis qu&agrave;m re probabilius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Uerba re probabilia</marginalia_text>
+                    <marginalia_text>Verba reprobabilia</marginalia_text>
                 </position>
             </language>          
-            <translation>The plausible word.</translation>
+            <translation>The plausible word.</translation> <!-- FSF: I'd translate as contemptible words. -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Pomeius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Pompeius</marginalia_text>
-                    <person name="Pompey"/>
+                    <person name="Pompey"/> <!-- FSF: isn't the location meant here? -->
                 </position>
             </language>
             <translation>Pompey.</translation>
@@ -49,8 +49,10 @@
                     <marginalia_text>Omnis suasoria est comparatio</marginalia_text>
                 </position>
             </language> 
-            <translation>Every advisory speech is by comparison.</translation>
+            <translation>Every advisory speech is a comparison.</translation>
         </marginalia>
+        
+        <!-- FSF: I think the notes below are all one except for the last; they are a list; "vtilitas in tempore, loco, persona, g[e]n[er]e age[n]di, modo -->
         
         <marginalia hand="Italian" anchor_text="tempore">
             <language ident="LA">
@@ -110,6 +112,7 @@
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
+        
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
