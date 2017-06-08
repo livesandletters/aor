@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="143.tif" reader="John Dee" pagination="137" signature="i 5"/>
+    <page filename="311.tif" reader="John Dee" signature="B.iiij."/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Horatius">
+        
+        <marginalia hand="Italian" anchor_text="Excidium Troiae. vide Chronic.">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Horatius</marginalia_text>
-                    <person name="Horace"/>
+                    <marginalia_text>vt per authores Latinos: vide supra pag[ina]: 61.</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCPD126.6:85" text="61"/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation>Horace.</translation>
+            <translation>As in the Latin authors: see above, page 61.</translation>
         </marginalia>
         
-        <mark name="vertical_bar" method="pen" place="right_margin"/>
         
     </annotation>
+    
 </transcription>
