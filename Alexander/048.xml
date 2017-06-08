@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                Physicians.
+                Physicians.       <!-- DO: More likely 'Physicists'? Not sure though... -->
             </translation>
         </marginalia>
         
@@ -42,7 +42,7 @@
                 </position>
             </language>
             <translation>
-                Perspectives of Pisanus. <!-- FSF: I am not sure who Pisanus is -->
+                Perspectives of Pisanus. <!-- FSF: I am not sure who Pisanus is -->  <!-- DO: Not sure either; could be: https://en.wikipedia.org/wiki/Fibonacci -->
             </translation>
         </marginalia>
         
@@ -55,7 +55,7 @@
                 </position>
             </language>
             <translation>
-                Subalternat sciences.
+                Subaltern sciences.
             </translation>
         </marginalia>
         
@@ -72,20 +72,20 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="ergo in talibus aliquid est quod est pure geometricu[m] et aliquid q[uo]d est pure p[er]spectiuu[m]">
+        <marginalia hand="Italian" anchor_text="ergo in talibus aliquid est quod est pure geometricum et aliquid q[uo]d est pure p[er]spectiuu[m]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        pure{ geometricu[m] p[er]spectiuu[m]
+                        pure {geometricu[m] p[er]spectiuu[m]
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                pure geometry or perspective.
+                Pure geometry or perspective.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -94,7 +94,7 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure -->
+                <!-- FSF: not sure -->  <!-- DO: Not sure either; are these two separate notes? 'Geometries as combined' for the first part? -->
             </translation>
         </marginalia>
         
@@ -111,7 +111,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -133,35 +133,40 @@
                 </position>
             </language>
             <translation>
-                Even the last media must be of the same kind.
+                Even the last media must be of the same kind.        <!-- DO: Not sure about the translation. Couldn't it also be 'The middle and the last should be of the same kind'? -->
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="demo[n]stratu[m] qua[m]uis"/>
-        <underline method="pen" type="straight" language="LA" text="tabulis sinuu[m] quantu[m] ad corda[m] [et] arcu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="demo[n]stratu[m] qua[m]uis phisici"/>
+        <underline method="pen" type="straight" language="LA" text="tabulis sinuu[m] quantu[m] ad corda[m] [et] arcu[m] Cu[m]"/>
         <underline method="pen" type="straight" language="LA" text="na[m] c[on]clusio si[mi]le t[em]p[or]e nata c[on]stat cu[m] minore"/>
-        <underline method="pen" type="straight" language="LA" text="In hijs aut[em] que subalt[ernant[ur] no[n] illicitu[m] est hoc co[n]tingere"/>
-        <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m p[er]spectiue pisani est eam"/>
-        <underline method="pen" type="straight" language="LA" text="armonica v[e]l algebra"/>
+        <underline method="pen" type="straight" language="LA" text="In hijs aut[em] que subalt[er]nant[ur] no[n] illicitu[m] est hoc co[n]tingere"/>
+        <underline method="pen" type="straight" language="LA" text="s[e]c[un]di p[er]spectiue pisani est eam"/>
+        <underline method="pen" type="straight" language="LA" text="armonica v[e]l algebra demo[n]strare"/> 
         <underline method="pen" type="straight" language="LA" text="scientie cui tu[n]c"/>
         <underline method="pen" type="straight" language="LA" text="q[ua]re subalt[er]nans demo[n]strat huiusmo[d]i ratio[n]es p[ro]pter quid. subalternata aut[em] quia est. [et]"/>
         <underline method="pen" type="straight" language="LA" text="subalt[er]nu[m] q[ua]si ide[m] et non"/>
         <underline method="pen" type="straight" language="LA" text="necesse est mediu[m] esse in eade[m] p[ro]ximitate"/>
         <underline method="pen" type="straight" language="LA" text="vt si p[er]spectiuus probare velit hanc"/>
-        <underline method="pen" type="straight" language="LA" text="c[on]siderat p[er]spectiu[us] no[n] p[er] mediu[m] geometricu[m]. s[ed] p[er] meiu[m] p[ro]priu[m] vt quia sic imp[ri]mit.
+        <underline method="pen" type="straight" language="LA" text="c[on]siderat p[er]spectiu[us] no[n] p[er] mediu[m] geometricu[m]. s[ed] p[er] mediu[m] p[ro]priu[m] vt quia sic imp[ri]mit.
             de q[ui]bus imp[re]ssionibus oculor[um] [et] rer[um] obiectaru[m] no[n] habet demo[n]strare geometra"/>
-        <underline method="pen" type="straight" language="LA" text="est q[uo]d est pure p[er]spectiuu[m] aliquid"/>
+        <underline method="pen" type="straight" language="LA" text="aliquid est q[uo]d est pure p[er]spectiuu[m] aliquid"/>
         <underline method="pen" type="straight" language="LA" text="hoc puru[m] est geometricu[m]"/>
         <underline method="pen" type="straight" language="LA" text="p[ro]bandu[m] hanc imp[re]ssione[m] esse tale[m] p[er] similitudine[m] anguloru[m] no[n] est ali[u]d 
-            q[uam] adaptare hoc q[uo]d determi[n]atu[m] est in geometrica ad materia[m] specialem vt ad oculu[m] de quo c[on]siderat p[er]spectiuus"/>
+            q[uam] adaptare hoc q[uo]d determi[n]atu[m] est in geometrica ad materia[m] specialem vt ad oculu[m] de quo c[on]siderat p[er]spectiuus. Ha[n]c"/>
+        <underline method="pen" type="straight" language="LA" text="facere no[n]"/>
+        <underline method="pen" type="straight" language="LA" text="descendit in"/>
         <underline method="pen" type="straight" language="LA" text="ergo scie[n]tiam subalt[er]nata[m] vti p[ro]positionib[us] subalt[er]natis no[n] est aliud q[uam] p[ro]positio[n]es illas ad speciales materias applicacare. tunc"/>
-        <underline method="pen" type="straight" language="LA" text="nec est linee visualis vt visualis est. sed est magis linee s[e]c[un[d]u[m] abstractione[m] sumpte"/>
+        <underline method="pen" type="straight" language="LA" text="nec est linee visualis vt visualis est. sed est magis linee s[e]c[un]d[u]m abstractione[m] sumpte. S[ed]"/>
         <underline method="pen" type="straight" language="LA" text="passio"/>
         <underline method="pen" type="straight" language="LA" text="[et] subiectu[m]"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
+        
+        
+        <!-- DO: I think there's a comma at 'pisani est' (9 lines down) -->
         
     </annotation>
 </transcription>
