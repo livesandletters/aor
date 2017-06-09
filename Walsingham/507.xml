@@ -11,10 +11,10 @@
             <language ident="FR">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Le Duc Richard de Normandie, regarda, que par souffrir ne obeijr il nauroit point de paix, si ordonna ses gens par telle maniere, que ceulx du pais D'Auge, 
-                        et de Hommois deffendroient la terre contre Rotrou, le Conte du Perche, et de Belesme qui faisoient guerre par deuers sees et le pais de la etainsi y adiousta les Aurenchinoys contre ceulx de Flandres, 
+                        et de [Hommois?] deffendroient la terre contre Rotrou, le Conte du Perche, et de Belesme qui faisoient guerre par deuers Sees et le pais de la etainsi y adiousta les Aurenchinoys contre ceulx de Flandres, 
                         et D Amiennoys [?st] les Cauchoys, ceulx des Contez D'Eu, et d'Aumalle. Et il rotint auec Luy les brettons, et ceulx de Constentin.</marginalia_text>  <!-- DO: Unsure of some words here -->
                     <person name="Richard I of Normandy"/>
-                    <person name="Routrou I, Count of Perche"/>
+                    <person name="Rotrou I, Count of Perche"/>
                     <location name="Pays d'Auge"/>
                     <location name=""/>
                     <location name="Belleme"/>
@@ -30,7 +30,7 @@
                 </position>
             </language>
             <translation>The Duke Richard of Normandy, having seen that through enduring [resistance to obedience] he [nauroit?] a period of peace, if having ordered the people in such a way, 
-                that those of Pays d'Auge, and those of [Hommois], would defend the land against Routrou, the Count of Perche, and of Belleme, who waged a war against Sees and 
+                that those of Pays d'Auge, and those of [Hommois], would defend the land against Rotrou, the Count of Perche, and of Belleme, who waged a war against Sees and 
                 the country there and thus having added the people of Avranches against those of Flanders, and those of Amiens, [?] the people of Pays de Caux, those of the communes of Eu and Aumale. 
                 And he [?] with him the Bretons, and the people of Coutances.</translation>  <!-- DO: Translation needs revising; also I can't actually identify 'Hommois' as a place so might be something else  -->
         </marginalia>
@@ -38,21 +38,21 @@
         <marginalia hand="Italian" anchor_text="Vermentrudis villam" method="pen">
             <language ident="FR">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Ermentre Ville</marginalia_text>
-                    <location name=""/>  <!-- DO: I can't find this place -->
+                    <marginalia_text>Ermentreville</marginalia_text>
+                    <location name="Saint-Sever"/> 
                 </position>
             </language>
-            <translation>Ermentre city.</translation>
+            <translation>Saint-Sever.</translation>
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Vermentrudis villam" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Vermentrudis Villa.</marginalia_text>
-                    <location name=""/>
+                    <location name="Saint-Sever"/>
                 </position>
             </language>
-            <translation>Ermentre city.</translation>
+            <translation>Saint-Sever.</translation>
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="sexcentis quadraginta" method="pen">
@@ -151,10 +151,10 @@
                     <marginalia_text>Soldiers Marchandise</marginalia_text>
                 </position>
             </language>
-            <translation></translation>  <!-- DO: I'm not sure what this means - 'Merchant soldiers'? --> <!-- FSF: I was wondering if Marchandise refers to a march, in this case Denmark -->
+            <translation>Danish soldiers.</translation>  
         </marginalia>
        
-        <marginalia hand="Italian" method="pen"> <!-- FSF: I would anchor sinodalis episcorum conuentus -->
+        <marginalia hand="Italian" method="pen" anchor_text="sinodalis episcoporum conuentus"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Synodus Episcop[orum]</marginalia_text>
@@ -178,11 +178,11 @@
         <marginalia hand="Italian" anchor_text="paganoru[m] plurimos ad Christi fide[m] conuertit" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pagani Christu[m] [?]</marginalia_text>  <!-- DO: Can't make out the last word - looks like 'agnus' -->
+                    <marginalia_text>Pagani Christu[m] agnos[cere]</marginalia_text>  <!-- DO: Can't make out the last word - looks like 'agnus' -->
                     <!-- FSF: the last word must be some sort of abbreviation, given that it ends in a long s; maybe agnos. from agnoscere as in the pagans recognised Christ? -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>The Pagans recognised Christ.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Hispanias, vbi plurima bella perpetrantes decem &amp; octo diruerunt vrbes" method="pen">
@@ -282,7 +282,7 @@
             <node id="n1" person="Hugh the Great">Hugo Magnus</node>
             <node id="n2" person="William I Longsword">Will[ia]mus Lo[n]g[a]sp[ata]</node>
             <node id="n3" person="Emma of Paris">Emma</node>
-            <node id="n4" person="Richard I of Normandy">Richardus Prim[us] Dux Nort[tmanniae]</node>
+            <node id="n4" person="Richard I of Normandy">Richardus Prim[us] Dux Nort[hmanniae]</node>
             <node id="n5" person="Gunnora de Crepon">Gunnor</node>
             <node id="n6" person="Richard II, Duke of Normandy">Richardus</node>
             <node id="n7" person="Robert II, Archbishop of Rouen">Robertus</node>
@@ -291,6 +291,8 @@
             <node id="n10" person="Maud of Normandy">Matildis</node>
             <node id="n11" person="Emma of Normandy">Emma</node>
             <node id="n12" person="Aethelred II">&AElig;thelredus rex Ang[liae]</node> 
+            <node id="n13">N.N.</node>
+            <node id="n14">N.N.</node>
             <link to="n3" from="n1" relationship="has_child"/>
             <link to="n4" from="n2" relationship="has_child"/>
             <link to="n4" from="n3" relationship="has_spouse"/>
@@ -311,10 +313,13 @@
             <link to="n11" from="n5" relationship="has_child"/>
             <link to="n12" from="n11" relationship="has_spouse"/>
             <link to="n11" from="n12" relationship="has_spouse"/>
+            <link to="n13" from="n4" relationship="has_child"/>
+            <link to="n13" from="n5" relationship="has_child"/>
+            <link to="n14" from="n4" relationship="has_child"/>
+            <link to="n14" from="n5" relationship="has_child"/>
+             
         </graph>
         
-        <!-- DO: There are also two other (unnamed) branches from the Richard/Gunnora marriage -->
-        <!-- FSF: In agreement with Jaap, I put in another instance a node and then [blank] instead of the writing -->
         
     </annotation>
 </transcription>
