@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="473.tif" reader="John Dee" pagination="9"/>
+    <annotation>
+        
+        <marginalia hand="Italian" anchor_text="VValtheofus decolatus est">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Waltheofus d[icitu]r decollatus a[nn]o 1076
+                    </marginalia_text>
+                    <person name="Waltheof, Earl of Northumbria"/>
+                </position>
+            </language>
+            <translation>
+                Waltheof, Earl of Northumbria, was said to have been beheaded in 1076.
+            </translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="Vvaltheofus"/>
+        <underline method="pen" type="straight" language="LA" text="filius Sivvardi"/>
+        <underline method="pen" type="straight" language="LA" text="Hic Crolandiae sepultus"/>
+        <underline method="pen" type="straight" language="LA" text="ac iust&egrave; omnes Hildebrandu[m] fuisse depositum conclamant, tanquam laesae maiestatis reum, qui contra imperatorem Henricum, alium ordinauit"/>
+        
+        <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
+            <node id="n1" person="Siward, Earl of Northumbria" anchor_text="Sivvardi">Siwardus</node>
+            <node id="n2" person="Waltheof, Earl of Northumbria" anchor_text="VValtheofus">Waltheofus</node>
+            <link to="n2" from="n1" relationship="has_child"/>
+        </graph>
+        
+    </annotation>
+</transcription>
