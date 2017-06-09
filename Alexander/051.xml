@@ -7,7 +7,7 @@
     <page filename="051.tif" reader="John Dee" signature="[Diij[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Can anchor text, maybe 'Principia ... p[ri]ncipiata' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,20 +20,20 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Can anchor underlined text -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Principia {communia propria
+                        Principia { Communia propria
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Principles common proper
+                Principles: common, proper.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'rectis lineis' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -46,7 +46,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'passionis ... inesse' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -55,7 +55,7 @@
                 </position>
             </language>
             <translation>
-                
+                           <!-- Translation needed -->
             </translation>
         </marginalia>
         
@@ -81,11 +81,11 @@
                 </position>
             </language>
             <translation>
-                
+                        <!-- Translation needed -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="">     <!-- DO: Anchor 'inco[m]plexa' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -107,7 +107,7 @@
                 </position>
             </language>
             <translation>
-                To be from which of the subjects.
+                To be from which of the subjects. 
             </translation>
         </marginalia>
         
@@ -120,7 +120,7 @@
                 </position>
             </language>
             <translation>
-                Number.
+                The number.
             </translation>
         </marginalia>
         
@@ -133,19 +133,19 @@
                 </position>
             </language>
             <translation>
-                Arithmeitc principles of the subject.
+                Arithmetic principles of the subject.
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Altera aut[em] q[uae] sunt passiones et p[re]dicata no[n] est accipere q[ue] sunt"/>
+        <underline method="pen" type="straight" language="LA" text="Altera aut[em] q[uae] sunt passiones et p[rae]dicata no[n] est accipere q[ue] sunt"/>
         <underline method="pen" type="straight" language="LA" text="esse est inesse"/>
-        <underline method="pen" type="straight" language="LA" text="quia illa supponunt alia vero demo[n]strant sicut tu[n]c passio demo[n]strat[ur] de subiecto. Est"/>
+        <underline method="pen" type="straight" language="LA" text="disputandu[m] quia illa supponunt alia vero demo[n]strant sicut tu[n]c passio demo[n]strat[ur] de subiecto. Est"/>
         <underline method="pen" type="straight" language="LA" text="Sed co[n]clusionu[m] dicunt[ur] p[ro]xima"/>
         <underline method="pen" type="straight" language="LA" text="q[uo]d quide[m] p[ri]ncipiu[m] exuit[ur] p[ri]ma principia scie[n]tie demo[n]strando"/>
-        <underline method="pen" type="straight" language="LA" text="Quare n[on] om[n]es co[n]clusio[n]es mathematicales possunt ostendi immediais principijs talis scie[n]tie s[ed] solu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Quare n[on] om[n]es co[n]clusio[n]es mathematicales possunt ostendi immediatis principijs talis scie[n]tie s[ed] solu[m]"/>
         <underline method="pen" type="straight" language="LA" text="q[uae] principijs sunt p[ro]xima vt triangulu[m]"/>
         <underline method="pen" type="straight" language="LA" text="[et] sic p[ri]ncipia immediata c[on]clusionu[m] sunt p[ri]ncipiata"/>
-        <underline method="pen" type="straight" language="LA" text="Na[m] demo[n]strator vtit[ur] p[ri]nciijs  p[ro]prijs p[er] se co[m]munibus v[er]o s[e]c[un]d[u]m analogia[m] hoc est s[e]c[un]d[u]m p[ro]portione[m] ad eam cui subiecto
+        <underline method="pen" type="straight" language="LA" text="Na[m] demo[n]strator vtit[ur] p[ri]ncipijs  p[ro]prijs p[er] se co[m]munibus v[er]o s[e]c[un]d[u]m analogia[m] hoc est s[e]c[un]d[u]m p[ro]portione[m] ad eam cui subiecto
             p[ro]prio c[on]uenit"/>
         <underline method="pen" type="straight" language="LA" text="p[ro]pria [et] inco[m]plexa q[uae] sine"/>
         <underline method="pen" type="straight" language="LA" text="Hec e[ni]m [et] talia subiecta no[n] recipiu[n]t esse quo sunt in seip[s]is. sed recipiu[n]t hoc esse. q[uo]d habent ex hoc q[uod] passiones insunt eis"/>
