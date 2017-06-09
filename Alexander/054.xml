@@ -86,7 +86,37 @@
         
         <errata language="LA" copytext="indemo[n]stratione" amendedtext="in demo[n]stratione"/>
         
-        <!-- FSF: there is a massive tree in the right margin -->
+        <graph type="ramus_tree" book_orientation="0" place="right_margin" method="pen"> <!-- FSF: some notes have been cut off -->
+            <node id="n1">o[mn]e q[uod] in demonstratione est au...</node>
+            <node id="n2">Principiu[m]</node>
+            <node id="n3">principiatu[m]</node>
+            <node id="n4">co[m]mune</node>
+            <node id="n5">Proprium.</node>
+            <node id="n6">Inco[m]plexu[m]. subiectu[m]</node>
+            <node id="n7">co[m]plexu[m]</node>
+            <node id="n8">demo[n]strabile</node>
+            <node id="n9">indemo[n]strabile et hoc positio est</node>
+            <node id="n10">probabile. suppositio ad aliquem</node>
+            <node id="n11">no[n] p[ro]babile</node>
+            <node id="n12">co[m]plexa. suppositio simpliciter</node>
+            <node id="n13">inco[m]plex...est...</node>
+            <node id="n14">co[n]trariu[m] opinioni disce[n]tis. et tunc est questio</node>
+            <node id="n15">neutr...modo...et...et...est...p[ro]p[ri]e...que[m]</node>
+            <link to="n2" from="n1" relationship="has_child"/>
+            <link to="n3" from="n1" relationship="has_child"/>
+            <link to="n4" from="n2" relationship="has_child"/>
+            <link to="n5" from="n2" relationship="has_child"/>
+            <link to="n6" from="n5" relationship="has_child"/>
+            <link to="n7" from="n5" relationship="has_child"/>
+            <link to="n8" from="n7" relationship="has_child"/>
+            <link to="n9" from="n7" relationship="has_child"/>
+            <link to="n10" from="n8" relationship="has_child"/>
+            <link to="n11" from="n8" relationship="has_child"/>
+            <link to="n12" from="n9" relationship="has_child"/>
+            <link to="n13" from="n9" relationship="has_child"/>
+            <link to="n14" from="n11" relationship="has_child"/>
+            <link to="n15" from="n11" relationship="has_child"/>
+        </graph>
         
     </annotation>
 </transcription>
