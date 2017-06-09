@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="053.tif" reader="John Dee"/> 
+    <page filename="053.tif" reader="John Dee" signature="[Diiij[v]]"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="in potissima demo[n]stratio[n]e">
@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                Dignities, subjects, passions <!-- FSF: again, I am not sure about dignities and passions -->
+                Dignities, subjects, passions <!-- FSF: again, I am not sure about dignities and passions -->    <!-- DO: 'Dignitates' seems to commonly be translated as 'Axioms' in this context, and 'passiones' as 'properties' -->
             </translation>
         </marginalia>
         
@@ -46,7 +46,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Maybe anchor 'Quare ... demo[n]stratione'? -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -54,21 +54,21 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                Three necessities in all demonstrations.
+            <translation> 
+                Three necessities in all demonstrations.     <!-- DO: 'demonstration' -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">      <!-- DO: Anchor 'principijs complexis' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Principia co[n]solexa
+                        Principia co[n]solexa            <!-- DO: Think it must be 'co[m]plexa' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: I don't know what consolexa means -->
+                <!-- FSF: I don't know what consolexa means --> 
             </translation>
         </marginalia>
         
@@ -85,7 +85,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="omnes peticiones geometrice in p[ri]ncipio. sunt demonstrabiles a phisicis">
+        <marginalia hand="Italian" anchor_text="omnes peticio[n]es geometrice in p[ri]ncipio. sunt demonstrabiles a phisicis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -94,11 +94,11 @@
                 </position>
             </language>
             <translation>
-                Demonstratable petitions from the physicians 
+                Demonstrable petitions from the physicians.   <!-- DO: Perhaps 'Petitions demonstrable by physicists'? -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="">  <!-- DO: Anchor 'se ... triplicit[er]' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -107,7 +107,7 @@
                 </position>
             </language>
             <translation>
-                To learn that it has in modes of three. <!-- FSF: not sure -->
+                To learn that it has in modes of three. <!-- FSF: not sure -->  <!-- DO: Not sure either. 'Learning having itself in a triple mode'? 'Affirming that it is in a triple mode'? I'm not really sure how to translate 'Addiscens'  -->
             </translation>
         </marginalia>
         
@@ -115,11 +115,11 @@
         <underline method="pen" type="straight" language="LA" text="passio"/>
         <underline method="pen" type="straight" language="LA" text="dignitas"/>
         <underline method="pen" type="straight" language="LA" text="hijs e[ni]m vt p[ri]mis [et] immediatis et indemonstrabilibus demo[n]stra[n]t in potissima demo[n]stratio[n]e"/>
-        <underline method="pen" type="straight" language="LA" text="maxime"/>
+        <underline method="pen" type="straight" language="LA" text="maxime in physicis"/>
         <underline method="pen" type="straight" language="LA" text="subiectu[m] circa"/>
         <underline method="pen" type="straight" language="LA" text="ea q[ue] demo[n]strat"/>
         <underline method="pen" type="straight" language="LA" text="sunt principia"/>
-        <underline method="pen" type="straight" language="LA" text="dignitas"/>
+        <underline method="pen" type="straight" language="LA" text="dignitates"/>
         <underline method="pen" type="straight" language="LA" text="subiecta"/>
         <underline method="pen" type="straight" language="LA" text="passiones"/>
         <underline method="pen" type="straight" language="LA" text="Dignitas"/>
@@ -127,9 +127,8 @@
         <underline method="pen" type="straight" language="LA" text="Diffinitio"/>
         <underline method="pen" type="straight" language="LA" text="Petitio"/>
         <underline method="pen" type="straight" language="LA" text="Questio"/>
-        <underline method="pen" type="straight" language="LA" text="o[mn]es peticio[n]es gemetrice in p[ri]ncipio sunt demo[n]strabiles a phisicis"/>
-        <underline method="pen" type="straight" language="LA" text="suppositio"/>
-        <underline method="pen" type="straight" language="LA" text="peticio"/>
+        <underline method="pen" type="straight" language="LA" text="vt o[mn]es peticio[n]es geometrice in p[ri]ncipio. sunt demo[n]strabiles a phisicis"/>
+        <underline method="pen" type="straight" language="LA" text="suppositio. peticio"/>
         <underline method="pen" type="straight" language="LA" text="q[uae]stio"/>
         <underline method="pen" type="straight" language="LA" text="p[ro]positio[n]es demo[n]strabiles"/>
         <underline method="pen" type="straight" language="LA" text="addiscens. triplicit[er]"/>
@@ -140,6 +139,9 @@
         <numeral place="right_margin">2</numeral>
         <numeral place="right_margin">3</numeral>
         <numeral place="right_margin">.1.</numeral>
+        
+        <!-- DO: Comma in between 'se vt' (13 lines up) -->
+        
         
     </annotation>
 </transcription>
