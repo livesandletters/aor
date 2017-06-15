@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -16,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                Through sensible forms the geometer demonstrates its intellectual conclusions.   <!-- DO: Assuming geometer is a person, 'demonstrates his...'? -->
+                Through sensible forms the geometer demonstrates its intellectual conclusions.
             </translation>
         </marginalia>
         
@@ -33,7 +32,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor text, maybe 'termini ... recipiu[n]t[ur]' -->
+        <marginalia hand="Italian" anchor_text="termini mathematicales in silogisticis r[ati]onibus, co[n]notatiue recipiu[n]t[ur]">  
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -42,7 +41,7 @@
                 </position>
             </language>
             <translation>
-                Mathematical terms are accepted by syllogisms.   <!-- DO: 'co[n]notatiue' hasn't really been translated, but I don't know what to do with it either. Presumably 'connotatively' but no idea what that sentence would mean in practice... Maybe 'with effects'...?-->
+                Mathematical terms are connotatively accepted by syllogisms.
             </translation>
         </marginalia>
         
@@ -89,7 +88,7 @@
         <mark name="comma" method="pen" place="intext"/> <!-- c[on]currere diffinitu[m] -->
         <mark name="comma" method="pen" place="intext"/> <!-- diffinitionis s[em]p[er] -->
         
-                                              <!-- DO: Also a full stop changed into a comma at 'r[ati]o[ni]bus. co[n]notatiue' (just to the left of the third marginal note) -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- r[ati]o[ni]bus co[n]notatiue -->
         
     </annotation>
 </transcription>
