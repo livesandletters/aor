@@ -7,7 +7,7 @@
     <page filename="037.tif" reader="John Dee" signature="[Cij[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: I think you can anchor 'Sed linea ... corpore' -->
+        <marginalia hand="Italian" anchor_text="Sed linea nesurat[ur] pu[n]ctis. sup[er]ficies lineis et corpus sup[er]ficiebus et locus corpore">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                There are various opinions of mathematicians on who a point of a line, a line of an area and the area of a body <!-- FSF: corpori is not genitive, but the parallel structure led me to assume a genitive --> are in <!-- FSF: to be completed -->  <!-- DO: They could all be dative. Apparently 'inesse' can make 'to be involved with'. I'm not sure if it takes the dative, but if so could be something like: 'The various opinions of mathematicians, on how a point connects to a line, a line to an area (surface?), and an area to body, and a body to a locus'-->
+                There are various opinions of mathematicians, on how a point connects to a line, a line to an area (surface?), and an area to body, and a body to a locus.
             </translation>
         </marginalia>
         
@@ -33,7 +33,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor text, 'quare ... positio est' -->
+        <marginalia hand="Italian" anchor_text="quare diffinitio posicio est cu[m] no[n] p[ro]bat[ur]. et suppositio positio est">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -68,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                How a point is in a line.  <!-- DO: As above, maybe 'is connected to a line'? -->
+                How a point is connected to a line.
             </translation>
         </marginalia>
         
@@ -102,7 +102,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        sup[er]ficiei gen <!-- the rest is illegible; I think it is an abbreviation as before, so possibly gen[eratio] -->
+                        sup[er]ficiei gen <!-- FSF: the rest is illegible; I think it is an abbreviation as before, so possibly gen[eratio] -->
                     </marginalia_text>
                 </position>
             </language>
@@ -120,14 +120,15 @@
                 </position>
             </language>
             <translation>
-                   <!-- DO: Not really sure how to translate, maybe 'All should always be connected to themselves'? -->
+                   All should always be connected to themselves.
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="demo[n]stratio[n]is cu[m] diffinitio sit quid esse rei. suppositio aut[em] esse v[e]l no[n] esse. quid aut[em]"/>
         <underline method="pen" type="straight" language="LA" text="quare diffinitio posicio est cu[m] no[n] p[ro]bat[ur]. et suppositio positio est. quonia[m]"/>
         <underline method="pen" type="straight" language="LA" text="ide[m] esse suppositione[m] et diffinitione[m] s[e]c[un]d[u]m positione[m] differu[n]t t[ame]n in hoc cu[m] suppositio sit p[ro]posicio
-            q[uo] accipit sumptu[m] c[om]positiue diffinitio vero expositiue"/>        <!-- DO: Also I think 'et o[mn]i loco' -->
+            q[uo] accipit sumptu[m] c[om]positiue diffinitio vero expositiue"/> 
+        <underline method="pen" type="straight" language="LA" text="et o[mn]i loco"/>
         <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m co[m]une[m] scolam mathematicoru[m]"/>
         <underline method="pen" type="straight" language="LA" text="essenciale formale"/>
         <underline method="pen" type="straight" language="LA" text="et corpus loco"/>
@@ -151,7 +152,8 @@
         <mark name="comma" method="pen" place="intext"/> <!-- sup[er]ficie[m] et -->
         
         <errata language="LA" copytext="." amendedtext=","/> <!-- potentia s[ed] -->
-        <errata language="LA" copytext="quid i[n]" amendedtext="quide[m]"/>         <!-- DO: I think this happens twice in the same line -->
+        <errata language="LA" copytext="quid i[n]" amendedtext="quide[m]"/>  
+        <errata language="LA" copytext="quid i[n]" amendedtext="quide[m]"/>  
         
     </annotation>
 </transcription>
