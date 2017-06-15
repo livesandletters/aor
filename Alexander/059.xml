@@ -7,11 +7,11 @@
     <page filename="059.tif" reader="John Dee" signature="[Ei[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="apparet e[ni]m in speculo plano facies sicut est [et] apparet na[m]q[uam] stella p[ro]pe solem si speculu[m] existens in aq[ua]">
+        <marginalia hand="Italian" anchor_text="apparet e[ni]m in speculo plano facies sicut est [et] apparet na[m]q[uam] tanq[uam] stella p[ro]pe solem si speculu[m] existens in aq[ua]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Speculo posito in aqua, lure[n]te sole apparebit q[uasi] stella sub p[rimo] sole <!-- FSF: not sure about lurente and primo -->
+                        Speculo posito in aqua, lure[n]te sole apparebit q[uasi] stella sub p[rim]o sole <!-- FSF: not sure about lurente and primo -->  <!-- DO: I think it's 'lucente' (dawning). I'm not sure why 'lucente sole' is ablative though... Is it 'it appears with the dawning sun'? I think the 'po' must be 'p[r]o[pe]', like the printed text -->
                     </marginalia_text>
                 </position>
             </language>
@@ -24,7 +24,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        fallacia consequenti[a]e
+                        fallacia consequenti[a]e.
                     </marginalia_text>
                 </position>
             </language>
@@ -37,12 +37,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Vniversalis affirmatiua p[otes]t co[n]verti in vniversalem affirmativa[m], gra[tia] ipsius materie. vt qua[n]do su[n]t termini co[n]vertibiles. 
+                        Vniversalis affirmatiua p[otes]t co[n]verti in vniversalem affirmativa[m], gra[tia] ipsius materie. vt qua[n]do su[n]t termini co[n]vertibiles.   <!-- DO: 'materi[a]e'? -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Universal affirmative can be converted into universal affirmative thanks to the mater itslef, as when terms are convertible.
+                Universal affirmative can be converted into universal affirmative thanks to the matter itself, as when terms are convertible.
             </translation>
         </marginalia>
         
@@ -55,11 +55,11 @@
                 </position>
             </language>
             <translation>
-                
+                               <!-- DO: Not sure how to translate this -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="p[er]spectiuus naturalis">
+        <marginalia hand="Italian" anchor_text="p[er]spectiu[us] naturalis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -68,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                
+                              <!-- DO: 'The natural perspective'? -->
             </translation>
         </marginalia>
         
@@ -76,7 +76,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        zenius
+                        zenius                <!-- DO: Looks like: https://en.wikipedia.org/wiki/Zeno_of_Elea -->
                     </marginalia_text>
                 </position>
             </language>
@@ -98,8 +98,8 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="q[ue] de particularib[us] no[n] probat[ur] passio nisi p[er] accide[n]s p[ro]pter"/>
-        <underline method="pen" type="straight" language="LA" text="q[ua]re in doctrinalib[us] non est instare p[ar]ticularit[er] cu[m] dixim[us] q[uod] magis in hijs mote sunt cause q[uam] effectus"/>
+        <underline method="pen" type="straight" language="LA" text="q[ue] de p[ar]ticularib[us] no[n] probat[ur] passio nisi p[er] accide[n]s p[ro]pter"/>
+        <underline method="pen" type="straight" language="LA" text="q[ua]re in doctrinalib[us] non est instare p[ar]ticularit[er] cu[m] dixim[us] q[uod] magis in hijs note sunt cause q[uam] effectus"/>
         <underline method="pen" type="straight" language="LA" text="tanq[uam] stella"/>
         <underline method="pen" type="straight" language="LA" text="quid in p[er]spectiua circa vigesima[m]quarta[m]"/>
         <underline method="pen" type="straight" language="LA" text="c[on]tingit in talib[us] p[ar]ticularit[er] instare"/>
@@ -109,7 +109,7 @@
         <underline method="pen" type="straight" language="LA" text="p[ro]pter quid"/>
         <underline method="pen" type="straight" language="LA" text="dicere naturalit[er] [et]"/>
         <underline method="pen" type="straight" language="LA" text="fieret in fallatia c[on]seque[n]tis"/>
-        <underline method="pen" type="straight" language="LA" text="zenius ph[ilosophu]s"/>
+        <underline method="pen" type="straight" language="LA" text="modu[m] zenius ph[ilosophu]s"/>
         <underline method="pen" type="straight" language="LA" text="zenes"/>
         <underline method="pen" type="straight" language="LA" text="arguebat ex puris affirmatiuis in materia no[n] c[on]uertibili. potest e[ni]m"/>
         <underline method="pen" type="straight" language="LA" text="cito"/>
@@ -117,9 +117,12 @@
         <underline method="pen" type="straight" language="LA" text="affirmatiuis in s[e]c[un]da figura no[n] est ibi"/>
         <underline method="pen" type="straight" language="LA" text="gratia materie vt q[ua]n[do] sunt t[er]mini c[on]uertibiles"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- est videm[us] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- est vidim[us] -->
         
-        <errata language="LA" copytext="," amendedtext="[deleted]"/>
+        
+        <!-- DO: There are also commas at 'se eo' and 'se sunt' (17 lines down), and in the following line ('e[x] q[uod]'); also at 'e[x] q[ue]' a few lines later. At 'se eo' I think he has also altered to 'se ea'. -->
+        
+        <errata language="LA" copytext="," amendedtext="[deleted]"/>  <!-- DO: I think it's a full stop that's been deleted (I don't think there are any commas printed in the text) -->
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
