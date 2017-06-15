@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -16,11 +15,11 @@
                 </position>
             </language>
             <translation>
-                            <!-- DO: As on previous page. Not sure how to translate but I think it roughly means 'connecting to itself'... -->
+                Connecting to itself.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">   <!-- DO: You can anchor 'loco ... p[er] se' -->
+        <marginalia hand="Italian" anchor_text="loco corpus quonia[m] illud in est p[er] se">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                The body itself is in a place.     <!-- DO: Not sure about translation -->
+                The body itself is in a place.
             </translation>
         </marginalia>
         
@@ -50,12 +49,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Secundus malus de p[er] se inesse      <!-- DO: Think the second word's 'modus', like the printed text -->
+                        Secundus modus de p[er] se inesse  
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                The second mode to be connected to one's self.
             </translation>
         </marginalia>
         
@@ -63,7 +62,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        perfect[us] Num.   <!-- DO: 'Num[erus]' -->
+                        perfect[us] Num[erus] 
                     </marginalia_text>
                 </position>
             </language>
@@ -89,7 +88,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Scaleno[n], Isosceles quod accepantur se passionibus et no[n] p[ro] speb[us] in hac r[ati]o[n]e dice[n]di p[er] se.
+                        Scaleno[n], Isosceles quod accipiuntur se passionibus et no[n] p[ro] speb[us] in hac r[ati]o[n]e dice[n]di p[er] se.
                     </marginalia_text>
                 </position>
             </language>
@@ -118,11 +117,8 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- eq[ui]laterus nisi -->
-        
-        
-        <!-- DO: There are also commas at 'ip[s]o[rum] q[ua]' and 'insunt vt' (4th line of para 2) -->
-        
-        
-        
+        <mark name="comma" method="pen" place="intext"/> <!-- ip[s]o[rum] q[ua] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- insunt vt -->
+
     </annotation>
 </transcription>
