@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,46 +6,47 @@
     <page filename="039.tif" reader="John Dee" signature="[Ciij[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="att[ame]n nescim[us] no[m]i[n]are proprios species tria[n]guli, no[m]i[n]am[us] eas p[er] huiusmo[d]i passio[n]es">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Isoceles Isopleuros scalenos} Tria[n]guli su[n]t passiones in numeri <!-- FSF: not sure -->   <!-- DO: Looks like 'an' rather than 'in', though seems a bit odd -->
+                        Isoceles Isopleuros scalenos} Tria[n]guli su[n]t passiones an numeri
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->     <!-- DO: 'Isosceles, Equilateral, Scalene} Triangles are properties or numbers'?? -->
+                Isosceles, Equilateral, Scalene} Triangles are properties or numbers.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor text, maybe 'sine disiu[n]ctione ... nu[m]eri'? -->
+        <marginalia hand="Italian" anchor_text="sine disiu[n]ctione co[n]uenit am[n]i tria[n]gulo Aliq[ua]n[do] v[er]o p[er] disiu[n]ctione[m] v[el] opposita sicut par v[el] impar dicit[ur] p[ro]pria passio nu[m]eri"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Prop[ri]a passio {simpl[icite]r, siue disiunctione p[re]dicat[ur] p[er] disiunctione[m] vel opposita <!-- FSF: not sure -->  <!-- DO: I think it's 'sine' instead of 'siue', like the printed text -->
+                        Prop[ri]a passio {simpl[icite]r, sine disiunctione p[re]dicat[ur] p[er] disiunctione[m] vel opposita 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->  <!-- DO: Something like 'An individual property is asserted {simply, without separation; through separation or opposites'?  -->
+                An individual property is asserted {simply, without separation; through separation or opposites.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Can anchor 'egidio' -->
+        <marginalia hand="Italian" anchor_text="egidio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Ph[ilosoph]us Egidius <!-- FSF: possibly Giles of Rome, not sure -->  <!-- DO: I would say yes, looking at: https://books.google.co.uk/books?id=My6oDQAAQBAJ&pg=PT332&lpg=PT332&dq=aegidius+mathematician&source=bl&ots=jyiYd0Nr4X&sig=zCQakx_qe7XwnBXi6fpLrBKrTVI&hl=en&sa=X&ved=0ahUKEwi7w7uNkanUAhUIIsAKHf82Av0Q6AEIPjAE#v=onepage&q=aegidius&f=false -->
+                        Ph[ilosoph]us Egidius
                     </marginalia_text>
+                    <person name="Giles of Rome"/>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->
+                Giles of Rome.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'p[rae]dicatio[n]es' -->
+        <marginalia hand="Italian" anchor_text="p[rae]dicatio[n]es"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -55,11 +55,11 @@
                 </position>
             </language>
             <translation>
-                               <!-- DO: 'Predictions in themselves'? -->
+                Predictions in themselves
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'vniuersali' -->
+        <marginalia hand="Italian" anchor_text="vniuersali">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -116,12 +116,11 @@
         <underline method="pen" type="straight" language="LA" text="sic p[ri]mu[m] est demo[n]strare q[uod] int[er] ip[su]m subiectu[m]"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- se hec -->
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>  <!-- DO: Manicule -->
+        <errata language="LA" copytext="proprios" amendedtext="proprias"/>
         
-        <!-- DO: I think there is a comma at 'se hec' (about 12 lines up from the bottom) -->
-        
-        <!-- DO: Looks like he has altered 'proprios' to 'proprias' in the second line -->
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>  <!-- DO: Manicule -->
         
     </annotation>
 </transcription>
