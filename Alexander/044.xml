@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -20,7 +19,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Can anchor 'co[n]clusione[m] ... suo' and 'dignitates' -->
+        <marginalia hand="Italian" anchor_text="co[n]clusione[m] s[e]c[un]d[um] qua passio p[rae]dicat[ur] de subiecto suo. Secu[n]do dignitates ex quib[us] p[re]dit demo[n]stratio Et tercio subiectu[m] de quo demo[n]strat[ur] passio"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                Conclusion. Value. Subject. <!-- FSF: the word dignitas is really odd in this context; I don't know how to make sense of it -->  <!-- DO: Not sure but your translation seems plausible -->
+                Conclusion. Value. Subject. 
             </translation>
         </marginalia>
         
@@ -44,9 +43,9 @@
         <underline method="pen" type="straight" language="LA" text="p[ri]ma et co[m]munia q[uae] respiciu[n]t diuersas scie[n]cias et illa p[ri]ncipia no[n] ingrediunt[ur] demo[n]stratione[m] s[e]c[un]d[u]m substa[n]tia[m]"/>
         <underline method="pen" type="straight" language="LA" text="solum s[e]c[un]d[u]m virtute[m] sicut sunt c[on]ceptio[n]es"/>
         
-        <!-- FSF: there is something in the tenth line from the bottom, which I am not sure about; possibly some sort of errata -->  <!-- DO: I agree, it looks like perhaps a change from 'hysdem' to 'hijsdem'? -->
+        <mark name="comma" method="pen" place="intext"/> <!-- ip[su]m Co[n]seque[n]ter -->
         
-        <!-- DO: There is also an added comma in the second line -->
-        
+        <errata language="LA" copytext="hysdem" amendedtext="hijsdem"/>
+   
     </annotation>
 </transcription>
