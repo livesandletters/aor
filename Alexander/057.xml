@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -11,13 +10,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        In decimo euclide[m] loqui de qua[n]titatibus velatis ad numeru[m].     <!-- DO: Is it 'relatis' to match the printed text? ('the quantities related to a number') -->
+                        In decimo euclide[m] loqui de qua[n]titatibus relatis ad numeru[m]. 
                     </marginalia_text>
                     <person name="Euclid"/>
                 </position>
             </language>
             <translation>
-                In the tenth [book], Euclid talks about the quantities covered by numbers.
+                In the tenth [book], Euclid talks about the quantities related to a number.
             </translation>
         </marginalia>
         
@@ -69,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                Irrational numbers don't have a notable square root, one may know.   <!-- DO: 'a known square root'? -->
+                Irrational numbers don't have a known square root, one may know.  
             </translation>
         </marginalia>
         
@@ -95,8 +94,7 @@
         <underline method="pen" type="straight" language="LA" text="mixtu[m]"/>
         <underline method="pen" type="straight" language="LA" text="p[re]supponat quid nominis"/>
         
-        
-        <!-- DO: There is a comma between 'intenta[m] nu[m]eru[m]' (towards the end of the third paragraph), and possibly a full stop after 'nome[n]' (8 lines up from the bottom) but not sure -->
-        
+        <mark name="comma" method="pen" place="intext"/> <!-- intenta[m] nu[m]eru[m] -->
+    
     </annotation>
 </transcription>
