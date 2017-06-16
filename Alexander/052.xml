@@ -43,7 +43,7 @@
                 </position>
             </language>
             <translation>
-                It is apparent that an unequal square and cube are passions of number.   <!-- DO: I think 'passiones' can be translated as (mathematical) 'properties'. Also, I can't really see the writing but I'm wondering could it be 'Par et impar' rather than 'Paret', so that it matches the text ('Equal and unequal')? -->
+                An euqal and unequal square and cube are propterties of number.
             </translation>
         </marginalia>
         
@@ -56,7 +56,7 @@
                 </position>
             </language>
             <translation>
-                Passions of a line.  <!-- DO: Again, I'd say 'Properties' -->
+                Properties of a line.  
             </translation>
         </marginalia>
         
@@ -69,7 +69,7 @@
                 </position>
             </language>
             <translation>
-                Bend back.    <!-- DO: I think this can maybe just be translated as 'a reflex'? Or otherwise 'a bending back'? -->
+                A reflex.   
             </translation>
         </marginalia>
         
@@ -82,11 +82,11 @@
                 </position>
             </language>
             <translation>
-                Proper passion.   <!-- DO: 'property' -->
+                Proper property.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">  <!-- DO: Anchor 'p[ri]cipia co[m]munia ... demo[n]strant[ur]' -->
+        <marginalia hand="Italian" anchor_text="p[ri]cipia co[m]munia [et] cu[m] p[ri]ncipijs que demo[n]strant[ur]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -95,7 +95,7 @@
                 </position>
             </language>
             <translation>
-                Common with proper principles demonstrate proper passions.  <!-- DO: 'Common things'? 'properties' -->
+                Common things with proper principles demonstrate proper properties. 
             </translation>
         </marginalia>
         
@@ -108,7 +108,7 @@
                 </position>
             </language>
             <translation>
-                Passions per se.  <!-- DO: 'Properties' -->
+                Properties per se. 
             </translation>
         </marginalia>
         
@@ -121,7 +121,7 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added -->  <!-- DO: Not sure. 'How the geometer and [perspective?] mutually demonstrate in some things, that they are and why they are'? Not really sure how to translate 'mutui'. There is some info on 'quia' and 'propter quid' here: https://plato.stanford.edu/entries/demonstration-medieval/ -->
+                How the geometer and [perspective?] mutually demonstrate in some things, that they are and why they are. <!-- DO: There is some info on 'quia' and 'propter quid' here: https://plato.stanford.edu/entries/demonstration-medieval/ -->
             </translation>
         </marginalia>
         
@@ -137,7 +137,8 @@
         <underline method="pen" type="straight" language="LA" text="ergo p[ri]ncipia p[ro]pria possunt esse conclus[i]o[n]es demo[n]strationu[m]. ideo"/>
         <underline method="pen" type="straight" language="LA" text="quia p[er] huiusmo[d]i p[ri]ncipia co[m]munia [et] cu[m] p[ri]ncipijs que demo[n]strant[ur]. i[d est] cum p[ri]ncipijs p[ro]prijs demonstrat p[ro]prias passiones"/>
         
-        <errata language="LA" copytext="." amendedtext=","/> <!-- significet vna[m]qua[m]q[ue] -->  <!-- DO: To me it also looks as if the second word has been corrected to 'vna[m]quaeq[ue]', with an inserted 'e' and the contraction sign crossed out -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- significet vna[m]qua[m]q[ue] -->  
+        <errata language="LA" copytext="vna[m]qua[m]q[ue]" amendedtext="vna[m]quaeq[ue]"/>
         
     </annotation>
 </transcription>
