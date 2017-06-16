@@ -98,13 +98,20 @@
         </graph>
         
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
-            <node id="n3">Edward Riche</node>
+            <node id="n3">Edward Riche</node> <!--JG: Parents should be identified as well: see, e.g. http://www.newadvent.org/cathen/05294a.htm-->
             <node id="n4">Matilda</node>
             <node id="n5" person="Edmund of Abingdon" anchor_text="Edmundus">Edmundus</node>
             <link to="n4" from="n3" relationship="has_spouse"/>
             <link to="n3" from="n4" relationship="has_spouse"/>
             <link to="n5" from="n3" relationship="has_child"/>
             <link to="n5" from="n4" relationship="has_child"/>
+            
+            <graph_text>
+                <note hand="English_secretary" language="LA" id="no1" internal_link="n5">natus in Abendon</note>
+                <note hand="English_secretary" language="LA" internal_link="n5" id="no2">post Archiep[iscopu]s Cantuar.</note>
+                <location name=""/> <!--JG: Use location tag here-->
+            </graph_text>
+            <translation></translation> <!--JG: Translation of all text (i.e. both notes). See p. 71 Transcriber's Manual-->
         </graph>
         
     </annotation>
