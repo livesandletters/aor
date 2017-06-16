@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                Dignities, subjects, passions <!-- FSF: again, I am not sure about dignities and passions -->    <!-- DO: 'Dignitates' seems to commonly be translated as 'Axioms' in this context, and 'passiones' as 'properties' -->
+                Axioms, subjects, properties. 
             </translation>
         </marginalia>
         
@@ -46,7 +46,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Maybe anchor 'Quare ... demo[n]stratione'? -->
+        <marginalia hand="Italian" anchor_text="Quare naturalit[er] t[ame]n requirit[ur] in o[mn]i demo[n]stratione"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -55,20 +55,20 @@
                 </position>
             </language>
             <translation> 
-                Three necessities in all demonstrations.     <!-- DO: 'demonstration' -->
+                Three necessities in every demonstration.   
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">      <!-- DO: Anchor 'principijs complexis' -->
+        <marginalia hand="Italian" anchor_text="principijs complexis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Principia co[n]solexa            <!-- DO: Think it must be 'co[m]plexa' -->
+                        Principia co[m]plexa    
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: I don't know what consolexa means --> 
+                Complex principles.
             </translation>
         </marginalia>
         
@@ -81,7 +81,7 @@
                 </position>
             </language>
             <translation>
-                Dignity. <!-- FSF: as above -->
+                Axiom.
             </translation>
         </marginalia>
         
@@ -94,11 +94,11 @@
                 </position>
             </language>
             <translation>
-                Demonstrable petitions from the physicians.   <!-- DO: Perhaps 'Petitions demonstrable by physicists'? -->
+                Petitions demonstrable by physicists.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">  <!-- DO: Anchor 'se ... triplicit[er]' -->
+        <marginalia hand="Italian" anchor_text="se potest habere ad p[ro]positione[m] illa[m] addiscens. triplicit[er]"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -107,7 +107,7 @@
                 </position>
             </language>
             <translation>
-                To learn that it has in modes of three. <!-- FSF: not sure -->  <!-- DO: Not sure either. 'Learning having itself in a triple mode'? 'Affirming that it is in a triple mode'? I'm not really sure how to translate 'Addiscens'  -->
+                Affirming that it is in a triple mode.
             </translation>
         </marginalia>
         
@@ -134,14 +134,12 @@
         <underline method="pen" type="straight" language="LA" text="addiscens. triplicit[er]"/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- se vt -->
         
         <numeral place="right_margin">1</numeral>
         <numeral place="right_margin">2</numeral>
         <numeral place="right_margin">3</numeral>
         <numeral place="right_margin">.1.</numeral>
-        
-        <!-- DO: Comma in between 'se vt' (13 lines up) -->
-        
-        
+ 
     </annotation>
 </transcription>
