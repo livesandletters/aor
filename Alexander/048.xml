@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -16,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                Physicians.       <!-- DO: More likely 'Physicists'? Not sure though... -->
+                Physicists.    
             </translation>
         </marginalia>
         
@@ -39,10 +38,11 @@
                     <marginalia_text>
                         Perspect&iacute;ua Pisani
                     </marginalia_text>
+                    <person name="Fibonacci"/>
                 </position>
             </language>
             <translation>
-                Perspectives of Pisanus. <!-- FSF: I am not sure who Pisanus is -->  <!-- DO: Not sure either; could be: https://en.wikipedia.org/wiki/Fibonacci -->
+                Perspectives of Fibonacci.
             </translation>
         </marginalia>
         
@@ -94,7 +94,7 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure -->  <!-- DO: Not sure either; are these two separate notes? 'Geometries as combined' for the first part? -->
+                <!-- FSF: not sure -->  <!-- DO: Not sure either; are these two separate notes? 'Geometries as combined' for the first part? --> <!-- FSF: maybe: Geometries as combined perspectively in the used geometry? -->
             </translation>
         </marginalia>
         
@@ -133,7 +133,7 @@
                 </position>
             </language>
             <translation>
-                Even the last media must be of the same kind.        <!-- DO: Not sure about the translation. Couldn't it also be 'The middle and the last should be of the same kind'? -->
+                The middle and the last should be of the same kind.
             </translation>
         </marginalia>
         
@@ -164,9 +164,7 @@
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        
-        
-        <!-- DO: I think there's a comma at 'pisani est' (9 lines down) -->
+        <mark name="comma" method="pen" place="intext"/> <!-- pisani est -->
         
     </annotation>
 </transcription>
