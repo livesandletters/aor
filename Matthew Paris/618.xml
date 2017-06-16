@@ -95,23 +95,31 @@
             <node id="n2" anchor_text="Comitis Richardi">Richard[us] comes gl.</node>
             <link to="n1" from="n2" relationship="has_spouse"/>
             <link to="n2" from="n1" relationship="has_spouse"/>
+            <graph_text>
+                <note hand="Italian" language="LA" id="no3" internal_link="n1">Moritur</note>
+            </graph_text>
+            <translation>
+                died
+            </translation>
         </graph>
         
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
-            <node id="n3">Edward Riche</node> <!--JG: Parents should be identified as well: see, e.g. http://www.newadvent.org/cathen/05294a.htm-->
-            <node id="n4">Matilda</node>
+            <node id="n3" person="Reinald Rich">Edward Riche</node> <!--JG: Parents should be identified as well: see, e.g. http://www.newadvent.org/cathen/05294a.htm--> <!-- FSF: I have identified him now by the name online; that is however not in agreement with Dee -->
+            <node id="n4" person="Mabel Rich">Mabilia</node>
             <node id="n5" person="Edmund of Abingdon" anchor_text="Edmundus">Edmundus</node>
             <link to="n4" from="n3" relationship="has_spouse"/>
             <link to="n3" from="n4" relationship="has_spouse"/>
             <link to="n5" from="n3" relationship="has_child"/>
             <link to="n5" from="n4" relationship="has_child"/>
-            
             <graph_text>
                 <note hand="English_secretary" language="LA" id="no1" internal_link="n5">natus in Abendon</note>
                 <note hand="English_secretary" language="LA" internal_link="n5" id="no2">post Archiep[iscopu]s Cantuar.</note>
-                <location name=""/> <!--JG: Use location tag here-->
+                <location name="Abingdon-on-Thames"/> 
             </graph_text>
-            <translation></translation> <!--JG: Translation of all text (i.e. both notes). See p. 71 Transcriber's Manual-->
+            <translation>
+                Born in Abingdon-on-Thames
+                Afterwards archbishop of Canterbury
+            </translation>
         </graph>
         
     </annotation>
