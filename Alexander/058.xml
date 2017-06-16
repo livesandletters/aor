@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -11,16 +10,16 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Prallogismus          <!-- DO: I can't see the beginning of the note but would it be 'P[ar]allogismus' to match the printed text. I think this can be translated as 'A paralogism' -->
+                        Parallogismus       
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                A paralogism
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">   <!-- DO: Anchor 'qua[m]uis ... descriptis' -->
+        <marginalia hand="Italian" anchor_text="qua[m]uis alie sc[i]e[n]tie p[er] rationes disputant mathematic[us] v[er]o sensibiliter lineis in puluere descriptis">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                A mathematician can discuss sensibly... <!-- not sure -->
+                A mathematician can discuss sensibly... <!-- FSF: not sure -->
             </translation>
         </marginalia>
         
@@ -37,7 +36,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Quomodo est sumenda insta[n]tia co[n]tra demo[n]stratiuu[m] syllogis.  <!-- DO: 'syllogis[mum]'? -->
+                        Quomodo est sumenda insta[n]tia co[n]tra demo[n]stratiuu[m] syllogis[mum]. 
                     </marginalia_text>
                 </position>
             </language>
@@ -55,7 +54,7 @@
                 </position>
             </language>
             <translation>
-                In mathematics and science, paralogisms appear neither in or outside of speech.    <!-- DO: 'the demonstrative sciences' -->
+                In mathematics and demonstrative science, paralogisms appear neither in or outside of speech.  
             </translation>
         </marginalia>
         
@@ -98,12 +97,16 @@
         <underline method="pen" type="straight" language="LA" text="Cum om[n]is p[ro]positio demo[n]stratiua in om[n]ibus sit [et] v[niversa]lis. ex vniuersali[bus]"/>
         
         <mark name="comma" method="pen" place="intext"/> <!-- alijs appare[n]t -->
+        <mark name="comma" method="pen" place="intext"/> <!-- disputant mathematic[us] -->
+        
+        <errata language="LA" copytext="ignonauerit" amendedtext="ignouauerit"/>
+        <errata language="LA" copytext="[blank]" amendedtext="ex"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
         
-        <!-- DO: Erratum in line four needs to be captured, as does the inserted 'ex'. There is also a comma at 'disputant mathematic[us]' (10 lines up from the end of the first paragraph) -->
+
         
         
         
