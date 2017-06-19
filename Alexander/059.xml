@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -11,12 +10,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Speculo posito in aqua, lure[n]te sole apparebit q[uasi] stella sub p[rim]o sole <!-- FSF: not sure about lurente and primo -->  <!-- DO: I think it's 'lucente' (dawning). I'm not sure why 'lucente sole' is ablative though... Is it 'it appears with the dawning sun'? I think the 'po' must be 'p[r]o[pe]', like the printed text -->
+                        Speculo posito in aqua, luce[n]te sole apparebit q[uasi] stella sub ip[s]o sole 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                In a mirror put into water, the sun appears like a star under the first sun.
+                In a mirror put into water, it appears with the dawning sun like a star under the sun itself.
             </translation>
         </marginalia>
         
@@ -37,7 +36,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Vniversalis affirmatiua p[otes]t co[n]verti in vniversalem affirmativa[m], gra[tia] ipsius materie. vt qua[n]do su[n]t termini co[n]vertibiles.   <!-- DO: 'materi[a]e'? -->
+                        Vniversalis affirmatiua p[otes]t co[n]verti in vniversalem affirmativa[m], gra[tia] ipsius materi[a]e. vt qua[n]do su[n]t termini co[n]vertibiles. 
                     </marginalia_text>
                 </position>
             </language>
@@ -55,7 +54,7 @@
                 </position>
             </language>
             <translation>
-                               <!-- DO: Not sure how to translate this -->
+                Like what kind of mathematicion.  
             </translation>
         </marginalia>
         
@@ -68,7 +67,7 @@
                 </position>
             </language>
             <translation>
-                              <!-- DO: 'The natural perspective'? -->
+                The natural perspective.
             </translation>
         </marginalia>
         
@@ -76,12 +75,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        zenius                <!-- DO: Looks like: https://en.wikipedia.org/wiki/Zeno_of_Elea -->
+                        zenius
                     </marginalia_text>
+                    <person name="Zeno of Elea"/>
                 </position>
             </language>
             <translation>
-                
+                Zeno of Elea
             </translation>
         </marginalia>
         
@@ -89,7 +89,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        vide infra <!-- FSF: there is a little thing before vide; I am not sure what that is -->  <!-- DO: Could be an abbreviation of 'quod vide'? -->
+                        vide infra <!-- FSF: there is a little thing before vide; I am not sure what that is -->  <!-- DO: Could be an abbreviation of 'quod vide'? --> <!-- FSF: I almost looks like a florilegium -->
                     </marginalia_text>
                 </position>
             </language>
@@ -118,11 +118,13 @@
         <underline method="pen" type="straight" language="LA" text="gratia materie vt q[ua]n[do] sunt t[er]mini c[on]uertibiles"/>
         
         <mark name="comma" method="pen" place="intext"/> <!-- est vidim[us] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- se eo -->
+        <mark name="comma" method="pen" place="intext"/> <!-- se sunt -->
+        <mark name="comma" method="pen" place="intext"/> <!-- e[st] q[uod] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- e[x] q[ue] -->
         
-        
-        <!-- DO: There are also commas at 'se eo' and 'se sunt' (17 lines down), and in the following line ('e[x] q[uod]'); also at 'e[x] q[ue]' a few lines later. At 'se eo' I think he has also altered to 'se ea'. -->
-        
-        <errata language="LA" copytext="," amendedtext="[deleted]"/>  <!-- DO: I think it's a full stop that's been deleted (I don't think there are any commas printed in the text) -->
+        <errata language="LA" copytext="," amendedtext="[deleted]"/>  
+        <errata language="LA" copytext="eo" amendedtext="ea"/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
