@@ -16,11 +16,11 @@
                 </position>
             </language>
             <translation>
-                Because , it is taught in the most learned manner, nevertheless not through different mediums, but the virtue of one medium. <!-- FSF:I don't really understand how the structure works here -->
-            </translation>
+                As demonstrations may be expanded and become variants of the same thing, it is taught in the most learned manner, nevertheless not through different mediums, but the virtue of one medium.
+            </translation> 
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="ordo passionu[m]"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                Order of the passions.
+                The order of the properties.    
             </translation>
         </marginalia>
         
@@ -59,7 +59,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="mathematice demo[n]strationis potissime p[ro]pter quid medium est diffinitio">
+        <marginalia hand="Italian" anchor_text="mathematice demo[n]strationis potissime p[ro]pter quid mediu[m] est diffinitio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -68,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                Most powerful mathematical demonstration of the purpose.
+                The most powerful mathematical demonstration of the purpose.
             </translation>
         </marginalia>
         
@@ -147,28 +147,32 @@
         <underline method="pen" type="straight" language="LA" text="poterim[us] m[u]ltiplicare et"/>
         <underline method="pen" type="straight" language="LA" text="tociens ergo demonstratio[n]es multiplicabunt[ur] in post"/>
         <underline method="pen" type="straight" language="LA" text="erit ergo talis p[ro]cessus in infinitu[m] nisi finiet[ur] descensus"/>
-        <underline method="pen" type="straight" language="LA" text="vnu[m] erit mediu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="nu[m]eri vnu[m] erit mediu[m]"/>
         <underline method="pen" type="straight" language="LA" text="no[n] p[er] media q[ue] ad vna[m] c[on]clusione[m]"/>
         <underline method="pen" type="straight" language="LA" text="Est ergo augme[n]tu[m] demo[n]strationu[m] no[n] p[er] mediu[m] s[ed] in post sumendo q[ue] p[ro]babit[ur] passio seque[n]s p[er] passione[m] p[re]cedente[m]"/>
         <underline method="pen" type="straight" language="LA" text="finiatur ordo passionu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="q[ua]n[do] sub medio c[on]tinent[ur] plura non s[u]balternati[m] posita"/>
+        <underline method="pen" type="straight" language="LA" text="q[ua]n[do] sub medio c[on]tinent[ur] plura non s[u]balternati[m] posita. vt"/>
         <underline method="pen" type="straight" language="LA" text="p[ro]bandu[m] passione[m] hanc"/>
         <underline method="pen" type="straight" language="LA" text="Istis ergo duobus modis vltimis in post [et] latus no[n] augunt[ur] demo[n]stratio[n]es p[er] media diuersa sed virtute"/>
-        <underline method="pen" type="straight" language="LA" text="q[ua]rum tamen sola prima est p[ro]pter quid [et] potissima [et] alie sunt unductiue vel particulares"/>
-        <underline method="pen" type="straight" language="LA" text="in eade[m] scie[n]tia"/>
+        <underline method="pen" type="straight" language="LA" text="q[ua]rum tamen sola prima est p[ro]pter quid [et] potissima [et] alie sunt inductiue vel particulares"/>
+        <underline method="pen" type="straight" language="LA" text="est. in eade[m] scie[n]tia"/>
         <underline method="pen" type="straight" language="LA" text="demo[n]stratio p[ro]pter quid. p[ro]cedit ex causa p[ro]pinquissima [et] co[n]uertibili cu[m] extremis"/>
         <underline method="pen" type="straight" language="LA" text="loquar p[ro]pter quid p[ro]cedit ex causa ad effectu[m]"/>
         
         <mark name="bracket" method="pen" place="left_margin" language="LA" text="Istis ergo duobus modis vltimis in post [et] latus no[n] augunt[ur] demo[n]stratio[n]es p[er]
-            media diuersa sed virtute vni[us] medij demo[n]strant[ur] pl[ur]es c[on]clusiones q[ua]rum tamen sola prima est p[ro]pter quid [et] potissima [et] alie sunt unductiue vel particulares"/>
+            media diuersa sed virtute vni[us] medij demo[n]strant[ur] pl[ur]es c[on]clusiones q[ua]rum tamen sola prima est p[ro]pter quid [et] potissima [et] alie sunt inductiue vel particulares"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="bracket" method="pen" place="intext"/> <!-- Sed -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- [etc]. Sed -->
+        <mark name="comma" method="pen" place="intext"/> <!-- quantum sumit[ur] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- hanc videlicet -->
         
-        <numeral place="left_margin">1</numeral>
-        <numeral place="left_margin">2</numeral>
-        <numeral place="left_margin">3</numeral>
-        <numeral place="right_margin">1</numeral>
-        <numeral place="right_margin">2</numeral>
+        <numeral place="left_margin" language="LA" text="Primo">1</numeral> 
+        <numeral place="left_margin" language="LA" text="S[e]c[un]do">2.</numeral> 
+        <numeral place="left_margin" language="LA" text="Tercio">3.</numeral> 
+        <numeral place="right_margin">.1.</numeral>
+        <numeral place="right_margin">2.</numeral>
+        
+        <errata language="LA" copytext="augunt[ur]" amendedtext="augent[ur]"/>
         
     </annotation>
 </transcription>

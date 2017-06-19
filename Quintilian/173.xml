@@ -15,10 +15,10 @@
             <translation>Pity.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Aduersarij uer&ograve; persona propr&egrave; ijsdem omnibus, sed &egrave; contrario ductis, impugna">
+        <marginalia hand="Italian" anchor_text="Aduersarij uer&ograve; persona propr&egrave; ijsdem omnibus, sed &egrave; contrario ductis, impugnari solet">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Aduersarij persona q[u]omodo p[ar]t[i] impugnari.</marginalia_text> <!-- M.B. Not sure about the contraction 'pt'. -->
+                    <marginalia_text>Aduersarij persona q[uo]modo p[ar]t[i] impugnari.</marginalia_text> <!-- M.B. Not sure about the contraction 'pt'. --> <!-- FSF: pt stands for p[otes]t -->
                 </position>
             </language>
             <translation>How the character of the opponent may be partly impugned.</translation>
@@ -27,7 +27,7 @@
         <marginalia hand="Italian" anchor_text="Iudicem conciliabimus nobis, non tantum laudando eum, quod &amp; fieri cum modo debet">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Iudex q[u]omo[do] co[n]ciliatur.</marginalia_text>
+                    <marginalia_text>Iudex q[uo]m[od]o co[n]ciliatur.</marginalia_text>
                 </position>
             </language>
             <translation>How the judge conciliates.</translation>
@@ -36,7 +36,7 @@
         <marginalia hand="Italian" anchor_text="inimicus, aut aduersario sit amicus, qui iudicat">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Quid si iudex asteri amicus asteri inimicus</marginalia_text> <!-- M.B. I think 'asteri'refers to asterisk here?  -->
+                    <marginalia_text>Quid si Iudex asteri amicus asteri inimicus</marginalia_text> <!-- M.B. I think 'asteri'refers to asterisk here?  --> <!-- FSF: asteri reads alteri; translation to be changed accordingly -->
                 </position>
             </language>
             <translation>Which if the judge is a *friend or an *enemy. </translation>
@@ -79,7 +79,7 @@
                     <book title="Pro Milone"/>
                 </position>
             </language>
-            <translation>Cicero's for Milo</translation>
+            <translation>Cicero's for Milo</translation> <!-- FSF: I think the book title should be retained here; otherwise not really clear what this is -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="In verrem">
@@ -89,10 +89,10 @@
                     <book title="In Verrem"/>
                 </position>
             </language>
-            <translation>Against Verres.</translation>
+            <translation>Against Verres.</translation> <!-- FSF: see above -->
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Degu standa tame[n] haec prooemio, non consummanda"/>
+        <underline method="pen" type="straight" language="LA" text="Degustanda tame[n] haec prooemio, non consummanda"/>
         <underline method="pen" type="straight" language="LA" text="hoc enim oratoris est, illud causae"/>
         <underline method="pen" type="straight" language="LA" text="asperi, lenes, iucundi, graues, duri, remi&sharp-S;i erunt, aut a&sharp-S;umere in"/>
         <underline method="pen" type="straight" language="LA" text="ac nescio, an &amp; ei magis, in quam uidetur"/>

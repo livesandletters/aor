@@ -23,7 +23,7 @@
                     <book title="Pro Cluentio"/>
                 </position>
             </language>
-            <translation>Cicero's For Cluentius.</translation>
+            <translation>Cicero's For Cluentius.</translation> <!-- FSF: original title -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="in Verrem">
@@ -33,7 +33,7 @@
                     <book title="In Verrem"/>
                 </position>
             </language>
-            <translation>Against Verres.</translation>
+            <translation>Against Verres.</translation> <!-- FSF: original title -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="pro Rabirio Posthumo">
@@ -43,13 +43,13 @@
                     <book title="Pro Rabirio Posthumo"/>
                 </position>
             </language>
-            <translation>For Rabirius.</translation>
+            <translation>For Rabirius.</translation> <!-- FSF: original title -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="iter Verris">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Verris iter.</marginalia_text>
+                    <marginalia_text>Verris Iter.</marginalia_text>
                     <person name="Verres"/>
                 </position>
             </language>
@@ -72,7 +72,7 @@
                     <book title="Pro Roscio Amerino"/>
                 </position>
             </language>
-            <translation>For Roscius.</translation>
+            <translation>For Roscius.</translation> <!-- FSF: original title -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="pro Cluentia">
@@ -82,7 +82,7 @@
                     <book title="Pro Cluentio"/>
                 </position>
             </language>
-            <translation>For Cluentius.</translation>
+            <translation>For Cluentius.</translation> <!-- FSF: original title -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="in Verrem">
@@ -92,7 +92,7 @@
                     <book title="In Verrem"/>
                 </position>
             </language>
-            <translation>Against Verres.</translation>
+            <translation>Against Verres.</translation> <!-- FSF: original title -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="narratio">
@@ -104,7 +104,7 @@
             <translation>Narrative.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="h&ograve;c etia[m] plures eiusmodi narrationes habere poterunt, qu&ograve; plura crimina."/>
+        <underline method="pen" type="straight" language="LA" text="h&ograve;c etia[m] plures eiusmodi narrationes habere poterunt, qu&ograve; plura crimina"/>
         <underline method="pen" type="straight" language="LA" text="sed non ipsius causae narrationes"/>
         <underline method="pen" type="straight" language="LA" text="Vel excutiendi"/>
         <underline method="pen" type="straight" language="LA" text="Vel augendi"/>
@@ -114,10 +114,9 @@
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!-- FSF: one of them I'd call a scribble -->
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
-

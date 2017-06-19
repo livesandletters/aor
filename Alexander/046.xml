@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -29,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                Common accidents.       <!-- DO: 'occurrences' rather than 'accidents'? -->
+                Common accidents. 
             </translation>
         </marginalia>
         
@@ -46,7 +45,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: I'd anchor 'p[er] ... dixim[us]' -->
+        <marginalia hand="Italian" anchor_text="p[er] duo opposita sicut i[n] a[n]tea dixim[us]"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -55,7 +54,7 @@
                 </position>
             </language>
             <translation>
-                Passion explained by the opposite names.    <!-- DO: I think 'passio' can be translated as 'property' (as in mathematical property) -->
+                Property explained by the opposite names. 
             </translation>
         </marginalia>
         
@@ -72,7 +71,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Can anchor 'algebra' -->
+        <marginalia hand="Italian" anchor_text="algebra"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -117,8 +116,7 @@
         
         <mark name="comma" method="pen" place="intext"/> <!-- fiunt demo[n]strationes -->
         <mark name="comma" method="pen" place="intext"/> <!-- demo[n]strabilia sunt -->
-        
-        <!-- DO: I think there's a comma at 'ostensum est' in the fourth line? There is also one at 'demo[n]strabilia sunt' in the middle of the second paragraph -->
+        <mark name="comma" method="pen" place="intext"/> <!-- ostensum est -->
         
     </annotation>
 </transcription>

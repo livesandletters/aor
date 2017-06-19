@@ -36,13 +36,13 @@
         <marginalia hand="Italian" anchor_text="duci prooemia solent">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Vnde prooemia duc[?]aeur est</marginalia_text> <!-- M.B. difficulty deciphering word following 'prooemia'. -->
+                    <marginalia_text>Vnde prooemia duc[?]aeur est</marginalia_text> <!-- M.B. difficulty deciphering word following 'prooemia'. --> <!-- FSF: I read ducuntur; the scribble afterwards isn't an est abbreviation, I believe -->
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="pro Caelio: Locus, une pro Deiotaro: Habitus, unde pro Milone">
+        <marginalia hand="Italian" anchor_text="pro Caelio: Locus, unde pro Deiotaro: Habitus, unde pro Milone">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Pro{ Ca[e]lio Deiotaro Milone</marginalia_text>
@@ -51,10 +51,10 @@
                     <book title="Pro Milone"/>
                 </position>
             </language>
-            <translation>For { Caelius, Deiotarus, Milo</translation>
+            <translation>For { Caelius, Deiotarus, Milo</translation> <!-- FSF: again I would keep the titles of the books, since they otherwise become unintelligible -->
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="in Verrem">
+        <marginalia hand="Italian" anchor_text="in Verrem"> <!-- FSF: given that the bracket above reaches down to Verrem, I would merge the two marginalia; also extend the anchor text -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>In { Verrem</marginalia_text>
@@ -89,7 +89,7 @@
                     <marginalia_text>Qu[a]e atte[n]tione[m] parant.</marginalia_text>
                 </position>
             </language>
-            <translation>Which prepares one to be attentive.</translation>
+            <translation>Which prepares one to be attentive.</translation> <!-- FSF: I'd translate: they get/produce attention  -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="ex causa est"/>
@@ -99,7 +99,7 @@
         <underline method="pen" type="straight" language="LA" text="Habitus"/>
         <underline method="pen" type="straight" language="LA" text="Opinio"/>
         <underline method="pen" type="straight" language="LA" text="Fiducia ipsa solet opinione arroga[n]tiae laborare"/>
-        <underline method="pen" type="straight" language="LA" text="optare, abominari, rogare, solicitum agere."/>
+        <underline method="pen" type="straight" language="LA" text="optare, abominari, rogare, solicitum agere"/>
         <underline method="pen" type="straight" language="LA" text="noua, magna, atrox, pertinens ad exemplum, praecipu&egrave; tamen"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
@@ -109,4 +109,3 @@
 
     </annotation>
 </transcription>
-

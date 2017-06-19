@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -97,8 +96,8 @@
         <underline method="pen" type="straight" language="LA" text="in q[ua]libet ergo scie[n]tia demo[n]stratiua accipit[ur] sine deminstratio[n]e quid significe[n]t p[er] nome[n] diffinitione[m] v[e]l expositione[m]. [et]"/>
         <underline method="pen" type="straight" language="LA" text="vt passio[n]is esse. est inesse subiecto. [et] hoc"/>
         
-        
-        <!-- DO: There's a comma or an altered full stop at 'demo[n]stra[n]da no[n]' (12 lines up), and at 'esse v[e]l' (4 lines up) -->
-        
+        <errata language="LA" copytext="." amendedtext=","/> <!-- demo[n]stra[n]da no[n] -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- esse v[e]l -->
+
     </annotation>
 </transcription>

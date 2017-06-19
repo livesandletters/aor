@@ -6,11 +6,54 @@
     <page filename="470.tif" reader="John Dee" pagination="6" signature="[Aaa iij[v]]"/>
     <annotation>
         
+        <marginalia hand="Italian" internal_ref=""> <!-- FSF: I am not sure how to capture the other names there -->
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>
+                        &AElig;ditha Regina Angloru[m] quonda[m] vxor Edwardi confessoris sup[ra] pag. 433
+                    </marginalia_text>
+                    <person name="Edith of Wessex"/>
+                    <person name="Edward the Confessor"/>
+                </position>
+            </language>
+            <translation>
+                Edith of Wessex, Queen of the English, formerly the wife of Edward the Confessor 
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="VValtheof[us] Dux decollatus est">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Waltheofus d[icitu]r decoll. a[nn]o 1084
+                    </marginalia_text>
+                    <person name="Waltheof, Earl of Northumbria"/>
+                </position>
+            </language>
+            <translation>
+                Waltheof, Earl of Northumbria, was said to have been beheadd in 1084.
+            </translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="Aeditha regina Anglorum"/>
+        <underline method="pen" type="straight" language="LA" text="filiam Gulihelmi, filius OSberti"/>
+        <underline method="pen" type="double" language="LA" text="nuptui"/>
+        <underline method="pen" type="straight" language="LA" text="tradidit, &amp;"/>
+        <underline method="pen" type="double" language="LA" text="Co[n]sulatum"/>
+        <underline method="pen" type="straight" language="LA" text="de Northfolk &amp; Suthfolk. Iste Radulphus erat de genere Britonum"/>
+        <underline method="pen" type="straight" language="LA" text="Natus fuit in"/>
+        <underline method="pen" type="straight" language="LA" text="Rogerium"/>
+        <underline method="pen" type="straight" language="LA" text="VValtheof[us] Dux decollatus"/>
+        
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
             <node id="n1">Osbertus</node>
             <node id="n2">Gulielmus</node>
             <node id="n3">filia</node>
             <node id="n4">Radulfus</node>
+            <link to="n2" from="n1" relationship="has_child"/>
+            <link to="n3" from="n2" relationship="has_child"/>
+            <link to="n4" from="n3" relationship="has_spouse"/>
+            <link to="n3" from="n4" relationship="has_spouse"/>
         </graph>
         
     </annotation>

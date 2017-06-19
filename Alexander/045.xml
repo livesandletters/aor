@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -21,29 +20,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">   <!-- DO: Anchor 'linee'? -->
+        <marginalia hand="Italian" anchor_text="linea vt subiectu[m] passio[n]is r[ati]onalis et irr[ati]onalis co[n]siderat[ur] nu[m]ero">  
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Linea[e]
+                        Linea[e] numeri { r[ati]onales irrationales  
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Lines.
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="cum rationale et irratinale">   <!-- DO: I'm not sure if this and the 'linea[e]' are all one note? Considering the printed text 'linea vt suiectu[m] passio[n]is r[ati]onalis et irr[ati]onalis co[n]siderat[ur] nu[m]ero' -->
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        numer.{ r[ati]onales irrationales   <!-- DO 'numeri' -->
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                Rational and irrational numbers.
+                Lines are rational or irrational numbers.
             </translation>
         </marginalia>
         
@@ -56,7 +42,7 @@
                 </position>
             </language>
             <translation>
-                Different subjects like different.   <!-- DO: 'Different subjects as different'? -->
+                Different subjects as different.
             </translation>
         </marginalia>
         
@@ -116,10 +102,9 @@
         
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- cubus sicut -->
+        <mark name="comma" method="pen" place="intext"/> <!-- irratinale eade[m] -->
         
         <errata language="LA" copytext="irratinale" amendedtext="irrationale"/>
-        
-        <!-- DO: Also after this 'irratinale' there is either an inserted comma or a full stop changed into a comma -->
         
     </annotation>
 </transcription>

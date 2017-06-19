@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="718.tif" reader="John Dee" pagination="252"/>
+    <annotation>
+        
+        <underline method="pen" type="straight" language="LA" text="Comitis ver&ograve; Glocestrae Richardi filius primogenitus desponsauit nepte[m] regis Angli[a]e, filia[m] scilicet Guidonis Comitis Engolismi, de Pictauia oriunda[m], aetate"/>
+        <underline method="pen" type="straight" language="LA" text="Comes Glouer. Richardus"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; Gulihelmus de Valencia"/>
+        <underline method="pen" type="straight" language="LA" text="matrimonium praedictum ad effectum"/>
+        <underline method="pen" type="straight" language="LA" text="vires &amp; audaciam, &amp; equorum suorum"/>
+        <underline method="pen" type="straight" language="LA" text="qui prostrati"/>
+        <underline method="pen" type="straight" language="LA" text="spoliati"/>
+        <underline method="pen" type="straight" language="LA" text="baculati"/>
+        <underline method="pen" type="straight" language="LA" text="fomentis &amp; balneis"/>
+        
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <drawing type="manicule" book_orientation="0" place="tail" method="pen"></drawing>
+        
+        <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
+            <node id="n1" person="Richard de Clare, 6th Earl of Gloucester" anchor_text="Comitis ver&ograve; Glocestria[e] Richardi">Richardus de Clare Co. Gloc</node>
+            <node id="n2" person="Gilbert de Clare, 7th Earl of Gloucester" anchor_text="Comitis ver&ograve; Glocestria[e] Richardi filius primogenitus">Gilbertus</node>
+            <node id="n3" person="Alice de Lusignan of Angoulême" anchor_text="nepte[m] regis Angli[a]e, filia[m] scilicet Guidonis Comitis Engolismi">Neptis regis angli[a]e</node>
+            <link to="n2" from="n1" relationship="has_child"/>
+            <link to="n2" from="n3" relationship="has_spouse"/>
+            <link to="n3" from="n2" relationship="has_spouse"/>
+            <graph_text>
+                <note hand="Italian" language="LA">
+                    Nota
+                </note>
+            </graph_text>
+            <translation>
+                Note.
+            </translation>
+        </graph>
+        
+    </annotation>
+</transcription>

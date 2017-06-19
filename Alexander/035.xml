@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -82,7 +81,7 @@
                 </position>
             </language>
             <translation>
-                Beginning.         <!-- DO: I'm not really sure what this word means, but I think it can be translated as 'principiate', e.g. looking at: https://plato.stanford.edu/entries/meister-eckhart/ -->
+                Principiate.
             </translation>
         </marginalia>
         
@@ -95,7 +94,7 @@
                 </position>
             </language>
             <translation>
-                To learn by both methods.   <!-- DO: 'To foresee...'? -->
+                To foresee by both methods. 
             </translation>
         </marginalia>
         
@@ -108,7 +107,7 @@
                 </position>
             </language>
             <translation>
-                                    <!-- DO: 'Unifying the principle and the principiate'? -->
+                Unity in the principle and the principiate.
             </translation>
         </marginalia>
         
@@ -147,30 +146,29 @@
         <underline method="pen" type="straight" language="LA" text="aute[m] de passio[n]ibus quid"/>
         <underline method="pen" type="straight" language="LA" text="suu[m] q[ue] sunt"/>
         <underline method="pen" type="straight" language="LA" text="quia est. et quid"/>
-        <underline method="pen" type="straight" language="LA" text="S[ed] minor si[mi]le t[em]p[or]e habet[ur] noticia cu[m] c[on]clusio[n]e Et"/> <!-- FSF: not sure about simile tempore -->
+        <underline method="pen" type="straight" language="LA" text="S[ed] minor si[mi]le t[em]p[or]e habet[ur] noticia cu[m] c[on]clusio[n]e Et"/>
         <underline method="pen" type="straight" language="LA" text="q[ua]re in o[mn]i silogismo demo[n]stratiuo p[re]cognoscit[ur] maior co[n]clusione. minor vero eode[m] t[em]p[or]e co[n]clusionis
             et hec p[rae]cognitio c[on]clusionu[m] est ex p[ri]ncipiatis [et] no[n] p[ri]ncipijs"/>
-        
-        
+
         <mark name="vertical_bar" method="pen" place="right_margin" language="LA" text="Cum mathematica ex immediatis p[ri]ncipijs necessarijs no[n] aliter se habe[n]tibus p[ro]cedit et q[uae] maxi[m]e p[er] alijs p[ro]porcionata est intellectui 
             nostro. cum semp[er] effectum ex causa demo[n]strat"/>
         <mark name="bracket" method="pen" place="right_margin" language="LA" text="q[ua]re in o[mn]i silogismo demo[n]stratiuo p[re]cognoscit[ur] maior co[n]clusione. minor vero eode[m] t[em]p[or]e co[n]clusionis
             et hec p[rae]cognitio c[on]clusionu[m] est ex p[ri]ncipiatis [et] no[n] p[ri]ncipijs"/>
-        
         <mark name="comma" method="pen" place="intext"/> <!-- sit ex -->
         <mark name="semicolon" method="pen" place="intext"/> <!-- alijs et -->
         <mark name="comma" method="pen" place="intext"/> <!-- principia q[ua]re -->
         <mark name="comma" method="pen" place="intext"/> <!-- cognitio[n]e siue -->
-        
-        <!-- DO: Commas between 'est et' and 'hoc quid' (about 10 lines down), and between 'sunt habent' and 'sunt s[ed]' (right hand side, about halfway down) -->
+        <mark name="comma" method="pen" place="intext"/> <!-- est et -->
+        <mark name="comma" method="pen" place="intext"/> <!-- hoc quid -->
         
         <errata language="LA" copytext="." amendedtext=","/> <!-- eo q[uod] -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- esse no[n] -->
         <errata language="LA" copytext="." amendedtext=","/> <!-- erit c[on]clusio -->
-        
-        <!-- DO: Altered commas between 'equicruru[m] habere' (about 17 lines down) and, I think, 'p[rae]scire q[uod]', 'p[rae]cognoscere quia' and 'est et', all about halfway down. Also 'erit c[on]clusio' 11 lines up. -->
-        
-        <!-- DO: Not sure if some king of correction has been made to 'libes'(?) at the end of the second paragraph? -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- equicruru[m] habere -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- p[rae]scire q[uod] -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- p[rae]cognoscere quia -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- est et -->
+        <errata language="LA" copytext="libes" amendedtext="libet"/>
         
     </annotation>
 </transcription>
