@@ -16,11 +16,11 @@
                 </position>
             </language>
             <translation>
-                Because , it is taught in the most learned manner, nevertheless not through different mediums, but the virtue of one medium. <!-- FSF:I don't really understand how the structure works here -->  <!-- DO: Is the beginning something like, 'Demonstrations, as they may be expanded and become variants of the same thing...'? -->
-            </translation>
+                As demonstrations may be expanded and become variants of the same thing, it is taught in the most learned manner, nevertheless not through different mediums, but the virtue of one medium.
+            </translation> 
         </marginalia>
         
-        <marginalia hand="Italian">   <!-- DO: Anchor 'ordo passionu[m]' -->
+        <marginalia hand="Italian" anchor_text="ordo passionu[m]"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                The order of the passions.        <!-- DO: As before, I think it's more 'properties' -->
+                The order of the properties.    
             </translation>
         </marginalia>
         
@@ -163,16 +163,16 @@
             media diuersa sed virtute vni[us] medij demo[n]strant[ur] pl[ur]es c[on]clusiones q[ua]rum tamen sola prima est p[ro]pter quid [et] potissima [et] alie sunt inductiue vel particulares"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="intext"/> <!-- [etc]. Sed -->
+        <mark name="comma" method="pen" place="intext"/> <!-- quantum sumit[ur] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- hanc videlicet -->
         
-        <numeral place="left_margin">1</numeral>  <!-- DO: Anchor 'Primo' -->
-        <numeral place="left_margin">2.</numeral>  <!-- DO: Anchor 'S[e]c[un]do' -->
-        <numeral place="left_margin">3.</numeral>  <!-- DO: Anchor 'Tercio' -->
+        <numeral place="left_margin" language="LA" text="Primo">1</numeral> 
+        <numeral place="left_margin" language="LA" text="S[e]c[un]do">2.</numeral> 
+        <numeral place="left_margin" language="LA" text="Tercio">3.</numeral> 
         <numeral place="right_margin">.1.</numeral>
         <numeral place="right_margin">2.</numeral>
         
-        <!-- DO: There are commas ar 'quantum sumit[ur]' and 'hanc videlicet' (both towards the end of the main paragraph) -->
-        
-        <!-- DO: I think he has changed 'augunt[ur]' to 'augent[ur]' (towards the end of the main paragraph), and it looks like some kind of alteration has been made to 'a[n]gulus' (12 lines down) but I can't really make it out -->
+        <errata language="LA" copytext="augunt[ur]" amendedtext="augent[ur]"/>
         
     </annotation>
 </transcription>
