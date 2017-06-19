@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                Universal affirmative are simply converted reasons of matter.   <!-- DO: 'by the explanation of matter'? Also, is 'universal affirmative' singular? 'supra' and the florilegium presumably referring to something above?  -->
+                Universal affirmative are simply converted reasons of matter.
             </translation>
         </marginalia>
         
@@ -50,7 +50,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Vnu[m] mediu[m] ad vnm co[n]clusione[m]    <!-- 'vnam co[n]clusione[m]' -->
+                        Vnu[m] mediu[m] ad vnam co[n]clusione[m]  
                     </marginalia_text>
                 </position>
             </language>
@@ -107,7 +107,7 @@
                 </position>
             </language>
             <translation>
-                                  <!-- Translations needed -->
+                Every line opposite the diameter and side of a orthogonal [shape] are potential. <!-- FSF: I am really not sure about this -->
             </translation>
         </marginalia>
         
@@ -128,12 +128,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        O[mn]is ergo diameter cub[i] tripla est pot[entialiter] ad cost[am] [...]      <!-- DO: Going by the printed text and the general pattern, I would guess what's cut off is the drawing of the square for 'quadrati', but can't tell for sure... -->
+                        O[mn]is ergo diameter cub[i] tripla est pot[entialiter] ad cost[am] [...]      <!-- DO: Going by the printed text and the general pattern, I would guess what's cut off is the drawing of the square for 'quadrati', but can't tell for sure... --> <!-- FSF: I do agree -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Therefore every diameter of a cube stands in triple exponentiation to the side of a square.
             </translation>
         </marginalia>
         
@@ -141,7 +141,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Conversio in moris in secundo       <!-- DO: I think it's 'minoris' ('maioris' appears a couple of lines later) -->
+                        Conversio in m[in]oris in secund       <!-- DO: I think it's 'minoris' ('maioris' appears a couple of lines later) --> <!-- FSF: below this line ends in nulla figura; maybe here figura missing too? -->
                     </marginalia_text>
                 </position>
             </language>
@@ -159,7 +159,7 @@
                 </position>
             </language>
             <translation>
-                
+                Every diameter of a cube stands in triple exponentiation to the side of a square. 
             </translation>
         </marginalia>
         
@@ -189,11 +189,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="in s[e]c[un]da figura">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Conversio maioris in nulla sig...     <!-- DO: I'm assuming it's 'fig[ura]'  (printed text: 'in s[e]c[un]da figura' etc. -->
+                        Conversio maioris in nulla fig...     <!-- DO: I'm assuming it's 'fig[ura]'  (printed text: 'in s[e]c[un]da figura' etc. -->
                     </marginalia_text>
                 </position>
             </language>
@@ -241,7 +241,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">   <!-- DO: Anchor 'det[er]mi[n]ata p[ri]ncipia' -->
+        <marginalia hand="Italian" anchor_text="det[er]mi[n]ata p[ri]ncipia">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -250,7 +250,7 @@
                 </position>
             </language>
             <translation>
-                Determined principle in demonstrative sciences.      <!-- DO: 'principles' -->
+                Determined principles in demonstrative sciences. 
             </translation>
         </marginalia>
         
@@ -308,46 +308,34 @@
         <underline method="pen" type="straight" language="LA" text="hec e[ni]m no[n] fit in potissima demo[n]stratio[n]e p[ro]pter quid"/>
         <underline method="pen" type="straight" language="LA" text="ergo vni[us] rei est solu[m]m[od]o vna causa adeq[ua]ta"/>
         
-        <mark name="circumflex" method="pen" place="intext"/>     <!-- DO: I don't know whether you also need to capture the cicumflex in the marginal note on the right hand side? -->
+        <mark name="circumflex" method="pen" place="intext"/> 
+        <mark name="circumflex" method="pen" place="right_margin"/> 
         
         <numeral place="right_margin">1</numeral>
         <numeral place="right_margin">2</numeral>
         <numeral place="right_margin">3</numeral>
-        
-        <errata language="LA" copytext="2" amendedtext="[deleted]"/>    <!-- DO: As this refers to Dee's own note, I don't think the errata tag is used - I would tag as a numeral '[2 deleted]' -->
+        <numeral place="right_margin">[2 deleted]</numeral>
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-       
        <physical_link>
-           
            <marginal_annotation idref="RCP7997:060:m0001"/>
            <marginal_annotation idref="RCP7997:060:m0003"/>
-           
            <relation from="RCP7997:060:m0001" to="RCP7997:060:m0003" type="undirected"/>
-           
        </physical_link>
        
-       
         <physical_link>
-            
             <marginal_annotation idref="RCP7997:060:m0002"/>
             <marginal_annotation idref="RCP7997:060:m0004"/>
-            
             <relation from="RCP7997:060:m0002" to="RCP7997:060:m0004" type="undirected"/>
-            
         </physical_link>
        
        
         <physical_link>
-            
             <marginal_annotation idref="RCP7997:060:m0002"/>
             <marginal_annotation idref="RCP7997:060:m0003"/>
-            
             <relation from="RCP7997:060:m0002" to="RCP7997:060:m0003" type="undirected"/>
-            
         </physical_link>
-       
         
     </annotation>
 </transcription>
