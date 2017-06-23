@@ -4,27 +4,27 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www-uat.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="065.tif" reader="John Dee"/> 
+    <page filename="065.tif" reader="John Dee" signature="[Eiiij[v]]"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="quatuor d[iffe]r[enti]as inter scie[n]cias subalt[er]na[n]tes [et] subalt[er]natas i[m]mediatas">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Quatuor differentia[e] scientiaru[m] subalternatiu[m] &amp; subalternatarum immediate
+                        Quatuor differentia[e] scientiaru[m] subalternatiu[m] &amp; subalternatarum immediate     <!-- DO: First one is 'subalternantiu[m]' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Four differences between the subalternate and the subalternate immediate sciences.
+                Four differences between the subalternate and the subalternate immediate sciences.  <!-- DO: The difference between 'subalternatium' and 'subalternatarum' needs to be expressed... As on previous page, I think the first one can be translated as 'superior [sciences]' and the second as 'inferior [sciences]' -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: I think you can anchor 'geomet[er] ... a materia' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Geometer li[cet] interdu[m] versetur circa figuras et magnitudines tame[n] no[n] co[n]fiderat ea secu[n]du[m] esse talis materia sed secu[n]du[m] esse forma ab o[mn]i materia abstracta[e].
+                        Geometer li[cet] interdu[m] versetur circa figuras et magnitudines tame[n] no[n] co[n]fiderat ea secu[n]du[m] esse talis materia sed secu[n]du[m] esse forma ab o[mn]i materia abstracta[e].  <!-- DO: The third line has been missed out ('in materia aliqua sensibili'). Also, I think it's 'considerat' and 'forma[e]' -->
                     </marginalia_text>
                 </position>
             </language>
@@ -46,7 +46,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -55,7 +55,7 @@
                 </position>
             </language>
             <translation>
-                Nautic astrology.
+                Nautical astrology.
             </translation>
         </marginalia>
         
@@ -63,7 +63,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        &Sun; rubicunde orie[n]s, ventos merid. significat
+                        &Sun; rubicunde orie[n]s, ventos merid. significat  <!-- DO: 'merid[ianos]' -->
                     </marginalia_text>
                 </position>
             </language>
@@ -72,16 +72,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="">  <!-- DO: Anchor 'musica ... geometrice' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Arith Geo { Mus. Ast.
+                        Arith Geo { Mus. Ast.  <!-- DO: I would expand these abbreviations -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Arithmetic geometry music astronomy.
+                Arithmetic, geometry; music, astronomy.
             </translation>
         </marginalia>
         
@@ -99,32 +99,36 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="modus scie[n]di"/>
-        <underline method="pen" type="straight" language="LA" text="vt duo semitonia iu[n]cta no[n] p[er]ficere integru[m] epogdou[m] i[d est]"/>
+        <underline method="pen" type="straight" language="LA" text="vt duo semitonia iu[n]cta no[n] p[er]ficere integru[m] epogdou[m] i[d est] thonu[m]"/>
         <underline method="pen" type="straight" language="LA" text="q[ue] cu[m] sensibile sit auribus "/>
         <underline method="pen" type="straight" language="LA" text="p[ar]te rei scite et hec"/>
-        <underline method="pen" type="straight" language="LA" text="Nam sepe aliquis cognoscit in v[niversa]li [et] t[ame]n nescit sing[u]laria p[ro]pter hoc q[uod] no[n] inte[n]dit"/>
-        <underline method="pen" type="straight" language="LA" text="p[ro]pter sui altitudine[m] co[n]sidera[n]tes v[niversal[es] causas. licet scia[n]t p[ro]pter quid ignora[n]t t[ame]n multos effectus [et] multa q[ue] q[uae] no[n] ignora[n]t"/>
-        <underline method="pen" type="straight" language="LA" text="habe[n]t se vt v[niversa]le et subalt[er]nate vt p[ar]ticulare"/>
+        <underline method="pen" type="straight" language="LA" text="Na[m] sepe aliquis cognoscit in v[niversa]li [et] t[ame]n nescit sing[u]laria p[ro]pter hoc q[uod] no[n] inte[n]dit"/>
+        <underline method="pen" type="straight" language="LA" text="p[ro]pter sui altitudine[m] co[n]sidera[n]tes v[niversa]les causas. licet scia[n]t p[ro]pter quid ignora[n]t t[ame]n multos effectus [et] multa q[ue] q[uae] no[n] ignora[n]t"/>
+        <underline method="pen" type="straight" language="LA" text="subalt[er]na[n]tes habe[n]t se vt v[niversa]le et subalt[er]nate vt p[ar]ticulare"/>
         <underline method="pen" type="straight" language="LA" text="q[ua]re aliq[ua]n[do] multi effect[us] nociores sunt causis v[niversal]ibus"/>
         <underline method="pen" type="straight" language="LA" text="ex p[ar]te scie[n]tie subalt[er]nate q[ue] e[st] materialior [et] sensibilior q[uam] subalt[er]nans"/>
         <underline method="pen" type="straight" language="LA" text="licet e[ni]m ea q[uae] geomet[er] c[on]siderat sint in materia sicut linea [et] sup[er]ficies"/>
         <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m esse materie sed s[e]c[un]d[u]m esse forme abstracte a materia"/>
         <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m esse materie"/>
         <underline method="pen" type="straight" language="LA" text="scie[n]tijs subalt[er]nat[is] s[e]c[un]d[u]m causam formale[m]"/>
-        <underline method="pen" type="straight" language="LA" text="subalt[er]nate q[uae] semp[er] co[n]trahu[n]t subiectu[m] subalterna[n]tis sunt quoda[m]m[od]o semp[er] materialiores q[uam] su ut subalt[er]nites"/>
+        <underline method="pen" type="straight" language="LA" text="subalt[er]nate q[uae] semp[er] co[n]trahu[n]t subiectu[m] subalterna[n]tis sunt quoda[m]m[od]o semp[er] materialiores q[uam] su ut subalt[er]na[n]tes"/>
+        <underline method="pen" type="straight" language="LA" text="p[ar]te scie[n]tie subalt[er]nant[is]"/>
         <underline method="pen" type="straight" language="LA" text="Na[m] mathe[m]atic[us] no[n] abstrahit a materia"/>
         <underline method="pen" type="straight" language="LA" text="sed a materia sensibili"/>
         <underline method="pen" type="straight" language="LA" text="no[n] demo[n][strat]"/>
         
         <mark name="circumflex" method="pen" place="intext"/>
         
-        <numeral place="left_margin">1</numeral>
+        <!-- DO: There is a comma at 'thonu[m] dicere' (nine lines into the second para) -->
+        
+        
+        <numeral place="left_margin">.1.</numeral>
         <numeral place="left_margin">2</numeral>
         <numeral place="left_margin">3</numeral>
         <numeral place="left_margin">4</numeral>
         
         <errata language="LA" copytext="q[ue]" amendedtext="[deleted]"/>
-        <errata language="LA" copytext="p[ro]" amendedtext="q[uod]"/>
+        <errata language="LA" copytext="p[ro]" amendedtext="[deleted]"/>   <!-- DO: The 'q[uid]' should be captured as marginalia -->
         
     </annotation>
 </transcription>
