@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="234.tif" reader="John Dee" pagination="228" signature="[P 2[v]]"/>
+    <page filename="234.tif" reader="John Dee" pagination="228" signature="[P 2[v]]"/> <!-- FSF: given that all other signature letters are lower case, I'd opt for that here too -->
     <annotation>
         
         <marginalia hand="Italian" anchor_text="eiusdem rei plura propria">
@@ -52,7 +52,7 @@
             <translation>Two forms of marriages.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Diuisione autem adiuuari finitionem docet, eamq[ue] differre &agrave; partitione">
+        <marginalia hand="Italian" anchor_text="Diuisione autem adiuuari finitionem docet, eam'q[ue] differre &agrave; partitione">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Diuisio &amp; partitio</marginalia_text>
@@ -70,17 +70,16 @@
             <translation>Division.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Itaque quodcunq[ue] proprium deerot, soluet finitionem, non utiq[ue] quodcunq[ue], erit, confirmabit."/>
+        <underline method="pen" type="straight" language="LA" text="Itaque quodcunq[ue] proprium deerit, soluet finitionem, non utiq[ue] quodcunq[ue], erit, confirmabit"/>
         <underline method="pen" type="straight" language="LA" text="Quod autem proprium non erit, differens"/>
         <underline method="pen" type="straight" language="LA" text="Animal, genus: mortale, species: terrenum, uel bipes, differens"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; ijs quae aliquid sunt, subijcit"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; ijs quae ad aliquid sunt, subijcit"/>
         <underline method="pen" type="straight" language="LA" text="in manum non conuenerit"/>
         <underline method="pen" type="straight" language="LA" text="Partes incertas esse"/>
-        <underline method="pen" type="straight" language="LA" text="quibus constet respub"/>
+        <underline method="pen" type="straight" language="LA" text="quibus constet respub."/>
         <underline method="pen" type="straight" language="LA" text="utitur, quia scribens ad Trebatium, ex iure ea ducere maluit: ego apertiora posui. Propria"/>
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
-
