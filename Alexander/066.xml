@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="066.tif" reader="John Dee"/> 
+    <page filename="066.tif" reader="John Dee" signature="[Ev]"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="materia se[n]sibilis">
@@ -37,12 +37,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Physica sci <!-- FSF: sci abbreviation for scientia? -->
+                        Physica sci <!-- FSF: sci abbreviation for scientia? -->  <!-- DO: I think so... -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Physics is a science.
+                Physics is a science.    <!-- DO: Or could just be 'Physical science' (i.e. physics)? -->
             </translation>
         </marginalia>
         
@@ -68,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                
+                              <!-- DO: Not sure how to translate either -->
             </translation>
         </marginalia>
         
@@ -82,7 +82,7 @@
                 </position>
             </language>
             <translation>
-                Mathematics demonstrate what for.
+                Mathematics demonstrate what for.  <!-- propter quid = 'why it is' (to keep translations consistent)? -->
             </translation>
         </marginalia>
         
@@ -96,7 +96,7 @@
                 </position>
             </language>
             <translation>
-                The medium must be a cause of passion which predicts the conclusion.
+                The medium must be a cause of passion which predicts the conclusion.    <!-- DO: '... cause of the property which is predicted in the conclusion'? Not sure that this is the best translation either though... -->
             </translation>
         </marginalia>
         
@@ -122,15 +122,15 @@
                 </position>
             </language>
             <translation>
-                On the not immediately subalternate sciences.
+                On the not immediately subalternate sciences.   <!-- DO: I'd just say 'immediate'; think it's being used as an adjective as before. Possibly 'subalternis' to be translated as 'superior' (see previous two pages)?? -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="vna scie[n]tia subalt[er]nat[ur] alteri simliciter s[ed] s[ecundu]m aliqua[m] ei[us] p[ar]tem Si s[e]c[un]d[u]m applicatione[m]">
+        <marginalia hand="Italian" anchor_text="vna scie[n]tia subalt[er]nat[ur] alteri simpliciter s[ed] s[ecundu]m aliqua[m] ei[us] p[ar]tem Si s[e]c[un]d[u]m applicatione[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        subalternata secu[n]du[m] aliqua[m] p[ar]tem applicatione[m]
+                        subalternata secu[n]du[m] { aliqua[m] p[ar]tem. applicatione[m].
                     </marginalia_text>
                 </position>
             </language>
@@ -155,14 +155,15 @@
         <underline method="pen" type="straight" language="LA" text="[demo[n]]strat in materia simplici sed in abstractio[n]e a materia"/>
         <underline method="pen" type="straight" language="LA" text="materia se[n]sibilis materia q[ua]lis"/>
         <underline method="pen" type="straight" language="LA" text="planu[m] cu[m] om[n]is angulus solidus sit minor q[ua]tuor rectis"/>
-        <underline method="pen" type="straight" language="LA" text="a materia q[ua]li"/>
-        <underline method="pen" type="straight" language="LA" text="eq[ua]le quatuor"/>
+        <underline method="pen" type="straight" language="LA" text="a materia q[ua]li que"/>
+        <underline method="pen" type="straight" language="LA" text="esse eq[ua]le quatuor"/>
         <underline method="pen" type="straight" language="LA" text="min[us] quatuor"/>
         <underline method="pen" type="straight" language="LA" text="surgere in plano et esse in sublimi"/>
         <underline method="pen" type="straight" language="LA" text="immediate subalt[er]nant[ur]"/>
-        <underline method="pen" type="straight" language="LA" text="qua[m] p[ar]tem"/>
-        <underline method="pen" type="straight" language="LA" text="s[ecundu]m applicationem"/>
+        <underline method="pen" type="straight" language="LA" text="aliqua[m] p[ar]tem"/>
+        <underline method="pen" type="straight" language="LA" text="aut s[ecundu]m applicationem"/>
         <underline method="pen" type="straight" language="LA" text="naturalis ph[ilosoph]ia siue phisica"/>
+        <underline method="pen" type="straight" language="LA" text="Si s[e]c[un]d[u]m aliqua[m] p[ar]tem"/>
         <underline method="pen" type="straight" language="LA" text="Na[m] ph[ilosoph]ia non subalt[er]nat[ur] immediate [et] simpliciter p[er]spectiue sed qua[n]tu[m] ad aliqua[m] p[ar]tem vt de yride"/>
         <underline method="pen" type="straight" language="LA" text="Si s[e]c[un]d[u]m applicatione[m]"/>
         <underline method="pen" type="straight" language="LA" text="vbi subiecta o[mn]ino sunt diuersa vt"/>
@@ -171,14 +172,14 @@
         <underline method="pen" type="straight" language="LA" text="curuu[m] cui[us] mediu[m] distant ab extremis"/>
         <underline method="pen" type="straight" language="LA" text="cu[m] mediu[m] sit magis ab extremis distans q[uam] recte"/>
         <underline method="pen" type="straight" language="LA" text="fiat silogistica r[ati]one demo[n]stratiua"/>
-        <underline method="pen" type="straight" language="LA" text="stratiui facie[n]tes maxime scire hoc est p[ro]pter quid"/>
+        <underline method="pen" type="straight" language="LA" text="demo[n]stratiui facie[n]tes maxime scire hoc est p[ro]pter quid"/>
         <underline method="pen" type="straight" language="LA" text="q[ua]tuor ratio[n]es"/>
-        <underline method="pen" type="straight" language="LA" text="q[uod] maxime scire [et] p[rae]cipue p[ro]pter quid"/>
-        <underline method="pen" type="straight" language="LA" text="est maxime scire p[ro]pter quid"/>
+        <underline method="pen" type="straight" language="LA" text="maxime scire [et] p[rae]cipue p[ro]pter quid"/>
+        <underline method="pen" type="straight" language="LA" text="est maxime scire p[ro]pter quid sunt"/>
         <underline method="pen" type="straight" language="LA" text="aut e[ni]m o[mn]ino hoc est v[niversa]l[ite]r aut sicut frequencius [et] in pluribus [et] p[er] hanc p[ri]ma[m] figura[m] ei[us] q[uod] est p[ro]pter quid"/>
-        <underline method="pen" type="straight" language="LA" text="Sed in demo[n[stratio[n]e p[ro]pter quid oportet mediu[m] esse causa[m] qassionis q[uae] p[rae]dicat[ur] in c[on]clusione"/>
+        <underline method="pen" type="straight" language="LA" text="Sed in demo[n]stratio[n]e p[ro]pter quid oportet mediu[m] esse causa[m] passionis q[uae] p[rae]dicat[ur] in c[on]clusione"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- scire hoc -->
+        <mark name="comma" method="pen" place="intext"/> <!-- scire hoc -->       <!-- DO: There is also a comma in the second line, and one at 'quia faciu[n]t' (8 lines up from bottom). There is a full stop changed into a comma in this same line as well. -->
         
     </annotation>
 </transcription>
