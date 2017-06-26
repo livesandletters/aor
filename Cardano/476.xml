@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="476.tif" reader="John Dee" pagination="228"/>
+    <annotation>
+        
+        <marginalia hand="English_secretary" anchor_text="uulnerabitur">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Vulnera.</marginalia_text>
+                </position>
+            </language>
+            <translation>Wounds.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="claudicabit">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Claudus.</marginalia_text>
+                </position>
+            </language>
+            <translation>Limping.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Signa viole[n]ta mortis radi calia. &Mars; in cuspide  &Scorpio;
+                    &Square; tenens &Jupiter; &Saturn; etia[m] domin[us] 8 etevats &Moon; co[m]busta in octaua etia[m] d[omi]na asce[n]dentis.
+                    Deniq[ue] insorta[e] [....] [fortis], [...] [...] in [...] et fig[u]ra debiles[..]. [Et cetera].</marginalia_text> <!--JG: Extremely unsure-->
+                    <symbol_in_text name="Mars"/>
+                    <symbol_in_text name="Scorpio"/>
+                    <symbol_in_text name="Square"/>
+                    <symbol_in_text name="Jupiter"/>
+                    <symbol_in_text name="Saturn"/>
+                    <symbol_in_text name="Moon"/>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="dominum ascendentis aspexerit"/>
+        <underline method="pen" type="straight" language="LA" text="Hic anno 21. expleto, acasus est die decimaoctaua Iulij, hora decimaoctaua"/>
+        <underline method="pen" type="straight" language="LA" text="uulnus in gula &amp; crure, moritur subito."/>
+        
+        <mark name="comma" method="pen" place="intext"/> <!--Hic anno-->
+        
+        <table type="astrological_chart" place="tail"> <!--JG: How to capture the fact that Dee deleted this table??-->
+            
+        </table>
+        
+        <table type="astrological_chart" place="tail">
+            <tr>
+                <th/>
+                <th label="House"/>
+                <th label="Position"/>
+            </tr>
+            <tr>
+                <td>Aquarius</td>
+                <td>1</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Aries</td>
+                <td>2</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Gemini</td>
+                <td>4</td>
+                <td>12</td>
+            </tr>
+            
+        </table> <!--JG: To be continued, chart doesn't make sense to me-->
+        
+        
+    </annotation>
+</transcription>
