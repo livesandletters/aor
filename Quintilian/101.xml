@@ -6,6 +6,8 @@
     <page filename="101.tif" reader="John Dee" pagination="95"/>
     <annotation>
         
+        <!-- M.B. Greek marginalia remaining. -->
+        
         <marginalia hand="Italian" anchor_text="Apollodorus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -22,7 +24,7 @@
                     <marginalia_text>Orator fortuna[e] subijcitur</marginalia_text>
                 </position>
             </language>
-            <translation>The orator, the substitutor of fortune.</translation> <!-- FSF: I'd translate The orator of fortune is exposed. -->
+            <translation>The orator of fortune is exposed.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Aristoteles">
@@ -38,7 +40,7 @@
         <marginalia hand="Italian" anchor_text="Hermagorae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text> <!-- M.B. Captured greek text at later point -->
+                    <marginalia_text>Ηερμαγόρας</marginalia_text>
                     <person name="Hermagoras of Temnos"/>
                 </position>
             </language>
@@ -110,7 +112,8 @@
         <underline method="pen" type="straight" language="LA" text="ipse oratore[m] fortunae subijcit, ut si non persuaserit, nomen summ retinere non po&sharp-S;it. Quidam"/>
         <underline method="pen" type="straight" language="LA" text="persuadere non tantum oratoris esse conuicimus."/>
         
-        <!-- FSF: there are two vertical bars to be captured -->
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
