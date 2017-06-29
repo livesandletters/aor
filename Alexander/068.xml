@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="068.tif" reader="John Dee"/> 
+    <page filename="068.tif" reader="John Dee" signature="[Evj]"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="co[n]uertunt[ur]">
@@ -24,12 +24,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Compositio Resolutio
+                        Compositio. Resolutio }
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Composition Resolution.
+                Composition. Resolution.
             </translation>
         </marginalia>
         
@@ -37,7 +37,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Inductiue
+                        Inductiue.
                     </marginalia_text>
                 </position>
             </language>
@@ -46,11 +46,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'ad ... i[m]mediatas' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Ad inveniendu[m] p[ro]positiones immediatas
+                        Ad inveniendu[m] p[ro]positiones immediatas.
                     </marginalia_text>
                 </position>
             </language>
@@ -62,14 +62,18 @@
         <underline method="pen" type="triple" language="LA" text="c[on]uertunt[ur]"/>
         <underline method="pen" type="straight" language="LA" text="cu[m] c[on]uertibili c[on]uertu[n]t[ur] etia[m] cu[m] eo q[uod] co[n]uertit[ur] cu[m] illo. nullu[m] aute[m]"/>
         <underline method="pen" type="straight" language="LA" text="c[on]tingit q[ui]a talia p[rae]dicata sunt de diffinitio[n]e subiecti [et] si"/>
-        <underline method="pen" type="straight" language="LA" text="huiusmo[d]i aut[em] d[iffe]r[enti]am diffinitie[n]te[m] no[n] c[on]tingit"/>
+        <underline method="pen" type="straight" language="LA" text="huiusmo[d]i aut[em] d[iffe]r[enti]am diffinie[n]te[m] no[n] c[on]tingit"/>
         <underline method="pen" type="straight" language="LA" text="c[on]stat ita n[ost]r[u]m p[ro]positu[m] si hoc est q[uod] est stat[us] in sursu[m] [et] deorsum tu[n]c necesse est deuenire ad aliq[uam] p[ri]ma p[ri]ncipia demonstrationu[m]
-            q[uae] sunt indemo[n]strabilia. q[uae] o[mn]is"/>
-        <underline method="pen" type="straight" language="LA" text="p[er] o[mn]es passio[n]es ad hoc q[uod] c[on]stituit[ur] sup[er] data[m] linea[m] p[er] p[ri]ma[m] p[ri]mi elementor[um] 
-            hec vltima passio p[er] p[ri]meua p[ri]ncipia s[e]c[undum] p[er] diffinitio[n]es petitio[n]es"/>
-        <underline method="pen" type="straight" language="LA" text="ani[m]co[n]ceptio[n]es p[ro]babit[ur] quib[us] p[ri]ncipijs vlterius est status"/>
-        <underline method="pen" type="straight" language="LA" text="q[uod] si aliquid insit aliquibus duob[us] paliquod co[m]mune non oportet illus co[m]mune eis inesse p[er] aliud co[m]mune [et]"/>
-        <underline method="pen" type="straight" language="LA" text="Om[n]is aut[em] d[e]mo[n]stratio e[st] ex v[niversa]lib[us] vt dixi[m][us] [et] de his q[uae] su[n]t p[er] se [et] no[n] p[er] i[n]duc"/>
+            q[ue] sunt indemo[n]strabilia. q[uae] o[mn]is"/>
+        <underline method="pen" type="straight" language="LA" text="o[mn]es passio[n]es ad hoc q[uod] c[on]stituit[ur] sup[er] data[m] linea[m] p[er] p[ri]ma[m] p[ri]mi elementor[um] 
+            hec vltima passio p[er] p[ri]meua p[ri]ncipia s[e]c[undum] p[er] diffinitio[n]es petitio[n]es"/>  <!-- DO: I think 'scz' is 'scilicet'; 'secundum' is usually 'scdm' here -->
+        <underline method="pen" type="straight" language="LA" text="ani[m]co[n]ceptio[n]es p[ro]babit[ur] quib[us] p[ri]ncipijs vlterius est status in demo[n]stratio[n]e"/>
+        <underline method="pen" type="straight" language="LA" text="q[uod] si aliquid insit aliquibus duob[us] paliquod co[m]mune non oportet illud co[m]mune eis inesse p[er] aliud co[m]mune [et]"/>
+        <underline method="pen" type="straight" language="LA" text="Om[n]is aut[em] d[e]mo[n]stratio e[st] ex v[niversa]lib[us] vt dixi[m][us] [et] de his q[ue] su[n]t p[er] se [et] no[n] p[er] i[n]duc"/>
+        
+        
+        <!-- DO: There is a comma at 'vlterius est' (five lines up from the end of paragraph 1) -->
+        
         
     </annotation>
 </transcription>
