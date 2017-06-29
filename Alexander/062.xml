@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -50,12 +49,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Co[n]versione, ex quia fieri p[otes]t quid.
+                        Co[n]versione, ex quia fieri p[rop]t[er] quid.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                In a conversion, from the because what can happen. <!-- FSF: again this remains obscure to me -->  <!-- DO: I think the contraction is actually 'p[rop]t[er] quid', and it's referring as before to 'propter quid' vs. 'quia' demonstrations. 'In a conversion, [demonstration of] why it is is made from [demonstration] that it is'? -->
+                In a conversion, [demonstration of] why it is is made from [demonstration] that it is.
             </translation>
         </marginalia>
         
@@ -72,16 +71,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">  <!-- DO: Anchor 'luna sit ... lumi[ni]s circularit[er]'? -->
+        <marginalia hand="Italian" anchor_text="luna sit circularis figure p[er] hoc mediu[m] q[uo]d est accipere augme[n]tu[m] lumi[ni]s circularit[er]"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Luna recipi lume[n] circulariter.     <!-- DO: recipit -->
+                        Luna recipit lume[n] circulariter.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The moon        <!-- DO: 'The moon receives light circularly'? -->
+                The moon receives light circularly.
             </translation>
         </marginalia>
         
@@ -107,7 +106,7 @@
                 </position>
             </language>
             <translation>
-                The conversion of the demonstration in order for another demonstration on account of this. <!-- FSF: I am really not sure what this is meant to mean -->  <!-- DO: 'The conversion of demonstration that it is into demonstration of why it is' -->
+                The conversion of demonstration that it is into demonstration of why it is.
             </translation>
         </marginalia>
         
@@ -115,7 +114,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        effectus conversibilis     <!-- DO: convertibilis -->
+                        effectus convertibilis    
                     </marginalia_text>
                 </position>
             </language>
@@ -133,11 +132,11 @@
                 </position>
             </language>
             <translation>
-                Conversion because and what for.      <!-- DO: 'The conversion of [demonstration] that it is into [demonstration of] why it is'? -->
+                The conversion of [demonstration] that it is into [demonstration of] why it is.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'in ipso ... recipit[ur] lume[n]' -->
+        <marginalia hand="Italian" anchor_text="in ipso foramine non rotundo recipit[ur] lume[n]"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -146,11 +145,10 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added --> as light was received either properly or remotely, and transmitted.    <!-- DO: Maybe 'From an opening which is not round, so that light may be received either closely or remotely, and transmitted' -->
+                From an opening which is not round, so that light may be received either closely or remotely, and transmitted.
             </translation>
         </marginalia>
-        
-        
+         
         <underline method="pen" type="straight" language="LA" text="q[ue] p[ro]cedit ex effectu ad causa[m] vel a causa remota ad"/>
         <underline method="pen" type="straight" language="LA" text="q[ue] est"/>
         <underline method="pen" type="straight" language="LA" text="p[ro]cedit p[er] effectu[m]"/>
@@ -179,10 +177,12 @@
         <underline method="pen" type="straight" language="LA" text="nisi a remotis"/>      
         <underline method="pen" type="straight" language="LA" text="licet a p[ro]pi[n]quo forami[ni]s teneat lume[n] forma[m] forami[ni]s, a remotis v[er]o [et] paulati"/>      
         
-        <mark name="comma" method="pen" place="intext"/> <!-- alio est -->          <!-- DO: There is also a comma at 'q[ue] pro' (about halfway down, close to the right hand margin)-->
+        <mark name="comma" method="pen" place="intext"/> <!-- alio est --> 
+        <mark name="comma" method="pen" place="intext"/> <!-- q[ue] pro -->
         <mark name="bracket" method="pen" place="left_margin"/>
 
-        <errata language="LA" copytext="." amendedtext=","/> <!-- loco [et] -->     <!-- DO: There is also one of these in the very last line -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- loco [et] -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- forami[ni]s a --> 
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
@@ -200,15 +200,17 @@
             <link to="n4 n5" from="n2" relationship="has_child"/>
             <link to="n6 n7" from="n5" relationship="has_child"/>
             <link to="n8" from="n6 n7" relationship="has_child"/>
-        </graph> <!--JG: Finn, make sure to translate the contents of this Ramus tree-->
-        
- 
-        
-        1.quia
-        1.1. p[er] effectu[m]
-        1.1.1 r[ati]o
-        1.1.2 no[n] r[ati]o
-        1.2. p[er] causa[m] mediata[m]
+            <translation>
+                Demonstration
+                Why it is
+                That it is
+                As an effect
+                From a remote cause
+                Convertible
+                Non-convertible
+                These can be converted to a demonstration that it is.
+            </translation>
+        </graph> 
         
     </annotation>
 </transcription>
