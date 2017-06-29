@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="073.tif" reader="John Dee" pagination="49" signature="e.j."/>
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Beda &AElig;quinoctis ergo definit annos">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>A[E]quinoctijs definintur Anni.</marginalia_text>
+                    <marginalia_text>A[E]quinoctijs definuntur Anni.</marginalia_text>
                 </position>
             </language>
             <translation>Years are defined by the equinoxes.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Olympiadibus. quas nostri Chronographi existimant celebrari solitas Antumni tempore">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Olympiades 9&o_super; anni tempore celebraba[n]tur</marginalia_text>
+                    <marginalia_text>Olympiades 9&o_super; anni tempore celebraba[n]tur</marginalia_text> <!-- FSF: I think it is q[uo]; I'd translate it then The Olympic Games are celebrated at that time of the year -->
                 </position>
             </language>
             <translation></translation>    <!-- DO: Not sure how to translate -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Arabes">
             <language ident="LA">
@@ -37,7 +32,6 @@
             </language>
             <translation>The year of the Arabs.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="fuit, vt sibi de diebus festis iudicium"/>
         <underline method="pen" type="straight" language="LA" text="potius deo gratam vitam, virtutem"/>
@@ -58,12 +52,9 @@
         <underline method="pen" type="straight" language="LA" text="fit vt dies vndecim cum quadrante prope diei"/>
         <underline method="pen" type="straight" language="LA" text="anno Israelitico siue Hebraico, menses fuisse tantu[m] 12."/>
         
-        
         <mark name="bracket" method="pen" place="right_margin"/>
         
         <errata language="LA" copytext="ta" amendedtext="ita"/>
         
-        
     </annotation>
-    
 </transcription>
