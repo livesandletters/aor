@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
+
+<transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
+    <page filename="011.tif" reader="John Dee" signature="Aij"/>
+    
+    
+    <annotation>
+        
+        
+        <marginalia hand="Italian" anchor_text="Magiae compendio" id="RCP9978:011:m0001">
+          <language ident="LA">
+              <position place="head" book_orientation="0">
+                  <marginalia_text>Magia[e] Compendiu[m].</marginalia_text>
+              </position>
+          </language>
+          <translation>A compendium of magic.</translation>
+      </marginalia>
+        
+        
+        <marginalia hand="Italian" anchor_text="Magiam">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Magia.</marginalia_text>
+                </position>
+            </language>
+            <translation>Magic.</translation>
+        </marginalia>
+        
+        
+        <underline method="pen" type="straight" language="LA" text="hoc Magiae compendio" id="RCP9978:011:u0001"/>
+        <underline method="pen" type="straight" language="LA" text="praeclaram esse Philosophiae naturalis partem, vt ex sequentib[us]"/>
+        <underline method="pen" type="straight" language="LA" text="scilicet Magiam esse Philosophiae naturalis absolutam consumationem atque perfectissimam summamq[ue] scientiam"/>
+        <underline method="pen" type="straight" language="LA" text="Alteram non fere aliud esse, praeter Philosophiae naturalis actiuam portionem, monumentis prodiderunt"/>
+        
+        
+        <physical_link>
+            
+            <marginal_annotation idref="RCP9978:011:m0001"/>
+            <marginal_annotation idref="RCP9978:011:u0001"/>
+            
+            <relation from="RCP9978:011:m0001" to="RCP9978:011:u0001" type="directed"/>
+            
+        </physical_link>
+        
+    
+    </annotation>
+    
+</transcription>
