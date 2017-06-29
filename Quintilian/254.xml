@@ -21,7 +21,7 @@
             oratio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Vi[?] locando in vitiu[m] evita[n]du[m]</marginalia_text> <!-- M.B. Not sure of the first contraction? --> 
+                    <marginalia_text>Vi[?] locando in vitiu[m] evita[n]du[m]</marginalia_text> <!-- M.B. Not sure of the first contraction? --> <!-- FSF: Vnu[m] -->
                 </position>
             </language>
             <translation>
@@ -32,10 +32,10 @@
         <marginalia hand="Italian" anchor_text="Quidam executi sunt uerbosius, quibus placuit, proposita locorym communium materia, quo quaeq[ue] res modo dici posset, oste[n]dere,">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Non debent nec possu[n]t o[mn]ia argume[n]toru[m] sedes ostendi.</marginalia_text> 
+                    <marginalia_text>Non debent nec possu[n]t o[mn]ia argume[n]toru[m] sedes ostendi.</marginalia_text> <!-- FSF: I think it is o[mn]iu[m] instead of o[mn]ia -->
                 </position>
             </language>
-            <translation>Not having to display all arguements nor their places.</translation>
+            <translation>Not having to display all arguements nor their places.</translation> <!-- FSF: I'd translate as The places of all arguments neither have to nor can be revealed -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="declamationes">
@@ -58,13 +58,13 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="ratio causae cuiusq[ue] postulabit, ordinabuntur: uno, ut ego censeo, excepto, ne &agrave; potenti&sharp-S;imis ad leui&sharp-S;ima decrescat 
-            oratio."/>
+            oratio"/>
         <underline method="pen" type="straight" language="LA" text="confido, plurimas"/>
         <underline method="pen" type="straight" language="LA" text="uelut praepilatis"/>
         <underline method="pen" type="straight" language="LA" text="neruis carent"/>
         <underline method="pen" type="straight" language="LA" text="uirilitate"/>
-        <underline method="pen" type="straight" language="LA" text="robusteq[ue] dicendi tenera"/>
-        <underline method="pen" type="straight" language="LA" text="Sed mihi naturam intuenti, nemo nor uir spadone formosior erit."/>
+        <underline method="pen" type="straight" language="LA" text="robuste'q[ue] dicendi tenera"/>
+        <underline method="pen" type="straight" language="LA" text="Sed mihi naturam intuenti, nemo nor uir spadone formosior erit"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
@@ -73,4 +73,3 @@
         
     </annotation>
 </transcription>
-
