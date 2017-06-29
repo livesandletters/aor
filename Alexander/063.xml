@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -29,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                For a remote reason.    <!-- DO: 'By a remote cause'? -->
+                By a remote reason. 
             </translation>
         </marginalia>
         
@@ -37,12 +36,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Dua[e] prima[e] et subalternates scientia[e], Mathematica[e] facultatis videlic[et] Arithmetica, et geometria veliqua[e] o[mn]es cu[m] naturali philosophia[e] pra[e]sidijs ab istis derivantur.  <!-- DO: I think it's 'subalterna[n]tes', and 'reliqua[e]' -->
+                        Dua[e] prima[e] et subalterna[n]tes scientia[e], Mathematica[e] facultatis videlic[et] Arithmetica, et geometria[e] reliqua[e] o[mn]es cu[m] naturali philosophia[e] pra[e]sidijs ab istis derivantur.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Two chief and subaltern sciences of mathematical faculty, evidently arithmetic and geometry <!-- FSF: I don't understand the rest -->  <!-- DO: I can't work it out either -->
+                Two chief and subaltern sciences of mathematical faculty, evidently arithmetic and all left geometry with natural philosophy are derived from these protections. 
+                <!-- FSF: I don't understand the rest -->  <!-- DO: I can't work it out either --> <!-- FSF: this is now an attempt, but I am all but sure -->
             </translation>
         </marginalia>
         
@@ -113,14 +113,12 @@
         <underline method="pen" type="straight" language="LA" text="Sublato v[er]o ternario ad quinario et ceteris nu[m]eris tota scie[n]tia trianguli o[mn]i[u]mq[ue] forma polligoniar[um] c[on]sumpta est S[ed]"/>
         <underline method="pen" type="straight" language="LA" text="mathematicis v[er]e et immediate subalt[er]na[n]tes"/>
         
+        <mark name="equal_sign" method="pen" place="right_margin"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- causam hoc -->
+        
         <errata language="LA" copytext="." amendedtext=","/> <!-- remotis p[ro]pter -->
         
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
-        
-        
-        <!-- DO: Equals sign in right margin -->
-        <!-- DO: Comma at 'causam hoc' (11 lines down) -->
-        
-        
+
     </annotation>
 </transcription>
