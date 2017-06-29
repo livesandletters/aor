@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="047.tif" reader="John Dee" pagination="23"/>
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Philastrius">
@@ -18,7 +16,6 @@
             <translation>Philastrius.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="librum illum Mercurij Trismegisti subdititium esse apparet">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -28,7 +25,6 @@
             </language>
             <translation>That Mercury's book was substituted.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="impietas huius Trismegisti">
             <language ident="LA">
@@ -40,7 +36,7 @@
             <translation>The impiety of Trismegistus.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="prouinciam"/>
+        <underline method="pen" type="straight" language="LA" text="prouinciam"/> <!-- FSF: what I would do in such cases is: [[Cel]tarum prouinciam -->
         <underline method="pen" type="straight" language="LA" text="qui vanus potius qu&agrave;m magnus iudicandus"/>
         <underline method="pen" type="straight" language="LA" text="Hermem fallacissimum illum, qui haec"/>
         <underline method="pen" type="straight" language="LA" text="secundum septem stellas, dixerint hominum generationem consistere, vt ille ipse delirans hoc definiuit. haec"/>
@@ -49,7 +45,7 @@
         <underline method="pen" type="straight" language="LA" text="prodidit Suidas"/>
         <underline method="pen" type="double" language="LA" text="Nam Sibyllaru[m]"/>
         <underline method="pen" type="double" language="LA" text="Phidiae"/>
-        <underline method="pen" type="straight" language="LA" text="illum Mercurij Trismegisti subditium"/>
+        <underline method="pen" type="straight" language="LA" text="illum Mercurij Trismegisti subdititium"/>
         <underline method="pen" type="straight" language="LA" text="in quo multa dicuntur, quae nec"/>
         <underline method="pen" type="double" language="LA" text="Ilerdam"/>
         <underline method="pen" type="straight" language="LA" text="qui titulis &amp; librorum nominibus decepti"/>
@@ -64,22 +60,12 @@
         <underline method="pen" type="double" language="LA" text="perda[n]t vacando"/>
         <underline method="pen" type="straight" language="LA" text="non agendo"/>
         
-        
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- vergentia non -->
         
         <errata language="LA" copytext="vergentia" amendedtext="vrgentia"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        
-                
-          
-        
-        
-        
-        
     </annotation>
-    
 </transcription>
