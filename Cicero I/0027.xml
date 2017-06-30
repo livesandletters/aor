@@ -49,7 +49,7 @@
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        <!-- circle -->
+                        <!-- FSF: Greek to be added -->
                     </marginalia_text>
                 </position>
             </language>
@@ -62,7 +62,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Occupatio &amp;
+                        Occupatio
                     </marginalia_text>
                 </position>
             </language>
@@ -106,7 +106,7 @@
                 </position>
             </language>
             <translation>
-                
+                Definition.
             </translation>
         </marginalia>
         
@@ -119,7 +119,7 @@
                 </position>
             </language>
             <translation>
-                
+                Exclamation.
             </translation>
         </marginalia>
         
@@ -132,7 +132,7 @@
                 </position>
             </language>
             <translation>
-                
+                Articulation.
             </translation>
         </marginalia>
         
@@ -145,7 +145,7 @@
                 </position>
             </language>
             <translation>
-                
+                Circulation.
             </translation>
         </marginalia>
         
@@ -158,7 +158,7 @@
                 </position>
             </language>
             <translation>
-                
+                Metaphor.
             </translation>
         </marginalia>
         
@@ -171,7 +171,7 @@
                 </position>
             </language>
             <translation>
-                
+                Introduction.
             </translation>
         </marginalia>
         
@@ -193,7 +193,48 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        beneuolentia[m] Iudicis sibi co[n]ciliat a sua &amp; eu[n]tij Persona.
+                        beneuolentia[m] Iudicis sibi co[n]ciliat a sua &amp; eu[n]tij Persona. <!-- FSF: not sure about second last word -->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                It causes the benevolence of the judge <!-- FSF: to be completed -->
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Annos eu[m] 26 natus cu[m] ha[n]c ca[usa]m egit erat Cicero
+                    </marginalia_text>
+                    <person name="Cicero"/>
+                </position>
+            </language>
+            <translation>
+                When this cause happened, Cicero was 26 years old.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        P Quintius
+                    </marginalia_text>
+                    <person name="Publius Quinctius"/>
+                </position>
+            </language>
+            <translation>
+                Publius Quinctius.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        M Iunius <!-- FSF: not sure who he is; possibly Marcus Junius Brutus the Younger -->
                     </marginalia_text>
                 </position>
             </language>
@@ -206,51 +247,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Annps eu[m] 26 natus cu[m] ha[n]c caiu[m] egit erat Cicero
+                        Actionis iufirmitate[m] Cur auget p[ro]pterea quod no[n] satis caussa[m] teneat nec si teneret temporis satis dadint <!-- FSF: not so sure about Cur; possibly a name and subject of the sentence? not sure about the end either-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        T Quintius
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        M Iunius
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        Actionis iufirmitate[m] Cur auget p[ro]pterea quod no[n] satis caussa[m] teneat nec si teneret temporis satis dadint
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
+                ... expands the weakness of action becasue he does not have enough reason, nor 
             </translation>
         </marginalia>
         
@@ -263,7 +265,7 @@
                 </position>
             </language>
             <translation>
-                
+                From the time.
             </translation>
         </marginalia>
         
@@ -276,11 +278,11 @@
                 </position>
             </language>
             <translation>
-                
+                Diligence.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="tempus, &amp; spatium">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -289,11 +291,11 @@
                 </position>
             </language>
             <translation>
-                
+                Time, place.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="veritas">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -302,11 +304,11 @@
                 </position>
             </language>
             <translation>
-                
+                Truth.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="ex opibus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -315,11 +317,11 @@
                 </position>
             </language>
             <translation>
-                
+                Power.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="causa pendetur">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -328,7 +330,7 @@
                 </position>
             </language>
             <translation>
-                
+                To hang down a case.
             </translation>
         </marginalia>
         
@@ -336,17 +338,17 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Benevole[n]tia co[n]ciliat ab ip[s]oru[m] Iudicu[m] p[er]sona[m] eoru[m] Iustitia[m] extolle[n]do
+                        Benevole[n]tia[m] co[n]ciliat ab ip[s]oru[m] Iudicu[m] p[er]sona[m] eoru[m] Iustitia[m] extolle[n]do
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                <!-- FSF: not sure -->
             </translation>
         </marginalia>
         
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="magnitudo periculu">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -355,20 +357,20 @@
                 </position>
             </language>
             <translation>
-                
+                The great number of causa and dangers.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="venit in mentem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        venire in mentem ac
+                        venire in mentem ac <!-- FSF: not sure about ac -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                To go into the mind. 
             </translation>
         </marginalia>
         
@@ -383,7 +385,7 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        as folke thinke, or at the say or only at new sup..
+                        as folke thinke, or at the say or only at new sup.. <!-- FSF: not sure -->
                     </marginalia_text>
                 </position>
             </language>
@@ -392,7 +394,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="defendere">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -401,7 +403,7 @@
                 </position>
             </language>
             <translation>
-                
+                To defend something.
             </translation>
         </marginalia>
         
@@ -414,20 +416,21 @@
                 </position>
             </language>
             <translation>
-                
+                Exclamation.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Q. Hortensius [...] cui summam copia[m] facultat&eacute;mque dice[n]di natura largita est">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Hortensio su[m]ma copia, &amp; facustas dice[n]di a natura largita est
+                        Hortensio su[m]ma copia, &amp; facultas dice[n]di a natura largita est
                     </marginalia_text>
+                    <book title="Hortensius"/>
                 </position>
             </language>
             <translation>
-                
+                In Hortensius, the greatest number and faculty of speaking is bountifully given by nature.
             </translation>
         </marginalia>
         
@@ -440,7 +443,7 @@
                 </position>
             </language>
             <translation>
-                
+                A poisoned weapon.
             </translation>
         </marginalia>
         
@@ -453,7 +456,7 @@
                 </position>
             </language>
             <translation>
-                
+                To make a remedy to heal.
             </translation>
         </marginalia>
         
@@ -466,7 +469,7 @@
                 </position>
             </language>
             <translation>
-                
+                Judgement.
             </translation>
         </marginalia>
         
@@ -479,7 +482,7 @@
                 </position>
             </language>
             <translation>
-                
+                Unfairness, injustice.
             </translation>
         </marginalia>
         
@@ -492,7 +495,7 @@
                 </position>
             </language>
             <translation>
-                
+                Unkinder, more undeserving.
             </translation>
         </marginalia>
         
@@ -500,12 +503,12 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        vir { disertiss[us] fortiss[us] ornatiss[us]
+                        vir { disertiss[imus] fortiss[imus] ornatiss[imus]
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                The man, most skillful, strongest and most splendid.
             </translation>
         </marginalia>
         
@@ -531,7 +534,7 @@
                 </position>
             </language>
             <translation>
-                
+                That is, with the orator or certainly with others that were sent back. <!-- FSF: not sure -->
             </translation>
         </marginalia>
         
@@ -539,7 +542,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        neuino
+                        neuino <!-- FSF: not sure -->
                     </marginalia_text>
                 </position>
             </language>
@@ -567,7 +570,7 @@
                 </position>
             </language>
             <translation>
-                
+                That is, eloquence.
             </translation>
         </marginalia>
         
@@ -575,7 +578,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        I hou ... pauepercet
+                        I hou ... pauepercet <!-- FSF: not sure even about the language -->
                     </marginalia_text>
                 </position>
             </language>
@@ -587,14 +590,51 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="intext"/>
         <symbol name="Jupiter" place="intext"/>
+        <symbol name="Jupiter" place="intext"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Capricorn" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Bisected_circle" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Bisected_circle" place="right_margin"/>  
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Asterisk" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Phi" place="right_margin"/>
+        <symbol name="Bisected_circle" place="right_margin"/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="small_circle" method="pen" place="left_margin"/>
+        <mark name="ampersand" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="intext"/>
+        <mark name="small_circle" method="pen" place="intext"/>
+        <mark name="ampersand" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="intext"/>   
+        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/>
         
+        <numeral place="right_margin">1</numeral>
+        <numeral place="right_margin">3</numeral>
+        <numeral place="right_margin">2</numeral>
+        <numeral place="right_margin">13</numeral>
+        <numeral place="right_margin">2</numeral>
+        <numeral place="right_margin">1</numeral>
+        <numeral place="right_margin">2</numeral>
+        <numeral place="intext" language="LA" text="Quae">2</numeral>
+        
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
         
     </annotation>
 </transcription>
