@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="109.tif" reader="John Dee" pagination="85" signature="h.j."/>
-    
     <annotation>
         
-       
        <marginalia hand="Italian" anchor_text="regionis quae Chus dicitur">
            <language ident="LA">
                <position place="right_margin" book_orientation="0">
@@ -19,16 +16,14 @@
            <translation>The Cush region.</translation>
        </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Septuaginta interpretes">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Septuaginta Interp[retes] lapsus.</marginalia_text>
                 </position>
             </language>
-            <translation>Seventy interpreters</translation>      <!-- DO: Not sure how to translate 'lapsus' -->
+            <translation>Seventy interpreters</translation>      <!-- DO: Not sure how to translate 'lapsus' --> <!-- FSF: not sure either -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="singulae regiones de eorum nomine fer&egrave; dicuntur">
             <language ident="LA">
@@ -39,7 +34,6 @@
             <translation>The names of the regions.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Madianitae dicuntur interdum Chusiim">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -48,7 +42,6 @@
             </language>
             <translation>Midianites. Of Cush.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Silo&euml;, riuus Ierosolymitanus, nihil ad praesentem facit historiam"/>
         <underline method="pen" type="straight" language="LA" text="magno errore &amp; supinitate no[n] ferenda"/>
@@ -69,13 +62,9 @@
         <underline method="pen" type="straight" language="LA" text="Arabas aute[m] &amp; Chusaeos, non long&egrave;"/>
         
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
-        
-        <errata language="LA" copytext="" amendedtext="6"/>   <!-- DO: Can't make out the original number -->
-        
+        <errata language="LA" copytext="" amendedtext="6"/>   <!-- DO: Can't make out the original number --> <!-- FSF: maybe a 3? -->
         
     </annotation>
-    
 </transcription>
