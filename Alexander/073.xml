@@ -37,7 +37,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Quo modo pra[e]dicta qu[a]estiones se habe[n]t ad medium.
+                        Quo modo pra[e]dicta qu[a]estiones se habe[n]t ad medium.   <!-- DO: I think it's 'pra[e]dicta[e]' -->
                     </marginalia_text>
                 </position>
             </language>
@@ -46,16 +46,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'duo ... medium' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        O[mn]es hae qua[e][stione]s qua[e]rru[n]t duo, h[abet] si medium est, aut quid est medium.
+                        O[mn]es hae qua[e][stione]s qua[e]rru[n]t duo, h[abet] si medium est, aut quid est medium.  <!-- DO: I think it's just 'qua[e]ru[n]t', and think the word after 'duo' is 'sc[ilicet]' ('scz') -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                All these questions look for two [things], whether they have a medium and what that medium is.
+                All these questions look for two [things], whether they have a medium and what that medium is.  <!-- DO: '[...], that is, if there is a medium and [...]' -->
             </translation>
         </marginalia>
         
@@ -76,12 +76,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        De medio et principijs syllog. demo[n]st.
+                        De medio et principijs syllog. demo[n]st.   <!-- DO: I would expand these words (using brackets) -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                On the medium and the principles of demonstative syllogism.
+                On the medium and the principles of demonstrative syllogism.
             </translation>
         </marginalia>
         
@@ -98,7 +98,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="q[uae]stio[n]es">
+        <marginalia hand="Italian" anchor_text="q[uae]stio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -120,7 +120,7 @@
                 </position>
             </language>
             <translation>
-                If it is, what it is, why it is and what it is for.
+                If it is, what it is, why it is and what it is for.  <!-- DO: As before, I'd translate the last two as 'that it is and why it is' -->
             </translation>
         </marginalia>
         
@@ -133,11 +133,11 @@
                 </position>
             </language>
             <translation>
-                Those pertain equally to mathematics. <!-- FSF: not sure; see next file -->
+                Those pertain equally to mathematics. <!-- FSF: not sure; see next file -->   <!-- DO: I think 'paru[m]' is 'very little' rather than 'equally' -->
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="det[ermi[n]are de medio [et] p[ri]ncipijs"/>
+        <underline method="pen" type="straight" language="LA" text="det[er]mi[n]are de medio [et] p[ri]ncipijs"/>
         <underline method="pen" type="straight" language="LA" text="eoru[m] oportet p[er] demo[n]stratione[m] scie[n]tia[m] acq[ui]rere q[uae] ante fueru[n]t ignota [et] de hijs q[uae]stio[n]es facim[us] q[uae] ignoram[us]"/>
         <underline method="pen" type="straight" language="LA" text="si est"/>
         <underline method="pen" type="straight" language="LA" text="quid est"/>
@@ -157,7 +157,10 @@
         <underline method="pen" type="straight" language="LA" text="quia est dicit p[rae]supposita[m] passione[m] de causa. q[ua]re co[n]cludit q[uod] o[mn]es q[uae]stiones hee"/>
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="right_margin"/>       <!-- DO: I can't see this, but may well be in the margin...? -->
+        
+        <!-- DO: There is a full stop changed into a comma at 'est hoc' (4th line of 3rd paragraph), and commas at 'est simplicit[er]' in the next line and 'no[n] q[ua]si' in the one following that -->
+        
         
     </annotation>
 </transcription>
