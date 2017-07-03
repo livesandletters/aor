@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="124.tif" reader="John Dee" pagination="100"/>
+    <page filename="124.tif" reader="John Dee" pagination="100"/> <!-- FSF: signature -->
     <annotation>
         
         <marginalia hand="Italian" anchor_text="vniuersali historia">
@@ -28,7 +28,7 @@
         <marginalia hand="Italian" anchor_text="centesimo &amp; vno">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>A[nn]&o_super;</marginalia_text>
+                    <marginalia_text>A[nn]&o_super;</marginalia_text> <!-- FSF: since you are expanding the abbreviation, I'd go A[nn]o 101; you forgot to write the number here -->
                 </position>
             </language>
             <translation>In the year 101.</translation>
