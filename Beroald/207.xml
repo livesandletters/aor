@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="207.tif" reader="John Dee" pagination="183" signature="q.ij."/>
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="anno Domini 1566">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>A[nn]&o_super; 1566.</marginalia_text>
+                    <marginalia_text>A[nn]&o_super; 1566.</marginalia_text> <!-- A[nno] -->
                 </position>
             </language>
             <translation>In the year 1566.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Dominicae passionis"/>
         <underline method="pen" type="straight" language="LA" text="triginta semper &amp; tribus annis minorem"/>
         <underline method="pen" type="straight" language="LA" text="668. triginta tres anni"/>
         <underline method="pen" type="straight" language="LA" text="astrologi Ecclesiastici"/>
         <underline method="pen" type="straight" language="LA" text="tamen praecidit annos praecedentes"/>
-        <underline method="pen" type="straight" language="LA" text="est &agrave; nostris erratum, quum eosdem annos, &amp; &agrave; nato Domino, &amp; ab eodem passo dixerint"/>     <!-- DO: Not sure if comma between 'erratum' and 'quum' is printed or added? -->
+        <underline method="pen" type="straight" language="LA" text="est &agrave; nostris erratum, quum eosdem annos, &amp; &agrave; nato Domino, &amp; ab eodem passo dixerint"/>     
+        <!-- DO: Not sure if comma between 'erratum' and 'quum' is printed or added? --> <!-- FSF: to me that looks added -->
         <underline method="pen" type="straight" language="LA" text="annotarint"/>
         <underline method="pen" type="straight" language="LA" text="Nam"/>
         <underline method="pen" type="double" language="LA" text="qua putant"/>
@@ -35,9 +32,5 @@
         <underline method="pen" type="straight" language="LA" text="natiuitatis Domini confusione priore"/>
         <underline method="pen" type="straight" language="LA" text="ab eius natiuitate"/>
         
-        
-        
-        
     </annotation>
-    
 </transcription>

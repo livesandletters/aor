@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="125.tif" reader="John Dee" pagination="101" signature="i.iij."/>
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Vrbs ver&ograve; Nachor">
             <language ident="LA">
@@ -16,20 +13,19 @@
                     <location name="Nachor"/>
                 </position>
             </language>
-            <translation>The city Nachor.</translation>
+            <translation>The city Nachor.</translation> <!-- FSF: wouldn't you say the city of Nachor? This is a non-native speaker wondering... -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="de solo patrio reliquendo">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Solu[m] Patrium reliquendu[m].</marginalia_text>  <!-- DO: I'm assuming 'solum' to match the printed text, even though it looks like there's another letter in there? -->
+                    <!-- FSF: I'd do the same; but I would translate differently: to your translation I would add only, so: The abandonment of the only fatherland; however, more literal, albeit in English clunkier, would be The only fatherland to be left (behind) -->
                 </position>
             </language>
             <translation>The abandonment of the fatherland.</translation>
         </marginalia>
                 
-             
         <marginalia hand="Italian" anchor_text="quadringenti triginta">
             <language ident="EN">
                 <position place="tail" book_orientation="0">
@@ -37,7 +33,6 @@
                 </position>
             </language>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="ver&ograve; Nachor"/>
         <underline method="pen" type="straight" language="LA" text="promissionum, &amp; de solo patrio"/>
@@ -47,11 +42,7 @@
         <underline method="pen" type="straight" language="LA" text="Legem"/>
         <underline method="pen" type="straight" language="LA" text="quadringenti triginta"/>
         
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-                
-           
-        
+               
     </annotation>
-    
 </transcription>
