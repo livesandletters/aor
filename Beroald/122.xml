@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="122.tif" reader="John Dee" pagination="98"/>
-    
+    <page filename="122.tif" reader="John Dee" pagination="98"/> <!-- FSF: signature -->
     <annotation>
         
         <marginalia hand="Italian" anchor_text="trium orbis partium distributio">
@@ -14,9 +12,8 @@
                     <marginalia_text>Trium orbis partiu[m] Distributio</marginalia_text>
                 </position>
             </language>
-            <translation>The division of the three parts of the world.</translation>
+            <translation>The division of the three parts of the world.</translation> <!-- FSF: I'd translate The division into the three parts... -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Orientalium scripta">
             <language ident="LA">
@@ -24,9 +21,8 @@
                     <marginalia_text>Orie[n]taliu[m] scripta</marginalia_text>
                 </position>
             </language>
-            <translation>Writings of the Orient.</translation>
+            <translation>Writings of the Orient.</translation> <!-- FSF: maybe to use a less charged term "of the East" -->
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -37,7 +33,6 @@
             <translation>Below.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Iosephi">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -47,7 +42,6 @@
             </language>
             <translation>Joseph.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="vt Herba parietaria"/>
         <underline method="pen" type="straight" language="LA" text="Babylonicae structuram interruptam sequuta est trium orbis partium distributio. Nam"/>
@@ -70,11 +64,7 @@
         <underline method="pen" type="straight" language="LA" text="principes, ac"/>
         <underline method="pen" type="straight" language="LA" text="nomina gentibus imposuerunt"/>
         
-        
         <mark name="plus_sign" method="pen" place="right_margin"/>
         
-        
-        
     </annotation>
-    
 </transcription>
