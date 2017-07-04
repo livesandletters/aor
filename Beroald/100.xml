@@ -3,10 +3,25 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="100.tif" reader="John Dee" pagination="76"/> <!-- FSF: signature --> 
+    <page filename="100.tif" reader="John Dee" pagination="76" signature="[g.ij.[v]]"/> 
     <annotation>
         
-        <errata language="LA" copytext="Salomonem" amendedtext="Solonem"/>
+        
+        
+        <marginalia hand="Italian" anchor_text="Salomonem">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>Solonem</marginalia_text>
+                    <person name="Solon"/>
+                </position>
+            </language>
+            <translation>Solon.</translation>
+        </marginalia>
+        
+        
+        
+        <errata language="LA" copytext="Salomonem" amendedtext="[deleted]"/>
+        
         
     </annotation>
 </transcription>
