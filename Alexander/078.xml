@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="077.tif" reader="John Dee"/> 
+    <page filename="077.tif" reader="John Dee" signature="[Fv]"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="silogismu[m] falsigraphu[m]">
@@ -17,6 +17,7 @@
             </language>
             <translation>
                 <!-- FSF: also in Euclid's elements, see https://books.google.co.uk/books?id=vApRMSPwVFIC&pg=PA93&lpg=PA93&dq=falsigraphus&source=bl&ots=0AWysX_qeZ&sig=uIuZHdJPqDszQHKnPahknjF6NGw&hl=en&sa=X&ved=0ahUKEwjYq_Co1t3SAhUmilQKHTdFC24Q6AEILjAD#v=onepage&q=falsigraphus&f=false -->
+                <!-- DO: Not sure how to translate. Some further discussion here: https://books.google.co.uk/books?id=35PaBwAAQBAJ&pg=PA597&lpg=PA597&dq=falsigraphus&source=bl&ots=MWhB1cXcPk&sig=VdaNZt3etUoDQObDlUXynlXgOUI&hl=en&sa=X&ved=0ahUKEwivwcKCyO_UAhUDKlAKHa2AC8EQ6AEIPTAE#v=onepage&q=falsigraphus&f=false -->
             </translation>
         </marginalia>
         
@@ -24,7 +25,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        falsigraphus q[ui]d
+                        falsigraphus q[ui]d.
                     </marginalia_text>
                 </position>
             </language>
@@ -33,11 +34,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- Anchor 'falsigraphus p[ar]alogismus' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Falsigraphus Parallogysm[us]
+                        Falsigraphus Parallogysm[us].
                     </marginalia_text>
                 </position>
             </language>
@@ -46,13 +47,16 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Et dicit si accipiat[ur] causa du[m] causato in v[niversa]li tu[n]c ad causam sequit[ur] ausatu [et] eco[n]uerso sic q[uod] mutup se c[on]sequunt[ur]"/>
-        <underline method="pen" type="straight" language="LA" text="falsigraphu[m] q[ui] est q[uae]dam obliquitas silogismi demo[n]stratiui"/>
+        <underline method="pen" type="straight" language="LA" text="Et dicit si accipiat[ur] causa cu[m] causato in v[niversa]li tu[n]c ad causam sequit[ur] causatu[m] [et] eco[n]uerso sic q[uod] mutuo se c[on]sequunt[ur]"/>
+        <underline method="pen" type="straight" language="LA" text="falsigraphu[m] q[ui] est q[uae]da[m] obliquitas silogismi demo[n]stratiui"/>
         <underline method="pen" type="straight" language="LA" text="Est silogism[us] ex p[ro]prijs p[ri]ncipijs alicui[us] scie[n]tie male t[ame]n intellectis vt"/>
         <underline method="pen" type="straight" language="LA" text="tu[m] linea ducta rexta est cui[us] mediu[m] tu[n]c no[n] distat ab extremis"/>
         <underline method="pen" type="straight" language="LA" text="nihilomin[us] t[ame]n oportet istas lineas p[ro]trahe[re] ad deduce[n]du[m] aduersariu[m] ad i[n]co[n]uenie[n]s silogismo ad impossibile qui"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
+        
+        
+        <!-- DO: I think he corrects 'crgo' to 'ergo' (line 10 in paragraph 2) -->
         
     </annotation>
 </transcription>
