@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="080.tif" reader="John Dee"/> 
+    <page filename="080.tif" reader="John Dee" signature="[Fvj[v]]"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="sed essentie p[rae]dicame[n]tor[um] sunt imp[er]mixte. 
@@ -12,12 +12,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Genus et spe[cie]s in eode[m] p[rae]dicame[n]to
+                        Genus et spe[cie]s in eode[m] p[rae]dicame[n]to.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Kind and species in this predicament.
+                Kind and species in this predicament.     <!-- DO: '...the same predicament.' -->
             </translation>
         </marginalia>
         
@@ -62,10 +62,12 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="illo generi gen[us]"/>
-        <underline method="pen" type="straight" language="LA" text="specie essentialit[er] p[rae]dicat"/>
+        <underline method="pen" type="straight" language="LA" text="specie essentialit[er] p[rae]dicat[ur]"/>
         <underline method="pen" type="straight" language="LA" text="ergo genus [et] species no[n] possunt reperiri in diuersis coordinatio[n]ibus"/>
-        <underline method="pen" type="straight" language="LA" text="p[ar]te nostra naturalis philozophie"/>
-        <underline method="pen" type="straight" language="LA" text="dicet[ur] s[e]c[un]da n[ume]ra p[ar]te na[ua]lis ph[ilosoph]ie de libello linear[um] i[n]diuisibiliu[m] aristotelis"/>
+        <underline method="pen" type="straight" language="LA" text="Na[m] eor[um] q[uae] su[n]t adaliq[ui]d genera [et] ip[s]as species esse adaliq[ui]d"/>
+        <underline method="pen" type="straight" language="LA" text="p[ar]te nostra naturalis"/>
+        <underline method="pen" type="double" language="LA" text="philozophie"/>
+        <underline method="pen" type="straight" language="LA" text="dicet[ur] in s[e]c[un]da n[ume]ra p[ar]te na[ua]lis ph[ilosoph]ie de libello linear[um] i[n]diuisibiliu[m] aristotelis"/>
         <underline method="pen" type="straight" language="LA" text="Et illis par[um] est mathematici qua[n]tu[m]"/>
         
     </annotation>
