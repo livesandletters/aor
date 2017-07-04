@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="26">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>32</marginalia_text> <!-- FSF: isn't this an erratum? -->
+                    <marginalia_text>32</marginalia_text> 
                 </position>
             </language>       
         </marginalia>
@@ -17,18 +17,18 @@
         <marginalia hand="Italian" anchor_text="Abrahamum natum esse, quum ipsius pater Thare annum ageret centesimum &amp; tricesimum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Thare 130 anna[e] gerunt Abraha[m]</marginalia_text> <!-- FSF: I think it is annor[um], as in Terah of age 130 years; I think I would ignore that gerunt is plural -->
+                    <marginalia_text>Thare 130 annor[um] gerunt Abraha[m]</marginalia_text> 
                     <person name="Terah"/>
                     <person name="Abraham"/>
                 </position>
             </language>
-            <translation></translation>          <!-- DO: Not sure how to translate -->
+            <translation>Terah, of age 130 years, fathered Abraham.</translation>         
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="sicuti mal&egrave; annotatum est &amp; proditum Chronographorum monumentis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Chronographoru[m] error.</marginalia_text>   <!-- DO: Not sure about the ending of the first word --> <!-- FSF: I agree with that ending -->
+                    <marginalia_text>Chronographoru[m] error.</marginalia_text>   
                 </position>
             </language>
             <translation>The chroniclers' error.</translation>          
