@@ -4,7 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="081.tif" reader="John Dee"/> 
+    <page filename="081.tif" reader="John Dee" signature="[Fvj[v]]"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Co[n]tigua">
@@ -25,18 +25,22 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Relatiua secundu[m] dici et secu[n]dum esse
+                        Relatiua secundu[m] dici et secu[n]dum esse.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                                <!-- DO: Not sure how to translate. Something like 'Relatives, according to being named and to being' = 'Relatives, as they are named and as they are'?? But I'm not sure if this is it at all... -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="s[e]c[un]d[u]m dici"/>
-        <underline method="pen" type="straight" language="LA" text="parum est mathematici"/>
+        <underline method="pen" type="straight" language="LA" text="alias parum est mathematici"/>
         <underline method="pen" type="straight" language="LA" text="tractabit[ur] de lineis i[n]diuisibilib[us]"/>
+        
+        
+        <!-- DO: There is a comma at 'adaliq[ui]d [et]' (9 lines into the 2nd paragraph) -->
+        
         
     </annotation>
 </transcription>
