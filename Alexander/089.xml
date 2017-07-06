@@ -4,61 +4,66 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="089.tif" reader="John Dee"/> 
+    <page filename="089.tif" reader="John Dee" signature="[Giiij[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">     <!-- DO: Anchor 'arguebat ... regularib[us]' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Hipocrates in libello de sup[er]ficieb[us] vegetarib[us] [etc]
+                        Hipocrates in libello de sup[er]ficieb[us] vegetarib[us] [etc]       <!-- DO: Although I think it does look like this, judging by the printed text I'd say the final word must be 'regularib[us]' -->
                     </marginalia_text>
                     <person name="Hippocrates"/>
                 </position>
             </language>
             <translation>
-                Hippocrates in the book on ...
+                Hippocrates in the book on ...      <!-- DO: '... surfaces and regulations'?? -->
             </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="falsig[ra]phi p[ro]prie no[n] sunt litigiosi">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         falsigraphi p[ro]pri&egrave; no[n] su[n]t litigiosi
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                                  <!-- Translation needed -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: Anchor 'po[n]it duas ... falsig[ra]phu[m]' -->
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Differe[n]tia duplex inter falsigraphum et litigiosum
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                                <!-- Translation needed -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="silogismi falsip[ra]phi p[ro]prie no[n] sunt litigiosi"/>
         <underline method="pen" type="straight" language="LA" text="Om[n]es linee ducte ab eode[m] pu[n]cto ad eu[n]de[m] pu[n]ctu[m] sunt eq[ua]les"/>
-        <underline method="pen" type="straight" language="LA" text="q[uod] docet ptholome[us]"/>
+        <underline method="pen" type="straight" language="LA" text="q[uod] docet p[ar]tholome[us]"/>
         <underline method="pen" type="straight" language="LA" text="nec e[st] litigiosus siue sophistic[us]"/>
         <underline method="pen" type="straight" language="LA" text="S[ed] r[ati]o brissonis e[st] litigiosa et sophistica"/>
-        <underline method="pen" type="straight" language="LA" text="silogism[us] falsig[ra]ph[us] ad geometra[m]. sic se h[abet]"/>
+        <underline method="pen" type="straight" language="LA" text="silogism[us] falsig[ra]ph[us] ad geometra[m]. sic se h[abet] te[m]ptatiu[us]"/>
         <underline method="pen" type="straight" language="LA" text="geotra[m] q[ui] fit ex p[ri]ncipijs geometrie male applicat[is]"/>
+        <underline method="pen" type="straight" language="LA" text="male"/>
         <underline method="pen" type="straight" language="LA" text="false"/>
         <underline method="pen" type="straight" language="LA" text="q[ui]nq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="appolloniu[m] magnu[m] su[ra] qui[n]decima[m] t[er]cij geometrie"/>
         <underline method="pen" type="straight" language="LA" text="appolo[n]io sup[ra] s[e]c[un]da[m] duodecimi"/>
-        <underline method="pen" type="straight" language="LA" text="applicari"/>
+        <underline method="pen" type="straight" language="LA" text="potest applicari ad"/>
+        
+        
+        <!-- DO: I'm not sure whether Dee has made a correction in line 13 of paragraph 2 - of an 'o' into 'q[uod]'?? -->
+        
         
     </annotation>
 </transcription>
