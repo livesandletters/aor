@@ -6,7 +6,7 @@
     <page filename="224.tif" reader="John Dee" pagination="200" signature="[r.iiij.[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian"> <!-- FSF: possibly to anchor: Et quum ... ratio -->
+        <marginalia hand="Italian" anchor_text="Et quum in temporibus definiendis, astrorum sit habenda ratio"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Astronomia.</marginalia_text>
@@ -28,7 +28,6 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Annus Metonicus.</marginalia_text>
-                    <person name="Meton of Athens"/> <!-- FSF: see above with the Julian year -->
                 </position>
             </language>
             <translation>The Metonic year.</translation>
