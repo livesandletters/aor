@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="222.tif" reader="John Dee" pagination="198" signature="[r.iij.[v]]"/>
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="doctis et piis Astrologis resignata interim tantae rei diligentiore cura &amp; tractatione">
@@ -17,7 +15,6 @@
             <translation>The service of astrologers.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -28,26 +25,23 @@
             <translation>The Julian year.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Hoc ab August[o] fastu[m]</marginalia_text>  <!-- DO: Not sure about this. Don't know why 'fastum' is accusative... Could be 'factum', which would agree with 'hoc'?-->
+                    <marginalia_text>Hoc ab August[o] fastu[m]</marginalia_text>  <!-- DO: Not sure about this. Don't know why 'fastum' is accusative... Could be 'factum', which would agree with 'hoc'?--> <!-- FSF: I think it is factu[m]: This was done by Augustus -->
                     <person name="Augustus"/>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- FSF: I think you tagged this also as a numeral, which I think is right and the 11 as straight quotation marks -->
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>[28 deleted] 11</marginalia_text> 
                 </position>
             </language>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="doctis &amp; piis Astrologis resignata interim tantae rei"/>
         <underline method="pen" type="straight" language="LA" text="sublatis diebus, qui iustum anni modum superant"/>
@@ -66,26 +60,16 @@
         <underline method="pen" type="straight" language="LA" text="annum Iulianum damnemus"/>
         <underline method="pen" type="straight" language="LA" text="Februarius 29"/>
         
-        
         <symbol name="Asterisk" place="intext"/>
         
-        
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        
-        <mark name="bracket" method="pen" place="left_margin"/>
-        
+        <mark name="bracket" method="pen" place="left_margin"/> <!-- FSF: isn't this more of a vertical bar? -->
         <mark name="comma" method="pen" place="intext"/>  <!-- errore correcta -->
-        
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="Februarius 29"/>
-        
         <mark name="straight_quotation_mark" method="pen" place="right_margin"/>
         
-        
         <numeral place="left_margin">.1.</numeral>
-        
         <numeral place="right_margin" language="LA" text="Februarius 29">[28 deleted]</numeral>
         
-        
     </annotation>
-    
 </transcription>

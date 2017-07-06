@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="226.tif" reader="John Dee" pagination="202" signature="[r.v.[v]]"/>
-    
+    <page filename="226.tif" reader="John Dee" pagination="202" signature="[r.v.[v]]"/> <!-- FSF: see above -->
     <annotation>
         
         <marginalia hand="Italian">
@@ -15,9 +13,8 @@
                     <person name="Julius Caesar"/>
                 </position>
             </language>
-            <translation>But the beginning of the Julian year will therefore be in the middle of the night of the final day of December.</translation>
+            <translation>But the beginning of the Julian year will therefore be in the middle of the night of the final day of December.</translation> <!-- FSF: I wouldn't translate verum with but here; rather truly, in truth, indeed or something affirmative -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="annum sacru[m]">
             <language ident="LA">
@@ -28,7 +25,6 @@
             <translation>The sacred year.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Cyclos enim suos Paschales incoeperunt">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -38,13 +34,12 @@
             <translation>The Paschal cycles.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="vltimo constitui in Calendario Iuliano"/>
         <underline method="pen" type="straight" language="LA" text="maximi temeritate &amp; audacia"/>
         <underline method="pen" type="straight" language="LA" text="hominum animalium"/>
         <underline method="pen" type="straight" language="LA" text="stabile. Quamobrem &amp; istum annu[m]"/>
         <underline method="pen" type="double" language="LA" text="Iulianum sublatum"/>
-        <underline method="pen" type="straight" language="LA" text="quarum menses certo fine, &amp; stato principio progrediuntur"/>
+        <underline method="pen" type="straight" language="LA" text="quarum menses certo fine, &amp; stato principio progrediuntur"/> 
         <underline method="pen" type="straight" language="LA" text="definiunt&uacute;rque Lunae"/>
         <underline method="pen" type="straight" language="LA" text="sideralis obseruationis"/>
         <underline method="pen" type="double" language="LA" text="regulas nobis"/>
@@ -62,18 +57,12 @@
         <underline method="pen" type="straight" language="LA" text="supini fuimus"/>
         <underline method="pen" type="double" language="LA" text="contra vulg&ograve;"/>
         
-        
         <mark name="bracket" method="pen" place="intext"/>  <!-- ordinatio paulum -->
         <mark name="bracket" method="pen" place="intext"/>  <!-- immutata, est -->
-        
         <mark name="bracket" method="pen" place="left_margin"/>
-        
         <mark name="bracket" method="pen" place="right_margin"/>
-        
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        
     </annotation>
-    
 </transcription>

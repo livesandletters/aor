@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="224.tif" reader="John Dee" pagination="200" signature="[r.iiij.[v]]"/>
-    
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- FSF: possibly to anchor: Et quum ... ratio -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Astronomia.</marginalia_text>
@@ -16,7 +14,6 @@
             </language>
             <translation>Astronomy.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Aureum enim, quem dicunt numerum">
             <language ident="LA">
@@ -27,17 +24,15 @@
             <translation>A golden number.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Metonicus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Annus Metonicus.</marginalia_text>
-                    <person name="Meton of Athens"/>
+                    <person name="Meton of Athens"/> <!-- FSF: see above with the Julian year -->
                 </position>
             </language>
             <translation>The Metonic year.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="sublata in totum veteris anni Latini obseruatione, long&egrave;"/>
         <underline method="pen" type="straight" language="LA" text="institutam proxim&egrave; rationem referebat"/>
@@ -50,9 +45,7 @@
         <underline method="pen" type="straight" language="LA" text="constitutione, quae Christianis non est ferenda"/>
         <underline method="pen" type="straight" language="LA" text="Caesariano, nihil sani sit relictum"/>
         
-        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
     </annotation>
-    
 </transcription>
