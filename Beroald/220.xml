@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="220.tif" reader="John Dee" pagination="196" signature="[r.ij.[v]]"/>
-    
     <annotation>
-        
-        
+         
         <marginalia hand="Italian" anchor_text="At Iulius Caesar praeter horum omnium rationem anni sui principium instituit">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Annus Iulianus</marginalia_text>
-                    <person name="Julius Caesar"/>
+                    <person name="Julius Caesar"/> <!-- FSF: I am not sure if I would tag Julius Caesar here, because it is the design of the year that is referred to here rather than him (even though he introduced it)-->
                 </position>
             </language>
             <translation>The Julian year.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="hyberno solstitio, concipitur Dominus">
             <language ident="LA">
@@ -29,7 +25,6 @@
             </language>
             <translation>The conception of the Lord, at the winter solstice.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="inchoare &agrave; Septembri"/>
         <underline method="pen" type="double" language="LA" text="iuxta"/>
@@ -55,9 +50,7 @@
         <underline method="pen" type="straight" language="LA" text="ephemeriae"/>
         <underline method="pen" type="straight" language="LA" text="res sacrae &amp; festa numerabantur"/>
         
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- mense suos -->
         
     </annotation>
-    
 </transcription>
