@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="209.tif" reader="John Dee" pagination="185" signature="q.iij."/>
-    
     <annotation>
         
-        
-        <marginalia hand="Italian" anchor_text="tertio">
+        <marginalia hand="Italian" anchor_text="tertio"> <!-- FSF: I would make this as part of the erratum tagged already -->
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>quarto</marginalia_text>
@@ -18,20 +15,14 @@
             <translation>In the fourth.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="Domini 528"/>
         <underline method="pen" type="double" language="LA" text="nati"/>
         <underline method="pen" type="straight" language="LA" text="Domini"/>
         
-        
         <mark name="circumflex" method="pen" place="intext"/>
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- graui animos -->
-        
         
         <errata language="LA" copytext="tertio" amendedtext="[deleted]"/>
         
-        
     </annotation>
-    
 </transcription>
