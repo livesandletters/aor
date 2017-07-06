@@ -15,14 +15,7 @@
             </language>
             <translation>The way of life of Christ in the lands.</translation>
         </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="trigintaduos cum dimidio"> <!-- FSF: I'd tag this as numerals -->
-            <language ident="EN">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>32 1/2</marginalia_text>
-                </position>
-            </language>
-        </marginalia>
+            
         
         <underline method="pen" type="straight" language="LA" text="is paruo labore, &amp; minimo negotio id"/>
         <underline method="pen" type="straight" language="LA" text="dimidio septuagesimae hebdomadis"/>
@@ -42,6 +35,8 @@
         <underline method="pen" type="straight" language="LA" text="decimoquarto die mensis septimi proxim&egrave;"/>
         <underline method="pen" type="straight" language="LA" text="trigesimum secundum confectum"/>
         <underline method="pen" type="straight" language="LA" text="annum dimidium"/>
+        
+        <numeral place="right_margin" language="LA" text="trigintaduos cum dimidio">32 1/2</numeral>
         
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
         
