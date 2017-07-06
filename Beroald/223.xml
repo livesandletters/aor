@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="bissestre">
             <language ident="FR">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>dissestre</marginalia_text>   <!-- DO: Printed text obviously says 'bissestre' ('bissextile') but this looks like it begins with a 'd' --> <!-- FSF: I agree -->
+                    <marginalia_text>dissestre</marginalia_text>  
                 </position> 
             </language>
             <translation>Bissextile.</translation>
@@ -19,7 +19,6 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Discrimen inter Annu[m] &AElig;gyptu[m] et Iulianu[m].</marginalia_text>  
-                    <person name="Julius Caesar"/>
                 </position> 
             </language>
             <translation>Distinction between the Egyptian year and the Julian year.</translation>
@@ -28,10 +27,10 @@
         <marginalia hand="Italian" anchor_text="Qu&ograve; factu[m] fuit vt Februario relicti sint ta[n]tu[m]mod&ograve; dies 28. in anno co[m]muni">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Febr[uariis] dies. 28.</marginalia_text>  <!-- FSF: why not Frebruario and then translated as There are 28 days in February -->
+                    <marginalia_text>Febr[uario] dies. 28.</marginalia_text> 
                 </position> 
             </language>
-            <translation>28 days of February.</translation>
+            <translation>There are 28 days in February.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="imparis numeri, cui multum propter superstitiones receptas"/>
@@ -45,7 +44,7 @@
         <underline method="pen" type="straight" language="FR" text="quelque bissestre"/>
         <underline method="pen" type="straight" language="LA" text="dies addantur quinque"/>
         <underline method="pen" type="straight" language="LA" text="quadrantem diei quotannis negligerent"/>
-        <underline method="pen" type="straight" language="LA" text="tamen 30. redirent"/> <!-- FSF: I'd make this all double; I think Dee's pen failed him here -->
+        <underline method="pen" type="double" language="LA" text="tamen 30. redirent"/> 
         <underline method="pen" type="double" language="LA" text="essent, vt &AElig;gyptiis"/>
         <underline method="pen" type="double" language="LA" text="perpetu&ograve; stabiles"/>
         <underline method="pen" type="straight" language="LA" text="fuit Iulius"/>

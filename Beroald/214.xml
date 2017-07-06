@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="214.tif" reader="John Dee" pagination="190" signature="[q.v.[v]]"/> <!-- FSF: I wouldn't write the signature here -->
+    <page filename="214.tif" reader="John Dee" pagination="190"/> 
     <annotation>
         
       <marginalia hand="Italian">
@@ -31,23 +31,7 @@
                     <marginalia_text>Annis 742.</marginalia_text>
                 </position>
             </language>
-            <translation>Within 742 years.</translation>  <!-- DO: Not sure of translation --> <!-- FSF: I'd translate the same -->
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="septuagesimum quadragesimumsecu[n]dum"> <!-- FSF: the two numbers below, I'd capture as errate or, otherwise, as numerals -->
-            <language ident="EN">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>742</marginalia_text>
-                </position>
-            </language>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="decimo quinto">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>25</marginalia_text>  <!-- DO: Not sure if this has been crossed out? -->
-                </position>
-            </language>
+            <translation>Within 742 years.</translation>  
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Septembris">
@@ -90,6 +74,9 @@
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="quattuorpunctus" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
+        
+        <numeral place="intext" language="LA" text="septuagesimum quadragesimumsecu[n]dum">742</numeral>
+        <numeral place="intext" language="LA" text="decimoquinto">25</numeral>                              <!-- DO: Not sure if this has been crossed out? -->
         
         <errata language="LA" copytext="septuagesimum" amendedtext="[deleted]"/>
         <errata language="LA" copytext="decimo" amendedtext="[deleted]"/>

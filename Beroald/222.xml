@@ -19,7 +19,6 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Annus Iulianus</marginalia_text>
-                    <person name="Julius Caesar"/>
                 </position>
             </language>
             <translation>The Julian year.</translation>
@@ -28,20 +27,13 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Hoc ab August[o] fastu[m]</marginalia_text>  <!-- DO: Not sure about this. Don't know why 'fastum' is accusative... Could be 'factum', which would agree with 'hoc'?--> <!-- FSF: I think it is factu[m]: This was done by Augustus -->
+                    <marginalia_text>Hoc ab August[o] factu[m]</marginalia_text>
                     <person name="Augustus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>This was done by Augustus.</translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- FSF: I think you tagged this also as a numeral, which I think is right and the 11 as straight quotation marks -->
-            <language ident="EN">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>[28 deleted] 11</marginalia_text> 
-                </position>
-            </language>
-        </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="doctis &amp; piis Astrologis resignata interim tantae rei"/>
         <underline method="pen" type="straight" language="LA" text="sublatis diebus, qui iustum anni modum superant"/>
@@ -63,7 +55,7 @@
         <symbol name="Asterisk" place="intext"/>
         
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="left_margin"/> <!-- FSF: isn't this more of a vertical bar? -->
+        <mark name="bracket" method="pen" place="left_margin"/> 
         <mark name="comma" method="pen" place="intext"/>  <!-- errore correcta -->
         <mark name="straight_quotation_mark" method="pen" place="intext" language="LA" text="Februarius 29"/>
         <mark name="straight_quotation_mark" method="pen" place="right_margin"/>
