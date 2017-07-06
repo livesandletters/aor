@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="225.tif" reader="John Dee" pagination="201" signature="[r.v.]"/>
-    
+    <page filename="225.tif" reader="John Dee" pagination="201" signature="[r.v.]"/> <!-- FSF: I wouldn't tag the signature -->
     <annotation>
-        
-        
+         
         <marginalia hand="Italian" anchor_text="scilicet qu&ugrave;m Sol Capricornum ingreditur, anni Iuliani principium est">
             <language ident="LA">
                <position place="right_margin" book_orientation="0">
-                   <marginalia_text>Iuliani anni Initiu[m] a solis Introitu in [etc]</marginalia_text>
+                   <marginalia_text>Iuliani anni Initiu[m] a solis Introitu in [etc] </marginalia_text> <!-- FSF: it is not etc, but the sign for Capricorn (&Capricorn;); see the text; translation accordingly... -->
                </position>
             </language>
             <translation>The start of the Julian year from the beginning of the sun [etc].</translation>   <!-- DO: Not sure how to translate 'introitu', or how 'in' fits in -->
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -28,8 +24,7 @@
             <translation>The reasoning behind solstices and equinoxes.</translation>  
         </marginalia>
         
-        
-        <underline method="pen" type="straight" language="LA" text="Bruma noui prima est, veterisque nouissima solis, Principium capiunt, Phoebus &amp; annus idem"/>
+        <underline method="pen" type="straight" language="LA" text="Bruma noui prima est, veterisque nouissima solis, Principium capiunt, Phoebus &amp; annus idem"/> <!-- FSF: isn't there a circumflex on the i of veterisque -->
         <underline method="pen" type="straight" language="LA" text="qu&ugrave;m Sol Capricornum ingreditur"/>
         <underline method="pen" type="straight" language="LA" text="Decembris"/>
         <underline method="pen" type="straight" language="LA" text="repetere &agrave; Columella &amp; Plinio"/>
@@ -47,10 +42,7 @@
         <underline method="pen" type="straight" language="LA" text="ad vndecimum Decembris"/>
         <underline method="pen" type="double" language="LA" text="aut primo Ianuarij"/>
         
-        
         <errata language="LA" copytext="fastus" amendedtext="fastos"/>
         
-        
     </annotation>
-    
 </transcription>
