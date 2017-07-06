@@ -7,11 +7,11 @@
     <page filename="093.tif" reader="John Dee"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">     <!-- DO: Anchor 'campan[us]' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Campan <!-- FSF: not sure -->
+                        Campan <!-- FSF: not sure -->        <!-- DO: 'Campanus.' to match the printed text. I think it is: https://en.wikipedia.org/wiki/Campanus_of_Novara, who then needs to be tagged -->
                     </marginalia_text>
                 </position>
             </language>
@@ -22,21 +22,21 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         Perlegi anno 1555. inter 18m et 24m Septe[m]bris.
-                        fullhamia[e] in a[e]dibus singularisamici mei, Reuere[n]di m
-                        Chro patris
+                        fullhamia[e] in a[e]dibus singularis amici mei, Reuere[n]di m   <!-- DO: I think the final word is 'in', for 'in the time of our father'? -->
+                        Chro patris                    <!-- 'Chro' needs to be expanded and this phrase needs to be added to the translation -->
                         Edmu[n]di
                         Bonar
-                        Londinensis apiscopi
+                        Londinensis apiscopi      <!-- DO: 'episcopi' -->
                         J.d...
                     </marginalia_text>
                     <person name="Edmund Bonner"/>
                     <person name="John Dee"/>
-                    <location name="London"/>
+                    <location name="London"/>     <!-- DO: Locations that form part of titles do not need to be tagged -->
                     <location name="Fulham"/>
                 </position>
             </language>
             <translation>
-                I have read through this between 18 and 24 September 1555 in Fulham, in a single house of my friend, the reverend Edmund Bonner, Bishop of London. John Dee
+                I have read through this between 18 and 24 September 1555 in Fulham, in a single house of my friend, the reverend Edmund Bonner, Bishop of London. John Dee.   <!-- DO: 'singularis' does not agree with 'aedibus', so must go with 'amici' - 'my only friend' or perhaps more likely 'my singular friend'? -->
             </translation>
         </marginalia>
         
