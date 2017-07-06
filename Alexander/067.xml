@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -102,13 +101,15 @@
         <underline method="pen" type="straight" language="LA" text="diuisibile p[ro]ponit actu[m] nu[m]er[um] m[u]ltitudo v[er]o nu[m]er[um] pote[n]ciale[m] augme[n]tandu[m]"/>
         <underline method="pen" type="straight" language="LA" text="Na[m] om[n]is demo[n]stratio h[abet] fieri in p[ri]mo aut secu[n]do m[od]o vt in p[re]missis est ostensum"/>
         <underline method="pen" type="straight" language="LA" text="in per se passio[n]ib[us]"/>
-        <underline method="pen" type="straight" language="LA" text="q[uod] subiectu[m] s[e]c[undum] nu[m]erus cui statim inest passio erit om[n]ib[us]"/>   <!-- DO: Think 'scz' may be 'scilicet'; 'secundum' contraction is usually 'scdm' -->
+        <underline method="pen" type="straight" language="LA" text="q[uod] subiectu[m] sc[ilicet] nu[m]erus cui statim inest passio erit om[n]ib[us]"/>
         <underline method="pen" type="straight" language="LA" text="q[ue] quicq[ui]d est in r[ati]one diffinie[n]tis est in ratio[n]e diffiniti"/>
         
-        <mark name="colon" method="pen" place="right_margin"/> <!-- tres qui -->     <!-- DO: Triangle above this 'qui' needs to be captured as well -->
+        <mark name="colon" method="pen" place="right_margin"/> <!-- tres qui -->  
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- c[on]uenit -->
+        <mark name="comma" method="pen" place="intext"/> <!-- quid quare -->
+        <mark name="comma" method="pen" place="intext"/> <!-- est ex -->
         
-        <!-- DO: There is also a comma in the last line of the first para. Possibly one at 'est ex' (ten lines up from the bottom), but this could just be a mark on the page? -->
+        <!-- FSF: there is a triangle over the qui in the fourth line from the top -->
         
     </annotation>
 </transcription>

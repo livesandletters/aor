@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -37,7 +36,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Quo modo pra[e]dicta qu[a]estiones se habe[n]t ad medium.   <!-- DO: I think it's 'pra[e]dicta[e]' -->
+                        Quo modo pra[e]dicta[e] qu[a]estiones se habe[n]t ad medium. 
                     </marginalia_text>
                 </position>
             </language>
@@ -46,16 +45,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'duo ... medium' -->
+        <marginalia hand="Italian" anchor_text="duo querunt sc[ilicet] si mediu[m] est aut quid est medium">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        O[mn]es hae qua[e][stione]s qua[e]rru[n]t duo, h[abet] si medium est, aut quid est medium.  <!-- DO: I think it's just 'qua[e]ru[n]t', and think the word after 'duo' is 'sc[ilicet]' ('scz') -->
+                        O[mn]es hae qua[e][stione]s qua[e]ru[n]t duo, sc[ilicet] si medium est, aut quid est medium.  
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                All these questions look for two [things], whether they have a medium and what that medium is.  <!-- DO: '[...], that is, if there is a medium and [...]' -->
+                All these questions look for two [things], that is, if there is a medium and and what that medium is.  
             </translation>
         </marginalia>
         
@@ -76,7 +75,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        De medio et principijs syllog. demo[n]st.   <!-- DO: I would expand these words (using brackets) -->
+                        De medio et principijs syllog[ismi] demo[n]st[ratiui]   
                     </marginalia_text>
                 </position>
             </language>
@@ -120,7 +119,7 @@
                 </position>
             </language>
             <translation>
-                If it is, what it is, why it is and what it is for.  <!-- DO: As before, I'd translate the last two as 'that it is and why it is' -->
+                If it is, what it is, that it is and why it is.
             </translation>
         </marginalia>
         
@@ -133,7 +132,7 @@
                 </position>
             </language>
             <translation>
-                Those pertain equally to mathematics. <!-- FSF: not sure; see next file -->   <!-- DO: I think 'paru[m]' is 'very little' rather than 'equally'; also I think it might be 'mathematician' rather than 'mathematics'? -->
+                Those pertain very little to a mathematician.
             </translation>
         </marginalia>
         
@@ -157,10 +156,11 @@
         <underline method="pen" type="straight" language="LA" text="quia est dicit p[rae]supposita[m] passione[m] de causa. q[ua]re co[n]cludit q[uod] o[mn]es q[uae]stiones hee"/>
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>       <!-- DO: I can't see this, but may well be in the margin...? -->
+        <mark name="plus_sign" method="pen" place="right_margin"/> 
+        <mark name="comma" method="pen" place="intext"/> <!-- est simplicit[er] -->
+        <mark name="comma" method="pen" place="intext"/> <!-- no[n] q[ua]si -->
         
-        <!-- DO: There is a full stop changed into a comma at 'est hoc' (4th line of 3rd paragraph), and commas at 'est simplicit[er]' in the next line and 'no[n] q[ua]si' in the one following that -->
-        
+        <errata language="LA" copytext="." amendedtext=","/> <!-- est hoc -->
         
     </annotation>
 </transcription>

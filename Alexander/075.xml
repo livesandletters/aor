@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,16 +6,16 @@
     <page filename="075.tif" reader="John Dee" signature="[Fiij[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">   <!-- DO: Can anchor some of the text between 'opinione[m] ... lume[n] extingueret[ur]' -->
+        <marginalia hand="Italian" anchor_text="opinione[m] q[uo] dixeru[n]t luna[m] s[e]c[un]d[u]m se lumi[n]osam. sed ecclipsare[n]t p[er] hoc. qq[uo]d hoc lume[n] extingueret[ur]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Quorumda[m] opinio dice[n]tiu[m] &Moon;a[e] vna[m] partem esse tenebrosam, altera[m] luminosa[m] Alioru[m] dicentiu[m] .... fieri ob luminis dies extinctione[m].  <!-- DO: The missing word might be 'eclipsim' (and then a moon), an alternative form of the accusative? -->
+                        Quorumda[m] opinio dice[n]tiu[m] &Moon;a[e] vna[m] partem esse tenebrosam, altera[m] luminosa[m] Alioru[m] dicentiu[m] eclipsim &Moon; fieri ob luminis eius extinctione[m].
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The opinion of some saying that one part of the moon is dark, the other bright. <!-- FSF: to be completed -->  <!-- DO: '[...] That of others saying that a lunar eclipse happens because of an extinction of light' Not sure how to fit in 'dies', wondering if it might be something else... -->
+                The opinion of some saying that one part of the moon is dark, the other bright. That of others saying that a lunar eclipse happens because of the extinction of its light.
             </translation>
         </marginalia>
         
@@ -94,9 +93,7 @@
         <underline method="pen" type="straight" language="LA" text="hoc etia[m] c[om]me[n]tatores"/>
         <underline method="pen" type="straight" language="LA" text="[et] inductiuas demo[n]stratio[n]es ponu[n]t et demo[n]strant"/>
         
-        
-        <!-- DO: There is possibly a comma at 'ponit o[mn]ibus' (11 lines up from the bottom)? -->
-        
-        
+        <mark name="comma" method="pen" place="intext"/> <!-- ponit o[mn]ibus -->
+
     </annotation>
 </transcription>

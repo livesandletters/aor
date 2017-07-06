@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -33,7 +32,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'extra illa extrema' -->
+        <marginalia hand="Italian" anchor_text="extra illa extrema"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -46,16 +45,19 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'affirmatiua ... imposibile' -->
+        <marginalia hand="Italian" anchor_text="affirmatiua queda[m] negatiua[m] queda[m] ostensiua queda[m] duce[n]s ad imposibile"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Affirmatiua negatiua oste[n]siua Durens ad impose <!-- FSF: the rest disappears in the gutter -->  <!-- DO: I think it's 'Ducens' like the printed text; the words in the gutter are probably then 'ad impossibile' -->
+                        Affirmatiua negatiua oste[n]siua Ducens ad impose 
+                        <!-- FSF: the rest disappears in the gutter -->  
+                        <!-- DO: I think it's 'Ducens' like the printed text; the words in the gutter are probably then 'ad impossibile' --> 
+                        <!-- FSF: I do agree, but not sure how to capture that; just in square brackets, so imposs[ibile]? -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                              <!-- DO: 'Affirmative, negative, ostensive, leading to the [impossible]'? -->
+                Affirmative, negative, ostensive, leading to the [impossible]
             </translation>
         </marginalia>
         

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -37,12 +36,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Physica sci <!-- FSF: sci abbreviation for scientia? -->  <!-- DO: I think so... -->
+                        Physica sci[entia]
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Physics is a science.    <!-- DO: Or could just be 'Physical science' (i.e. physics)? -->
+                Physical science. 
             </translation>
         </marginalia>
         
@@ -68,7 +67,7 @@
                 </position>
             </language>
             <translation>
-                              <!-- DO: Not sure how to translate either -->
+                              <!-- DO: Not sure how to translate either --> <!-- Syllogisms most greatly executed to know; this is a literal translation, but I am not sure how useful that is -->
             </translation>
         </marginalia>
         
@@ -82,7 +81,7 @@
                 </position>
             </language>
             <translation>
-                Mathematics demonstrate what for.  <!-- propter quid = 'why it is' (to keep translations consistent)? -->
+                Mathematics demonstrate why it is.
             </translation>
         </marginalia>
         
@@ -96,7 +95,7 @@
                 </position>
             </language>
             <translation>
-                The medium must be a cause of passion which predicts the conclusion.    <!-- DO: '... cause of the property which is predicted in the conclusion'? Not sure that this is the best translation either though... -->
+                The medium must be a cause of the property which predicts the conclusion. 
             </translation>
         </marginalia>
         
@@ -122,7 +121,7 @@
                 </position>
             </language>
             <translation>
-                On the not immediately subalternate sciences.   <!-- DO: I'd just say 'immediate'; think it's being used as an adjective as before. Possibly 'subalternis' to be translated as 'superior' (see previous two pages)?? -->
+                On the not immediately superior sciences. 
             </translation>
         </marginalia>
         
@@ -179,7 +178,10 @@
         <underline method="pen" type="straight" language="LA" text="aut e[ni]m o[mn]ino hoc est v[niversa]l[ite]r aut sicut frequencius [et] in pluribus [et] p[er] hanc p[ri]ma[m] figura[m] ei[us] q[uod] est p[ro]pter quid"/>
         <underline method="pen" type="straight" language="LA" text="Sed in demo[n]stratio[n]e p[ro]pter quid oportet mediu[m] esse causa[m] passionis q[uae] p[rae]dicat[ur] in c[on]clusione"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- scire hoc -->       <!-- DO: There is also a comma in the second line, and one at 'quia faciu[n]t' (8 lines up from bottom). There is a full stop changed into a comma in this same line as well. -->
+        <mark name="comma" method="pen" place="intext"/> <!-- scire hoc -->     
+        <mark name="comma" method="pen" place="intext"/> <!-- quia faciu[n]t -->
+        
+        <errata language="LA" copytext="." amendedtext=","/> <!-- quid [et] -->
         
     </annotation>
 </transcription>
