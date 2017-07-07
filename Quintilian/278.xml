@@ -21,13 +21,13 @@
                     <marginalia_text>Accusator ante vertere patronu[m] dice[n]do debet</marginalia_text>
                 </position>
             </language>
-            <translation>The prosectuor is obliged to reverse the speech of the defence.</translation> <!-- M.B. Not sure about this translation. -->
+            <translation>The prosectuor is obliged to reverse the speech of the defence.</translation> <!-- M.B. Not sure about this translation. --> <!-- FSF: I don't know either -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Seruius Sulpitius">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Seruus Sulpiti</marginalia_text>
+                    <marginalia_text>Seruus Sulpiti</marginalia_text> <!-- FSF: I read Sulpiti[us] -->
                     <person name="Servius Sulpicius Rufus"/>
                 </position>
             </language>
@@ -37,7 +37,7 @@
         <marginalia hand="Italian" anchor_text="Aeschine">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Aesch[i]nms</marginalia_text>
+                    <marginalia_text>Aesch[i]nms</marginalia_text> <!-- FSF: I read Aeschines -->
                     <person name="Aeschines"/>
                 </position>
             </language>
@@ -47,8 +47,8 @@
         <marginalia hand="Italian" anchor_text="Cicero atque Asinius">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Cicero &amp; Asini</marginalia_text>
-                    <person name="Gaius Asinius Pollio"/>
+                    <marginalia_text>Cicero &amp; Asini</marginalia_text> <!-- FSF: I read Asini[us] -->
+                    <person name="Gaius Asinius Pollio"/> <!-- FSF: Cicero to be tagged -->
                 </position>
             </language>
             <translation>Cicero and Asinius</translation>
@@ -66,31 +66,31 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Vt cicero pro min[i]tio </marginalia_text> <!-- M.B. I think the 'o' with a line is half-drawn florilegium. -->
+                    <marginalia_text>Vt cicero pro min[i]tio </marginalia_text> <!-- M.B. I think the 'o' with a line is half-drawn florilegium. --> <!-- FSF: I read pro Quintio; this half-drawn florilegium is a Q, I'd say -->
                     <person name="Cicero"/>
-                    <book title="Pro Minitio"/>
+                    <book title="Pro Minitio"/> <!-- FSF: I don't thinkt that there is such work by Cicero -->
                 </position>
             </language>
             <translation>As Cicero [notes] in pro Minitio.</translation>
         </marginalia>
        
-       <underline method="pen" type="straight" language="LA" text="Etiam futuri te[m]poris"/>
-        <underline method="pen" type="straight" language="LA" text="mouet, qui maneat"/>
+        <underline method="pen" type="straight" language="LA" text="Etiam futuri te[m]poris"/>
+        <underline method="pen" type="straight" language="LA" text="mouet, qui maneat"/> 
+        <!-- FSF: I think you jumped qui de ui -->
         <underline method="pen" type="straight" language="LA" text="fugiendum"/>
         <underline method="pen" type="straight" language="LA" text="cedendum"/>
-        <underline method="pen" type="straight" language="LA" text="Cuius locis est etiam occupare, quae dicturu[m], facturum 'ue aduersarium putes. Nam"/>
+        <underline method="pen" type="straight" language="LA" text="Cuius locis est etiam occupare, quae dicturu[m], facturum'ue aduersarium putes. Nam"/>
         <underline method="pen" type="straight" language="LA" text="noua, ut Seruius Sulpitius contra Aufidiam"/>
-        <underline method="pen" type="straight" language="LA" text="ets. Docendi quoque interim iudices, quid rogantibus respondere debeant, quod est unum repetitionis genus"/>
+        <underline method="pen" type="straight" language="LA" text="est. Docendi quoque interim iudices, quid rogantibus respondere debeant, quod est unum repetitionis genus"/>
         <underline method="pen" type="straight" language="LA" text="causa periculi"/>
         <underline method="pen" type="straight" language="LA" text="Referenda haec pars quoq[ue] ad utilitate[m] reipub[licae] ad iudicu[m] gloriam ad exemplum, ad memoriam posteritatis. Plurimum "/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!-- FSF: none of these is a florilegium, but two are abrreviations [us] and the last is a q; for all, see above -->
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
-
