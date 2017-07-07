@@ -6,7 +6,6 @@
     <page filename="276.tif" reader="John Dee" pagination="270"/> 
     <annotation>
         
-        
         <marginalia hand="Italian" anchor_text="Athenis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -21,6 +20,7 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Accusator sa[e]pi[us] ac magis vtit[u]nt[er] affectibus patro[n]o</marginalia_text> 
                     <!-- M.B. Not sure about the 'vtitntr' contractions, possibly some variant form of utuntur? Or the corresponding translation. -->
+                    <!-- FSF: I don't know either, to be honest -->
                 </position>
             </language>
             <translation>The prosecutor will often use more appeals to emotion than the defender.</translation>
@@ -29,7 +29,7 @@
         <marginalia hand="Italian" anchor_text="utrisq[ue] co[m]mune">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Vtrisq[ue] co[mmun]e.</marginalia_text>
+                    <marginalia_text>vtrisq[ue] co[mmun]e.</marginalia_text>
                 </position>
             </language>
             <translation>Common to both.</translation>
@@ -44,11 +44,10 @@
             <translation>Precept.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="affectus mouere etia[m] oer praecone[m] prohibebatur orator"/>
+        <underline method="pen" type="straight" language="LA" text="affectus mouere etia[m] per praecone[m] prohibebatur orator"/>
         <underline method="pen" type="straight" language="LA" text="Necessarios tame[n] affectus fatebu[n]tur, si aliter obtineri uera &amp; iusta, &amp; in commune profutura non po&sharp-S;int"/>
        
        <mark name="bracket" method="pen" place="left_margin"/>
         
     </annotation>
 </transcription>
-
