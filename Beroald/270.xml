@@ -64,12 +64,12 @@
                     <location name="Asia"/>
                 </position>
             </language>
-            <translation>The Persians rule nearly the whole of Asia.</translation>   <!-- DO: Not sure where 'toti' fits in as it's dative? --> <!-- FSF: imperito takes dative and Asiae is dative too; therefore, this is fine! -->
+            <translation>The Persians rule nearly the whole of Asia.</translation>  
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="&AElig;lam">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0"> <!-- FSF: I think this is still the head -->
+                <position place="head" book_orientation="0"> 
                     <marginalia_text>&AElig;lam</marginalia_text>
                     <location name="Elam"/>
                 </position>
@@ -121,7 +121,6 @@
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         
-        <!-- FSF: I think there is a tripunctus in the right margin -->
         
         <physical_link>
             <marginal_annotation idref="RCPD126.6:270:u0001"/> 
