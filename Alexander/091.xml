@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,7 +6,9 @@
     <page filename="091.tif" reader="John Dee" signature="[Gv[v]]"/> 
     <annotation>
         
-        <mark name="circumflex" method="pen" place="intext"/>       <!-- DO: This circumflex is indicating an inserted 'r' which can be captured as an erratum ('lecto' to 'lector') -->
+        <mark name="circumflex" method="pen" place="intext"/>   
+        
+        <errata language="LA" copytext="lecto" amendedtext="lector"/>
         
     </annotation>
 </transcription>
