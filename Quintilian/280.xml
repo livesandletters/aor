@@ -6,10 +6,10 @@
     <page filename="280.tif" reader="John Dee" pagination="274" signature="[s[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text=""> <!-- FSF: anchor debet...oratio -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>In poratione crescere debet or[ati]o</marginalia_text> <!-- M.B. Not sure how to translate 'poratione' -->
+                    <marginalia_text>In poratione crescere debet or[ati]o</marginalia_text> <!-- M.B. Not sure how to translate 'poratione' --> <!-- FSF: I read p[er]oratione -->
                 </position>
             </language>
             <translation>[...] speech should rise.</translation>
@@ -18,16 +18,16 @@
         <marginalia hand="Italian" anchor_text="Quarum reru[m] ingens plerunq[ue] uis est, uelut in rem praesentem, animos hominum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>No[n] solu[m] verba sed et facta a[n]i[m]os concitat ho[m]inu[m]</marginalia_text>
+                    <marginalia_text>No[n] solu[m] verba sed et facta a[n]i[m]os concitat ho[m]inu[m]</marginalia_text> <!-- FSF: concita[n]t -->
                 </position>
             </language>
-            <translation>Not only words but actions spur the mind of the people.</translation>
+            <translation>Not only words but actions spur the mind of the people.</translation> <!-- FSF: et translates as also: ...but also actions... -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="praetexta C. Caesaris">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pra[e]texta C[aius] Ca[e]saris</marginalia_text>
+                    <marginalia_text>Pra[e]texta C[aius] Ca[e]saris</marginalia_text> <!-- FSF: person tag -->
                 </position>
             </language>
             <translation>Gaius Caesar's toga.</translation>
@@ -39,7 +39,7 @@
                     <marginalia_text>obsecratio</marginalia_text>
                 </position>
             </language>
-            <translation>Prayers.</translation>
+            <translation>Prayer.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="deorum etiam inuocatio">
@@ -73,4 +73,3 @@
         
     </annotation>
 </transcription>
-
