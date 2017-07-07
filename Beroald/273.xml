@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="273.tif" reader="John Dee" pagination="249" signature="[x.v.]"/>
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Aristotele libro de rebus gestis Alexandri">
@@ -16,9 +14,8 @@
                     <person name="Alexander the Great"/>
                 </position>
             </language>
-            <translation>Aristotle in the book about the matters of the birth of Alexander.</translation>
+            <translation>Aristotle in the book about the matters of the birth of Alexander.</translation> <!-- FSF: I think the work referred to here is this https://en.wikipedia.org/wiki/Libro_de_Alexandre -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Eustathius">
             <language ident="LA">
@@ -30,7 +27,6 @@
             <translation>Eustathius.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Ophir">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -41,7 +37,6 @@
             <translation>Ophir.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="insula">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -51,7 +46,6 @@
             <translation>An island.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Dauid congestam &agrave; se; Tria millia talenta auri">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -59,14 +53,13 @@
                     <person name="King David"/>
                 </position>
             </language>
-            <translation>A hoard, David.</translation>     <!-- DO: 'David's hoard'? -->
+            <translation>A hoard, David.</translation> 
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Zaffala">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>[?]: nam Zaffala est in orientate littore Ethiopia[e]. no[n] infra Insula[m] Madagascar.</marginalia_text>
+                    <marginalia_text>[?]: nam Zaffala est in orientate littore Ethiopia[e]. no[n] infra Insula[m] Madagascar.</marginalia_text> <!-- FSF: I think the first word is errat; this would also mean that the non would be crossed out, I assume -->
                     <location name="Zoffala"/>
                     <location name="Ethiopia"/>
                     <location name="Madagascar"/>
@@ -74,7 +67,6 @@
             </language>
             <translation>: for Zoffala is on the Eastern shore of Ethiopia, not below the island of Madagascar.</translation>   <!-- DO: Not sure about the first word, it looks like 'crrat'. The 'no[n]' looks like it might be crossed out, but I'm assuming not? -->
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -86,7 +78,6 @@
             <translation>Against Josephus.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Magi">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -97,13 +88,12 @@
             <translation>The three Magi.</translation>
         </marginalia>
         
-        
-        
         <underline method="pen" type="straight" language="LA" text="agnoscat prophana"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; Cophene"/>
         <underline method="pen" type="straight" language="LA" text="Assyriam"/>
         <underline method="pen" type="double" language="LA" text="rebus gestis Alexandri"/>
         <underline method="pen" type="straight" language="LA" text="ab Ophir insula"/>
+        <!-- FSF: I think you missed Ailath -->
         <underline method="pen" type="straight" language="LA" text="in classe illa seruos"/>
         <underline method="pen" type="straight" language="LA" text="Iobi capite 22. vers. 24"/>
         <underline method="pen" type="straight" language="LA" text="Psalmo 45"/>
@@ -127,27 +117,16 @@
         <underline method="pen" type="straight" language="LA" text="ad plagam Orientalem"/>
         <underline method="pen" type="straight" language="LA" text="sit nugatorium, ex"/>
         
-        
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        
         <mark name="plus_sign" method="pen" place="left_margin"/> 
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        
         
         <errata language="LA" copytext="vers. 10" amendedtext="vers. 9"/>
         
-        
     </annotation>
-    
 </transcription>
