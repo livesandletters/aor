@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="263.tif" reader="John Dee" pagination="239" signature="[v.vj.]"/> <!-- FSF: I wouldn't tag the signature here -->
+    <page filename="263.tif" reader="John Dee" pagination="239"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="de auro Schaba" id="RCPD126.6:263:m0001">
@@ -32,12 +32,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Iosephus. Regina[m] &AElig;thiopia[e] vult esse [Quae?] ad [?] venit</marginalia_text>  <!-- DO: Can't make some of this out, and not sure about translation --> 
-                    <!-- FSF: I am not sure either; the first word missing ends with a d, maybe quid?, and the second one starts sat, I think -->
+                    <!-- FSF: I am not sure either; the first word missing ends with a d, maybe quid?, and the second one starts sat, I think -->  <!-- DO: Second one 'Salomonem' or 'Salomone[m]'? -->
                     <person name="Josephus"/>
                     <person name="Queen of Sheba"/>
+                    <person name="Solomon"/>
                 </position>
             </language>
-            <translation>Josephus. She wants to be Queen of Ethiopia, who came to [?]</translation>
+            <translation>Josephus. She wants to be Queen of Ethiopia, who came to Solomon.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Qu&agrave;m etiam fallantur qui istam regionem Heuila, sunt interpretati Indiam">
