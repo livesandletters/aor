@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="co[m]munes loci">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Loci co[m]munes</marginalia_text>
+                    <marginalia_text>Loci co[m]munes</marginalia_text> <!-- FSF: I can't see an abbreviation for a second m -->
                 </position>
             </language>
             <translation>Common places.</translation>
@@ -55,15 +55,15 @@
         <marginalia hand="Italian" anchor_text="dubia, qu&ograve;d erat aliquid in utraq[ue] parte">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Dubiu[m] est quod habet aliquid in vtraq[ue] parte quod probari posset</marginalia_text>
+                    <marginalia_text>Dubiu[m] est quod habet aliquid in vtra'q[ue] parte quod probari posset</marginalia_text>
                 </position>
             </language>
             <translation>It is doubtful because this something which could be proved on both sides.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="infirma, nisi maiore quodam orators spiritu impleantur"/>
-        <underline method="pen" type="straight" language="LA" text="fer&egrave; qui legem dicendi quasi quaedam mysteria tradideru[n]t certis non inueniendorum modo argumentorum locis, sed co[n]cludendorum 
-            quoq[ue] nos praeceptis alligauerunt: de quibus breuissime praelocutus, quid ipse sentiam, id est, quid clari&sharp-S;imos oratores feci&sharp-S;e uideam, non tacebo."/>
+        <underline method="pen" type="straight" language="LA" text="infirma, nisi maiore quodam oratoris spiritu impleantur"/>
+        <underline method="pen" type="straight" language="LA" text="fer&egrave; qui legem dicendi quasi quaedam mysteria tradideru[n]t, certis non inueniendorum modo argumentorum locis, sed co[n]cludendorum 
+            quoq[ue] nos praeceptis alligauerunt: de quibus breuissime praelocutus, quid ipse sentiam, id est, quid clari&sharp-S;imos oratores feci&sharp-S;e uideam, non tacebo"/>
         <underline method="pen" type="straight" language="LA" text="Eam uero (ut dixi) duplice[m]: Ex conseque[n]tibus"/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
@@ -71,4 +71,3 @@
         
     </annotation>
 </transcription>
-
