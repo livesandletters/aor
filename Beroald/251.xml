@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="251.tif" reader="John Dee" pagination="227" signature="[t.vj.]"/>
-    
+    <page filename="251.tif" reader="John Dee" pagination="227" signature="[t.vj.]"/> <!-- FSF: I wouldn't tag the signature here -->
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Non sunt igitur Magogi, Scythae">
             <language ident="LA">
@@ -17,9 +14,8 @@
                     <location name="Scythia"/>
                 </position>
             </language>
-            <translation>The Magogi people are not Scythians.</translation>
+            <translation>The Magogi people are not Scythians.</translation> <!-- FSF: I'd translate something like There are no Magogi people in Scythia/There are no Magogi Scythians -->
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Iuda, fuit Dei populus"/>
         <underline method="pen" type="straight" language="LA" text="Ecclesiam Dei retulit"/>
@@ -34,18 +30,9 @@
         <underline method="pen" type="straight" language="LA" text="Iauan"/>
         <underline method="pen" type="straight" language="LA" text="Ab his Ionibus, Athenenses originem trahunt, etsi volunt se esse antochthonas"/>
         
-        
-        <mark name="comma" method="pen" place="intext"/>  <!-- Coelesyriae, perpetui -->
+        <mark name="comma" method="pen" place="intext"/>  <!-- Coelesyriae perpetui -->
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        
-        
-        
-        
-        
-        
-        
     </annotation>
-    
 </transcription>
