@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
-
+ 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="054.tif" reader="John Dee" signature="[Dv]"/> 
@@ -67,7 +66,8 @@
         <underline method="pen" type="straight" language="LA" text="vtit[ur] suppositione"/>
         <underline method="pen" type="straight" language="LA" text="ostensiua"/>
         <underline method="pen" type="straight" language="LA" text="p[er] impossibili"/>
-        <underline method="pen" type="straight" language="LA" text="q[uod] due linee eq[ui]distantes linee breuissime q[uae] collaterales dicunt[ur] sunt eq[ua]les q[uo]d"/>  <!-- DO: Some underlining missed out -->
+        <underline method="pen" type="straight" language="LA" text="q[uod] due linee eq[ui]distantes linee breuissime q[uae] collaterales dicunt[ur] sunt eq[ua]les q[uo]d"/> 
+        <underline method="pen" type="straight" language="LA" text="e q[uae] no[n] est nihil"/>
         <underline method="pen" type="straight" language="LA" text="diximus demonstrabiles [et] no[n] p[ro]babiles"/>
         <underline method="pen" type="straight" language="LA" text="adiscenti phisice"/>
         
@@ -76,31 +76,31 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- scie[n]cia -->
         <mark name="bracket" method="pen" place="intext"/> <!-- diffinitio. Hijs -->
-        <mark name="dash" method="pen" place="intext"/>                                     <!-- DO: Is this the marking on 'indemo[n]stratione'? If so, I'd say it's a slash -->
+        <mark name="slash" method="pen" place="intext"/>           
         <mark name="comma" method="pen" place="intext"/> <!-- est sic -->
+        <mark name="tripunctus" method="pen" place="right_margin"/>
         
         <numeral place="left_margin">2.</numeral>
         <numeral place="left_margin">3.</numeral>
         <numeral place="left_margin">3.</numeral>
-        <numeral place="left_margin">0</numeral>   <!-- DO: I'm not sure what this is - I don't know why it would be a zero? -->
         
         <errata language="LA" copytext="indemo[n]stratione" amendedtext="in demo[n]stratione"/>
         
         <graph type="ramus_tree" book_orientation="0" place="right_margin" method="pen"> <!-- FSF: some notes have been cut off -->
-            <node id="n1">o[mn]e q[uod] in demonstratione est au...</node>
+            <node id="n1">o[mn]e q[uod] in demonstratione, est au...</node>
             <node id="n2">Principiu[m]</node>
             <node id="n3">principiatu[m]</node>
             <node id="n4">co[m]mune</node>
             <node id="n5">Proprium.</node>
-            <node id="n6">Inco[m]plexu[m]. subiectu[m]</node>
+            <node id="n6">Inco[m]plexu[m]. subiectu[m]</node>    
             <node id="n7">co[m]plexu[m]</node>
             <node id="n8">demo[n]strabile</node>
             <node id="n9">indemo[n]strabile et hoc positio est</node>
-            <node id="n10">probabile. suppositio ad aliquem</node>
+            <node id="n10">probabile. suppositio ad aliquem.</node>
             <node id="n11">no[n] p[ro]babile</node>
             <node id="n12">co[m]plexa. suppositio simpliciter</node>
-            <node id="n13">inco[m]plex...est...</node>
-            <node id="n14">co[n]trariu[m] opinioni disce[n]tis. et tunc est questio</node>
+            <node id="n13">inco[m]plex...est...</node>               <!-- DO: I would guess it's 'et tunc est' and then probably 'diffinitio', going by the structure of the other notes, but obviously can't be sure -->
+            <node id="n14">co[n]trariu[m] opinioni disce[n]tis. et tunc est questio.</node>
             <node id="n15">neutr...modo...et...et...est...p[ro]p[ri]e...que[m]</node>
             <link to="n2" from="n1" relationship="has_child"/>
             <link to="n3" from="n1" relationship="has_child"/>
@@ -117,6 +117,9 @@
             <link to="n14" from="n11" relationship="has_child"/>
             <link to="n15" from="n11" relationship="has_child"/>
         </graph>
+        
+        
+        <!-- DO: Graph needs to be translated -->
         
     </annotation>
 </transcription>

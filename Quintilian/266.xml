@@ -25,7 +25,7 @@
             <translation>Pro Milone.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Quem igitur cum omnium gratia noluit">
+        <marginalia hand="Italian" anchor_text="Quem igitur cum omnium gratia noluit"> <!-- FSF: I don't understand the connection between the anchor text and the note -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>ibidem</marginalia_text>
@@ -34,7 +34,7 @@
             <translation>In the same place.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Optimum autem uidetur enthymematis">
+        <marginalia hand="Italian" anchor_text="Optimum autem uidetur enthymematis"> <!-- FSF: I'd capture also genus -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Optimu[m] enthymematis genus</marginalia_text>
@@ -63,7 +63,6 @@
             <translation>Cicero divides the enthymeme into five parts.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="complexione">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -86,17 +85,17 @@
         <marginalia hand="Italian" anchor_text="Sumamus autem ex Cicerone quinq[ue] partium exe[m]olum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Cicero ad h[a]eremum.[?]</marginalia_text> <!-- M.B. Not sure what the contraction is, some form of 'heremum'? -->
+                    <marginalia_text>Cicero ad h[a]eremum.[?]</marginalia_text> <!-- M.B. Not sure what the contraction is, some form of 'heremum'? --> 
+                    <!-- FSF: the work referred to is this https://en.wikipedia.org/wiki/Rhetorica_ad_Herennium; I think it is spelt here[n]nium here -->
                 </position>
             </language>
             <translation>Cicero.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Habet enim rationem propositionemq[ue] non habet conclusionem"/>
+        <underline method="pen" type="straight" language="LA" text="Habet enim rationem propositionem'q[ue] non habet conclusionem"/>
         <underline method="pen" type="straight" language="LA" text="Optimum autem uidetur enthymematis genus, c&ugrave;m proposito di&sharp-S;imili, uel co[n]trario, ratio subiungitur, quale"/>
-        <underline method="pen" type="straight" language="LA" text="quinq[ue] defendit, un sit propositio, deinde ratio eius, tum a&sharp-S;umptio, &amp; eius probatio, quinta complexio."/>
+        <underline method="pen" type="straight" language="LA" text="quinq[ue] defendit, ut sit propositio, deinde ratio eius, tum a&sharp-S;umptio, &amp; eius probatio, quinta complexio"/>
         <underline method="pen" type="straight" language="LA" text="probetur, tertium adijci potest uelut ex co[n]sensu duoru[m] antecedentium"/>
         
     </annotation>
 </transcription>
-

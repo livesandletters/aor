@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -16,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                For the reasons of overcoming and overcome.   <!-- DO: I would say '... of the overcoming and the overcome' -->
+                For the reasons of the overcoming and the overcome.
             </translation>
         </marginalia>
         
@@ -50,12 +49,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Quot modis quid p[otes]t notius iudicari             <!-- DO: I'm not sure if it's 'iudicari' or 'indicari'; both make sense... -->
+                        Quot modis quid p[otes]t notius iudicari  
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                In how many modes can whatever quite well-known thing be assessed?   <!-- DO: I don't think it necessarily has to be a question, and there is no question mark. 'In how many ways [...] can be assessed' -->
+                In how many modes whatever quite well-known a thing can be assessed? 
             </translation>
         </marginalia>
         
@@ -68,7 +67,7 @@
         <underline method="pen" type="straight" language="LA" text="lume[n]"/>
         <underline method="pen" type="straight" language="LA" text="splendor"/>
         <underline method="pen" type="straight" language="LA" text="claritas"/>
-        <underline method="pen" type="straight" language="LA" text="[et] color Sole[m]"/>  <!-- DO: Isn't it 'Sol e[st]'? -->
+        <underline method="pen" type="straight" language="LA" text="[et] color Sol e[st]"/>
         <underline method="pen" type="straight" language="LA" text="luce[m]. lux est"/>
         <underline method="pen" type="straight" language="LA" text="dies est"/>
         <underline method="pen" type="straight" language="LA" text="S[ed] sple[n]dor"/>
@@ -77,15 +76,10 @@
         <underline method="pen" type="straight" language="LA" text="[et] sensato in n[ume]ra s[e]c[un]da p[ar]te laci[us] tractabimus"/>
         <underline method="pen" type="straight" language="LA" text="de hijs par[um] e[st] mathe"/>
         
-        <mark name="horizontal_bar" method="pen" place="intext"/>    <!-- DO: I can't find these two bars...? -->
-        <mark name="horizontal_bar" method="pen" place="intext"/>
-        
         <numeral place="left_margin">2</numeral>
         
         <errata language="LA" copytext="tq[uam]" amendedtext="q[uam]"/>
-              
-              
-           <!-- DO: There appears to be three words crossed out in the second line -->   
-              
+        <errata language="LA" copytext="sid erat ione" amendedtext="[deleted]"/>
+
     </annotation>
 </transcription>

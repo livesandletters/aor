@@ -34,7 +34,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- Anchor 'falsigraphus p[ar]alogismus' -->
+        <marginalia hand="Italian" anchor_text="falsigraphus p[ar]alogismus"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -55,8 +55,7 @@
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         
-        
-        <!-- DO: I think he corrects 'crgo' to 'ergo' (line 10 in paragraph 2) -->
+        <errata language="LA" copytext="crgo" amendedtext="ergo"/>
         
     </annotation>
 </transcription>

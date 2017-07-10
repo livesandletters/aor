@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
-
+ 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="078.tif" reader="John Dee" signature="[Fv[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'vt tria ad'? -->
+        <marginalia hand="Italian" anchor_text="vt tria ad">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -21,14 +20,10 @@
         </marginalia>
         
         <mark name="circumflex" method="pen" place="intext"/>
-        <mark name="circumflex" method="pen" place="intext"/>      <!-- DO: I think the top one must be the inserted letter; all I can think that makes sense is 'r' ('rariores') -->
+        <mark name="comma" method="pen" place="intext"/> <!-- semel minor -->
         
-        <errata language="LA" copytext="vt tria ad duo dicit[ur] tripla p[ro]portio [et] tria dicunt[ur] triplu[m] [et] duo subtriplu[m]" amendedtext="vt 3 ad"/>   <!-- DO: As 'vt 3 ad' has already been captured as a marginal note, the amended text should just be '[deleted]' to show it's been crossed out. -->     
-        <errata language="LA" copytext="radiores" amendedtext="raiores"/> <!-- FSF: I am not sure what it should actually mean -->
-        
-        
-        <!-- DO: There is an inserted comma at 'semel minor', just before the crossing out -->
-        
+        <errata language="LA" copytext="vt tria ad duo dicit[ur] tripla p[ro]portio [et] tria dicunt[ur] triplu[m] [et] duo subtriplu[m]" amendedtext="[deleted]"/> 
+        <errata language="LA" copytext="radiores" amendedtext="rariores"/> 
         
     </annotation>
 </transcription>

@@ -6,10 +6,10 @@
     <page filename="264.tif" reader="John Dee" pagination="258" signature="[r[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Fiduciam igitur orator orae se ferat, semperq[ue] ita dicat, tanquam de cause optim&egrave; sentiat.">
+        <marginalia hand="Italian" anchor_text="Fiduciam igitur orator prae se ferat, semper'q[ue] ita dicat, tanquam de cause optim&egrave; sentiat."> <!-- FSF: I think until semper'q[ue] is enough -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>fiduciam semp[erque] p[rae] le terre deb[n]et Orator.</marginalia_text> <!-- M.B. Not certain about 'le' ? -->
+                    <marginalia_text>fiduciam semp[erque] p[rae] le terre deb[n]et Orator.</marginalia_text> <!-- M.B. Not certain about 'le' ? --> <!-- FSF: it is se, ferre instead of terre, and semp[er] -->
                 </position>
             </language>
             <translation>The orator should always display confidence as [...] the land</translation> <!-- MB. Incomplete trans -->
@@ -45,7 +45,7 @@
         <underline method="pen" type="straight" language="LA" text="Fiduciam igitur orator prae se"/>
         <underline method="pen" type="straight" language="LA" text="Quod (sicut omnia) in Cicerone praecipuum"/>
         <underline method="pen" type="straight" language="LA" text="locu[m] obtineat, dubitare"/>
-        <underline method="pen" type="straight" language="LA" text="refutatio, qualis est ill Scauri"/>
+        <underline method="pen" type="straight" language="LA" text="refutatio, qualis est illa Scauri"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
@@ -56,4 +56,3 @@
         
     </annotation>
 </transcription>
-

@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="253.tif" reader="John Dee" pagination="229" signature="v.j."/>
-    
     <annotation>
         
         <marginalia hand="Italian" anchor_text="&agrave; Iosepho dissentit Eusebius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Iosephus Eusebius ] +</marginalia_text>
+                    <marginalia_text>Iosephus Eusebius ] +</marginalia_text> 
                     <person name="Titus Flavius Josephus"/>
                     <person name="Eusebius"/>
                 </position>
             </language>
             <translation>Josephus, Eusebius ] +</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Magog">
             <language ident="LA">
@@ -30,16 +27,14 @@
             <translation>Magog.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Arca [reijescit]</marginalia_text>  <!-- DO: Not sure what the second word is -->
+                    <marginalia_text>Arca req[ui]escit</marginalia_text>  
                 </position>
             </language>
-            <translation></translation>
+            <translation>The arc stops.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Aschenezaeos">
             <language ident="LA">
@@ -51,7 +46,6 @@
             <translation>The Ashkenazi people.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Riphaeis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -60,7 +54,6 @@
             </language>
             <translation>The Riphatheans.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Gotthicas"/>
         <underline method="pen" type="straight" language="LA" text="co[n]iectura sua fallaci vsus"/>
@@ -79,9 +72,8 @@
         <underline method="pen" type="straight" language="LA" text="dedisse Riphaeis"/>
         <underline method="pen" type="straight" language="LA" text="esse Turcas"/>
         
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="right_margin"/>
         
     </annotation>
-    
 </transcription>

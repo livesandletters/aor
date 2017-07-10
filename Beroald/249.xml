@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="249.tif" reader="John Dee" pagination="225" signature="[t.v.]"/>
-    
+    <page filename="249.tif" reader="John Dee" pagination="225" signature="[t.v.]"/> <!-- FSF: I wouldn't tag the signature -->
     <annotation>
-        
         
        <marginalia hand="Italian" anchor_text="respectu">
            <language ident="LA">
@@ -18,17 +15,15 @@
            <translation>Note: with respect.</translation>
        </marginalia> 
         
-        
         <marginalia hand="Italian" anchor_text="Scythas">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Scytha[e]</marginalia_text>
-                    <location name="Scythia"/>
+                    <location name="Scythia"/> <!-- FSF: given that these are a people, I wouldn't tag the location -->
                 </position>
             </language>
             <translation>Scythians.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="quatuor terrae angulos">
             <language ident="LA">
@@ -38,7 +33,6 @@
             </language>
             <translation>The four corners of the land.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="tenuerint Gomeritae &amp; Togormaei aperit"/>
         <underline method="pen" type="double" language="LA" text="latera aquilonis"/>
@@ -51,16 +45,11 @@
         <underline method="pen" type="straight" language="LA" text="historiam seu praedictionem"/>
         <underline method="pen" type="straight" language="LA" text="reuocandi ex nationibus &amp; gentibus, in quas dispersi"/>
         
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        
     </annotation>
-    
 </transcription>

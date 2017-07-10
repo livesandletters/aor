@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -37,12 +36,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Definitiones vt fine <!-- FSF: not sure here -->  <!-- DO: To me it looks like either 'fiunt' or 'fiant' -->
+                        Definitiones vt fiant
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                                     <!-- DO: 'Definitions as they are made'? (Or 'as they may be made'?)-->
+                Definitions as they are made.
             </translation>
         </marginalia>
         
@@ -55,11 +54,11 @@
                 </position>
             </language>
             <translation>
-                What for.       <!-- DO: As before, 'Why it is' -->
+                Why it is.    
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">     <!-- DO: Anchor 'quomo[do] possunt inuestigari' -->
+        <marginalia hand="Italian" anchor_text="quomo[do] possunt inuestigari">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -68,7 +67,7 @@
                 </position>
             </language>
             <translation>
-                In what way they can be investigated what it is and why.     <!-- DO: I would perhaps say, 'How that it is and why it is can be investigated' -->
+                How that it is and why it is can be investigated.
             </translation>
         </marginalia>
         
@@ -77,8 +76,9 @@
         <underline method="pen" type="straight" language="LA" text="p[ri]nceps aut[em] alteratio[n]is est dualitas [et]"/>
         <underline method="pen" type="straight" language="LA" text="c[on]siderare diuisio[n]es [et] subdiuisio[n]es"/>
         
-        <errata language="LA" copytext="q[ua]tuoro" amendedtext="q[ua]tuor"/>             <!-- DO: I'm wondering if he is changing 'q[uat]tuoro. portet' to 'q[ua]tuor oportet'? It looks to me as if the full stop is replaced by a dash. Also not sure if vertical bar needs to be captured separately? -->
-        <errata language="LA" copytext="." amendedtext=","/> <!-- q[ua]tuoro portet -->  
+        <mark name="vertical_bar" method="pen" place="intext"/>
+        
+        <errata language="LA" copytext="q[ua]tuoro, portet" amendedtext="q[ua]tuor oportet"/>      
         
     </annotation>
 </transcription>

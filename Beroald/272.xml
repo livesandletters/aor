@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="272.tif" reader="John Dee" pagination="248" signature="[x.iiij.[v]]"/>
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Idumaea">
             <language ident="LA">
@@ -18,7 +15,6 @@
             </language>
             <translation>Iduma.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Saba is, qui in filiis Abraham ex Cetura natus">
             <language ident="LA">
@@ -31,7 +27,6 @@
             <translation>Saba descended from Abraham.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Sabaeos Indicos">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -41,7 +36,6 @@
             </language>
             <translation>Indian Sabaeans.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Sabaei &amp; Taxili">
             <language ident="LA">
@@ -54,7 +48,6 @@
             <translation>Sabaeans. People of Taxila.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="videtur longius" id="RCPD126.6:272:m0001">
             <language ident="EN">
                 <position place="tail" book_orientation="0">
@@ -63,7 +56,6 @@
             </language>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="varia populorum Sabaeorum esse genera mirum videri non debet, quum varia familiarum illarum, siue gentium capita memoret Scriptura">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
@@ -71,10 +63,8 @@
                     <location name="Saba"/>
                 </position>
             </language>
-            <translation>Various groups of Sabaean peoples originated in different capitals.</translation>  <!-- DO: Not sure about translation -->
+            <translation>Various origins of the Sabaean people found in different chapters.</translation>  <!-- DO: Translation to be checked -->
         </marginalia>
-        
-        
         
         <underline method="pen" type="straight" language="LA" text="Hus"/>
         <underline method="pen" type="straight" language="LA" text="Edom, quae habitas in terra Hus"/>
@@ -104,20 +94,13 @@
         <underline method="pen" type="straight" language="LA" text="Sabaei &amp; Taxili viri"/>
         <underline method="pen" type="grid" language="LA" text="genitum capita"/>
         
-        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        
         <physical_link>
-            
             <marginal_annotation idref="RCPD126.6:272:m0001"/>  
             <marginal_annotation idref="RCPD126.6:272:u0001"/>
-            
             <relation from="RCPD126.6:272:m0001" to="RCPD126.6:272:u0001" type="directed"/>
-            
         </physical_link>
-       
-        
+          
     </annotation>
-    
 </transcription>

@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                An agreement in that kind of medium, ordination.    <!-- DO: 'the same kind of medium'? Also I think I would translate 'ordinatione' as 'regulation' -->
+                An agreement in the same kind of medium of regulation. 
             </translation>
         </marginalia>
         
@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                To bring forth a medium simply.     <!-- DO: Not sure about translation. I think 'genere' is a noun and I would say it's 'The same medium simply, in kind' (i.e. 'simply' and 'in kind' are two separate options) -->
+                The same medium simply, in kind.
             </translation>
         </marginalia>
         
@@ -85,11 +85,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'demo[n]stratiua' -->
+        <marginalia hand="Italian" anchor_text="demo[n]stratiua"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Qua[e] demo[n]stratiua su[n]t hic tracta[n]tur in toto op[er]e Alex.    <!-- DO: I would expand to 'Alex[andri]' -->
+                        Qua[e] demo[n]stratiua su[n]t hic tracta[n]tur in toto op[er]e Alex[andri]   
                     </marginalia_text>
                     <person name="Andreas Alexander"/>
                 </position>
@@ -108,8 +108,9 @@
         <underline method="pen" type="straight" language="LA" text="demo[n]stratiua"/>
         <underline method="pen" type="straight" language="LA" text="sc[ilicet] tam linee q[uam] nu[m]eri c[on]ueniu[n]t in hoc q[uo]d habe[n]t tale augme[n]tu[m] ex quo in eis c[om]mutata p[ro]portio demo[n]strat[ur]. quare in hijs eade[m] est"/>
         
+        <mark name="comma" method="pen" place="intext"/> <!-- illo libro -->
         
-        <!-- DO: There is a comma at 'illo libro' (3 lines into the 3rd paragraph). I'm not sure if there is also some kind of marking/deletion on the superscript 'i' 14 lines into paragraph 2?? -->
+        <errata language="LA" copytext="i" amendedtext="[deleted["/>
         
     </annotation>
 </transcription>
