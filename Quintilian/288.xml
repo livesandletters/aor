@@ -30,17 +30,18 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ratio nova est ab ip[s]o Qui[n]tiliano ex cogita affectus movendi.</marginalia_text>
+                    <marginalia_text>Ratio nova est ab ip[s]o Qui[n]tiliano ex cogita affectus movendi.</marginalia_text> <!-- FSF: I read et instead of est -->
                     <person name="Quintilian"/>
                 </position>
             </language>
             <translation>A new reason given by Quintilian is that by thinking of an emotion, he can be moved himself.</translation> <!-- M.B. Not sure of thins translation. -->
+            <!-- FSF: I'd translate more like: A new reason devised by Quintilian himself of moving the emotions.-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>[Nihil dat quic]</marginalia_text> <!-- M.B. Note is smudged out, not sure of 'quic'-->
+                    <marginalia_text>[Nihil dat quic]</marginalia_text> <!-- M.B. Note is smudged out, not sure of 'quic'--> <!-- FSF: I am not sure if c  belongs to the qui, I think this are two words -->
                 </position>
             </language>
             <translation>Nothing[...]</translation>
@@ -51,7 +52,7 @@
         <underline method="pen" type="straight" language="LA" text="rebus indignis, asperis, inuidiosis adde[n]s uim oratio"/>
         <underline method="pen" type="straight" language="LA" text="experimento meo, ac natura ipsa duce accepi"/>
         <underline method="pen" type="straight" language="LA" text="uerisimilia esse uolemus, simus ipsi similes corum qui uere patiuntur, affectibus: &amp;"/>
-        <underline method="pen" type="straight" language="LA" text="Nec incendit nisi ignis, nec madescimus nisi humore, nec res ulla dat alteri colorem, quem ipsa non habet."/>
+        <underline method="pen" type="straight" language="LA" text="Nec incendit nisi ignis, nec madescimus nisi humore, nec res ulla dat alteri colorem, quem ipsa non habet"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
@@ -62,11 +63,8 @@
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
-        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        
         
     </annotation>
 </transcription>
-
