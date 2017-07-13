@@ -38,7 +38,7 @@
         <marginalia hand="Italian" anchor_text="ex simili tra[n]slatio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Ex simil tra[n]slatio</marginalia_text>
+                    <marginalia_text>Ex simili tra[n]slatio</marginalia_text>
                 </position>
             </language>
             <translation>The shift from like to like.</translation>
@@ -47,7 +47,7 @@
         <marginalia hand="Italian" anchor_text="triumpho Caesaris">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Ca[e]saris Triu[m]phas</marginalia_text>
+                    <marginalia_text>Ca[e]saris Triu[m]phas</marginalia_text> <!-- FSF: I read Triu[m]phus -->
                     <person name="Julius Caesar"/>
                 </position>
             </language>
@@ -70,8 +70,8 @@
         <underline method="pen" type="straight" language="LA" text="uerisimilia"/>
         <underline method="pen" type="straight" language="LA" text="quod"/>
         <underline method="pen" type="straight" language="LA" text="Iungitur"/>
-        <underline method="pen" type="straight" language="LA" text="mixtura est, eaq[ue] optima, quae ex pluribus co[n]stat"/>
-        <underline method="pen" type="straight" language="LA" text="di&sharp-S;imiliu[]m"/>
+        <underline method="pen" type="straight" language="LA" text="mixtura est, ea'q[ue] optima, quae ex pluribus co[n]stat"/>
+        <underline method="pen" type="straight" language="LA" text="di&sharp-S;imiliu[m]"/>
         <underline method="pen" type="straight" language="LA" text="perplueret"/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
@@ -84,4 +84,3 @@
         
     </annotation>
 </transcription>
-
