@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Brito iste quis est, uel in
+                        Brito iste quis est, uel in    <!-- DO: I think it must be 'vel ni', to make more sense, though I'm still not sure how to translate. 'That Briton is someone, or not'?? -->
                     </marginalia_text>
                 </position>
             </language>
@@ -21,9 +21,9 @@
         
         <marginalia hand="Italian" anchor_text="Hij sunt">
             <language ident="LA">
-                <position place="intext" book_orientation="0">
+                <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        ve esse signatus <!-- FSF: I am not sure about the first word -->
+                        ve esse signatus <!-- FSF: I am not sure about the first word -->  <!-- DO: Possibly 'vir[um]'? I think the second word is 'figme[n]tum.' - 'Man is a figment'? -->
                     </marginalia_text>
                 </position>
             </language>
@@ -32,6 +32,8 @@
         <underline method="pen" type="double" language="LA" text="de genere"/>
         <underline method="pen" type="straight" language="LA" text="Alanus"/>
         <underline method="pen" type="straight" language="LA" text="Brito"/>
+        
+        <!-- Physical link between marginal note and non-underlined text -->
         
     </annotation>
 </transcription>
