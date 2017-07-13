@@ -27,7 +27,7 @@
         <marginalia hand="Italian" anchor_text="loci plures, ex quibus dicta ridicula">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Dictoru[m] ridicu[li] loci</marginalia_text>
+                    <marginalia_text>Dictoru[m] ridicu[li] loci</marginalia_text> <!-- FSF: the long form of ridicu. would be ridiculorum -->
                 </position>
             </language>
             <translation>Ridiculous sayings from many areas. </translation>
@@ -48,7 +48,7 @@
                     <marginalia_text>Scurrile Cicer[onis]</marginalia_text>
                 </position>
             </language>
-            <translation>Cicero is scurrilous</translation>
+            <translation>Cicero is scurrilous</translation> <!-- FSF: Ciceronis is genitive; so I'd translate it as The scurrilous [remark] of Cicero.  -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Miloni">
@@ -86,6 +86,7 @@
         <underline method="pen" type="straight" language="LA" text="sed quia raro bell&egrave; respondeant, nisi cum prosus rebus ipsis adiuuantur"/>
         
         <symbol name="Jupiter" place="right_margin"/>
+        
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
     </annotation>
