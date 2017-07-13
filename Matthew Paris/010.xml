@@ -3,35 +3,35 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="010.tif" reader="John Dee"/>
+    <page filename="010.tif" reader="John Dee" pagination="Flyleaf"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">    <!-- DO: This note can be linked to pg. 356 (file 380) as an internal reference -->
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Historia Luce[m] magna[m] recipit ex Genealogijs illustru[m] vnor[um] de quibus, co[n]lexator pag. 356 <!-- FSF: not sure at all -->
+                        Historia Luce[m] magna[m] recipit ex Genealogijs illustru[m] vnor[um] de quibus, co[n]lexator pag[ina] 356 <!-- FSF: not sure at all -->  <!-- DO: I think this is correct; apart from that I think it 'co[n]lexatur' and 'viror[um]' (indicated by the marginal note on pg. 356). Not sure about 'quibus' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                <!-- DO: Not sure how to translate. Looking at pg. 356 I'm wondering if he meant to write 'Ducem' instead of 'Lucem'...? 'History receives the great [Duke] from the genealogies of men of [?], it is read on page 356'? Not sure where 'illustrum' fits in.-->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: This note can be linked to pg. 195 (file 219) as an internal reference -->
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Sanctus Brendanus et Machutus insulas fortunatas navigatione septenali, requirentes multa relata digna videru[n]t pag 195
+                        Sanctus Brendanus et Machutus insulas fortunatas navigatione septenali, requirentes multa relata digna videru[n]t pag[ina] 195  <!-- DO: 'septennali'; looks like there's another letter in 'multa' but not sure what it is ('mullta'?), though I agree the meaning is 'multa' -->
                         J.D
-                        Forte iste est de q[uo] Mercator ontelligit generatione post Arthium quaesa <!-- FSF: again, not sure -->
+                        Forte iste est de q[uo] Mercator ontelligit generatione post Arthium quaesa <!-- FSF: again, not sure -->  <!-- DO: 'intelligit'; think it's 'Arthuru[m]'; not sure what final word is -->
                     </marginalia_text>
-                    <person name="John Dee"/>
+                    <person name="John Dee"/>  <!-- DO: The other people need to be tagged too; think it's https://en.wikipedia.org/wiki/Brendan and https://en.wikipedia.org/wiki/Brendan -->
                 </position>
             </language>
             <translation>
-                
+                              <!-- Translation needed -->
             </translation>
         </marginalia>
         
@@ -39,13 +39,13 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Nonne vidisti Hugone[m] Co[n]sulem Cestri[a]e, et Richardu[m] filiu[m] eius, et Randulgum successore[m] eor[um], et nu.. aliu[m] Randuldum? 
-                        et hij o[mn]es exmanili su[n]t. ex Henricus Hungtindon libro 3o ad Walteru[m] co[n]sorte[m] suu[m] de Mundi appetita
+                        Nonne vidisti Hugone[m] Co[n]sulem Cestri[a]e, et Richardu[m] filiu[m] eius, et Randulgum successore[m] [deleted] eor[um], et nu.. aliu[m] Randuldum?   <!-- DO: 'Randulfum' in both cases; think it's 'et nunc aliu[m]' -->
+                        et hij o[mn]es exmanili su[n]t. ex Henricus Hungtindon lib[r]o 3&o_super; ad Walteru[m] co[n]sorte[m] suu[m] de Mundi appetita.  <!-- DO: Looks like 'exinanili' to me. I think the word after su[n]t might be an 'etc' rather than 'ex', but not sure... The deleted text can be captured in brackets followed by the word 'deleted'-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                       <!-- Translation needed -->
             </translation>
         </marginalia>
         
@@ -53,12 +53,12 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Horunt 1o 1135
+                        Horunt 1o 1135       <!-- DO: Not sure what first word is, but then I think it's 'Henricus H[un]t[in]gto[n] a[nn]o [1145 deleted] 1135.' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                          <!-- Translation needed -->
             </translation>
         </marginalia>
         
@@ -66,14 +66,15 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Henricus Huntingdon supsit Eplani Regi Henricu[m], De serie regu[m] pote[n]tissior[um] ip[s]i p[er] orbe[m]verar[um]... fuerit
-                        et alia[m] de origine regu[m] Britannor[um] qui in ha[e]c terra regnaveru[n]t vsq[ue] ad adve[n]tum Julij Ca[e]sarij sine geti arglor[um]
-                        et vertiu[m] ad Walteru[m] ... vt sup[ra] All theseor ... no[n] ... his ... bok of histaries: in a fayr copy ...
+                        Henricus Huntingdon supsit Eplani Regi Henricu[m], De serie regu[m] pote[n]tissior[um] ip[s]i p[er] orbe[m] verar[um]... [deleted] fuerit        <!-- DO: 'scripsit', not sure what the following word is. Think it's 'Henrico'. Might be 'terrar[um]', not sure. Next words possibly 'huc vsq[ue]'. Think final word of line is 'fueru[n]t'  -->
+                        et alia[m] de origine regu[m] Britannor[um] qui in ha[e]c terra regnaveru[n]t vsq[ue] ad adve[n]tum Julij Ca[e]sarij sine geti arglor[um]        <!-- DO: I think it's just 'hac terra' (ablative). Last words more likely to be 'gesti/ge[n]ti a[n]gloru[m]'?? -->
+                        et vertiu[m] ad Walteru[m] ... vt sup[ra] All theseor ... no[n] ... his ... bok of histaries: in a fayr copy ...  <!-- DO: 'tertiu[m]'? Think the part after 'Walteru[m]' is just an 'etc' -->
+                     <!-- DO: Think the English bit is 'All these ar ioyned w[ith] his 9 bokes of historie: in a fayr copy, which I [borowed?] of Mr John harpsfeld a[nn]o 1576. feb[ruarij] 23.' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                         <!-- Translation needed -->
             </translation>
         </marginalia>
         
@@ -86,9 +87,14 @@
                 </position>
             </language>
             <translation>
-                
+                         <!-- DO: Translation needed -->
             </translation>
         </marginalia>
+        
+        
+        <!-- DO: Circumflex to be captured (in the third 'section') -->
+        
+        
         
     </annotation>
 </transcription>
