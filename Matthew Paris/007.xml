@@ -10,19 +10,19 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Cometa saxonic&agrave; vel Anglic&agrave;] vocatur, vexede sterre pag: 345 p[ar]t[e]1&a_super;
-                        Bathonia saxonic&agrave; Akemanecestre pag 374. p[ar]t[e] 1&a_super;
-                        Guilielmus Conquestor de .naquaq[ue] hyda terra[e] extorsit sex solidos. pag: 8: p[ar]te 2&a_super;
-                        Grabamma plebis 32:H:3. pag 229. et 233.
-                        Constitutiones regis quia sine co[mmun]i consensu Baronagii &amp;c annullatae.37:H:3. pag: 253.
-                        Eppi: Bath: Elien: &amp; Roff: obligaruntse in Curia Romana in 5500 marcis pro rege, ad vitanda exco[m]municationis sententiam in p[er]sona regis p[ro]ferenda et generale regni interdictur, ob debiturregis non p[ro]solutur. 43:H:3: pag 287.
-                        Ric[ard]us de Gray Constabularius Doueria[e] et Custos quinque portius priuatur officiop[ro] Hug Bigot Fusticiarius, quia nuntius Papa[e] sine co[mmun]i consensu p..serat Angliam intrare. 43:H:3: pag. 287.
-                        Reges Scotia[e] veniendo ad reges Anglia[e] ex quo Humbram veniendo transiuerint, denec redeundo illud flumen trangressi fuerint, reci&sharp-S;iebant quotidie 100 solidos a regibus Anglia[e]. pag: 302:p[ar]te 2da
-                        Rex medietatem omnium bonoru[m] tam temporaliu[m] quam spiritualium postulat a tota ecclesia Celero et populo coadunatis per tota[m] Angliam locata; et pro eno anno coneessa fuit. 22:E:1 pag. 393.
-                        Papa emunerit Fratres minores 400,000 florenis aureis pag 414 A[nn]o D[o]m[in]i 1299.
-                        Quidem qui Christum in terris hic in carne di[lli]gentem vidit, vivit adhuc. A[nn]o D[o]m[in]i 1228: pag 125.
-                        Papa per imperatorem canonica et imperiali censura depositus: A[nn]o D[o]m[in]i: 1033. pag 408.
-                        Da[e]mones humanas formas in bestias immutare non possunt, sed oculos ho[m]i[n]um suis machinationibus ita fallere, vt aliud sit corpus, et aliud videatur. pag 417, p[ar]te 1&a_super;
+                        Cometa saxonic&agrave; vel Anglic&agrave; vocatur, Vexede sterre pag[ina]: 345 p[ar]t[e] 1&a_super;  <!-- DO: I think the final letters of 'saxonice' and 'Anglice' are 'e's with grave accents, not 'a's -->
+                        Bathonia saxonic&agrave; Akemanecestre. pag[ina] 374. p[ar]t[e] 1&a_super;    <!-- DO: again grave 'e' -->
+                        Guilielmus Conquestor de .naquaq[ue] hyda terra[e] extorsit sex solidos. pag[ina]: 8: p[ar]te 2&a_super;.      <!-- DO: I think 'vnaquq[ue]' -->
+                        Grabamma plebis. 32:H:3. pag[ina] 229. et 233.
+                        Constitutiones regis quia sine co[mmun]i consensu Baronagii &amp;c annullata[e]. 37:H:3. pag[ina]: 253.
+                        Eppi: Bath: Elien: &amp; Roff: obligarunt se in Curia Romana in 5500 marcis pro rege, ad vitanda exco[m]municationis sententiam in p[er]sona regis p[ro]ferenda et generale regni interdictur, ob debitur regis non p[ro]solutur. 43:H:3: pag[ina] 287.  <!-- DO: I think the long tails at the end of words like 'vitanda' this signify a contraction (so, '-am'). As such, I would say it's 'persona[m]', 'p[ro]ferenda[m]', 'interdictu[m]', 'debitu[m]' and 'p[ro]solutum' -->
+                        Ric[ard]us de Gray Constabularius Doueria[e] et Custos [deleted] quinque portius priuatur offici op[ro] Hug Bigot Fusticiarius, quia nuntius Papa[e] sine co[mmun]i consensu p..serat Angliam intrare. 43:H:3: pag[ina]: 287.  <!-- DO: Not sure about 'portius'... I'd also say it's 'Iusticiariu[m]' and 'nuntiu[m]'. Final word in this line might be 'p[ro]miserat'? -->
+                        Reges Scotia[e] veniendo ad reges Anglia[e] ex quo Humbram veniendo transiuerint, denec redeundo illud flumen trangressi fuerint, [deleted] reci&sharp-S;iebant quotidie 100 solidos a regibus Anglia[e]. pag[ina]: 302:p[ar]te 2da  <!-- DO: 'recipiebant', I think -->
+                        Rex medietatem omnium bonoru[m] tam temporaliu[m] quam spiritualium postulat a tota ecclesia Celero et populo coadunatis per tota[m] Angliam locata; et pro eno anno coneessa fuit. 22:E:1 pag[ina]: 393.
+                        Papa emunerit Fratres minores 400,000 florenis aureis, pag[ina]: 414 A[nn]o D[o]m[in]i 1299.              <!-- DO: Maybe 'emunxit'? -->
+                        [deleted] Quidem qui Christum in terris hic in carne di[lli]gentem vidit, vivit adhuc. A[nn]o D[o]m[in]i 1228: pag[ina]: 125.  <!-- DO: Looks like 'Quidam' -->
+                        Papa per imperatorem canonica et imperiali censura depositus: A[nn]o D[o]m[in]i: 1033. pag[ina] 408.
+                        Da[e]mones humanas formas in bestias immutare non possunt, sed oculos ho[m]i[n]um suis machinationibus ita fallere, vt aliud sit corpus, et aliud videatur. pag[ina] 417. p[ar]te 1&a_super;
                     </marginalia_text>
                 </position>
             </language>
@@ -32,6 +32,12 @@
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="Ric[ard]us"></drawing>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="Rex"></drawing>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="Papa"></drawing>
+        
+        
+        <!-- DO: Circumflexes in first, fifth and sixth lines, and at 'omnium bonoru[m] tam' -->
+        
+        <!-- Translation needed, and tagging of people and places -->
+        
         
     </annotation>
 </transcription>
