@@ -10,7 +10,8 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Brito iste quis est, uel in    <!-- DO: I think it must be 'vel ni', to make more sense, though I'm still not sure how to translate. 'That Briton is someone, or not'?? -->
+                        Brito iste quis est, vel in    <!-- DO: I think it must be 'vel ni', to make more sense, though I'm still not sure how to translate. 'That Briton is someone, or not'?? -->
+                        <!-- FSF: I am not sure about this; I think the tranlsation depends on the in or ni; I had a feeling this note was not complete, but this is more a feeling than anything else  -->
                     </marginalia_text>
                 </position>
             </language>
@@ -23,10 +24,13 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        ve esse signatus <!-- FSF: I am not sure about the first word -->  <!-- DO: Possibly 'vir[um]'? I think the second word is 'figme[n]tum.' - 'Man is a figment'? -->
+                        v[i]r esse figme[n]tum
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                Man is a figment.
+            </translation>
         </marginalia>
         
         <underline method="pen" type="double" language="LA" text="de genere"/>
