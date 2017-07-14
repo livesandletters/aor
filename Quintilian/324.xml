@@ -6,7 +6,6 @@
     <page filename="324.tif" reader="John Dee" pagination="318"/> 
     <annotation>
         
-        
         <!-- M.B. Not how best to classify the symbol in the left marginal beneath 'AEquitas'. -->
         
         <marginalia hand="Italian" anchor_text="patris memoria">
@@ -21,7 +20,7 @@
         <marginalia hand="Italian" anchor_text="aequitate">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>A[E]quitas</marginalia_text>
+                    <marginalia_text>A[E]quitas</marginalia_text> <!-- FSF: I'd transcribe as &AElig; -->
                 </position>
             </language>
             <translation>Equality.</translation>
@@ -55,7 +54,6 @@
             <translation>Pro Roscio.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Troiam quinquaginta reges nauigauerint">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -63,12 +61,13 @@
                     <location name="Troy"/>
                 </position>
             </language>
-            <translation>The fifty king who set sail for Troy.</translation>
+            <translation>The fifty king who set sail for Troy.</translation> <!-- FSF: why not just Fifty kings set sail for Troy -->
         </marginalia>
         
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
         
+        <!-- FSF: there is a little scribble or so in the left margin -->
+        
     </annotation>
 </transcription>
-
