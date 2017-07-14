@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Vide omnino co[m]me[n]taria Seruij in A[E]neida virgilij
+                        Vide omnino co[m]me[n]taria Seruij in &AElig;neida virgilij
                     </marginalia_text>
                     <person name="Virgil"/>
                     <person name="Maurus Servius Honoratus"/>
@@ -23,17 +23,18 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">      <!-- DO: This links to 'Ascanius' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Aliter , Dionysio Halicarnasseo
+                        Aliter , Dionysio Halicarnasseo         <!-- DO: I think the second word is 'dictus' ('otherwise known as...). Apparently Dionysius of Halicarnassus called Ascanius 'Euryleon', but to me this looks more like 'Euritala'??  -->
                     </marginalia_text>
-                    <person name="DIonysus of Halicarnassus"/>
+                    <person name="Ascanius"/>
+                    <person name="Dionysius of Halicarnassus"/>
                 </position>
             </language>
             <translation>
-                
+                           <!-- DO: 'Otherwise called [?] by Dionysius of Halicarnassus.' -->
             </translation>
         </marginalia>
         
@@ -54,7 +55,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        .. liberis <!-- FSF: some disappears in the gutter -->
+                        .. liberis <!-- FSF: some disappears in the gutter -->  <!-- DO: First word looks like 'sine' (assuming this is part of the same note?) -->
                     </marginalia_text>
                 </position>
             </language>
@@ -64,31 +65,34 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="suscepit Ascanius"/>
-        <underline method="pen" type="straight" language="LA" text="Hic condidit"/>
+        <underline method="pen" type="straight" language="LA" text="Hic"/>
         <underline method="pen" type="straight" language="LA" text="Tiberim genuitq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="nepti Lauiniae"/>
         
-        <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
-            <node id="n1" person="Anchiles"></node>
-            <node id="n2" person="Venus"></node>
-            <node id="n3" person="A[E]neas"></node>
-            <node id="n4" person="Creusa"></node>
-            <node id="n5" person="Lavinia"></node>
-            <node id="n6" person="Ascanius"></node>
-            <node id="n7" person="Sylui[us] Posthum[us]"></node>
-            <node id="n8" person="Syluius"></node>
-            <node id="n9" person="Lavinia[e] Nepes"></node>
-            <node id="n10" person="Brutus"></node>
-            <node id="n11" person="Innogen"></node>
-            <node id="n12" person="Locrinus"></node>
-            <node id="n13" person="Albanastus"></node>
-            <node id="n14" person="Camber"></node>
+        <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">   <!-- DO: The official name of the person (as on the spreadsheet) should be tagged as the 'person', whilst their name as written in the note is put in between the triangular brackets  -->
+            <node id="n1" person="Anchiles"></node>     <!-- DO: Think it's Anchises -->
+            <node id="n2" person="Venus">Venus</node>
+            <node id="n3" person="Aeneas">&AElig;neas</node>
+            <node id="n4" person="Creusa">Creusa</node>
+            <node id="n5" person="Lavinia">Lavinia</node>
+            <node id="n6" person="Ascanius">Ascanius</node>
+            <node id="n7" person="Silvius">Sylui[us] Posthum[us]</node>  <!-- DO: I think this is an alternative genealogy so he is the same as Silvius (see: https://en.wikipedia.org/wiki/Silvius_(mythology)) -->
+            <node id="n8" person="Silvius">Syluius</node>
+            <node id="n9" person=""></node>           <!-- DO: Think this says 'Neptis'. I can't identify her; Wikipedia just has 'Wife of Silvius'... -->
+            <node id="n10" person="Brutus of Troy">Brutus</node>
+            <node id="n11" person="Ignoge">Innogen</node>
+            <node id="n12" person="Locrinus">Locrinus</node>
+            <node id="n13" person="Albanastus"></node>            <!-- DO: Albanactus -->
+            <node id="n14" person="Kamber">Camber</node>
             <link to="n3" from="n1 n2" relationship="has_child"/>
             <link to="n7" from="n3 n5" relationship="has_child"/>
             <link to="n6" from="n3 n4" relationship="has_child"/>
             <link to="n8 n9" from="n6" relationship="has_child"/>
-            <link to="n10" from="n8 n9" relationship="has_child"/>
-            <link to="n12 n13 n14" from="n10 n11" relationship="has child"/>
+            <link to="n10" from="n8 n9" relationship="has_child"/>    <!-- DO: Following our discussion, I would tag these the other way round (n8 and n9 as children of n10) -->
+            <link to="n12 n13 n14" from="n10 n11" relationship="has_child"/>
+            <!-- DO: Text at top of tree can be captured as graph_text -->
+            <!-- DO: Ensure all these people are added to the spreadsheet -->
+            
         </graph>
         
     </annotation>
