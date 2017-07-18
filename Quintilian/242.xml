@@ -6,7 +6,7 @@
     <page filename="242.tif" reader="John Dee" pagination="236"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Thebas euertisset Alexander, inuenit tabulas"> <!-- FSF: not sure if inuenit tabulas is needed here -->
+        <marginalia hand="Italian" anchor_text="Thebas euertisset Alexander">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Theba[e] ad Alexandro euersa[e]</marginalia_text>
@@ -35,20 +35,19 @@
             <translation>The law of war.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Propriu[m] &amp; illud causa[e], quod Amphictyones iudicant, ut alia apud centumuiros, alia apud iudicem priuatum in ijsdem quaestioibus ratio sit. Tum secundo gradu 
-            no[n] potuisse donari &agrave; uictore ius, quia id demum sit eius, quod ipse teneat: ius, qu&ograve;d sit incorporale, apprehendi manu non posse"> <!-- FSF: I think the sentence beginning with Tum secundo is enough -->
+        <marginalia hand="Italian" anchor_text="Tum secundo gradu no[n] potuisse donari &agrave; uictore ius, quia id demum sit eius, quod ipse teneat: ius, qu&ograve;d sit incorporale, apprehendi manu non posse">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>2&a_super; pars diuisio[n]is</marginalia_text> <!-- M.B. I think 'a' refers to duplicia?? -->
+                    <marginalia_text>2&a_super; pars diuisio[n]is</marginalia_text>
                 </position>
             </language>
-            <translation>Two part division.</translation> <!-- FSF: I'd translate as The second part of the division. -->
+            <translation>The second part of the division.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="commulitio"/>
         <underline method="pen" type="straight" language="LA" text="prima quidem actio facilis, ac fauorabilis, repetentiu[m] iure, quod ui sit ablatum"/>
         
-        <mark name="bracket" method="pen" place="left_margin"/> <!-- FSF: I am not entirely sure if this is a bracket -->
+        <mark name="box" method="pen" place="left_margin"/> 
         <mark name="tripunctus" method="pen" place="left_margin"/>
         
     </annotation>
