@@ -6,16 +6,19 @@
     <page filename="135.tif" reader="John Dee" pagination="111" signature="K ij."/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: I would anchor 'ANno ... Eleutherius Papa' -->
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        NS: Eleutherius was lected Pope A[nn]o 170: therfore this Date is so much out of the way to late as the whose tyme of his govrnmd <!-- not sure about the last word -->
+                        NS: Eleutherius was lected Pope A[nn]o 170: therfore this Date is so much out of the way to late as the whose tyme of his govrnmd <!-- not sure about the last word -->  <!-- DO: 'elected' (a typo); and I think it's 'the whole tyme of his governme[n]t.' -->
                     </marginalia_text>
                     <person name="Eleuterus"/>
                 </position>
             </language>
         </marginalia>
+        
+        <!-- DO: I think the NS is another instance of Nicholas Saunder writing his initials over Dee's. Not sure how to capture this though. -->
+        
         
         <underline method="pen" type="straight" language="LA" text="gratiae. clxxxv. Eleutherius"/>
         
