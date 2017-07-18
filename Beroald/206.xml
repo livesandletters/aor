@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="radices motuum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Radices motuu[m] Caelestium</marginalia_text> <!-- FSF: Ca[e]lestium -->
+                    <marginalia_text>Radices motuu[m] Ca[e]lestium</marginalia_text> 
                 </position>
             </language>
             <translation>The origins of the celestial movements.</translation>
@@ -18,11 +18,10 @@
         <marginalia hand="Italian" anchor_text="Astrologoru[m] errata">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Astrologoru[m] (vt iste [auturnal?]) errores.</marginalia_text>    <!-- DO: Not sure about word after 'iste' --> 
-                    <!-- FSF: I think transcription is good; I'd translate as Errors of astrologers, like this ?thinker?, see http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0059%3Aentry%3Dautumo -->
+                    <marginalia_text>Astrologoru[m] (vt iste autumat) errores.</marginalia_text>    
                 </position>
             </language>
-            <translation>Astrological errors (as</translation>
+            <translation>Errors of astrologers (as this asserts).</translation>    <!-- DO: Transcription and translation to be checked -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="post 25. Martij"/>
