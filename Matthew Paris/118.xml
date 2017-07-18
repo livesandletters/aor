@@ -12,7 +12,7 @@
                     <marginalia_text>
                         Orcades
                     </marginalia_text>
-                    <location name="Orkney"/>
+                    <location name="Orkney"/>      <!-- DO: This location already appears on the spreadsheet as Orkney Islands... 'Orcades' should be added to the list as an alternative name. -->
                 </position>
             </language>
             <translation>
@@ -20,11 +20,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: Anchor 'Genissa' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Gemissa filia Claudij Imper.
+                        Gemissa filia Claudij Imper.      <!-- DO: I think it's 'Genissa', like the text. I would put 'Imper[atoris]' -->
                     </marginalia_text>
                     <person name="Venissa"/>
                     <person name="Claudius"/>
@@ -35,7 +35,7 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="double" language="LA" text="Brita[n]nicos obsides Rom[a]e"/>
+        <underline method="pen" type="double" language="LA" text="inter Brita[n]nicos obsides Rom[a]e"/>
         <underline method="pen" type="straight" language="LA" text="videlicet Claudius filiam suam Aruirago maritaret"/>
         <underline method="pen" type="straight" language="LA" text="Aruiragus regnu[m] Britanniae &agrave; Romanis sub tributo teneret"/>
         <underline method="pen" type="double" language="LA" text="propter filiam"/>
