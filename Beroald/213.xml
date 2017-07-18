@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="213.tif" reader="John Dee" pagination="189" signature="[q.v.]"/> <!-- FSF: I wouldn't write the signature here -->
+    <page filename="213.tif" reader="John Dee" pagination="189"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="vigesimumquintum Decembris">
@@ -18,11 +18,11 @@
         <marginalia hand="Italian" anchor_text="de natali die Domini conueniebat, quemadmodum neque conuenit hodie">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Non convenit hodie de Natali Die J[es]ui</marginalia_text> <!-- FSF: is the last word not rather Chr[ist]i -->
+                    <marginalia_text>Non convenit hodie de Natali Die Chr[ist]i</marginalia_text>
                     <person name="Jesus Christ"/>
                 </position>
             </language>
-            <translation>It is not agreed today about the birth date of Jesus.</translation>
+            <translation>It is not agreed today about the birth date of Christ.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ex iis quae nota[n]tur &agrave; Clemente, libro primo Stromatum, rem istam vari&egrave; iactatam fuisse constat">
@@ -57,7 +57,7 @@
         <underline method="pen" type="straight" language="LA" text="vigesimumquintum Decembris"/>
         <underline method="pen" type="double" language="LA" text="natali die Domini"/>
         <underline method="pen" type="straight" language="LA" text="quemadmodum neque conuenit hodie"/>
-        <underline method="pen" type="straight" language="LA" text="dominus incarnatus mense Ianuario"/>  <!-- DO: Not sure if the 'r' in 'Ianuario' has been filled in / corrected? --> <!-- FSF: to me it looks as if it was redrawn -->
+        <underline method="pen" type="straight" language="LA" text="dominus incarnatus mense Ianuario"/>  
         <underline method="pen" type="double" language="LA" text="nati Domini"/>
         <underline method="pen" type="straight" language="LA" text="Pachon"/>
         <underline method="pen" type="double" language="LA" text="Maius"/>
@@ -84,6 +84,8 @@
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
         
+        
+        <errata language="LA" copytext="Ianuario" amendedtext="Ianuario"/>
         <errata language="LA" copytext="septimo" amendedtext="[deleted]"/> <!-- FSF: see above -->
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
