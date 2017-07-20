@@ -42,7 +42,7 @@
             <translation>Definition.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="ex eo quod scriptum">
+        <marginalia hand="Italian" anchor_text="ex eo quod scriptum"> <!-- FSF: I'd anchor also the est -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Ex scripto</marginalia_text>
@@ -75,10 +75,11 @@
         <underline method="pen" type="straight" language="LA" text="An quod semel ius est, idem &amp; saepius,"/>
         <underline method="pen" type="straight" language="LA" text="scripto alter nititur, alter non satis cautum esse dicit"/>
         
+        <!-- FSF: I think you forgot to capture the numbers -->
+        
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
-
