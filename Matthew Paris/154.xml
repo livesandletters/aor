@@ -6,17 +6,17 @@
     <page filename="154.tif" reader="John Dee" pagination="130"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'Helenae' -->
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
                         At cuius Helena[e]?
                     </marginalia_text>
-                    <person name="Helena"/>
+                    <person name="Helena"/>   <!-- DO: I would maybe give her a more specific tag, like 'Empress Helena' -->
                 </position>
             </language>
             <translation>
-                But of his Helena?
+                But of his Helena?        <!-- DO: Might it be 'But of which Helena?' (i.e. asking which Helena it is referring to) -->
             </translation>
         </marginalia>
         
