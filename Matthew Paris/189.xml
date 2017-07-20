@@ -6,10 +6,11 @@
     <page filename="189.tif" reader="John Dee" pagination="165"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="vado baculi">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Stafford.</marginalia_text>        <!-- Stafford needs to be tagged as a location; you can also anchor 'vado baculi', literally 'ford of the staff' -->
+                    <marginalia_text>Stafford.</marginalia_text>   
+                    <location name="Stafford"/>
                 </position>
             </language>
         </marginalia>
