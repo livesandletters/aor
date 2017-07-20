@@ -10,11 +10,11 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Incipit ia[m] aperire [roem?] tituli Will[ia]mi Conquestoris ad regnu[m] Ang[liae]</marginalia_text>  <!-- DO: Not sure of 'roem' contraction --> <!-- FSF: r[ati]onem -->
+                    <marginalia_text>Incipit ia[m] aperire r[ati]o[n]em tituli Will[ia]mi Conquestoris ad regnu[m] Ang[liae].</marginalia_text>  
                     <person name="William the Conqueror"/>
                 </position>
             </language>
-            <translation>It has already begun to appear [?] of the title of William the Conqueror to rule of England.</translation>
+            <translation>The explanation of William the Conqueror's claim to the kingdom of England has already begun to appear.</translation>  <!-- DO: Not sure about translation -->
         </marginalia>
   
         <marginalia hand="Italian" anchor_text="duci" method="pen">
@@ -50,7 +50,7 @@
         <marginalia hand="Italian" anchor_text="1065" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>A[nn]&o_super; 1065.</marginalia_text> <!-- FSF: since expanded I would say A[nn]o -->
+                    <marginalia_text>A[nn]o 1065.</marginalia_text> 
                 </position>
             </language>
             <translation>In the year 1065.</translation>
@@ -59,11 +59,11 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Haraldi vesana ambitio et [piurium]</marginalia_text> <!-- DO: Not sure of the final contraction --> <!-- FSF: p[er]iurium -->
+                    <marginalia_text>Haraldi vesana ambitio et p[er]iurium</marginalia_text> 
                     <person name="Harold Godwinson"/>
                 </position>
             </language>
-            <translation>The wild ambition and [?] of Harold.</translation>
+            <translation>The wild ambition and perjury of Harold.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Stella apparuit" method="pen">
@@ -81,7 +81,7 @@
                     <marginalia_text>3000 naves classis</marginalia_text> 
                 </position>
             </language>
-            <translation>A fleet of 3000 ships.</translation>  <!-- DO: 3000 ships of a fleet? --> <!-- FSF: I think so, not sure -->
+            <translation>3000 ships in the fleet.</translation>  
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Aluredi" method="pen">
@@ -149,7 +149,9 @@
         
         <drawing type="manicule" book_orientation="0" place="head" method="pen"></drawing>
         
+        
         <!-- DO: Drawing of comet -->
+        
 
     </annotation>
 </transcription>
