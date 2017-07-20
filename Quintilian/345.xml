@@ -15,13 +15,13 @@
             <translation>Guilty.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="non semper defensione facti, sed excusatione ac uenia freque[n]tur utuntur">
+        <marginalia hand="Italian" anchor_text="non semper defensione facti, sed excusatione ac uenia freque[n]tur utuntur"> <!-- FSF: I would anchor only until excusatione -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>No[n] se[m]p[er] tactu[m] defenditur sed aliqua[n]di excusatur.</marginalia_text>
+                    <marginalia_text>No[n] se[m]p[er] tactu[m] defenditur sed aliqua[n]di excusatur.</marginalia_text> <!-- FSF: I think it is factu[m] and aliqua[n]do -->
                 </position>
             </language>
-            <translation>The accused do not always reach a defence but sometimes resort to excuses</translation>
+            <translation>The accused do not always reach a defence but sometimes resort to excuses</translation> <!-- FSF: I'd translate as: Not always is the act defended, but sometimes excused. -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Verrem">
@@ -43,13 +43,13 @@
             <translation>Republic.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="per errorem, &amp; leuius qu&agrave;m obijciatur, absolutioni no[n]nunquam sufficit"/>
+        <underline method="pen" type="straight" language="LA" text="per errorem, &amp; leuius qu&agrave;m obijciatur, absolutioni no[n]nunqua[m] sufficit"/>
         <underline method="pen" type="straight" language="LA" text="legationis"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> <!-- FSF: question if book orientation another -->
         
     </annotation>
 </transcription>
