@@ -15,7 +15,7 @@
             <translation>Quality.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="de ui facti">
+        <marginalia hand="Italian" anchor_text="de ui facti"> <!-- FSF: I'd anchor it with Vis at the end of the second line -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>de ve</marginalia_text>
@@ -23,7 +23,6 @@
             </language>
             <translation>The force.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="adulter">
             <language ident="LA">
@@ -40,7 +39,7 @@
                     <marginalia_text>De no[m]i[n]e</marginalia_text>
                 </position>
             </language>
-            <translation>The name.</translation>
+            <translation>The name.</translation> <!-- FSF: render the ablative: about the name -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="homicida">
@@ -70,10 +69,10 @@
             <translation>Poisoning.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Cicero ??tad[que[</marginalia_text> <!-- M.B. Not sure of contraction. -->
+                    <marginalia_text>Cicero ??tad[que[</marginalia_text> <!-- M.B. Not sure of contraction. --> <!-- imita[n]d[us] -->
                     <person name="Cicero"/>
                 </position>
             </language>
@@ -116,12 +115,10 @@
             <translation>Tyrannicide.</translation>
         </marginalia>
         
-        
-        <underline method="pen" type="straight" language="LA" text="Res enim manifesta est, sciturq[ue] non idem esse occidere se, quod aliu[m]."/>
+        <underline method="pen" type="straight" language="LA" text="Res enim manifesta est, scitur'q[ue] non idem esse occidere se, quod aliu[m]."/>
         <underline method="pen" type="straight" language="LA" text="mortiferam potionem"/>
         <underline method="pen" type="straight" language="LA" text="qui permultos secutus autores"/>
         <underline method="pen" type="straight" language="LA" text="amatorium, uenenum"/>
         
     </annotation>
 </transcription>
-
