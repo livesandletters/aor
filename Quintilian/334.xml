@@ -15,25 +15,25 @@
             <translation>Did he wish to, was he able to, did he do it?</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="quibus coniectura, uersatur, defensionis tant&ugrave;m">
+        <marginalia hand="Italian" anchor_text="quibus coniectura, uersatur, defensionis tant&ugrave;m"> <!-- FSF: this doesn't make much sense unless you extend to genere mutato -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>a co[n]iectura ad diffinitionem</marginalia_text>
                 </position>
             </language>
-            <translation>Conjecture on the definition.</translation>
+            <translation>Conjecture on the definition.</translation> <!-- FSF: I'd say From a conjecture to a definition -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="&agrave; qualitiate ad finitionem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>A q[ual]itate ad diffinitione[m]</marginalia_text>
+                    <marginalia_text>A q[ual]itate ad diffinitione[m]</marginalia_text> <!-- FSF: I'd put l after the bracket -->
                 </position>
             </language>
-            <translation>Quality of the definition.</translation>
+            <translation>Quality of the definition.</translation> <!-- FSF: as above: From quality to a definition -->
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Nome[n].</marginalia_text>
@@ -45,7 +45,8 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ex quibus co[n]stare debet diff[..]</marginalia_text> <!-- M.B. Not sure of the final contraction? -->
+                    <marginalia_text>Ex quibus co[n]stare debet diff[..]</marginalia_text> <!-- M.B. Not sure of the final contraction? --> 
+                    <!-- FSF: I'd say it is as in the printed text diff[erent]o, just singular; also I'd add the anchor text from constat to differentibus -->
                 </position>
             </language>
             <translation>From which</translation> 
@@ -57,7 +58,7 @@
                     <marginalia_text>De re &amp; de Nomine.</marginalia_text>
                 </position>
             </language>
-            <translation>The thing and the name.</translation>
+            <translation>The thing and the name.</translation> <!-- FSF: I'd render ablative with about: about the thing and about the name -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="quid sit deus">
@@ -82,9 +83,7 @@
         <underline method="pen" type="straight" language="LA" text="ut in furtis, depositis, adulterijs"/>
         <underline method="pen" type="straight" language="LA" text="Finitio igitur est rei propositae, propria &amp; dilucida, &amp; breuiter comprehensa uerbis enunciatio. Constat"/>
         
-        
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         
     </annotation>
 </transcription>
-
