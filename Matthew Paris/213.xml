@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                The Isle of Wight was subjugated
+                The Isle of Wight was subjugated.
             </translation>
         </marginalia>
         
@@ -24,14 +24,14 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Lothus nepos sichelini regis Norwegia[e]: sororius Arthuri. <!-- FSF: not sure -->
+                        Lothus nepos sichelini regis Norwegia[e]: sororius Arthuri. <!-- FSF: not sure -->  <!-- DO: I think this is correct -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Loth, the daughter of Sichelinus, King of Norway, sister of Arthur. <!-- FSF: not sure -->
-            </translation>
-        </marginalia>
+                Loth, the daughter of Sichelinus, King of Norway, sister of Arthur. <!-- FSF: not sure -->  <!-- DO: King Lot was married to Arthur's sister Anna, so I think the adjective 'sororius' refers to this and can maybe just be translated as 'brother-in-law' -->
+            </translation>                                                                                  <!-- DO: 'Loth, the nephew of Sichelm, King of Norway: Arthur's brother-in-law' -->
+        </marginalia>                                                                                       <!-- People need to be tagged, see: https://en.wikipedia.org/wiki/King_Lot -->
         
         <marginalia hand="Italian" anchor_text="VValuuanus">
             <language ident="LA">
@@ -42,24 +42,20 @@
                 </position>
             </language>
             <translation>
-                Walwanus. <!-- FSF: not sure -->
+                Walwanus. <!-- FSF: not sure -->       <!-- DO: This appears to be another name of: https://en.wikipedia.org/wiki/Gawain -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="illam sibi subdiderunt"/>
         <underline method="pen" type="straight" language="LA" text="clar&egrave; loque[n]do"/>
         <underline method="pen" type="double" language="LA" text="primus"/>
-        <underline method="pen" type="straight" language="LA" text="parato Nauigio"/>
+        <underline method="pen" type="straight" language="LA" text="parato nauigio"/>
         <underline method="pen" type="double" language="LA" text="Norvvegiam adiuit"/>
         <underline method="pen" type="straight" language="LA" text="Sichelinum"/>
-        <underline method="pen" type="straight" language="LA" text="qui moriens"/>
-        <underline method="pen" type="double" language="LA" text="Lotho sororio"/>
-        <underline method="pen" type="grid" language="LA" text="Arthuri"/>
-        <underline method="pen" type="double" language="LA" text="regnum"/>
-        <underline method="pen" type="straight" language="LA" text="assignauerunt Norvvegensium"/>
-        <underline method="pen" type="straight" language="LA" text="Erat enim nepos Sichelini"/>
+        <underline method="pen" type="straight" language="LA" text="qui moriens Lotho sororio Arthuri regnum assignauerat Norvvegensium"/>
+        <underline method="pen" type="straight" language="LA" text="Erat enim nepos"/>
         <underline method="pen" type="straight" language="LA" text="VValuuanus filius predicti Lothi"/>
-        <underline method="pen" type="straight" language="LA" text="Ta[n]dem cum Arthurus Lothu[m], subactis NOrvvigensibus, in regnu[m] sublimasset"/>
+        <underline method="pen" type="straight" language="LA" text="Ta[n]dem cum Arthurus Lothu[m], subactis Norvvigensibus, in regnu[m] sublimasset"/>
         <underline method="pen" type="straight" language="LA" text="Britanniam cum gaudio remeauit, Gallicanas"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
