@@ -10,18 +10,18 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Duodecies Dux Belli fuit, Duodecies victor Bellor[um] Primu[m] Bellu[m] esse. Ha[e]c autem Bella, et loca bellor[um] narrat quida[m] historiographus qua[e] tame[n] o[mn]ia loca, n[ost]ra[e] a[e]tati incognita su[n]t. 
+                        Duodecies Dux Belli fuit, Duodecies victor Bellor[um] Primu[m] Bellu[m] esse. Ha[e]c autem [deleted] Bella, et loca bellor[um] narrat quida[m] historiographus qua[e] tame[n] o[mn]ia loca, n[ost]ra[e] a[e]tati incognita su[n]t. 
                         Quod providentia dei factum putamus, ad despectum popularis ann... 
-                        Henricus Hundingdon 162 de Arthuro
-                    </marginalia_text>
+                        Henricus Hundingdon 162 de Arthuro                     <!-- DO: I think the word following 'victor' is 'Bellator[um]'; possibly the word after 'Bellu[m]' could be 'etc' but not sure as different from the one which follows...  -->
+                    </marginalia_text>                                         <!-- After 'popularis' I think it's maybe 'aur[a]e' and then '[etc]'. I don't think it's '162' but rather'lib[e]r' -->
                     <person name="Henry of Huntingdon"/>
                 </position>
             </language>
             <translation>
                 He was twelve times the leader of a war, twelve times victor of the wars. The first war was. But these wars and palces of the wars, which a certain historian tells of, are nevertheless all unknown to our age.  
-                What we believe to be done by God's providence...
-                Henry of Huntingdon about Arthur.
-            </translation>
+                What we believe to be done by God's providence...                      <!-- DO: '... the victor of warriors in the first war. But a certain historian tells of the wars, and the places of wars, which are...'?  -->
+                Henry of Huntingdon about Arthur.                                      <!-- 'We believe this to be done ... to the disdain of the ear of the people, etc.'? Not sure about this, seems odd... '... in the book about Arthur' -->
+            </translation>                                                             <!-- You can tag the book as well, 'Historia Anglorum', and also Arthur -->
         </marginalia>
         
         <underline method="pen" type="double" language="LA" text="Constantino"/>
