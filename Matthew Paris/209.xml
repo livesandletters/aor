@@ -6,16 +6,17 @@
     <page filename="209.tif" reader="John Dee" pagination="185" signature="Q iij"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Choream gigantum' -->
+        <marginalia hand="Italian" anchor_text="Choream gigantum"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Chorea gigantum       <!-- DO: As before, Stonehenge -->
+                        Chorea gigantum
                     </marginalia_text>
+                    <location name="Stonehenge"/>
                 </position>
             </language>
             <translation>
-                A gigantic court.
+                Stonehenge.
             </translation>
         </marginalia>
         
@@ -28,8 +29,7 @@
                 </position>
             </language>
             <translation> 
-              <!-- DO: I think 'The sea at Caithness', judging by this translation of Geoffrey of Monmouth: https://books.google.co.uk/books?id=stj1zulh3ukC&printsec=frontcover&dq=geoffrey+of+monmouth+historia+regum+britanniae+translation&hl=en&sa=X&ved=0ahUKEwiWkr31kprVAhXFaVAKHRTMDQMQ6AEIMjAC#v=snippet&q=caithness&f=false  -->
-            <!-- DO: Location to be tagged as well -->
+              The sea at Caithness. <!-- FSF: I am not sure how to tag the location; is it the North Sea? Or only Caithness? -->
             </translation>
         </marginalia>
         
@@ -50,14 +50,14 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Helena soror Arthuri erat  <!-- FSF: to be completed -->   <!-- DO: You can capture '[Anna deleted]' as well. I think the final word is 'vterina' ('born of the same mother') -->
+                        Helena [Anna deleted] soror Arthuri erat vterina
                     </marginalia_text>
                     <person name="King Arthur"/>
-                    <person name="Helena"/>        <!-- DO: I would try and give her a more specific tag. I'm not sure if he's referring to 'Elaine of Garlot': https://en.wikipedia.org/wiki/Elaine_(legend)#Elaine_of_Garlot ?  -->
+                    <person name="Elaine of Garlot"/> 
                 </position>
             </language>
             <translation>
-                Helena was the sister of Arthur. 
+                Helena was the sister of Arthur from the same mother.
             </translation>
         </marginalia>
         
