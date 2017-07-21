@@ -6,11 +6,11 @@
     <page filename="209.tif" reader="John Dee" pagination="185" signature="Q iij"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'Choream gigantum' -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Chorea gigantum
+                        Chorea gigantum       <!-- DO: As before, Stonehenge -->
                     </marginalia_text>
                 </position>
             </language>
@@ -21,20 +21,21 @@
         
         <marginalia hand="Italian" anchor_text="mare Catanesium">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Mare Catanesiu[m].
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
+            <translation> 
+              <!-- DO: I think 'The sea at Caithness', judging by this translation of Geoffrey of Monmouth: https://books.google.co.uk/books?id=stj1zulh3ukC&printsec=frontcover&dq=geoffrey+of+monmouth+historia+regum+britanniae+translation&hl=en&sa=X&ved=0ahUKEwiWkr31kprVAhXFaVAKHRTMDQMQ6AEIMjAC#v=snippet&q=caithness&f=false  -->
+            <!-- DO: Location to be tagged as well -->
             </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="nauibus septingentis">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         700 Naves
                     </marginalia_text>
@@ -47,12 +48,12 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Helena soror Arthuri erat  <!-- FSF: to be completed -->
+                        Helena soror Arthuri erat  <!-- FSF: to be completed -->   <!-- DO: You can capture '[Anna deleted]' as well. I think the final word is 'vterina' ('born of the same mother') -->
                     </marginalia_text>
                     <person name="King Arthur"/>
-                    <person name="Helena"/>
+                    <person name="Helena"/>        <!-- DO: I would try and give her a more specific tag. I'm not sure if he's referring to 'Elaine of Garlot': https://en.wikipedia.org/wiki/Elaine_(legend)#Elaine_of_Garlot ?  -->
                 </position>
             </language>
             <translation>
@@ -61,13 +62,13 @@
         </marginalia>
         
         <underline method="pen" type="triple" language="LA" text="more regio"/>
-        <underline method="pen" type="straight" language="LA" text="Dubritius vrbis Legionum archiepiscopus"/>
+        <underline method="pen" type="straight" language="LA" text="Dubritius vrbis Legionum archiepiscopus, sociatis"/>
         <underline method="pen" type="straight" language="LA" text="mare Catanesium"/>
         <underline method="pen" type="straight" language="LA" text="misit Cadorem, Ducem Cornubiae, cu[m]"/>
         <underline method="pen" type="straight" language="LA" text="nauibus septingentis"/>
         <underline method="pen" type="double" language="LA" text="Timuerunt"/>
-        <underline method="pen" type="straight" language="LA" text="Britanniam, ad regem"/>
-        <underline method="pen" type="straight" language="LA" text="Erat autem Ho&euml;lius filius sororis Arthari ex Dubritio, rege Armoticanorum Britonum; generatus"/>
+        <underline method="pen" type="straight" language="LA" text="Britanniam, ad"/>
+        <underline method="pen" type="straight" language="LA" text="Erat autem Ho&euml;lius filius sororis Arthuri ex Dubritio, rege Armoricanorum Britonum generatus"/>
         
     </annotation>
 </transcription>
