@@ -24,14 +24,17 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Lothus nepos sichelini regis Norwegia[e]: sororius Arthuri. <!-- FSF: not sure -->  <!-- DO: I think this is correct -->
+                        Lothus nepos sichelini regis Norwegia[e]: sororius Arthuri.
                     </marginalia_text>
+                    <person name="Sichelm, King of Norway"/>
+                    <person name="Loth "/>
+                    <person name="King Arthur"/>
                 </position>
             </language>
             <translation>
-                Loth, the daughter of Sichelinus, King of Norway, sister of Arthur. <!-- FSF: not sure -->  <!-- DO: King Lot was married to Arthur's sister Anna, so I think the adjective 'sororius' refers to this and can maybe just be translated as 'brother-in-law' -->
-            </translation>                                                                                  <!-- DO: 'Loth, the nephew of Sichelm, King of Norway: Arthur's brother-in-law' -->
-        </marginalia>                                                                                       <!-- People need to be tagged, see: https://en.wikipedia.org/wiki/King_Lot -->
+                Loth, the nephew of Sichelm, King of Norway, Arthur's brother-in-law.
+            </translation>  
+        </marginalia>                                                                                       
         
         <marginalia hand="Italian" anchor_text="VValuuanus">
             <language ident="LA">
@@ -39,10 +42,11 @@
                     <marginalia_text>
                         Walwanus.
                     </marginalia_text>
+                    <person name="Gawain"/>
                 </position>
             </language>
             <translation>
-                Walwanus. <!-- FSF: not sure -->       <!-- DO: This appears to be another name of: https://en.wikipedia.org/wiki/Gawain -->
+                Gawain.
             </translation>
         </marginalia>
         
