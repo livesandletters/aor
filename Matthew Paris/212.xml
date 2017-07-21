@@ -6,7 +6,7 @@
     <page filename="212.tif" reader="John Dee" pagination="188" signature="[Q iiij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'statum pristinum' -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -15,15 +15,15 @@
                 </position>
             </language>
             <translation>
-                Original situation.
+                The original situation.
             </translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        A[nn]o 525
+                        A[nn]o 525             <!-- DO: Do you think these are little triangles on either side? If so, they can be captured as &Trine -->     
                     </marginalia_text>
                 </position>
             </language>
@@ -34,24 +34,23 @@
         
         <marginalia hand="Italian" anchor_text="regnum orientalium Saxonum">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Regnu[m] Saxonum orie[n]taliu[m] incipit
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The Kingdom of Essex began. <!-- FSF: not sure if this is Essex -->
+                The Kingdom of Essex began. <!-- FSF: not sure if this is Essex -->  <!-- DO: I would say yes, as the text says it's also called 'Estsaxia', see: https://en.wikipedia.org/wiki/Essex. Location therefore to be tagged. I would put 'begins' to keep it present -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Saxonibus expulsos"/>
-        <underline method="pen" type="straight" language="LA" text="terras eius &amp;"/>
-        <underline method="pen" type="straight" language="LA" text="possessiones paternas affluenter subministrat"/>
+        <underline method="pen" type="straight" language="LA" text="terras eius &amp; possessiones paternas affluenter subministrat"/>
         <underline method="pen" type="double" language="LA" text="rex"/>
         <underline method="pen" type="double" language="LA" text="statum"/>
         <underline method="pen" type="straight" language="LA" text="vxorem duxit nomine Guenhumaram, ex nobili Romanorum genere procreatam"/>
-        <underline method="pen" type="double" language="LA" text="magnificis ex regnis longe"/>
+        <underline method="pen" type="double" language="LA" text="magnificis ex regnis longe positis"/>
         <underline method="pen" type="double" language="LA" text="long&egrave; manentes"/>
         <underline method="pen" type="double" language="LA" text="regibus transmarinis"/>
         <underline method="pen" type="straight" language="LA" text="Arthurus parata"/>
@@ -59,31 +58,30 @@
         <underline method="pen" type="straight" language="LA" text="insulam"/>
         <underline method="pen" type="straight" language="LA" text="Holandiam"/>
         <underline method="pen" type="straight" language="LA" text="Guthla[n]diam"/>
-        <underline method="pen" type="straight" language="LA" text="atque Orcadum insulas"/>
-        <underline method="pen" type="straight" language="LA" text="ferr&ograve;"/>
-        <underline method="pen" type="straight" language="LA" text="flamm&aacute;que"/>
+        <underline method="pen" type="straight" language="LA" text="atque Orcadum insulas ferr&ograve; flamm&aacute;que"/>
         <underline method="pen" type="straight" language="LA" text="has omnes"/>
         <underline method="pen" type="straight" language="LA" text="constituit sub tributo"/>
-        <underline method="pen" type="straight" language="LA" text="anno, regnum"/>
-        <underline method="pen" type="straight" language="LA" text="orientalium"/>
+        <underline method="pen" type="straight" language="LA" text="anno, regnum orientalium"/>
         <underline method="pen" type="double" language="LA" text="Estsaxia"/>
         <underline method="pen" type="double" language="LA" text="Erkenvvinus"/>
-        <underline method="pen" type="straight" language="LA" text="Saxuad"/>
+        <underline method="pen" type="straight" language="LA" text="fuit Saxuad"/>
         <underline method="pen" type="straight" language="LA" text="VVoden"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         
-        <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
-            <node id="n1" person="Erkenvvinus" anchor_text="Erkenvvinus"></node>
-            <node id="n2" person="Offa" anchor_text="Off[a]e"></node>
-            <node id="n3" person="Bredecanus" anchor_text="Bredecani"></node>
-            <node id="n4" person="Sigeuulf" anchor_text="Sigeuulf"></node>
-            <node id="n5" person="Spetua" anchor_text="Spetuae"></node>
-            <node id="n6" person="Gesac" anchor_text="Gesac"></node>
-            <node id="n7" person="Andessc" anchor_text="Andessc"></node>
-            <node id="n8" person="Saxuad" anchor_text="Saxuad"></node>
-            <node id="n9" person="Woden" anchor_text="VVoden"></node>
+        <!-- DO: I think there may be an inserted comma at 'maxima Hiberniae', at the beginning of the fourth paragraph; possibly also at 'applicanti Gillamurius' following on from this, but not sure? -->
+        
+        <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">   <!-- DO: As before, real name is tagged as 'person' and name as written goes between triangular brackets. I have added these in, they just need to be checked. I have been using: https://en.wikipedia.org/wiki/Æscwine_of_Essex -->  
+            <node id="n1" person="Aescwine of Essex" anchor_text="Erkenvvinus">Erkenwinus</node>
+            <node id="n2" person="Offa" anchor_text="Off[a]e">Offa</node>
+            <node id="n3" person="Bedca" anchor_text="Bredecani">Bredecanus</node>
+            <node id="n4" person="Sigefugel" anchor_text="Sigeuulf">Sigeuulf</node>
+            <node id="n5" person="Swaeppa" anchor_text="Spetuae">Spetua</node>
+            <node id="n6" person="Gesecg" anchor_text="Gesac">Gesac</node>
+            <node id="n7" person="Andsecg" anchor_text="Andessc">Andessc</node>
+            <node id="n8" person="Seaxneat" anchor_text="Saxuad">Saxuad</node>
+            <node id="n9" person="Odin" anchor_text="VVoden">Woden</node>
             <link to="n8" from="n9" relationship="has_child"/>
             <link to="n7" from="n8" relationship="has_child"/>
             <link to="n6" from="n7" relationship="has_child"/>
