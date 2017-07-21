@@ -6,20 +6,19 @@
     <page filename="207.tif" reader="John Dee" pagination="183" signature="Q ij"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: Anchor 'Lotho co[n]suli Leyli' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Lothus, Consul Leyr <!-- FSF: not sure who that is -->
+                        Lothus, Consul Leyr <!-- FSF: not sure who that is -->  <!-- DO: Not entirely sure. I think the place referred to might be: https://en.wikipedia.org/wiki/Leire and I'm wondering if it might actually be: https://en.wikipedia.org/wiki/King_Lot. I can't find a clear connection between him and Leire though -->
                     </marginalia_text>
                 </position>
             </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Nathanlioth"/>
-        <underline method="pen" type="straight" language="LA" text="perforatis Duce[m] Nathanlioth"/>
-        <underline method="pen" type="double" language="LA" text="Lotho co[n]sul"/>
-        <underline method="pen" type="double" language="LA" text="Leyli"/>
+        <underline method="pen" type="straight" language="LA" text="perforatis Duce[m] Nathanlioth peremerunt"/>  
+        <underline method="pen" type="double" language="LA" text="Lotho co[n]suli Leyli"/>
         
     </annotation>
 </transcription>
