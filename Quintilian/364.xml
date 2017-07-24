@@ -18,7 +18,7 @@
         <marginalia hand="Italian" anchor_text="Rect&egrave; inquam, dixeris haec omnia uertices, propri&egrave;">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Prop[ri]&egrave; recte.</marginalia_text>
+                    <marginalia_text>Prop[ri]&egrave; recte.</marginalia_text> <!-- FSF: there is an ampersand and differunt missing -->
                 </position>
             </language>
             <translation>Proper and correctly.</translation>
@@ -99,15 +99,14 @@
             <translation>Obscurity.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Fallunt etiam uerba uel regionibus">
+        <marginalia hand="Italian" anchor_text="Fallunt etiam uerba uel regionibus"> <!-- FSF: I'd tag only until uerba -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Qua r[ati]o[n]e verba interdu[m] fallu[n]t</marginalia_text>
                 </position>
             </language>
-            <translation>How the definition of words is occasionally deceiving.</translation>
+            <translation>How the definition of words is occasionally deceiving.</translation> <!-- FSF: I'd translate: For this reason, words are occasionally deceiving -->
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="propri&egrave; tamen, unde initium"/>
         <underline method="pen" type="straight" language="LA" text="quibusdam traditum propiij genus ex appositis, quae"/>
@@ -124,10 +123,9 @@
         <numeral place="left_margin">7</numeral>
         <numeral place="left_margin">.1.</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> <!-- FSF: I am not sure if the book orientation needs to be different -->
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
 
     </annotation>
 </transcription>
-

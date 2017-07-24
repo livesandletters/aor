@@ -6,12 +6,12 @@
     <page filename="219.tif" reader="John Dee" pagination="195" signature="R ij"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: I would anchor 'Sampson Dolensis ... transiit' -->
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Sampson Meneuensis archiep[iscopus] vide a[nn]o p[ri]mo regitas in Hoveden Historico. At Ebora co[m]tem Archiepi[scopu]m fuisse asserit Math. Paris. A[nn]o 1&o_super; regis Jo[ann]is <!-- FSF: not sure -->
-                    </marginalia_text>
+                        Sampson Meneuensis archiep[iscopus] vide a[nn]o p[ri]mo regitas in Hoveden Historico. At Ebora co[m]tem Archiepi[scopu]m fuisse asserit Math. Paris. A[nn]o 1&o_super; regis Jo[ann]is <!-- FSF: not sure -->  <!-- DO: Should be 'archiep[iscopu]s' at the beginning; I think after 'p[ri]mo' it's 'regis Io[ann]is' like at the end. Then I think it's 'Hovedeno' or 'Hove[n]deno', and then 'Eborace[n]sem'. See: https://en.wikipedia.org/wiki/Roger_of_Hoveden --> 
+                    </marginalia_text>                                                                                                        <!-- DO: Regarding the archbishop, 'Menevensis' = the place St. David's; the printed text seems to refer to a successor of this Samson of Dol: https://en.wikipedia.org/wiki/Samson_of_Dol; I can't specifically find him so maybe just 'Samson of St. David's'? -->
                 </position>
             </language>
             <translation>
@@ -22,18 +22,14 @@
         <underline method="pen" type="straight" language="LA" text="sanctus Brendanus in"/>
         <underline method="pen" type="straight" language="LA" text="Fortunatas insulas septennali nauigatione"/>
         <underline method="pen" type="straight" language="LA" text="quo Machutus"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; ipsius"/>
-        <underline method="pen" type="double" language="LA" text="nauigationis"/>
-        <underline method="pen" type="grid" language="LA" text="socius"/>
-        <underline method="pen" type="double" language="LA" text="in"/>
-        <underline method="pen" type="straight" language="LA" text="Britannia miraculis, &amp; sanctitate refulsit"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; ipsius nauigationis socius in Britannia miraculis, &amp; sanctitate refulsit"/>
         <underline method="pen" type="straight" language="LA" text="Sampson Dolensis archiepiscopus &amp; successor sancti Sampsonis qui de Britania maiori ad minorem transiit, doctrina &amp; sanctitate refulsit"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- archiepiscopus &amp; -->
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <errata language="LA" copytext="probilior" amendedtext="probebilior"/>
+        <errata language="LA" copytext="probilior" amendedtext="probebilior"/>   <!-- DO: It does look like an 'e' but 'probabilior' is more likely...? -->
         
     </annotation>
 </transcription>

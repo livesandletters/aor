@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
-
+ 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="207.tif" reader="John Dee" pagination="183" signature="Q ij"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Lotho co[n]suli Leyli"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Lothus, Consul Leyr <!-- FSF: not sure who that is -->
+                        Lothus, Consul Leyr <!-- DO: Not entirely sure. I think the place referred to might be: https://en.wikipedia.org/wiki/Leire. I can't find a clear connection between King Lot and Leire though -->
+                        <!-- FSF: I can't see anything speaking against it being Leire, though there is no obvious connection really -->
                     </marginalia_text>
+                    <person name="King Lot"/>
                 </position>
             </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Nathanlioth"/>
-        <underline method="pen" type="straight" language="LA" text="perforatis Duce[m] Nathanlioth"/>
-        <underline method="pen" type="double" language="LA" text="Lotho co[n]sul"/>
-        <underline method="pen" type="double" language="LA" text="Leyli"/>
+        <underline method="pen" type="straight" language="LA" text="perforatis Duce[m] Nathanlioth peremerunt"/>  
+        <underline method="pen" type="double" language="LA" text="Lotho co[n]suli Leyli"/>
         
     </annotation>
 </transcription>

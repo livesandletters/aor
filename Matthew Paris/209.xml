@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
-
+ 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="209.tif" reader="John Dee" pagination="185" signature="Q iij"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Choream gigantum"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         Chorea gigantum
                     </marginalia_text>
+                    <location name="Stonehenge"/>
                 </position>
             </language>
             <translation>
-                A gigantic court.
+                Stonehenge.
             </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="mare Catanesium">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Mare Catanesiu[m].
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
+            <translation> 
+              The sea at Caithness. <!-- FSF: I am not sure how to tag the location; is it the North Sea? Or only Caithness? -->
             </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="nauibus septingentis">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         700 Naves
                     </marginalia_text>
@@ -47,27 +48,27 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Helena soror Arthuri erat  <!-- FSF: to be completed -->
+                        Helena [Anna deleted] soror Arthuri erat vterina
                     </marginalia_text>
                     <person name="King Arthur"/>
-                    <person name="Helena"/>
+                    <person name="Elaine of Garlot"/> 
                 </position>
             </language>
             <translation>
-                Helena was the sister of Arthur. 
+                Helena was the sister of Arthur from the same mother.
             </translation>
         </marginalia>
         
         <underline method="pen" type="triple" language="LA" text="more regio"/>
-        <underline method="pen" type="straight" language="LA" text="Dubritius vrbis Legionum archiepiscopus"/>
+        <underline method="pen" type="straight" language="LA" text="Dubritius vrbis Legionum archiepiscopus, sociatis"/>
         <underline method="pen" type="straight" language="LA" text="mare Catanesium"/>
         <underline method="pen" type="straight" language="LA" text="misit Cadorem, Ducem Cornubiae, cu[m]"/>
         <underline method="pen" type="straight" language="LA" text="nauibus septingentis"/>
         <underline method="pen" type="double" language="LA" text="Timuerunt"/>
-        <underline method="pen" type="straight" language="LA" text="Britanniam, ad regem"/>
-        <underline method="pen" type="straight" language="LA" text="Erat autem Ho&euml;lius filius sororis Arthari ex Dubritio, rege Armoticanorum Britonum; generatus"/>
+        <underline method="pen" type="straight" language="LA" text="Britanniam, ad"/>
+        <underline method="pen" type="straight" language="LA" text="Erat autem Ho&euml;lius filius sororis Arthuri ex Dubritio, rege Armoricanorum Britonum generatus"/>
         
     </annotation>
 </transcription>
