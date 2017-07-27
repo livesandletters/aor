@@ -35,15 +35,6 @@
             <translation>The evidence of Clement is very much confused regarding this matter.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="septimo"> <!-- FSF: again, for me, this would be an erratum -->
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>secundo</marginalia_text>
-                </position>
-            </language>
-            <translation>In the second.</translation>
-        </marginalia>
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -86,9 +77,9 @@
         
         
         <errata language="LA" copytext="Ianuario" amendedtext="Ianuario"/>
-        <errata language="LA" copytext="septimo" amendedtext="[deleted]"/> <!-- FSF: see above -->
+        <errata language="LA" copytext="septimo" amendedtext="segundo"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
