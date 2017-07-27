@@ -10,8 +10,10 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Brytannia[e], appelatis mutata in Angliam
+                        Brytannia[e], appelatis mutata in Angliam       <!-- DO: Think it's 'appellatio' -->
                     </marginalia_text>
+                    <location name="Britain"/>
+                    <location name="England"/>
                 </position>
             </language>
             <translation>
@@ -21,38 +23,36 @@
         
         <marginalia hand="Italian" anchor_text="Bruto">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Brutus
                     </marginalia_text>
-                    <person name="Brutus"/>
+                    <person name="Brutus"/>     <!-- DO: I would probably tag him more specifically (Brutus of Troy: https://en.wikipedia.org/wiki/Brutus_of_Troy) -->
                 </position>
             </language>
             <translation>
-                Brutus
+                Brutus.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="thesauros magnos inuenti">
+        <marginalia hand="Italian" anchor_text="thesauros magnos inuenit">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Thesauri ex insomnio inve[n]ti
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The thesaurus was invented from a vision.
+                The thesaurus was invented from a vision.  <!-- DO: I think it means 'Treasure found in a dream.' -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Suthsaxia"/>
         <underline method="pen" type="straight" language="LA" text="VVestsaxia"/>
         <underline method="pen" type="straight" language="LA" text="in Estsaxia"/>
-        <underline method="pen" type="straight" language="LA" text="Estsaxia"/>
         <underline method="pen" type="straight" language="LA" text="Aethefridus in"/>
-        <underline method="pen" type="straight" language="LA" text="dispositis, placuit dictis"/>
-        <underline method="pen" type="straight" language="LA" text="regibus Britanniam"/>
+        <underline method="pen" type="straight" language="LA" text="dispositis, placuit dictis regibus Britanniam"/>
         <underline method="pen" type="double" language="LA" text="memoriam Britannoru[m]"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; Bruto"/>
         <underline method="pen" type="straight" language="LA" text="Anglis Anglia"/>
