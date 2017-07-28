@@ -6,11 +6,11 @@
     <page filename="257.tif" reader="John Dee" pagination="217" signature="V iij"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'Colma[n]nus' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Colma[n]nus scotius v[este]r ex Asia venite <!-- FSF: not sure -->
+                        Colma[n]nus scotius v[este]r ex Asia venite <!-- FSF: not sure -->  <!-- DO: Think the last word is 'venisse'. This is: https://en.wikipedia.org/wiki/Colmán_of_Lindisfarne. Not sure about the Asia connection though... -->
                     </marginalia_text>
                 </position>
             </language>
@@ -33,6 +33,7 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Colmannus"/>
+        <underline method="pen" type="straight" language="LA" text="me huc"/>
         <underline method="pen" type="straight" language="LA" text="euangelista Iohannes in omnibus ecclesijs"/>
         <underline method="pen" type="straight" language="LA" text="Romani"/>
         <underline method="pen" type="straight" language="LA" text="Itali"/>
