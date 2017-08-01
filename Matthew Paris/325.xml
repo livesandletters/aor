@@ -42,7 +42,7 @@
             <node id="n4" person="Aethelbald, King of Wessex">Eadbaldus</node>
             <node id="n5" person="Aethelberht, King of Wessex">&AElig;thelbertus</node>
             <node id="n6" person="Aethelred, King of Wessex">&AElig;thelredus</node>
-            <node id="n7" person="Alfred, King of Wessex">&AElig;lfredus</node>
+            <node id="n7" person="Alfred the Great">&AElig;lfredus</node>
             <link to="n1" from="n2" relationship="has_spouse"/>       <!-- DO: Spousal connections need to be captured going both ways -->
             <link to="n3 n4 n5 n6 n7" from="n1 n2" relationship="has_child"/>
         </graph>
