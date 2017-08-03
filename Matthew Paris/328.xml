@@ -6,7 +6,7 @@
     <page filename="328.tif" reader="John Dee" pagination="304" signature="[Cc ij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Maybe anchor 'VVithgaresburh', I assume that's what he's referring to...? -->
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,9 +20,9 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        VVlstanus
+                        VVlstanus.
                     </marginalia_text>
-                    <person name="Wulfstan"/>
+                    <person name="Wulfstan"/>    <!-- DO: Maybe tag as 'Wulfstan I' to be more specific? -->
                 </position>
             </language>
             <translation>
@@ -33,12 +33,12 @@
         <underline method="pen" type="straight" language="LA" text="eius Osburga"/>
         <underline method="pen" type="straight" language="LA" text="erat Aslati famosi pincernae"/>
         <underline method="pen" type="straight" language="LA" text="Gothis, &amp; Iuthis"/>
-        <underline method="pen" type="straight" language="LA" text="semine duorum fratrum Scuphi"/>
+        <underline method="pen" type="straight" language="LA" text="semine duorum fratrum Scuphi scilicet &amp; VVithgari"/>
         <underline method="pen" type="straight" language="LA" text="VVithgaresburh"/>
         <underline method="pen" type="straight" language="LA" text="Berthferus regis Merciorum filius, scilicet"/>
         <underline method="pen" type="straight" language="LA" text="nepos"/>
-        <underline method="pen" type="double" language="LA" text="VVilafi"/>
-        <underline method="pen" type="straight" language="LA" text="dies .xxx."/>
+        <underline method="pen" type="double" language="LA" text="regis VVilafi"/>
+        <underline method="pen" type="straight" language="LA" text="dies .xxx. stabat"/>
         
     </annotation>
 </transcription>
