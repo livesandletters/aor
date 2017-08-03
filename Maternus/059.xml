@@ -6,7 +6,7 @@
     <page filename="059.tif" reader="John Dee" pagination="36"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B. Anchor text missing  '12 quas partes humani corporis teneat'-->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -16,6 +16,7 @@
             </language>
             <translation>
                 <!-- Quae sic vtilitas ex reseie[n]do --> signs for the parts of the human body
+                <!-- M.B. Not sure if its 'reseie[n]do' possibly something like'rescie[n]do '?-->
             </translation>
         </marginalia>
         
@@ -24,6 +25,9 @@
         <underline method="pen" type="straight" language="LA" text="ad apotelesmata uehementissime proficit, praesertim cum locum ualetudinis, uel uitii uoluerimus inuenire"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <!-- M.B. There is an errata that needs to be captured too, copytext="siono" amendedtext="signo"  -->
+        
         
     </annotation>
 </transcription>
