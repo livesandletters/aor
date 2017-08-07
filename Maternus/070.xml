@@ -17,6 +17,7 @@
             </language>
             <translation>
                 Fabulous fiction of people. If the prudent is not near, the reason ought to continue. <!-- FSF: I am not sure at all -->
+                <!-- M.B. Maybe something like: 'Fabled men of fiction. Unless among the prudent, reason ought to be prolonged.'  -->
             </translation>
         </marginalia>
         
@@ -37,16 +38,17 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Mundi redintegratio q[ua]q[uam] duplex
+                        Mundi redintegratio q[ua]q[uam] duplex.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The restoration of the world, albeit it twofold
+                The restoration of the world, albeit it twofold 
+                <!-- M.B. Translation doesn't make sense grammatically, perhaps something like "The restoration of the world is twofold' .  -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B. I think the anchor text should be 'sed ut esset, quod mathematici in genituris hominum, sequerentur'  -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -56,6 +58,11 @@
             </language>
             <translation>
                 The reason for which <!-- FSF: I am not sure what that means -->
+               
+                <!-- M.B. The marginalia refers to Petosiris [Petosyris] and Nechepso (from the Asclepius) see https://en.wikipedia.org/wiki/Petosiris_to_Nechepso. I think the last part reads something like 'genitura[m] finxerunt tacti'. 
+                    So maybe something like: 'The reason for which Petosiris and Nechepso touch upon engendering and shaping.    --> 
+                
+                
             </translation>
         </marginalia>
         
@@ -68,7 +75,8 @@
                 </position>
             </language>
             <translation>
-                But Venus fights back nonetheless.
+                But Venus fights back nonetheless. 
+                <!-- M.B. What about 'prudentia' in this translation?  Would be something like, 'Neverthless Venus is opposed to prudence' -->
             </translation>
         </marginalia>
         
@@ -76,12 +84,15 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Homine[m] ad imitatione[m] mundi et similitudine[m] esse formatu[m[ probat
+                        Homine[m] ad imitatione[m] mundi et similitudine[m] esse formatu[m] probat
                     </marginalia_text>
                 </position>
             </language>
             <translation>
                 It proves that man was modelled in imitation and the likeliness of the world.
+                <!-- M.B. The English of the translation ('the likeliness') is slightly ungrammatical. Also not sure how 'esse formatum' figures in the translation. Perhaps something along the lines of:
+                'It proves that man was modelled in imitation of the world and was formed to exist similarly.'   -->
+                
             </translation>
         </marginalia>
         
@@ -92,30 +103,30 @@
         <underline method="pen" type="straight" language="LA" text="mundus certum diem"/>
         <underline method="pen" type="straight" language="LA" text="nec e&ograve; usq[ue] se intentio potuit humanae fragilitatis extendere, ut originem mundi, facili posset ratione conciptere, aut explicare, praesertim"/>
         <underline method="pen" type="straight" language="LA" text="redintegratio"/>
-        <underline method="pen" type="straight" language="LA" text="ἐκωύροσιμ"/>
-        <underline method="pen" type="straight" language="LA" text="κατακλυσμομ"/>
+        <underline method="pen" type="straight" language="LA" text="ἐκωύροσιμ"/> <!-- M.B. The third letter looks like an omega but actually is ϖ (a variant symbol for π) also should language should be 'El'.  -->
+        <underline method="pen" type="straight" language="LA" text="κατακλυσμομ"/> <!-- M.B. Language should 'EL' -->
         <underline method="pen" type="straight" language="LA" text="sed ut esset, quod mathematici in genituris hominum, sequerentur"/>
         <underline method="pen" type="triple" language="LA" text="quasi"/>
         <underline method="pen" type="straight" language="LA" text="genituram"/>
         <underline method="pen" type="straight" language="LA" text="explicare co[m]menta"/>
-        <underline method="pen" type="dotted" language="LA" text="mundi inculta fuit, &amp; horrida, &amp; agresti conuersatione effera, &amp; quia rudes homines, prima &amp; incognita sibi uestigia lucis ingressos" colour="red"/>
+        <underline method="pen" type="dotted" language="LA" text="mundi inculta fuit, &amp; horrida, &amp; agresti conuersatione effera, &amp; quia rudes homines, prima &amp; incognita sibi uestigia lucis ingressos" colour="red"/> <!-- M.B. Should be chalk. -->
         <underline method="pen" type="straight" language="LA" text="etiam prudentiae ornamenta conciperet"/>
         <underline method="pen" type="straight" language="LA" text="&Venus; esse"/>
         <underline method="pen" type="straight" language="LA" text="se nouissimo &Moon; coniungit"/>
-        <underline method="pen" type="dotted" language="LA" text="Ἀποκατάσασιμ uero per ἐκωύροσιμ &amp; per" colour="red"/>
-        <underline method="pen" type="straight" language="LA" text="κατακλυσμὸμ fieri" colour="red"/>
+        <underline method="pen" type="dotted" language="LA" text="Ἀποκατάσασιμ uero per ἐκωύροσιμ &amp; per" colour="red"/> <!-- M.B. Greek underlining should be captured separately as  language 'EL' and method should be chalk. -->
+        <underline method="pen" type="straight" language="LA" text="κατακλυσμὸμ fieri" colour="red"/> <!-- M.B. Greek underlining should be captured separately as  language 'EL' and method should be chalk.-->
         <underline method="pen" type="straight" language="LA" text="corporis completo uitae cursu, simili ratione dissoluitur"/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="right_margin" colour="red"/>
-        <mark name="bracket" method="pen" place="right_margin" colour="red"/>
+        <mark name="bracket" method="pen" place="right_margin" colour="red"/> <!-- M.B. Capture as chalk. -->
+        <mark name="bracket" method="pen" place="right_margin" colour="red"/> <!-- M.B. Capture as chalk. -->
         <mark name="bracket" method="pen" place="right_margin"/>
         
         <errata language="LA" copytext="hominn[n]" amendedtext="hominen[n]"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" colour="red"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" colour="red"></drawing> <!-- M.B. Capture as chalk. -->
 
     </annotation>
 </transcription>
