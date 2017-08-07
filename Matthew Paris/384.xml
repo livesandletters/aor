@@ -6,30 +6,31 @@
     <page filename="384.tif" reader="John Dee" pagination="360"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Hunvval scilicet rege[m] Britonu[m]">
+        <marginalia hand="Italian" anchor_text="Hunvval scelicet rege[m] Britonu[m]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Ho[n]wel rex Brytonu[m]
+                        Ho[n]wel rex Brytonu[m]      <!-- DO: I'm not entirely sure there's a contraction, it might just be a big 'w'. Not sure either way though. -->
                     </marginalia_text>
                     <person name="Hywel Dda"/>
                 </position>
             </language>
             <translation>
-                Hywel Dda, King of Britons.
+                Hywel Dda, King of the Britons.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: Anchor 'Ducem Normanniae Robertum'? -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Rollo: qui post Robertus Dux N.
                     </marginalia_text>
+                    <person name="Rollo"/>
                 </position>
             </language>
             <translation>
-                Rollo, who after Robert Duke of Normanndy. <!-- FSF: https://en.wikipedia.org/wiki/Rollo according to this, Rollo was the first duke of Normandy; that's why I am unsure about this -->
+                Rollo, who after Robert Duke of Normanndy. <!-- FSF: https://en.wikipedia.org/wiki/Rollo according to this, Rollo was the first duke of Normandy; that's why I am unsure about this -->  <!-- DO: Rollo later took the name Robert when he was baptised, so 'Rollo, who was later Robert...' -->
             </translation>
         </marginalia>
         
@@ -40,9 +41,9 @@
         <underline method="pen" type="straight" language="LA" text="Sithrici supradicti"/>
         <underline method="pen" type="straight" language="LA" text="regem VVentorum"/>
         <underline method="pen" type="straight" language="LA" text="Hugo filius Roberti Comitis"/>
-        <underline method="pen" type="straight" language="LA" text="regis Aethelstani duxit uxorem"/>
+        <underline method="pen" type="straight" language="LA" text="regis Aethelstani duxit vxorem"/>
         <underline method="pen" type="straight" language="LA" text="&amp; Ducem Normanniae Robertum, qu&ograve;d vterque in rebus dominaretur alterius, &amp; in rebus bellicis mutuis congauderent auxilijs"/>
-        <underline method="pen" type="straight" language="LA" text=""/>
+        
         
     </annotation>
 </transcription>
