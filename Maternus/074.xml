@@ -6,11 +6,11 @@
     <page filename="074.tif" reader="John Dee" pagination="51" signature="e 2"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B. Anchor text should read 'δυοδεκατημόϱιομ'  -->
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        δυοδεκατημόριον
+                        δυοδεκατημόριον <!-- M.B. Note the 'κα' ligature and the uppercase eta. I would capture it as 'δυοδεκ[α]τΗμόριον'. -->
                     </marginalia_text>
                 </position>
             </language>
@@ -43,6 +43,7 @@
             <translation>
                 Jupiter in <!-- cardinibus -->
             </translation>
+            <!-- M.B. I think it means something like 'Jupiter according to the cardinals'. -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="omnem &Saturn; inuenias"/>
@@ -59,7 +60,7 @@
         
         <symbol name="Opposite_planets" place="right_margin"/>
         <symbol name="Sun" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/> <!-- M.B. Also the ampersand should be captured as mark -->
         
         <errata language="LA" copytext="&Saturn;" amendedtext="&Jupiter;"/>
         
