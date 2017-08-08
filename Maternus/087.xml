@@ -23,7 +23,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Vxor in prima aetate
+                        Vxor in prima aetate. <!-- M.B. I read 'a[e]tate'. -->
                     </marginalia_text>
                 </position>
             </language>
@@ -36,7 +36,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        tarda[e] Nuptia.
+                        tarda[e] Nuptia. <!-- M.B. I read 'Nuptia[e]' -->
                     </marginalia_text>
                 </position>
             </language>
@@ -49,12 +49,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        &Venus; in domibus vel finib[us] {&Saturn; &Mars; &Mercury;
+                        &Venus; in domibus vel finib[us]. {&Saturn; &Mars; &Mercury;
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                VEnus in the houses and ends of Saturn, Mars, Mercury.
+                Venus in the houses and ends of Saturn, Mars, Mercury. <!-- M.B. I would translate as 'Venus in the houses and region of Saturn, Mars, Mercury.' -->
             </translation>
         </marginalia>
         
@@ -62,12 +62,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Sacerdotium filiae
+                        Sacerdotium filiae <!-- I read: Sacerdotum filia[e].  -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The priesthood of the daughter.
+                The priesthood of the daughter. <!-- M.B. Daughter should be pluralized. -->
             </translation>
         </marginalia>
         
@@ -76,8 +76,9 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Miror qua r[ati]o[n]e &Venus; die ibi peri possit nisi secundu[m] ina[e]quale[m] domoru[m] diui sione[m], et in regionibus valde septem nalibus.
-                        Quomodo multa ralia fora apud firmiu[m] excusari possunt, at quida[m]co[n]sendunt tu[m] a[e]quales .... partes esse perfeuntu[m] [etc]
+                        Quo modo multa ralia fora apud firmiu[m] excusari possunt, at quida[m] co[n]sendunt tu[m] a[e]quales .... partes esse perfeuntu[m] [etc]
                         <!-- FSF: not sure at all -->
+                        <!-- M.B. The part following 'a[e]quales' is 'Zodiaci partes esse &amp; [etc].' Not sure about the rest.  -->
                     </marginalia_text>
                 </position>
             </language>
@@ -112,22 +113,25 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B. Anchor text should be: 'futura praenoscant;  -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         futuroru[m] pra[e]seus <!-- FSF: not clear to me -->
+                        <!-- M.B. I read: 'futuroru[m] pra[e]seusio.'  -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                <!-- M.B. 'To foresee the future.' -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="In terrestribus"/>
         <underline method="pen" type="straight" language="LA" text="lineteones"/>
         <underline method="pen" type="straight" language="LA" text="sed si in horosc. &Venus; constituta fuerit"/>
+        <underline method="pen" type="straight" language="LA" text="prima aetate dabit"/>
+        <underline method="pen" type="straight" language="LA" text="spadicarios"
         <underline method="pen" type="straight" language="LA" text="contrarietates, &amp; tardas"/>
         <underline method="pen" type="straight" language="LA" text="causas etiam cu[m] aliqua femina concitat. Quida[m] quoq[ue] repentinis uxoru[m]"/>
         <underline method="pen" type="straight" language="LA" text="domo &Saturn;, &Mars; uel &Mercury;, uel in finibus eorum"/>
