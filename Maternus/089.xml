@@ -15,11 +15,11 @@
                 </position>
             </language>
             <translation>
-                
+                <!-- M.B. Translation missing. -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B. Could this be anchored 'mulier sic' [etc]'?  -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -32,7 +32,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- M.B. Could this be anchored to 'uero mulier, &Venus;' etc.?-->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -49,12 +49,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Archigalli
+                        Archigalli.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
                 <!-- FSF: see above, not sure if the chief priest of Cybele is the right translation here  -->
+                <!-- M.B. I would translate as chief priests (following the Bram translation). See Note on '084.tif'. -->
             </translation>
         </marginalia>
         
@@ -67,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                
+                <!-- M.B. Translation missing. -->
             </translation>
         </marginalia>
         
@@ -80,10 +81,16 @@
                 </position>
             </language>
             <translation>
-                The constellation of woman.
+                The constellation of woman.  
+                <!-- M.B. I would translate this as: 'I think also the Antiscia: and he says above Jupiter is the antiscion in the house of 12a. Above, the final line on page 42. 
+                    This should also be captured as an intext reference to 065.t.f (p.42). See the print text passage: 
+                    '&Jupier;  uero, cuius uim ac potestatem, antiscii radius, ex signo signo &Pisces; ad &Libra; transtulit signum, ac si in duodecimo loco' 
+                    Also see Dee's marginal note ' Antisciu[m] &Jupiter; in locu[m] 12a'.-->
+                
             </translation>
         </marginalia>
         
+        <underline method="pen" type="straight" language="LA" text="inuentus, &Mercury; in quandrato"/>
         <underline method="pen" type="straight" language="LA" text="uirorum actus semper imitabitur"/>
         <underline method="pen" type="straight" language="LA" text="archigallos"/>
         <underline method="pen" type="straight" language="LA" text="semper haec no[n] agant, sed patiantur, quae mulieres pati consueuerunt"/>
@@ -94,7 +101,7 @@
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="intext"/> <!-- denegat[ur] Per -->
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing> <!-- M.B. Book_orientation should be 270. -->
         
     </annotation>
 </transcription>
