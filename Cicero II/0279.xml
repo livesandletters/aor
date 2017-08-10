@@ -41,10 +41,13 @@
         </marginalia>
         
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">               <!-- DO: I don't know whether the following references need to be more specific; Dee seems to be marking up the text with numbers, to which he refers here -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sup[ra] fol 3.2.</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0273" text="3.2"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>Above, folio 3.2.</translation>
@@ -65,6 +68,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sup[ra] fol. 3.3.</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0273" text="3.3"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>Above, folio 3.3.</translation>
@@ -75,6 +81,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sup[ra] fol. 6.18.</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0276" text="6.18"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>Above, folio 6.18.</translation>
@@ -85,6 +94,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sup[ra] fol. 8.29</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0278" text="8.29"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>Above, folio 8.29.</translation>
@@ -115,6 +127,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sup[ra] 3.4.</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0273" text="3.4"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>Above, 3.4.</translation>  
@@ -125,6 +140,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sup[ra] fo 6.19</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0276" text="6.19"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>Above, folio 6.19.</translation>  
@@ -187,6 +205,10 @@
         <underline method="pen" type="straight" language="LA" text="quod negotio diminutum fuerit, exaequabimus industria, vt pro tuo in nos officio, &amp; nostro in te studio munus hoc accumulatissime tuae largiamnr voluntati"/>
         <underline method="pen" type="straight" language="LA" text="&amp; de maximis primum"/>
         <underline method="pen" type="straight" language="LA" text="coniecturalem"/>
+        
+        
+        <numeral place="right_margin">18</numeral>
+        <numeral place="right_margin">5</numeral>
         
         
     </annotation>
