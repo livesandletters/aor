@@ -6,13 +6,13 @@
     <page filename="256.tif" reader="John Dee" pagination="232" signature="[V ij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'progeniem Bruti' -->
+        <marginalia hand="Italian" anchor_text="progeniem Bruti">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         Progenies Bruti
                     </marginalia_text>
-                    <person name="Brutus"/>  <!-- DO: As before, I'd tag him as Brutus of Troy -->
+                    <person name="Brutus of Troy"/>  
                 </position>
             </language>
             <translation>
@@ -20,11 +20,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'plaga insanabilis' -->
+        <marginalia hand="Italian" anchor_text="plaga insanabilis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Plaga insanatisis <!-- FSF: not sure -->  <!-- DO: 'insanabilis' -->
+                        Plaga insanabilis 
                     </marginalia_text>
                 </position>
             </language>
@@ -37,8 +37,9 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Ripon               <!-- DO: Location to be tagged -->
+                        Ripon              
                     </marginalia_text>
+                    <location name="Ripon"/>
                 </position>
             </language>
         </marginalia>
