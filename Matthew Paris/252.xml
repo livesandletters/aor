@@ -6,16 +6,19 @@
     <page filename="252.tif" reader="John Dee" pagination="228"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Oidvvald[us] ... Eanfleda' -->
+        <marginalia hand="Italian" anchor_text="Oidvvald[us] fili[us] Osvvaldi regis, quem regina Eanfleda"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Rex Oiwaldus f. oswa.. ... et Eanfleda[e] R. <!-- FSF: not sure -->  <!-- DO: I think the missing words are 'oswaldi regis', as in the printed text. People need to be tagged, I think this is: https://en.wikipedia.org/wiki/Œthelwald_of_Deira. Eanfleda seems to be: https://en.wikipedia.org/wiki/Eanflæd, although this doesn't seem to actually be the correct mother... -->
+                        Rex Oiwaldus f[ilius] oswaldi regis et Eanfleda[e] R[eginae]  
                     </marginalia_text>
+                    <person name="Œthelwald of Deira"/>
+                    <person name="Oswald of Northumbria"/>
+                    <person name="Eanflæd"/>
                 </position>
             </language>
             <translation>
-                
+                Œthelwald of Deira, son of King Oswald and Eanflæd.
             </translation>
         </marginalia>
         
