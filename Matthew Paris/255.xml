@@ -6,7 +6,7 @@
     <page filename="255.tif" reader="John Dee" pagination="231" signature="V ij"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Penda rex nequissimus qui tot nobiles vita temporali priuauit">  <!-- DO: I'd go from 'Cecidit inter...' -->
+        <marginalia hand="Italian" anchor_text="Cecidit inter caeteros Penda rex nequissimus qui tot nobiles vita temporali priuauit"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,7 +20,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'filiam suam' -->
+        <marginalia hand="Italian" anchor_text="filiam suam"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -52,26 +52,27 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        streneshalh.       <!-- DO: Appears to be a name for Whitby, see: https://en.wikipedia.org/wiki/Whitby -->
+                        streneshalh.     
                     </marginalia_text>
+                    <location name="Whitby"/>
                 </position>
             </language>
             <translation>
-                
+                Whitby
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Australium Merciorum' -->
+        <marginalia hand="Italian" anchor_text="Australium Merciorum">  
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Mercij Australis.       <!-- DO: I think it's 'Australes', the name seems to always be pluralised -->
+                        Mercij Australes.  
                     </marginalia_text>
                     <location name="Mercia"/>
                 </position>
             </language>
             <translation>
-                In Southern Mercia.  <!-- DO: Southern Mercia -->
+                Southern Mercia. 
             </translation>
         </marginalia>
         
