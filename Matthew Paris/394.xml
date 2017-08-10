@@ -15,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                The courtesan Algiua. <!-- FSF: I haven't been able to identify her -->
+                The courtesan Algiua. <!-- FSF: I haven't been able to identify her -->  <!-- DO: I think this is referring to: https://en.wikipedia.org/wiki/Ælfgifu,_wife_of_Eadwig. She wasn't actually a prostitute, so'meretrix' should perhaps be something vaguer like 'strumpet', I suppose... -->
             </translation>
         </marginalia>
         
@@ -23,12 +23,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        (Deo dicante) quo modo hoc constat?
+                        (Deo dicante) quo modo hoc constat?      <!-- DO: 'dictante' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                God said, how is this evident?
+                God said, how is this evident?   <!-- DO: I would say, 'By God's speech - how is this evident?' -->
             </translation>
         </marginalia>
         
@@ -38,13 +38,17 @@
         <underline method="pen" type="grid" language="LA" text="furibundum"/>
         <underline method="pen" type="straight" language="LA" text="Algiua"/>
         <underline method="pen" type="straight" language="LA" text="insipienter egit"/>
-        <underline method="pen" type="straight" language="LA" text="penitus derelictus. Nemp&egrave; sapienstes"/>
+        <underline method="pen" type="straight" language="LA" text="penitus derelictus. Nemp&egrave; sapienstes quosque regni, &amp;"/>
         <underline method="pen" type="straight" language="LA" text="odio vanitatis disperdens, ignaros nihilominus, &amp; iniquos studio dilectionis"/>
         <underline method="pen" type="straight" language="LA" text="conspiratione"/>
         <underline method="pen" type="double" language="LA" text="deiecto"/>
         <underline method="pen" type="straight" language="LA" text="deo dicante"/>
         
         <errata language="LA" copytext="sapienstes" amendedtext="sapientes"/>
+        
+        
+        <!-- DO: Vertical bar in left margin -->
+        
         
     </annotation>
 </transcription>
