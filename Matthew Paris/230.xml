@@ -6,15 +6,18 @@
     <page filename="230.tif" reader="John Dee" pagination="206" signature="[S[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Brochimallum' -->
+        <marginalia hand="Italian" anchor_text="Brochimallum">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Brochires yskytbrog comes cestras <!-- FSF: I can't read this properly -->  <!-- DO: I think: 'Brochwel yskythrog Comes Cestria[e].' He needs to be tagged as well: https://en.wikipedia.org/wiki/Brochwel_Ysgithrog -->
+                        Brochwel yskythrog Comes Cestria[e]. 
                     </marginalia_text>
+                    <person name="Brochwel Ysgithrog"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Brochwel Ysgithrog, Count of Chester.
+            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="defensorem Brochimallum"/>

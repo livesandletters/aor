@@ -6,14 +6,18 @@
     <page filename="226.tif" reader="John Dee" pagination="202"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Cearlus' -->
+        <marginalia hand="Italian" anchor_text="Cearlus">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Cearlus Rex <!-- FSF: not sure who that is -->      <!-- DO: I think it's: https://en.wikipedia.org/wiki/Cearl_of_Mercia -->
+                        Cearlus Rex 
                     </marginalia_text>
+                    <person name="Cearl of Mercia"/>
                 </position>
             </language>
+            <translation>
+                Cearl of Mercia
+            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Anglorum, quousq[ue] per"/>
