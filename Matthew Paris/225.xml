@@ -9,12 +9,14 @@
         <underline method="pen" type="straight" language="LA" text="Berniciorum Accam"/>
         <underline method="pen" type="straight" language="LA" text="Creodda Merciorum"/>
         
-        <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">         <!-- DO: As before, the official name should be tagged as 'person'; I've added them in so they just need to be checked -->
-            <node id="n1" person="Ella of Deira" anchor_text="Ellae">Rex Ella</node>                     <!-- DO: I think it must be 'Rex' rather than 'Reg' as they're both kings -->
+        <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">         
+            <node id="n1" person="Ella of Deira" anchor_text="Ellae">Rex Ella</node>               
             <node id="n2" person="Aethelfrith" anchor_text="Aethelfrid[us]">Rex. &AElig;thelfrid[us]</node>
             <node id="n3" person="Acha of Deira" anchor_text="Accam">Acca</node>
             <link to="n3" from="n1" relationship="has_child"/>
-            <link to="n2" from="n3" relationship="has_spouse"/>  <!-- DO: For 'has_spouse', this also needs to be captured going the other way (n2 to n3). I don't know if you also need to capture all the unnamed children? -->
+            <link to="n2" from="n3" relationship="has_spouse"/>
+            <link to="n3" from="n2" relationship="has_spouse"/>
+            <!-- FSF: are all the unnamed children to be tagged too? -->
         </graph>             
         
     </annotation>
