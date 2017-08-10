@@ -10,8 +10,10 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Peada filius Penda[e] substitus Rex Mercior[um]     <!-- DO: The people to be tagged -->
+                        Peada filius Penda[e] substitus Rex Mercior[um]
                     </marginalia_text>
+                    <person name="Penda of Mercia"/>
+                    <person name="Peada of Mercia"/>
                 </position>
             </language>
             <translation>
@@ -19,11 +21,12 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">       <!-- DO: Anchor 'ad Murum' -->
+        <marginalia hand="Italian" anchor_text="ad Murum">    
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Atwall Ad Murum <!-- FSF: not sure -->      <!-- DO: I think this is correct (though 'Ad Muru[m].') 'Ad Murum' (literally 'At Wall') appears to be some kind of place/residence name, but I can't identify it exactly: http://heddonhistory.weebly.com/ad-murum.html -->
+                        Atwall Ad Muru[m]    <!-- DO:  'Ad Murum' (literally 'At Wall') appears to be some kind of place/residence name, but I can't identify it exactly: http://heddonhistory.weebly.com/ad-murum.html -->
+                        <!-- FSF: possibly Walbottle https://en.wikipedia.org/wiki/Walbottle or Newcastle https://books.google.co.uk/books?id=CPsVAAAAYAAJ&pg=PA5&lpg=PA5&dq=ad+murum&source=bl&ots=ZTAcHyWzO4&sig=Km7pj38Vjzc8YGVmuLuOBVhQISQ&hl=en&sa=X&ved=0ahUKEwi96oie5szVAhVsKcAKHXXWBHMQ6AEIRzAF#v=onepage&q=ad%20murum&f=false -->
                     </marginalia_text>
                 </position>
             </language>
@@ -41,7 +44,9 @@
         <underline method="pen" type="straight" language="LA" text="milite Tonhero"/>
         <underline method="pen" type="straight" language="LA" text="comitis Hu[n]vvaldi"/>
         
-        <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">  <!-- DO: Official names to be tagged as person; I've added them in so they just need to be checked -->
+        <mark name="tripunctus" method="pen" place="tail"/>
+        
+        <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">  
             <node id="n1" person="Oswiu" anchor_text="Osvviu[m]">Oswius Rex</node>
             <node id="n2" person="Penda of Mercia">Penda Rex</node>
             <node id="n3" person="Alhfrith" anchor_text="Alfrido">Alfredus</node>
@@ -52,13 +57,11 @@
             <link to="n4" from="n2" relationship="has_child"/>
             <link to="n3" from="n1" relationship="has_child"/>
             <link to="n5" from="n1" relationship="has_child"/>
-            <link to="n3" from="n4" relationship="has_spouse"/>   <!-- DO: For spouses, the connection should be captured going both ways e.g. n4 to n3 and n3 to n4 -->
+            <link to="n3" from="n4" relationship="has_spouse"/> 
+            <link to="n4" from="n3" relationship="has_spouse"/> 
             <link to="n5" from="n6" relationship="has_spouse"/>
+            <link to="n6" from="n5" relationship="has_spouse"/>
         </graph>
-        
-        
-        <!-- DO: Tripunctus at bottom of page -->
-        
-        
+
     </annotation>
 </transcription>
