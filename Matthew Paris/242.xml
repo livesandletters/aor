@@ -6,7 +6,7 @@
     <page filename="242.tif" reader="John Dee" pagination="224" signature="[T[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Pellitu[m]' -->
+        <marginalia hand="Italian" anchor_text="Pellitu[m]"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -24,12 +24,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Salomon rex Arm <!-- FSF: I can't decipher the last word -->  <!-- DO: Not sure either. I feel like it should be abbreviation for Brittany but I'm not sure how (Bri[ta]n[niae]?). He needs to be tagged: https://en.wikipedia.org/wiki/Salomon,_King_of_Brittany -->
+                        Salomon rex Bri[ta]n[niae].
                     </marginalia_text>
+                    <person name="Salomon, King of Brittany"/>
                 </position>
             </language>
             <translation>
-                
+                Salomon, King of Brittany
             </translation>
         </marginalia>
         

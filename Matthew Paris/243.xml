@@ -6,26 +6,33 @@
     <page filename="243.tif" reader="John Dee" pagination="219" signature="T ij"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'nepoti ... Brieno' -->
+        <marginalia hand="Italian" anchor_text="nepoti suo nomine Brieno">  <!-- DO: Anchor '' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Brienus nepos cadvvallini  <!-- DO: Looks like 'Cadwallonis' to me... You need to tag https://en.wikipedia.org/wiki/Cadwallon_ap_Cadfan and Brian, nephew of Cadwallon -->
+                        Brienus nepos Cadwallonis  
                     </marginalia_text>
+                    <person name="Cadwallon ap Cadfan"/>
+                    <person name="Brian, nephew of Cadwallon ap Cadfan"/>
                 </position>
             </language>
-            <translation></translation>  <!-- DO: Brian, the nephew of Cadwallon. -->
+            <translation>
+                Brian, the nephew of Cadwallon.
+            </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'soror eius' -->
+        <marginalia hand="Italian" anchor_text="soror eius">  
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">  
                     <marginalia_text>
-                        Soror Brieni       <!-- DO: I can't find a name for his sister... Brian to be tagged as well -->
+                        Soror Brieni 
                     </marginalia_text>
+                    <person name="Brian, nephew of Cadwallon ap Cadfan"/>
                 </position>
             </language> 
-            <translation></translation>  <!-- DO: Brian's sister. -->
+            <translation>
+                Brian's sister
+            </translation>  
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ad Exoniam">
