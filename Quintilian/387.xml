@@ -14,7 +14,7 @@
                     <marginalia_text>Ad re[m]</marginalia_text>
                 </position>
             </language>
-            <translation>For things.</translation>
+            <translation>For things.</translation> <!-- FSF: I'd translate as To a thing -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ad persona[m]">
@@ -23,7 +23,7 @@
                     <marginalia_text>Ad persona[m]</marginalia_text>
                 </position>
             </language>
-            <translation>For a person.</translation>
+            <translation>For a person.</translation> <!-- FSF: to a person -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Nonnuquam deuplice[m]">
@@ -32,7 +32,7 @@
                     <marginalia_text>sente[n]tia simplex Duplex</marginalia_text>
                 </position>
             </language>
-            <translation>Simple thought is twofold.</translation>
+            <translation>Simple thought is twofold.</translation> <!-- FSF: I don't think this is meant as a sentence, but showing that there can be simple and twolod sentences -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="decem genera">
@@ -43,7 +43,7 @@
             </language>
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>γνώμων</marginalia_text>
+                    <marginalia_text>γνώμων</marginalia_text> <!-- FSF: I don't know Greek, but the accent looks the other way round -->
                 </position>
             </language>
             <language ident="LA">
@@ -110,10 +110,10 @@
             <translation>Character of authority.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text=""> <!-- FSF: Anchor text to be added -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>sup[ra] de enthy[mema]</marginalia_text> <!-- M.B. Not sure of this one, difficult to read. -->
+                    <marginalia_text>sup[ra] de enthy[mema]</marginalia_text> <!-- M.B. Not sure of this one, difficult to read. --> <!-- FSF: I think that's fine -->
                 </position>
             </language>
             <translation>See above for enthymeme.</translation>
@@ -132,4 +132,3 @@
         
     </annotation>
 </transcription>
-
