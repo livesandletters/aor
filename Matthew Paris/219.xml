@@ -6,16 +6,20 @@
     <page filename="219.tif" reader="John Dee" pagination="195" signature="R ij"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: I would anchor 'Sampson Dolensis ... transiit' -->
+        <marginalia hand="Italian" anchor_text="Sampson Dolensis archiepiscopus &amp; successor sancti Sampsonis qui de Britania maiori ad minorem transiit"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Sampson Meneuensis archiep[iscopus] vide a[nn]o p[ri]mo regitas in Hoveden Historico. At Ebora co[m]tem Archiepi[scopu]m fuisse asserit Math. Paris. A[nn]o 1&o_super; regis Jo[ann]is <!-- FSF: not sure -->  <!-- DO: Should be 'archiep[iscopu]s' at the beginning; I think after 'p[ri]mo' it's 'regis Io[ann]is' like at the end. Then I think it's 'Hovedeno' or 'Hove[n]deno', and then 'Eborace[n]sem'. See: https://en.wikipedia.org/wiki/Roger_of_Hoveden --> 
-                    </marginalia_text>                                                                                                        <!-- DO: Regarding the archbishop, 'Menevensis' = the place St. David's; the printed text seems to refer to a successor of this Samson of Dol: https://en.wikipedia.org/wiki/Samson_of_Dol; I can't specifically find him so maybe just 'Samson of St. David's'? -->
+                        Sampson Meneuensis archiep[iscopu]s vide a[nn]o p[ri]mo regis Io[ann]is in Hovedeno Historico. At Eborace[n]sem Archiepi[scopu]m fuisse asserit Math. Paris. A[nn]o 1&o_super; regis Jo[ann]is 
+                    </marginalia_text>                      
+                    <person name="Samson of Dol"/>
+                    <person name="King John"/>
+                    <person name="Matthew Paris"/>
+                    <location name="St David"/>
                 </position>
             </language>
             <translation>
-                
+                Samson of Dol, archbishop of St David's. See the first year of King John in Hoveden's History. But Matthew Paris asserts <!-- FSF: not sure about the second archbishopry; I don't think it is Evora; possibly Ireland? not sure -->
             </translation>
         </marginalia>
         
@@ -29,7 +33,7 @@
         <mark name="comma" method="pen" place="intext"/> <!-- archiepiscopus &amp; -->
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <errata language="LA" copytext="probilior" amendedtext="probebilior"/>   <!-- DO: It does look like an 'e' but 'probabilior' is more likely...? -->
+        <errata language="LA" copytext="probilior" amendedtext="probabilior"/>  
         
     </annotation>
 </transcription>
