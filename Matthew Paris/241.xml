@@ -6,13 +6,13 @@
     <page filename="241.tif" reader="John Dee" pagination="217" signature="T"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: I would anchor 'baptizatus' -->
+        <marginalia hand="Italian" anchor_text="baptizatus">  
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Eadwinus rex North. baptizatus
                     </marginalia_text>
-                    <person name="Edwin, Earl of Mercia"/>  <!-- DO: Again I think this is Edwin of Northumbria -->
+                    <person name="Edwin of Northumbria"/> 
                 </position>
             </language>
             <translation>
@@ -25,10 +25,7 @@
         <underline method="pen" type="straight" language="LA" text="inter Penda[m] regem"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
-        
-        
-        <!-- DO: It looks like there's an added comma at 'prius addidit' (12 lines down) -->
-        
+        <mark name="comma" method="pen" place="intext"/> <!-- prius addidit -->
         
     </annotation>
 </transcription>

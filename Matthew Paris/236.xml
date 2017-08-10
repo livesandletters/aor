@@ -10,8 +10,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        A[E]thelfridus occis[us] rex Northu[m]b  <!-- DO: Aethelfrith needs to be tagged: https://en.wikipedia.org/wiki/Æthelfrith -->
+                        A[E]thelfridus occis[us] rex Northu[m]b 
                     </marginalia_text>
+                    <person name="Æthelfrith"/>
                 </position>
             </language>
             <translation>
@@ -19,16 +20,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'septe[m]decim annis exulauerat' -->
+        <marginalia hand="Italian" anchor_text="septe[m]decim annis exulauerat"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        ex 13 [17 deleted] a[n]nis  <!-- DO: I think the word after this is 'exul' ('13 years' exile') -->
+                        ex 13 [17 deleted] a[n]nis exuli 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Since 13 years.
+                Since 13 years in exile.
             </translation>
         </marginalia>
         
@@ -38,7 +39,7 @@
                     <marginalia_text>
                         Edvvinus factus Christianus
                     </marginalia_text>
-                    <person name="Edwin, Earl of Mercia"/>   <!-- DO: I think he's referring to Edwin of Northumbria (the text calls him 'son of Ella'): https://en.wikipedia.org/wiki/Edwin_of_Northumbria -->
+                    <person name="Edwin of Northumbria"/> 
                 </position>
             </language>
             <translation>
