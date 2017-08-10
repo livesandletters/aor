@@ -10,8 +10,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Cambria.             <!-- DO: Location to be tagged -->
+                        Cambria.         
                     </marginalia_text>
+                    <location name="Wales"/>
                 </position>
             </language>
             <translation>
@@ -32,12 +33,14 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Cornubia' -->
+        <marginalia hand="Italian" anchor_text="Cornubia">  
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Cambria et Cornubia.         <!-- DO: Locations to be tagged -->
+                        Cambria et Cornubia.       
                     </marginalia_text>
+                    <location name="Wales"/>
+                    <location name="Cornwall"/>
                 </position>
             </language>
             <translation>
@@ -49,25 +52,26 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Tres prouincia[e] Bryta[n]noru[m] iam nota[n]d[a]e         <!-- DO: Location to be tagged (Britain) -->
+                        Tres prouincia[e] Bryta[n]noru[m] iam nota[n]d[a]e      
                     </marginalia_text>
+                    <location name="Britain"/>
                 </position>
             </language>
             <translation>
-                Three provinces of Britons still to be noted.  <!-- DO: I'd say 'to be noted now', as they are being noted here -->
+                Three provinces of Britons to be noted now.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: I'd anchor 'Sed in ... diem' -->
+        <marginalia hand="Italian" anchor_text="Sed in hoc ta[n]tum reprehensibiles iudicantur, qu&ograve;d semper gentem Anglorum, &amp; etiam vsque in hodiernum diem"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Cur reprehendendi Brita[n]ni siue Ca[m]bri hodierni <!-- FSF: not sure -->    <!-- DO: Locations to be tagged -->
+                        Cur reprehendendi Brita[n]ni siue Ca[m]bri hodierni 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                        <!-- DO:'Why are Britons or Welsh people to be blamed today'? -->
+                Why are Britons or Welsh people to be blamed today
             </translation>
         </marginalia>
         
@@ -90,7 +94,8 @@
         <underline method="pen" type="straight" language="LA" text="prouinciae illorum inexpugnabiles"/>
         <underline method="pen" type="straight" language="LA" text="Anglorum nequiter infestant, nec aliud ab eis in bello, nisi capita solum pro redemptione requiru[n]t"/>
         
-        <mark name="bracket" method="pen" place="right_margin"/>   <!-- DO: Is this two brackets? -->
+        <mark name="bracket" method="pen" place="right_margin"/>  
+        <mark name="bracket" method="pen" place="right_margin"/> 
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
