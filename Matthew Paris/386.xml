@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="386.tif" reader="John Dee" pagination="362" signature="Hh"/>
+    <page filename="386.tif" reader="John Dee" pagination="362" signature="[Hh[v]]"/>
     <annotation>
         
         <underline method="pen" type="straight" language="LA" text="Aethelstanus fratrem"/>
@@ -11,8 +11,8 @@
         
         <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
             <node id="n1" person="">Eadgitha</node> <!-- FSF: the name sounds similar to Eadgyth, who was however the wife of Otto I; there is however some confusion here, I think -->
-            <node id="n2" person="">Sithricus Rex North</node> <!-- FSF: possibly him? https://en.wikipedia.org/wiki/Sitric_Cáech -->
-            <link to="n1" from="n2" relationship="has_spouse"/>
+            <node id="n2" person="">Sithricus Rex North</node> <!-- FSF: possibly him? https://en.wikipedia.org/wiki/Sitric_Cáech -->  <!-- DO: Yes I would say so. Wikipedia suggests he married a sister of Aethelred, and speculates perhaps https://en.wikipedia.org/wiki/Edith_of_Polesworth. He also had sisters https://en.wikipedia.org/wiki/Eadgifu_of_Wessex and Eadgyth but neither of them known to have married Otho... -->
+            <link to="n1" from="n2" relationship="has_spouse"/>   <!-- DO: Spousal connections to go in both directions -->
             <graph_text>
                 <note hand="Italian" language="LA">
                     925
@@ -20,16 +20,20 @@
             </graph_text>
         </graph>
         
-        <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
-            <node id="n3">Eadgiua</node> <!-- FSF: according to Wikpedia the wife of Otto I was Eadgyth, which I think Dee wrote first -->
+        <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">  <!-- DO: People to be tagged -->
+            <node id="n3">Eadgiua</node> <!-- FSF: according to Wikpedia the wife of Otto I was Eadgyth, which I think Dee wrote first -->  <!-- DO: I'm thinking that 'Eadgiua' must be Eadgyth, and 'Eadgitha' is someone else (and that understandably Dee got confused by these names). Not 100% sure though -->
             <node id="n4">Otho Imp.</node>
-            <link to="n3" from="n4" relationship="has_spouse"/>
+            <link to="n3" from="n4" relationship="has_spouse"/>  <!-- DO: Capture both ways -->
             <graph_text>
-                <note hand="Italian" language="LA">
+                <note hand="Italian" language="LA">  <!-- DO: I think this probably needs to be translated but not sure how/where -->
                     A[nn]o 938
                 </note>
             </graph_text>
         </graph>
+        
+        
+        <!-- DO: I don't know if the crossed out writing ('925 a[nn]o.'?) needs to be captured? -->
+           
 
     </annotation>
 </transcription>
