@@ -19,13 +19,13 @@
         <marginalia hand="Italian" anchor_text="ferrum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>ferru[m]</marginalia_text>
+                    <marginalia_text>ferru[m].</marginalia_text>
                 </position>
             </language>
             <translation>The sword.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Cicero his ipsis ad Brutu[m]">
+        <marginalia hand="Italian" anchor_text="Cicero his ipsis ad Brutu[m]"> <!-- FSF: I think these letters by Cicero are ment https://en.wikipedia.org/wiki/Epistulae_ad_Brutum; that's why I'd anchor up to epistola; rest would need to be changed too -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Cicero ad Brutu[m]</marginalia_text>
@@ -47,9 +47,9 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="emendate quidem, ac dilucide dicentium"/>
-        <underline method="pen" type="straight" language="LA" text="potest, * &amp; quae sunt artes altiores, plerunque occultantur, ut artes sint"/>
+        <underline method="pen" type="straight" language="LA" text="potest,* &amp; quae sunt artes altiores, plerunque occultantur, ut artes sint"/>
         <underline method="pen" type="straight" language="LA" text="armis, praeliatus"/>
-        <underline method="pen" type="straight" language="LA" text="Sublimiitas profect&ograve; &amp; magnicie[n]tua, &amp; nitor, &amp; autoritas expre&sharp-S;it illum fragorem."/>
+        <underline method="pen" type="straight" language="LA" text="Sublimiitas profect&ograve; &amp; magnicie[n]tia, &amp; nitor, &amp; autoritas expre&sharp-S;it illum fragorem"/>
         <underline method="pen" type="straight" language="LA" text="terroris"/>
         
         <symbol name="Jupiter" place="right_margin"/>

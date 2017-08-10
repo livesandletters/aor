@@ -18,7 +18,7 @@
         <marginalia hand="Italian" anchor_text="totus prop&egrave; mutatus est sermo">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Totus mutatus est sermo prope</marginalia_text>
+                    <marginalia_text>Totus mutatus est sermo prope</marginalia_text> <!-- FSF: I think here it is prop&egrave; too -->
                 </position>
             </language>
             <translation>The whole language has changed.</translation>
@@ -49,19 +49,19 @@
                     <marginalia_text>Odiosa cura.</marginalia_text>
                 </position>
             </language>
-            <translation>Odious writing.</translation>
+            <translation>Odious writing.</translation> <!-- FSF: cura maybe more like zeal? -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Graecus magis concessum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Gra[e]coru[m] licetia</marginalia_text>
+                    <marginalia_text>Gra[e]coru[m] licetia</marginalia_text> <!-- FSF: I read lice[n]tia -->
                 </position>
             </language>
             <translation>A liberty of the Greeks.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text=""> <!-- FSF: I'd anchor qua illi ... dederunt -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Primi no[m]i[nu]m impositores...</marginalia_text>
@@ -90,14 +90,13 @@
             <translation>To deprive and to banish from the mind</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="quod horridum reor, tolerabile autumo"/>
-        <underline method="pen" type="straight" language="LA" text="ipsa gratius nit&ecirc;t"/>
+        <underline method="pen" type="straight" language="LA" text="ipsa gratius nit&ecirc;t"/> <!-- FSF: I read nite[n]t -->
         <underline method="pen" type="straight" language="LA" text="Emancipare, &amp; fari, &amp; multa alia etiam audientibus grata inseri possunt, sed ita demum, si non appareat affectatio. In"/>
         <underline method="pen" type="straight" language="LA" text="Et uerba antiqui multum furate Catonis, Crispe Iugurthinae conditor historiae."/>
         <underline method="pen" type="straight" language="LA" text="Nam est cuilibet facilis, &amp; hoc pe&sharp-S;ima, qu&ograve;d rei studiosus, no[n] rebus uerba aptauit, sed res extrinsecus 
-            arece&sharp-S;it, quibus haec uerba conueniant."/>
-        <underline method="pen" type="straight" language="LA" text="no[n] alia libertate, qu&agrave;m qua illi primi homines rebus apellationes dederunt."/>
+            arece&sharp-S;it, quibus haec uerba conueniant"/>
+        <underline method="pen" type="straight" language="LA" text="no[n] alia libertate, qu&agrave;m qua illi primi homines rebus apellationes dederunt"/>
         <underline method="pen" type="straight" language="LA" text="an gradus eliminat"/>
         <underline method="pen" type="straight" language="LA" text="ne expectorat"/>
         
@@ -106,4 +105,3 @@
         
     </annotation>
 </transcription>
-

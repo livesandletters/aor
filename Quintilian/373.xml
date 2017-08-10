@@ -11,7 +11,7 @@
         <marginalia hand="Italian" anchor_text="singulis uerbis satis dictu[m], quae ut alio loco oste[n]di, per se nullam uirtute[m] habe[n]t">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Singula verba p[er] se, nulla[m] virtutw[m] habet.</marginalia_text>
+                    <marginalia_text>Singula verba p[er] se, nulla[m] virtute[m] habet.</marginalia_text>
                 </position>
             </language>
             <translation>Individual words have no virtue on their own.</translation>
@@ -29,13 +29,13 @@
         <marginalia hand="Italian" anchor_text="obscoena">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Obstoena.</marginalia_text>
+                    <marginalia_text>Obstoena.</marginalia_text> <!-- FSF: I read Obscoena -->
                 </position>
             </language>
             <translation>Obscenities.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="co[n]iuncti sermonis">
+        <marginalia hand="Italian" anchor_text="co[n]iuncti sermonis"> <!-- FSF: you have tagged this note twice -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Coniuncti sermonis Ornatus qualis.</marginalia_text>
@@ -56,7 +56,7 @@
         <marginalia hand="Italian" anchor_text="oratio, prius ea quae sunt huic contraria laudi">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>[est] Orationis Vitia</marginalia_text>
+                    <marginalia_text>[est] Orationis Vitia</marginalia_text> <!-- FSF: I don't think there is an est sign -->
                 </position>
             </language>
             <translation>It is the vices of speech.</translation>
@@ -74,7 +74,7 @@
         <marginalia hand="Italian" anchor_text="prima uirtus est, uitio carere">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Prima virtus est vitio carere [est] </marginalia_text>
+                    <marginalia_text>Prima virtus est vitio carere [est] </marginalia_text> <!-- FSF: again, I don't think this is an est sign -->
                 </position>
             </language>
             <translation>The primary virtue is to be without vice.</translation>
@@ -83,7 +83,7 @@
         <marginalia hand="Italian" anchor_text="uitium est ubiq[ue] quod nimiu[m] est.">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Vitium ubiq[ue] est quod est. </marginalia_text>
+                    <marginalia_text>Vitium ubiq[ue] est quod est. </marginalia_text> <!-- FSF: you've missed the word nimiu[m] -->
                 </position>
             </language>
             <translation>Excess is everywhere a vice.</translation>
@@ -92,20 +92,20 @@
         <underline method="pen" type="straight" language="LA" text="de qua loquendu[m] est, dignitate[m]: excepto, si obscoena nominibus enu[n]tientur. Quod"/>
         <underline method="pen" type="straight" language="LA" text="Ego Romani pudoris more co[n]tentus, ut iam respo[n]di talibus, uerecundiam silentio uindicabo"/>
         <underline method="pen" type="straight" language="LA" text="quam co[n]cipiamus elocutione[m], quo modo efferamus. Nam primum est, ut liqueat augere quid uelimus, an minuere, concitate 
-            dicere an moderate, laete an seuer&egrave;, abundanter an presse, aspere an leniter, magnific&egrave; an subtiliterm grauiter an urbane, Tum quo translationis genere, quibus figuris, 
-            qualibus sententijs, quo modo, qua postem&ograve; collocatione id, quod intendimus, efficere po&sharp-S;imus."/>
-        <underline method="pen" type="straight" language="LA" text="Sed quia uitium est ubiq[ue] quod nimiu[m] est."/>
+            dicere an moderate, laete an seuer&egrave;, abundanter an presse, aspere an leniter, magnific&egrave; an subtiliter, grauiter an urbane. Tum quo translationis genere, quibus figuris, 
+            qualibus sententijs, quo modo, qua postem&ograve; collocatione id, quod intendimus, efficere po&sharp-S;imus"/>
+        <underline method="pen" type="straight" language="LA" text="sed quia uitium est ubiq[ue], quod nimiu[m] est."/>
         <underline method="pen" type="straight" language="LA" text="sententias uel graues, uel aptas opinionibus"/>
         <underline method="pen" type="straight" language="LA" text="Delectant translata, superlata, ad nomen adiuncta, duplicata"/>
         <underline method="pen" type="double" language="LA" text="eadem significantia"/>
         <underline method="pen" type="straight" language="LA" text="atq[ue] ab imitatione rerum non abhorrentia"/>
         <underline method="pen" type="straight" language="LA" text="in obscoenu[m] intellectu[m] sermo detortus sanct&egrave; &amp; antiqu&egrave; ridentur &agrave; nobis, si dijs placet: 
-            qua[m] culpam no[n] scribe[n]tium quidem iudico"/>
+            qua[m] culpam no[n] scribe[n]tium quidem iudico"/><!-- FSF: I think you jumped the second line -->
         
-        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="bracket" method="pen" place="intext"/> <!-- FSF: word on either side to be added -->
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-     
+        <mark name="tripunctus" method="pen" place="right_margin"/> <!-- FSF: with tail, but only two dots --> <!-- FSF: I have just added this; also, I think there is a tripunctus in the tail, in the text -->
         
         <numeral place="right_margin">.1.</numeral>
         <numeral place="right_margin">2</numeral>
@@ -116,4 +116,3 @@
         
     </annotation>
 </transcription>
-

@@ -17,7 +17,7 @@
             <translation>Clarity.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text=""> <!-- FSF: anchor rerum perspicuitas -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Reru[m] perspicuitas</marginalia_text>
@@ -26,7 +26,7 @@
             <translation>The clarity of things.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="nisi tam clara fuerint, quae dicemus, ut in animum eius oratio, ut sol in oculos, etiamsi in eam non intendatur, incurrat">
+        <marginalia hand="Italian" anchor_text="nisi tam clara fuerint, quae dicemus, ut in animum eius oratio, ut sol in oculos, etiamsi in eam non intendatur, incurrat"> <!-- FSF: if you want to anchor all this, then I'd start at sed multis, otherwise the incurrat has no sentence to relate to -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Similitudo</marginalia_text>
@@ -52,6 +52,7 @@
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
+        <!-- FSF: Isn't there another bracket next to the lower florilegium? -->
+        
     </annotation>
 </transcription>
-
