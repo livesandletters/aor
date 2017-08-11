@@ -8,16 +8,16 @@
         
     <!-- M.B. Greek marginalia to be captued later. -->
           
-        <marginalia hand="Italian" anchor_text="Obstat enim, quicquid no[n] adiuuat.">
+        <marginalia hand="Italian" anchor_text="Obstat enim, quicquid no[n] adiuuat">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Obstat enim quicquid no[n] adiuvat[us]</marginalia_text> 
+                    <marginalia_text>Obstat enim quicquid no[n] adiuvat[us]</marginalia_text> <!-- FSF: I don't think this is a [us] abbrevation --> 
                 </position>
             </language>
-            <translation>Because whatever is no help is a hindrance.</translation>
+            <translation>Because whatever is no help is a hindrance.</translation> <!-- FSF: I'd translate enim as for, so that it introduces a main clause like in the Latin -->
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="genus diuiditur in species, nihil habet proprium, ut arboris specues sunt pinus, &amp; olea, &amp; 
+        <marginalia hand="Italian" anchor_text="genus diuiditur in species, nihil habet proprium, ut arboris species sunt pinus, &amp; olea, &amp; 
             cupresus, &amp; ipsius per nulla proprietas">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -65,21 +65,19 @@
             <translation>Plato.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="qu&ograve;d genus diuiditur in species, nihil habet proprium, ut arboris specues sunt pinus, &amp; olea, &amp; 
+        <underline method="pen" type="straight" language="LA" text="qu&ograve;d genus diuiditur in species, nihil habet proprium, ut arboris species sunt pinus, &amp; olea, &amp; 
             cupresus, &amp; ipsius per nulla proprietas"/>
         <underline method="pen" type="straight" language="LA" text="simulatus"/>
         <underline method="pen" type="straight" language="LA" text="non latens derisus"/>
         <underline method="pen" type="straight" language="LA" text="circuitum"/>
-        <underline method="pen" type="straight" language="LA" text="astrictior. Quicquid significari breuius potest, &amp; cum ornatu laius ostenditur"/>
+        <underline method="pen" type="straight" language="LA" text="astrictior. Quicquid significari breuius potest, &amp; cum ornatu latius ostenditur"/>
         <underline method="pen" type="straight" language="EL" text="περίφρασις"/>
         <underline method="pen" type="straight" language="LA" text="non san&egrave; orationis aptum uirtuti"/>
         <underline method="pen" type="straight" language="LA" text="Obstat enim, quicuid no[n] adiuuat"/>
-        <underline method="pen" type="straight" language="LA" text="Fit enim frequenti&sharp-S;]ime aspera, &amp; dura, &amp;di&sharp-S;oluta, &amp; hians oratio, si"/>
+        <underline method="pen" type="straight" language="LA" text="Fit enim frequenti&sharp-S;]ime aspera, &amp; dura, &amp; di&sharp-S;oluta, &amp; hians oratio, si"/>
         <underline method="pen" type="straight" language="LA" text="atque ut in structuris lapidum impolitiorum, loco"/>
         <underline method="pen" type="straight" language="LA" text="quae coagmentata se magis"/>
         <underline method="pen" type="straight" language="EL" text="κατέβην χθὲς εἰς πειραιᾶ "/>
         
-        
     </annotation>
 </transcription>
-

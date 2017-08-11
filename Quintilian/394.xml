@@ -11,10 +11,10 @@
         <marginalia hand="Italian" anchor_text="translatio, qualis est">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Vitia tra[n]slationes.</marginalia_text>
+                    <marginalia_text>Vitia tra[n]slationes.</marginalia_text> <!-- FSF: I think it is tra[n]slationis -->
                 </position>
             </language>
-            <translation>Errors in translation.</translation>
+            <translation>Errors in translation.</translation> <!-- FSF: I think it means the disadvantages of metaphors -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="po&euml;tis">
@@ -29,7 +29,7 @@
         <marginalia hand="Italian" anchor_text="pastorem populi">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>pastor papuli</marginalia_text>
+                    <marginalia_text>pastor papuli</marginalia_text> <!-- FSF: I think it is populi -->
                 </position>
             </language>
             <translation>Shepherd of the people.</translation>
@@ -64,7 +64,7 @@
             <translation>Synecdoche.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="translatio permouendis animis plerunq[ue], &amp; signanfis rebus, ac sub oculos subijciendis reperta est">
+        <marginalia hand="Italian" anchor_text="translatio permouendis animis plerunq[ue], &amp; signandis rebus, ac sub oculos subijciendis reperta est">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Quare tra[n]slatio reperta est.</marginalia_text>
@@ -109,11 +109,9 @@
         <underline method="pen" type="straight" language="LA" text="orando ualebit numerorum illa libertas. Nam"/>
         <underline method="pen" type="straight" language="LA" text="orationes modo ornat, sed etiam quotidiani sermonis usus recipit"/>
         
-        
         <mark name="bracket" method="pen" place="left_margin"/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
-

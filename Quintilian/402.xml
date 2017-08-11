@@ -29,7 +29,7 @@
         <marginalia hand="Italian" anchor_text="tropus fit, quia componendus est &egrave; duobus intellectus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Tropus &amp; figura.</marginalia_text>
+                    <marginalia_text>Tropus &amp; figura.</marginalia_text> <!-- FSF: I think the & is simply an et with a strechted e -->
                 </position>
             </language>
             <translation>Trope and figure.</translation>
@@ -43,7 +43,6 @@
             </language>
             <translation>Confused.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="in Antoniu[m]">
             <language ident="LA">
@@ -66,7 +65,7 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Quibus de rebus"/>
-        <underline method="pen" type="straight" language="LA" text="perbati tenet nomen"/>
+        <underline method="pen" type="straight" language="LA" text="hyperbati tenet nomen"/>
         <underline method="pen" type="straight" language="LA" text="duas diuisam esse parteis"/>
         <underline method="pen" type="straight" language="LA" text="Ad id quod est, &amp; propter quod cu[m] dicitur, tropus fit, quia componendus est &egrave; duobus intellectus. Alioqui ubi nihil"/>
         <underline method="pen" type="straight" language="LA" text="significatione mutatum est, &amp; structura sola uariatur, figura potius uerborum dici potest, sicut"/>
@@ -79,6 +78,7 @@
         <numeral place="left_margin">4</numeral>
         <numeral place="left_margin">5</numeral>
         
+        <!-- FSF: there is also a vertical bar -->
+        
     </annotation>
 </transcription>
-

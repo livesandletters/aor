@@ -19,7 +19,7 @@
         <marginalia hand="Italian" anchor_text="Menalcas. sed Vergilius">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Menalcas &amp; vergilio</marginalia_text>
+                    <marginalia_text>Menalcas &amp; vergilio</marginalia_text> <!-- FSF: I think the & is p[ro] -->
                     <person name="Menalcas"/>
                     <person name="Virgil"/>
                 </position>
@@ -40,7 +40,7 @@
         <marginalia hand="Italian" anchor_text="commixtum">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Com[m]ixtum</marginalia_text>
+                    <marginalia_text>Com[m]ixtum</marginalia_text> <!-- FSF: I can't see the abbreviation for the m -->
                 </position>
             </language>
             <translation>Mixed.</translation>
@@ -49,7 +49,7 @@
         <marginalia hand="Italian" anchor_text="trium permixta est gratia">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>gra[tia] triu[m] p[er]mixta</marginalia_text>
+                    <marginalia_text>gr[ati]a triu[m] p[er]mixta</marginalia_text>
                 </position>
             </language>
             <translation>The charm of all three is combined.</translation>
@@ -61,28 +61,26 @@
                     <marginalia_text>Custodiendu[m]</marginalia_text>
                 </position>
             </language>
-            <translation>To be guarded</translation>
+            <translation>To be guarded.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="inconsequentia foedi&sharp-S;ima">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Inco[n]seq[ue]ntia fo[e]dissima</marginalia_text>
+                    <marginalia_text>Inco[n]seq[ue]ntia fo[e]dissima</marginalia_text> <!-- FSF: I read Inco[n]seque[n]tia -->
                 </position>
             </language>
-            <translation>horrible incongruity.</translation>
+            <translation>horrible incongruity.</translation> <!-- FSF: I'd translate as Most horrible -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="genere &amp; species ex arce&sharp-S;itis uerbis uenit, &amp; intellectus ex propriijs"/>
         <underline method="pen" type="straight" language="LA" text="similitudinis, allegoriae, &amp; translationis"/>
-        <underline method="pen" type="straight" language="LA" text="Nam id quoq[ue] in primis est custodiendum, ut quo ex genere coeperis translationism hoc desinas. Multi"/>
+        <underline method="pen" type="straight" language="LA" text="Nam id quoq[ue] in primis est custodiendum, ut quo ex genere coeperis translationis, hoc desinas. Multi"/>
         <underline method="pen" type="straight" language="LA" text="inconsequentia rerum foedi&sharp-S;ima"/>
         
         <!-- M.B. Not sure how to capture circle with dots. -->
         
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        
     </annotation>
 </transcription>
-
