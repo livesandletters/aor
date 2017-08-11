@@ -6,16 +6,17 @@
     <page filename="257.tif" reader="John Dee" pagination="217" signature="V iij"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Colma[n]nus' -->
+        <marginalia hand="Italian" anchor_text="Colma[n]nus">  
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Colma[n]nus scotius v[este]r ex Asia venite <!-- FSF: not sure -->  <!-- DO: Think the last word is 'venisse'. This is: https://en.wikipedia.org/wiki/Colmán_of_Lindisfarne. Not sure about the Asia connection though... -->
+                        Colma[n]nus scotius v[este]r ex Asia venisse
                     </marginalia_text>
+                    <person name="Colmán of Lindisfarne"/>
                 </position>
             </language>
             <translation>
-                
+                Colmán, your Scot, came from Asia.
             </translation>
         </marginalia>
         
@@ -23,7 +24,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Picti Scoti Britanni <!-- FSF: the third word is guessed as it is fading out -->
+                        Picti Scoti Britanni 
                     </marginalia_text>
                 </position>
             </language>
@@ -41,7 +42,6 @@
         <underline method="pen" type="straight" language="LA" text="Graeci"/>
         <underline method="pen" type="straight" language="LA" text="Pictos, Scotos, &amp; Britannos"/>
         <underline method="pen" type="straight" language="LA" text="orbe[m] stulto"/>
-        
         
     </annotation>
 </transcription>

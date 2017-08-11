@@ -20,7 +20,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Britonibus expulsis -->
+        <marginalia hand="Italian" anchor_text="Britonibus expulsis"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -39,10 +39,12 @@
         <underline method="pen" type="straight" language="LA" text="Saxonu[m], Iutorum, &amp; Angloru[m], Britonibus expulsis, Britannia[m] subiugarant"/>
         <underline method="pen" type="straight" language="LA" text="regionis ecclesias funditus est subuersa"/>
         
-        <errata language="LA" copytext="illlius" amendedtext="illius"/>     <!-- DO: There is another erratum two lines above this ('eius') -->
-        <errata language="LA" copytext="ieienio" amendedtext="ieiunio"/>
+        <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="circumflex" method="pen" place="intext"/>
         
-        <!-- DO: The circumflexes need to be tagged as well -->
+        <errata language="LA" copytext="eus" amendedtext="eius"/>
+        <errata language="LA" copytext="illlius" amendedtext="illius"/>    
+        <errata language="LA" copytext="ieienio" amendedtext="ieiunio"/>
         
     </annotation>
 </transcription>

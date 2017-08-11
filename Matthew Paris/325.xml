@@ -6,7 +6,7 @@
     <page filename="325.tif" reader="John Dee" pagination="301" signature="Cc"/>
     <annotation>
         
-        <marginalia hand="Italian">    <!-- DO: I would anchor 'Aethelulfus' as I think this is who it's talking about... -->
+        <marginalia hand="Italian" anchor_text="Aethelulfus">  
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -14,10 +14,11 @@
                     </marginalia_text>
                     <person name="Judith of Flanders"/>
                     <person name="Charles the Bald"/>
+                    <person name="Johannes Cuspinianus"/>
                 </position>
             </language>
             <translation>
-                His wife was Judith of Flanders, daughter of Charles the Bald. <!-- FSF: I don't understand the reference to Cuspinianus -->  <!-- DO: I would guess that this info comes from Cuspinian's work, but I can't see that he wrote anything about this time period... The 'Imper' goes with Charles the Bald -->
+                His wife was Judith of Flanders, daughter of Charles the Bald. Cuspinianus.
             </translation>
         </marginalia>
         
@@ -35,7 +36,7 @@
         
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">   <!-- DO: I've tagged the people, they just need to be checked -->
+        <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen"> 
             <node id="n1" person="Æthelwulf">&AElig;thelulfus</node>
             <node id="n2" person="Judith of Flanders">Iuditha filia Carioli</node>
             <node id="n3" person="Aethelstan of Kent">&AElig;thelstanus</node>
@@ -43,7 +44,8 @@
             <node id="n5" person="Aethelberht, King of Wessex">&AElig;thelbertus</node>
             <node id="n6" person="Aethelred, King of Wessex">&AElig;thelredus</node>
             <node id="n7" person="Alfred the Great">&AElig;lfredus</node>
-            <link to="n1" from="n2" relationship="has_spouse"/>       <!-- DO: Spousal connections need to be captured going both ways -->
+            <link to="n1" from="n2" relationship="has_spouse"/>
+            <link to="n2" from="n1" relationship="has_spouse"/>
             <link to="n3 n4 n5 n6 n7" from="n1 n2" relationship="has_child"/>
         </graph>
         

@@ -9,11 +9,12 @@
         <underline method="pen" type="double" language="LA" text="filius eius"/>
         <underline method="pen" type="straight" language="LA" text="soror Pendae"/>
         
-        <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">   <!-- DO: Official names to be added, see: https://en.wikipedia.org/wiki/Cadwallon_ap_Cadfan -->
-            <node id="n1" person="" anchor_text="Cadvvalin[us]">Cudwall</node>
-            <node id="n2" person="" anchor_text="soror Pendae">soror Pendae</node>
-            <node id="n3" person="" anchor_text="Cadvvalladrum">Cadowaladrus</node>
-            <link to="n1" from="n2" relationship="has_spouse"/>   <!-- DO: Spousal connections need to be captured going both ways -->
+        <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">   
+            <node id="n1" person="Cadwallon ap Cadfan" anchor_text="Cadvvalin[us]">Cudwall</node>
+            <node id="n2" anchor_text="soror Pendae">soror Pendae</node>
+            <node id="n3" person="Cadwaladr ap Cadwallon" anchor_text="Cadvvalladrum">Cadowaladrus</node>
+            <link to="n1" from="n2" relationship="has_spouse"/>
+            <link to="n2" from="n1" relationship="has_spouse"/>
             <link to="n3" from="n1 n2" relationship="has_child"/>
         </graph>
         
