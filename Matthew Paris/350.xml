@@ -6,7 +6,7 @@
     <page filename="350.tif" reader="John Dee" pagination="326" signature="[Ee[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">   <!-- DO: Anchor 'Wiltun' -->
+        <marginalia hand="Italian" anchor_text="Wiltun"> 
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -17,7 +17,7 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Asserum' -->
+        <marginalia hand="Italian" anchor_text="Asserum">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -38,7 +38,6 @@
         <underline method="pen" type="straight" language="LA" text="Herefridus"/>
         <underline method="pen" type="straight" language="LA" text="ex vltimis etia[m] VVallanoru[m] finibus"/> 
         <underline method="pen" type="straight" language="LA" text="de monasterio sancti Dauid"/>
-        
         
     </annotation>
 </transcription>
