@@ -6,6 +6,16 @@
     <page filename="346.tif" reader="John Dee" pagination="322"/>
     <annotation>
         
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Ashdune 
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
         <underline method="pen" type="straight" language="LA" text="Comitem Eadulfum"/>
         <underline method="pen" type="double" language="LA" text="mons fraxini"/>
         <underline method="pen" type="straight" language="LA" text="Bascaius"/>
@@ -14,10 +24,6 @@
         <underline method="pen" type="straight" language="LA" text="Sidrac"/>
         <underline method="pen" type="straight" language="LA" text="Osbernus, Franeus"/>
         <underline method="pen" type="straight" language="LA" text="Haroldus"/>
-        
-        
-        <!-- DO: 'Ashdune.' in left margin to be captured. See: https://en.wikipedia.org/wiki/Battle_of_Assandun -->
-        
-        
+       
     </annotation>
 </transcription>

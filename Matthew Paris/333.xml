@@ -6,12 +6,15 @@
     <page filename="333.tif" reader="John Dee" pagination="309"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Maybe anchor 'inter ... Aethelbertum' -->
+        <marginalia hand="Italian" anchor_text="inter filios Aethelbaldum &amp; Aethelbertum">  
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Tamen .4. filios habuit: vide sup[ra] pag: 301.    <!-- DO: You can add an internal reference to page 301 -->
+                        Tamen .4. filios habuit: vide sup[ra] pag[ina] 301.  
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10653:325" text="pag[ina] 301"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
@@ -19,7 +22,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Aethelulfus' -->
+        <marginalia hand="Italian" anchor_text="Aethelulfus"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -72,9 +75,7 @@
         <underline method="pen" type="straight" language="LA" text="thorum patris defuncti asce[n]dens, Iudetham regis Francorum filiam in matrimonio ducens, effrenis duobus ac dimidio post patrem annis, 
             occidentalium Saxonu[m] apicem crudeliter gubernauit"/>
         
-        
-        <!-- DO: Bracket in right margin -->
-        
+        <mark name="bracket" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
