@@ -10,12 +10,14 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        vide co[n]triet pag. 228. <!-- FSF: not sure -->  <!-- DO: I think it's 'co[n]tra pag' and then there is a plus sign next to it. You can make an internal reference to page 228 (file 252) -->
+                        vide co[n]tra pag[ina] 228. 
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10653:252" text="pag[ina] 228"/>
+                    </internal_ref>
                 </position>
             </language>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Deira"/>
         
