@@ -3,14 +3,14 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="399.tif" reader="John Dee" pagination="375" signature="Ii ii"/>
+    <page filename="399.tif" reader="John Dee" pagination="375" signature="Ii ii"/>   <!-- DO: I think this is probably 'Ij ij' but has been cut off -->
     <annotation>
         
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        died 950
+                        died 950 
                     </marginalia_text>
                 </position>
             </language>
@@ -20,12 +20,12 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Dynwall, ap Howel Dda eius filius, Owen, interfectus fuit a[nn]o 989. Laurarvun
+                       &Trine; Dynwall, ap Howel Dda eius filius, Owen, interfectus fuit a[nn]o 989. Laurarvun  <!-- DO: Looks like there's an 'f' in 'Dyfnwall'. Think the final word is 'Lancarvan': https://en.wikipedia.org/wiki/Llancarfan -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Dyfnwal ab Owain, the son of Hywel Dda, was killed in 989. <!-- FSF: both here and in the one below, I am not at all clear about the names and how they relate to each other -->
+                Dyfnwal ab Owain, the son of Hywel Dda, was killed in 989. <!-- FSF: both here and in the one below, I am not at all clear about the names and how they relate to each other -->  <!-- DO: I think the Owen must be: https://en.wikipedia.org/wiki/Owain_ap_Hywel_Dda (son of Hywel and the dates match). I'm not sure who the 'Dyfnwall' refers to, possibly https://en.wikipedia.org/wiki/Dyfnwal_ab_Owain but he wasn't a son of Hywel Dda. The only sense I can make is if it just lists two unrelated people ('Dyfnwal; Owain, son of Hywel Dda, was killed in 989' but it would be a really weird way of writing it... -->
             </translation>
         </marginalia>
         
@@ -33,13 +33,13 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        J[ohn] d[ee] Howel ap Ieaf ap Idewall voyle. Rex Venedotia[e]
+                        J[ohn] d[ee]. Howel ap Ieaf ap Idewall voyle. Rex Venedotia[e]       
                     </marginalia_text>
                     <person name="John Dee"/>
                 </position>
             </language>
             <translation>
-                Hywel ap Ieuaf...Idwal Foel, King of Gwynedd
+                Hywel ap Ieuaf...Idwal Foel, King of Gwynedd.  <!-- DO: I agree these are the two people, though according to Wikipedia, Foel was Hywel ap Ieuaf's grandfather. I think 'ap' generally means 'son of' but maybe it can mean 'descendent of' more vaguely, or the marginal note is just wrong -->
             </translation>
         </marginalia>
         
@@ -53,15 +53,15 @@
                 </position>
             </language>
             <translation>
-                Saint Tudwal or Ludwall. <!-- FSF: Ludwall to be identified -->
+                Saint Tudwal or Ludwall. <!-- FSF: Ludwall to be identified -->    <!-- DO: I'm really not sure, but I think possibly Ludwall may be an alternative name for Hywel Dda, just because of things like this: https://books.google.co.uk/books?id=52A_AQAAMAAJ&pg=PA322&lpg=PA322&dq=ludwal+wales&source=bl&ots=1UlhOckxG5&sig=ALHLIeJE4KS9h4HdxKbV1xZivps&hl=en&sa=X&ved=0ahUKEwiFnvXf_s7VAhUKmrQKHU-yDgQQ6AEILzAC#v=onepage&q=ludwal%20wales&f=false  This could be why he writes this note next to 'Hovvel' (otherwise I don't know what this refers to in the text). I would then guess that Tudwall is just another alternative. -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'regibus VValliae' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Reges Wallia[e]
+                        Reges Wallia[e]      <!-- DO: Wales to be tagged as location? -->
                     </marginalia_text>
                 </position>
             </language>
@@ -76,11 +76,12 @@
                     <marginalia_text>
                         King Edgar a Kingly Pilot.
                     </marginalia_text>
+                    <person name="Edgar I of England"/>
                 </position>
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="mille .cc. in occidentali, mille .cc. in occidentali, mille .cc. in australi, mille .cc. in septentrionali pelago constituit">
+        <marginalia hand="Italian" anchor_text="Equibus mille ducentas in plaga Angliae orientali, mille .cc. in occidentali, mille .cc. in australi, mille .cc. in septentrionali pelago constituit">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -89,20 +90,26 @@
                 </position>
             </language>
             <translation>
-                4800 ships in this class.
+                4800 ships in this class.   <!-- DO: Think 'Classis' can be 'fleet' -->
             </translation>
         </marginalia>
+        
+        
+        <!-- DO: Writing in left margin which presumably goes with the second circumflex - I don't know what it says -->
+           
         
         <underline method="pen" type="straight" language="LA" text="corpus Aelgiuae matris Eadgari regis"/>
         <underline method="pen" type="straight" language="LA" text="loco qui Septonia nuncupatur"/>
         <underline method="pen" type="straight" language="LA" text="rex Pacficus"/>
         <underline method="pen" type="straight" language="LA" text="Macone rege Monae"/>
-        <underline method="pen" type="straight" language="LA" text="Dufnal rege Demetiae"/>
+        <underline method="pen" type="grid" language="LA" text="Dufnal"/>
+        <underline method="pen" type="straight" language="LA" text="rege Demetiae"/>
         <underline method="pen" type="straight" language="LA" text="Sifertho"/>
         <underline method="pen" type="straight" language="LA" text="Hovvel regibus"/>
         <underline method="pen" type="double" language="LA" text="cum illis naue[m]"/>
-        <underline method="pen" type="straight" language="LA" text="fluminis perit&egrave; dirigens"/>
-        <underline method="pen" type="straight" language="LA" text="tu[n]c demum que[m]que"/>
+        <underline method="pen" type="straight" language="LA" text="gubernaculum"/>
+        <underline method="pen" type="double" language="LA" text="fluminis perit&egrave; dirigens"/>
+        <underline method="pen" type="double" language="LA" text="tu[n]c demum que[m]que"/>
         <underline method="pen" type="straight" language="LA" text="terremotus magnus totam Anglia[m] concussit"/>
         <underline method="pen" type="straight" language="LA" text="Eadgarus Pacificus"/>
         <underline method="pen" type="straight" language="LA" text="robustas congregauit naues"/>
@@ -113,16 +120,17 @@
         <underline method="pen" type="straight" language="LA" text="omni tempore vitae suae"/>
         <underline method="pen" type="straight" language="LA" text="ne pauperes &agrave; potentibus"/>
         <underline method="pen" type="straight" language="LA" text="timor"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; amor"/>
+        <underline method="pen" type="double" language="LA" text="&amp; amor"/>
         <underline method="pen" type="straight" language="LA" text="nummus obulum"/>
         <underline method="pen" type="straight" language="LA" text="Kinedum"/>
         
+        <symbol name="Trine" place="intext"/>
+        
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="circumflex" method="pen" place="intext"/>
         
-        <errata language="LA" copytext="vt quomodo" amendedtext="vt intelligeret quomodo"/>
-        
-        <!-- there are also two triangles which I don't know how to capture -->
+        <errata language="LA" copytext="vt quomodo" amendedtext="vt intelligeret quomodo"/>   <!-- DO: I personally would capture this as separate marginalia, but not sure if that's right -->
+         
         
     </annotation>
 </transcription>
