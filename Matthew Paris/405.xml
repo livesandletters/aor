@@ -10,9 +10,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        A[E]lfricus [deleted]
+                        &AElig;lfricus [deleted]
                     </marginalia_text>
-                    <person name="Ælfric Cild"/>
+                    <person name="Ælfric Cild"/>   <!-- DO: I think this is actually https://en.wikipedia.org/wiki/Ælfric_of_Abingdon -->
                 </position>
             </language>
             <translation>
@@ -24,21 +24,19 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Emma siue Imma, Normania[e] dicitur &AElig;lfgiva saxoni&agrave;[e]
+                        Emma siue Imma, Normania[e] dicitur &AElig;lfgiva saxoni&agrave;[e]   <!-- DO: I don't think there's an 'e' on the end; I'd translate as 'Emma or Imma of Normandy is called Ælfgifu in the Saxon language' (Anglo-Saxon?)  -->
                     </marginalia_text>
                     <person name="Emma of Normandy"/>
                     <person name="Ælfgifu of York"/>
                 </position>
             </language>
             <translation>
-                Emma or Imma of Normandy, called Ælfgifu of York. <!-- FSF: maybe rather called by Aelfgifu? These are two persons, Aelgifu being the elder -->
+                Emma or Imma of Normandy, called Ælfgifu of York. <!-- FSF: maybe rather called by Aelfgifu? These are two persons, Aelgifu being the elder -->  <!-- DO: According to this, Emma was given the Anglo-Saxon name Aelfgifu when she married -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Aelfricus"/>
-        <underline method="pen" type="straight" language="LA" text="Habuit rex Aethelredus"/>
-        <underline method="pen" type="double" language="LA" text="Emmam filliam"/>
-        <underline method="pen" type="straight" language="LA" text="praedicti"/>
+        <underline method="pen" type="straight" language="LA" text="Habuit rex Aethelredus Emmam filliam praedicti Ducis"/>
         <underline method="pen" type="straight" language="LA" text="Aelfredum"/>
         <underline method="pen" type="straight" language="LA" text="&amp; Eadvvardum"/>
         
