@@ -27,8 +27,8 @@
         <underline method="pen" type="straight" language="LA" text="Cedvvalla rex praefatus"/>
         <underline method="pen" type="straight" language="LA" text="regemque Ethelvvaldum"/>
         
-        <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">  <!-- DO: As before, official names to be tagged as 'person'; see: https://en.wikipedia.org/wiki/Cenberht -->
-            <node id="n1" person="Cenberht">Kinebertus</node>                                  <!-- DO: I think this says '' -->
+        <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">  
+            <node id="n1" person="Cenberht">Kinebertus</node>                               
             <node id="n2" person="Cædwalla of Wessex" anchor_text="Cedvvalla">Cedwalla</node>
             <node id="n3" person="Mul of Kent" anchor_text="Mollo">Mollo</node>
             <link to="n2" from="n1" relationship="has_child"/>

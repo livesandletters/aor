@@ -6,7 +6,7 @@
     <page filename="328.tif" reader="John Dee" pagination="304" signature="[Cc ij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Maybe anchor 'VVithgaresburh', I assume that's what he's referring to...? -->
+        <marginalia hand="Italian" anchor_text="VVithgaresburh"> 
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -22,7 +22,7 @@
                     <marginalia_text>
                         VVlstanus.
                     </marginalia_text>
-                    <person name="Wulfstan"/>    <!-- DO: Maybe tag as 'Wulfstan I' to be more specific? -->
+                    <person name="Wulfstan I"/>   
                 </position>
             </language>
             <translation>
