@@ -6,7 +6,7 @@
     <page filename="417.tif" reader="John Dee" pagination="411"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="uoces accipiunt"> <!-- M.B. i.e [Urbes etiam populique] voces accipiunt.  -->
+        <marginalia hand="Italian" anchor_text="[Urbes etiam populique] uoces accipiunt"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>vrbes</marginalia_text>
@@ -18,7 +18,7 @@
         <marginalia hand="Italian" anchor_text="διαλόγο[u]ς"> <!-- M.B. Captured ligature 'ȣ' as ο[u]' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>διαλόγο[u]ς</marginalia_text>
+                    <marginalia_text>διαλόγο[u]ς</marginalia_text> <!-- FSF: to me it looks like there is a ota after the γ, but I am not a Greek expert -->
                 </position>
             </language>
             <translation>Dialogues.</translation>
@@ -30,7 +30,7 @@
                     <marginalia_text>falsa &amp; Incredibilia.</marginalia_text>
                 </position>
             </language>
-            <translation>False or unbelievable.</translation>
+            <translation>False or unbelievable.</translation> <!-- FSF: and not or -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ita scripta qupq[ue]">
@@ -55,7 +55,7 @@
         <marginalia hand="Italian" anchor_text="P. Nouanius Gallio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>P[ublicus] Nouanius Galli[o]</marginalia_text>
+                    <marginalia_text>P[ublius] Nouanius Galli[o]</marginalia_text>
                     <person name="Publius Novanius Gallio"/>
                 </position>
             </language>
@@ -65,7 +65,7 @@
         <marginalia hand="Italian" anchor_text="παρωδἨ">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>ϖαρωδἨ</marginalia_text>
+                    <marginalia_text>ϖαρωδἨ</marginalia_text> <!-- FSF: I don't think the eta is upper case -->
                 </position>
             </language>
             <translation>Parody.</translation>
@@ -113,4 +113,3 @@
         
     </annotation>
 </transcription>
-

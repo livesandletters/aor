@@ -27,7 +27,7 @@
         <marginalia hand="Italian" anchor_text="co[m]municatio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Co[m]municatio</marginalia_text>
+                    <marginalia_text>Co[m]municatio</marginalia_text> <!-- FSF: I can't see the abbreviation for the additional m -->
                 </position>
             </language>
             <translation>Communication.</translation>
@@ -66,7 +66,7 @@
         <marginalia hand="Italian" anchor_text="suste[n]tationem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>sustentatio</marginalia_text> <!-- M.B. Marking next to sustentatio appears to be jupiter symbol but may need to consult physical text to be certain. -->
+                    <marginalia_text>sustentatio</marginalia_text> <!-- M.B. Marking next to sustentatio appears to be jupiter symbol but may need to consult physical text to be certain. --> <!-- FSF: for my comment, see below -->
                 </position>
             </language>
             <translation>Suspense.</translation>
@@ -75,7 +75,7 @@
         <marginalia hand="Italian" anchor_text="παράδοξος">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>ϖαράδοξοv</marginalia_text>
+                    <marginalia_text>ϖαράδοξοv</marginalia_text> <!-- FSF: the accent looks like an i to me; not sure what's going on here -->
                 </position>
             </language>
             <translation>Paradox.</translation>
@@ -100,11 +100,10 @@
             <translation>Permission.</translation>
         </marginalia>
 
-        
         <underline method="pen" type="straight" language="LA" text="aut reprehensione"/>
         <underline method="pen" type="straight" language="LA" text="diu suspendisset iudicu[m] animos"/>
         
-        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/> <!-- FSF: I am not sure where this is; do you mean the sign after sustentatio? to me this looks like a 2; but there is something funny with the page, so I am not sure -->
         
         <numeral place="right_margin">2</numeral>
         <numeral place="right_margin">3.</numeral>
