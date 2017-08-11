@@ -11,16 +11,16 @@
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         A[nn]o D[omi]ni 829: su[n]t ab initio mundi 4788. Ergo ab initio ad Chr[istu]m statuit annos 3959. quod no[n] procul a vero abest.
-                    </marginalia_text>     <!-- DO: Christ to be tagged -->
+                    </marginalia_text>  
+                    <person name="Jesus Christ"/>
                 </position>
             </language>
             <translation>
-                From the beginning of the world there are 4788 [years] In the year 829. Therefore from the beginning until Christ 3959 years are established, what is not far away. 
-                <!-- FSF: I am not really sure, especially about the last bit. The gist is clear, though I am not sure of how literal I should translate this -->  <!-- DO: I think this is correct, though I'd probably keep the word order at the beginning ('In the year 829, there are 4788...) as I think this is easier to understand. Maybe '3959 years stand between the beginning and Christ'? I don't think you have translated 'a vero' - 'from the truth' -->
+                In the year 829 there are 4788 [years] from the beginning of the world. Therefore 3959 years stand between the beginning and Christ, which is really not far away. 
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="annorum quingentorum triginta duorum">  <!-- DO: I'd maybe go from 'annus magnus'? -->
+        <marginalia hand="Italian" anchor_text="annus magnus, qui est annorum quingentorum triginta duorum"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -54,11 +54,10 @@
         <underline method="pen" type="straight" language="LA" text="suis, suae"/>
         <underline method="pen" type="straight" language="LA" text="spontanea voluntate"/>
         
-        <mark name="tripunctus" method="pen" place="head"/>     <!-- DO: There is also one in the left margin -->
+        <mark name="tripunctus" method="pen" place="head"/> 
+        <mark name="tripunctus" method="pen" place="left_margin"/> 
         
-        
-        <!-- DO: I think he has altered 'ditione' to 'ditioni' (paragraph 4) -->
-        
+        <errata language="LA" copytext="ditione" amendedtext="ditioni"/>
         
     </annotation>
 </transcription>
