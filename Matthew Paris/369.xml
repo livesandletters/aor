@@ -10,16 +10,17 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Andredeswald: hinc apparet vbi erat   <!-- DO: Andredeswald is the name of a forest, which seems to be here: https://en.wikipedia.org/wiki/Weald but also seems to be commonly referred to as 'Andredeswald' anyway -->
+                        Andredeswald: hinc apparet vbi erat 
                     </marginalia_text>
+                    <location name="Andredeswald"/>
                 </position>
             </language>
             <translation>
-                Andredeswald. Here he appears, when he was there. <!-- FSF: to me this doesn't make sense -->  <!-- DO: I'm not sure. It's a place name, so I'd say something like 'Here it is revealed where it was'? -->
+                Andredeswald. Here it is revealed where it was.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Appeltre' -->
+        <marginalia hand="Italian" anchor_text="Appeltre"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
