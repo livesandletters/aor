@@ -23,7 +23,7 @@
         <marginalia hand="Italian" anchor_text="singula singulis opponuntur">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>singula singulis in comparationi opponuntur</marginalia_text>
+                    <marginalia_text>Singula singulis in comparationi opponuntur</marginalia_text> <!-- FSF: I read comparatione -->
                 </position>
             </language>
             <translation>Are one by one compared against each other.</translation>
@@ -141,27 +141,25 @@
         
         <marginalia hand="Italian" anchor_text="Visellius adijcit &amp; sententiam">
             <language ident="LA">
-                <position place="right_margin" book_orientation="270">
-                    <marginalia_text>varie sententia[e] ae figuras co[n]stituendis</marginalia_text>
+                <position place="right_margin" book_orientation="270"> <!-- FSF: I think the rotation is 90 -->
+                    <marginalia_text>varie sententia[e] ae figuras co[n]stituendis</marginalia_text> <!-- FSF: I read de instead of ae -->
                 </position>
             </language>
             <translation>Various thoughts on figures are to be established.</translation>
         </marginalia>
        
-        
         <underline method="pen" type="straight" language="LA" text="caetera: nescio an orationis potius, qu&agrave;m sententiae"/>
         <underline method="pen" type="straight" language="LA" text="Visellius, in"/>
-        <underline method="pen" type="straight" language="LA" text="c&ugrave;m plura argumenta ad unum effectum deducuntur."/>
+        <underline method="pen" type="straight" language="LA" text="c&ugrave;m plura argumenta ad unum effectum deducuntur"/>
         <underline method="pen" type="straight" language="LA" text="Praeter haec Celsus excludere, asseuerare, detrectare, excitare iudicem, prouerbijs uti, &amp; 
             uersibus, &amp; ioco, &amp; inuidia, &amp; inuocatione, intendere crimen, quod est"/>
         <underline method="pen" type="straight" language="EL" text="δείνωσις,"/>
-        <underline method="pen" type="straight" language="LA" text="adulari, ignoscere, fastidire, admonere, satisfacere, precari, corripere, figuras putat."/>
+        <underline method="pen" type="straight" language="LA" text="adulari, ignoscere, fastidire, admonere, satisfacere, precari, corripere, figuras putat"/>
         <underline method="pen" type="straight" language="LA" text="demum sit ueneficus, qui uitam abstulit data potione"/>
         <underline method="pen" type="straight" language="EL" text="ἀναγκαῖον, ἀνάμνΗσιν, ἀνθυϖοφοράν, ἀντίρρΗσιν, πὸραύξΗσιν, προέκθεσιν,"/>
         <underline method="pen" type="straight" language="LA" text="com[m]entu[m] uocat"/>
         <underline method="pen" type="straight" language="EL" text="διασκε[υ]άς, ἀπαγορεύσε[ι]ς"/> <!-- M.B. ε[υ] and ε[ι] ligatures see  https://en.wikipedia.org/wiki/Epsilon#/media/File:Greek_minuscule_Epsilon_with_ligatures.svg. ε[ι] ligature also in 419.tif.  -->
        
-        
         <mark name="tripunctus" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
@@ -169,4 +167,3 @@
         
     </annotation>
 </transcription>
-

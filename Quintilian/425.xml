@@ -11,7 +11,7 @@
         <marginalia hand="Italian" anchor_text="ualidius bonos inhibet pudor, qu&agrave;m metus">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Validius bonos inhibet pudor q[ua]m metus</marginalia_text>
+                    <marginalia_text>Validius bonos inhibet pudor q[uam] metus</marginalia_text>
                 </position>
             </language>
             <translation>Good men are more inhibited by shame than by fear.</translation>
@@ -20,10 +20,10 @@
         <marginalia hand="Italian" anchor_text="nolle nos credant">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Nos nolle credat</marginalia_text>
+                    <marginalia_text>Nos nolle credat</marginalia_text> <!-- FSF: as in the anchor text, this is creda[n]t -->
                 </position>
             </language>
-            <translation>We don't believe.</translation>
+            <translation>We don't believe.</translation> <!-- FSF: I'd translate as They believe we don't want to. -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="diuerticula &amp; anfractus suggugia sunt infirmitati">
@@ -32,7 +32,7 @@
                     <marginalia_text>Diuerticula &amp; anfractus suffugia sunt infirmitati.</marginalia_text>
                 </position>
             </language>
-            <translation>These Byways winding are refuge of weaknesses..</translation>
+            <translation>These byways winding are refuge of weaknesses..</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="persona obstaret rectae">
@@ -47,10 +47,10 @@
         <marginalia hand="Italian" anchor_text="asperas figuras, sed pal&agrave;m contrarias causae pleriq[ue]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>quomo[do] no[n] solum[?] aspera[e] sed causa[e] co[n]traria[e] figura[e] reddu[n]t</marginalia_text>
+                    <marginalia_text>quomo[do] no[n] solum aspera[e] sed causa[e] co[n]traria[e] figura[e] reddu[n]t</marginalia_text> <!-- FSF: this is fine; I think there is a ? at the end; that's why I'd translate How figures are adopted... -->
                 </position>
             </language>
-            <translation>The way in which figures are adopted which are not only harsh but represent the contrary of the cause.</translation> <!-- M.B. Not sure of this translation or the transcription.  -->
+            <translation>The way in which figures are adopted which are not only harsh but represent the contrary of the cause.</translation> <!-- M.B. Not sure of this translation or the transcription.  --> 
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="ualidius bonos inhibet pudor, qu&agrave;m metus"/>
@@ -61,4 +61,3 @@
         
     </annotation>
 </transcription>
-
