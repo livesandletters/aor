@@ -33,7 +33,7 @@
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
-            <node id="n1" person="Ælfric Cild">&AElig;lfricus. Proditor.</node>     <!-- DO: As above -->
+            <node id="n1" person="Ælfric Cild">&AElig;lfricus. Proditor.</node>     <!-- DO: As above, I think it's Ælfric of Hampshire -->
             <node id="n2">Algarus</node>                                            <!-- DO: Wikipedia names Aelfric's son as Ælfgar -->
             <link to="n2" from="n2" relationship="has_child"/>
         </graph>
