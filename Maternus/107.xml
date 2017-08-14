@@ -14,6 +14,7 @@
                     </marginalia_text>
                     <person name="Mercury"/>
                     <person name=""/> <!-- FSF: not sure who that is -->
+                    <!-- M.B. Enichnus is a variant name for Anubis. See: https://archive.org/stream/loxikonderlatei00georgoog#page/n34/mode/2up/search/Enichnus -->
                     <person name="Asclepius"/>
                     <person name="Petosiris"/>
                     <person name="Nekauba"/>
@@ -32,7 +33,7 @@
                     </marginalia_text>
                     <person name="Abraham"/>
                     <person name="Orpheus"/>
-                    <person name=""/>
+                    <person name=""/> <!-- M.B. Critodemos (an early Greek writer on astrology see: https://books.google.co.uk/books?id=Ru7ycANBxToC&pg=PA323&dq=critodemos+maternus&hl=en&sa=X&ved=0ahUKEwj62ca1xM_VAhWIDcAKHRFAB6AQ6AEIJjAA#v=onepage&q=critodemos%20maternus&f=false -->
                 </position>
             </language>
             <translation>
@@ -49,7 +50,7 @@
                 </position>
             </language>
             <translation>
-                This repeats what is put forth at the end of the third book, from where one can see the occasion of the book number three and its argument.
+                This repeats what is put forth at the end of the third book, from where one can see the occasion of the book number three and it's argument.
             </translation>
         </marginalia>
         
@@ -57,7 +58,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Quibus authoribus firmicus usus est
+                        Quibus authoribus firmicus usus est.
                     </marginalia_text>
                     <person name="Maternus"/>
                 </position>
@@ -77,6 +78,7 @@
             </language>
             <translation>
                 The moon existed before our bodies.
+                <!-- M.B. I would translate pr[a]eest in the sense of pr'eside/rule' over rather than in the sense of existing before. So something 'the moon rules over our bodies' which follows the printed passage. -->
             </translation>
         </marginalia>
         
@@ -103,19 +105,21 @@
             </language>
             <translation>
                 The creation of man and the condition of birth and the souls towards the body, and in turn.
+                <!-- M.B. I would translate as: 'The creation of man and the condition of birth and souls and in turn, the body.  -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B. Anchor text should be 'hominem diuina, ac terrena coniunctionis societate compositum -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         In ho[m]i[n]e est diuina ac tervena co[n]iunctio[n]es societas. a[n]i[m]us videlic[et] et corpus. <!-- FSF: I am not sure at all -->
                     </marginalia_text>
+                    <!-- M.B. I think it is ' In ho[m]i[n]e est diuina ac terrena co[n]iunctio[n]es societas [etc] '-->
                 </position>
             </language>
             <translation>
-                
+                <!-- M.B. Something like: 'In men it is divine and earthly associations in alliance. The soul, that is to say, and the flesh.-->
             </translation>
         </marginalia>
         
@@ -129,6 +133,7 @@
             </language>
             <translation>
                 Marrows of a human body.
+                <!-- M.B. I would translate as" 'The marrow of the human body.' -->
             </translation>
         </marginalia>
         
@@ -143,6 +148,7 @@
             <translation>
                 Whatever from the four elements conflated, the 
             </translation>
+            <!-- M.B. I think this might mean something like: 'Whatever is fused from the four elements, it will be governed by the power of the moon.'  -->
         </marginalia>
         
         <marginalia hand="Italian">
@@ -154,8 +160,9 @@
                 </position>
             </language>
             <translation>
-                The substance in which the moon was constituted at the tome of its birth, is to be required diligently. <!-- FSF: I have no clue what is going on here -->
+                The substance in which the moon was constituted at the time of its birth, is to be required diligently. <!-- FSF: I have no clue what is going on here -->
             </translation>
+            <!-- M.B. Neither here..   -->
         </marginalia>
         
         <marginalia hand="Italian">
@@ -210,6 +217,8 @@
             </translation>
         </marginalia>
         
+        <!-- M.B. There is also an intext marginalia that needs to be captured underneath 'potestatis licentia gubernaret. -->
+        
         <underline method="pen" type="straight" language="LA" text="Aesculapio"/>
         <underline method="pen" type="straight" language="LA" text="quae Petosyris"/>
         <underline method="pen" type="straight" language="LA" text="Necepso"/>
@@ -222,8 +231,8 @@
         <underline method="pen" type="straight" language="LA" text="Fabricator enim hominis deus, cum animal hoc diuina, ac singulari artificii ratione componeret, 
             immortalis animi diuinitatem, mortalis ac terreni corporis uinculis obligauit, ut animus &amp; intrinsecus diffusus, &amp; magnae cuiusdam necessitatis obligatus imperio"/>
         <underline method="pen" type="straight" language="LA" text="sibi seruientis corporis fragilitatem, diuinae potestatis licentia gubernaret"/>
-        <underline method="pen" type="straight" language="LA" text="ergo animus integrum receptaculum, nec se poterit circu[m]fusus annectere, nec diuinitatis su[a]e explicare substantiam, 
-            nisi corpus ad susceptione[m] animi, integra &amp; incorrupta fuerit co[m]page corroboratu[m], ut animus &amp; corpus pari necessitatis ratione coniuncti, &amp; inuicem se ropriae naturae potestatibus, 
+        <underline method="pen" type="straight" language="LA" text="ergo animus integrum receptaculum, nec se poterit circu[m]susus annectere, nec diuinitatis su[a]e explicare substantiam, 
+            nisi corpus ad susceptione[m] animi, integra &amp; incorrupta fuerit co[m]page corroboratu[m], ut animus &amp; corpus pari necessitatis ratione coniuncti, &amp; inuicem se propriae naturae potestatibus, 
             ac uiribus sustinentes, hominem diuina, ac terrena coniunctionis societate compositum, integra specie, ac forma perfecti operis explicarent"/>
         <underline method="pen" type="straight" language="LA" text="potestatibus deputatum"/>
         <underline method="pen" type="straight" language="LA" text="&amp; humanum corpus"/>
@@ -231,7 +240,7 @@
         <underline method="pen" type="straight" language="LA" text="&amp; co[n]cepta"/>
         <underline method="pen" type="straight" language="LA" text="&amp; generata dissoluit"/>
         <underline method="pen" type="straight" language="LA" text="Nam &amp; primus dies, &amp; tertius, eadem simili ratione decernit"/>
-        <underline method="pen" type="straight" language="LA" text="septimus"/>
+        <underline method="pen" type="double" language="LA" text="septimus"/>
         <underline method="pen" type="straight" language="LA" text="&amp; xi per"/>
         <underline method="pen" type="double" language="LA" text="totius uitae substantiam demonstrat"/>
         <underline method="pen" type="straight" language="LA" text="χρονοκράτορα"/>
@@ -240,8 +249,8 @@
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/> <!-- explicarent Quare -->
-        <mark name="bracket" method="pen" place="left_margin" colour="red"/>
-        <mark name="vertical_bar" method="pen" place="left_margin" colour="red"/>
+        <mark name="bracket" method="pen" place="left_margin" colour="red"/> <!-- M.B. Should be marked as chalk. -->
+        <mark name="vertical_bar" method="pen" place="left_margin" colour="red"/>  <!-- M.B. Should be marked as chalk. -->
         <mark name="bracket" method="pen" place="left_margin"/>
         
         <errata language="LA" copytext="antiscii" amendedtext="[deleted]"/>
