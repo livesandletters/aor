@@ -6,7 +6,7 @@
     <page filename="105.tif" reader="John Dee" pagination="82"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B. Anchor text should be 'breue uitae tempus' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -28,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                A heavy and unpleasent smell.
+                A heavy and unpleasant smell. <!-- M.B. Possibly 'foul' (or 'fetid')  might be better equivalent English terms for foetidus rather than unpleasant. -->
             </translation>
         </marginalia>
         
@@ -44,19 +44,21 @@
             <translation>
                 ... Antiscia of Ptolemy.
             </translation>
+            <!-- M.B. I would translate Duodecatemorijs as something like 'the twelve parts'. See: https://books.google.co.uk/books?id=-szKaDqpFhUC&pg=PA27&dq=Dodecatemoria&hl=en&sa=X&ved=0ahUKEwjiurrngNfVAhViL8AKHQNJClgQ6AEILTAB#v=onepage&q=Dodecatemoria&f=false -->
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B.  anchor text should be: duodecatemoriorum efficaciam notaueris, ex finibus praecipue in quibus fuerint, inuenta, ex i&iacute;q[uw] uolerit, omnen apotelesmatum -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Ex antiscijs et duodecatemorijs omnis apotelesmatu[m] substantia explicari p[otes]t.
+                        Ex antiscijs et duodecatemorijs omnis apotelesmatu[m] substantia explicari p[otes]t. 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
                 From the antiscia and the ...., all nature of the influence on the stars on human destiny can be explained.
             </translation>
+            <!-- M.B. I would translate as: 'From the antiscia and the twelves parts, all nature of the influence of the stars on human destiny can be explained. -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="loco fortunae">
@@ -81,7 +83,7 @@
                 </position>
             </language>
             <translation>
-                
+                <!-- M.B. I would translate as something 'The Midheaven is frequently in the eleventh sign' . See precious notes on M.C. -->
             </translation>
         </marginalia>
         
