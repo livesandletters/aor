@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="399.tif" reader="John Dee" pagination="375" signature="Ii ii"/>   <!-- DO: I think this is probably 'Ij ij' but has been cut off -->
+    <page filename="399.tif" reader="John Dee" pagination="375" signature="Ii ij"/>  
     <annotation>
         
         <marginalia hand="Italian">
@@ -20,12 +20,15 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                       &Trine; Dynwall, ap Howel Dda eius filius, Owen, interfectus fuit a[nn]o 989. Laurarvun  <!-- DO: Looks like there's an 'f' in 'Dyfnwall'. Think the final word is 'Lancarvan': https://en.wikipedia.org/wiki/Llancarfan -->
+                       &Trine; Dyfnwall, ap Howel Dda eius filius, Owen, interfectus fuit a[nn]o 989. Lancarvan
                     </marginalia_text>
+                    <person name="Owain ap Hywel Dda"/>
                 </position>
             </language>
             <translation>
-                Dyfnwal ab Owain, the son of Hywel Dda, was killed in 989. <!-- FSF: both here and in the one below, I am not at all clear about the names and how they relate to each other -->  <!-- DO: I think the Owen must be: https://en.wikipedia.org/wiki/Owain_ap_Hywel_Dda (son of Hywel and the dates match). I'm not sure who the 'Dyfnwall' refers to, possibly https://en.wikipedia.org/wiki/Dyfnwal_ab_Owain but he wasn't a son of Hywel Dda. The only sense I can make is if it just lists two unrelated people ('Dyfnwal; Owain, son of Hywel Dda, was killed in 989' but it would be a really weird way of writing it... -->
+                Owain, the son of Hywel Dda, was killed in 989. 
+                <!-- DO: I think the Owen must be: https://en.wikipedia.org/wiki/Owain_ap_Hywel_Dda (son of Hywel and the dates match). I'm not sure who the 'Dyfnwall' refers to, possibly https://en.wikipedia.org/wiki/Dyfnwal_ab_Owain but he wasn't a son of Hywel Dda. The only sense I can make is if it just lists two unrelated people ('Dyfnwal; Owain, son of Hywel Dda, was killed in 989' but it would be a really weird way of writing it... -->
+                <!-- FSF: Could it refer to their house? House of Dinefwr? -->
             </translation>
         </marginalia>
         
@@ -36,10 +39,12 @@
                         J[ohn] d[ee]. Howel ap Ieaf ap Idewall voyle. Rex Venedotia[e]       
                     </marginalia_text>
                     <person name="John Dee"/>
+                    <person name="Hywel ap Ieuaf"/>
+                    <person name="Idwal Foel"/>
                 </position>
             </language>
             <translation>
-                Hywel ap Ieuaf...Idwal Foel, King of Gwynedd.  <!-- DO: I agree these are the two people, though according to Wikipedia, Foel was Hywel ap Ieuaf's grandfather. I think 'ap' generally means 'son of' but maybe it can mean 'descendent of' more vaguely, or the marginal note is just wrong -->
+                John Dee. Hywel ap Ieuaf descendent of Idwal Foel, King of Gwynedd.  
             </translation>
         </marginalia>
         
@@ -50,18 +55,19 @@
                         Tudwall or Ludwall
                     </marginalia_text>
                     <person name="Saint Tudwal"/>
+                    <person name="Hywel Dda"/>
                 </position>
             </language>
             <translation>
-                Saint Tudwal or Ludwall. <!-- FSF: Ludwall to be identified -->    <!-- DO: I'm really not sure, but I think possibly Ludwall may be an alternative name for Hywel Dda, just because of things like this: https://books.google.co.uk/books?id=52A_AQAAMAAJ&pg=PA322&lpg=PA322&dq=ludwal+wales&source=bl&ots=1UlhOckxG5&sig=ALHLIeJE4KS9h4HdxKbV1xZivps&hl=en&sa=X&ved=0ahUKEwiFnvXf_s7VAhUKmrQKHU-yDgQQ6AEILzAC#v=onepage&q=ludwal%20wales&f=false  This could be why he writes this note next to 'Hovvel' (otherwise I don't know what this refers to in the text). I would then guess that Tudwall is just another alternative. -->
+                Saint Tudwal or Ludwall.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'regibus VValliae' -->
+        <marginalia hand="Italian" anchor_text="regibus VValliae"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Reges Wallia[e]      <!-- DO: Wales to be tagged as location? -->
+                        Reges Wallia[e]  
                     </marginalia_text>
                 </position>
             </language>
@@ -90,12 +96,13 @@
                 </position>
             </language>
             <translation>
-                4800 ships in this class.   <!-- DO: Think 'Classis' can be 'fleet' -->
+                4800 ships in this fleet.   
             </translation>
         </marginalia>
         
         
         <!-- DO: Writing in left margin which presumably goes with the second circumflex - I don't know what it says -->
+        <!-- FSF: To me it seems that it was crossed out -->
            
         
         <underline method="pen" type="straight" language="LA" text="corpus Aelgiuae matris Eadgari regis"/>
@@ -131,6 +138,5 @@
         
         <errata language="LA" copytext="vt quomodo" amendedtext="vt intelligeret quomodo"/>   <!-- DO: I personally would capture this as separate marginalia, but not sure if that's right -->
          
-        
     </annotation>
 </transcription>
