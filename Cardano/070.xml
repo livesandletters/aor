@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="070.tif" reader="John Dee"  pagination="[26v]" signature="[Gij[v]]"/>
+    <page filename="070.tif" reader="John Dee" pagination="[26v]" signature="[Gij[v]]"/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="itinera">
@@ -18,7 +18,7 @@
         <marginalia hand="Italian" anchor_text="legem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Lex</marginalia_text>
+                    <marginalia_text>Lex</marginalia_text> <!-- FSF: I think this is lower case -->
                 </position>
             </language>
             <translation>The law.</translation>
@@ -27,7 +27,7 @@
         <marginalia hand="Italian" anchor_text="filios &amp; filias">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Filij, filia[e]</marginalia_text>
+                    <marginalia_text>Filij, filia[e]</marginalia_text> <!-- FSF: I think this is lower case; compare with Fratres two below -->
                 </position>
             </language>
             <translation>Sons [and] daugthers.</translation>
@@ -100,7 +100,8 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Hoc dicit propt[e]r Turcaru[m] principis natiuitate[m] tamen no[n] hab[et] certa[m]. Et ob magnas futuras coniunctiones circa [...] [...] 1593 [Re]</marginalia_text> <!--JG: Unsure, to be checked-->
+                    <marginalia_text>Hoc dicit propt[e]r Turcaru[m] principis natiuitate[m] tamen no[n] hab[et] certa[m]. Et ob magnas futuras coniunctiones circa [...] [...] 1593 [Re]</marginalia_text> <!--JG: Unsure, to be checked--> 
+                    <!-- FSF: I think this is fine; the last Re is a &c, I'd say though; no clue in the penultimate line -->
                 </position>
             </language>
             <translation>He says this on account of the nativity of the prince of the Turks, nevertheless he has no certainty. And based on great future conjunctions around [...] 1593.</translation>
@@ -109,10 +110,10 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Qui possint e[ss]e optimi loci si bene afficia[n]tur.</marginalia_text> <!--JG: Unsure, to be checked-->
+                    <marginalia_text>Qui possint e[ss]e optimi loci si bene afficia[n]tur.</marginalia_text> <!--JG: Unsure, to be checked--> <!-- FSF: I totally agree with this transcription -->
                 </position>
             </language>
-            <translation>What may be the best places if they are handled well.</translation>
+            <translation>What may be the best places if they are handled well.</translation> <!-- FSF: I'd translate as These may be [...]; I am not sure how this grammatical feature is called in English; relative connector?-->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="patrem"/>
