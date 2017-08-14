@@ -6,14 +6,13 @@
     <page filename="391.tif" reader="John Dee" pagination="367" signature="Hh iiij"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Montem">  <!-- DO: I'd anchor 'gaudij' as well -->
+        <marginalia hand="Italian" anchor_text="Montem gaudij">  
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Mont ioy
                     </marginalia_text>
-                    <location name="Mountjoie"/> 
-                    <!-- FSF: from this website https://en.wikipedia.org/wiki/Order_of_Mountjoy, clicking on Mountjoie, wikipedia directs me to Nabi Samwil, which for the location is correct, but in the name is not particularly clear -->  <!-- DO: Personally I would tag 'Nabi Samwil' as the location and list 'Mountjoie' and 'Mountjoy' as alternative names on the spreadsheet -->
+                    <location name="Nabi Samwil"/> 
                 </position>
             </language>
         </marginalia>

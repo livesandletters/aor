@@ -12,10 +12,11 @@
                     <marginalia_text>
                         Algiua, Meretrix.
                     </marginalia_text>
+                    <person name="Ælfgifu, wife of Eadwig"/>
                 </position>
             </language>
             <translation>
-                The courtesan Algiua. <!-- FSF: I haven't been able to identify her -->  <!-- DO: I think this is referring to: https://en.wikipedia.org/wiki/Ælfgifu,_wife_of_Eadwig. She wasn't actually a prostitute, so'meretrix' should perhaps be something vaguer like 'strumpet', I suppose... -->
+                The strumpet Algiua.
             </translation>
         </marginalia>
         
@@ -23,12 +24,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        (Deo dicante) quo modo hoc constat?      <!-- DO: 'dictante' -->
+                        (Deo dictante) quo modo hoc constat?
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                God said, how is this evident?   <!-- DO: I would say, 'By God's speech - how is this evident?' -->
+                By God's speech, how is this evident? 
             </translation>
         </marginalia>
         
@@ -44,11 +45,9 @@
         <underline method="pen" type="double" language="LA" text="deiecto"/>
         <underline method="pen" type="straight" language="LA" text="deo dicante"/>
         
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
+        
         <errata language="LA" copytext="sapienstes" amendedtext="sapientes"/>
-        
-        
-        <!-- DO: Vertical bar in left margin -->
-        
         
     </annotation>
 </transcription>
