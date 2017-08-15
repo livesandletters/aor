@@ -128,7 +128,7 @@
                     <marginalia_text>Consuetudine</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>By convention.</translation>
         </marginalia>
         
         
@@ -138,7 +138,7 @@
                     <marginalia_text>Iudicatu[m].</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Judgement.</translation>
         </marginalia>
         
         
@@ -146,19 +146,21 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>M. Drusus.</marginalia_text>
+                    <person name="Marcus Livius Drusus"/>   <!-- DO: Think it's him but could be his father of the same name -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>Marcus Drusus.</translation>
         </marginalia>
         
         
         <marginalia hand="Italian" anchor_text="S. Iulius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Se. Iulius.</marginalia_text>  <!-- DO: Not sure if there's a tripunctus follwing his name, or a colon, or nothing? -->
+                    <marginalia_text>Se. Iulius.</marginalia_text>  <!-- DO: Not sure if there's a tripunctus following his name, or a colon, or nothing? -->
+                    <person name=""/>         <!-- DO: There are lots of people with this name, I can't figure out which one this is: https://en.wikipedia.org/wiki/Sextus_Julius_Caesar -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>Sextus Julius.</translation>
         </marginalia>
         
         
@@ -166,9 +168,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>C Coelius</marginalia_text>  <!-- DO: 'Coesius'? -->
+                    <person name="Gaius Coelius Caldus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Gaius Coelius.</translation>
         </marginalia>
         
         
@@ -176,9 +179,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>P Mutius.</marginalia_text>
+                    <person name="Publius Mucius Scaevola"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Publius Mucius.</translation>
         </marginalia>
         
         
