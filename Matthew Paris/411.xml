@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Vlnothus <!-- FSF: not sure who that is -->
+                        Vlnothus. <!-- FSF: not sure who that is -->  <!-- DO: https://en.wikipedia.org/wiki/Wulfnoth_Cild -->
                     </marginalia_text>
                 </position>
             </language>
@@ -23,7 +23,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Turketillus
+                        Turketillus.
                     </marginalia_text>
                     <person name="Saint Turketil"/>
                 </position>
@@ -33,11 +33,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: Anchor 'Vlnothum regis ministrum' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Vlnothus: Minister regis.
+                        Vlnothus: Minister regis.    <!-- DO: To be tagged as person -->
                     </marginalia_text>
                 </position>
             </language>
@@ -46,34 +46,33 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'frater perfidi ... Brithricus' -->  <!-- DO: I don't know whether this should be captured as a genealogical tree (they're brothers)? -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         [ Eadricus Dux Brithricus
                     </marginalia_text>
                     <person name="Eadric Streona"/>
-                    <person name="Brithric Meaw of Mercia"/>
+                    <person name="Brithric Meaw of Mercia"/>  <!-- DO: I'm not sure if this is right. The only Brithric Meaw I can find is: http://www.1066.co.nz/Mosaic%20DVD/text/people/brihtric.htm and I don't think that's him. This is the brother of Eadric, known as Brihtric or Beorhtric -->
                 </position>
             </language>
             <translation>
-                [ Duke Eadric Streona Brithric Meaw of Mercia
+                [ Duke Eadric Streona Brithric Meaw of Mercia.
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Dux perfidus"/>
+        <underline method="pen" type="straight" language="LA" text="perfidus"/>
         <underline method="pen" type="double" language="LA" text="Eadricus Ducem"/>
         <underline method="pen" type="double" language="LA" text="nomine Godvvinus"/>
         <underline method="pen" type="double" language="LA" text="peremit"/>
         <underline method="pen" type="double" language="LA" text="duo filij eius"/>
         <underline method="pen" type="straight" language="LA" text="Infrenduit Anglia tota, velut arundinetum"/>
-        <underline method="pen" type="straight" language="LA" text="Zephiro vibrante collisum"/>
+        <underline method="pen" type="straight" language="LA" text="Zephiro vibrante, collisum"/>
         <underline method="pen" type="straight" language="LA" text="pecunia pacem ad tempus, quam armis non potuit, adquisiuit"/>
         <underline method="pen" type="straight" language="LA" text="&amp; decem hidis"/>
         <underline method="pen" type="straight" language="LA" text="nauem vnam"/>
         <underline method="pen" type="straight" language="LA" text="galeam vnam, &amp; loricam"/>
-        <underline method="pen" type="straight" language="LA" text="Eodem tempore frater perfidi Ducis Eadrici Brithricus, homo"/>
-        <underline method="pen" type="straight" language="LA" text="lubricus"/>
+        <underline method="pen" type="straight" language="LA" text="Eodem tempore frater perfidi Ducis Eadrici Brithricus, homo lubricus"/>
         <underline method="pen" type="straight" language="LA" text="superbus"/>
         <underline method="pen" type="double" language="LA" text="Vlnothum"/>
         <underline method="pen" type="straight" language="LA" text="regis"/>
@@ -82,13 +81,13 @@
         <underline method="pen" type="straight" language="LA" text="Osvvi[us]"/>
         <underline method="pen" type="straight" language="LA" text="Eadvvi[us]"/>
         <underline method="pen" type="double" language="LA" text="Vlferus Consules"/>
-        <underline method="pen" type="straight" language="LA" text="patre"/>
+        <underline method="pen" type="double" language="LA" text="patre"/>
         
         <mark name="comma" method="pen" place="intext"/> <!-- Eadrici Brithricus -->
         
-        <numeral place="head">[1010 deleted]</numeral>
+        <numeral place="head" language="LA" text="1010">[1010 deleted]</numeral>
         
-        <errata language="LA" copytext="10005" amendedtext="1005"/>
+        <errata language="LA" copytext="10005" amendedtext="1005"/>  
         <errata language="LA" copytext="10006" amendedtext="1006"/>
         <errata language="LA" copytext="10007" amendedtext="1007"/>
         <errata language="LA" copytext="10008" amendedtext="1007"/>
