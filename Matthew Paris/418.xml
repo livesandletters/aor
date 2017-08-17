@@ -10,10 +10,13 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Eadricus Streona[e], Consanguinens Regis &AElig;thelredi. vt sup[ra] pag. 386   <!-- DO: You can add an internal reference to this page (file 410) -->
+                        Eadricus Streona[e], Consanguinens Regis &AElig;thelredi. vt sup[ra] pag. 386
                     </marginalia_text>
                     <person name="Eadric Streona"/>
                     <person name="Æthelred II"/>
+                    <internal_ref>
+                        <target ref="RCP10653:410" text="386"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
@@ -46,7 +49,7 @@
                 </position>
             </language>
             <translation>
-                Æthelred II crossed through the Normandy.   <!-- DO: 'crossed though into Normandy'? -->
+                Æthelred II crossed through into Normandy.  
             </translation>
         </marginalia>
         
@@ -64,7 +67,7 @@
             </translation>
         </marginalia>
          
-        <marginalia hand="Italian">   <!-- DO: I'd anchor 'vitam flagitiosam terminauit' -->
+        <marginalia hand="Italian" anchor_text="vitam flagitiosam terminauit">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -73,7 +76,7 @@
                 </position>
             </language>
             <translation>
-                Sweyn Forkbeard died.   <!-- DO: I would keep as present tense -->
+                Sweyn Forkbeard dies.  
             </translation>
         </marginalia>
         
