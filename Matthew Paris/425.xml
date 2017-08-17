@@ -26,7 +26,7 @@
                     <marginalia_text>
                         Aldgiua sup[ra] Aldgitha pag[ina] 396.
                     </marginalia_text>
-                    <person name=""/> <!-- FSF: I don't know who the first one is, possibly the wife of him https://en.wikipedia.org/wiki/Edwin,_Earl_of_Mercia; possibly also her https://en.wikipedia.org/wiki/Eadgifu_of_Wessex-->
+                    <person name=""/> <!-- FSF: I don't know who the first one is, possibly the wife of him https://en.wikipedia.org/wiki/Edwin,_Earl_of_Mercia; possibly also her https://en.wikipedia.org/wiki/Eadgifu_of_Wessex-->  <!-- DO: I would guess that these are both names of the same person (Ealdgyth)... -->
                     <person name="Ealdgyth"/>
                     <internal_ref>
                         <target ref="RCP10653:420" text="396"/>
@@ -34,27 +34,27 @@
                 </position>
             </language>
             <translation>
-                Aldgiua, see for Eadgyth above page 396
+                Aldgiua, see for Eadgyth above page 396.   <!-- DO: I would maybe translate as 'Aldgiva, Eadgyth, see above...' to indicate that they are the same person with different names -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'Eadrici' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Eadricus Streone Flore[n]t[us] wig.
+                        Eadricus Streone. Flore[n]t[us] wig.    <!-- DO: 'Flore[n]ti[us] Wig.' -->
                     </marginalia_text>
                     <person name="Eadric Streona"/>
                 </position>
             </language>
             <translation>
-                Eadric Streona blooming <!-- FSF: not sure about the rest -->
+                Eadric Streona blooming <!-- FSF: not sure about the rest -->  <!-- DO: The second person is https://en.wikipedia.org/wiki/Florence_of_Worcester. I think these are possibly two separate notes?  -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="double" language="LA" text="virorum fortissim&egrave;"/>
         <underline method="pen" type="double" language="LA" text="vniuerso orbi iudico"/>
-        <underline method="pen" type="double" language="LA" text="cupidior tui sum wu&agrave;m regni"/>
+        <underline method="pen" type="double" language="LA" text="cupidior tui sum qu&agrave;m regni"/>
         <underline method="pen" type="double" language="LA" text="Dania seruit"/>
         <underline method="pen" type="double" language="LA" text="Norvvegia succumbit"/>
         <underline method="pen" type="double" language="LA" text="rex Suenoru[m]"/>
@@ -63,6 +63,7 @@
         <underline method="pen" type="straight" language="LA" text="cedit verbis, qui flecti non potuit armis. Depositis"/>
         <underline method="pen" type="double" language="LA" text="muta[n]tes &amp; arma"/>
         <underline method="pen" type="double" language="LA" text="Cnuto &amp; Cnuto"/>
+        <underline method="pen" type="double" language="LA" text="sed corona"/>
         <underline method="pen" type="double" language="LA" text="Eadvvardum"/>
         <underline method="pen" type="double" language="LA" text="Eadvvinum"/>
         <underline method="pen" type="double" language="LA" text="Aldgiua"/>
@@ -70,10 +71,10 @@
         <underline method="pen" type="double" language="LA" text="proditor, &amp; iniquus"/>
         <underline method="pen" type="straight" language="LA" text="Dux Merciorum Eadricus"/>
         <underline method="pen" type="triple" language="LA" text="domum secretiorem"/>
-        <underline method="pen" type="straight" language="LA" text="filius dicti Eadrici, pataris instinctu"/>
+        <underline method="pen" type="straight" language="LA" text="filius dicti Eadrici, patris instinctu"/>
         <underline method="pen" type="triple" language="LA" text="cultello bis"/>
         <underline method="pen" type="double" language="LA" text="primis regni diebus"/>
-        <underline method="pen" type="double" language="LA" text="MErciam Eadrico"/>
+        <underline method="pen" type="double" language="LA" text="Merciam Eadrico"/>
         <underline method="pen" type="straight" language="LA" text="Turkillo"/>
         <underline method="pen" type="double" language="LA" text="Iricio"/>
         

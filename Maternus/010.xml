@@ -10,13 +10,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Agnoti nulla lupido/ <!-- FSF: I am not sure --> 
-                        <!-- M.B: I think it may be 'Agnoti nulla cupido', a variant of 'ignoti nulla cupido' from Ovid: 'Quod latet, ignotum est: ignoti nulla cupido': -->
+                        Ignoti nulla Cupido/
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                One does not desire what one does not know.
             </translation>
         </marginalia>
         
@@ -37,8 +36,11 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        &Cancer; enim cu[m] sit &Moon; dom[us] ip[s]a vero in ... in tertiia est a sua doma, et tertia domas cades est <!-- M.B. something like tu[?]it? -->
+                        &Cancer; enim cu[m] sit &Moon; dom[us] ip[s]a vero in &Scorpio; fuerit in tertia est a sua doma, et tertia domas cades est <!-- M.B. something like tu[?]it? --> <!-- FSF: possibly fuerit? -->
                     </marginalia_text>
+                    <symbol_in_text name="Cancer"/>
+                    <symbol_in_text name="Moon"/>
+                    <symbol_in_text name="Scorpio"/>
                 </position>
             </language>
             <translation>
