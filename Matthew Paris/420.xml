@@ -10,14 +10,14 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Edmundi Ferei Lateris Mater femina ignobilis
+                        Edmundi Ferei Lateris Mater femina ignobilis.
                     </marginalia_text>
                     <person name="Edmund II"/>
                     <person name="Ælfgifu of York"/>
                 </position>
             </language>
             <translation>
-                The mother of Edmund Ironside was an ignobilis woman.
+                The mother of Edmund Ironside was an ignobilis woman.     <!-- DO: 'ignoble' -->
             </translation>
         </marginalia>
         
@@ -39,13 +39,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Clito Eadmundus Ferreu[m] latus
+                        Clito Eadmundus Ferreu[m] latus.
                     </marginalia_text>
                     <person name="Edmund II"/>
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure about clito -->
+                <!-- FSF: not sure about clito -->    <!-- DO: 'Clito' is the Latin version of Aetheling; I think the whole thing refers to Edmund II, rather than his son who was more commonly known as 'Edmund Aetheling'. I would translate as 'Edmund Ætheling Ironside' -->
             </translation>
         </marginalia>
         
@@ -59,9 +59,10 @@
         <underline method="pen" type="straight" language="LA" text="Dux &amp;"/>
         <underline method="pen" type="triple" language="LA" text="proditor Eadricus"/>
         <underline method="pen" type="double" language="LA" text="vt se proditorem"/>
-        <underline method="pen" type="double" language="LA" text="&amp; suo se dominio"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; suo"/>
+        <underline method="pen" type="double" language="LA" text="se dominio"/>
         <underline method="pen" type="triple" language="LA" text="mancipauit"/>
-        <underline method="pen" type="double" language="LA" text="Marcij"/>
+        <underline method="pen" type="double" language="LA" text="Mercij"/>
         <underline method="pen" type="double" language="LA" text="regis ignauia"/>
         <underline method="pen" type="straight" language="LA" text="Dux iniquus Eadricus"/>
         <underline method="pen" type="double" language="LA" text="apud Krickelade"/>
@@ -74,7 +75,7 @@
         <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
             <node id="n1" person="Æthelred II">&AElig;thelredus R[ex]</node>
             <node id="n2" person="Edmund II">Edmundus Ferreu[m] Latus</node>
-            <node id="n3" person="Ealdgyth">Aldgitha relictas Sigeferthi comitis Northu[m]b[riae]</node>
+            <node id="n3" person="Ealdgyth">Aldgitha relictas Sigeferthi Comitis Northu[m]b[riae]</node>   <!-- DO: I think it's 'relicta' with a long tail -->
             <link to="n2" from="n1" relationship="has_child"/>
             <link to="n3" from="n2" relationship="has_spouse"/>
             <link to="n2" from="n3" relationship="has_spouse"/>
