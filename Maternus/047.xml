@@ -10,12 +10,16 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        vide Pontanu[m] Lib[rum]: 1: de Reb:la[e]lest: in Iraetatu de Dominis Triangulorum <!-- FSF: not sure --> 
-                        <!-- M.B. I think it is 'Tractatu[m]' rather than Iraetatu.  -->
+                        vide Pontanu[m] Lib[rum]: 1: de Reb: Co[e]lest: in Tractatu de Dominis Triangulorum 
                     </marginalia_text>
                     <person name="Giovanni Potano"/>
+                    <book title="De rebus caelestibus"/>
+                    <book title="De dominis triangulorum"/>
                 </position>
             </language>
+            <translation>
+                See the first book of De rebus caelestibus by Pontano in the tract De dominis triangulorum
+            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="aequi lateri trianguli figura"/>
@@ -24,7 +28,7 @@
         <underline method="pen" type="straight" language="LA" text="&Sun;, alter &Jupiter; in nocte uero contra utriusq[ue] tamen particeps &Saturn;"/>
         <underline method="pen" type="straight" language="LA" text="Trigoni ignei"/>
         
-        <mark name="dash" method="pen" place="left_margin" colour="red"/> <!-- FSF: double dash --> <!-- M.B. I think these marking should be captured as chalk. -->
+        <mark name="double_vertical_bar" method="pen" place="left_margin" colour="red"/>
         <mark name="bracket" method="pen" place="left_margin" colour="red"/>
         <mark name="bracket" method="pen" place="left_margin" colour="red"/>
         
