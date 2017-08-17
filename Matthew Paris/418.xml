@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Eadricus Streona[e], Consanguinens Regis &AElig;thelredi vt sup[ra] pag. 386
+                        Eadricus Streona[e], Consanguinens Regis &AElig;thelredi. vt sup[ra] pag. 386   <!-- DO: You can add an internal reference to this page (file 410) -->
                     </marginalia_text>
                     <person name="Eadric Streona"/>
                     <person name="Æthelred II"/>
@@ -46,13 +46,13 @@
                 </position>
             </language>
             <translation>
-                Æthelred II crossed through the Normandy.
+                Æthelred II crossed through the Normandy.   <!-- DO: 'crossed though into Normandy'? -->
             </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Suanum">
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Suanus Tyra[n]nus.
                     </marginalia_text>
@@ -60,35 +60,34 @@
                 </position>
             </language>
             <translation>
-                The tyran Sweyn Forkbeard.
+                The tyrant Sweyn Forkbeard.
             </translation>
         </marginalia>
-        
-        <marginalia hand="Italian">
+         
+        <marginalia hand="Italian">   <!-- DO: I'd anchor 'vitam flagitiosam terminauit' -->
             <language ident="LA">
-                <position place="head" book_orientation="0">
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Suanus moritur.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Sweyn Forkbeard died.
+                Sweyn Forkbeard died.   <!-- DO: I would keep as present tense -->
             </translation>
         </marginalia>
         
+        <underline method="pen" type="straight" language="LA" text="inde reginam suam"/>
         <underline method="pen" type="straight" language="LA" text="Normanniam"/>
         <underline method="pen" type="straight" language="LA" text="Ducem Richardum fratrem suum, cum filijs"/>
         <underline method="pen" type="straight" language="LA" text="Aelfredo &amp; Eadvvardo, &amp; eoru[m] magistris Aelfhuno"/>
-        <underline method="pen" type="straight" language="LA" text="Mideshamensi Aelffio"/>
+        <underline method="pen" type="straight" language="LA" text="Mideshamensi Aelfsio"/>
         <underline method="pen" type="straight" language="LA" text="Eadricus"/>
         <underline method="pen" type="straight" language="LA" text="regis Aethelredi"/>
         <underline method="pen" type="straight" language="LA" text="militib[us] septies viginti"/>
-        <underline method="pen" type="straight" language="LA" text="Aethelredus cum classe"/>
-        <underline method="pen" type="double" language="LA" text="sua in insula"/>
-        <underline method="pen" type="straight" language="LA" text="Vecta"/>
+        <underline method="pen" type="straight" language="LA" text="Aethelredus cum classe sua in insula Vecta"/>
         <underline method="pen" type="double" language="LA" text="audierit, reginam"/>
-        <underline method="pen" type="straight" language="LA" text="continu&ograve; secuturus"/>
+        <underline method="pen" type="double" language="LA" text="continu&ograve; secuturus"/>
         <underline method="pen" type="triple" language="LA" text="Suanus tyrannus"/>
         <underline method="pen" type="straight" language="LA" text="euidenter apparet Suanum naturalem non esse dominum"/>
         <underline method="pen" type="straight" language="LA" text="tyrannum"/>

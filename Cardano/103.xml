@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="103.tif" reader="John Dee"  pagination="43" signature="Liij"/>
+    <page filename="103.tif" reader="John Dee" pagination="43" signature="L iij"/>
     <annotation>
         
         <marginalia hand="English_secretary">
@@ -18,13 +18,13 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Nam lic[et] cor coeli sit maxi[ma]e fortudinis, tamen dicima domus suu[m] semp[e]r significatu[m]</marginalia_text>
+                    <marginalia_text>Nam lic[et] cor coeli sit maxi[ma]e fortudinis, tamen dicima domus suu[m] semp[e]r significatu[m]</marginalia_text> <!-- FSF: I read decima -->
                 </position>
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>obtinere debet.</marginalia_text>
                 </position>
             </language>
-            <translation>For although midheaven is of the greatest valor, nevertheless the tenth house always ought to obtain its sign.</translation> <!--JG: Not entirely sure how to render 'significatum'-->
+            <translation>For although midheaven is of the greatest valor, nevertheless the tenth house always ought to obtain its sign.</translation> <!--JG: Not entirely sure how to render 'significatum'--> <!-- FSF: maybe signification? -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="ascendente medietate; in descendente; verum quod inductio fuerat posterioris">
@@ -39,7 +39,7 @@
         <marginalia hand="English_secretary" anchor_text="maxime autem in occidentali parte">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Cur magis in [o]ccidentali parte?</marginalia_text>
+                    <marginalia_text>Cur magis in [o]ccidentali parte?</marginalia_text> <!-- FSF: I would not put the o into brackets; I think I can see it clearly -->
                 </position>
             </language>
             <translation>Why more in the western part?</translation>
@@ -56,7 +56,7 @@
             <translation>The excellence of Ptolemy above Firmicus.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary"  anchor_text="In particularibus autem Firmico indulget, ob bonorum autorum inopiam: uerum tantum ille abest &agrave; ueritate, quantum ab errore Ptolemaeus">
+        <marginalia hand="English_secretary" anchor_text="In particularibus autem Firmico indulget, ob bonorum autorum inopiam: uerum tantum ille abest &agrave; ueritate, quantum ab errore Ptolemaeus">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>Maiorem commendationem metetur Ptolom[a]e[us] maiorem et firmiculi.</marginalia_text>
@@ -64,16 +64,17 @@
                     <person name="Julius Firmicus Maternus"/>
                 </position>
             </language>
-            <translation>Ptolemy deserves greater recommendation, greater even than 'little' Firmicus.</translation> <!--JG: Firmiculi as diminutive of Firmicus? Unsure-->
+            <translation>Ptolemy deserves greater recommendation, greater even than 'little' Firmicus.</translation> <!--JG: Firmiculi as diminutive of Firmicus? Unsure--> <!-- FSF: I think it is Firmicus, but Dee stretched the s a bit as he sometimes does at the end of words -->
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="maxime autem in occidentali parte">
+        <marginalia hand="English_secretary" anchor_text="maxime autem in occidentali parte"> <!-- FSF: this anchor to be deleted -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Cum de anno sumus certi, qua vo[c]e scrutemur anni partem in qua eventus sese sit ostensurus.</marginalia_text>
+                    <marginalia_text>Cum de anno sumus certi, qua vo[c]e scrutemur anni partem in qua eventus sese sit ostensurus.</marginalia_text> <!-- FSF: I think it is r[ati]o[n]e instead of voce -->
                 </position>
             </language>
-            <translation>Since about a year we are certain by which voice we explore the part of the year in which the event may be about to show itself.</translation> <!--JG: Uncertain, esp 'cum de anno'-->
+            <translation>Since about a year we are certain by which voice we explore the part of the year in which the event may be about to show itself.</translation> <!--JG: Uncertain, esp 'cum de anno'--> 
+            <!-- FSF: I think the beginning could be translated as: As we are certain about the year, in which manner we...  -->
         </marginalia>
         
         <underline method="pen" type="double" language="LA" text="fortitudinis"/>

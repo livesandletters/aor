@@ -3,13 +3,13 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="074.tif" reader="John Dee"  pagination="[28v]"/>
+    <page filename="074.tif" reader="John Dee" pagination="[28v]"/>
     <annotation>
         
         <marginalia hand="English_secretary" anchor_text="Ptolemaeo">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ptoloma[e]us.</marginalia_text>
+                    <marginalia_text>Ptoloma[e]us.</marginalia_text> <!-- FSF: I think that there are umlaut dots on the ae -->
                     <person name="Ptolemy"/>
                 </position>
             </language>
@@ -19,7 +19,8 @@
         <marginalia hand="English_secretary" date="29 April 1554">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Aliam ego Judicare[m] haru[m] imagion[um] natura[m] [si] ratione[m] fixaru[m] ex quibus describu[n]tur haberem[us] J.d. 1554.29.Ap[ri]lis.</marginalia_text> <!--JG: Unsure abt 'hi'-->
+                    <marginalia_text>Aliam ego Judicare[m] haru[m] imagion[um] natura[m] [si] ratione[m] fixaru[m] ex quibus describu[n]tur haberem[us] J.d. 1554.29.Ap[ri]lis.</marginalia_text> <!--JG: Unsure abt 'hi'--> 
+                    <!-- FSF: I think it is imaginu[m]; not sure about si/hi either; si would make more sense, but I am not sure -->
                     <person name="John Dee"/>
                 </position>
             </language>

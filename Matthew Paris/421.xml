@@ -24,7 +24,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Turketillus Comes <!-- FSF: I don't think it is him https://en.wikipedia.org/wiki/Thurcytel -->
+                        Turketillus Comes <!-- FSF: I don't think it is him https://en.wikipedia.org/wiki/Thurcytel -->  <!-- DO: I think it's probably: https://en.wikisource.org/wiki/Thurkill_(fl.1009)_(DNB00) -->
                     </marginalia_text>
                 </position>
             </language>
@@ -38,7 +38,7 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Egricus Comes
-                    </marginalia_text> <!-- FSF: couldn't identify him -->
+                    </marginalia_text> <!-- FSF: couldn't identify him -->  <!-- DO: I think his English name will be Eric and, if it's the right person, that he became Earl of Northumberland, so maybe he can be tagged thus? https://books.google.co.uk/books?id=oAHaO0GiatEC&pg=PA416&lpg=PA416&dq=egricus+cnut&source=bl&ots=8TIC42jhHg&sig=-Wr6eSlrJ_X6lN7DbhuDG8X5lp4&hl=en&sa=X&ved=0ahUKEwjqn4uTid7VAhWObFAKHXh6AoQQ6AEIKjAA#v=onepage&q=egricus%20cnut&f=false -->
                 </position>
             </language>
             <translation>
@@ -56,7 +56,7 @@
                 </position>
             </language>
             <translation>
-                Cnut the Great was elected King of England.
+                Cnut the Great was elected King of England.  <!-- DO: I would keep as present tense -->
             </translation>
         </marginalia>
         
@@ -64,12 +64,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Pons Lond[inii]
+                        Pons Lond[inii].
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Bridge of London.
+                Bridge of London.  <!-- DO: 'London Bridge', I think -->
             </translation>
         </marginalia>
         
@@ -78,18 +78,24 @@
         <underline method="pen" type="double" language="LA" text="Vthredo Comite"/>
         <underline method="pen" type="double" language="LA" text="contra Danos cum"/>
         <underline method="pen" type="double" language="LA" text="Vthredo Comite"/>
-        <underline method="pen" type="straight" language="LA" text="Vthredo"/>
         <underline method="pen" type="double" language="LA" text="Turebrando"/>
         <underline method="pen" type="straight" language="LA" text="viro Danico"/>
+        <underline method="pen" type="straight" language="LA" text="Vthredo"/>
         <underline method="pen" type="double" language="LA" text="Cnutonem"/>
         <underline method="pen" type="straight" language="LA" text="Soli ciues London, &amp; pars nobiliu[m], qui tunc te[m]poris ibide[m] p[er]manebant"/>
-        <underline method="pen" type="straight" language="LA" text="Eadmundum filium regis, Ferreum latus"/>
+        <underline method="pen" type="straight" language="LA" text="Eadmundum filium regis"/>
+        <underline method="pen" type="straight" language="LA" text="Ferreum latus"/>
         <underline method="pen" type="straight" language="LA" text="in rege[m] vnanimiter exclamaueru[n]t"/>
         <underline method="pen" type="straight" language="LA" text="Quibus auditis"/>
         <underline method="pen" type="straight" language="LA" text="magna pars populi totius regni"/>
         <underline method="pen" type="straight" language="LA" text="illi se voluntari&egrave;"/>
         <underline method="pen" type="straight" language="LA" text="scrobem profundam"/>
         <underline method="pen" type="straight" language="LA" text="partem pontis"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; coronatione Eadmundi filij eius"/>
+        
+        
+        <!-- DO: I think Dee has 'filled in' the faded 'd' in 'ibide[m]' (para 2, line 8)? -->
+        
         
     </annotation>
 </transcription>

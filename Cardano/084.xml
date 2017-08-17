@@ -23,14 +23,14 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>R[ati]o quare [hic - deleted] [minn..t] minuta hic posita, ha[e]c est, quod cu[m] in [v..]sextili anno integru[m] addicunt die[m]
                     pro quater 5 h[orae] 55 minutis et 20 secundis, cum efficia[n]t [int..] [prete - deleted] horas 23 m[inutae] 41 sec. 20, desunt igitur singulis diebus
-                    [ems] anni intercalare[m] die[m] sepientib[us] minuta 18 secunda 40, et similiter singulis [ves]sextilib[us]</marginalia_text>
+                    [ems] anni intercalare[m] die[m] sepientib[us] minuta 18 secunda 40, et similiter singulis [ves]sextilib[us]</marginalia_text> 
+                    <!-- FSF: I think [ems] is eius; also there are parantheses missing in sepientib[us], I think it is sepie[n]tib[us]; in the first line, [minn..t] is minuu[n]t I think; the word in the second and the last line containing sextil is bisextilis, I think; see http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0059%3Aentry%3Dbisextilis -->
                 </position>
             </language>
             <translation></translation> <!--JG: Still to do, first complete transcription-->
         </marginalia>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        
         <mark name="plus_sign" method="pen" place="tail"/>
         
         <errata language="LA" copytext="[table]" amendedtext="[deleted]"/>
@@ -58,8 +58,5 @@
             </tr>
         </table>
         
-        
-        
     </annotation>
 </transcription>
-

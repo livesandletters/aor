@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="108.tif" reader="John Dee"  pagination="[45v]" signature="[M[v]]"/>
+    <page filename="108.tif" reader="John Dee" pagination="[45v]" signature="[M[v]]"/>
     <annotation>
         
         <marginalia hand="English_secretary">
@@ -12,7 +12,7 @@
                     <marginalia_text>Regula de loco planeta[e] in exce[n]trico suo.</marginalia_text>
                 </position>
             </language>
-            <translation>Rule regarding the place of the planets in their orbit.</translation>
+            <translation>Rule regarding the place of the planets in their orbit.</translation> <!-- FSF: I'd translate as "of a planet" -->
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -28,6 +28,7 @@
         <symbol name="Mercury" place="left_margin" language="LA" text="Mercurius"/>
         <symbol name="Moon" place="left_margin" language="LA" text="Luna"/>
         
+        <!-- FSF: I think there is a full stop converted into a comma in the third line -->
+        
     </annotation>
 </transcription>
-
