@@ -30,7 +30,7 @@
                 </position>
             </language>
             <translation>
-                Herleva, mother of William the Conqueror
+                Herleva, mother of William the Conqueror.
             </translation>
         </marginalia>
         
@@ -40,7 +40,7 @@
                     <marginalia_text>
                         Comes Gilbertus 
                     </marginalia_text>
-                    <person name="Gilbert of Brionne"/>
+                    <person name="Gilbert of Brionne"/>   <!-- DO: He is already listed on the spreadsheet as 'Gilbert, Count of Brionne' -->
                 </position>
             </language>
             <translation>
@@ -52,7 +52,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        vastanpp <!-- FSF: I am not sure at all -->
+                        vastanpp <!-- FSF: I am not sure at all -->  <!-- DO: I think it is English, and says 'bastard.' -->
                     </marginalia_text>
                 </position>
             </language>
@@ -62,9 +62,11 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Angliae prolixius scribens"/>
-        <underline method="pen" type="straight" language="LA" text="Victigerni, VVindorum"/>
-        <underline method="pen" type="straight" language="LA" text="Aethelredus habuit in vxorem filia[m] Ricardi"/>
-        <underline method="pen" type="straight" language="LA" text="primi, Ducis Normannorum"/>
+        <underline method="pen" type="straight" language="LA" text="Victigerni"/> 
+        <underline method="pen" type="straight" language="LA" text="VVindorum"/>
+        <underline method="pen" type="straight" language="LA" text="Aethelredus habuit in vxorem filia[m] Ricardi primi, Ducis Normannorum"/>
+        <underline method="pen" type="straight" language="LA" text="Emma"/>
+        <underline method="pen" type="straight" language="LA" text="primus, pater Gulihelmi de"/>
         <underline method="pen" type="straight" language="LA" text="Robertus, Richardi secundi, Ducis Norma[n]norum, alter"/>
         <underline method="pen" type="straight" language="LA" text="&amp; frater Richardi tertij"/>
         <underline method="pen" type="double" language="LA" text="ex Herletta"/>
@@ -76,9 +78,12 @@
         <mark name="bracket" method="pen" place="intext"/> <!-- primus pater -->
         <mark name="bracket" method="pen" place="intext"/> <!-- Gulihelmi de -->
         
+        <!-- DO: Possibly there is an asterisk in the right margin, not sure..? -->
+        
+        
         <numeral place="intext" language="LA" text="primus">29</numeral>
         
-        <errata language="LA" copytext="," amendedtext=";"/> <!-- Normannorum &amp; -->
+        <errata language="LA" copytext="," amendedtext=";"/> <!-- Normannorum &amp; -->  <!-- DO: I think this is also the case in the following line (primo, &) -->
         
     </annotation>
 </transcription>
