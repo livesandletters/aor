@@ -6,11 +6,11 @@
     <page filename="410.tif" reader="John Dee" pagination="386" signature="[Kk[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Eadrico ... Streon[a]e' -->
+        <marginalia hand="Italian" anchor_text="Eadrico cuidam proditori, cognomento Streon[a]e">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Eadricus streone    <!-- DO: I think it's a capital 'S', and 'Streon[a]e' -->
+                        Eadricus Streon[a]e  
                     </marginalia_text>
                     <person name="Eadric Streona"/>
                 </position>
@@ -20,12 +20,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Burtuna super fluuiu[m] de Trent' -->
+        <marginalia hand="Italian" anchor_text="Burtuna super fluuiu[m] de Trent"> 
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Burtori vppon Trent   <!-- DO: I think 'Burton'. Tag as location: https://en.wikipedia.org/wiki/Burton_upon_Trent -->
+                        Burton vppon Trent   
                     </marginalia_text>
+                    <location name="Burton upon Trent"/>
                 </position>
             </language>
         </marginalia>
@@ -35,16 +36,18 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         Eadricus streone
-                        filius Leofwini fit Mercoru[m] Dux: cui &AElig;thelredus Rex (seu vt Flore[n]tius Wolf) a[e]gelredus, filia[m] sua Edgitha[m], vxoru[m] <!-- FSF: last word illegible -->  <!-- DO: I think the last word is 'dedit'; and it must be 'Mercioru[m]' and the word after 'Flore[n]tius' 'Wig' -->
+                        filius Leofwini fit Mercioru[m] Dux: cui &AElig;thelredus Rex (seu vt Flore[n]tius Wig) a[e]gelredus, filia[m] sua Edgitha[m], vxoru[m] dedit 
                     </marginalia_text>
                     <person name="Eadric Streona"/>
-                    <person name="Leofwine, Ealdorman of the Hwicce"/>   <!-- DO: I'm not entirely sure it's him as they don't appear to have actually been father and son, but it may be... -->
-                    <person name="Æthelred II"/>    <!-- DO: Eadgyth and Florence of Worcester to be tagged -->
+                    <person name="Leofwine, Ealdorman of the Hwicce"/>
+                    <person name="Æthelred II"/> 
+                    <person name="Eadgyth"/>
+                    <person name="Florence of Worcester"/>
+                    <book title="Chronicon ex chronicis"/>
                 </position>
             </language>
             <translation>
-                Eadric Streona
-                son of <!-- FSF: translation to be completed -->   <!-- DO: 'Eadric Streona, son of Leofwine was leader of the Mercians: to whom King Æthelred (or as Florence of Worcester [says]) Ægelredus, gave his daughter Eadgyth as a wife'. I am assuming Aegelredus is another name for Aethelred? I guess the book is probably the 'Chronicon ex chronicis' so I don't know whether this should be tagged?   -->
+                Eadric Streona, son of Leofwine was leader of the Mercians: to whom King Æthelred (or as Florence of Worcester [says]) Ægelredus, gave his daughter Eadgyth as a wife.
             </translation>
         </marginalia>
         
@@ -52,7 +55,9 @@
         <underline method="pen" type="straight" language="LA" text="Merciorum Eadrico cuidam"/>
         <underline method="pen" type="straight" language="LA" text="Streon[a]e"/>
         <underline method="pen" type="straight" language="LA" text="non nobilitas sed"/>
-        <underline method="pen" type="straight" language="LA" text="dedecus Angloru[m]"/>    <!-- DO: Underlining of text in left margin as well -->
+        <underline method="pen" type="straight" language="LA" text="dedecus Angloru[m]"/>  
+        <underline method="pen" type="straight" language="LA" text="tributum dedit"/>
+        <underline method="pen" type="straight" language="LA" text="Descriptio Eadrici proditoris"/>
         
     </annotation>
 </transcription>
