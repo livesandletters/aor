@@ -17,7 +17,7 @@
                 </position>
             </language>
             <translation>
-                The mother of Edmund Ironside was an ignobilis woman.     <!-- DO: 'ignoble' -->
+                The mother of Edmund Ironside was an ignobile woman.  
             </translation>
         </marginalia>
         
@@ -45,7 +45,7 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure about clito -->    <!-- DO: 'Clito' is the Latin version of Aetheling; I think the whole thing refers to Edmund II, rather than his son who was more commonly known as 'Edmund Aetheling'. I would translate as 'Edmund Ætheling Ironside' -->
+                Edmund Ætheling Ironside.
             </translation>
         </marginalia>
         
@@ -75,7 +75,7 @@
         <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
             <node id="n1" person="Æthelred II">&AElig;thelredus R[ex]</node>
             <node id="n2" person="Edmund II">Edmundus Ferreu[m] Latus</node>
-            <node id="n3" person="Ealdgyth">Aldgitha relictas Sigeferthi Comitis Northu[m]b[riae]</node>   <!-- DO: I think it's 'relicta' with a long tail -->
+            <node id="n3" person="Ealdgyth">Aldgitha relicta Sigeferthi Comitis Northu[m]b[riae]</node> 
             <link to="n2" from="n1" relationship="has_child"/>
             <link to="n3" from="n2" relationship="has_spouse"/>
             <link to="n2" from="n3" relationship="has_spouse"/>

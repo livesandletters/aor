@@ -6,17 +6,17 @@
     <page filename="423.tif" reader="John Dee" pagination="399" signature="Ll ij"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Breanfordiam' -->
+        <marginalia hand="Italian" anchor_text="Breanfordiam">  
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        J.d Brean fordee by Richemond [is] vadu[m] Breani. <!-- FSF: I am really not sure about all this; is it English or Latin? -->  <!-- DO: I'm not sure about the ending of 'Brean ford..' To me it looks like he has changed it from 'forda[e]' to 'fordde'; then I think it's 'vadu[m] Brenni'. I think it's possibly 'Rithemond' (though modern spelling Richmond). I would keep language as English -->
-                    </marginalia_text>          <!-- DO: The locations are Brentford and Richmond, and John Dee to be tagged as well -->
+                        J.d Brean fordde by Richemond [is] vadu[m] Brenni.  
+                    </marginalia_text>    
+                    <person name="John Dee"/>
+                    <location name="Brentford"/>
+                    <location name="Richmond"/>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Octa[m]ford">
@@ -49,11 +49,11 @@
                     <marginalia_text>
                         &AElig;lfricus.
                     </marginalia_text>
-                    <person name="Ælfric Cild"/> <!-- FSF: not sure -->   <!-- DO: I think it must be this one instead: https://en.wikipedia.org/wiki/Ælfric_of_Hampshire -->
+                    <person name="Ælfric of Hampshire"/> 
                 </position>
             </language>
             <translation>
-                Ælfric Cild.
+                Ælfric.
             </translation>
         </marginalia>
         
@@ -79,9 +79,7 @@
         <underline method="pen" type="straight" language="LA" text="Dorkacestrensis episcopus"/>
         <underline method="pen" type="straight" language="LA" text="abbas Vlfius"/>
         
-        
-        <!-- DO: Manicule in left margin -->
-        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
     </annotation>
 </transcription>

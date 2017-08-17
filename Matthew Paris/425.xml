@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Corona rema[n]sit Edmu[n]du <!-- FSF: ending has disappeared; possibly Edmundo like in the text -->
+                        Corona rema[n]sit Edmu[n]do
                     </marginalia_text>
                     <person name="Edmund II"/>
                 </position>
@@ -26,7 +26,6 @@
                     <marginalia_text>
                         Aldgiua sup[ra] Aldgitha pag[ina] 396.
                     </marginalia_text>
-                    <person name=""/> <!-- FSF: I don't know who the first one is, possibly the wife of him https://en.wikipedia.org/wiki/Edwin,_Earl_of_Mercia; possibly also her https://en.wikipedia.org/wiki/Eadgifu_of_Wessex-->  <!-- DO: I would guess that these are both names of the same person (Ealdgyth)... -->
                     <person name="Ealdgyth"/>
                     <internal_ref>
                         <target ref="RCP10653:420" text="396"/>
@@ -34,21 +33,35 @@
                 </position>
             </language>
             <translation>
-                Aldgiua, see for Eadgyth above page 396.   <!-- DO: I would maybe translate as 'Aldgiva, Eadgyth, see above...' to indicate that they are the same person with different names -->
+                Aldgiva, Eadgyth, see above page 396.   
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Eadrici' -->
+        <marginalia hand="Italian" anchor_text="Eadrici"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Eadricus Streone. Flore[n]t[us] wig.    <!-- DO: 'Flore[n]ti[us] Wig.' -->
+                        Eadricus Streone.
                     </marginalia_text>
                     <person name="Eadric Streona"/>
                 </position>
             </language>
             <translation>
-                Eadric Streona blooming <!-- FSF: not sure about the rest -->  <!-- DO: The second person is https://en.wikipedia.org/wiki/Florence_of_Worcester. I think these are possibly two separate notes?  -->
+                Eadric Streona.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian"> 
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Flore[n]ti[us] Wig. 
+                    </marginalia_text>
+                    <person name="Florence of Worcester"/>
+                </position>
+            </language>
+            <translation>
+                Florence of Worcester.
             </translation>
         </marginalia>
         

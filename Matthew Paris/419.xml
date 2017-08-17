@@ -49,8 +49,8 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
-            <node id="n1">Cargrinus</node>                                                                   <!-- DO: The father still needs to be identified. John of Worcester identifies the father of Sigeferth and Morcar as 'Earngrim' but that's all I could find: https://en.wikipedia.org/wiki/Morcar_(thegn) You can anchor to the text as you have done with the others -->
-            <node id="n2" person="Sigeferth" anchor_text="Sigeferth[us]">comites. North. Sigefertis</node>   <!-- DO: I think it's 'Sigefertus' -->
+            <node id="n1" person="Earngrim" anchor_text="Cargrini">Cargrinus</node>  
+            <node id="n2" person="Sigeferth" anchor_text="Sigeferth[us]">comites. North. Sigefertus</node>
             <node id="n3" person="Morcar" anchor_text="Morchar[us]">Morcharus</node>
             <node id="n4" person="Ealdgyth" anchor_text="Aldgitham">Aldigitha</node>
             <link to="n2" from="n1" relationship="has_child"/>

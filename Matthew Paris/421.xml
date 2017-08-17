@@ -24,12 +24,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Turketillus Comes <!-- FSF: I don't think it is him https://en.wikipedia.org/wiki/Thurcytel -->  <!-- DO: I think it's probably: https://en.wikisource.org/wiki/Thurkill_(fl.1009)_(DNB00) -->
+                        Turketillus Comes
                     </marginalia_text>
+                    <person name="Thurkill"/>
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure if he was an earl or what his title was -->
+                Earl Thurkill.
             </translation>
         </marginalia>
         
@@ -38,11 +39,12 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Egricus Comes
-                    </marginalia_text> <!-- FSF: couldn't identify him -->  <!-- DO: I think his English name will be Eric and, if it's the right person, that he became Earl of Northumberland, so maybe he can be tagged thus? https://books.google.co.uk/books?id=oAHaO0GiatEC&pg=PA416&lpg=PA416&dq=egricus+cnut&source=bl&ots=8TIC42jhHg&sig=-Wr6eSlrJ_X6lN7DbhuDG8X5lp4&hl=en&sa=X&ved=0ahUKEwjqn4uTid7VAhWObFAKHXh6AoQQ6AEIKjAA#v=onepage&q=egricus%20cnut&f=false -->
+                    </marginalia_text> 
+                    <person name="Eric, Earl of Northumberland"/>
                 </position>
             </language>
             <translation>
-                Earl Egricus
+                Earl Eric.
             </translation>
         </marginalia>
         
@@ -56,7 +58,7 @@
                 </position>
             </language>
             <translation>
-                Cnut the Great was elected King of England.  <!-- DO: I would keep as present tense -->
+                Cnut the Great is elected King of England. 
             </translation>
         </marginalia>
         
@@ -69,7 +71,7 @@
                 </position>
             </language>
             <translation>
-                Bridge of London.  <!-- DO: 'London Bridge', I think -->
+                London Bridge.
             </translation>
         </marginalia>
         
@@ -93,9 +95,7 @@
         <underline method="pen" type="straight" language="LA" text="partem pontis"/>
         <underline method="pen" type="straight" language="LA" text="&amp; coronatione Eadmundi filij eius"/>
         
-        
-        <!-- DO: I think Dee has 'filled in' the faded 'd' in 'ibide[m]' (para 2, line 8)? -->
-        
+        <errata language="LA" copytext="ibidem" amendedtext="ibidem"/>
         
     </annotation>
 </transcription>

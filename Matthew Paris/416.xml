@@ -6,12 +6,13 @@
     <page filename="416.tif" reader="John Dee" pagination="392" signature="[Kk iiij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Palingo' -->
+        <marginalia hand="Italian" anchor_text="Palingo">  
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Palingus. the name of that family remayneth 1576 <!-- FSF: I am not sure if this is one of the family and if the family should be further identified https://en.wikipedia.org/wiki/Pallig --> <!-- DO: I think you forgot the 'yet' before 'remayneth'. I would probably tag Pallig as a person as the note relates to his name. -->
+                        Palingus. the name of that family yet remayneth 1576  
                     </marginalia_text> 
+                    <person name="Pallig"/>
                 </position>
             </language>
         </marginalia>
@@ -53,7 +54,8 @@
         <underline method="pen" type="straight" language="LA" text="qui &amp; illam nouissim&egrave; decapitari"/>
         <underline method="pen" type="triple" language="LA" text="ad exteras regiones"/>
         
-        <mark name="comma" method="pen" place="intext"/> <!-- Palingo Comiti -->  <!-- DO: I think there's another comma at 'paucos in' (line 9) -->
+        <mark name="comma" method="pen" place="intext"/> <!-- paucos in -->
+        <mark name="comma" method="pen" place="intext"/> <!-- Palingo Comiti --> 
         
     </annotation>
 </transcription>
