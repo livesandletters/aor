@@ -10,12 +10,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Vlnothus. <!-- FSF: not sure who that is -->  <!-- DO: https://en.wikipedia.org/wiki/Wulfnoth_Cild -->
+                        Vlnothus. 
                     </marginalia_text>
+                    <person name="Wulfnoth Cild"/>
                 </position>
             </language>
             <translation>
-                
+                Wulfnoth.
             </translation>
         </marginalia>
         
@@ -25,7 +26,7 @@
                     <marginalia_text>
                         Turketillus.
                     </marginalia_text>
-                    <person name="Saint Turketil"/>  <!-- DO: I think it's probably: https://en.wikisource.org/wiki/Thurkill_(fl.1009)_(DNB00) -->
+                    <person name="Thurkill"/>
                 </position>
             </language>
             <translation>
@@ -33,27 +34,28 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">   <!-- DO: Anchor 'Vlnothum regis ministrum' -->
+        <marginalia hand="Italian" anchor_text="Vlnothum regis ministrum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Vlnothus: Minister regis.    <!-- DO: To be tagged as person -->
+                        Vlnothus: Minister regis. 
                     </marginalia_text>
+                    <person name="Wulfnoth Cild"/>
                 </position>
             </language>
             <translation>
-                Vlnothus, minister to the king.
+                Wulfnoth, minister to the king.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'frater perfidi ... Brithricus' -->  <!-- DO: I don't know whether this should be captured as a genealogical tree (they're brothers)? -->
+        <marginalia hand="Italian" anchor_text="frater perfidi Ducis Eadrici Brithricus"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         [ Eadricus Dux Brithricus
                     </marginalia_text>
                     <person name="Eadric Streona"/>
-                    <person name="Brithric Meaw of Mercia"/>  <!-- DO: I'm not sure if this is right. The only Brithric Meaw I can find is: http://www.1066.co.nz/Mosaic%20DVD/text/people/brihtric.htm and I don't think that's him. This is the brother of Eadric, known as Brihtric or Beorhtric -->
+                    <person name="Brithric Meaw of Mercia"/>  
                 </position>
             </language>
             <translation>
