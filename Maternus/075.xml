@@ -19,10 +19,23 @@
             </translation>
         </marginalia>
         
-        <!-- FSF There is another with some astrological symbols, which I am not sure how to capture best -->
-        <!-- M.B. Perhaps best to capture as the astrological symbols as one marginalia since it appears to be referencing the passage of the
-            print text: "&Mars ei, uel &Venus, uel &Moon. contrario [...]' -->
-        
+        <marginalia hand="Italian" anchor_text="&Mars; ei, uel &Venus;, uel &Moon; contrario">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        &Jupiter; &Opposition; &Mars; &Venus; &Moon; Nota hic de natura[m] signoru[m]
+                    </marginalia_text>
+                    <symbol_in_text name="Jupiter"/>
+                    <symbol_in_text name="Opposite_planets"/>
+                    <symbol_in_text name="Mars"/>
+                    <symbol_in_text name="Venus"/>
+                    <symbol_in_text name="Moon"/>
+                </position>
+            </language>
+            <translation>
+                Jupiter on oppotision to Mars, Venus and the moon. Note here the nature of the signs.
+            </translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="biothanatos">
             <language ident="LA">
@@ -33,19 +46,19 @@
                 </position>
             </language>
             <translation>
-                <!-- M.B. Translates to 'Dying by violence'. -->
+                Those killed by by violence.
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="in domo fuerit"/> <!-- SUN -->
+        <underline method="pen" type="straight" language="LA" text="in domo &Sun; fuerit"/> 
         <underline method="pen" type="straight" language="LA" text="habuerit, forti corpore, &amp; ualidis offibus. Et"/>
         <underline method="pen" type="straight" language="LA" text="faciet inuictos Imperatores &amp;"/>
-        <underline method="pen" type="straight" language="LA" text="Gaudet aute[m] per diem, solis radiatione adornatus praesertim si in matutino ortu fuerit constitutus"/> <!-- JUPITER -->
-        <underline method="pen" type="straight" language="LA" text="(no[n] enim gaudet in nocturnis genituris"/> <!-- JUPITER -->
+        <underline method="pen" type="straight" language="LA" text="Gaudet aute[m] per diem &Jupiter;, solis radiatione adornatus praesertim si in matutino ortu fuerit constitutus"/>
+        <underline method="pen" type="straight" language="LA" text="(no[n] enim gaudet &Jupiter; in nocturnis genituris"/> 
         <underline method="pen" type="straight" language="LA" text="faciet utiis implicati, secundu[m] natura[m] scilicet signoru[m] atq[ue] substantia[m] "/>
         <underline method="pen" type="straight" language="LA" text="&amp; plus uolentes scire q[uam] patiatur humanae naturae substa[n]tia"/>
-        <underline method="pen" type="straight" language="LA" text="recedens ab eo, nullius stellae habuerit coniunctione[m], maximas infelicitates, labores, miseri&aacute;sq[ue] decernit. Si"/> <!-- MOON -->
-        <underline method="pen" type="straight" language="LA" text="Vnde per noctem in hoc signo frequenter malas decernit erumnas, &amp; calamitates"/> <!-- JUPITER -->
+        <underline method="pen" type="straight" language="LA" text="recedens ab eo &Moon;, nullius stellae habuerit coniunctione[m], maximas infelicitates, labores, miseri&aacute;sq[ue] decernit. Si"/>
+        <underline method="pen" type="straight" language="LA" text="Vnde per noctem in hoc signo &Jupiter; frequenter malas decernit erumnas, &amp; calamitates"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- Imperatores &amp; -->
