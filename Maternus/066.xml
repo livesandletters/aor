@@ -12,6 +12,7 @@
                     <marginalia_text>
                         &Jupiter; <!-- the rest in the gutter -->
                     </marginalia_text>
+                    <symbol_in_text name="Jupiter"/>
                 </position>
             </language>
         </marginalia>
@@ -29,16 +30,18 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- M.B. Add anchor text. 'crescentis &Moon; lumen exceperit'  -->
+        <marginalia hand="Italian" anchor_text="crescentis &Moon; lumen exceperit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        &Mars; &Moon;a[e] ...scetis lumen ex... <!-- M.B. I think it might be: '&Mars; &Moon;a[e]  cresce[n]tis lumen exceperit.'  -->
+                        &Mars; &Moon;a[e] cresce[n]tis lumen exceperit 
                     </marginalia_text>
+                    <symbol_in_text name="Mars"/>
+                    <symbol_in_text name="Moon"/>
                 </position>
             </language>
             <translation>
-                
+                Mars receives the light of the growing moon.
             </translation>
         </marginalia>
         
@@ -55,16 +58,17 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- M.B. Add anchor text, 'enim misera &Venus; -->
+        <marginalia hand="Italian" anchor_text="enim misera &Venus;"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         &Venus; quando misera
                     </marginalia_text>
+                    <symbol_in_text name="Venus"/>
                 </position>
             </language>
             <translation>
-                <!-- M.B. Add translation -->
+                When Venus is miserable.
             </translation>
         </marginalia>
         
