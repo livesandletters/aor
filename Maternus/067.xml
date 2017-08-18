@@ -28,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                Of such an astrologer must life be. <!-- M.B. I think it is something like 'Such must be the life of an astrologer'. Although by no means certain.-->
+                Such must be the life of an astrologer.
             </translation>
         </marginalia>
         
@@ -58,11 +58,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- M.B. Add anchor text 'uerum aliquid de fato Imperatoris desinire potuit' etc. -->
+        <marginalia hand="Italian" anchor_text="de fato Imperatoris desinire">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Imperatoru[m] foruna et corporis co[n]stitutione[m] ignoratur.
+                        Imperatoru[m] fortuna et corporis co[n]stitutione[m] ignoratur.
                     </marginalia_text>
                 </position>
             </language>
@@ -75,13 +75,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Corrigitur aurea o[mn]ia de Sylla ad Nellas retulit <!-- FSF: not sure at all -->
-                        <!-- M.B. Not sure either, possibly a reference to Sylla (i.e. Sulla) https://en.wikipedia.org/wiki/Sulla.  -->
+                        Cur igitur aurea o[mn]ia de Sylla ad stellas retulit?
                     </marginalia_text>
+                    <person name="Sulla"/>
                 </position>
             </language>
             <translation>
-                
+                Why has he then returned all golden things from Sulla to the stars?
             </translation>
         </marginalia>
         
@@ -158,11 +158,11 @@
         <underline method="pen" type="double" language="LA" text="non dicere, sed exprobtare uidearis"/>
         <underline method="pen" type="straight" language="LA" text="separatos &amp; alienos esse decet &agrave; prauis"/>
         
-        <mark name="bracket" method="pen" place="left_margin" colour="red"/> <!-- M.B. Method should be chalk -->
+        <mark name="bracket" method="pen" place="left_margin" colour="red"/> 
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin" colour="red"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="left_margin" colour="red"/> <!-- M.B. Method should be chalk -->
+        <mark name="bracket" method="pen" place="left_margin" colour="red"/>
         <mark name="equal_sign" method="pen" place="right_margin"/> <!-- aliquando -->
         <mark name="comma" method="pen" place="intext"/> <!-- aliquid nefaria -->
         <mark name="comma" method="pen" place="intext"/> <!-- seditio[n]es fuge -->
