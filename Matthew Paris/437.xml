@@ -6,6 +6,19 @@
     <page filename="437.tif" reader="John Dee" pagination="413" signature="Mm iij"/>
     <annotation>
         
+        <marginalia hand="Italian" anchor_text="Henrico Imperatori">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        tertio
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                The third.
+            </translation>
+        </marginalia>
+        
         <underline method="pen" type="straight" language="LA" text="Gunildam, sororem"/>
         <underline method="pen" type="double" language="LA" text="Cnutone rege &amp; Emma"/>
         <underline method="pen" type="straight" language="LA" text="Gunilda"/>
@@ -16,9 +29,8 @@
         <underline method="pen" type="straight" language="LA" text="Mimecan"/>
         <underline method="pen" type="straight" language="LA" text="imperatori repudium fecit"/>
         
-        <!-- DO: There is also underlined text in the right margin, and Dee has added the word 'tertio' (and I think two circumflexes) -->
-        
-        
+        <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="circumflex" method="pen" place="intext"/>
         
     </annotation>
 </transcription>

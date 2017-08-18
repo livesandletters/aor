@@ -6,17 +6,18 @@
     <page filename="432.tif" reader="John Dee" pagination="408"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Bederichesworth' -->
+        <marginalia hand="Italian" anchor_text="Bederichesworth">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Bedericia Lalando
                     </marginalia_text>
+                    <book title="John Leland"/>
                     <location name="Bury St Edmunds"/>
                 </position>
             </language>
             <translation>
-                Bury St Edmunds.        <!-- DO: I think the 'Lalando' refers to John Leland, who wrote about this place - see: https://en.wikipedia.org/wiki/John_Leland_(antiquary). 'Bury St Edmunds, in Leland'. -->
+                Bury St Edmunds in Leland. 
             </translation>
         </marginalia>
         

@@ -40,7 +40,7 @@
                     <marginalia_text>
                         Comes Gilbertus 
                     </marginalia_text>
-                    <person name="Gilbert of Brionne"/>   <!-- DO: He is already listed on the spreadsheet as 'Gilbert, Count of Brionne' -->
+                    <person name="Gilbert, Count of Brionne"/> 
                 </position>
             </language>
             <translation>
@@ -49,16 +49,13 @@
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Gulihelmi">
-            <language ident="LA">
+            <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        vastanpp <!-- FSF: I am not sure at all -->  <!-- DO: I think it is English, and says 'bastard.' -->
+                        bastard 
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Angliae prolixius scribens"/>
@@ -75,15 +72,15 @@
         <underline method="pen" type="straight" language="LA" text="Comes Gilbertus"/>
         <underline method="pen" type="straight" language="LA" text="tutela tutoris"/>
         
+        <symbol name="Asterisk" place="right_margin"/>
+        
         <mark name="bracket" method="pen" place="intext"/> <!-- primus pater -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- Gulihelmi de -->
-        
-        <!-- DO: Possibly there is an asterisk in the right margin, not sure..? -->
-        
+        <mark name="bracket" method="pen" place="intext"/> <!-- Gulihelmi de -->               
         
         <numeral place="intext" language="LA" text="primus">29</numeral>
         
-        <errata language="LA" copytext="," amendedtext=";"/> <!-- Normannorum &amp; -->  <!-- DO: I think this is also the case in the following line (primo, &) -->
+        <errata language="LA" copytext="," amendedtext=";"/> <!-- Normannorum &amp; -->
+        <errata language="LA" copytext="," amendedtext=";"/> <!-- primo, & -->
         
     </annotation>
 </transcription>
