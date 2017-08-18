@@ -6,7 +6,12 @@
     <page filename="443.tif" reader="John Dee" pagination="419"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        
+        <!-- DO: You have missed out the first marginal note ('Honores istos Co[n]sidera.') -->
+        
+        
+        
+        <marginalia hand="Italian">   <!-- DO: Anchor 'Reginam quoque Editham' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -16,30 +21,30 @@
                 </position>
             </language>
             <translation>
-                King Edith of Wessex
+                King Edith of Wessex.          <!-- DO: 'Queen' -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'Redvvellam' -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>
-                        Redwella Appathia
+                    <marginalia_text> 
+                        Redwella Appathia.         <!-- DO: I think it's 'Abbathia' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure what or where Redwella is -->
+                <!-- FSF: not sure what or where Redwella is -->    <!-- DO: I don't know either. My only suggestion is Redhill as it's near Reigate which seems to have an Edward the Confessor connection, really not sure though. 'Abbathia' perhaps 'Abbey'? -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'Marianus Scotus' -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         Marianus Chronographus veracissim[us]
                     </marginalia_text>
-                    <person name="Marianus Scotus"/>
+                    <person name="Marianus Scotus"/>  <!-- DO: I'd specify 'Marianus Scotus of Mainz', see the first sentence here: https://en.wikipedia.org/wiki/Marianus_Scotus_of_Mainz -->
                 </position>
             </language>
             <translation>
@@ -57,7 +62,7 @@
         <underline method="pen" type="straight" language="LA" text="&amp; sine eius licentia"/>
         <underline method="pen" type="straight" language="LA" text="pariturus nolebat"/>
         <underline method="pen" type="straight" language="LA" text="ipsum Godvvinum"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; eius quinque filios"/>
+        <underline method="pen" type="straight" language="LA" text="eius quinque filios"/>
         <underline method="pen" type="straight" language="LA" text="Tosto, filius eius, cum Iuditha"/>
         <underline method="pen" type="straight" language="LA" text="Svvanus"/>
         <underline method="pen" type="straight" language="LA" text="Gurth"/>
@@ -65,7 +70,7 @@
         <underline method="pen" type="straight" language="LA" text="Redvvellam"/>
         <underline method="pen" type="straight" language="LA" text="Marianus Scotus"/>
         <underline method="pen" type="straight" language="LA" text="scriptor chronicorum veracissimus"/>
-        <underline method="pen" type="straight" language="LA" text="tempus rex VValensium Griffinus, Heredordensem depopulans prouinciam, multos re bellantes prouinciales interfecit"/>
+        <underline method="pen" type="straight" language="LA" text="tempus rex VValensium Griffinus, Herefordensem depopulans prouinciam, multos re bellantes prouinciales interfecit"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
         
