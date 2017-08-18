@@ -3,10 +3,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="130.tif" reader="John Dee"  pagination="[54v]" signature="[Oij[v]]"/>
+    <page filename="130.tif" reader="John Dee" pagination="[54v]" signature="[O ij[v]]"/>
     <annotation>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary"> <!-- FSF: I don't understand why this note appears twice -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Effectus evide[n]tiores</marginalia_text>
@@ -53,7 +53,7 @@
         <underline method="pen" type="straight" language="LA" text="unicuiq[ue] parti annos"/>
         <underline method="pen" type="straight" language="LA" text="dirigendo pro tempore habendo. Considera etiam, qu&ograve;d effectus quilibet eo euidentior est, seu in uita seu in alijs, &amp; eo celerius perficitur, quo stella eclipticae proximior fuerit"/>
         <underline method="pen" type="straight" language="LA" text="Directiones quae Aldridariae concordant, effectus suos producent, aliae aute[m] non"/>
-        <underline method="pen" type="straight" language="LA" text="sed forsan aliuquid proportionale"/>
+        <underline method="pen" type="straight" language="LA" text="sed forsan aliquid proportionale"/>
         <underline method="pen" type="straight" language="LA" text="igitur omnes facere conuenit directiones, quae citra mortis tempus uenturum effectu[m] indica[n]t. primam igitur pro uita perficere necesse est"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
@@ -62,6 +62,6 @@
         <mark name="vertical_bar" method="pen" place="left_margin" language="LA" text="Directiones quae Aldridariae concordant, effectus suos producent, aliae aute[m] non"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="Directiones quae Aldridariae concordant, effectus suos producent, aliae aute[m] non"></drawing>
+        
     </annotation>
 </transcription>
-

@@ -3,25 +3,26 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="131.tif" reader="John Dee"  pagination="56"/>
+    <page filename="131.tif" reader="John Dee" pagination="56"/>
     <annotation>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Nota hic distinctione[m] inter loca ad qu[a]e alia perveniu[n]t motu directorio &amp; illa qua[e] proficis[ce]ntur hoc motu ad proposita loca:
-                    Vbi constat qua[e] loca duplici hoc munere gaudent, sed pro vario significati[onis?] r[ati]o[n]e et effectus qualitate declaranda. J.d.</marginalia_text>
+                    <marginalia_text>Nota hic distinctione[m] inter loca ad qu[a]e alia perveniu[n]t motu directorio &amp; illa qua[e] proficis[ce]ntur hoc motu ad proposita loca: <!-- FSF: could proficis[ce]ntur possibly be proficiscu[n]tur; this is fits better with the translation -->
+                    Vbi constat qua[e] loca duplici hoc munere gaudent, sed pro vario significati[onis?] r[ati]o[n]e et effectus qualitate declaranda. J.d.</marginalia_text> <!-- FSF: I'd think it is varia rather than vario, so it goes with ratione -->
                     <person name="John Dee"/>
                 </position>
             </language>
             <translation>Note here the distinction between the places to which others arrive by the guided movement and those which depart by this movement towards
             proposed place: whereby it corresponds which places enjoy this twofold duty, but must be declared for a different reason of meaning and quality of effect.</translation> <!--JG: unsure how to translate 'motu directorio'; unsure about significati[onis] and ratione-->
+            <!-- FSF: I would translate proposed place as plural; otherwise I think the translation is fine -->
         </marginalia>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Si cor co[e]li cur no[n] et ali[a]e domus hoc recipivnt: (non etia[m] Ascendens?</marginalia_text>
+                    <marginalia_text>Si cor co[e]li cur no[n] et ali[a]e domus hoc recipivnt: (non etia[m] Ascendens?</marginalia_text> <!-- FSF: could (non be Cum? -->
                 </position>
             </language>
             <translation>If midheaven, why do other houses not even receive this: not even those ascending? </translation>
@@ -30,10 +31,11 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>+ hanc sectio[ne]em tantu[m] hic numerat non c[a]etor[um] planet.</marginalia_text>
+                    <marginalia_text>+ hanc sectio[ne]em tantu[m] hic numerat non c[a]etor[um] planet.</marginalia_text> 
                 </position>
             </language>
             <translation>This section, he enumerates so many things here, not of other planets.</translation> <!--JG: Unsure-->
+            <!-- FSF: Maybe: Here he enumerates only this section, not the planets of others? -->
         </marginalia>
         
         <marginalia hand="Italian">
@@ -57,7 +59,7 @@
         <marginalia hand="Italian" anchor_text="quoniam in proprijs significatis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Propria significata ea intelligit, qu[a]e secundu[m] substantia[m] planeta significantur: vt infra patet fo. 59.</marginalia_text>
+                    <marginalia_text>Propria significata ea intelligit, qu[a]e secundu[m] substantia[m] planeta significantur: vt infra patet fo. 59.</marginalia_text> <!-- FSF: I think it is planeta[e] -->
                     <internal_ref>
                         <target ref="RCP7134:137" text="fo. 59"/>
                     </internal_ref>
@@ -66,7 +68,7 @@
             <translation>He understands those particular signifiers, which the planets are showing according to their substance: as is well known, [see] below, folio 59.</translation> 
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- FSF: I think this has been captured twice -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>quonia[m] in duos modos partiuntur.</marginalia_text>
@@ -126,7 +128,7 @@
                     <marginalia_text>cu[m] fixis colligati.</marginalia_text> 
                 </position>
             </language>
-            <translation>With the fixed tied together.</translation> <!--JG: Unsure, one would expect 'colligatis'??-->
+            <translation>With the fixed tied together.</translation> <!--JG: Unsure, one would expect 'colligatis'??--> <!-- FSF: maybe Tied together with the fixed [stars]? -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Diximus">
@@ -187,9 +189,9 @@
         <underline method="pen" type="straight" language="LA" text="infamiam"/>
         <underline method="pen" type="straight" language="LA" text="proditionis accusatus, plectetur more publica"/>
         
-        <mark name="bracket" method="pen" place="left_margin" language="LA" text="Loca ad quae diriguntur, sunt decem, septem planetaru[m], ascendentis, cordis coeli, &amp; coniunctionis uel oppositionis quae genituram proxime antecessit. Loca quae diriguntur sunt 68. Loca septem Planetarum, totidem
+        <mark name="bracket" method="pen" place="left_margin" language="LA" text="Loca ad quae diriguntur, sunt decem, septem planetaru[m], ascendentis, cordis coeli, &amp; coniunctionis uel oppositionis quae genituram proxime antecessit. Loca quae diriguntur sunt 58. Loca septem Planetarum, totidem
             opposita, septem dextrae radiationes quadratae, septem trigonae, septem sextiles, totidem etia[m] sinistrae quadratae, trigonae, sextiles, quisq[ue] etiam planeta locum suu[m] spectat
-            in quo uel exlipticam secuit, ad boream ueniens, uel ad austrum recedens. Haec caput &amp; cauda draconis dicuntur, ualidissima Lun[a]e, post Veneris, post Mercurij, post Iouvuis, inde Martis &amp; Saturni"/>
+            in quo uel eclipticam secuit, ad boream ueniens, uel ad austrum recedens. Haec caput &amp; cauda draconis dicuntur, ualidissima Lun[a]e, post Veneris, post Mercurij, post Iouvuis, inde Martis &amp; Saturni"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         
         <mark name="box" method="pen" place="right_margin"/>
@@ -198,6 +200,8 @@
         
         <mark name="dash" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!--effectus cum-->
+        
+        <!-- FSF: I think there is a plus sign missing; it's directly next to the marginal note beginning with a plus sign -->
         
         <errata language="LA" copytext="." amendedtext=":"/>
         <errata language="LA" copytext="," amendedtext=";"/>

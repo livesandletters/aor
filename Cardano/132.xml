@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="132.tif" reader="John Dee"  pagination="[56v]"/>
+    <page filename="132.tif" reader="John Dee" pagination="[56v]"/>
     <annotation>
         
         <marginalia hand="English_secretary" anchor_text="Dispositores">
@@ -30,7 +30,7 @@
         <marginalia hand="English_secretary" anchor_text="Si locum promissoris, non promissorem, qui ab initio est geniturae tempore, nihil iuuant">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Promissor genitur[a]e tempore Aurat, et ipse co[n]sideran[n]d[us].</marginalia_text>
+                    <marginalia_text>Promissor genitur[a]e tempore Aurat, et ipse co[n]sideran[n]d[us].</marginalia_text> <!-- FSF: could Aurat be durat? -->
                 </position>
             </language>
             <translation>The promisor gilds by the time of a geniture, and he himself must be considered.</translation>
@@ -48,7 +48,7 @@
         <marginalia hand="English_secretary" anchor_text="tot autem annis ac mensibus serius, quotus est numerus patrium correspondentiu[m] partibus latitudinis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Cur anni numeraretur secundum partes latitudinis.</marginalia_text>
+                    <marginalia_text>Cur anni numeraretur secundum partes latitudinis.</marginalia_text> <!-- FSF: I think it is numerare[n]tur -->
                 </position>
             </language>
             <translation>Why the years are enumerated according to the parts of the latitude.</translation>
@@ -76,19 +76,19 @@
         <underline method="pen" type="straight" language="LA" text="promissoris ab initio"/>
         <underline method="pen" type="straight" language="LA" text="directionis effectum ad finem perducet"/>
         <underline method="pen" type="straight" language="LA" text="coniunguntur, fortunam cu[m] ipso tempore planetae iungunt, sic"/>
-        <underline method="pen" type="straight" language="LA" text="tot autem annis ac mensibus serius, quotus est numerus patrium correspondentiu[m] partibus latitudinis"/>
+        <underline method="pen" type="straight" language="LA" text="tot autem annis ac mensibus serius, quotus est numerus partium correspondentiu[m] partibus latitudinis"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         
         <mark name="bracket" method="pen" place="intext" language="LA" text="qualecunq[ue] sit significatum)"/>
         <mark name="bracket" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- Significator per --> <!-- FSF: I have added the words preceding and following the comma in order to identify them; I've done so in all my transcriptions, but I am not sure if this is needed -->
+        <mark name="comma" method="pen" place="intext"/> <!-- directionis minuit -->
         <mark name="section_sign" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext" language="LA" text="ab initio existenti,"/>
         <mark name="bracket" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- significatoris ascendens -->
+        <mark name="comma" method="pen" place="intext"/> <!-- ascendens uel -->
         
     </annotation>
 </transcription>
