@@ -10,13 +10,14 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Ranulphus Comes, filius sororis Edmwardi Regis
+                        Ranulphus Comes, filius sororis Edmwardi Regis.
                     </marginalia_text>
                     <person name="Edward the Confessor"/>
                     <person name="Goda of England"/>
                     <person name="Ralph the Timid"/>
                 </position>
             </language>
+            <translation></translation>    <!-- DO: Translation needed ('Earl Ralph, the son of King Edward's sister.') -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="comes Ranulphus"/>
@@ -24,6 +25,9 @@
         <underline method="pen" type="straight" language="LA" text="aduersarios discurrentibus"/>
         
         <mark name="tripunctus" method="pen" place="left_margin"/>
+        
+        <!-- DO: I think something has been crossed out in the third line up fromt the bottom? -->
+        
         
     </annotation>
 </transcription>
