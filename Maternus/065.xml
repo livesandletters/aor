@@ -15,8 +15,7 @@
                 </position>
             </language>
             <translation>
-                Note the aspect even in the <!-- antisciis -->
-                <!-- M.B. antisciis should be translated as antiscia. See https://en.wikipedia.org/wiki/Antiscia. -->
+                Note the aspect even in the antiscia. 
             </translation>
         </marginalia>
         
@@ -43,12 +42,15 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Antisciu[m] &Jupiter; in locu[m] ... <!-- M.B. I think it 'in locu[m] 12a. Refer to note on 089.tif [ Maternus p.66]  -->
+                        Antisciu[m] &Jupiter; in locu[m] 12.
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="UCLOgden:089" text="12"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
-                
+                Antiscian Jupiter in place 12.
             </translation>
         </marginalia>
         
@@ -80,7 +82,7 @@
         <underline method="pen" type="straight" language="LA" text="urbis Romanae praefecturam"/>
         <underline method="pen" type="straight" language="LA" text="Frtun&aacute;mq[ue] prius acerba[m], atq[ue] aduersam"/>
         <underline method="pen" type="double" language="LA" text="de exilio"/>
-        <underline method="pen" type="straight" language="LA" text="signum, in quo humiliatur"/> <!-- M.B. There is a faint ink line 'in hoc sciliect' but possibly bleed through.  -->
+        <underline method="pen" type="straight" language="LA" text="signum, in quo humiliatur"/>
         <underline method="pen" type="straight" language="LA" text="xii locum"/>
         <underline method="pen" type="straight" language="LA" text="patri damosum decernit exilium. &Jupiter;"/>
         <underline method="pen" type="straight" language="LA" text="antiscii radius"/>
