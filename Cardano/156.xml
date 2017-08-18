@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="156.tif" reader="John Dee"  pagination="[68v]"/>
+    <page filename="156.tif" reader="John Dee" pagination="[68v]"/>
     <annotation>
         
         <marginalia hand="English_secretary" anchor_text="Genitura igitur in qua planetae radiationibus sunt colligati ualida dicitur, in qua non debilis &amp; infirma">
@@ -63,11 +63,13 @@
         <symbol name="Mars" place="intext"/>
         <symbol name="Mercury" place="intext"/>
         
-        <mark name="comma" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/>
+        <mark name="comma" method="pen" place="intext"/> <!-- mixta nobiles -->
+        <mark name="comma" method="pen" place="intext"/> <!-- infortunis ignobiles -->
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
+        
+        <!-- FSF: there is another set of intext numerals: 1 locis, 2 signis, 3 quibus'q[ue] planetis -->
         
         <numeral place="left_margin" language="LA" text="Dixit Ptolemaeus">1</numeral>
         <numeral place="left_margin" language="LA" text="Ignae quidem">2</numeral>
