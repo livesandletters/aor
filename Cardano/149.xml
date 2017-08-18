@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="149.tif" reader="John Dee"  pagination="65" signature="R"/>
+    <page filename="149.tif" reader="John Dee" pagination="65" signature="R"/>
     <annotation>
         
         <marginalia hand="English_secretary">
@@ -31,7 +31,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>hui</marginalia_text> <!--JG: Not sure about transcription and translation. Dee saying 'whee' doesn't seem right to me-->
+                    <marginalia_text>hui</marginalia_text> <!--JG: Not sure about transcription and translation. Dee saying 'whee' doesn't seem right to me--> <!-- FSF: I think it is sui -->
                 </position>
             </language>
             <translation>Whee!</translation>
@@ -40,7 +40,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>D[omi]n[u]s loco[rum - deleted] [&Moon; - deleted] &Conjunction; vel &Opposition;</marginalia_text>
+                    <marginalia_text>D[omi]n[u]s loco[rum - deleted] [&Moon; - deleted] &Conjunction; vel &Opposition;</marginalia_text> 
                     <symbol_in_text name="Moon"/>
                     <symbol_in_text name="Conjunction"/>
                     <symbol_in_text name="Opposite_planets"/>
@@ -84,16 +84,14 @@
         <underline method="pen" type="straight" language="LA" text="ipse"/>
         <underline method="pen" type="straight" language="LA" text="sit"/>
         <underline method="pen" type="straight" language="LA" text="dispositor"/>
-        <underline method="pen" type="straight" language="LA" text="Cumq[ue] uitae significator domoinus fuerit loci aspicientis planetae, tunc"/>
+        <underline method="pen" type="straight" language="LA" text="Cumq[ue] uitae significator dominus fuerit loci aspicientis planetae, tunc"/>
         <underline method="pen" type="straight" language="LA" text="unde artes operarias"/>
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
-        
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         
         <errata language="LA" copytext="," amendedtext="[deleted]"/>
-        
         
     </annotation>
 </transcription>
