@@ -6,7 +6,7 @@
     <page filename="432.tif" reader="John Dee" pagination="408"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'Bederichesworth' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -16,14 +16,14 @@
                 </position>
             </language>
             <translation>
-                Bury St Edmunds.
+                Bury St Edmunds.        <!-- DO: I think the 'Lalando' refers to John Leland, who wrote about this place - see: https://en.wikipedia.org/wiki/John_Leland_(antiquary). 'Bury St Edmunds, in Leland'. -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="EN" text="Bederichesworth"/>
         <underline method="pen" type="straight" language="LA" text="Et eis canonica &amp; imperiali censura depositis"/>
         <underline method="pen" type="straight" language="LA" text="Scotos"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; Malcolmum"/>
+        <underline method="pen" type="straight" language="LA" text="Malcolmum"/>
         
     </annotation>
 </transcription>
