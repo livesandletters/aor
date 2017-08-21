@@ -6,7 +6,7 @@
     <page filename="080.tif" reader="John Dee" pagination="57"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B. Could this be anchored to 'daemonibus' passage in the text? -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -36,7 +36,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        D[a]emonu[m] erectores. <!-- FSF: I am not sure here -->
+                        D[a]emonu[m] erectores. <!-- FSF: I am not sure here --> <!-- M.B. I'm not sure either?? -->
                     </marginalia_text>
                 </position>
             </language>
@@ -97,6 +97,7 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         
         <!-- FSF: there is a symbal in the right, which I don't know -->
+        <!-- M.B. I've seen the symbol quite a few times in the Cicero (Vol. II) as well. Not sure how to capture it either. -->
         
     </annotation>
 </transcription>
