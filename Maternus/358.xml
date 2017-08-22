@@ -24,6 +24,7 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         &Moon; &Opposition; cu[m] planetis <!-- FSF: not sure about the opposite symbol -->
+                        <!-- M.B. I think this the conjunction symbol rather than opposite symbol.-->
                     </marginalia_text>
                 </position>
             </language>
@@ -37,6 +38,7 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         &Moon; &Opposition; &Sun; <!-- FSF: not sure about the opposite symbol -->
+                        <!-- M.B. Also the conjuction symbol. -->
                     </marginalia_text>
                 </position>
             </language>
@@ -63,6 +65,7 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         &Moon; in &Square; cu[m] planetis <!-- FSF: not sure of the meaning of the square -->
+                        <!-- M.B. The square signifies the 'quartile' meaning three signs or ninty degrees. See: https://books.google.co.uk/books?id=VL1CAAAAYAAJ&pg=PA60&dq=astrology+quartile+square+symbol&hl=en&sa=X&ved=0ahUKEwjgvvWMmOvVAhVmIcAKHUQ8DP8Q6AEIMzAC#v=onepage&q=astrology%20quartile%20square%20symbol&f=false -->
                     </marginalia_text>
                 </position>
             </language>
@@ -77,10 +80,11 @@
                 </position>
             </language>
             <translation>
-                The star moon with other planets.
+                The star moon with other planets. <!-- M.B. I think the * symbol should be captured as sextile /60 degrees see link above.  -->
             </translation>
         </marginalia>
         
+        <underline method="pen" type="straight" language="LA" text="in omni opere, nisi in eis quae uult aliquis"/>
         <underline method="pen" type="straight" language="LA" text="abscondi, si quis aegrotauerit, morietur illa causa"/>
         <underline method="pen" type="straight" language="LA" text="Quando Soli, dies illa nihil, in nullo opere bonum"/>
         <underline method="pen" type="dotted" language="LA" text="aeger morietur in ea"/>
