@@ -16,6 +16,7 @@
             </language>
             <translation>
                 The moon ... to the other planets. <!-- FSF: no idea how to translate the triangle or in trino aspectu as in the text -->
+                <!-- M.B The triangle refers to the trine or 120 degrees. See https://en.wikipedia.org/wiki/Astrological_aspect#Trine-->
             </translation>
         </marginalia>
         
@@ -49,12 +50,10 @@
         <underline method="pen" type="straight" language="LA" text="Iupiter dissoluit quod Saturnus ligat"/>
         <underline method="pen" type="straight" language="LA" text="Similiter Venus quod ligat Mars"/>
         <underline method="pen" type="straight" language="LA" text="qu[a]estionem, &amp; desolat negocia, &amp; facit superfluere superfluitatem"/>
-        <underline method="pen" type="straight" language="LA" text=""/>
-        <underline method="pen" type="straight" language="LA" text=""/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/> <!-- M.B. There is a fourth bracket in the left margin to be captured by the saturn symbol. -->
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
