@@ -6,11 +6,12 @@
     <page filename="361.tif" reader="John Dee" pagination="94"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B. Add anchor 'coniunguntur infortunae'. -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Infortunar[um] <!-- FSF: not sure about the symbol; not the opposite planets, because there is only one planet, I'd say -->
+                        <!-- M.B. The conjunction symbol see: https://en.wikipedia.org/wiki/Astrological_aspect#Conjunction -->
                     </marginalia_text>
                 </position>
             </language>
@@ -38,6 +39,7 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Imo de hac re Cardanus bene ratiocunatur fo 86. <!-- FSF: not sure about ratiocunatur -->
+                        <!-- M.B. I think 'ratiocunatur' is correct, Dee appears to be referring Cardano's method of computing (the astrological aspects).-->
                     </marginalia_text>
                 </position>
             </language>
