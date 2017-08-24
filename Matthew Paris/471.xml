@@ -10,13 +10,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Robert Guiscardus
+                        Robert Guiscardus.  <!-- DO: 'Robertus' -->
                     </marginalia_text>
                     <person name="Robert Guiscard"/>
                 </position>
             </language>
             <translation>
-                Robert Guiscard
+                Robert Guiscard.
             </translation>
         </marginalia>
         
@@ -27,20 +27,25 @@
                         Odo, f[rate]r Gulielmi
                     </marginalia_text>
                     <person name="Odo of Bayeux"/>
+                    <person name="William the Conqueror"/>
                 </position>
             </language>
             <translation>
-                Odo of Bayeux, [half-]brother of William the Conqueror
+                Odo of Bayeux, [half-]brother of William the Conqueror.
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Guiscardus"/>
-        <underline method="pen" type="straight" language="LA" text="Eodem anno Gulihelmus Comes VVarenniae, qui venit in Anglia[m] cu[m] Gulihelmo Bastardo fundauit prioratum sancti Pancratij de Levves"/>
+        <underline method="pen" type="straight" language="LA" text="Eodem anno Gulihelmus Comes VVarenniae"/>
+        <underline method="pen" type="straight" language="LA" text="qui venit in Anglia[m] cu[m] Gulihelmo Bastardo fundauit prioratum sancti Pancratij de Levves"/>
         <underline method="pen" type="double" language="LA" text="&amp; ab"/>
         <underline method="pen" type="straight" language="LA" text="eiusdem regulis homagia per fideles obsides suscepit"/>
         <underline method="pen" type="straight" language="LA" text="rex misit fratrem suum Odone[m]"/>
         
         <drawing type="crown" book_orientation="0" place="right_margin" method="pen"></drawing>
+        
+        <!-- DO: There is an erratum towards the end of the second paragraph ('militaria') -->
+        
         
     </annotation>
 </transcription>
