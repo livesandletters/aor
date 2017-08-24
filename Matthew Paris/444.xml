@@ -37,12 +37,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Osbernus Hugo            <!-- DO: I think Osbern is: https://en.wikipedia.org/wiki/Osbern_Pentecost, and Hugh just seems to be mentioned elsewhere as an associate of Osbern, so not sure how to tag him -->
+                        Osbernus Hugo }
                     </marginalia_text>
+                    <person name="Osbern Pentecost"/>
                 </position>
             </language>
             <translation>
-                
+                Osbern Hugo.
             </translation>
         </marginalia>
         
@@ -50,8 +51,9 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Osbernus et Hugo Normanni.             <!-- DO: People to be tagged -->
+                        Osbernus et Hugo Normanni.  
                     </marginalia_text>
+                    <person name="Osbern Pentecost"/>
                 </position>
             </language>
             <translation>
@@ -73,13 +75,9 @@
             &amp; caput eius regi Eadvvardo in vigilia epiphaniae, apud Glouerniam praesentatur"/>
         <underline method="pen" type="straight" language="LA" text="Rhes[us] frater Griffini regis"/>
         
-        <mark name="bracket" method="pen" place="left_margin"/>   <!-- DO: I would put this as part of the marginal note -->
+        <mark name="plus_sign" method="pen" place="right_margin"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        
-        
-        <!-- DO: Possibly a (smudged) plus sign in right margin? -->
-        
-        
+
     </annotation>
 </transcription>

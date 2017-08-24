@@ -6,45 +6,30 @@
     <page filename="447.tif" reader="John Dee" pagination="423" signature="Nn ij"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Comes Leofricus">
+        <marginalia hand="Italian" anchor_text="Comes Leofricus [...] Comitissa Godiua">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Leofricus. Comes moritur
+                        [ Leofricus. Comes moritur Godiua vel Godwina.
                     </marginalia_text>
                     <person name="Leofric, Earl of Mercia"/>
-                </position>
-            </language>
-            <translation>
-                Leofric, Earl of Mercia died.  <!-- DO: I would keep as present tense -->
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="Godiua">  <!-- DO: I think this is connected to note above by the bracket (as Leofricus and Lady Godiva were married), so I would capture all as one note, with the bracket -->
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        Godiua vel Godwina.
-                    </marginalia_text>
                     <person name="Lady Godiva"/>
                 </position>
             </language>
             <translation>
-                Lady Godiva or Godwina.
+                Leofric, Earl of Mercia dies, Lady Godiva or Godwina. 
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">      <!-- DO: Anchor 'Legecestria' -->
-            <language ident="LA">
+        <marginalia hand="Italian" anchor_text="Legecestria"> 
+            <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Westchester         <!-- DO: I think this is English and two separate words, 'West Chester', then I would tag Chester as the location -->
+                        West Chester      
                     </marginalia_text>
+                    <location name="Chester"/>
                 </position>
             </language>
-            <translation>
-                Chester
-            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Hunc quoque dei famulum, in omni religione perfectum, Griffinus rex VVallensium, Herefordensi ciuitate cremata, vita priuauit"/>
