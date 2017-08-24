@@ -21,17 +21,17 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Out of Roger Holeden <!-- FSF: not sure -->
+                        Out of Roger Holeden <!-- FSF: not sure -->  <!-- DO: I think it must be 'Hoveden', https://en.wikipedia.org/wiki/Roger_of_Hoveden -->
                     </marginalia_text>
                 </position>
             </language>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Bleothino videlicet &amp; Rivvathlo">
-            <language ident="LA">
+            <language ident="LA">                    <!-- DO: Would tag as English, I think -->
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Blethin Rivallon <!-- FSF: possibly https://en.wikipedia.org/wiki/Rivallon_I_of_Dol -->
+                        Blethin Rivallon <!-- FSF: possibly https://en.wikipedia.org/wiki/Rivallon_I_of_Dol -->  <!-- DO: I think it's these two brothers: https://en.wikipedia.org/wiki/Bleddyn_ap_Cynfyn  and   https://en.wikipedia.org/wiki/Rhiwallon_ap_Cynfyn -->
                     </marginalia_text>
                 </position>
             </language>
@@ -55,7 +55,7 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Holeden hath Lucgeo <!-- FSF: not sure -->
+                        Holeden hath Lucgeo <!-- FSF: not sure -->  <!-- DO: Again 'Hoveden'; final word looks to me to end in 'e' ('Lucgee'?). You can add emphasis element to show this word is underlined -->
                     </marginalia_text>
                 </position>
             </language>
@@ -71,13 +71,13 @@
         <underline method="pen" type="double" language="LA" text="Scrobbi"/>
         <underline method="pen" type="double" language="LA" text="regibus"/>
         <underline method="pen" type="double" language="LA" text="Bleothino"/>
-        <underline method="pen" type="double" language="LA" text="&amp; Rivvathlo"/>
+        <underline method="pen" type="double" language="LA" text="Rivvathlo"/>
         <underline method="pen" type="triple" language="LA" text="Vagae"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- proprijs per -->
         <mark name="bracket" method="pen" place="intext"/> <!-- terra[m] quia -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- dedignabatur Herefordenses -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- dedignabatur, Herefordenses -->
         <mark name="circumflex" method="pen" place="intext" language="LA" text="castellni"/>
         <mark name="circumflex" method="pen" place="intext" language="LA" text="Mar[a]e"/>
         
