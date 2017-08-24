@@ -23,12 +23,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Expositio. <!-- M.B. I read 'Expositi' -->
+                        Expositi. 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Exposition.
+                Exposed.
             </translation>
         </marginalia>
         
@@ -78,13 +78,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Multu[m] profecto a solo removeri debeat, vt nocte in 9o loco co[n]stituat[ur] sed vide quid sup[ra] dixim[us] 
-                        <!-- M.B. I would use the '&o_super;' here.-->
+                        Multu[m] profecto a solo removeri debeat, vt nocte in 9&o_super; loco co[n]stituat[ur] sed vide quid sup[ra] dixim[us] 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Surely a lot must be removed alone, as is constituted at night in the ninth house, but see was we said above. 
             </translation>
         </marginalia>
         
@@ -94,6 +93,8 @@
                     <marginalia_text>
                         ego habeo * &Venus;et &Jupiter; hoc loco
                     </marginalia_text>
+                    <symbol_in_text name="Venus"/>
+                    <symbol_in_text name="Jupiter"/>
                 </position>
             </language>
             <translation>
