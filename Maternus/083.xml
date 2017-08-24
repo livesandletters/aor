@@ -6,20 +6,22 @@
     <page filename="083.tif" reader="John Dee" pagination="60"/>
     <annotation>
         
-        <marginalia hand="Italian"> <!-- M.B. Anchor text missing, I think it is '&Sun;, &Venus; aut' etc. -->
+        <marginalia hand="Italian" anchor_text="&Sun;, &Venus;">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Aspectum &Venus; ad &Sun; forsan platice intelligit
                     </marginalia_text>
+                    <symbol_in_text name="Venus"/>
+                    <symbol_in_text name="Sun"/>
                 </position>
             </language>
             <translation>
-                <!-- M.B. Translation missing. -->
+                Perhaps the general summary understands the appearance of Venus to the sun.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- M.B. Anchor text should be 'Nam in sexto loco &Sun; constituto' -->
+        <marginalia hand="Italian" anchor_text="sexto loco"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -28,7 +30,7 @@
                 </position>
             </language>
             <translation>
-                <!-- M.B. Translation missing. Something like 'In the sixth places are misfortune and passivity.' -->
+                As the misfortune of the sixth places softens.
             </translation>
         </marginalia>
         
