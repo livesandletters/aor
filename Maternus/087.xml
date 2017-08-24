@@ -23,7 +23,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Vxor in prima aetate. <!-- M.B. I read 'a[e]tate'. -->
+                        Vxor in prima a[e]tate.
                     </marginalia_text>
                 </position>
             </language>
@@ -36,7 +36,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        tarda[e] Nuptia. <!-- M.B. I read 'Nuptia[e]' -->
+                        tarda[e] Nuptia[e]. 
                     </marginalia_text>
                 </position>
             </language>
@@ -51,10 +51,13 @@
                     <marginalia_text>
                         &Venus; in domibus vel finib[us]. {&Saturn; &Mars; &Mercury;
                     </marginalia_text>
+                    <symbol_in_text name="Venus"/>
+                    <symbol_in_text name="Mars"/>
+                    <symbol_in_text name="Mercury"/>
                 </position>
             </language>
             <translation>
-                Venus in the houses and ends of Saturn, Mars, Mercury. <!-- M.B. I would translate as 'Venus in the houses and region of Saturn, Mars, Mercury.' -->
+                Venus in the houses and region of Saturn, Mars, Mercury. 
             </translation>
         </marginalia>
         
@@ -62,12 +65,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Sacerdotium filiae <!-- I read: Sacerdotum filia[e].  -->
+                        Sacerdotium filia[e]
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The priesthood of the daughter. <!-- M.B. Daughter should be pluralized. -->
+                The priesthood of the daughter. 
             </translation>
         </marginalia>
         
@@ -75,15 +78,15 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Miror qua r[ati]o[n]e &Venus; die ibi peri possit nisi secundu[m] ina[e]quale[m] domoru[m] diui sione[m], et in regionibus valde septem nalibus.
-                        Quo modo multa ralia fora apud firmiu[m] excusari possunt, at quida[m] co[n]sendunt tu[m] a[e]quales .... partes esse perfeuntu[m] [etc]
-                        <!-- FSF: not sure at all -->
-                        <!-- M.B. The part following 'a[e]quales' is 'Zodiaci partes esse &amp; [etc].' Not sure about the rest.  -->
+                        Miror qua r[ati]o[n]e &Venus; die ibi pari possit nisi secundu[m] ina[e]quale[m] domoru[m] diuisione[m], et in regionibus valde septemtrionalibus.
+                        Quo modo multa talia fora apud firmicu[m] excusari possunt, at quida[m] co[n]tendunt tu[m] a[e]quales zodiaci partes esse persecutu[m] &amp;c
                     </marginalia_text>
+                    <person name="Julius Firmicus Maternus"/>
                 </position>
             </language>
             <translation>
-                
+                I wonder for what reason Venus can be created that day here, unless according to the unequal division of houses and in very northern regions.
+                How can so many such places be excused according to Firmicus, but some dispute that the equal parts of the zodiac are pursued.
             </translation>
         </marginalia>
         
@@ -113,17 +116,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- M.B. Anchor text should be: 'futura praenoscant;  -->
+        <marginalia hand="Italian" anchor_text="futura praenoscant"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        futuroru[m] pra[e]seus <!-- FSF: not clear to me -->
-                        <!-- M.B. I read: 'futuroru[m] pra[e]seusio.'  -->
+                        futuroru[m] pra[e]seusio
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- M.B. 'To foresee the future.' -->
+                To foresee the future.
             </translation>
         </marginalia>
         
