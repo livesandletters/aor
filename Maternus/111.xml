@@ -11,11 +11,13 @@
                     <marginalia_text>
                         vt sup[ra] dixit folio 84
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="UCLOgden:107" text="folio 84"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
                 As said above on folio 84.
-                <!-- M.B. Should be marked as an intext reference to 107.tif.  -->
             </translation>
         </marginalia>
         
@@ -28,10 +30,10 @@
         <underline method="pen" type="straight" language="LA" text="ipsa crescens lumine"/>
         <underline method="pen" type="straight" language="LA" text="uero fuerit minuta"/>
         
-        <errata language="LA" copytext="suba[n]tia" amendedtext="substa[n]tia"/>
-        <errata language="LA" copytext="natura" amendedtext="natus"/> <!-- FSF: I am not sure what has been written here --> 
-        <!-- M.B. It looks like an 'm' with the 'er' striked out. In that case the amended text would be 'natum'.  -->
+        <mark name="circumflex" method="pen" place="intext"/>
         
+        <errata language="LA" copytext="suba[n]tia" amendedtext="substa[n]tia"/>
+        <errata language="LA" copytext="natura" amendedtext="natus"/> 
         
     </annotation>
 </transcription>

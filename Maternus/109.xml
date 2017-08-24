@@ -10,12 +10,11 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Cautio qu[a]e in o[mn]ib[us] hijs decretis adhiberi debet.
-                        <!-- M.B. I read 'Cautio  qu[a]e in orb[us] hijs decretis abhiberi debet' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- M.B Translation missing. -->
+                Caution which in all these decrees must be applied.
             </translation>
         </marginalia>
         
@@ -49,9 +48,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Vnde sup[ra] lib. 2. cap 7 de &Moon; contraria &Venus; du[m] tame[n] eius crescit
-                        <!-- M.B. I read 'Vidi sup[ra] lib.' [etc]. This should also be captured as an intext reference, see 086 tif. -->
+                        Vide sup[ra] lib. 2. cap 7 de &Moon; contraria &Venus; du[m] tame[n] eius crescit
                     </marginalia_text>
+                    <symbol_in_text name="Venus"/>
+                    <internal_ref>
+                        <target ref="UCLOgden:086" text="lib. 2 cap. 7"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>

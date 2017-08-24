@@ -11,6 +11,8 @@
                     <marginalia_text>
                         domin[us] loci &Venus; et &Moon;
                     </marginalia_text>
+                    <symbol_in_text name="Venus"/>
+                    <symbol_in_text name="Moon"/>
                 </position>
             </language>
             <translation>
@@ -22,13 +24,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        hummi oratores. <!-- FSF: I am not sure at all -->
-                        <!-- M.B. I read  'Summi oratores' -->
+                        Summi oratores. 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- M.B. 'The greatest orators.' -->
+                The greatest orators.
             </translation>
         </marginalia>
         
@@ -38,6 +39,7 @@
                     <marginalia_text>
                         &Moon; cursu vacua.
                     </marginalia_text>
+                    <symbol_in_text name="Moon"/>
                 </position>
             </language>
             <translation>
