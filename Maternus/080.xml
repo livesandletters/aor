@@ -6,7 +6,7 @@
     <page filename="080.tif" reader="John Dee" pagination="57"/>
     <annotation>
         
-        <marginalia hand="Italian"> <!-- M.B. Could this be anchored to 'daemonibus' passage in the text? -->
+        <marginalia hand="Italian" anchor_text="daemonibus"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -36,12 +36,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        D[a]emonu[m] erectores. <!-- FSF: I am not sure here --> <!-- M.B. I'm not sure either?? -->
+                        D[a]emonu[m] eiectores.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Those casting out the deamons.
             </translation>
         </marginalia>
         
@@ -75,7 +75,7 @@
         <underline method="pen" type="straight" language="LA" text="in peregrinatione decernit inco[m]moda"/>
         <underline method="pen" type="straight" language="LA" text="domo &Mercury; uel &Venus; fuerit, doctos"/>
         <underline method="pen" type="straight" language="LA" text="in domo sua fuerit, aut in domo &Jupiter;, aut in altitudine sua, &amp; &Jupiter; in horosc."/>
-        <underline method="pen" type="straight" language="LA" text="daemonibus terrribiles"/> <!-- FSF: terribilis is mispelt here -->
+        <underline method="pen" type="straight" language="LA" text="daemonibus terrribiles"/> 
         <underline method="pen" type="straight" language="LA" text="aduentum praui daemonum spiritus fugiant, &amp; qui sic laborantes homines, non ui uerborum, sed sola sui ostensione liberent"/>
         <underline method="pen" type="straight" language="LA" text="ille aeteus"/>
         <underline method="pen" type="straight" language="LA" text="siue terrenus"/>
