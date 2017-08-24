@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Nota errore[m] de Annis D[omi]ni
+                        Nota errore[m] de Annis D[omi]ni.
                     </marginalia_text>
                 </position>
             </language>
@@ -23,7 +23,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Nota hand phrasim senior vxor <!-- FSF: I am not sure about the thrid word -->
+                        Nota hand phrasim senior vxor <!-- FSF: I am not sure about the thrid word -->  <!-- DO: I think it must be (though word before should be 'hanc'). As in, 'Note this phrase, an older wife.' -->
                     </marginalia_text>
                 </position>
             </language>
@@ -36,7 +36,7 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Domes Day
+                        Domes Day.
                     </marginalia_text>
                     <book title="Domesday Book"/>
                 </position>
@@ -58,7 +58,7 @@
         
         <underline method="pen" type="straight" language="LA" text="huc vsque chronica scripsit"/>
         <underline method="pen" type="straight" language="LA" text="Marianus Scotus"/>
-        <underline method="pen" type="double" language="LA" text="sancti Bed[a]e"/>
+        <underline method="pen" type="double" language="LA" text="sancti Bed[a]e linealiter"/>
         <underline method="pen" type="straight" language="LA" text="vt errorem de annis domini"/>
         <underline method="pen" type="straight" language="LA" text="obijt Matildis regina, senior"/>
         <underline method="pen" type="double" language="LA" text="vxor"/>
@@ -69,8 +69,14 @@
             <node id="n1" person="Bede" anchor_text="sancti Bed[a]e">Beda</node>
             <node id="n2" person="Marianus Scotus" anchor_text="Marianus Scotus">Marianus</node>
             <link to="n1" from="n2" relationship="has_sibling"/>
-            <link to="n2" from="n1" relationship="has_sibling"/>
+            <link to="n2" from="n1" relationship="has_sibling"/>          <!-- DO: I don't think these people were actually siblings, I think it just means they were related in some (unspecified) way -->
         </graph>
+        
+        
+        <!-- DO: Bracket in left margin -->
+        
+        <!-- DO: You can add a 'physical link' between the 'Hyda terra[e]' note and the underlined text it is joined to -->
+        
         
     </annotation>
 </transcription>
