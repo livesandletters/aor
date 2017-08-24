@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="163.tif" reader="John Dee"  pagination="72" />
+    <page filename="163.tif" reader="John Dee" pagination="72" />
     <annotation>
         
         <marginalia hand="English_secretary" anchor_text="Quamobrem patet, deliquia mortem in ascendente minime significare. idem autem dico de magnis coniunctionibus">
@@ -12,7 +12,7 @@
                     <marginalia_text>Eclipses nec magnas &Conjunction; in asc morte[m] significare</marginalia_text>
                 </position>
             </language>
-            <translation>It is well known that eclipses nor great conjunctions signify death in ascending.</translation>
+            <translation>It is well known that eclipses nor great conjunctions signify death in ascending.</translation> <!-- FSF: I can't see where It is well known is coming from -->
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -23,10 +23,10 @@
             </language>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary"> <!-- FSF: possibly anchor from Ergo eclipses [...] causae generales -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Eclipsu[m] effectus</marginalia_text> 
+                    <marginalia_text>Eclipsu[m] effectus</marginalia_text> <!-- FSF: I'd say it's Eclipsiu[m] -->
                 </position>
             </language>
             <translation>The effect of eclipses.</translation>
@@ -53,13 +53,14 @@
         <underline method="pen" type="straight" language="LA" text="Lunae, minime semper malum"/>
         
         <symbol name="Conjunction" place="right_margin" language="LA" text="Luna quandoq[ue] iungit Soli"/>
-        <symbol name="Moon" place="right_margin"/>
-        <symbol name="Sun" place="right_margin"/>
+        <symbol name="Moon" place="right_margin"/> <!-- FSF possibly anchor Luna -->
+        <symbol name="Sun" place="right_margin"/> <!-- FSF: possibly anchor Soli -->
         
         <mark name="bracket" method="pen" place="right_margin" language="LA" text="Quamobrem patet, deliquia mortem in ascendente minime significare. idem autem dico de magnis coniunctionibus"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/>
-        
+        <mark name="plus_sign" method="pen" place="right_margin"/> <!-- FSF: possibly anchor to the Greek word? -->
         <mark name="plus_sign" method="pen" place="intext"/>
+        
+        <!-- FSF: I think there are two commas added in the second line of the paragraph beginning Ergo eclipses  -->
         
     </annotation>
 </transcription>
