@@ -15,11 +15,11 @@
                 </position>
             </language>
             <translation>
-                <!-- M.B. Translation missing. -->
+                This hard [thing] is also to be considered.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- M.B. Could this be anchored 'mulier sic' [etc]'?  -->
+        <marginalia hand="Italian" anchor_text="mulier"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -32,7 +32,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- M.B. Could this be anchored to 'uero mulier, &Venus;' etc.?-->
+        <marginalia hand="Italian" anchor_text="mulier">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -54,8 +54,7 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: see above, not sure if the chief priest of Cybele is the right translation here  -->
-                <!-- M.B. I would translate as chief priests (following the Bram translation). See Note on '084.tif'. -->
+                Chief priests.
             </translation>
         </marginalia>
         
@@ -63,12 +62,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        no[n] opus vt admoneu[m] decimo de &Venus;is dista[n]tia a &Sun;
+                        no[n] opus vt admoneu[m] decimo de &Venus;is dista[n]tia a &Sun; <!-- FSF: third word unclear -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- M.B. Translation missing. -->
+                <!-- M.B. Translation missing. --> the distance from Venus to the sun.
             </translation>
         </marginalia>
         
@@ -76,17 +75,15 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Etia[m] cogita de Antiscijs: ut sup[ra] dixis de &Jupiter;is antescis in 12a doma. sup[ra] pag. 42 linea ultima.
+                        Etia[m] cogita de Antiscijs: ut sup[ra] dixis de &Jupiter;is antesciu[m] in 12a doma. sup[ra] pag. 42 linea ultima.
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="UCLOgden:065" text="pag. 42"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
-                The constellation of woman.  
-                <!-- M.B. I would translate as: 'I likewise think the Antiscia: and he says previously Jupiter is the antiscion in the house of 12a. See the final line on page 42. 
-                    This should also be captured as an intext reference to 065.t.f (p.42). See the print text passage: 
-                    '&Jupier;  uero, cuius uim ac potestatem, antiscii radius, ex signo signo &Pisces; ad &Libra; transtulit signum, ac si in duodecimo loco' 
-                    Also see Dee's marginal note ' Antisciu[m] &Jupiter; in locu[m] 12a'.-->
-                
+                I likewise would think about the Antiscia in the way he previously talked about the antiscion of Jupiter in the twelfth house. See the final line on page 42.   
             </translation>
         </marginalia>
         
@@ -101,7 +98,7 @@
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="intext"/> <!-- denegat[ur] Per -->
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing> <!-- M.B. Book_orientation should be 270. -->
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
     </annotation>
 </transcription>
