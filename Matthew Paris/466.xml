@@ -21,23 +21,23 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Out of Roger Holeden <!-- FSF: not sure -->  <!-- DO: I think it must be 'Hoveden', https://en.wikipedia.org/wiki/Roger_of_Hoveden -->
+                        Out of Roger Hoveden 
                     </marginalia_text>
+                    <person name="Roger Hoveden"/>
                 </position>
             </language>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Bleothino videlicet &amp; Rivvathlo">
-            <language ident="LA">                    <!-- DO: Would tag as English, I think -->
+            <language ident="EN">                  
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Blethin Rivallon <!-- FSF: possibly https://en.wikipedia.org/wiki/Rivallon_I_of_Dol -->  <!-- DO: I think it's these two brothers: https://en.wikipedia.org/wiki/Bleddyn_ap_Cynfyn  and   https://en.wikipedia.org/wiki/Rhiwallon_ap_Cynfyn -->
+                        Blethin Rivallon
                     </marginalia_text>
+                    <person name="Bleddyn ap Cynfyn"/>
+                    <person name="Rhiwallon ap Cynfyn"/>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Siluaticus">
@@ -55,8 +55,10 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Holeden hath Lucgeo <!-- FSF: not sure -->  <!-- DO: Again 'Hoveden'; final word looks to me to end in 'e' ('Lucgee'?). You can add emphasis element to show this word is underlined -->
+                        Hoveden hath Lucgee 
                     </marginalia_text>
+                    <person name="Roger Hoveden"/>
+                    <emphasis method="pen" type="triple" text="Lucgee"/>
                 </position>
             </language>
         </marginalia>
