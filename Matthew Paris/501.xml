@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Castru[m] de Marloburgo         <!-- DO: Not sure if 'Marloburgo' or 'Marleburgo'... -->
+                        Castru[m] de Marloburgo
                     </marginalia_text>
                     <location name="Marlborough Castle"/>
                 </position>
@@ -27,11 +27,11 @@
                         Stephanus Rex, captus p[er] Gulielmu[m] de Kahaynes.
                     </marginalia_text>
                     <person name="King Stephen"/>
-                    <person name=""/>
+                    <person name="William de Cahaignes"/>
                 </position>
             </language>
             <translation>
-                King Stephen was captured by William. <!-- FSF: I don't know who this William is -->  <!-- DO: Might be the second William mentioned on this page: https://en.wikipedia.org/wiki/Keynes_family -->
+                King Stephen was captured by William de Cahaignes.
             </translation>
         </marginalia>
         
@@ -39,7 +39,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Gulihelmus de Mandeuilla.          <!-- DO: Think it just reads 'Gulielmus' -->
+                        Gulielmus de Mandeuilla.      
                     </marginalia_text>
                     <person name="William de Mandeville"/>
                 </position>
@@ -69,10 +69,11 @@
                     <marginalia_text>
                         Comes de Melle[n]to
                     </marginalia_text>
+                    <person name="Waleran de Beaumont, 1st Earl of Worcester"/>
                 </position>
             </language>
             <translation>
-                <!-- FSF: I am struggling identifying him -->   <!-- DO: I think probably https://en.wikipedia.org/wiki/Waleran_de_Beaumont,_1st_Earl_of_Worcester -->
+                Count of Meulan.
             </translation>
         </marginalia>
         
@@ -89,8 +90,7 @@
         <underline method="pen" type="straight" language="LA" text="Captus est Robertus Comes Glouerniae in festo exaltationis sanctae crucis. Sed pro eius liberatione, rex liberatus est in festo omniu[m] sanctoru[m], &amp; regno restitutus"/>
         <underline method="pen" type="straight" language="LA" text="Robertus de sigillo"/>
         
-        
-        <!-- DO: I think Dee has changed a comma into a semi-colon (between 'Bathonia[m]' and 'Comite', towards the end of the first paragraph -->
+        <errata language="LA" copytext="," amendedtext=";"/> <!-- Bathonia[m] Comite -->
         
     </annotation>
 </transcription>

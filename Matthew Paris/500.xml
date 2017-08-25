@@ -25,13 +25,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Albericus de Ver Comes          <!-- DO: I'm not sure if there are tripuncti after 'Ver' and 'Comes'? Possibly just random dots though -->
+                        Albericus de Ver Comes
                     </marginalia_text>
-                    <person name="Aubrey de Vere I"/>   <!-- DO: Going by the dates, I think it's more likely to be either his son: https://en.wikipedia.org/wiki/Aubrey_de_Vere_II or grandson: https://en.wikipedia.org/wiki/Aubrey_de_Vere,_1st_Earl_of_Oxford  The latter was an Earl whilst I don't think the former was-->
+                    <person name="Aubrey de Vere II"/> 
                 </position>
             </language>
             <translation>
-                Aubrey de Vere I.
+                Aubrey de Vere II.
             </translation>
         </marginalia>
         
@@ -41,7 +41,7 @@
                     <marginalia_text>
                         Nigellus. Ep[iscopu]s Elie[n]s.
                     </marginalia_text>
-                    <person name="Nigel"/>  <!-- DO: I would tag him as 'Nigel, Bishop of Ely' -->
+                    <person name="Nigel, Bishop of Ely"/>  
                 </position>
             </language>
             <translation>
@@ -72,25 +72,31 @@
         <underline method="pen" type="straight" language="LA" text="Comite[m] Albericu[m] de Veer"/>
         <underline method="pen" type="triple" language="LA" text="causaru[m] varietatibus"/>
         <underline method="pen" type="double" language="LA" text="de iure"/>
-        <underline method="pen" type="straight" language="LA" text="allegante[m], &amp; factum"/>
+        <underline method="pen" type="straight" language="LA" text="allegante[m], &amp; factum" id="RCP10653:n0001"/>
         <underline method="pen" type="straight" language="LA" text="Nigellum"/>
         <underline method="pen" type="straight" language="LA" text="Comes de Veer"/>
-        <underline method="pen" type="straight" language="LA" text="Albericus de Veer"/>
+        <underline method="pen" type="straight" language="LA" text="Albericus de Veer" id="RCP10653:n0002"/>
         <underline method="pen" type="straight" language="LA" text="Aldevvinus"/>
         <underline method="pen" type="straight" language="LA" text="Ranulphus, Comes"/>
         
         <mark name="comma" method="pen" place="intext"/> <!-- facto rex -->
-        <mark name="comma" method="pen" place="intext"/> <!-- eius cum -->   <!-- DO: I think this might be printed, not completely sure (if so, should be added to the underlined text) -->
         <mark name="comma" method="pen" place="intext"/> <!-- fortitudine infesto -->
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- in festo -->  <!-- DO: I think this mark is to separate the printed 'infesto', so I would capture this as an erratum -->
         <mark name="comma" method="pen" place="intext"/> <!-- quod rege[m] -->
         <mark name="comma" method="pen" place="intext"/> <!-- Qui Comite[m] -->
         <mark name="bracket" method="pen" place="intext"/> <!-- episcoporu[m], super -->
         <mark name="bracket" method="pen" place="intext"/> <!-- erat, se -->
+        <mark name="tripunctus" method="pen" place="left_margin"/>
+        <mark name="tripunctus" method="pen" place="left_margin"/>
+        
+        <errata language="LA" copytext="infesto" amendedtext="in festo"/>
         
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
         
-     <!-- DO: You can add a physical link between the two connected underlinings -->
+        <physical_link>
+            <marginal_annotation idref="RCP10653:n0001"/>
+            <marginal_annotation idref="RCP10653:n0002"/>
+            <relation from="RCP10653:n0001" to="RCP10653:n0002" type="undirected"/>
+        </physical_link>
         
     </annotation>
 </transcription>
