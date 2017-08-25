@@ -25,9 +25,9 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Albericus de Ver Comes
+                        Albericus de Ver Comes          <!-- DO: I'm not sure if there are tripuncti after 'Ver' and 'Comes'? Possibly just random dots though -->
                     </marginalia_text>
-                    <person name="Aubrey de Vere I"/>
+                    <person name="Aubrey de Vere I"/>   <!-- DO: Going by the dates, I think it's more likely to be either his son: https://en.wikipedia.org/wiki/Aubrey_de_Vere_II or grandson: https://en.wikipedia.org/wiki/Aubrey_de_Vere,_1st_Earl_of_Oxford  The latter was an Earl whilst I don't think the former was-->
                 </position>
             </language>
             <translation>
@@ -39,9 +39,9 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Nigellus Ep[iscopu]s Elie[n]s.
+                        Nigellus. Ep[iscopu]s Elie[n]s.
                     </marginalia_text>
-                    <person name="Nigel"/>
+                    <person name="Nigel"/>  <!-- DO: I would tag him as 'Nigel, Bishop of Ely' -->
                 </position>
             </language>
             <translation>
@@ -53,7 +53,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Ranulfus comes cestria[e]
+                        Ranulfus comes cestria[e].
                     </marginalia_text>
                     <person name="Ranulf de Gernon, 4th Earl of Chester"/>
                 </position>
@@ -63,14 +63,12 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="quia rex no[n] seruauit sibi iuramentum factum, nec etiam sorori"/>
-        <underline method="pen" type="straight" language="LA" text="quo facto rex"/>
-        <underline method="pen" type="double" language="LA" text="priuauit eum"/>
-        <underline method="pen" type="straight" language="LA" text="omnibus bonis suis in Anglia"/>
-        <underline method="pen" type="straight" language="LA" text="Robert[us] Comes Glouerniae, frater eius cum ea, cum magna fortitudine in festo"/>
+        <underline method="pen" type="straight" language="LA" text="quia rex no[n] seruauit sibi iuramentum factum, nec etiam"/>
+        <underline method="pen" type="straight" language="LA" text="quo facto rex priuauit eum omnibus bonis suis in Anglia"/>
+        <underline method="pen" type="straight" language="LA" text="Robert[us] Comes Glouerniae, frater eius cum ea, cum magna fortitudine infesto"/>
         <underline method="pen" type="straight" language="LA" text="&amp; Henrico"/>
         <underline method="pen" type="straight" language="LA" text="VVinton"/>
-        <underline method="pen" type="triple" language="LA" text="rege[m]"/>
+        <underline method="pen" type="triple" language="LA" text="rege[m] vocari"/>
         <underline method="pen" type="straight" language="LA" text="Comite[m] Albericu[m] de Veer"/>
         <underline method="pen" type="triple" language="LA" text="causaru[m] varietatibus"/>
         <underline method="pen" type="double" language="LA" text="de iure"/>
@@ -82,15 +80,17 @@
         <underline method="pen" type="straight" language="LA" text="Ranulphus, Comes"/>
         
         <mark name="comma" method="pen" place="intext"/> <!-- facto rex -->
-        <mark name="comma" method="pen" place="intext"/> <!-- eius cum -->
-        <mark name="comma" method="pen" place="intext"/> <!-- fortitudine in -->
-        <mark name="vertical_bar" method="pen" place="intext"/> <!-- in festo -->
+        <mark name="comma" method="pen" place="intext"/> <!-- eius cum -->   <!-- DO: I think this might be printed, not completely sure (if so, should be added to the underlined text) -->
+        <mark name="comma" method="pen" place="intext"/> <!-- fortitudine infesto -->
+        <mark name="vertical_bar" method="pen" place="intext"/> <!-- in festo -->  <!-- DO: I think this mark is to separate the printed 'infesto', so I would capture this as an erratum -->
         <mark name="comma" method="pen" place="intext"/> <!-- quod rege[m] -->
         <mark name="comma" method="pen" place="intext"/> <!-- Qui Comite[m] -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- episcoporu[m] -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- erat se -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- episcoporu[m], super -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- erat, se -->
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
+        
+     <!-- DO: You can add a physical link between the two connected underlinings -->
         
     </annotation>
 </transcription>
