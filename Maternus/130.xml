@@ -76,17 +76,14 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        36 Da[e]mones Celsi Africani de q[ui]bus ... pa. ... cap. 72 <!-- FSF: not sure about the end -->
-                        <!-- M.B. I read: '36 Da[e]mones Celsi Africani de q[ui]bus Agrippa. Lib I. cap 72' -->
+                        36 Da[e]mones Celsi Africani de q[ui]bus Agrippa. Lib. 1. cap. 72
                     </marginalia_text>
                     <person name="Celsus Africanus"/> 
-                    <!-- M.B. Add person name Heinrich Cornelius Agrippa  -->
-                    <!-- M.B. Add Book tag for 'De occulta philosophia ' -->
+                    <person name="Heinrich Cornelius Agrippa"/>
                 </position>
             </language>
             <translation>
-                36 demons of Celsus Africanus <!-- FSF: to be completed -->
-                <!-- M.B. 36 demons of Celsus Africanus of which Agrippa, Book 1, Chapter 72'.  -->
+                36 demons of Celsus Africanus of which Agrippa, Book 1, Chapter 72.
             </translation>
         </marginalia>
         
@@ -159,12 +156,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        M.C. <!-- M.B. I think this stands for Medium Coeli rather than 1500. See: https://en.wikipedia.org/wiki/Midheaven  -->
+                        M.C.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                1500.
+                Midheaven.
             </translation>
         </marginalia>
         
@@ -203,8 +200,7 @@
                 </position>
             </language>
             <translation>
-                The names of the deans [are] in the sermon Egypt. 
-                <!-- M.B. I would translate as 'The names of the decans in the Egyptian sermon.' -->
+                The names of the deans in the Egyptian sermon. 
             </translation>
         </marginalia>
         
@@ -217,8 +213,7 @@
                 </position>
             </language>
             <translation>
-                The parts noted in the sermon in Egypt are full, left, empty.
-                <!-- M.B. I would translate as 'Egyptian sermon'. -->
+                The parts noted in the Egyptian sermon are full, left, empty.
             </translation>
         </marginalia>
         
@@ -236,7 +231,7 @@
                 </position>
             </language>
             <translation>
-                
+                <!-- FSF: not sure about translation -->
             </translation>
         </marginalia>
         
@@ -292,18 +287,20 @@
         <underline method="pen" type="straight" language="LA" text="partes 12"/>
         <underline method="pen" type="straight" language="LA" text="uero 18"/>
         
-        <mark name="bracket" method="pen" place="left_margin" colour="red"/> <!-- M.B. Mark as chalk -->
-        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- dotted --> <!-- M.B. Mark as chalk -->
-        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- M.B. Mark as chalk -->
-        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- M.B. Mark as chalk -->
-        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- M.B. Mark as chalk -->
-        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- M.B. Mark as chalk -->
-        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- M.B. Mark as chalk -->
-        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- M.B. Mark as chalk -->
+        <symbol name="Trine" place="right_margin"/>
+        
+        <mark name="bracket" method="pen" place="left_margin" colour="red"/> 
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- dotted --> 
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> 
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> 
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/>
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/>
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> 
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> 
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- dotted --> <!-- M.B. Mark as chalk -->
-        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- M.B. Mark as chalk -->
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- dotted -->
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> 
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- decani magni -->
         <mark name="bracket" method="pen" place="intext"/> <!-- adinuenit Triginatasex -->
@@ -314,7 +311,6 @@
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
         
         <!-- FSF: in the right margin there is a circle with a cross inside; I am not sure how to capture that --> <!-- M.B. I thinks is a pars fortunae symbol. -->
-        <!-- FSF: also, there is a triangle in the right margin, again I am not sure how to capture that -->
         <!-- FSF: Dee seems to have added to the table, by adding another column entitled Grad.: I am not sure how to capture this --> 
         <!-- M.B. The Grad[us] column is the cumulative sum of each preceding degree of separation between the decanal positions in the zodiac. -->
         
