@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="191.tif" reader="John Dee"  pagination="86" signature="Yij"/>
+    <page filename="191.tif" reader="John Dee" pagination="86" signature="Y ij"/>
     <annotation>
         
         <marginalia hand="English_secretary">
@@ -12,7 +12,8 @@
                     <marginalia_text>&Cancer; &Aries; maxi[m]e est inimi[c]us, cu[m] opposita natura sit, sed etia[m] in eius quadrato &Sun;q[ue] in eo gaudet, et
                     &Moon;a [dua[m]/d[omi]am]?] &Cancer;, et gaudeat in &Cancer; &Jupiter;, at &Aries; d[omi]n[u]s &Mars;. Maior est &Leo; et &Scorpio; inimicitia, ea[m] in &Square; su[n]t radio, et
                     opposita natura, et &Leo; &Sun; &Scorpio; &Mars; dominatur, et a[e]quales habe[n]t asce[n]de[n]di moras. tu[m] huic p[ro]xima &Taurus; et &Aquarius;.
-                    Qui in medio horu[m] signoru[m] horoscopu[m], vel horoscopi d[omi]nos habuerint [nu[n]q[uam]??] co[n]cordabe[n]t</marginalia_text>
+                    Qui in medio horu[m] signoru[m] horoscopu[m], vel horoscopi d[omi]nos habuerint nu[n]q[uam] co[n]cordabe[n]t</marginalia_text> 
+                    <!-- FSF: I think it is domina rather than duam; also, the word between Scorpio and in Square is cu[m], I believe; the last word is concordabunt, I think -->
                     <symbol_in_text name="Cancer"/>
                     <symbol_in_text name="Aries"/>
                     <symbol_in_text name="Sun"/>
@@ -27,6 +28,9 @@
                 </position>
             </language>
             <translation></translation> <!--JG: To be done after transcription is completed-->
+            <!-- FSF: translation maybe like: Cancer and Aries are the greatest enemies as their natures oppose each other, but evne in their square and the sun is rejoicing in it and the moon is the lord of Cancer and rejoices in Cancer and Jupiter
+            There is great hostility between Leo and Scorpio, because they are in a suqare in a circle and have opposite natures, and is dominated by Leo, the sun, Scorpio and Mars, and have equal habits of ascending. 
+            Then here the next [things] are Taurus and Aquarius. They have a horoscope in the middle of their signs or lords of the horoscope. They never harmonise. -->
         </marginalia>
         
         <!--JG: Marginal note in gutter, need to check original-->
@@ -67,7 +71,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Cu[m] loquitur de aspectibus vnius planet[a]e invice[m] co[m]paratis, dicit &Square;[o] [squadros?] hic descriptos esse deteriores q[uam]
+                    <marginalia_text>Cu[m] loquitur de aspectibus vnius planet[a]e invice[m] co[m]paratis, dicit &Square;[o] [squadros?] hic descriptos esse deteriores q[uam] <!-- FSF: I think it is os after the square -->
                     eiusde[m] planeta[e] &Opposition;[os] vide sup[ra] scripta in margine.</marginalia_text>
                     <symbol_in_text name="Square"/>
                     <symbol_in_text name="Opposite_planets"/>
@@ -80,7 +84,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Appellat postea hos modos proficui et damni / infra fo 89.v. linea ultime.</marginalia_text>
+                    <marginalia_text>Appellat postea hos modos proficui et damni / infra fo 89.v. linea ultime.</marginalia_text> <!-- FSF: the last word looks like vltima -->
                     <internal_ref>
                         <target ref="RCP7134:198" text="89.v"/>
                     </internal_ref>
@@ -144,6 +148,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>per 6a[m] regula[m] capitis [si]</marginalia_text> <!--JG: Don't get abbreviation. Perhaps segmenti? But this doesn't make sense. Dee's seems to refer to regula 6 on the previous page..-->
+                    <!-- FSF: I think it is 5i, the fifth chapter -->
                 </position>
             </language>
             <translation>Though the sixth rule of the [...] chapter.</translation> 
@@ -162,7 +167,6 @@
         <underline method="pen" type="straight" language="LA" text="nam operatio trini est operatio coniunctionis, si ergo"/>
         
         <mark name="tripunctus" method="pen" place="right_margin"/> <!--below marginal note-->
-        
         <mark name="plus_sign" method="pen" place="intext"/> <!--Quarta-->
         <mark name="comma" method="pen" place="intext"/> <!--quadratum loquendo-->
         <mark name="comma" method="pen" place="intext"/> <!--dispositor iuuat-->

@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="184.tif" reader="John Dee"  pagination="[82v]"  signature="[Xij[v]]"/>
+    <page filename="184.tif" reader="John Dee" pagination="[82v]" signature="[X ij[v]]"/>
     <annotation>
         
         <marginalia hand="English_secretary" anchor_text="circulum">
@@ -18,10 +18,10 @@
         <marginalia hand="English_secretary" anchor_text="dies in hebdomada, &amp; sunt pauciores sex figurae, &amp; plures octo, &amp; mediocres septem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Intelligit de numero figuraru[n] erige[n]daru[m] in vna hebdomada.</marginalia_text>
+                    <marginalia_text>Intelligit de numero figuraru[m] erige[n]daru[m] in vna hebdomada.</marginalia_text>
                 </position>
             </language>
-            <translation>He understands about the number of figures ro be raised in one week.</translation>
+            <translation>He understands about the number of figures to be raised in one week.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -42,6 +42,8 @@
             <translation>He concludes beautifully and rightfully.</translation>
         </marginalia>
         
+        <!-- FSF: I think the second last note is missed out (De Natiuitatis significatis an possint frustrari) -->
+        
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -59,12 +61,11 @@
         <underline method="pen" type="straight" language="LA" text="horum assequi possunt"/>
         
         <mark name="section_sign" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="bracket" method="pen" place="intext"/> <!-- FSF: I would add the word preceding and following -->
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="plus_sign" method="pen" place="intext" language="LA" text="noni"/>
-        
         <mark name="tripunctus" method="pen" place="left_margin"/> <!--JG: Above 2nd marginal note-->
         <mark name="bracket" method="pen" place="left_margin" language="LA" text="constat enim in pueris cito morituris, etiam significatores filiorum, &amp; nuptiarum, &amp; exercitij adesse, no[n] tame[n], quonia[m] more praeueniu[n]tur, aliquid horum assequi possunt"/>
         
@@ -74,6 +75,8 @@
         <numeral place="intext" language="LA" text="hebdomadas">4</numeral>
         <numeral place="intext" language="LA" text="gradus">5</numeral>
         <numeral place="intext" language="LA" text="horas">6</numeral>
+        
+        <!-- FSF: I think there is a comma dded between principales and hebdomadas in the sixth line -->
         
     </annotation>
 </transcription>

@@ -3,13 +3,13 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="185.tif" reader="John Dee"  pagination="83"  signature="Xiij"/>
+    <page filename="185.tif" reader="John Dee" pagination="83" signature="X iij"/>
     <annotation>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Alia est hominis vltima optus, alia senilis.</marginalia_text> 
+                <position place="right_margin" book_orientation="0"> 
+                    <marginalia_text>Alia est hominis vltima optus, alia senilis.</marginalia_text> <!-- FSF: I think optus is a[e]tas -->
                 </position>
             </language>
             <translation>One is the greatest power of man, the other of the elderly.</translation> 
@@ -36,7 +36,7 @@
         <marginalia hand="English_secretary" anchor_text="cum per aeternos motus sit connexio, merito potuit quis dicere, in genitura quaecunq[ue] uentura sint, perfecte contineri">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Absolutu[m] respo[n]sum secunda[e] qu[a]estop[n]i.</marginalia_text> 
+                    <marginalia_text>Absolutu[m] respo[n]sum secunda[e] qu[a]estio[n]i.</marginalia_text> 
                 </position>
             </language>
             <translation>The perfect response to the second question.</translation> 
@@ -67,16 +67,15 @@
         <underline method="pen" type="straight" language="LA" text="cu[m] cuilibet"/>
         <underline method="pen" type="straight" language="LA" text="no[n] inconuenit"/>
         <underline method="pen" type="straight" language="LA" text="no[n] in"/>
-        <underline method="pen" type="straight" language="LA" text="cum per aeternos motus sit connexio, merito potuit quis dicere, in genitura quaecunq[ue] uentura sint, perfecte contineri"/>
+        <underline method="pen" type="straight" language="LA" text="cum per aeternos motus sit connexio, merito potuit quis dicere, in genitura quaecunq[ue] uentura sint, perfecte contineri"/> <!-- FSF: I woul split this up in two -->
         <underline method="pen" type="straight" language="LA" text="reuolutione"/>
         <underline method="pen" type="straight" language="LA" text="uel directione"/>
         
+        <mark name="bracket" method="pen" place="intext"/> <!-- FSF: I would add the word preceding and following -->
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="intext"/> <!--JG: In front of 'Secundum'-->
-        
+        <mark name="bracket" method="pen" place="intext"/> <!--JG: In front of 'Secundum'--> <!-- FSF: is this not more a sectin sign? -->
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
@@ -84,7 +83,7 @@
         <numeral place="intext" language="LA" text="directione">2</numeral>
         
         <errata language="LA" copytext="n" amendedtext="in"/>
-        <errata language="LA" copytext="cuiusue" amendedtext="cuiuset"/> <!--JG: Not entirely sure, cuiuset doesn't really makes sense??-->
+        <errata language="LA" copytext="cuiusue" amendedtext="cuiuset"/> <!--JG: Not entirely sure, cuiuset doesn't really makes sense??--> <!-- FSF: I think it is meant to be two words -->
         <errata language="LA" copytext="quidem" amendedtext="[deleted]"/>
                 
         <!--JG: Seems that there's some activity in the gutter, need to have a look at orginal though-->

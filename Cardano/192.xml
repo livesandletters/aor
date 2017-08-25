@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="192.tif" reader="John Dee"  pagination="[86v]" signature="[Yij[v]]"/>
+    <page filename="192.tif" reader="John Dee" pagination="[86v]" signature="[Y ij[v]]"/>
     <annotation>
         
         <marginalia hand="English_secretary">
@@ -72,6 +72,7 @@
                 </position>
             </language>
             <translation>If it harms, with the proportion of large bodies considered for the matter of harm, how much it harms, you will know.</translation> <!--JG: v unsure-->
+            <!-- FSF: maybe better if rearranged? You will know how much it harms, if it harms [...] -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Ptolemaeus">
@@ -80,7 +81,7 @@
                     <marginalia_text>hic author vtitur &Moon;a ad tot vel plura significata:</marginalia_text>
                 </position>
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>na[m] in fo 26 pro vita / vxorib[us] sive co[n]cubinis / pro itinere / sororib[us] anim[a]e qualitate / matre ita et fo. 59. pro corpore [..] <!--JG: Not sure about the 'thingy' after corpore-->
+                    <marginalia_text>na[m] in fo 26 pro vita / vxorib[us] sive co[n]cubinis / pro itinere / sororib[us] anim[a]e qualitate / matre ita et fo. 59. pro corpore [..] <!--JG: Not sure about the 'thingy' after corpore--> <!-- FSF: it looks as if he tried to write et but realised the gutter was closer than he thought, so he left it -->
                     et in eo loco vide q[uam] multa significata singulis planetis tribuit, si hoc facere est absurdum [etc].</marginalia_text>
                     <internal_ref>
                         <target ref="RCP7134:069" text="26"/>
@@ -99,16 +100,15 @@
         <underline method="pen" type="straight" language="LA" text="ne te decipiat"/>
         <underline method="pen" type="straight" language="LA" text="quadratus &amp; oppositio"/>
         <underline method="pen" type="straight" language="LA" text="augent malitiam supra corpus, quando sunt malae radiationes"/>
-        <underline method="pen" type="straight" language="LA" text="minuut bonum ratio contrarietatis"/>
+        <underline method="pen" type="straight" language="LA" text="minuut bonum ratione contrarietatis"/>
         <underline method="pen" type="straight" language="LA" text="certum est enim qu&ograve;d nocet"/>
         <underline method="pen" type="straight" language="LA" text="paucae stellae fixae"/>
         <underline method="pen" type="straight" language="LA" text="dedit uni significatori"/>
         
         <mark name="bracket" method="pen" place="left_margin" language="LA" text="Omnes ergo bonorum aspectus boni, malorum mali, Sed diligenter animaduertere oportet, qui planetae boni sint, qui mali, est tamen trinus &amp; sextilis melior, qu&amp;m quadratus uel oppositus"/>
         <mark name="bracket" method="pen" place="left_margin" language="LA" text="quadratus &amp; oppositio augent malitiam supra corpus, quando sunt malae radiationes: &amp; minuut bonum ratio contrarietatis "/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>
+        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- FSF: I think there is another tripunctus close by, at the end of the next note -->
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>

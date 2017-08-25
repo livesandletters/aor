@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="189.tif" reader="John Dee"  pagination="85" signature="Y"/>
+    <page filename="189.tif" reader="John Dee" pagination="85" signature="Y"/>
     <annotation>
         
         <marginalia hand="English_secretary" anchor_text="filios">
@@ -12,7 +12,7 @@
                     <marginalia_text>Vnde de filiabus co[n]ijciemus?</marginalia_text>
                 </position>
             </language>
-            <translation>From where do we conclude about the daughters?</translation> <!--JG: Unsure-->
+            <translation>From where do we conclude about the daughters?</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="fratres">
@@ -27,7 +27,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Regula[e] pulolur[um]</marginalia_text> <!--JG: Unsure abt 'pulolurum'-->
+                    <marginalia_text>Regula[e] pulolur[um]</marginalia_text> <!--JG: Unsure abt 'pulolurum'--> <!-- FSF: not sure either; I think it ends in [a]e -->
                 </position>
             </language>
             <translation></translation>
@@ -104,15 +104,12 @@
             <node id="n2" anchor_text="domini secundu[m] substantiam">D[omi]n[u]s secundu[m] sub[stanti]am</node>
             <node id="n3" anchor_text="domini agri">D[omi]n[u]s agri</node>
             <node id="n4" anchor_text="domini secundu[m] accidens">D[omi]n[u]s secundu[m] acc[ide]ns</node>
-            <node id="n5" anchor_text="colonum">Colonus</node> <!--JG: Not entirely sure, guess based on printed text-->
-            
+            <node id="n5" anchor_text="colonum">Colonus</node> 
             <link to="n2" from="n1"/>
             <link to="n3" from="n1"/>
-            
             <link to="n4" from="n1"/>
             <link to="n5" from="n1"/>
-            
-            <translation>The signification of the little fruit <!--JG: Unsure-->
+            <translation>The signification of the little fruit 
             The lord according to substance
             The lord of the field
             The lord according to circumstance
@@ -121,4 +118,3 @@
         
     </annotation>
 </transcription>
-
