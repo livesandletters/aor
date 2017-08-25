@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Robert Guiscardus.  <!-- DO: 'Robertus' -->
+                        Robertus Guiscardus.
                     </marginalia_text>
                     <person name="Robert Guiscard"/>
                 </position>
@@ -42,10 +42,9 @@
         <underline method="pen" type="straight" language="LA" text="eiusdem regulis homagia per fideles obsides suscepit"/>
         <underline method="pen" type="straight" language="LA" text="rex misit fratrem suum Odone[m]"/>
         
+        <errata language="LA" copytext="militaria" amendedtext="militari"/>
+        
         <drawing type="crown" book_orientation="0" place="right_margin" method="pen"></drawing>
-        
-        <!-- DO: There is an erratum towards the end of the second paragraph ('militaria') -->
-        
         
     </annotation>
 </transcription>
