@@ -9,12 +9,12 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Platicam partilemq[ue] supputationem partis fortunee hoc loco videas <!-- M.B. I read 'fortuna'  -->
+                        Platicam partilemq[ue] supputationem partis fortuna hoc loco videas 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                You should see the general and partial computation of the part of fortune in this place.
+                You should see the general and partial computation of the part by fortune in this place.
             </translation>
         </marginalia>
         
@@ -31,7 +31,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- M.B. Add anchor 'ex apotelesmatis proferetur, quotiescunq[ue] singula loca partili' etc -->
+        <marginalia hand="Italian" anchor_text="ex apotelesmatis proferetur, quotiescunq[ue] singula loca partili"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -40,8 +40,7 @@
                 </position>
             </language>
             <translation>
-                From the partial reason of place the single and very true influence of the stars will be brought forward. <!-- FSF: not sure -->
-               
+                From the partial reason of place the single and very true influence of the stars will be brought forward. 
             </translation>
         </marginalia>
         
@@ -55,12 +54,10 @@
             </language>
             <translation>
                 Barbaric spheres.
-            </translation> <!-- M.B. Perhaps a more contexutl would be useful since this refers specifically to stars out the Greek zodiac. 
-                In the secondary literature the terms tends to be untranslated. 
-                See: https://books.google.co.uk/books?id=3jr75UVrNE4C&pg=PR42&dq=sphaera+barbarica&hl=en&sa=X&ved=0ahUKEwjF-JDJ2tnVAhXFIsAKHQ9vBFIQ6AEIJjAA#v=onepage&q=sphaera%20barbarica&f=false  -->
+            </translation> 
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- M.B. Should be anchored: 'Abraam &amp; prudentissimus Archilles' -->
+        <marginalia hand="Italian" anchor_text="Abraam &amp; prudentissimus Archilles"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -129,8 +126,8 @@
         <underline method="pen" type="straight" language="LA" text="Si uero ambo bene ceciderint, &amp; dominus ipsius signi, in quo est dominus fortunae, 
             &amp; dominus partis illius, in qua ultima pars fuerit inuenta, &amp; in bonis signis constitutae"/>
         
-        <mark name="bracket" method="pen" place="left_margin" colour="red"/> <!-- M.B. Should be marked chalk. -->
-        <mark name="bracket" method="pen" place="left_margin" colour="red"/> <!-- M.B. Should be marked chalk. -->
+        <mark name="bracket" method="pen" place="left_margin" colour="red"/>
+        <mark name="bracket" method="pen" place="left_margin" colour="red"/> 
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         
         <numeral place="intext" language="LA" text="dominus">1</numeral>
@@ -139,7 +136,6 @@
         <numeral place="intext" language="LA" text="locis">4</numeral>
         <numeral place="intext" language="LA" text="an">5</numeral>
         <numeral place="intext" language="LA" text="nocturna">6</numeral>
-        
         
         <errata language="LA" copytext="ueruo" amendedtext="uero"/>
         
