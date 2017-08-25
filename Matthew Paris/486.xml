@@ -12,7 +12,7 @@
         
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
             <node id="n1" anchor_text="imperator Henricus" person="Henry IV, Holy Roman Emperor">Henricus 4[us] Imp</node>
-            <node id="n2" anchor_text="Matildem" person="Empress Matilda">Matildis</node> <!-- FSF: Empress Matilda was actually married to Henry V, Holy Roman Emperor -->
+            <node id="n2" anchor_text="Matildem" person="Empress Matilda">Matildis</node> 
             <link to="n1" from="n2" relationship="has_spouse"/>
             <link to="n2" from="n1" relationship="has_spouse"/>
         </graph>
