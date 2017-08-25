@@ -9,20 +9,19 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Ha[e]c sup[er]iori 14 capiti affigi sebent.
-                        <!-- M.B. 'I read 'Ha[e]c sup[er]iori 14 capiti affigi dident.' Perhaps this should also be captured as intext ref. -->
-                        
+                        Ha[e]c sup[er]iori 14 capiti affigi debent.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure about capiti -->
+                These must be attached to the 14 greater chapters.
             </translation>
         </marginalia>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        <!-- M.B. There is a vertical line in red chalk that needs to be captured. -->
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/>
+        <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/>
         
     </annotation>
 </transcription>
