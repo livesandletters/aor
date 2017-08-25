@@ -6,18 +6,21 @@
     <page filename="470.tif" reader="John Dee" pagination="6" signature="[Aaa iij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian" internal_ref=""> <!-- FSF: I am not sure how to capture the other names there --> <!-- DO: I would put after AEditha 'a[l]t[e]r AEdgitha Goditha.' and translate as something like 'otherwise AEdgitha, Goditha' (I think these are just alternative names for her). Also 'Aeditha regina' to be anchored -->
+        <marginalia hand="Italian" internal_ref="Aeditha regina">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        &AElig;ditha Regina Angloru[m]. quonda[m] vxor Edwardi confessoris sup[ra] pag. 433.  <!-- DO: You can add an internal ref to file 457 -->
+                        &AElig;ditha a[l]t[e]r AEdgitha Goditha Regina Angloru[m]. quonda[m] vxor Edwardi confessoris sup[ra] pag. 433.  
                     </marginalia_text>
                     <person name="Edith of Wessex"/>
                     <person name="Edward the Confessor"/>
+                    <internal_ref>
+                        <target ref="RCP10653:457" text="pag. 433"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
-                Edith of Wessex, Queen of the English, formerly the wife of Edward the Confessor. <!-- DO: '... Above, page 433.' --> 
+                Edith of Wessex, otherwise &AElig;dgitha, Godgitha, Queen of the English, formerly the wife of Edward the Confessor. Above, page 433.
             </translation>
         </marginalia>
         
@@ -31,7 +34,7 @@
                 </position>
             </language>
             <translation>
-                Waltheof, Earl of Northumbria, was said to have been beheaded in 1084.  <!-- DO: I would keep as present tense ('is said') -->
+                Waltheof, Earl of Northumbria, is said to have been beheaded in 1084.
             </translation>
         </marginalia>
         
@@ -46,19 +49,18 @@
         <underline method="pen" type="straight" language="LA" text="Rogerium"/>
         <underline method="pen" type="straight" language="LA" text="VValtheof[us] Dux decollatus"/>
         
-        <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">  <!-- DO: Don't forget to add in their official names, see: https://en.wikipedia.org/wiki/Ralph_de_Gael -->
-            <node id="n1">Osbertus</node>
-            <node id="n2">Gulielmus</node>
-            <node id="n3">filia</node>
-            <node id="n4">Radulfus</node>
+        <errata language="LA" copytext="Pancratij" amendedtext="Paccratij"/>
+        
+        <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
+            <node id="n1" person="Osbern the Steward">Osbertus</node>
+            <node id="n2" person="William FitzOsbern">Gulielmus</node>
+            <node id="n3" person="Emma de Guader">filia</node>
+            <node id="n4" person="Ralph de Gaël">Radulfus</node>
             <link to="n2" from="n1" relationship="has_child"/>
             <link to="n3" from="n2" relationship="has_child"/>
             <link to="n4" from="n3" relationship="has_spouse"/>
             <link to="n3" from="n4" relationship="has_spouse"/>
         </graph>
-        
-        <!-- DO: It looks like there has been some alteration to 'sancti Paccratij (?)'. I'm assuming it's 'Paccratij' into 'Pancratij' but it's hard to make out -->
-        
         
     </annotation>
 </transcription>
