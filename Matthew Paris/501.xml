@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Castru[m] de Marloburgo
+                        Castru[m] de Marloburgo         <!-- DO: Not sure if 'Marloburgo' or 'Marleburgo'... -->
                     </marginalia_text>
                     <location name="Marlborough Castle"/>
                 </position>
@@ -24,13 +24,14 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Stephanus Rex, captus p[er] Gulielmu[m] de Kahaynes
+                        Stephanus Rex, captus p[er] Gulielmu[m] de Kahaynes.
                     </marginalia_text>
                     <person name="King Stephen"/>
+                    <person name=""/>
                 </position>
             </language>
             <translation>
-                King Stephen was captured by William <!-- FSF: I don't know who this William is -->
+                King Stephen was captured by William. <!-- FSF: I don't know who this William is -->  <!-- DO: Might be the second William mentioned on this page: https://en.wikipedia.org/wiki/Keynes_family -->
             </translation>
         </marginalia>
         
@@ -38,7 +39,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Gulihelmus de Mandeuilla
+                        Gulihelmus de Mandeuilla.          <!-- DO: Think it just reads 'Gulielmus' -->
                     </marginalia_text>
                     <person name="William de Mandeville"/>
                 </position>
@@ -71,22 +72,25 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: I am struggling identifying him -->
+                <!-- FSF: I am struggling identifying him -->   <!-- DO: I think probably https://en.wikipedia.org/wiki/Waleran_de_Beaumont,_1st_Earl_of_Worcester -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="double" language="LA" text="multas deceptiones"/>
         <underline method="pen" type="straight" language="LA" text="castrum de"/>
         <underline method="pen" type="straight" language="LA" text="Diuises dominae suae"/>
-        <underline method="pen" type="straight" language="LA" text="Eodem anno, in Pentecoste inductum est colloquium inter imperatricem &amp; regem ad pacem reformandam"/>
-        <underline method="pen" type="straight" language="LA" text="Sed cum venerunt illuc, scilicet iuxta Bathonia[m]; Comite Roberto, fratre suo"/>
+        <underline method="pen" type="straight" language="LA" text="Eodem anno, in Pentecoste inductum est colloquium inter imperatricem &amp; regem"/>
+        <underline method="pen" type="straight" language="LA" text="pacem reformandam"/>
+        <underline method="pen" type="straight" language="LA" text="Sed cum venerunt illuc, scilicet iuxta Bathonia[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Comite Roberto, fratre suo"/>
         <underline method="pen" type="straight" language="LA" text="rex Stephan[us] in bello captus"/>
         <underline method="pen" type="straight" language="LA" text="Gulihelmu[m] de Kahaynes"/>
         <underline method="pen" type="straight" language="LA" text="episcopi, cu[m] auunculo suo, rege Scotoru[m], Dauid &amp; fratre suo Roberto. Sed"/>
-        <underline method="pen" type="straight" language="LA" text="Captus est Robertus Comes Glouerniae in festo exaltationis"/>
-        <underline method="pen" type="double" language="LA" text="sanctae crucis"/>
-        <underline method="pen" type="straight" language="LA" text="Sed pro eius liberatione, rex liberatus est in festo omnium sanctoru[m], &amp; regno restitutus"/>
+        <underline method="pen" type="straight" language="LA" text="Captus est Robertus Comes Glouerniae in festo exaltationis sanctae crucis. Sed pro eius liberatione, rex liberatus est in festo omniu[m] sanctoru[m], &amp; regno restitutus"/>
         <underline method="pen" type="straight" language="LA" text="Robertus de sigillo"/>
+        
+        
+        <!-- DO: I think Dee has changed a comma into a semi-colon (between 'Bathonia[m]' and 'Comite', towards the end of the first paragraph -->
         
     </annotation>
 </transcription>
