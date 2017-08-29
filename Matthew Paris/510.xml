@@ -6,11 +6,11 @@
     <page filename="510.tif" reader="John Dee" pagination="46"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'Ioachim abbas' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Joachim Abbas <!-- FSF: I am unable to identify him -->
+                        Joachim Abbas <!-- FSF: I am unable to identify him -->  <!-- DO: Isn't it 'Ioachim'? Going by the date, possibly https://en.wikipedia.org/wiki/Joachim_of_Fiore-->
                     </marginalia_text>
                 </position>
             </language>
@@ -21,6 +21,7 @@
         
         <underline method="pen" type="straight" language="LA" text="Eodemq[ue] anno"/>
         <underline method="pen" type="straight" language="LA" text="Baldevvinus obijt, cui successit frater eius Almaricus"/>
+        <underline method="pen" type="straight" language="LA" text="cum He[n]rico de"/>
         
         <mark name="circumflex" method="pen" place="intext"/>
         
