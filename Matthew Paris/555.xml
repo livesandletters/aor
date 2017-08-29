@@ -8,18 +8,18 @@
         
         <underline method="pen" type="straight" language="LA" text="filius VValteri"/>
         <underline method="pen" type="straight" language="LA" text="Eustachius de Vesci"/>
-        <underline method="pen" type="straight" language="LA" text="alijs exulabant"/>
+        <underline method="pen" type="straight" language="LA" text="exulabant"/>
         <underline method="pen" type="straight" language="LA" text="aliorum baronum"/>
-        <underline method="pen" type="straight" language="LA" text="possessiones sunt inflicatae"/>
+        <underline method="pen" type="straight" language="LA" text="possessiones sunt inflicatae"/>  <!-- DO: I'm not sure what's happening in the final word here, looks like 'infiscatae' and has possibly been altered? -->
         <underline method="pen" type="straight" language="LA" text="&amp; dirutae"/>
-        <underline method="pen" type="straight" language="LA" text="ei omnia, qu[a]ecumque violenter, &amp; nequiter extorierat"/>
+        <underline method="pen" type="straight" language="LA" text="contulisse ei omnia, qu[a]ecumque violenter, &amp; nequiter extorierat"/>
         <underline method="pen" type="straight" language="LA" text="Iohannes Extorris"/>
         <underline method="pen" type="straight" language="LA" text="est Romani pontificis tributarius, declaratum est verbum propheticum"/>
         
         <drawing type="face" book_orientation="0" place="left_margin" method="pen"></drawing>
         
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
-            <node id="n1" anchor_text="VValteri">Walterus de Vesci</node>
+            <node id="n1" anchor_text="VValteri">Walterus de Vesci</node>       <!-- DO: These two people to be identified as well; I can't find them either though -->
             <node id="n2" anchor_text="Robertus">Robertus de Vesci</node>
             <node id="n3" person="Eustace de Vesci" anchor_text="Eustachius de Vesci">Eustachius de Vesci</node>
             <link to="n2" from="n1" relationship="has_child"/>
