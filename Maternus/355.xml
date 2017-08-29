@@ -11,6 +11,7 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Vide Cardanus multo audacius multa &amp; capite et cauda pronunciat <!-- FSF: there are two symbolds that I don't know -->
+                        <!-- M.B. I think these two symbols are 'ascending node' and 'descending node' respectively. See: https://en.wikipedia.org/wiki/Orbital_node  -->
                     </marginalia_text>
                     <person name="Girolamo Cardano"/>
                 </position>
@@ -38,6 +39,7 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Et ego exportus sum p[er] &Aquarius; <!-- FSF: not sure about exportus -->
+                        <!-- M.B. Possibly 'expletus' ? by no means certain though. -->
                     </marginalia_text>
                 </position>
             </language>
@@ -51,8 +53,8 @@
         <underline method="pen" type="straight" language="LA" text="A Luna initium omnis rei accipitur, omnis finis uero &agrave; domino domus suae"/>
         <underline method="pen" type="straight" language="LA" text="Iupiter &amp; Saturnus"/>
         <underline method="pen" type="straight" language="LA" text="Maleuolus cum erit orientalis in domo propria uel exaltatione melior est retrogrado &amp; impedito beneuolo"/>
-        <underline method="pen" type="dotted" language="LA" text="Erit impedimentum circa illam partem corporis" colour="red"/>
-        <underline method="pen" type="dotted" language="LA" text="fuerit natiuitatis tempore impeditum" colour="red"/>
+        <underline method="pen" type="dotted" language="LA" text="Erit impedimentum circa illam partem corporis" colour="red"/> <!-- M.B. I would capture the red markings as chalk. -->
+        <underline method="pen" type="dotted" language="LA" text="fuerit natiuitatis tempore impeditum" colour="red"/> 
         
         <mark name="bracket" method="pen" place="left_margin" colour="red"/>
         <mark name="vertical_bar" method="pen" place="left_margin" colour="red"/>
