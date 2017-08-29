@@ -6,11 +6,11 @@
     <page filename="533.tif" reader="John Dee" pagination="69"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Hamelinus de VVarrena">
+        <marginalia hand="Italian" anchor_text="Hamelinus de VVarrenna">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Hamelinus de Warenna
+                        Hamelinus de Warenna.
                     </marginalia_text>
                     <person name="Hamelin de Warenne, Earl of Surrey"/>
                 </position>
@@ -20,12 +20,12 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Hamelinus de"/>
+        <underline method="pen" type="straight" language="LA" text="Hamelinus"/>
         <underline method="pen" type="straight" language="LA" text="Henricus Marescallus, frater VValteri Marescalli senioris"/>
         
-        <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">
+        <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">   <!-- DO: People need to be tagged, see https://en.wikipedia.org/wiki/William_Marshal,_1st_Earl_of_Pembroke and https://en.wikipedia.org/wiki/Henry_Marshal_(bishop_of_Exeter) -->
             <node id="n1">[blank]</node>
-            <node id="n2">Willinus Mares. senior</node>
+            <node id="n2">Willinus Mares. senior</node>   <!-- DO: I think this says 'Willmus' (Will[ia]mus) -->
             <node id="n3">Henricus Mares</node>
             <link to="n2" from="n1" relationship="has_child"/>
             <link to="n3" from="n1" relationship="has_child"/>
