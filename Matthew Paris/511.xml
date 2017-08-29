@@ -6,34 +6,37 @@
     <page filename="511.tif" reader="John Dee" pagination="47"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: Anchor 'Rogerius, Comes Clarensis' -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Rogerus de Tunbrige interdu[m] no[min]atus: Co Clare[n]sis
+                        Rogerus de Tunbrige, interdu[m] no[min]atus: Co: Clare[n]sis.    <!-- DO: He needs to be tagged, think it's https://en.wikipedia.org/wiki/Roger_de_Clare,_2nd_Earl_of_Hertford -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Roger of Tonbridge was in the meantime made Count of Clare.
+                Roger of Tonbridge was in the meantime made Count of Clare.  <!-- DO: The title appears to be 'Lord of Clare' -->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="rhesus">
+        <marginalia hand="Italian" anchor_text="Rhesus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Rhesus <!-- FSF: not sure who he is -->
+                        Rhesus. <!-- FSF: not sure who he is -->  <!-- DO: This is https://en.wikipedia.org/wiki/Rhys_ap_Gruffydd -->
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Rogerius, Comes Clarensis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Rogerus Comes Clarensis
+                        Rogerus Comes Clarensis      <!-- DO: To be tagged as person -->
                     </marginalia_text>
                 </position>
             </language>
@@ -44,13 +47,11 @@
         
         <underline method="pen" type="straight" language="LA" text="&amp; Rhesus princeps Demeciae"/>
         <underline method="pen" type="straight" language="LA" text="id est, Australiu[m] VVallensiu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="Rogerius, Comes Clarensis, &agrave; Thoma Cantuar. archiepiscopo, apud VVestmonasterium vocatus est ad faciendum ei"/>
-        <underline method="pen" type="double" language="LA" text="homagium de"/>
-        <underline method="pen" type="straight" language="LA" text="castello de"/>
+        <underline method="pen" type="straight" language="LA" text="Rogerius, Comes Clarensis, &agrave; Thoma Cantuar. archiepiscopo, apud VVestmonasterium vocatus est ad faciendum ei homagium de castello de Tunbrige"/>
         <underline method="pen" type="straight" language="LA" text="fuit primum"/>
         <underline method="pen" type="straight" language="LA" text="Rex in VValliam expeditionem fecit"/>
         
-        <mark name="bracket" method="pen" place="intext"/> <!-- prohibitur fraudule[n]ter -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- prohibuit fraudule[n]ter -->
         <mark name="bracket" method="pen" place="intext"/> <!-- fraudule[n]ter hoc -->
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
