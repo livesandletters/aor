@@ -6,7 +6,7 @@
     <page filename="402.tif" reader="John Dee" pagination="396"/> 
     <annotation>
         
-        <!-- M.B. Greek marginlia to be capturd later. -->
+        <!-- M.B. Greek marginlia to be captured later. -->
         
         <marginalia hand="Italian" anchor_text="hyperbati">
             <language ident="LA">
@@ -29,7 +29,7 @@
         <marginalia hand="Italian" anchor_text="tropus fit, quia componendus est &egrave; duobus intellectus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Tropus &amp; figura.</marginalia_text> <!-- FSF: I think the & is simply an et with a strechted e -->
+                    <marginalia_text>Tropus et figura.</marginalia_text>
                 </position>
             </language>
             <translation>Trope and figure.</translation>
@@ -72,13 +72,13 @@
         <underline method="pen" type="straight" language="LA" text="ementiens superiectio"/>
         <underline method="pen" type="straight" language="LA" text="mediusfidius"/>
         
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
+        
         <numeral place="left_margin">1</numeral>
         <numeral place="left_margin">2</numeral>
         <numeral place="left_margin">3</numeral>
         <numeral place="left_margin">4</numeral>
         <numeral place="left_margin">5</numeral>
-        
-        <!-- FSF: there is also a vertical bar -->
         
     </annotation>
 </transcription>
