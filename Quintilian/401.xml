@@ -7,14 +7,15 @@
     <annotation>
         
     <!-- M.B. Greek marginalia to be captued later. -->
+    <!-- M.B. '9 Marking in the head needs to capture. -->    
           
         <marginalia hand="Italian" anchor_text="Obstat enim, quicquid no[n] adiuuat">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Obstat enim quicquid no[n] adiuvat[us]</marginalia_text> <!-- FSF: I don't think this is a [us] abbrevation --> 
+                    <marginalia_text>Obstat enim quicquid no[n] adiuvat</marginalia_text>
                 </position>
             </language>
-            <translation>Because whatever is no help is a hindrance.</translation> <!-- FSF: I'd translate enim as for, so that it introduces a main clause like in the Latin -->
+            <translation>For whatever is no help is a hindrance.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="genus diuiditur in species, nihil habet proprium, ut arboris species sunt pinus, &amp; olea, &amp; 
