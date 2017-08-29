@@ -12,7 +12,7 @@
                     <marginalia_text>
                         Albericus de Ver
                     </marginalia_text>
-                    <person name="Aubrey de Vere, 1st Earl of Oxford"/>
+                    <person name="Aubrey de Vere, 1st Earl of Oxford"/>   <!-- DO: More likely to be the second one, going by the date: https://en.wikipedia.org/wiki/Aubrey_de_Vere,_2nd_Earl_of_Oxford -->
                 </position>
             </language>
             <translation>
@@ -24,7 +24,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Petrus de Malolacu
+                        Petrus de Malolacu    <!-- DO: 'Matth. Paris pag. 300.'. I think this person is https://en.wikipedia.org/wiki/Peter_de_Maulay -->
                     </marginalia_text>
                 </position>
             </language>
@@ -35,14 +35,16 @@
         
         <underline method="pen" type="straight" language="LA" text="hoc errore &amp; pertinatia"/>
         <underline method="pen" type="straight" language="LA" text="Albericu[m] de Veer"/>
-        <underline method="pen" type="straight" language="LA" text="de Vvrotham, custode[m] Portuum"/>
+        <underline method="pen" type="straight" language="LA" text="de VVrotham, custode[m] Portuum"/>
+        <underline method="pen" type="straight" language="LA" text="Brie[n]nium de Insula"/>
+        <underline method="pen" type="straight" language="LA" text="Galfridum de Luci"/>
         <underline method="pen" type="straight" language="LA" text="Canteleu, &amp; Gulihelmum"/>
         <underline method="pen" type="straight" language="LA" text="Braibroc, &amp; Henricum"/>
         <underline method="pen" type="straight" language="LA" text="Petrum de Malo"/>
         <underline method="pen" type="straight" language="LA" text="Fulcone[m], &amp; Gulihelmum Brivver"/>
         
         <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
-            <node id="n1" person="Robert of Braybrooke" anchor_text="Robertum de Braibroc">Rob. de Braubrok</node>
+            <node id="n1" person="Robert of Braybrooke" anchor_text="Robertum de Braibroc">Rob. de Braubrok</node>  <!-- DO: I think 'Braibrok' -->
             <node id="n2" person="Henry of Braybrooke" anchor_text="Henricum">Henricus</node>
             <link to="n2" from="n1" relationship="has_child"/>
         </graph>
