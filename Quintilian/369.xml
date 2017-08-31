@@ -38,12 +38,10 @@
         <marginalia hand="Italian" anchor_text="Sciamus inornatum esse, quod sit improprium">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>o[mnin]o[?] improprium est inornatum.</marginalia_text> 
-                    <!-- M.B. I'm not sure of the first contaction here.. Capelli notes it may be omnio but not sure if that make sense in the context of the Quintilian passage -->
-                    <!-- FSF: I read Oe, which would make it O[mn]e, which agrees with improprium -->
+                    <marginalia_text>O[mn]e improprium est inornatum.</marginalia_text> 
                 </position>
             </language>
-            <translation>Everything[?] improper is unadorned.</translation>
+            <translation>Everything improper is unadorned.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="idem verborum">
@@ -72,6 +70,8 @@
         
         <symbol name="Jupiter" place="right_margin"/>
         
+        <mark name="bracket" method="pen" place="right_margin"/>
+        
         <numeral place="right_margin">1</numeral>
         <numeral place="right_margin">2</numeral>
         <numeral place="right_margin">3</numeral>
@@ -79,8 +79,6 @@
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
-        
-        <!-- FSF: there is also a bracket by the second florilegium -->
         
     </annotation>
 </transcription>
