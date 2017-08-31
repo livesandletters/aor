@@ -47,7 +47,7 @@
         <marginalia hand="Italian" anchor_text="leo pariet">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>lio pariet</marginalia_text> <!-- FSF: I think this is leo -->
+                    <marginalia_text>leo pariet</marginalia_text>
                 </position>
             </language>
             <translation>Give birth to a lion.</translation>
@@ -65,10 +65,10 @@
         <marginalia hand="Italian" anchor_text="qu&ograve;d abusio est, ubi nomen defuit, translatio ubi aliud fuit">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>In q[uo] abusio &amp; translatio differ.</marginalia_text> <!-- FSF: I read abvsio; also, I think differ is short for differt --> 
+                    <marginalia_text>In q[uo] abvsio &amp; translatio differ.</marginalia_text>
                 </position>
             </language>
-            <translation>Where translate this as misuse.</translation> <!-- M.B. Not sure what 'differ' refers to here? --> 
+            <translation>Where the improper translation is different,</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="non uerbum, pro uerbo ponitur, sed res pro re">
@@ -77,7 +77,7 @@
                     <marginalia_text>Verbum p[ro] u[er]bo Res pro re</marginalia_text>
                 </position>
             </language>
-            <translation>[Not] word for word but word for thing.</translation> <!-- FSF: I'd translate: Word for word, thin for thing -->
+            <translation>Word for word but word, thing for thing.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="μετάληψις">
@@ -99,13 +99,11 @@
         <underline method="pen" type="straight" language="LA" text="pro temeritate uirtus, aut pro luxuria liberalitas"/>
         <underline method="pen" type="straight" language="LA" text="sunt, qu&ograve;d in his non uerbum, pro uerbo ponitur, sed res pro re"/>
         <underline method="pen" type="straight" language="LA" text="transumptio, quae ex alio in aliud uelut uia[m] praestat"/>
-        <underline method="pen" type="straight" language="EL" text="υήσους θοάς ὀξείας"/> <!-- M.B. I've captured the ligature Ȣ as ου not sure about the rest.. Someone whose Greek needs to check this . -->
+        <underline method="pen" type="straight" language="EL" text="υήσους θοάς ὀξείας"/> <!-- M.B. I've captured the ligature Ȣ as ου not sure about the rest.. Someone who knows Greek needs to check this . -->
         <underline method="pen" type="straight" language="LA" text="si Verrem suem, aut Laelium doctum nominemus"/>
         <underline method="pen" type="straight" language="LA" text="Cano, canto, dico, ita cano, dico"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
-        
-        <!-- FSF: there is also a circumflex in the septentriones note -->
         
     </annotation>
 </transcription>
