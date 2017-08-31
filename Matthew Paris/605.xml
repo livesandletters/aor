@@ -6,11 +6,11 @@
     <page filename="605.tif" reader="John Dee" pagination="141"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'Rogerus de VVindeleshore' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Rogerus de Windeleshore
+                        Rogerus de Windeleshore.
                     </marginalia_text>
                     <person name="Roger of Wendover"/>
                 </position>
@@ -22,7 +22,8 @@
 
         <underline method="pen" type="straight" language="LA" text="rege Henrico Isabellam"/>
         <underline method="pen" type="straight" language="LA" text="sibi dari in vxorem. Consilio"/>
-        <underline method="pen" type="straight" language="LA" text="hoc cum habito, eam cum nuncijs vitis spectabilibus"/>
+        <underline method="pen" type="straight" language="LA" text="hoc cum suis habito, eam cum nuncijs"/>
+        <underline method="pen" type="straight" language="LA" text="vitis spectabilibus"/>
         <underline method="pen" type="straight" language="LA" text="eidem Imperatori destinauit"/>
         <underline method="pen" type="straight" language="LA" text="obijt Robertus, filius VValteri"/>
         <underline method="pen" type="straight" language="LA" text="Thomas de Bloneuilla, episcopus"/>
@@ -31,7 +32,7 @@
         <drawing type="crown" book_orientation="0" place="right_margin" method="pen"></drawing>
         
         <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">
-            <node id="n1" person="John, King of England">Jo[hann]es</node>
+            <node id="n1" person="John, King of England">Jo[hann]es</node>   <!-- DO: I would say this is 'Io[hann]es' -->
             <node id="n2" person="Frederick II, Holy Roman Emperor" anchor_text="Imperator Fredericus">Fredericus</node>
             <node id="n3" person="Isabella of England" anchor_text="Isabellam">Isabel</node>
             <link to="n3" from="n1" relationship="has_child"/>
