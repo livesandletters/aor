@@ -6,16 +6,17 @@
     <page filename="511.tif" reader="John Dee" pagination="47"/>
     <annotation>
         
-        <marginalia hand="Italian">   <!-- DO: Anchor 'Rogerius, Comes Clarensis' -->
+        <marginalia hand="Italian" anchor_text="Rogerius, Comes Clarensis"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Rogerus de Tunbrige, interdu[m] no[min]atus: Co: Clare[n]sis.    <!-- DO: He needs to be tagged, think it's https://en.wikipedia.org/wiki/Roger_de_Clare,_2nd_Earl_of_Hertford -->
+                        Rogerus de Tunbrige, interdu[m] no[min]atus: Co: Clare[n]sis.    
                     </marginalia_text>
+                    <person name="Roger de Clare, 2nd Earl of Hertford"/>
                 </position>
             </language>
             <translation>
-                Roger of Tonbridge was in the meantime made Count of Clare.  <!-- DO: The title appears to be 'Lord of Clare' -->
+                Roger of Tonbridge was in the meantime made Lord of Clare.  
             </translation>
         </marginalia>
         
@@ -23,12 +24,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Rhesus. <!-- FSF: not sure who he is -->  <!-- DO: This is https://en.wikipedia.org/wiki/Rhys_ap_Gruffydd -->
+                        Rhesus. 
                     </marginalia_text>
+                    <person name="Rhys ap Gruffydd"/>
                 </position>
             </language>
             <translation>
-                
+                Rhys.
             </translation>
         </marginalia>
         
@@ -36,12 +38,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Rogerus Comes Clarensis      <!-- DO: To be tagged as person -->
+                        Rogerus Comes Clarensis
                     </marginalia_text>
+                    <person name="Roger de Clare, 2nd Earl of Hertford"/>
                 </position>
             </language>
             <translation>
-                Roger, Count of Clare.
+                Roger, Lord of Clare.
             </translation>
         </marginalia>
         

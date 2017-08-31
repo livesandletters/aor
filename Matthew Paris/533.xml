@@ -23,10 +23,10 @@
         <underline method="pen" type="straight" language="LA" text="Hamelinus"/>
         <underline method="pen" type="straight" language="LA" text="Henricus Marescallus, frater VValteri Marescalli senioris"/>
         
-        <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">   <!-- DO: People need to be tagged, see https://en.wikipedia.org/wiki/William_Marshal,_1st_Earl_of_Pembroke and https://en.wikipedia.org/wiki/Henry_Marshal_(bishop_of_Exeter) -->
+        <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">  
             <node id="n1">[blank]</node>
-            <node id="n2">Willinus Mares. senior</node>   <!-- DO: I think this says 'Willmus' (Will[ia]mus) -->
-            <node id="n3">Henricus Mares</node>
+            <node id="n2" person="William Marshal, 1st Earl of Pembroke">Willmus Mares. senior</node>
+            <node id="n3" person="Henry Marshal">Henricus Mares</node>
             <link to="n2" from="n1" relationship="has_child"/>
             <link to="n3" from="n1" relationship="has_child"/>
         </graph>

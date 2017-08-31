@@ -6,12 +6,13 @@
     <page filename="510.tif" reader="John Dee" pagination="46"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Ioachim abbas' -->
+        <marginalia hand="Italian" anchor_text="Ioachim abbas">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Joachim Abbas. <!-- FSF: I am unable to identify him -->  <!-- DO: Isn't it 'Ioachim'? Going by the date, possibly https://en.wikipedia.org/wiki/Joachim_of_Fiore-->
+                        Joachim Abbas. 
                     </marginalia_text>
+                    <person name="Joachim of Fiore"/>
                 </position>
             </language>
             <translation>

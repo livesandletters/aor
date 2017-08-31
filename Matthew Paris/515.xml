@@ -12,9 +12,9 @@
         <errata language="LA" copytext="promogenita[m]" amendedtext="primogenita[m]"/>
         
         <graph type="genealogical_tree" book_orientation="0" place="right_margin" method="pen">
-            <node id="n1" person="Humbert III, Count of Savoy" anchor_text="Humberti Comitis de Moriana">Hubert[us] domes de Moriana</node>  <!-- DO: Should be 'comes' -->
+            <node id="n1" person="Humbert III, Count of Savoy" anchor_text="Humberti Comitis de Moriana">Hubert[us] comes de Moriana</node> 
             <node id="n2" person="Clementia of Zähringen" anchor_text="relicta He[n]rici Ducis">relicta Henrici Ducis</node>
-            <node id="n3" person="John, King of England" anchor_text="Rex quoq[ue] Iohanni">Jo[hann]es</node>    <!-- DO: I think 'Io[hann]es' -->
+            <node id="n3" person="John, King of England" anchor_text="Rex quoq[ue] Iohanni">Io[hann]es</node>  
             <node id="n4" person="Alicia of Savoy" anchor_text="filia[m] Huberti Comitis de Moriana promogenita[m]">Primogenita</node>
             <link to="n1" from="n2" relationship="has_spouse"/>
             <link to="n2" from="n1" relationship="has_spouse"/>
