@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="202.tif" reader="John Dee"  pagination="[91v]" signature="[Ziij[v]]"/>
+    <page filename="202.tif" reader="John Dee" pagination="[91v]" signature="[Z iij[v]]"/>
     <annotation>
         
         <marginalia hand="English_secretary">
@@ -18,7 +18,8 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Damnatio etia[m] omni respectu genitur[a]e simile lic[e]t co[n]siderationem. // et vt hic de damno dicit, ide[m] de emolume[n]to et bono dici p[otes]t </marginalia_text>
+                    <marginalia_text>Damnatio etia[m] omni respectu genitur[a]e simile lic[e]t co[n]siderationem. // et vt hic de damno dicit, ide[m] de emolume[n]to et bono dici p[otes]t </marginalia_text> 
+                    <!-- FSF: I think there is a comma after omni; also I think it is not omni, but anni, like in the printed text -->
                 </position>
             </language>
             <translation>Also the damnation by every consideration of a geniture similarly may be considered. And as he says about damnation here, likewise could be said about a benefit and good [thing].</translation>
@@ -26,11 +27,10 @@
         
         <underline method="pen" type="straight" language="LA" text="etiam in qualitatibus"/>
         <underline method="pen" type="straight" language="LA" text="quod infortunam est in anno, infortunatur in eodem mense"/>
-        <underline method="pen" type="straight" language="LA" text="illud quod not"/>
+        <underline method="pen" type="straight" language="LA" text="illud quod non"/>
         <underline method="pen" type="straight" language="LA" text="infortunatur"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         
     </annotation>
 </transcription>
-

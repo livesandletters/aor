@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="200.tif" reader="John Dee"  pagination="[90v]" signature="[Zij[v]]"/>
+    <page filename="200.tif" reader="John Dee" pagination="[90v]" signature="[Z ij[v]]"/>
     <annotation>
         
         <marginalia hand="English_secretary" id="m0001">
@@ -19,6 +19,7 @@
             <translation>The most beautiful rules. See segment 3, aphorism 93, and segment 6, aphorism 60.</translation>
         </marginalia>
         
+        <!-- FSF: remouetur two lines above is also underlined -->
         <underline method="pen" type="straight" language="LA" text="Et quia Iupiter dominus octauae, &amp; Venus sunt in contrario aspectu domini domus inimicorum, morietur aliquis ex inimicis occultis"/>
         <underline method="pen" type="straight" language="LA" text="Mars Solem"/>
         <underline method="pen" type="straight" language="LA" text="&amp; locus eius locum rei, quae fiet: &amp; robur dispositoris magnitudinem effectus"/>
@@ -31,7 +32,7 @@
         <mark name="section_sign" method="pen" place="intext"/>
         
         <errata language="LA" copytext="," amendedtext=";"/> <!--permutatur, propter-->
+        <!-- FSF: ther is another erratum at the beginning of the second paragraph: iterum to iter -->
         
     </annotation>
 </transcription>
-
