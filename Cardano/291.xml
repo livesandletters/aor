@@ -6,7 +6,7 @@
     <page filename="291.tif" reader="John Dee" pagination="136"/>
     <annotation>
         
-        <marginalia hand="English_secretary" anchor_text="eius cum capite Algol">
+        <marginalia hand="English_secretary" anchor_text="eius cum capite Algol"> <!-- FSF:I would't tag eius -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Caput Algol</marginalia_text>
@@ -18,13 +18,14 @@
         <marginalia hand="English_secretary" anchor_text="eius cum capite Algol">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>no[n] est verum quod erexit vera[m] figuram &North_Node; incognita[m] omni quantitate[m].</marginalia_text>
+                    <marginalia_text>no[n] est veru[m] quod erexit vera[m] figuram &North_Node; incognita[m] omni quantitate[m].</marginalia_text>
                 </position>
             </language>
             <translation>It is not true because he erected a true figure of the North node, an unknown quantity to all.</translation> <!--JG: Unsure, check-->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="eius cum capite Algol"/>
+        <!-- FSF: anno in angulo is also underlined, although crossed out -->
         
         <errata language="LA" copytext="Ictu igitur" amendedtext="[deleted]"/>
         <errata language="LA" copytext="anno in angulo, Mars in 7" amendedtext="[deleted]"/>
