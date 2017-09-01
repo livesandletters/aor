@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="266.tif" reader="John Dee"  pagination="[123v]" signature="[hhiij[v]]"/>
+    <page filename="266.tif" reader="John Dee" pagination="[123v]" signature="[hh iij[v]]"/>
     <annotation>
         
         <marginalia hand="English_secretary">
@@ -12,7 +12,7 @@
                     <marginalia_text>Dispositio trium dominoru[m] triplicitatis ascendentis.</marginalia_text>
                 </position>
             </language>
-            <translation>The disposition of the three lords of the three-fold ascendants.</translation> <!--JG: Unsure-->
+            <translation>The disposition of the three lords of the three-fold ascendants.</translation> <!--JG: Unsure--> <!-- FSF: the translation is fine, I think -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="duplici causa, tum per essentiam, tu[m] quia dominabat[ur] ascende[n]ti">
@@ -24,9 +24,10 @@
                     </internal_ref>
                 </position>
             </language>
-            <translation>See regarding the two-fold signification of the planets, above, folio 84 verso.</translation>
+            <translation>See regarding the two-fold signification of the planets, above, folio 84 verso.</translation> <!-- FSf: Maybe better: For the [...], see above folio 84 verso  -->
         </marginalia>
         
+        <!-- FSF: I think vitae a line above is underlined too -->
         <underline method="pen" type="straight" language="LA" text="duplici causa, tum per essentiam, tu[m]"/>
         <underline method="pen" type="straight" language="LA" text="dominabat[ur] ascende[n]ti"/>
         <underline method="pen" type="straight" language="LA" text="signo foemineo simili suae temperatura"/>
@@ -35,4 +36,3 @@
         
     </annotation>
 </transcription>
-

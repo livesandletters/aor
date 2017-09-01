@@ -3,13 +3,13 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="260.tif" reader="John Dee"  pagination="120"/>
+    <page filename="260.tif" reader="John Dee" pagination="120"/> <!-- FSF: the signature should be verso -->
     <annotation>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>pro divinatio[n]e in coclite causa[e] radicales optim[a]e qu[a]e etiam tempore per
+                    <marginalia_text>pro divinatio[n]e in coclite causa[e] radicales optim[a]e qu[a]e etiam tempore per <!-- FSF: I can't see the ligature for quae, I think it is que; I think it is p[er] -->
                     revolutiones et directio[n]es [etc] corroboroba[n]tur.</marginalia_text>
                     <person name="Bartholomaeus Cocles"/>
                     <book title="Chyromantie ac physionomie anastasis"/>
@@ -21,7 +21,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>&Jupiter; &Mercury; &Sextile; &Jupiter; &Moon; &Trine; Etiam &Moon; d[omi]na 9ae in &Star; asce[n]de[n]tis
+                    <marginalia_text>&Jupiter; &Mercury; &Sextile; &Jupiter; &Moon; &Trine; Etiam &Moon; d[omi]na 9ae in &Star; asce[n]de[n]tis <!-- FSF: I don't understand the distinction between a sextile and a star here; in this whole note, all "stars" look like sextiles to me, except for the third, which is a star -->
                     &Moon; &Mercury; &Opposition; &Mercury;&o_super; cu[m] &North_Node;
                     &Saturn; &Sun; &Conjunction; in &Aries;
                     &Mars; &Trine; &Moon; et in &Sextile; asce[ndens]
@@ -45,11 +45,12 @@
             Saturn, Sun, conjunction in Aries; Mars, trine, Moon et in sextile [when] ascending; Mars, trine, Venus in Taurus; Mars, sextile, Mercury.</translation>
         </marginalia>
         
-        <errata language="LA" copytext="9" amendedtext="[deleted]"/>
+        <errata language="LA" copytext="9" amendedtext="[deleted]"/> 
         <errata language="LA" copytext="4" amendedtext="[deleted]"/>
         <errata language="LA" copytext="Moon 18. 14." amendedtext="[deleted]"/>
-        <errata language="LA" copytext="10.33" amendedtext="[deleted]"/>
-        <errata language="LA" copytext="28. 8" amendedtext="[deleted]"/>
+        <errata language="LA" copytext="10.33" amendedtext="[deleted]"/> <!-- FSF: possibly Mercury crossed out as well? -->
+        <errata language="LA" copytext="28. 8" amendedtext="[deleted]"/> <!-- FSF: possibly Sun crossed out as well? -->
+        <!-- FSF: there is also a 46 crossed out and a Venus and a 27 -->
         
         <drawing type="manicule" book_orientation="0" place="intext" method="pen" anchor_text=""/> <!--JG: Anchor text to include later, when MS text within chart is transcribed correctly-->
         
@@ -60,9 +61,9 @@
                 <th label="Position"/>
             </tr>
             <tr>
-                <td>Virgo</td>
+                <td>Virgo</td> <!-- FSF: this looks more like a Scorpio to me -->
                 <td>1</td>
-                <td>9&o_super;</td>
+                <td>9&o_super;</td> <!-- FSF: can't see the superscript o -->
             </tr>
             <tr>
                 <td>[Moon - deleted]</td>
@@ -71,16 +72,16 @@
             <tr>
                 <td>South Node</td>
                 <td>11</td>
-                <td>19&o_super; 30'</td>
+                <td>19&o_super; 30'</td> <!-- FSF: to me it looks more like 19/30 -->
             </tr>
             <tr>
                 <td>Moon</td>
                 <td>11</td>
-                <td>circa mediu[m] Scorpio</td>
+                <td>circa mediu[m] Scorpio</td> <!-- FSF: this looks more like a Virgo to me -->
             </tr>
             <text hand="English_secretary" language="LA">
-                1467 die 18 martij hora.3 noctis Bononi[a]e. vt tradit ip[s]e cocles p[r]imo capite Chyroma[n]tiae [mag] <!--JG: Unsure abt 'mag'-->
-                ergo co[m]me[n]ti &Sun; et &Saturn; ex [acte] <!--JG: Unsure abt 'acte' & commenti - coniuncti makes a bit more sense?-->
+                1467 die 18 martij hora.3 noctis Bononi[a]e. vt tradit ip[s]e cocles p[r]imo capite Chyroma[n]tiae [mag] <!--JG: Unsure abt 'mag'--> <!-- FSF: that's what I read too -->
+                ergo co[m]me[n]ti &Sun; et &Saturn; ex [acte] <!--JG: Unsure abt 'acte' & commenti - coniuncti makes a bit more sense?--> <!-- FSF: I read coniuncti; not sure about acte either -->
             </text>
             <person name="Bartholomaeus Cocles"/>
             <book title="Chyromantie ac physionomie anastasis"/>
