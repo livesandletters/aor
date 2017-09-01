@@ -12,9 +12,10 @@
         <underline method="pen" type="straight" language="LA" text="castrum Stultitiam Huberti"/>
         
         <mark name="circumflex" method="pen" place="intext"/>
-        <mark name="comma" method="pen" place="intext"/> <!-- castrum Stultitiam -->   <!-- DO: He also adds a comma after his inserted 'Propterea' -->
+        <mark name="comma" method="pen" place="intext"/> <!-- castrum Stultitiam -->
         
-        <errata language="LA" copytext="Propter" amendedtext="Propterea"/>     <!-- DO: There is another erratum a few lines below this ('sentiae' -> 'sententiae'), and the circumflex -->
+        <errata language="LA" copytext="Propter" amendedtext="Propterea,"/>
+        <errata language="LA" copytext="sentiae" amendedtext="sententiae"/>
         
     </annotation>
 </transcription>
