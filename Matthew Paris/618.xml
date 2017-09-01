@@ -90,7 +90,7 @@
         <mark name="bracket" method="pen" place="intext"/> <!-- ve[n]dicantem, &amp; -->
         
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
-            <node id="n1" anchor_text="Comitissa Gouerniae Isabella">Isabella</node> <!-- FSF: I don't think it is her (https://en.wikipedia.org/wiki/Isabella,_Countess_of_Gloucester), but she is the only one I canfind; Richard is not any help here -->  <!-- DO: Yes, I think there is some sort of error here. There is a Richard, Earl of Gloucester at this time whose wife died in 1237, but she was not called Isabella: https://en.wikipedia.org/wiki/Richard_de_Clare,_6th_Earl_of_Gloucester -->
+            <node id="n1" anchor_text="Comitissa Gouerniae Isabella">Isabella</node> <!-- FSF: I don't think it is her (https://en.wikipedia.org/wiki/Isabella,_Countess_of_Gloucester), but she is the only one I canfind; Richard is not any help here -->  <!-- DO: On the following page, Dee corrects 'Richard, Earl of Gloucester' to 'Richard, Earl of Cornwall'. The latter had a wife named Isabel who died in this year. She was previously married to an Earl of Gloucester, so was Countess of Gloucester at that time: https://en.wikipedia.org/wiki/Isabel_Marshal -->
             <node id="n2" anchor_text="Comitis Richardi">Richard[us] comes gl.</node>
             <link to="n1" from="n2" relationship="has_spouse"/>
             <link to="n2" from="n1" relationship="has_spouse"/>
