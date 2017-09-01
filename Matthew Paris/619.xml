@@ -6,6 +6,19 @@
     <page filename="619.tif" reader="John Dee" pagination="155"/>
     <annotation>
         
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        bis
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Twice.
+            </translation>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="Thomas Comes Flandriae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -47,14 +60,9 @@
         
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <errata language="LA" copytext="Obijt itaque VVil. Comes VVarrenniae, Lo[n]don. decimo Kal. Iunij." amendedtext="[deleted]"/>  <!-- DO: I would say this crossing out continues across 'Comes Glouerniae' -->
-        <errata language="LA" copytext="Glouerniae" amendedtext="Cornubiae"/>   <!-- DO: 'Cornubia[e]' -->
-        
-        
-        <!-- DO: There is a note in the left margin which I think says 'bis', but not sure what this refers to. Possibly that there are two mistakes? -->
-        
-        <!-- DO: Dee has added a 't' to 'cogitaui' in the first line -->
-        
+        <errata language="LA" copytext="cogitaui" amendedtext="cogitauit"/>
+        <errata language="LA" copytext="Obijt itaque VVil. Comes VVarrenniae, Lo[n]don. decimo Kal. Iunij. Comes Glouerniae" amendedtext="[deleted]"/> 
+        <errata language="LA" copytext="Glouerniae" amendedtext="Cornubia[e]"/> 
         
     </annotation>
 </transcription>
