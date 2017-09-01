@@ -38,13 +38,13 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Six monthes respit for Presentations   <!-- DO: I think the marking after this is '[etc]' -->
+                        Six monthes respit for Presentations [etc] 
                     </marginalia_text>
                 </position>
             </language>
         </marginalia>
         
-        <marginalia hand="Italian">   <!-- DO: I would anchor 'Griffinum' -->
+        <marginalia hand="Italian" anchor_text="Griffinum">   
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -57,7 +57,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">    <!-- DO: I would anchor 'regis Alngliae' -->
+        <marginalia hand="Italian" anchor_text="regis Alngliae">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -75,7 +75,7 @@
         <underline method="pen" type="straight" language="LA" text="nimis dolendo"/>
         <underline method="pen" type="straight" language="LA" text="obijt princeps Northvvalliae Leolinus, idib[us]"/>
         <underline method="pen" type="straight" language="LA" text="Dauide[m] natu minore[m]"/>
-        <underline method="pen" type="double" language="LA" text="sed legitimum"/>
+        <underline method="pen" type="double" language="LA" text="sed legitimum" id="RCP10653:n0001"/>
         <underline method="pen" type="straight" language="LA" text="&amp; regis Angliae, ex parte sororis"/>
         <underline method="pen" type="double" language="LA" text="nepotem"/>
         <underline method="pen" type="straight" language="LA" text="obtinuit"/>
@@ -90,8 +90,8 @@
         <mark name="bracket" method="pen" place="intext"/> <!-- ve[n]dicantem, &amp; -->
         
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
-            <node id="n1" anchor_text="Comitissa Gouerniae Isabella">Isabella</node> <!-- FSF: I don't think it is her (https://en.wikipedia.org/wiki/Isabella,_Countess_of_Gloucester), but she is the only one I canfind; Richard is not any help here -->  <!-- DO: On the following page, Dee corrects 'Richard, Earl of Gloucester' to 'Richard, Earl of Cornwall'. The latter had a wife named Isabel who died in this year. She was previously married to an Earl of Gloucester, so was Countess of Gloucester at that time: https://en.wikipedia.org/wiki/Isabel_Marshal -->
-            <node id="n2" anchor_text="Comitis Richardi">Richard[us] comes gl.</node>
+            <node id="n1" anchor_text="Comitissa Gouerniae Isabella" person="Isabel Marshal">Isabella</node>
+            <node id="n2" anchor_text="Comitis Richardi" person="Richard, 1st Earl of Cornwall">Richard[us] comes gl.</node>
             <link to="n1" from="n2" relationship="has_spouse"/>
             <link to="n2" from="n1" relationship="has_spouse"/>
             <graph_text>
@@ -103,7 +103,7 @@
         </graph>
         
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
-            <node id="n3" person="Reinald Rich">Edward Riche</node> <!--JG: Parents should be identified as well: see, e.g. http://www.newadvent.org/cathen/05294a.htm--> <!-- FSF: I have identified him now by the name online; that is however not in agreement with Dee -->  <!-- DO: He seems to be named variously as Reinald or Edward so I think this is fine -->
+            <node id="n3" person="Reinald Rich">Edward Riche</node>
             <node id="n4" person="Mabel Rich">Mabilia</node>
             <node id="n5" person="Edmund of Abingdon" anchor_text="Eadmundus">Edmundus</node>
             <link to="n4" from="n3" relationship="has_spouse"/>
@@ -111,8 +111,8 @@
             <link to="n5" from="n3" relationship="has_child"/>
             <link to="n5" from="n4" relationship="has_child"/>
             <graph_text>
-                <note hand="English_secretary" language="LA" id="no1" internal_link="n5">natus in Abendon</note>    <!-- DO: I think still Italian hand for these -->
-                <note hand="English_secretary" language="LA" internal_link="n5" id="no2">post Archiep[iscopu]s Cantuar.</note>
+                <note hand="Italian" language="LA" id="no1" internal_link="n5">natus in Abendon</note>
+                <note hand="Italian" language="LA" internal_link="n5" id="no2">post Archiep[iscopu]s Cantuar.</note>
                 <location name="Abingdon-on-Thames"/> 
             </graph_text>
             <translation>
@@ -121,9 +121,11 @@
             </translation>
         </graph>
         
-        
-        <!-- DO: You can add a physical link between 'Griffinum' and 'sed legitimum' in the text -->
-        
-        
+        <physical_link>
+            <marginal_annotation idref=""/> <!-- FSF: how to make a physical link to something that is otherwise not captured? -->
+            <marginal_annotation idref="RCP10653:n0001"/>
+            <relation from="" to="RCP10653:n0001" type="undirected"/>
+        </physical_link>
+       
     </annotation>
 </transcription>
