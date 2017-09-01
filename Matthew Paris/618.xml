@@ -16,11 +16,11 @@
                 </position>
             </language>
             <translation>
-                Death of Llywelyn the Great.
+                The death of Llywelyn the Great.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Edmundus">
+        <marginalia hand="Italian" anchor_text="archiepiscopus Cantuar. Eadmundus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -38,13 +38,13 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Six monthes respit for Presentations 
+                        Six monthes respit for Presentations   <!-- DO: I think the marking after this is '[etc]' -->
                     </marginalia_text>
                 </position>
             </language>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: I would anchor 'Griffinum' -->
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -57,7 +57,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">    <!-- DO: I would anchor 'regis Alngliae' -->
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
@@ -71,24 +71,23 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="est Comitissa Glouerniae Isabella, vxor"/>
-        <underline method="pen" type="double" language="LA" text="Comitis"/>
-        <underline method="pen" type="straight" language="LA" text="Richardi, sub partus"/>
+        <underline method="pen" type="straight" language="LA" text="est Comitissa Glouerniae Isabella, vxor Comitis Richardi, sub partus"/>
         <underline method="pen" type="straight" language="LA" text="nimis dolendo"/>
         <underline method="pen" type="straight" language="LA" text="obijt princeps Northvvalliae Leolinus, idib[us]"/>
-        <underline method="pen" type="straight" language="LA" text="Dauide[m] natu minroe[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Dauide[m] natu minore[m]"/>
         <underline method="pen" type="double" language="LA" text="sed legitimum"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; regis Angliae, ex parte sororis, nepotem"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; regis Angliae, ex parte sororis"/>
+        <underline method="pen" type="double" language="LA" text="nepotem"/>
         <underline method="pen" type="straight" language="LA" text="obtinuit"/>
         <underline method="pen" type="straight" language="LA" text="regno quam sacerdotio"/>
-        <underline method="pen" type="straight" language="LA" text="archiepiscopum diocesanum"/>
+        <underline method="pen" type="straight" language="LA" text="archiepiscopum dioecesanum"/>
         <underline method="pen" type="double" language="LA" text="cassatum"/>
         <underline method="pen" type="straight" language="LA" text="est idem"/>
         <underline method="pen" type="straight" language="LA" text="pecunia iterum"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="intext"/> <!-- primogenitum &amp; -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- ve[n]dicantem &amp; -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- primogenitum, &amp; -->
+        <mark name="bracket" method="pen" place="intext"/> <!-- ve[n]dicantem, &amp; -->
         
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
             <node id="n1" anchor_text="Comitissa Gouerniae Isabella">Isabella</node> <!-- FSF: I don't think it is her (https://en.wikipedia.org/wiki/Isabella,_Countess_of_Gloucester), but she is the only one I canfind; Richard is not any help here -->
