@@ -90,7 +90,7 @@
         <mark name="bracket" method="pen" place="intext"/> <!-- ve[n]dicantem, &amp; -->
         
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
-            <node id="n1" anchor_text="Comitissa Gouerniae Isabella">Isabella</node> <!-- FSF: I don't think it is her (https://en.wikipedia.org/wiki/Isabella,_Countess_of_Gloucester), but she is the only one I canfind; Richard is not any help here -->
+            <node id="n1" anchor_text="Comitissa Gouerniae Isabella">Isabella</node> <!-- FSF: I don't think it is her (https://en.wikipedia.org/wiki/Isabella,_Countess_of_Gloucester), but she is the only one I canfind; Richard is not any help here -->  <!-- DO: Yes, I think there is some sort of error here. There is a Richard, Earl of Gloucester at this time whose wife died in 1237, but she was not called Isabella: https://en.wikipedia.org/wiki/Richard_de_Clare,_6th_Earl_of_Gloucester -->
             <node id="n2" anchor_text="Comitis Richardi">Richard[us] comes gl.</node>
             <link to="n1" from="n2" relationship="has_spouse"/>
             <link to="n2" from="n1" relationship="has_spouse"/>
@@ -98,28 +98,32 @@
                 <note hand="Italian" language="LA" id="no3" internal_link="n1">Moritur</note>
             </graph_text>
             <translation>
-                died
+                She dies.
             </translation>
         </graph>
         
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
-            <node id="n3" person="Reinald Rich">Edward Riche</node> <!--JG: Parents should be identified as well: see, e.g. http://www.newadvent.org/cathen/05294a.htm--> <!-- FSF: I have identified him now by the name online; that is however not in agreement with Dee -->
+            <node id="n3" person="Reinald Rich">Edward Riche</node> <!--JG: Parents should be identified as well: see, e.g. http://www.newadvent.org/cathen/05294a.htm--> <!-- FSF: I have identified him now by the name online; that is however not in agreement with Dee -->  <!-- DO: He seems to be named variously as Reinald or Edward so I think this is fine -->
             <node id="n4" person="Mabel Rich">Mabilia</node>
-            <node id="n5" person="Edmund of Abingdon" anchor_text="Edmundus">Edmundus</node>
+            <node id="n5" person="Edmund of Abingdon" anchor_text="Eadmundus">Edmundus</node>
             <link to="n4" from="n3" relationship="has_spouse"/>
             <link to="n3" from="n4" relationship="has_spouse"/>
             <link to="n5" from="n3" relationship="has_child"/>
             <link to="n5" from="n4" relationship="has_child"/>
             <graph_text>
-                <note hand="English_secretary" language="LA" id="no1" internal_link="n5">natus in Abendon</note>
+                <note hand="English_secretary" language="LA" id="no1" internal_link="n5">natus in Abendon</note>    <!-- DO: I think still Italian hand for these -->
                 <note hand="English_secretary" language="LA" internal_link="n5" id="no2">post Archiep[iscopu]s Cantuar.</note>
                 <location name="Abingdon-on-Thames"/> 
             </graph_text>
             <translation>
-                Born in Abingdon-on-Thames
-                Afterwards archbishop of Canterbury
+                Born in Abingdon-on-Thames.
+                Afterwards Archbishop of Canterbury.
             </translation>
         </graph>
+        
+        
+        <!-- DO: You can add a physical link between 'Griffinum' and 'sed legitimum' in the text -->
+        
         
     </annotation>
 </transcription>
