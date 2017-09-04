@@ -6,8 +6,7 @@
     <page filename="330.tif" reader="John Dee" pagination="324" signature="[x 2[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Incredibile esse &agrave; filio patrem, ab uxore uirum occisum"> <!-- M.B. I haven't added 'generaliter' to the anchor text since only the second half of the word [...]raliter' is printed on this page. -->
-            <!-- FSF: but isn't this the actual word that is worth tagging? I would anchor it like this: [gene]raliter -->
+        <marginalia hand="Italian" anchor_text="[gene]raliter Incredibile esse &agrave; filio patrem, ab uxore uirum occisum"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>g[e]n[er]aliter</marginalia_text>
@@ -22,7 +21,7 @@
                     <marginalia_text>Proprie.</marginalia_text>
                 </position>
             </language>
-            <translation>Special.</translation> <!-- FSF: I would translate as an adverb especially/particularly -->
+            <translation>Especially.</translation>
         </marginalia>    
         
         <marginalia hand="Italian" anchor_text="in quibus haec maxime spectantur, ira, odium, metus, cupiditas, spes">
@@ -40,7 +39,7 @@
                     <marginalia_text>Nihil factu[m] sine cau&sharp-S;a.</marginalia_text>
                 </position>
             </language>
-            <translation>A fact is nothing without a cause.</translation> <!-- FSF: I'd translate as Nothing is done wihtour a reason. -->
+            <translation>Nothing is done without a reason.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="&amp; qui nihil obijcit, omisisse credi potest maledicta tanquam superuacua: qui"/>
