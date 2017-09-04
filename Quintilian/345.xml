@@ -15,13 +15,13 @@
             <translation>Guilty.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="non semper defensione facti, sed excusatione ac uenia freque[n]tur utuntur"> <!-- FSF: I would anchor only until excusatione -->
+        <marginalia hand="Italian" anchor_text="non semper defensione facti, sed excusatione">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>No[n] se[m]p[er] tactu[m] defenditur sed aliqua[n]di excusatur.</marginalia_text> <!-- FSF: I think it is factu[m] and aliqua[n]do -->
+                    <marginalia_text>No[n] se[m]p[er] factu[m] defenditur sed aliqua[n]do excusatur.</marginalia_text> 
                 </position>
             </language>
-            <translation>The accused do not always reach a defence but sometimes resort to excuses</translation> <!-- FSF: I'd translate as: Not always is the act defended, but sometimes excused. -->
+            <translation> Not always is the act defended, but sometimes excused.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Verrem">
@@ -49,7 +49,7 @@
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> <!-- FSF: question if book orientation another -->
+        <drawing type="florilegium" book_orientation="90" place="left_margin" method="pen"/> 
         
     </annotation>
 </transcription>
