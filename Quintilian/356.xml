@@ -41,7 +41,7 @@
         <underline method="pen" type="straight" language="LA" text="&agrave; medijs"/>
         <underline method="pen" type="straight" language="LA" text="uel ultimis"/>
         <underline method="pen" type="straight" language="LA" text="no[n] expone[n]dum, quando &agrave; nostris"/>
-        <underline method="pen" type="straight" language="LA" text="do ab aduersariorum"/> <!-- FSF: quando -->
+        <underline method="pen" type="straight" language="LA" text="quando ab aduersariorum"/>
         <underline method="pen" type="straight" language="LA" text="qua[n]do &agrave; firmi&sharp-S;imis probationibus, quando &agrave; leuioribus"/>
         <underline method="pen" type="straight" language="LA" text="proponendae prooemijs quaestiones, qua praeparatione praemuninedae, quid iudicis animus"/>
         <underline method="pen" type="double" language="LA" text="accipere"/>
@@ -56,10 +56,9 @@
         <underline method="pen" type="straight" language="LA" text="affuerint natura, donctrina, studiu[m]"/>
         <underline method="pen" type="straight" language="LA" text="copias eloque[n]tiae ponit in medio: nostrum est uti eis scire"/>
         <underline method="pen" type="straight" language="LA" text="ne commissura pelluceat, corpus sit, non membra"/>
-            
-        <!-- FSF: I'd say that there is a vertical bar in the left upper margin -->
-        
-        <!-- FSF: also, I think there is a comma between animus and accipere in the third quarter of the page by the double underlining-->
+         
+         <mark name="vertical_bar" method="pen" place="left_margin"/>
+         <mark name="comma" method="pen" place="intext"/> <!-- animus accipere -->
             
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
