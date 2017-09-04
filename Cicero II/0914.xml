@@ -7,19 +7,229 @@
     <page filename="0914.tif" reader="John Dee" pagination="356" signature="[Zz.ii.[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="[Pythago]ram &amp; Periclem"> <!-- seperate notes? -->
+        <marginalia hand="Italian" anchor_text="[Pythago]ram &amp; Periclem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pythagoras, Pericles Annibal. Q fabuis Max. Themistocles. Easoy Soloy??</marginalia_text>
+                    <marginalia_text>Pythagoras. Pericles</marginalia_text>
+                    <person name="Pythagoras"/>
+                    <person name="Pericles"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Pythagoras and Pericles.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Syllam &amp; M Crassum">
+        <marginalia hand="Italian" anchor_text="Annibalem ex Poenorum, ex nostris ducibus Q. Fabium Maximum">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Annibal Q[uintus] fabuis Max[imus].</marginalia_text>
+                    <person name="Hannibal"/>
+                    <person name="Quintus Fabius Maximus Verrucosus"/>
+                </position>
+            </language>
+            <translation>Hannibal, Quintus Fabius Maximus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Themistoclem &amp; Pheraeum Iasonem">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Themistocles. Easoy</marginalia_text>
+                    <person name="Themistocles"/>
+                    <person name="Jason of Pherae"/>
+                </position>
+            </language>
+            <translation>Themistocles and Jason.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Solonis">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Soloy.</marginalia_text>
+                    <person name="Solon"/>
+                </position>
+            </language>
+            <translation>Solon.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Syllam &amp; M[arcus] Crassum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Sylla. Crassus.</marginalia_text>
+                    <person name="Lucius Cornelius Sulla"/>
+                    <person name="Marcus Licinius Crassus"/>
+                </position>
+            </language>
+            <translation>Sulla, Marcus Crassus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Lysandru[m]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Lysander.</marginalia_text>
+                    <person name="Lysander"/>
+                </position>
+            </language>
+            <translation>Lysander.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Callicratidem">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Callicratides.</marginalia_text>
+                    <person name="Callicratidas"/>
+                </position>
+            </language>
+            <translation>Callicratidas.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Catulo &amp; in patre &amp; in fil[o]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Catulus.</marginalia_text>
+                    <person name="Quintus Lutatius Catulus"/>
+                    <person name="Quintus Lutatius Catulus (Capitolinus)"/> <!-- M.B. Note both father and son are tagged since the printed text refers to 'Catulo in patre & in filio' and Dee does not further specify. -->
+                </position>
+            </language>
+            <translation>Catulus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Q. Mutio Mancino">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Q[uintus] Mutuis Manciuus</marginalia_text>
+                    <person name="Quintus Mucius Mancia"/>
+                </position>
+            </language>
+            <translation>Quintus Mucius Mancia.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Xenocratem">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Xenocrates</marginalia_text>
+                    <person name="Xenocrates"/>
+                </position>
+            </language>
+            <translation>Xenocrates.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="con[n]tra naturam vniuersam nihil co[n]tendamus">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Contra natura[m] vniuersam co[n]tendamus.</marginalia_text>
+                </position>
+            </language>
+            <translation>We must not oppose the universal laws of nature.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Nihil decet inuita, vt aitu[m], Minerua">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Nihil facias invita Mineura</marginalia_text>
+                </position>
+            </language>
+            <translation>Nothing is done when Minerva is unwilling. </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Graeca verba inculcantes">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Gra[e]ca inculca[n]tes.</marginalia_text>
+                </position>
+            </language>
+            <translation>Stuffing in Greek.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="M. Cato fuit">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>M[arcus]. Cato sibi ip[s]i mortem consciscere debuit.</marginalia_text>
+                    <person name="Cato the Younger"/>
+                </position>
+            </language>
+            <translation>When Marcus Cato committed death by his own hands.</translation> 
+            <!-- M.B. Not sure whether to translate this literally or opt for something like the above.  -->
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Caesari">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Ca[e]sar</marginalia_text>
+                    <person name="Julius Caesar"/>
+                </position>
+            </language>
+            <translation>Caesar
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Vlysses">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Vlisses</marginalia_text>
+                    <person name="Ulysses"/>
+                </position>
+            </language>
+            <translation>Ulysses.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Aiax">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Aiax</marginalia_text>
+                    <person name="Ajax"/>
+                </position>
+            </language>
+            <translation>Ajax.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="quid quisque habeat sui">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Suis quisq[ue] cotetus vinat.</marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="histrio">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Histrio.</marginalia_text>
+                </position>
+            </language>
+            <translation>An actor.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="necessitas">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Necessitas.</marginalia_text>
+                </position>
+            </language>
+            <translation>Necessity.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="personis quas supr&agrave; dixi, tertia adiungitur, quam casus aliquis ait te[m]pus imponit. Quarta etia[m]">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Tertia persoma fortuita Quarta</marginalia_text>
+                </position>
+            </language>
+            <translation>Third character [imposed by] by chance and a fourth [character by deliberate choice].</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="regna, imperia, nobilitates, honores, diuitiae, opers">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>regna imp[er]ia nobilitates honores diuitia[e] opes.</marginalia_text>
+                </position>
+            </language>
+            <translation>Regal powers, empires, nobilities, honours, wealth and influence.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>distripatia diffirintia</marginalia_text>
                 </position>
             </language>
             <translation></translation>
@@ -27,175 +237,30 @@
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>l?mor Vita</marginalia_text>
                 </position>
             </language>
             <translation></translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="adhibe[n]da erit cura, meditatio, dilige[n]tia">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>adhibi[n]da erit cura meditatio dilige[n]tia </marginalia_text>
+                </position>
+            </language>
+            <translation>We should devote thought, practice and pains.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>???dum</marginalia_text>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="prim&iacute;sque versutum"/>
         <underline method="pen" type="straight" language="LA" text="conatus perditos vindicauit"/>
@@ -210,6 +275,8 @@
         <underline method="pen" type="straight" language="LA" text="Ergo histrio hoc videbit in scena, quod non videbit sapiens vir in vita? Ad quas igitur res aptissimi erimus, in iis potissimu[m] elaborabimus. Sin"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
         <!-- M.B. Two symbols in the left margin. Possibly a Jupiter symbol but not sure. -->
         
