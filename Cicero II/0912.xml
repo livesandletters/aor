@@ -4,13 +4,22 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0912.tif" reader="John Dee" pagination="354" signature=""/> <!-- M.B. Add sig --> 
+    <page filename="0912.tif" reader="John Dee" pagination="354" signature="[Z.z.i[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="separari">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>distingui[??] separari.</marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="cum virtute confusum">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>confusu[m] cu[m] virtute</marginalia_text>
                 </position>
             </language>
             <translation></translation>
@@ -19,34 +28,25 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>hoc ip[s]o, quod in io, in quo [??]</marginalia_text>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="reco[n]dita quadam ratione">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>reco[n]dita r[ati]o[n]e ???</marginalia_text> <!-- M.B. Not sure of last word, difficult to decipher... -->
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="cum species quadam liberali">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="head" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>cu[m] sp[ec]i[es] q[ui]da[m] liberali</marginalia_text> <!-- M.B. Not sure about 'cum' but is resembles the other 'cum' in the adjacent marginal note ('confusu[m] cu[m] virtute)'.. -->
                 </position>
             </language>
             <translation></translation>
@@ -54,7 +54,7 @@
         
         <!-- M.B. Capture Greek marginalia in left margin later. -->
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="quid deceat apparet">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Quid decet, quid dedecet</marginalia_text>
@@ -63,16 +63,16 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="venustas &amp; pulchritudo corporis secerni non potest &agrave; valetudine">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>valetudo. venistas[?].</marginalia_text>
+                    <marginalia_text>valetudo. venustas.</marginalia_text>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="duplex. nam &amp; generale quoddam decorum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Decorum duplex.</marginalia_text>
@@ -90,7 +90,7 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="seruare illud poetas quod deceat">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Poeta[e] decorum siruat</marginalia_text>
@@ -99,16 +99,16 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Nobis autem personam imposuit ipsa natura">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Nobis p[er]spna imposuit Na[m]</marginalia_text>
+                    <marginalia_text>Nobis p[er]sona imposuit Na[m]</marginalia_text>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Nobis autem quum &agrave; naturam constantiae, moderationism tempera[n]tiae, verecundiae, partes datae">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Qua[e] partes nobis sut &agrave; natura data[e].</marginalia_text>
@@ -117,7 +117,7 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="pulchritudo corporis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Comparatio pulchritudinis temperantia[e]</marginalia_text>
@@ -126,7 +126,7 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="reuerentia">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Reuerentia</marginalia_text>
@@ -144,16 +144,16 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Iustitiae partes sunt, non violare homines: verecundiae">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Iustitino[?] it vererundi disiuinire[?]</marginalia_text>
+                    <marginalia_text>Iustitino et verecundia[e] disiuinire[?]</marginalia_text>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="conuenientiam co[n]seruation&eacute;mque naturae">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Convenientia &amp; conservatio natura[e].</marginalia_text>
@@ -171,10 +171,10 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="ratio praesit, appetitus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Appetitus Ro[?]</marginalia_text>
+                    <marginalia_text>Appetitus R[ati]o</marginalia_text>
                 </position>
             </language>
             <translation></translation>
@@ -189,28 +189,28 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="consociationem">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>co[n]social?</marginalia_text>
+                    <marginalia_text>co[n]socialo?</marginalia_text>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="aduersus homines">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>admirsus ho?iss</marginalia_text>
+                    <marginalia_text>aduersus ho[mi]nis</marginalia_text>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="perspicax">
+        <marginalia hand="Italian" anchor_text="acutum &amp; perspicax natura est, &amp; id quod ad hominum consociationem accomoodatum est, &amp; id quod vehemns atque forte">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>? p[er]spicax</marginalia_text>
+                    <marginalia_text>acutu[m] p[er]spicax vehemebs forte</marginalia_text>
                 </position>
             </language>
             <translation></translation>
