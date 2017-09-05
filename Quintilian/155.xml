@@ -18,10 +18,11 @@
         <marginalia hand="Italian" anchor_text="Vbi coniecturae non erit locus, ali sunt intue[n]da">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Ubi co[n]iectura[e] no[n] est locus quid faciendu[m]. Est.</marginalia_text> <!-- FSF: I don't see the est -->
+                    <marginalia_text>Ubi co[n]iectura[e] no[n] est locus quid faciendu[m].</marginalia_text>
                 </position>
             </language>
-            <translation>Where conjectures do not take, place what is to be done?</translation> <!-- FSF: maybe: Whenever there are no conjectures, any locus is to be done.  -->
+            <translation>Where conjectures do not take place what is to be done?</translation> <!-- FSF: maybe: Whenever there are no conjectures, any locus is to be done.  -->
+            <!-- M.B. Still not sure about the latter part ['locus is to be done']. Mark as remaining issue for now.  -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
@@ -49,7 +50,7 @@
                     <marginalia_text>Suadendi partes.</marginalia_text>
                 </position>
             </language> 
-            <translation>Some recommend.</translation> <!-- FSF: parts of the recommended? -->
+            <translation>Parts of the recommend.</translation>
         </marginalia>
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
