@@ -6,20 +6,20 @@
     <page filename="374.tif" reader="John Dee" pagination="[177v]" signature="[yy[v]]"/>
     <annotation>
         
-        <marginalia hand="English_secretary" anchor_text="Saturnus in sexto aut duodecimo">
+        <marginalia hand="English_secretary" anchor_text="Saturnus in sexto aut duodecimo"> <!-- FSF: I'd go until loco -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>&Saturn; in 12 aut 6.</marginalia_text>
                     <symbol_in_text name="Saturn"/>
                 </position>
             </language>
-            <translation>Saturn in [house] 12 or 6.</translation>
+            <translation>Saturn in [house] 12 or 6.</translation> <!-- FSF: the printed text says locus, so maybe better place -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Mars enim, ad instrumenta iuuat">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>&Mars; ad instrume[n]ta iuvat</marginalia_text>
+                    <marginalia_text>&Mars; ad instrume[n]ta iuvat</marginalia_text> <!-- FSF: I read instrumenta[m] -->
                     <symbol_in_text name="Mars"/>
                 </position>
             </language>
@@ -36,7 +36,7 @@
                     </internal_ref>
                 </position>
             </language>
-            <translation>Mercury in [house] 8. It's contrary to itself, [see] above, folio 49 verso.</translation>
+            <translation>Mercury in [house] 8. It's contrary to itself, [see] above, folio 49 verso.</translation> <!-- FSF: because octavo is masculine, I don't think it is house, but place as in printed text -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Morbu[m] quidem, cum minime affecerit Lunam, aut ascendentis"/>
