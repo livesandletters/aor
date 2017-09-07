@@ -15,10 +15,10 @@
             <translation>Henceforth the ascendant in the whole year.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="Copernici autem no[n]dum p[er]specta est recte sententia: uix enim quae uellet, dicere uisus est">
+        <marginalia hand="English_secretary" anchor_text="Copernici autem no[n]dum p[er]specta est recte sententia: uix enim, quae uellet, dicere uisus est">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Hic tame[n] o[mn]es vincit exacte supputatio[n]e et observa[n]ti dilige[n]tia</marginalia_text>
+                    <marginalia_text>Hic tame[n] o[mn]es vincit exacte supputatio[n]e et observa[n]ti dilige[n]tia</marginalia_text> <!-- FSF: I think it is observa[n]di -->
                 </position>
             </language>
             <translation>Here he nevertheless outlasts all by exact computation and diligent observance.</translation>
@@ -31,7 +31,7 @@
                     <book title="De octimestri partu"/>
                 </position>
             </language>
-            <translation>'The eigth and the seventh month'. And on the reason of the foetus in the womb.</translation> <!--JG: Unsure about the second tract of Hippocrates-->
+            <translation>'The eigth and the seventh month'. And on the reason of the foetus in the womb.</translation> <!--JG: Unsure about the second tract of Hippocrates--> <!-- FSF: not sure -->
         </marginalia>
         
         <marginalia hand="English_secretary" id="RCP7134:444:m0001">
@@ -46,14 +46,13 @@
         <underline method="pen" type="straight" language="LA" text="Copernici autem no[n]dum p[er]specta est recte sententia: uix enim quae uellet, dicere uisus est"/>
         <underline method="pen" type="straight" language="LA" text="ratio"/>
         <underline method="pen" type="straight" language="LA" text="computatio"/>
-        <underline method="pen" type="straight" language="LA" text="obserua"/>
+        <underline method="pen" type="straight" language="LA" text="obseruatio"/>
         <underline method="pen" type="straight" language="LA" text="numeratio"/>
         <underline method="pen" type="straight" language="LA" text="Primus mensis" id="RCP7134:444:u0001"/>
         
         <physical_link>
             <marginal_annotation idref="RCP7134:444:m0001"/>
             <marginal_annotation idref="RCP7134:444:u0001"/>
-            
             <relation from="RCP7134:444:m0001" to="RCP7134:444:u0001" type="directed"/>
         </physical_link>
         

@@ -9,7 +9,7 @@
         <marginalia hand="English_secretary" anchor_text="Principium eorum quae &agrave; casu contingu[n]t">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Principiu[m] eorum quae a casu contingunt.</marginalia_text>
+                    <marginalia_text>Principiu[m] eorum qu[a]e a casu contingunt.</marginalia_text> <!-- FSF: I'd capture the slashes too -->
                 </position>
             </language>
             <translation>Of those principles which are produced by change.</translation>
@@ -56,7 +56,8 @@
                     </internal_ref>
                 </position>
             </language>
-            <translation>See above, folio 82 [a?] [and] verso.</translation> <!--JG: Unsure about the 'a' here?? Seems to refer to 'recto'-->
+            <translation>See above, folio 82 [a?] [and] verso.</translation> <!--JG: Unsure about the 'a' here?? Seems to refer to 'recto'--> 
+            <!-- FSF: maybe it is just to indicate where on the page? sometimes letters were used to indicate the apoximate place -->
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -78,8 +79,7 @@
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="slash" method="pen" place="intext"/> <!--JG: after ascendens-->
-        
-        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/> <!-- FSF: I think there are two in the margin -->
         
         <errata language="LA" copytext="," amendedtext="[deleted]"/>
         <errata language="LA" copytext="," amendedtext="[deleted]"/>
@@ -89,4 +89,3 @@
         
     </annotation>
 </transcription>
-
