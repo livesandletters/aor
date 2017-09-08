@@ -10,18 +10,18 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        repice initium quinti folij immediat&egrave; pra[e]cedentis
+                        repice initium quinti folij immediat&egrave; pra[e]cedentis.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Look back at the beginning of the fifth folio directly preceding. 
+                Look back at the beginning of the fifth folio directly preceding.      <!-- DO: I think you can make an internal reference to file 682, and vice versa -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="qui quodam gaudet priuilegio, videlicet vt non veniat legatus in terram sua[m], nisi postulatus"/>
         
-        <errata language="LA" copytext="[blank]" amendedtext="Pag: 220"/>
+        <errata language="LA" copytext="[blank]" amendedtext="Pag: 220."/>      <!-- DO: Again, not sure how to capture -->
         
     </annotation>
 </transcription>
