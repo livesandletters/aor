@@ -6,24 +6,26 @@
     <page filename="698.tif" reader="John Dee" pagination="232" signature="[Vvv ij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">     <!-- DO: Anchor 'Robertus ... Bacun' -->
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Rogerius, forte aliquid putaret
+                        Rogerius, forte aliquid putaret     <!-- DO: I think there is a grave accent on the 'e' of 'forte'. I think it might be 'aliqui' as there doesn't seem to be enough letters for 'aliquid', but not sure. -->
                     </marginalia_text>
                     <person name="Roger Bacon"/>
                 </position>
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        sed spe post istos annos diu sup[er]vixit et... erat
+                        sed spe post istos annos diu sup[er]vixit et... erat      <!-- DO: My only guess at the missing words would be 'ni verita' as in '(he) was not respected' but why would it be feminine? Could it refer to 'spe'? -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Roger Bacon, perhaps someone who thought, but for his hope survived all these years and...
+                Roger Bacon, perhaps someone who thought, but for his hope survived all these years and...   <!-- DO: As 'spe' is ablative maybe something like '... lived on in hope for all these years'? I think it is maybe just 'perhaps someone thought' without the 'who', but not really sure. -->
             </translation>
         </marginalia>
+        
+        <!-- DO: You can add the emphasis on the parts of the note which have been underlined, though I'm not sure if that's what's happening here... -->
         
     </annotation>
 </transcription>
