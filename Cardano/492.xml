@@ -9,7 +9,7 @@
         <marginalia hand="English_secretary" anchor_text="Cum Luna cum Marte conuenerit">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>&Moon; co[n]venie[n]tia cu[m] aliq[u]o planeta.</marginalia_text>
+                    <marginalia_text>&Moon; co[n]venie[n]tia cu[m] aliq[u]o planeta.</marginalia_text> <!-- FSF: two slashes to be captured as well -->
                     <symbol_in_text name="Moon"/>
                 </position>
             </language>
@@ -28,7 +28,7 @@
         <marginalia hand="English_secretary" anchor_text="ascendant">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>in [secundo] loco</marginalia_text>
+                    <marginalia_text>in [secundo] loco</marginalia_text> <!-- FSF: I'd transcribe as 2&o_super; -->
                 </position>
             </language>
             <translation>In the second place.</translation>
@@ -45,4 +45,3 @@
         
     </annotation>
 </transcription>
-
