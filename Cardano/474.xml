@@ -3,13 +3,13 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="474.tif" reader="John Dee" pagination="[227v]" signature="[LLiij[v]]"/>
+    <page filename="474.tif" reader="John Dee" pagination="[227v]" signature="[LL iij[v]]"/>
     <annotation>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>vide caput 3 &amp; 4. libri de revolutionibus, et libro de Iudicijs 26 cap. sup[ra].</marginalia_text>
+                    <marginalia_text>vide caput 3 &amp; 4. libri de Revolutionibus, et libro de Iudicijs 26 cap. sup[ra].</marginalia_text> <!-- FSF: I read 25 -->
                     <internal_ref>
                         <target ref="RCP7134:184" text="3"/>
                         <target ref="RCP7134:186" text="4"/>
@@ -47,7 +47,7 @@
                     <marginalia_text>Cometes.</marginalia_text>
                 </position>
             </language>
-            <translation>Comets.</translation>
+            <translation>Comets.</translation> <!-- FSF: I think cometes is singular -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="angulo"/>
@@ -58,4 +58,3 @@
         
     </annotation>
 </transcription>
-
