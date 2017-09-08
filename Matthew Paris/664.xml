@@ -6,10 +6,12 @@
     <page filename="664.tif" reader="John Dee" pagination="200" signature="[Rrr iiij[v]]"/>
     <annotation>
         
-        <errata language="LA" copytext="authorite" amendedtext="authoritate"/>      <!-- DO: Circumflex to be tagged -->
-
-
-<!-- DO: I think there are other errata: 'elegendi' to 'eligendi' (line 24), 'accupari' to 'occupari' (line 25) and possibly also 'praecio' -> 'precio' a few lines below this. -->
+        <mark name="circumflex" method="pen" place="intext"/>
+        
+        <errata language="LA" copytext="authorite" amendedtext="authoritate"/> 
+        <errata language="LA" copytext="elegendi" amendedtext="eligendi"/>
+        <errata language="LA" copytext="accupari" amendedtext="occupari"/>
+        <errata language="LA" copytext="pracio" amendedtext="praecio"/>
 
     </annotation>
 </transcription>

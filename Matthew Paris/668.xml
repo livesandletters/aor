@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Walterus, Comes Marescallus [etc]         <!-- DO: It looks like 'Mariscallus' to me (even though the printed text is with an 'e') -->
+                        Walterus, Comes Mariscallus [etc]   
                     </marginalia_text>
                     <person name="Walter Marshal, 5th Earl of Pembroke"/>
                 </position>
@@ -31,8 +31,9 @@
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- VValterus Londoni -->
+        <mark name="circumflex" method="pen" place="intext"/>
         
-        <errata language="LA" copytext="primerentur" amendedtext="premerentur"/>     <!-- DO: The circumflex should also be tagged -->
+        <errata language="LA" copytext="primerentur" amendedtext="premerentur"/>  
         
     </annotation>
 </transcription>
