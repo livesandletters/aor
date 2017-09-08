@@ -6,7 +6,7 @@
     <page filename="723.tif" reader="John Dee" pagination="257" signature="Yyy iij"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'haereticus' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -19,8 +19,11 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Haeresis est sententia humano sensu electa, scripturae factae co[n]traria, palam edocta, pertinaciter defensa"/>
+        <underline method="pen" type="straight" language="LA" text="Haeresis est sententia humano sensu electa, scripturae sacrae co[n]traria"/>
+        <underline method="pen" type="straight" language="LA" text="palam edocta, pertinaciter defensa"/>
         <underline method="pen" type="straight" language="LA" text="Cui autem tota diffinitio haeresis conuenit, haereticus est"/>
+        
+        <!-- DO: I think there is an erratum in line 10 ('gregam' -> 'gregem') -->
         
     </annotation>
 </transcription>
