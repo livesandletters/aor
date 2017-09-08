@@ -6,26 +6,28 @@
     <page filename="698.tif" reader="John Dee" pagination="232" signature="[Vvv ij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">     <!-- DO: Anchor 'Robertus ... Bacun' -->
+        <marginalia hand="Italian" anchor_text="Robertus cognome[n]to Bacun">   
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Rogerius, forte aliquid putaret     <!-- DO: I think there is a grave accent on the 'e' of 'forte'. I think it might be 'aliqui' as there doesn't seem to be enough letters for 'aliquid', but not sure. -->
+                        Rogerius, fort&egrave; aliqui putaret   
                     </marginalia_text>
                     <person name="Roger Bacon"/>
                 </position>
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        sed spe post istos annos diu sup[er]vixit et... erat      <!-- DO: My only guess at the missing words would be 'ni verita' as in '(he) was not respected' but why would it be feminine? Could it refer to 'spe'? -->
+                        sed spe post istos annos diu sup[er]vixit et ..ta erat      <!-- DO: My only guess at the missing words would be 'ni verita' as in '(he) was not respected' but why would it be feminine? Could it refer to 'spe'? -->
                     </marginalia_text>
+                    <emphasis method="pen" type="straight" text="sed"/>
+                    <emphasis method="pen" type="straight" text="istos"/>
                 </position>
             </language>
             <translation>
-                Roger Bacon, perhaps someone who thought, but for his hope survived all these years and...   <!-- DO: As 'spe' is ablative maybe something like '... lived on in hope for all these years'? I think it is maybe just 'perhaps someone thought' without the 'who', but not really sure. -->
+                Roger Bacon, perhaps someone thought, but lived on hope for all these years and ...
             </translation>
         </marginalia>
         
-        <!-- DO: You can add the emphasis on the parts of the note which have been underlined, though I'm not sure if that's what's happening here... -->
+        <underline method="pen" type="dotted" language="LA" text="Robertus"/>
         
     </annotation>
 </transcription>
