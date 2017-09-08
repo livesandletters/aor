@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="490.tif" reader="John Dee" pagination="[235v]" signature="[NNiij[v]]"/>
+    <page filename="490.tif" reader="John Dee" pagination="[235v]" signature="[NN iij[v]]"/>
     <annotation>
         
         <marginalia hand="English_secretary" anchor_text="comitiales">
@@ -18,12 +18,11 @@
         <marginalia hand="English_secretary" anchor_text="Insani; Daemoniaci">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Insani. Daemoniaci.</marginalia_text>
+                    <marginalia_text>Insani. Daemoniaci.</marginalia_text> <!-- FSF: I read Demoniaci -->
                 </position>
             </language>
             <translation>The insane. The possessed.</translation>
         </marginalia>
-        
         
         <marginalia hand="English_secretary" anchor_text="geminorum">
             <language ident="LA">
@@ -45,9 +44,10 @@
             <translation>The separation of the Moon from Mars..</translation>
         </marginalia>
         
+        <!-- FSF: underlinings missing (Mercurium cum Luna impediant; Cumq[ue] luminaria, &amp; Mars, ac Venus, in masculinis) -->
+        
        <mark name="vertical_bar" method="pen" place="right_margin"/>
        <mark name="vertical_bar" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
-
