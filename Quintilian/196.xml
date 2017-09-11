@@ -6,14 +6,14 @@
     <page filename="196.tif" reader="John Dee" pagination="190"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="saepius narrare dixerim nefas, quod Cicero pro Cluentio">
+        <marginalia hand="Italian" anchor_text="Nec saepius narrare dixerim nefas, quod Cicero pro Cluentio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>S[a]epi[us] aliq[ua]n[do] narra[nd]dum est Pro Cluentio.</marginalia_text> <!-- FSF: I'd anchor Nec too because the meaning is not the same otherwise -->
+                    <marginalia_text>S[a]epi[us] aliq[ua]n[do] narra[nd]dum est Pro Cluentio.</marginalia_text>
                     <book title="Pro Cluentio"/>
                 </position>
             </language>
-            <translation>Sometimes more than one narrative is given in 'For Cluentius'/</translation> <!-- FSF: book titles to be given in original -->
+            <translation>Sometimes more than one narrative is given in Pro Cluentio.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="superstione praeceptorum">
@@ -25,21 +25,22 @@
             <translation>Superstitious precepts.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Cur igitur si singula probanda aut refellenda erunt, non singula etiam narrentu?"> <!-- M.B. Not sure of the anchor text? -->
+        <marginalia hand="Italian" anchor_text="Cur igitur si singula probanda aut refellenda erunt, non singula etiam narrentu?">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>A time.</marginalia_text> <!-- FSF: I think this is A fine; an English marginalia would surprise me here -->
+                    <marginalia_text>A fine.</marginalia_text> <!-- M.B. Not sure if this is correct? -->
                 </position>
             </language>
+            <translation>A purpose.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="turpiter conuertuntur, ut si peperisse narres">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ordo narra[ndus] turpis</marginalia_text> <!-- FSF: I am not sure how to expand this here; maybe narra[nd]i? as in the order of narrating? I don't know -->
+                    <marginalia_text>Ordo narra[ndi] turpis</marginalia_text> <!-- FSF: I am not sure how to expand this here; maybe narra[nd]i? as in the order of narrating? I don't know -->
                 </position>
             </language>
-            <translation>Disgraceful order in the story.</translation>
+            <translation>Disgraceful order of narrating.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="falsae expositiones">
