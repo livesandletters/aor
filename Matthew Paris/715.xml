@@ -8,10 +8,12 @@
         
         <underline method="pen" type="straight" language="LA" text="VVallia incuruatur legibus Angliae"/>
         
+        <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="circumflex" method="pen" place="intext"/>
         
-        <!-- DO: A few errata: line 3: 'Memfredus' -> 'Manfredus'; line 6: 'Me[n]fredo' -> 'Ma[n]fred';  line 11: 'enaruat' -> 'eneruat'; line 31: 'Accepitis' -> 'Acceptis'; and the two circumflexes -->
-        
-        
+        <errata language="LA" copytext="Memfredus" amendedtext="Manfredus"/>
+        <errata language="LA" copytext="Me[n]fredo" amendedtext="Ma[n]fred"/>
+        <errata language="LA" copytext="enaruat" amendedtext="eneruat"/>
         
     </annotation>
 </transcription>
