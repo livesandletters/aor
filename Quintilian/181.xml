@@ -43,20 +43,29 @@
                     <book title="Pro Scauro"/>
                 </position>
             </language>
-            <translation>For Scauro</translation> <!-- FSF: original title -->
+            <translation>Pro Scauro</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="pro Rabirio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Pro Rabirio</marginalia_text>
-                    <book title="Pro Rabirio"/>
+                    <book title="Pro Rabirio Posthumo"/>
                 </position>
             </language>
-            <translation>For Rabirius.</translation> <!-- FSF: original title --> 
+            <translation>Pro Rabirio.</translation> 
         </marginalia>
         
-        <!-- FSF: I think you skipped Pr[o] Cenetio -->
+        <marginalia hand="Italian" anchor_text="pro Cluentio">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Pro Clue[n]tio</marginalia_text>
+                    <book title="Pro Cluentio"/>
+                </position>
+            </language>
+            <translation>Pro Cluentio.</translation> 
+        </marginalia>
+        
         
         <marginalia hand="Italian" anchor_text="pro Ligario">
             <language ident="LA">
@@ -65,7 +74,7 @@
                     <book title="Pro Ligario"/>
                 </position>
             </language>
-            <translation>For Ligarius.</translation> <!-- FSF: original title -->
+            <translation>Pro Ligario.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="uulgare">
