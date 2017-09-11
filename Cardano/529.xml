@@ -3,10 +3,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="529.tif" reader="John Dee" pagination="255" signature="SSiij"/>
+    <page filename="529.tif" reader="John Dee" pagination="255" signature="SS iij"/>
     <annotation>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary" anchor_text="possibly anchor Stellae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Ratio cur stell[a]e fixa[e], hic illic in coelo sparga[n]tur.</marginalia_text>
@@ -18,7 +18,7 @@
         <marginalia hand="English_secretary" anchor_text="Iupiter per singulorum annorum motum facit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>&Jupiter; motus zodiacu[m] in [..] partes distingue[n]s</marginalia_text> <!--JG: Can't get word before 'partes'-->
+                    <marginalia_text>&Jupiter; motus zodiacu[m] in [..] partes distingue[n]s</marginalia_text> <!--JG: Can't get word before 'partes'--> <!-- FSF: it looks like an rz to me, but I can't find this abbreviation in the Cappelli -->
                     <symbol_in_text name="Jupiter"/>
                 </position>
             </language>
@@ -37,7 +37,7 @@
         <marginalia hand="English_secretary" anchor_text="Sationes in Solis distantia in Saturno quidem faltem 108">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Stationes PL[...] pro exemplo vide in ephemeride illa 1532. in februario saturni statione[m] a solis loca distare gradus 108 [etc].</marginalia_text> <!--JG: Unsure-->
+                    <marginalia_text>Stationes PL[...] pro exemplo vide in ephemeride illa 1532. in februario saturni statione[m] a solis loca distare gradus 108 [etc].</marginalia_text> <!--JG: Unsure--> <!-- FSF: could it be an abbreviation for some form of planeta? -->
                 </position>
             </language>
             <translation>The stations [...], for example see in that ephemeris, February 1532, that the station of Saturn stands apart 108 degrees from the sun, et cetera.</translation>
@@ -60,4 +60,3 @@
         
     </annotation>
 </transcription>
-

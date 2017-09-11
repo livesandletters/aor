@@ -6,10 +6,10 @@
     <page filename="534.tif" reader="John Dee" pagination="[257v]" signature="[TT[v]]"/>
     <annotation>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary"> <!-- FSF: anchor Ptolomaeo -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ptoloma[e]us enim Isagagem tantum scripsit, non absolutos commentarios.</marginalia_text>
+                    <marginalia_text>Ptoloma[e]us enim Isagogem tantum scripsit, no[n] absolutos commentarios.</marginalia_text>
                     <person name="Ptolemy"/>
                 </position>
             </language>
@@ -19,7 +19,7 @@
         <marginalia hand="English_secretary" anchor_text="inclinat ad coniugium">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Revolutio de coniugio.</marginalia_text>
+                    <marginalia_text>Revolutio. de coniugio.</marginalia_text>
                 </position>
             </language>
             <translation>The revolution of a close connection.</translation>
@@ -46,6 +46,8 @@
         <underline method="pen" type="straight" language="LA" text="domini loci noni"/>
         <underline method="pen" type="straight" language="LA" text="si in ipso loco nono"/>
         <underline method="pen" type="straight" language="LA" text="Saturnus haereticum"/>
+        
+        <!-- FSF: there is a circumflex in the third last line -->
         
     </annotation>
 </transcription>
