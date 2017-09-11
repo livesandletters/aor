@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="496.tif" reader="John Dee" pagination="[238v]" signature="[OOij[v]]"/>
+    <page filename="496.tif" reader="John Dee" pagination="[238v]" signature="[OO ij[v]]"/>
     <annotation>
         
         <marginalia hand="English_secretary" anchor_text="Sol publicam mortem ut decernit ferro uel igne, sic Luna suspendium">
@@ -23,7 +23,7 @@
                     <marginalia_text>Notai fixis stellis qu[a]e insit vis, et radijs planetarum</marginalia_text>
                 </position>
             </language>
-            <translation>The force which may be in the sign for the fixed stars and the rays of the planets.</translation> <!--JG: Unsure, I find the Latin slightly odd here-->
+            <translation>The force which may be in the sign for the fixed stars and the rays of the planets.</translation> <!--JG: Unsure, I find the Latin slightly odd here --> <!-- FSF: I am not sure either -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="locum interfectoris">
@@ -32,7 +32,7 @@
                     <marginalia_text>Locus interfectoris qua[m] difficulter invenatur.</marginalia_text>
                 </position>
             </language>
-            <translation>The place of the murderer, how it may be discovered with difficulty.</translation> <!--JG: Unsure abt invenatur-->
+            <translation>The place of the murderer, how it may be discovered with difficulty.</translation> <!--JG: Unsure abt invenatur--> <!-- FSF: I think it is inveniatur -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Sol publicam mortem ut decernit ferro uel igne, sic Luna suspendium">
@@ -64,7 +64,11 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         
+        <!-- FSF: there is a comma added in paragraph 105 between mors and uiolenta -->
+        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        
+        <!-- FSF: there is a florilegium after the 108 -->
         
     </annotation>
 </transcription>

@@ -15,12 +15,12 @@
             <translation>The directions of the signifiers, in their own indications.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary"> <!-- FSF: possibly anchor from Venere[m] aute[m] to ac gaudia -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Debes aliter ha[e]c co[n]siderare q[uam] hic unde proponuntur / quonia[m] / si directio pessimia et mortifera
                     venere[m] feriret, an nu[n]c, soror, filia[e] vxor [etc] pessim&egrave; se habebunt? imo potius [Alma[n]te] significatoru[m] o[mn]i[u]m <!--JG: V unsure abt 'Almante' Ablative of Almansor, going together w/ potius?-->
-                    super vna re directiones istas recipiet. vide igitur sup[ra] fo 26. et 84.v. et 86.v. in [...]. Intelligit, pro tempore considerandos esse
+                    super vna re directiones istas recipiet. vide igitur sup[ra] fo 26. et 84.v. et 86.v. in [...]. Intelligit, pro tempore considerandos esse <!-- FSF: I read in fine for the missing word -->
                     horu[m] locoru[m] dispositiones et dominos.</marginalia_text>
                     <internal_ref>
                         <target ref="RCP7134:070" text="26"/>
@@ -65,9 +65,12 @@
         <underline method="pen" type="straight" language="LA" text="Quia uero difficilie fuit hoc scire"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        
         <mark name="comma" method="pen" place="intext"/> <!--in qua-->
         <mark name="comma" method="pen" place="intext"/> <!--apparet inspicimus-->
+                
+        <!-- FSF: there is an eratum: propriae to proprie in paragraph 137-->
+        
+        <!-- FSF: I think there is a tripunctus above the underlined non -->
         
     </annotation>
 </transcription>

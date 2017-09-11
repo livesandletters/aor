@@ -36,7 +36,7 @@
         <marginalia hand="English_secretary" anchor_text="Luna in Solis opposito">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Adeo q[uam] semp[e]r dum sint retrogradi pertinaces faciu[n]t.</marginalia_text>
+                    <marginalia_text>adeo q[uam] semp[e]r dum sint retrogradi pertinaces faciu[n]t.</marginalia_text> <!-- FSF: I think the second word is q[uod] -->
                 </position>
             </language>
             <translation>Indeed, how they are always made to retrograde while they are obstinate.</translation>
@@ -61,11 +61,11 @@
         <underline method="pen" type="straight" language="LA" text="retrogradari"/>
         <underline method="pen" type="straight" language="LA" text="retrogradantur, ad Solis"/>
         <underline method="pen" type="straight" language="LA" text="cum uero"/>
-        <underline method="pen" type="straight" language="LA" text="Luna in Solis opposito, perpetuas declarat contentiones, claraq[ue] facta"/>
-        <underline method="pen" type="straight" language="LA" text="matutine extiterint, uel orientales uespertini"/>
+        <underline method="pen" type="straight" language="LA" text="Luna in Solis opposito, perpetuas declarat contentiones, clara'q[ue] facta"/>
+        <underline method="pen" type="straight" language="LA" text="matutini extiterint, uel orientales uespertini"/>
         <underline method="pen" type="double" language="LA" text="possunt enim sed non perficiu[n]t"/>
         
-        <symbol name="Venus" place="right_margin"/>
+        <symbol name="Venus" place="right_margin"/> <!-- FSF: they could be anchored -->
         <symbol name="Mercury" place="right_margin"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
@@ -78,6 +78,7 @@
         <numeral place="intext" language="LA" text="circuli parui retrogradantes">5</numeral>
         <numeral place="intext" language="LA" text="post oppositione[m]">6</numeral>
         
+        <!-- FSF: in paragraph 7 there are numbers again, 1-6 -->
+        
     </annotation>
 </transcription>
-
