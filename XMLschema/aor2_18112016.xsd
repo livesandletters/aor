@@ -212,8 +212,7 @@
     <xs:attribute name="origin">
       <xs:simpleType>
         <xs:restriction base="xs:token">
-          <xs:enumeration value="inserted"/>
-          <xs:enumeration value="separate"/>
+          <xs:enumeration value="added"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -222,6 +221,7 @@
         <xs:restriction base="xs:token">
           <xs:enumeration value="floating"/>
           <xs:enumeration value="fixed"/>
+          <xs:enumeration value="separated"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
