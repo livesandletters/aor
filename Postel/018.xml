@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="018.tif" reader="John Dee" pagination="12" signature="[a6[v]]"/>
-    
-    
+    <page filename="018.tif" reader="John Dee" pagination="12" signature="[a 6[v]]"/> <!-- FSF: since the pagination identifies the page, I wouldn't put the signature here-->
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Vitis patru[m]">
             <language ident="LA">
@@ -20,7 +16,6 @@
             <translation>The Vitae Patrum.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Syrictae">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -31,15 +26,11 @@
             <translation>The Syrictae.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="si sunt ut ferunt"/>
         <underline method="pen" type="straight" language="LA" text="De Satyris"/>
         <underline method="pen" type="straight" language="LA" text="De Cynocefalis"/>
         <underline method="pen" type="straight" language="LA" text="Alali"/>
         <underline method="pen" type="straight" language="LA" text="Syrictae"/>
         
-        
-        
-    </annotation>
-    
+    </annotation>  
 </transcription>

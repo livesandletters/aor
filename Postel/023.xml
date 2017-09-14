@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="023.tif" reader="John Dee" pagination="17" signature="b"/>
-    
-    
     <annotation>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -19,7 +15,6 @@
             <translation>Note.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -27,9 +22,8 @@
                     <person name="Moses"/>
                 </position>
             </language>
-            <translation>The tablets of Moses.</translation>    <!-- DO: I'm assuming this is what it means but 'Moseos' and 'Tabulae' don't seem to agree? -->
+            <translation>The tablets of Moses.</translation>    <!-- DO: I'm assuming this is what it means but 'Moseos' and 'Tabulae' don't seem to agree? --> <!-- FSF: I think this is fine; but you can anchor in Moseos tabulis -->
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -40,7 +34,6 @@
             </language>
             <translation>Solomon.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="sculpturae genera"/>
         <underline method="pen" type="straight" language="LA" text="in atomo temporis"/>
@@ -53,16 +46,10 @@
         <underline method="pen" type="double" language="LA" text="ipsum naturae dominium"/>
         <underline method="pen" type="double" language="LA" text="necessari&ograve; mobilis"/>
         
-        
         <mark name="bracket" method="pen" place="right_margin"/>
-        
         <mark name="equal_sign" method="pen" place="right_margin"/>  <!-- facultas -->
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- potentias in -->
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- nequam ista -->
         
-        
     </annotation>
-    
 </transcription>
