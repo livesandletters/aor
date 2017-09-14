@@ -6,6 +6,8 @@
     <page filename="176.tif" reader="John Dee" pagination="170" signature="[l 5[v]]"/> 
         <annotation>
             
+            <!-- M.B. The underlined Greek diacritics should be checked before this is finalised. -->
+            
             <marginalia hand="Italian" anchor_text="Homerus atq[ue] Vergilius">
                 <language ident="LA">
                     <position place="left_margin" book_orientation="0">
@@ -24,7 +26,7 @@
                         <book title="Pro Cluentio"/>
                     </position>
                 </language>
-                <translation>For Cluentius.</translation> <!-- FSF: I'd put the title as it is tagged -->
+                <translation>Pro Clunetio.</translation>
             </marginalia>
             
             <marginalia hand="Italian" anchor_text="Pro ligario">
@@ -34,7 +36,7 @@
                         <book title="Pro Ligario"/>
                     </position>
                 </language>
-                <translation>For Ligarius.</translation> <!-- FSF: see above -->
+                <translation>Pro Ligario.</translation>
             </marginalia>
             
             <marginalia hand="Italian" anchor_text="Pro Caelio">
@@ -44,26 +46,19 @@
                         <book title="Pro Caleio"/>
                     </position>
                 </language>
-                <translation>For Caelius.</translation> <!-- FSF: see above -->
-            </marginalia>
-            
-            <marginalia hand="Italian">
-                <language ident="LA">
-                    <position place="left_margin" book_orientation="0">
-                        <marginalia_text>.S.</marginalia_text> <!-- M..B Not sure what this 's' signifies if this is a paragraph symbol or something else? --> <!-- FSF: isn't that an est abbreviation? not sure though -->
-                    </position>
-                </language>
-                <translation></translation>
+                <translation>Pro Caleio.</translation>
             </marginalia>
             
             <underline method="pen" type="straight" language="LA" text="Id tame[n] totum respondenti facilius est, qu&agrave;m prope[n]ti, quia h&icirc;c admonendus"/>
             <underline method="pen" type="straight" language="LA" text="imminuenda quaedam &amp; leuanda, &amp; quasi contemnenda esse consentio ad remittendam intentionem iudicis, quam
                  aduersario praestat, ut fecit pro Ligario"/>
-            <underline method="pen" type="straight" language="LA" text="ἔνδoξoν"/> <!-- FSF: all of those need to be tagged as Greek -->
-            <underline method="pen" type="straight" language="LA" text="ἄδoξoν"/>
-            <underline method="pen" type="straight" language="LA" text="ἀμϕίδoξoν"/>
-            <underline method="pen" type="straight" language="LA" text="παράδoξoν"/>
-            <underline method="pen" type="straight" language="LA" text="δυσπαρακoλoύθητoν"/>
+            <underline method="pen" type="straight" language="EL" text="ἔνδoξoν"/>
+            <underline method="pen" type="straight" language="EL" text="ἄδoξoν"/>
+            <underline method="pen" type="straight" language="EL" text="ἀμϕίδoξoν"/>
+            <underline method="pen" type="straight" language="EL" text="παράδoξoν"/>
+            <underline method="pen" type="straight" language="EL" text="δυσπαρακoλoύθητoν"/>
+            
+            <mark name="est_mark" method="pen" place="left_margin"/>
             
         </annotation>
 </transcription>
