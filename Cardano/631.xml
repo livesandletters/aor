@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="631.tif" reader="John Dee"  pagination="306" signature="hhhij"/>
+    <page filename="631.tif" reader="John Dee" pagination="306" signature="hhh ij"/>
     <annotation>
         
         <marginalia hand="English_secretary" anchor_text="Mars est in linea finitoris ascendentis, erit magnus, ac in professione sua inuictus">
@@ -30,7 +30,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>&Moon; cu[m] corde &Scorpio;</marginalia_text>
-                    <symbol_in_text name="Moon"/>
+                    <symbol_in_text name="Moon"/> <!-- FSF: scorpio to be added -->
                 </position>
             </language>
             <translation>The Moon with the hear of Scorpio.</translation>
@@ -39,7 +39,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>vllo modo vtit[u]r Schonerus [pro] Libro de Judicijs.</marginalia_text> <!--JG: Unsure about 'pro'-->
+                    <marginalia_text>vllo modo vtit[u]r Schonerus [pro] Libro de Judicijs.</marginalia_text> <!--JG: Unsure about 'pro'--> <!-- FSF: not sure either, but this makes sense -->
                     <person name="Johannes Schoner"/>
                     <book title="De iudicijs Natiuitatum libri tres"/>
                 </position>
@@ -54,7 +54,7 @@
                     <symbol_in_text name="Square"/>
                 </position>
             </language>
-            <translation>Let me have such a square in my geniture.</translation>
+            <translation>Let me have such a square in my geniture.</translation> <!-- FSF: I'd translate as I have had such... -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="coniugium">
@@ -68,8 +68,8 @@
         
         <underline method="pen" type="straight" language="LA" text="status declarat, eum futurum omnibus notum, ut"/>
         <underline method="pen" type="straight" language="LA" text="ac in maximis rebus uersaturum"/>
-        <underline method="pen" type="straight" language="LA" text="ascendentis, erit magnus, ac in professione sua inuictus, est autem"/>
-        <underline method="pen" type="straight" language="LA" text="sua professio"/>
+        <underline method="pen" type="straight" language="LA" text="ascendentis, erit magnus, ac in professione sua inuictus, est autem"/> <!-- FSF: I read profe&sharp-S;ione -->
+        <underline method="pen" type="straight" language="LA" text="sua professio"/> <!-- FSF: I read profe&sharp-S;io -->
         <underline method="pen" type="straight" language="LA" text="in carceribus, &amp; ex hoc potest uersificari exquisitum"/>
         <underline method="pen" type="straight" language="LA" text="quia Venus est in coeli medio, significat in quadrato Martis, multa &amp; magna circa actus Venereos"/>
         

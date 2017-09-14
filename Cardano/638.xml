@@ -3,13 +3,14 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="638.tif" reader="John Dee"  pagination="[309v]"/>
+    <page filename="638.tif" reader="John Dee" pagination="[309v]"/>
     <annotation>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Anne Cumpton. nata anno 1523 18 martij mane valde. Ascendit illi finis &Mars; 28. Vxor secunda W.H.</marginalia_text>
+                    <marginalia_text>Anne Cumpton. nata anno 1523 18 martij mane valde. Ascendit illi finis &Mars; 28. Vxor secunda W.H.</marginalia_text> 
+                    <!-- FSF: I can't see a full stop, I think it is bleed trhoguh from the previous page and ascendit is not capitalised -->
                     <symbol_in_text name="Mars"/>
                     <person name="Anne Compton"/>
                     <person name="William Herbert"/>
@@ -17,7 +18,6 @@
             </language>
             <translation>Anne Cumpton, born on March 18, 1523, very early in the morning. The end rose to her, Mars 28. The second wife of William Herbert.</translation> <!--JG: Very unsure, esp. about Ascendit illi finis &Mars; 28 -->
         </marginalia>
-        
-        
+
     </annotation>
 </transcription>
