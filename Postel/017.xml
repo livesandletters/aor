@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="017.tif" reader="John Dee" pagination="11" signature="[a6]"/>
-    
-    
+    <page filename="017.tif" reader="John Dee" pagination="11" signature="[a 6]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="di">
+        <marginalia hand="Italian" anchor_text="di"> <!-- FSF: I think this is again one of those cases, where I would go for an erratum rather than a marginal note -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>id</marginalia_text>
@@ -18,18 +15,12 @@
             <translation>It.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="est spoliare Aegyptios, id est, humanitatis authores: ut nil illis relinquam"/>
         <underline method="pen" type="straight" language="LA" text="si extent"/>
-        <underline method="pen" type="straight" language="LA" text="syluestres &amp; marini"/>
+        <underline method="pen" type="straight" language="LA" text="syluestres &amp; marini"/> <!-- FSF: I'd make this two -->
         
-        
-        <errata language="LA" copytext="ue" amendedtext="[deleted]"/>   <!-- DO: Not really sure what this is -->
-        
+        <errata language="LA" copytext="ue" amendedtext="[deleted]"/>   <!-- DO: Not really sure what this is --> <!-- FSF: this is just crossed out with two slashes; the one below is meant to be id -->
         <errata language="LA" copytext="di" amendedtext="[deleted]"/>
         
-        
-        
     </annotation>
-    
 </transcription>

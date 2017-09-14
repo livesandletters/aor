@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="015.tif" reader="John Dee" pagination="9" signature="a5"/>
-    
-    
+    <page filename="015.tif" reader="John Dee" pagination="9" signature="a 5"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Ismaelitae">
             <language ident="LA">
@@ -20,7 +16,6 @@
             <translation>Ishmaelites.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Zohar">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -30,7 +25,6 @@
             </language>
             <translation>The Zohar book.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="autem Ismaelitae"/>
         <underline method="pen" type="straight" language="LA" text="Ismael"/>
@@ -42,10 +36,9 @@
         <underline method="pen" type="straight" language="LA" text="proxim&egrave; exacto ex Chaldaeis"/>
         <underline method="pen" type="straight" language="LA" text="omnia notat"/>
         
-        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
+        <!-- FSF: there is an erratum in the middle of the page on the right, split over two lines (receceptae to receptae) -->
         
     </annotation>
-    
 </transcription>
