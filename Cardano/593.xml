@@ -3,13 +3,18 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="593.tif" reader="John Dee"  pagination="287" signature="ccciij"/>
+    <page filename="593.tif" reader="John Dee" pagination="287" signature="ccc iij"/>
     <annotation>
+        
+        <!-- FSF: on page 590 there is an erratum (Sol > sole) -->
+        
+        <!-- FSF: not sure if on page 591 there is an erratum in the second last line (Naec > Haec) -->
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Co[n]trariu[m] sensu[m] tuetur in [??] in Ptoloma[e]um.</marginalia_text> <!--JG: Don't know this abbreviation/contraction-->
+                    <marginalia_text>Co[n]trariu[m] sensu[m] tuetur in [??] in Ptoloma[e]um.</marginalia_text> <!--JG: Don't know this abbreviation/contraction--> 
+                    <!-- FSF: it looks like ro or co; ro would be r[ati]o, which doesn't work with the in before, so it must be co, but I don't know what it could be -->
                     <person name="Ptolemy"/>
                 </position>
             </language>
@@ -19,7 +24,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Vt no[n] [est].</marginalia_text> <!--JG: Not sure-->
+                    <marginalia_text>Vt no[n] [est].</marginalia_text> <!--JG: Not sure--> <!-- FSF: maybe more like su[n]t -->
                 </position>
             </language>
             <translation>As it is not.</translation>
@@ -28,7 +33,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Co[n]tra [diat] infra aph. 118</marginalia_text> <!--JG: Unsure abt 'diat'-->
+                    <marginalia_text>Co[n]tra [diat] infra aph. 118</marginalia_text> <!--JG: Unsure abt 'diat'--> <!-- FSF: I think it is dicit -->
                     <internal_ref>
                         <target ref="RCP7134:604" text="118"/>
                     </internal_ref>
