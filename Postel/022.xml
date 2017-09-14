@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="022.tif" reader="John Dee" pagination="16" signature="[a8[v]]"/>
-    
-    
+    <page filename="022.tif" reader="John Dee" pagination="16" signature="[a8[v]]"/> <!-- FSF: since the pagination identifies the page, I wouldn't put the signature here-->
     <annotation>
         
         <marginalia hand="Italian" anchor_text="angeli">
@@ -18,7 +15,6 @@
             <translation>Angels.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="ex solo uoto">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -28,16 +24,14 @@
             <translation>Out of devotion alone.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="angelos hominis imperio aut uoluntate">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Angelorum opera ad homi[nis] volu[n]tate[m]</marginalia_text>  <!-- DO: Not sure about 'opera' -->
+                    <marginalia_text>Angelorum opera ad homi[nis] volu[n]tate[m]</marginalia_text>  <!-- DO: Not sure about 'opera' --> <!-- FSF: looks good to me -->
                 </position>
             </language>
             <translation>The work of the angels for the will of man.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="in Christo"/>
         <underline method="pen" type="straight" language="LA" text="in Iesu pollere"/>
@@ -46,7 +40,7 @@
         <underline method="pen" type="straight" language="LA" text="uestigia contactuum Christi"/>
         <underline method="pen" type="straight" language="LA" text="impre&sharp-S;is in saxo"/>
         <underline method="pen" type="straight" language="LA" text="ipsi angeli non poterant"/>
-        <underline method="pen" type="straight" language="LA" text="literas characteresq[ue] perfecti&sharp-S;imos &amp; Deo doctore"/>
+        <underline method="pen" type="straight" language="LA" text="literas characteres'q[ue] perfecti&sharp-S;imos &amp; Deo doctore"/>
         <underline method="pen" type="straight" language="LA" text="me[n]ti insculptos adesse"/>
         <underline method="pen" type="double" language="LA" text="ex solo uoto"/>
         <underline method="pen" type="straight" language="LA" text="daemones &amp; angelos"/>
@@ -54,14 +48,9 @@
         <underline method="pen" type="straight" language="LA" text="uoluntate"/>
         <underline method="pen" type="double" language="LA" text="impulsos exarasse uaria"/>
         
-        
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        
-        
     </annotation>
-    
 </transcription>
