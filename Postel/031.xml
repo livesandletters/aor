@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="031.tif" reader="John Dee" pagination="25" signature="b5"/>
-    
-    
+    <page filename="031.tif" reader="John Dee" pagination="25" signature="b 5"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Multo uer&ograve; maior differentia est inter capitales, ueraeq[ue] formae Hebraicae characteres">
+        <marginalia hand="Italian" anchor_text="Multo uer&ograve; maior differentia est inter capitales, uerae'q[ue] formae Hebraicae characteres">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Vera hebra[icae] litera[e] capita[les]</marginalia_text>  <!-- DO: Looks more like 'capica' though -->
+                    <marginalia_text>Vera hebra[icae] litera[e] capita[les]</marginalia_text>  <!-- DO: Looks more like 'capica' though --> <!-- FSF: but I think this is fine -->
                 </position>
             </language>
             <translation>True Hebrew capital letters.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="hodie sub Chaldaica aut Maronitica, seu mo[n]tis Lybani &amp; Christianorum de Zona">
             <language ident="LA">
@@ -31,13 +27,12 @@
             <translation>{ Maronite, Chaldaean, of Mount Lebanon,  </translation>    <!-- DO: I can't find the 'Christianorum de Zona' -->
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="constat tribus lineis, duabus in suo circulo"/>
         <underline method="pen" type="straight" language="LA" text="una recta ad nos prote[n]sa"/>
         <underline method="pen" type="straight" language="LA" text="&amp; abscondita"/>
         <underline method="pen" type="straight" language="LA" text="sint eadem"/>
         <underline method="pen" type="straight" language="LA" text="capitales"/>
-        <underline method="pen" type="double" language="LA" text="ueraeq[ue] formae"/>
+        <underline method="pen" type="double" language="LA" text="uerae'q[ue] formae"/>
         <underline method="pen" type="straight" language="LA" text="minusculas &amp; Arabicam"/>
         <underline method="pen" type="straight" language="LA" text="tachygrafia[m] ab"/>
         <underline method="pen" type="straight" language="LA" text="Chaldaica aut Maronitica"/>
@@ -46,14 +41,9 @@
         <underline method="pen" type="straight" language="LA" text="uetus &amp; nouum Testamentum"/>
         <underline method="pen" type="straight" language="LA" text="praeter Alcoranum"/>
         
-        
         <mark name="bracket" method="pen" place="right_margin"/>
             
-        
-        
-        <!-- DO: Drawing in right margin and not sure what the markings are in the left margin -->
-        
+        <!-- DO: Drawing in right margin and not sure what the markings are in the left margin --> <!-- FSF: I have seen it before and have made it a florilegium then -->
         
     </annotation>
-    
 </transcription>

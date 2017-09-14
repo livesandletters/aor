@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="027.tif" reader="John Dee" pagination="21" signature="b3"/>
-    
-    
+    <page filename="027.tif" reader="John Dee" pagination="21" signature="b 3"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="apiculos">
             <language ident="LA">
@@ -16,9 +12,8 @@
                     <marginalia_text>Iod extra apiculis</marginalia_text>
                 </position>
             </language>
-            <translation>Yod outside</translation>    <!-- DO: Not sure how to translate 'apiculis' -->
+            <translation>Yod outside</translation>    <!-- DO: Not sure how to translate 'apiculis' --> <!-- FSF: not sure either --> 
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Zohare">
             <language ident="LA">
@@ -30,7 +25,6 @@
             <translation>Zohar.</translation>   
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="quaedam sententiae"/>
         <underline method="pen" type="straight" language="LA" text="complexa"/>
         <underline method="pen" type="straight" language="LA" text="literae maiores"/>
@@ -38,23 +32,17 @@
         <underline method="pen" type="straight" language="LA" text="quae iota est"/>
         <underline method="pen" type="straight" language="LA" text="effectus scripturae finaliter considerandus &amp; expectandus"/>
         <underline method="pen" type="straight" language="LA" text="materiae &amp; formae"/>
-        <underline method="pen" type="straight" language="LA" text="legaliq[ue] consideratione"/>
+        <underline method="pen" type="straight" language="LA" text="legali'q[ue] consideratione"/>
         <underline method="pen" type="straight" language="LA" text="ipsos apiculos tres quibus constat"/>
         <underline method="pen" type="straight" language="LA" text="in Zohare"/>
         <underline method="pen" type="straight" language="LA" text="patres spiritu Mosis illuminati, aiunt tres aspices esse circa unitatem ipsius iod, tanquam tres patres in"/>
         
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- possint antequam -->
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- implea[n]tur intercidere -->
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- sunt apices -->
-        
         <mark name="tripunctus" method="pen" place="right_margin"/>
-        
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
     </annotation>
-    
 </transcription>
