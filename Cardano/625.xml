@@ -3,19 +3,21 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="625.tif" reader="John Dee"  pagination="303" signature="gggiij"/>
+    <page filename="625.tif" reader="John Dee" pagination="303" signature="ggg iij"/>
     <annotation>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>&Venus; in decimia Retrograda, &Saturn; p[ro]pt[er] Quartu[m], Retrogradus } [etc]</marginalia_text>
+                    <marginalia_text>&Venus; in decimia Retrograda, &Saturn; p[ro]pt[er] Quartu[m], Retrogradus } [etc]</marginalia_text> <!-- FSF: I am not sure if it is p[ro]p[t]e[r] or p[ro]pe -->
                     <symbol_in_text name="Venus"/>
                     <symbol_in_text name="Saturn"/>
                 </position>
             </language>
             <translation>Venus in the tenth retrograde, Saturn near the fourth, retrograde, et cetera.</translation>
         </marginalia>
+        
+        <!-- FSF: Dee changed the astrological chart; he deleted Mercury:18: and moved it right -->
         
     </annotation>
 </transcription>

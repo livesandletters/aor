@@ -3,10 +3,10 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="626.tif" reader="John Dee"  pagination="[303v]" signature="[gggiij[v]]"/>
+    <page filename="626.tif" reader="John Dee" pagination="[303v]" signature="[ggg iij[v]]"/>
     <annotation>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary"> <!-- FSF: I think this is from another note, which Dee accidentally continued onto this page -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text></marginalia_text> <!--JG: Unclear-->
@@ -33,6 +33,8 @@
         </marginalia>
         
         <errata language="LA" copytext="[Mars] 4.45" amendedtext="[Mars] 4.45"/> <!--JG: Really tricky to capture such 'visual' modifications-->
+        
+        <!-- FSF: Dee added the bracket below the chart, next to the list -->
         
     </annotation>
 </transcription>
