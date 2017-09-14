@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="627.tif" reader="John Dee"  pagination="304"/>
+    <page filename="627.tif" reader="John Dee" pagination="304"/>
     <annotation>
         
         <marginalia hand="English_secretary">
@@ -20,7 +20,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>&Moon; in [septima] [da] hora[e] casus</marginalia_text> <!--JG: Unsure about the word before 'horae'-->
+                    <marginalia_text>&Moon; in [septima] [da] hora[e] casus</marginalia_text> <!--JG: Unsure about the word before 'horae'--> <!-- FSF: could it be a do as an abbreviation for domu?; horae is right, I think -->
                     <symbol_in_text name="Moon"/>
                 </position>
             </language>
@@ -36,7 +36,7 @@
                     <symbol_in_text name="Mercury"/>
                 </position>
             </language>
-            <translation>The Sun, Venus, and Mercury in the eight [place].</translation>
+            <translation>The Sun, Venus, and Mercury in the eight [place].</translation> <!-- FSF: I'd say house -->
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -45,13 +45,13 @@
                     <marginalia_text>Asce[n]dit [octava] revolutio[n]is </marginalia_text>
                 </position>
             </language>
-            <translation>The eight of the revolution ascends.</translation> <!--JG: Unsure-->
+            <translation>The eight of the revolution ascends.</translation> <!--JG: Unsure--> <!-- FSF: could something like domus be omitted? -->
         </marginalia>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>&Mercury;; o[mn]i tempore infortunatus erat.</marginalia_text>
+                    <marginalia_text>&Mercury; o[mn]i tempore infortunatus erat.</marginalia_text>
                     <symbol_in_text name="Mercury"/>
                 </position>
             </language>
@@ -62,7 +62,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>D[omi]na as. sub [re] radijs &Sun; ad [i]nfort[unit]ate[m] &Mercury;i.</marginalia_text> <!--JG: Unsure about 're' and 'infortunitatem'-->
-                    <symbol_in_text name="Mercury"/>
+                    <symbol_in_text name="Mercury"/> <!-- FSF: sun to be captured too -->
                 </position>
             </language>
             <translation>The lady of the ascendant under the [..] rays of the Sun towards the misfortune of Mercury.</translation>
@@ -71,7 +71,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Signa inter[...] et mortis hoc anno. Octava radicis, as.</marginalia_text>
+                    <marginalia_text>Signa inter[...] et mortis hoc anno. Octava radicis, as.</marginalia_text> <!-- FSF: I think it is Infortunij; I think it is lower case o in octava -->
                 </position>
             </language>
             <translation>The signs of [...] and death in this year. The eigth of the root, [ascendant].</translation>
@@ -100,7 +100,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>&Square; &Moon; et &Sun; et &Moon; in sublimi loco</marginalia_text>
+                    <marginalia_text>&Square; &Moon; et &Sun; et &Moon; in sublimi loco</marginalia_text> <!-- FSF: aren't in sublimi deleted? -->
                     <symbol_in_text name="Square"/>
                     <symbol_in_text name="Moon"/>
                     <symbol_in_text name="Sun"/>
@@ -143,7 +143,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>&Mars; cadit in &Square;o radicalis veneris.</marginalia_text>
+                    <marginalia_text>&Mars; cadit in &Square;o radicalis veneris.</marginalia_text> <!-- FSF: o could be captured as superscript o -->
                     <symbol_in_text name="Mars"/>
                     <symbol_in_text name="Square"/>
                 </position>
@@ -154,7 +154,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>&Aquarius; etia[m] signu[m] profectionate est, et [octavii] radicis.</marginalia_text> <!--JG: Unsure about prot/fectionate..-->
+                    <marginalia_text>&Aquarius; etia[m] signu[m] profectionate est, et [octavii] radicis.</marginalia_text> <!--JG: Unsure about prot/fectionate..--> <!-- FSF: Not sure about the ending nor which one it is -->
                     <symbol_in_text name="Aquarius"/>
                 </position>
             </language>
@@ -168,7 +168,7 @@
                     <symbol_in_text name="Moon"/>
                 </position>
             </language>
-            <translation>The squared [?] of the place of the root of the Moon ascends in eight.</translation> <!--JG: Very unsure-->
+            <translation>The squared [?] of the place of the root of the Moon ascends in eight.</translation> <!--JG: Very unsure--> <!-- FSF: I don't understand this -->
         </marginalia>
         
         <table type="astrological_chart" place="tail"> <!--JG: How to capture the fact that Dee deleted this table??-->
@@ -289,9 +289,8 @@
             </text>
             <symbol_in_text name="Sun"/>
             <translation>The true revolution. 5 hours in the morning, 27 minutes, 20 seconds. With the true supposed positions of its planets.
-            The true ascendant, the Sun, 345.40 towards pole 45.</translation> <!--JG: Completely at a loss with what Dee means from 'as' onwards-->
+            The true ascendant, the Sun, 345.40 towards pole 45.</translation> <!--JG: Completely at a loss with what Dee means from 'as' onwards--> <!-- FSF: no idea -->
         </table>
-        
         
     </annotation>
 </transcription>
