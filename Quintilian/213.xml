@@ -6,6 +6,8 @@
     <page filename="213.tif" reader="John Dee" pagination="207"/> 
     <annotation>
         
+        <!-- M.B. Greek should be checked before being finalised. -->
+        
         <marginalia hand="Italian" anchor_text="Ideoq[ue] illas ἀτέχνoυς, id est, inartificiales, has ἐντέχνoυς, id est, artificiales uocaueru[n]t">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -69,7 +71,7 @@
                     <marginalia_text>Quibus pra[e]indicia co[n]firmant[ur]</marginalia_text>
                 </position>
             </language>
-            <translation>Having been particularly confirmed.</translation> <!-- FSF: maybe more like: By these precedents are confirmed  -->
+            <translation>By these precedents are confirmed.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Refelleuntur">
@@ -78,7 +80,7 @@
                     <marginalia_text>Quibus refellunt[ur]</marginalia_text>
                 </position>
             </language>
-            <translation>Having been refuted.</translation> <!-- FSF: maybe more lie: by these refuted. -->
+            <translation>By these refuted.</translation>
         </marginalia>
 
         <underline method="pen" type="straight" language="LA" text="rebus"/>
