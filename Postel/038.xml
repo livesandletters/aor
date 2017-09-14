@@ -1,31 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="038.tif" reader="John Dee" pagination="32" signature="[b8[v]]"/>
-    
-    
+    <page filename="038.tif" reader="John Dee" pagination="32" signature="[b8[v]]"/> <!-- FSF: since the pagination identifies the page, I wouldn't put the signature here-->
     <annotation>
-        
         
         <underline method="pen" type="double" language="LA" text="matre" id="RCP10601:038:u0001"/>
         <underline method="pen" type="double" language="LA" text="matre" id="RCP10601:038:u0002"/>
         <underline method="pen" type="straight" language="LA" text="monetam"/>
         
-        
         <physical_link>
-            
             <marginal_annotation idref="RCP10601:038:u0001"/>
             <marginal_annotation idref="RCP10601:038:u0002"/>
-            
             <relation from="RCP10601:038:u0001" to="RCP10601:038:u0002" type="undirected"/>
-            
         </physical_link>
         
-        
-        
     </annotation>
-    
 </transcription>
