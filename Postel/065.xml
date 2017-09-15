@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="065.tif" reader="John Dee" pagination="59" signature="[d6]"/>
-    
-    
-    <annotation>
-        
+    <page filename="065.tif" reader="John Dee" pagination="59" signature="[d 6]"/> <!-- FSF: since the pagination identifies the page, I wouldn't put the signature here -->
+    <annotation> 
         
         <marginalia hand="Italian" anchor_text="Henocho">
             <language ident="LA">
@@ -20,7 +16,6 @@
             <translation>Enoch.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Nemrodus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -30,7 +25,6 @@
             </language>
             <translation>Nimrod.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="double" language="LA" text="scripta"/>
         <underline method="pen" type="straight" language="LA" text="fascinando populos"/>
@@ -44,10 +38,7 @@
         <underline method="pen" type="double" language="LA" text="uia coelesti"/>
         <underline method="pen" type="straight" language="LA" text="uia supracoelesti"/>
         
-        
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        
     </annotation>
-    
 </transcription>
