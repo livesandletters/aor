@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="093.tif" reader="John Dee" pagination="87" signature="f4"/>
-    
-    
+    <page filename="093.tif" reader="John Dee" pagination="87" signature="f 4"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Alcorano">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Alcoranis[is]</marginalia_text>      <!-- DO: Not sure about the ending -->
+                    <marginalia_text>Alcoranis[is]</marginalia_text>      <!-- DO: Not sure about the ending --> <!-- FSF: no idea either; it should be Alcoranus, but i can se an i and s -->
                     <book title="Quran"/>
                 </position>
             </language>
             <translation>The Quran.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Turchorum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Turchi</marginalia_text>      
-                    <location name="Turkey"/>
+                    <location name="Turkey"/> <!-- FSF: I'd tag Turks -->
                 </position>
             </language>
             <translation>Turks.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Tatar">
             <language ident="LA">
@@ -42,7 +36,6 @@
             <translation>Tatar.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -52,7 +45,6 @@
             <translation>Note.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Turchis ea est similitudo">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -61,7 +53,6 @@
             </language>
             <translation>The Turkish and Tatar languages related.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="orbe Alcoranum ad Mecham"/>
         <underline method="pen" type="straight" language="LA" text="co[m]pletur"/>
@@ -81,10 +72,7 @@
         <underline method="pen" type="straight" language="LA" text="Tarsenses usq[ue]"/>
         <underline method="pen" type="straight" language="LA" text="semoti ab obstinatione Iudaica reciperent illum, qu&agrave;m qui ipsum crucifixere: aut"/>
         
-        
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        
     </annotation>
-    
 </transcription>

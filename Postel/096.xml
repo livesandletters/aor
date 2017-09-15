@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="096.tif" reader="John Dee" pagination="90" signature="[f5[v]]"/>
-    
-    
+    <page filename="096.tif" reader="John Dee" pagination="90" signature="[f 5[v]]"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="opere de Ethruriae originibus">
             <language ident="LA">
@@ -20,7 +16,6 @@
             <translation>A book of Etrurian origins.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="aeterna lege">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -30,18 +25,15 @@
             <translation>The eternal law.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Euangelio[m] Iaacobi">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Euangelium Iacobi.</marginalia_text>
-                    <person name="Jacob"/>
+                    <person name="Jacob"/> <!-- FSF:  I would tag the book; Gospel of James -->
                 </position>
             </language>
             <translation>The Gospel of Jacob.</translation>
         </marginalia>
-        
-        
         
         <underline method="pen" type="straight" language="LA" text="cuius praescriptum"/>
         <underline method="pen" type="straight" language="LA" text="Ethruriae originibus"/>
@@ -51,10 +43,7 @@
         <underline method="pen" type="straight" language="LA" text="primo in Latino orbe"/>
         <underline method="pen" type="straight" language="LA" text="Theodori Bibliandri prodijt"/>
        
-        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        
-        
+      
     </annotation>
-    
 </transcription>
