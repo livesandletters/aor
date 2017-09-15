@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="059.tif" reader="John Dee" pagination="53" signature="d3"/>
-    
-    
+    <page filename="059.tif" reader="John Dee" pagination="53" signature="d 3"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="quinq[ue] libros Mosis">
             <language ident="LA">
@@ -19,8 +15,7 @@
             <translation>The Pentateuch.</translation>
         </marginalia>
         
-        
-        <marginalia hand="Italian" anchor_text="dupliciq[ue] charactere">
+        <marginalia hand="Italian" anchor_text="duplici'q[ue] charactere">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Duplex character</marginalia_text>
@@ -29,27 +24,19 @@
             <translation>A double character.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="fer&egrave; uniuersi"/>
         <underline method="pen" type="straight" language="LA" text="putant quinq[ue] libros Mosis coelit&ugrave;s instar 10. Praeceptoru[m]"/>
         <underline method="pen" type="straight" language="LA" text="eo qu&ograve;d absolut&egrave; nomine Legis appella[n]tur"/>
         <underline method="pen" type="straight" language="LA" text="admiscuit diuinit&ugrave;s scripta in" id="RCP10601:059:u0001"/>
-        <underline method="pen" type="straight" language="LA" text="dupliciq[ue] charactere sacrosanctum librum fecit" id="RCP10601:059:u0002"/>
+        <underline method="pen" type="straight" language="LA" text="duplici'q[ue] charactere sacrosanctum librum fecit" id="RCP10601:059:u0002"/>
         <underline method="pen" type="straight" language="LA" text="suppresso omnino receptionis"/>
         <underline method="pen" type="double" language="LA" text="nomine"/>
         
-        
         <physical_link>
-            
             <marginal_annotation idref="RCP10601:059:u0001"/>
             <marginal_annotation idref="RCP10601:059:u0002"/>
-            
-            
             <relation from="RCP10601:059:u0001" to="RCP10601:059:u0002" type="undirected"/>
-             
         </physical_link>
         
-        
     </annotation>
-    
 </transcription>
