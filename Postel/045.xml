@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="045.tif" reader="John Dee" pagination="39" signature="c4"/>
-    
-    
+    <page filename="045.tif" reader="John Dee" pagination="39" signature="c 4"/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Aristotelis">
@@ -19,7 +16,6 @@
             <translation>Aristotle.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="6. millium annorum spacio Hispano, quo comprehenduntur bis mille magni &amp; communes">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -29,17 +25,15 @@
             <translation>6000 years [is] 2000.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Dyri, seu Atali, Itali&apos;ue, aut Athlantis, qui &amp; Iapetus est">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Dyrus Atalus Italus Athlas Iapetus</marginalia_text>
+                    <marginalia_text>Dyrus Atalus Italus Athlas Iapetus</marginalia_text> <!-- FSF: I don't really understand this; are these all people or different tribes? -->
                     <person name="Japheth"/>
                 </position>
             </language>
             <translation>Dyrus, Atalus, Italus, Atlas, Japheth.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="atheismum"/>
         <underline method="pen" type="straight" language="LA" text="praeter sacras"/>
@@ -49,13 +43,9 @@
         <underline method="pen" type="straight" language="LA" text="bis mille magni &amp; communes"/>
         <underline method="pen" type="straight" language="LA" text="Dyri"/>
         <underline method="pen" type="straight" language="LA" text="Atali"/>
-        <underline method="pen" type="straight" language="LA" text="Itali&apos;ue"/>
-        
+        <underline method="pen" type="straight" language="LA" text="Itali&apos;ue"/> <!-- FSF: I'd capture this Itali'ue -->
         
         <mark name="comma" method="pen" place="intext"/>  <!-- annorum spacio -->
         
-        
-        
     </annotation>
-    
 </transcription>

@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="039.tif" reader="John Dee" pagination="33" signature="c"/>
-    
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Linguaru[m] introductorio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Linguaru[m] introductoru[m]</marginalia_text>  <!-- DO: 'introductoiu[m]'? -->
+                    <marginalia_text>Linguaru[m] introductoru[m]</marginalia_text>  <!-- DO: 'introductoiu[m]'? --> <!-- FSF: I think it is introductoriu[m] -->
                 </position>
             </language>
-            <translation>Of the introduction of the languages.</translation>
+            <translation>Of the introduction of the languages.</translation> <!-- FSF: I think I'd simplify it and translate it as introduction to languages -->
         </marginalia>
         
-        
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- FSF: anchor Gomerit?; I almost thing it is Gomeritaci -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Gomerita[e]</marginalia_text>
@@ -29,7 +24,6 @@
             </language>
             <translation>Gomerites.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Iapetum">
             <language ident="LA">
@@ -41,17 +35,13 @@
             <translation>Japheth.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="public&egrave; expositas"/>
         <underline method="pen" type="straight" language="LA" text="in Linguaru[m] introductorio"/>
         <underline method="pen" type="straight" language="LA" text="fit"/>  <!-- And Hebrew letter underlined -->
         <underline method="pen" type="straight" language="LA" text="Cadmo"/>
-        <underline method="pen" type="straight" language="LA" text="nempe Gomerit[ae]"/> <!-- DO: Can't see the end of the word -->
+        <underline method="pen" type="straight" language="LA" text="nempe Gomerit[ae]"/> <!-- DO: Can't see the end of the word --> <!-- FSF: see above -->
         <underline method="pen" type="straight" language="LA" text="&agrave; Iano"/>
         <underline method="pen" type="straight" language="LA" text="per Iapetum"/>
         
-        
-        
     </annotation>
-    
 </transcription>
