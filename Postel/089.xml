@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="089.tif" reader="John Dee" pagination="83" signature="f2"/>
-    
-    
+    <page filename="089.tif" reader="John Dee" pagination="83" signature="f 2"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Zohare[m]">
             <language ident="LA">
@@ -20,17 +16,15 @@
             <translation>The Zohar.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="quartus Ezrae liber">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>4[us] liber Ezdra[e]</marginalia_text>
-                    <book title="Book of Ezra"/>
+                    <book title="Book of Ezra"/> <!-- FSF: it is actually this book: https://en.wikipedia.org/wiki/2_Esdras -->
                 </position>
             </language>
             <translation>The fourth book of Ezra.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="in Daniele consecratum est eloquium Chaldaicum">
             <language ident="LA">
@@ -42,7 +36,6 @@
             <translation>The Chaldean language consecrated in Daniel.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="est legis Mosaicae appendix praestanti&sharp-S;ima"/>
         <underline method="pen" type="straight" language="LA" text="Christo cognoscerent qu&agrave;m totum genus Iudaicu[m]"/>
         <underline method="pen" type="double" language="LA" text="Zohare[m]"/>
@@ -50,10 +43,7 @@
         <underline method="pen" type="straight" language="LA" text="habebat"/>
         <underline method="pen" type="straight" language="LA" text="eloquium Chaldaicum"/>
         
-        
         <mark name="plus_sign" method="pen" place="right_margin"/>
         
-        
     </annotation>
-    
 </transcription>

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="083.tif" reader="John Dee" pagination="77" signature="[e7]"/>
-    
-    
+    <page filename="083.tif" reader="John Dee" pagination="77" signature="[e 7]"/> <!-- FSF: since the pagination identifies the page, I wouldn't put the signature here -->
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="cogendarum potentiarum separataru[m]">
             <language ident="LA">
@@ -16,9 +12,8 @@
                     <marginalia_text>Potentiaru[m] separatar[um] coactio.</marginalia_text>
                 </position>
             </language>
-            <translation>The constraint of separating powers.</translation>  <!-- DO: Not sure about translation -->
+            <translation>The constraint of separating powers.</translation>  <!-- DO: Not sure about translation --> <!-- FSF: Maybe The collection fo separated powers? -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Armoricae Britaniae">
             <language ident="LA">
@@ -27,18 +22,16 @@
                     <location name="Armorica"/>
                 </position>
             </language>
-            <translation>Armorica.</translation>  <!-- DO: Not sure whether to translate 'Brittania' or whether the whole thing just refers to Armorica: https://en.wikipedia.org/wiki/Armorica -->
+            <translation>Armorica.</translation>  <!-- DO: Not sure whether to translate 'Brittania' or whether the whole thing just refers to Armorica: https://en.wikipedia.org/wiki/Armorica --> 
+            <!-- FSF: I think this all refers to Amorica, but I am not sure -->
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="iam 350 &agrave; diluuio"/>
-        <underline method="pen" type="straight" language="LA" text="maiore cogendarum potentiarum separataru[m] uirtute in reip"/>
+        <underline method="pen" type="straight" language="LA" text="maiore cogendarum potentiarum separataru[m] uirtute in reip."/>
         <underline method="pen" type="straight" language="LA" text="fuerint, qu&agrave;m in Ethruria. Caeterum"/>
         <underline method="pen" type="straight" language="LA" text="Armoricae Britanniae"/>
-        <underline method="pen" type="straight" language="LA" text="erepti anteactorum seculoru[m] mysteria reuelarens"/>
-        <underline method="pen" type="straight" language="LA" text="mundumq[ue] reformarent"/>
-        
+        <underline method="pen" type="straight" language="LA" text="erepti anteactorum seculoru[m] mysteria reuelarens"/> <!-- FSF: possibly I would make one of the last two underlinings -->
+        <underline method="pen" type="straight" language="LA" text="mundum&apos;q[ue] reformarent"/>
         
     </annotation>
-    
 </transcription>

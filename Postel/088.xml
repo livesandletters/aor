@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="088.tif" reader="John Dee" pagination="82" signature="[f[v]]"/>
-    
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Turchi">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Turchi.</marginalia_text>
-                    <location name="Turkey"/>
+                    <location name="Turkey"/> <!-- FSF: if at all, I would tag this as people, Turks -->
                 </position>
             </language>
             <translation>Turks.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="Leuitaru[m], in 13. loco"/>
         <underline method="pen" type="straight" language="LA" text="Muhamedes fuit Me&sharp-S;ias decennio"/>
         
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
-        
     </annotation>
-    
 </transcription>
