@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="035.tif" reader="John Dee" pagination="15"/>  
-    
-    
     <annotation>
              
         <marginalia hand="Italian" anchor_text="munera">
@@ -18,7 +15,6 @@
             <translation>Gifts.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="amor">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -28,19 +24,16 @@
             <translation>Love.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="fide conspicuus"/>
         <underline method="pen" type="straight" language="LA" text="meae spolium"/>
         <underline method="pen" type="straight" language="LA" text="Turpiter ingenuum munera corpus emunt"/>
         <underline method="pen" type="straight" language="LA" text="Me miseram, qu&ograve;d amor no[n] est medicabilis herbis"/>
         <underline method="pen" type="straight" language="LA" text="Destituor prudens artis ab arte mea"/>
         
+        <mark name="vertical_bar" method="pen" place="right_margin"/>   <!-- DO: Not sure how to tag this mark; similar to mark on file 031 --> 
+        <!-- FSF: this one I would call a bracket or vertical bar, probably the former, although strictly speaking it is not in a bracket shape; but I think it has the same function here -->
         
-        <mark name="vertical_bar" method="pen" place="right_margin"/>   <!-- DO: Not sure how to tag this mark; similar to mark on file 031 -->
-        
-        <numeral place="right_margin">12</numeral>  <!-- DO: Not sure if this is a variant of the Jupiter mark? -->
-        
+        <numeral place="right_margin">12</numeral>  <!-- DO: Not sure if this is a variant of the Jupiter mark? --> <!-- FSF: I think it actually is a number -->
         
     </annotation>
-    
 </transcription>

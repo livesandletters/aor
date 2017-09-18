@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="036.tif" reader="John Dee" pagination="[15v]"/>  
-    
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="fama">
             <language ident="LA">
@@ -19,17 +15,15 @@
             <translation>Fame.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Iasonis factu[m] egregium.</marginalia_text>  <!-- DO: Not sure about the final word -->
+                    <marginalia_text>Iasonis factu[m] egregium.</marginalia_text>  <!-- DO: Not sure about the final word --> <!-- FSF: that's fine -->
                     <person name="Jason"/>
                 </position>
             </language>
             <translation>Jason's excellent deed.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -41,7 +35,6 @@
             <translation>Medea.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="amor">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -51,21 +44,16 @@
             <translation>Love.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="Cur mihi fama"/>
         <underline method="pen" type="straight" language="LA" text="Barbara narratur venisse venefica tecum"/>
         <underline method="pen" type="straight" language="LA" text="Credula res amor est, vtinam temeraria dicar Criminibus falsis insimulasse virum"/>
         <underline method="pen" type="straight" language="LA" text="vix bene limen erat"/>
         <underline method="pen" type="straight" language="LA" text="aeripedes"/>
         
-        
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
-        
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         
-        
     </annotation>
-    
 </transcription>

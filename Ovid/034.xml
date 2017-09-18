@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="034.tif" reader="John Dee" pagination="[14v]"/>  
-    
-    
     <annotation>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>proub.</marginalia_text>        <!-- DO: Not sure what this is. Maybe 'prou[er]b[ium]', but I can't see why it would be this -->
+                    <marginalia_text>proub.</marginalia_text>        
+                    <!-- DO: Not sure what this is. Maybe 'prou[er]b[ium]', but I can't see why it would be this --> <!-- FSF: the first abbreviation extended is prou[er]b.; this is how I would capture it; I would translate it as proverb -->
                 </position>
             </language>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="vaticinata; Quid facis Oenone? quid arenae semina mandas? 
             Non profecturis littora bobus aras. 
@@ -34,9 +30,8 @@
                     <marginalia_text>vaticiniu[m].</marginalia_text>
                 </position>
             </language>
-            <translation>A prophesy.</translation>
+            <translation>A prophecy.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="adultera">
             <language ident="LA">
@@ -46,7 +41,6 @@
             </language>
             <translation>An adulteress.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Vim licet appelles, &amp; culpam nomine veles, Quae toties rapta est, praebuit ipsa rapi">
             <language ident="LA">
@@ -58,7 +52,6 @@
             <translation>Helen.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="Mobilibus ventis arida facta volant"/>
         <underline method="pen" type="straight" language="LA" text="Et minus est in te, qu&agrave;m in summa"/>
         <underline method="pen" type="double" language="LA" text="Quae leuis"/>
@@ -67,18 +60,16 @@
         <underline method="pen" type="straight" language="LA" text="quid arenae semina"/>
         <underline method="pen" type="straight" language="LA" text="diriguere"/>
         <underline method="pen" type="straight" language="LA" text="Possidet en saltus illa iuuenca meos"/>
-        <underline method="pen" type="straight" language="LA" text="Sit facie quanuis insignis, adultera certe est"/>
+        <underline method="pen" type="straight" language="LA" text="Sit facie quanuis insignis, adultera certe est"/> <!-- FSF: I would make one of these two -->
         <underline method="pen" type="straight" language="LA" text="Deseruit patrios hospite capta deos"/>
-        <underline method="pen" type="straight" language="LA" text="Vim licet appelles, &amp; culpam nomine veles"/>
+        <underline method="pen" type="straight" language="LA" text="Vim licet appelles, &amp; culpam nomine veles"/> <!-- FSF: I woudl make one of these two -->
         <underline method="pen" type="straight" language="LA" text="Quae toties rapta est, praebuit ipsa rapi"/>
         
-        
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        
         <mark name="bracket" method="pen" place="left_margin" language="LA" text="Quid facis Oenone? quid arenae semina mandas? 
             Non profecturis littora bobus aras. 
             Gra&iuml;a iuuenca venit, quae te, patri&agrave;mq[ue] dom&uacute;mq[ue] 
@@ -89,10 +80,7 @@
             At mihi flauentes diriguere comae.
             Ah nimium miserae vates mihi vera fuisti,
             Possidet en saltus illa iuuenca meos"/>
-        
         <mark name="bracket" method="pen" place="left_margin" language="LA" text="Vim licet appelles, &amp; culpam nomine veles, Quae toties rapta est, praebuit ipsa rapi"/>
         
-        
     </annotation>
-    
 </transcription>

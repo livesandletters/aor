@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="028.tif" reader="John Dee" pagination="[11[v]]" signature="[B.iij.[v]]"/>  
-    
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="pium">
             <language ident="LA">
@@ -19,21 +15,17 @@
             <translation>Pious.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="Prima securigeras"/>
         <underline method="pen" type="straight" language="LA" text="latus ense peregit"/>
         <underline method="pen" type="straight" language="LA" text="Ista vetus pietas, aeuo moritura futuro, Rustica Saturno regna ten&egrave;nte fuit. Iuppiter esse pium statuit, quodcunq[ue] iuuaret"/>
-        <underline method="pen" type="straight" language="LA" text="Et fas omne facit fratre marita soror"/>
+        <underline method="pen" type="straight" language="LA" text="Et fas omne facit fratre marita soror"/> <!-- FSF: I would add this to the underlining above -->
         <underline method="pen" type="straight" language="LA" text="iunctura catena"/>
         <underline method="pen" type="straight" language="LA" text="Cognato poterit nomine culpa tegi"/>
         <underline method="pen" type="straight" language="LA" text="reseranda"/>
         
-        
         <symbol name="Jupiter" place="left_margin"/>
         
-        <mark name="scribble" method="pen" place="left_margin"/>
-        
+        <mark name="scribble" method="pen" place="left_margin"/> <!-- FSF: maybe actually a new symbol or mark? -->
         
     </annotation>
-    
 </transcription>
