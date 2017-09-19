@@ -7,49 +7,54 @@
     <page filename="0901.tif" reader="John Dee" pagination="342" signature="[Y.y.iii.[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="&agrave; ratione">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>&agrave; ratione.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>On reason</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="haberent ius suum disputandi">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>habere ius disputandi</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Have the right of disputing.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Aristonis, Pyrrhonis, Herilli">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Aristo. Pyrrho. Herillus.</marginalia_text>
+                    <person name="Aristo of Ceos"/>
+                    <person name="Pyrrhus of Epirus"/>
+                    <person name="Herillus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Aristo, Pyhrri, Herillus.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Ciceronis mos</marginalia_text>
+                    <person name="Cicero"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Of Cicero's manner.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Panaetio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Pana[e]tij error.</marginalia_text>
+                    <person name="Panaetius"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Panaetius' uncertainty.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="officio duplex">
@@ -58,17 +63,24 @@
                     <marginalia_text>officiu[m] duplex</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Twofold duties.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Perfectum officum, rectum opinor vocemus, quod Graeci κατόρθωμα: hoc autem commune officium vocant, atque sic definiunt, vt rectum quod sit, id perfectum officium">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>officiu[m] { mediu[m] p[er]fectu[m].</marginalia_text> <!-- M.B. Add Greek later -->
+                    <marginalia_text>officiu[m] { mediu[m] p[er]fectu[m].</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>κατόρθωμα:</marginalia_text>  <!-- M.B. Translate Greek marginal note later. -->
+                </position>
+            </language>
+            <translation>Duty { middle perfect.</translation>
         </marginalia>
+        
+       
         
         <marginalia hand="Italian" anchor_text="Triplex igitur est, vt Panaetio videtur, consilii capiendi deliberatio">
             <language ident="LA">
@@ -76,7 +88,7 @@
                     <marginalia_text>Triplex consilij capiendi deliberatio.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The consideration of taking counsel is threefold.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="honesto id quod videtur esse vtile">
@@ -85,61 +97,62 @@
                     <marginalia_text>Honestum vtile.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Honour is useful.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="diuisione, quum praeterire aliquid, maximum vitium in diuidendo sit">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Diuisionis vitiu[m] maximu[m] aliquid omittere.</marginalia_text>
+                </position>
+            </language>
+            <translation>[In this] division it would be the greatest error to omit something.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Diuisionis viti max aliquid omittere</marginalia_text>
+                    <marginalia_text>Horu[m] tiulum Lib: Materia</marginalia_text> <!-- M.B. Not sure?? -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>The title of this book is Materia. </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Horu[m] tiuum Lib: Materia</marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="generi anima[n]tium omni est &agrave; natura">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Qua[n]ta animatiu[m] sagacitas</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>How mcuh shrewdness of animals.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="coniunctionis appetitus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Cur coninuction appetit[ur]</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Therfore the desire for coupling.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="hominem &amp; beluam hoc maxime">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ho[min]is dignitas p belluis</marginalia_text>
+                    <marginalia_text>Ho[min]is dignitas p[raesen]s belluis</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Dignity is present in man more perfectly.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Homo aute[m] quoniam rationis est particpes, consequentia cernit, causas reru[m] videt, ear&uacute;mque progressus 
+            &amp; quasi antecessiones non ignorat">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Antecessiones reru[m] ho[] p[otes]t cognoscere.</marginalia_text>
+                    <marginalia_text>Antecessiones reru[m] ho[mo] p[otes]t cognoscere.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Man is able to learn of things before they take place.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
@@ -148,43 +161,43 @@
                     <marginalia_text>Ratio.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Reason.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="amore[m] in eos qui procreati">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Amor in pr[oc]eatos</marginalia_text>
+                    <marginalia_text>Amor in pr[oc]reatos</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Love for those who are begotten.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="veri inquistio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Veri inquisitio.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The enguiry of truth.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="contrarias sententias distrahuntur">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>in co[n]trarias sitiutias dis</marginalia_text>
+                    <marginalia_text>in co[n]trarias se[n]tentias distrahi.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Into various sentimentts.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="facultares rerum atque copias, ad opes, ad potentiam">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>facultatis copia apes diuitui[?] potentia</marginalia_text>
+                    <marginalia_text>facultatis copia opes diutui[?] potentia</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The means, abundance, riches, ?,  power.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="anquirat &amp; paret">
@@ -193,7 +206,7 @@
                     <marginalia_text>anquiro paro</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Seek after and procure.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="hominum coetus &amp; celebrari inter se, &amp; sibi obedire velit, ob e&aacute;sque causas studeat parare ea quae suppedite[n]t &amp; ad cultu[m] &amp; ad 
@@ -203,7 +216,7 @@
                     <marginalia_text>hom[inum] coetus re librari</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The assembly of men about children,</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="negotiis cur&iacute;sq[ue] vacui">
@@ -212,7 +225,7 @@
                     <marginalia_text>negotijs curisq[ue] vacuus.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Deviod of business and cares,</translation>
         </marginalia>
         
         
