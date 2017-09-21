@@ -12,18 +12,19 @@
                     <marginalia_text>
                         predicta
                     </marginalia_text>
+                    <emphasis method="pen" type="dotted"/>
                 </position>
             </language>
             <translation>
-                Predcited.
+                Predicted.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: You can anchor 'in VVallia[m]' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        In Wallia[m]
+                        In Wallia[m].      <!-- DO: Should be 'Contra Wallia[m].' -->
                     </marginalia_text>
                 </position>
             </language>
@@ -41,7 +42,7 @@
                 </position>
             </language>
             <translation>
-                Note the truce.
+                Note the truce.   <!-- DO: 'truces'? Or is it genitive, i.e. literally 'Note of the truce'? -->
             </translation>
         </marginalia>
         
@@ -49,7 +50,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        dedita
+                        dedita          <!-- DO: Is this an erratum? -->
                     </marginalia_text>
                 </position>
             </language>
@@ -68,6 +69,9 @@
         <mark name="circumflex" method="pen" place="intext"/>
         
         <errata language="LA" copytext="necessitite" amendedtext="necessitate"/>
+        
+        <!-- DO: I think he has changed 'aeducatus' to 'educatus' (line 15), and 'peruam' to 'paruam' (line 33) -->
+        
         
     </annotation>
 </transcription>
