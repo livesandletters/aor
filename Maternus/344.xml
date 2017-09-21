@@ -10,7 +10,7 @@
         <underline method="pen" type="straight" language="LA" text="uero morbum"/>
         
         <mark name="bracket" method="pencil" place="right_margin"/>
-        <mark name="bracket" method="pen" place="right_margin" colour="red"/> <!-- M.B. Should be captured as chalk. -->
+        <mark name="bracket" method="pen" place="right_margin" colour="red"/> 
         <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/>
         <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/>
         <mark name="bracket" method="pen" place="right_margin" colour="red"/>
@@ -19,8 +19,9 @@
         <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/>
         <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- dotted -->
         
-        <!-- M.B. There are also two florilegium in chalk and one florilegium in pencil to be captured. -->
-        
-        
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pencil"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" colour="red"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" colour="red"></drawing>
+     
     </annotation>
 </transcription>
