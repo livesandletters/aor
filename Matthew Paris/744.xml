@@ -6,13 +6,11 @@
     <page filename="744.tif" reader="John Dee" pagination="278" signature="[Aaaa[v]]"/>
     <annotation>
         
-        <underline method="pen" type="straight" language="LA" text="aut[em] Iohanne rege, Isabella regina, mater regis H. Tertij, nupsit Hugoni le Brun"/>
-        <underline method="pen" type="straight" language="LA" text="Comiti de Marchia inter Francia[m] &amp; Pictauia[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Mortuo aut[em] Iohanne rege, Isabella regina, mater regis. H. Tertij, nupsit Hugoni le Brun. Comiti de Marchia inter Francia[m] &amp; Pictauia[m]"/>
         <underline method="pen" type="straight" language="LA" text="ei .v. filios"/>
-        <underline method="pen" type="straight" language="LA" text="Gulih. de Vale[n]cia"/>
-        <underline method="pen" type="straight" language="LA" text="Guido"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; Galifridus"/>
-        <underline method="pen" type="straight" language="LA" text="Quartus Hugo"/>
+        <underline method="pen" type="straight" language="LA" text="Gulih. de"/>
+        <underline method="pen" type="straight" language="LA" text="Guido &amp; Galfridus"/>
+        <underline method="pen" type="straight" language="LA" text="Quarttus Hugo"/>
         <underline method="pen" type="straight" language="LA" text="Aethelmar[us]"/>
         <underline method="pen" type="straight" language="LA" text="Comes Glocest. Rich."/>
         <underline method="pen" type="straight" language="LA" text="Gulih. de Clare frater eius"/>
@@ -24,7 +22,7 @@
         
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
             <node id="n1">[blank]</node>
-            <node id="n2" anchor_text="Comes Glocest[riae] Rich[ardus]" person="Richard de Clare, 6th Earl of Gloucester">Richard[us] de Clare Comes Gloc[estriae]</node>
+            <node id="n2" anchor_text="Comes Glocest. Rich." person="Richard de Clare, 6th Earl of Gloucester">Richard[us] de Clare Comes gloc</node>
             <node id="n3" anchor_text="Gulih. de Clare" person="William de Clare">Gulielm[us] de Clare</node>
             <link to="n2" from="n1" relationship="has_child"/>
             <link to="n3" from="n1" relationship="has_child"/>
