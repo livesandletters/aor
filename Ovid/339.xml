@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="339.tif" reader="John Dee" pagination="167"/>   
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="impetus">
             <language ident="LA">
@@ -18,16 +15,14 @@
             <translation>An attack.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="dolor">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Dolor.</marginalia_text>
                 </position>
             </language>
-            <translation>Sadness.</translation>
+            <translation>Sadness.</translation> <!-- FSF: I'd translate it as pain or anguish; but maybe in this context sadness better? -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Temporibus">
             <language ident="LA">
@@ -38,7 +33,6 @@
             <translation>Time.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="ocia">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -47,7 +41,6 @@
             </language>
             <translation>Idleness.</translation>   <!-- DO: Not sure about translation, this is from a translation I found online -->
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Difficiles aditus impetus omnis habet"/>
         <underline method="pen" type="straight" language="LA" text="Stultus, ab obliquo qui cum discedere possit"/>
@@ -59,15 +52,11 @@
         <underline method="pen" type="straight" language="LA" text="Et data non apto tempore vina nocent"/>
         <underline method="pen" type="straight" language="LA" text="Fac monitis fugias ocia prima meis"/>
         
-        
         <symbol name="Jupiter" place="right_margin"/>
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
-        
-        <numeral place="right_margin">.1.</numeral>
-        
+        <numeral place="right_margin">.1.</numeral> <!-- FSF: anchor to prima? -->
         
     </annotation>
-    
 </transcription>
