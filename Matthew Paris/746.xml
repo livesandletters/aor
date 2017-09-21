@@ -6,34 +6,37 @@
     <page filename="746.tif" reader="John Dee" pagination="280" signature="[Aaaa ij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'VValterus de Scotenay' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Walterus de Scotenay
                     </marginalia_text>
+                    <person name="Walter de Scotney"/>
                 </position>
             </language>
             <translation>
-                Walter de Scotney. <!-- FSF: mentioned here, I think https://bigdaysout.com/813/scotney-castle -->
+                Walter de Scotney.
             </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Ioha[n]nes Mansel">
             <language ident="EN">
-                <position place="left_margin" book_orientation="0">
+                <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Sir John Mansel. Knight
+                        Sir John Mansel. Knight         <!-- DO: He needs to be tagged; think this is: https://en.wikipedia.org/wiki/John_Maunsell -->
                     </marginalia_text>
                 </position>
             </language>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="VValterus de Scotenay, principalissimus co[n]siliarus Comitis Goluerniae &amp; Senescallus"/>
+        <underline method="pen" type="straight" language="LA" text="VValterus de Scotenay, principalissimus co[n]siliarus Comitis Glouerniae &amp; Senescallus"/>
         <underline method="pen" type="straight" language="LA" text="potione data eide[m] Comiti, &amp; fratri suo Gulih."/>
         <underline method="pen" type="straight" language="LA" text="Alter enim potione, &amp; ali[us] iniuriae co[n]uincebatur freque[n]tatione"/>
-        <underline method="pen" type="straight" language="LA" text="arripueru[n]t iter tra[n]smarinu[m] ad Parliamentu[m] magnu[m] d[omi]ni regis Franciae pro plurib[us] arduis negotijs regna Franciae &amp; Anfliae contingentibus, 
-            Comes Glouer. &amp; Lecest. domin[us] Ioha[n]nes Mansel, Petrus Sabandia, &amp; Robertus"/>
+        <underline method="pen" type="straight" language="LA" text="arripueru[n]t iter tra[n]smarinu[m] ad Parliamentu[m] magnu[m] d[omi]ni regis Franciae pro plurib[us] arduis negotijs regna Franciae &amp; Angliae contingentibus, 
+            Comes Glouer. &amp; Lecest. domin[us] Ioha[n]nes"/>
+        <underline method="pen" type="straight" language="LA" text="Petrus Sabandia"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; Robertus"/>
         <underline method="pen" type="straight" language="LA" text="potestate[m] co[m]pone[n]di et pace[m] inter"/>
 
         <errata language="LA" copytext="remieba[n]t" amendedtext="remeaba[n]t"/>
