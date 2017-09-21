@@ -5,16 +5,16 @@
     <page filename="134.tif" reader="John Dee" pagination="111" signature="k 2"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="cuius genitura sit masculina, cuius&apos;ue foeminina reperitur">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Genitura matutina fo[e]minina
+                        Genitura masculina fo[e]minina
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                A morning and feminine constellation.
+                A masculine and feminine constellation.
             </translation>
         </marginalia>
         
@@ -23,8 +23,10 @@
         <underline method="pen" type="straight" language="LA" text="163"/>
         <underline method="pen" type="straight" language="LA" text="360"/> <!-- M.B. I would capture this using emphasis in the intext marginalia tag . -->
 
-        <numeral place="right_margin">360</numeral> 
+        <numeral place="right_margin" text="Sunt itaque masculinae partes 197, foeminae uero 163">360</numeral> 
         <!-- M.B. I would capture this is an intext marginalia rather then numeral since it refers to 360 degrees (in the zodiac)  -->
+        
+        <!-- FSF: not sure what the best way of tagging the underlined 360 is -->
 
     </annotation>
 </transcription>
