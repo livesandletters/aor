@@ -6,13 +6,14 @@
     <page filename="762.tif" reader="John Dee" pagination="296" signature="[Bbbb iiij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">   <!-- DO: I think you can anchor 'Cuius ... duratura' -->
+        <marginalia hand="Italian" anchor_text="Cuius haereditas mox Comiti Glouerniae tradebatur custodienda, per .xv. adhuc annos secundum aetatem haeredis duratura">   
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        The Wardeship of the yong erles daumarle. being now but 5 yeres old.   <!-- DO: I think it's just 'erle' with a little flick on the final 'e' -->
+                        The Wardeship of the yong erle daumarle. being now but 5 yeres old. 
                     </marginalia_text>
-                </position>                     <!-- DO: The person should be tagged; going by the dates I'm guessing it's Thomas de Forz, 5th Earl of Albemarle (the son of: https://en.wikipedia.org/wiki/William_de_Forz,_4th_Earl_of_Albemarle) but I'm not completely sure -->
+                    <person name="Thomas de Forz, 5th Earl of Albemarle"/>
+                </position>           
             </language>
         </marginalia>
         

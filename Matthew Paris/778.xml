@@ -38,7 +38,7 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        foremen of the Marches.    <!-- DO: I think it might say 'fotemen' (as in footmen); matches more closely with 'peditibus' -->
+                        fotemen of the Marches.    
                     </marginalia_text>
                 </position>
             </language>
@@ -60,7 +60,8 @@
         <underline method="pen" type="straight" language="LA" text=".ccc"/>
         <underline method="pen" type="straight" language="LA" text="marchionibus peditibus"/>
         
-        <mark name="circumflex" method="pen" place="intext"/>              <!-- DO: Bracket in left margin -->
+        <mark name="circumflex" method="pen" place="intext"/>  
+        <mark name="bracket" method="pen" place="left_margin"/>
         
         <errata language="LA" copytext="midio" amendedtext="medio"/>
         

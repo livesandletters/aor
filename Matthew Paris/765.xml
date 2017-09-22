@@ -20,11 +20,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">   <!-- DO: You can anchor 'in VVallia[m]' -->
+        <marginalia hand="Italian" anchor_text="in VVallia[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        In Wallia[m].      <!-- DO: Should be 'Contra Wallia[m].' -->
+                        Contra Wallia[m].    
                     </marginalia_text>
                 </position>
             </language>
@@ -42,7 +42,7 @@
                 </position>
             </language>
             <translation>
-                Note the truce.   <!-- DO: 'truces'? Or is it genitive, i.e. literally 'Note of the truce'? -->
+                Note of the truce.
             </translation>
         </marginalia>
         
@@ -50,7 +50,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        dedita          <!-- DO: Is this an erratum? -->
+                        dedita       
                     </marginalia_text>
                 </position>
             </language>
@@ -69,9 +69,8 @@
         <mark name="circumflex" method="pen" place="intext"/>
         
         <errata language="LA" copytext="necessitite" amendedtext="necessitate"/>
-        
-        <!-- DO: I think he has changed 'aeducatus' to 'educatus' (line 15), and 'peruam' to 'paruam' (line 33) -->
-        
+        <errata language="LA" copytext="aeducatus" amendedtext="educatus"/>
+        <errata language="LA" copytext="peruam" amendedtext="paruam"/>
         
     </annotation>
 </transcription>
