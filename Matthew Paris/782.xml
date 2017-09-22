@@ -8,8 +8,10 @@
         
         <underline method="pen" type="straight" language="LA" text="Circa illud tempus, Leolinus princeps"/>
         <underline method="pen" type="straight" language="LA" text="terras Eadvvardi destruxit in marchia Cestriae"/>
-
-<!-- DO: Bracket in left margin; I think possibly Dee has added a bar over 'Baronu' making 'Baronu[m]', which I think makes grammatical sense (line 19) -->
+        
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <errata language="LA" copytext="Baronu" amendedtext="Baronu[m]"/>
 
     </annotation>
 </transcription>
