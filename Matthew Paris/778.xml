@@ -10,13 +10,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Obitus Richardi de Clare Comitis Glocest[riae] et Hertf[ordiae]
+                        Obitus Richardi de Clare Comitis glocest et Hertf.
                     </marginalia_text>
                     <person name="Richard de Clare, 6th Earl of Gloucester"/>                   
                 </position>
             </language>
             <translation>
-                Death of Richard de Clare, 6th Earl of Gloucester, [5th] Earl of Hertford
+                Death of Richard de Clare, 6th Earl of Gloucester, [5th] Earl of Hertford.
             </translation>
         </marginalia>
         
@@ -24,7 +24,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Rogerus de M[ortuo] M[ari]
+                        Rogerus de M. M
                     </marginalia_text>
                     <person name="Roger Mortimer, 1st Baron Mortimer"/>
                 </position>
@@ -38,7 +38,7 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        foremen of the Marches
+                        foremen of the Marches.    <!-- DO: I think it might say 'fotemen' (as in footmen); matches more closely with 'peditibus' -->
                     </marginalia_text>
                 </position>
             </language>
@@ -46,21 +46,21 @@
         
         <underline method="pen" type="straight" language="LA" text="Baldevvinus de insula, Comes Deuoniae"/>
         <underline method="pen" type="straight" language="LA" text="Et Richardus de Clare, Comes illustris Glocestriae &amp; Herefordiae"/>
-        <underline method="pen" type="straight" language="LA" text="tempus obijt in"/>
-        <underline method="pen" type="double" language="LA" text="Cantia"/>
-        <underline method="pen" type="straight" language="LA" text="&amp;"/>
-        <underline method="pen" type="double" language="LA" text="sepultus est apud Thefesburie"/>
+        <underline method="pen" type="straight" language="LA" text="tempus obijt in Cantia &amp;"/>
+        <underline method="pen" type="double" language="LA" text="sepultus est apud Thekesburie"/>
         <underline method="pen" type="straight" language="LA" text="vitute ac morum praerogatiua, sic de eo illic haeroic&egrave; intitulatur"/>
         <underline method="pen" type="straight" language="LA" text="Hic pudor Hippoliti"/>
         <underline method="pen" type="straight" language="LA" text="Paridis gena"/>
         <underline method="pen" type="straight" language="LA" text="sensus Vli&sharp-S;is Aeneae pietas"/>
         <underline method="pen" type="straight" language="LA" text="Hectoris ira iacet"/>
         <underline method="pen" type="straight" language="LA" text="suo principe Leolino, de suis sedibus irrumpentes, terras"/>
-        <underline method="pen" type="straight" language="LA" text="Mortup mari hostiliter inuadunt"/>
+        <underline method="pen" type="straight" language="LA" text="Mortuo mari hostiliter inuadunt"/>
+        <underline method="pen" type="straight" language="LA" text="Rogerius igitur"/>
         <underline method="pen" type="double" language="LA" text="mari, fama dignus"/>
+        <underline method="pen" type="straight" language="LA" text=".ccc"/>
         <underline method="pen" type="straight" language="LA" text="marchionibus peditibus"/>
         
-        <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="circumflex" method="pen" place="intext"/>              <!-- DO: Bracket in left margin -->
         
         <errata language="LA" copytext="midio" amendedtext="medio"/>
         
