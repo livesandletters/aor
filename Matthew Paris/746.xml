@@ -6,7 +6,7 @@
     <page filename="746.tif" reader="John Dee" pagination="280" signature="[Aaaa ij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'VValterus de Scotenay' -->
+        <marginalia hand="Italian" anchor_text="VValterus de Scotenay">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -24,8 +24,9 @@
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Sir John Mansel. Knight         <!-- DO: He needs to be tagged; think this is: https://en.wikipedia.org/wiki/John_Maunsell -->
+                        Sir John Mansel. Knight    
                     </marginalia_text>
+                    <person name="John Maunsell"/>
                 </position>
             </language>
         </marginalia>
