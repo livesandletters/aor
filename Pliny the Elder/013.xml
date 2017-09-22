@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="013.tif" reader="John Dee" signature="Aiij"/>
-    
-    
+    <page filename="013.tif" reader="John Dee" signature="A iij"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="ad apparentiam imaginamenta porrigere, quorum nec mox appareat vestigium">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Appare[n]tia no[n] existe[n]ti[um]</marginalia_text>    <!-- DO: Ending of last word has been cut off -->
+                    <marginalia_text>Appare[n]tia no[n] existe[n]ti[um]</marginalia_text>    <!-- DO: Ending of last word has been cut off --> <!-- FSF: since there is still a dot for the line above half of the u, I think it is fine -->
                 </position>
             </language>
             <translation>The appearance of things which do not exist.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="numinum aduocatione, vti solitos Magos, per huiuscemodi consensum reru[m] tradit: Ex quo liquet Magiae alter[a]e partis artis infamia, quod numinis appellatione praetenta" id="RCP9978:013:m0001">
+            <!-- FSF: I think this is English secretary -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Numinum appellatio aduocatio p[er] aptas Ilices.</marginalia_text>    
                 </position>
             </language>
-            <translation>The name the counsel of divine wills, through suitable holm oaks.</translation>   <!-- DO: Not sure how to translate -->
+            <translation>The name the counsel of divine wills, through suitable holm oaks.</translation>   <!-- DO: Not sure how to translate --> 
+            <!-- FSF: there might be a full stop after appellatio that almost blends into the a of aduocatio; therefore I think these are two parts: The name of the divine will. Calling through suitable holm oaks. I would translate numina as singular as is often done-->
         </marginalia>
-        
-        
         
         <underline method="pen" type="straight" language="LA" text="Quae fascinati imaginamur pr[a]eter imaginamenta, nullam habent actionis &amp; essentiae veritatem"/>
         <underline method="pen" type="straight" language="LA" text="non facere simpliciter, sed vsq[ue] ad apparentiam"/>
@@ -38,19 +33,11 @@
         <underline method="pen" type="straight" language="LA" text="etiam numinum aduovatione, vti solitos Magos, per huiuscemodi consensum reru[m]" id="RCP9978:013:u0001"/>
         <underline method="pen" type="straight" language="LA" text="numinis appellatione praetenta"/>
         
-        
         <physical_link>
-            
             <marginal_annotation idref="RCP9978:013:m0001"/>
             <marginal_annotation idref="RCP9978:013:u0001"/>
-            
-            <relation from="RCP9978:013:m0001" to="RCP9978:013:u0001" type="directed"/>
-            
+            <relation from="RCP9978:013:m0001" to="RCP9978:013:u0001" type="directed"/> <!-- FSF: I would have thought that this is undirected -->
         </physical_link>
-        
-        
-        
-        
+          
     </annotation>
-    
 </transcription>

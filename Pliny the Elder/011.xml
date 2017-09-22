@@ -7,6 +7,7 @@
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Magiae compendio" id="RCP9978:011:m0001">
+            <!-- FSF: I think this is English secretary -->
           <language ident="LA">
               <position place="head" book_orientation="0">
                   <marginalia_text>Magia[e] Compendiu[m].</marginalia_text>
@@ -32,7 +33,7 @@
         <physical_link>
             <marginal_annotation idref="RCP9978:011:m0001"/>
             <marginal_annotation idref="RCP9978:011:u0001"/>
-            <relation from="RCP9978:011:m0001" to="RCP9978:011:u0001" type="directed"/>
+            <relation from="RCP9978:011:m0001" to="RCP9978:011:u0001" type="directed"/> <!-- FSF: I would have thought that this is undirected -->
         </physical_link>
         
     </annotation>
