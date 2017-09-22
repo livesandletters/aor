@@ -11,7 +11,7 @@
             Domi Hugo Bigotus, iusticiarius, qu&agrave;m citius versus Doueria[m] proparauit, Richardumque de Gray, Constabulariam Doueriae, ac Portus custodem, ita aggressus est. Cum tu Richarde ab vniuersitate terr[a]e co[n]stitutus sis, 
             quasi fidelissimus Portuum custos, lintrantiumque &amp; exeuntium perscrutator, sitque in tua custodia omnium nostrorum fiducia, cur talem permisisti (licet etiam regis fulciatur concessione) nobis non praemunitis intrare, 
             cum omnium nostrorum communi contraueneris prouisioni, nec non proprium impude[n]ter violaueris iuramentum? Te susceptum deponere iudicamus officium, &amp; 
-            de transgressione tua in co[m]mune regni periculum co[n]dignum reportare iudicium. Quo deposito: capitur in manus dicti domini .H. iusticiarij, custodia quinq[ue] Portuum Angliae, vna cum Castello Doueriae">  <!-- DO: Personally in instances like this I wouldn't capture all this text as it's difficult to infer where to begin and end the anchored text... -->
+            de transgressione tua in co[m]mune regni periculum co[n]dignum reportare iudicium. Quo deposito: capitur in manus dicti domini .H. iusticiarij, custodia quinq[ue] Portuum Angliae, vna cum Castello Doueriae"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,9 +29,7 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         
         <errata language="LA" copytext="Domi" amendedtext="Dominus"/>
-        
-        <!-- DO: Dee has also corrected 'lintrantiumque' to 'intrantiumque' (line 18) -->
-        
+        <errata language="LA" copytext="lintrantiumque" amendedtext="intrantiumque"/>
         
     </annotation>
 </transcription>
