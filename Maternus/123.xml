@@ -23,7 +23,8 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        At hoc minus est qua[m] esse dominos, cur igitur no[n] possu[n]t esse diu[m]? <!-- FSF: not sure about the last word -->
+                        At hoc minus est qua[m] esse dominos, cur igitur no[n] possu[n]t esse diu[m]? <!-- FSF: not sure about the last word --> 
+                        <!-- M.B. It could possibly be a contraction of diurnus like the corresponding anchor text? Not really sure either? -->
                     </marginalia_text>
                 </position>
             </language>
@@ -49,7 +50,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Quonia[m] est co[n]trariarius condutriam <!-- FSF: not sure about the last word -->
+                        Quonia[m] est co[n]trariarius condutriam <!-- FSF: not sure about the last word --> <!-- M.B. Not sure either ??-->
                     </marginalia_text>
                 </position>
             </language>
@@ -73,9 +74,10 @@
         
         <marginalia hand="Italian">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="left_margin" book_orientation="0"> <!-- M.B. Should be marked intext -->
                     <marginalia_text>
                         [id est] si in eius domu[m] peritur <!-- FSF: not sure about domu[m] and the last word -->
+                        <!-- M.B. I the last word might be 'feratur' although by no means certain.-->
                     </marginalia_text>
                 </position>
             </language>
@@ -85,15 +87,15 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="debemus, quod neq[ue] &Sun; neq[ue] &Moon;, in aliqua genitura, domini efficiuntur, totius enim dominii dedignantur dominia sortiri. Si"/>
-        <underline method="pen" type="straight" language="LA" text="efficietur, habebunt tamen do[m]municationem in dominio &Sun; &amp; &Moon;, si diurnae geniturae fines tenuerit &Sun;, nocturnae uero luna"/>
+        <underline method="pen" type="straight" language="LA" text="efficietur, habebunt tamen co[m]municationem in dominio &Sun; &amp; &Moon;, si diurnae geniturae fines tenuerit &Sun;, nocturnae uero luna"/>
         <underline method="pen" type="straight" language="LA" text="crescens &Moon; decreuerit"/>
         <underline method="pen" type="straight" language="LA" text="modicum sumentes cibum"/>
         <underline method="pen" type="straight" language="LA" text="qui cibos assidue"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; sit diurnae geniturae"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; sit diurnae geniturae locus"/>
         <underline method="pen" type="straight" language="LA" text="Sed haec fortiora eru[n]t mala, si fuerit nocturna genitura, et si minuta luminibus &Moon;, ei dominiu[m]"/>
         <underline method="pen" type="straight" language="LA" text="quorum lumina repentinis caecita"/>
-        <underline method="pen" type="straight" language="LA" text="ista signoru[m], uel partiu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="malignum sydus radiauerit, haec"/>
+        <underline method="pen" type="straight" language="LA" text="ista signoru[m], uel partiu[m] deiectione"/>
+        <underline method="pen" type="straight" language="LA" text="positum malignum sydus radiauerit, haec"/>
         <underline method="pen" type="straight" language="LA" text="plurimum capientes cibum"/>
         
         <symbol name="Jupiter" place="left_margin"/>
