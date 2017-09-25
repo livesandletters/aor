@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="053.tif" reader="John Dee" signature="Fiij"/>
-    
-    
+    <page filename="053.tif" reader="John Dee" signature="F iij"/>
     <annotation>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Radij</marginalia_text>
                 </position>
-            </language>
-            <translation>Rays.</translation>        <!-- DO: Not really sure how best to translate -->
+            </language> 
+            <translation>Rays.</translation>        <!-- DO: Not really sure how best to translate --> <!-- FSF: I think this is fine -->
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="corporu[m] effluuia">
             <language ident="LA">
@@ -29,10 +24,7 @@
             <translation>Outlets of bodies.</translation>        
         </marginalia>
         
-        
-        
         <!-- DO: Two further notes in the left margin -->
-        
         
         <underline method="pen" type="straight" language="LA" text="[aquil]larum pennis mist[a]e reliquarum"/>
         <underline method="pen" type="straight" language="LA" text="ad corporu[m] effluuia"/>
@@ -49,11 +41,8 @@
         <underline method="pen" type="straight" language="LA" text="ardor distributioq[ue] a visu proficiscitur"/>
         <underline method="pen" type="straight" language="LA" text="mirantur medicam Naphtam"/>
         
-        
         <errata language="LA" copytext="intererit" amendedtext="[deleted]"/>
-        <errata language="LA" copytext="uisu" amendedtext="usu"/>               <!-- DO: Not sure about this -->
+        <errata language="LA" copytext="uisu" amendedtext="usu"/>               <!-- DO: Not sure about this --> <!-- FSF: I think this is fine -->
           
-        
     </annotation>
-    
 </transcription>

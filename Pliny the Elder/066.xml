@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="066.tif" reader="John Dee" signature="Flyleaf"/>
-    
-    
     <annotation>
         
-        
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- FSF: I think all the writing here is English secretary -->
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>Colores domnu[m]</marginalia_text>    <!-- DO: Not sure about second word -->
+                    <marginalia_text>Colores domnu[m]</marginalia_text>    <!-- DO: Not sure about second word --> <!-- FSF: I think it is domuu[m], Colours of the houses -->
                 </position>
             </language>
             <translation>The colour master.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="FR">
@@ -34,22 +29,17 @@
             <translation>1. 7. White. 2. 10. Green. 2. 5. Of the colour of saffron. 8. 11. Red. 3. 6. Of the colour of honey. 9. 12. Black. ]</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>vnde hic siga </marginalia_text>   <!-- DO: I can't decipher the final three words -->
+                    <marginalia_text>vnde hic siga </marginalia_text>   <!-- DO: I can't decipher the final three words --> <!-- FSF: I can read or guess: vnde hic signa alite... secundu[m] crea..e[n]te[m] -->
                 </position>
             </language>
         </marginalia>
         
-        
         <mark name="box" method="pen" place="full_page"/>
         
-        
-        
         <!-- DO: I don't know if this is the best way to capture this table: -->
-        
         
         <table type="standard_table" place="full_page">
             <tr>
@@ -64,7 +54,7 @@
             <tr>
                 <td>&Mercury;. D.</td>
                 <td>Albus</td>
-                <td>2 [deleted]</td>
+                <td>2 [deleted]</td> <!-- FSF: maybe to be added that conjunction deleted? -->
                 <td>2</td>
                 <td>1</td>
                 <td>2</td>
@@ -72,7 +62,7 @@
             
             <tr>  
                 <td>&Jupiter;</td>
-                <td>&Leo;</td>          <!-- DO: Not sure if this is the right symbol -->
+                <td>&Leo;</td>          <!-- DO: Not sure if this is the right symbol --> <!-- FSF: this is a North node -->
                 <td>2</td>
                 <td>&Venus; 1. &Virgo;</td>
                 <td>1</td>
@@ -81,7 +71,7 @@
             
             <tr>
                 <td>&Mars;</td> 
-                <td>&Cancer;</td>        <!-- DO: Not sure if this is the right symbol -->
+                <td>&Cancer;</td>        <!-- DO: Not sure if this is the right symbol --> <!-- FSF: this is a South node -->
                 <td>1 &Saturn;</td>
                 <td>1 &Sagittarius;</td>
                 <td>1</td>
@@ -98,7 +88,7 @@
             </tr>
             
             <tr>
-                <td>&Sun; &Jupiter;.</td>  <!-- DO: Looks similar to Jupiter/Capricorn but different to other marks for these signs on this page -->
+                <td>&Sun; &Jupiter;.</td>  <!-- DO: Looks similar to Jupiter/Capricorn but different to other marks for these signs on this page --> <!-- FSF: no idea -->
                 <td>fort[una] minor.</td>
                 <td>1</td>
                 <td>1 .&Taurus;.</td>
@@ -282,13 +272,8 @@
                 <td>1</td>
                 <td>occidens</td>
             </tr>
-            
            <translation>Red. White. Better fortune. Worse fortune. Acquisition. Loss. Happiness. Sadness. Boy. Girl. [?] Way. People. Prison. Fire. The South. Air. The East. Water. The North. Earth. The West.</translation>        
-            
         </table>
         
- 
-        
     </annotation>
-    
 </transcription>
