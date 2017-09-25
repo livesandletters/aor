@@ -5,12 +5,12 @@
     <page filename="117.tif" reader="John Dee" pagination="94"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- M.B. Could be anchored to ' [...] signorum diuersitate uariantur' etc. -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Signoru[m] varietas se[m]p[er] perpende[n]da tu[m] ip[s]a dom[us] tu[m] domini dom[us] ... diurna ... nocturna genesis [etc] <!-- FSF: to be cpmleted -->
-                    </marginalia_text>
+                    </marginalia_text> <!-- M.B. I can't really make out the missing words here!? One looks like something like 're[n]ditii'?? I have no idea of the smudged word? Possibly starts with an 'o' ? -->
                 </position>
             </language>
             <translation>
@@ -43,6 +43,8 @@
                 Inn-keepers.
             </translation>
         </marginalia>
+        
+        <!-- M.B. I there is another underlined passage that needs to bve captured, 'Si uero in deiectis' etc. -->
         
         <underline method="pen" type="straight" language="LA" text="Si uero minuta lumine in"/>
         <underline method="pen" type="double" language="LA" text="diurna genitura, &agrave; &Mercury; defluens"/>
