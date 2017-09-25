@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="054.tif" reader="John Dee" signature="[Fiij[v]]"/>
-    
-    
+    <page filename="054.tif" reader="John Dee" signature="[F iij[v]]"/>
     <annotation>
         
-        
         <marginalia hand="Italian">
+            <!-- FSF: I think this is English secretary -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>imago species est luuiu[m].</marginalia_text>     <!-- DO: Not sure about final word and looks like there may be a word cut off at the top -->
-                </position>
+                    <marginalia_text>imago species est luuiu[m].</marginalia_text>     <!-- DO: Not sure about final word and looks like there may be a word cut off at the top --> <!-- FSF: luuium is fine, but there is/was something above imago -->
+                </position> 
             </language>
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -28,16 +24,14 @@
             <translation>Medicinal naphtha.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Galgulus uero, quem puto graece vocari Charadrion ">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Galgulus char[adrion?]</marginalia_text>
+                    <marginalia_text>Galgulus char[adrion?]</marginalia_text> <!-- FSF: I would think so too -->
                 </position>
             </language>
             <translation>The galgulus bird.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -48,7 +42,6 @@
             <translation>Naphtha.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="ab animo">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -58,8 +51,8 @@
             <translation>Rays of souls.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="affectiones animi, vires corporis firmant, atq[ue] vegetiores reddunt">
+            <!-- FSF: I think this is a mixture of English secretary and Italian -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Affectiones animi, vires corporis firma[n]t, et vegetiores reddu[n]t</marginalia_text>
@@ -67,8 +60,6 @@
             </language>
             <translation>The affections of the soul strengthen the forces of the body, and restore them to a more lively state.</translation>
         </marginalia>
-        
-        
         
         <underline method="pen" type="straight" language="LA" text="[lon]ginquo uisam"/>
         <underline method="pen" type="straight" language="LA" text="spectrum"/>
@@ -80,12 +71,9 @@
         <underline method="pen" type="straight" language="LA" text="incandescentiu[m] ira"/>
         <underline method="pen" type="straight" language="LA" text="animi, vires corporis firmant, atq[ue] vegetiores reddunt. Qua"/>
         
-        
-        
         <!-- DO: There is a physical link which leads to non-underlined text -->
         
-        
+        <!-- FSF: there is a slash in the left margin -->
         
     </annotation>
-    
 </transcription>
