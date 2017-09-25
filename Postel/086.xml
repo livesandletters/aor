@@ -3,18 +3,19 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="086.tif" reader="John Dee" pagination="80" signature="[e 8[v]]"/> <!-- FSF: since the pagination identifies the page, I wouldn't put the signature here -->
+    <page filename="086.tif" reader="John Dee" pagination="80"/>
     <annotation>
         
-        <!-- Hebrew at top of page -->
+                                                               <!-- Hebrew at top of page -->
         
         <marginalia hand="Italian" anchor_text="reges">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Reges</marginalia_text>
+                    <book title="Books of Kings"/>
                 </position>
             </language>
-            <translation>Kings.</translation> <!-- FSF: is this referring to the Books of Kings? -->
+            <translation>Kings.</translation> 
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="in Iehouah"/>

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="026.tif" reader="John Dee" signature="[C[v]]"/>
-    
-    
     <annotation>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -19,7 +15,6 @@
             <translation>The power of the human soul.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -28,7 +23,6 @@
             </language>
             <translation>Union.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="characterum vires">
             <language ident="LA">
@@ -39,7 +33,6 @@
             <translation>The virtues of characters.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Coelestium enim radij">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -48,7 +41,6 @@
             </language>
             <translation>Celestial rays.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="imagines">
             <language ident="LA">
@@ -59,7 +51,6 @@
             <translation>Images.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
@@ -69,8 +60,8 @@
             <translation>Souls.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="stellarum animis etia[m] &amp; intelligentijs">
+            <!-- FSF: I think this is English secretary -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Stellar[um] Intellige[n]tia[e]</marginalia_text>
@@ -78,7 +69,6 @@
             </language>
             <translation>The intelligence of stars.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="post agemus">
             <language ident="LA">
@@ -89,9 +79,7 @@
             <translation>After three leaves.</translation>    <!-- DO: Not sure about this -->
         </marginalia>
         
-        
         <!-- DO: Three notes in the right margin which I cannot read -->
-        
         
         <underline method="pen" type="straight" language="LA" text="virtus quaedam delitescens immutandi, attrahendi, ligandi"/>
         <underline method="pen" type="straight" language="LA" text="potissimum si"/>
@@ -109,36 +97,29 @@
         <underline method="pen" type="straight" language="LA" text="solum res naturales"/>
         <underline method="pen" type="straight" language="LA" text="verum artificiales"/>
         <underline method="pen" type="straight" language="LA" text="Etiam, inquit, vestes &amp; aedificia &amp; quaecunq[ue] artis opera, certam a syderibus suscipiunt qualitatem: quum &amp; imprimunt Anulis, Herbis, Lapidibus"/>
-        <underline method="pen" type="double" language="LA" text="Speculisq[ue]"/>
+        <underline method="pen" type="double" language="LA" text="Speculis&apos;q[ue]"/>
         <underline method="pen" type="straight" language="LA" text="enim radij cunctis"/>
-        <underline method="pen" type="straight" language="LA" text="subito tacto"/>
+        <underline method="pen" type="straight" language="LA" text="subito tactu"/>
         <underline method="pen" type="straight" language="LA" text="ad vitae longitudinem"/>
         <underline method="pen" type="straight" language="LA" text="exaltatione"/>
         <underline method="pen" type="straight" language="LA" text="asce[n]dente"/>
         
-        
         <symbol name="Jupiter" place="left_margin" language="LA" text="Iouis"/>
-        
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="intext"/>  <!-- humanum memoriae -->
-
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- mandarunt vehementissimis -->
         <mark name="comma" method="pen" place="intext"/>  <!-- etia[m] & -->
         <mark name="comma" method="pen" place="intext"/>  <!-- collibuerit ligare -->
         <mark name="comma" method="pen" place="intext"/>  <!-- posse referunt -->
         <mark name="comma" method="pen" place="intext"/>  <!-- coelestes ad -->
         
-        
         <errata language="LA" copytext=":" amendedtext=")"/>  <!-- coniungi tunc -->
         <errata language="LA" copytext="," amendedtext=";"/>  <!-- intelligentijs hacq[ue] -->
         <errata language="LA" copytext="humorem" amendedtext="amorem"/>
         <errata language="LA" copytext="aquaru[m]" amendedtext="quaru[m]"/>
            
-        
     </annotation>
-    
 </transcription>

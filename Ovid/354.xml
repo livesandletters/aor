@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="354.tif" reader="John Dee" pagination="[174v]"/>   
-    
+    <page filename="354.tif" reader="John Dee" pagination="[174v]"/>       
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Taedia">
             <language ident="LA">
@@ -18,7 +15,6 @@
             <translation>Boredom.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="diffidentia">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -27,7 +23,6 @@
             </language>
             <translation>Diffidence.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="lethaeus amor">
             <language ident="LA">
@@ -38,28 +33,22 @@
             <translation>Lethean love.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Ad mala quisq[ue] animum referat sua. ponet amorem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Mala, ponere amorem coge[n]t</marginalia_text>
                 </position>
             </language>
-            <translation>Misfortunes urge one to position love.</translation>  <!-- DO: Not sure how to translate 'ponere' -->
+            <translation>Misfortunes urge one to position love.</translation>  <!-- DO: Not sure how to translate 'ponere' --> <!-- FSF: I would follow the loeb translation, which says to get rid of one's love; maybe something like to deposit one's love, to appoint one's love; see the loeb https://www.loebclassics.com/view/ovid-remedies_love/1929/pb_LCL232.215.xml -->
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Taedia quaere mali. faciunt &amp; taedia finem"/>
         <underline method="pen" type="straight" language="LA" text="Qui timet vt sua sit, ne quis sibi subtrahat"/>
         <underline method="pen" type="straight" language="LA" text="Ille machaonia"/>
        
-       
-       <symbol name="Jupiter" place="left_margin"/>
-        
-        
-       <mark name="vertical_bar" method="pen" place="left_margin"/>
-        
+        <symbol name="Jupiter" place="left_margin"/>
+         
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
         
     </annotation>
-    
 </transcription>

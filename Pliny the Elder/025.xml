@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="025.tif" reader="John Dee" signature="C"/>
-    
-    
     <annotation>
-        
         
         <!-- Note hidden in left margin -->
         
-        
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!-- FSF: anchor imaginatio -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Imag[i]natio</marginalia_text>
@@ -21,7 +16,6 @@
             </language>
             <translation>Imagination.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Phantasiam">
             <language ident="LA">
@@ -32,8 +26,7 @@
             <translation>Fantasy.</translation>
         </marginalia>
         
-        
-        <underline method="pen" type="straight" language="LA" text="q[uam] sensitiuam"/>
+        <underline method="pen" type="straight" language="LA" text="q[uam] sensitiuam"/> <!-- FSF: abbreviation is quandoq[ue] -->
         <underline method="pen" type="straight" language="LA" text="temporale"/>
         <underline method="pen" type="straight" language="LA" text="cu[m] rationalem"/>
         <underline method="pen" type="straight" language="LA" text="quae menti"/>
@@ -42,22 +35,17 @@
         <underline method="pen" type="straight" language="LA" text="deorsum ad"/>
         <underline method="pen" type="straight" language="LA" text="enim non solum corpus proprium, sed alienum interdum transmutant, p[er] modum imitationis, virtute scilicet quadam, quam habet similitudo rei, ad transmutandam rem"/>
         <underline method="pen" type="straight" language="LA" text="vehemens"/>
-        <underline method="pen" type="straight" language="LA" text="proprium, sed alienum corpus possunt transcendere, ac illus immutare ade&ograve;, ut mirabiles possint produci impressiones in elementis, item"/>
+        <underline method="pen" type="straight" language="LA" text="proprium, sed alienum corpus possunt transcendere, ac illud immutare ade&ograve;, ut mirabiles possint produci impressiones in elementis, item"/>
         <underline method="pen" type="straight" language="LA" text="citra medicinae adminiculum"/>
-        
         
         <mark name="bracket" method="pen" place="intext"/>  <!-- item siue -->
         <mark name="bracket" method="pen" place="intext"/>  <!-- malis, quae -->
-        
         
         <numeral place="intext" language="LA" text="q[uam] sensituam">1</numeral>
         <numeral place="intext" language="LA" text="cu[m] rationalem">2</numeral>
         <numeral place="intext" language="LA" text="quae menti"></numeral>
         
-        
         <errata language="LA" copytext="concupisdibilem" amendedtext="concupisibilem"/>
         
-        
     </annotation>
-    
 </transcription>

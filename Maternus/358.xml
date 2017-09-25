@@ -6,7 +6,7 @@
     <page filename="358.tif" reader="John Dee" pagination="91" signature="H 4"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -19,35 +19,33 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        &Moon; &Opposition; cu[m] planetis <!-- FSF: not sure about the opposite symbol -->
-                        <!-- M.B. I think this the conjunction symbol rather than opposite symbol.-->
+                        &Moon; &Conjunction; cu[m] planetis
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The moon in opposite position to the planets
+                The moon in conjunction with planets.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        &Moon; &Opposition; &Sun; <!-- FSF: not sure about the opposite symbol -->
-                        <!-- M.B. Also the conjuction symbol. -->
+                        &Moon; &Conjunction; &Sun;
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                The moon in conjunction with the sun.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -60,27 +58,29 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        &Moon; in &Square; cu[m] planetis <!-- FSF: not sure of the meaning of the square -->
-                        <!-- M.B. The square signifies the 'quartile' meaning three signs or ninty degrees. See: https://books.google.co.uk/books?id=VL1CAAAAYAAJ&pg=PA60&dq=astrology+quartile+square+symbol&hl=en&sa=X&ved=0ahUKEwjgvvWMmOvVAhVmIcAKHUQ8DP8Q6AEIMzAC#v=onepage&q=astrology%20quartile%20square%20symbol&f=false -->
+                        &Moon; in &Square; cu[m] planetis.
                     </marginalia_text>
                 </position>
             </language>
+            <translation>
+                Moon in ninty degrees to the planets.
+            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        &Star; &Moon; cum alijs planetis.
+                        &Sextile; &Moon; cum alijs planetis.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The star moon with other planets. <!-- M.B. I think the * symbol should be captured as sextile /60 degrees see link above.  -->
+                The moon in sixty degrees to other planets. 
             </translation>
         </marginalia>
         

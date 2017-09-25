@@ -10,23 +10,28 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Herueus <!-- FSF: I am unable to identify him -->
+                        Herueus 
                     </marginalia_text>
+                    <person name="Hervey"/>
                 </position>
             </language>
+            <translation>
+                Hervey.
+            </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="contmeliosa inter Comites Glouerniae &amp; Lecestriae, ita qu&ograve;d Comes Lecestriae, commot[us] in iram, transfreta[n]s secesset in Galliam"/>
+        <underline method="pen" type="straight" language="LA" text="contumeliosa inter Comites Glouerniae &amp; Lecestriae, ita qu&ograve;d Comes Lecestriae, commot[us] in iram, transfreta[n]s secesset in Galliam"/>
         <underline method="pen" type="straight" language="LA" text="Comiti Glouerniae"/>
         <underline method="pen" type="straight" language="LA" text="ipsum Comitem Glouerniae vnanimiter"/>
-        <underline method="pen" type="straight" language="LA" text="ipse Comes sibi timens, misit Herueum Senescalum suum"/>
-        <underline method="pen" type="straight" language="LA" text="per totas terras suas ius tenere co[m]promissum"/>
+        <underline method="pen" type="straight" language="LA" text="ipse Comes sibi timens, misit Herueum Senescalum suum per totas terras suas ius tenere co[m]promissum"/>
         
-        <mark name="circumflex" method="pen" place="intext"/>
-        <mark name="vertical_bar" method="pen" place="right_margin"/>
+        <mark name="circumflex" method="pen" place="intext"/>  
+        <mark name="circumflex" method="pen" place="intext"/>  
+        <mark name="bracket" method="pen" place="right_margin"/>  
         
         <errata language="LA" copytext="Boniae" amendedtext="Bononiae"/>
         <errata language="LA" copytext="praedicessoris" amendedtext="praedecessoris"/>
+        <errata language="LA" copytext="secesset" amendedtext="secessit"/>
         
     </annotation>
 </transcription>

@@ -12,18 +12,19 @@
                     <marginalia_text>
                         predicta
                     </marginalia_text>
+                    <emphasis method="pen" type="dotted"/>
                 </position>
             </language>
             <translation>
-                Predcited.
+                Predicted.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="in VVallia[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        In Wallia[m]
+                        Contra Wallia[m].    
                     </marginalia_text>
                 </position>
             </language>
@@ -41,7 +42,7 @@
                 </position>
             </language>
             <translation>
-                Note the truce.
+                Note of the truce.
             </translation>
         </marginalia>
         
@@ -49,7 +50,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        dedita
+                        dedita       
                     </marginalia_text>
                 </position>
             </language>
@@ -68,6 +69,8 @@
         <mark name="circumflex" method="pen" place="intext"/>
         
         <errata language="LA" copytext="necessitite" amendedtext="necessitate"/>
+        <errata language="LA" copytext="aeducatus" amendedtext="educatus"/>
+        <errata language="LA" copytext="peruam" amendedtext="paruam"/>
         
     </annotation>
 </transcription>

@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="809.tif" reader="John Dee" pagination="190"/>   
-    
     <annotation>
         
-        
-        <marginalia hand="Italian" anchor_text="rata">
+        <marginalia hand="Italian" anchor_text="rata"> 
+            <!-- FSF: Dee seems to have changed rata to rara (see https://www.loebclassics.com/view/ovid-ex_ponto/1924/pb_LCL151.409.xml?rskey=BZ3E4q&result=2&mainRsKey=Zi9VSN); I am not sure how to capture this best; it is r/r in the margin, but also the /r are added at a later stage... -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>r/r</marginalia_text>             <!-- DO: Not sure about this -->
@@ -17,10 +15,7 @@
             </language>
         </marginalia>
         
-        
         <errata language="LA" copytext="rata" amendedtext="raa"/>
         
-        
     </annotation>
-    
 </transcription>

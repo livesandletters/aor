@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="019.tif" reader="John Dee" signature="Bij"/>
-    
-    
+    <page filename="019.tif" reader="John Dee" signature="B ij"/>
     <annotation>
         
-        
         <marginalia hand="Italian" anchor_text="Metaphisicam" id="RCP9978:019:m0001">
+            <!-- FSF: I would say that this is English_secretary -->
           <language ident="LA">
               <position place="right_margin" book_orientation="0">
                   <marginalia_text>Mathematica[m] vellet dicere. forte</marginalia_text>
@@ -18,10 +15,9 @@
           </language>
           <translation>He wanted to say mathematics, perhaps.</translation>    
       </marginalia>  
-        
-        
-     
+
         <marginalia hand="Italian" anchor_text="virtus verborum" id="RCP9978:019:m0002">
+            <!-- FSF: I would say that this is English_secretary -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>virtus verbor[um].</marginalia_text>
@@ -29,7 +25,6 @@
             </language>
             <translation>The virtue of words.</translation>    
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Phisicam"/>
         <underline method="pen" type="straight" language="LA" text="Metaphisicam"/>
@@ -41,33 +36,21 @@
         <underline method="pen" type="straight" language="LA" text="quid mens: quid Daemon"/>
         <underline method="pen" type="double" language="LA" text="virtus verborum" id="RCP9978:019:u0002"/>
         
-
         <errata language="LA" copytext="Metaphisicam" amendedtext="[deleted]"/>
         <errata language="LA" copytext="Metaphisicam" amendedtext="[deleted]"/>
         <errata language="LA" copytext="Metaphisicam" amendedtext="[deleted]"/>
-        
         
         <physical_link>
-            
             <marginal_annotation idref="RCP9978:019:m0001"/>
             <marginal_annotation idref="RCP9978:019:u0001"/>
-            
-            <relation from="RCP9978:019:m0001" to="RCP9978:019:u0001" type="directed"/>        <!-- DO: This is the actual link, but I think the note really refers to 'Metaphysicam' in this sentence -->
-            
+            <relation from="RCP9978:019:m0001" to="RCP9978:019:u0001" type="directed"/>        <!-- DO: This is the actual link, but I think the note really refers to 'Metaphysicam' in this sentence --> <!-- FSF: I'd say that these are undirected -->
         </physical_link>
-        
         
         <physical_link>
-            
             <marginal_annotation idref="RCP9978:019:m0002"/>
             <marginal_annotation idref="RCP9978:019:u0002"/>
-            
             <relation from="RCP9978:019:m0002" to="RCP9978:019:u0002" type="directed"/>
-            
         </physical_link>
         
-        
-        
     </annotation>
-    
 </transcription>

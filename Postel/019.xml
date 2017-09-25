@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="019.tif" reader="John Dee" pagination="13" signature="[a 7]"/> <!-- FSF: since the pagination identifies the page, I wouldn't put the signature here-->
+    <page filename="019.tif" reader="John Dee" pagination="13"/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Platychili">
@@ -13,7 +13,7 @@
                 </position>
             </language>
             <translation>
-                <!-- DO: I don't know what this is --> <!-- FSF: not sure either; the best I found is this beetle https://en.wikipedia.org/wiki/Platychile -->
+                Platychile beetles.
             </translation>
         </marginalia>
         
@@ -37,7 +37,7 @@
         <underline method="pen" type="straight" language="LA" text="spiritu age[n]te mundi"/>
         
         <mark name="comma" method="pen" place="intext"/>  <!-- deprauatum esse -->
-        <!-- FSF: there is abother comma added between Lusitaniae and in sale, 10th line or so -->
+        <mark name="comma" method="pen" place="intext"/>  <!-- Lusitaniae in -->
         
         <errata language="LA" copytext="," amendedtext="[deleted]"/>
         

@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="030.tif" reader="John Dee" signature="Ciij"/>
-    
-    
+    <page filename="030.tif" reader="John Dee" signature="[C iij[v]]"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Tetraoos">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Tetraees</marginalia_text>  <!-- DO: I can't really make out the sixth and seventh letters -->
+                    <marginalia_text>Tetraees</marginalia_text>  <!-- DO: I can't really make out the sixth and seventh letters --> <!-- FSF: I think these are e's -->
                 </position>
             </language>
             <translation>Tetraos.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -28,17 +23,14 @@
             </language>
         </marginalia>
         
-        
-        
         <marginalia hand="Italian" anchor_text="Pannagra[m]maton">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pentagra[m]mato</marginalia_text>  <!-- DO: Not sure about what comes after this -->
+                    <marginalia_text>Pentagra[m]mato</marginalia_text>  <!-- DO: Not sure about what comes after this --> <!-- FSF: possibly Hebrew? -->
                 </position>
             </language>
             <translation>A pentagram.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Cabala">
             <language ident="LA">
@@ -48,7 +40,6 @@
             </language>
             <translation>Kabbalah.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -60,7 +51,6 @@
             <translation>Nature, 3; Law, 4; Grace, 5.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="multa legerit"/>
         <underline method="pen" type="straight" language="LA" text="audiuerit"/>
         <underline method="pen" type="straight" language="LA" text="retinuerit"/>
@@ -70,8 +60,7 @@
         <underline method="pen" type="straight" language="LA" text="Pannagra[m]maton"/>
         <underline method="pen" type="straight" language="LA" text="Vade te lauare septies i[n] Iordane, &amp; recipiet sanitate[m] caro tua"/>
         
-        
+        <!-- FSF: I think the line at the end also needs capturing -->
         
     </annotation>
-    
 </transcription>

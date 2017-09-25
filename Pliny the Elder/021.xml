@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="021.tif" reader="John Dee" signature="Biij"/>
-    
-    
+    <page filename="021.tif" reader="John Dee" signature="B iij"/>
     <annotation>
         
-        
         <marginalia hand="Italian" anchor_text="rationes animae mundi seminales; figuram coelestem">
+            <!-- FSF: I think all of these notes are English secretary -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>{ - Idea in [?] - R[ati]o[n]es seminales in a[n]i[m]a Mundi - figura[e] celestes </marginalia_text>  <!-- DO: First line cut off -->
@@ -18,7 +15,6 @@
             </language>
             <translation>{ An idea in [?]; seminal methods in the soul of the world; celestial models.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Ideae">
             <language ident="LA">
@@ -29,7 +25,6 @@
             <translation>An idea.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="in coelis ultra stellas etiam figuras">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -38,7 +33,6 @@
             </language>
             <translation>Magical models in the skies beyond the stars.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -49,7 +43,6 @@
             <translation></translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Indiuiduorum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -59,7 +52,6 @@
             <translation>The individual character of indivisibles.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="Ideae virtute insignita"/>
         <underline method="pen" type="straight" language="LA" text="atq[ue] eandem omnium esse naturam"/>
         <underline method="pen" type="straight" language="LA" text="anima mundi rationes rerum"/>
@@ -68,7 +60,7 @@
         <underline method="pen" type="straight" language="LA" text="etiam figuras"/>
         <underline method="pen" type="double" language="LA" text="stellis"/>
         <underline method="pen" type="double" language="LA" text="figuris" id="RCP9978:021:u0001"/>
-        <underline method="pen" type="double" language="LA" text="proprietatibusq[ue]"/>
+        <underline method="pen" type="double" language="LA" text="proprietatibus&apos;q[ue]"/>
         <underline method="pen" type="straight" language="LA" text="qu[a]elibet species"/>
         <underline method="pen" type="straight" language="LA" text="propriam figuram coelestem" id="RCP9978:021:u0002"/>
         <underline method="pen" type="straight" language="LA" text="rationes animae mundi"/>
@@ -81,24 +73,15 @@
         <underline method="pen" type="straight" language="LA" text="per influxum"/>
         <underline method="pen" type="double" language="LA" text="materiae generabilium ad animam mundi"/>
         
-        
         <mark name="bracket" method="pen" place="right_margin"/>
-        
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        
         <physical_link>
-            
             <marginal_annotation idref="RCP9978:021:u0001"/>
             <marginal_annotation idref="RCP9978:021:u0002"/>
-            
             <relation from="RCP9978:021:u0001" to="RCP9978:021:u0002" type="undirected"/>
-            
         </physical_link>
         
-        
-        
     </annotation>
-    
 </transcription>

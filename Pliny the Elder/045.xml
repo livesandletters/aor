@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="045.tif" reader="John Dee" signature="Eiij"/>
-    
-    
+    <page filename="045.tif" reader="John Dee" signature="E iij"/>
     <annotation>
         
-        
         <!-- DO: It looks like there's a note hidden in the left margin -->
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Berelishca</marginalia_text>       <!-- DO: Not sure what this is... -->
+                    <marginalia_text>Berelishca</marginalia_text>       <!-- DO: Not sure what this is... --> <!-- FSF: I think it is Berelistica; see https://books.google.co.uk/books?id=FAOvxls5fWwC&pg=PA141&lpg=PA141&dq=Berelistica&source=bl&ots=KD3hJLAbwC&sig=oqEBJYeSmZAydYea0dn8FL04GE8&hl=en&sa=X&ved=0ahUKEwid74fu97_WAhVnD8AKHSZ_DzwQ6AEILTAA#v=onepage&q=Berelistica&f=false -->
                 </position>
             </language>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="securibus, Axiomantia"/>
         <underline method="pen" type="straight" language="LA" text="quae speculis &amp; corporibus splendidioribus fieri solet, in quibus apparerent hominum, siue parentum"/>
         <underline method="pen" type="straight" language="LA" text="siue aliorum formae: item castra, ciuitates, &amp; id genus"/>
         
-        
         <errata language="LA" copytext="voluimus" amendedtext="oluimus"/>
         <errata language="LA" copytext="amplora" amendedtext="amphora"/>
         
-        
     </annotation>
-    
 </transcription>

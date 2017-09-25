@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="007.tif" reader="John Dee" pagination="title-page"/>
-    
-    
     <annotation>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Johannes Dee 1562.</marginalia_text>  <!-- DO: This is under Saunder's writing; I can't make out the final word -->
+                    <!-- FSF: my guess would be something like Antwaper -->
                     <person name="John Dee"/>
                 </position>
             </language>
         </marginalia>
-        
         
         <marginalia hand="Italian" other_reader="Nicholas Saunder">
             <language ident="LA">
@@ -29,7 +25,6 @@
             </language>
         </marginalia>
         
-        
         <marginalia hand="Italian" other_reader="unknown" method="pencil">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
@@ -37,7 +32,6 @@
                 </position>
             </language>
         </marginalia>
-        
         
         <marginalia hand="Italian" other_reader="unknown" method="pencil">
             <language ident="EN">
@@ -47,21 +41,18 @@
             </language>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>D. Guelterus Henric[us] Riffinus Medicus et Mathematic[us]</marginalia_text>
+                    <marginalia_text>D. Guelterus Henric[us] Riffinus Medicus et Mathematic[us]</marginalia_text> <!-- FSF: because of the below, I think it is Hermeni[us] or so, though such reading requires a bit of phantasy... -->
                 </position>
             </language>
             <translation>D. Walter Henry Riffin, doctor and mathematician.</translation>     <!-- DO: Not sure who this is -->
+            <!-- FSF: it's Walter Herman Ryff; see http://www.unconv-association.org/sites/unconventional/files/dee/Hakansson_SEEING.pdf and https://de.wikipedia.org/wiki/Walther_Hermann_Ryff -->
         </marginalia>
-        
         
         <mark name="slash" method="pen" place="intext"/>  <!-- M. D. -->
         <mark name="slash" method="pen" place="intext"/>  <!-- D. XLVIII -->
         
-        
     </annotation>
-    
 </transcription>

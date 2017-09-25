@@ -6,17 +6,16 @@
     <page filename="361.tif" reader="John Dee" pagination="94"/>
     <annotation>
         
-        <marginalia hand="Italian"> <!-- M.B. Add anchor 'coniunguntur infortunae'. -->
+        <marginalia hand="Italian" anchor_text="coniunguntur infortunae">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Infortunar[um] <!-- FSF: not sure about the symbol; not the opposite planets, because there is only one planet, I'd say -->
-                        <!-- M.B. The conjunction symbol see: https://en.wikipedia.org/wiki/Astrological_aspect#Conjunction -->
+                        Infortunar[um] &Conjunction;
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Conjunction with the unfortunate.
             </translation>
         </marginalia>
         
@@ -38,13 +37,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Imo de hac re Cardanus bene ratiocunatur fo 86. <!-- FSF: not sure about ratiocunatur -->
-                        <!-- M.B. I think 'ratiocunatur' is correct, Dee appears to be referring Cardano's method of computing (the astrological aspects).-->
+                        Imo de hac re Cardanus bene ratiocunatur fo 86.
                     </marginalia_text>
+                    <person name="Girolamo Cardano"/>
                 </position>
             </language>
             <translation>
-                
+                On the contrary, about this matter, Cardanus computed well. Folio 86.
             </translation>
         </marginalia>
         
@@ -78,7 +77,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Sed ad invari debent fortunatis irradiationibus alicui[us] planeta[e], vt docet Ptoloma[e]us. <!-- FSF: not sure at all -->
+                        Sed ad invari debent fortunatis irradiationibus alicui[us] planeta[e], vt docet Ptoloma[e]us. <!-- FSF: not sure at all --> 
                     </marginalia_text>
                     <person name="Ptolemy"/>
                 </position>

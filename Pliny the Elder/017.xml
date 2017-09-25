@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="017.tif" reader="John Dee" signature="B"/>
-    
-    
     <annotation>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>      <!-- DO: I can't make out this writing in the margin -->
+                    <marginalia_text></marginalia_text>      <!-- DO: I can't make out this writing in the margin --> <!-- FSF: original needed -->
                 </position>
             </language>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Angelus">
             <language ident="LA">
@@ -28,7 +23,6 @@
             <translation>The Angel.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="mundi parui">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
@@ -37,15 +31,13 @@
             </language>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Adepliua</marginalia_text>       <!-- DO: Not sure what this is -->
+                    <marginalia_text>Adepliua</marginalia_text>       <!-- DO: Not sure what this is --> <!-- FSF:  Idon't know either -->
                 </position>
             </language>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="consurgit anima" id="RCP9978:017:m0001">
             <language ident="LA">
@@ -56,7 +48,6 @@
             <translation>A standing soul.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="materiam omnem sese potenter extollere, vt sibiipsis, &amp; suo vigori, semoto"/>
         <underline method="pen" type="straight" language="LA" text="restitui"/>
         <underline method="pen" type="straight" language="LA" text="cuicunq[ue] corpori dominari"/>
@@ -65,7 +56,7 @@
         <underline method="pen" type="straight" language="LA" text="Quatuor humores versat anima"/>
         <underline method="pen" type="straight" language="LA" text="Fantasiae affectus"/>
         <underline method="pen" type="straight" language="LA" text="maioris animalis"/>
-        <underline method="pen" type="straight" language="LA" text="suo soloq[ue] affectu"/>
+        <underline method="pen" type="straight" language="LA" text="suo solo&apos;q[ue] affectu"/>
         <underline method="pen" type="straight" language="LA" text="citat ventos Deo"/>
         <underline method="pen" type="straight" language="LA" text="Auicebron"/>
         <underline method="pen" type="straight" language="LA" text="ab rationali anima id, quo nihil admirabilius"/>
@@ -79,31 +70,21 @@
         <underline method="pen" type="straight" language="LA" text="pectore Deum quodam modo concipit"/>
         <underline method="pen" type="straight" language="LA" text="inebriatur. Si ergo homo se conformem reddat coelestibus, coelestis erit"/>
         
-        
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        
         <mark name="equal_sign" method="pen" place="right_margin"/>  <!-- libuerit -->
-        
         <mark name="comma" method="pen" place="intext"/>  <!-- mundi parui -->
         <mark name="comma" method="pen" place="intext"/>  <!--  more corpus -->
         <mark name="comma" method="pen" place="intext"/>  <!-- anima Deum -->
         
-        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        
         <physical_link>
-            
             <marginal_annotation idref="RCP9978:017:m0001"/> 
             <marginal_annotation idref="RCP9978:017:u0001"/>
-            
-            <relation from="RCP9978:017:m0001" to="RCP9978:017:u0001" type="directed"/>
-            
+            <relation from="RCP9978:017:m0001" to="RCP9978:017:u0001" type="directed"/> <!-- FSF: I'd say that this is undirected -->
         </physical_link>
         
-        
     </annotation>
-    
 </transcription>
