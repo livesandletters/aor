@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="040.tif" reader="John Dee" signature="[Diiij[v]]"/>
-    
-    
+    <page filename="040.tif" reader="John Dee" signature="[D iiij[v]]"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Basilius">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Basilius</marginalia_text>
-                    <person name="Basil of Caesarea"/>            <!-- DO: I think this is him... -->
+                    <person name="Basil of Caesarea"/>            <!-- DO: I think this is him... --> <!-- FSF: it can only be him... -->
                 </position>
             </language>
             <translation>Basil.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -30,7 +25,6 @@
             <translation></translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="materiae esse"/>
         <underline method="pen" type="straight" language="LA" text="materiale"/>
         <underline method="pen" type="straight" language="LA" text="Angelos omnes ante lapsum, corpora habuisse a&euml;rea, ex"/>
@@ -38,15 +32,10 @@
         <underline method="pen" type="straight" language="LA" text="Nam quod est non compos spiritus, sensus sit expers, est &amp; necessarium: sic spiritale corpus Daemonu[m]"/>
         <underline method="pen" type="double" language="LA" text="absque medio"/>
         
-        
         <mark name="bracket" method="pen" place="right_margin"/>
-        
         
         <errata language="LA" copytext="senibus" amendedtext="sensibus"/>
         <errata language="LA" copytext="expertos" amendedtext="expertes"/>
         
-        
-        
     </annotation>
-    
 </transcription>
