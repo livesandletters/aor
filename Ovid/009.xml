@@ -28,9 +28,10 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>eii</marginalia_text>     <!-- DO: Not sure what this is --> <!-- FSF: I am guessing, but could this be xij with superscript e, soas to give the month to the year? -->
+                    <marginalia_text>xii[e].</marginalia_text>     <!-- DO: Not sure what this is --> <!-- FSF: I am guessing, but could this be xij with superscript e, soas to give the month to the year? -->
                 </position>
             </language>
+            <translation>In the twelfth [month].</translation>
         </marginalia>
         
         <marginalia hand="Italian" other_reader="unknown" method="pencil">
@@ -41,17 +42,9 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="tres"> <!-- FSF: I would opt for an erratum here -->
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>Duo</marginalia_text>    
-                </position>
-            </language>
-            <translation>Two.</translation>
-        </marginalia>
         
-        <marginalia hand="Italian">
-            <language ident="EN">
+        <marginalia hand="Italian">           <!-- DO: Red ink? -->
+            <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>[deleted]</marginalia_text>     
                 </position>
@@ -60,7 +53,7 @@
         
         <mark name="scribble" method="pen" place="head"/>
         
-        <errata language="LA" copytext="tres" amendedtext="[deleted]"/>
+        <errata language="LA" copytext="tres" amendedtext="Duo"/>
         
     </annotation>
 </transcription>
