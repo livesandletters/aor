@@ -7,40 +7,41 @@
     <page filename="0902.tif" reader="John Dee" pagination="344" signature="[Yy.ii.[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="perit&egrave; meo quidem">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>p qua qu&ograve;d</marginalia_text>
+                    <marginalia_text>perite eu[m] qua qu&ograve;d</marginalia_text> <!-- M.B. Not certain of this transcription. -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>I perish that is.</translation> <!-- M.B. Not sure how to translate this? -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Iou&iacute;que Optimo Maximo se consiliarium">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Angur Ious cosiharius</marginalia_text>
+                    <marginalia_text>Augur Ious consiliarius</marginalia_text>
+                    <person name="Jupiter"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Counselling from the augur of Jupiter.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="priuilegia tollit">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Priuilegia tollitur[?].</marginalia_text>
+                    <marginalia_text>Priuilegia tolluntur</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Removed a privilege.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Centuriatis comitiis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>Centuriata comitia.</marginalia_text>
                 </position>
             </language>
-            <translation>Centuriata comita.</translation>
+            <translation>The centuriate assembly.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="NOXIAE POENA PAR ESTO">
@@ -49,7 +50,7 @@
                     <marginalia_text>Noxia[e] poena par esto.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The punishment shall fit the offence.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="apparitores">
@@ -58,36 +59,19 @@
                     <marginalia_text>Apparitores</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Public servants.</translation>
         </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
+      
+      <!-- M.B. Greek marginalia to be captured later. -->
+      
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Censores.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Censors.</translation>
         </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="Censores">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="graues esse non possunt, nisi sint volu[n]tarii. Quocrica melius est rationes referri, caus&aacute;mque exponi Censoribus: integra[m] tamen lege[m] 
             accusatori iudici&oacute;que seruari">
@@ -96,7 +80,7 @@
                     <marginalia_text>Accusatoris grauis a[e] voluntarij sunt</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Severity of the accuser volunteers.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ignoratione iuris">
@@ -105,16 +89,17 @@
                     <marginalia_text>Ignoratio iuris</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Ignorance of the law.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="M. Iunius">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>M Iunius</marginalia_text>
+                    <marginalia_text>M[arcus] Iunius</marginalia_text>
+                    <person name="Marcus Junius Brutus the Younger"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Marcus Junius.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="cael&iacute;que partes sibi definitas esse"/>
@@ -129,7 +114,6 @@
         <underline method="pen" type="straight" language="LA" text="qui quidem graues esse non possunt, nisi sint volu[n]tarii"/>
         <underline method="pen" type="straight" language="LA" text="leges &agrave; librariis lego"/>
         <underline method="pen" type="straight" language="LA" text="magistratus ignoratione iuris sui, tantum sapere, quantum apparitores velint"/>
-        <underline method="pen" type="straight" language="LA" text=""/>
         
         <!-- M.B. Unknown symbol appears in the left margin four times. -->
         
