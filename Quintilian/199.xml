@@ -6,6 +6,8 @@
     <page filename="198.tif" reader="John Dee" pagination="193" signature="n"/> 
     <annotation>
         
+        <!-- M.B. Intext asterisk (errata) could also be captured as a marking, if this is added to the schema. Otheriwse this transcription is complete.  -->
+        
         <marginalia hand="Italian" anchor_text="scelus incredibile, &amp; prater ha[n]c unam in omni uita inauditum. &ograve; libidine[m] effraenatam &amp; indomitam. &ograve; audaciam
              singula rem, non[m] timuisse, si minus uim Deorum, hominumq[ue], fama[m], at illa[m] ipsam noctem, facesq[ue] ipsas nuptiales, no[n] lumen cubiculi, no[m] cubile filiae 
              no[n] parties, deniq[ue] ipsos superioru[m] testes nuptiarum?">
@@ -45,7 +47,7 @@
                     <book title="Pro Cluentio"/>
                 </position>
             </language>
-            <translation>For Cluentius.</translation> <!-- FSF: original name to be kept -->
+            <translation>Pro Cluentio.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="in Partionibus praecipit">
@@ -56,7 +58,7 @@
                     <book title="De Partitionbus Oratoriae"/>
                 </position>
             </language>
-            <translation>Cicero in 'The Subdivisions of Oratory'.</translation> <!-- FSF: original name -->
+            <translation>Cicero in 'De Partitionbus Oratoriae'.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
@@ -88,19 +90,10 @@
             <translation>Quintus.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Q">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>*</marginalia_text> <!-- M.B. Not sure how best to capture this intext asterisk symbols, its not really an errata but rather a gloss on Q[uintus]--> 
-                    <!-- FSF: I would tag this as an erratum given that in the margin there is the correction, i.e. Qu; the asterisk would be a drawing or mark, I suppose; I think it is not in the list yet, but I have come across some myself -->
-                </position>
-            </language>
-        </marginalia>
-        
         <marginalia hand="Italian" anchor_text="in narratione affectibus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Affectus in narratione.</marginalia_text> <!-- M.B. Not sure of the  'm'contraction. --> <!-- FSF: to me the transcription looks fine -->
+                    <marginalia_text>Affectus in narratione.</marginalia_text>
                 </position>
             </language>
             <translation>Emotion in narrative.</translation>
@@ -110,6 +103,8 @@
         
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
+               
+        <errata language="LA" copytext="Q." amendedtext="Qu."/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
