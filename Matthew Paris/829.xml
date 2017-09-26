@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Castru[m] de Reigat. Jo[hann]is Comitis Warrena[e]
+                        Castru[m] de Reigat. Jo[hann]is Comitis Warrena[e].   <!-- DO: I would say 'Io[hann]is' but not sure -->
                     </marginalia_text>
                     <person name="John de Warenne, 6th Earl of Surrey"/>
                     <location name="Reigate Castle"/>
@@ -27,7 +27,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Castellu[m] de Tonebriges Gilberti Comitis de Clare.
+                        Castellu[m] de Tonebriges Gilberti Comitis de Clare       <!-- DO: I think it's just 'Tonebrige' -->
                     </marginalia_text>
                     <person name="Gilbert de Clare, 7th Earl of Gloucester"/>
                     <location name="Tonbridge Castle"/>
@@ -38,6 +38,7 @@
             </translation>
         </marginalia>
         
+        <underline method="pen" type="straight" language="LA" text="Iohannes"/>
         <underline method="pen" type="straight" language="LA" text="in Castris suis, de Tonebrege &amp; Reigate"/>
         <underline method="pen" type="straight" language="LA" text="Alex. rex Scoti[a]e, &amp; .I. Comes Brita[n]ni[a]e"/>
         <underline method="pen" type="straight" language="LA" text="soriribus quide[m] regis Eadvvardi"/>
