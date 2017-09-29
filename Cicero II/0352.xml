@@ -13,15 +13,15 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        O grauius 
-                        Ornatius ]</marginalia_text>
+                        grauius 
+                        ornatius ]</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>More complex, more decorated.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Maiestatem minuisti; hoc est populi potestatem infirmat, minuit is maiestatem">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -29,7 +29,7 @@
                         minuere ] potestate[m].</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To weaken, to diminish ] power.</translation>
         </marginalia>
         
         
@@ -43,7 +43,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>More delicate, sharper, simpler.</translation>
         </marginalia>
        
         
@@ -53,7 +53,7 @@
                     <marginalia_text>Certus Locus { accus. Defe[n]s.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>A firm topic { of the accuser; of the defender.</translation>
         </marginalia>
         
         
@@ -63,7 +63,7 @@
                     <marginalia_text>Constitutio Diffinitiua.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>An issue of definition.</translation>
         </marginalia>
         
         
@@ -71,9 +71,10 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>C. flaminius.</marginalia_text>
+                    <person name="Gaius Flaminius Nepos"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Gaius Flaminius.</translation>
         </marginalia>
         
         
@@ -83,7 +84,7 @@
                     <marginalia_text>Accusatoris Loci.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The topics of the accuser.</translation>
         </marginalia>
         
         
@@ -93,13 +94,47 @@
                     <marginalia_text>loc[us] co[mmun]is.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>A common topic.</translation>
         </marginalia>
         
         
+        <marginalia hand="Italian" anchor_text="defensoris primus locus">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Defensoris Loci.</marginalia_text>
+                </position>
+            </language>
+            <translation>The topics of the defender.</translation>
+        </marginalia>
         
         
+        <marginalia hand="Italian" anchor_text="Locus autem co[m]munis">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>locus co[mmun]is.</marginalia_text>
+                </position>
+            </language>
+            <translation>A common topic.</translation>
+        </marginalia>
         
+        
+        <underline method="pen" type="straight" language="LA" text="sed illae tenuius, &amp; acutius, &amp; subtilius tractantur: hi"/>
+        <underline method="pen" type="straight" language="LA" text="cum verbis, tum etiam sente[n]tiis excellentibus"/>
+        <underline method="pen" type="straight" language="LA" text="seditione[m] ad populu[m] legem agrariam ferebat"/>
+        <underline method="pen" type="straight" language="LA" text="derogare"/>
+        
+        
+        <!-- DO: Not sure about the mark before the 'grauius ornatius' note -->
+        
+        
+        <numeral place="left_margin" language="LA" text="Primus">.1.</numeral>
+        <numeral place="left_margin" language="LA" text="Postea">2</numeral>
+        <numeral place="left_margin" language="LA" text="P&ograve;st">.3.</numeral>
+        <numeral place="left_margin" language="LA" text="primus">.1.</numeral>
+        <numeral place="left_margin">2</numeral>
+        <numeral place="left_margin">3</numeral>
+        <numeral place="left_margin">4</numeral>
+        <numeral place="left_margin">5</numeral>
         
         
         
