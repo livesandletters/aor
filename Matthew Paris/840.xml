@@ -9,7 +9,7 @@
         <underline method="pen" type="straight" language="LA" text="quodam dicto Rheso filio Meredeth"/>
         
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
-            <node id="n1" person="Rhys Gryg">Rhesogryg</node>
+            <node id="n1" person="Rhys Gryg">Rhesogryg</node>          <!-- DO: I would say this says 'Rhese gryg' -->
             <node id="n2" anchor_text="Meredeth" person="Maredudd ap Rhys Gryg">Meredith</node>
             <node id="n3" anchor_text="Rheso" person="Rhys ap Maredudd">Rhese</node>
             <link to="n2" from="n1" relationship="has_child"/>
