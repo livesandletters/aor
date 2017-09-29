@@ -104,6 +104,18 @@
         </marginalia>
         
         
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                       Nota               <!-- DO: Not entirely sure if this is what this says -->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>Note.</translation>
+        </marginalia>
+        
+        
         <marginalia hand="Italian" anchor_text="nec nihil optime, nec omnia">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -183,9 +195,7 @@
         <underline method="pen" type="straight" language="LA" text="suauitate &amp; breuitate dicendi"/>
         <underline method="pen" type="straight" language="LA" text="fuera[n]t, in medio posuit"/>
         
-        
-        <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Leo" place="right_margin"/>         <!-- DO: Not sure if this is just an extension of the Jupiter symbol, or in fact if the whole thing is another symbol in itself -->
+      
         <symbol name="Jupiter" place="intext" language="LA" text="muneratur"/>
         
         
