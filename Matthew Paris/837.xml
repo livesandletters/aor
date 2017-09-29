@@ -3,19 +3,19 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="837.tif" reader="John Dee" pagination="371"/>
+    <page filename="837.tif" reader="John Dee" pagination="371."/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">   <!-- DO: Anchor 'corpus ... Constantini' -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Corpus Consta[n]tij Imperatoris
+                        Corpus Consta[n]tij Imperatoris.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The corpus of Emperor Constantius. <!-- FSF: not sure which one it is -->
+                The corpus of Emperor Constantius. <!-- FSF: not sure which one it is -->  <!-- DO: I think it means the body. Not sure which one, some info here https://en.wikipedia.org/wiki/Segontium  suggests this may refer to  https://en.wikipedia.org/wiki/Constantius_Chlorus. However it's certainly not clear-->
             </translation>
         </marginalia>
         
@@ -23,12 +23,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Wallensiu[m] Gloria[e] ad Anglos translata[e]
+                        Wallensiu[m] Gloria[e] ad Anglos translata[e]       <!-- DO: I think it's 'Gloria' and 'translata' -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The glories of the Welsh where transfered onto the English.
+                The glories of the Welsh were transferred onto the English.   <!-- DO: Should Wales and England be tagged? -->
             </translation>
         </marginalia>
         
@@ -38,14 +38,9 @@
         <underline method="pen" type="straight" language="LA" text="belli author"/>
         <underline method="pen" type="straight" language="LA" text="caput Londin."/>
         <underline method="pen" type="straight" language="LA" text="nobilis"/>
-        <underline method="pen" type="straight" language="LA" text="Corona quondam"/>
-        <underline method="pen" type="double" language="LA" text="famosi regis Britonum"/>
-        <underline method="pen" type="straight" language="LA" text="Arthuri"/>
+        <underline method="pen" type="straight" language="LA" text="Corona quondam famosi regis Britonum Arthuri"/>
         <underline method="pen" type="triple" language="LA" text="Sic ad"/>
-        <underline method="pen" type="straight" language="LA" text="Anglos gloria"/>
-        <underline method="pen" type="double" language="LA" text="VVallensium"/>
-        <underline method="pen" type="straight" language="LA" text="inuit&egrave; Anglorum"/>
-        <underline method="pen" type="straight" language="LA" text="legibus subditorum, per dei prouidentiam est translata"/>
+        <underline method="pen" type="straight" language="LA" text="Anglos gloria VVallensium, inuit&egrave; Anglorum legibus subditorum, per dei prouidentiam est translata"/>
         
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- caput Londin. -->
