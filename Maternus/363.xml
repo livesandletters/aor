@@ -6,24 +6,31 @@
     <page filename="363.tif" reader="John Dee"/>
     <annotation>
         
-        <!-- MB. Still in progress -->
-        
-        <marginalia hand="Italian" anchor_text="malitia infortunarum, cum in aliqua dignitatum suarum fuerit, &amp; econuerso">
+        <marginalia hand="Italian" anchor_text="[minuitur] malitia infortunarum, cum in aliqua dignitatum suarum fuerit, &amp; econuerso">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Infortuna[e] malitia  in dignitati filia</marginalia_text>
+                    <marginalia_text>Infortuna[e] malitia minuitur in dignitati existitis</marginalia_text>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="recipiet">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Receptio</marginalia_text>
                 </position>
             </language>
-            <translation>Perigrinne</translation>
+            <translation></translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="peregrinis">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Peregrinnus</marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -38,16 +45,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Renolutio</marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>alidita</marginalia_text>
+                    <marginalia_text>Reuolutio</marginalia_text>
                 </position>
             </language>
             <translation></translation>
@@ -56,16 +54,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>Reuolutionis Mundi.</marginalia_text>
                 </position>
             </language>
             <translation></translation>
@@ -93,6 +82,9 @@
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         
+        
+        <errata language="LA" copytext="ascensionis" amendedtext="asce[n]detis"/>
+        <errata language="LA" copytext="&amp;" amendedtext="vel"/>
+        
     </annotation>
 </transcription>
-
