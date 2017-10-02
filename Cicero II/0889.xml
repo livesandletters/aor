@@ -7,6 +7,133 @@
     <page filename="0889.tif" reader="John Dee" pagination="331" signature="Yy.i."/> 
     <annotation>
         
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>Obseri</marginalia_text> <!-- M.B. Not certain. -->
+                </position>
+            </language>
+            <translation>To bar.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="NENIAE">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Nenia[e]</marginalia_text>
+                </position>
+            </language>
+            <translation>A funeral song.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="sepulcrorum magnificentia[m] esse minuendam">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Sepulchrou[m] magnificetia minuenda.</marginalia_text>
+                </position>
+            </language>
+            <translation>The greatness of tombs is diminished.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="corpus terra huma[n]di">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Corpora terra humanda</marginalia_text>
+                </position>
+            </language>
+            <translation>For the burial of the body in the earth.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Epula[e]</marginalia_text>
+                </position>
+            </language>
+            <translation>A feast.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="sumptuosa fieri funera &amp; lamentabilia">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>funera sumptuosa lame[n]tabili&aacute;q[ue]</marginalia_text>
+                </position>
+            </language>
+            <translation>Extravagance in funerals and mourning.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="TYMOBON">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>TYMBOS</marginalia_text> <!-- M.B. Not sure of the marking before 'T'. -->
+                </position>
+            </language>
+            <translation>Burial Mound.</translation> <!-- M.B. Appears to be a Latinization of τύμβον see: https://books.google.co.uk/books?id=WBmyTsFEHEUC&pg=PA135&dq=tymbos+definition&hl=en&sa=X&ved=0ahUKEwij5vqn1tHWAhUMUlAKHU4bC7EQ6AEIJjAA#v=onepage&q=tymbos%20definition&f=false -->
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Ceramico">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Ceramicum</marginalia_text>
+                    <location name="Ceramus"/>
+                </position>
+            </language>
+            <translation>Ceramus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="amplitudines sepulcrorum">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Sepulchroru[m] amplitudo</marginalia_text>
+                </position>
+            </language>
+            <translation>Enormous tombs.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ante lucuem enim iussit efferri">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Ante luc[a]e effirenda funera</marginalia_text>
+                </position>
+            </language>
+            <translation>Funerals should be carried out before daybreak.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="terra fruges ferre">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>finges terra mr</marginalia_text> <!-- M.B. Not sure of contraction perhaps 'mortvvs'?? -->
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="laudem mortui incisam">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Laus mortui incisa</marginalia_text>
+                </position>
+            </language>
+            <translation>In praise of the deceased, inscribed.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="tranquillitate bonorum, poenis impiorum">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Tranquillitas morti bonoru[m], poen[a]e impioru[m].</marginalia_text>
+                </position>
+            </language>
+            <translation>The tranquil rest after a good death and the punished of the wicked.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>pra[e]finiri</marginalia_text>
+                </position>
+            </language>
+            <translation>To be prescribed.</translation>
+        </marginalia>
+        
         <underline method="pen" type="straight" language="LA" text="corpus terra huma[n]di"/>
         <underline method="pen" type="straight" language="LA" text="frugibus obserebatur"/>
         <underline method="pen" type="straight" language="LA" text="finus &amp; gremium quasi"/>
@@ -23,9 +150,14 @@
         
         <symbol name="Jupiter" place="left_margin"/>
         
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        <!-- M.B. sepulchre drawing to be captured. -->
+        
+        <!-- M.B. sepulchre drawing with John Dee initials to be captured. -->
         
     </annotation>
 </transcription>
