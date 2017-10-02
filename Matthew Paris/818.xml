@@ -10,21 +10,19 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Ed .I. absens fit Rex Angl.                    <!-- DO: I would put it as '1', I don't think it's a Roman numeral -->
+                        Ed .1. absens fit Rex Angl.                
                     </marginalia_text>
                     <person name="Edward I, King of England"/>
                 </position>
             </language>
             <translation>
-                In his absence, Edward I was made king of England.      <!-- DO: I would keep it as present tense -->
+                In his absence, Edward I is made king of England.     
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="qui si viueret penitus ignorarunt"/>
 
-
-<!-- DO: Not completely sure but it looks like he may have crossed out an 'i' in 'custodies' (line 12)? -->
-
+        <errata language="LA" copytext="custodies" amendedtext="custodes"/>
 
     </annotation>
 </transcription>

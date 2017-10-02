@@ -24,12 +24,10 @@
         <underline method="pen" type="straight" language="LA" text="Saluatoris suum milite[m] perire"/>
         <underline method="pen" type="straight" language="LA" text="Thomas de Clare, qui secu[m] captiuos"/>
         
+        <mark name="circumflex" method="pen" place="intext"/>
         
-        <!-- DO: Dee has crossed out 'fuerat' in line 19 (can be captured as erratum), and has corrected 'Mcclxij.' to 'Mcclxxij.' in line 31 (also the circumflex to be captured) -->
-        
-        
-        
-        
+        <errata language="LA" copytext="fuerat" amendedtext="[deleted]"/>
+        <errata language="LA" copytext="Mcclxij." amendedtext="Mcclxxij."/>
         
     </annotation>
 </transcription>
