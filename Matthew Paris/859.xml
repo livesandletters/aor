@@ -24,12 +24,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        h&icirc;c se prodit monachus.    <!-- DO: I think he may be referring to Matthew Paris himself (in which case he should be tagged) but not 100% sure... -->
+                        h&icirc;c se prodit monachus.   
                     </marginalia_text>
+                    <person name="Matthew Paris"/>
                 </position>
             </language>
             <translation>
-                Here the monk revels himself.
+                Here the monk reveals himself.
             </translation>
         </marginalia>
         
@@ -37,9 +38,7 @@
             medietatem omnium bonorum, t&agrave;m temporalium qu&agrave;m spiritualiu[m]"/>
         <underline method="pen" type="straight" language="LA" text="Quam quidem medietatem, si prius prudentius &amp; melius cogitassent, sede apostolica inconsulta, regi concedere non praesumere[n]t vllo modo"/>
         
-        
-        <!-- DO: I think Dee may have added the contraction mark on 'praecaue[n]s' (line 8) -->
-        
+        <errata language="LA" copytext="praecaues" amendedtext="praecaue[n]s"/>
         
     </annotation>
 </transcription>
