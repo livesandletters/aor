@@ -6,7 +6,7 @@
     <page filename="852.tif" reader="John Dee" pagination="386" signature="[Kkkk[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Rhes[us] filius Meredith' -->
+        <marginalia hand="Italian" anchor_text="Rhes[us] filius Meredith">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,12 +20,14 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">     <!-- DO: You can anchor '.R. Burnel' as I think this is who the note refers to. He can be tagged as a person too: https://en.wikipedia.org/wiki/Robert_Burnell. Scotland to be tagged as a location? -->
+        <marginalia hand="Italian" anchor_text=".R. Burnel"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Iste erat Prolocutor in processu illo solemni de electione Regis Scotia.
                     </marginalia_text>
+                    <person name="Robert Burnell"/>
+                    <location name="Scotland"/>
                 </position>
             </language>
             <translation>
