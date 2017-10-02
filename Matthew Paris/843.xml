@@ -11,18 +11,17 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Alexander .3. Rex Scot[orum] moritur.
+                        Alexander .3. Rex Scot. moritur.
                     </marginalia_text>
                     <person name="Alexander III of Scotland"/>
                 </position>
             </language>
             <translation>
-                Alexander III of Scotland died. 
+                Alexander III of Scotland died. <!-- DO: I would keep as present tense -->
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="cum Alexander, rex Scotoru[m]"/>
-        <underline method="pen" type="straight" language="LA" text="vxorem suam"/>
+        <underline method="pen" type="straight" language="LA" text="cum Alexander, rex Scotoru[m], vxorem suam"/>    <!-- DO: I would say this underlining continues up until 'Margareta[m]' -->
         <underline method="pen" type="straight" language="LA" text="quam post Margereta[m]"/>
         <underline method="pen" type="straight" language="LA" text="regis Angliae duxerat"/>
         <underline method="pen" type="straight" language="LA" text="vxore[m], nocte quada[m] perqu&agrave;m obscura visitare voluisset, cespitante"/>

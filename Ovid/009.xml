@@ -6,14 +6,14 @@
     <page filename="009.tif" reader="John Dee" pagination="title-page"/>
     <annotation>
         
-        <marginalia hand="Italian" date="1576">
+        <marginalia hand="Italian" date="1546">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Joannes dee 1576.</marginalia_text>     <!-- DO: This has been written over by Saunder. Not entirely sure of the original date. --> <!-- FSF: it ould also be a six, but I can't read it -->
+                    <marginalia_text>Joannes dee 1546.</marginalia_text>     <!-- DO: This has been written over by Saunder. Not entirely sure of the original date. --> <!-- FSF: it ould also be a six, but I can't read it -->  <!-- DO: Could also be 1576 -->
                     <person name="John Dee"/>
                 </position>
             </language>
-            <translation>John Dee, 1576.</translation>
+            <translation>John Dee, 1546.</translation>
         </marginalia>
         
         <marginalia hand="Italian" date="1586" other_reader="Nicholas Saunder">
@@ -28,10 +28,10 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>xii[e].</marginalia_text>     <!-- DO: Not sure what this is --> <!-- FSF: I am guessing, but could this be xij with superscript e, soas to give the month to the year? -->
+                    <marginalia_text>xii[e].</marginalia_text>     <!-- DO: Not sure what this is --> <!-- FSF: I am guessing, but could this be xij with superscript e, soas to give the month to the year? -->  <!-- DO: This suggests '12 pence': http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30086-1/abstract  Is it a superscript 'd' then? -->
                 </position>
             </language>
-            <translation>In the twelfth [month].</translation>
+            <translation>12.</translation>
         </marginalia>
         
         <marginalia hand="Italian" other_reader="unknown" method="pencil">
@@ -43,7 +43,7 @@
         </marginalia>
         
         
-        <marginalia hand="Italian">           <!-- DO: Red ink? -->
+        <marginalia hand="Italian" colour="red">         
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>[deleted]</marginalia_text>     

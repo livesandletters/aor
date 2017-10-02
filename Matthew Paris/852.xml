@@ -6,7 +6,7 @@
     <page filename="852.tif" reader="John Dee" pagination="386" signature="[Kkkk[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'Rhes[us] filius Meredith' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -20,11 +20,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">     <!-- DO: You can anchor '.R. Burnel' as I think this is who the note refers to. He can be tagged as a person too: https://en.wikipedia.org/wiki/Robert_Burnell. Scotland to be tagged as a location? -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Iste erat Prolocutor in processu illo solemni de electione Regis scotia
+                        Iste erat Prolocutor in processu illo solemni de electione Regis Scotia.
                     </marginalia_text>
                 </position>
             </language>
@@ -33,9 +33,7 @@
             </translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Rhes[us] filius Meredeth, VVallensium"/>
-        <underline method="pen" type="straight" language="LA" text="pote[n]tissimus"/>
-        <underline method="pen" type="straight" language="LA" text="fidelissimus prius regi"/>
+        <underline method="pen" type="straight" language="LA" text="Rhes[us] filius Meredeth, VVallensium pote[n]tissimus, fidelissimus prius"/>
         <underline method="pen" type="straight" language="LA" text="poste&agrave; seuissimus persecutor"/>
         <underline method="pen" type="straight" language="LA" text="ad Beruicum"/>
         <underline method="pen" type="double" language="LA" text="proditoris &amp; latronis"/>

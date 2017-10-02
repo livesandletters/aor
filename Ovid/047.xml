@@ -9,22 +9,24 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Rodulp[hus].</marginalia_text>          <!-- DO: Not sure whom this refers to. Rudolf Hospinian (https://en.wikipedia.org/wiki/Rudolf_Hospinian) appears to have written about Anna Perenna, but that's all I could find out -->
-                    <!-- FSF: I think that's fine; I can't find anything that speaks against this identification, so I think it is ok -->
+                    <marginalia_text>Rodulp[hus].</marginalia_text>   
+                    <person name="Rudolf Hospinian"/>
+                    <!-- DO: Not sure whom this refers to. Rudolf Hospinian (https://en.wikipedia.org/wiki/Rudolf_Hospinian) appears to have written about Anna Perenna, but that's all I could find out -->
+                    <!-- FSF: I think that's fine; I can't find anything that speaks against this identification, so I think it is ok -->  
                 </position>
             </language>
-            <translation></translation>
+            <translation>Rudolf</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Quod crimen dicis praeter amare"/>
         <underline method="pen" type="straight" language="LA" text="quodlibet esse feret"/>
         <underline method="pen" type="straight" language="LA" text="praebebis carbasa ventis"/>
         <underline method="pen" type="straight" language="LA" text="semirefecta moras"/>
-        <underline method="pen" type="straight" language="LA" text="Dum freta mitescu[n]t, &amp; amor dum temperat vsum"/> <!-- FSF: I would make this and the next underlining one -->
+        <underline method="pen" type="straight" language="LA" text="Dum freta mitescu[n]t, &amp; amor dum temperat vsum"/> 
         <underline method="pen" type="straight" language="LA" text="Fortiter ediscam tristia posse pati"/>
         <underline method="pen" type="straight" language="LA" text="Anna soror, soror Anna"/>
         
-        <symbol name="Jupiter" place="right_margin"/>   <!-- DO: A slightly different symbol but perhaps a variant of the Jupiter symbol? --> <!-- FSF: yeah, I think it is the same -->
+        <symbol name="Jupiter" place="right_margin"/>  
         <symbol name="Jupiter" place="right_margin"/>
         
     </annotation>
