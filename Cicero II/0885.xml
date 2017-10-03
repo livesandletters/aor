@@ -16,7 +16,7 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Musica[e] laus.</marginalia_text>
@@ -25,7 +25,7 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Cantus vis qua[n]ta</marginalia_text>
@@ -34,7 +34,7 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Musica[e] leges.</marginalia_text>
@@ -64,7 +64,7 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Patroj ritus seruandi, qui.</marginalia_text>
+                    <marginalia_text>Patrij ritus seruandi, qui.</marginalia_text>
                 </position>
             </language>
             <translation></translation>
@@ -123,16 +123,16 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="opinionibus vulgi rapimur in errorem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>opinionibus vulgi in errorem.</marginalia_text>
+                    <marginalia_text>opinionibus vulgi rapim[u]r in errorem.</marginalia_text>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="sceleris est poena tristus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sceleris est poena tristis</marginalia_text>
@@ -143,8 +143,26 @@
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>votu[m]</marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="poena">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Po[e]na</marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="">
+            <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>religio p afflicta</marginalia_text>
+                    <marginalia_text>religio proteara afflicta</marginalia_text>
                 </position>
             </language>
             <translation></translation>
@@ -179,7 +197,13 @@
         <underline method="pen" type="straight" language="LA" text="Sceleris"/>
         <underline method="pen" type="straight" language="LA" text="poena tristis: &amp; praeter eos euentus qui sequuntur, per se ipsa maxima est. Vidimus"/>
         
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        
         <mark name="bracket" method="pen" place="right_margin"/>
+        
+        <numeral place="right_margin">12</numeral>
+        <numeral place="right_margin">21</numeral>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
