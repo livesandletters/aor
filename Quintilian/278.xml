@@ -27,7 +27,7 @@
         <marginalia hand="Italian" anchor_text="Seruius Sulpitius">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Seruus Sulpiti</marginalia_text> <!-- FSF: I read Sulpiti[us] -->
+                    <marginalia_text>Seruus Sulpiti[us]</marginalia_text>
                     <person name="Servius Sulpicius Rufus"/>
                 </position>
             </language>
@@ -37,7 +37,7 @@
         <marginalia hand="Italian" anchor_text="Aeschine">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Aesch[i]nms</marginalia_text> <!-- FSF: I read Aeschines -->
+                    <marginalia_text>Aeschines.</marginalia_text>
                     <person name="Aeschines"/>
                 </position>
             </language>
@@ -47,8 +47,9 @@
         <marginalia hand="Italian" anchor_text="Cicero atque Asinius">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Cicero &amp; Asini</marginalia_text> <!-- FSF: I read Asini[us] -->
-                    <person name="Gaius Asinius Pollio"/> <!-- FSF: Cicero to be tagged -->
+                    <marginalia_text>Cicero &amp; Asini[us]</marginalia_text>
+                    <person name="Cicero"/>
+                    <person name="Gaius Asinius Pollio"/>
                 </position>
             </language>
             <translation>Cicero and Asinius</translation>
@@ -66,17 +67,17 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Vt cicero pro min[i]tio </marginalia_text> <!-- M.B. I think the 'o' with a line is half-drawn florilegium. --> <!-- FSF: I read pro Quintio; this half-drawn florilegium is a Q, I'd say -->
+                    <marginalia_text>Vt cicero pro Quintio</marginalia_text>
                     <person name="Cicero"/>
-                    <book title="Pro Minitio"/> <!-- FSF: I don't thinkt that there is such work by Cicero -->
+                    <book title="Pro Quinctio"/>
                 </position>
             </language>
-            <translation>As Cicero [notes] in pro Minitio.</translation>
+            <translation>As Cicero [notes] in pro Quinctio.</translation>
         </marginalia>
        
         <underline method="pen" type="straight" language="LA" text="Etiam futuri te[m]poris"/>
         <underline method="pen" type="straight" language="LA" text="mouet, qui maneat"/> 
-        <!-- FSF: I think you jumped qui de ui -->
+        <underline method="pen" type="straight" language="LA" text="qui de ui"/>
         <underline method="pen" type="straight" language="LA" text="fugiendum"/>
         <underline method="pen" type="straight" language="LA" text="cedendum"/>
         <underline method="pen" type="straight" language="LA" text="Cuius locis est etiam occupare, quae dicturu[m], facturum'ue aduersarium putes. Nam"/>
@@ -87,10 +88,6 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
-        
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!-- FSF: none of these is a florilegium, but two are abrreviations [us] and the last is a q; for all, see above -->
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
