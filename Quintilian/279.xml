@@ -22,7 +22,7 @@
                     <marginalia_text>Patronus in rei locu[m] succedet.</marginalia_text>
                 </position>
             </language>
-            <translation>The defender of the guilty will advance in this place.</translation> <!-- FSF: I don't understand where of the guilty is coming from; I'd translate as The defender will advance to the place of this matter -->
+            <translation>The defender will advance to the place of this matter.</translation>
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Prosopopoeiae">
@@ -74,7 +74,8 @@
         <marginalia hand="Italian" anchor_text="Nihil facilius qu&agrave;m lachrymas inarescere">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Nihil facilius quam lachryma[e] inarestet.</marginalia_text> <!-- M.B. Not sure of 'inarestet' --> <!-- FSF: inarescit -->
+                    <marginalia_text>Nihil facilius quam lachryma[e] inarestet.</marginalia_text>
+                    <emphasis method="pen" type="straight" text="lachryma[e]"/>
                 </position>
             </language>
             <translation>Nothing dries as easily as tears.</translation>
