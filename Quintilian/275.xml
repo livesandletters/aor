@@ -36,12 +36,21 @@
             <translation>Note.</translation>
         </marginalia>
         
-        <!-- FSF: there is also an intext nore under the capital P -->
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>singule ??</marginalia_text> <!-- M.B. Struggling to read this intext marginal note. -->
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="si morabimur, no[n] iam enumeratio, sed altera quasi fiet oratio"/>
         <underline method="pen" type="straight" language="LA" text="nihil est odiosius recta illa repetitione uelut memoriae iudicum diffidentis"/>
         <underline method="pen" type="straight" language="LA" text="Licet &amp;"/>
         <underline method="pen" type="straight" language="LA" text="Nec refere[n]da mod&ograve; nostra, sed postulandum est etiam ab aduersarijs, ut ad quaedam respondeat, Id"/>
+        
+        <mark name="est_mark" method="pen" place="intext"/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
