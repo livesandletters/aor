@@ -6,28 +6,29 @@
     <page filename="280.tif" reader="John Dee" pagination="274" signature="[s[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text=""> <!-- FSF: anchor debet...oratio -->
+        <marginalia hand="Italian" anchor_text="debet crescere oratio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>In poratione crescere debet or[ati]o</marginalia_text> <!-- M.B. Not sure how to translate 'poratione' --> <!-- FSF: I read p[er]oratione -->
+                    <marginalia_text>In p[er]oratione crescere debet or[ati]o</marginalia_text>
                 </position>
             </language>
-            <translation>[...] speech should rise.</translation>
+            <translation>During the peroration the speech should rise.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Quarum reru[m] ingens plerunq[ue] uis est, uelut in rem praesentem, animos hominum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>No[n] solu[m] verba sed et facta a[n]i[m]os concitat ho[m]inu[m]</marginalia_text> <!-- FSF: concita[n]t -->
+                    <marginalia_text>No[n] solu[m] verba sed et facta a[n]i[m]os concita[n]t ho[m]inu[m]</marginalia_text>
                 </position>
             </language>
-            <translation>Not only words but actions spur the mind of the people.</translation> <!-- FSF: et translates as also: ...but also actions... -->
+            <translation>Not only words also but actions spur the mind of the people.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="praetexta C. Caesaris">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pra[e]texta C[aius] Ca[e]saris</marginalia_text> <!-- FSF: person tag -->
+                    <marginalia_text>Pra[e]texta C[aius] Ca[e]saris</marginalia_text>
+                    <person name="Julius Caesar"/>
                 </position>
             </language>
             <translation>Gaius Caesar's toga.</translation>
