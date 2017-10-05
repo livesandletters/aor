@@ -5,8 +5,7 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="431.tif" reader="John Dee" pagination="title-page"/>   
     <annotation>
-        
-        <!-- FSF: on file 372, there could be an accent added on manu, but not sure if this was intentional or can be ignored -->
+       
         
         <marginalia hand="Italian" date="1546">
             <language ident="EN">
@@ -20,6 +19,7 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>[Bedfield. deleted] 1546.</marginalia_text>  <!-- DO: Not sure what the word/marking before this is, looks like letters (ddffffdd) --> <!-- FSF: not sure if Bedfield should be captured as a location -->
+                    <location name="Bedfield"/>   <!-- DO: I'm not sure if this is the right place though; it might be referring to Bedford? -->
                 </position>
             </language>
         </marginalia>
