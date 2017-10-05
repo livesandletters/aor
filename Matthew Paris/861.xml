@@ -6,13 +6,14 @@
     <page filename="861.tif" reader="John Dee" pagination="395"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Rogeriu[m] de Pyuelesdon' -->
+        <marginalia hand="Italian" anchor_text="Rogeriu[m] de Pyuelesdon">  <!-- DO: Anchor '' -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         Rogerus Pyuelesdon 
-                        <!-- FSF: I believe it is him http://www.puleston-jones.com/page26.htm, but then there is also an alternative spelling https://books.google.co.uk/books?id=lzVx_z_c0wQC&pg=RA2-PA18&lpg=RA2-PA18&dq=roger+pyuelesdon&source=bl&ots=opOZxHb2fN&sig=P2mlbZSSW8Pfg9Y6D8-w6yzGk1M&hl=en&sa=X&ved=0ahUKEwijhuDAzNHUAhWrAsAKHVwkBY0Q6AEINTAC#v=onepage&q=roger%20pyuelesdon&f=false -->
-                    </marginalia_text>  <!-- DO: I would probably tag him as 'Roger de Puleston' going by the lineage section here: https://en.wikipedia.org/wiki/Robert_Puleston, and the modern day place name 'Puleston' -->
+                    </marginalia_text>
+                    <person name="Roger de Puleston"/>
+                    <location name="Puleston"/>
                 </position>
             </language>
             <translation>
@@ -20,7 +21,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Maybe anchor 'Pyuelesdon' -->
+        <marginalia hand="Italian" anchor_text="Pyuelesdon"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -89,7 +90,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'vocalis princeps' -->
+        <marginalia hand="Italian" anchor_text="vocalis princeps">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
