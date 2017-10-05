@@ -7,15 +7,23 @@
     <annotation>
         
         <marginalia hand="Italian" anchor_text="rata"> 
-            <!-- FSF: Dee seems to have changed rata to rara (see https://www.loebclassics.com/view/ovid-ex_ponto/1924/pb_LCL151.409.xml?rskey=BZ3E4q&result=2&mainRsKey=Zi9VSN); I am not sure how to capture this best; it is r/r in the margin, but also the /r are added at a later stage... -->
+            <!-- FSF: Dee seems to have changed rata to rara (see https://www.loebclassics.com/view/ovid-ex_ponto/1924/pb_LCL151.409.xml?rskey=BZ3E4q&result=2&mainRsKey=Zi9VSN); I am not sure how to capture this best; it is r/r in the margin, but also the /r are added at a later stage... --> <!-- DO: I agree. Perhaps best to capture as two separate notes? -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>r/r</marginalia_text>             <!-- DO: Not sure about this -->
+                    <marginalia_text>r</marginalia_text>             
                 </position>
             </language>
         </marginalia>
         
-        <errata language="LA" copytext="rata" amendedtext="raa"/>
+        <marginalia hand="Italian" anchor_text="rata"> 
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>/r</marginalia_text>             
+                </position>
+            </language>
+        </marginalia>
+        
+        <errata language="LA" copytext="rata" amendedtext="rara"/>
         
     </annotation>
 </transcription>
