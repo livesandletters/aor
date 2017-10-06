@@ -6,17 +6,18 @@
     <page filename="007.tif" reader="John Dee" pagination="title-page"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" date="1562">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Johannes Dee 1562.</marginalia_text>  <!-- DO: This is under Saunder's writing; I can't make out the final word -->
-                    <!-- FSF: my guess would be something like Antwaper -->
+                    <!-- FSF: my guess would be something like Antwaper -->   <!-- DO: Perhaps 'Antwerpe'? but there appears to be another letter at the end which I'm not sure of -->
                     <person name="John Dee"/>
+                    <location name="Antwerp"/>
                 </position>
             </language>
         </marginalia>
         
-        <marginalia hand="Italian" other_reader="Nicholas Saunder">
+        <marginalia hand="Italian" other_reader="Nicholas Saunder" date="1584">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Nicholaus / 1584 Saunderus</marginalia_text>
@@ -44,11 +45,11 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>D. Guelterus Henric[us] Riffinus Medicus et Mathematic[us]</marginalia_text> <!-- FSF: because of the below, I think it is Hermeni[us] or so, though such reading requires a bit of phantasy... -->
+                    <marginalia_text>D. Guelterus Henric[us] Riffinus Medicus et Mathematic[us]</marginalia_text> <!-- FSF: because of the below, I think it is Hermeni[us] or so, though such reading requires a bit of phantasy... -->  <!-- DO: Yes, maybe he got the name wrong? -->
+                    <person name="Walther Hermann Ryff"/>
                 </position>
             </language>
-            <translation>D. Walter Henry Riffin, doctor and mathematician.</translation>     <!-- DO: Not sure who this is -->
-            <!-- FSF: it's Walter Herman Ryff; see http://www.unconv-association.org/sites/unconventional/files/dee/Hakansson_SEEING.pdf and https://de.wikipedia.org/wiki/Walther_Hermann_Ryff -->
+            <translation>D. Walter [Hermann] Ryff, doctor and mathematician.</translation>
         </marginalia>
         
         <mark name="slash" method="pen" place="intext"/>  <!-- M. D. -->
