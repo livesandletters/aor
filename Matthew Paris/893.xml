@@ -9,24 +9,25 @@
         <underline method="pen" type="straight" language="LA" text="Holmcoltran"/>
         <underline method="pen" type="straight" language="LA" text="millesimo"/>
         <underline method="pen" type="straight" language="LA" text="Eadvvardi regis Angliae"/>
-        <underline method="pen" type="straight" language="LA" text="antecessores &amp; progenitores nostri, reges"/>
-        <underline method="pen" type="straight" language="LA" text="iure superioris &amp; directi dominij"/>
-        <underline method="pen" type="straight" language="LA" text="ab antiquissimis retro"/>
-        <underline method="pen" type="straight" language="LA" text="temporibus regno Scotiae"/>
+        <underline method="pen" type="straight" language="LA" text="antecessores &amp; progenitores nostri, reges Angliae"/>
+        <underline method="pen" type="straight" language="LA" text="iure superioris &amp; directi dominij ab antiquissimis retro temporibus regno Scotiae"/>
         <underline method="pen" type="straight" language="LA" text="&agrave; quibus habere volebant, legalia"/>
         <underline method="pen" type="straight" language="LA" text="possessionem continuantes huiusmodi"/>
         
         <mark name="circumflex" method="pen" place="intext"/>
-        <mark name="vertical_bar" method="pen" place="left_margin"/>
+        <mark name="vertical_bar" method="pen" place="left_margin"/>               <!-- DO: I would say the big line in the left margin and along the bottom are one big bracket (otherwise the line along the bottom hasn't been captured) -->
         <mark name="comma" method="pen" place="intext"/> <!-- Rex apostolicis -->
-        <mark name="comma" method="pen" place="intext"/> <!-- huiusmodi pro -->
+        <mark name="comma" method="pen" place="intext"/> <!-- huiusmodi pro -->      <!-- DO: I think there is also a comma before 'huiusmodi' -->
         <mark name="comma" method="pen" place="intext"/> <!-- recipimus tam -->
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <numeral place="right_margin" text="anno domini millesimo trecentesimo">1300</numeral>
+        <numeral place="right_margin" text="anno domini millesimo trecentesimo">1300</numeral> <!-- DO: As this is a date I don't know whether it should be captured as numeral or just marginal note -->
         
         <errata language="LA" copytext="enim" amendedtext="eum"/>
         <errata language="LA" copytext="quod" amendedtext="vt et"/>
+        
+        <!-- DO: There is a plus sign in the tail; I thought this was part of the bracket/line but then there is also one on the following page -->
+        
         
     </annotation>
 </transcription>
