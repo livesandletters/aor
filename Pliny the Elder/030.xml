@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="Tetraoos">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Tetraees</marginalia_text>  <!-- DO: I can't really make out the sixth and seventh letters --> <!-- FSF: I think these are e's -->
+                    <marginalia_text>Tetraees</marginalia_text>  
                 </position>
             </language>
             <translation>Tetraos.</translation>
@@ -26,7 +26,7 @@
         <marginalia hand="Italian" anchor_text="Pannagra[m]maton">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pentagra[m]mato</marginalia_text>  <!-- DO: Not sure about what comes after this --> <!-- FSF: possibly Hebrew? -->
+                    <marginalia_text>Pentagra[m]mato</marginalia_text>  <!-- DO: Not sure about what comes after this --> <!-- FSF: possibly Hebrew? -->  <!-- DO: I think there's a word beginning 'for' at end of second line -->
                 </position>
             </language>
             <translation>A pentagram.</translation>
@@ -60,7 +60,9 @@
         <underline method="pen" type="straight" language="LA" text="Pannagra[m]maton"/>
         <underline method="pen" type="straight" language="LA" text="Vade te lauare septies i[n] Iordane, &amp; recipiet sanitate[m] caro tua"/>
         
-        <!-- FSF: I think the line at the end also needs capturing -->
         
+        <mark name="horizontal_bar" method="pen" place="tail"/>
+        
+            
     </annotation>
 </transcription>
