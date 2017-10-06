@@ -6,10 +6,10 @@
     <page filename="886.tif" reader="John Dee" pagination="420"/>
     <annotation>
         
-        <underline method="pen" type="straight" language="LA" text="erga Romanam matrem ecclesiam"/>
+        <underline method="pen" type="straight" language="LA" text="erga Romanam matrem ecclesiam" internal_ref="RCP10653:n0001"/>
         <underline method="pen" type="straight" language="LA" text="in tuae libro memoriae nequaquam"/>
         <underline method="pen" type="double" language="LA" text="regnum"/>
-        <underline method="pen" type="straight" language="LA" text="ecclesiam"/>
+        <underline method="pen" type="straight" language="LA" text="ecclesiam" internal_ref="RCP10653:n0002"/>
         <underline method="pen" type="straight" language="LA" text="siue tibi"/>
         <underline method="pen" type="triple" language="LA" text="feudale"/>
         <underline method="pen" type="double" language="LA" text="nec existit"/>
@@ -18,7 +18,11 @@
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         
-        <!-- DO: You can add a physical link between the two connected underlinings -->
+        <physical_link>
+            <marginal_annotation idref="RCP10653:n0001"/>
+            <marginal_annotation idref="RCP10653:n0002"/>
+            <relation from="RCP10653:n0001" to="RCP10653:n0002" type="undirected"/>
+        </physical_link>
         
     </annotation>
 </transcription>
