@@ -6,7 +6,7 @@
     <page filename="881.tif" reader="John Dee" pagination="415" signature="Mmmm iij"/>
     <annotation>
         
-        <marginalia hand="Italian">  <!-- DO: I think you can anchor 'pr[a]ecepit ... custodiri' -->
+        <marginalia hand="Italian" anchor_text="pr[a]ecepit dominus papa sub interminatione anathematis pecuniam ipsam eius necessitatibus custodiri">  
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -16,7 +16,7 @@
                 </position>
             </language>
             <translation>
-                The pope stole at least 4000000 gold florins. <!-- FSF: I am not sure what emuxit means -->  <!-- DO: I don't know either, but this makes sense -->
+                The pope stole at least 4000000 gold florins.
             </translation>
         </marginalia>
         
@@ -38,8 +38,7 @@
          <mark name="circumflex" method="pen" place="intext"/>
         
         <errata language="LA" copytext="adqusierunt" amendedtext="adquisierunt"/>
+        <errata language="LA" copytext="familia" amendedtext="familia[m]"/>
         
-        <!-- DO: Difficult to tell but I think he may have added the contraction mark on 'familia[m]' (line 31) -->
-         
     </annotation>
 </transcription>
