@@ -3,7 +3,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="129.tif" reader="John Dee" pagination="54" signature="O ij"/>
+    <page filename="129.tif" reader="John Dee" pagination="54" signature="Oij"/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Cumq[ue] significator aliam partem possederit latitudinis &acirc; promissore, uel ex eadem parte fuerit, sed maiorem aut aequalem habuerit latitudinem cum promissore, minor effectus apparebit">
@@ -13,6 +13,15 @@
                 </position>
             </language>
             <translation>Note by which reason the effect is rejected.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="pro mundi mutationibus">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Nota.</marginalia_text>
+                </position>
+            </language>
+            <translation>Note.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -27,15 +36,13 @@
             <translation>But consider, even in the rays.</translation>
         </marginalia>
         
-        <!-- FSF: I think you skipped the Nota -->
-        
         <marginalia hand="English_secretary" anchor_text="unicuiq[ue] parti annu[m] unum, &amp; dies quinq[ue], &amp; octo horas">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>pro Vnoq[u]oq[ue] gradu, annus .1. Dies 5. hora[e] 8.</marginalia_text>
                 </position>
             </language>
-            <translation>For every degree, 1 year, 5 days, 8 hours. .</translation>
+            <translation>For every degree, 1 year, 5 days, 8 hours.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="aequalem">
@@ -44,7 +51,7 @@
                     <marginalia_text>in[a]equale[m]</marginalia_text> 
                 </position>
             </language>
-            <translation>unequal</translation>
+            <translation>Unequal.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Cumq[ue] significator aliam partem possederit latitudinis &acirc; promissore, uel ex eadem parte fuerit, sed maiorem aut aequalem habuerit"/>
