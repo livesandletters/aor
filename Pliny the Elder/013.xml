@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="ad apparentiam imaginamenta porrigere, quorum nec mox appareat vestigium">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Appare[n]tia no[n] existe[n]ti[um]</marginalia_text>    <!-- DO: Ending of last word has been cut off --> <!-- FSF: since there is still a dot for the line above half of the u, I think it is fine -->
+                    <marginalia_text>Appare[n]tia no[n] existe[n]ti[um]</marginalia_text>   
                 </position>
             </language>
             <translation>The appearance of things which do not exist.</translation>
@@ -19,11 +19,10 @@
             <!-- FSF: I think this is English secretary -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Numinum appellatio aduocatio p[er] aptas Ilices.</marginalia_text>    
+                    <marginalia_text>Numinum appellatio. aduocatio p[er] aptas Ilices.</marginalia_text>    
                 </position>
             </language>
-            <translation>The name the counsel of divine wills, through suitable holm oaks.</translation>   <!-- DO: Not sure how to translate --> 
-            <!-- FSF: there might be a full stop after appellatio that almost blends into the a of aduocatio; therefore I think these are two parts: The name of the divine will. Calling through suitable holm oaks. I would translate numina as singular as is often done-->
+            <translation>The name of the divine will. Counsel through suitable holm oaks.</translation>  
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Quae fascinati imaginamur pr[a]eter imaginamenta, nullam habent actionis &amp; essentiae veritatem"/>
@@ -36,7 +35,7 @@
         <physical_link>
             <marginal_annotation idref="RCP9978:013:m0001"/>
             <marginal_annotation idref="RCP9978:013:u0001"/>
-            <relation from="RCP9978:013:m0001" to="RCP9978:013:u0001" type="directed"/> <!-- FSF: I would have thought that this is undirected -->
+            <relation from="RCP9978:013:m0001" to="RCP9978:013:u0001" type="directed"/> 
         </physical_link>
           
     </annotation>
