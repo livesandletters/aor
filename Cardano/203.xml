@@ -6,7 +6,7 @@
     <page filename="203.tif" reader="John Dee" pagination="92"/>
     <annotation>
         
-        <marginalia hand="English_secretary"> <!-- FSF: anchor per damnationem? -->
+        <marginalia hand="English_secretary" anchor_text="per damnationem"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Damnatio, vt hic capitur.</marginalia_text>
@@ -16,16 +16,15 @@
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Et scias, quod non negatur transitus de geniture ad mensem, uel ad diem, sine anno, &amp; ita in reliquis, cum damnatio fuerit ualida, aliter non"> 
-            <!-- FSF: I think alioque is actually alioq[ui] with the i hovering above the q and a comma after the word rather than an abbreviation sign of q[ue] -->
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Transitus alioq[ue] ordine profligato, no[n] admitteretur //.</marginalia_text>
+                    <marginalia_text>Transitus alioq[ui] ordine profligato, no[n] admitteretur //.</marginalia_text>
                 </position>
             </language>
-            <translation>The crossing to another deprived order was not allowed.</translation>
+            <translation>In some respects the crossing to a deprived order was not allowed.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary"> <!-- FSF: Anchor sub terra -->
+        <marginalia hand="English_secretary" anchor_text="sub terra"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sub terra/.</marginalia_text>
@@ -41,8 +40,8 @@
         <underline method="pen" type="straight" language="LA" text="praeualea[n]t tertiae"/>
         <underline method="pen" type="straight" language="LA" text="&amp; fortuna octauae dispositrix, est deterior infortuna non disponente, quantum ad applicationem, quantum uero ad hostiles radios, est contrarium"/>
         
-        <mark name="bracket" method="pen" place="intext"/> <!-- FSF: I'd capture the word preceding and following the bracket -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- FSF: I'd capture the word preceding and following the bracket -->
+        <mark name="bracket" method="pen" place="intext"/> 
+        <mark name="bracket" method="pen" place="intext"/> 
         
     </annotation>
 </transcription>
