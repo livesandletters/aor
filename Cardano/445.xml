@@ -9,7 +9,7 @@
         <marginalia hand="English_secretary" anchor_text="Principium eorum quae &agrave; casu contingu[n]t">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Principiu[m] eorum qu[a]e a casu contingunt.</marginalia_text> <!-- FSF: I'd capture the slashes too -->
+                    <marginalia_text>Principiu[m] eorum qu[a]e a casu contingunt. //</marginalia_text> 
                 </position>
             </language>
             <translation>Of those principles which are produced by change.</translation>
@@ -79,7 +79,8 @@
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="slash" method="pen" place="intext"/> <!--JG: after ascendens-->
-        <mark name="bracket" method="pen" place="right_margin"/> <!-- FSF: I think there are two in the margin -->
+        <mark name="bracket" method="pen" place="right_margin"/> 
+        <mark name="bracket" method="pen" place="right_margin"/>
         
         <errata language="LA" copytext="," amendedtext="[deleted]"/>
         <errata language="LA" copytext="," amendedtext="[deleted]"/>
