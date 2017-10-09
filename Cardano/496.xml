@@ -29,10 +29,10 @@
         <marginalia hand="English_secretary" anchor_text="locum interfectoris">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Locus interfectoris qua[m] difficulter invenatur.</marginalia_text>
+                    <marginalia_text>Locus interfectoris qua[m] difficulter inveniatur.</marginalia_text>
                 </position>
             </language>
-            <translation>The place of the murderer, how it may be discovered with difficulty.</translation> <!--JG: Unsure abt invenatur--> <!-- FSF: I think it is inveniatur -->
+            <translation>The place of the murderer, how it may be discovered with difficulty.</translation>  
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Sol publicam mortem ut decernit ferro uel igne, sic Luna suspendium">
@@ -42,7 +42,7 @@
                     <symbol_in_text name="Mars"/>
                 </position>
             </language>
-            <translation>For at that time the house of Mar is a trine, terminus, and facies (a fixed star).</translation> <!--JG: Unsure-->
+            <translation>For at that time the house of Mar is a trine, terminus, and facies (a fixed star).</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Infortunae in angulis mortes publicas decernunt, eaede[m] celeriter, ob hoc raro publica mors in senio">
@@ -64,11 +64,10 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        <!-- FSF: there is a comma added in paragraph 105 between mors and uiolenta -->
+        <mark name="comma" method="pen" place="intext"/>  <!-- mors uiolenta -->
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        
-        <!-- FSF: there is a florilegium after the 108 -->
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="intext" method="pen"/>
         
     </annotation>
 </transcription>
