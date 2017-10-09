@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Brutus
+                        Brutus.
                     </marginalia_text>
                     <person name="Brutus of Troy"/>
                 </position>
@@ -20,12 +20,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Scatarum"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Staterium <!-- FSF: I am not sure if this is meant to be the Statherian -->
+                        Stateriumg 
                     </marginalia_text>
+                    <person name="Dyfnwal Moelmud"/>
                 </position>
             </language>
             <translation>
@@ -52,7 +53,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Arthurus
+                        Arthurus.
                     </marginalia_text>
                     <person name="King Arthur"/>
                 </position>
@@ -66,8 +67,9 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Anguselum <!-- FSF: do I understand correctly that this is Lancelot? https://books.google.co.uk/books?id=4uxtAgAAQBAJ&pg=PA111&lpg=PA111&dq=king+anguselus+of+scotland&source=bl&ots=UYUG7DSu1l&sig=MCxCobPn-3eFAB6JA9tbCzMkTJ0&hl=en&sa=X&ved=0ahUKEwju8uTlotTUAhWhDsAKHaNRBJIQ6AEIKjAA#v=onepage&q=king%20anguselus%20of%20scotland&f=false -->
+                        Anguselum
                     </marginalia_text>
+                    <person name="Anguselus, King of Scotland"/>
                 </position>
             </language>
             <translation>
@@ -81,10 +83,24 @@
                     <marginalia_text>
                         Anguselus
                     </marginalia_text>
+                    <person name="Anguselus, King of Scotland"/>
                 </position>
             </language>
             <translation>
-                
+                Anguselus.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        in
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                In.
             </translation>
         </marginalia>
         
@@ -102,27 +118,28 @@
         <underline method="pen" type="straight" language="LA" text="regnu[m] patris sui diuiserunt"/>
         <underline method="pen" type="double" language="LA" text="Brennius"/>
         <underline method="pen" type="straight" language="LA" text="regnaturus Scotiam acciperet, petebat enim Troiana consuetudo"/>
-        <underline method="pen" type="straight" language="LA" text="Arthurus rex Britonum"/>
-        <underline method="pen" type="straight" language="LA" text="famosissimus, Scotiam sibi rebellem subiecit, &amp;"/>
-        <underline method="pen" type="straight" language="LA" text="pen&egrave; totam gente[m] deleuit"/>
+        <underline method="pen" type="straight" language="LA" text="Item Arthurus rex Britonum"/>
+        <underline method="pen" type="straight" language="LA" text="famosissimus, Scotiam sibi rebellem subiecit, &amp; pen&egrave; totam gente[m] deleuit"/>
         <underline method="pen" type="straight" language="LA" text="cum poste&agrave;"/>
         <underline method="pen" type="straight" language="LA" text="ibi omnes reges sibi subiecti"/>
-        <underline method="pen" type="straight" language="LA" text="Ancelmus rex Scotiae"/>
+        <underline method="pen" type="double" language="LA" text="Ancelmus rex Scotiae"/>
         <underline method="pen" type="straight" language="LA" text="omnes reges Scotiae omnibus regibus Britonu[m] fuerunt subiecti"/>
         
-        <mark name="vertical_bar" method="pen" place="right_margin"/>
-        <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="bracket" method="pen" place="right_margin"/> 
+        <mark name="plus_sign" method="pen" place="tail"/>
+        <mark name="circumflex" method="pen" place="intext"/>   
         
         <errata language="LA" copytext="quandam" amendedtext="hanc"/>
         <errata language="LA" copytext="Locricus" amendedtext="Locrinus"/>
         <errata language="LA" copytext="Item" amendedtext="Postea"/>
-        <errata language="LA" copytext="Scotarum" amendedtext="[deleted]"/>
-        <errata language="LA" copytext="recepti" amendedtext="accepit"/>
-        <errata language="LA" copytext="possiderit" amendedtext="[deleted]"/>
+        <errata language="LA" copytext="Scatarum" amendedtext="[deleted]"/>  
+        <errata language="LA" copytext="recepit" amendedtext="accepit"/>
+        <errata language="LA" copytext="possiderit" amendedtext="[deleted]"/>  
         <errata language="LA" copytext="acciperet" amendedtext="accepit"/>
-        <errata language="LA" copytext="cum poste&agrave;" amendedtext="postea cum"/>
-        <errata language="LA" copytext="ibi" amendedtext="ibidem"/>
-        <errata language="LA" copytext="successione" amendedtext="successuie"/>
+        <errata language="LA" copytext="cum poste&agrave;" amendedtext="poste&agrave; cum"/>  
+        <errata language="LA" copytext="ibi" amendedtext="ibidem"/>      
+        <errata language="LA" copytext="Ancelmus" amendedtext="[deleted]"/>
+        <errata language="LA" copytext="successione" amendedtext="successiu&egrave;"/>  
         
     </annotation>
 </transcription>

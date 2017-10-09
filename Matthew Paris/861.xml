@@ -6,21 +6,22 @@
     <page filename="861.tif" reader="John Dee" pagination="395"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Rogeriu[m] de Pyuelesdon">  <!-- DO: Anchor '' -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         Rogerus Pyuelesdon 
-                        <!-- FSF: I believe it is him http://www.puleston-jones.com/page26.htm, but then there is also an alternative spelling https://books.google.co.uk/books?id=lzVx_z_c0wQC&pg=RA2-PA18&lpg=RA2-PA18&dq=roger+pyuelesdon&source=bl&ots=opOZxHb2fN&sig=P2mlbZSSW8Pfg9Y6D8-w6yzGk1M&hl=en&sa=X&ved=0ahUKEwijhuDAzNHUAhWrAsAKHVwkBY0Q6AEINTAC#v=onepage&q=roger%20pyuelesdon&f=false -->
                     </marginalia_text>
+                    <person name="Roger de Puleston"/>
+                    <location name="Puleston"/>
                 </position>
             </language>
             <translation>
-                
+                               
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Pyuelesdon"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -38,7 +39,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Wallenses
+                        Wallenses.
                     </marginalia_text>
                 </position>
             </language>
@@ -51,12 +52,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Conanus <!-- FSF: possibly him https://en.wikipedia.org/wiki/Cynan_ap_Maredudd -->
+                        Conanus. 
                     </marginalia_text>
+                    <person name="Cynan ap Maredudd"/>
                 </position>
             </language>
             <translation>
-                
+                Cynan ap Maredudd.
             </translation>
         </marginalia>
         
@@ -64,12 +66,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Morganus <!-- FSF: possibly him https://en.wikipedia.org/wiki/Morgan_ap_Maredudd -->
+                        Morganus. 
                     </marginalia_text>
+                    <person name="Morgan ap Maredudd"/>
                 </position>
             </language>
             <translation>
-                
+                Morgan ap Maredudd.
             </translation>
         </marginalia>
         
@@ -77,16 +80,17 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Madocus <!-- FSF: possibly him https://en.wikipedia.org/wiki/Madog_ap_Llywelyn -->
+                        Madocus. 
                     </marginalia_text>
+                    <person name="Madog ap Llywelyn"/>
                 </position>
             </language>
             <translation>
-                
+                Madog ap Llywelyn.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="vocalis princeps">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -95,7 +99,7 @@
                 </position>
             </language>
             <translation>
-                Outspoken leader.
+                The outspoken leader.
             </translation>
         </marginalia>
         
@@ -103,18 +107,18 @@
         <underline method="pen" type="straight" language="LA" text="malignitatis spiritu debacchantes"/>
         <underline method="pen" type="straight" language="LA" text="insueto iugo eis imposito &amp;"/>
         <underline method="pen" type="straight" language="LA" text="exhibitione sumptuu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="Centurionem ipsoru[m], quenda[m]"/>
-        <underline method="pen" type="straight" language="LA" text="Rogeriu[m] de"/>
+        <underline method="pen" type="straight" language="LA" text="Centurioem ipsoru[m], quenda[m] nomine Rogeriu[m] de"/>
         <underline method="pen" type="straight" language="LA" text="nostris suspende[n]tes"/>
         <underline method="pen" type="straight" language="LA" text="expoliauerunt, &amp; eum diu suspensum poste&agrave; decollauerunt"/>
         <underline method="pen" type="straight" language="LA" text="illam, tam sacrilegam &amp; prophanam, penitus"/>
-        <underline method="pen" type="double" language="LA" text="Snauduna[m]"/>
-        <underline method="pen" type="straight" language="LA" text="millenti homines deficientes spiritum exhalabant"/>
+        <underline method="pen" type="double" language="LA" text="Snauduna[m] mouit"/>
+        <underline method="pen" type="straight" language="LA" text="milleni homines deficientes spiritum exhalabant"/>
         <underline method="pen" type="straight" language="LA" text="centenos &amp; ce[n]tenos"/>
         <underline method="pen" type="straight" language="LA" text="est Conanus"/>
         <underline method="pen" type="straight" language="LA" text="praedo nominatissimus"/>
         <underline method="pen" type="straight" language="LA" text="Morganus de tribu"/>
         <underline method="pen" type="double" language="LA" text="Comitem Glouerniae"/>
+        <underline method="pen" type="double" language="LA" text="nomine Madocus"/>
         <underline method="pen" type="double" language="LA" text="vocalis princeps"/>
         
     </annotation>

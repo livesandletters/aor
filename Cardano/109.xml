@@ -10,16 +10,15 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Intelligit radios &Square; &Opposition; alicuius planet[a]e: qui radij proijciebantur ad &Sun; intraret aliquod ex quatuor
-                    signis mobilit[us]. // hoc etia[m] colligere potes ex sequentibus de &Moon; Im&ograve; et de suis proprijs radijs ess[e] rerum p[otes]t.</marginalia_text> <!-- FSF: I think the last word before the // is mobilib[us] -->
+                    signis mobilib[us]. // hoc etia[m] colligere potes ex sequentibus de &Moon; Im&ograve; et de suis proprijs radijs ess[e] rerum p[otes]t.</marginalia_text> <!-- FSF: I think the last word before the // is mobilib[us] -->
                     <symbol_in_text name="Square"/>
                     <symbol_in_text name="Opposite_planets"/>
                     <symbol_in_text name="Sun"/>
                     <symbol_in_text name="Moon"/>
                 </position>
             </language>
-            <translation>He understands the rays in the square or opposition of any planet: those which were thrown out towards the sun. He quickly reached any out of four signs.
+            <translation>He understands the rays in the square or opposition of any planet: those which were thrown out towards the sun. He quickly reached any out of four shifting signs.
             You can even collect this from the observations of the moon. Indeed, it can even be from the things' own rays themselves.</translation> 
-            <!--JG: Unsure, esp not sure about the best way to render the square and opposition symbols--> <!-- FSF: not sure about the square and opposition symbol either; otherwise fine, I think -->
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -34,10 +33,10 @@
         <marginalia hand="English_secretary"  anchor_text="si directio bona sit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Nota qua ratione directio bona impediatur. Et vo[c]e co[n]traria Iuvatur.</marginalia_text> <!-- FSF: I think voce is r[ati]o[n]e -->
+                    <marginalia_text>Nota qua ratione directio bona impediatur. Et r[ati]o[n]e co[n]traria Iuvatur.</marginalia_text> 
                 </position>
             </language>
-            <translation>Note by which reason a good direction is hindered. And by a contrary voice he is assisted.</translation>
+            <translation>Note by which reason a good direction is hindered. And by a contrary manner he is assisted.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -64,7 +63,8 @@
         <underline method="pen" type="straight" language="LA" text="amici ac beneuoli, erit contrarium: &amp; si directio bona sit, &amp; discurrant inimici per locum oppositum significatori, non habebit"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
-        <!-- FSF: is there a full stop converted into a comma at the end of the ninth line from the bottom? -->
+        
+        <errata language="LA" copytext="." amendedtext=", "/><!-- A full stop converted into a comma at the end of the ninth line from the bottom -->
         
     </annotation>
 </transcription>

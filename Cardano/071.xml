@@ -9,9 +9,8 @@
         <marginalia hand="English_secretary" anchor_text="puncta">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Tum fortunio, tum infortunio: &o_super; Illa tria puncta, duo h[o]r[um] &Square; et vnu[m] &Opposition; in infortunijs sunt insigniter mala: At in fortunijs <!--JG: Not sure abt horae-->
-                    no[n] su[n]t insigniter bona, lic[e]t no[n] sint mala, tame[n] bonas actiones tardius producu[n]t, veru[m] &Trine; fortunor[um] magis iuvant et in natis min[us] la[e]d[unt]</marginalia_text> 
-                    <!-- FSF: I think this generally speaking fine; I wonder if the natis is actually malis and the horum in the first line is hos -->
+                    <marginalia_text>+ Tum fortunio, tum infortunio: &o_super; &o_super; Illa tria puncta, duo h[o]r[um] &Square; et vnu[m] &Opposition; in infortunijs sunt insigniter mala: At in fortunijs 
+                    no[n] su[n]t insigniter bona, lic[e]t no[n] sint mala, tame[n] bonas actiones tardius producu[n]t, veru[m] &Trine; fortunor[um] magis iuvant et in malis min[us] la[e]d[unt]</marginalia_text>
                     <symbol_in_text name="Square"/>
                     <symbol_in_text name="Opposite_planets"/>
                     <symbol_in_text name="Trine"/>
@@ -19,18 +18,18 @@
             </language>
             <translation>As often with fortune as with unfortune: these three points, two of these squares and one opposition in unfortunate [events] are conspicuously bad: and in fortunte [events]
             they are not manifestly good, although they may not be bad, nevertheless they bring out good actions more slowly, indeed the trine of fortunes
-            help more as they hurt less in those born.</translation> <!--JG: Unsure abt transcription and translation-->
+            help more as they hurt less in bad things.</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Hic locus est explicatus a Schonero lib. .1. Iudicioru[m], fo. 120. v.</marginalia_text>
-                    <person name="Johannes Schoner"/> <!-- FSF: I would put the name with the umlaut, so Johannes Schöner; same in translation -->
-                    <book title="De iudicijs Natiuitatum libri tres"/> <!--JG: Not sure, check: http://lcweb2.loc.gov/cgi-bin/ampage?collId=rbc3&fileName=rbc0001_2012rosen0692page.db&recNum=132--> <!-- FSF: I think this identification is fine -->
+                    <person name="Johannes Schoner"/> 
+                    <book title="De iudicijs Natiuitatum libri tres"/>  
                 </position>
             </language>
-            <translation>This place is explained by Schoner in book 1 of his 'De iudicijs nativitatum libri tres', folio 120 verso.</translation>
+            <translation>This place is explained by Sch&ouml;ner in book 1 of his 'De iudicijs nativitatum libri tres', folio 120 verso.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Mediolani coeli medium">
@@ -77,7 +76,7 @@
         <underline method="pen" type="straight" language="LA" text="Qui uero fortunam habet in loco infortunae alterius, infortunabit illum, &amp; no recipiet malum ab illo, quod credebat Ptolemaeus"/>
         <underline method="pen" type="straight" language="LA" text="nec similiter alienum oberit infortunium"/>
         
-        <mark name="plus_sign" method="pen" place="left_margin"/> <!-- FSF: there is another plus sign in the head next to the first marginal note -->
+        <mark name="plus_sign" method="pen" place="left_margin"/> 
         <mark name="small_circle" method="pen" place="intext" language="LA" text="puncta"/> <!-- FSF: I don't know if that is possible, but I would transcribe this small circle the same way as the one in the marginal note, so it is clear that they are meant to be connected -->
         <mark name="comma" method="pen" place="intext"/> <!--oppositionis &-->
         <mark name="colon" method="pen" place="intext"/> <!--quadratorum concordantia-->
@@ -85,9 +84,10 @@
         <mark name="comma" method="pen" place="intext"/> <!--terminabatur per-->
         <mark name="comma" method="pen" place="intext"/> <!--90 distans-->
         
+        <errata language="LA" copytext="," amendedtext="[deleted]"/>
         <errata language="LA" copytext="Triplicatum autem habere, omnino extra naturam est" amendedtext="[deleted]"/>
         <errata language="LA" copytext="concordantia" amendedtext="Concordantia"/>
-        <!-- FSF: I think there is a comma deleted between illo and quod in the seventh line -->
+        
         
     </annotation>
 </transcription>

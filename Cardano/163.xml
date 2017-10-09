@@ -12,7 +12,7 @@
                     <marginalia_text>Eclipses nec magnas &Conjunction; in asc morte[m] significare</marginalia_text>
                 </position>
             </language>
-            <translation>It is well known that eclipses nor great conjunctions signify death in ascending.</translation> <!-- FSF: I can't see where It is well known is coming from -->
+            <translation>[It is well known] that eclipses nor great conjunctions signify death in ascending.</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -23,10 +23,10 @@
             </language>
         </marginalia>
         
-        <marginalia hand="English_secretary"> <!-- FSF: possibly anchor from Ergo eclipses [...] causae generales -->
+        <marginalia hand="English_secretary" anchor_text="ERgo eclipses &amp; coniunctiones magnae nihil operantur, nisi ut causae generals"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Eclipsu[m] effectus</marginalia_text> <!-- FSF: I'd say it's Eclipsiu[m] -->
+                    <marginalia_text>Eclipsiu[m] effectus</marginalia_text> 
                 </position>
             </language>
             <translation>The effect of eclipses.</translation>
@@ -53,14 +53,14 @@
         <underline method="pen" type="straight" language="LA" text="Lunae, minime semper malum"/>
         
         <symbol name="Conjunction" place="right_margin" language="LA" text="Luna quandoq[ue] iungit Soli"/>
-        <symbol name="Moon" place="right_margin"/> <!-- FSF possibly anchor Luna -->
-        <symbol name="Sun" place="right_margin"/> <!-- FSF: possibly anchor Soli -->
+        <symbol name="Moon" place="right_margin" language="LA" text="Luna"/> 
+        <symbol name="Sun" place="right_margin" language="LA" text="Soli"/> 
         
         <mark name="bracket" method="pen" place="right_margin" language="LA" text="Quamobrem patet, deliquia mortem in ascendente minime significare. idem autem dico de magnis coniunctionibus"/>
-        <mark name="plus_sign" method="pen" place="right_margin"/> <!-- FSF: possibly anchor to the Greek word? -->
+        <mark name="plus_sign" method="pen" place="right_margin"/> 
         <mark name="plus_sign" method="pen" place="intext"/>
-        
-        <!-- FSF: I think there are two commas added in the second line of the paragraph beginning Ergo eclipses  -->
+        <mark name="comma" method="pen" place="intext"/> <!-- qui cum -->
+        <mark name="comma" method="pen" place="intext"/> <!-- initio cum -->
         
     </annotation>
 </transcription>

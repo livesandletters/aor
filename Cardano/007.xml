@@ -9,22 +9,23 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Vnde sequ[..ti] 3. apti 154. &amp; 43.</marginalia_text> <!--JG: Unsure--> 
-                    <!-- FSF: I think the first word could also be Vide; I am tempted to say that the secod word is seque[n]ti, but that wouldn't account for what I see... -->
+                    <marginalia_text>Vide sequenti 3. apli 154[.]. &amp; 43.</marginalia_text> 
                 </position>
             </language>
+            <translation>See for the following, April 3, 154[.] and 43.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Liber de archanis [a]eternitatis p 159.v.</marginalia_text> <!-- FSF: I think it is not a p, but fo for folio -->
+                    <marginalia_text>Liber de archanis [a]eternitatis fo 159.v.</marginalia_text>
+                    <book title="De arcanis aeternitatis"/>
                     <internal_ref>
                         <target ref="RCP7134:338" text="159.v."/>
                     </internal_ref>
                 </position>
             </language>
-            <translation>Book on the mysteries of eternity, page 159 verso.</translation> <!--JG: Not entirely sure: is archanis variant of arcanis?-->
+            <translation>Book on the mysteries of eternity, folio 159 verso.</translation> <!--JG: Not entirely sure: is archanis variant of arcanis? Probably, see printed text on f. 159v-->
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -48,7 +49,7 @@
             </language>
         </marginalia>
         
-        <!-- FSF: below the word Cardani at the beginning of the second line, there is a tick, I think-->
+        <mark name="tick" method="pen" place="full_page"/>
         
     </annotation>
 </transcription>

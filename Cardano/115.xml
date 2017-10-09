@@ -18,21 +18,22 @@
         <marginalia hand="Italian" anchor_text="Illud decet animaduertere, nonam cum tertia, sextam cu[m] duodecima, quintam cum undecima semper sic conuenire, ut quaecunq[ue] in uno loco planeta decernit, licet minus, in opposito etia[m] positus pollicetur. ergo tertia, secunda, prima in pueritia: duodecima, undecima, decima in iuue[n]tute: nona, octaua, &amp; septima in senio. Sed &amp; in his ordo, nam tertia infantiam, secunda pueritia[m], prima decernit adolescentiam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Cur ordo vit[a]e ab [..]pa tertia ordiretur cu[m] qu[a]e in cade[n]tib[us] sunt tardissime efficiantur</marginalia_text> <!--JG: Unsure--> <!-- FSF: the fourth word is ip[s]a -->
+                    <marginalia_text>Cur ordo vit[a]e ab ipsa tertia ordiretur cu[m] qu[a]e in cade[n]tib[us] sunt tardissime efficiantur</marginalia_text>  
                 </position>
             </language>
-            <translation>Why the order of life started from the third [...] since these which are in descend, are accomplished most tardily.</translation>
+            <translation>Why the order of life started from the third itself since these which are in descend, are accomplished most tardily.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="dat uxores"/>
-        <underline method="pen" type="straight" language="LA" text="tarde uxores"/> <!-- FSF: there is another underlining below this "dat uxorem" -->
+        <underline method="pen" type="straight" language="LA" text="tarde uxores"/> 
+        <underline method="pen" type="straight" language="LA" text="dat uxorem"/>
         <underline method="pen" type="straight" language="LA" text="praeter uxorum incommoda"/>
         <underline method="pen" type="straight" language="LA" text="tertia infantiam"/>
         <underline method="pen" type="straight" language="LA" text="meretricum'q[ue] nuptijs alligat, eos'q[ue] facit, qui foedis amoribus, no[n] aliter qu&agrave;m fratre amisso, discrucientur"/>
         
         <mark name="bracket" method="pen" place="right_margin" language="LA" text="Illud decet animaduertere, nonam cum tertia, sextam cu[m] duodecima, quintam cum undecima semper sic conuenire, ut quaecunq[ue] in uno loco planeta decernit, licet minus, in opposito etia[m] positus pollicetur. ergo tertia, secunda, prima in pueritia: duodecima, undecima, decima in iuue[n]tute: nona, octaua, &amp; septima in senio. Sed &amp; in his ordo, nam tertia infantiam, secunda pueritia[m], prima decernit adolescentiam"/>
         
-        <drawing type="manicule" book_orientation="0" place="intext" method="pen" anchor_text=""/> <!--JG: After deciphering marginal note, copy text also into anchor-text attribute-->
+        <drawing type="manicule" book_orientation="0" place="intext" method="pen" anchor_text="Cur ordo vit[a]e ab ipsa tertia ordiretur cu[m] qu[a]e in cade[n]tib[us] sunt tardissime efficiantur"/> 
         
     </annotation>
 </transcription>

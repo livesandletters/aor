@@ -30,7 +30,7 @@
                     <marginalia_text>[L.] Intelligit raptu[m] coeli diurnu[m] ad certa primi ca[e]li loca vt ip[s]emet in fine pr[a]ecendentis pagin[a]e exponit.</marginalia_text>
                 </position>
             </language>
-            <translation>[?] He understands the daily plunder of the heaven towards certain places of the first heaven, as he himself explains at the end of the preceding pages.</translation> <!-- JG: Unsure about translation caelum here - sky or heaven? Esp. 'primi caeli' Seems Aristotelean to me -->
+            <translation>[?] He understands the daily plunder of the heaven towards certain places of the 'first heaven' (primum caelum), as he himself explains at the end of the preceding pages.</translation> <!-- JG: Unsure about translation caelum here - sky or heaven? Esp. 'primi caeli' Seems Aristotelean to me -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Igitur figura geniturae principaliter ostendit primi anni nutritionem, &amp; reuolutio anni ostendit principaliter de primo mense, &amp; ita de alijs">
@@ -42,7 +42,14 @@
             <translation>He concludes beautifully and rightfully.</translation>
         </marginalia>
         
-        <!-- FSF: I think the second last note is missed out (De Natiuitatis significatis an possint frustrari) -->
+        <marginalia hand="English_secretary" anchor_text="aliquid q[u]od in figura demonstretur frustrari possit?">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>De Natiuitatis significatis an possint frustrari</marginalia_text> 
+                </position>
+            </language>
+            <translation>On the indications of a nativity [and] whether they can be frustrated.</translation> 
+        </marginalia>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
@@ -50,7 +57,7 @@
                     <marginalia_text>No[n] o[mn]nia promissa in natiuitate effectum co[n]sequi</marginalia_text> 
                 </position>
             </language>
-            <translation>Not all promisses in a nativity achieve an effect.</translation> <!--JG: Not entirely sure-->
+            <translation>Not all promisses in a nativity achieve an effect.</translation> 
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="tempora"/>
@@ -61,7 +68,8 @@
         <underline method="pen" type="straight" language="LA" text="horum assequi possunt"/>
         
         <mark name="section_sign" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="intext"/> <!-- FSF: I would add the word preceding and following -->
+        <mark name="comma" method="pen" place="intext"/> <!-- principales hebdomadas-->
+        <mark name="bracket" method="pen" place="intext"/> 
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
@@ -76,7 +84,7 @@
         <numeral place="intext" language="LA" text="gradus">5</numeral>
         <numeral place="intext" language="LA" text="horas">6</numeral>
         
-        <!-- FSF: I think there is a comma dded between principales and hebdomadas in the sixth line -->
+        
         
     </annotation>
 </transcription>

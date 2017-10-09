@@ -9,10 +9,10 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0"> 
-                    <marginalia_text>Alia est hominis vltima optus, alia senilis.</marginalia_text> <!-- FSF: I think optus is a[e]tas -->
+                    <marginalia_text>Alia est hominis vltima a[e]tas, alia senilis.</marginalia_text> 
                 </position>
             </language>
-            <translation>One is the greatest power of man, the other of the elderly.</translation> 
+            <translation>One is the greatest age of man, the other of the elderly.</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="per reuolutione[m]">
@@ -71,11 +71,11 @@
         <underline method="pen" type="straight" language="LA" text="reuolutione"/>
         <underline method="pen" type="straight" language="LA" text="uel directione"/>
         
-        <mark name="bracket" method="pen" place="intext"/> <!-- FSF: I would add the word preceding and following -->
+        <mark name="bracket" method="pen" place="intext"/> 
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
-        <mark name="bracket" method="pen" place="intext"/> <!--JG: In front of 'Secundum'--> <!-- FSF: is this not more a sectin sign? -->
+        <mark name="section_sign" method="pen" place="intext"/> <!--JG: In front of 'Secundum'--> 
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
@@ -83,7 +83,7 @@
         <numeral place="intext" language="LA" text="directione">2</numeral>
         
         <errata language="LA" copytext="n" amendedtext="in"/>
-        <errata language="LA" copytext="cuiusue" amendedtext="cuiuset"/> <!--JG: Not entirely sure, cuiuset doesn't really makes sense??--> <!-- FSF: I think it is meant to be two words -->
+        <errata language="LA" copytext="cuiusue" amendedtext="cuius et"/>  
         <errata language="LA" copytext="quidem" amendedtext="[deleted]"/>
                 
         <!--JG: Seems that there's some activity in the gutter, need to have a look at orginal though-->
