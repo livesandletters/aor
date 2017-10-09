@@ -12,17 +12,17 @@
                     <marginalia_text>Na[m] res illa significata per illos planetas ita retrogrados, impedietur et tarde progredietur</marginalia_text>
                 </position>
             </language>
-            <translation>For that matter has shown through those planets thus moved backwards, it will have been hindered and slowly moves forward.</translation>
-            <!-- FSF: I'd translate as For this matter which was indicated through those planets that thus moved backwards, will hinder and slowly move forward.-->
+            <translation>For that matter was indicated through those planets [which] thus moved backwards, will hinder and slowly move forward.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Sequu[n]tur haec significata, ip[s]as domuu[m] significationes quasi, initio ab [re] fuit</marginalia_text> <!--JG: Unsure about 're'--> <!-- FSF:  I think it is the symbol for Aries; it would work as Aries is the beginning of the lsit here -->
+                    <marginalia_text>Sequu[n]tur haec significata, ip[s]as domuu[m] significationes quasi, initio ab &Aries; fuit</marginalia_text>
+                    <symbol_in_text name="Aries"/>
                 </position>
             </language>
-            <translation>These signifiers follow those signifiers of the houses as if it was the beginning from the matter.</translation> <!-- FSF: I'd translate significata as those signified -->
+            <translation>These signified follow those signifiers of the houses as if it was the beginning from Aries.</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="quoties celerioris motus aliq[ui]s separatur &agrave; planeta tardioris motus ad alteru[m] applicans">
@@ -37,14 +37,14 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Vide de istis inf[...] fo 237 &id_est; aph 30</marginalia_text> <!--JG: Unsure abt word after istis--> <!-- FSF: I think it is infra (below) -->
+                    <marginalia_text>Vide de istis inf[ra] fo 237 &id_est; aph 30</marginalia_text>
                     <internal_ref>
                         <target ref="RCP7134:493" text="237"/>
                         <target ref="RCP7134:481" text="30"/>
                     </internal_ref>
                 </position>
             </language>
-            <translation>See regarding those [...] folio 237, that is, aphorism 30.</translation>
+            <translation>See regarding those, below folio 237, that is, aphorism 30.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -59,10 +59,10 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Erasio tertij ad que[m] sit Luminis tra[n]slatio</marginalia_text> <!-- FSF: to me sit looks like fit; that would not make sense grammatically -->
+                    <marginalia_text>Erasio tertij ad que[m] fit Luminis tra[n]slatio</marginalia_text>
                 </position>
             </language>
-            <translation>The erasion of the third toward which the transfer of light may be.</translation>
+            <translation>The erasion of the third toward which the transfer of light occurs.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="retrogradando">
@@ -77,10 +77,10 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Translationis conam[u]r] no[n] tamen perficitur.</marginalia_text> <!--JG: Unsure abt conamur--> <!-- FSF: I think it is coname[n] -->
+                    <marginalia_text>Translationis coname[n] no[n] tamen perficitur.</marginalia_text> 
                 </position>
             </language>
-            <translation>Of the transfer we try, nevertheless it is not finished.</translation> <!--JG: Unsure--> <!-- FSF: The exertion of the transfer is nonetheless not finished -->
+            <translation>The exertion of the transfer is nonetheless not finished.</translation> 
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="semp[er] aut respicere oportet cui praesint, alij uitae, alij negotiationi"/>
@@ -91,7 +91,7 @@
         <underline method="pen" type="straight" language="LA" text="ut"/>
         <underline method="pen" type="double" language="LA" text="illi"/>
         
-        <mark name="bracket" method="pen" place="intext"/> <!-- FSF: I would add the word preceding and following -->
+        <mark name="bracket" method="pen" place="intext"/>
         <mark name="bracket" method="pen" place="intext"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
