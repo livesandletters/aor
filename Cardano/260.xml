@@ -3,19 +3,19 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="260.tif" reader="John Dee" pagination="120"/> <!-- FSF: the signature should be verso -->
+    <page filename="260.tif" reader="John Dee" pagination="[120v]"/> 
     <annotation>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>pro divinatio[n]e in coclite causa[e] radicales optim[a]e qu[a]e etiam tempore per <!-- FSF: I can't see the ligature for quae, I think it is que; I think it is p[er] -->
+                    <marginalia_text>pro divinatio[n]e in coclite causa[e] radicales optim[a]e que etiam tempore p[er] 
                     revolutiones et directio[n]es [etc] corroboroba[n]tur.</marginalia_text>
                     <person name="Bartholomaeus Cocles"/>
                     <book title="Chyromantie ac physionomie anastasis"/>
                 </position>
             </language>
-            <translation>For the prognostication in Cocles, the optimal radical causes which are corroborated, even in [that] time, through the revolutions and directions, et cetera. </translation>
+            <translation>For the prognostication in Cocles of optimal radical causes which are corroborated, even in [that] time, through the revolutions and directions, et cetera. </translation>
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -48,9 +48,10 @@
         <errata language="LA" copytext="9" amendedtext="[deleted]"/> 
         <errata language="LA" copytext="4" amendedtext="[deleted]"/>
         <errata language="LA" copytext="Moon 18. 14." amendedtext="[deleted]"/>
-        <errata language="LA" copytext="10.33" amendedtext="[deleted]"/> <!-- FSF: possibly Mercury crossed out as well? -->
-        <errata language="LA" copytext="28. 8" amendedtext="[deleted]"/> <!-- FSF: possibly Sun crossed out as well? -->
-        <!-- FSF: there is also a 46 crossed out and a Venus and a 27 -->
+        <errata language="LA" copytext="Mercury 10.33" amendedtext="[deleted]"/> 
+        <errata language="LA" copytext="Sun 28. 8" amendedtext="[deleted]"/> 
+        <errata language="LA" copytext="27" amendedtext="[deleted]"/>
+        <errata language="LA" copytext="46" amendedtext="[deleted]"/>
         
         <drawing type="manicule" book_orientation="0" place="intext" method="pen" anchor_text=""/> <!--JG: Anchor text to include later, when MS text within chart is transcribed correctly-->
         
@@ -61,9 +62,9 @@
                 <th label="Position"/>
             </tr>
             <tr>
-                <td>Virgo</td> <!-- FSF: this looks more like a Scorpio to me -->
+                <td>Scorpio</td> 
                 <td>1</td>
-                <td>9&o_super;</td> <!-- FSF: can't see the superscript o -->
+                <td>9</td> 
             </tr>
             <tr>
                 <td>[Moon - deleted]</td>
@@ -72,16 +73,16 @@
             <tr>
                 <td>South Node</td>
                 <td>11</td>
-                <td>19&o_super; 30'</td> <!-- FSF: to me it looks more like 19/30 -->
+                <td>19/30/</td> 
             </tr>
             <tr>
                 <td>Moon</td>
                 <td>11</td>
-                <td>circa mediu[m] Scorpio</td> <!-- FSF: this looks more like a Virgo to me -->
+                <td>circa mediu[m] Virgo</td>
             </tr>
             <text hand="English_secretary" language="LA">
                 1467 die 18 martij hora.3 noctis Bononi[a]e. vt tradit ip[s]e cocles p[r]imo capite Chyroma[n]tiae [mag] <!--JG: Unsure abt 'mag'--> <!-- FSF: that's what I read too -->
-                ergo co[m]me[n]ti &Sun; et &Saturn; ex [acte] <!--JG: Unsure abt 'acte' & commenti - coniuncti makes a bit more sense?--> <!-- FSF: I read coniuncti; not sure about acte either -->
+                ergo co[n]iuncti &Sun; et &Saturn; ex [acte] <!--JG: Unsure abt 'acte' & commenti - coniuncti makes a bit more sense?--> <!-- FSF: I read coniuncti; not sure about acte either -->
             </text>
             <person name="Bartholomaeus Cocles"/>
             <book title="Chyromantie ac physionomie anastasis"/>
@@ -89,7 +90,7 @@
             <symbol_in_text name="Sun"/>
             <symbol_in_text name="Saturn"/>
             <translation>1467, on March 18, the third hour of the night, in Bologna. As Cocles himself related in the first chapter of the 'Chyromatie' [mag?]. 
-                Therefore of the invention of the Sun and Saturn from the [...]. </translation> <!--JG: Very unsure, e.g. abt mag and 'commenti', acte-->
+                Therefore of the coniunction of the Sun and Saturn from the acte. </translation> <!--JG: Very unsure, e.g. abt mag and 'commenti', acte-->
         </table>
         
     </annotation>
