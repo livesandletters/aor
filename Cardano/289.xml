@@ -6,7 +6,14 @@
     <page filename="289.tif" reader="John Dee" pagination="135" signature="ll iij"/>
     <annotation>
         
-        <!-- FSF: here is also something added in the chart pol. 45. as far as I can read -->
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>pol. 45.</marginalia_text>
+                </position>
+            </language>
+            <translation>Pole 45.</translation>
+        </marginalia>
         
         <errata language="LA" copytext="ut uix quicquam addi possit" amendedtext="[deleted]"/>
         
