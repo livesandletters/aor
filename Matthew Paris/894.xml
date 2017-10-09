@@ -20,12 +20,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">  <!-- DO: Anchor 'Scatarum' as I think he is correcting this word -->
+        <marginalia hand="Italian" anchor_text="Scatarum"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Staterium <!-- FSF: I am not sure if this is meant to be the Statherian -->  <!-- DO: I think this refers to Staterius, King of Albany, as recounted here: https://en.wikipedia.org/wiki/Dyfnwal_Moelmud -->
+                        Stateriumg 
                     </marginalia_text>
+                    <person name="Dyfnwal Moelmud"/>
                 </position>
             </language>
             <translation>
@@ -66,8 +67,9 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Anguselum <!-- FSF: do I understand correctly that this is Lancelot? https://books.google.co.uk/books?id=4uxtAgAAQBAJ&pg=PA111&lpg=PA111&dq=king+anguselus+of+scotland&source=bl&ots=UYUG7DSu1l&sig=MCxCobPn-3eFAB6JA9tbCzMkTJ0&hl=en&sa=X&ved=0ahUKEwju8uTlotTUAhWhDsAKHaNRBJIQ6AEIKjAA#v=onepage&q=king%20anguselus%20of%20scotland&f=false -->
-                    </marginalia_text>  <!-- DO: From what I can gather, many people have drawn a connection between Lancelot and Anguselus, King of Scotland, but I don't think it's "official". As such, I would tag as 'Anguselum, King of Scotland'. See, for e.g., http://www.sir-lancelot.co.uk/arthurian-legend.htm -->
+                        Anguselum
+                    </marginalia_text>
+                    <person name="Anguselus, King of Scotland"/>
                 </position>
             </language>
             <translation>
@@ -81,11 +83,24 @@
                     <marginalia_text>
                         Anguselus
                     </marginalia_text>
-                    <person name=""/>
+                    <person name="Anguselus, King of Scotland"/>
                 </position>
             </language>
             <translation>
-                
+                Anguselus.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        in
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                In.
             </translation>
         </marginalia>
         
@@ -110,19 +125,21 @@
         <underline method="pen" type="double" language="LA" text="Ancelmus rex Scotiae"/>
         <underline method="pen" type="straight" language="LA" text="omnes reges Scotiae omnibus regibus Britonu[m] fuerunt subiecti"/>
         
-        <mark name="vertical_bar" method="pen" place="right_margin"/>  <!-- DO: I'd say this is a big bracket, in a similar vein to the preceding page. I would also tag the plus sign at the bottom -->
-        <mark name="circumflex" method="pen" place="intext"/>          <!-- DO: The inserted word/letter here needs to be captured. Could either be 'm' or 'in' but I don't think either make sense... -->
+        <mark name="bracket" method="pen" place="right_margin"/> 
+        <mark name="plus_sign" method="pen" place="tail"/>
+        <mark name="circumflex" method="pen" place="intext"/>   
         
         <errata language="LA" copytext="quandam" amendedtext="hanc"/>
         <errata language="LA" copytext="Locricus" amendedtext="Locrinus"/>
         <errata language="LA" copytext="Item" amendedtext="Postea"/>
-        <errata language="LA" copytext="Scotarum" amendedtext="[deleted]"/>  <!-- DO: I actually think the original text is 'Scatarum', which he has changed to 'Scotarum' and then crossed out... -->
+        <errata language="LA" copytext="Scatarum" amendedtext="[deleted]"/>  
         <errata language="LA" copytext="recepit" amendedtext="accepit"/>
-        <errata language="LA" copytext="possiderit" amendedtext="[deleted]"/>  <!-- DO: There is also a word written above this which I can't make out, and possibly has been crossed out as well -->
+        <errata language="LA" copytext="possiderit" amendedtext="[deleted]"/>  
         <errata language="LA" copytext="acciperet" amendedtext="accepit"/>
-        <errata language="LA" copytext="cum poste&agrave;" amendedtext="postea cum"/>  <!-- DO: I think the correction has a grave accent on the 'a' of 'postea' as well -->
-        <errata language="LA" copytext="ibi" amendedtext="ibidem"/>               <!-- DO: 'Ancelmus' in following line also deleted -->
-        <errata language="LA" copytext="successione" amendedtext="successuie"/>   <!-- DO: Think corrected word is 'successiue' with grave accent on final 'e' -->
+        <errata language="LA" copytext="cum poste&agrave;" amendedtext="poste&agrave; cum"/>  
+        <errata language="LA" copytext="ibi" amendedtext="ibidem"/>      
+        <errata language="LA" copytext="Ancelmus" amendedtext="[deleted]"/>
+        <errata language="LA" copytext="successione" amendedtext="successiu&egrave;"/>  
         
     </annotation>
 </transcription>
