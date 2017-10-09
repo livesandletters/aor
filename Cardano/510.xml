@@ -10,9 +10,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Aliam vide r[ati]one[m] in hoc segmento, aphorismo decimo.</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP7134:508" text="decimo"/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation>See the other reasoning in the segment, aphorism ten.</translation> <!-- FSF: maybe better in this segment; possible internal reference to 508  -->
+            <translation>See the other reasoning in this segment, aphorism ten.</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -75,7 +78,7 @@
         
         <underline method="pen" type="straight" language="LA" text="impeditus"/>
         
-        <!-- FSF: there is a circumflex in the fourth line -->
+        <mark name="circumflex" method="pen" place="intext"/> <!-- coniunctionis in-->
         
         <errata language="LA" copytext="numeroru[m]" amendedtext="numeru[m]"/>
         
