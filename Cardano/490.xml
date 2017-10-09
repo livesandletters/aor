@@ -18,7 +18,7 @@
         <marginalia hand="English_secretary" anchor_text="Insani; Daemoniaci">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Insani. Daemoniaci.</marginalia_text> <!-- FSF: I read Demoniaci -->
+                    <marginalia_text>Insani. Daemoniaci.</marginalia_text> 
                 </position>
             </language>
             <translation>The insane. The possessed.</translation>
@@ -44,7 +44,8 @@
             <translation>The separation of the Moon from Mars..</translation>
         </marginalia>
         
-        <!-- FSF: underlinings missing (Mercurium cum Luna impediant; Cumq[ue] luminaria, &amp; Mars, ac Venus, in masculinis) -->
+        <underline method="pen" type="straight" language="LA" text="Mercurium cum Luna impediant"/>
+        <underline method="pen" type="straight" language="LA" text="Cumq[ue] luminaria, &amp; Mars, ac Venus, in masculinis"/> 
         
        <mark name="vertical_bar" method="pen" place="right_margin"/>
        <mark name="vertical_bar" method="pen" place="right_margin"/>
