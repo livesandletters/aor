@@ -9,23 +9,22 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ad bonu[m] igitur Astrologu[m] faciet co[n]stitutio [.r[a]es]. asce[n]de[n]s &Sagittarius;, &Jupiter; et &Mercury; co[n]uncti Nona dom[us] &Capricorn; et &Sun;
-                    cu[m] &Venus; in nona/</marginalia_text> <!--JG: Can't figure out the word after 'constitutio'--> <!-- FSF: the only thing I can think of is h[a]ec, though I don't think so -->
+                    <marginalia_text>Ad bonu[m] igitur Astrologu[m] faciet co[n]stitutio h[a]ec. asce[n]de[n]s &Sagittarius;, &Jupiter; et &Mercury; co[n]uncti Nona dom[us] &Capricorn; et &Sun; cum &Venus; in nona</marginalia_text>
                     <symbol_in_text name="Sagittarius"/>
+                    <symbol_in_text name="Capricorn"/>
                     <symbol_in_text name="Jupiter"/>
                     <symbol_in_text name="Mercury"/>
                     <symbol_in_text name="Sun"/>
                     <symbol_in_text name="Venus"/>
                 </position>
             </language>
-            <translation>Therefore the consitution [...] will make toward the good astrologer. Sagitarius ascending, Jupiter and Mercury joined; Capricorn, the ninth house et the Sun when Venus [is] in the ninth. </translation> <!--JG: Unsure--> 
-            <!-- I know that this doesn't make much more sense, but after the semicolon, I'd continue: the ninth house, Capricorn and the sun when Venusis in the ninth. -->
+            <translation>Therefore this consitution will make for a good astrologer. Sagitarius ascending, Jupiter and Mercury joined in the ninth house; Capricorn and the Sun when Venus [is] in the ninth [house]. </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary"> <!-- FSF: possibly anchor Saturnus &amp; Venus -->
+        <marginalia hand="English_secretary" anchor_text="Saturnus &amp; Venus"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ingeniu[m] bonu[m] fit ex co[n]iunxtione &Saturn;:&Venus;.</marginalia_text> <!--JG: 'coniunxtione' does match, but don't know what else it can be--> <!-- FSF: I think coniunxtione is fine -->
+                    <marginalia_text>Ingeniu[m] bonu[m] fit ex co[n]iunxtione &Saturn;:&Venus;.</marginalia_text>  
                     <symbol_in_text name="Saturn"/>
                     <symbol_in_text name="Venus"/>
                 </position>
@@ -33,14 +32,13 @@
             <translation>A good disposition occurs from the conjunction of Saturn and Venus.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary"> <!-- FSF: possibly anchor the from si uel to eis fuerint -->
+        <marginalia hand="English_secretary" anchor_text="si uel Luna uel dominus ascendentis in eis fuerint"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>At luna pra[e]cipu&egrave; cu[m] domina ascendentis fuerit.</marginalia_text> 
-                    <symbol_in_text name="Moon"/> <!-- FSF: I don't see the symbol -->
+                    <marginalia_text>At luna pra[e]cipu&egrave; cu[m] domina ascendentis fuerit.</marginalia_text>
                 </position>
             </language>
-            <translation>But particularly the moon when the lady shall be in the ascendants.</translation> <!-- FSF: I'd translate: ...as it was the lady of the ascendent. -->
+            <translation>But particularly the moon as it was the lady was in the ascendants.</translation> 
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Sagittario"/>
@@ -55,7 +53,7 @@
         <underline method="pen" type="straight" language="LA" text="libenter arma tractantes"/>
         <underline method="pen" type="straight" language="LA" text="faciunt, si uel Luna uel dominus ascendentis in eis fuerint"/>
         
-        <errata language="LA" copytext="aequinoctia" amendedtext="aequinoctialia"/> <!-- FSF: there is a circumflex with the erratum -->
+        <errata language="LA" copytext="aequinoctia" amendedtext="aequinoctialia"/> 
         
     </annotation>
 </transcription>
