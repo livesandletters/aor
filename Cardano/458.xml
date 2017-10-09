@@ -10,8 +10,8 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Si fuerit &Mars; occidentalis in &Cancer; no[n] aspiciens &Saturn;, nec &Jupiter;
-                    nec &Venus; neq[ue] &Sun;, hic natus erit flebotomator. Eodem modo &Mars;e existente in &Capricorn;, erit <!-- FSF: I think it is sic, not hic -->
-                    corruptor homi[num], et effusio[n]is sa[n]guinis armator. Schonerus. fol 108.v.</marginalia_text> <!-- FSF: I think the abbreviation is ho[min]um -->
+                    nec &Venus; neq[ue] &Sun;, sic natus erit flebotomator. Eodem modo &Mars;e existente in &Capricorn;, erit 
+                    corruptor ho[m]i[nu]m, et effusio[n]is sa[n]guinis armator. Schonerus. fol 108.v.</marginalia_text> 
                     <symbol_in_text name="Mars"/>
                     <symbol_in_text name="Cancer"/>
                     <symbol_in_text name="Saturn"/>
@@ -23,11 +23,11 @@
                     <book title="De iudicijs Natiuitatum libri tres"/> <!--JG: https://books.google.co.uk/books?id=ecNZAAAAcAAJ&pg=PR49-IA1&lpg=PR49-IA1&dq=schonerus+corruptor&source=bl&ots=gaAeN5ZR-B&sig=xcbYTvqUfa7Kp4_tp550Tu1F-Pk&hl=en&sa=X&ved=0ahUKEwj-zeGzkMrUAhUDalAKHWn5BQwQ6AEILTAB#v=onepage&q=schonerus%20corruptor&f=false, this is the copy from 1545, and the corresponding page is 49v. No clue which edition Dee was using-->
                 </position>
             </language>
-            <translation>If Western Mars were in Cancer, not beholding Saturn, Jupiter, Venus, nor the Sun, the phlebotomist shall be born here. In the
+            <translation>If Western Mars were in Cancer, not beholding Saturn, Jupiter, Venus, nor the Sun, thus the phlebotomist shall be born. In the
             same manner, with Mars existing in Capricorn, the corruptor of men shall be and the lover of the effusion of blood. Johannes Schoner, folio 108 verso.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary"> <!-- FSF: maybe anchor nutrietur -->
+        <marginalia hand="English_secretary" anchor_text="nutrietur">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Pro nutritio[n]e infantis</marginalia_text>
@@ -54,15 +54,15 @@
             <translation>Eudaemon.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Mars in ca[n]cro facit eos q[uam] uole[n]tibus fan (&amp; diuinatoris"/> <!-- FSF: the abbreviation is qui, I think -->
+        <underline method="pen" type="straight" language="LA" text="Mars in ca[n]cro facit eos q[ui] uole[n]tibus fan (&amp; diuinatoris"/> 
         <underline method="pen" type="straight" language="LA" text="luminaris"/>
         <underline method="pen" type="straight" language="LA" text="Cui uero Saturnus, uel diues no[n] fiet, uel"/>
         <underline method="pen" type="straight" language="LA" text="congrediens facit prudentes, odiosos, uitiosos"/>
         
-        <symbol name="Mercury" place="left_margin"/> <!-- FSF: these can be anchored in the text (Mercurius Saturni) -->
-        <symbol name="Saturn" place="left_margin"/>
+        <symbol name="Mercury" place="left_margin" language="LA" text="Mercurius"/> 
+        <symbol name="Saturn" place="left_margin" language="LA" text="Saturni"/>
         
-        <!-- FSF: there is another eratum in paragraph 60; termini to terminis -->
+        <errata language="LA" copytext="termini" amendedtext="terminis"/>
         <errata language="LA" copytext="Soli" amendedtext="soli"/>
         
     </annotation>
