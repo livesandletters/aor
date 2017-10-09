@@ -9,19 +9,27 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Significat natura[m] no[n] &Mercury;ij [Mercurij] solu[m] ex alijs pendere sed etia[m] aliqua[m] propria[m] <!-- FSF: I think Mercurij is in the first line -->
+                    <marginalia_text>Significat &Mercury;ij [Mercurij] natura[m] no[n] solu[m] ex alijs pendere sed etia[m] aliqua[m] propria[m] 
                     et peculiare[m] significatione[m] habere.</marginalia_text>
                     <symbol_in_text name="Mercury"/>
                 </position>
             </language>
-            <translation>He signifies to consider the nature Mercury not only from others, but even to have any particular and peculiar signification.</translation> <!--JG: Unsure, check-->
-            <!-- FSF: Maybe more like this? He signifies that the nature of Mercury not only is dependent on others, but also has any and peculiar signification. -->
+            <translation>He signifies that the nature of Mercury not only is dependent on others, but even has any particular and peculiar signification.</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0"> <!-- FSF: this is intext -->
-                    <marginalia_text>&id_est; peculiaris qu[a]edam natura // &id_est; in munero</marginalia_text> <!-- FSF: I think it is numero -->
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Luminaria</marginalia_text> 
+                </position>
+            </language>
+            <translation>Lights.</translation> 
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>&id_est; peculiaris qu[a]edam natura // &id_est; in numero</marginalia_text> 
                 </position>
             </language>
             <translation>That is, a certain specific nature. That is, in a number.</translation> 
@@ -29,7 +37,7 @@
         
         <marginalia hand="English_secretary" anchor_text="undecim">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0"> <!-- intext -->
+                <position place="intext" book_orientation="0"> 
                     <marginalia_text>septem planeta[e] / et [quattuor] cardines.</marginalia_text>
                 </position>
             </language>
@@ -38,7 +46,7 @@
         
         <marginalia hand="English_secretary" anchor_text="decemnouem">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0"> <!-- intext -->
+                <position place="intext" book_orientation="0"> 
                     <marginalia_text>12 dom[us]. 7 planet[ae]</marginalia_text>
                 </position>
             </language>
@@ -47,11 +55,11 @@
         
         <marginalia hand="English_secretary" anchor_text="radios mittunt">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0"> <!-- intext -->
-                    <marginalia_text>&id_est; planetis o[mn]is.</marginalia_text> <!-- FSF:I think omnis is ip[s]is -->
+                <position place="intext" book_orientation="0"> 
+                    <marginalia_text>&id_est; planetis ip[s]is.</marginalia_text> 
                 </position>
             </language>
-            <translation>That is, of all planets</translation> 
+            <translation>That is, of the planets themselves.</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="q"> <!-- FSF: I'd anchor as q[uod] -->
@@ -63,12 +71,10 @@
             <translation>Which.</translation> 
         </marginalia>
         
-        <!-- FSF: I think you missed Luminaria in the left margin -->
-        
         <underline method="pen" type="straight" language="LA" text="domini secundum substantiam faciunt impressione[m] in loco permanentem, non domini secundu[m]"/>
         <underline method="pen" type="straight" language="LA" text="&amp; Mercurio inest proprietas, ut fiat in natura dominatorum secundum substantiam"/>
         <underline method="pen" type="straight" language="LA" text="proportio taliu[m] locoru[m] est consimilis loco mitte[n]tis cu[m] quada[m] proportione contrarietatis. In"/>
-        <!-- FSF: I think you missed q[uod] -->
+        <underline method="pen" type="straight" language="LA" text="q[uod]"/>
         <underline method="pen" type="double" language="LA" text="semper"/>
         <underline method="pen" type="straight" language="LA" text="dominat&ograve;r omnium uirtutum in toto"/>
         <underline method="pen" type="straight" language="LA" text="&amp; Luna delatrix"/>
