@@ -15,7 +15,7 @@
             <translation>The death of offspring and the death of a mother [...] [...].</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary"> <!-- FSF: I think I would anchor the paragraphs 6 and seven -->
+        <marginalia hand="English_secretary"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Vide in Albumasare qua ra[tion]e de &Conjunction; &Saturn; &Mars; Indiciu[m] ferri debet</marginalia_text>
@@ -70,7 +70,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Imo hac r[ati]o[n]e quicquid intra nona[m] co[n]tinetur equale[m] fortitudine[m] vel maiore[m]q[ue] quicquid in fortissima 11a[e] parte do[m]itur</marginalia_text> <!--JG: Unsure abt last two words--> 
+                    <marginalia_text>Imo hac r[ati]o[n]e quicquid intra nona[m] co[n]tinetur equale[m] fortitudine[m] vel maiore[m] q[uam] quicquid in fortissima 11a[e] parte do[m]itur</marginalia_text> <!--JG: Unsure abt last two words--> 
                     <!-- FSF: I agree with parte, but would suggest ponitur; I think the abbreviation at the beginning of the third line is q[uam] -->
                 </position>
             </language>
@@ -91,7 +91,7 @@
         <underline method="pen" type="straight" language="LA" text="eundem eclipticae"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
-        <!-- FSF: there is a tripunctus after the second marginal note -->
+        <mark name="tripunctus" method="pen" place="left_margin"/><!-- after the second marginal note -->
         
         <numeral place="intext" language="LA" text="Saturnus">1</numeral>
         <numeral place="intext" language="LA" text="Tauro">2</numeral>
