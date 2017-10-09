@@ -6,7 +6,7 @@
     <page filename="534.tif" reader="John Dee" pagination="[257v]" signature="[TT[v]]"/>
     <annotation>
         
-        <marginalia hand="English_secretary"> <!-- FSF: anchor Ptolomaeo -->
+        <marginalia hand="English_secretary" anchor_text="Ptolomaeo"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Ptoloma[e]us enim Isagogem tantum scripsit, no[n] absolutos commentarios.</marginalia_text>
@@ -37,7 +37,7 @@
         <marginalia hand="English_secretary" >
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>existentes</marginalia_text> <!--JG: Unsure-->
+                    <marginalia_text>existentes</marginalia_text>
                 </position>
             </language>
             <translation>Arising.</translation>
@@ -47,7 +47,7 @@
         <underline method="pen" type="straight" language="LA" text="si in ipso loco nono"/>
         <underline method="pen" type="straight" language="LA" text="Saturnus haereticum"/>
         
-        <!-- FSF: there is a circumflex in the third last line -->
+        <mark name="circumflex" method="pen" place="intext"/>
         
     </annotation>
 </transcription>
