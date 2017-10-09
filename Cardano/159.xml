@@ -18,12 +18,11 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>R[ati]o co[n]stat ex eo quod &Jupiter; carni p[o]ssit / humiditas vero pinguedine[m] angeat</marginalia_text> <!--JG: Unsure abt 'possit' and 'carni'--> <!-- FSF: maybe carui instead of carni-->
+                    <marginalia_text>R[ati]o co[n]stat ex eo quod &Jupiter; carui p[o]ssit / humiditas vero pinguedine[m] angeat</marginalia_text> 
                     <symbol_in_text name="Jupiter"/>
                 </position>
             </language>
-            <translation>The reason consist of which that Jupiter could be in the meat. Actually, humidity may increase fatness.</translation> 
-            <!-- FSF: I'd translate the beginning maybe like: The account is true because Jupiter...: with the change of the transcription this could go on like: can have been missing -->
+            <translation>The account is true because Jupiter could have been missing. Actually, humidity may increase fatness.</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -63,10 +62,9 @@
         <numeral place="intext" language="LA" text="signis">.1.</numeral>
         <numeral place="intext" language="LA" text="summo">.2.</numeral>
         
-        <errata language="LA" copytext="." amendedtext=","/> <!-- FSF: in such cases I added preceeding and following word; here efficiunt -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- efficiunt -->
+        <errata language="LA" copytext="." amendedtext=","/> <!-- foeminas Sed -->
         <errata language="LA" copytext="," amendedtext=":"/> <!-- pulchritudine post -->
-        
-        <!-- FSF: I think in the line above something has happened to the comma between foeminas and Sed -->
         
     </annotation>
 </transcription>
