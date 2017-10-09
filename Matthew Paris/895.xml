@@ -10,10 +10,14 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Vide Stowei summaru[m] ebroni cora[m] a[nno] Chr[ist]i 974 et inde emen&egrave; a irme lcoum. <!-- FSF: not sure at all -->  <!-- DO: I think it must be 'summariu[m]' (though it looks like 'summaria[m]'). Then I think it's 'chronicoru[m]' (possibly with umlaut on the 'i' again). Then I think the last words are 'emend[a?] hunc locum' but not sure about the ending of 'emenda'. I think this is referring to this man: https://en.wikipedia.org/wiki/John_Stow-->
+                        Vide Stowei summariu[m] chron&iuml;coru[m] a[nno] Chr[ist]i 974 et inde emendu[m] hunc locum. 
                     </marginalia_text>
+                    <person name="John Stow"/>
                 </position>
             </language>
+            <translation>
+                See Stow's summary of the chronicle for the year 974 and from there how to correct this passage.
+            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="[Succe]dentibus autem regibus Angliae in praedicta"/>
@@ -24,7 +28,7 @@
         <underline method="pen" type="straight" language="LA" text="prope proram"/>
         <underline method="pen" type="straight" language="LA" text="successores suos posse gloriari se reges Anglorum esse, cum tanta honoris pr[a]erogatiua"/>
         
-        <!-- DO: Asterisk in left margin -->
+        <symbol name="Asterisk" place="left_margin"/>
         
         <mark name="comma" method="pen" place="intext"/> <!-- Angliae in -->
      
