@@ -15,12 +15,12 @@
             <translation>The directions of the signifiers, in their own indications.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary"> <!-- FSF: possibly anchor from Venere[m] aute[m] to ac gaudia -->
+        <marginalia hand="English_secretary"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Debes aliter ha[e]c co[n]siderare q[uam] hic unde proponuntur / quonia[m] / si directio pessimia et mortifera
                     venere[m] feriret, an nu[n]c, soror, filia[e] vxor [etc] pessim&egrave; se habebunt? imo potius [Alma[n]te] significatoru[m] o[mn]i[u]m <!--JG: V unsure abt 'Almante' Ablative of Almansor, going together w/ potius?-->
-                    super vna re directiones istas recipiet. vide igitur sup[ra] fo 26. et 84.v. et 86.v. in [...]. Intelligit, pro tempore considerandos esse <!-- FSF: I read in fine for the missing word -->
+                    super vna re directiones istas recipiet. vide igitur sup[ra] fo 26. et 84.v. et 86.v. in fine. Intelligit, pro tempore considerandos esse 
                     horu[m] locoru[m] dispositiones et dominos.</marginalia_text>
                     <internal_ref>
                         <target ref="RCP7134:070" text="26"/>
@@ -31,7 +31,7 @@
             </language>
             <translation>You ought to consider these things differently than they are proposed here, since if the most calimitous and deadly direction would
                 Venus, whether now the sister, daughters and wife, et cetera, will handle themselves badly? Indeed, rather than [Almansor] he will guarantee those directions of all signifiers concerning
-                one matter. See therefore above, folio 26 and 84 verso and 86 verso in [...]. He understands, that for the time the dispositions and lords of these houses must be considered.
+                one matter. See therefore above, folio 26 and 84 verso and 86 verso in the end. He understands, that for the time the dispositions and lords of these houses must be considered.
             </translation>
         </marginalia>
         
@@ -67,10 +67,9 @@
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!--in qua-->
         <mark name="comma" method="pen" place="intext"/> <!--apparet inspicimus-->
-                
-        <!-- FSF: there is an eratum: propriae to proprie in paragraph 137-->
+        <mark name="tripunctus" method="pen" place="intext"/> <!-- non-->
         
-        <!-- FSF: I think there is a tripunctus above the underlined non -->
+        <errata language="LA" copytext="proprie" amendedtext="propriae"/>
         
     </annotation>
 </transcription>

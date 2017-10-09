@@ -50,7 +50,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Ergo in re minori Angli optime cu[m] heredib[us] agu[n]t, ad suu[m] genus propaga[n]du[m] cu[m]
-                    honore / ia[m] [heres] indiuisu[m] pr[im]is [recipit] patrimoniu[m]</marginalia_text> <!-- recipit is fine, I think -->
+                    honore / ia[m] [heres] indiuisu[m] pr[im]is recipit patrimoniu[m]</marginalia_text> 
                 </position>
             </language>
             <translation>Therefore in an unimportant matter, Englishmen act best with heirs, for the propagation of their birth with honour.
@@ -87,7 +87,7 @@
             <translation>[See] above, folio 66 verso.</translation>
         </marginalia>
         
-        <!-- FSF: I think pleru[m]q[ue] in the fifth line is underlined too -->
+        <underline method="pen" type="straight" language="LA" text="pleru[m]q[ue]"/>
         <underline method="pen" type="straight" language="LA" text="totus orbis in unum imperium diu consentire nequit"/>
         
     </annotation>
