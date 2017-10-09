@@ -8,10 +8,11 @@
         
         <underline method="pen" type="straight" language="LA" text="plus cum Ioue"/>
         
-        <symbol name="Sun" place="left_margin"/> <!-- FSF: I would anchor both symbols in the text -->
-        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Sun" place="left_margin" language="LA" text="Sol"/> 
+        <symbol name="Jupiter" place="left_margin" language="LA" text="Ioue"/>
         
-        <!-- FSF: I think he has added a comma after Sol and another one after omnibus two words after -->
+        <mark name="comma" method="pen" place="intext"/> <!--Sol cum-->
+        <mark name="comma" method="pen" place="intext"/> <!--omnibus malum-->
         
     </annotation>
 </transcription>
