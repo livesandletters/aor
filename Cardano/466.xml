@@ -43,6 +43,7 @@
                     <marginalia_text>Ita habet Joannes Gex.</marginalia_text> <!--JG: Unsure who this is. The USTC mentions an author called Gex, but not sure whether this is the same person--> 
                     <!-- FSF: I have found a Johannes Gex mentioned here https://books.google.co.uk/books?id=pyp2aG60b6sC&pg=PA201&lpg=PA201&dq=johannes+gex&source=bl&ots=PC-PWMxgJ0&sig=hibU-gVYhygtEn4yDdcv28H3olY&hl=en&sa=X&ved=0ahUKEwiwsemLoZXWAhUmJsAKHaAhA4UQ6AEIQTAG#v=onepage&q=johannes%20gex&f=false 
                     chronologically both would make sense! -->
+                    <person name="Johannes Gex"/>
                 </position>
             </language>
             <translation>As Johannes Gex has [it].</translation>
@@ -56,7 +57,7 @@
         <underline method="pen" type="straight" language="LA" text="in Scorpione maleficum facit"/>
         <underline method="pen" type="straight" language="LA" text="secundi loci infortuna peregrina"/>
         
-        <symbol name="Mars" place="left_margin"/> <!-- FSF: anchor to Mars -->
+        <symbol name="Mars" place="left_margin" language="LA" text="Mars"/> 
         
     </annotation>
 </transcription>
