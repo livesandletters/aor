@@ -27,13 +27,22 @@
             <translation>The Sun in square to the Moon.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="rege; carceribus"> <!-- FSF: I would make this note two; to me there is no obvous connection of the two -->
+        <marginalia hand="English_secretary" anchor_text="rege"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Rex. Carcer.</marginalia_text>
+                    <marginalia_text>Rex.</marginalia_text>
                 </position>
             </language>
-            <translation>King. Prison.</translation>
+            <translation>King.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="carceribus"> 
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Carcer.</marginalia_text>
+                </position>
+            </language>
+            <translation>Prison.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Luna Saturno iuncta">

@@ -10,11 +10,11 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Nota in hac revolutione, quod pro si[n]gulis annis adiecit loco &Sun; in nativitate, tantu[m] quantum &Sun; in 
-                    vna die naturali movetur, et id sibi tempus revolutionis pr[a]escripsit, quod convenitati loco &Sun; ita invento. Vt qu[e]ma[dmodum] in novembre Sol <!--JG: Unsure about quemadmodum--> <!-- FSF: could it be q[uo]nia[m] -->
-                    in &Scorpio; movetur, revolutione[m] hanc in mensi novembri statuit, cu[m] tamen sit in septembri natus: et quo[lo] die, et qua hora et minuto &amp; <!--JG: Unsure about & --> <!-- FSF: I think it is quo 10, not quolo; I think the & is actually a sun symbol -->
+                    vna die naturali movetur, et id sibi tempus revolutionis pr[a]escripsit, quod convenitati loco &Sun; ita invento. Vt qu[e]ma[dmodum] in novembre Sol <!--JG: Unsure about quemadmodum--> <!-- FSF: could it be q[uo]nia[m] --> <!--JG: Could be, still not sure though-->
+                    in &Scorpio; movetur, revolutione[m] hanc in mensi novembri statuit, cu[m] tamen sit in septembri natus: et quo [10] die, et qua hora et minuto &Sun;  <!-- JG: still not sure about 'quo 10' in this sentence, doesn't seem to make sense-->
                     in tali loco sit faturus descrevit et ad id tempus figura[m] erigit. et huius reversionis qu[a]e sit significatio vide in Schonero libro terio fo 204 &id_est; [id est] cap. 12. possim[us] 
-                    etia[m] eode[m] modo reliquas planetas tractare, et in tardiorib[us] leviores concludere: et sane [hare] optime co[n]veniu[n]t. sed dubiu[m] hic
-                    moveri possit an accipiunt motum mediu[m] &Sun; an veru[m] et diurnum te[m]pore nativitatis. At hic videtur eaede[m] asscripsisse.</marginalia_text> <!-- JG: Unsure about 'medium' and 'eaedem' --> <!-- FSF: I think it is fine the way it is -->
+                    etia[m] eode[m] modo reliquas planetas tractare, et in tardiorib[us] leviores concludere: et sane haec optime co[n]veniu[n]t. sed dubiu[m] hic
+                    moveri possit an accipiunt motum mediu[m] &Sun; an veru[m] et diurnum te[m]pore nativitatis. At hic videtur eaede[m] asscripsisse.</marginalia_text> 
                     <symbol_in_text name="Sun"/>
                     <symbol_in_text name="Scorpio"/>
                     <person name="Johannes Schoner"/>
@@ -22,10 +22,10 @@
             </language>
             <translation>Note in this revolution, that for individual years, he added the place of the sun in the nativity, as much as the Sun is moved in one natural day, and he order that 
             time of the revolution to himself, that with the place of the Sun coming together thus was discovered. As how in November the Sun is moved into Scorpio, he established this revolution
-            in the month November, when he nevertheless was born in September: and on which [...] day, and on which hour and minute, &amp; in such place he is about to speak, he describes and produces a figure for this time.
+            in the month November, when he nevertheless was born in September: and on which [tenth] day, and on which hour and minute, &amp; in such place the Sun is about to be, he describes and produces a figure for this time.
             And of this reversion, which may be an indication, see in Johannes Schoner, book three, folio 204, that is chapter 12. We can even treat the remaining planets in the same manner, and
             deduce the more fickle ones in more slowly things: and certainly, these things come togheter optimally. But he might be able that this doubt is moved whether they grasp the ordinary movement of the Sun [and]
-            whether in truth even daily in the time of the nativity. And here it seems that [...] have been stated in writing.
+            whether in truth even daily in the time of the nativity. And here it seems that the same things have been stated in writing.
             </translation>
         </marginalia>
         
@@ -45,7 +45,9 @@
         <underline method="pen" type="straight" language="LA" text="fortuna cadenti"/>
         <underline method="pen" type="straight" language="LA" text="secundum modum processus Solis, &amp;"/>
         
-        <!-- FSF: there are two brackets in the right margin -->
+        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/>
+        
         
     </annotation>
 </transcription>
