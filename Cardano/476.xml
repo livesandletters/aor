@@ -29,7 +29,7 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Signa viole[n]ta mortis radi calia. &Mars; in cuspide  &Scorpio;
                     &Square; tenens &Jupiter; &Saturn; etia[m] domin[us] 8 etevats &Moon; co[m]busta in octaua etia[m] d[omi]na asce[n]dentis.
-                    Deniq[ue] insorta[e] [....] [fortis], [...] [...] in [...] et fig[u]ra debiles[..]. [Et cetera].</marginalia_text> <!--JG: Extremely unsure-->
+                    Deniq[ue] insorta[e] [....] [fortis], [...] [...] in [...] et fig[u]ra debiles[..]. [Etc].</marginalia_text> <!--JG: Extremely unsure-->
                     <symbol_in_text name="Mars"/>
                     <symbol_in_text name="Scorpio"/>
                     <symbol_in_text name="Square"/>
@@ -47,8 +47,8 @@
         
         <mark name="comma" method="pen" place="intext"/> <!--Hic anno-->
         
-        <table type="astrological_chart" place="tail"> <!--JG: How to capture the fact that Dee deleted this table??-->
-            
+        <table type="astrological_chart" place="tail"> 
+            <text hand="English_secretary" language="LA">[deleted]</text>
         </table>
         
         <table type="astrological_chart" place="tail">
@@ -73,7 +73,7 @@
                 <td>12</td>
             </tr>
             
-        </table> <!--JG: To be continued, chart doesn't make sense to me-->
+        </table> <!--JG: To be continued, chart doesn't make sense to me, need expert advice-->
         
         
     </annotation>
