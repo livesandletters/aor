@@ -6,7 +6,7 @@
     <page filename="022.tif" reader="John Dee" signature="[B iij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="spiritum mundi">
+        <marginalia hand="English_secretary" anchor_text="spiritum mundi">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Spiritus Mundi.</marginalia_text>
@@ -15,7 +15,7 @@
             <translation>The spirit of the world.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Deos">
+        <marginalia hand="English_secretary" anchor_text="Deos">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Dij</marginalia_text>
@@ -24,7 +24,7 @@
             <translation>Gods.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="anima ipsa, ut ipsi atruunt, primum sit mobile">
+        <marginalia hand="English_secretary" anchor_text="anima ipsa, ut ipsi atruunt, primum sit mobile">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Pri[mum] Mo[bile] a[n]i[m]a</marginalia_text>
@@ -33,7 +33,7 @@
             <translation>The first movable thing, the soul.</translation>
         </marginalia>
                 
-        <marginalia hand="Italian" anchor_text="Quintam essentiam">
+        <marginalia hand="English_secretary" anchor_text="Quintam essentiam">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Q[uinta] Ess[enti]a</marginalia_text>
@@ -42,7 +42,7 @@
             <translation>The fifth essence.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Medium">
+        <marginalia hand="English_secretary" anchor_text="Medium">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>M[edium]</marginalia_text>
@@ -51,25 +51,16 @@
             <translation>The middle.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="animae coelestes">
+        <marginalia hand="English_secretary" anchor_text="animae coelestes">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>A[n]i[m]a[e] Ca[e]lestes</marginalia_text>  <!-- DO: Not sure about the first word -->
+                    <marginalia_text>A[n]i[m]a[e] Ca[e]lestes</marginalia_text>  
                 </position>
             </language>
             <translation>Celestial souls.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>    <!-- DO: Not sure what this is --> <!-- FSF: I would have thought this to be a florilegium -->
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="hauritur">
+        <marginalia hand="English_secretary" anchor_text="hauritur">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>haurire spiritu[m] mundi</marginalia_text>
@@ -78,7 +69,7 @@
             <translation>To absorb the spirit of the world.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Anima 1 - Primu[m] Mobile Spiritus 2 - Q[uinta] Ess[enti]a Corpus. 3.</marginalia_text>
@@ -108,7 +99,8 @@
         
         <errata language="LA" copytext="imaginabilia" amendedtext="[deleted]"/>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
           
     </annotation>
 </transcription>
