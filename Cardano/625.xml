@@ -9,7 +9,7 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>&Venus; in decimia Retrograda, &Saturn; p[ro]pt[er] Quartu[m], Retrogradus } [etc]</marginalia_text> <!-- FSF: I am not sure if it is p[ro]p[t]e[r] or p[ro]pe -->
+                    <marginalia_text>&Venus; in decimia Retrograda, &Saturn; p[ro]pt[er] Quartu[m], Retrogradus } [etc]</marginalia_text> 
                     <symbol_in_text name="Venus"/>
                     <symbol_in_text name="Saturn"/>
                 </position>
@@ -17,7 +17,21 @@
             <translation>Venus in the tenth retrograde, Saturn near the fourth, retrograde, et cetera.</translation>
         </marginalia>
         
-        <!-- FSF: Dee changed the astrological chart; he deleted Mercury:18: and moved it right -->
+        <errata language="LA" copytext="[Mercury] 18." amendedtext="[deleted]"/>
+        
+        <table type="astrological_chart" place="intext">
+            <tr>
+                <th/>
+                <th label="House"/>
+                <th label="Position"/>
+                <th label="Added information"/>
+            </tr>
+            <tr>
+                <td>Mercury</td>
+                <td>9</td>
+                <td>:18:</td>
+            </tr>
+        </table>
         
     </annotation>
 </transcription>

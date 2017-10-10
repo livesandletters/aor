@@ -6,14 +6,8 @@
     <page filename="626.tif" reader="John Dee" pagination="[303v]" signature="[ggg iij[v]]"/>
     <annotation>
         
-        <marginalia hand="English_secretary"> <!-- FSF: I think this is from another note, which Dee accidentally continued onto this page -->
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text> <!--JG: Unclear-->
-                </position>
-            </language>
-        </marginalia>
-        
+        <!-- FSF: I think this is from another note, which Dee accidentally continued onto this page -->
+       
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -32,9 +26,21 @@
             <translation>5 hours, 27 minutes, 20 seconds from midnight.</translation>
         </marginalia>
         
-        <errata language="LA" copytext="[Mars] 4.45" amendedtext="[Mars] 4.45"/> <!--JG: Really tricky to capture such 'visual' modifications-->
+        <errata language="LA" copytext="[Mars] 4.45" amendedtext="[deleted]"/> <!--JG: Really tricky to capture such 'visual' modifications-->
         
-        <!-- FSF: Dee added the bracket below the chart, next to the list -->
+        <table type="astrological_chart" place="intext">
+            <tr>
+                <th/>
+                <th label="House"/>
+                <th label="Position"/>
+                <th label="Added information"/>
+            </tr>
+            <tr>
+                <td>Mars</td>
+                <td>12</td>
+                <td>4.45.</td>
+            </tr>
+        </table>
         
     </annotation>
 </transcription>
