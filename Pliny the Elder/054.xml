@@ -6,13 +6,13 @@
     <page filename="054.tif" reader="John Dee" signature="[F iij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
-            <!-- FSF: I think this is English secretary -->
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>imago species est luuiu[m].</marginalia_text>     <!-- DO: Not sure about final word and looks like there may be a word cut off at the top --> <!-- FSF: luuium is fine, but there is/was something above imago -->
+                    <marginalia_text>imago species est luuiu[m].</marginalia_text>     <!-- DO: word cut off at the top --> 
                 </position> 
             </language>
+            <translation>[...] </translation> <!--JG: Unsure abt luvium-->
         </marginalia>
         
         <marginalia hand="Italian">
@@ -27,7 +27,7 @@
         <marginalia hand="Italian" anchor_text="Galgulus uero, quem puto graece vocari Charadrion ">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Galgulus char[adrion?]</marginalia_text> <!-- FSF: I would think so too -->
+                    <marginalia_text>Galgulus char[adrion]</marginalia_text> 
                 </position>
             </language>
             <translation>The galgulus bird.</translation>
@@ -51,8 +51,7 @@
             <translation>Rays of souls.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="affectiones animi, vires corporis firmant, atq[ue] vegetiores reddunt">
-            <!-- FSF: I think this is a mixture of English secretary and Italian -->
+        <marginalia hand="English_secretary" anchor_text="affectiones animi, vires corporis firmant, atq[ue] vegetiores reddunt">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Affectiones animi, vires corporis firma[n]t, et vegetiores reddu[n]t</marginalia_text>
@@ -73,7 +72,7 @@
         
         <!-- DO: There is a physical link which leads to non-underlined text -->
         
-        <!-- FSF: there is a slash in the left margin -->
+        <mark name="slash" method="pen" place="left_margin"/>
         
     </annotation>
 </transcription>
