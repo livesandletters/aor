@@ -6,12 +6,24 @@
     <page filename="005.tif" reader="John Dee" pagination="flyleaf"/>
     <annotation>
         
-        <marginalia hand="Italian" other_reader="Nicholas Saunders">
+        <marginalia hand="Italian" other_reader="Nicholas Saunder">
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         Nicholas Saunders 1582 <!-- FSF: I read Nicholaus Fannder[us] Decemb 1582 --> 
                         <!-- FSF: I have the feeling that under the obvious writing there was the name of John Dee with the year 154? underneath; in other words, Nicholaus Flannderus simply wrote over John Dee's entry -->
+                        <!-- M.B. The signature is definitely Nicholaus Saunder with Dee underneath see: http://maedchenimmond.blogspot.co.uk/2016/03/john-dee-photo-editing-to-reveal-hidden.html. I think the 154? is correct. Hard to figure the last figure without using photoshop technique. 
+                            Not sure how best to capture Dee's deleted signature. I 've added it as a second [deleted] marginalia for now. -->
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                       [John Dee 154] 
                     </marginalia_text>
                 </position>
             </language>
