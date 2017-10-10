@@ -6,8 +6,7 @@
     <page filename="051.tif" reader="John Dee" signature="F ij"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="veritatis vmbras" id="RCP9978:051:m0001">
-            <!-- FSF: I think this is English secretary -->
+        <marginalia hand="English_secretary" anchor_text="veritatis vmbras" id="RCP9978:051:m0001">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>vmbra veritatis.</marginalia_text>
@@ -20,14 +19,14 @@
         <underline method="pen" type="straight" language="LA" text="Se&apos;q[ue] euocasse vmbras, ad percontandum Homerum, qua patria, quibus&apos;q[ue] parentibus genitus esset: non tamen ausus"/>
         <underline method="pen" type="straight" language="LA" text="iratis praecipue"/>
         <underline method="pen" type="straight" language="LA" text="pupillas binas in oculis"/>
-        <underline method="pen" type="straight" language="LA" text="eosdem p[er]terea no[n] posse mergi, ne veste q[ui]dem degrauatos"/> <!-- FSF: it is p[rae]terea -->
+        <underline method="pen" type="straight" language="LA" text="eosdem p[rae]terea no[n] posse mergi, ne veste q[ui]dem degrauatos"/> 
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
         <physical_link>
             <marginal_annotation idref="RCP9978:051:m0001"/>
             <marginal_annotation idref="RCP9978:051:u0001"/>
-            <relation from="RCP9978:051:m0001" to="RCP9978:051:u0001" type="directed"/> <!-- FSF: I would've thought this is undirected -->
+            <relation from="RCP9978:051:m0001" to="RCP9978:051:u0001" type="directed"/> 
         </physical_link> 
         
     </annotation>
