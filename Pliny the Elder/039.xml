@@ -6,13 +6,13 @@
     <page filename="039.tif" reader="John Dee" signature="[Diiij]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="ignei">
+        <marginalia hand="English_secretary" anchor_text="ignei">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Ignei</marginalia_text>
                 </position>
             </language>
-            <translation>Fiery</translation>
+            <translation>Fiery.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="parentium seminibus manarant"/>
@@ -20,8 +20,8 @@
         <underline method="pen" type="straight" language="LA" text="contemplandi"/>
         <underline method="pen" type="straight" language="LA" text="supiores &amp; medios i[m]mortales"/>
         <underline method="pen" type="straight" language="LA" text="infimos vero solu[m] esse longeuos"/>
-        <underline method="pen" type="straight" language="LA" text="ite[m] habere p[er]fecturas: nam alios esse orie[n]tales: alios occiduos"/> <!-- FSF: this is p[rae]fecturas, I think -->
-        <underline method="pen" type="straight" language="LA" text="q[ui] Martij illi sint"/> <!-- FSF: this is a q[uod] -->
+        <underline method="pen" type="straight" language="LA" text="ite[m] habere p[rae]fecturas: nam alios esse orie[n]tales: alios occiduos"/> 
+        <underline method="pen" type="straight" language="LA" text="q[uod] Martij illi sint"/> 
         
         <symbol name="Mars" place="left_margin" language="LA" text="Martij"/>
         
@@ -29,7 +29,7 @@
         
         <errata language="LA" copytext="parentium" amendedtext="parentum"/>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
