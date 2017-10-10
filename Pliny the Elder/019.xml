@@ -6,8 +6,7 @@
     <page filename="019.tif" reader="John Dee" signature="B ij"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Metaphisicam" id="RCP9978:019:m0001">
-            <!-- FSF: I would say that this is English_secretary -->
+        <marginalia hand="English_secretary" anchor_text="Metaphisicam" id="RCP9978:019:m0001">
           <language ident="LA">
               <position place="right_margin" book_orientation="0">
                   <marginalia_text>Mathematica[m] vellet dicere. forte</marginalia_text>
@@ -16,8 +15,7 @@
           <translation>He wanted to say mathematics, perhaps.</translation>    
       </marginalia>  
 
-        <marginalia hand="Italian" anchor_text="virtus verborum" id="RCP9978:019:m0002">
-            <!-- FSF: I would say that this is English_secretary -->
+        <marginalia hand="English_secretary" anchor_text="virtus verborum" id="RCP9978:019:m0002">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>virtus verbor[um].</marginalia_text>
@@ -43,7 +41,7 @@
         <physical_link>
             <marginal_annotation idref="RCP9978:019:m0001"/>
             <marginal_annotation idref="RCP9978:019:u0001"/>
-            <relation from="RCP9978:019:m0001" to="RCP9978:019:u0001" type="directed"/>        <!-- DO: This is the actual link, but I think the note really refers to 'Metaphysicam' in this sentence --> <!-- FSF: I'd say that these are undirected -->
+            <relation from="RCP9978:019:m0001" to="RCP9978:019:u0001" type="directed"/>         
         </physical_link>
         
         <physical_link>
