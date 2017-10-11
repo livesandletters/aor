@@ -12,13 +12,14 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        floruit a[nn]o 1150 sub Anglo[rum] rego Stephano.
+                        floruit a[nn]o 1150 sub Anglo[rum] rege Stephano.
                     </marginalia_text>
                     <person name="King Stephen"/>
-                    <emphasis method="pen" type="straight" text="floruit a[nn]o 1150 sub Anglo[rum] rego Stephano."/>
+                    <emphasis method="pen" type="straight" text="floruit a[nn]o 1150 sub Anglo[rum] rege Stephano."/>
                 </position>
             </language>
             <translation>Flourished under Stephen, king of the English, in the year 1150.</translation>
+            <!-- NBW: "Flourished in the year 1150 under Stephen, king of the English"!-->
         </marginalia>
         
         <marginalia hand="Italian">
@@ -29,33 +30,41 @@
                         annos cum magna diligentia descripsit. Baleus. 
                     </marginalia_text>
                     <person name="Caradocus"/>
+                    <!-- NBW: This is Caradoc of Llancarfan, https://en.wikipedia.org/wiki/Caradoc_of_Llancarfan, atributed author of "A History of Cambria." Most of these attributions to authors come from John Bale's "Scriptoium illustrium maioris britanniae catalogus" and likely from the copy held in ChCh with Dee's annotations (Wb.4.8) -->
                     <person name="Geoffrey of Monmouth"/>
                     <person name="Cadwaladr"/>
                     <person name="Baloeus"/>
+                    <!-- NBW: "John Bale" (et seq.)-->
                     <location name="Lancashire"/>
+                    <!-- NBW: This is Llancarvan in Wales, not Lancashire -->
                 </position>
             </language>
-            <translation>This Caradocus of Lancashire, fellow countryman and contemporary of Geoffrey of Monmouth, described the successions of British princes after the death of king Cadwaladr of almost 460 years with great diligence. Baloeus.</translation>
+            <translation>This Caradocus of Llancarfan, fellow countryman and contemporary of Geoffrey of Monmouth, described the successions of British princes for almost 460 years after the death of king Cadwaladr with great diligence. Baleus.</translation>
         </marginalia>
-        
+        <!-- NBW: "Caradocus of Llancarfan, countryman and contemporary of this Geoffrey (of Monmouth)"... -->
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
                         Nennius Bannochorensis collegij po[n]tifex scripsit de origine Brytanno[rum] de vrbibus Cornub[iae]
+                        <!-- NBW: "eorunde[m]" for "Cornubiae" -->
                         Cosmographia historia[e] mundi 
-                        Alterius Nennij chronico[?] in Latinum ver[t???]
-                        floruit sub Caduuano Brytanno[rum] Duce a[nn]o &agrave; chro[no] incarnato 620
+                        <!-- NBW: "Cosmographia[m] histori[a]e mundi" -->
+                        Alterius Nennij chronico[n] in Latinum ver[t???]
+                        <!-- NBW: "vert[it]" -->
+                        floruit sub Caduuano Brytanno[rum] Duce a[nn]o &agrave; Chr[ist]o incarnato 620
                     </marginalia_text>
                     <person name="Nennius"/>
                     <person name="Caduanus"/>
                     <book title="De origine Britannorum"/>
                     <book title="De urbibus Cornubiae"/>
+                    <!-- NBW: "De urbibus Britanniae?" see next. -->
                     <book title="Cosmographia historiae mundi"/>
                     <location name="Bangor"/>
                 </position>
             </language>
-            <translation>Nennius of Bangor, priest of the high college, wrote "De origine Britannorum"; "De urbibus Cornubiae"; and "Cosmographia historiae mundi". [...]. Flourished under Caduanus, leader of the Britons in the year 620.</translation>
+            <translation>Nennius of Bangor, priest of the high college, wrote "De origine Britannorum"; "De urbibus Cornubiae"; and "Cosmographia historiae mundi". [...]. Flourished under Caduanus, leader of the Britons in the year after the Incarnation 620.</translation>
+        <!-- NBW: I don't know how you want to render the "De urbibus" line, "De urbibus eorundem (i.e. Britannorum)"? Will check Bale and see what the text is - these entries are likely copied verbatim or close -->
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -64,6 +73,7 @@
                     <marginalia_text>
                         Samuel Beulanius, scripsit annotatio[n]es in Nenniu[m] 
                         Historia[m] et itineraria[m] Arthuri facta apud Scotos 
+                        <!-- NBW: Not enough minims for "itineraria[m]" will check Bale for title -->
                         floruit sub Cadwallone [deleted Brytannor[um]] Brytanno[rum] duce A[nn]o 640
                     </marginalia_text>
                     <person name="Samuel Beulanius"/>
@@ -81,9 +91,11 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Baleus { Huius ac Nennij [??]ncvsq[ue] manet historia[e] inter tot bello[rum] [??]les, nam vis a Beda et Polydoro (scriptoru[m] raritat[e] criminalib[us]) no[n] v[???]
+                        Baleus { Huius ac Nennij hucvsq[ue] manet historia[e] inter tot bello[rum] claudes, nam vis a Beda et Polydoro (scriptoru[m] raritat[e] criminalib[us]) no[n] v[???]
+                        <!-- NBW: "[q]uamvis" for "nam vis"? last part of translation still an issue.-->
                     </marginalia_text>
                     <person name="Johannes Baloeus"/>
+                    <!-- NBW: John Bale -->
                     <person name="Nennius"/>
                     <person name="Bede"/>
                     <person name="Polydore Vergil"/>
