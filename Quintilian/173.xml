@@ -18,7 +18,7 @@
         <marginalia hand="Italian" anchor_text="Aduersarij uer&ograve; persona propr&egrave; ijsdem omnibus, sed &egrave; contrario ductis, impugnari solet">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Aduersarij persona q[uo]modo p[ar]t[i] impugnari.</marginalia_text> <!-- M.B. Not sure about the contraction 'pt'. --> <!-- FSF: pt stands for p[otes]t -->
+                    <marginalia_text>Aduersarij persona q[uo]modo p[otes]t impugnari.</marginalia_text>
                 </position>
             </language>
             <translation>How the character of the opponent may be partly impugned.</translation>
@@ -36,10 +36,10 @@
         <marginalia hand="Italian" anchor_text="inimicus, aut aduersario sit amicus, qui iudicat">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Quid si Iudex asteri amicus asteri inimicus</marginalia_text> <!-- M.B. I think 'asteri'refers to asterisk here?  --> <!-- FSF: asteri reads alteri; translation to be changed accordingly -->
+                    <marginalia_text>Quid si Iudex alteri amicus alteri inimicus</marginalia_text> 
                 </position>
             </language>
-            <translation>Which if the judge is a *friend or an *enemy. </translation>
+            <translation>What if the judge is the other friend or the other enemy?</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Septimio">
@@ -79,7 +79,7 @@
                     <book title="Pro Milone"/>
                 </position>
             </language>
-            <translation>Cicero's for Milo</translation> <!-- FSF: I think the book title should be retained here; otherwise not really clear what this is -->
+            <translation>Cicero's Pro Milone</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="In verrem">
@@ -89,7 +89,7 @@
                     <book title="In Verrem"/>
                 </position>
             </language>
-            <translation>Against Verres.</translation> <!-- FSF: see above -->
+            <translation>In Verrem.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Degustanda tame[n] haec prooemio, non consummanda"/>
