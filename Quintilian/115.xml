@@ -6,7 +6,17 @@
     <page filename="115.tif" reader="John Dee" pagination="109"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured. -->
+        <!-- M.B. Greek marginalia to be checked and translated -->
+        
+        
+        <marginalia hand="Italian" anchor_text="κακοτεχνίαυ">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>κακοτεχνία</marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Alexa[n]der">
             <language ident="LA">
@@ -46,7 +56,7 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="pleriq[ue] exercuerunt &amp; exercent, aut nullam artem, quae ἀτεχνία nominatur, puto (multos enim uideo sine ratione, sine literis, qu&agrave;
-            uel impudentia, uel fames duxit, rue[n]tes) aut malam quasi artem, quam κακοτεχνία? dicimus"/> <!-- FSF: last letter of second Greek word missing -->
+            uel impudentia, uel fames duxit, rue[n]tes) aut malam quasi artem, quam κακοτεχνίαυ dicimus"/>
                 
     </annotation>
 </transcription>
