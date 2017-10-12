@@ -12,7 +12,7 @@
                     <marginalia_text>Quale[m] a[n]i[mu]m p[rae]ceptor sumeret.</marginalia_text>
                 </position>
             </language>
-            <translation>The disposition of their teacher.</translation> <!-- FSF: something along the lines of the teacher assumes what kind of soul. -->
+            <translation>The teacher assumes what kind of soul.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="praecipueq[ue] eius praeceptoris">
@@ -21,13 +21,13 @@
                     <marginalia_text>Pra[e]ceptoris Pra[e]lectio.</marginalia_text>
                 </position>
             </language>
-            <translation>The teacher reading aloud.</translation> <!-- FSF: The reading of the teacher -->
+            <translation>The reading of the teacher.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="uina illa, ut dicitur, uox">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Vina Vox.</marginalia_text> <!-- FSF: Viua -->
+                    <marginalia_text>Viua Vox.</marginalia_text>
                 </position>
             </language>
             <translation>The living voice.</translation>
@@ -36,16 +36,17 @@
         <marginalia hand="Italian" anchor_text="quem discipuli (si mod&ograve; rect&egrave; sunt instituti)">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Discipuli officinus. X.</marginalia_text> <!-- M.B. Not sure about this on either. -->
+                    <marginalia_text>Discipuli officinus.</marginalia_text> 
                 </position>
             </language>
-            <translation>Rightly instructed.</translation>
+            <translation>Students instructed.</translation> <!-- M.B. Uncertain how to translate offficinus, 'X' captured using X-sign mark. -->
         </marginalia>
 
         <underline method="pen" type="straight" language="LA" text="quant&ograve; libentius imitemur eos, quibus fauemus"/>
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
+        <mark name="X_sign" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>

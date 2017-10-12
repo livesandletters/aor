@@ -28,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                Till when?
+                Till when?   <!-- DO: I don't think this is necessarily a question, as it is used in the text in a straightforward statement rather than a question. I'd just say 'Until the time when' -->
             </translation>
         </marginalia>
         
@@ -49,21 +49,21 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Crimen lesae maiestatis
+                        Crimen lesae Maiestatis
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                High treason against a weakened ruler.
+                High treason against a weakened ruler.  <!-- DO: I think the whole phrase can be translated as 'The crime of lese-majesty'; see: https://en.wikipedia.org/wiki/Lèse-majesté -->
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="praedictum iusticiae complementum"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; nobilium, quasi"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; nobilium, quasi totius regni Scotiae"/>
         <underline method="pen" type="straight" language="LA" text="Ioha[n]nem de Balliolo debit&egrave;"/>
-        <underline method="pen" type="straight" language="LA" text="&amp; ex tunc t&agrave;m in Parliamentis qu&agrave;m Consilijs nostris, de mandato nostro venie[n]s. tanqu&agrave;m subditus noster, sicut alij de regno"/>
+        <underline method="pen" type="straight" language="LA" text="&amp; ex tunc t&agrave;m in Parliamentis qu&agrave;m Consilijs nostris, de mandato nostro venie[n]s, tanqu&agrave;m subditus noster, sicut alij de regno nostro"/>
         <underline method="pen" type="straight" language="LA" text="quousque"/>
-        <underline method="pen" type="straight" language="LA" text="ex praeconcepta malitiae"/>
+        <underline method="pen" type="straight" language="LA" text="ex praeconcepta malitia"/>
         <underline method="pen" type="straight" language="LA" text="proditionem"/>
         <underline method="pen" type="straight" language="LA" text="inimicis nostris capitalibus"/>
         <underline method="pen" type="straight" language="LA" text="coniurationes, in exhaeredationem"/>
@@ -71,7 +71,9 @@
         
         <mark name="comma" method="pen" place="intext"/> <!-- praeordinata proditionem -->
         
-        <numeral place="right_margin" language="LA" text="Mccxci">1291</numeral>     
+        <numeral place="right_margin" language="LA" text="Mccxci">1291</numeral>     <!-- DO: As this is a date I would capture as a marginal note -->
+        
+        <!-- DO: I think there's meant to be a vertical bar in right margin but it's faded -->
         
     </annotation>
 </transcription>

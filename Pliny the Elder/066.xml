@@ -6,16 +6,16 @@
     <page filename="066.tif" reader="John Dee" signature="Flyleaf"/>
     <annotation>
         
-        <marginalia hand="Italian"> <!-- FSF: I think all the writing here is English secretary --> 
+        <marginalia hand="English_secretary"> 
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>Colores domnu[m]</marginalia_text>    <!-- DO: Not sure about second word --> <!-- FSF: I think it is domuu[m], Colours of the houses -->
+                    <marginalia_text>Colores domuu[m]</marginalia_text>  
                 </position>
             </language>
-            <translation>The colour master.</translation>
+            <translation>The colours of the houses.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="FR">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>1. 7. blanches
@@ -29,7 +29,7 @@
             <translation>1. 7. White. 2. 10. Green. 2. 5. Of the colour of saffron. 8. 11. Red. 3. 6. Of the colour of honey. 9. 12. Black. ]</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>vnde hic siga </marginalia_text>   <!-- DO: I can't decipher the final three words --> <!-- FSF: I can read or guess: vnde hic signa alite... secundu[m] crea..e[n]te[m] -->
@@ -62,7 +62,7 @@
             
             <tr>  
                 <td>&Jupiter;</td>
-                <td>&Leo;</td>          <!-- DO: Not sure if this is the right symbol --> <!-- FSF: this is a North node -->
+                <td>&North_Node;</td>         
                 <td>2</td>
                 <td>&Venus; 1. &Virgo;</td>
                 <td>1</td>
@@ -71,7 +71,7 @@
             
             <tr>
                 <td>&Mars;</td> 
-                <td>&Cancer;</td>        <!-- DO: Not sure if this is the right symbol --> <!-- FSF: this is a South node -->
+                <td>&South_Node;</td>        
                 <td>1 &Saturn;</td>
                 <td>1 &Sagittarius;</td>
                 <td>1</td>
@@ -187,7 +187,7 @@
             </tr>
             
             <tr>
-                <th>Ignis</th>              <!-- DO: I have captured this is all as one table as it is all under the same heading... -->
+                <th>Ignis</th>              <!-- DO: I have captured this all as one table as it is all under the same heading... -->
                 <td>1</td>
                 <td>1 .&Leo;.</td>
                 <td>2</td>

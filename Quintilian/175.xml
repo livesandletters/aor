@@ -36,32 +36,24 @@
         <marginalia hand="Italian" anchor_text="duci prooemia solent">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Vnde prooemia duc[?]aeur est</marginalia_text> <!-- M.B. difficulty deciphering word following 'prooemia'. --> <!-- FSF: I read ducuntur; the scribble afterwards isn't an est abbreviation, I believe -->
+                    <marginalia_text>Vnde prooemia ducuntur.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Where the preludes are guided.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="pro Caelio: Locus, unde pro Deiotaro: Habitus, unde pro Milone">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pro{ Ca[e]lio Deiotaro Milone</marginalia_text>
+                    <marginalia_text>Pro Cicero In { Ca[e]lio Deiotaro Milone Verrem</marginalia_text>
+                    <person name="Cicero"/>
                     <book title="Pro Caelio"/>
                     <book title="Pro rege Deiotaro"/>
                     <book title="Pro Milone"/>
-                </position>
-            </language>
-            <translation>For { Caelius, Deiotarus, Milo</translation> <!-- FSF: again I would keep the titles of the books, since they otherwise become unintelligible -->
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="in Verrem"> <!-- FSF: given that the bracket above reaches down to Verrem, I would merge the two marginalia; also extend the anchor text -->
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>In { Verrem</marginalia_text>
                     <book title="In Verrem"/>
                 </position>
             </language>
-            <translation>Against Verres.</translation>
+            <translation>Cicero: Pro Caelio, Pro Deiotaro, Pro Milone, In Verrem.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Demosthenis">
@@ -89,7 +81,7 @@
                     <marginalia_text>Qu[a]e atte[n]tione[m] parant.</marginalia_text>
                 </position>
             </language>
-            <translation>Which prepares one to be attentive.</translation> <!-- FSF: I'd translate: they get/produce attention  -->
+            <translation>They get attention.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="ex causa est"/>
