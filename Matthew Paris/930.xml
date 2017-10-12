@@ -6,11 +6,11 @@
     <page filename="930.tif" reader="John Dee" pagination="464" signature="[Qqqq iiij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: You can anchor 'Castrum ... dicitur' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Castru[m] Mali Leonis <!-- FSF: I am not sure where that is -->
+                        Castru[m] Mali Leonis. <!-- FSF: I am not sure where that is --> <!-- DO: I can't find this either -->
                     </marginalia_text>
                 </position>
             </language>
@@ -19,7 +19,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian">  <!-- DO: Anchor 'pseudo regis' -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -29,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                False king.
+                A false king.
             </translation>
         </marginalia>
         
