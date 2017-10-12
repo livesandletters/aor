@@ -10,12 +10,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Dominus immediatus
+                        Dominus Immediatus
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Immediate lord.
+                The immediate lord.
             </translation>
         </marginalia>
         
@@ -23,12 +23,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        A[nno] 1301
+                        A[nno] 1301.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                In 1301
+                In 1301.   <!-- DO: I would put 'In the year 1301.' -->
             </translation>
         </marginalia>
         
@@ -48,41 +48,41 @@
         <underline method="pen" type="straight" language="LA" text="homagia &amp; fidelitatem nobis"/>
         <underline method="pen" type="straight" language="LA" text="immediato domino"/>
         <underline method="pen" type="straight" language="LA" text="Et cum iure"/>
-        <underline method="pen" type="straight" language="LA" text="quin insolentiam subditorum nostrorum rebellium, si quos inuenerimus"/>
-        <underline method="pen" type="straight" language="LA" text="praeheminentia regia prout expedire viderimus reprimamus"/>
-        <underline method="pen" type="straight" language="LA" text="t&agrave;m ratione possessionis"/>
-        <underline method="pen" type="straight" language="LA" text="qu&agrave;m proprietatis"/>
+        <underline method="pen" type="straight" language="LA" text="quin insolentiam subditorum nostrorum rebellium, si quos inuenerimus, praeheminentia regia prout expedire viderimus reprimamus"/>
+        <underline method="pen" type="straight" language="LA" text="t&agrave;m possessionis qu&agrave;m proprietatis"/>
         <underline method="pen" type="double" language="LA" text="fecimus vel cauerim[us]"/>
-        <underline method="pen" type="grid" language="LA" text="sicut nec possemus"/>
+        <underline method="pen" type="grid" language="LA" text="sicuti nec possemus, per"/>
         <underline method="pen" type="straight" language="LA" text="aliqualiter derogari"/>
         <underline method="pen" type="straight" language="LA" text="animi motu[m] degnemini informare"/>
         <underline method="pen" type="straight" language="LA" text="Kynardesey"/>
-        <underline method="pen" type="straight" language="LA" text=".Mcci."/>
+        <underline method="pen" type="straight" language="LA" text=".Mccci."/>
         <underline method="pen" type="straight" language="LA" text=".xxix."/>
         <underline method="pen" type="straight" language="LA" text="Comes"/>
         <underline method="pen" type="straight" language="LA" text="Comes Lancastriae"/>
         <underline method="pen" type="straight" language="LA" text="Radulphus de Monte Hermeti"/>
         <underline method="pen" type="straight" language="LA" text="Humfridus de Bohun"/>
-        <underline method="pen" type="straight" language="LA" text="Guido comes"/>
+        <underline method="pen" type="straight" language="LA" text="Guido comes VVarvvic."/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>
+        <mark name="tripunctus" method="pen" place="left_margin"/>  
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- praemissa prouida -->
-        <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="circumflex" method="pen" place="intext"/>                        <!-- DO: There is also the circumflex with the '[a]e' in the left margin (I think 4 circumflexes in total on the page). I'm assuming the '[a]e' also refers to 'primissis'?  -->
         
         <errata language="LA" copytext="primissis" amendedtext="pra[e]missis"/>
-        <errata language="LA" copytext="fecimus" amendedtext="fericmus"/>
+        <errata language="LA" copytext="fecimus" amendedtext="fericmus"/>          <!-- DO: I think the corrected word is 'ferimus' -->
         <errata language="LA" copytext="sanctitati" amendedtext="Sanctitati"/>
         <errata language="LA" copytext="praemeditatione" amendedtext="meditatione"/>
         <errata language="LA" copytext="illius" amendedtext="illis"/>
         <errata language="LA" copytext="degnemini" amendedtext="dignemini"/>
-        <errata language="LA" copytext=":" amendedtext=";"/> <!-- informare suggestionibus -->
+        <errata language="LA" copytext=":" amendedtext=";"/> <!-- informare suggestionibus -->   <!-- The semi-colon looks printed to me, though hard to tell... -->
         <errata language="LA" copytext="emulorum" amendedtext="aemulorum"/>
+        
+        <!-- DO: He has also changed 'complimentum' to 'complementeum' (line 25) -->
         
     </annotation>
 </transcription>
