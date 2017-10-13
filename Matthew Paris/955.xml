@@ -6,7 +6,7 @@
     <page filename="955.tif" reader="John Dee"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
@@ -14,16 +14,27 @@
                         A[nno] D[omini] 1058 regnate Edwardo Confessore
                     </marginalia_text>
                     <person name="Edward the Confessor"/>
+                    <internal_ref>
+                        <target ref="RCP10653:449:m0001" text="425"/>
+                    </internal_ref>
+                    
                 </position>
             </language>
+            <translation>1058 during the reign of Edward the Confessor</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
                         Who this is, I can not yet gess
-                        The Lord Rese I think
+                        The Lord Rhese I think
                     </marginalia_text>
                 </position>
             </language>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
@@ -35,7 +46,7 @@
             </language>
             <translation>
                 <!-- FSF: I don't know who Palumbus is -->
-                1058 during the reign of Edward the Confessor
+                
             </translation>
         </marginalia>
         
