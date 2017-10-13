@@ -6,7 +6,14 @@
     <page filename="027.tif" reader="John Dee" signature="C ij"/>
     <annotation>
         
-        <!-- Notes hidden in left margin -->
+        <marginalia hand="Italian" anchor_text="numeroru[m] potestate">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Potestas numeroru[m].</marginalia_text>
+                </position>
+            </language>
+            <translation>The power of numbers.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="numeroru[m]">
             <language ident="LA">

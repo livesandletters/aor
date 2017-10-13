@@ -6,12 +6,13 @@
     <page filename="017.tif" reader="John Dee" signature="B"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="restitui">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>      <!-- DO: I can't make out this writing in the margin --> <!-- FSF: original needed -->
+                    <marginalia_text>restituti</marginalia_text>       
                 </position>
             </language>
+            <translation>Restored.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Angelus">
@@ -31,7 +32,7 @@
             </language>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Adepliua</marginalia_text>       <!-- DO: Not sure what this is --> <!-- FSF:  Idon't know either -->

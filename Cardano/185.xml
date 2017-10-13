@@ -60,6 +60,15 @@
             <translation>It dies.</translation>
         </marginalia>
         
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>vero</marginalia_text>
+                </position>
+            </language>
+            <translation>Certainly.</translation>
+        </marginalia>
+        
         <underline method="pen" type="straight" language="LA" text="quod etiam in euentibus naturalibus contingit"/>
         <underline method="pen" type="straight" language="LA" text="Significata quide[m] frustrari no[n] est inconueniens, inconuenit autem causas, quae ordine naturali constitutae sunt."/>
         <underline method="pen" type="straight" language="LA" text="significatu[m] in genitura sit constitutu[m]"/>
@@ -79,12 +88,16 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        
         <numeral place="intext" language="LA" text="reuolutione">1</numeral>
         <numeral place="intext" language="LA" text="directione">2</numeral>
         
         <errata language="LA" copytext="n" amendedtext="in"/>
         <errata language="LA" copytext="cuiusue" amendedtext="cuius et"/>  
         <errata language="LA" copytext="quidem" amendedtext="[deleted]"/>
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
                 
         <!--JG: Seems that there's some activity in the gutter, need to have a look at orginal though-->
         
