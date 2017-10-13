@@ -15,7 +15,24 @@
             <translation>It is marked.</translation>
         </marginalia>
         
-        <!-- DO: Two notes hidden in the left margin --> 
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Vina</marginalia_text> <!-- JG: One would expect vita, but it seems like vina to me -->
+                </position>
+            </language>
+            <translation>Wines.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Alor tua</marginalia_text> <!-- JG: Unsure -->
+                </position>
+            </language>
+            <translation>It is marked.</translation>
+        </marginalia>
+       
         
        <underline method="pen" type="straight" language="LA" text="vnamquamq[ue] rem, ad suum simile &amp; mouere &amp; conuertere"/>
         <underline method="pen" type="straight" language="LA" text="natura"/>
