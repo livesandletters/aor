@@ -23,7 +23,7 @@
                     <marginalia_text>Qua[n]do nome[n] transfere[n]du[m].</marginalia_text>
                 </position>
             </language>
-            <translation>When a name is transferred.</translation> <!-- FSF: I'd say ought be transferred -->
+            <translation>When a name ought to be transferred.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="gemma">
@@ -41,7 +41,7 @@
                     <marginalia_text>sitire</marginalia_text>
                 </position>
             </language>
-            <translation>Thirsty.</translation> <!-- FSF: I'd say: to be thirsty -->
+            <translation>To be thirsty.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="laborare">
@@ -50,7 +50,7 @@
                     <marginalia_text>laborare</marginalia_text>
                 </position>
             </language>
-            <translation>Toil.</translation> <!-- FSF: I'd say: to toil -->
+            <translation>To toil.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="durum">
@@ -74,12 +74,21 @@
         <marginalia hand="Italian" anchor_text="incensum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>incesus</marginalia_text> <!-- FSF: I think it is incensus -->
+                    <marginalia_text>incensus</marginalia_text>
                 </position>
             </language>
-            <translation>Inflame.</translation> <!-- FSF: I think this is the translation of the next note, which you have jumped however -->
+            <translation>Burnt.</translation> 
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="inflammatum">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>inflammatus</marginalia_text>
+                </position>
+            </language>
+            <translation>Inflamed.</translation>
+        </marginalia>
+
         <marginalia hand="Italian" anchor_text="lapsum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -102,10 +111,10 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Tropi quanda[m] significatio[n]is ornatis or  [?]  { grat[ia] </marginalia_text> <!-- FSF: I read Tropi quida[m] significatio[n]is ornatus ac decorus} gr[ati]a sumu[n]tur q[uo]r[um] alij in verbis proprijs eranflatis (not sure about the last word) -->
+                    <marginalia_text>Tropi quida[m] significatio[n]is ornatus ac decorus } gr[ati]a sumu[n]tur q[uo]r[um] alij in verbis proprijs translatis</marginalia_text> <!-- FSF: I read Tropi quida[m] significatio[n]is ornatus ac decorus} gr[ati]a sumu[n]tur q[uo]r[um] alij in verbis proprijs eranflatis (not sure about the last word) -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>Certain tropes, sign of, adorned and decorated } by whose grace he claims other words, particularities, pomp.</translation> <!-- M.B. I think the last word is 'translatis'. I am not sure about this translation, the marginalia seems to be a selection of Quintilian's Latin terms.  -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="qui c&ugrave;m freque[n]ti&sharp-S;us est, tum"/>
@@ -117,7 +126,7 @@
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
-        <!-- FSF: I think there is also a 1 in the left margin -->
+        <numeral place="left_margin">1</numeral>
         
     </annotation>
 </transcription>
