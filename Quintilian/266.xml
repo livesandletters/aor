@@ -25,7 +25,7 @@
             <translation>Pro Milone.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Quem igitur cum omnium gratia noluit"> <!-- FSF: I don't understand the connection between the anchor text and the note -->
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>ibidem</marginalia_text>
@@ -34,7 +34,7 @@
             <translation>In the same place.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Optimum autem uidetur enthymematis"> <!-- FSF: I'd capture also genus -->
+        <marginalia hand="Italian" anchor_text="Optimum autem uidetur enthymematis genus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Optimu[m] enthymematis genus</marginalia_text>
@@ -85,11 +85,12 @@
         <marginalia hand="Italian" anchor_text="Sumamus autem ex Cicerone quinq[ue] partium exe[m]olum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Cicero ad h[a]eremum.[?]</marginalia_text> <!-- M.B. Not sure what the contraction is, some form of 'heremum'? --> 
-                    <!-- FSF: the work referred to is this https://en.wikipedia.org/wiki/Rhetorica_ad_Herennium; I think it is spelt here[n]nium here -->
+                    <marginalia_text>Cicero ad here[n]nium.</marginalia_text>
+                    <person name="Cicero"/>
+                    <book title="Rhetorica ad Herennium "/>
                 </position>
             </language>
-            <translation>Cicero.</translation>
+            <translation>Cicero's ad Herennium.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Habet enim rationem propositionem'q[ue] non habet conclusionem"/>
