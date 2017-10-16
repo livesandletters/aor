@@ -36,9 +36,10 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         susperior huae du[???] corrupta e[ra?]t
-                    </marginalia_text> <!--Transcription incomplete.-->
+                    </marginalia_text> <!--Transcription incomplete // NBW: "[su]spicior [h]ac m?e[n]tione[m] [co]rrup [tam] esse" Possibly hac sectionem"The "o" ties it to the bottom note below, this looks like it's anchored to "Tyrrhenum" in the text.-->
                 </position>
             </language>
+            <translation> I suspect that this mention is corrupted</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -46,7 +47,7 @@
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         J[ohn] D[ee]. fort&egrave;, vbi infra habetur &AElig;quor Tyrenu[m], debet esse a[e]quor Pyren[a]eu[m]. vbi Montes Pyrena[e]i, in mare q[ua]si Brytanicu[m]
-                        procurrere discitur ab ortelio et alijs 
+                        procurrere dicuntur ab ortelio et alijs 
                     </marginalia_text>
                     <person name="John Dee"/>
                     <person name="Abraham Ortelius"/>
@@ -56,14 +57,15 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         facilis eni[m] erat lapsus, scribere T pro P: cu[m] illa curvatura vel paulo D[???], vel obscuriori ducta fuerit
-                        Vt Mare Atlantica propter mo[n]te[m] Altla[n]ticu[m] in Mauritania [???].
-                    </marginalia_text> <!--Transcription incomplete.-->
+                        Vt Mare Atlantica propter mo[n]te[m] Altla[n]ticu[m] in Mauritania [etc].
+                    </marginalia_text> <!--Transcription incomplete / NBW: Stll incomplete - "paulo" above posible "parte [??] linea"? .-->
                     <location name="Mauritania"/>
                 </position>
             </language>
             <translation>John Dee. Perhaps, when below it is had Tyrrhenian Sea, it must be Pyrenean sea. 
                 When [it has] the Pyrenees to advance in the British sea as it were, it is learnt from Ortelius and others, that was in fact an easy mistake to write T for P: when that rounding is either more [???] or obscurely drawn. 
                 When Atlantic Ocean, rather than the Atlantika Mountains in Mauritania.</translation>
+            <!-- NBW: last part of the translation more likely "Hence the Alantic Ocean (is named) from the Atlantika Mountains in Mauritania." -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="aras Philenorum">
@@ -96,13 +98,14 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        dictu[m] in Mauritaniaru[m] confirmo.
+                        dictu[m] in Mauritaniaru[m] confinio.
                     </marginalia_text>
                     <location name="Mauritania"/>
                 </position>
             </language>
             <translation>
                 The river Malua. Ptolemy. Malua mentioned in the proximity of Mauritania.
+                <!-- NBW: "The river Malua called by Ptolemy (Malga), in proximity of Mauritania."-->
             </translation>
         </marginalia>
         
@@ -110,8 +113,8 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Iam retro navigare visi su[n]t q[uo]d vix videtur probabile, tu[m] ob Bruti infortun[?] in Italia [?]onuissu[m] tu[m] quia progredi conabatur,
-                        vltra gallio[?] regna [??]
+                        Iam retro navigare visi su[n]t q[uo]d vix videtur probabile, tu[m] ob Bruti infortun[am?] in Italia co[m]issu[m] tu[m] quia progredi conabatur,
+                        vltra gallica regna [etc?]
                     </marginalia_text>
                     <person name="Brutus"/>
                     <location name="Italy"/>
@@ -120,7 +123,7 @@
                     <marginalia_text>
                         ciuitate Asarath vide in su[???] Numedico apud Ptoloma[e]u[m]. lo[n]g[itudo] 28 1/2 lat[itudo] 31 1/2. Montes Azara[e] agnoscit Io[uann]is Boccatius
                         in Mauritania[e] finibus, disterminantes Mauritania[m] et aphrica[m]: Ruscicada[m] vide apud Ptoloma[e]u[m] [tab. 2 Aphrica[e]]. Lo[n]g[itudo] 28 fer&egrave; Lat[itudo] 32 1/2
-                    </marginalia_text> <!--Transcription and translation incomplete.-->
+                    </marginalia_text> <!--Transcription and translation incomplete. / NBW: Initial 28 1/2 lat possibly "25 1/2"?-->
                     <person name="Ptolemy"/>
                     <person name="Giovanni Boccaccio"/>
                     <location name="Mauritania"/>
@@ -137,8 +140,8 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         J[ohn] d[ee]. O
-                        Tande[m] a[nn]o 1574. Julij 12: mu[n]di in correctu[m] exemplar Galfredi vbi nulla [ia[m]?] fit mi[???]o mari Tyrrheni: sed [???], per hispania[m] pr[a]etermeassa illos expresse
-                        asseat. 
+                        Tande[m] a[nn]o 1574. Julij 12: mu[n]di in correctu[m] exemplar Galfredi vbi nulla [ia[m]?] fit me[n]tio mari Tyrrheni: sed co[n]tra[?], per hispania[m] pr[a]etermeassa illos expresse
+                        asserit[?]. 
                     </marginalia_text> <!--Transcription and translation incomplete.-->
                     <person name="John Dee"/>
                     <person name="Geoffrey of Monmouth"/>
@@ -147,6 +150,7 @@
                 </position>
             </language>
             <translation>John Dee. Finally in the year 1574, on July 12:</translation>
+            <!-- NBW: at last, on July 12th, 1574: [unknown word, I found? or similar] a corrected exemplar of Geoffrey [of Monmouth] where no mention was made of the Tyrennian Sea, but asserted clearly that they [?] through Spain." the "o" joins it to the note in the gutter above. -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="velis occasum versus"/>
