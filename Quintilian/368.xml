@@ -33,16 +33,24 @@
             <translation>Quincunx.</translation>
         </marginalia>
         
-        <!-- FSF: I think you've missed the note Decorus equus -->
-        
-        <marginalia hand="Italian" anchor_text="demonstratiuis, &amp; deliberatiuis, ">
+        <marginalia hand="Italian" anchor_text="Decentior equus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Demonstratiui quis ornatus</marginalia_text> 
+                    <marginalia_text>Decorus equus.</marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
+        
+        
+        <marginalia hand="Italian" anchor_text="demonstratiuis">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Demonstratiui g[e]n[er]is ornatus</marginalia_text> 
                     <!-- FSF: I am not sure, but I don't think this is quis; Dee's q's are usually very straight; to me this looks more like a g; also, there is an abbreviation sign over what you think is a u; taking all this into account, I think it is g[e]n[er]is -->
                 </position>
             </language>
-            <translation>What designates ornament?</translation> 
+            <translation>I have demonstrated the origin of ornament.</translation> 
         </marginalia>
 
         <underline method="pen" type="straight" language="LA" text="uirilis, fortis, &amp; sanctus sit"/>

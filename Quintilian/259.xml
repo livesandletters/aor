@@ -13,7 +13,7 @@
                     <book title="Pro Tullio"/>
                 </position>
             </language>
-            <translation>For Tullio</translation> <!-- FSF: keep original -->
+            <translation>Pro Tullio.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="pro Oppio">
@@ -23,26 +23,17 @@
                     <book title="Pro Oppio"/>
                 </position>
             </language>
-            <translation>For Oppius.</translation> <!-- FSF: keep original -->
+            <translation>Pro Oppio.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Cicero">
+        <marginalia hand="Italian" anchor_text="Cicero. sed haec simulatio interim hucusq[ue]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Cicero.</marginalia_text>
+                    <marginalia_text>Cicero. Similitudinu[m]</marginalia_text>
                     <person name="Cicero"/>
                 </position>
             </language>
-            <translation>Cicero.</translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="simulatio"> <!-- FSF: I think this and the following note are one; the gen pl doesn't make sense by itself and also the anchor text suggests this -->
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Similitudinu[m]</marginalia_text>
-                </position>
-            </language>
-            <translation>Similarities.</translation>
+            <translation>Similarities of Cicero.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="refutare">
@@ -79,7 +70,7 @@
                     <marginalia_text>Accusatoris uerba nota[n]da</marginalia_text>
                 </position>
             </language>
-            <translation>The words of the prosecutor should be noted.</translation> <!-- FSF: On a previous page, accusator was translated as accuser -->
+            <translation>The words of the accuser should be noted.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Cicero">
@@ -99,6 +90,7 @@
         
         <mark name="comma" method="pen" place="intext"/> <!-- periculosum, ut -->
         <mark name="vertical_bar" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/>
         
         <numeral place="right_margin">8</numeral>
         <numeral place="right_margin">9</numeral>
@@ -106,11 +98,8 @@
         <numeral place="right_margin">11.</numeral>
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">13</numeral>
-        
+       
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!-- M.B. I've marked the elongated '9' symbols as florilegium for now although perhaps they could be captured as something else.  --> 
-        <!-- FSF: I see only one florilegium; the elongated 9 is simply a nine, I'd say, given that the preceding and following numbers and the second looks more like a bracket to me, or at least seems to have such function -->
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> 
         
     </annotation>
 </transcription>
