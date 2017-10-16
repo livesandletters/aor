@@ -24,13 +24,17 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Helenu[s] cu[m] Pyrrho post Troia[e] excidu[m] iuisse et ma[n]sisse ex ip[s?]u[m] dictu[s] cre[???] apera[???] est. ubi verba Helen[a] veritat ad Pyrrhu[m] de equo Traiano fabricando in 5o lib.
-                    </marginalia_text> <!--Transcription lacking.-->
+                        Helenu[m] cu[m] Pyrrho post Troia[e] excidu[m] iuisse et ma[n]sisse ex ip[s]o Dicty Cretense verasimile est. ubi verba Heleni veritas ad Pyrrhu[m] de equo Troiano fabricando in 5o lib.
+                    </marginalia_text> <!--Transcription lacking. / NBW: This is hopeful on my part, but not overly so. Still needs work -->
                     <person name="Helenus"/>
                     <person name="Tyrrhus"/>
+                    <person name="Dictys Cretensis"/>
+                    <book title="Ephemeridos Belli Troiani"/>
                     <location name="Troy"/>
                 </position>
             </language>
+            <translation> It is possible that Helen went with Phyrrus after the destruction of Troy and remained with him, from Dictys Cretensis himself (i.e. as Dictys himself says) in his fifth book, where the words of Helen to Pyrrhus on the building of the Trojan horse are the truth.  </translation>
+            <!-- NBW: This might be close to what is going on here -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Helenum">
@@ -55,6 +59,7 @@
                 </position>
             </language>
             <translation>Note that other lords have been at the same place and time, besides Pandrasus.</translation>
+            <!-- NBW: "Note that there were other lords, besides Pandrasus, in the same place at that time"? -->
         </marginalia>
         
         <marginalia hand="Italian">
@@ -72,9 +77,10 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Comedia[m] scripsit Nicostratus Atheme[n]sus cui nomen erat Pandrosos. Et ver&egrave; eius res gesta[e] his explicata[e] comedia[e] no[n] tragedia[e] materia[m] prebere possunt
+                        Comedia[m] scripsit Nicostratus Athenie[n]sis cui nomen erat Pandrosos. Et ver&egrave; eius res gesta[e] his explicata[e] comedia[e] no[n] tragedia[e] materia[m] prebere possunt
                     </marginalia_text>
                     <person name="Nicostratus Athemensus"/>
+                    <!-- NBW: Nicostratus Atheniensis" -->
                     <emphasis method="pen" type="straight" text="Pandrosos"/>
                 </position>
             </language>
@@ -98,6 +104,7 @@
         <mark name="apostrophe" method="pen" place="intext"/> <!--ipso duce-->
         
         <numeral place="right_margin">7000</numeral>
+        <!-- NBW: Anchor text for this is likely "septem milia" in the same line -->
 
     </annotation>
 </transcription>

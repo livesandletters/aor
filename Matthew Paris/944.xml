@@ -7,11 +7,19 @@
     <annotation>
         
         <marginalia hand="Italian">
-            <language ident="EN">
+            <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Herbertus Comes pag. 30 for the Name of Herbert
+                        Herbertus Comes
                     </marginalia_text>
+                </position>
+            </language>
+            <language ident="EN">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>pag. 302 for the Name of Herbert</marginalia_text> 
+                    <internal_ref>
+                        <target ref="RCP10653:326:u0001" text="302"/>
+                    </internal_ref>
                 </position>
             </language>
         </marginalia>
