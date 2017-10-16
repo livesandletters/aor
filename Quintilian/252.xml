@@ -15,7 +15,14 @@
             <translation>An argument should be acknowledged.</translation>
         </marginalia>
         
-        <!-- FSF: I think you missed the first marginal note in left margin -->
+        <marginalia hand="Italian" anchor_text="">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>vsus argumetovum</marginalia_text> <!-- M.B. Not certain of the second word[s] in the transcription. -->
+                </position>
+            </language>
+            <translation>Of the arguments used.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
@@ -23,7 +30,7 @@
                     <marginalia_text>Argumentoru[m] Dispositio.</marginalia_text> 
                 </position>
             </language>
-            <translation>Arrangement of arguments.</translation> <!-- FSF: the disposition of arguements -->
+            <translation>The arrangement of arguments.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="argume[n]to nimetur odij">
@@ -32,7 +39,7 @@
                     <marginalia_text>Argume[n]tu[m] odij</marginalia_text> 
                 </position>
             </language>
-            <translation>An argument about hatred.</translation> <!-- FSF: an argument of hatred? -->
+            <translation>An argument of hatred.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="quae tamen adiecta fuerint, non multum ad his abhorrebunt. Nunc"/>
@@ -44,7 +51,7 @@
         <underline method="pen" type="straight" language="LA" text="etiamsi non ut fulmine, tamen ut grandine"/>
         <underline method="pen" type="straight" language="LA" text="si no[n] nudos &amp; uelut carne spoliatos artus ostenderint"/>
 
-        <numeral place="left_margin">4</numeral> <!-- FSF: I think there was a similar scribble somewhere; I don't think it is a 4 -->
+        <symbol name="Jupiter" place="right_margin"/>
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
