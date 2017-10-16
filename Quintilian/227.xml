@@ -6,8 +6,6 @@
     <page filename="227.tif" reader="John Dee" pagination="221"/>
     <annotation>
         
-        <!-- M.B. In progress -->
-        
         <!-- M.B. Greek word to be captured later. -->
         
         <marginalia hand="Italian" anchor_text="argumentum">
@@ -25,7 +23,7 @@
                     <marginalia_text>Qua[e] certa e&sharp-S;e suspicamur</marginalia_text>
                 </position>
             </language>
-            <translation>What</translation> <!-- FSF: translation to be completed -->
+            <translation>When I am sure I am a supect.</translation> <!-- M.B. Not certain -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="sunt: ut pleraq[ue]m in iure no[n] legibus, sed moribus co[n]stant">
@@ -34,16 +32,23 @@
                     <marginalia_text>Plera'q[ue] in iure morib[us] solu[m] co[n]stant.</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- FSF: translation to be completed -->
+            <translation>Mostly, law involves custom to be consistent with the region.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="sunt quae εἰκότα dicuntur. Credibilium aute[m] genera sunt tria">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        
+                    </marginalia_text>
+                </position>
+            </language>
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>triplicia sunt genera</marginalia_text> <!-- M.B. Add Greek text later. -->
                 </position>
             </language>
-            <translation>? are of three kinds</translation> <!-- FSF: translation to be completed -->
+            <translation>[add Greek] are of three kinds</translation> <!-- FSF: translation to be completed -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Aristoteles">
