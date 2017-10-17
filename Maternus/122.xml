@@ -5,7 +5,7 @@
     <page filename="122.tif" reader="John Dee" pagination="99" signature="i 2"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="tribus">
+        <marginalia hand="English_secretary" anchor_text="tribus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -14,7 +14,7 @@
                 </position>
             </language>
             <translation>
-                Three
+                Three.
             </translation>
         </marginalia>
         
@@ -32,7 +32,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -45,7 +45,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Abraam">
+        <marginalia hand="English_secretary" anchor_text="Abraam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -55,11 +55,11 @@
                 </position>
             </language>
             <translation>
-                Abraham
+                Abraham.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -72,30 +72,29 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Nota hoc q[uod] dicat multa[m] resere ... eius co[n]ditionis sit genitura: na[m] sura vbiq[ue] hac re co[n]fiderare vagiu[m] feisse des... Iudicij vadibus <!-- FSF: I am not particularly certain about any of this -->
-                        <!-- M.B. I read the same but instead of sura and vaidbus: '[..] na[m] supra vbiq[ue]'  and '[..] Iudicij videbit.' Not sure about the word preceding 'eius' or the word following 'feisse'.-->
+                        Nota hoc q[uam] dicat multa[m] referre num eius co[n]ditionis sit genitura: na[m] supra vbiq[ue] hac re co[n]siderata magnu[m] fuisse [descri..e[m] Iudicij videbis <!--JG: Not sure about quam, fuisse and word before Iudicij-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Note here how he says to return many things if the geniture is of that condition: for see above, wherever you will see that there was a great [...] with this matter considered. <!--JG: Unsure-->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="ueterum sententiis">
+        <marginalia hand="English_secretary" anchor_text="ueterum sententiis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        veterum sententiae. <!-- M.B. I read 'veterum sententia[e].' -->
+                        veterum sententia[e]. 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The judgement of the old.
+                The judgements of the old.
             </translation>
         </marginalia>
         
@@ -112,6 +111,8 @@
         <underline method="pen" type="straight" language="LA" text="eius conditionis fuerit"/>
         <underline method="pen" type="straight" language="LA" text="naturae suae qualitate decernit"/>
         <underline method="pen" type="straight" language="LA" text="qui latitudinis &Moon; d[omi]n[u]s fuisset inuentus"/>
+        
+        <symbol name="Bisected_circle" place="right_margin"/> <!-- M.B. This is the 'locus fortunae' symbol. See https://books.google.co.uk/books?id=e1Hf5KWksWMC&pg=PR6&dq=locus+fortunae+symbol&hl=en&sa=X&redir_esc=y#v=onepage&q=locus%20fortunae%20symbol&f=false -->
         
         <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/>
         <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/>
@@ -133,9 +134,6 @@
         <numeral place="right_margin">4.</numeral>
         
         <errata language="LA" copytext="diligentiam" amendedtext="[deleted]"/>
-        
-        <!-- FSF: in the right margin, there is the same drawing as before -->
-        <!-- M.B. This is the 'locus fortunae' symbol. See https://books.google.co.uk/books?id=e1Hf5KWksWMC&pg=PR6&dq=locus+fortunae+symbol&hl=en&sa=X&redir_esc=y#v=onepage&q=locus%20fortunae%20symbol&f=false -->
         
     </annotation>
 </transcription>
