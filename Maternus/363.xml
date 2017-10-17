@@ -12,7 +12,7 @@
                     <marginalia_text>Infortuna[e] malitia minuitur in dignitati existitis</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Wicked misfortunes diminish the dignity of existence.</translation> <!-- M.B. Sorry this translation is a little rough. -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="recipiet">
@@ -21,7 +21,7 @@
                     <marginalia_text>Receptio</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Reception.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="peregrinis">
@@ -30,25 +30,25 @@
                     <marginalia_text>Peregrinnus</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Foreign.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Algibathar</marginalia_text>
+                    <marginalia_text>Algebuthar.</marginalia_text> 
                 </position>
             </language>
-            <translation></translation>
+            <translation>A separator.</translation> <!-- M.B. Not certain this is a Romanization of an Arabic astrological term 'jārbakhtār' see: https://books.google.co.uk/books?id=28NZAAAAcAAJ&pg=PA438&dq=Algebuthar&hl=en&sa=X&ved=0ahUKEwio9tawifjWAhUF5xoKHQTABek4HhDoAQgnMAA#v=onepage&q=Algebuthar&f=false  -->
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="reuolutio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Reuolutio</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Revolution.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -57,7 +57,7 @@
                     <marginalia_text>Reuolutionis Mundi.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The revolution of the world.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="malitia infortunarum, cum in aliqua dignitatum suarum fuerit, &amp; econuerso."/>
@@ -85,6 +85,7 @@
         
         <errata language="LA" copytext="ascensionis" amendedtext="asce[n]detis"/>
         <errata language="LA" copytext="&amp;" amendedtext="vel"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
