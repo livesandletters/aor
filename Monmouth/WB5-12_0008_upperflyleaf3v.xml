@@ -31,38 +31,31 @@
                     <person name="Caradoc of Llancarfan"/> <!-- NBW: This is Caradoc of Llancarfan, https://en.wikipedia.org/wiki/Caradoc_of_Llancarfan, atributed author of "A History of Cambria." Most of these attributions to authors come from John Bale's "Scriptoium illustrium maioris britanniae catalogus" and likely from the copy held in ChCh with Dee's annotations (Wb.4.8) -->
                     <person name="Geoffrey of Monmouth"/>
                     <person name="Cadwaladr"/>
-                    <person name="Baloeus"/>
-                    <!-- NBW: "John Bale" (et seq.)-->
-                    <location name="Lancashire"/>
-                    <!-- NBW: This is Llancarvan in Wales, not Lancashire -->
+                    <person name="John Bale"/>
                 </position>
             </language>
-            <translation>This Caradocus of Llancarfan, fellow countryman and contemporary of Geoffrey of Monmouth, described the successions of British princes for almost 460 years after the death of king Cadwaladr with great diligence. Baleus.</translation>
+            <translation>Caradocus of Llancarfan, countryman and contemporary of this Geoffrey of Monmouth, described the successions of British princes for almost 460 years after the death of king Cadwaladr with great diligence. Baleus.</translation>
         </marginalia>
-        <!-- NBW: "Caradocus of Llancarfan, countryman and contemporary of this Geoffrey (of Monmouth)"... -->
+        
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Nennius Bannochorensis collegij po[n]tifex scripsit de origine Brytanno[rum] de vrbibus Cornub[iae]
-                        <!-- NBW: "eorunde[m]" for "Cornubiae" -->
-                        Cosmographia historia[e] mundi 
-                        <!-- NBW: "Cosmographia[m] histori[a]e mundi" -->
-                        Alterius Nennij chronico[n] in Latinum ver[t???]
-                        <!-- NBW: "vert[it]" -->
+                        Nennius Bannochorensis collegij po[n]tifex scripsit de origine Brytanno[rum] de vrbibus eorunde[m]
+                        Cosmographia[m] historia[e] mundi 
+                        Alterius Nennij chronico[n] in Latinum vert[it]
                         floruit sub Caduuano Brytanno[rum] Duce a[nn]o &agrave; Chr[ist]o incarnato 620
                     </marginalia_text>
                     <person name="Nennius"/>
                     <person name="Caduanus"/>
                     <book title="De origine Britannorum"/>
-                    <book title="De urbibus Cornubiae"/>
-                    <!-- NBW: "De urbibus Britanniae?" see next. -->
+                    <book title="De urbibus Britanniae"/>
                     <book title="Cosmographia historiae mundi"/>
                     <location name="Bangor"/>
                 </position>
             </language>
-            <translation>Nennius of Bangor, priest of the high college, wrote "De origine Britannorum"; "De urbibus Cornubiae"; and "Cosmographia historiae mundi". [...]. Flourished under Caduanus, leader of the Britons in the year after the Incarnation 620.</translation>
-        <!-- NBW: I don't know how you want to render the "De urbibus" line, "De urbibus eorundem (i.e. Britannorum)"? Will check Bale and see what the text is - these entries are likely copied verbatim or close -->
+            <translation>Nennius of Bangor, priest of the high college, wrote "De origine Britannorum"; "De urbibus eorundem (i.e. Britannorum)"; and "Cosmographia historiae mundi". [...]. Flourished under Caduanus, leader of the Britons in the year after the Incarnation 620.</translation>
+        <!-- NBW: I don't know how you want to render the "De urbibus" line, "De urbibus eorundem (i.e. Britannorum)"? Will check Bale and see what the text is - these entries are likely copied verbatim or close --> <!--JG: Made some changes based on your suggestions. Have a look at Bale (since part of marginal note (from 'alterius') still needs to be translated-->
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -90,16 +83,15 @@
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
                         Baleus { Huius ac Nennij hucvsq[ue] manet historia[e] inter tot bello[rum] claudes, nam vis a Beda et Polydoro (scriptoru[m] raritat[e] criminalib[us]) no[n] v[???]
-                        <!-- NBW: "[q]uamvis" for "nam vis"? last part of translation still an issue.-->
+                        <!-- NBW: "[q]uamvis" for "nam vis"? last part of translation still an issue.--> <!--JG: I'd go for [q]uamvis. Can't figure out last word either-->
                     </marginalia_text>
-                    <person name="Johannes Baloeus"/>
-                    <!-- NBW: John Bale -->
+                    <person name="John Bale"/>
                     <person name="Nennius"/>
                     <person name="Bede"/>
                     <person name="Polydore Vergil"/>
                 </position>
             </language>
-            <translation></translation> <!--Transcription and translation lacking.--> 
+            <translation></translation> <!--Transcription and translation lacking.--> <!--JG: Neil, have a go at it, even if we can't read the last word-->
     </marginalia>
         
         <marginalia hand="English_secretary">
