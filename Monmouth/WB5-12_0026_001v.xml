@@ -12,8 +12,8 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Ascanius &AElig;nea[e] ex Creusa filius, sine liberis moriebatur sed Syluius Posthumus, qui post fratre[m] regnabat, etia[m] Ascanius di[???]butor. Vide Seruium super 4. &AElig;neidos
-                    </marginalia_text> <!--Unsure of one word. / NBW: "moriebatur"; unknown word possibly "dicebatur. [etc]."-->
+                        Ascanius &AElig;nea[e] ex Creusa filius, sine liberis moriebatur sed Syluius Posthumus, qui post fratre[m] regnabat, etia[m] Ascanius dicebatur. Vide Seruium super 4. &AElig;neidos
+                    </marginalia_text> 
                     <person name="Ascanius"/>
                     <person name="Aeneas"/>
                     <person name="Creusa"/>
@@ -23,59 +23,57 @@
                     <!-- NBW: http://www.perseus.tufts.edu/hopper/text?doc=Serv.%20A. - I think this is what Dee is talking about, can't find the exact reference -->
                 </position>
             </language>
-            <translation>Ascanius, the son of Aeneas with Creusa, died without children but Sylvius Posthumus, who ruled after [his] brother, is even now called Ascanius. See Servius above, 4. Aeneides.</translation>
+            <translation>Ascanius, the son of Aeneas with Creusa, died without children but Sylvius Posthumus, who ruled after [his] brother, is even now called Ascanius. See Servius, above, on book 4 of the Aeneid.</translation>
         </marginalia>
-        <!-- NBW: Plausible translation using "See Servius on book 4 of the Aeneid" (see above)-->
+        
         <marginalia hand="English_secretary" anchor_text="genuit[que] filium cui nomen erat Syluio">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         1. Vide, an Ascanius habuerit filum, no[m]i[n]e Syluium. Vide supra, solutio. 
                         2. Deinde vide de eius morte. tempore et genere mortij. 
-                        3. quas nept[e]s habuerat Lauinia[s].
-                        <!-- NBW: No "s" after Lauinia? -->
+                        3. quas nept[e]s habuerat Lauinia.
                     </marginalia_text>
                     <person name="Ascanius"/>
                     <person name="Sylvius Posthumus"/>
                     <person name="Lavinia"/>
                 </position>
             </language>
-            <translation>1. Look, Ascanius has a son, named Sylvius. See solution above. 2. Then look from his death. from the time and nature of his death. 3. He had Lavinia as granddaughter.</translation>
+            <translation>1. Look, Ascanius has a son, named Sylvius. See solution above. 2. Then, see concerning his death: its time and nature. 3. What granddaughters Lavinia had.</translation>
         </marginalia>
-<!-- NBW: for part 2.: "Then, see concerning his death: its time and nature 3. what granddaughters Lavinia had" -->        
+        
         <underline method="pen" type="double" language="LA" text="genuitq[ue] filium"/>
         <underline method="pen" type="straight" language="LA" text="vxorem ducens"/>
         <underline method="pen" type="straight" language="LA" text="expulsus"/>
         
         <mark name="plus_sign" method="pen" place="intext"/>
-        <!-- NBW: does this need an anchor? if so would be "genuit[que] -->
         
-        <tree type="genealogical_tree" book_orientation="270" place="left_margin" method="pen">
-            <branch id="b1" person_name="Anchises">Anchises</branch>
-            <branch id="b2" relationship="b1 b3 b5" person_name="Aeneas">&AElig;neas</branch>
-            <branch id="b3" relationship="b2" person_name="Creusa">Creusa</branch>
-            <branch id="b4" relationship="b2 b3" person_name="Ascanius">Ascanius</branch>
+        <graph type="genealogical_tree" book_orientation="90" place="left_margin" method="pen">
+            <node id="n1" person="Anchises">Anchises</node>
+            <node id="n2" person="Aeneas">&AElig;neas</node>
+            <node id="n3" person="Creusa">Creusa</node>
+            <node id="n4" person="Ascanius">Ascanius</node>
+            <node id="n5" person="Lavinia">Lavinia</node>
+            <node id="n6" person="Sylvius Posthumus">Syluius Posthumus</node>
+            <node id="n7" person="Aeneas Silvius">Syliu[s]</node>
+            <node id="n8" person="Brutus of Troy">Brut[us]</node>
             
-            <branch id="b5" relationship="b2" person_name="Lavinia">Lavinia</branch>
-            <branch id="b6" relationship="b2 b5" person_name="Sylvius Posthumus">Syluius Posthumus</branch>
-            <branch id="b7" relationship="b6" person_name="Aeneas Silvius">Syliu[s]</branch>
-            <branch id="b8" relationship="b7" person_name="Brutus of Troy">Brut[us]</branch>
+            <link to="n2" from="n1" relationship="has_child"/>
+            <link to="n3 n5" from="n2" relationship="has_child"/>
+            <link to="n4" from="n3" relationship="has_child"/>
+            <link to="n6" from="n5" relationship="has_child"/>
+            <link to="n7" from="n6" relationship="has_child"/>
+            <link to="n8" from="n7" relationship="has_child"/>
             
-            <tree_text>
-                <note hand="Italian" language_ident="LA" internal_ref="b4">
-                    Sine liberis. vt Seruius dicit
-                </note>
-                <note hand="Italian" language_ident="LA" internal_ref="b6">
-                    qui et Ascanius dictus est vt Seruius sup. Vergilium ducet.
-                    <!-- NBW: Think this last word is "docet" -->
-                </note>
-                <note_person name="Servius"/>
-                <note_person name="Ascanius"/>
-                <note_person name="Vergil"/>
-            </tree_text>
-            <tree_text_translation>Without children, but he led Servius. Who together with Ascanius led Servius [sup.?] it is said by Vergil.</tree_text_translation>
-            <!-- This translation should now read "without children, as Servius says." "Who is still (sometimes?) called Ascanius, as Servius shows" -->
-        </tree>
+            <graph_text>
+                <note hand="English_secretary" language="LA" internal_link="n4">Sine liberis. vt Seruius dicit</note>
+                <note hand="English_secretary" language="LA" internal_link="n6">qui et Ascanius dictus est vt Seruius sup. Vergilium docet.</note>
+                <person name="Servius"/> <!--JG: Neil, who is this? Might have to be added to people spreadsheet!-->
+                <person name="Ascanius"/>
+                <person name="Vergil"/>
+            </graph_text>
+            <translation>Without children, as Servius says. Who is still (sometimes?) called Ascanius, as Servius shows. He teaches Virgil.</translation> <!--JG: Unsure about last part-->
+        </graph>
            
     </annotation>
 </transcription>
