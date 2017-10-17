@@ -11,19 +11,17 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Ponticus Virumnius, Italus eruditus hanc defendit Historia[m]. Balo[e]us tu[m] Novoburge[n]se[m] tu[m] Polydoru[m] taxat. quia hunc immerite reprehendat.
-                 
+                    <marginalia_text>Ponticus Virumnius, Italus eruditus hanc defendit Historia[m]. Balo[e]us tu[m] Novoburge[n]se[m] tu[m] Polydoru[m] taxat. 
+                        quia hunc immerite reprehendat.
                     </marginalia_text>
-                    <person name="Ponticus Viruminus"/>
-                    <!-- NBW: "Ludovicus Ponticus Virunius" The transcription looks right, but he is usually referred to as "virunius" in modern ref. lit. https://thesaurus.cerl.org/record/cnp01238835-->
-                    <person name="Baloeus"/>
-                    <!-- NBW: John Bale -->
+                    <person name="Virunius"/>
+                    <person name="John Bale"/>
                     <person name="Polydore Vergil"/>
                     <person name="William of Newburgh"/>
                 </position>
             </language>
-            <translation>Ponticus Virumnius, the Italian erudite, defends this history. Baloeus valued both William of Newburgh and Polydore Vergil. For this he is unjustly blamed.</translation>
-        </marginalia> <!--Needs polishing. NBW: Still needs work - "John Bale valued both William of Newburgh and Polydore Vergil, because he (i.e. Bale) unjustly censors him (i.e. Virunnius)"-->
+            <translation>Ponticus Virumnius, the Italian erudite, defends this history. John Bale valued both William of Newburgh and Polydore Vergil, because he (i.e. Bale) unjustly censors him (i.e. Virunnius).</translation>
+        </marginalia> 
         
         <marginalia hand="Italian">
             <language ident="LA">
@@ -52,6 +50,7 @@
                     <marginalia_text>
                         Nescire, quid antequam natus sis, euenerit, est semper esse puerum... Cicero. Ora. 207
                     </marginalia_text> <!--The actual quote goes: 'Nescire autem quid ante quam natus sis acciderit, id est semper esse puerum.'-->
+                    <person name="Cicero"/>
                     <book title="Orator ad M. Brutum"/>
                 </position>
             </language>
