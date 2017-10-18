@@ -8,7 +8,7 @@
     <page filename="WB5-12_0063_020r.tif" reader="Dee"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Gabius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -23,7 +23,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Co[n]sules. Ro[mae] Gabius - Porsenna - Fabius consul erat, vt Orosi[us] habet: qui Gallus Roma versus ruentes, exercitu excepit. &amp; 
+                        Co[n]sules. Ro[mae] Gabius - Porsenna - Fabius consul erat, vt Orosi[us] habet: qui Gallos Roma[m] versus ruentes, exercitu excepit. [etc.] 
                     </marginalia_text>
                     <person name="Gabius"/>
                     <person name="Porsenna"/>
@@ -42,7 +42,8 @@
                 </position>
             </language>
             <translation>Consuls of Rome, Gabius, Porsenna. Fabius was consul, so Orosius has it, who as a Gaul of Rome received an army in the direction of the fallen. Fabius.</translation>
-        </marginalia> <!--Unsure about translation.-->
+        </marginalia> <!--Unsure about translation. // NBW: Suggested translation (unsure if excepit can work this way) "Fabius was the counsel, as Orosius has it, who led an army (lit, went out with an army) against the Gauls sacking Rome"-->
+            <!-- NBW: interesting to note - Dee's transliteration of "Fabius" into Greek suggests that "Gabius" came from a scribe mistaking the theta for a G.-->
         
         <underline method="pen" type="double" language="LA" text="Gabius"/>
         <underline method="pen" type="straight" language="LA" text="Porsena"/>
