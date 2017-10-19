@@ -82,16 +82,20 @@
         
         <mark name="comma" method="pen" place="intext"/> <!--interfectis Antigonum-->
         
-        <tree type="genealogical_tree" book_orientation="0" place="head" method="pen">
-            <branch id="b1" relationship="b2" person_name="Pandrasus">Rex Pandrasus</branch>
-            <branch id="b2" relationship="b1" person_name="Antigonus">Antigonus</branch>
-            <tree_text>
-                <note hand="Italian" language_ident="LA" internal_ref="b2" id="WB5-12_0029_003r_n0001">
-                    fr[ater] Pandr[asi]
-                </note>
-            </tree_text>
-            <tree_text_translation>Brother of Pandrasus.</tree_text_translation>
-        </tree>
+        <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
+            <node id="n1" person="Pandrasus">Rex Pandrasus</node>
+            <node id="n2" person="Antigonus">Antigonus</node>
+            
+            <link to="n1" from="n2" relationship="has_sibling"/>
+            
+            <graph_text>
+                <note hand="English_secretary" language="LA" internal_link="n2">fr[ater] Pandr[asi]</note>
+            </graph_text>
+            
+            <translation>Brother of Pandrasus.</translation>
+        </graph>
+        
+        
         
     </annotation>
 </transcription>

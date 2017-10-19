@@ -6,15 +6,23 @@
     <page filename="903.tif" reader="John Dee" pagination="437" signature="Oooo iij"/>
     <annotation>
         
+        <marginalia hand="Italian" anchor_text=".Mccci.">
+            <language ident="EN">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        1301
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
         <underline method="pen" type="straight" language="LA" text="praemissa iam insolita indebita"/>
         <underline method="pen" type="double" language="LA" text="praeiudicialia"/>
-        <underline method="pen" type="straight" language="LA" text="alias in audita praelibatum dominum nostrum"/>  <!-- DO: There is some sort of marking after 'audita' but I'm not sure what it means -->
+        <underline method="pen" type="straight" language="LA" text="alias in audita&apos; praelibatum dominum nostrum"/>  
         <underline method="pen" type="triple" language="LA" text="etiam si"/>
         <underline method="pen" type="straight" language="LA" text="vellet facere"/>
         <underline method="pen" type="straight" language="LA" text="modo quolibet attemptare"/>
         <underline method="pen" type="straight" language="LA" text=".Mccci."/>
-        
-        <numeral place="right_margin" language="LA" text=".Mccci.">1301</numeral>  <!-- DO: As this is a date I would capture it as a marginal note -->
         
     </annotation>
 </transcription>

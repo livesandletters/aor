@@ -28,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                In 1301.   <!-- DO: I would put 'In the year 1301.' -->
+                In 1301.  
             </translation>
         </marginalia>
         
@@ -71,18 +71,17 @@
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="comma" method="pen" place="intext"/> <!-- praemissa prouida -->
-        <mark name="circumflex" method="pen" place="intext"/>                        <!-- DO: There is also the circumflex with the '[a]e' in the left margin (I think 4 circumflexes in total on the page). I'm assuming the '[a]e' also refers to 'primissis'?  -->
+        <mark name="circumflex" method="pen" place="intext"/>               
+        <mark name="circumflex" method="pen" place="left_margin"/>      
         
         <errata language="LA" copytext="primissis" amendedtext="pra[e]missis"/>
-        <errata language="LA" copytext="fecimus" amendedtext="fericmus"/>          <!-- DO: I think the corrected word is 'ferimus' -->
+        <errata language="LA" copytext="fecimus" amendedtext="ferimus"/>      
         <errata language="LA" copytext="sanctitati" amendedtext="Sanctitati"/>
         <errata language="LA" copytext="praemeditatione" amendedtext="meditatione"/>
         <errata language="LA" copytext="illius" amendedtext="illis"/>
         <errata language="LA" copytext="degnemini" amendedtext="dignemini"/>
-        <errata language="LA" copytext=":" amendedtext=";"/> <!-- informare suggestionibus -->   <!-- The semi-colon looks printed to me, though hard to tell... -->
         <errata language="LA" copytext="emulorum" amendedtext="aemulorum"/>
-        
-        <!-- DO: He has also changed 'complimentum' to 'complementeum' (line 25) -->
+        <errata language="LA" copytext="complimentum" amendedtext="complementeum"/>
         
     </annotation>
 </transcription>
