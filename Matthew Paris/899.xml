@@ -6,6 +6,16 @@
     <page filename="899.tif" reader="John Dee" pagination="433" signature="Oooo"/>
     <annotation>
         
+        <marginalia hand="Italian" anchor_text="Mccxci">
+            <language ident="EN">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        1291
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="tanqu&agrave;m subditus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -28,7 +38,7 @@
                 </position>
             </language>
             <translation>
-                Till when?   <!-- DO: I don't think this is necessarily a question, as it is used in the text in a straightforward statement rather than a question. I'd just say 'Until the time when' -->
+                Until the time when.
             </translation>
         </marginalia>
         
@@ -54,7 +64,7 @@
                 </position>
             </language>
             <translation>
-                High treason against a weakened ruler.  <!-- DO: I think the whole phrase can be translated as 'The crime of lese-majesty'; see: https://en.wikipedia.org/wiki/Lèse-majesté -->
+                The crime of lese-majesty.
             </translation>
         </marginalia>
         
@@ -70,10 +80,7 @@
         <underline method="pen" type="straight" language="LA" text="debitum homagium, in crimen lesae maiestatis"/>
         
         <mark name="comma" method="pen" place="intext"/> <!-- praeordinata proditionem -->
-        
-        <numeral place="right_margin" language="LA" text="Mccxci">1291</numeral>     <!-- DO: As this is a date I would capture as a marginal note -->
-        
-        <!-- DO: I think there's meant to be a vertical bar in right margin but it's faded -->
+        <mark name="vertical_bar" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
