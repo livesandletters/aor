@@ -6,8 +6,6 @@
     <page filename="0198.tif" reader="John Dee" pagination="170"/>
     <annotation>
         
-        UNDER CONSTRUCTION
-        
         <marginalia hand="Italian" anchor_text="vastitas">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -17,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                
+                Desolation.
             </translation>
         </marginalia>
         
@@ -30,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                
+                To read in the history books.
             </translation>
         </marginalia>
         
@@ -56,7 +54,7 @@
                 </position>
             </language>
             <translation>
-                
+                Syracuse.
             </translation>
         </marginalia>
         
@@ -64,7 +62,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Rex hieron.
+                        Rex hieron. <!-- FSF: I think it is him https://en.wikipedia.org/wiki/Hiero_II_of_Syracuse -->
                     </marginalia_text>
                 </position>
             </language>
@@ -79,64 +77,131 @@
                     <marginalia_text>
                         Arethusa fons
                     </marginalia_text>
+                    <location name="Fountain of Arethusa"/>
                 </position>
             </language>
             <translation>
-                
+                Fountain of Arethusa.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="plenissimus piscium">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        pleniss[im][us] pisciu[m]
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Filled with fish.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Acradina">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        Acradina
+                    </marginalia_text>
+                    <location name="Achradina"/>
+                </position>
+            </language>
+            <translation>
+                Achradina.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="vna lata via perpetua">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        vna lata via p[er]petua
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                One broad continuous road.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Tyche">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        Tyche
+                    </marginalia_text>
+                    <location name="Tycha"/>
+                </position>
+            </language>
+            <translation>
+                Tycha.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Neapolis">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Neapolis
+                    </marginalia_text>
+                    <location name="Neapolis"/> <!-- FSF: obviously, there are many Neapolis; it is this one here http://www.sicily.co.uk/things_to_do/archaeological-park-of-the-neapolis/; I am not sure how to distinguish it from others -->
+                </position>
+            </language>
+            <translation>
+                Neapolis
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="sine causa">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        sine caussa
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Without a reason.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="delere &amp; extinguere">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        delere extinguere
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Destroy and erase.
             </translation>
         </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="culta, qu&agrave;m relicta"/>
+        <underline method="pen" type="straight" language="LA" text="vna causa in"/>
+        <underline method="pen" type="straight" language="LA" text="neque enim haec externa nobis est religio, neque aliena"/>
+        <underline method="pen" type="straight" language="LA" text="Conferte hanc pacem cu[m] illo bello"/>
+        <underline method="pen" type="straight" language="LA" text="Praetoris aduentum cum illius Imperatoris victoria"/>
+        <underline method="pen" type="straight" language="LA" text="violatas, quae tum vrbe capta commissa no[n] sunt, neque odio hostili, neque licentia militari, neque more belli, neque iure victoriae: mitto inquam"/>
+        <underline method="pen" type="straight" language="LA" text="consluu[n]t. eorum coniunctione, pars oppidi, quae appellatur Insula, mari"/>
+        <underline method="pen" type="straight" language="LA" text="mult&iacute;sque transuersis diuisae"/>
+        <underline method="pen" type="straight" language="LA" text="Nunc ad Marcellum"/>
+        
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <numeral place="left_margin">3</numeral>
+        <numeral place="left_margin">10</numeral>
+        <numeral place="left_margin">13</numeral>
+        <numeral place="left_margin">8</numeral>
+        <numeral place="left_margin">18</numeral>
+        <numeral place="left_margin">13</numeral>
+        <numeral place="left_margin">13</numeral>
         
     </annotation>
 </transcription>
