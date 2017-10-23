@@ -6,16 +6,16 @@
     <page filename="363.tif" reader="John Dee"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="[minuitur] malitia infortunarum, cum in aliqua dignitatum suarum fuerit, &amp; econuerso">
+        <marginalia hand="English_secretary" anchor_text="[minuitur] malitia infortunarum, cum in aliqua dignitatum suarum fuerit, &amp; econuerso">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Infortuna[e] malitia minuitur in dignitati existitis</marginalia_text>
+                    <marginalia_text>Infortuna[e] malitia minuitur in dignitati existe[n]tis.</marginalia_text>
                 </position>
             </language>
-            <translation>Wicked misfortunes diminish the dignity of existence.</translation> <!-- M.B. Sorry this translation is a little rough. -->
+            <translation>The wickedness of misfortunes is diminished in dignity of existence.</translation> 
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="recipiet">
+        <marginalia hand="English_secretary" anchor_text="recipiet">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Receptio</marginalia_text>
@@ -24,16 +24,16 @@
             <translation>Reception.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="peregrinis">
+        <marginalia hand="English_secretary" anchor_text="peregrinis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Peregrinnus</marginalia_text>
+                    <marginalia_text>Peregrinus.</marginalia_text>
                 </position>
             </language>
             <translation>Foreign.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Algebuthar.</marginalia_text> 
@@ -42,7 +42,7 @@
             <translation>A separator.</translation> <!-- M.B. Not certain this is a Romanization of an Arabic astrological term 'jārbakhtār' see: https://books.google.co.uk/books?id=28NZAAAAcAAJ&pg=PA438&dq=Algebuthar&hl=en&sa=X&ved=0ahUKEwio9tawifjWAhUF5xoKHQTABek4HhDoAQgnMAA#v=onepage&q=Algebuthar&f=false  -->
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="reuolutio">
+        <marginalia hand="English_secretary" anchor_text="reuolutio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Reuolutio</marginalia_text>
@@ -51,7 +51,7 @@
             <translation>Revolution.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Reuolutionis Mundi.</marginalia_text>
@@ -62,17 +62,13 @@
         
         <underline method="pen" type="straight" language="LA" text="malitia infortunarum, cum in aliqua dignitatum suarum fuerit, &amp; econuerso."/>
         <underline method="pen" type="straight" language="LA" text="impedimentum, cum fuerit in locis peregrinis"/>
-        <underline method="pen" type="straight" language="LA" text="Omnis res quae festinanter fit, &amp; festa[n]ter destruiturm &amp; quae reitera[n]t, est in significatione Martis"/>
-        <underline method="pen" type="straight" language="LA" text="Ea quae accidunt in hoc seculo, sciuntur &amp; inuestigantur"/>
-        <underline method="pen" type="double" language="LA" text="ex magna"/>
-        <underline method="pen" type="straight" language="LA" text="fortitudine superioris significatoris, &amp; ex sua eleuatione, &amp; si ea non fuerit, exquiritur &agrave; planeta, ad"/>
+        <underline method="pen" type="straight" language="LA" text="Omnis res quae festinanter fit, &amp; festina[n]ter destruitur &amp; quae reitera[n]t, est in significatione Martis"/>
+        <underline method="pen" type="straight" language="LA" text="Ea quae accidunt in hoc seculo, sciuntur &amp; inuestigantur ex magna fortitudine superioris significatoris, &amp; ex sua eleuatione, &amp; si ea non fuerit, exquiritur &agrave; planeta"/>
         <underline method="pen" type="straight" language="LA" text="iuerint omnes alii planetae"/>
-        <underline method="pen" type="straight" language="LA" text="unicuiq[ue] gradui"/>
-        <underline method="pen" type="double" language="LA" text="da annu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="unicuiq[ue] gradui da annu[m]"/>
         <underline method="pen" type="straight" language="LA" text="Cum aliquis planera dominabitur alicui anno, ex annis mundi, in ipso gradu"/>
         <underline method="pen" type="straight" language="LA" text="exaltionis apparebit eius significatio, &amp; eleuabitur rex in regione illa, &amp; in climate"/>
-        <underline method="pen" type="double" language="LA" text="quo "/>
-        <underline method="pen" type="straight" language="LA" text="ab ipso significabitur"/>
+        <underline method="pen" type="straight" language="LA" text="quo ab ipso significabitur"/>
         <underline method="pen" type="straight" language="LA" text="Cum fuerit utrunque luminarium in eodem gradu, suae exaltionis in suo dominio, liberum ab infortuniis erit natus totius mundi rex,
              &amp; semen eius haereditabit"/>
         <underline method="pen" type="straight" language="LA" text="eius, obtinebit' q[ue] multo tempore"/>
@@ -82,9 +78,9 @@
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        
         <errata language="LA" copytext="ascensionis" amendedtext="asce[n]detis"/>
         <errata language="LA" copytext="&amp;" amendedtext="vel"/>
+        
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
