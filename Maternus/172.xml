@@ -5,7 +5,7 @@
     <page filename="172.tif" reader="John Dee" pagination="149" signature="n 3"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -14,25 +14,25 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure -->
-                <!-- M.B. Not sure of how to translate this one either.  -->
+                By which reason a right council ought to dwell.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Nec enim semper ingressus &Venus; loca &Jupiter;, decernit uxores">
+        <marginalia hand="English_secretary" anchor_text="Nec enim semper ingressus &Venus; loca &Jupiter;, decernit uxores">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Ingressus Veneris loca &Jupiter; no[n] semp[er] vxores decernit.
                     </marginalia_text>
+                    <symbol_in_text name="Jupiter"/>
                 </position>
             </language>
             <translation>
-                The entry of Venus into the place of Jupiter does not always determines the consorts. <!-- M.B. Not sure if determine should be pluralized in the translation? -->
+                The entry of Venus into the place of Jupiter does not always determine the consorts. 
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="ex signorum anaphoris prouecti">
+        <marginalia hand="English_secretary" anchor_text="ex signorum anaphoris prouecti">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -45,7 +45,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="nec debes ex malo loco sperare discrimen, cum eu[m] salutare sydus aspexerit">
+        <marginalia hand="English_secretary" anchor_text="nec debes ex malo loco sperare discrimen, cum eu[m] salutare sydus aspexerit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -54,13 +54,11 @@
                 </position>
             </language>
             <translation>
-                A bad place does not do any harm when the star observes to greet it etc. <!-- FSF: I am not sure what's going on here -->
-                <!-- M.B. I think salutare might be an adjective here rather than a verb?? So possibly something like :
-               ' A bad place does not do any harm when we observe it with a beneficial star'. I am not certain of the phrasing but that appears to roughly follow the meaning of the print text too. -->
+                A bad place does not do any harm when a beneficial star observes it, etc. 
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="stellaru[m] mixturas"> <!-- M.B. I would possibly start from 'sexti libri' -->
+        <marginalia hand="English_secretary" anchor_text="stellaru[m] mixturas"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -69,8 +67,7 @@
                 </position>
             </language>
             <translation>
-                In book six the mixtures of stars <!-- FSF: I am not sure -->. <!-- M.B. I think the 'tradet' needs to be added to the translation. Dee appears to just be summarizing the final sentence of the print text for book five. 
-                    Possibly something like 'In Book six, I teach about a mixture (or combination) of stars.'  -->
+                In book six he conveys the mixtures of stars.
             </translation>
         </marginalia>
         
@@ -90,8 +87,7 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin" colour="red"/> <!-- dotted -->
         
-        <!-- M.B. There is some intext marking beneath 'animu[m] tuum' abd above the Jupiter symnbol not sure if it is just scribble or an errata.-->
-        
+        <errata language="LA" copytext="Iovis" amendedtext="Iovis"/> <!-- M.B. There is some intext marking beneath 'animu[m] tuum' above the Jupiter symbol not sure if it is just scribble or an errata.-->
         <errata language="LA" copytext="apothelesmatum" amendedtext="apotelesmatum"/>
         
     </annotation>
