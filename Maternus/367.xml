@@ -6,81 +6,70 @@
     <page filename="367.tif" reader="John Dee" pagination="110" signature="[I 2[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Sol in medio coeli cum Saturno">
+        <marginalia hand="English_secretary" anchor_text="Sol in medio coeli cum Saturno">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        tu[m] in rodri Co[e]li <!-- FSF: I read &Sun; cu[m] &Saturn; in corde[m] Coeli -->
+                        &Sun; cu[m] &Saturn; in corde Co[e]li. 
                     </marginalia_text>
                     <symbol_in_text name="Sun"/>
                 </position>
             </language>
             <translation>
-               [...] the heavens. <!-- FSF: The sun with Saturn into the heart of the heaven. -->
+               The Sun with Saturn in midheaven. 
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Cum no[n] fuerit inter aliquem planetarum, &amp; significatorem ictisal aspectus, et fuerit uterq[ue] in eodem circulo, &amp; circulis parallelis in nadir uel anahat, uel in aequinoctiali itinere">
+        <marginalia hand="English_secretary" anchor_text="Cum no[n] fuerit inter aliquem planetarum, &amp; significatorem ictisal aspectus, et fuerit uterq[ue] in eodem circulo, &amp; circulis parallelis in nadir uel anahat, uel in aequinoctiali itinere">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Et illa mea opimio est quod medius [or melius] fuerit parallelos aqua quod zodiacae [?] <!-- FSF: I read: Et illa mea opimio est quod melius fuerit co[n]siderare parallelos a[e]quatori quam zodia.. pro directionibus p[er]ficundis-->
+                        Et illa mea opimio est quod melius fuerit co[n]siderare parallelos a[e]quatori quam zodiaci pro directionibus p[er]ficiendis 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                And it is my opinion that it would be better to consider parellels of the equator than of the zodiac for the completed directions.
             </translation>
         </marginalia>
         
-        
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Sicut in dixit in 2. aphoris.
+                        Sicut dixit in 2. aphoris.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Thus he said in the second aphorism.
             </translation>
         </marginalia>
             
-            <marginalia hand="Italian" anchor_text="Sola[m]">
+            <marginalia hand="English_secretary" anchor_text="Sola[m]">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Unita <!-- FSF: vnita[m] -->
+                        vnicam
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                United.
+                Unique.
             </translation>
             </marginalia>
             
-        <marginalia hand="Italian" anchor_text="Cum diuersificantur duo climata, diuersificatur planetaru[m] aspectus &amp; eoru[m] radii.">
+        <marginalia hand="English_secretary" anchor_text="Cum diuersificantur duo climata, diuersificatur planetaru[m] aspectus &amp; eoru[m] radii.">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Planetar[um] aspectus radi[?] climatis variantum.[??] <!-- FSF: the third word is r[ati]o[n]e -->
+                        Planetar[um] aspectus r[ati]o[n]e climatis variantur.
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The aspects of the planets are changed becuase of the climate.</translation>
             </marginalia>
-            
-                <marginalia hand="Italian">
-                    <language ident="EN">
-                        <position place="left_margin" book_orientation="0">
-                            <marginalia_text>
-                               1698. <!-- FSF: I don't think that this is a number. I have seen it elsewhere and it looks to me like some astrological symbol -->
-                            </marginalia_text>
-                        </position>
-                    </language>
-        </marginalia>
-        
+                
         <underline method="pen" type="straight" language="LA" text="Saturno erit in signo masculino orientalis"/>
         <underline method="pen" type="straight" language="LA" text="&amp; ex circulis"/>
         <underline method="pen" type="straight" language="LA" text="sola[m]"/>
@@ -88,6 +77,9 @@
         <underline method="pen" type="straight" language="LA" text="domini terminorum sint ex rei incipie[n]dae natura."/>
         <underline method="pen" type="straight" language="LA" text="sunt 1413"/>
         <underline method="pen" type="straight" language="LA" text="Cum diuersificantur duo climata, diuersificatur planetaru[m] aspectus &amp; eoru[m] radii."/>
+        
+        <symbol name="North_Node" place="left_margin"/>
+        <symbol name="South_Node" place="left_margin"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
