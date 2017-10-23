@@ -28,8 +28,9 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Signa viole[n]ta mortis radi calia. &Mars; in cuspide  &Scorpio;
-                    &Square; tenens &Jupiter; &Saturn; etia[m] domin[us] 8 etevats &Moon; co[m]busta in octaua etia[m] d[omi]na asce[n]dentis.
-                    Deniq[ue] insorta[e] [....] [fortis], [...] [...] in [...] et fig[u]ra debiles[..]. [Etc].</marginalia_text> <!--JG: Extremely unsure-->
+                    &Square; tenens &Jupiter; &Saturn; etia[m] domin[us] 8 etevats &Moon; co[m]busta in octaua etia[m] d[omi]na asce[n]dentis. <!-- FSF: I would say it is ferens, given that the first letter is so long: maybe it is elevatus instead of etevats -->
+                    Deniq[ue] insorta[e] [....] [fortis], [...] [...] in [...] et fig[u]ra debiles[..]. [Etc].</marginalia_text> <!--JG: Extremely unsure--> 
+                    <!-- FSF: maybe fortius rather than fortis; maybe debilib[us] instead of debiles; and possibly in mu[n]do et figura?; the word before in ends in alib[us], I'd say; maybe the word after insortiae is domina[n]tur? -->
                     <symbol_in_text name="Mars"/>
                     <symbol_in_text name="Scorpio"/>
                     <symbol_in_text name="Square"/>
@@ -42,7 +43,7 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="dominum ascendentis aspexerit"/>
-        <underline method="pen" type="straight" language="LA" text="Hic anno 21. expleto, acasus est die decimaoctaua Iulij, hora decimaoctaua"/>
+        <underline method="pen" type="straight" language="LA" text="Hic anno 21. expleto, ocasus est die decimaoctaua Iulij, hora decimaoctaua"/>
         <underline method="pen" type="straight" language="LA" text="uulnus in gula &amp; crure, moritur subito."/>
         
         <mark name="comma" method="pen" place="intext"/> <!--Hic anno-->
