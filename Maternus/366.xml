@@ -10,12 +10,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Quartae ha[e] notanda[e] virni nout <!-- FSF: the last two words are veniunt -->
+                        Quartae ha[e] notanda[e] veniunt 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Notable among these four <!-- FSF: These notable four come -->
+                These notable four come.
             </translation>
         </marginalia>
         
@@ -23,11 +23,23 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Singularis admanitio
+                        Singularis admonitio
                     </marginalia_text>
                 </position>
             </language>
-            <translation> <!-- FSF: translation -->
+            <translation>A remarkable advice.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="dominus 11 ascendentis, uel 11 Lunae, aut 11 partis fortunae">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        Nota istas domas vndecimas tres. 
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>Note that there are three of these eleventh houses
             </translation>
         </marginalia>
         
@@ -35,85 +47,72 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Nota istas domas uduc uuo tris. <!-- FSF: I read Nota istas domus vndecimas tres, which translates as Note that there are three of these eleventh houses -->
+                        Videtur hinc repugnare 7a 
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
+            <translation>Hence he seems to disagree with the seventh.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Vudutur hinc ripuguati >a <!-- FSF: I read: Videtur hinc repugnare 7a -->
+                        Angulos asce[n]detis dicit quonia[m] respectu alior[um] planetor[um] anguli etia[m] sunt.
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
+            <translation>He says the angles of the ascendant becuase the are angles with respect to the other planets.  
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="de ascensione in descensionem &amp; econuerso">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Angulos <!-- FSF: I read: Angulos asce[n]detis dicit quionia[m] respectu alior[um] planetor[um] anuli etia[m] sunt. -->
+                        Mutatio de asce[n]sione ad descensione[m] et co[n]tra 
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
+            <translation> A mutation of the ascension towards descension and contrary.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="planetae masculini sunt qui agunt, feminini uero sunt">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Mutatio de asc ad descensione infra <!-- FSF: I read: Mutatio de asce[n]sione ad defentione et co[n]tra -->
+                      Planeta[e] masc. fa[e]mi.
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                      Planetae ta[e]ni  <!-- FSF: I read Planeta[e] masc. fo[e]mi. -->
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
+            <translation>Masculine and feminine planets.
             </translation>
         </marginalia>
 
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Hinc accepit cardanus <!-- FSF: I read: Hinc accepit cardanus sua[m] distinctione[m] significatoris secundu[m] substa[n]tia[m] et secundu[m] accidens. -->
+                        Hinc accepit cardanus sua[m] distinctione[m] significatoris secundu[m] substa[n]tia[m] et secundu[m] accidens. 
                     </marginalia_text>
+                    <person name="Girolamo Cardano"/>
                 </position>
             </language>
-            <translation>
+            <translation>Hence Cardano accepts his distinctions according to the substance and accident of the signifier. 
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="anni sunt"/>
-        <underline method="pen" type="straight" language="LA" text="naturam consideres, in quo coiniuncti suerint"/>
-        <underline method="pen" type="double" language="LA" text=": utrum "/>
-        <underline method="pen" type="straight" language="LA" text="sit ex eorum similitudine, nec ne, si enim fuerit ex eorum similitudine, co[n]forabis eorum significationem."/> 
-        <!-- FSF: I would make the last three all one straight underlining. I think the double under utrum is simply a where he put down the pen a second time -->
+        <underline method="pen" type="straight" language="LA" text="naturam consideres, in quo coiniuncti suerint: utrum sit ex eorum similitudine, nec ne, si enim fuerit ex eorum similitudine, co[n]forabis eorum significationem."/>
         <underline method="pen" type="straight" language="LA" text="dominus 11 ascendentis, uel 11 Lunae, aut 11 partis fortunae"/>
         <underline method="pen" type="straight" language="LA" text="&amp; in eodem"/>
         <underline method="pen" type="straight" language="LA" text="sed &amp; septimi circuli"/>
         <underline method="pen" type="straight" language="LA" text="&amp; duae infortunae in angulis"/>
         <underline method="pen" type="straight" language="LA" text="poterit esse nisi &agrave; Marte"/>
-        <underline method="pen" type="straight" language="LA" text="super eos de ascensione in descensionem"/> <!-- FSF: I think there is the underlining of mutantur de una triplicitate missing -->
+        <underline method="pen" type="straight" language="LA" text="super eos de ascensione in descensionem"/> 
+        <underline method="pen" type="straight" language="LA" text="mutantur de una triplicitate"/>
         <underline method="pen" type="straight" language="LA" text="ponderosorum, planetae masculini sunt qui agunt, feminini uero sunt"/>
         <underline method="pen" type="straight" language="LA" text="Aspice ascensionem planetae, &amp; gradum exaltationis, gradum quoq[ue] sui casus, nam haec sunt quae significant homines &amp; eorum opera."/>
         <underline method="pen" type="straight" language="LA" text="aget in eum, id est, uincet alteru[m] ille cuius signum est masculinum, &amp; in masculino signo"/>
