@@ -6,7 +6,7 @@
     <page filename="078.tif" reader="John Dee" pagination="55" signature="e 4"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="signoru[m]">
+        <marginalia hand="English_secretary" anchor_text="signoru[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -19,17 +19,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- M.B. Add anchor text 'sine gratia pr[a]estare' -->
+        <marginalia hand="English_secretary" anchor_text="sine gratia pr[a]estare"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Sina[e] gr[ati]a dates <!-- FSF: I am not sure at all -->
-                        <!-- M.B. I am not sure of the final word, it looks like there is letter after the a, possibly 'dantes' ? . -->
+                        Sin[e] gr[ati]a dantes.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Given without grace.
             </translation>
         </marginalia>
         
@@ -37,29 +36,26 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Debes hic animaduertere cu[m] dicat aut cu[m] eo, quonia[m] ante dexet nocte hoc ita no[n] esse debesse, sed de qui &Sun;e in 4 co[n]stituto esse no[n] p[otes]t noli in se tam aporta camellari 
-                        <!-- FSF: I am struggling to read this -->
-                        
-                        <!-- M.B. My attempt at reading this as follows although by no means certain!): 'Debet hic animaduertere cu[m] dicat aut cu[m] eo, quonia[m] ante dixit nocte hic ita no[n] esse debesse , sed die qui &Sun:
-                             in 4 co[n]stituto esse no[n] p[otes]t, noli in se tam aperta cavillari  -->
+                        Debes hic animaduertere cu[m] dicat aut cu[m] eo, quonia[m] ante dixit nocte hoc ita no[n] esse debere, sed die qui &Sun;e in 4 co[n]stituto esse no[n] p[otes]t noli in re tam aperta cavillari 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- M.B. Translation to be added. -->
+                You ought to pay attention here when he says or with that, since before he said that in the nights, this ought not to be thus,
+                but on the day which cannot be in the fourth position with the Sun, do not jest in the matter so openly. <!--JG: Unsure-->
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Signa contra [et]
+                        Signa contra [&amp;c]
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Signs against etc.
+                Signs against et cetera.
             </translation>
         </marginalia>
         
