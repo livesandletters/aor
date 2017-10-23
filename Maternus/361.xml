@@ -6,20 +6,21 @@
     <page filename="361.tif" reader="John Dee" pagination="94"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="coniunguntur infortunae">
+        <marginalia hand="English_secretary" anchor_text="coniunguntur infortunae">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Infortunar[um] &Conjunction;
                     </marginalia_text>
+                    <symbol_in_text name="Conjunction"/>
                 </position>
             </language>
             <translation>
-                Conjunction with the unfortunate.
+                A conjunction of unfortunate things.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Ptolemaei">
+        <marginalia hand="English_secretary" anchor_text="Ptolemaei">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -33,13 +34,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Imo de hac re Cardanus bene ratiocunatur fo 86.
+                        Imo de hac re Cardanus bene ratiocinatur fo 86.
                     </marginalia_text>
-                    <person name="Girolamo Cardano"/> <!-- M.B Could this book linked to Cardano  Libelli quinque.? -->
+                    <person name="Girolamo Cardano"/> 
+                    <internal_ref>
+                        <target ref="RCP7134:191" text="86"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
@@ -47,7 +51,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="sordidus, &amp; cui Mars, foetidus">
+        <marginalia hand="English_secretary" anchor_text="sordidus, &amp; cui Mars, foetidus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -60,38 +64,41 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         vt si &Sagittarius; asce[n]dat. vel &Virgo;
                     </marginalia_text>
+                    <symbol_in_text name="Sagittarius"/>
+                    <symbol_in_text name="Virgo"/>
                 </position>
             </language>
             <translation>
-                As if Sagittarius ascends or Virgo
+                As if Sagittarius or Virgo ascends.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Sed ad invari debent fortunatis irradiationibus alicui[us] planeta[e], vt docet Ptoloma[e]us. <!-- FSF: not sure at all --> <!-- M.B. This looks correct to me. --> 
+                        Sed adiuvari debent fortunatis irradiationibus alicui[us] planeta[e], vt docet Ptoloma[e]us.   
                     </marginalia_text>
                     <person name="Ptolemy"/>
                 </position>
             </language>
-            <translation> <!-- M.B. Translation missing. -->
+            <translation> But they ought to be assisted by the blessed illuminations of any planet, as Ptolemy teaches.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        ?ad &Mars; quid dicemus?
+                        ?ad &Mars;e[m] quid dicemus?
                     </marginalia_text>
+                    <symbol_in_text name="Mars"/>
                 </position>
             </language>
             <translation>
