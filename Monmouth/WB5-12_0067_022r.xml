@@ -15,12 +15,13 @@
                        Foelicius cum n[ost]ris Brytannis actum est, qua[m] cum Lydo[rum] regibus. quippe cum n[ost]ro[rum] co[n]sta[n]t et no[m]i[n]a, et regno[rum] tempora;
                        illo[rum] vero qui ab Argone primo (ex Heraclidis) eor[um] rege, (continuata in filios successione)
                        regnarunt reges 22, o[mn]i[u]m tame[n]
-                    </marginalia_text> <!--Transcription and translation incomplete. // NBW: Fixed transcription, suggested translation below-->
+                    </marginalia_text> 
                 </position>
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         intermedior[um], vsq[ue] ad 4 vltimos, tu[m] no[m]i[n]a, tu[m] tempora ignorantur. Vide Gerardi Mercatoris Chronolog[ia]. A[nn]o Mundi 2747.
                     </marginalia_text>
+                    <person name="Gerardus Mercator"/>
                     <book title="Chronologia"/>
                 </position>
             </language>
@@ -47,7 +48,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Martial law.</translation> <!--NBW: Marcian Law would be implied by the text. Does Marche translate to Martial in OE?-->
+            <translation>Marcian law.</translation> 
         </marginalia>
         
         <marginalia hand="Italian">
@@ -66,7 +67,7 @@
                 <position place="tail" book_orientation="270">
                     <marginalia_text>
                         A Brenno ergo ad [Cassibelatu[m]?] interstitiu[m] annor[um] 223:
-                    </marginalia_text> <!--Transcription incomplete.-->
+                    </marginalia_text> 
                     <person name="Brennus"/>
                     <person name="Cassibelanus"/>
                 </position>
@@ -82,42 +83,43 @@
         <underline method="pen" type="straight" language="LA" text="sumpto diademate"/>
         <underline method="pen" type="straight" language="LA" text="Kimarus eius filius"/>
         
-        <tree type="genealogical_tree" book_orientation="270" place="tail" method="pen" tree_continues_from="WB5-12_0066_021v">
-            <branch id="b1" person_name="Clotheus">Cloteuus</branch>
-            <branch id="b2" person_name="Morianus">Morianus</branch>
-            <branch id="b3" person_name="Bledud">Bleduus</branch>
-            <branch id="b4" person_name="Capenus">Cap</branch> <!--Son of Morianus-->
-            <branch id="b5" person_name="Ovinus">Oenus</branch>
-            <branch id="b6" person_name="Silius">Sisillius</branch>
-            <branch id="b7" relationship="b8" person_name="Blegabredus">Bledgabredus</branch>
-            <branch id="b8" relationship="b7" person_name="Archimalus">Archimailus Fr[ater]</branch>
-            <branch id="b9" person_name="Eldodus">Eldon</branch>
-            <branch id="b10" person_name="Rodian">Redion</branch>
-            <branch id="b11" person_name="Redargius">Rodrecius</branch>
-            <branch id="b12" person_name="Samulius ; Penisellus">Samulpenisel</branch>
-            <branch id="b13" person_name="Pyrrus">Pir</branch>
-            <branch id="b14" person_name="Caporus">Capoirus</branch> <!--Son of Pyrrus-->
-            <branch id="b15"  relationship="b14" person_name="Divellius">Gligueilus Fil[ius]</branch>
-            <branch id="b16" person_name="Hely">F Hely</branch>
-            <branch id="b17" relationship="b16 b18 b19" person_name="Lud">Lud</branch>
-            <branch id="b18" relationship="b16 b17 b19" person_name="Cassibelanus">Cassibelanu[s]</branch>
-            <branch id="b19" relationship="b16 b17 b18" person_name="Nennius">Nenniu[s]</branch>
+        <graph type="genealogical_tree" book_orientation="90" place="tail" method="pen">
+            <node id="n1" person="Clotheus">Cloteuus</node>
+            <node id="n2" person="Morianus">Morianus</node>
+            <node id="n3" person="Bledud">Bleduus</node>
+            <node id="n4" person="Capenus">Cap</node> <!--Son of Morianus-->
+            <node id="n5" person="Ovinus">Oenus</node>
+            <node id="n6" person="Silius">Sisillius</node>
+            <node id="n7" person="Blegabredus">Bledgabredus</node>
+            <node id="n8" person="Archimalus">Archimailus Fr[ater]</node> 
+            <node id="n9" person="Eldodus">Eldon</node>
+            <node id="n10" person="Rodian">Redion</node>
+            <node id="n11" person="Redargius">Rodrecius</node>
+            <node id="n12" person="Samulius">Samulpenisel</node>
+            <node id="n13" person="Penisellus">Samulpenisel</node>
+            <node id="n14" person="Pyrrus">Pir</node>
+            <node id="n15" person="Caporus">Capoirus</node> <!--Son of Pyrrus-->
+            <node id="n16" person="Divellius">Gligueilus Fil[ius]</node>
+            <node id="n17" person="Hely">F Hely</node>
+            <node id="n18" person="Lud">Lud</node>
+            <node id="n19" person="Cassibelanus">Cassibelanu[s]</node>
+            <node id="n20" person="Nennius">Nenniu[s]</node>
             
-            <tree_text>
-                <note id="WB5-12_0067_022r_n0001" internal_ref="b16" hand="Italian" language_ident="LA">
-                    40 a[n]nis regnabit.
-                </note>
-                <note id="WB5-12_0067_022r_n0002" internal_ref="b18" hand="Italian" language_ident="LA">
-                    erat a[e]tate Julij Ca[e]saris cu[m] q[u]o bellu[m] gessit pro sui regni defe[n]sione circa a[n]nu[m] Mu[n]di 3912. [Sicut?] a[nn]o a[n]te Chr[ist]i 52.
-                </note>
-                <!-- NBW: the abbreviation that I've rendered as (sicut) could also be sicquam. I don't know if it's vital for the transcription -->
-                <note_person name="Julius Caesar"/>
-                <note_person name="Cassibelanus"/>
-            </tree_text>
-            <tree_text_translation>[Hely] Reigned for forty years.</tree_text_translation>
-            <tree_text_translation> [Cassibelan] was in the time of Julius Caesar, with whom (Caesar) he (i.e. Cassibelan) fought a war for the defense of his kingdom around the year of the world 3912, that is in the fifty second year before Christ</tree_text_translation>
-        </tree>
-<!-- NBW: A less literal translation would be "Cassibelan reigned in the time of Julius Caesar and, in defense of his kingdom, warred with Caesar around AM. 3912..." -->
-        
+            <link to="n7" from="n8" relationship="has_sibling"/>
+            <link to="n16" from="n15" relationship="has_child"/>
+            <link to="n18 n19 n20" from="n17" relationship="has_child"/>
+            <link to="n19" from="n18" relationship="has_sibling"/>
+            
+            <graph_text>
+                <note hand="English_secretary" language="LA" internal_link="n17">40 a[n]nis regnabit.</note>
+                <translation>[Hely] Reigned for forty years.</translation>
+            </graph_text>
+            <graph_text>
+                <note hand="English_secretary" language="LA" internal_link="n19">erat a[e]tate Julij Ca[e]saris cu[m] q[u]o bellu[m] gessit pro sui regni defe[n]sione circa a[n]nu[m] Mu[n]di 3912. S[icut] a[nn]o a[n]te Chr[ist]i 52.</note>
+                <person name="Julius Caesar"/>
+                <person name="Cassibelanus"/>
+                <translation>[Cassibelan] reigned in the time of Julius Caesar and, in defense of his kingdom, warred with Caesar around AM. 3912, that is in the fifty second year before Christ.</translation>
+            </graph_text>
+        </graph>
     </annotation>
 </transcription>
