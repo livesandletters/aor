@@ -572,7 +572,6 @@
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="link"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="graph_text"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="internal_ref"/>
-        <xs:element minOccurs="0" ref="translation"/>
       </xs:sequence>
       <xs:attributeGroup ref="attlist.graph"/>
     </xs:complexType>
@@ -633,6 +632,7 @@
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="book"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="location"/>
         <xs:element minOccurs="0" maxOccurs="unbounded" ref="symbol_in_text"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="translation"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
