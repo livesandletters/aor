@@ -41,50 +41,66 @@
         <underline method="pen" type="straight" language="LA" text="regem, patriamq[ue] pristino uigo supposuit"/>
         <underline method="pen" type="straight" language="LA" text="insulas Orcades"/>
         
-        <tree type="genealogical_tree" book_orientation="270" place="tail" method="pen" tree_continues_to="WB5-12_0067_022r">
-            <branch id="b1" relationship="b2" person_name="Belinus">Belinus</branch>
-            <branch id="b2" relationship="b1" person_name="Brennus">Brennus</branch>
+        <graph type="genealogical_tree" book_orientation="90" place="left_margin" method="pen" graph_continues_to="WB5-12_0067_022r" graph_to_transcription="WB5-12_0067_022r.xml">
+            <node id="n1" person="Belinus">Belinus</node>
+            <node id="n2" person="Brennus">Brennus</node>
             
-            <branch id="b3" relationship="b1" person_name="Gurguintus">Gurguintus</branch>
-            <branch id="b4" relationship="b3" person_name="Guintelinus">Guithelinus</branch>
-            <branch id="b5" relationship="b4" person_name="Sisillus">Sisillius</branch>
-            <branch id="b6" relationship="b5 b7" person_name="Kimarus">Kimarus</branch>
-            <branch id="b7" relationship="b5 b6" person_name="Elanius">Elani[us]</branch>
+            <node id="n3" person="Gurguintus">Gurguintus</node>
+            <node id="n4" person="Guithelinus">Guithelinus</node>
+            <node id="n5" person="Sisillus">Sisillius</node>
+            <node id="n6" person="Kimarus">Kimarus</node>
+            <node id="n7" person="Elanius">Elani[us]</node>
             
-            <branch id="b8" relationship="b7">Morind[us]</branch>
-            <branch id="b9" relationship="b8 b10 b11 b12 b13" person_name="Gorbomannus">Gorbonian[us]</branch>
-            <branch id="b10" relationship="b8 b9 b11 b12 b13" person_name="Archigallo">Archigallo 1.2</branch>
-            <branch id="b11" relationship="b8 b9 b10 b12 b13" person_name="Elidurus">Elidurus 1.2.3</branch>
-            <!--Dee uses 'F[ratres]' as a reference to somewhere further down the tree. // NBW: Here it means "Filius." It follows the text on fol. 24r-->
-            <branch id="b12" relationship="b8 b9 b10 b11 b13" person_name="Vigenius">Vigenij</branch>
-            <branch id="b13" relationship="b8 b9 b10 b11 b12" person_name="Peredurus">Peredur[us]</branch>
+            <node id="n8">Morind[us]</node>
+            <node id="n9" person="Gorbomannus">Gorbonian[us]</node>
+            <node id="n10" person="Archigallo">Archigallo 1.2</node>
+            <node id="n11" person="Elidurus">Elidurus 1.2.3</node>
             
-            <branch id="b14" relationship="b10 b15" person_name="Morgan">Morganus</branch>
-            <branch id="b15" relationship="b10 b14" person_name="Emerianus">Emerianus</branch>
+            <node id="n29">F[ilius]</node> <!--NBW: Here it means "Filius." It follows the text on fol. 24r-->
+            <node id="n12" person="Vigenius">Vigenij</node>
+            <node id="n13" person="Peredurus">Peredur[us]</node>
             
-            <branch id="b16" relationship="b12" person_name="Idwall">Idwallo</branch>
-            <branch id="b17" relationship="b13">Filius</branch> <!--Runno, son of Peredurus-->
+            <node id="n14" person="Morgan">Morganus</node>
+            <node id="n15" person="Emerianus">Emerianus</node>
             
-            <branch id="b18" relationship="b11" person_name="Geruntius">Geruntus</branch>
-            <branch id="b19" relationship="b18 b20" person_name="Cathell">Catellus</branch> <!--These relationships are not made explicit by Dee. //NBW: These follow the text on fol 24r. The organizing principle here is succession, rather than genealogy-->
-            <branch id="b20" relationship="b18 b19" person_name="Coill">Coilus</branch>
+            <node id="n16" person="Idwall">Idwallo</node>
+            <node id="n17" person="Runno">Filius</node> <!--Runno, son of Peredurus-->
             
-            <branch id="b21" relationship="b20" person_name="Porrex">Porrex</branch>
-            <branch id="b22" relationship="b21" person_name="Cheryn">Cherinus</branch>
-            <branch id="b23" relationship="b22 b24 b25" person_name="Fulgenius">Fulgenius</branch>
-            <branch id="b24" relationship="b22 b23 b25" person_name="Eldadus">Eldadus</branch>
-            <branch id="b25" relationship="b22 b23 b24" person_name="Androgeus">Androgeus</branch>
-            <branch id="b26" relationship="b25">Filius</branch> <!--Urianus, son of Androgeus-->
-            <branch id="b27" relationship="b26" person_name="Eliud">Eliud</branch>
-            <branch id="b28" relationship="b27" person_name="Cledaucus">Dedacus</branch>
+            <node id="n18" person="Geruntius">Geruntus</node>
+            <node id="n19" person="Cathell">Catellus</node> <!--These relationships are not made explicit by Dee. //NBW: These follow the text on fol 24r. The organizing principle here is succession, rather than genealogy-->
+            <node id="n20" person="Coill">Coilus</node>
             
-            <tree_text>
-                <note hand="Italian" language_ident="LA" id="WB5-12_0066_021v_n0001">
-                    A[nn]o Mundi 3689: ante Chri[st]i Anno 276.    
-                </note>
-            </tree_text>
-            <tree_text_translation>The year of the world 3689: the year 276 before Christ.</tree_text_translation>
-        </tree>
+            <node id="n21" person="Porrex">Porrex</node>
+            <node id="n22" person="Cheryn">Cherinus</node>
+            <node id="n23" person="Fulgenius">Fulgenius</node>
+            <node id="n24" person="Eldadus">Eldadus</node>
+            <node id="n25" person="Androgeus">Androgeus</node>
+            <node id="n26" person="Urianus">Filius</node> <!--Urianus, son of Androgeus-->
+            <node id="n27" person="Eliud">Eliud</node>
+            <node id="n28" person="Cledaucus">Dedacus</node>
+            
+            <link to="n2" from="n1" relationship="has_sibling"/>
+            <link to="n3" from="n2" relationship="has_sibling"/>
+            <link to="n4" from="n3" relationship="has_sibling"/>
+            <link to="n5" from="n4" relationship="has_sibling"/>
+            <link to="n6 n7" from="n5" relationship="has_sibling"/>
+            
+            <link to="n8" from="n7" relationship="has_sibling"/>
+            <link to="n9 n10 n11" from="n8" relationship="has_sibling"/>
+            <link to="n29" from="n9" relationship="has_sibling"/>
+            <link to="n14 n15" from="n10" relationship="has_sibling"/>
+            <link to="n18" from="n11" relationship="has_sibling"/>
+            <link to="n12" from="n16" relationship="has_sibling"/>
+            <link to="n17" from="n13" relationship="has_sibling"/>
+            
+            <link to="n23 n24 n25" from="n24" relationship="has_sibling"/>
+            <link to="n26" from="n25" relationship="has_sibling"/>
+            
+            <graph_text>
+                <note hand="English_secretary" language="LA" internal_link="n2">A[nn]o Mundi 3689: ante Chri[st]i Anno 276.</note>
+            </graph_text>
+            <translation>he year of the world 3689: the year 276 before Christ.</translation>
+        </graph>
         
     </annotation>
 </transcription>
