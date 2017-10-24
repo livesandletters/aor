@@ -13,7 +13,7 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         I[ohn]. D[ee]. No[n]du[m] talem templum, sed vbi post Templu[m] co[n]cordia[e] erat.
-                    </marginalia_text> <!--Transcription incomplete. Also a faded word above marginal note.-->
+                    </marginalia_text> <!--Transcription incomplete: a faded word above marginal note.-->
                 </position>
             </language>
             <translation> There was not yet such a temple, but where the temple of Concord was afterwards.</translation>
@@ -39,7 +39,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation> That is, up to the head of the island.</translation> <!-- NBW: Suggest "top" for "head" i.e. to the furthest extent-->
+            <translation> That is, up to the top of the island.</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Chenulfo duci Maurorum">
@@ -51,8 +51,7 @@
                     <person name="Chenulfus"/>
                 </position>
             </language>
-            <translation>Chenulfus, leader of the Morini.</translation>
-            <!-- NBW: Reeve and Wright's edition has "Morianorum," translated as "Flemings" Same meaning, but more apparent to an anglophone reader? -->
+            <translation>Chenulfus, leader of the Flemings.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Elfu[n]gii Norgnege[n]siu[m]">
@@ -73,7 +72,7 @@
                     <marginalia_text>
                         [deleted quasi] Cum[?] ia[m] p[er] Lustrata [?] insula et om[ni]b[us] [deleted] a Tauteneso [deleted] [?]vt vsq[ue] co[n]sideratis, illi alteri Brenno extremo Insul[a]e nome[n] adidit
                         ta[m]q[uam summo capiti, et vocauit Chatinesium.
-                    </marginalia_text> <!--Transcription and translation incomplete.-->
+                    </marginalia_text> <!--Transcription and translation incomplete.--> <!--JG: I thinks it's 'Cum', 'p[e]rlustrata'-->
                     <location name="Totness"/>
                     <location name="Caithness"/>
                 </position>
@@ -84,7 +83,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        [deleted Catanasa [id est] scortu[m]]
+                        [Catanasa &id_est; scortu[m] libidinosa - deleted]
                     </marginalia_text>
                     <location name="Caithness"/>
                 </position>
@@ -95,35 +94,13 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        [deleted Catanesus, vel potius]
+                        [deleted Catanesus, vel potius Catanesi]
                     </marginalia_text>
                     <location name="Caithness"/>
                 </position>
             </language>
         </marginalia>
         
-        <marginalia hand="English_secretary">
-            <language ident="LA">
-                <position place="tail" book_orientation="0">
-                    <marginalia_text>
-                        [deleted libidinosa]
-                    </marginalia_text>
-                </position>
-            </language>
-        </marginalia>
-        <!-- NBW: I think the belongs with the (id est scortum" annotation above -->
-        
-        <marginalia hand="English_secretary">
-            <language ident="LA">
-                <position place="tail" book_orientation="0">
-                    <marginalia_text>
-                        [deleted Catanesi]
-                    </marginalia_text>
-                    <location name="Caithness"/>
-                </position>
-            </language>
-        </marginalia>
-<!-- NBW: I think this belongs with the "vel potius" annotation above -->
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
@@ -155,7 +132,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        x Insula Desiderij, vel Insula desiderata[e]. 
+                        &id_est; Insula Desiderij, vel Insula desiderata[e]. 
                     </marginalia_text>
                 </position>
             </language>
