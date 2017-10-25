@@ -19,18 +19,25 @@
             </translation>
         </marginalia>
         
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>&Conjunction; &Jupiter; &Sun; &Saturn; &Sun; &Mars; &Sun;</marginalia_text>
+                    <symbol_in_text name="Conjunction"/>
+                    <symbol_in_text name="Jupiter"/>
+                    <symbol_in_text name="Saturn"/>
+                    <symbol_in_text name="Sun"/>
+                    <symbol_in_text name="Mars"/>
+                </position>
+            </language>
+            <translation>The conjunction of Jupiter and the Sun; of Saturn and the Sun; of Mars and the Sun.</translation>
+        </marginalia>
+        
         <underline method="pen" type="straight" language="LA" text="Tribus modis praesciuntur accide[n]tia hominu[m], nel ex natiuitate propria, uel primogeniti filii, uel ex interrogatione cum affectu &amp; sollicitudine cognita"/>
         <underline method="pen" type="straight" language="LA" text="Notabis semper configurationem stellaru[m], no[n] per signa, sed per radios"/>
         
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Venus" place="left_margin"/>
-        <symbol name="Opposite_planets" place="left_margin"/> <!-- FSF: not sure about this one -->
-        <symbol name="Jupiter" place="left_margin"/>
-        <symbol name="Sun" place="left_margin"/>
-        <symbol name="Saturn" place="left_margin"/>
-        <symbol name="Sun" place="left_margin"/>
-        <symbol name="Mars" place="left_margin"/>
-        <symbol name="Sun" place="left_margin"/>
         
         <mark name="bracket" method="chalk" place="left_margin" colour="red"/>
         <mark name="vertical_bar" method="chalk" place="left_margin" colour="red"/>

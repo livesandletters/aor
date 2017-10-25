@@ -12,11 +12,13 @@
                     <marginalia_text>
                         &North_Node; &South_Node; Vide Cardanus multo audacius multa de capite et cauda pronunciat 
                     </marginalia_text>
+                    <symbol_in_text name="North_Node"/>
+                    <symbol_in_text name="South_Node"/>
                     <person name="Girolamo Cardano"/>
                 </position>
             </language>
             <translation>
-                See, Cardano delivers much about the head and fall much more audaciously.
+                See, Cardano delivers much about the head and tail much more audaciously.
             </translation>
         </marginalia>
         
@@ -37,13 +39,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Et ego exportus sum p[er] &Aquarius; <!-- FSF: not sure about exportus -->
-                        <!-- M.B. Possibly 'expletus' ? by no means certain though. -->
+                        Et ego expertus sum p[er] &Aquarius; 
                     </marginalia_text>
+                    <symbol_in_text name="Aquarius"/>
                 </position>
             </language>
             <translation>
-                
+                As I am an expert through Aquarius.
             </translation>
         </marginalia>
         

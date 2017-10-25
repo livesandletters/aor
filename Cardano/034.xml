@@ -11,7 +11,7 @@
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>De ductoria planetaru[m]. fo. 170.v.
                     Reflexio et tra[n]slatio luminis fo. 177. fo. 169.
-                    figura[e] dominus 168.v. 208.v. <!--JG: Not entirely sure about dominus--> <!-- FSF: it looks a bit like dominicus, but that would not make sense -->
+                    figura[e] dominius 168.v. 208.v.  <!--JG: Unsure about 'dominius'. Refers to page which contains the note 'figurae dominus'-->
                     primus / secundus / et tertius domin[us] alicui[us] dom[us]. 281 et fo 236..v.
                     Chronocrator / fo 149 //
                     Alfridaria. particularis et generalis 156.v.
@@ -53,30 +53,38 @@
             <translation>He notes the transition of the lord of the geniture or the ascendant. Et cetera in het edition [of] 1543. Folio aa1.</translation>
         </marginalia>
         
-        <!-- FSF: I can't see the boxed text Reuolutio[n]es diurna[e] transcribed  -->
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>Reuolutio[n]es diurnae[e]</marginalia_text>
+                </position>
+            </language>
+            <translation>Daily revolutions.</translation>
+        </marginalia>
         
         <marginalia hand="English_secretary" date="28-10-1553">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>Probabile est in annuis revolutionibus no[n] fieri illum saltu[m] post die[s] 365 co[m]pletas, sed sup[er]
-                    numerariu[m] illud tempus 5 horaru[m] et 55 minutorum in diurnas elapsi [anni] revolutiones absumi p[otes]t si, tempori radicis vel revolution[is] <!-- FSF: anni is fine, I thinkt -->
-                    addatur pro quolibet die minutu fere vnu[m], dico fere, na[m] pro singulis 36 diebus elapsis addantur tantum 35 minuta. Et ad illud tempus <!-- FSF: I would write quodlib[et]; maybe vnu[m] for the missing word? -->
+                    numerariu[m] illud tempus 5 horaru[m] et 55 minutorum in diurnas elapsi anni revolutiones absumi p[otes]t si, tempori radicis vel revolution[is] 
+                    addatur pro quolib[et] die minutu fere vnu[m], dico fere, na[m] pro singulis 36 diebus elapsis addantur tantum 35 minuta. Et ad illud tempus 
                     figura erigatur cum pr[a]esenti tum ca[e]li forma. At alias directionu[m] formas vide in aphorismis n[ost]ris. / vel, 
                     Probabilius est, maiore[m] certitudine[m] inveniri in nature et causarum ordine perseque[n]do, ad effectus eliciendos futuros, vel memorandos
                     transactos, qui talis est, videm[us] diebus singulis &Sun;e[m], suo redit[u] ad idem diem [conpletur], vnde et nos notat loco &Sun;is tempore revolutionis, <!-- FSF: I think completur is something like confictus; I believe the tu belongs to respectu -->
-                    [resp...] [..] [ et xi] horizontis et loci singulis totius anni seque[n]tibus diebus, quoties ad simile[m] situ[m] et position[is]
-                    circulu[m] recurrat, et ip[su]m et caeteros planetas considerabim[us] pro ille tempore, vbi sunt in [sig.....] locati. Deinde in [motu] <!-- FSF: something like signifero -->
-                    eius diei [d..no = denuo?], quomodo [reru[m]] significatores temporanei ad loca aptissima pro suis significatis prodace[m] die[m] ferantur etc. j.d. 1553. 28 octb[ris].</marginalia_text> <!-- FSF: I think the third word is diurno -->
-                    <symbol_in_text name="Sun"/> <!-- FSF: isn't John Dee to be tagged as well? -->
+                    [respectu] [ et xi] horizontis et loci singulis totius anni seque[n]tibus diebus, quoties ad simile[m] situ[m] et position[is]
+                    circulu[m] recurrat, et ip[su]m et caeteros planetas considerabim[us] pro ille tempore, vbi sunt in [signifero] locali. Deinde in [motu] <!-- FSF: something like signifero -->
+                    eius diei diurno, quomodo [reru[m]] significatores temporanei ad loca aptissima pro suis significatis prodace[m] die[m] ferantur etc. j.d. 1553. 28 octb[ris].</marginalia_text> <!-- FSF: I think the third word is diurno -->
+                    <symbol_in_text name="Sun"/>
+                    <person name="John Dee"/>
                 </position>
             </language>
-            <translation>It is probable that in the 'revolution years' (annuis revolutionibus) that leap cannot be done after 365 complete days, but <!--JG: Unsure how best to translate 'annuis revolutionibus'--> <!-- FSF: I'd say yearly revolution -->
+            <translation>It is probable that in the yearly revolutions that leap cannot be done after 365 complete days, but  
             that in addition to the arithmatician, that time of five hours and 55 minutes elasped on a daily basis, it can be that the revolutions of a year are wasted if it is added to the time
             of the root or revolution for whatever day to lessen [....] [....], I say in general, for only 35 minutes are added for 36 individual elapsed days. And for that time a figure is constructed both for the present form and of the sky <!-- JG: Unsure about 'cum praesenti tum caeli forma'-->
             And see the other forms of the directions in our aphorisms. Or, it is more probable that a greater certitude is found in the nature and order of the causes [which is] to be taken up with the
             aim of eliciting future effest or remembering transactions, which is of such kind: we see the sun on invidual days, it is fulfilled by its return, hence even it observes us [??] <!--JG: Don't get this 'nos notat loco', what is the subject??-->
             in the place of the sun in the time of the revolution [...........] of the horizon and place for the invidual following days of the whole year, it returns daily towards a similar place and cycle of the position,
-            and we will consider itself and the remaining planets for that time, where they are in [....] [....]. Thence in the motion of that day [...], how the timely signifiers of matters were brought to the most apt place 
+            and we will consider itself and the remaining planets for that time, where they are in the chief location. Thence in the daily motion of that day, how the timely signifiers of matters were brought to the most apt place 
             for their significations [prodacem diem??]. John Dee, October 28, 1553.</translation> 
         </marginalia>
         
@@ -84,11 +92,11 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>Exactissime pro diurnis revolutionib[us] proveniunt secunda minuta
-                    s8 et 150/365 vni[us] &id_est; 30/73) minuti. Ergo ante [nimium] [dedim[us]]: cum vnu[m] minutum primu[m] <!-- FSF: I think it is 58; maybe dedimus is deditic[us]? but dedimus actually works better here -->
+                    58 et 150/365 vni[us] &id_est; 30/73) minuti. Ergo ante [nimium] [dedim[us]]: cum vnu[m] minutum primu[m] <!-- FSF: I think it is 58; maybe dedimus is deditic[us]? but dedimus actually works better here -->
                     assignavim[us].</marginalia_text>
                 </position>
             </language>
-            <translation>The minutes and seconds come forth most exactly for daily revolutions. Six seconds and 150/365 of one [year], that is <!-- FSF: '58' not 'six seconds'; I don't think the year is correct here; maybe minute? -->
+            <translation>The minutes and seconds come forth most exactly for daily revolutions. 58 [seconds] and 150/365 of one [year], that is <!-- FSF: '58' not 'six seconds'; I don't think the year is correct here; maybe minute? -->
             30/73 minutes. Therefore, we attributed too much before: when we assigned one minute first.</translation> <!--JG: Extremely unsure, both abt transcription and translation-->
         </marginalia>
         
