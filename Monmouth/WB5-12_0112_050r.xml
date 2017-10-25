@@ -12,15 +12,16 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        J[ohn] D[ee]. Witichindus Monachus, s[???]te[?] quia recenseti co[n]tra Thurmigos designat[???] esse p[er] Saxones hoc tempore: [???]amq[ue] con[sol]anda[m] monet historia. mal&egrave; ergo n[om]i[n]a pro suis memorat: co[n].
+                        J[ohn] D[ee]. Witichindus Monachus, simile q[uo]m[od]o recenset co[n]tra Thuringos designatum esse p[er] Saxones hoc tempore: n[imi]ramq[ue] con[sol]anda[m] monet historia[m]. mal&egrave; ergo n[ost]ra pro suis memorat: [etc].
                     </marginalia_text> <!--Incomplete transcription.-->
                     <person name="John Dee"/>
-                    <book title="Witichindus Monachus"/>
+                    <person name="Widukind of Corvey"
+                    <book title="Res gestae saxonice"/>
                 </position>
             </language>
-            <translation>John Dee. "Witichindus Monachus"</translation>
+            <translation>John Dee. Widukind the monk somewhat similarly recounts a scheme by the Saxons against the Thuringians at this time: and admonishes that our history should be heeded: Ours reflects badly indeed upon his men.</translation>
         </marginalia>
-        
+       <!-- NBW: This isn't elegant, but I think it's what Dee means. The his in "pro suis" could also refer to Widukind ie. "his own people" --> 
         <underline method="pen" type="straight" language="LA" text="nimet oure"/>
         <underline method="pen" type="straight" language="LA" text="circiter quadringento"/>
         <underline method="pen" type="straight" language="LA" text="sexaginta"/>
