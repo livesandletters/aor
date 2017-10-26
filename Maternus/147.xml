@@ -5,7 +5,7 @@
     <page filename="147.tif" reader="John Dee" pagination="124" signature="[l 2[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -18,7 +18,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -38,6 +38,8 @@
                     <marginalia_text>
                         Quam ha[e]c mihi quadrent o[mn]ia fere, Deus novit mihi &Saturn; in &Taurus;.2. et in 6a domo. <!-- M.B. I would use '&a_super;' here. -->
                     </marginalia_text>
+                    <symbol_in_text name="Saturn"/>
+                    <symbol_in_text name="Taurus"/>
                 </position>
             </language>
             <translation>
@@ -45,12 +47,15 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         mihi &Trine; &Venus; &Saturn; <!-- FSF: I am not sure what the last symbol is --> <!-- M.B Not sure of this symbol either have never came across it before. -->
                     </marginalia_text>
+                    <symbol_in_text name="Trine"/>
+                    <symbol_in_text name="Venus"/>
+                    <symbol_in_text name="Saturn"/>
                 </position>
             </language>
             <translation>

@@ -6,7 +6,7 @@
     <page filename="097.tif" reader="John Dee" pagination="74" signature="[g[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="uestitores diuinorum simulachrorum">
+        <marginalia hand="English_secretary" anchor_text="uestitores diuinorum simulachrorum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -19,12 +19,14 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         &Mercury; cu[m] &Jupiter; in nono loco.
                     </marginalia_text>
+                    <symbol_in_text name="Mercury"/>
+                    <symbol_in_text name="Jupiter"/>
                 </position>
             </language>
             <translation>

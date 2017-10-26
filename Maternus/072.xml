@@ -6,12 +6,12 @@
     <page filename="072.tif" reader="John Dee" pagination="49" signature="e"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         Per omnia decreta operepreciu[m] est videre qua[m] ingens discrime[n] ipsius apotolesmatis a[e]fficias, planetam alique[m] esse 
-                        secundu[m] suam conditione[m], vel co[n]tra. id est planeteas diurnus die sup[ra] ... esse nocte vero sub.. mea[m]: prepende
+                        secundu[m] suam conditione[m], vel co[n]tra. id est planeteas diurnus die sup[ra] terra esse nocte vero sub.. mea[m]: prepende
                         bene q[uod] res summa est, vt in singulis decetis reine.. possis <!-- FSF: some words still missing -->
                     </marginalia_text>
                 </position>
@@ -21,12 +21,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         &Saturn; orie[n]talis
                     </marginalia_text>
+                    <symbol_in_text name="Saturn"/>
                 </position>
             </language>
             <translation>
@@ -34,12 +35,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         &Saturn; occide[n]talis
                     </marginalia_text>
+                    <symbol_in_text name="Saturn"/>
                 </position>
             </language>
             <translation>
