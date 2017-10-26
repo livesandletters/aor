@@ -61,7 +61,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Considera qua r[ati]o[n]e Anna soror Arthuri primo, Lotho, deinde Dubritii vxor esse poterat. Non [deleted vel] qua duas sorores habebat [deleted vel] Anna[m] et Helenam. Anna Lothi vxor erat et Helena Dubritij.
+                        Considera qua r[ati]o[n]e Anna soror Arthuri primo, Lotho, deinde Dubritii vxor esse poterat. Non [deleted vel] quia duas sorores habebat [deleted vel] Anna[m] et Helenam. Anna Lothi vxor erat et Helena Dubritij.
                     </marginalia_text>
                     <person name="Anna"/>
                     <person name="King Arthur"/>
@@ -70,26 +70,28 @@
                     <person name="Helena"/>
                 </position>
             </language>
-            <translation>Consider that Anna, sister of Arthur, could firstly be the wife of Lot, then of Dubricius. Not that he had two sisters, Anna and Helena. Anna was the wife of Lot and Helena of Dubricius.</translation>
+            <translation>Consider that Anna, sister of Arthur, could firstly be the wife of Lot, then of Dubricius. No, because he had two sisters, Anna and Helena. Anna was the wife of Lot and Helena of Dubricius.</translation>
+       <!--NBW: These are actually two annotations building on one another. The first one would translate "Consider by what means Anna could be the wife first of Lot, and later of Dubricius, or (that Arthur) had two sisters etc." The second pass corrects the bottom line to what is translated above.(No, because he had two sisters). Unsure of how to render -->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="stagno voraretur"/>
-        <underline method="pen" type="straight" language="LA" text="in restituendis"/>
-        <underline method="pen" type="straight" language="LA" text="nibus pristinis &amp;"/>
+        <underline method="pen" type="straight" language="LA" text="sedulitas in restituendis"/>
+        <underline method="pen" type="straight" language="LA" text="possessionibus pristinis &amp;"/>
         <underline method="pen" type="straight" language="LA" text="natalis domini"/>
         <underline method="pen" type="straight" language="LA" text="beato Samsone archiepiscopo cunctisq[ue] sanctae"/>
         <underline method="pen" type="straight" language="LA" text="praeualuerat. Exinde co[n]uocato clero &amp; populo"/>
         <underline method="pen" type="straight" language="LA" text="Proceres autem"/>
         <underline method="pen" type="straight" language="LA" text="ibi"/>
-        <underline method="pen" type="straight" language="LA" text="regali psapia"/>
+        <underline method="pen" type="straight" language="LA" text="regali p[ro]sapia"/>
         <underline method="pen" type="straight" language="LA" text="orti Loth"/>
-        <underline method="pen" type="straight" language="LA" text="Vrianus"/>
+        <underline method="pen" type="straight" language="LA" text="atq[ue]Vrianus"/>
         <underline method="pen" type="straight" language="LA" text="Auguselus"/>
         <underline method="pen" type="straight" language="LA" text="principatum illarum partium"/>
         <underline method="pen" type="straight" language="LA" text="paterno iure donare"/>
-        <underline method="pen" type="double" language="LA" text="reddidit Auguselo"/>
-        <underline method="pen" type="straight" language="LA" text="regiam potestatem Scotorum"/>
-        <underline method="pen" type="straight" language="LA" text="sceptro Ambrosii"/>
+        <underline method="pen" type="double" language="LA" text="reddidit"/>
+        <underline method="pen" type="straight" language="LA" text="Auguselo regiam potestatem Scotorum"/>
+        <underline method="pen" type="straight" language="LA" text="sceptro Murefre[n]sium insignuit"/>
+        <underline method="pen" type="straight" language="LA" text="Loth autem qui te[m]pore Aurelii Ambrosii"/>
         <underline method="pen" type="straight" language="LA" text="co[n]sulatum Londonesi[a]e"/>
         <underline method="pen" type="straight" language="LA" text="caeterarumq[ue] comprouinciarum"/>
         <underline method="pen" type="straight" language="LA" text="quae ad eum"/>
@@ -99,7 +101,7 @@
         <underline method="pen" type="straight" language="LA" text="Hyberni[a]e insulam"/>
         <underline method="pen" type="straight" language="LA" text="quam sibi subdere desiderabat"/>
         
-        <mark name="circumflex" method="pen" place="left_margin"/>
+        <errata language="LA" copytext="Pytannum" amendedtext="Pyrannum"/> 
         
         <mark name="bracket" method="pen" place="intext"/> <!--autem qui-->
         <mark name="bracket" method="pen" place="intext"/> <!--genuerat ad-->
