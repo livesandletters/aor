@@ -6,7 +6,7 @@
     <page filename="061.tif" reader="John Dee" pagination="38" signature="[d[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="te[m]pus">
+        <marginalia hand="English_secretary" anchor_text="te[m]pus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -19,7 +19,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Alii">
+        <marginalia hand="English_secretary" anchor_text="Alii">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -32,7 +32,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -45,7 +45,23 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary" anchor_text="Ptholomaeus [...] Antiochius [...] Dorochius">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        Ptolomaeus. Antiochus. Dorochius
+                    </marginalia_text>
+                    <person name="Ptolomy"/>
+                    <person name=""/>
+                    <person name="William of Drogheada"/>
+                </position>
+            </language>
+            <translation>
+                Ptolemy, William of Drogheada. <!-- FSF: not sure who the one in the middle is -->
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
