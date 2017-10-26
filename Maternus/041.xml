@@ -6,13 +6,18 @@
     <page filename="041.tif" reader="John Dee" pagination="18" signature="[b 3[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Licet hic hunc luna[e] ordine[m] animadvertere p[ro] planeta[e] vt ordine[m] se complectuntur, et sequitur mutuo ita hic desruptos esse serie co[n]tinuata. <!--JG: I don't think it's 'pro', perhaps 'quem'?-->
+                        Licet hic hunc luna[e] ordine[m] animadvertere q[uod] planeta[e] vt ordine[m] se complectuntur, et sequitur mutuo ita hic desruptos esse serie co[n]tinuata.
                         vt co[n]stituto semel exordio a &Mars; decano, quonia[m] hinc succidit &Sun;: solis proximus est positus decanus deinde &Venus;, tu[m] &Mercury; vltimo &Moon;: Trium ad Saturnu[m] reverti ordine[m] persequimur p[ri]ore.
                     </marginalia_text>
+                    <symbol_in_text name="Mars"/>
+                    <symbol_in_text name="Sun"/>
+                    <symbol_in_text name="Venus"/>
+                    <symbol_in_text name="Mercury"/>
+                    <symbol_in_text name="Moon"/>
                 </position>
             </language>
             <translation>
@@ -21,7 +26,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Est aute[m] pars in signo">
+        <marginalia hand="English_secretary" anchor_text="Est aute[m] pars in signo">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
