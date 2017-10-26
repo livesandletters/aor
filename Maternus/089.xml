@@ -6,7 +6,7 @@
     <page filename="089.tif" reader="John Dee" pagination="66" signature="[f 3[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -19,7 +19,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="mulier"> 
+        <marginalia hand="English_secretary" anchor_text="mulier"> 
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -32,7 +32,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="mulier">  
+        <marginalia hand="English_secretary" anchor_text="mulier">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -45,7 +45,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="archigallos">
+        <marginalia hand="English_secretary" anchor_text="archigallos">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -58,12 +58,14 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         no[n] opus vt admoneu[m] decimo de &Venus;is dista[n]tia a &Sun; <!-- FSF: third word unclear -->
                     </marginalia_text>
+                    <symbol_in_text name="Venus"/>
+                    <symbol_in_text name="Sun"/>
                 </position>
             </language>
             <translation>
@@ -71,12 +73,13 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Etia[m] cogita de Antiscijs: ut sup[ra] dixis de &Jupiter;is antesciu[m] in 12a doma. sup[ra] pag. 42 linea ultima.
                     </marginalia_text>
+                    <symbol_in_text name="Jupiter"/>
                     <internal_ref>
                         <target ref="UCLOgden:065" text="pag. 42"/>
                     </internal_ref>
