@@ -12,20 +12,23 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Boso de Vado Boum Oxenforde richiden. fol. ds.
+                        Boso de Vado Boum Oxenforde richiden. fol. 85.
                     </marginalia_text>
                     <person name="Boso"/>
                     <location name="Oxford"/>
+                    <internal_ref>
+                        <target ref="WB5-12_0193_085r" text=" 85." prefix=" fol."/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation>Boso of Vado Boum. Oxford. Richiden.</translation>
+            <translation>Boso of Vado Boum. Oxford. Richiden. </translation>
         </marginalia>
-        
+        <!-- NBW: I think I've done this right - Dee has underlined "Richiden" on fol. 85, should that be a further target or is the page sufficient?-->
         <marginalia hand="English_secretary" anchor_text="Guerinu[m] carnote[n]sem">
             <language ident="EN">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Guarinus Carnote[n]sis Warm of Charters in the edge of Norma[n]dy
+                        Guarinus Carnote[n]sis Warin of Charters in the edge of Norma[n]dy
                     </marginalia_text>
                     <person name="Guerinus of Chartres"/>
                 </position>
