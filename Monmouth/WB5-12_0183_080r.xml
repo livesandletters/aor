@@ -8,6 +8,46 @@
     <page filename="WB5-12_0183_080r.tif" reader="Dee"/>
     <annotation>
         
+        <marginalia hand="English_secretary" anchor_text="sexaginta milia">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>6000</marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="vigi[n]ti milia">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>120000</marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>[60000 - deleted]</marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="octoginta milia">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>80000</marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="octoginta &amp; tria milia">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>1200</marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -17,7 +57,7 @@
                 </position>
             </language>
             <translation> an imperfect total in this account</translation>
-            <!-- NBW: Needs work; first word still illegible. -->
+            <!-- NBW: Needs work; first word still illegible. --> <!--JG: Could it be locus?-->
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -60,14 +100,14 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         Gelandia no[n] debet censeri exigua Insula cum ne[?] Hibernia minor sit vt asserit Nicolaus Genus qui in ea fuerit: et cum vt ministret milites quot Hibernia, vel Orcades [etc]
-                    </marginalia_text> <!--Transcription and translation incomplete.// NBW: Still some uncertainty-->
+                    </marginalia_text> <!--Transcription and translation incomplete.// NBW: Still some uncertainty--> <!--JG: nec instead of ne?-->
                     <location name="Gothland"/>
                     <location name="Ireland"/>
                     <location name="Orkney Islands"/>
                 </position>
             </language>
             <translation>Gothland must not be considered as small island as Hibernia minor, as Nicolaus Genus argues, who was from there: and since it should send soldiers as Hibernia, or the Orcades, etc.   </translation>
-        </marginalia>
+        </marginalia> <!--JG: Could translation be (if it is indeed nec instead of ne): Gothland must not be considered small since not even Hibernia is smaller, as...-->
         
         <underline method="pen" type="straight" language="LA" text="singuli quot in obsequiu[m] eius debebant"/>
         <underline method="pen" type="straight" language="LA" text="dux Armoricae"/>
@@ -90,26 +130,6 @@
         
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        
-        <numeral place="right_margin">
-            60000
-        </numeral>
-        
-        <numeral place="right_margin">
-            120000
-        </numeral>
-        
-        <numeral place="right_margin">
-            [deleted 60000]
-        </numeral>
-        
-        <numeral place="right_margin">
-            80000
-        </numeral>
-        
-        <numeral place="right_margin">
-            1200
-        </numeral>
         
         <errata language="LA" copytext="Ad" amendedtext="At"/>
 
