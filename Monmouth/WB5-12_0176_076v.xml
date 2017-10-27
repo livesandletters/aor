@@ -99,7 +99,7 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         habet Io[ann]es Magnus circa hic tempora. Attilum Regens Gallia[e] et suetiae. et etia[m] meminit Loth Regis Norvegi[a]e.
-                    </marginalia_text> <!--Transcription and translation incomplete.// NBW: I Think this is it-->
+                    </marginalia_text> <!--Transcription and translation incomplete.// NBW: I Think this is it--> <!--JG: Shouldn't it be 'ha[e]c' instead of hic (which doesn't agree with tempora)?-->
                     <person name="Johannes Magnus"/>
                     <person name="Attilius"/>
                     <person name="Lot"/>
@@ -126,8 +126,8 @@
         <underline method="pen" type="straight" language="LA" text="Galliaru[m] pares siue"/>
         
         <errata language="LA" copytext="Chenes" amendedtext="Keneu"/>
-        <errata language="LA" copytext="map apo" amendedtext="[deleted]" id="WB5-12_0176_076v_u0002"/>
-        <!-- NBW: Dee underlined this word in the text, then crossed it out and amended it with his note in the margin (vab pabo) Did I transcribe this right -->
+        <errata language="LA" copytext="map apo" amendedtext="[deleted]"/>
+        <!-- NBW: Dee underlined this word in the text, then crossed it out and amended it with his note in the margin (vab pabo) Did I transcribe this right --> <!--JG: You did, but you don't need to give an ID in this give (so I delted it)-->
         
     </annotation>
 </transcription>
