@@ -10,25 +10,25 @@
         <marginalia hand="English_secretary" anchor_text="legem antiquastis">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>antiquaui lege</marginalia_text>
+                    <marginalia_text>antiqua[e] lege</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Ancient law.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>ro[n]situra</marginalia_text>
+                    <marginalia_text>co[n]situra</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Sowing.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="obtineri">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>olinitati</marginalia_text>
+                    <marginalia_text>obtinetati</marginalia_text> <!-- M.B. Not sure? -->
                 </position>
             </language>
             <translation></translation>
@@ -38,9 +38,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Plato Crantor Pana[e]tius</marginalia_text>
+                    <person name="Plato"/>
+                    <person name="Crantor"/>
+                    <person name="Panaetius"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Plato, Crantor, Panaetius.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="vrebe[m]">
@@ -49,7 +52,7 @@
                     <marginalia_text>Vrbs, quid sit</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>What is the city?</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="ciuitas">
@@ -58,7 +61,7 @@
                     <marginalia_text>Ciuitas.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Citizenship.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="nauigat">
@@ -67,25 +70,25 @@
                     <marginalia_text>Nauigaus</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Navigate.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="lubidines, quae sunt innumerabiles iracu[n]diae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Libido. Ira.</marginalia_text>
+                    <marginalia_text>Libido. Ira[cundiae].</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Pleasure, irritability.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="patria, &amp; est antiquior parens">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Patria, parens</marginalia_text>
+                    <marginalia_text>Patria. parens</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Fatherland, parent.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="concordiam">
@@ -94,25 +97,26 @@
                     <marginalia_text>Concordia.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Concord.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Salustius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Sallustus in Histor.</marginalia_text>
+                    <marginalia_text>Sallustus in Histor[ia].</marginalia_text>
+                    <person name="Sallust"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Sallust's History.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>pignerare</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Pledge.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="se comitem"/>
