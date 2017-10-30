@@ -24,7 +24,7 @@
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        Rice ap howell beda [deleted: Dee] Dee otherwise called Rice ap Howell Dee dwelling at Erscod, is executor:b his brother Lewys, who gaue me the first note of my pedygree.: 1567. This Rice is dead also.
+                        Rice ap howell bedo [deleted: Dee] Dee otherwise called Rice ap Howell Dee dwelling at Discod, is executor to his brother Lewys, who gaue me the first note of my pedygree.: 1567. This Rice is dead also.
                     </marginalia_text>
                     <person name="Rice ap Howell Dee"/>
                     <emphasis method="pen" type="straight" text="Lewys, who"/>
@@ -36,7 +36,7 @@
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        M[iste]r Clyderall, hath at Newcastell a barell full, of old hystories of this land. This M[iste]r Clyderall was a student of Cambrige in my tyme, and of M[iste]r Morley is acopiayntance and my als[o].
+                        M[iste]r Clyderall, hath at Newcastell a barell full, of old hystories of this land. This M[iste]r Clyderall was a student of Cambrige in my tyme, and of M[iste]r Morley his acquayntance and my als[o].
                     </marginalia_text>
                     <location name="Newcastle"/>
                     <location name="Cambridge"/>
@@ -48,28 +48,32 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        } Macling de Legibus Druidu[m] Aluvedi te[m]pore Servasius de antiquis Brytannia regibus 
-                        Pancratius de statu Bryta[n]nia[e] te[m]porib[us] suis et ante 200 a[n]nos Jeoffri[us] de epis[cope[ 
-                        Henric[us] Lanest
+                        } Maclin[us] de Legibus Druidu[m] Aluredi te[m]pore Iervasius de antiquis Brytannia[e] regibus 
+                        Pancratius de statu Bryta[n]nia[e] te[m]porib[us] suis et ante 200 a[n]nos Ieoslin[us] de ep-iscop]is 
+                        Henric[us] Lacestre[n]s <!-- NBW: Possibly partially lost -->
                     </marginalia_text>
-                    <book title="De Legibus Druidum"/>
+                    <book title="De Legibus Druidum in Aluredi tempore"/>
                     <book title="De Antiquis Brytannia regibus"/>
-                    <book title="De Statu Brytanniae"/>
+                    <book title="De Statu Brytanniae temporibus suis et ante 200 annos"/>
                 </position>
             </language>
-            <translation>} Macling's "De Legibus Druidum", Aluvedus' "Tempore", Servasius' "De Antiquis Brytannia regibus", Pancratius' "De Statu Brytanniae" from his times and before 200 years</translation>
+            <translation>} Maclinus' "De Legibus Druidum in Aluredi tempori", Gervasius' "De Antiquis Brytannia regibus", Pancratius' "De Statu Brytanniae" in his own time and 200 years before, Goscelinus, "De Episcopis",  </translation>
         </marginalia>
       
         <marginalia hand="English_secretary">
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        M[iste]r Cary in chepes side hath many good moniments. as of Syluester Gyraddus Cabre??? his sundry works. 
-                        Nennius. Honedus Higdon, Avesbury &amp;
+                        M[iste]r Cary in chepes side hath many good moniments. as of Syluester Gyraldus Ca[m]brensis his sundry works. 
+                        Nennius. Hovedon Higdon, Avesbury [etc.] 
                     </marginalia_text>
                     <person name="Nennius"/>
+                    <person name="Geraldus Cambrensis"/>
+                    <person name="Ranulph Higden"/>
+                    <person name="Roger of Howden"/>
                     <person name="Robert of Avesbury"/>
                     <location name="Cheapside"/>
+                    <!-- NBW: These are both references to authors and their works, as on the front flyleaves. -->
                 </position>
             </language>
             <language ident="LA">
@@ -87,10 +91,11 @@
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        John stow also the Taylor hath good moniments. who set owt the sommary of the english Chronicle. he hath Robert Avesbury
+                        John stow also the Taylor hath good monime[n]ts. who set out the sommary of the english Chronicle. he hath Robart Avesbury
                     </marginalia_text>
                     <person name="John Stow"/>
                     <person name="Robert of Avesbury"/>
+                    <book title="Summary of the Chronicles of England"/>
                 </position>
             </language>
         </marginalia>
@@ -99,8 +104,9 @@
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        M[iste]r D. Cay of Oxford hath Caradocus Lancarvanensis in Latyn it is to be enquired who had his bokes.
+                        M[iste]r D. Cay of Oxford had Caradocus Lancarvanensis in Latyn it is to be enquired who had his bokes.
                     </marginalia_text>
+                    <!-- NBW: This is possibly a later correction of the note from "has" to "had" -->
                     <person name="Caradoc of Llancarfan"/>
                     <location name="Oxford"/>
                 </position>
