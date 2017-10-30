@@ -27,26 +27,27 @@
                         Armoricana Brytania.
                     </marginalia_text>
                     <location name="Armorica"/>
-                    <location name="Britain"/>
+                    <location name="Brittany"/>
                 </position>
             </language>
             <translation>Armorican Britain</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="librum de exulatione eorum transtulero">
+        <marginalia hand="English_secretary" anchor_text="librum de exulatione eorum transtulero" internal_ref="Wb5-12_0209_093r_u0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Liber de Britonu[m] exilio transferendus</marginalia_text>
                 </position>
             </language>
             <translation>The book concerning the banishment of the Britons.</translation>
+            <!-- NBW This doesn't mention that the book is itself a translation (which Geoffrey claims to have authored) - was that intentional?-->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Secesserunt itaq[ue] Britonum reliquiae in occide[n]tales regni partes, Cornubiam videlicet"/>
-        <underline method="pen" type="straight" language="LA" text="Gaulias"/>
+        <underline method="pen" type="straight" language="LA" text="Gaulias. Vnde"/>
         <underline method="pen" type="straight" language="LA" text="Gaulias"/>
         <underline method="pen" type="straight" language="LA" text="Armonicanam Brita[n]nia[m]"/>
-        <underline method="pen" type="straight" language="LA" text="librum de exulatione"/>
+        <underline method="pen" type="straight" language="LA" text="librum de exulatione" id="Wb5-12_0209_093r_u0001"/>
         <underline method="pen" type="straight" language="LA" text="transtulero"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
