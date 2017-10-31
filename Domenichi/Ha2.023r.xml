@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
 
 	<page filename="Ha2.023r.tif" pagination="369" reader="Harvey"/>	<!-- ABO 027right -->
     	<annotation>
@@ -35,9 +35,9 @@
     					<marginalia_text>
     						a learned Greek wine. pure Greek. s[upr]a / 53. i[nfr]a, 399.
     					</marginalia_text>
-    					<!--JG: 'supra' refers to a page of a part of the book that is missing, hence we can't establish this link. Perhaps at a later stage when we can link to external objects (in this case a complete copy of the Domenichi-->
-    					<internal_ref text="i[nfr]a">
-    						<target filename="Ha2.040r.xml" book_id="FolgersHa2" text="399"/>
+    					<!--JG: 'supra' refers to a page of a part of the book that is missing, hence we can't establish this link. Perhaps at a later stage when we can link to external objects (in this case a complete copy of the Domenichi)-->
+    					<internal_ref>
+    						<target ref="FolgersHa2:040r" text="399"/>
     					</internal_ref>
     				</position>
     			</language>
@@ -63,8 +63,8 @@
     					<marginalia_text>
     						i[nfr]a, 369. 
     					</marginalia_text>
-    					<internal_ref text="i[nfr]a">
-    						<target filename="Ha2.025r.xml" book_id="FolgersHa2" text="369"/>
+    					<internal_ref>
+    						<target ref="FolgersHa2:025r" text="369"/>
     					</internal_ref>
     				</position>
     			</language>

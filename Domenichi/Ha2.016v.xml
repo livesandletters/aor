@@ -4,7 +4,7 @@
 
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
 
 	<page filename="Ha2.016v.tif" pagination="352" reader="Harvey"/>	<!-- ABO 021left -->
     	<annotation>
@@ -68,8 +68,8 @@
     					<marginalia_text>
     						i[nfr]a, 409.
     					</marginalia_text>
-    					<internal_ref text="i[nfr]a">
-    						<target filename="Ha2.045r.xml" book_id="FolgersHa2" text="409"/>
+    					<internal_ref>
+    						<target ref="FolgersHa2:045r" text="409"/>
     					</internal_ref>
     				</position>
     			</language>
@@ -115,7 +115,7 @@
     		</marginalia>
     		 
         
-    		<marginalia hand="Italian" marginalia_id="Ha2.016v_0001" marginalia_continues_from="Ha2.017r_0001" book_id="FolgersHa2" marginalia_from_transcription="Ha2.017r.xml">
+    		<marginalia hand="Italian" marginalia_continues_from="Ha2.017r_0001" book_id="FolgersHa2" marginalia_from_transcription="Ha2.017r.xml" id="Ha2.016v_0001">
     			<language ident="LA">
     				<position place="right_margin" book_orientation="270">
     					<marginalia_text>

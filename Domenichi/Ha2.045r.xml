@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
 	
 	<page filename="Ha2.045r.tif" pagination="409" reader="Harvey"/>	<!-- ABO 49right -->
 	<annotation>
@@ -21,8 +21,8 @@
 					<marginalia_text>
 						vt s[upr]a / 357.
 					</marginalia_text>
-					<internal_ref text="s[upr]a">
-						<target filename="Ha2.017r.xml" book_id="FolgersHa2" text="357"/>
+					<internal_ref>
+						<target ref="FolgersHa2:017r" text="357"/>
 					</internal_ref>
 				</position>
 			</language>
@@ -36,9 +36,9 @@
 					<marginalia_text>
 						Neoterismus s[upr]a, i[nfr]a.
 					</marginalia_text>
-					<internal_ref text="i[nfr]a">
-						<target filename="Ha2.049v.xml" book_id="FolgersHa2" text="[418]"/>
-						<target filename="Ha2.081r.xml" book_id="FolgersHa2" text="[**[r]]"/>
+					<internal_ref >
+						<target ref="FolgersHa2:049v" text="s[upr]a"/>
+						<target ref="FolgersHa2:081r" text="i[nfr]a"/>
 					</internal_ref>
 				</position>
 			</language>
