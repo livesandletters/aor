@@ -20,7 +20,7 @@
             <translation>Arthur's banner.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="Dacis atq[ue] norWegensibus" internal_ref="WB5-12_0194_085v_u0001">
+        <marginalia hand="English_secretary" anchor_text="Dacis atq[ue] norWegensibus"  id="WB5-12_0194_085v_m0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -28,7 +28,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Note: only the Dacians and the Norwegians are mentioned.</translation>
+            <translation>Note: only the Dacians and the Norwegians named themselves.</translation>
             <!-- NBW: I think this is "se" rather than "sunt", nominare being a syncopated perfect - The translation would be something akin to "Note how the Dacians and Norwegians named one another" I don't really get what Dee is saying here, unless he's suggesting that it's important that the Danes and Norwegians considered themselves to be separate people?-->
         </marginalia>
         
@@ -38,6 +38,13 @@
         
         <drawing type="coat_of_arms" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="coat_of_arms" book_orientation="0" place="tail" method="pen"/>
+        
+        <physical_link>
+            <marginal_annotation idref="WB5-12_0194_085v_m0001"/>
+            <marginal_annotation idref="WB5-12_0194_085v_u0001"/>
+            
+            <relation from="WB5-12_0194_085v_m0001" to="WB5-12_0194_085v_u0001" type="directed"/>
+        </physical_link>
         
     </annotation>
 </transcription>
