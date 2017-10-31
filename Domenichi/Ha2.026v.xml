@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
 
 	<page filename="Ha2.026v.tif" pagination="372" reader="Harvey"/>	<!-- ABO 031left -->
     	<annotation>
@@ -42,10 +42,10 @@
     						i[nfr]a, 382. 387.
     						378.
     					</marginalia_text>
-    					<internal_ref text="i[nfr]a">
-    						<target filename="Ha2.031v.xml" book_id="FolgersHa2" text="382"/>
-    						<target filename="Ha2.034r.xml" book_id="FolgersHa2" text="387"/>
-    						<target filename="Ha2.029v.xml" book_id="FolgersHa2" text="378"/>
+    					<internal_ref>
+    						<target ref="FolgersHa2:031v" text="382"/>
+    						<target ref="FolgersHa2:034r" text="387"/>
+    						<target ref="FolgersHa2:029v" text="378"/>
     					</internal_ref>
     				</position>
     			</language>
