@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="earbm_stc_11402_0031.tif" reader="Harvey"  signature="[Aiiii[v]]"/>
     <annotation>
@@ -36,8 +36,8 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>{ i[nfr]a, C. 4. Exe[m]plu[m] 5. Legati ad philippu[m].
                     </marginalia_text>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="earbm_stc_11402_0039.xml" book_id="HoughtonSTC11402" text="[Aviii[v]]"/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0039" text="C. 4."/>
                     </internal_ref>
                 </position>
             </language>
@@ -50,9 +50,9 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text> i[nfr]a, C. 8. Politic&egrave;.
                     C. XI.l.3. </marginalia_text>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="earbm_stc_11402_0056.xml" book_id="HoughtonSTC11402" text="C. 8."/>
-                        <target filename="earbm_stc_11402_0187.xml" book_id="HoughtonSTC11402" text="C. XI.l.3."/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0056" text="C. 8."/>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0187" text="C. XI.l.3."/>
                     </internal_ref>
                 </position>
             </language>

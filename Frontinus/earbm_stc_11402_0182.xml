@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="earbm_stc_11402_0182.tif" reader="Harvey"  signature="[Kviii[r]]"/>
     <annotation>
@@ -12,8 +12,8 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>hypocritica beneficentia. l.4.c.7.</marginalia_text> <!--internal reference, without use of s[upr]a or infra-->
-                    <internal_ref text="l.4.c.7.">
-                        <target filename="earbm_stc_11402_0215.xml" book_id="HoughtonSTC11402" text="[Mviii[v]]"/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0215" text="l.4.c.7."/>
                     </internal_ref>
                 </position>
             </language>

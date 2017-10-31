@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="earbm_stc_11402_0036.tif" reader="Harvey"  signature="[Avii[r]]"/>
     <annotation>
@@ -112,8 +112,8 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>(Iis armis, modisq[ue] pugnandum maxime, in quibus vires maxima[e]: Vt i[nfr]a, in Regulis Vegetij. Nosce teipsum: et rar&ograve; Vinc&ecirc;ris.)</marginalia_text>
                     <person name="Vegetius"/>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="earbm_stc_11402_0226.xml" book_id="HoughtonSTC11402" text="[Nvi[r]]"/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0226" text="i[nfr]a"/>
                     </internal_ref>
                 </position>
             </language>
