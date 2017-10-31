@@ -3,12 +3,12 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
 	
 	<page filename="Ha2.057v.tif" pagination="434" reader="Harvey"/>	<!-- ABO 62left -->
 	<annotation>
 		<!-- Marginalia -->
-		<marginalia hand="Italian" marginalia_id="Ha2.057v_0001" marginalia_continues_to="Ha2.058r_0001" marginalia_to_transcription="Ha2.058r.xml" book_id="FolgersHa2">
+		<marginalia hand="Italian" marginalia_continues_to="Ha2.058r_0001" marginalia_to_transcription="Ha2.058r.xml" book_id="FolgersHa2" id="Ha2.057v_0001">
 			<language ident="LA">
 				<position place="head" book_orientation="0">
 					<marginalia_text>
@@ -30,8 +30,8 @@
 						s[upr]a /
 					</marginalia_text>
 					<internal_ref text="s[upr]a">
-						<target filename="Ha2.042r.xml" book_id="FolgersHa2" text="[403]"/> <!--bisticcio-->
-						<target filename="Ha2.042v.xml" book_id="FolgersHa2" text="[404]"/>
+						<target ref="FolgersHa2:013v" text="[403]"/> <!--bisticcio-->
+						<target ref="FolgersHa2:013v" text="[404]"/>
 					</internal_ref>
 				</position>
 			</language>
@@ -72,7 +72,7 @@
 				( 1. Witty remarks based on words. Descants. )
 			</translation>
 		</marginalia>
-		<marginalia hand="Italian" marginalia_id="Ha2.057v_0002" marginalia_continues_to="Ha2.058r_0002" marginalia_to_transcription="Ha2.058r.xml" book_id="FolgersHa2">
+		<marginalia hand="Italian" marginalia_continues_to="Ha2.058r_0002" marginalia_to_transcription="Ha2.058r.xml" book_id="FolgersHa2" id="Ha2.057v_0002">
 			<language ident="LA">
 				<position place="tail" book_orientation="0">
 					<marginalia_text>
