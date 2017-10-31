@@ -181,8 +181,6 @@
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="attlist.target">
-    <xs:attribute name="filename"/> <!--obsolete-->
-    <xs:attribute name="book_id"/> <!--obsolete-->
     <xs:attribute name="ref" use="required"/>
     <xs:attribute name="text" use="required"/>
     <xs:attribute name="prefix"/>
