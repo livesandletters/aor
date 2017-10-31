@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="earbm_stc_11402_0220.tif" reader="Harvey"  signature="Niii[r]"/>
     <annotation>
@@ -98,11 +98,9 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>/ vt pauca, s[upr]a, i[nfr]a.</marginalia_text>
-                    <internal_ref text="s[upr]a">
-                        <target filename="earbm_stc_11402_0219.xml" book_id="HoughtonSTC11402" text="[Nii[v]]"/>
-                    </internal_ref>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="earbm_stc_11402_0225.xml" book_id="HoughtonSTC11402" text="[Nv[v]]"/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0219" text="s[upr]a"/>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0225" text="i[nfr]a"/>
                     </internal_ref>
                 </position>
             </language>

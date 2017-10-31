@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="earbm_stc_11402_0090.tif" reader="Harvey"  signature="Eii[r]"/>
     <annotation>
@@ -16,8 +16,8 @@
                 </position>
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>i[nfr]a, c. 5.</marginalia_text>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="earbm_stc_11402_0105.xml" book_id="HoughtonSTC11402" text="c. 5."/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0105" text="c. 5"/>
                     </internal_ref>
                 </position>
             </language>
@@ -58,10 +58,10 @@
             </language>
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>i[nfr]a.c.4. Medusa[e] caput.</marginalia_text>
+                    <marginalia_text>i[nfr]a. c.4. Medusa[e] caput.</marginalia_text>
                     <person name="Medusa"/>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="earbm_stc_11402_0098.xml" book_id="HoughtonSTC11402" text="c. 4."/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0098" text="c. 4"/>
                     </internal_ref>
                 </position>
             </language>

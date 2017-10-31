@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="earbm_stc_11402_0147.tif" reader="Harvey"  signature="[Hvi[v]]"/>
     <annotation>
@@ -67,12 +67,10 @@
                     <person name="Lucius Marcius Septimus"/>
                     <person name="Gaius Cassius Longinus"/>
                     <person name="Conon"/>
-                    <internal_ref text="s[upr]a">
-                        <target filename="earbm_stc_11402_0124.xml" book_id="HoughtonSTC11402" text="[G.iii[r]]"/>
-                    </internal_ref>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="earbm_stc_11402_0199.xml" book_id="HoughtonSTC11402" text="[Lviii[v]]"/>
-                        <target filename="earbm_stc_11402_0226.xml" book_id="HoughtonSTC11402" text="[Nvi[r]]"/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0124" text="c.X.l.2"/>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0199" text="c.2.l.4"/>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0226" text="vltimo Eiusde[m]"/>
                     </internal_ref>
                 </position>
             </language>
@@ -84,8 +82,8 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>vide c. II. huius: de Viriato.</marginalia_text> <!--JG: Reference to Frontinus, image _108. Is book 2, ch. 5, not ch. 2  of book 4 though-->
                     <person name="Viriatus Lusitanus"/>
-                    <internal_ref text="vide">
-                        <target filename="earbm_stc_11402_0108.xml" book_id="HoughtonSTC11402" text="c. II."/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0108" text="c. II."/>
                     </internal_ref>
                 </position>
             </language>

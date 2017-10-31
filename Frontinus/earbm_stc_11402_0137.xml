@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="earbm_stc_11402_0137.tif" reader="Harvey"  signature="[Hi[v]]"/>
     <annotation>
@@ -69,9 +69,9 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>i[nfr]a, l.3.c.I. in Conon, l.4. Exemplo Vltimo, tanq[uam] Epilogo memorabili.</marginalia_text>
                     <person name="Conon"/>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="earbm_stc_11402_0147.xml" book_id="HoughtonSTC11402" text="l.3.c.I."/>
-                        <target filename="earbm_stc_11402_0226.xml" book_id="HoughtonSTC11402" text="l.4."/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0147" text="l.3.c.I."/>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0226" text="l.4."/>
                     </internal_ref>
                 </position>
             </language>
