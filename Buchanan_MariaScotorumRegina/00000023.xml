@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000023.tif" reader="Harvey" signature="B.iij.[r]" pagination="11"/>
     <annotation>
@@ -15,11 +15,9 @@
                         Morauius vt s[upr]a, i[nfr]a.
                     </marginalia_text>
                     <person name="James Stewart 1st Earl of Moray"/>
-                    <internal_ref text="s[upr]a" anchor_text="Comes Morauiae">
-                        <target filename="00000015.xml" book_id="PrincetonRB16th11" text="[3]"/>
-                    </internal_ref>
-                    <internal_ref text="i[nfr]a" anchor_text="Morauius c&ugrave;m abesset">
-                        <target filename="00000028.xml" book_id="PrincetonRB16th11" text="[16]"/>
+                    <internal_ref >
+                        <target ref="PrincetonRB16th11:00000015:u0001" text="s[upr]a"/>
+                        <target ref="PrincetonRB16th11:00000028:u0001" text="i[nfr]a"/>
                     </internal_ref>
                 </position>
             </language>
