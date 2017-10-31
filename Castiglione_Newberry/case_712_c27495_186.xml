@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="case_712_c27495_186.tif" reader="Harvey"  signature="[V.ii.[v]]"/>
     <annotation>
@@ -28,8 +28,8 @@
                     <marginalia_text>
                         i[nfr]a,
                     </marginalia_text>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="case_712_c27495_199.xml" book_id="Newberry27495" text="[Y.i.[r]]"/>
+                    <internal_ref>
+                        <target ref="Newberry27495:case_712_c27495_199" text="i[nfr]a"/>
                     </internal_ref>
                 </position>
             </language>
@@ -62,11 +62,9 @@
                     <marginalia_text>
                         Protei ingeniu[m], s[upr]a, i[nfr]a i[nfr]a
                     </marginalia_text>
-                    <internal_ref text="s[upr]a">
-                        <target filename="case_712_c27495_169.xml" book_id="Newberry27495" text="[S.ii.[r]]"/>
-                    </internal_ref>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="case_712_c27495_205.xml" book_id="Newberry27495" text="[Y.iiii.[r]]"/>
+                    <internal_ref>
+                        <target ref="Newberry27495:case_712_c27495_169" text="s[upr]a"/>
+                        <target ref="Newberry27495:case_712_c27495_205" text="i[nfr]a" prefix=", " suffix="prefix=&quot;, &quot;"/>
                     </internal_ref>
                 </position>
             </language>

@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="case_712_c27495_037.tif" reader="Harvey"  signature="Aiiii[r]"/>
     <annotation>
@@ -12,8 +12,8 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Egregia Praxis perferendi malam, fortunam: ut s[upr]a, in Duce marito, Guidubaldo.</marginalia_text>
                     <person name="Guidobaldo da Montefeltro"/>
-                    <internal_ref text="s[upr]a">
-                        <target filename="case_712_c27495_035.xml" book_id="Newberry27495" text="[Aiii]"/>
+                    <internal_ref>
+                        <target ref="Newberry27495:case_712_c27495_035" text="s[upr]a"/>
                     </internal_ref>
                 </position>
             </language>
