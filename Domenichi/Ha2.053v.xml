@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
 	
 	<page filename="Ha2.053v.tif" pagination="426" reader="Harvey"/>	<!-- ABO 58left -->
 	<annotation>
@@ -14,8 +14,8 @@
 					<marginalia_text>
 						Architectura, s[upr]a,
 					</marginalia_text>
-					<internal_ref text="s[upr]a">
-						<target filename="Ha2.027v.xml" book_id="FolgersHa2" text="[374]"/>
+					<internal_ref>
+						<target ref="FolgersHa2:027v" text="s[upr]a"/>
 					</internal_ref>
 				</position>
 			</language>
@@ -64,8 +64,8 @@
 					<marginalia_text>
 						( argut&egrave;. Pro, et Contra. i[nfr]a, 428. 
 					</marginalia_text>
-					<internal_ref text="i[nfr]a">
-						<target filename="Ha2.054v.xml" book_id="FolgersHa2" text="428"/>
+					<internal_ref>
+						<target ref="FolgersHa2:054v" text="428"/>
 					</internal_ref>
 				</position>
 			</language>
@@ -90,8 +90,7 @@
 			</language>
 		</marginalia>
 		
-		
-		<marginalia hand="Italian" marginalia_id="Ha2.053v_0001" marginalia_continues_to="Ha2.054r_0001" marginalia_to_transcription="Ha2.054r.xml" book_id="FolgersHa2">
+		<marginalia hand="Italian" marginalia_continues_to="Ha2.054r_0001" marginalia_to_transcription="Ha2.054r.xml" book_id="FolgersHa2" id="Ha2.053v_0001">
 			<language ident="EN">
 				<position place="right_margin" book_orientation="90">
 					<marginalia_text>

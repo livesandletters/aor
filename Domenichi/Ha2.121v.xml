@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+	xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
 	
 	<page filename="Ha2.121v.tif" signature="[Ev]" pagination="66" reader="Harvey"/>	<!-- ABO 126left -->
 	<annotation>
@@ -26,13 +26,13 @@
 				<position place="intext" book_orientation="0">
 					<marginalia_text>s[upr]a. /</marginalia_text>
 					<internal_ref text="s[upr]a">
-						<target filename="Ha2.040r.xml" book_id="FolgersHa2" text="[399]"/>
-						<target filename="Ha2.058v.xml" book_id="FolgersHa2" text="[436]"/>
-						<target filename="Ha2.062v.xml" book_id="FolgersHa2" text="[444]"/>
-						<target filename="Ha2.067v.xml" book_id="FolgersHa2" text="[454]"/>
-						<target filename="Ha2.080v.xml" book_id="FolgersHa2" text="[*9v]"/>
-						<target filename="Ha2.095v.xml" book_id="FolgersHa2" text="[14]"/>
-						<target filename="Ha2.096r.xml" book_id="FolgersHa2" text="[15]"/>
+						<target ref="FolgersHa2:040r" text="[399]"/>
+						<target ref="FolgersHa2:058v" text="[436]"/>
+						<target ref="FolgersHa2:062v" text="[444]"/>
+						<target ref="FolgersHa2:067v" text="[454]"/>
+						<target ref="FolgersHa2:080v" text="[*9v]"/>
+						<target ref="FolgersHa2:095v" text="[14]"/>
+						<target ref="FolgersHa2:096r" text="[15]"/>
 					</internal_ref>
 				</position>
 			</language>
