@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000086.tif" reader="Harvey" pagination="[40v]"/>
     <annotation>
@@ -28,8 +28,8 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>s[upr]a,</marginalia_text> 
-                    <internal_ref text="s[upr]a">
-                        <target filename="00000069.xml" book_id="PrincetonRB16th99a" text="[32[r]]"/>
+                    <internal_ref>
+                        <target ref="PrincetonRB16th99a:00000069" text="s[upr]a"/>
                     </internal_ref>
                 </position>
             </language>

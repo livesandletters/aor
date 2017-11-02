@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000069.tif" reader="Harvey" pagination="32[r]" signature="ij."/>
     <annotation>
@@ -15,8 +15,8 @@
                 </position>
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>The Gardene Alphabeth, i[infr]a, in March.</marginalia_text>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="00000086.xml" book_id="PrincetonRB16th99a" text="[40v]"/>
+                    <internal_ref>
+                        <target ref="PrincetonRB16th99a:00000086" text="i[nfr]a"/>
                     </internal_ref>
                 </position>
             </language>
