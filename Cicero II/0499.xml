@@ -15,7 +15,7 @@
                     <marginalia_text>verecunde et dubitanter recipere.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To accept modestly and hesitantly.</translation>
         </marginalia>
         
         
@@ -25,7 +25,7 @@
                     <marginalia_text>Dies Cognitionis</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The day of the hearing.</translation>
         </marginalia>
         
         
@@ -33,9 +33,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Galba[e] or[ati]o.</marginalia_text>
+                    <person name="Servius Sulpicius Galba, consul 144 BC"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The speech of Galba.</translation>
         </marginalia>
         
         
@@ -45,7 +46,7 @@
                     <marginalia_text>Du[a]e summ[a]e oratore laudes</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The two greatest glories in oratory.</translation>
         </marginalia>
         
         
@@ -53,19 +54,20 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Libo.</marginalia_text>
+                    <person name="Lucius Scribonius Libo, tribune 149 BC"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Libo.</translation>
         </marginalia>
         
         
-        <marginalia hand="English_secretary" anchor_text="causa no[n] scribendi, &amp; non tam bene scribe[n]di qu&agrave;m dixerint">
+        <marginalia hand="English_secretary" anchor_text="Nec enim est eadem, inqua[m], Brute, causa no[n] scribendi, &amp; non tam bene scribe[n]di qu&agrave;m dixerint">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Cur quida[m] Oratores intuitite in quid aiu[n]t, et quida[m] qu[a]e scribunt, no[n] ta[m] bene scribunt q[uam] dixerint</marginalia_text>
+                    <marginalia_text>Cur quida[m] Oratores [?], et quida[m] qu[a]e scribunt, no[n] ta[m] bene scribunt q[uam] dixerint</marginalia_text>  <!-- DO: Not sure -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>Why some orators [...], and some who write, do not write as well as they have spoken.</translation>
         </marginalia>
         
         
@@ -75,7 +77,7 @@
                     <marginalia_text>Orator eode[m] modo &amp; dicere &amp; scribere possit.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>An orator may be able to speak and write in the same way.</translation>
         </marginalia>
         
         
@@ -83,9 +85,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>La[e]lij mens spirat in scriptis</marginalia_text>
+                    <person name="Gaius Laelius Sapiens"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The mind of Laelius bursts forth from his writings.</translation>
         </marginalia>
         
         
@@ -93,20 +96,94 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>L. &amp; Sp. Mummij</marginalia_text>
+                    <person name="Lucius Mummius Achaicus"/>
+                    <person name="Spurius Mummius"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Lucius and Spurius Mummius.</translation>
         </marginalia>
         
         
         <marginalia hand="English_secretary" anchor_text="P. etia[m] Popilius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>P. Popilius</marginalia_text>
+                    <person name="Publius Popillius Laenas"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Publius Popillius.</translation>
         </marginalia>
+        
+        
+        <marginalia hand="English_secretary" anchor_text="Cai&uacute;sque Tuditanus">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>C. Tuditanus.</marginalia_text>
+                    <person name="Gaius Sempronius Tuditanus"/>
+                </position>
+            </language>
+            <translation>Gaius Tuditanus.</translation>
+        </marginalia>
+        
+        
+        <marginalia hand="English_secretary" anchor_text="cuius orbitas &amp; fletus mire miserabilis fuit">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>Cui[us] orbitas et fletus mire miserabilis fuit.</marginalia_text>
+                </position>
+            </language>
+            <translation>Whose bereavement and weeping were extremely pitiable.</translation>   <!-- DO: Not sure of translation -->
+        </marginalia>
+        
+        
+        <marginalia hand="English_secretary" anchor_text="interquieuissem">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>interquiescere</marginalia_text>
+                </position>
+            </language>
+            <translation>To rest for a while.</translation>
+        </marginalia>
+        
+        
+        <marginalia hand="English_secretary" anchor_text="Quid igitur, inquit, est causae">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>quid est caus[a]e, cur.</marginalia_text>
+                </position>
+            </language>
+            <translation>What is of the cause; why.</translation>
+        </marginalia>
+        
+        
+        <marginalia hand="English_secretary" anchor_text="peringeniosis hominibus neque satis doctis">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>p[er]ingeniosus neq[ue] satis doctus</marginalia_text>
+                </position>
+            </language>
+            <translation>Very intelligent and not educated enough.</translation>
+        </marginalia>
+        
+        
+        <underline method="pen" type="straight" language="LA" text="verecunde &amp; dubita[n]ter recepisse"/>
+        <underline method="pen" type="straight" language="LA" text="quasi comperendinatus, medium"/>
+        <underline method="pen" type="straight" language="LA" text="cum cognitionis dies"/>
+        <underline method="pen" type="straight" language="LA" text="omnibus exclusis"/>
+        <underline method="pen" type="straight" language="LA" text="mult&oacute;que plus proficiat is qui infla[m]met iudice[m], qu&agrave;m"/>
+        <underline method="pen" type="straight" language="LA" text="commendabat: cuius orbitas &amp; fletus mire miserabilis"/>
+        <underline method="pen" type="straight" language="LA" text="interquieuissem"/>
+        <underline method="pen" type="straight" language="LA" text="Alios no[n] laborare vt meliores fiant: nulla enim res tantum ad dice[n]dum proficit quantum scriptio: memoria[m]"/>
+        <underline method="pen" type="straight" language="LA" text="peringeniosis hominibus"/>
+        <underline method="pen" type="double" language="LA" text="dein cum"/>
+        <underline method="pen" type="straight" language="LA" text="otiosus stylu[m] prehe[n]derat, mot&uacute;sque omnis animi, ta[n]quam ventus homine[m] defecerat, flaccescebat oratio: quod iis, qui limatius dice[n]di co[n]sectantur genus, accidere non solet, propterea qu&ograve;d prudentia nunqua[m] deficit oratore[m], qua ille"/>
+        <underline method="pen" type="straight" language="LA" text="eode[m] modo possit &amp; dicere &amp; scribere"/>
+        <underline method="pen" type="straight" language="LA" text="tame[n] astrictior"/>
+        <underline method="pen" type="straight" language="LA" text="Popilius cu[m] ciuis egregius, tum"/>
+        <underline method="pen" type="straight" language="LA" text="victu excultus atque expolitus, tum eius elegans est habitum etiam orationis genus. Eod&eacute;mque"/>
+        
+        
+        <mark name="bracket" method="pen" place="right_margin"/>
         
         
     </annotation>
