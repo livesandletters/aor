@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="case_712_c27495_389.tif" reader="Harvey" signature="Yy.iiii.[r]"/>
     <annotation>
@@ -234,7 +234,8 @@
         <mark name="comma" method="pen" place="intext"/> <!-- Italian, French -->
         <mark name="comma" method="pen" place="intext"/> <!-- French, & -->
         
-        <drawing name="face" method="pen" place="right_margin"/>
+        <drawing type="face" book_orientation="0" place="right_margin" method="pen"/>
+        
         
     </annotation>
 </transcription>
