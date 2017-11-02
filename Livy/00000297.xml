@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000297.tif" pagination="275" reader="Harvey"  /> 
     <annotation>
@@ -45,12 +45,12 @@
                     <location name="Spain"/>
                     <location name="Gaul"/>
                     <internal_ref text="s[upr]a">
-                        <target filename="00000039.xml" book_id="PrincetonPA6452" text="[17]"/>
+                        <target ref="PrincetonPA6452:00000039" text="s[upr]a"/>
                     </internal_ref>
                     <internal_ref text="i[nfr]a">
-                        <target filename="00000680.xml" book_id="PrincetonPA6452" text="[658]"/>
-                        <target filename="00000681.xml" book_id="PrincetonPA6452" text="[659]"/>
-                        <target filename="00000759.xml" book_id="PrincetonPA6452" text="[737]"/>
+                        <target ref="PrincetonPA6452:00000680" text="[658]"/>
+                        <target ref="PrincetonPA6452:00000681" text="[659]"/>
+                        <target ref="PrincetonPA6452:00000759" text="[737]"/>
                     </internal_ref>
                 </position>
             </language>

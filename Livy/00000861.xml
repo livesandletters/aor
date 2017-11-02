@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000861.tif" reader="Harvey"/>
     <annotation>
@@ -97,10 +97,10 @@
                     <person name="Sulla"/>
                     <X-ref person="Lucan" book_title="Pharsalia" language="LA" text="Omnes in Ca[e]sare manes"/>
                     <internal_ref text="s[upr]a">
-                        <target filename="00000246.xml" book_id="PrincetonPA6452" text="[224]"/>
-                        <target filename="00000299.xml" book_id="PrincetonPA6452" text="[277]"/>
-                        <target filename="00000426.xml" book_id="PrincetonPA6452" text="[404]"/>
-                        <target filename="00000859.xml" book_id="PrincetonPA6452" text="[AAA5[r]]"/>
+                        <target ref="PrincetonPA6452:00000246" text="[224]"/>
+                        <target ref="PrincetonPA6452:00000299" text="[277]"/>
+                        <target ref="PrincetonPA6452:00000426" text="[404]"/>
+                        <target ref="PrincetonPA6452:00000859" text="[AAA5[r]]"/>
                     </internal_ref>
                 </position>
             </language>

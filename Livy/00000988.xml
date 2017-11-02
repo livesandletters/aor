@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000988.tif" reader="Harvey" signature="[Lv]"/>
     <annotation>
@@ -55,8 +55,8 @@
                     </marginalia_text>
                 <emphasis method="pen" type="straight" text="Aristocratica[e]"/>
                     <internal_ref text="s[upr]a">
-                        <target filename="00000047.xml" book_id="PrincetonPA6452" text="[25]"/>
-                        <target filename="00000969.xml" book_id="PrincetonPA6452" text="[I4[r]]"/>
+                        <target ref="PrincetonPA6452:00000047" text="[25]"/>
+                        <target ref="PrincetonPA6452:00000969" text="[I4[r]]"/>
                     </internal_ref>
                 </position>
             </language>

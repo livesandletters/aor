@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000322.tif" pagination="300" reader="Harvey" /> 
     <annotation>
@@ -15,9 +15,9 @@
                         Fabii Maximi veteratoriae artes, et cautela[e]. Vt Apologia s[upr]a, 312, 313.
                     </marginalia_text>
                     <person name="Fabius Maximus"/>
-                    <internal_ref text="s[upr]a">
-                        <target filename="00000334.xml" book_id="PrincetonPA6452" text="312"/>
-                        <target filename="00000335.xml" book_id="PrincetonPA6452" text="313"/>
+                    <internal_ref>
+                        <target ref="PrincetonPA6452:00000334" text="312"/>
+                        <target ref="PrincetonPA6452:00000335" text="313"/>
                     </internal_ref>
                 </position>
             </language>

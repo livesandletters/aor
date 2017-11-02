@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">   
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">   
     
     <page filename="00000021.tif" signature="[a8r]" reader="Harvey"  />
     <annotation>
@@ -62,8 +62,8 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>I[nfr]a</marginalia_text>
                     <internal_ref text="I[nfr]a">
-                        <target filename="00000023.xml" book_id="PrincetonPA6452" text="[a1r]"/>
-                        <target filename="00000027.xml" book_id="PrincetonPA6452" text="[5]"/>
+                        <target ref="PrincetonPA6452:00000023" text="[a1r]"/>
+                        <target ref="PrincetonPA6452:00000027" text="[5]"/>
                     </internal_ref>
                 </position>
             </language>
@@ -76,9 +76,9 @@
                 <position place="intext" book_orientation="0">
                     <marginalia_text>I[nfr]a</marginalia_text>
                     <internal_ref text="I[nfr]a">
-                        <target filename="00000023.xml" book_id="PrincetonPA6452" text="[a1r]"/>
-                        <target filename="00000026.xml" book_id="PrincetonPA6452" text="[4]"/>
-                        <target filename="00000027.xml" book_id="PrincetonPA6452" text="[5]"/>
+                        <target ref="PrincetonPA6452:00000023" text="[a1r]"/>
+                        <target ref="PrincetonPA6452:00000026" text="[4]"/>
+                        <target ref="PrincetonPA6452:00000027" text="[5]"/>
                     </internal_ref>
                 </position>
             </language>

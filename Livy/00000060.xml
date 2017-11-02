@@ -4,7 +4,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000060.tif" pagination="38" reader="Harvey" />
     <annotation>
@@ -31,9 +31,9 @@
                     </marginalia_text>
                     <emphasis method="pen" type="straight" text="Dictator"/>
                     <emphasis method="pen" type="straight" text="Tribuni plebis"/>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="00000066.xml" book_id="PrincetonPA6452" text="44"/>
-                        <target filename="00000067.xml" book_id="PrincetonPA6452" text="45"/>
+                    <internal_ref>
+                        <target ref="PrincetonPA6452:00000066" text="44"/>
+                        <target ref="PrincetonPA6452:00000067" text="45"/>
                     </internal_ref>
                 </position>
             </language>

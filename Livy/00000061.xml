@@ -4,7 +4,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000061.tif" pagination="39" reader="Harvey" />
     <annotation>
@@ -17,9 +17,9 @@
                     <person name="Aurelius Victor"/>
                     <person name="Quinctius Cincinnatus"/>
                     <internal_ref text="i[nfr]a">
-                        <target filename="00000082.xml" book_id="PrincetonPA6452" text="[60]"/>
-                        <target filename="00000090.xml" book_id="PrincetonPA6452" text="[68]"/>
-                        <target filename="00000094.xml" book_id="PrincetonPA6452" text="[72]"/>
+                        <target ref="PrincetonPA6452:00000082" text="[60]"/>
+                        <target ref="PrincetonPA6452:00000090" text="[68]"/>
+                        <target ref="PrincetonPA6452:00000094" text="[72]"/>
                     </internal_ref>
                 </position>
             </language>

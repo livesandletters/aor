@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000032.tif" pagination="10" reader="Harvey" /> 
     <annotation>
@@ -56,8 +56,8 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>i[nfr]a, 103.</marginalia_text>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="00000123.xml" book_id="PrincetonPA6452" text="103"/>
+                    <internal_ref>
+                        <target ref="PrincetonPA6452:00000123" text="103"/>
                     </internal_ref>
                 </position>
             </language>
@@ -92,8 +92,8 @@
                     <marginalia_text>Techna hypocritica. Sic Euander venerabilis miraculo rei noua[e]. s[upr]a /
                     </marginalia_text>
                     <person name="Evander"/>
-                    <internal_ref text="s[upr]a">
-                        <target filename="00000027.xml" book_id="PrincetonPA6452" text="[4]"/>
+                    <internal_ref>
+                        <target ref="PrincetonPA6452:00000027" text="s[upr]a"/>
                     </internal_ref>
                 </position>
             </language>

@@ -4,7 +4,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000046.tif" pagination="24" reader="Harvey" />
     <annotation>
@@ -18,11 +18,11 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>vt s[upr]a, i[nfr]a.</marginalia_text>
                     <internal_ref text="s[upr]a">
-                        <target filename="00000021.xml" book_id="PrincetonPA6452" text="[a8r]"/>
+                        <target ref="PrincetonPA6452:00000021" text="[a8r]"/>
                     </internal_ref>
                     <internal_ref text="i[nfr]a">
-                        <target filename="00000058.xml" book_id="PrincetonPA6452" text="[36]"/>
-                        <target filename="00000101.xml" book_id="PrincetonPA6452" text="[79]"/>
+                        <target ref="PrincetonPA6452:00000058" text="[36]"/>
+                        <target ref="PrincetonPA6452:00000101" text="[79]"/>
                     </internal_ref>
                 </position>
             </language>

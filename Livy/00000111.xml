@@ -3,7 +3,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000111.tif" pagination="89" reader="Harvey" />
     <annotation>
@@ -40,11 +40,9 @@
                     </marginalia_text>
                     <person name="M. Duellius"/>
                     <person name="Menenius Agrippa Lanatus"/>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="00000067.xml" book_id="PrincetonPA6452" text="[45]"/>
-                    </internal_ref>
-                    <internal_ref text="s[upr]a">
-                        <target filename="00000115.xml" book_id="PrincetonPA6452" text="[93]"/>
+                    <internal_ref>
+                        <target ref="PrincetonPA6452:00000067" text="i[nfr]a"/>
+                        <target ref="PrincetonPA6452:00000115" text="s[upr]a"/>
                     </internal_ref>
                 </position>
             </language>

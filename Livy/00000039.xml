@@ -4,7 +4,7 @@
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor_20141118.xsd">
+    xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     
     <page filename="00000039.tif" pagination="17" reader="Harvey" /> 
     <annotation>
@@ -66,11 +66,9 @@
                         Vbi seria[e] Legationes, et pragmatica[e], de maximo mundi Bello.
                     </marginalia_text>
                     <person name="Tullus Hostilius"/>
-                    <internal_ref text="s[upr]a">
-                        <target filename="00000036.xml" book_id="PrincetonPA6452" text="[14]"/>
-                    </internal_ref>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="00000297.xml" book_id="PrincetonPA6452" text="275"/>
+                    <internal_ref>
+                        <target ref="PrincetonPA6452:00000036" text="s[upr]a"/>
+                        <target ref="PrincetonPA6452:00000297" text="275"/>
                     </internal_ref>
                 </position>
             </language>
