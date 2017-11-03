@@ -12,16 +12,72 @@
                 <marginalia_text> longi subsellii Iudicatio</marginalia_text>
             </position>
           </language>    
-        <translation> The judgment of subselius longus</translation>
+        <translation> The judgment of the long bench</translation>
         </marginalia>
+        <!--NBW: This is the subject of a footnote in the Loeb edition - should we include some reference to it?-->
         
-        <marginalia hand="Italian" anchor_text="Lo[n]gi subsellii">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>scriptio</marginalia_text>
+                    <marginalia_text>scriptio</marginalia_text> <!-- NBW: Unknown symbol-->
                 </position>
             </language>    
             <translation> Writing</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Victor">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>victor</marginalia_text>   <!-- NBW: Unknown symbol-->
+                </position>
+            </language>    
+            <translation>the winner</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Pompeius">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>victor</marginalia_text>
+                </position>
+            </language>    
+            <translation>Pompeius</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Brutus">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>victor</marginalia_text>
+                </position>
+            </language>    
+            <translation>Brutus</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Pontinius">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Pontinius</marginalia_text>
+                </position>
+            </language>    
+            <translation>Pontinius</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Ephiso">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Ephesu</marginalia_text>
+                <location name="Ephesus"/>
+                </position>
+            </language>    
+            <translation>Ephesus</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Censores">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Censores</marginalia_text>
+                </position>
+            </language>    
+            <translation>Censors</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Lo[n]gi subsellii"/>
@@ -60,6 +116,14 @@
         <underline method="pen" type="straight" language="LA" text="te beneuolentiam nauare possimus"/>
         <underline method="pen" type="straight" language="LA" text="tributa merces est laborum, &amp; vigiliarum mearum"/>
  
+        <mark name="bracket" method="pen" place="right_margin"/>
  
+ 
+ <numeral place="right_margin">12</numeral>
+ <numeral place="right_margin">21</numeral>  
+        
+        
+        <symbol name="Jupiter" place="right_margin"/>
+ <!-- NBW: other variations of this symbol unclear -->
     </annotation>
 </transcription>
