@@ -130,8 +130,6 @@
             <translation>Iconium</translation>      
         </marginalia> 
         
-        <errata language="LA" copytext="duo" amendedtext="duos"/>
-        
         
         <marginalia hand="Italian" anchor_text="Scaeuola">
             <language ident="LA"> 
@@ -175,15 +173,21 @@
         <underline method="pen" type="straight" language="LA" text="Quam facultatem"/>
         <underline method="pen" type="straight" language="LA" text="fu&iacute;tque mecum familiariter triduum illud quod"/>
         
-        <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="vertical_bar" method="pen" place="left_margin"/>        
         
-        <numeral place="left_margin">12</numeral>
         <!-- NBW: Unknown Symbol -->
         <symbol name="Jupiter" place="left_margin"></symbol>
         <symbol name="Jupiter" place="left_margin"></symbol>
         <symbol name="Jupiter" place="left_margin"></symbol>
         <symbol name="Jupiter" place="left_margin"></symbol>
+        
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
+        <mark name="vertical_bar" method="pen" place="left_margin"/>        
+        
+        
+        <numeral place="left_margin">12</numeral>
+
+        
+        <errata language="LA" copytext="duo" amendedtext="duos"/>
     
     </annotation>
 </transcription>
