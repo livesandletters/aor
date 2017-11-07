@@ -10,7 +10,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Apamea</marginalia_text>
-                    <location name="Apamea"/>
+                    <location name="Apamea"/> <!--JG: Location doesn't exist in location spreadsheet, so should be added. https://docs.google.com/spreadsheets/d/19NacLibzQlSGDZbH2Evzfdc_eFSMcj34AH0j2sRtc20/edit#gid=0-->
                 </position>
             </language>
             <translation>Apamea</translation>
@@ -20,7 +20,7 @@
                 <language ident="LA"> 
                     <position place="right_margin" book_orientation="0">
                         <marginalia_text>Synnad</marginalia_text>
-                        <location name="Synnada"/>
+                        <location name="Synnada"/> <!--JG: Location doesn't exist in location spreadsheet, so should be added. https://docs.google.com/spreadsheets/d/19NacLibzQlSGDZbH2Evzfdc_eFSMcj34AH0j2sRtc20/edit#gid=0-->
                     </position>
                 </language>
                 <translation>Synnada</translation>
@@ -30,7 +30,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Mynde[n]ses</marginalia_text>
-                    <location name="Myndus"/>
+                    <location name="Myndus"/> <!--JG: Location doesn't exist in location spreadsheet, so should be added. https://docs.google.com/spreadsheets/d/19NacLibzQlSGDZbH2Evzfdc_eFSMcj34AH0j2sRtc20/edit#gid=0-->
                 </position>
             </language>
             <translation>Myndus</translation>
@@ -50,17 +50,16 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Senatus</marginalia_text>
-                    
                 </position>
             </language>
-            <translation> the Senate</translation>
+            <translation> the Senate</translation> <!--JG: Apply modern punctuation-->
         </marginalia> 
 
         <marginalia hand="Italian" anchor_text="Taurum">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Taurus</marginalia_text>
-                    <location name="Taurus"/>
+                    <location name="Taurus"/> <!--JG: Exists in location spreadsheet, but as 'Taurus mountains'. Use this name-->
                 </position>
             </language>
             <translation>Taurus</translation>
@@ -90,10 +89,9 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>dioecesis</marginalia_text>
-                    
                 </position>
             </language>
-            <translation>a district</translation>
+            <translation>a district</translation> <!--JG: Should be 'A district.'-->
         </marginalia> 
  
         <marginalia hand="Italian" anchor_text="Philomeli">
@@ -110,7 +108,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Amicitia.</marginalia_text>
-                    
                 </position>
             </language>
             <translation>Friendship</translation>
@@ -151,14 +148,14 @@
         <underline method="pen" type="straight" language="LA" text="imminutione"/>
         <underline method="pen" type="straight" language="LA" text="detuleru[n]t, sumptus discerni"/>
         <underline method="pen" type="straight" language="LA" text="cum soluendo ciuitates non essent"/>
-        <underline method="pen" type="straight" language="LA" text="vrbanum"/>
+        <underline method="pen" type="straight" language="LA" text="vrbanum"/> <!--JG: You missed some underlined text: 'Synnadis pro'-->
         <underline method="pen" type="straight" language="LA" text="Claudium S.P.Q.R."/>
         <underline method="pen" type="straight" language="LA" text="meminisse vllum tempus"/>  
         <underline method="pen" type="straight" language="LA" text="me siqui suo sumptu functus esset officio: concessuru[m] si legitimo: non permissurum, si infinito."/>
         <underline method="pen" type="straight" language="LA" text="facere ii qui haec disputant"/>
         <underline method="pen" type="straight" language="LA" text="composui edictum"/>
-        <underline method="pen" type="straight" language="LA" text="caput est"/>
-        <underline method="pen" type="straight" language="LA" text="nova, salutaria"/>
+        <underline method="pen" type="straight" language="LA" text="Caput est"/>
+        <underline method="pen" type="straight" language="LA" text="noua, salutaria"/>
         <underline method="pen" type="straight" language="LA" text="quo suspicio nata est"/>
         <underline method="pen" type="straight" language="LA" text="tralatitium est"/>
         <underline method="pen" type="straight" language="LA" text="tam despie[n]s"/>
@@ -175,15 +172,15 @@
         <underline method="pen" type="straight" language="LA" text="neque ad praefectum fabrum"/>
         <underline method="pen" type="straight" language="LA" text="doctissimis hominibus authoribus"/>
         <underline method="pen" type="straight" language="LA" text="de amicitia gere[n]da"/>
-        <underline method="pen" type="straight" language="LA" text="DISPUTABANT, EGO CONTRA DISSEREBAM. DICEBANT, EGO NEGABAM. An mihi"/>
+        <underline method="pen" type="straight" language="LA" text="DISPVTABANT, EGO CONTRA DISSEREBAM. DICEBANT, EGO NEGABAM. An mihi"/>
         <underline method="pen" type="straight" language="LA" text="meus co[n]uentus erat Apameae"/>
         <underline method="pen" type="straight" language="LA" text="No[n] dicam plura, ne in quo te obiurgem, idipsum videar imitari."/>  
         
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <numeral place="right_margin">12</numeral>
-        <numeral place="right_margin">12</numeral>   
-        <symbol name="Jupiter" place="right_margin"></symbol>
+        <numeral place="right_margin">12</numeral> <!-- JG: Tag as marginalia -->
+        <numeral place="right_margin">12</numeral> <!-- JG: Tag as marginalia -->  
+        <symbol name="Jupiter" place="right_margin"></symbol> <!--JG: XML error: symbols should be tagged after underlines-->
         <symbol name="Jupiter" place="right_margin"></symbol>
         <symbol name="Jupiter" place="right_margin"></symbol>
         <symbol name="Jupiter" place="right_margin"></symbol>
