@@ -11,10 +11,10 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                 <marginalia_text>Clodius</marginalia_text>
-                <person name="Clodius"/> <!-- JG: Person doesn't appear in person spreadsheet so should be added. Try to find out which Clodius this is and tag accordingly -->
+                <person name="Lucius Clodius"/> <!-- JG: Person doesn't appear in person spreadsheet so should be added. Try to find out which Clodius this is and tag accordingly -->
                 </position>
             </language>
-            <translation>Clodius</translation>
+            <translation>Clodius.</translation>
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="semper ad largiendum ex alieno fuerim restrictior">
@@ -23,7 +23,7 @@
                     <marginalia_text>semper ad largiendu[m] ex alieno restrictior</marginalia_text>
                 </position>
             </language>
-            <translation>I have always been more conservative in generosity from others</translation>
+            <translation>I have always been more conservative in generosity from others.</translation>
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="Hortensiumque">
@@ -33,16 +33,27 @@
                     <person name="Hortensius"/>
                 </position>
             </language>
-            <translation>Hortensium</translation>
+            <translation>Hortensius</translation>
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="Amanu[m]">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Amanus</marginalia_text> <!--JG: Use person tag?-->
+                    <marginalia_text>Amanus</marginalia_text> 
+                    <location name="Amanus Mountains"/>
                 </position>
             </language>
-            <translation>Amanus</translation>                                         
+            <translation>Amanus.</translation>                                         
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="agro Moshestiae">
+            <language ident="LA"> 
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Moshestiae ager.</marginalia_text> 
+                    <location name="Mopsuhestia"/>
+                </position>
+            </language>
+            <translation>The territory of Mopsuhestia.</translation>                                         
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Parthis">
@@ -51,7 +62,7 @@
                     <marginalia_text>Parthi</marginalia_text>
                 </position>
             </language>
-            <translation>Partians</translation>      
+            <translation>Parthians.</translation>      
         </marginalia>    
 
         <marginalia hand="Italian" anchor_text="Arabes">
@@ -60,7 +71,7 @@
                     <marginalia_text>Arabes</marginalia_text>
                 </position>
             </language>
-            <translation>Arabs</translation>      
+            <translation>Arabs.</translation>      
         </marginalia>    
         
         <marginalia hand="Italian" anchor_text="Syria">
@@ -70,18 +81,18 @@
                     <location name="Syria"/>
                 </position>
             </language>
-            <translation>Syria</translation>      
+            <translation>Syria.</translation>      
         </marginalia>            
 
         <marginalia hand="Italian" anchor_text="Pompeium nostrum in Hispaniam">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Pompeius. Hispania</marginalia_text>
+                    <marginalia_text>Pompeius. Hispania.</marginalia_text>
                     <person name="Pompey"/>
                     <location name="Spain"/>
                 </position>
             </language>
-            <translation>Pompey. Spain</translation>      
+            <translation>Pompey. Spain.</translation>      
         </marginalia>    
 
         <marginalia hand="Italian" anchor_text="Asia">
@@ -110,16 +121,16 @@
                     <marginalia_text>Greek</marginalia_text> <!-- NBW: Needs Greek -->
                 </position>
             </language>
-            <translation></translation>      
+            <translation>Epicurean.</translation>      
         </marginalia>    
 
         <marginalia hand="Italian" anchor_text="Parthis">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>bima p[rae]u[n]itus</marginalia_text> <!--JG: I think there's a dot after bima. So these might be two separate words-->
+                    <marginalia_text>bima . p[rae]u[n]itus</marginalia_text> <!--JG: I think there's a dot after bima. So these might be two separate words-->
                 </position>
             </language>
-            <translation>combined every two years</translation> <!-- NBW: ? meaning uncertain-->      
+            <translation>Every two years. Combined.</translation> <!-- NBW: ? meaning uncertain-->      
         </marginalia>    
 
         <underline method="pen" type="straight" language="LA" text="Illud dica[m] vt sentio: si ista quae alios loqui dicis, ispe sentis, tua summa culpa est"/> <!-- NBW: Unknown symbol (infinity) -->
@@ -146,19 +157,12 @@
         <underline method="pen" type="straight" language="LA" text="NIHIL est enim quod studio &amp; beneuolentia, vel amore potius effeci non possit. Ego"/>
         <underline method="pen" type="straight" language="LA" text="maximam laetitiam cepi"/>
         <underline method="pen" type="straight" language="LA" text="minime dubia, &amp; plane explorata"/>
-<<<<<<< HEAD
 
-=======
-        
-        <numeral place="left_margin">12</numeral> <!--JG: Tag as marginalia-->
-        <numeral place="left_margin">72</numeral> <!--JG: Not sure whether this is 72. Could be a sloppy one, so 12. Tag as marginalia-->
-        
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
->>>>>>> 86f52ecc7e195d6ba3afcafa103fbe993f21e498
+
         <!-- NBW: unknown symbol -->
         <!-- NBW: unknown symbol -->
         <!-- NBW: unknown symbol -->
-        <symbol name="Jupiter" place="left_margin"></symbol> <!--JG: XML error: symbols should be tagged after underlines-->
+        <symbol name="Jupiter" place="left_margin"></symbol> 
         <symbol name="Jupiter" place="left_margin"></symbol>
         <symbol name="Jupiter" place="left_margin"></symbol>
         <!-- NBW: unknown symbol -->

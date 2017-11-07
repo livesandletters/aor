@@ -33,7 +33,7 @@
                     <person name="C. Flaccus"/>
                 </position>
             </language>
-            <translation>C. Flaccus son of Lucius</translation>      
+            <translation>C. Flaccus son of Lucius.</translation>      
         </marginalia> 
             
         
@@ -41,30 +41,30 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>M. Octauius</marginalia_text>
-                    <person name="M. Octavius"/> <!--JG: Is this Marcus Octavius? If so, tag as such, rather than giving only first letter of first name-->
+                    <person name="Marcus Octavius"/> <!--JG: Is this Marcus Octavius? If so, tag as such, rather than giving only first letter of first name-->
                 </position>
             </language>
-            <translation>M. Octavius</translation>     <!--JG: If this is Marcus Octavius, give full name rather than just first letter of first name-->
+            <translation>Marcus Octavius.</translation>     <!--JG: If this is Marcus Octavius, give full name rather than just first letter of first name-->
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Cn. Pompeium">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>C. Pompeius</marginalia_text>
-                    <!--JG: Person tag missing - Pompey-->
+                    <person name="Pompey"/>
                 </position>
             </language>
-            <translation>C. Pompeius.</translation>      <!--JG: Pompey, no?-->
+            <translation>Pompey.</translation>   
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="M. Brutum">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>M Brutus.</marginalia_text>
-                    <!--JG: Person tag missing -->
+                    <person name="Marcus Iunius Brutus"/>
                 </position>
             </language>
-            <translation>M. Brutus</translation>    <!--JG: See remarks above-->  
+            <translation>Marcus Brutus.</translation>      
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="ex illius">
@@ -83,17 +83,17 @@
                     <location name="Tralles"/>
                 </position>
             </language>
-            <translation>Tralles</translation>      
+            <translation>Tralles.</translation>      
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="L. Lucilius">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>L. Lucilius</marginalia_text>
-                    <!--JG: See remarks above-->
+                    <person name="L. Lucilius"/>
                 </position>
             </language>
-            <translation>L. Lucilius</translation>      
+            <translation>L. Lucilius.</translation>      
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Corcyrae">
@@ -103,17 +103,17 @@
                     <location name="Corcyra"/>
                 </position>
             </language>
-            <translation>Corcyra</translation>      
+            <translation>Corcyra.</translation>      
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Laodiceae">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Laodicea.</marginalia_text>
-                    <location name="Laodicea"/> <!-- NBW: Doodle? above ea --> <!--JG: Could be, ignore I'd say-->
+                    <location name="Laodicea"/> 
                 </position>
             </language>
-            <translation>Laodicea</translation>      
+            <translation>Laodicea.</translation>      
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Iconium">
@@ -123,18 +123,18 @@
                     <location name="Iconium"/>
                 </position>
             </language>
-            <translation>Iconium</translation>      
+            <translation>Iconium.</translation>      
         </marginalia> 
         
         
-        <marginalia hand="Italian" anchor_text="Scaeuola"> <!--JG: XML error. Can't use errata tag and then continue with marginalia tags-->
+        <marginalia hand="Italian" anchor_text="Scaeuola"> 
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Sceuola.</marginalia_text>
                     <person name="Sceuola"/>
                 </position>
             </language>
-            <translation>Sceuola</translation>      
+            <translation>Sceuola.</translation>      
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Ephesi">
@@ -144,7 +144,7 @@
                     <location name="Ephesus"/>
                 </position>
             </language>
-            <translation>Ephesus</translation>      
+            <translation>Ephesus.</translation>      
         </marginalia> 
         
         <underline method="pen" type="straight" language="LA" text="maxim&eacute;que illo libro augurali, quem"/>
@@ -170,12 +170,8 @@
         <underline method="pen" type="straight" language="LA" text="fu&iacute;tque mecum familiariter triduum illud quod"/>
         
         
-<<<<<<< HEAD
-=======
-        <numeral place="left_margin">12</numeral> <!--JG: Tag as marginalia-->
->>>>>>> 86f52ecc7e195d6ba3afcafa103fbe993f21e498
         <!-- NBW: Unknown Symbol -->
-        <symbol name="Jupiter" place="left_margin"></symbol> <!--JG: Wrong 'place' of symbol tag in transcription-->
+        <symbol name="Jupiter" place="left_margin"></symbol> 
         <symbol name="Jupiter" place="left_margin"></symbol>
         <symbol name="Jupiter" place="left_margin"></symbol>
         <symbol name="Jupiter" place="left_margin"></symbol>
@@ -185,7 +181,7 @@
         
         
         <numeral place="left_margin">12</numeral>
-
+        <numeral place="left_margin">12</numeral>
         
         <errata language="LA" copytext="duo" amendedtext="duos"/>
     
