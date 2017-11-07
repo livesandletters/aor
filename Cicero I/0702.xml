@@ -11,7 +11,7 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Pausanias</marginalia_text>
-                    <person name="Pausanias"/>
+                    <person name="Pausanias"/> 
                 </position>
             </language>
             <translation>Pausanias</translation>      
@@ -21,7 +21,7 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Varro.</marginalia_text>
-                    <person name="Varro"/> <!-- NBW - ed. refers to A. Varro, not the one in our database, but unsure whether to add.  -->
+                    <person name="Varro"/> <!-- NBW - ed. refers to A. Varro, not the one in our database, but unsure whether to add.  --> <!--JG: Check the other occurrence of Varro. Is this is a different Varro, add to the database (not as A. Varro though, give whole name)-->
                 </position>
             </language>
             <translation>Varro</translation>      
@@ -31,17 +31,16 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Q. Lepta.</marginalia_text>
-                    <person name="Lepta"/>
+                    <person name="Lepta"/> <!--JG: Add to people spreadsheet, doesn't exist. Also, the Q might be his first name, so add first and surname (Q. Paconius Lepta in this case, see: https://books.google.co.uk/books?id=aUYTDAAAQBAJ&pg=PA338&lpg=PA338&dq=Q+Lepta&source=bl&ots=X34jKq-7yP&sig=LSbA2caQdc28RAT-rqtinKcCmHs&hl=en&sa=X&ved=0ahUKEwi5gfDPjKzXAhWSDOwKHTemBlsQ6AEIUjAJ#v=onepage&q=Q%20Lepta&f=false)-->
                 </position>
             </language>
-            <translation>Q. Lepta</translation>      
+            <translation>Q. Lepta</translation>  <!--JG: Give whole name, in this case Q. Paconius Lepta-->    
         </marginalia>  
         
         <marginalia hand="Italian">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Vrbanitas</marginalia_text>
-                    
                 </position>
             </language>
             <translation>Urbanity</translation>      
@@ -51,7 +50,7 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>N[ota] Appietas. Lentulitas</marginalia_text>
-                    <person name="Appius Claudius Pulcher"/>
+                    <person name="Appius Claudius Pulcher"/> <!--JG: Why do you tag people here? Does Cicero refer to people? Your translation suggests otherwise. If he does, you should add the people to the spreadsheet if they don't have been listed yet-->
                     <person name="Cornelius Lentulus"/>
                 </position>
             </language>
@@ -62,17 +61,17 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>C. Pompeius.</marginalia_text>
-                    <person name="Cn. Pompeius"/>
+                    <person name="Cn. Pompeius"/> <!--JG: This is Pompey, right? Tag as such-->
                 </position>
             </language>
-            <translation>C. Pompeius</translation>      
+            <translation>C. Pompeius</translation>  <!--JG: If English translation of name exists, use that-->    
         </marginalia>  
         
         <marginalia hand="Italian" anchor_text="P. Lentulum">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>P. Lentulus</marginalia_text>
-                    <person name="Publius Lentulus"/>
+                    <person name="Publius Lentulus"/> <!--JG: Add to spreadsheet, doesn't exist. Check this throughout your transcriptions-->
                 </position>
             </language>
             <translation>Publius Lentulus</translation>      
@@ -96,11 +95,12 @@
                     <book title="Iliad"/>
                 </position>
             </language>
-            <translation>Homer. But if you are a fault finder </translation> <!-- NBW: Greek uncertain. Reference to Iliad I.174 f -->      
+            <translation>Homer. But if you are a fault finder </translation> <!-- NBW: Greek uncertain. Reference to Iliad I.174 f -->  <!--JG: Use X-ref tag to capture this. Don't use book tag as the book isn't mentioned in the text of the marginal note-->    
         </marginalia>  
+        
         <underline method="pen" type="straight" language="LA" text="eos tributa exigere vetarem"/>
         <underline method="pen" type="straight" language="LA" text="genus enim quodda[m] fuisse impediendi"/>
-        <underline method="pen" type="straight" language="LA" text="cu[m] ad hymem"/>
+        <underline method="pen" type="straight" language="LA" text="cu[m] ad hyemem"/>
         <underline method="pen" type="straight" language="LA" text="Ad omnia accipe"/>
         <underline method="pen" type="straight" language="LA" text="intolerabilia tributa exigi"/>
         <underline method="pen" type="straight" language="LA" text="quid habuit iniquitatis"/>
@@ -118,15 +118,24 @@
         <underline method="pen" type="straight" language="LA" text="Sed prima duo capita epistolae tuae tacita mihi quodammodo relinquenda sunt."/>
         <underline method="pen" type="straight" language="LA" text="quod definitum sit, aut certu[m]"/>
         
+<<<<<<< HEAD
+=======
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+>>>>>>> 86f52ecc7e195d6ba3afcafa103fbe993f21e498
         
+        <symbol name="Jupiter" place="left_margin"/> <!--JG: XML error-->
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
+<<<<<<< HEAD
         <symbol name="Jupiter" place="left_margin"/>
         
         <numeral place="left_margin">12</numeral>
+=======
+        <numeral place="left_margin">12</numeral> <!--JG: Tag as marginal note-->
+>>>>>>> 86f52ecc7e195d6ba3afcafa103fbe993f21e498
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
         

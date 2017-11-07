@@ -11,7 +11,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Cilix</marginalia_text>
-                    <person name="Cilix"/>
+                    <person name="Cilix"/> <!--JG: Add to spreadsheet-->
                 </position>
             </language>
             <translation>Cilix</translation>      
@@ -21,7 +21,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>L Valerius.</marginalia_text>
-                    
+                    <!--JG: missing person tag + see remarks in previous transcriptions-->
                 </position>
             </language>
             <translation>L Valerius</translation>      
@@ -41,7 +41,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Q. Fabianus.</marginalia_text>
-                    
+                    <!--JG: missing person tag + see remarks in previous transcriptions-->
                 </position>
             </language>
             <translation>Q. Fabianus</translation>      
@@ -51,7 +51,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sulpitius</marginalia_text>
-                    
+                    <!--JG: missing person tag + see remarks in previous transcriptions-->
                 </position>
             </language>
             <translation>Sulpidius</translation>      
@@ -61,7 +61,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>C. pomptinus.</marginalia_text>
-                    
+                    <!--JG: missing person tag + see remarks in previous transcriptions-->
                 </position>
             </language>
             <translation>C. Pomptinus</translation>      
@@ -71,13 +71,17 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>L Clodius</marginalia_text>
-                    
+                    <!--JG: missing person tag + see remarks in previous transcriptions-->
                 </position>
             </language>
             <translation>L. Clodius</translation>      
         </marginalia> 
         
+<<<<<<< HEAD
         
+=======
+        <errata language="LA" copytext="iureco[n]sultum" amendedtext="iuris"/> <!--JG: XML error: errata tag doesn't belong here-->
+>>>>>>> 86f52ecc7e195d6ba3afcafa103fbe993f21e498
         
         <underline method="pen" type="straight" language="LA" text="sermone subsecutus est humanitatem"/>
         <underline method="pen" type="straight" language="LA" text="omnino tibi agit gratias"/>
@@ -95,6 +99,7 @@
         <underline method="pen" type="straight" language="LA" text="copias"/>
         <underline method="pen" type="straight" language="LA" text="Equidem pro eo, qua[n]ti te facio, quicquid feceris approbabo. Sed"/>
         <underline method="pen" type="straight" language="LA" text="quae primum nauigandi nobis facultas data erit, vtemur"/>
+<<<<<<< HEAD
 
         <symbol name="Jupiter" place="right_margin"></symbol>
         <symbol name="Jupiter" place="right_margin"></symbol>
@@ -104,5 +109,13 @@
         
         <errata language="LA" copytext="iureco[n]sultum" amendedtext="iuris"/>
         
+=======
+        
+        <mark name="bracket" method="pen" place="right_margin"/>
+        
+        <symbol name="Jupiter" place="right_margin"></symbol> <!--JG: XML error-->
+        <symbol name="Jupiter" place="right_margin"></symbol>
+        <!-- NBW: unknown symbol - Jupiter w/flourish? --> <!--JG: Seems like it, perhaps just tag as Jupiter, but leave your comment next to it-->
+>>>>>>> 86f52ecc7e195d6ba3afcafa103fbe993f21e498
     </annotation>
 </transcription>
