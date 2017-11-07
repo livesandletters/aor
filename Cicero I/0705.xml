@@ -12,14 +12,14 @@
                 <marginalia_text> longi subsellii Iudicatio</marginalia_text>
             </position>
           </language>    
-        <translation> The judgment of the long bench</translation>
+        <translation> The judgment of the long bench</translation> <!--JG: Make sure to stick to modern punctuation in your translations. In this case, end with a full stop. Amend throughout transcriptions-->
         </marginalia>
-        <!--NBW: This is the subject of a footnote in the Loeb edition - should we include some reference to it?-->
+        <!--NBW: This is the subject of a footnote in the Loeb edition - should we include some reference to it?--> <!--JG: Nope, that's not necessary-->
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>scriptio</marginalia_text> <!-- NBW: Unknown symbol-->
+                    <marginalia_text>scriptio</marginalia_text> <!-- NBW: Unknown symbol--> <!--JG: This is a florilegium, tag separately-->
                 </position>
             </language>    
             <translation> Writing</translation>
@@ -28,7 +28,7 @@
         <marginalia hand="Italian" anchor_text="Victor">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>victor</marginalia_text>   <!-- NBW: Unknown symbol-->
+                    <marginalia_text>victor</marginalia_text>   <!-- NBW: Unknown symbol--> <!--JG: This is a florilegium, tag separately-->
                 </position>
             </language>    
             <translation>the winner</translation>
@@ -37,7 +37,7 @@
         <marginalia hand="Italian" anchor_text="Pompeius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>victor</marginalia_text>
+                    <marginalia_text>victor</marginalia_text> <!--JG: Wrong marginalia text + use person tag-->
                 </position>
             </language>    
             <translation>Pompeius</translation>
@@ -46,7 +46,7 @@
         <marginalia hand="Italian" anchor_text="Brutus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>victor</marginalia_text>
+                    <marginalia_text>victor</marginalia_text> <!--JG: Wrong marginalia text + use person tag-->
                 </position>
             </language>    
             <translation>Brutus</translation>
@@ -55,7 +55,7 @@
         <marginalia hand="Italian" anchor_text="Pontinius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Pontinius</marginalia_text>
+                    <marginalia_text>Pontinius</marginalia_text> <!--JG: use person tag-->
                 </position>
             </language>    
             <translation>Pontinius</translation>
@@ -85,11 +85,11 @@
         <underline method="pen" type="straight" language="LA" text="reliquum quod est"/>
         <underline method="pen" type="straight" language="LA" text="incredibiliter"/>
         <underline method="pen" type="straight" language="LA" text="remunerer"/>
-        <underline method="pen" type="straight" language="LA" text="nam protecto non est meu[m], qui in scribendo (vt soles admirari) tantum industriae ponam, committere ut negligens scribendo fuisse videar: praesertim cum id non modo negligentis, sed etiam ingrati animi crimen futurum sit."/>
-        <underline method="pen" type="straight" language="LA" text="non instituta, sed iam inverterata amicitia, cures"/>
-        <underline method="pen" type="straight" language="LA" text="qua[m]honorificentissime, quamprimumque decernatur"/>
+        <underline method="pen" type="straight" language="LA" text="nam protecto non est meu[m], qui in scribendo (vt soles admirari) tantum industriae ponam, committere ut negligens scribendo fuisse videar: praesertim cum id non modo negligentis, sed etiam ingrati animi crimen futurum sit."/> <!--JG: I think it's profecto instead of protecto-->
+        <underline method="pen" type="straight" language="LA" text="non instituta, sed iam inverterata amicitia, cures"/> <!--JG: Should be inueterata-->
+        <underline method="pen" type="straight" language="LA" text="qua[m]honorificentissime, quamprim&uacute;mque decernatur"/>
         <underline method="pen" type="straight" language="LA" text="difficultas nauigandi fuit odiosa"/>
-        <underline method="pen" type="straight" language="LA" text="additis, aestiuisque confectis"/> <!-- Might be aestiui[n]sque? -->        
+        <underline method="pen" type="straight" language="LA" text="aestiuisque confectis"/> <!-- Might be aestiui[n]sque? -->        
         <underline method="pen" type="straight" language="LA" text="meque totum, &amp; mea, &amp; meos"/>
         <underline method="pen" type="straight" language="LA" text="est ad nos allatum"/>
         <underline method="pen" type="straight" language="LA" text="negotiu[m] facesserent"/>
@@ -97,7 +97,7 @@
         <underline method="pen" type="straight" language="LA" text="quod nihil tam praeter opinionem meam accidere"/>
         <underline method="pen" type="straight" language="LA" text="vt me collegi"/>
         <underline method="pen" type="straight" language="LA" text="caetera mi facillima"/>
-        <underline method="pen" type="straight" language="LA" text="quod certissimum &amp; iustissimum"/>
+        <underline method="pen" type="straight" language="LA" text="certissimum &amp; iustissimum"/>
         <underline method="pen" type="straight" language="LA" text="&amp; ages victor ex inimicorum dolore triumphum iustissimum. Ego"/>
         <underline method="pen" type="straight" language="LA" text="sic, contestans omneis deos, promitto atque confirmo"/>
         <underline method="pen" type="straight" language="LA" text="rogando, deprecatoris: laborando, propinqui: authoritate, chari hominis (vt spero) apud ciuitates: grauitate, Imperatoris suscepturu[m] officia atque parteis."/>
@@ -117,10 +117,10 @@
         <underline method="pen" type="straight" language="LA" text="tributa merces est laborum, &amp; vigiliarum mearum"/>
  
         <mark name="bracket" method="pen" place="right_margin"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing> <!-- NBW: is that what this mark is? -->
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing> <!-- NBW: is that what this mark is? -->
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!-- NBW: is that what this mark is? --> <!--JG: Yep-->
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!-- NBW: is that what this mark is? -->
  
-        <numeral place="right_margin">12</numeral>
+        <numeral place="right_margin">12</numeral> <!--JG: XML error: stick to the hierarchy of the XML schema. In this case, symbols come before marks and after underline tags. I'd capture these numbers (not sure what Dee is doing here) as marginalia-->
  
         <numeral place="right_margin">21</numeral>  
         
@@ -136,7 +136,6 @@
         <!-- unknown symbol -->
         <symbol name="Jupiter" place="right_margin"></symbol>
         <symbol name="Jupiter" place="right_margin"></symbol>
-    
     
     </annotation>
 </transcription>
