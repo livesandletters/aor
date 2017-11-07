@@ -9,17 +9,20 @@
     <annotation>
         
         
-        <marginalia hand="English_secretary" anchor_text="disciplinae formulam">
+        <marginalia hand="English_secretary" anchor_text="certam quandam disciplinae formulam composueru[n]t, &amp; eam quidem plenam ac refertam">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Disciplina formula [ 
+                        Disciplina[e] formula [ 
+                        plena
                         referta
                         certa
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                A method of discipline [ full; complete; certain.
+            </translation>
         </marginalia>
         
         
@@ -32,7 +35,10 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Variously.
+                Fully.
+            </translation>
         </marginalia>
         
         
@@ -46,7 +52,11 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Various.
+                Manifold.
+                Abundant.
+            </translation>
         </marginalia>
         
         
@@ -58,7 +68,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>25, a gymnasium.</translation>      <!-- DO: Not sure what the '25' refers to; don't think it's an internal page reference. Could be a Jupiter symbol? -->
         </marginalia>
         
         
@@ -70,7 +80,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To summon.</translation>
         </marginalia>
         
         
@@ -78,13 +88,15 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                       p[re]sta[n]tissim[us] 
+                       p[rea]sta[n]tissim[us] 
                        [ studio
                        Doctrina
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                The most outstanding [ study; learning.
+            </translation>
         </marginalia>
         
         
@@ -93,17 +105,20 @@
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         Res 
-                        [ occulta
+                        [ occulta[e]
                         ab ipsa[m] na[tura] involuta.
-                        abdita[e] 
-                        obscure } 15 57
+                        abdita[e] }
+                        obscure 15 57
                     </marginalia_text>
                     <internal_ref>
-                        <target ref="" text=""/>
+                        <target ref="RCP10549-50v2:0573" text="obscure 15 57"/>
                     </internal_ref>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                A matter [ hidden; veiled by nature itself.
+                           concealed; obscure. } 15.57.
+            </translation>
         </marginalia>
         
         
@@ -116,11 +131,15 @@
                         nomen
                     </marginalia_text>
                     <internal_ref>
-                        <target ref="" text=""/>
+                        <target ref="RCP10549-50v2:0564" text="verbum 6.35" prefix="vocabulu[m]" suffix="nomen"/>
                     </internal_ref>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                A designation.
+                A word, 6.35.
+                A name.
+            </translation>
         </marginalia>
         
         
@@ -132,7 +151,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>He said it is right to me?</translation>
         </marginalia>
         
         
@@ -142,21 +161,23 @@
                     <marginalia_text>
                         ita exorsus. VARRO
                     </marginalia_text>
+                    <person name="Marcus Terentius Varro"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>VARRO began thus.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="Socrates mihi videtur (id quod constat inter omnes) primus &agrave; rebus occultis &amp; ab ipsa natura inuolutis">
+        <marginalia hand="Italian" anchor_text="Socrates mihi videtur (id quod constat inter omnes) primus &agrave; rebus occultis &amp; ab ipsa natura inuolutis; vt de virtutibus &amp; vitiis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Socrates p[ri]mus de vtutibus ac vitijs disciplina instituit.
+                        Socrates p[ri]mus de v[ir]tutibus ac vitijs disciplina instituit.
                     </marginalia_text>
+                    <person name="Socrates"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Socrates first established the study of virtues and vices.</translation>
         </marginalia>
         
         
@@ -168,19 +189,20 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Heavenly matters are nothing to do with living well.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="Hic in omnibus fer&egrave; sermonibus qui ab iis qui illum audierunt perscripti varie, copiose sunt, ita disputat vt nihil affirmet ipse, refellat alios, nihil se scire dicat nisi idipsum">
+        <marginalia hand="Italian" anchor_text="Hic in omnibus fer&egrave; sermonibus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Mos Socratis in disputa[n]do.
                     </marginalia_text>
+                    <person name="Socrates"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The habit of Socrates in debating.</translation>
         </marginalia>
         
         
@@ -190,9 +212,10 @@
                     <marginalia_text>
                         APOLLO
                     </marginalia_text>
+                    <person name="Apollo"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>APOLLO.</translation>
         </marginalia>
         
         
@@ -205,11 +228,11 @@
                     <person name="Socrates"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Socrates's complete wisdom.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="Platonis">
+        <marginalia hand="Italian" anchor_text="Platonis autem authoritate, qui varius &amp; multiplex, &amp; copiosus fuit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -226,11 +249,11 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        ACADEMICI &amp; Peripatetici rebus co[n]grue[n]tes, no[m]i[ni]bus differeba[n]t.
+                        ACADEMICI &amp; Peripatetici rebus co[n]grue[n]tes, no[m]i[ni]bus differeba[n]t.   <!-- DO: Umlaut -->
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The Academics and the Peripatetics agreeing on matters; they differed in name.</translation>
         </marginalia>
         
         
@@ -238,11 +261,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        SPEVSIPPVS: PHILOSOphia heres.
+                        SPEVSIPPVS: PHILOSOphia heres.    <!-- DO: Umlauts -->
                     </marginalia_text>
+                    <person name="Speusippus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>SPEUSIPPUS: The heir to PHILOSOPHY.</translation>
         </marginalia>
         
         
@@ -252,26 +276,26 @@
                     <marginalia_text>
                         XENOCRATES.
                         ARISTOTELES.
-                        Peripatetici vnde.
+                        Peripatetici vnde.       <!-- DO: Scroll drawing around this -->
                     </marginalia_text>
+                    <person name="Xenocrates of Chalcedon"/>
+                    <person name="Aristotle"/>
                     <emphasis method="pen" type="straight" text="XENOCRATES. ARISTOTELES. Peripatetici vnde."/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Xenocrates. Aristotle. From where the Peripatetics emerged.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="Academia">
+        <marginalia hand="Italian" anchor_text="illi autem qui Platonis instituo in Academia, quod est alterum gymnasium, coetus erant, &amp; sermones habere soliti, &egrave; loci vocabulo nomen habuerunt">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         ACADEMICI VNDE
-                        sermones habere.
-                        vbertate Completi
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>From where the Academics emerged.</translation>
         </marginalia>
         
         
@@ -295,7 +319,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>In abundance of the whole.</translation>     <!-- DO: Not sure how to translate -->
         </marginalia>
         
         
@@ -305,9 +329,10 @@
                     <marginalia_text>
                         SOCRATICA DVBITATIO
                     </marginalia_text>
+                    <person name="Socrates"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Socratic doubt.</translation>
         </marginalia>
         
         
@@ -367,24 +392,30 @@
                     <marginalia_text>
                         ATTICVS.
                     </marginalia_text>
+                    <person name="Titus Pomponius Atticus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>ATTICUS.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="philosophandi">
+        <marginalia hand="Italian" anchor_text="Fuit ergo iam accepta &agrave; Platone philosophandi ratio triplex: vna, de vita &amp; moribus: altera, de natura &amp; rebus occultis: tertia, de dissere[n]do">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        PHILOSOPHANDERO.
+                        PHILOSOPHANDERO.             <!-- DO: Umlauts -->
                         { De vita &amp; moribus
                         De Natura &amp; reb[us] occultus
                         De Dissere[n]do.
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                WHAT IS TO BE PHILOSOPHISED.
+                { About life and customs.
+                  About nature and hidden matters.
+                  About dialectics.
+            </translation>
         </marginalia>
         
         
@@ -396,11 +427,11 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The greatest good, to which all things come back.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="Constitueb&aacute;ntque extremum esse rerum expetendarum, &amp; finem bonorum, adeptum esse omnia &egrave; natura, &amp; animo, &amp; corpore, &amp; vita">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -408,7 +439,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>A somewhat obscure DIVISION.</translation>
         </marginalia>
         
         
@@ -420,7 +451,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>A particular excellence in the parts.</translation>
         </marginalia>
         
         
@@ -432,7 +463,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The progression to virtue.</translation>
         </marginalia>
         
         
@@ -457,7 +488,10 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                The end.
+                The finish.
+            </translation>
         </marginalia>
         
         
@@ -470,23 +504,27 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Complete
+                Absolute. ]
+            </translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="inepte, quisquis Mineruam docet">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Inept&egrave; quisquis minerva Ducet.
+                        Inept&egrave; quisquis minerva Docet.
                     </marginalia_text>
+                    <person name="Minerva"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Whoever teaches Minerva is foolish.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="delecta[n]t; placet">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -495,7 +533,10 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                It pleases.
+                It delights.
+            </translation>
         </marginalia>
         
         
@@ -508,23 +549,30 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                A philosopher.
+                Professed philosophy.
+            </translation>
         </marginalia>
         
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="Quae quum diceret constanter, &amp; in ea sententia permaneret">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        co[n]stanter dico in hac sententia p[er]maneo
+                        co[n]stanter dico 
+                        in hac sententia p[er]maneo
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                I say firmly.
+                I remain of that opinion.
+            </translation>
         </marginalia>
         
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="exercitationis assiduitate">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -532,11 +580,11 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The continuance of practice.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="nomen habuerunt; appellatur">     <!-- DO: Can't find 'vocare ibidem' on this page -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -549,11 +597,28 @@
                         Dicere 7
                     </marginalia_text>
                     <internal_ref>
-                        <target ref="" text=""/>
+                        <target ref="RCP10549-50v2:0566" text="Ducere no[min]em 8.59"/>
+                    </internal_ref>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0564" text="no[m]inare. 6.35" prefix="apellari" suffix="appellare"/>
+                    </internal_ref>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0564" text="appellare 6.37." prefix="6.35" suffix="vocare"/>
+                    </internal_ref>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0565" text="Dicere"/>
                     </internal_ref>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                To assign a name, 8.59.
+                To have a name.
+                To be called.
+                To name, 6.35.
+                To call, 6.37.
+                The call the same.
+                To call, 7.
+            </translation>
         </marginalia>
         
         
@@ -588,11 +653,13 @@
         <symbol name="Jupiter" place="left_margin"/>
         
         
-        <!-- DO: 2 unknown marks in right margin tail  -->
+        <!-- DO: 2 unknown marks in right margin & head  -->
         
         
         
         <mark name="comma" method="pen" place="intext"/>  <!-- Naturae celeritatem -->
+        
+        <mark name="tripunctus" method="pen" place="right_margin"/>
         
         
         <errata language="LA" copytext="Mihi vero? ille" amendedtext="[deleted]"/>
