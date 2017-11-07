@@ -11,22 +11,19 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                 <marginalia_text>Clodius</marginalia_text>
-                <person name="Clodius"/>
+                <person name="Clodius"/> <!-- JG: Person doesn't appear in person spreadsheet so should be added. Try to find out which Clodius this is and tag accordingly -->
                 </position>
             </language>
             <translation>Clodius</translation>
-            
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="semper ad largiendum ex alieno fuerim restrictior">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>semper ad largiendu[m] ex alieno restrictior</marginalia_text>
-                   
                 </position>
             </language>
             <translation>I have always been more conservative in generosity from others</translation>
-            
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="Hortensiumque">
@@ -37,14 +34,12 @@
                 </position>
             </language>
             <translation>Hortensium</translation>
-            
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="Amanu[m]">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Amanus</marginalia_text>
-                    
+                    <marginalia_text>Amanus</marginalia_text> <!--JG: Use person tag?-->
                 </position>
             </language>
             <translation>Amanus</translation>                                         
@@ -54,7 +49,6 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Parthi</marginalia_text>
-                    
                 </position>
             </language>
             <translation>Partians</translation>      
@@ -64,7 +58,6 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Arabes</marginalia_text>
-                    
                 </position>
             </language>
             <translation>Arabs</translation>      
@@ -115,7 +108,6 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Greek</marginalia_text> <!-- NBW: Needs Greek -->
-                    
                 </position>
             </language>
             <translation></translation>      
@@ -124,8 +116,7 @@
         <marginalia hand="Italian" anchor_text="Parthis">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>bima p[rae]u[n]itus</marginalia_text>
-                    
+                    <marginalia_text>bima p[rae]u[n]itus</marginalia_text> <!--JG: I think there's a dot after bima. So these might be two separate words-->
                 </position>
             </language>
             <translation>combined every two years</translation> <!-- NBW: ? meaning uncertain-->      
@@ -137,12 +128,12 @@
         <underline method="pen" type="straight" language="LA" text="accidit me audiente"/>
         <underline method="pen" type="straight" language="LA" text="lacessiui nunqua[m], sed"/>
         <underline method="pen" type="straight" language="LA" text="valde repressi"/>
-        <underline method="pen" type="straight" language="LA" text="Siquis est, qui neminem bona fide in gratiam putet redire posse, no[n] nostram is perfidiam coarguit, sed indicat suam: simulque non de me is peius, wuam de te existimat"/>
+        <underline method="pen" type="straight" language="LA" text="Siquis est, qui neminem bona fide in gratiam putet redire posse, no[n] nostram is perfidiam coarguit, sed indicat suam: simulque non de me is peius, quam de te existimat"/>
         <underline method="pen" type="straight" language="LA" text="sit: hunc ego amicum habere no[n] curo"/>
         <underline method="pen" type="straight" language="LA" text="etsi de tua prolixa, beneficaque natura limauit aliquid posterior annus, propter quandam tristitiam"/>
-        <underline method="pen" type="straight" language="LA" text="semper ad largendum ex alieno fuerim restrictior"/>
+        <underline method="pen" type="straight" language="LA" text="semper ad largiendum ex alieno fuerim restrictior"/>
         <underline method="pen" type="straight" language="LA" text="de rebus vrbanis"/>
-        <underline method="pen" type="straight" language="LA" text="quoque sentintia bima"/>
+        <underline method="pen" type="straight" language="LA" text="quoque sententia bima"/>
         <underline method="pen" type="straight" language="LA" text="esse inimicius"/>
         <underline method="pen" type="straight" language="LA" text="castra haberem in"/>
         <underline method="pen" type="straight" language="LA" text="admisto Parthico ornatu"/>
@@ -156,14 +147,14 @@
         <underline method="pen" type="straight" language="LA" text="maximam laetitiam cepi"/>
         <underline method="pen" type="straight" language="LA" text="minime dubia, &amp; plane explorata"/>
         
-        <numeral place="left_margin">12</numeral>
-        <numeral place="left_margin">72</numeral>
+        <numeral place="left_margin">12</numeral> <!--JG: Tag as marginalia-->
+        <numeral place="left_margin">72</numeral> <!--JG: Not sure whether this is 72. Could be a sloppy one, so 12. Tag as marginalia-->
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <!-- NBW: unknown symbol -->
         <!-- NBW: unknown symbol -->
         <!-- NBW: unknown symbol -->
-        <symbol name="Jupiter" place="left_margin"></symbol>
+        <symbol name="Jupiter" place="left_margin"></symbol> <!--JG: XML error: symbols should be tagged after underlines-->
         <symbol name="Jupiter" place="left_margin"></symbol>
         <symbol name="Jupiter" place="left_margin"></symbol>
         <!-- NBW: unknown symbol -->
