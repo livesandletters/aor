@@ -47,7 +47,7 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="commutari; laberentur &amp; fluerent; ">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -57,11 +57,12 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                To ebb.
+                To flow.
+                To be changed.
+            </translation>
         </marginalia>
-        
-        
-        
         
         
         <marginalia hand="Italian" anchor_text="natura cohaerente &amp; continuata">
@@ -81,7 +82,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        ascuritas
+                        ascuritas            <!-- DO: Not sure about either of these -->
                         anoratio
                     </marginalia_text>
                 </position>
@@ -93,14 +94,14 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>comssare</marginalia_text>
+                    <marginalia_text>conissare</marginalia_text>     <!-- DO: Not sure -->
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="appellaba[n]t; dicere">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -116,16 +117,18 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="quae subiectae sensibus viderentur, quae essent aut ita paruae, vt sub sensum cadere non possent: aut ita mobiles &amp; concitatae">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        res subiecte sensibus { mobdes
-                        co[m]atate
+                        res subiecte sensibus { mobiles
+                                               concitata[e]
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                  Things in the realm of the senses { agitated; mobile.
+            </translation>
         </marginalia>
         
         
@@ -145,7 +148,7 @@
                     <marginalia_text>vltro citroq[ue].</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To and fro.</translation>
         </marginalia>
         
         
@@ -155,7 +158,7 @@
                     <marginalia_text>Qualia</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Qualified.</translation>
         </marginalia>
         
         
@@ -195,7 +198,7 @@
                     <marginalia_text>{ valentius</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>More strongly.</translation>
         </marginalia>
         
         
@@ -225,7 +228,7 @@
                     <marginalia_text>inter quasi.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>As if between.</translation>
         </marginalia>
         
         
@@ -255,7 +258,7 @@
                     <marginalia_text>R[ati]o disserendi oritur &agrave; se[n]sibus</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The reason of discussion rises from the senses.</translation>
         </marginalia>
         
         
@@ -265,7 +268,7 @@
                     <marginalia_text>Iudiciu[m] veritatis no[n] e[sse] in se[n]sib[us].</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Judgement of the truth is not in the senses.</translation>
         </marginalia>
         
         
@@ -285,7 +288,7 @@
                     <marginalia_text>.IDEA.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>THE IDEA.</translation>
         </marginalia>
         
         
@@ -297,13 +300,30 @@
                         Tardi
                         angusti .9.63
                         integri
-                        imarru[m]pti ] 13.39.
+                        incorru[m]pti ] 13.39.
                         sani
                         valentes ] 13.39
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0567" text="angusti .9.63" prefix="Tardi" suffix="integri"/>
+                    </internal_ref>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0571" text="integri incorru[m]pti ] 13.39." prefix=".9.63" suffix="sani"/>
+                    </internal_ref>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0571" text="sani valentes ] 13.39"/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                The senses { Dull.
+                Slow.
+                Narrow, 9.63.
+                Complete.
+                
+                Sound.
+                Strong. ]
+            </translation>
         </marginalia>
         
         
@@ -313,7 +333,7 @@
                     <marginalia_text>SENSVS</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>THE SENSES.</translation>
         </marginalia>
         
         
@@ -330,10 +350,10 @@
         <marginalia hand="Italian" anchor_text="rerum opinabilem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>opinabilis reru[m]</marginalia_text>    <!-- Greek needed -->
+                    <marginalia_text>            opinabilis reru[m]</marginalia_text>    <!-- Greek needed -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>                 The opinion of things.</translation>
         </marginalia>
         
         
@@ -343,7 +363,17 @@
                     <marginalia_text>SCIENTIA.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>KNOWLEDGE.</translation>
+        </marginalia>
+        
+        
+        <marginalia hand="Italian" anchor_text="Qua de causa definitiones rerum probaba[n]t, &amp; has ad omnia de quibus disceptabatur, adhibeba[n]t">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Ad vna[m]qua[m]q[ue] re[m] de qua disceptaba[n]t diff[initi]o[n]es abhibeba[n]t</marginalia_text>
+                </position>
+            </language>
+            <translation>To whichever matter which they discussed they assigned definitions.</translation>
         </marginalia>
         
         
@@ -374,7 +404,7 @@
                     <person name="Plato"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The faculty of oratory, the primary method from Plato.</translation>
         </marginalia>
         
         
@@ -385,7 +415,7 @@
                     <person name="Aristotle"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>ARISTOTLE first undermines the types.</translation>
         </marginalia>
         
         
@@ -404,9 +434,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>STRATO</marginalia_text>
+                    <person name="Strato of Lampsacus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>STRATO.</translation>
         </marginalia>
         
         
@@ -416,7 +447,7 @@
                     <marginalia_text>Philosophia moralis maxim&egrave; necessaria</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Moral philosophy extremely necessary.</translation>
         </marginalia>
         
         
@@ -431,9 +462,22 @@
                         ZENO
                         ARCESILAS
                     </marginalia_text>
+                    <person name="Speusippus"/>
+                    <person name="Xenocrates of Chalcedon"/>
+                    <person name="Polemon"/>
+                    <person name="Crates of Athens"/>
+                    <person name="Zeno of Citium"/>
+                    <person name="Arcesilaus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                SPEUSIPPUS.
+                XENOCRATES.
+                POLEMON.
+                CRATES.
+                ZENO.
+                ARCESILAUS.
+            </translation>
         </marginalia>
         
         
@@ -441,9 +485,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>ANTIOCHVS</marginalia_text>
+                    <person name="Antiochus of Ascalon"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>ANTIOCHUS.</translation>
         </marginalia>
         
         
@@ -451,9 +496,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>POMPONIVS</marginalia_text>
+                    <person name="Titus Pomponius Atticus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>POMPONIUS.</translation>
         </marginalia>
         
         
@@ -464,7 +510,7 @@
                     <person name="Theophrastus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Theophrastus met the tendons of virtue.</translation>
         </marginalia>
         
         
@@ -474,50 +520,81 @@
                     <marginalia_text>HONESTV[M] QVID.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>WHAT IS HONEST.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="labefactauit; vehementius etiam fregit quodammodo authoritatem veteris disciplinae; vald&eacute;que subtiliter dissereret">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         labefactare
                         frangere veheme[n]tius
-                        valde cubtilit[er] disserere
+                        valde subtilit[er] disserere
                         infirmare
                         tollere } 13.37
                         evertere ibi
                         evertere funditas
-                        eripere instrume[n]ta vel fundame[n]ta ] 15.69.109
+                        eripere instrume[n]ta vel fundame[n]ta ] 15.61.109
                         coarguere.
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0571" text="infirmare tollere } 13.37" prefix="disserere" suffix="evertere"/>
+                    </internal_ref>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0573" text="evertere funditas eripere instrume[n]ta vel fundame[n]ta ] 15.61.109" prefix="ibi" suffix="coarguere"/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                To undermine.
+                To break more violently.
+                To discuss very precisely.
+                To weaken.
+                To fall. } 13.37.
+                To overturn there.
+                To overturn the foundation.
+                To snatch the instruments and the foundations. ] 15.69.109
+                To refute.
+            </translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="recte; Praeclare; mirifice; diligenter; subtiliter">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         recte
-                        pra[e]ctat&egrave;
+                        pra[e]clar&egrave;
                         dilige[n]ter
-                        ...fic&egrave;.
+                        mirific&egrave;.
                         bene 6.37
                         subtiliter
-                        apte
+                        ap[er]te
                         p[er]spicue ] 20
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0564" text="bene 6.37" prefix="mirific&egrave;." suffix="subtiliter"/>
+                    </internal_ref>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0578" text="ap[er]te p[er]spicue 20"/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Rightly.
+                Clearly.
+                Carefully.
+                Wonderfully.
+                Well, 6.37.
+                Precisely.
+                Openly.
+                Clearly. ] 20
+            </translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="oratione suauis; acri ingenio">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -526,31 +603,34 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Charming in speech.
+                An acute intellect.
+            </translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="numeraret in bonis">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>munerare in bonis</marginalia_text>
+                    <marginalia_text>numerare in bonis</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To count in good things.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="anteiret aetate">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Anteibat a[e]tate.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>He preceded in age.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="vt prae se probitatem quandam &amp; ingenuitatem ferat">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -559,42 +639,49 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Uprightness.
+                Nobility.
+            </translation>
         </marginalia>
         
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="peracute moueretur">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>p[er]acute moueri</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To be stirred very acutely.</translation>
         </marginalia>
         
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary">    <!-- DO: I can't find this in the text -->
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>eidem quide[m]</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Indeed to the same.</translation>
         </marginalia>
         
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         semonere
-                        se...gere
+                        se...gere         <!-- DO: Not sure -->
                         remouere
-                        anocare
+                        auocare
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                To discuss.
+                To remove.
+                To call off.
+            </translation>
         </marginalia>
         
         
@@ -659,8 +746,6 @@
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> 
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        
-        
         
         
     </annotation>
