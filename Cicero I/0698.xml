@@ -19,7 +19,7 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Aristo.</marginalia_text>
-                    <!--JG: Person tag missing + find out which Aristo + add to spreadsheet if necessary-->
+                    <person name="Aristo"/>
                 </position>
             </language>
             <translation>Aristo</translation>      
@@ -71,7 +71,7 @@
         <underline method="pen" type="straight" language="LA" text="incidere in terrores"/>
         <underline method="pen" type="straight" language="LA" text="tua laus ex aliqua parte fuerit. sin"/>
         <underline method="pen" type="straight" language="LA" text="mihi veniebant in mente[m]"/>
-        <underline method="pen" type="straight" language="LA" text="vitabis inimicitas, &amp; posteritatis otio consules"/>
+        <underline method="pen" type="straight" language="LA" text="vitabis inimicitas, &amp; posteritatis otio consules" id="RCP10549-50v1:0698:u0001"/>
         <underline method="pen" type="straight" language="LA" text="optatissimum nu[n]tium"/>
         <underline method="pen" type="straight" language="LA" text="die datae essent"/>
         <underline method="pen" type="straight" language="LA" text="te statores meos, &amp; lictores cum"/>
@@ -82,7 +82,7 @@
         
         <symbol name="Jupiter" place="left_margin"/>
         
-        <numeral place="left_margin">12</numeral>  <!--JG: Since we don't exactly know what Dee is doing, rather tag as marginal note-->      
+        <numeral place="left_margin">12</numeral>      
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
@@ -91,7 +91,15 @@
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>   <!--JG: You can link this one to underscored text it points at-->
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" id="RCP10549-50v1:0698:d0001"/>  
+        
+        <physical_link>
+            <marginal_annotation idref="RCP10549-50v1:0698:u0001"/>
+            <marginal_annotation idref="RCP10549-50v1:0698:d0001"/>
+            <relation from="RCP10549-50v1:0698:d0001" to="RCP10549-50v1:0698:u0001" type="directed"/> <!-- NBW: Do manicules imply direction? -->
+            
+            
+        </physical_link><!--JG: You can link this one to underscored text it points at-->
         
     </annotation>
 </transcription>
