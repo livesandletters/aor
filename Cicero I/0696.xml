@@ -56,7 +56,7 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Q. Hortensius</marginalia_text>
-                    <person name="Quintus Hortensius Hortalus"/> <!-- JG: Should be tagged as 'Quintus Hortensius', use the names in column A as identifier -->
+                    <person name="Quintus Hortensius"/> 
                 </position>
             </language>
             <translation>Quintus Hortensius.</translation>
@@ -68,7 +68,7 @@
                     <marginalia_text>Specula. Diuinatiuum &agrave; spe.</marginalia_text>
                 </position>
             </language>
-            <translation>A glimmer of hope. Having been taken from hope </translation> <!-- NBW: I think he's talking about the etymology of the word in the second part of this - mod english might be "deriving from" --> <!--JG: Yeah,  'deriving from' makes sense to me!-->
+            <translation>A glimmer of hope. Deriving from hope </translation> <!-- NBW: I think he's talking about the etymology of the word in the second part of this - mod english might be "deriving from" --> <!--JG: Yeah,  'deriving from' makes sense to me!-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Hispaniensem casum">
@@ -120,7 +120,8 @@
         <underline method="pen" type="straight" language="LA" text="acerbitas, quae non omnibus hac orbis terrarum pertubatione impend&ecirc;re videatur."/> 
         <underline method="pen" type="straight" language="LA" text="redemissem"/>
         <underline method="pen" type="straight" language="LA" text="relinquam in memoria"/>
-        <underline method="pen" type="straight" language="LA" text="nihil accidet ei separatim &agrave; reliquis ciuibus"/> <!--JG: You missed some underscored text after this one-->
+        <underline method="pen" type="straight" language="LA" text="nihil accidet ei separatim &agrave; reliquis ciuibus"/>
+        <underline method="pen" type="straight" language="LA" text="ea me cura vehementissime"/>
         <underline method="pen" type="straight" language="LA" text="qu&ograve;d in communibus miseriis hac tamen oblectabar specula"/> 
         <underline method="pen" type="straight" language="LA" text="profecto nobis locus. sinautem non erit, in easdem"/>
         <underline method="pen" type="straight" language="LA" text="quibus nos consedisse audies. Sed ego fortasse vaticinor: &amp; haec omnia"/>
@@ -147,42 +148,10 @@
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> 
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> 
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="aliud"/> 
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="acerbitas"/> <!-- NBW: added these to suggest the function of the manicules -->
         
-        <physical_link> <!--JG: I wouldn't capture these as physical links-->
-            <marginal_annotation idref="RCP10549-50v1:0696:m0001"/>
-            <marginal_annotation idref="RCP10549-50v1:0696:u0001"/>
-            <relation from="RCP10549-50v1:0696:m0001" to="RCP10549-50v1:0696:u0001" type="undirected"/>
-        </physical_link>
-        
-        <physical_link>
-            <marginal_annotation idref="RCP10549-50v1:0696:d0002"/>
-            <marginal_annotation idref="RCP10549-50v1:0696:u0002"/>
-            <marginal_annotation idref="RCP10549-50v1:0696:m0002"/>           
-            <relation from="RCP10549-50v1:0696:d0002" to="RCP10549-50v1:0696:u0002" type="directed"/>
-            <relation from="RCP10549-50v1:0696:d0002" to="RCP10549-50v1:0696:m0002" type="directed"/>
-        </physical_link>
-        
-        <physical_link>
-            <marginal_annotation idref="RCP10549-50v1:0696:m0002"/>
-            <marginal_annotation idref="RCP10549-50v1:0696:u0002"/>
-            <marginal_annotation idref="RCP10549-50v1:0696:u0003"/>           
-            <relation from="RCP10549-50v1:0696:m0002" to="RCP10549-50v1:0696:u0002" type="undirected"/>
-            <relation from="RCP10549-50v1:0696:m0002" to="RCP10549-50v1:0696:u0003" type="undirected"/>
-        </physical_link>
-        
-        <physical_link>
-            <marginal_annotation idref="RCP10549-50v1:0696:m0003"/>
-            <marginal_annotation idref="RCP10549-50v1:0696:u0005"/>
-            <relation from="RCP10549-50v1:0696:m0003" to="RCP10549-50v1:0696:u0005" type="undirected"/>
-        </physical_link> 
-        
-        <physical_link>
-            <marginal_annotation idref="RCP10549-50v1:0696:d0002"/>
-            <marginal_annotation idref="RCP10549-50v1:0696:u0004"/>
-            <relation from="RCP10549-50v1:0696:d0001" to="RCP10549-50v1:0696:u0004" type="directed"/>
-        </physical_link>    
+
     
     </annotation>
 </transcription>
