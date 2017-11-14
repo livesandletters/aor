@@ -10,10 +10,8 @@
             <language ident="LA"> 
                 <position place="intext" book_orientation="0">
                     <marginalia_text>500.</marginalia_text>
-                    
                 </position>
             </language>
-                 
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Tarsi">
@@ -50,7 +48,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Lex Iulia.</marginalia_text>
-                    
                 </position>
             </language>
             <translation>The Julian Law.</translation>      
@@ -70,7 +67,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Parthi</marginalia_text>
-                    
                 </position>
             </language>
             <translation>Parthians.</translation>      
@@ -80,7 +76,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Laodicea</marginalia_text>
-                    <location name="Tarsus"/>
+                    <location name="Tarsus"/> <!--JG: Wrong name-->
                 </position>
             </language>
             <translation>Laodicea.</translation>      
@@ -103,7 +99,7 @@
                     <person name="Lucius Marius"/>
                 </position>
             </language>
-            <translation>Lucius Marius.</translation>  <!-- NBW: Loeb says that this is tentative. Best to leave as just Marius? -->    
+            <translation>Lucius Marius.</translation>  <!-- NBW: Loeb says that this is tentative. Best to leave as just Marius? --> <!--JG: Lucius Marius is fine-->   
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Bibuluo">
@@ -146,7 +142,6 @@
             <translation>Arobarzanes III.</translation>      
         </marginalia> 
         
-        
         <underline method="pen" type="straight" language="LA" text="mihi stator tuus"/>
         <underline method="pen" type="straight" language="LA" text="quam tibi scribis &agrave; Bibulo fieri potestatem"/>
         <underline method="pen" type="straight" language="LA" text="praesidium deduci"/>
@@ -154,11 +149,12 @@
         <underline method="pen" type="straight" language="LA" text="Parthi transierint"/>
         <underline method="pen" type="straight" language="LA" text="Ro[manum]. teruncium"/>
         <underline method="pen" type="straight" language="LA" text="Laodiceae me praedes accepturum"/>
-        <underline method="pen" type="straight" language="LA" text="sine vecturae periculo" id="RCP10549-50v1:0697:u0001"/> <!-- Check this -->
+        <underline method="pen" type="straight" language="LA" text="sine vecturae periculo" /> 
         <underline method="pen" type="straight" language="LA" text="legionibus, quae decretae"/>
         <underline method="pen" type="straight" language="LA" text="in quo mihi voluntas non deest, sed locus videtur esse tecum expostulandi. Solus"/>
-        <underline method="pen" type="straight" language="LA" text="qu&agrave;m valde Bibuli" id="RCP10549-50v1:0697:u0002"/>
-        <underline method="pen" type="straight" language="LA" text="ad me literam nunquam" id="RCP10549-50v1:0697:u0003"/>
+        <underline method="pen" type="straight" language="LA" text="qu&agrave;m valde Bibuli"/>
+        <underline method="pen" type="straight" language="LA" text="ad me literam nunquam" />
+        <underline method="pen" type="straight" language="LA" text="de auguratu filii" />
         <underline method="pen" type="straight" language="LA" text="proprium, vt alariis transpadanis vti negarem"/>
         <underline method="pen" type="straight" language="LA" text="Illud ver&ograve; pusilli animi, &amp; ipsa maleuolentia ieiuni, atque inanis, qu&ograve;d"/>
         <underline method="pen" type="straight" language="LA" text="per me"/>
@@ -166,21 +162,21 @@
         <underline method="pen" type="straight" language="LA" text="scito in dies maiori curae"/>
         <underline method="pen" type="straight" language="LA" text="ipso integritate, &amp; clementia tua sic amplificata"/>
         
-        
-               <!-- NBW: Unknown symbol linked to u0001 -->
+        <!-- JG: Unknown symbol/flourish -->
         <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin" id="RCP10549-50v1:0697:s0001"/> 
+        <symbol name="Jupiter" place="right_margin"/>
+        <!-- JG: Unknown symbol/flourish -->
+        <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
                 
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="vertical_bar" method="pen" place="right_margin" id="RCP10549-50v1:0697:m0001"/> 
-        
+        <mark name="vertical_bar" method="pen" place="right_margin"/> <!--JG: Can't spot this one-->
         
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">12</numeral>
         
-        <physical_link>
+        <physical_link> <!--JG: Well noticed, but I wouldn't use a physical link in these cases, so you can deleted this tag-->
             <marginal_annotation idref="RCP10549-50v1:0697:s0001"/>
             <marginal_annotation idref="RCP10549-50v1:0697:u0002"/>
             <relation from="RCP10549-50v1:0697:s0001" to="RCP10549-50v1:0697:u0002" type="undirected"/>
