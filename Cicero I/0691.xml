@@ -57,7 +57,7 @@
                     <marginalia_text>In eadem es naui.</marginalia_text> 
                 </position>
             </language>
-            <translation>You are industrious in each one.</translation> <!-- NBW: Check --> 
+            <translation>You are in the same boat.</translation> 
         </marginalia>
         
         <marginalia hand="Italian">
@@ -69,6 +69,45 @@
             <translation>A correction.</translation> 
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="Sex. Villium">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>S. Villius.</marginalia_text> 
+                    <person name="Sextus Villius Annalis"/>
+                </position>
+            </language>
+            <translation>Sextus Villius Annalis.</translation> 
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Italiam">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Italia.</marginalia_text> 
+                    <location name="Italy"/>                
+                </position>
+            </language>
+            <translation>Italy.</translation> 
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Asia Romam versus">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Asia Roma</marginalia_text> 
+                    <location name="Asia"/>
+                    <location name="Rome"/>
+                </position>
+            </language>
+            <translation>Asia. Rome.</translation> 
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EL"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>[Greek]</marginalia_text> 
+                </position>
+            </language>
+            <translation></translation>  <!-- NBW: Greek Transcription missing -->
+        </marginalia>
         
         
         <underline method="pen" type="straight" language="LA" text="neque quisquam est quin satietate iam desessus sit"/>

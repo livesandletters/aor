@@ -40,10 +40,10 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Darius Alexander.</marginalia_text>
                     <person name="Darius"/>
-                    <person name="Alexander"/> <!-- Check to see which Alexander -->
+                    <person name="Alexander the Great"/> 
                 </position>
             </language>
-            <translation>Darius. Alexander.</translation>
+            <translation>Darius. Alexander the Great.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Pindenissum">
@@ -80,9 +80,10 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Patischus.</marginalia_text>
+                    <person name="Quintus Patischus"/>
                 </position>
             </language>
-            <translation>Patischus.</translation>
+            <translation>Quintus Patischus.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Megalensibus">
@@ -91,7 +92,7 @@
                     <marginalia_text>Megalens.</marginalia_text>
                 </position>
             </language>
-            <translation>The Megalesia.</translation> <!-- NBW: This could refer either to a Roman goddess, the festivals held in her honor (as in text a measure of time) or the place where the festivals were held.  -->
+            <translation>The Megalesia (festival of Cybele, 4 April).</translation> <!-- NBW: This could refer either to a Roman goddess (Cybele), the festivals held in her honor (as in text a measure of time) or the place where the festivals were held.  -->
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="Quinquatrus">
@@ -100,7 +101,7 @@
                     <marginalia_text>Quinquatrus.</marginalia_text>
                 </position>
             </language>
-            <translation>The festival of the Quinquartus.</translation>
+            <translation>The festival of Minerva.</translation> <!-- NBW: As above: this has a temporal reference as well, 19-23 March -->
         </marginalia>
         
         
@@ -126,11 +127,12 @@
         <marginalia hand="Italian" anchor_text="Philone Pessinunte">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Philo pessin.</marginalia_text> <!-- NBW: Check and add-->
-                    <person name=""/>
+                    <marginalia_text>Philo pessin[us].</marginalia_text> <!-- NBW: Possible that Dee doesn't know what this place is, and thus how to expand this place name-->
+                    <person name="Philo"/>
+                    <location name="Pessinus"/>
                 </position>
             </language>
-            <translation>.</translation>
+            <translation>Philo Pessinus.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Peregrinatio">
