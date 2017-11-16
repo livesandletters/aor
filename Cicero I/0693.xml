@@ -10,7 +10,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>te [Greek] nemine[m] cognoui.</marginalia_text>
-                    
                 </position>
             </language>
             <translation>I realize that you are no [Greek word].</translation>
@@ -20,7 +19,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Rumor.</marginalia_text>
-                    
                 </position>
             </language>
             <translation>Rumor.</translation>
@@ -40,7 +38,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Athenae</marginalia_text>
-                    
                 </position>
             </language>
             <translation>Athenians.</translation>
@@ -60,7 +57,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Epistola subobscura haec est.</marginalia_text>
-                    
                 </position>
             </language>
             <translation>This letter is somewhat rare.</translation>
@@ -70,7 +66,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Latrocinia.</marginalia_text>
-                    
                 </position>
             </language>
             <translation>Robbery.</translation>
@@ -89,9 +84,8 @@
         <marginalia hand="Italian">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>De rebus gestis cic[erone]. in Bello Parthico.</marginalia_text>
-                    
-                </position>
+                    <marginalia_text>De rebus gestis cic[erone]. in Bello Parthico.</marginalia_text> <!--JG: Cicero should be tagged here-->
+                </position> 
             </language>
             <translation>The deeds done by Cicero in the Parthian war.</translation>
         </marginalia>
@@ -110,7 +104,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Hiccine est ille?</marginalia_text>
-                    
                 </position>
             </language>
             <translation>Is he not that man?</translation> 
@@ -175,11 +168,11 @@
         <underline method="pen" type="straight" language="LA" text="tantum modo"/>
         <underline method="pen" type="straight" language="LA" text="quod esset ad laureolam"/>
         <underline method="pen" type="straight" language="LA" text="exercitum adduxi"/>
-        <underline method="pen" type="straight" language="LA" text="prebe ornatum auxiliis"/>
+        <underline method="pen" type="straight" language="LA" text="probe ornatum auxiliis"/>
         <underline method="pen" type="straight" language="LA" text="enim in his locis, Hiccine est ille, qui vrbem? quem"/>
         <underline method="pen" type="straight" language="LA" text="est, diuisus aquaru[m] diuortiis: Cassius"/>
         <underline method="pen" type="straight" language="LA" text="Antiochia hoste[m] reiecerat, Bibulus"/>
-        <underline method="pen" type="straight" language="LA" text="omnibus vexaui Amanienseis hosteis sempiternos. multi occasi, capti, reliqui dissipati:"/>
+        <underline method="pen" type="straight" language="LA" text="omnibus vexaui Amanienseis hosteis sempiternos. multi occisi, capti, reliqui dissipati:"/>
         
         <symbol name="Jupiter" place="right_margin"/> <!-- NBW: Poss w/flourish -->
         <symbol name="Jupiter" place="right_margin"/> <!-- NBW: Poss w/flourish -->
@@ -188,21 +181,18 @@
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         
-        <mark name="dagger" method="pen" place="intext" text="de nihilo" id="RCP10549-50v1:0693:m0001"/> <!-- NBW: Linked to annotation - correction? Do I need this ref? -->
+        <mark name="dagger" method="pen" place="intext" text="de nihilo" id="RCP10549-50v1:0693:m0001"/> <!-- NBW: Linked to annotation - correction? Do I need this ref? --> <!--JG: Nope, you do not have to link these, so ID isn't necessary-->
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
-       
         
         <numeral place="right_margin">12</numeral>
         
         <errata language="LA" copytext="factu" amendedtext="tactu[m]"/>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="in rebus"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        
-        
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="in rebus"/> <!--JG: I'd link it to the complete underscored text here-->
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
