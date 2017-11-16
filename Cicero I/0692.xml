@@ -13,7 +13,7 @@
                     <marginalia_text>fixi locaui statui</marginalia_text> 
                 </position>
             </language>
-        <translation>to make. to locate. to set up. </translation>
+        <translation>To make. To locate. To set up. </translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -22,7 +22,7 @@
                     <marginalia_text> suffragatio potens p[ro]bata insta debita gratiosa</marginalia_text> 
                 </position>
             </language>
-            <translation> </translation>
+            <translation> </translation> <!--JG: Translation is missing-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Milonis Consulatu">
@@ -44,7 +44,7 @@
             <translation>By what means the good will of many is brought together. </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="ventoru[m]">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Venti.</marginalia_text> 
@@ -59,7 +59,7 @@
                     <marginalia_text>iudiciu[m] Xcasus</marginalia_text> 
                 </position>
             </language>
-            <translation>Judgment without fail</translation> <!-- NBW: Uncertain -->
+            <translation>Judgment without fail</translation> <!-- NBW: Uncertain --> <!--JG: Could the 'X' stand for 10 here?-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="quid vanitatis in vita">
@@ -96,7 +96,7 @@
                     <marginalia_text>Senaticonsultu[m]</marginalia_text> 
                 </position>
             </language>
-            <translation>Counsel of the Senate</translation>
+            <translation>Counsel of the Senate.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="vnis literis">
@@ -120,15 +120,16 @@
         <underline method="pen" type="straight" language="LA" text="Nemo est qui tibi sapientius suadere possit te ipso: nunquam lab&ecirc;re, si te audies"/>
         <underline method="pen" type="straight" language="LA" text="si ea defendes quae ipse recta esse senties."/>
         <underline method="pen" type="straight" language="LA" text="tempus no[n] incideris sed veneris"/>
-        <underline method="pen" type="straight" language="LA" text=". temporum sit, qua[n]ta varietas rerum, qu&agrave;m incerti exitus, qu&agrave;m flexibiles hominu[m] voluntates,"/>
+        <underline method="pen" type="straight" language="LA" text="temporum sit, qua[n]ta varietas rerum, qu&agrave;m incerti exitus, qu&agrave;m flexibiles hominu[m] voluntates,"/>
         <underline method="pen" type="straight" language="LA" text="vanitatis in vita, non dubito quin cogites"/>
         <underline method="pen" type="straight" language="LA" text="loquere &amp; te adhibe in co[n]silium, te audi, tibi obte[m]pera."/>
         <underline method="pen" type="straight" language="LA" text="particeps, vel socius,"/>
         <underline method="pen" type="straight" language="LA" text="vis amoris mei"/>
-        <underline method="pen" type="straight" language="LA" text="consilio te vt possem iuuare. Scribam ad te plura alias"/>
+        <underline method="pen" type="straight" language="LA" text="consilio te vt possem iuuare"/>
+        <underline method="pen" type="straight" language="LA" text="Scribam ad te plura alias"/>
         <underline method="pen" type="straight" language="LA" text="enim diebus era[m] missurus domesticos"/>
-        <underline method="pen" type="straight" language="LA" text=", vnis literis totius aestatis res gestas ad Senatu[m] perscriberem"/>
-        <underline method="pen" type="straight" language="LA" text="te mi Curio pro tua incredibile in me beneuolentia, me&aacute;que item in te singulari"/>
+        <underline method="pen" type="straight" language="LA" text="vnis literis totius aestatis res gestas ad Senatu[m] perscriberem"/>
+        <underline method="pen" type="straight" language="LA" text="Te mi Curio pro tua incredibili in me beneuolentia, me&aacute;que item in te singulari"/>
         <underline method="pen" type="straight" language="LA" text="Tribuno, non vt decernatur aliquid noui"/>
         <underline method="pen" type="straight" language="LA" text="solet esse difficilus: sed vt nequid noui decernatur:"/>
         
@@ -148,9 +149,8 @@
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-    
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
     
     </annotation>
 </transcription>
