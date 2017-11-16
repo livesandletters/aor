@@ -22,7 +22,7 @@
                     <marginalia_text>subdubitare.</marginalia_text>
                 </position>
             </language>
-            <translation> To doubt slightly.</translation>
+            <translation>To doubt slightly.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="deprecatorem">
@@ -58,7 +58,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Curio. Caesar</marginalia_text>
-                    <person name="Caesar"/>
+                    <person name="Caesar"/> <!--JG: Which Caesar is this? 'Caesar' doesn't exist in people spreadsheet (for good reasons, would be too vague-->
                     <person name="Gaius Scribonius Curio"/>
                 </position>
             </language>
@@ -99,7 +99,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Caesar. Pompeius</marginalia_text>
-                    <person name="Caesar"/>
+                    <person name="Caesar"/> <!--JG: Which Caesar is this? 'Caesar' doesn't exist in people spreadsheet (for good reasons, would be too vague-->
                     <person name="Pompey"/>
                 </position>
             </language>
@@ -121,7 +121,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Alteru[m] me</marginalia_text>
-                    
                 </position>
             </language>
             <translation>An alter ego.</translation>
@@ -141,7 +140,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Cassij. Antonij</marginalia_text>
-                    
                 </position>
             </language>
             <translation>The Cassii and Antonii families.</translation>
@@ -151,7 +149,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Ocella.</marginalia_text>
-                    <person name="Servius Ocella"/>
+                    <person name="Servius Ocella"/> <!--JG: Doens't exist in people spreadsheet-->
                 </position>
             </language>
             <translation>Servius Ocella.</translation> 
@@ -181,7 +179,6 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Etesiae.</marginalia_text>
-                    
                 </position>
             </language>
             <translation>The Etesians.</translation>
@@ -224,5 +221,6 @@
         <numeral place="right_margin">12</numeral>
         
         <errata language="LA" copytext="sis" amendedtext="scis"/>
+        
     </annotation>
 </transcription>
