@@ -9,10 +9,9 @@
         <marginalia hand="Italian" anchor_text="accessio">
             <language ident="EN"> 
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>oure avaunnce mense</marginalia_text> <!-- NBW: i.e. advancement, onset -->
+                    <marginalia_text>oure avaunncemense</marginalia_text> <!-- NBW: i.e. advancement, onset -->
                 </position>
             </language>
-            
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Issum">
@@ -29,7 +28,7 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Clitarchus</marginalia_text>
-                    <person name="Clitarchus"/>
+                    <person name="Clitarchus"/> <!--JG: Doesn't exist in people spreadsheet-->
                 </position>
             </language>
             <translation>Clitarchus.</translation>
@@ -55,7 +54,6 @@
             </language>
             <translation>Pindenissus.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Panteris">
             <language ident="LA"> 
@@ -104,7 +102,6 @@
             <translation>The festival of Minerva.</translation> <!-- NBW: As above: this has a temporal reference as well, 19-23 March -->
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="hospes">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
@@ -128,7 +125,7 @@
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Philo pessin[us].</marginalia_text> <!-- NBW: Possible that Dee doesn't know what this place is, and thus how to expand this place name-->
-                    <person name="Philo"/>
+                    <person name="Philo"/> <!--JG: Are you sure this is a person? Isn't Philo pessinus a place? What do they say in the edition?-->
                     <location name="Pessinus"/>
                 </position>
             </language>
@@ -162,14 +159,14 @@
         <underline method="pen" type="straight" language="LA" text="spissus,"/>
         <underline method="pen" type="straight" language="LA" text="vestra oratoria, sed haec etiam leuia nostratia? desunt"/>
         <underline method="pen" type="straight" language="LA" text="Mirum me desyderium tenet vrbis"/>
-        <underline method="pen" type="straight" language="LA" text="incredibile meorum, atqui in primis tui, satietas autem provinciae:vel"/>
+        <underline method="pen" type="straight" language="LA" text="incredibile meorum, atqui in primis tui, satietas autem provinciae: vel"/>
         <underline method="pen" type="straight" language="LA" text="tam accessio"/>
         <underline method="pen" type="straight" language="LA" text="vel quia belli magni timor impendet"/>
         <underline method="pen" type="straight" language="LA" text="eos qui venari"/>
         <underline method="pen" type="straight" language="LA" text="sed mira paucitas est"/>
         <underline method="pen" type="straight" language="LA" text="siquae ridenda essent"/>
         <underline method="pen" type="straight" language="LA" text="iam annum munus co[n]fecero"/>
-        <underline method="pen" type="straight" language="LA" text="me erudiant de omni rep.[ublicae?]"/> <!-- NBW: Check -->
+        <underline method="pen" type="straight" language="LA" text="me erudiant de omni rep."/> 
         <underline method="pen" type="straight" language="LA" text="discessit, iter habebant"/>
         <underline method="pen" type="straight" language="LA" text="Omnis peregrinatio (quod ego ab adoclescentia iudicaui) obscura &amp; sordida est iis, quorum industria Romae potest illustris"/>
         <underline method="pen" type="straight" language="LA" text="hercule ambulatiuncula"/>
@@ -192,11 +189,8 @@
         
         <errata language="LA" copytext="Dareum" amendedtext="Darium"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> <!-- JG: I'd link this to the underscored text, hercule ambulatiuncula--> 
         
        
-        
-        
-        
     </annotation>
 </transcription>
