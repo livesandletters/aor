@@ -92,7 +92,7 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Homerus. [Greek]</marginalia_text> <!-- NBW: Greek needs transcription -->
                     <person name="Homer"/>
-                    <X-ref person="Homer" book_title="Iliad" language="EL"/>
+                    <X-ref person="Homer" book_title="Iliad" language="EL"/> <!-- NBW: The greek that Dee has copied in the margin doesn't match anything directly in the quotation from the Iliad which directly precedes it, or anything that I can see in the Greek text around it in Iliad 1.174, but then again I don't know Greek. Best to take it out for now? -->
                 </position>
             </language>
             <translation>Homer. But if you are a fault finder.</translation> <!-- NBW: Greek uncertain. Possible reference to Iliad I.174 f -->  <!--JG: Use X-ref tag to capture this. Don't use book tag as the book isn't mentioned in the text of the marginal note-->    
