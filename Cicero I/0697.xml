@@ -76,7 +76,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Laodicea</marginalia_text>
-                    <location name="Tarsus"/> <!--JG: Wrong name-->
+                    <location name="Laodicea"/> 
                 </position>
             </language>
             <translation>Laodicea.</translation>      
@@ -170,23 +170,13 @@
         <symbol name="Jupiter" place="right_margin"/>
                 
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="vertical_bar" method="pen" place="right_margin"/> <!--JG: Can't spot this one-->
+        <mark name="vertical_bar" method="pen" place="right_margin"/> <!--JG: Can't spot this one--> <!-- NBW - It's the mark next to "Thermos" - I think you've tagged it as a flourish-->
         
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">12</numeral>
         
-        <physical_link> <!--JG: Well noticed, but I wouldn't use a physical link in these cases, so you can deleted this tag-->
-            <marginal_annotation idref="RCP10549-50v1:0697:s0001"/>
-            <marginal_annotation idref="RCP10549-50v1:0697:u0002"/>
-            <relation from="RCP10549-50v1:0697:s0001" to="RCP10549-50v1:0697:u0002" type="undirected"/>
-        </physical_link>
-        
-        <physical_link>
-            <marginal_annotation idref="RCP10549-50v1:0697:m0001"/>
-            <marginal_annotation idref="RCP10549-50v1:0697:u0003"/>
-            <relation from="RCP10549-50v1:0697:m0001" to="RCP10549-50v1:0697:u0003" type="undirected"/>
-        </physical_link>
+
         
     </annotation>
 </transcription>
