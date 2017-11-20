@@ -99,7 +99,7 @@
             <relation from="RCP10549-50v1:0698:d0001" to="RCP10549-50v1:0698:u0001" type="directed"/> <!-- NBW: Do manicules imply direction? -->
             
             
-        </physical_link><!--JG: You can link this one to underscored text it points at-->
+        </physical_link><!--JG: You can link this one to underscored text it points at--> <!--JG: Neil, sorry for the confusion: when I said this, I didn't mean to use the physical link tag. Rather, use the 'anchor_text' attribute of the drawing tag (into which you can copy the underscored text to which the manicule points. You can delete the physical link tag and the IDs in the drawing tag and underscore tag-->
         
     </annotation>
 </transcription>
