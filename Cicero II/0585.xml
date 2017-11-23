@@ -9,33 +9,37 @@
     <annotation>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="merces erat Dialecticorum">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Merces Dialecticoru[m]</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The dee of dialecticians.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="ab eo enim Stoico Dialecticorum didicerat">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Diogenes Carneadis magister.</marginalia_text>
+                    <person name="Diogenes of Sinope"/>
+                    <person name="Carneades"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Diogenes, the teacher of Carneades.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Sequor igitur eas vias quas didici ab Antiocho">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Antiochus cicer. magister</marginalia_text>
+                    <person name="Antiochus of Ascalon"/>
+                    <person name="Cicero"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Antiochus, the teacher of Cicero.</translation>
         </marginalia>
         
         
@@ -45,17 +49,18 @@
                     <marginalia_text>Ostendet qui sit.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>He will show who he is.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="quatuor eius libri sunt de sustine[n]dis assensionibus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Quatuor Clitomachi Libri de sustine[n]dis assensionibus.</marginalia_text>
+                    <person name="Clitomachus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The four books of Clitomachus about withholding assent.</translation>
         </marginalia>
         
         
@@ -65,47 +70,48 @@
                     <marginalia_text>Probabile.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Probable.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="similia veri">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Probabilia veri similia sunt.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Probable things are similar to true things.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Quid enim, conscendens nauem sapiens, num co[m]prehensum animo habet atque perceptum. se ex sente[n]tia nauigaturum?">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>futuroru[m] cognitio</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Knowledge of things to be.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="facili&oacute;rque erit vt albam esse niuem probet, qu&agrave;m erat Anaxagoras, qui id non modo ita esse negabat">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Anaxagora[e] nix nigra</marginalia_text>
+                    <person name="Anaxagoras"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The black snow of Anaxagoras.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Neque nos co[n]tra sensus aliter dicimus ac Stoici, qui multa falsa esse dicunt, long&eacute;que aliter se habere ac sensibus videantur">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Stoicoru[m] de sensibus opinio.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The opinions of the Stoics on the senses.</translation>
         </marginalia>
         
         
@@ -113,9 +119,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Clitomachus</marginalia_text>
+                    <person name="Clitomachus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Clitomachus.</translation>
         </marginalia>
         
         
@@ -123,13 +130,14 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Lucilius po&euml;ta.</marginalia_text>
+                    <person name="Gaius Lucilius"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Lucilius the poet.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Neque tamen habere insignem illa[m] &amp; propriam percipiendi nota[m]">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -138,7 +146,9 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Distinct; particular ] a mark.
+            </translation>
         </marginalia>
         
         
@@ -157,6 +167,24 @@
         <underline method="pen" type="straight" language="LA" text="quiuis arbitratu suo reprehe[n]dat, quod"/>
         <underline method="pen" type="straight" language="LA" text="Sunt enim mihi nota propterea, qu&ograve;d earum ipsaru[m] rerum"/>
         
+        
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        
+        
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        
+        <mark name="bracket" method="pen" place="right_margin"/>
+        
+        
+        <numeral place="right_margin">12</numeral>
+        
+        
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
         
         
     </annotation>
