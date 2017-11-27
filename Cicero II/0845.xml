@@ -7,19 +7,19 @@
     <page filename="0845.tif" reader="John Dee" pagination="287"/> 
     <annotation>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="ita connectitur">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>ita con[n]ectitur</marginalia_text>
                 </position>
             </language>
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="manga luctatio est">
+        <marginalia hand="English_secretary" anchor_text="maga luctatio est">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>tibi magna luctatio est cu[m] magna</marginalia_text>
+                    <marginalia_text>tibi magna luctatio est cu[m] magna ?? est cu[m]</marginalia_text> <!-- M.B. Not sure of word following the second 'magna'? -->
                 </position>
             </language>
             <translation></translation>
@@ -48,7 +48,8 @@
         <marginalia hand="English_secretary" anchor_text="Diodoro certame[n] est. Ille enim id solum fieri posse dicit.">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Quid Diodorus fieri posse dicit</marginalia_text>
+                    <marginalia_text>Quid Diodorus fieri posse dicit.</marginalia_text>
+                    <person name=""/>
                 </position>
             </language>
             <translation></translation>
@@ -57,7 +58,7 @@
         <marginalia hand="English_secretary" anchor_text="Cypselum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Cypselum</marginalia_text>
+                    <marginalia_text>Cypselum.</marginalia_text>
                 </position>
             </language>
             <translation></translation>
@@ -84,7 +85,7 @@
         <marginalia hand="English_secretary" anchor_text="Chaldaeos">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Chaldo[e]i</marginalia_text>
+                    <marginalia_text>Chaldo[e]i.</marginalia_text>
                 </position>
             </language>
             <translation></translation>
@@ -110,7 +111,7 @@
         
         <!-- M.B. Greek marginalia to be captured later. -->
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="Nihil iferi quod no necesse fuerit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Nihil fit q[uam] no[n] necesse fit</marginalia_text>
@@ -119,7 +120,7 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="factis immutabilitate[m]">
+        <marginalia hand="English_secretary" anchor_text="in factis immutabilitate[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>In factis i[m]mutabilitas</marginalia_text> <!-- M.B. Appears to be a contraction or symbol following 'im[m]utabilitas'.  -->
@@ -188,6 +189,10 @@
         
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        
+        <symbol name="Jupiter" place="left_margin"/>
         
     </annotation>
 </transcription>
