@@ -13,7 +13,7 @@
                     <marginalia_text>ita con[n]ectitur</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The following connection.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="maga luctatio est">
@@ -22,7 +22,7 @@
                     <marginalia_text>tibi magna luctatio est cu[m] magna ?? est cu[m]</marginalia_text> <!-- M.B. Not sure of word following the second 'magna'? -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>It is a great stuggle to you and it is [...]</translation> <!-- M.B. Incomplete translation. -->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="[astrologoru[m] percepta huiusmodi], Siquis">
@@ -31,7 +31,7 @@
                     <marginalia_text>Astrologoru[m] pra[e]cepta</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The observations of the astrologers.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="coniunctio est ex repugnantibus">
@@ -40,37 +40,46 @@
                     <marginalia_text>Coniunctio ex repugna[n]t[i]b[us]</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>A conjunction of incompatibles.</translation>
         </marginalia>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
+        <marginalia hand="English_secretary" anchor_text=""> <!-- M.B. Greek marginalia to be captured later. -->
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text></marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Diodoro certame[n] est. Ille enim id solum fieri posse dicit.">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Quid Diodorus fieri posse dicit.</marginalia_text>
-                    <person name=""/>
+                    <person name="Diodorus Cronus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Diodorus says what is possible.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Cypselum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Cypselum.</marginalia_text>
+                    <marginalia_text>Cypselus.</marginalia_text>
+                    <person name="Cypselus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Cypselus.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Aphricanum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Aphricanus.</marginalia_text>
+                    <person name="Scipio Africanus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Africanus.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="omnia enim vera in praeteritis necessaria sunt">
@@ -79,7 +88,7 @@
                     <marginalia_text>omnia vera in p[rae]teritis necessaria sunt.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>All things true in the past are necessary.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Chaldaeos">
@@ -88,7 +97,7 @@
                     <marginalia_text>Chaldo[e]i.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Chaldaeans.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="negationes infinitarum coniunctionu[m] oitius qu&agrave;m infinita connexa">
@@ -97,7 +106,7 @@
                     <marginalia_text>Negationes infinitaru[m] co[n]iunctionu[m], et co[n]nexa infinita</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Negations of indefinite conjunctions and indefinite sequences.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="maximi orbes">
@@ -106,18 +115,25 @@
                     <marginalia_text>Maximi orbes</marginalia_text>
                 </position>
             </language>
+            <translation>The greatest circles.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text=""> <!-- M.B. Greek marginalia to be captured later. -->
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text></marginalia_text>
+                </position>
+            </language>
             <translation></translation>
         </marginalia>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
-        <marginalia hand="English_secretary" anchor_text="Nihil iferi quod no necesse fuerit">
+        <marginalia hand="English_secretary" anchor_text="Nihil fieri quod no necesse fuerit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Nihil fit q[uam] no[n] necesse fit</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Nothing happens which is not necessary.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="in factis immutabilitate[m]">
@@ -129,13 +145,13 @@
             <translation></translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="futuro quidem vlla fieri possit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>futura no[n] mutantur</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The future is unchanged.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="">
@@ -144,7 +160,7 @@
                     <marginalia_text>attingit</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To strike.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="">
@@ -153,7 +169,7 @@
                     <marginalia_text>distortius</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Distorted.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="contortiones orationis">
@@ -162,7 +178,7 @@
                     <marginalia_text>co[n]tortiones or[ati]o[n]is</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Contorted modes of expression.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="magna"/>
