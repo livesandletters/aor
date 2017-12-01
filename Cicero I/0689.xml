@@ -13,8 +13,8 @@
                     <marginalia_text>a[n]i[m]us nulla maleuolentia suffusus in magnus excelsus apertus simplex. </marginalia_text>                
                 </position>
             </language>
-            <translation>Hatred.</translation> 
-        </marginalia> <!-- NBW: Translation needs completion -->
+            <translation>Feelings: Free of any malice. Exalted in the highest. Open. Straightforward.</translation> 
+        </marginalia> 
         
         <marginalia hand="Italian" anchor_text="potentium beneuolentiam">
             <language ident="LA"> 
@@ -28,10 +28,11 @@
         <marginalia hand="Italian">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Lentulus</marginalia_text>                
+                    <marginalia_text>Lentulus</marginalia_text>  
+                    <person name="Cornelius Lentulus Spinther"/>
                 </position>
             </language>
-            <translation>Lentulus.</translation> <!-- Check to see if this refers to a specific person --> 
+            <translation>Cornelius Lentulus Spinther.</translation> 
         </marginalia>  
         
         <marginalia hand="Italian" anchor_text="Qu&ograve;d">
@@ -47,16 +48,16 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Menocritus</marginalia_text>                
-                    <person name="Menocritus"/> <!-- NBW: Check, probably a servant -->
+                    <person name="Menocritus"/> 
                 </position>
                 </language>
-            <translation>Powerful benevolence.</translation> 
+            <translation>Menocritus.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Aristoteleo more">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Mos Aristoteleus</marginalia_text>                
+                    <marginalia_text>Mos Aristoteleus</marginalia_text> <!-- NBW: Should I include a person tag for Aristotle here? -->
                 </position>
             </language>
             <translation>The manner of Aristotle.</translation> 
@@ -75,10 +76,10 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Appius.</marginalia_text>                
-                    <person name="Claudius Appius Pulcher"/>
+                    <person name="Appius Claudius Pulcher"/>
                 </position>
             </language>
-            <translation>Claudius Appius Pulcher.</translation> <!-- Check --> 
+            <translation>Appius Claudius Pulcher.</translation>  
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="leg&eacute;mque Curiatam">
@@ -130,7 +131,9 @@
         
         
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="head" language="LA" text="animus"/>
         <mark name="page_break" method="pen" place="intext"/> <!-- latere. Qu&ograve;d -->     
+        <mark name="circumflex" method="pen" place="intext" language="LA" text="nominare"/>
         
         <numeral place="right_margin">12</numeral>
         
@@ -138,10 +141,8 @@
         <errata language="LA" copytext="Aristoteleo" amendedtext="Aristotelico"/>
         <errata language="LA" copytext="Aristoteleam" amendedtext="Aristotelicam"/>
         <errata language="LA" copytext="Isocrateam" amendedtext="Isocratica[m]"/>
-        
-        
-        <!-- NBW - need the inserted text and the crossed out text. Also bracket in marginalia. -->
-        
+        <errata language="LA" copytext="nominare Quos" amendedtext="nominare non misi quos" /> <!-- NBW: Proper way to tag this insertion and accompanying circumflex? -->
+                
   
     </annotation>
 </transcription>
