@@ -7,10 +7,10 @@
     <page filename="0689.tif" reader="John Dee" pagination="13"/>
     <annotation> 
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian"> <!--JG: use anchor attribute to link to (underscored) parts in the printed text-->
             <language ident="LA"> 
                 <position place="head" book_orientation="0">
-                    <marginalia_text>a[n]i[m]us nulla maleuolentia suffusus in magnus excelsus apertus simplex. </marginalia_text>                
+                    <marginalia_text>a[n]i[m]us { nulla maleuolentia suffusus in magnus excelsus apertus simplex. </marginalia_text>                
                 </position>
             </language>
             <translation>Feelings: Free of any malice. Exalted in the highest. Open. Straightforward.</translation> 
@@ -29,7 +29,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Lentulus</marginalia_text>  
-                    <person name="Publius Cornelius Lentulus Spinther"/>
+                    <person name="Publius Cornelius Lentulus Spinther"/> <!--JG: You should use the identifier, which is the name in the first column ('A') in the spreadsheet, not an alternative name!-->
                 </position>
             </language>
             <translation>Cornelius Lentulus Spinther.</translation> 
@@ -57,7 +57,7 @@
         <marginalia hand="Italian" anchor_text="Aristoteleo more">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Mos Aristoteleus</marginalia_text> <!-- NBW: Should I include a person tag for Aristotle here? -->
+                    <marginalia_text>Mos Aristoteleus</marginalia_text> <!-- NBW: Should I include a person tag for Aristotle here? --> <!--JG: Yep!-->
                 </position>
             </language>
             <translation>The manner of Aristotle.</translation> 
@@ -66,7 +66,7 @@
         <marginalia hand="Italian" anchor_text="treis libros de temporibus meis">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Libri quanda[m] quos Cic[ero] scripsit</marginalia_text>                
+                    <marginalia_text>Libri quanda[m] quos Cic[ero] scripsit</marginalia_text> <!--JG: You can tag Cicero as a person here-->               
                 </position>
             </language>
             <translation>Certain books that Cicero wrote.</translation> 
@@ -99,11 +99,10 @@
             </language>
             <translation>Other texts have "facilitate."</translation> 
         </marginalia>
-        
-        
+                
         <underline method="pen" type="straight" language="LA" text="perditoru[m] de me consilia frangere"/>
         <underline method="pen" type="straight" language="LA" text="hanc etiam potentium beneuolentiam"/>
-        <underline method="pen" type="straight" language="LA" text="vt opinio mea fert,"/>
+        <underline method="pen" type="straight" language="LA" text="vt opinio mea fert"/>
         <underline method="pen" type="straight" language="LA" text="nulla in caeteros maleuolentia suffusum: contr&aacute;que"/>
         <underline method="pen" type="straight" language="LA" text="magnum &amp; excelsum, tum etiam apertum &amp; simplicem. Vidi"/>
         <underline method="pen" type="straight" language="LA" text="mihi potestas praesentis tui fuerit"/>
@@ -113,36 +112,31 @@
         <underline method="pen" type="straight" language="LA" text="&agrave; prima adolescentia delectarunt"/>
         <underline method="pen" type="straight" language="LA" text="sed eos quos erat infinitum bene de me"/>
         <underline method="pen" type="straight" language="LA" text="veteribus nostris delectationibus"/>
-        <underline method="pen" type="straight" language="LA" text="non transferis"/>
+        <underline method="pen" type="straight" language="LA" text="non transfieris"/>
         <underline method="pen" type="straight" language="LA" text="velim qu&agrave;m familiarissime certiore[m], &amp; qu&agrave;m saepissime"/>
-        <underline method="pen" type="straight" language="LA" text="&iacute;dque me, non modo vt tu sentias, sed omnes gentes, etiam vt posteritas omnis intelligat, esse"/>
+        <underline method="pen" type="straight" language="LA" text="idque me, non modo vt tu sentias, sed omnes gentes, etiam vt posteritas omnis intelligat, esse"/>
         <underline method="pen" type="straight" language="LA" text="tam de iure certum est"/>
         <underline method="pen" type="straight" language="LA" text="sine vlla mora prouinciam successori concedere:"/>
         <underline method="pen" type="straight" language="LA" text="suspicione tuae cupiditatis non possis illius cupiditatem refutare. Ego vtru[m]que meum puto esse, &amp; quid sentiam oste[n]dere, &amp; quod feceris defendere."/>
         <underline method="pen" type="straight" language="LA" text="foelicitate quidem vellem, consequi"/>
   
-  
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
-        
-        
         
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="bracket" method="pen" place="head" language="LA" text="animus"/>
-        <mark name="page_break" method="pen" place="intext"/> <!-- latere. Qu&ograve;d -->     
+        <mark name="page_break" method="pen" place="intext"/> <!-- latere. Qu&ograve;d -->  <!--JG: This is no page break, but a section sign!-->
         <mark name="circumflex" method="pen" place="intext" language="LA" text="nominare"/>
         
         <numeral place="right_margin">12</numeral>
         
-        <errata language="LA" copytext="diiungo" amendedtext="distingo"/> <!-- NBW: uncertain - obscured in gutter -->
+        <errata language="LA" copytext="diiungo" amendedtext="distingo"/> <!-- NBW: uncertain - obscured in gutter --> <!--JG: Need to check original-->
         <errata language="LA" copytext="Aristoteleo" amendedtext="Aristotelico"/>
         <errata language="LA" copytext="Aristoteleam" amendedtext="Aristotelicam"/>
         <errata language="LA" copytext="Isocrateam" amendedtext="Isocratica[m]"/>
-        <errata language="LA" copytext="nominare Quos" amendedtext="nominare non misi quos" /> <!-- NBW: Proper way to tag this insertion and accompanying circumflex? -->
+        <errata language="LA" copytext="nominare Quos" amendedtext="nominare non misi quos" /> <!-- NBW: Proper way to tag this insertion and accompanying circumflex? --> <!--JG: Nope, the way you did it is fine-->
                 
-  
     </annotation>
 </transcription>
