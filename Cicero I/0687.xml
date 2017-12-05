@@ -64,7 +64,100 @@
             <translation>Marcus Aemilius Scaurus.</translation>  
         </marginalia>
         
-        <!-- Resume at Ciceronis Reditus. -->
+        <marginalia hand="Italian">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Ciceronis Reditus.</marginalia_text>                
+                </position>
+            </language>
+            <translation>The return of Cicero.</translation>  
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="maleuolentissimum">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>maleuolentiss[imus] sup[ra].</marginalia_text> <!-- NBW: unclear to what this refers to -->                
+                </position>
+            </language>
+            <translation>The most wicked, see above.</translation>  
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="meae vitae cursus">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>vitae cursus</marginalia_text>                
+                </position>
+            </language>
+            <translation>A way of life.</translation>  
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="non in postremis">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>in postremiis.</marginalia_text>                
+                </position>
+            </language>
+            <translation>Of lesser value.</translation>  
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="non solum fronte, atque vultu">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>vultu, fronte, simulatio facile sustinetur.</marginalia_text>
+                </position>
+            </language>
+            <translation>Deceit is easily portayed in the face, the expression.</translation>  
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="&amp; sententia &amp; voluntas mutata esse debet">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Mutatio consilii</marginalia_text>                
+                </position>
+            </language>
+            <translation>A change of counsel.</translation>  
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Plato">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Plato.</marginalia_text>                
+                    <person name="Plato"/>
+                </position>
+            </language>
+            <translation>Plato.</translation>  
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="senectute">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Senectus.</marginalia_text>                
+                </position>
+            </language>
+            <translation>Old age.</translation>  
+        </marginalia>
+        
+        
+        <marginalia hand="Italian" anchor_text="Vatinio">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Vatinius.</marginalia_text>                
+                    <person name="Publius Vatinius"/>
+                </position>
+            </language>
+            <translation>Publius Vatinius.</translation>  
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Catonis">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Cato.</marginalia_text>                
+                    <person name="Cato the Younger"/>
+                </position>
+            </language>
+            <translation>Cato the Younger.</translation>  
+        </marginalia>
+        
         
         <underline method="pen" type="straight" language="LA" text="non enim illae manubiae meae, sed"/>
         <underline method="pen" type="straight" language="LA" text="quemadmodum medici: sed etiam, vt aliptae, virium, &amp; coloris rationem habere voluissent"/>
@@ -100,7 +193,7 @@
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!-- Check whether to anchor these to note text -->
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!-- Should these be anchored to the note text when they follow a commonplace? -->
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
