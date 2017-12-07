@@ -7,22 +7,22 @@
     <page filename="0833.tif" reader="John Dee" pagination="275" signature="Ss.ii."/> 
     <annotation>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="caricis">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Carica[e].</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Figs.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="Haec qua[n]ta dissensio est?">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Auouru[m] Discordia &amp; Dissensio qua[n]ta.</marginalia_text>
+                    <marginalia_text>Auguru[m] Discordia &amp; Dissensio qua[n]ta.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The disagreement of augurs and how much of a conflict.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="supersitione">
@@ -31,43 +31,45 @@
                     <marginalia_text>Superstitiones.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Superstitions.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="M. Crassus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>M. Crassus.</marginalia_text>
+                    <marginalia_text>M[arcus] Crassus.</marginalia_text>
+                    <person name="Marcus Licinius Crassus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Marcus Crassus.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Sortes">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Sortes 4</marginalia_text>
+                    <marginalia_text>Sortes</marginalia_text> <!-- M.B. Uncertain what the '4' refers to, I've captured it using the numeral tag. -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>Lots.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Numerium Suffustiums">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Numerius Suffustius</marginalia_text>
+                    <person name="Numerius Suffustius"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Numerius Suffustius.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="sortes">
+        <marginalia hand="English_secretary" anchor_text="Itauqe perfracto saxo sortes erupisse in robore insculptis priscarum literarum notis.">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sortiu[m] origo</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The origin of lots.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Fortunae">
@@ -76,7 +78,7 @@
                     <marginalia_text>Fortuna.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Fortune.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="robur">
@@ -85,7 +87,7 @@
                     <marginalia_text>Robur.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Oak.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="deus efficere non possit">
@@ -94,25 +96,27 @@
                     <marginalia_text>Deus o[mn]ia potest</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>God is able to do all things.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Chaldaeoru[m] monstra veniamus, de quibus Eudoxus Platonis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Eudoxus. Chalda[e]i</marginalia_text>
+                    <person name="Eudoxus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Eudoxus on the Chaldeans.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Panaetius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Pana[e]tius</marginalia_text>
+                    <person name="Panaetius"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Panaetius.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="in astrologia, id&eacute;mque in regenda sua ciuitate princeps, totum hoc Chaldaicum 
@@ -122,63 +126,66 @@
                     <marginalia_text>Pra[e]dictio in astrologia caueatur.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Beware of the predictions of astrologers.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="ζωδιακός">
             <language ident="EL">
-                <position place="right_margin" book_orientation="0"> <!-- M.B. Greek marginalia to be captured later. -->
-                    <marginalia_text></marginalia_text>
+                <position place="right_margin" book_orientation="0"> <!-- M.B. Greek needed, not sure of how to capture the ligatures in the transcription. -->
+                    <marginalia_text>ζωδιακός</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Zodiac.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="syderibus">
+        <marginalia hand="English_secretary" anchor_text="syderibus quae vocentur errantia">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sydera erra[n]tia</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Wandering stars.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="natalitia">
             <language ident="LA">
                 <position place="left_margin" book_orientation="90">
                     <marginalia_text>NATIVITAS</marginalia_text> <!-- M.B. Scoll drawing around marginalia needs to be captured. -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>Nativity.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="etiamnum">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>etia[n]nu[m]</marginalia_text>
+                    <marginalia_text>etia[m]nu[m]</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Yet.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="sortes plan&egrave; refrixerunt">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>sortes rifaxiru[[n]t explodici.</marginalia_text>
+                    <marginalia_text>sortes refixeru[n]t explodici.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The use of lots has abated and been abolished.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="in astrologia iudicio doctissimoru[m] hominum facile princeps, sic opinatur, id quod scriptum reliquit, Chaldaeis in praedictione &amp; 
-            in notatione cuiusque vitae ex natali die, minime esse credendum">
+            in notatione cuiusque vitae ex natali die, minime esse credendum. Nominat etiam Panaetius, qu&iacute; vnus ex Stoicis astrologorum praedicta reiecit, Anchialum &amp; Cassandrum summos astrologos illius 
+            aetatis qua erat ipse, quum in ceteris astrologiae partibus excellerent">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>in astrologia iudicio doctiss[imorum] hom[inum] facile princeps summus Astrologus mius a[e]talius in q[ua][?] ipsi[?] erat 
-                        excelle[n]s[?] in Astrologia impius Chaldaicis r[ation]ib[us] eruditus</marginalia_text>
+                    <marginalia_text>in astrologia iudicio doctiss[imorum] hom[inum] facile princeps summus Astrologus illius a[e]tatis in q[ua] ip[s]e erat 
+                        excelle[n]s in Astrologia impius Chaldaicis r[ation]ib[us] eruditus</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>He who the best scholars consider easily the first in astronomy, the greatest astronomer of his age, as an eminent astronomer himself accursed the Chaldeans learned methods.</translation>
+            <!-- M.B. It is not entirely evident whether this is one coherent marginal annotation or if Dee was summarily noting several of Cicero's phrases describing Eudoxus. I've translated 'astrologia' as astronomer rather than astrologer following 
+            the Loeb translation as Exudoxus was a critic of the latter..-->
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="horum errore susceptum esse, partim supersitione multa fallendo"/>
@@ -199,7 +206,7 @@
         <underline method="pen" type="straight" language="LA" text="excellens in astrologia"/>
         <underline method="pen" type="straight" language="LA" text="natalitia praedicta defendunt"/>
         <underline method="pen" type="straight" language="LA" text="Vim quandam esse aiunt signifero in orve qui Graece"/>
-        <underline method="pen" type="double" language="EL" text=""/> <!-- M.B. Add Greek later. -->
+        <underline method="pen" type="straight" language="EL" text=" ζωδιακός"/> <!-- M.B. Not sure how best to capture the 'δι' ligature. -->
         <underline method="pen" type="straight" language="LA" text="dicitur, talem, vt eius vnaquaeque pars alia alio modo moueat, immut&eacute;tque corlu[m], perinde vt quaeque stellae in his 
             finitim&iacute;sque partibus sint quoque te[m]pore, e&aacute;mque vim vari&egrave; moueri ab iis syderibus quae vocentur errantia, Quum aute[m] in eam ipsam partwm orbis venerint in 
             qua sit ortus eius qui nascatur, aut in eam quae co[n]iunctu[m] aliquid ha[beat]"/>
@@ -210,6 +217,9 @@
         <symbol name="Conjunction" place="right_margin" text="co[n]iunctu[m]"/>
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
+        
+        <numeral place="right_margin">4</numeral>
+        <numeral place="left_margin">12</numeral>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
