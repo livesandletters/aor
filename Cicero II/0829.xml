@@ -13,7 +13,7 @@
                     <marginalia_text>sanguine[m] pluisse</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Showers of blood.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="sudasse simulcra">
@@ -22,13 +22,14 @@
                     <marginalia_text>simulachroru[m] sudor</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Images of sweat.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Timor. vid Ca[e]s. li 1&o_super;</marginalia_text>
+                    <marginalia_text>Timor. vid Ca[e]s. li 1&o_super;</marginalia_text> <!-- M.B. Figure out citation. -->
+                    <X-ref person="" book_title=""/>
                 </position>
             </language>
             <translation></translation>
@@ -38,9 +39,11 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Platonis Politiam</marginalia_text>
+                    <person name="Plato"/>
+                    <book title="The Republic"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Plato's Republic.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="causam habeat &agrave; natura necesse">
@@ -49,7 +52,7 @@
                     <marginalia_text>Natura se[m]per cu[m] causa.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Nature is always with cause.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="nihil fieri potuisse sine causa">
@@ -58,16 +61,16 @@
                     <marginalia_text>Nihil fit sine Causa.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Nothing is made without a cause.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="natural&eacute;mque rationem pmnium reddet">
+        <marginalia hand="English_secretary" anchor_text="natural&eacute;mque rationem omnium reddet">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Naturalis reru[m] r[ati]o</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>A natural reason for all things.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="coniector quidam, &amp; interpres portentorum non &iacute;nscite respondisse">
@@ -76,25 +79,27 @@
                     <marginalia_text>Coniectoris respo[n]su[m].</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Response to diviners.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="C Gracchus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>C. Gracchus.</marginalia_text>
+                    <marginalia_text>C[aius] Gracchus.</marginalia_text>
+                    <person name="Gaius Gracchus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Gaius Gracchus.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Calchantem dixisti">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Calca[n]tes Dictum.</marginalia_text>
+                    <person name="Calchas"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Calchas' prophesy.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="alteramutra[m] emisit">
@@ -103,7 +108,7 @@
                     <marginalia_text>altera[m]vtra[m] emisit.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The other two escaped.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="qu&ograve;d in metu &amp; periculo cum creduntur facilius, tum finguntur impunius. Nos"/>
