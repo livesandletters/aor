@@ -13,7 +13,7 @@
                     <marginalia_text>rumor erat</marginalia_text> 
                 </position>
             </language>
-            <translation> It was rumored.</translation> 
+            <translation>It was rumored.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="me sibi ille affixum habebit">
@@ -23,7 +23,7 @@
                     <person name="Publius Clodius Pulcher"/>
                 </position>
             </language>
-            <translation>He had impressed that thing upon me.</translation> <!-- NBW: illi doesn't really agree here since its a dative form? -->
+            <translation>He had impressed that thing upon me.</translation> <!-- NBW: illi doesn't really agree here since its a dative form? --> <!--JG: I'm struggling with this as well, illi doesn't really make sense-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="cum pares esse non possent, pugnare desisterent">
@@ -111,6 +111,7 @@
         <underline method="pen" type="straight" language="LA" text="sedulitate mihimet ipse satisfacere possum: re quidem ipsa ideo mihi non satisfacio, qu&ograve;d"/>
         <underline method="pen" type="straight" language="LA" text="rumor erat"/>
         <underline method="pen" type="straight" language="LA" text="cum illud ipsum grauissimum"/>
+        <underline method="pen" type="straight" language="LA" text="sanctissimum nomen pietatis"/>
         <underline method="pen" type="straight" language="LA" text="grata sint ea, quae praetermitti sine nefario scelere non possunt"/>
         <underline method="pen" type="straight" language="LA" text="&amp; vn&agrave;, &amp; Romae"/>
         <underline method="pen" type="straight" language="LA" text="post qui sit meus sensus &amp; status"/>
@@ -118,8 +119,8 @@
         <underline method="pen" type="straight" language="LA" text="eos vberiores, &amp; praesta[n]tiores praesens capere potuisses"/>
         <underline method="pen" type="straight" language="LA" text="Quanqua[m] ille perennis inimicus amico[r]u[m] suorum, qui"/>
         <underline method="pen" type="straight" language="LA" text="in te potissimu[m] fractam illam, &amp; debilitata[m] vim suam contulit"/>
-        <underline method="pen" type="straight" language="LA" text="mercede, qua[m] ego maximo dolore cognoram"/>
-        <underline method="pen" type="dotted" language="LA" text="mercede"/>
+        <underline method="pen" type="grid" language="LA" text="mercede"/>
+        <underline method="pen" type="straight" language="LA" text="qua[m] ego maximo dolore cognoram"/>
         <underline method="pen" type="straight" language="LA" text="&amp; cum Appio esse in gratia"/>
         <underline method="pen" type="straight" language="LA" text="reprehendere adscribis"/>
         <underline method="pen" type="straight" language="LA" text="quibus rebus adductus"/>
@@ -143,8 +144,8 @@
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">21</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
