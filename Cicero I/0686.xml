@@ -76,7 +76,7 @@
         <marginalia hand="Italian" anchor_text="ad Caesarem &amp; Bibulum [Consules]">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Caesar. Bibulus. co[n]s[ule]s.</marginalia_text> <!-- NBW: Abbreviation for Iurisconsultus, or just another vertical bar? -->               
+                    <marginalia_text>Caesar. Bibulus. co[n]s[ule]s.</marginalia_text>               
                     <person name="Julius Caesar"/>
                     <person name="Marcus Calpurnius Biblulus"/>
                 </position>
@@ -128,7 +128,7 @@
                     <marginalia_text>contentio dissentio discrimen { civilis</marginalia_text>                
                 </position>
             </language>
-            <translation>Contention. Dissent. Distinction of the citizenry.</translation> <!--JG: I think civilis is related to all these words, hence: 'Contention, dissent, and distinction of the citizenry'-->
+            <translation>Contention,  dissent, distinction of the citizenry.</translation> <!--JG: I think civilis is related to all these words, hence: 'Contention, dissent, and distinction of the citizenry'-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="consensus">
@@ -153,7 +153,11 @@
         <underline method="pen" type="straight" language="LA" text="ea fundamenta iacta ex Cal[endo]"/>
         <underline method="pen" type="straight" language="LA" text="Id&eacute;mque memineram"/>
         <underline method="pen" type="straight" language="LA" text="sententiae nostrae magnum in senatu pondus haberent"/>
-        <underline method="pen" type="straight" language="LA" text="haberet, sed mercatores prouinciarum, &amp; seditionum seruos ac ministros: iecit quidam"/> <!--JG: After this one there are a couple more underscored words which you missed-->
+        <underline method="pen" type="straight" language="LA" text="haberet, sed mercatores prouinciarum, &amp; seditionum seruos ac ministros: iecit quidam"/> 
+        <underline method="pen" type="straight" language="LA" text="quo in discrimine"/>
+        <underline method="pen" type="straight" language="LA" text="omnium consensus"/>
+        <underline method="pen" type="straight" language="LA" text="enim"/>
+        <underline method="pen" type="straight" language="LA" text="accusandi"/>
         <underline method="pen" type="straight" language="LA" text="pro me stante pugnare"/>
         <underline method="pen" type="straight" language="LA" text="adiungeretur: nulli improbo ciui locis ad remp[ublicam] violandam esse potuisset"/>
         <underline method="pen" type="straight" language="LA" text="poenas &agrave; seditioso ciue per bonos viros iudicio persequi vellet) exemplum"/>
@@ -170,7 +174,7 @@
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin" language="LA" text="Caesar"/> <!-- This and the vertical bar at the tail are for the marks within annotations. -->
-        <mark name="bracket" method="pen" place="left_margin" language="LA "text="Tenebam memoria"/> <!-- NBW: is this the right tag for this mark?--> <!--JG: Yep! Something is wrong with the tag though, hence the XML validation error!-->
+        <mark name="bracket" method="pen" place="left_margin" language="LA" text="Tenebam memoria"/> <!-- NBW: is this the right tag for this mark?--> <!--JG: Yep! Something is wrong with the tag though, hence the XML validation error!--> <!-- NBW: Found it, finally -->
         <mark name="apostrophe" method="pen" place="left_margin" language="LA" text="consensus"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="apostrophe" method="pen" place="tail" language="LA" text="vnus sensus consensus."/>
