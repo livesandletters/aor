@@ -4,10 +4,17 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0683.tif" reader="John Dee" pagination="7"/>
+    <page filename="0683.tif" reader="John Dee" pagination="7" signature="A.iiii.[r]"/>
     <annotation> 
         
-        <!-- JG: You missed the first marginal note here! --> <!-- NBW - it's the errata tag at the bottom, since it's inserted text at the *. does it still need to be tagged as an annotation?--> <!--JG: Tricky case, but I'd include it as a marginal note as well in this case!-->
+        <marginalia hand="Italian" anchor_text="*">
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>virtut&iacute;q[ue] praefuisti;</marginalia_text>                
+                </position>
+            </language>
+            <translation>You had involved yourself in [my] public virtue.</translation> <!-- NBW: would be interesting to know where he supplied this lacuna from. It's not in Loeb. -->  
+        </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA"> 
