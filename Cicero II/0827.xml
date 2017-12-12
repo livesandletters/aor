@@ -13,7 +13,7 @@
                     <marginalia_text>Lactens</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Inexperienced.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="redemptor">
@@ -22,16 +22,17 @@
                     <marginalia_text>rede[m]ptor</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The contractor.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="statua Nattae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>statua Natta[e].</marginalia_text>
+                    <person name="Natta"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The statue of Natta.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="aut esse philosophi, causam cur quidque fieret non quaerere">
@@ -40,43 +41,48 @@
                     <marginalia_text>No[n] est philosophi quid fieri sine causa asserere</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>It is not philosophical to ask what is made without a cause.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Boethus Stoicus, qui est, &agrave; te nominatus, &amp; noster etiam Posidonius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Boethus. Posidonius</marginalia_text>
+                    <person name="Boethus of Sidon"/>
+                    <person name="Posidonius"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Boethus and Posidonius".</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Romulus lactens fulmine ictus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Romulus lactens fulmine ictus</marginalia_text>
+                    <person name="Romulus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The infant Romulus was struck by lightning.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="Venereum iaci">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>venereus iactus:fidi []laisthomi[] in Phylora to 207.</marginalia_text>
+                    <marginalia_text>venereus iactus:Vidi ??lausthomi in Phylora fo 207.</marginalia_text>  <!-- M.B. Not sure of the citation in this marginalia. Something related to the Venus-throw  https://en.wikipedia.org/wiki/Venus_Throw -->
+                    <book title=""/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The Venus-throw: see ??? folio 207. </translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Praxitelia capita">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Praxitelia Capita</marginalia_text>
+                    <person name="Praxiteles"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Heads of Praxiteles.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="quid in nubibus">
@@ -85,25 +91,25 @@
                     <marginalia_text>varia[e] figura[e] in nubibus</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Various shapes of clouds.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="ostenta">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Ostenta</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Portents.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="contra omnia ostenta">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Co[n]tra o[mn]ia ostenda.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Against all portents.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Causarum enim ignoratio in re noua mirationem facit">
@@ -112,7 +118,7 @@
                     <marginalia_text>Causaru[m] ignoratio in re noua miratione[m] facit.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Ignorance of causes in new things is what creates our wonder.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Ortu[m] videmus aruspicinae">
@@ -121,25 +127,26 @@
                     <marginalia_text>Ortu[m] videamus aruspicinae</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Soothsayers appeared to have originated.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Tages">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Tages.</marginalia_text>
+                    <person name="Tages"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Tages.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="repersionem pigmentorum">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>respicsio pigme[n]toru[m]</marginalia_text> <!-- M.B. Uncertain ?? -->
+                    <marginalia_text>respicsio pigme[n]toru[m]</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Scattering of the paints.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Sed"/>
@@ -167,7 +174,7 @@
        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
        
-        <!-- M.B. Figure drawing of the Etruscan divinity Tages. -->
+        <!-- M.B. Drawing of the Etruscan divinity Tages. -->
         
     </annotation>
 </transcription>
