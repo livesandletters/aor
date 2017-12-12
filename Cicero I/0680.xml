@@ -76,6 +76,26 @@
             <translation>The Puppian Law.</translation>  
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="Alexandria[m]">
+            <language ident="LA"> 
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Alexandria.</marginalia_text>                
+                    <location name="Alexandria"/>
+                </position>
+            </language>
+            <translation>Alexandria.</translation>  
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ego tibi in hac">
+            <language ident="LA"> 
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>in [in hac deleted].</marginalia_text>     <!-- NBW: I captured this because of the deleted text. Should the other inserted words be coded as well or does the errata suffice here? -->           
+                </position>
+            </language>
+            <translation>In this.</translation>  
+        </marginalia>
+        
+        
         <underline method="pen" type="straight" language="LA" text="cedebant, neque valde repugnabant"/>
         <underline method="pen" type="straight" language="LA" text="volebant: id quod"/>
         <underline method="pen" type="straight" language="LA" text="enim in Hortensii sententia multis partibus plureis ituros"/>
