@@ -33,9 +33,10 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Herculis a[e]rumna[e].</marginalia_text>
+                    <person name="Hercules"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The toils of Hercules.</translation>
         </marginalia>
         
         
@@ -46,13 +47,18 @@
                         Siro
                         Polydemus.
                     </marginalia_text>
+                    <person name="Siro the Epicurean"/>
+                    <person name="Philodemus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Siro.
+                Philodemus.
+            </translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="si honestis iucunda anteponat">
+        <marginalia hand="Italian" anchor_text="Etenim sit impudens, si virtuti diutius repugnet, aut si honestis iucunda anteponat">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -60,7 +66,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Pleasant things are not to be put before honourable things.</translation>
         </marginalia>
         
         
@@ -100,27 +106,39 @@
                     <marginalia_text>verba parienda sunt</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Terms are to be invented.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="imponend&aacute;que noua nouis rebus nomina">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>No[m]i[nu]m nouitas.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The newness of names.</translation>
         </marginalia>
         
         
         <marginalia hand="Italian" anchor_text="Itaque &amp; Dialectici &amp; Physici verbis vtuntur his, quae ipsi Graeciae nota non sunt. Geometrae vero, Musici, Grammatici, etiam more quoda[m] loquuntur suo">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>
+                        Dialectici
+                        Physici
+                        Geometra[e]
+                        Musici
+                        Grammatici
+                    </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Dialectics.
+                The natural sciences.
+                Geometry.
+                Music.
+                Grammar.
+            </translation>
         </marginalia>
         
         
@@ -133,11 +151,49 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>
+                Anything twisted or tangled in the discourse.
+                A rather subtle or thorny kind of discussion.
+            </translation>
         </marginalia>
         
         
+        <underline method="pen" type="straight" language="LA" text="Maximas vero virtutes iacere omnes necesse est voluptate dominante. Sunt etiam"/>
+        <underline method="pen" type="straight" language="LA" text="voluptatis aditus intercludat necesse est"/>
+        <underline method="pen" type="straight" language="LA" text="introspice in mentem tuam ipse"/>
+        <underline method="pen" type="straight" language="LA" text="e&aacute;mque omni cogitatione pertractans"/>
+        <underline method="pen" type="straight" language="LA" text="voluptatibus perfluens"/>
+        <underline method="pen" type="straight" language="LA" text="tristissimo tamen verbo"/>
+        <underline method="pen" type="straight" language="LA" text="de nostra dissensione iudicare"/>
+        <underline method="pen" type="straight" language="LA" text="enim ista lenius"/>
+        <underline method="pen" type="straight" language="LA" text="contendat dulcedinem corporis, &amp; titillantem ex e&aacute;ve natam laetitiam"/>
+        <underline method="pen" type="straight" language="LA" text="animi atque"/>
+        <underline method="pen" type="straight" language="LA" text="ne blanditiis eius"/>
+        <underline method="pen" type="straight" language="LA" text="non remissi fuimus"/>
+        <underline method="pen" type="straight" language="LA" text="nec acutissime, nec abscondite disserentur"/>
+        <underline method="pen" type="straight" language="LA" text="quidquam implicatu[m] aut tortuosum fuit, nostr&aacute;q[ue]"/>
+        <underline method="pen" type="straight" language="LA" text="non ignoras qu&agrave;m sit subtile vel spinosum potius disserendi genus"/>
+        <underline method="pen" type="straight" language="LA" text="quibus etiam verba parienda sunt, imponend&aacute;que noua nouis rebus nomina"/>
+        <underline method="pen" type="straight" language="LA" text="Quod quide[m] nemo mediocriter doctus mirabitur, cogita[n]s in omni arte, cuius vsus vulgaris co[m]mun&iacute;sque non sit, multa[m] nouitatem nominu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="co[n]stituantur earu[m] reru[m] vocabula quae in quaque arte versentur. Itaque"/>
+        <underline method="pen" type="straight" language="LA" text="Geometrae vero, Musici, Grammatici"/>
+        <underline method="pen" type="straight" language="LA" text="etiam more quoda[m] loquuntur suo. Item"/>
         
+        
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>  <!-- DO: Not sure if these last two are Jupiter or something else -->
+        <symbol name="Jupiter" place="left_margin"/>
+        
+        
+        <mark name="bracket" method="pen" place="left_margin"/>
+        
+        
+        <numeral place="left_margin">12</numeral>
+        <numeral place="left_margin">12</numeral>
         
         
     </annotation>
