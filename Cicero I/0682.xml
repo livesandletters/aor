@@ -10,7 +10,7 @@
         <marginalia hand="Italian" anchor_text="reductio regis">
             <language ident="LA"> 
                 <position place="head" book_orientation="0">
-                    <marginalia_text>reductio</marginalia_text> 
+                    <marginalia_text>% reductio</marginalia_text> 
                 </position>
             </language>
             <translation>Leading away.</translation> 
@@ -28,10 +28,10 @@
         <marginalia hand="Italian" anchor_text="Caniniano">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Catoniano.</marginalia_text>
+                    <marginalia_text>* Catoniano.</marginalia_text>
                 </position>
             </language>
-            <translation>Catonian.</translation> <!--NBW: This is another misidentification: unsure which, if any, person tags to add--> 
+            <translation>Catonian.</translation> <!--NBW: This is another misidentification: unsure which, if any, person tags to add--> <!--JG: Text refers to Lucius Caninius Gallus, but because of the misidentification, I wouldn't tag a person-->
         </marginalia>  
         
         <marginalia hand="Italian" anchor_text="Ciliciam">
@@ -101,7 +101,6 @@
             <translation>Titus Annius Milo.</translation> 
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="imbecillitate Clodii">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
@@ -112,7 +111,6 @@
             <translation>Publius Clodius Pulcher.</translation> 
         </marginalia>
 
-
         <marginalia hand="Italian" anchor_text="incredibilis hominu[m] peruersitas">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
@@ -121,7 +119,6 @@
             </language>
             <translation>An unbelievable perversity of men.</translation> 
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Maleuolentissimis">
             <language ident="LA"> 
@@ -132,17 +129,14 @@
             <translation>The most malevolent.</translation> 
         </marginalia>
 
-
         <marginalia hand="Italian">
             <language ident="LA"> 
                 <position place="tail" book_orientation="0">
                     <marginalia_text>assequi. consequi. efficere.</marginalia_text>
-                    <person name="Titus Annius Milo"/>
                 </position>
             </language>
             <translation>To achieve, to pursue, to bring about.</translation> 
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="saepe significaui"/>
         <underline method="pen" type="straight" language="LA" text="quoque re perspecta, &amp; cognita scribere: veheme[n]ter"/>
@@ -158,8 +152,8 @@
         <underline method="pen" type="straight" language="LA" text="si cecidisset vt volumus vt"/>
         <underline method="pen" type="straight" language="LA" text="quid assequi possis"/>
         <underline method="pen" type="straight" language="LA" text="posse illius regni potiri"/>
-        <underline method="pen" type="straight" language="LA" text="esse cunctandu[m]: si dubium sit, no[n] esse conandu[m]."/>
-        <underline method="pen" type="straight" language="LA" text="vt absens &agrave; multis: cum redieris, ab omnibus collaud&ecirc;re."/>
+        <underline method="pen" type="straight" language="LA" text="esse cunctandu[m]: si dubium sit, no[n] esse conandu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="vt absens &agrave; multis: cum redieris, ab omnibus collaud&ecirc;re"/>
         <underline method="pen" type="straight" language="LA" text="periculosam propter interposita[m] authoritatem, religion&eacute;mque video"/>
         <underline method="pen" type="straight" language="LA" text="&amp; auxiliis eu[m] tuis, &amp; copiis adiuuares. eam"/>
         <underline method="pen" type="straight" language="LA" text=", de leuitate &amp; imbecillitate Clodii"/>
@@ -180,12 +174,9 @@
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">21</numeral>
         
-        <errata language="LA" copytext="tempore Caniniano" amendedtext="tempore Catoniano"/>
-        <errata language="LA" copytext="Sybylla" amendedtext="Sibylla"/>
-        
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
