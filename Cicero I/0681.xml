@@ -114,7 +114,7 @@
             <translation>Day.</translation>  
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="non fallam opinionem tuam"> <!-- NBW: uncertain about this link -->
+        <marginalia hand="Italian">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Probi viri dignitas.</marginalia_text>                
@@ -126,18 +126,20 @@
         <marginalia hand="Italian" anchor_text="per literas tecum">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Literae.</marginalia_text>                
+                    <marginalia_text>Literae.</marginalia_text>   <!--JG: Should be transcribed as 'Litera[e]'-->             
                 </position>
             </language>
             <translation>Letters.</translation>  
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="animos &agrave; minore cura ad summum timorem tracuceret. Sed tamen in eiusmodi perturbatione rerum quanquam omnia sunt metuenda, nihil magis qu&agrave;m perfidiam timemus: &amp;"/>
+        <underline method="pen" type="straight" language="LA" text="animos &agrave; minore cura ad summum timorem traduceret. Sed tamen in eiusmodi perturbatione rerum quanquam omnia sunt metuenda, nihil magis qu&agrave;m perfidiam timemus: &amp;"/>
         <underline method="pen" type="straight" language="LA" text="tantum habeo polliceri"/>
         <underline method="pen" type="straight" language="LA" text="praesentibus cumulat&egrave; satisfacturum"/>
         <underline method="pen" type="straight" language="LA" text="quorum vtrum minus velim, non facile possum existimare"/>
         <underline method="pen" type="straight" language="LA" text="est quiddam tertiu[m]"/> <!-- Note at head -->
         <underline method="pen" type="straight" language="LA" text=",&amp; dignitatem tuam in virtute, atque in rebus gestis tuis, atque in tua grauitate positam existimare. Siquid ex iis rebus, quas tibi fortuna largita est, nonnullorum hominum perfidia detraxerit, id maiori illis fraudi, qu&agrave;m tibi futurum"/>
+        <underline method="pen" type="straight" language="LA" text="vtor ad omnia"/>
+        <underline method="pen" type="straight" language="LA" text="posita sunt in coniectura"/>
         <underline method="pen" type="straight" language="LA" text="clamore, conuiti&oacute;que iactatus est"/>
         <underline method="pen" type="straight" language="LA" text="asperre &amp; acerbe"/>
         <underline method="pen" type="straight" language="LA" text="magno silentio est"/>
@@ -145,6 +147,7 @@
         <underline method="pen" type="straight" language="LA" text="sine vlla dubitatione"/>
         <underline method="pen" type="straight" language="LA" text="Sed nostri hominis tarditatem &amp; taciturnitatem"/>
         <underline method="pen" type="straight" language="LA" text="Caeteris iniuriis, quae praepositae"/>
+        <underline method="pen" type="straight" language="LA" text="ex consularibus"/>
         <underline method="pen" type="straight" language="LA" text="sunt partim obscurius iniqui, partim non dissumlanter irati."/>
         <underline method="pen" type="straight" language="LA" text="vt infringatur hominum improbitas &amp; co[n]siliis tuorum amicorum"/>
         <underline method="pen" type="straight" language="LA" text="debilitat cogitationes &amp; inimicorum &amp; proditorum."/>
@@ -156,21 +159,20 @@
         <underline method="pen" type="straight" language="LA" text="mihi certoru[m] hominu[m] potestas"/>
         
         <symbol name="Jupiter" place="right_margin"/>
-        <!-- NBW: Unknown Symbol -->
+        <symbol name="Jupiter" place="right_margin"/>
         
         <mark name="vertical_bar" method="pen" place="right_margin"/>
-        <mark name="vertical_bar" method="pen" place="right_margin"/> <!-- This one appears to be an extension of the underlining. Physical link? -->
+        <mark name="vertical_bar" method="pen" place="right_margin"/> <!-- This one appears to be an extension of the underlining -->
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">12</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Perfidia"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Dignitas"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Spes"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Dies"/>
         
     </annotation>
 </transcription>
