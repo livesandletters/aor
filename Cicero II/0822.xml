@@ -7,13 +7,22 @@
     <page filename="0822.tif" reader="John Dee" pagination="264" signature="[Rr.iiii.[v]]"/> 
     <annotation>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="ψευδόμενον">
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text> <!-- M.B. Greek needed. -->
+                    <marginalia_text>ψευδόμενος</marginalia_text> <!-- M.B. Greek needed. -->
                 </position>
             </language>
             <translation></translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="verbo liceat">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Verborum vsus.</marginalia_text>
+                </position>
+            </language>
+            <translation>The use of words.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="earu[m] rerum quae subiectae sensibus sunt, vlla diuinatio">
@@ -22,7 +31,7 @@
                     <marginalia_text>Quaru[m] reru[m] no[n] sit Diuninationis</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Those things which are not of divination.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="omnium diuinatio est, vt ratio docuit: nec locus nec materia">
@@ -31,7 +40,7 @@
                     <marginalia_text>Diuninatio[n]is nulla materia</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>No matter of divination.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="vates">
@@ -40,7 +49,7 @@
                     <marginalia_text>Vates.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Soothsayer.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="gubernator">
@@ -49,7 +58,7 @@
                     <marginalia_text>gubernator</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Helmsman.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="medicus">
@@ -58,7 +67,7 @@
                     <marginalia_text>Medicus</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Physician.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Imperator">
@@ -67,44 +76,45 @@
                     <marginalia_text>Imperator.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>General.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text=""> <!-- ?? -->
+        <marginalia hand="English_secretary" anchor_text="Diuinatione[m]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Diuinatio quid.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>What divination?</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="ventos aut imbres impende[n]tes quibusdam praesentire signis, in quo nostra quaedam Aratea memoriter &agrave; te 
             pronu[n]ciata suntL etsi haec ipsa fortuita">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>ventoru[m] et imbreu[m] p[rae]se[n]sio fortuita</marginalia_text>
+                    <marginalia_text>ventoru[m] et imbriu[m] p[rae]se[n]tio fortuita</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Fortuitous premonition of winds and of rain.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="diuinis tribuenda putas, sed peritis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Diuini, Periti</marginalia_text>
+                    <marginalia_text>Diuini. Periti</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Of the divine, of skills.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="M. Marcellum illu[m] qui ter Consul fuit, multis annis ant&egrave; dixisset naufragio esse perituru[m]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>M. Marcellus naufragio perijt.</marginalia_text>
+                    <marginalia_text>M[arcus]. Marcellus naufragio perijt.</marginalia_text>
+                    <person name="Marcus Claudius Marcellus "/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Marcus Marcellus will perish in a shipwreck.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="rerum quae in fortuna positae sunt praesensio, diuinatio est.">
@@ -122,7 +132,7 @@
                     <marginalia_text>fortuna</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Fortune.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="ipsi saepe falluntur">
@@ -131,7 +141,7 @@
                     <marginalia_text>falluntur periti</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Skillfully deceives.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="stellae traiectio">
@@ -140,7 +150,7 @@
                     <marginalia_text>Stella[e] traiectio.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The motion of a star.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Solis defectiones, it&eacute;mque lunae praedicu[n]tur in multos annos">
@@ -149,16 +159,16 @@
                     <marginalia_text>Solis defectio[n]es et lune in multos predicu[n]tu[r] annos</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Eclipses of the sun and also of the moon are predicted for many years.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="naturae necessitas">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Natua[e] necessitas</marginalia_text>
+                    <marginalia_text>Natura[e] necessitas</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The necessity of nature.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="temere sit, caeco casu &amp; volubilitate fortunae">
@@ -167,7 +177,7 @@
                     <marginalia_text>temere ca[e]co casu volubilitate fortuna[e].</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Chance, blind chance, the twists of fortune.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="liceat aceruale[m]"/>
