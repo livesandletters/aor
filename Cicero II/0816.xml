@@ -10,10 +10,10 @@
         <marginalia hand="English_secretary" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Fonitru &agrave; sinistris</marginalia_text>
+                    <marginalia_text>Tonitru &agrave; sinistris</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Thunder on the left.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="auguratus pastoralis">
@@ -22,25 +22,28 @@
                     <marginalia_text>Auguratus pastoralis</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The augural art was pastoral.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="Romam Rem&aacute;mne vocarent">
+        <marginalia hand="English_secretary" anchor_text="dant operam simul auspicio auguri&oacute;que. Hic Remus auspicio se deuouet, atque secundam 
+            Solus auem seraut: at Romulus pulcher in alto">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Romulus &amp; Remus auspicio domt op[er]am.</marginalia_text>
+                    <marginalia_text>Romulus &amp; Remus auspicio dant op[er]am.</marginalia_text>
+                    <person name="Romulus"/>
+                    <person name="Remus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Romulus and Remus gave attention to auspicies.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="artificiosae praesensionis facilis, diuinae autem paul&ograve;">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Artificiosa Diuinatio.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Artificial divination.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="obseruatione diuturna">
@@ -49,25 +52,25 @@
                     <marginalia_text>obseruatio diuturna</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>A long-lasting observation.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="vetustas">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Vetustas</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>A long duration.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="haustos animos &amp; libatos habemus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Animi hansti[?] et libati</marginalia_text>
+                    <marginalia_text>Animi hauste et libati</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Souls drawn and poured forth.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="natura futura praesentiunt">
@@ -76,34 +79,35 @@
                     <marginalia_text>Natura futura p[rae]se[n]tiu[n]t</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Predicting the future from nature.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="prudentes possumus dicere, id est prouidentes">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Prude[n]tes, id est, p[rou]inde[n]tes</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>It is foresight through wisdom.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="Thalem">
+        <marginalia hand="English_secretary" anchor_text="Milesiu[m] Thalem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Thales</marginalia_text>
+                    <person name="Thales of Miletus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Thales.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="defectione[m] Solis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>defictus</marginalia_text>
+                    <marginalia_text>&Sun; defictus</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Solar eclipse.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Patribus intonuit"/>
@@ -125,7 +129,7 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="hash" method="pen" place="left_margin"/>
         
@@ -136,4 +140,4 @@
         
     </annotation>
 </transcription>
-        
+
