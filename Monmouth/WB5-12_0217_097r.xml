@@ -23,23 +23,35 @@
         
         <drawing type="crown" book_orientation="0" place="tail" method="pen"/> <!--Malgo-->
         
-        <tree type="genealogical_tree" book_orientation="0" place="tail" method="pen">
-            <branch id="b1" person_name="Maelgwn" anchor_text="Malgo">Malgo</branch>
-            <branch id="b2" relationship="b1" person_name="Enniana" anchor_text="Ennian[a]">Ennian[us]</branch>
-            <branch id="b3" relationship="b2" person_name="Beli ap Rhun" anchor_text="Belin">Beli</branch>
-            <branch id="b4" relationship="b3" person_name="Iago ap Beli" anchor_text="Iago">Jago</branch>
-            <branch id="b5" relationship="b4" person_name="Caduanus" anchor_text="Caduanu[m]">Caduanus</branch>
+        <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
+            <node id="n1" person="Maelgwn" anchor_text="Malgo">Malgo</node>
+            <node id="n2" person="Enniana" anchor_text="Ennian[a]">Ennian[us]</node>
+            <node id="n3" person="Beli ap Rhun" anchor_text="Belin">Beli</node>
+            <node id="n4" person="Iago ap Beli" anchor_text="Iago">Jago</node>
+            <node id="n5" person="Caduanus" anchor_text="Caduanu[m]">Caduanus</node>
+            <node id="n6" person="Rhun Hir" anchor_text="Run">Run</node>
+            <node id="n7">filia</node>
+            <node id="n8" person="Alanus">Alanus</node>
+            <node id="n9" person="Hoelus">Hoelus</node>
+            <node id="n10" person="Salomon" anchor_text="Alanus">Salomon</node>
+            <node id="n11">Alanus</node>
+            <node id="n12" person="Hoelus Magnus">Hoelus Magnus</node>
+            <node id="n13" person="Hoelus Dux">Hoelus Dux</node>
             
-            <branch id="b6" relationship="b1" person_name="Rhun Hir" anchor_text="Run">Run</branch>
-            <branch id="b7" relationship="b6 b13">filia</branch>
-            <branch id="b8" relationship="b7" person_name="Alanus">Alanus</branch>
-            <branch id="b9" relationship="b8" person_name="Hoelus">Hoelus</branch>
-            <branch id="b10" relationship="b9" person_name="Salomon">Salomon</branch>
-            <branch id="b11">Alanus</branch>
+            <link to="n2 n3" from="n1" relationship="has_child"/>
+            <link to="n3" from="n2" relationship="has_child"/>
+            <link to="n4" from="n3" relationship="has_child"/>
+            <link to="n5" from="n4" relationship="has_child"/>
             
-            <branch id="b12" person_name="Hoelus Magnus">Hoelus Magnus</branch>
-            <branch id="b13" relationship="b12 b7" person_name="Hoelus Dux">Hoelus Dux</branch>    
-        </tree>
+            <link to="n7" from="n6" relationship="has_child"/>
+            <link to="n8" from="n7" relationship="has_child"/>
+            <link to="n9" from="n8" relationship="has_child"/>
+            <link to="n10" from="n9" relationship="has_child"/>
+            <link to="n11" from="n10" relationship="has_child"/>
+            
+            <link to="n13" from="n7" relationship="has_spouse"/>
+            <link to="n13" from="n12" relationship="has_child"/>
+        </graph>
         
     </annotation>
 </transcription>
