@@ -25,7 +25,7 @@
             <translation>The colours of the elements.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" internal_ref="00000020_u0005" anchor_text="Miner" id="00000020_0001">
+        <marginalia hand="Italian" anchor_text="Miner" id="NYSLWin188:00000020:m0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Mineraru[m] colores.</marginalia_text>
@@ -48,15 +48,15 @@
         <underline method="pen" type="straight" language="DE" text="was von jm wachst ist auch also seind"/>
         <underline method="pen" type="straight" language="DE" text="Also die Sonne die ist ein Corpus wie gemelt ist der Mon vnd alle Sternen"/>
         <underline method="pen" type="straight" language="DE" text="ohne Complexion"/>
-        <underline method="pen" type="double" language="DE" text="vnd ist das" id="00000020_u0001" internal_ref="00000020_u0003"/>
-        <underline method="pen" type="double" language="DE" text="au&sharp-S; dem das fewr" id="00000020_u0002" internal_ref="00000020_u0004"/>
+        <underline method="pen" type="double" language="DE" text="vnd ist das" id="NYSLWin188:00000020:u0001"/>
+        <underline method="pen" type="double" language="DE" text="au&sharp-S; dem das fewr" id="NYSLWin188:00000020:u0002"/>
         <underline method="pen" type="straight" language="DE" text="wachst vnd entspringet"/>
         <underline method="pen" type="straight" language="DE" text="Sternen die au&sharp-S; dem Himmel jr natur vnd wesen nemen"/>
-        <underline method="pen" type="straight" language="DE" text="ein Element des fewers" internal_ref="00000020_u0001" id="00000020_u0003"/>
+        <underline method="pen" type="straight" language="DE" text="ein Element des fewers" id="NYSLWin188:00000020:u0003"/>
         <underline method="pen" type="straight" language="DE" text="das fewer thun sol das thut der Himmel der es gibt vnd"/>
-        <underline method="pen" type="double" language="DE" text="au&sharp-S; jm wachst" id="00000020_u0004" internal_ref="00000020_u0002"/>
+        <underline method="pen" type="double" language="DE" text="au&sharp-S; jm wachst" id="NYSLWin188:00000020:u0004"/>
         <underline method="pen" type="straight" language="DE" text="schwartz"/>
-        <underline method="pen" type="straight" language="DE" text="ist ein Miner" id="00000020_u0005"/>
+        <underline method="pen" type="straight" language="DE" text="ist ein Miner" id="NYSLWin188:00000020:u0005"/>
         
         <symbol name="Sun" place="left_margin" language="DE" text="Sonne"/>
         <symbol name="Moon" place="left_margin" language="DE" text="Mon"/>
@@ -65,6 +65,19 @@
         <mark name="bracket" method="pen" place="left_margin"/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing> <!-- FSF: or a tripunctus with a tail -->
+        
+        <physical_link>
+            <marginal_annotation idref="NYSLWin188:00000020:m0001"/>
+            <marginal_annotation idref="NYSLWin188:00000020:u0001"/>
+            <marginal_annotation idref="NYSLWin188:00000020:u0002"/>
+            <marginal_annotation idref="NYSLWin188:00000020:u0003"/>
+            <marginal_annotation idref="NYSLWin188:00000020:u0004"/>
+            <marginal_annotation idref="NYSLWin188:00000020:u0005"/>
+            
+            <relation from="NYSLWin188:00000020:m0001" to="NYSLWin188:00000020:u0005" type="directed"/>
+            <relation from="NYSLWin188:00000020:u0001" to="NYSLWin188:00000020:u0003" type="directed"/>
+            <relation from="NYSLWin188:00000020:u0002" to="NYSLWin188:00000020:u0004" type="directed"/>
+        </physical_link>
         
     </annotation>
 </transcription>
