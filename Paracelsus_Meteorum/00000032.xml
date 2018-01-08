@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>&Sun; Solis ignis Sal Bal</marginalia_text>
-                    <marginalia_symbol name="Sun"/>
+                    <symbol_in_text name="Sun"/>
                 </position>
             </language>
             <translation>Sun: fire, salt, balsam.</translation>
@@ -80,24 +80,24 @@
         
         <table type="standard_table" place="left_margin">
             <tr>
-                <td function="label">Synonima</td>
+                <th>Synonima</th>
             </tr>
             <tr>
-                <td function="label">Ignis</td>
-                <td function="label" anchor_text="Sal">Sal</td>
-                <td function="label" anchor_text="Balsam">Balsamus</td>
+                <td anchor_text="Sulphur">Ignis</td>
+                <td anchor_text="Sal">Sal</td>
+                <td anchor_text="Balsam">Balsamus</td>
             </tr>
             <tr>
-                <td function="label" anchor_text="[Bals - deleted]">Sulphur</td>
-                <td function="label" anchor_text="Sal">Sal</td>
-                <td function="label">Liquor</td>
+                <td anchor_text="[]">Sulphur</td>
+                <td anchor_text="Sal">Sal</td>
+                <td anchor_text="Liquor">Liquor</td>
             </tr>
             <tr>
-                <td function="empty"/>
-                <td function="empty"/>
-                <td function="label" anchor_text="Mercurius">Mercurius</td>
+                <td></td>
+                <td></td>
+                <td anchor_text="Mercurius">Mercurius</td>
             </tr>
-            <table_text_translation>Synonyms. Fire. Salt. Balsam. Sulfur. Salt. Liquid. Mercury.</table_text_translation> <!--JG: How to translate a table?-->
+            <translation>Synonyms. Fire. Salt. Balsam. Sulfur. Salt. Liquid. Mercury.</translation>
         </table>
         
     </annotation>
