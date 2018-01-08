@@ -148,6 +148,7 @@
         <xs:enumeration value="chalk"/>
         <xs:enumeration value="pen"/>
         <xs:enumeration value="pencil"/>
+        <xs:enumeration value="scoring"/>
         <xs:enumeration value="typewriter"/>
       </xs:restriction>
     </xs:simpleType>
@@ -388,7 +389,6 @@
           <xs:enumeration value="double"/>
           <xs:enumeration value="grid"/>
           <xs:enumeration value="triple"/>
-          <xs:enumeration value="scoring"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
