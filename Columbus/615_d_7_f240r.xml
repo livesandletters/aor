@@ -13,15 +13,7 @@
                 </position>
             </language>
         </marginalia>
-      
-        <marginalia hand="Italian" method="pen" anchor_text="della Luna">
-        <language ident="LA">
-            <position place="right_margin" book_orientation="0">
-                <marginalia_symbol name="Moon"/>
-            </position>
-        </language>  
-      </marginalia>
-      
+            
         <underline method="pen" type="straight" language="IT" text="XX leghe"/>
         <underline method="pen" type="straight" language="IT" text="piu di X leghe"/>
         <underline method="pen" type="straight" language="IT" text="acque da Giamaica alla Spagnuola son contrarie al camino"/>
@@ -29,6 +21,8 @@
         <underline method="pen" type="straight" language="IT" text="notte senza vista di terra"/>
         <underline method="pen" type="straight" language="IT" text="della Luna"/>
         <underline method="pen" type="straight" language="IT" text="soletta copria La Luna a guisa di Eclissi"/>
+        
+        <symbol name="Moon" place="right_margin" language="IT" text="Luna"/>
                 
     </annotation>
 </transcription>
