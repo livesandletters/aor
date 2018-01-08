@@ -12,8 +12,8 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Cauendu[m], &agrave; Consuetudine suspiciosa. Vt i[nfr]a.</marginalia_text>
-                    <internal_ref text="i[nfr]a">
-                        <target filename="earbm_stc_11402_0148.xml" book_id="HoughtonSTC11402" text="[Hvii[r]]"/>
+                    <internal_ref>
+                        <target ref="HoughtonSTC11402:earbm_stc_11402_0148" text="i[nfr]a"/>
                     </internal_ref>
                 </position>
             </language>
@@ -50,7 +50,6 @@
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="vnwares"/>
         <mark name="plus_sign" method="pen" place="intext" language="EN" text="ofte tymes"/>
         <mark name="comma" method="pen" place="intext"/> <!--fence, on-->
-        
         
     </annotation>
 </transcription>
