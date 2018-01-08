@@ -13,7 +13,7 @@
                     <marginalia_text>
                         Eclipsis A[nn]o <!--JG: You should transcribe the moon symbol as well. It's part of the special characters -->
                     </marginalia_text>
-                    <marginalia_symbol name="Moon"/>
+                    <symbol_in_text name="Moon"/>
                 </position>
             </language>
             <language ident="EN">
@@ -32,7 +32,7 @@
                     <marginalia_text>
                         Eclipsis Eclipsis totalis A[nn]o 1504 <!--JG: 'Eclipsis totalis [moon]' should be a separate marginal note. Translate as 'A total eclipse of the moon'--> <!--JG: You forgot to transcribe a word 'erat'-->
                     </marginalia_text>
-                    <marginalia_symbol name="Moon"/>
+                    <symbol_in_text name="Moon"/>
                 </position>
             </language>
             <language ident="EN">
@@ -44,13 +44,6 @@
                 </position>
             </language>
             <translation>There was an eclipse of the moon in the year 1504, on the 29th of February. Hour 13, minute 36, towards noon [...]. Half a duration. One hour, 46 minutes. Magnitude 13.</translation>
-        <language ident="LA"> <!--JG: This can all be deleted, no need to tag this twice-->
-                <position place="tail" book_orientation="0">
-                    <marginalia_text>
-                        46 ad puncta 13 
-                    </marginalia_text>
-                </position>
-            </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="IT" text="dar loro x volte pi&ugrave;"/>
