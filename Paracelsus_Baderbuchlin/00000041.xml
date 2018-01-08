@@ -23,8 +23,8 @@
                 </position>
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>At &Mercury;ij spiritus co[n]tra[...] et &Salt; spiritus</marginalia_text> <!-- FSF: to be checked and completed -->
-                    <marginalia_symbol name="Mercury"/>
-                    <marginalia_symbol name="Salt"/>
+                    <symbol_in_text name="Mercury"/>
+                    <symbol_in_text name="Salt"/>
                 </position>
             </language>
             <translation></translation>
@@ -34,7 +34,9 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Mercurius &Sun;15&Venus;15&Mercury;ij</marginalia_text>
-                    <marginalia_symbol name="Sun"/>
+                    <symbol_in_text name="Mercury"/>
+                    <symbol_in_text name="Sun"/>
+                    <symbol_in_text name="Venus"/>
                 </position>
             </language>
             <translation>Mercury Sun 15 Venus 15 Mercury 2.</translation>
