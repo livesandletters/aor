@@ -25,8 +25,8 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Sal - &Sun; Sulph - &Moon; Mer[curiu]m - Teneb.</marginalia_text>
-                    <marginalia_symbol name="Sun"/>
-                    <marginalia_symbol name="Moon"/>
+                    <symbol_in_text name="Sun"/>
+                    <symbol_in_text name="Moon"/>
                 </position>
             </language>
             <translation>Salt - the sun; Sulfur - the moon; Mercury - darkness.</translation>
@@ -49,14 +49,6 @@
                 </position>
             </language>
             <translation>The creation of God in six days.</translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="Also ist ein Corpus Solis"> <!-- FSF: isn't this an errata, so 'Also ist sal ein corpus solis', as it is visualised in the margin -->
-            <language ident="DE">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>sal</marginalia_text>
-                </position>
-            </language>
         </marginalia>
         
         <underline method="pen" type="triple" language="DE" text="als ein Geist au&sharp-S;gezogen"/>
@@ -84,6 +76,8 @@
         <mark name="comma" method="pen" place="intext"/> <!--materia alle-->
         <mark name="circumflex" method="pen" place="intext"/>    
         <mark name="vertical_bar" method="pen" place="left_margin"/>
+        
+        <errata language="DE" copytext="Also ist ein Corpus Solis" amendedtext="Also ist sal ein Corpus Solis"/>
         
     </annotation>
 </transcription>

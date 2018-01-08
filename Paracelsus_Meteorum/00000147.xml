@@ -50,15 +50,21 @@
         <underline method="pen" type="double" language="DE" text="vnd gebewdt"/>
         <underline method="pen" type="double" language="DE" text="die kleineste Welt"/>
         
-        <tree type="ramus_tree" book_orientation="0" place="tail" method="pen">
-            <branch id="b1">Mundus</branch>
-            <branch id="b2" relationship="b1">Maximus.</branch>
-            <branch id="b3" relationship="b2">Limbus</branch>
-            <branch id="b4" relationship="b1">Minor</branch>
-            <branch id="b5" relationship="b4">Homo</branch>
-            <branch id="b6" relationship="b1">Minimus</branch>
-            <branch id="b7" relationship="b6">Matrix</branch>
-        </tree>
+        <graph type="ramus_tree" book_orientation="0" place="tail" method="pen">
+            
+            <node id="n1">Mundus</node>
+            <node id="n2">Maximus</node>
+            <node id="n3">Limbus</node>
+            <node id="n4">Minor</node>
+            <node id="n5">Homo</node>
+            <node id="n6">Minimus</node>
+            <node id="n7">Matrix</node>
+            
+            <link to="n2 n4 n6" from="n1"/>
+            <link to="n3" from="n2"/>
+            <link to="n5" from="n4"/>
+            <link to="n7" from="n6"/>
+        </graph>
         
     </annotation>
 </transcription>

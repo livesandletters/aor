@@ -11,9 +11,9 @@
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>What a hurly barley is to vnyte and knitt well to gyther &Sulfur; &Salt; &Mercury;</marginalia_text>
-                    <marginalia_symbol name="Sulfur"/>
-                    <marginalia_symbol name="Sun"/>
-                    <marginalia_symbol name="Mercury"/>
+                    <symbol_in_text name="Sulfur"/>
+                    <symbol_in_text name="Sun"/>
+                    <symbol_in_text name="Mercury"/>
                 </position>
             </language>
         </marginalia>
@@ -86,7 +86,7 @@
         <mark name="tripunctus" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
         
-        <!--KS: There's also a diagonal line starting on this page and continuing on 00000105-->
+        <mark name="horizontal_bar" method="pen" place="right_margin"/><!--KS: There's also a diagonal line starting on this page and continuing on 00000105-->
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="perfection gehend so scheident sich doch zwo art von"/>
         
