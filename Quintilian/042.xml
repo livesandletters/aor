@@ -6,8 +6,13 @@
     <page filename="042.tif" reader="John Dee" pagination="36" signature="[C 2[v]]"/>
     <annotation>
         
-        
-        <!-- M.B. Greek marginalia remaining. -->
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text></marginalia_text> <!-- M.B. Greek marginalia remaining. -->
+                </position>
+            </language>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="balare quidem, aut hinnire">
             <language ident="LA">
@@ -15,16 +20,16 @@
                     <marginalia_text>Balare Hinnire</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To bleat. To neigh.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="sermo constat">
+        <marginalia hand="Italian" anchor_text="sermo constat ratione, uetustate, autoritate, &amp; co[n]suetudine">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Ex quibus sermo constat</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>From which things a speech consists of.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Autoritas">
@@ -33,18 +38,17 @@
                     <marginalia_text>Autoritas.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Authority.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="incerta certis">
+        <marginalia hand="Italian" anchor_text="ut incerta certis probet">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Incerta certis pha sunt.</marginalia_text>
+                    <marginalia_text>Incerta certis p[ro]ba[n]da sunt.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Uncertainties must be sanctioned by certainties.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Est etia[m] sua loquentibus obseruatio"/>
         <underline method="pen" type="straight" language="LA" text="scribentibus"/>
