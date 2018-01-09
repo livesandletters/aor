@@ -7,14 +7,6 @@
     <page filename="00000029.tif" reader="John Dee"  signature="Cij"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="das Eleme[n] feur"> <!-- FSF: on previous page captured as numeral -->
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>4.</marginalia_text>
-                </position>
-            </language>
-        </marginalia>
-
         <marginalia hand="Italian" anchor_text="tincturen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -43,6 +35,8 @@
         <underline method="pen" type="straight" language="DE" text="werme solcher wasseren"/>
         <underline method="pen" type="straight" language="DE" text="wasser inhielt"/>
         <underline method="pen" type="double" language="DE" text="werme"/>
+        
+        <numeral place="left_margin" language="DE" text="das Eleme[n] feur">4.</numeral>
         
     </annotation>
 </transcription>
