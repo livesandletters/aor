@@ -7,7 +7,7 @@
     <page filename="00000061.tif" reader="John Dee"  signature="[Gij]"/> 
     <annotation>
         
-        <marginalia hand="Italian" method="pen" anchor_text="kalchstein">
+        <marginalia hand="Italian" method="pen" anchor_text="kalchstein" id="NYSLWin189:00000061:m0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>unde calor</marginalia_text>
@@ -16,7 +16,15 @@
             <translation>Hence the heat.</translation>
         </marginalia>
   
-        <underline method="pen" type="straight" language="DE" text="kalchstein"/>
+        <underline method="pen" type="straight" language="DE" text="kalchstein" id="NYSLWin189:00000061:u0001"/>
+        
+        <physical_link>
+            
+            <marginal_annotation idref="NYSLWin189:00000061:m0001"/>
+            <marginal_annotation idref="NYSLWin189:00000061:u0001"/>
+            
+            <relation from="NYSLWin189:00000061:m0001" to="NYSLWin189:00000061:u0001" type="undirected"/>
+        </physical_link>
 
     </annotation>
 </transcription>
