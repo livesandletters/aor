@@ -10,7 +10,7 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>[dirunere] sedare co[n]trov[er]sia[m]</marginalia_text> <!--JG: Very unsure-->
                 </position>
             </language>
             <translation></translation>
@@ -19,19 +19,19 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Vic {prudens aculus in suo generi p[er]fectus </marginalia_text>
+                    <marginalia_text>Vir { prudens acutus in suo generi p[er]fectus </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>A man: prudent, sharp, perfected in his kind.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="diiudicatio">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>dijudicatio</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Decide.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Gellium">
@@ -83,7 +83,7 @@
             <translation>Aristo.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="discreparet">
+        <marginalia hand="Italian" anchor_text="decus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Decus</marginalia_text>
@@ -98,7 +98,7 @@
                     <marginalia_text>Res co[m]moda bona.</marginalia_text>
                 </position>
             </language>
-            <translation>Things { useful and good.</translation>
+            <translation>Things: useful and good.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Aristoteles">
@@ -117,7 +117,7 @@
                     <marginalia_text>De finibus</marginalia_text>
                 </position>
             </language>
-            <translation>The ends.</translation>
+            <translation>On the ends.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Socrates">
@@ -182,17 +182,24 @@
         <marginalia hand="Italian" anchor_text="vitiorum emendatricem legem esse oportet, co[m]mendatric&eacute;mque virtutum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Lex Vitirou[m] emendatrix virtutu[m] co[m]mendatrix </marginalia_text>
+                    <marginalia_text>Lex Vitirou[m] emendatrix virtutu[m] co[m]mendatrix e[st]. </marginalia_text>
                 </position>
             </language>
-            <translation>The Law as a reformer of vice and an incentive to virtue.</translation>
+            <translation>The law is a reformer of vice and an incentive to virtue.</translation>
         </marginalia>
         
-        <!-- M.B. Capture Greek later. -->
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text></marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="vberius, nihil florentius, nihil praestabilius">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="tail" book_orientation="0">
                     <marginalia_text>vbierius flore[n]tius pra[e]stabilius { nihil</marginalia_text>
                 </position>
             </language>
@@ -202,10 +209,10 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>delinari</marginalia_text>
+                    <marginalia_text>delinare</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To obliterate.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
@@ -220,13 +227,11 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>no[n] e&sharp-S; mii facultalis</marginalia_text>
+                    <marginalia_text>no[n] est me[a]e facultalis</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>It is not of my absility.</translation>
         </marginalia>
-        
-        
         
         <underline method="pen" type="straight" language="LA" text="aliquem facerent modum"/>
         <underline method="pen" type="straight" language="LA" text="aetatem in litibus conterere"/>
