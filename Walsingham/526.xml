@@ -23,9 +23,8 @@
         <marginalia hand="Italian" anchor_text="Ixingham" method="pen">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ixingham</marginalia_text>    <!-- DO: Not sure if there's a different modern name --> 
-                    <!-- FSF: there are two Inghams, though I am not sure if that is Ixingham; there is one in Norfolk, which would agree with East Anglia that is spoken about earlier in the text -->
-                    <location name="Ixingham"/>
+                    <marginalia_text>Ixingham</marginalia_text>    
+                    <location name="Ingham"/>
                 </position>
             </language>
         </marginalia>
@@ -67,18 +66,19 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Matildis Regina.</marginalia_text>
-                    <location name="Matilda of Flanders"/>
+                    <person name="Matilda of Flanders"/>
                 </position>
             </language>
             <translation>Queen Matilda.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
-            <language ident="EN"> <!-- FSF: I am not sure if this is English or Latin -->
+            <language ident="LA"> 
                 <position place="tail" book_orientation="0">
                     <marginalia_text>[ Pij</marginalia_text>
                 </position>
             </language>
+            <translation>The pious.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Herefordensis Comes"/>
