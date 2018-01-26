@@ -9,7 +9,7 @@
         <marginalia hand="Italian" anchor_text="leges terrae bonas vbiq; seruari faceret &amp; pr[a]ecipu&egrave; leges S. Edvvardi regis">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>g Leges Edwardi boni Regis</marginalia_text> <!-- MB. Uncertain what g[e] stands for gratia? --> <!-- FSF: Maybe a florilegium -->
+                    <marginalia_text>Leges Edwardi boni Regis</marginalia_text>  
                     <person name="Edward III of England"/>
                 </position>
             </language>
@@ -25,6 +25,8 @@
         
         <mark name="dot" method="pen" place="right_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- ecclesia, &amp; -->
+        
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen"></drawing>
         
     </annotation>
 </transcription>
