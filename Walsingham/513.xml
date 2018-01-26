@@ -30,7 +30,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Walterius et euis vxor suspensi.</marginalia_text>
-                    <person name=""/>    <!-- DO: Still haven't identified Walterius... -->
+                    <person name="Bishop Walter"/>   
                 </position>
             </language>
             <translation>Walter and his wife strung up.</translation>
@@ -176,15 +176,13 @@
         <mark name="tripunctus" method="pen" place="head"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        <mark name="comma" method="pen" place="intext"/>  <!-- opinione Rainaldus -->   <!-- DO: Not sure if this is printed -->
-        <!-- FSF: in line 18 there is another comma between comite Cabilonensi -->  <!-- DO: Not sure about this one -->
+        <mark name="comma" method="pen" place="intext"/>  <!-- opinione Rainaldus -->   
         <mark name="comma" method="pen" place="intext"/>  <!-- nomine dolo -->
         
         <errata language="LA" copytext="superuixeat" amendedtext="superuixerat"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        
-        <!-- DO: Drawing of horse saddle in left margin -->
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="saddle" book_orientation="0" place="left_margin" method="pen" anchor_text="equestram sellam"/>
 
     </annotation>
 </transcription>
