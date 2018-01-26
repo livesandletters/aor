@@ -22,7 +22,7 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Nota quod dicat eum recepisse Walliu[m] de manu Lewelini</marginalia_text> 
                     <person name="Llywelyn ap Gruffudd"/>
-                    <person name="Wales"/>
+                    <location name="Wales"/>
                 </position>
             </language>
             <translation>Note that it says he received Wales from the hand of Llywelyn.</translation>
@@ -34,7 +34,7 @@
                     <marginalia_text>no[m]i[n]avit illu[m] Henricu[m] de Barres. in p[ri]ma histor[i]a pag[ina] 24. que[m] hic Gulielmu[m]</marginalia_text>
                     <person name="Henry III, Count of Bar"/>
                     <internal_ref>
-                        <target ref="RCP10552-2:044" text="24." prefix="pag[ina]" suffix="que[m]"/>
+                        <target ref="RCP10552-2:044" text="24" />
                     </internal_ref>
                 </position>
             </language>
@@ -47,7 +47,7 @@
         <underline method="pen" type="straight" language="LA" text="Humfredus de Boun, comes Thetfordiae"/>
         <underline method="pen" type="straight" language="LA" text="Wallia[m] de manu Lewlini recepit in vsus suos proprios"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
