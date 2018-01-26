@@ -6,7 +6,7 @@
     <page filename="395.tif" reader="John Dee" pagination="375" signature="Kk.ij."/>
     <annotation>
         
-        <marginalia hand="Italian"> <!-- FSF: is this not a numeral? -->
+        <marginalia hand="Italian"> 
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>1389.</marginalia_text>
@@ -17,23 +17,21 @@
         <marginalia hand="Italian" anchor_text="Iohannes dux Lancastriae de partibus VVasconiae in Angliam transfretauit, postquam in Hispania">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Jo[hann]es dux Lancastria[e] componit pacem cui[??] Rege Hispania[e].</marginalia_text> <!-- FSF: the missing word is cu[m] -->
+                    <marginalia_text>Jo[hann]es dux Lancastria[e] componit pacem cu[m] Rege Hispania[e].</marginalia_text> 
                     <person name="John of Gaunt"/>
-                    <location name="Spain"/> <!-- FSF: if a location is part of a title as here, we are not meant to capture the location, I think -->
                 </position>
             </language>
-            <translation>John, Duke of Lancaster ??? the peace of the King of Spain.</translation> <!-- FSF: John made peace with the King -->
+            <translation>John [of Gaunt], Duke of Lancaster, made peace with the King of Spain.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Rex ver&ograve; Portugaliae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Rex Port[u]galia[e]</marginalia_text>
-                    <person name=""/> <!-- FSF: to be identified, possibly https://en.wikipedia.org/wiki/John_I_of_Portugal -->
-                    <location name="Portugal"/> <!-- FSF: see above -->
+                    <person name="John I of Portugal"/>
                 </position>
             </language>
-            <translation>The King of Portugal.</translation>
+            <translation>The king of Portugal.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="commemorans in corde suo, qu&ograve;d antea in felicitate &amp; rerum opulentia nec Deum vt debuit cognouisset, nec vt decuit coluisset.">
