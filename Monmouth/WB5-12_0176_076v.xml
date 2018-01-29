@@ -45,7 +45,7 @@
             <translation>Otherwise called Urien.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="map apo" internal_ref="WB5-12_0176_076v_u0002">
+        <marginalia hand="Italian" anchor_text="map apo">
             <language ident="CY">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -95,7 +95,7 @@
             <translation>Six collateral islands, also called adjacent islands.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Acellius rex Dacoru[m]" internal_ref="WB5-12_0176_076v_u0001">
+        <marginalia hand="Italian" anchor_text="Acellius rex Dacoru[m]" id="ChChWb512:WB5-12_0176_076v:m0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -121,7 +121,7 @@
         <underline method="pen" type="straight" language="LA" text="rex Islandiae"/>
         <underline method="pen" type="straight" language="LA" text="rex Gela[n]diae"/>
         <underline method="pen" type="double" language="LA" text="Loth"/>
-        <underline method="pen" type="straight" language="LA" text="Acellius rex Dacoru[m]" id="WB5-12_0176_076v_u0001"/>
+        <underline method="pen" type="straight" language="LA" text="Acellius rex Dacoru[m]" id="ChChWb512:WB5-12_0176_076v:u0001"/>
         <underline method="pen" type="straight" language="LA" text="rex Rutenoru[m]"/>
         <underline method="pen" type="straight" language="LA" text="Boloniae"/>
         <underline method="pen" type="straight" language="LA" text="Galliaru[m] pares siue"/>
@@ -130,6 +130,11 @@
         <errata language="LA" copytext="map apo" amendedtext="[deleted]"/>
         <!-- NBW: Dee underlined this word in the text, then crossed it out and amended it with his note in the margin (vab pabo) Did I transcribe this right --> <!--JG: You did, but you don't need to give an ID in this give (so I delted it)-->
         
-        
+        <physical_link>
+            <marginal_annotation idref="ChChWb512:WB5-12_0176_076v:m0001"/>
+            <marginal_annotation idref="ChChWb512:WB5-12_0176_076v:u0001"/>
+            
+            <relation from="ChChWb512:WB5-12_0176_076v:m0001" to="ChChWb512:WB5-12_0176_076v:u0001" type="directed"/>
+        </physical_link>
     </annotation>
 </transcription>
