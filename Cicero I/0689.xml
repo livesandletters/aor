@@ -7,7 +7,7 @@
     <page filename="0689.tif" reader="John Dee" pagination="13"/>
     <annotation> 
         
-        <marginalia hand="Italian"> <!--JG: use anchor attribute to link to (underscored) parts in the printed text-->
+        <marginalia hand="Italian" anchor_text="nulla in caeteros maleuolentia suffusum: contr&aacute;que cum magnum &amp; excelsum, tum etiam apertum &amp; simplicem"> 
             <language ident="LA"> 
                 <position place="head" book_orientation="0">
                     <marginalia_text>a[n]i[m]us { nulla maleuolentia suffusus in magnus excelsus apertus simplex. </marginalia_text>                
@@ -29,7 +29,7 @@
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Lentulus</marginalia_text>  
-                    <person name="Publius Cornelius Lentulus Spinther"/> <!--JG: You should use the identifier, which is the name in the first column ('A') in the spreadsheet, not an alternative name!-->
+                    <person name="Cornelius Lentulus Spinther"/> 
                 </position>
             </language>
             <translation>Cornelius Lentulus Spinther.</translation> 
@@ -57,7 +57,8 @@
         <marginalia hand="Italian" anchor_text="Aristoteleo more">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Mos Aristoteleus</marginalia_text> <!-- NBW: Should I include a person tag for Aristotle here? --> <!--JG: Yep!-->
+                    <marginalia_text>Mos Aristoteleus</marginalia_text> 
+                    <person name="Aristotle"/>
                 </position>
             </language>
             <translation>The manner of Aristotle.</translation> 
@@ -66,7 +67,8 @@
         <marginalia hand="Italian" anchor_text="treis libros de temporibus meis">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Libri quanda[m] quos Cic[ero] scripsit</marginalia_text> <!--JG: You can tag Cicero as a person here-->               
+                    <marginalia_text>Libri quanda[m] quos Cic[ero] scripsit</marginalia_text>              
+                <person name="Cicero"/>
                 </position>
             </language>
             <translation>Certain books that Cicero wrote.</translation> 
@@ -127,7 +129,7 @@
         <symbol name="Jupiter" place="right_margin"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="page_break" method="pen" place="intext"/> <!-- latere. Qu&ograve;d -->  <!--JG: This is no page break, but a section sign!-->
+        <mark name="section_sign" method="pen" place="intext"/> 
         <mark name="circumflex" method="pen" place="intext" language="LA" text="nominare"/>
         
         <numeral place="right_margin">12</numeral>
@@ -136,7 +138,7 @@
         <errata language="LA" copytext="Aristoteleo" amendedtext="Aristotelico"/>
         <errata language="LA" copytext="Aristoteleam" amendedtext="Aristotelicam"/>
         <errata language="LA" copytext="Isocrateam" amendedtext="Isocratica[m]"/>
-        <errata language="LA" copytext="nominare Quos" amendedtext="nominare non misi quos" /> <!-- NBW: Proper way to tag this insertion and accompanying circumflex? --> <!--JG: Nope, the way you did it is fine-->
+        <errata language="LA" copytext="nominare Quos" amendedtext="nominare non misi quos" /> 
                 
     </annotation>
 </transcription>
