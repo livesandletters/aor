@@ -84,7 +84,8 @@
         <marginalia hand="Italian">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>De rebus gestis cic[erone]. in Bello Parthico.</marginalia_text> <!--JG: Cicero should be tagged here-->
+                    <marginalia_text>De rebus gestis cic[erone]. in Bello Parthico.</marginalia_text> 
+                    <person name="Cicero"/>
                 </position> 
             </language>
             <translation>The deeds done by Cicero in the Parthian war.</translation>
@@ -181,7 +182,7 @@
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         
-        <mark name="dagger" method="pen" place="intext" text="de nihilo" id="RCP10549-50v1:0693:m0001"/> <!-- NBW: Linked to annotation - correction? Do I need this ref? --> <!--JG: Nope, you do not have to link these, so ID isn't necessary-->
+        <mark name="dagger" method="pen" place="intext" text="de nihilo"/> 
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
@@ -189,7 +190,7 @@
         
         <errata language="LA" copytext="factu" amendedtext="tactu[m]"/>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="in rebus"/> <!--JG: I'd link it to the complete underscored text here-->
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="ne illa quidem curo mihi scribas, quae maximis in rebus reip[sis]. geruntur quotidie, nisi quid ad meipsum pertinebit."/> 
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
