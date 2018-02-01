@@ -6,7 +6,7 @@
     <page filename="615_d_7_f148v.tif" reader="John Dee" pagination="[148v]" signature="[Tiiij[v]]"/>    
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="il Re Caminabo" id="BL615d.7:615_d_7_f148v:m0002">
+        <marginalia hand="Italian" anchor_text="il Re Caminabo" id="BL615d7:615_d_7_f148v:m0002">
             <language ident ="IT">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Il Re Caminabo</marginalia_text> 
@@ -16,12 +16,12 @@
             <translation>The King Caminabo</translation>
         </marginalia>
         
-        <marginalia hand="Italian" id="BL615d.7:615_d_7_f148v:m0001">
+        <marginalia hand="Italian" id="BL615d7:615_d_7_f148v:m0001">
             <language ident ="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Sup[ra] fol. 123 v.</marginalia_text>
                     <internal_ref>
-                        <target ref="BL615d.7:615_d_7_f123v:m0001" text="123 v"/>
+                        <target ref="BL615d7:615_d_7_f123v:m0001" text="123 v"/>
                     </internal_ref>
                 </position>
             </language>
@@ -104,10 +104,10 @@
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
         <physical_link>
-            <marginal_annotation idref="BL615d.7:615_d_7_f148v:m0002"/>
-            <marginal_annotation idref="BL615d.7:615_d_7_f148v:m0001"/>
+            <marginal_annotation idref="BL615d7:615_d_7_f148v:m0002"/>
+            <marginal_annotation idref="BL615d7:615_d_7_f148v:m0001"/>
             
-            <relation from="BL615d.7:615_d_7_f148v:m0002" to="BL615d.7:615_d_7_f148v:m0001" type="undirected"/>
+            <relation from="BL615d7:615_d_7_f148v:m0002" to="BL615d7:615_d_7_f148v:m0001" type="undirected"/>
             
         </physical_link>        
     </annotation>

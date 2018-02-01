@@ -7,17 +7,17 @@
 
 <annotation>
     
-    <marginalia hand="Italian" anchor_text="videro le lettere per mano del Dottor Viglialano" method="pen" id="BL615d.7:615_d_7_f035r:m0001"> 
+    <marginalia hand="Italian" anchor_text="videro le lettere per mano del Dottor Viglialano" method="pen" id="BL615d7:615_d_7_f035r:m0001"> 
     <language ident="EN">
         <position place="right_margin" book_orientation="0">
             <marginalia_text>The King of England's letters to Christofer Colon. Vide fol .31 .32 120.v.34.v</marginalia_text> 
             <person name="Columbus"/>
-            <location name="Henry VII"/> 
+            <person name="Henry VII"/> 
             <internal_ref>
-                <target ref="BL615d.7:615_d_7_f031r" text=".31"/>
-                <target ref="BL615d.7:615_d_7_f032r" text=".32"/>
-                <target ref="BL615d.7:615_d_7_f120v" text="120.v"/>
-                <target ref="BL615d.7:615_d_7_f034v" text="34.v"/>
+                <target ref="BL615d7:615_d_7_f031r" text=".31"/>
+                <target ref="BL615d7:615_d_7_f032r" text=".32"/>
+                <target ref="BL615d7:615_d_7_f120v" text="120.v"/>
+                <target ref="BL615d7:615_d_7_f034v" text="34.v"/>
             </internal_ref>
         </position>
     </language>
@@ -35,12 +35,12 @@
     
     <underline method="pen" type="straight" language="IT" text="figliuoli"/>
     <underline method="pen" type="double" language="IT" text="hauea rifiutate"/>
-    <underline method="pen" type="double" language="IT" text="altre offerte"/>
+    <underline method="pen" type="double" language="IT" text="altre offerte" id="BL615d7:615_d_7_f035r:u0001"/>
     <underline method="pen" type="double" language="IT" text="gli haueuano fatte"/>
     <underline method="pen" type="double" language="IT" text="sua lettera"/>
     <underline method="pen" type="straight" language="IT" text="ne con Inghilterra"/>
     <underline method="pen" type="double" language="IT" text="Principile Altezza"/>
-    <underline method="pen" type="grid" language="IT" text="videro le lettere per mano"/>
+    <underline method="pen" type="grid" language="IT" text="videro le lettere per mano" id="BL615d7:615_d_7_f035r:u0002"/>
     <underline method="pen" type="straight" language="IT" text="Dottor Viglialano"/>
     <underline method="pen" type="straight" language="IT" text="dall'altro canto l'Ammiraglio dimandaua l'Ammiragliato, &amp; titolo di Vicere, &amp; altre cose di grande stima"/>
     
@@ -49,7 +49,13 @@
     <mark name="quotation_mark" method="pen" place="left_margin"/>
     <mark name="quotation_mark" method="pen" place="left_margin"/>
     
-    <!--JG: Links between underline to be established later-->
+    <physical_link>
+        <marginal_annotation idref="BL615d7:615_d_7_f035r:u0001"/>
+        <marginal_annotation idref="BL615d7:615_d_7_f035r:u0002"/>
+        
+        <relation from="BL615d7:615_d_7_f035r:u0001" to="BL615d7:615_d_7_f035r:u0002" type="undirected"/>
+          
+    </physical_link>
 
 </annotation>
 </transcription>
