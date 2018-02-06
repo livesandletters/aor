@@ -7,7 +7,7 @@
     <page filename="00000034.tif" reader="John Dee" pagination="[10[r]]"  signature="[Cij[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" internal_ref="00000034_u0001" id="00000034_0001">
+        <marginalia hand="Italian" id="NYSLWin188:00000034:m0001">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Elementoru[m] Corpora Natura. Essentia. Spiritus.
@@ -44,7 +44,7 @@
             <translation>Four of the elements of the mind, life, and spirit.</translation> <!--JG: Not entirely sure--> <!--KS: It feels like Dee's missing a word here...-->
         </marginalia>
         
-        <underline method="pen" type="double" id="00000034_u001" language="DE" text="wesen"/>
+        <underline method="pen" type="double" id="NYSLWin188:00000034:u0001" language="DE" text="wesen"/>
         <underline method="pen" type="double" language="DE" text="natur"/>
         <underline method="pen" type="double" language="DE" text="sie Geiste"/>
         <underline method="pen" type="straight" language="DE" text="ist nienen"/>
@@ -65,6 +65,13 @@
         <underline method="pen" type="straight" language="DE" text="ist auch sein"/>
         
         <mark name="comma" method="pen" place="intext"/> <!-- wachst ist -->
+        
+        <physical_link>
+            <marginal_annotation idref="NYSLWin188:00000034:m0001"/>
+            <marginal_annotation idref="NYSLWin188:00000034:u0001"/>
+            
+            <relation from="NYSLWin188:00000034:m0001" to="NYSLWin188:00000034:u0001" type="directed"/>
+        </physical_link>
         
     </annotation>
 </transcription>
