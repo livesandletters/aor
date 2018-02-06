@@ -36,7 +36,7 @@
             <translation>The sun is transparent salt, devoid of all blemishes and darkness.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="den Weisse schein in die Son[n]e vn[d] der Rotte schien in den Mon vnd Sternen" internal_ref="00000051_e0001 00000051_e0002"  id="00000051_0001">
+        <marginalia hand="Italian" anchor_text="den Weisse schein in die Son[n]e vn[d] der Rotte schien in den Mon vnd Sternen" id="NYSLWin188:00000051:m0001">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Lume[n] &Sun; - album &Moon; - rubeu[m]</marginalia_text>
@@ -82,8 +82,17 @@
         <mark name="comma" method="pen" place="intext"/> <!--ersten clarificiert-->
         <mark name="scribble" method="pen" place="tail" language="DE" text="weissen"/>
         
-        <errata language="DE" copytext="Weisse" amendedtext="rott" id="00000051_e0001" internal_ref="00000051_0001"/>
-        <errata language="DE" copytext="Rott" amendedtext="weisse" id="00000051_e0002" internal_ref="00000051_0001"/>
+        <errata language="DE" copytext="Weisse" amendedtext="rott" id="NYSLWin188:00000051:e0001"/>
+        <errata language="DE" copytext="Rott" amendedtext="weisse" id="NYSLWin188:00000051:e0002"/>
+        
+        <physical_link>
+            <marginal_annotation idref="NYSLWin188:00000051:m0001"/>
+            <marginal_annotation idref="NYSLWin188:00000051:e0001"/>
+            <marginal_annotation idref="NYSLWin188:00000051:e0002"/>
+            
+            <relation from="NYSLWin188:00000051:m0001" to="NYSLWin188:00000051:e0001" type="directed"/>
+            <relation from="NYSLWin188:00000051:m0001" to="NYSLWin188:00000051:e0002" type="directed"/>
+        </physical_link>
         
     </annotation>
 </transcription>
