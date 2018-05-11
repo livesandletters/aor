@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0642.tif" reader="John Dee" pagination="615" signature="[qqq.iii[v]]"/>
+    <page filename="0642.tif" reader="John Dee" pagination="615" signature="[qqq.iii.[v]]"/>
     <annotation>
         
         <marginalia hand="Italian"  anchor_text="extremum vitae spiritum ediderim">
@@ -19,7 +18,7 @@
         <marginalia hand="Italian"  anchor_text="discriminat">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>discriminare.</marginalia_text> <!--JG: Not sure what happens a bit closer to the printed text, Sort of 'S'-->
+                    <marginalia_text>discriminare.</marginalia_text> <!--JG: Not sure what happens a bit closer to the printed text, Sort of 'S'--> <!-- FSF: later, this s has been tagged as a 5 -->
                 </position>
             </language>
             <translation>To discriminate.</translation>
@@ -82,6 +81,7 @@
         <numeral place="left_margin">21</numeral>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="scio enim quiduis homini accidere posse"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>

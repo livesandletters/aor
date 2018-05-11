@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0644.tif" reader="John Dee" pagination="616" signature="[qqq.iiii[v]]"/>
+    <page filename="0644.tif" reader="John Dee" pagination="616" signature="[qqq.iiii.[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian" >
+        <marginalia hand="Italian" anchor_text="fortium viroru[m]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Fortis Vir.</marginalia_text>
@@ -16,7 +15,7 @@
             <translation>A strong man.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" >
+        <marginalia hand="Italian" anchor_text="sapientia">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Sapie[n]tia.</marginalia_text>
@@ -27,7 +26,8 @@
         
         <underline method="pen" type="straight" language="LA" text="sed si maria, montes, regionum maginitudines interessent, odisses"/>
         <underline method="pen" type="straight" language="LA" text="quales vos esse debetis, virtute praestare tantum, vt possint fortunae culpam"/>
-        <underline method="pen" type="straight" language="LA" text="Tu vero ita vitam, corpusque seruato, ita fortunas, ita rem familiarem, vt haec postiora libertate ducas, atque his vti velis, si liberare Rempublicam possis: nec pro his libertatem"/>
+        <underline method="pen" type="straight" language="LA" text="Tu ver&ograve; ita vitam, corp&uacute;sque seruato, ita fortunas, ita rem familiarem, vt haec postiora libertate ducas, 
+            atque his vti velis, si liberare Rempublicam possis: nec pro his libertatem"/>
         <underline method="pen" type="straight" language="LA" text="me eius beneficio plus qu&agrave;m pro virili parte obligatu[m] puto"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
@@ -40,8 +40,8 @@
         <numeral place="left_margin">19</numeral>
         <numeral place="left_margin">12</numeral>
         
-        <drawing type="scroll" book_orientation="0" place="left_margin" method="pen">
-            <text hand="Italian" language="LA">pientia</text>
+        <drawing type="scroll" book_orientation="0" place="left_margin" method="pen" anchor_text="sapientia">
+            <text hand="Italian" language="LA">pientia</text> <!-- FSF: I think this is meant to be sapientia, including the sa above the scroll -->
             <translation>Dutiful.</translation>
         </drawing>
         
