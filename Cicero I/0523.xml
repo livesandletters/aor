@@ -15,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                
+                Let chance be the mistress of the field.
             </translation>
         </marginalia>
         
@@ -25,10 +25,11 @@
                     <marginalia_text>
                         Quomodo Cicero Consulatu[m] gessit
                     </marginalia_text>
+                    <person name="Cicero"/>
                 </position>
             </language>
             <translation>
-                
+                The way in which Cicero wielded the consulatship.
             </translation>
         </marginalia>
         
@@ -41,7 +42,7 @@
                 </position>
             </language>
             <translation>
-                
+                Repetition.
             </translation>
         </marginalia>
         
@@ -54,7 +55,7 @@
                 </position>
             </language>
             <translation>
-                
+                Forty years.
             </translation>
         </marginalia>
         
@@ -67,7 +68,7 @@
                 </position>
             </language>
             <translation>
-                
+                Endurance, obedience.
             </translation>
         </marginalia>
         
@@ -80,7 +81,7 @@
                 </position>
             </language>
             <translation>
-                
+                The torches were seized, displayed and extinguished.
             </translation>
         </marginalia>
         
@@ -95,12 +96,12 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        a garland of oken leues vsed to be giue[n] to them .. has saned a cytizen in batt...
+                        a garland of oken leues vsed to be giue[n] to them .. has saued a cytizen in battayle: e... . <!-- FSF: two word missing -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Civic crown.
             </translation>
         </marginalia>
         
@@ -108,7 +109,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Ludi co[m]italitij, 
+                        Ludi co[m]pitalitij, 
                     </marginalia_text>
                 </position>
             </language>
@@ -135,87 +136,91 @@
                 </position>
             </language>
             <translation>
-                
+                Compitalician Games; Liberal games. <!-- FSF: there are also the Liberalia (https://en.wikipedia.org/wiki/Liberalia); I don't think this is what is referred to here -->
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary" anchor_text="propugnacula, mur&iacute;que tranquillitatis atque otii">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        propugnacula muri ] tra[n]q[ui]llitates otij
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Bulwarks, walls, calm, leisure.
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary" anchor_text="seueritas Ce[n]soria">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        seueritas Censoria
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                The censorial strictness.
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary" anchor_text="naufragiis ciuitatis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        naufragia ciuitatis
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                The shipqreck of a state.
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary" anchor_text="annos legem Heliam &amp; Fusia[m] tenueramus, quadrigentos iudicium ration&eacute;mque Censoriam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        Anni helie &amp; fusie lege iudijcij&apos;q[ue] Censorij
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                The years in the law of Aelius and Fufius and the judgement of the censor.
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
+        <underline method="pen" type="straight" language="LA" text="Ego L. Catilinam"/>
+        <underline method="pen" type="straight" language="LA" text="intenta iugulis ciuitatis de coniuratorum"/>
+        <underline method="pen" type="straight" language="LA" text="ciuican coronam"/>
+        <underline method="pen" type="straight" language="LA" text="vt nemo, nisi qui mecum esset, ciuium esse in numero videretur"/>
+        <underline method="pen" type="straight" language="LA" text="ludi Compitalitii"/>
+        <underline method="pen" type="straight" language="LA" text="facio iniuriam fortissimo viro mortuo, qui illum, cuius paucos pares haec ciuitas tulit, cum hac importuna bellua conferam"/>
+        <underline method="pen" type="straight" language="LA" text="impurum, atque no[n] modo facie"/>
+        <underline method="pen" type="double" language="LA" text="sed etiam oculo tuo dignissimum"/>
+        <underline method="pen" type="straight" language="LA" text="ex omni faece vrbis, ac seruitio"/>
+        <underline method="pen" type="straight" language="LA" text="stupris inauditis, nefari&iacute;sque versato, vetus illa magistra pudoris &amp; modestiae seueritas Ce[n]soria"/>
+        <underline method="pen" type="straight" language="LA" text="tantis in naufragiis ciuitatis"/>
+        <underline method="pen" type="straight" language="LA" text="vtrum ipse perniciosis legibus, improbis concionibus Remp. vexet, an alios vexare patiatur. An"/>
+        <underline method="pen" type="straight" language="LA" text="centum prop&egrave; annos legem Heliam &amp; Fusia[m] tenueramus, quadringentos"/>
         
-        <marginalia hand="English_secretary">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
+        <mark name="slash" method="pen" place="right_margin"/>
+        <mark name="slash" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/>
+        
+        <numeral place="right_margin">21</numeral>
+        <numeral place="right_margin">8</numeral>
+        <numeral place="right_margin">13</numeral>
+        <numeral place="right_margin">21</numeral>
+        <numeral place="right_margin">21</numeral>
+        <numeral place="right_margin">21</numeral>
+        <numeral place="right_margin">21</numeral>
+        <numeral place="right_margin">18</numeral>
+        
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
         
     </annotation>
 </transcription>
