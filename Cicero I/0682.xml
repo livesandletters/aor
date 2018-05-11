@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0682.tif" reader="John Dee" pagination="6"/>
+    <page filename="0682.tif" reader="John Dee" pagination="6" signature="[A.iii.[v]]"/>
     <annotation> 
         
-        <marginalia hand="Italian" anchor_text="reductio regis">
+        <marginalia hand="Italian" anchor_text="reductio">
             <language ident="LA"> 
                 <position place="head" book_orientation="0">
                     <marginalia_text>% reductio</marginalia_text> 
+                    <!-- FSF: I don't think this is a %; I think it is a marker leading the reader to the same sign at the bottom of the page. since you have tagged it as an est sign, I would do the same here, so no %, but an est sign in the mark section below -->
                 </position>
             </language>
             <translation>Leading away.</translation> 
@@ -28,7 +28,7 @@
         <marginalia hand="Italian" anchor_text="Caniniano">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>* Catoniano.</marginalia_text>
+                    <marginalia_text>Catoniano.</marginalia_text>
                 </position>
             </language>
             <translation>Catonian.</translation> <!--NBW: This is another misidentification: unsure which, if any, person tags to add--> <!--JG: Text refers to Lucius Caninius Gallus, but because of the misidentification, I wouldn't tag a person-->
@@ -37,7 +37,7 @@
         <marginalia hand="Italian" anchor_text="Ciliciam">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Cilicia.</marginalia_text>
+                    <marginalia_text>Cilicia</marginalia_text>
                     <location name="Cilicia"/>
                 </position>
             </language>
@@ -85,7 +85,7 @@
         <marginalia hand="Italian" anchor_text="offensionem esse periculosam">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Offensio p[er]iculosa[m].</marginalia_text>
+                    <marginalia_text>offensio p[er]iculosa</marginalia_text>
                 </position>
             </language>
             <translation>A dangerous offense.</translation> 
@@ -132,7 +132,7 @@
         <marginalia hand="Italian">
             <language ident="LA"> 
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>assequi. consequi. efficere.</marginalia_text>
+                    <marginalia_text>a&sharp-S;equi. consequi. efficere.</marginalia_text>
                 </position>
             </language>
             <translation>To achieve, to pursue, to bring about.</translation> 
@@ -160,6 +160,7 @@
         <underline method="pen" type="straight" language="LA" text="quos fouendo in co[m]muni causa retinere potuerunt, inuidendo abalienarunt:"/>
         <underline method="pen" type="straight" language="LA" text="maleuolentissimis obtrectationibus nos"/> <!-- NBW: poss. referent for the "supra," on 0687 -->
         
+        <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Asterisk" place="intext" language="LA" text="Caniniano"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Asterisk" place="left_margin" language="LA" text="Catoniano"/>
@@ -168,13 +169,14 @@
         <symbol name="Jupiter" place="left_margin"/> <!-- NBW: w/flourish -->
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="est_mark" method="pen" place="left_margin" language="LA" text="reductio regis"/>
+        <mark name="est_mark" method="pen" place="left_margin" language="LA" text="reductio regis"/> <!-- FSF: add an est mark as indicated above --> 
+        <!-- FSF: I think there is also a tripunctus above the Ptolemais -->
         
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">21</numeral>
         
-         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="face aut tace"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="face aut tace"/>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Offensio p[er]iculosa"/>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Incredibilis ho[m]i[nu]m p[er]u[er]sitas"/>
         
