@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0659.tif" reader="John Dee" pagination="631" signature="rrr.iiii.[r]"/>
+    <page filename="0659.tif" reader="John Dee" pagination="631" signature="rrr.iiii."/>
     <annotation>
         
         <marginalia hand="Italian">
@@ -28,7 +27,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Contentio [..]</marginalia_text> <!--JG: Not sure about word after 'contentio'-->
+                    <marginalia_text>Contentio [..]</marginalia_text> <!--JG: Not sure about word after 'contentio'--> <!-- FSF: I think it is some sort of florilegium -->
                 </position>
             </language>
             <translation>Struggle.</translation>
@@ -37,7 +36,7 @@
         <marginalia hand="Italian" anchor_text="precariu[m] fecerit quaestum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>precariu[m] qu[a]estu[m] facere</marginalia_text>
+                    <marginalia_text>pr[a]ecariu[m] qu[a]estu[m] facere</marginalia_text>
                 </position>
             </language>
             <translation>To make a precarious gain.</translation>
@@ -55,11 +54,18 @@
         <underline method="pen" type="straight" language="LA" text="verissime memoria propagata"/>
         <underline method="pen" type="straight" language="LA" text="Liceat semel impune peccare: sit"/>
         <underline method="pen" type="straight" language="LA" text="quia dignitate domini minus turpis est fortuna serui. In duobus autem malis cum fugiendum maius sit, leuius est eligendum"/>
-        <underline method="pen" type="straight" language="LA" text="nostrorum sepultae reliquiae sapiunt, si non un&agrave; cum corpore sensus omnis vno atque eodem consumptus est igni: quid illis interrogantibus, quid"/>
+        <underline method="pen" type="straight" language="LA" text="nostrorum sepultae reliquiae sapiunt, si non vn&agrave; cum corpore sensus omnis vno atque eodem consumptus est igni: quid illis interrogantibus, quid"/>
         <underline method="pen" type="straight" language="LA" text="in dotali"/>
         <underline method="pen" type="straight" language="LA" text="si viuus ista subterfugere non potero, vn&agrave; cum istis vitam simul fugere"/>
         
-        <drawing type="florilegium" book_orientation="0" place="head" method="pen"/> <!--JG: Variant?-->
+        <mark name="tripunctus" method="pen" place="head"/> <!-- with tail -->
+        <mark name="tripunctus" method="pen" place="right_margin"/> <!-- with tail -->
+        
+        <numeral place="right_margin">21</numeral>
+        <numeral place="right_margin">21</numeral>
+        <numeral place="right_margin">21</numeral>
+        
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen"/> <!--JG: Variant?--> <!-- FSF: I'd say that this is just some sort of bracket, whereas the other one is a florilegium -->
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!--JG: Variant?-->
         
     </annotation>
