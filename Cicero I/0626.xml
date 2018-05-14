@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0626.tif" reader="John Dee" pagination="598" signature="[ppp.iii[v]]"/>
+    <page filename="0626.tif" reader="John Dee" pagination="598" signature="[ppp.iii.[v]]"/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="laete atque insolenter tulit">
@@ -25,10 +24,10 @@
             <translation>To concern the memory of posterity.</translation>
         </marginalia> 
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="quin honore[m] mortuo, cui iniuria[m] viuo fecimus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>facere honore[m]</marginalia_text>
+                    <marginalia_text>facere honore[m].</marginalia_text>
                 </position>
             </language>
             <translation>To bestow honour.</translation>
@@ -46,7 +45,7 @@
         <marginalia hand="Italian" anchor_text="exequi ma[n]data">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>exeq[u]i mandata</marginalia_text>
+                    <marginalia_text>exeq[ui] mandata</marginalia_text>
                 </position>
             </language>
             <translation>To follow orders.</translation>
@@ -67,7 +66,7 @@
                     <marginalia_text>inobscurare</marginalia_text>
                 </position>
             </language>
-            <translation>To reveal.</translation> <!--JG: Unsure-->
+            <translation>To reveal.</translation> <!--JG: Unsure--> <!-- FSF: makes sense, but not sure -->
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="iuris co[n]sultus">
@@ -91,7 +90,7 @@
         <marginalia hand="Italian" anchor_text="pietas filii">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Filij Pietas</marginalia_text>
+                    <marginalia_text>Filij Pietas.</marginalia_text>
                 </position>
             </language>
             <translation>The son's piety.</translation>
@@ -110,7 +109,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Ser. Sulpitius</marginalia_text> 
-                    <person name="Servius Sulpicius Rufus"/><!--JG: Unsure-->
+                    <person name="Servius Sulpicius Rufus"/><!--JG: Unsure--> <!-- FSF: agreed -->
                 </position>
             </language>
             <translation>Servius Sulpicius Rufus.</translation>
@@ -127,7 +126,7 @@
         
         <marginalia hand="Italian" anchor_text="mors Legati sine caede atque ferro nullu[m] honorem desyderat">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="tail" book_orientation="0">
                     <marginalia_text>Mors Legati sine ca[e]de atq[ue] ferro nullu[m] honore[m] desyderat</marginalia_text>
                 </position>
             </language>
@@ -167,7 +166,7 @@
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> <!--JG: Variant? Three dots and a vertical line?-->
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> <!--JG: Variant? Three dots and a vertical line?--> <!-- FSF: to me, these are tripuncti each with a tail; I have tagged them as such -->
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="tail" method="pen"/> <!--JG: Variant? Three dots and a vertical line?-->
         
