@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0630.tif" reader="John Dee" pagination="602"/>
+    <page filename="0630.tif" reader="John Dee" pagination="602" signature="[ppp.v.[v]]"/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="no[n] enim in spiritu vita est, sed ea nulla est omnino seruienti">
@@ -40,18 +39,20 @@
                     <marginalia_text>ecquodnam.</marginalia_text>
                 </position>
             </language>
-            <translation>And to what?</translation> <!--JG: Unsure-->
+            <translation>And to what?</translation> <!--JG: Unsure--> <!-- FSF: not sure either -->
         </marginalia> 
         
         <underline method="pen" type="straight" language="LA" text="longinquitate grauissimi morbi recreatus"/>
         <underline method="pen" type="straight" language="LA" text="co[n]tulit, quoru[m] votis iudicauit se &agrave; morte reuocatum"/>
         <underline method="pen" type="straight" language="LA" text="futuraru[m], aut ad propulsandu[m] metu[m] dilige[n]tior"/>
         <underline method="pen" type="straight" language="LA" text="tamen si essent arrogantes, non possem ferre fastidium"/>
-        <underline method="pen" type="straight" language="LA" text="Sed vt concedam incertos exitus esse belli, Martemque communem, tamen pro libertate, vitae periculo decernendum est. no[n] enim in spiritu vita est, sed ea nulla est omnino seruienti"/>
+        <underline method="pen" type="straight" language="LA" text="Sed vt concedam incertos exitus esse belli, Mart&eacute;mque communem, tamen pro libertate, vitae periculo decernendum est. 
+            no[n] enim in spiritu vita est, sed ea nulla est omnino seruienti"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
         
         <numeral place="left_margin">5</numeral>
         <numeral place="left_margin">18</numeral>
@@ -69,4 +70,3 @@
         
     </annotation>
 </transcription>
-
