@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -19,7 +18,7 @@
         <marginalia hand="Italian" anchor_text="inter bellu[m] &amp; pacem medium nihil est">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Inter bellu[m] &amp; pace[m] nihil est</marginalia_text>
+                    <marginalia_text>&Iuml;nter bellu[m] &amp; pace[m] nihil est</marginalia_text>
                 </position>
             </language>
             <translation>There is nothing between war and peace.</translation>
@@ -58,7 +57,8 @@
                     <marginalia_text>Caphones Saxa[e]</marginalia_text>
                 </position>
             </language>
-            <translation>Boors and stones.</translation> <!--JG: Unsure, pejorative terms or names of people (gens)?-->
+            <translation>Boors and stones.</translation> <!--JG: Unsure, pejorative terms or names of people (gens)?--> 
+            <!-- FSF: considering the Loeb translation (https://www.loebclassics.com/view/marcus_tullius_cicero-philippic_8/2010/pb_LCL507.43.xml?rskey=06klUu&result=1&mainRsKey=r7Wsdh), I think Saxa is thishttps://en.wikipedia.org/wiki/Lucius_Decidius_Saxa -->
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Dii meliora">
@@ -81,10 +81,11 @@
         
         <underline method="pen" type="straight" language="LA" text="tumultu"/>
         <underline method="pen" type="straight" language="LA" text="infirmus ex graui diuturn&oacute;que morbo, nulla[m]"/>
-        <underline method="pen" type="straight" language="LA" text="immortaliu[m] templa, nos muros, nos domilia, sed&eacute;sque Po.Ro. penates, aras, focos, sepulchra maioru[m], nos leges, iur, liberate[m], coniuges, liberos, patria[m] defendimus"/>
-        <underline method="pen" type="straight" language="LA" text="Hasta Caesaris P.C. multis improbis &amp; spem affert &amp; audacia[m]"/>
+        <underline method="pen" type="straight" language="LA" text="immortaliu[m] templa, nos muros, nos domicilia, sed&eacute;sque Po. Ro. penates, aras, focos, sepulchra maioru[m], nos leges, iura, 
+            liberate[m], coniuges, liberos, patria[m] defendimus"/>
+        <underline method="pen" type="straight" language="LA" text="Hasta Caesaris P. C. multis improbis &amp; spem affert &amp; audacia[m]"/>
         <underline method="pen" type="straight" language="LA" text="viderunt enim ex mendicis fieri repe[n]te diuites"/>
-        <underline method="pen" type="straight" language="LA" text="sceleru[m] enim promissio, &amp; iss qui expecta[n]y perniciosa est, &amp; iss qui promittu[n]t"/>
+        <underline method="pen" type="straight" language="LA" text="sceleru[m] enim promissio, &amp; iis qui expecta[n]t perniciosa est, &amp; iis qui promittu[n]t"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
         
@@ -100,6 +101,7 @@
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Vacatio"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Contentio"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
