@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0616.tif" reader="John Dee" pagination="588"/>
+    <page filename="0616.tif" reader="John Dee" pagination="588" signature="[ooo.vii.[v]]"/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="impensam fecerant">
@@ -43,7 +42,7 @@
             <translation>To absorb trouble for a few days.</translation>
         </marginalia> 
         
-        <marginalia hand="Italian" anchor_text="consilio">
+        <marginalia hand="Italian" anchor_text="consilio"> <!-- FSF: I wouldn't tag consilio; there are a couple of things Dee has marked in the text that are more of structural nature, as in this case; they are usually not directly linked to a specific word -->
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Conclusio</marginalia_text>
@@ -52,7 +51,7 @@
             <translation>A conclusion.</translation>
         </marginalia> 
         
-        <marginalia hand="Italian" anchor_text="excubabo vigilaboque">
+        <marginalia hand="Italian" anchor_text="excubabo vigilab&oacute;que">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>excubo vigilo.</marginalia_text>
@@ -72,16 +71,17 @@
         
         <underline method="pen" type="straight" language="LA" text="exercitu Caesaris"/>
         <underline method="pen" type="straight" language="LA" text="Iace[n]t beneficia"/>
-        <underline method="pen" type="straight" language="LA" text="nu[m]mum"/>
+        <underline method="pen" type="straight" language="LA" text="nu[m]m&ucirc;m"/>
         <underline method="pen" type="straight" language="LA" text="paucorum dierum molestiam deuorate"/>
         <underline method="pen" type="straight" language="LA" text="Quamobrem"/>
-        <underline method="pen" type="straight" language="LA" text="qu&agrave;m potero excubab vigilaboque"/>
+        <underline method="pen" type="straight" language="LA" text="qu&agrave;m potero excubab vigilab&oacute;que"/>
         <underline method="pen" type="straight" language="LA" text="sed tamen ita maturum, vt differri iam hora"/>
         <underline method="pen" type="straight" language="LA" text="aliquis fatalis casus, vt ita dicam, quam tulimus: quoquo modo ferendus fuit"/>
         
-        <symbol name="Asterisk" place="left_margin"/>
+        <symbol name="Asterisk" place="left_margin"/> <!-- FSF: I think this is printed -->
         
         <mark name="scribble" method="pen" place="left_margin"/> <!--debant-->
+        <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         
         <numeral place="left_margin">21</numeral>
@@ -91,6 +91,7 @@
         <numeral place="left_margin">22</numeral>
         <numeral place="left_margin">18</numeral>
         <numeral place="left_margin">18</numeral>
+        <numeral place="left_margin">8</numeral>
         <numeral place="left_margin">21</numeral>
         <numeral place="left_margin">18</numeral>
         
@@ -98,4 +99,3 @@
         
     </annotation>
 </transcription>
-
