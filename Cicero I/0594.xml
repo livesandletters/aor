@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0594.tif" reader="John Dee" pagination="566" signature="[nnn.iii[v]]"/>
+    <page filename="0594.tif" reader="John Dee" pagination="566" signature="[nnn.iii.[v]]"/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="risum posset continere">
@@ -19,7 +18,7 @@
         <marginalia hand="Italian" anchor_text="gynaeceo">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Gynoeceu[m]</marginalia_text>
+                    <marginalia_text>Gyno[e]ceu[m]</marginalia_text>
                 </position>
             </language>
             <translation>Women's apartment.</translation>
@@ -37,16 +36,16 @@
         <marginalia hand="Italian" anchor_text="Rex">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Rex</marginalia_text>
+                    <marginalia_text>Rex</marginalia_text> <!-- FSF: I'd say this is lex, possibly relating to the ius that is explained in the text -->
                 </position>
             </language>
             <translation>King.</translation>
         </marginalia> 
         
-        <marginalia hand="Italian" anchor_text="gynaeceo">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>sup[r]a 95</marginalia_text> <!--JG: Not entirely sure-->
+                    <marginalia_text>sup[r]a 95</marginalia_text>
                     <internal_ref>
                         <target ref="RCP10549-50v1:0123" text="96"/>
                     </internal_ref>
@@ -64,10 +63,10 @@
             <translation>Avarice.</translation>
         </marginalia> 
         
-        <marginalia hand="Italian" anchor_text="risus hominu[m] &amp; querelas">
+        <marginalia hand="Italian" anchor_text="risus hominu[m] &amp; querelas moueret">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>risu[m]</marginalia_text>
+                    <marginalia_text>risu[m] mouere</marginalia_text>
                 </position>
             </language>
             <translation>To provoke laughter.</translation>
@@ -83,7 +82,7 @@
         </marginalia> 
         
         <underline method="pen" type="straight" language="LA" text="suo Marte"/>
-        <underline method="pen" type="straight" language="LA" text="ea Turammos omterfectos. oo. qiobis ere[ta essemt. reci[erare[n]t"/>
+        <underline method="pen" type="straight" language="LA" text="ea Turammos interfectis, ii, quibis erepta essent, recuperare[n]t"/>
         <underline method="pen" type="straight" language="LA" text="Quid ego de co[m]mentariis"/>
         <underline method="pen" type="straight" language="LA" text="fulmen sinitru[m]"/>
         
@@ -95,7 +94,7 @@
         <numeral place="left_margin">13</numeral>
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Rex"/>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="auaritia"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Auaritia"/>
         
     </annotation>
 </transcription>

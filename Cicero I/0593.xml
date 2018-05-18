@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0593.tif" reader="John Dee" pagination="565" signature="nnn.iii[r]"/>
+    <page filename="0593.tif" reader="John Dee" pagination="565" signature="nnn.iii."/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="de die, sed etiam in die[m] viuere">
@@ -13,7 +12,7 @@
                     <marginalia_text>de die in die[m] viuere</marginalia_text>
                 </position>
             </language>
-            <translation>To live early in the day; to live day after day [Loeb 189, 139].</translation>
+            <translation>To live early in the day; to live day after day [Loeb 189, 139].</translation> <!-- FSF: here are two different translations given -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="timor">
@@ -50,6 +49,8 @@
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">18</numeral>
         <numeral place="right_margin">13</numeral>
+        
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
         
     </annotation>
 </transcription>
