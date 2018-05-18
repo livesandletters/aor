@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0599.tif" reader="John Dee" pagination="571"/>
+    <page filename="0599.tif" reader="John Dee" pagination="571" signature="[nnn.vi.]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="mente concidit">
+        <marginalia hand="Italian" anchor_text="Tarquinio">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Tarquinius melior Antonio</marginalia_text>
@@ -16,6 +15,15 @@
                 </position>
             </language>
             <translation>Lucius Tarquinius Superbus is better than Marc Antony.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="insigniter impude[n]s">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>insigniter impudens</marginalia_text>
+                </position>
+            </language>
+            <translation>Notably impudent.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="nundinaba[n]tur">
@@ -49,9 +57,10 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>flos itali[a]e firmamentu[m] imp[er]ij orname[n]tu[m] dignitat[is]</marginalia_text>
+                    <location name="Italy"/>
                 </position>
             </language>
-            <translation>The flower of Italy, the foundarion of authority and the ornament of dignity.</translation>
+            <translation>The flower of Italy, the foundation of authority and the ornament of dignity.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="fustuariu[m]">
@@ -77,11 +86,11 @@
         <underline method="pen" type="straight" language="LA" text="Postremo Tarquinius pro Pop[ulo] Romano bellum gerebat"/>
         <underline method="pen" type="straight" language="LA" text="Cum aute[m] est omnis seruitus misera, tum ver&ograve; intolerabile est seruire"/>
         <underline method="pen" type="straight" language="LA" text="impudico, effoeminato, nunqua[m] ne in metu quidem sobrio"/>
-        <underline method="pen" type="straight" language="LA" text="priuatum consiliu[m] authoritate publica comprobemus"/>
+        <underline method="pen" type="straight" language="LA" text="priuatum consiliu[m] authoritate publica comprobemus. Nec"/>
         <underline method="pen" type="straight" language="LA" text="Hunc igitur ego Consule[m], hun ciuem"/>
         <underline method="pen" type="straight" language="LA" text="constantia, grauitate prouinciae Galliae taceri potest. est enim ille flos Italiae illud firmamentu[m] imperii Pop[uli] Romani, illud ornamentu[m] dignitatis. Ta[n]tus autem"/>
         <underline method="pen" type="straight" language="LA" text="Quamobrem omnia mea sententia complectar, vobis (vt intelligo) non inuitis"/>
-        <underline method="pen" type="straight" language="LA" text="Primu[m] in Caesarem maledicta coniecit deprompta ex recordatione impudicitiae &amp; stuprorum suorum"/>
+        <underline method="pen" type="straight" language="LA" text="Primu[m] in Caesarem maledicta coniecit deprompta ex recordatione impudicitiae &amp; stuprorum suoru[m]"/>
         <underline method="pen" type="straight" language="LA" text="quis modestior? quid in iuuentute habemus illustrius exemplu[m] veteris sanctitatis? quis autem illo maledico"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
