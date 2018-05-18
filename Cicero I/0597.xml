@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0597.tif" reader="John Dee" pagination="569"/>
+    <page filename="0597.tif" reader="John Dee" pagination="569" signature="[nnn.v.]"/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="nu[m]matione">
@@ -52,7 +51,7 @@
             <translation>Servitude.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="malis, quae ab illo Reip. sunt inusta">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>inurere malu[m]</marginalia_text>
@@ -82,7 +81,7 @@
         <marginalia hand="Italian" anchor_text="repraesentari">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>repr[ae]sentari</marginalia_text>
+                    <marginalia_text>rep[rae]sentari</marginalia_text>
                 </position>
             </language>
             <translation>To be represented.</translation>
@@ -91,7 +90,7 @@
         <marginalia hand="Italian" anchor_text="instructum &amp; paratum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>instructus paratus</marginalia_text>
+                    <marginalia_text>instructus paratus.</marginalia_text>
                 </position>
             </language>
             <translation>Equipped and ready.</translation>
@@ -100,7 +99,7 @@
         <marginalia hand="Italian" anchor_text="dilatio te[m]poris">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>dilatio te[m]poris</marginalia_text>
+                    <marginalia_text>dilatio te[m]poris.</marginalia_text>
                 </position>
             </language>
             <translation>The delay of time.</translation>
@@ -127,7 +126,7 @@
         <underline method="pen" type="straight" language="LA" text="immortalitate[m] non arbitor conte[m]nenda[m]"/>
         <underline method="pen" type="straight" language="LA" text="vt quidam morbo"/>
         <underline method="pen" type="straight" language="LA" text="&amp; sensus stupore, sauuitate[m] cibi non sentiu[n]t: sic libidinosi, auari, facinorosi, verae laudis gustum non habent"/>
-        <underline method="pen" type="straight" language="LA" text="cogitauerat, effecerat: muneribus, monime[n]tis, congiariis, epulis, multitudine imperita[m] linierat: suos praemiss aduersarios clementiae specie deuinxerat. quid"/>
+        <underline method="pen" type="straight" language="LA" text="cogitauerat, effecerat: muneribus, monime[n]tis, congiariis, epulis, multitudine imperita[m] lenierat: suos praemiis aduersarios clementiae specie deuinxerat. quid"/>
         <underline method="pen" type="straight" language="LA" text="consuetudinem seruiendi"/>
         <underline method="pen" type="straight" language="LA" text="viris fortibus didicisse, qu&agrave;m sit pulchru[m], beneficio gratum, fama gloriosum Tyrannum occidere"/> 
         <underline method="pen" type="straight" language="LA" text="nec occasionis"/>
@@ -137,6 +136,7 @@
         <underline method="pen" type="straight" language="LA" text="tamen breue tempus longu[m] est imparatis"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="tripunctus" method="pen" place="right_margin"/>
         
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">18</numeral>
