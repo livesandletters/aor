@@ -6,16 +6,31 @@
     <page filename="0028.tif" reader="John Dee" pagination="4" signature="[aa.ii.[v]]"/>
     <annotation> 
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="erat ei pecuaria res ampla">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        erat ei 
+                        erat ei pecuaria res ampla. <!--JG: Or 'aes'?-->
                     </marginalia_text>
                 </position>
             </language>
+            <language ident="EN">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>he had grete store of cattelle.</marginalia_text>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>facere qu[a]estu[m].</marginalia_text>
+                </position>
+            </language>
+            <language ident="EN">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>to gayne.</marginalia_text>
+                </position>
+            </language>
             <translation>
-                
+                'Erat ei pecuaria res ampla' [Loeb 240, 19]. To make a profit.
             </translation>
         </marginalia>
         
@@ -62,12 +77,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        facere socratem adiu[n]gere sociu[m] familiarit vinere societate[m] esse
+                        facere societatem. adiu[n]gere sociu[m]. familiar... vinere. societate[m] esse. <!-- JG: Familiare[m]? -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                To create a society. To support an ally. To come [...]. To be an alliance.
             </translation>
         </marginalia>
         
@@ -101,7 +116,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Al[iu]s p[ar]donu[m]
+                        Al[iu]s p[ar]donu[m] <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -116,10 +131,11 @@
                     <marginalia_text>
                         Trans alpes vsq[ue]
                     </marginalia_text>
+                    <location name="Alps"/>
                 </position>
             </language>
             <translation>
-                
+                Across the Alps to.
             </translation>
         </marginalia>
         
@@ -127,12 +143,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Arbitrium &amp;c debet hic erit maioribus scribi quonia[m] cui[us]da[m] legis de societate caput est <!-- FSF: not sure about transcription -->
+                        Arbitrium &amp;c debet literis maioribus scribi quonia[m] cui[us]da[m] legis de societate caput est
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                An arbitrator should be written to because he is the head of a society of this law. 
+                A judgement should be written by greater accounts because he is the head of a certain law about a society. <!--JG: Unsure-->
             </translation>
         </marginalia>
         
@@ -153,12 +169,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        vu.periu[m] <!-- FSF: not sure -->
+                        vitperiu[m].
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Finding fault with.
             </translation>
         </marginalia>
         
@@ -560,16 +576,21 @@
         </marginalia>
         
         <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
+            <language ident="EN">
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        r[ati]o ante an ... coste or thorye <!-- FSF: no idea -->
+                        w[i]t[h] oute any 
+                    </marginalia_text>
+                </position>
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>expense or coste or</marginalia_text>
+                </position>
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        or charge 
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
