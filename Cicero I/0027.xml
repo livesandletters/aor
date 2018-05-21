@@ -6,16 +6,16 @@
     <page filename="0027.tif" reader="John Dee" pagination="3" signature="aa.ii."/>
     <annotation> 
         
-        <marginalia hand="Italian" anchor_text="quaru[m] alteram C. Aquili vereor, alteram metuo. [...] pertimesco">
+        <marginalia hand="Italian" anchor_text="quaru[m] alteram C. Aquili vereor, alteram metuo; pertimesco">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        vereor metuo [deleted] pertimesco
+                        vereor metuo [perhorresco - deleted] pertimesco
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                I am apprehensive, I dread, I am greatly afraid.
+                I am apprehensive, I dread, [I tremble greaty - deleted], I am greatly afraid.
             </translation>
         </marginalia>
         
@@ -80,7 +80,7 @@
                 </position>
             </language>
             <translation>
-                Ratiocination
+                Reasoning.
             </translation>
         </marginalia>
         
@@ -93,7 +93,7 @@
                 </position>
             </language>
             <translation>
-                Correction
+                Correction.
             </translation>
         </marginalia>
         
@@ -193,7 +193,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        beneuolentia[m] Iudicis sibi co[n]ciliat a sua &amp; eu[n]tij Persona. <!-- FSF: not sure about second last word -->
+                        beneuolentia[m] Iudicis sibi co[n]ciliat a sua &amp; eu[n]tij Persona. <!-- FSF: not sure about second last word --> !<!-- JG: Can't figure this out either-->
                     </marginalia_text>
                 </position>
             </language>
@@ -206,13 +206,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Annos eu[m] 26 natus cu[m] ha[n]c ca[usa]m egit erat Cicero
+                        Annos eni[m] 26 natus cu[m] ha[n]c ca[usa]m egit erat Cicero
                     </marginalia_text>
                     <person name="Cicero"/>
                 </position>
             </language>
             <translation>
-                When this cause happened, Cicero was 26 years old.
+                For this cause happened, Cicero was 26 years old.
             </translation>
         </marginalia>
         
@@ -234,12 +234,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        M Iunius <!-- FSF: not sure who he is; possibly Marcus Junius Brutus the Younger -->
+                        M Iunius 
                     </marginalia_text>
+                    <person name="Marcus Junius Brutus the Younger"/>
                 </position>
             </language>
             <translation>
-                
+                Marcus Junius
             </translation>
         </marginalia>
         
@@ -247,7 +248,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Actionis iufirmitate[m] Cur auget p[ro]pterea quod no[n] satis caussa[m] teneat nec si teneret temporis satis dadint <!-- FSF: not so sure about Cur; possibly a name and subject of the sentence? not sure about the end either-->
+                        Actionis infirmitate[m] Cur auget p[ro]pterea quod no[n] satis caussa[m] teneat nec si teneret temporis satis dadint <!-- FSF: not so sure about Cur; possibly a name and subject of the sentence? not sure about the end either--> <!--JG: Could it be 'Cice', shortened version of Cicerone? Not sure about last word either. Datur perhaps?-->
                     </marginalia_text>
                 </position>
             </language>
@@ -343,7 +344,7 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure -->
+                He attracts benevolence from the personality of the judges themselves by raising their justice.
             </translation>
         </marginalia>
         
@@ -351,7 +352,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Caussae magnitudo ac p[er]iculu[m]
+                        Caussa[e] magnitudo ac p[er]iculu[m]
                     </marginalia_text>
                 </position>
             </language>
@@ -364,12 +365,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        venire in mentem ac <!-- FSF: not sure about ac -->
+                        venire in mentem se
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                To go into the mind. 
+                To go into the mind itself. 
             </translation>
         </marginalia>
         
@@ -377,19 +378,18 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        verbo [deleted]
+                        verbo [by name - deleted] ab [nevio] <!--JG: nevio since nevium is mentioned in the text?-->
                     </marginalia_text>
                 </position>
             </language>
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        as folke thinke, or at the say or only at new sup.. <!-- FSF: not sure -->
+                        as folke thinke, or as the say. or only as mey supp[ose] <!-- FSF & JG: not sure -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
             </translation>
         </marginalia>
         
@@ -429,7 +429,7 @@
                 </position>
             </language>
             <translation>
-                In Hortensius, the greatest number and faculty of speaking is bountifully given by nature.
+                In Hortensius, 'nature has lavishly bestowed a wealth of language and the greatest eloquence' [Loeb 240, 15].
             </translation>
         </marginalia>
         
@@ -515,12 +515,12 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Iusrutanor[um] primo hoc affirmat
+                        tusculanor[um] primo hoc affirmat
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                This is first affirmed of the Tuscans.
             </translation>
         </marginalia>
         
@@ -528,12 +528,12 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        [id est] oratore vel s[cilicet] cum aliquijs remissis
+                        [id est] oratore vel s[cilicet] cum alijs caussis
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                That is, with the orator or certainly with others that were sent back. <!-- FSF: not sure -->
+                That is, with the orator or certainly in other sources.
             </translation>
         </marginalia>
         
@@ -577,7 +577,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        I hou ... pauepercet <!-- FSF: not sure even about the language -->
+                        I hou ... pauepercet <!-- FSF: not sure even about the language --> <!--JG: Could it be 'homines tenues & pa.eperes'?-->
                     </marginalia_text>
                 </position>
             </language>
@@ -589,6 +589,7 @@
         <underline method="pen" type="straight" language="LA" text="hae co[n]tra nos ambae faciunt"/>
         <underline method="pen" type="straight" language="LA" text="in hoc tempore"/>
         <underline method="pen" type="straight" language="LA" text="vereor"/>
+        <underline method="pen" type="straight" language="LA" text="metuo"/>
         <underline method="pen" type="straight" language="LA" text="nonnihil comoueor"/>
         <underline method="pen" type="straight" language="LA" text="no[n] mediocriter pertimesco"/>
         <underline method="pen" type="straight" language="LA" text="qui neque vsu satis &amp; ingenio parum possum"/>
@@ -596,8 +597,8 @@
         <underline method="pen" type="straight" language="LA" text="&amp; in aliis causis exercitatus, &amp; in hac multum &amp; saepe versatus"/>
         <underline method="pen" type="straight" language="LA" text="qui vt summa haberem caetera, te[m]poris"/>
         <underline method="pen" type="straight" language="LA" text="tot controuersiis implicatam"/>
-        <underline method="pen" type="straight" language="LA" text="ita, quod mihi consueuit incaeteris causis esse adiume[n]to, id quoque in hac causa"/>
-        <underline method="pen" type="straight" language="LA" text="subsidio mhi diligentiam comparaui"/>
+        <underline method="pen" type="straight" language="LA" text="ita, quod mihi consueuit in caeteris causis esse adiume[n]to, id quoque in hac causa"/>
+        <underline method="pen" type="straight" language="LA" text="subsidio mihi diligentiam comparaui"/>
         <underline method="pen" type="straight" language="LA" text="vt multis incommodis veritas debilitata, tandem aequitate talium virorum recreetur"/>
         <underline method="pen" type="straight" language="LA" text="ex opibus, non ex veritate causa pendetur"/>
         <underline method="pen" type="straight" language="LA" text="Certe aut apud te &amp; eos qui tibi adsunt, veritas valebit: aut ex hoc loco repulsa vi &amp; gratia, locum vbi consistat, reperire non poterit"/>
@@ -625,8 +626,8 @@
         <underline method="pen" type="straight" language="LA" text="Neuii studio &amp; cupiditati more[m] gerunt"/>
 
         <symbol name="Jupiter" place="left_margin"/>
-        <symbol name="Jupiter" place="intext"/>
-        <symbol name="Jupiter" place="intext"/>
+        <symbol name="Jupiter" place="intext" language="LA" text="ver&ograve;"/>
+        <symbol name="Jupiter" place="intext" language="LA" text="vsu"/>
         <symbol name="Jupiter" place="intext"/>
         <symbol name="Phi" place="right_margin"/>
         <symbol name="Phi" place="right_margin"/>
