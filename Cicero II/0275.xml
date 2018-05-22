@@ -33,7 +33,7 @@
         <marginalia hand="Italian" anchor_text="Si defessi erunt audie[n]do">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>&Jupiter; Si defessi auditores.</marginalia_text>
+                    <marginalia_text>Si defessi auditores.</marginalia_text> <!-- NBW: the 'jupiter' that was here looks more like a '21' Added to number below -->
                 </position>
             </language>
             <translation>If the listeners are weary.</translation>
@@ -136,7 +136,7 @@
                     <marginalia_text>Ei[us] quod est in negocijs partes treis</marginalia_text>
                 </position>
             </language>
-            <translation>Three parts of that which concerns facts.</translation>     <!-- DO: Not sure about translation; also 'negotiis' makes more sense but looks like 'negociis' to me? -->
+            <translation>Three parts of that [statement] which concerns deeds.</translation>     <!-- DO: Not sure about translation; also 'negotiis' makes more sense but looks like 'negociis' to me? NBW: Suggested 'deeds' for the classical opposition between leisure and activity. negociis is fine-->
         </marginalia>
         
         
@@ -202,6 +202,7 @@
         
         <mark name="double_vertical_bar" method="pen" place="right_margin"/>
         
+        <numeral place="right_margin">21.</numeral>
         
         <numeral place="right_margin">13</numeral>
         
