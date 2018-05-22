@@ -10,7 +10,7 @@
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        ... and fall of ....
+                        [craty] and fall of [d..eyte], wilye <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -59,12 +59,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Coargunt Neviu[m] a ...
+                        Coarguit Neviu[m] a tempore &amp; loco
                     </marginalia_text>
+                    <person name="Nevius"/>
                 </position>
             </language>
             <translation>
-                
+                He refutes Nevius by time and place.
             </translation>
         </marginalia>
         
@@ -86,12 +87,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        F[ami]l[iare]s [prosecuti su[n]t
+                        Al[ia]s [prosecuti su[n]t
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                They prosecuted acquaintances.
+                Elsewhere: they prosecuted.
             </translation>
         </marginalia>
         
@@ -99,12 +100,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Quonia[m] causa[m] porata aut in ip[s]is caussis interrogavantur teste <!-- FSF: not sure -->
+                        Quonia[m] causa[m] porata aut in ip[s]is caussis interrogavantur testes <!--JG: Unsure abt 'porata'-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Since the lawsuits is [...] or the witnesses were questioned by those cases.
             </translation>
         </marginalia>
         
@@ -112,12 +113,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Indignatio p[er] querela[m] a Rortuna Quintij
+                        Indignatio p[er] querela[m] a fortuna Quintij
                     </marginalia_text>
+                    <person name="Publius Quinctius"/>
                 </position>
             </language>
             <translation>
-                
+                Indignation through the quarrel by Quinctius' fortune.
             </translation>
         </marginalia>
         
@@ -138,12 +140,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        I Qui[n]tij vit[a]e R[ati]o
+                        P Qui[n]tij vit[a]e R[ati]o
                     </marginalia_text>
+                    <person name="Publius Quinctius"/>
                 </position>
             </language>
             <translation>
-                
+                The reason for Publius Quinctius' life.
             </translation>
         </marginalia>
         
@@ -151,12 +154,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        dumtaxeat vsq[ue] &egrave;o.
+                        dumtaxat vsq[ue] &egrave;o.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Only so far [Loeb 240, 67].
             </translation>
         </marginalia>
         
@@ -177,12 +180,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Secunda Diuisio[n]is pars ... tractatur
+                        Secunda Diuisio[n]is pars nu[n]c tractatur <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                The second part of the division is now treated.
             </translation>
         </marginalia>
         
@@ -190,10 +193,11 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        [deleted]
+                        [que[m]qu[am] diuinare - deleted]
                     </marginalia_text>
                 </position>
             </language>
+            <translation>To divine whatever.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="procuratoris dilige[n]tis officium">
@@ -291,12 +295,12 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        iura <!-- FSF: not sure -->
+                        mea 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                My.
             </translation>
         </marginalia>
         
@@ -317,12 +321,12 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        [id est] ephemenis <!-- FSF: not sure -->
+                        [id est] ephemeris
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                That is, a journal.
             </translation>
         </marginalia>
         
@@ -345,12 +349,12 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        ... die[m] p[ro]fertionius
+                        [Id est] die[m] p[er]fectionis
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                That is, the day of perfection.
             </translation>
         </marginalia>
         
@@ -358,7 +362,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        semia
+                        semia <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -391,13 +395,10 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        no oute any plea&sharp-S;e
+                        w[i]t[h] oute any pleasor
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -411,23 +412,20 @@
         </marginalia>
         
         <marginalia hand="Italian">
-            <language ident="LA">
+            <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        of fra... <!-- FSF: no idea -->
+                        of drasapoytmene <!-- FSF: no idea -->
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        this was the first pleante of his super
+                        w[hi]ch was the first paynte of his super
                     </marginalia_text>
                 </position>
             </language>
@@ -443,6 +441,46 @@
             </language>
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="postulabas">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        C
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="recusabat">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        N
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Praetor">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        N
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="igitur">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        C
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
         <underline method="pen" type="straight" language="LA" text="vereor mehercule ne aut grauioribus vtar verbis qu&agrave;m natura fert, aut leuioribus qu&agrave;m causa postulat"/>
         <underline method="pen" type="straight" language="LA" text="in memoriam rediit"/>
         <underline method="pen" type="straight" language="LA" text="Vixit enim semper inculte atque horride, natura tristi ac recondita fuit, non ad solarium, non in campo, no[n] in conuiuiis versatus est: 
@@ -452,7 +490,7 @@
         <underline method="pen" type="straight" language="LA" text="fama, fortun&iacute;sque omnibus Sext. Neuii cupiditati crudelitat&iacute;que dedatur"/>
         <underline method="pen" type="straight" language="LA" text="quisquam diuinare poterat te"/>
         <underline method="pen" type="straight" language="LA" text="quenquam attinebat"/>
-        <underline method="pen" type="straight" language="LA" text="Hominem P. QUintii deprehe[n]dis in publico"/>
+        <underline method="pen" type="straight" language="LA" text="Hominem P. Quintii deprehe[n]dis in publico"/>
         <underline method="pen" type="straight" language="LA" text="iudicium postulas"/>
         <underline method="pen" type="straight" language="LA" text="hominem egetem, litigiosum, improbum, qui posset scurrae diuitis quotidianu[m]"/>
         <underline method="pen" type="straight" language="LA" text="locuples, sui negocii bene gere[n]s"/>
@@ -460,7 +498,6 @@
         <underline method="pen" type="straight" language="LA" text="edebat"/>
         
         <symbol name="Asterisk" place="left_margin"/>
-        <!-- FSF: arrow up -->
         <!-- FSF: unknown I -->
         <symbol name="Bisected_circle" place="left_margin"/>
         <symbol name="Bisected_circle" place="left_margin"/>
@@ -475,6 +512,7 @@
         <symbol name="Asterisk" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
         
+        <mark name="arrow" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
@@ -484,11 +522,9 @@
         
         <numeral place="left_margin">12</numeral>
 
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <!-- FSF: cross -->
-        <!-- FSF: cross -->
-        
-        <!-- FSF: towards the end of the page there are the letter N and c written in the text, but more like marks or so -->
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
    
     </annotation>
 </transcription>
