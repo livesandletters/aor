@@ -142,12 +142,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Extra hos Cancellos egredi circundare cancellos
+                        Extra hos Cancellos egredi. Circundare cancellos.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                To go beyond those barriers, to surround by barriers.
+                To go beyond those barriers. To surround by barriers.
             </translation>
         </marginalia>
         
@@ -246,7 +246,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Ironia <!-- FSF: the words starts with a capital I umlaut -->
+                        &Iuml;ronia 
                     </marginalia_text>
                 </position>
             </language>
@@ -376,7 +376,7 @@
         <underline method="pen" type="straight" language="LA" text="haec tria cum docuero"/>
         <underline method="pen" type="straight" language="LA" text="annu[m] &amp; eo diutius"/>
         <underline method="pen" type="straight" language="LA" text="nescio qua[m] innumerabilem pecunia[m]"/>
-        <underline method="pen" type="straight" language="LA" text="me[n]tionem"/>
+        <underline method="pen" type="straight" language="LA" text="me[n]tionem fecisse"/>
         <underline method="pen" type="straight" language="LA" text="grandem pecuniam"/>
         <underline method="pen" type="straight" language="LA" text="quis"/>
         <underline method="pen" type="straight" language="LA" text="dissolutus in re familiari fuisset"/>
@@ -393,7 +393,7 @@
         <underline method="pen" type="straight" language="LA" text="homo timidus, virginali verecu[n]dia"/>
         <underline method="pen" type="straight" language="LA" text="id erat profecto"/>
         <underline method="pen" type="straight" language="LA" text="Neuiu[m], cuius caput oppugnet, eius auribus pepercisse"/>
-        <underline method="pen" type="straight" language="LA" text="ann vertente sine controuersia"/>
+        <underline method="pen" type="straight" language="LA" text="anno vertente sine controuersia"/>
         <underline method="pen" type="straight" language="LA" text="verbu[m] nullum facis"/>
         <underline method="pen" type="straight" language="LA" text="quis tam perditus ac profusus nepos, no[n] adesa iam"/>
         <underline method="pen" type="straight" language="LA" text="cu[m] homine[m] nomino, satis mihi videor"/>
@@ -422,7 +422,7 @@
         <symbol name="Phi" place="right_margin"/>
         <symbol name="Bisected_circle" place="right_margin"/>
         <symbol name="Phi" place="right_margin"/>
-        <symbol name="Asterisk" place="intext"/>
+        <symbol name="Asterisk" place="intext" language="LA" text="ca[n]cellos"/>
         <symbol name="Asterisk" place="intext"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Asterisk" place="intext"/>
@@ -431,13 +431,19 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="arrow" method="pen" place="right_margin"/>
+        <mark name="arrow" method="pen" place="right_margin"/>
+        <mark name="arrow" method="pen" place="right_margin"/>
+        <mark name="arrow" method="pen" place="right_margin"/>
+        
         <mark name="bracket" method="pen" place="intext"/> <!-- an quod -->
         <mark name="bracket" method="pen" place="intext"/> <!-- dixisti ne -->
         
         <numeral place="right_margin">21</numeral>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="&Iuml;ronia"/>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
         <!-- FSF: there are four crosses next to Repititio in the right margin; there are also a couple of arrows -->
         
