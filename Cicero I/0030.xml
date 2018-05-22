@@ -36,12 +36,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        vitup.
+                        vitup[erium].
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Criticism.
             </translation>
         </marginalia>
         
@@ -49,7 +49,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        suagerat
+                        suagerat <!--JG: Snatcher.. ?-->
                     </marginalia_text>
                 </position>
             </language>
@@ -67,7 +67,7 @@
                 </position>
             </language>
             <translation>
-                He is claiming that from one.
+                'In that he was claiming from one' [Loeb 240, 35].
             </translation>
         </marginalia>
         
@@ -75,7 +75,7 @@
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        areveng hat vor...e
+                        areveng hat vor...e <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -90,7 +90,7 @@
                 </position>
             </language>
             <translation>
-                
+                Perhaps 'it was ordered'.
             </translation>
         </marginalia>
         
@@ -288,12 +288,13 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        s[cilicete] Detabotha
+                        s[cilicete] Dolabella <!--JG: Not sure-->
                     </marginalia_text>
+                    <person name="Gnaeus Cornelius Dolabella"/>
                 </position>
             </language>
             <translation>
-                
+                Gnaeus Cornelius Dolabella of course.
             </translation>
         </marginalia>
         
@@ -301,7 +302,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        a novo tul..
+                        a novo tul.. <!--JG: Unsure. Could also be 'a noto tu..'-->
                     </marginalia_text>
                 </position>
             </language>
@@ -324,7 +325,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        [id est[ de tarina + for ...
+                        [id est[ de tarina + for tunis <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -337,7 +338,7 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        sholde depharate 
+                        sholde depharate <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -353,10 +354,10 @@
         <underline method="pen" type="straight" language="LA" text="satisdare iuberet"/>
         <underline method="pen" type="straight" language="LA" text="Decernit. quam aequu[m], nihil dico: vnu[m] hoc dico, nouum: &amp; hoc ipsum tacuisse mallem"/>
         <underline method="pen" type="straight" language="LA" text="sponsionem cum Sex. Neuio facere"/>
-        <underline method="pen" type="straight" language="LA" text="no[n] necesse esse famam alterius in iudiciu[m] veniure"/>
+        <underline method="pen" type="straight" language="LA" text="no[n] necesse esse famam alterius in iudiciu[m] venire"/>
         <underline method="pen" type="straight" language="LA" text="sponsionem porr&ograve; se istiusmodi faceret"/>
         <underline method="pen" type="straight" language="LA" text="solent homine nobiles"/>
-        <underline method="pen" type="straight" language="LA" text="seu rece seu perperam facere coeperunt, ita in vtroque excellunt"/>
+        <underline method="pen" type="straight" language="LA" text="seu recte seu perperam facere coeperunt, ita in vtroque excellunt"/>
         <underline method="pen" type="straight" language="LA" text="vt nemo nostro loco natus assequi posset"/>
         <underline method="pen" type="straight" language="LA" text="aut sponsionem iubet facere"/>
         <underline method="pen" type="straight" language="LA" text="Conturbatus san&egrave; discedit"/>
@@ -373,7 +374,7 @@
         <underline method="pen" type="straight" language="LA" text="nostru[m] ius contra illos obtineremus"/>
         <underline method="pen" type="straight" language="LA" text="ita sine iniuria potentia[m] leuem atque inopem esse arbitrantur"/>
         <underline method="pen" type="straight" language="LA" text="ne dicendo tempus absuma[m]"/>
-        <underline method="pen" type="straight" language="LA" text="nec illud mihi arrogabo, me posse vausam commodius demonstrare, qu&agrave;m antea demonstrata sit: neque tame[n] tam multa"/>
+        <underline method="pen" type="straight" language="LA" text="nec illud mihi arrogabo, me posse causam commodius demonstrare, qu&agrave;m antea demonstrata sit: neque tame[n] tam multa"/>
         <underline method="pen" type="straight" language="LA" text="faciam, propterea qu&ograve;d &amp; ab illo qui ant&egrave; dixit, informata iam causa est: &amp; &agrave; me qui neque excogitare, neque pronu[n]ciare multa possum, 
             breuitas postulatur, quae mihimetipsi amicissima est"/>
         <underline method="pen" type="straight" language="LA" text="totam causae meae dictione[m] certas in partes diuidam"/>
@@ -393,8 +394,8 @@
         <symbol name="Bisected_circle" place="left_margin"/>
         <symbol name="Bisected_circle" place="left_margin"/>
         <symbol name="Phi" place="left_margin"/>
-        <symbol name="Asterisk" place="intext"/>
-        <symbol name="Asterisk" place="intext"/>
+        <symbol name="Asterisk" place="intext" language="LA" text="gladiatore"/>
+        <symbol name="Asterisk" place="intext" language="LA" text="vetulo"/>
         <symbol name="Jupiter" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
@@ -409,10 +410,11 @@
         <mark name="bracket" method="pen" place="intext"/> <!-- est in -->
         <mark name="vertical_bar" method="pen" place="intext"/> <!-- officium part&eacute;sque -->
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="arrow" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="sponsionem porr&ograve; se istiusmodi faceret"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
-        <!-- FSF: again there are new sign, such as arrows in different directions -->
+        <!-- FSF: again there are new signs [unknown symbols], such as arrows in different directions -->
         
     </annotation>
 </transcription>
