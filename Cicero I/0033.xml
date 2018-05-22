@@ -15,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                To lead the funeral alive and seeing. <!-- FSF: not sure about the translation -->
+                To see his funeral 'alive and with his own eyes' [Loeb 240, 57].
             </translation>
         </marginalia>
         
@@ -67,7 +67,7 @@
                 </position>
             </language>
             <translation>
-                The voice of an auctioneer crying to name a price.
+                The voice of an auctioneer crying out to name a price.
             </translation>
         </marginalia>
         
@@ -80,7 +80,7 @@
                 </position>
             </language>
             <translation>
-                It leads in.
+               Elsewhere: is lead in.
             </translation>
         </marginalia>
         
@@ -244,12 +244,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Nunc redit ad id quod p[ri]us p[ro]posuis 29 &amp; ia[m] p[ro]babit vadimoniu[m] no[n] desertum &agrave; quintio fuisse, quonia[m] nullu[m] promissit Quintius
+                        Nunc redit ad id quod p[ri]us p[ro]posuit 27 &amp; ia[m] p[ro]babit vadimoniu[m] no[n] desertum &agrave; quintio fuisse, quonia[m] nullu[m] promissit Quintius
                     </marginalia_text>
+                    <person name="Publius Quinctius"/>
                 </position>
             </language>
             <translation>
-                
+                Now he returned to that which he proposed earlier on the 27th. In addition, he will approved that the appointment had not been deserted by Quinctius, because Quinctius promised none.
             </translation>
         </marginalia>
         
@@ -262,7 +263,7 @@
                 </position>
             </language>
             <translation>
-                by which not to call you.
+                By which not to call you.
             </translation>
         </marginalia>
         
@@ -270,7 +271,7 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        malapect or visaliable <!-- FSF: I can't read it, but I think it is English -->
+                        malapert or insatiable
                     </marginalia_text>
                 </position>
             </language>
@@ -280,10 +281,16 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        postulatio a byd of co[m]playnte <!-- FSF: not sure if this is right -->
+                        postulatio
                     </marginalia_text>
                 </position>
             </language>
+            <language ident="EN">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>a byd of co[m]playnte</marginalia_text>
+                </position>
+            </language>
+            <translation>A petition, a byd of co[m]playnte.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="certe tacite obscur&eacute;que conceditur: cui"/>
@@ -302,14 +309,14 @@
         <underline method="pen" type="straight" language="LA" text="propinqui fortunas funditus euertere"/>
         <underline method="pen" type="straight" language="LA" text="Ego pro te nunc hoc co[n]sulo post tempus in aliena re quod tu in tua re, cum tempus erat"/>
         <underline method="pen" type="straight" language="LA" text="vadimonium mihi non obiit"/>
-        <underline method="pen" type="straight" language="LA" text="Profecto si recte vestram bonitate[m] aque prudentiam cognoui, non multum me fallit, si consulamini, quis sitis respo[n]suri"/>
+        <underline method="pen" type="straight" language="LA" text="Profecto si recte vestram bonitate[m] atque prudentiam cognoui, non multum me fallit, si consulamini, quis sitis respo[n]suri"/>
         <underline method="pen" type="straight" language="LA" text="ludificare videatur"/>
         <underline method="pen" type="straight" language="LA" text="Ridet scilicet nostram ame[n]tiam, qui in"/>
-        <underline method="pen" type="straight" language="LA" text="multo facilius diuitem, quam patrem familias fieri posse"/>
+        <underline method="pen" type="straight" language="LA" text="multo facilius diuitem, quam patremfamilias fieri posse"/>
         <underline method="pen" type="straight" language="LA" text="haec ille si verbis non audet, re quidem vera pal&agrave;m loquitur"/>
         <underline method="pen" type="straight" language="LA" text="bonorum instituto viuere, multa oportet discat atque dediscat, quoru[m] illi aetati vtrunque difficile"/>
         <underline method="pen" type="straight" language="LA" text="tu id tibi arrogas, &amp; concedi postulas, concedamus"/>
-        <underline method="pen" type="straight" language="LA" text="quo te nomine appellemus? improbum?"/>
+        <underline method="pen" type="straight" language="LA" text="quo te nomine appellemus? improbu[m]"/>
         
         <symbol name="Bisected_circle" place="right_margin"/>
         <symbol name="Bisected_circle" place="right_margin"/>
@@ -321,7 +328,7 @@
         <symbol name="Bisected_circle" place="right_margin"/>
         <symbol name="Bisected_circle" place="right_margin"/>
         <symbol name="Bisected_circle" place="right_margin"/>
-        <!-- FSF: arrow down -->
+        
         <symbol name="Bisected_circle" place="right_margin"/>
         <symbol name="Phi" place="right_margin"/>
         <symbol name="Bisected_circle" place="right_margin"/>
@@ -333,7 +340,7 @@
         <symbol name="Bisected_circle" place="right_margin"/>
         <!-- FSF: unknown symbol I -->
         <symbol name="Bisected_circle" place="right_margin"/>
-        <!-- FSF: arrow down -->
+        
         <symbol name="Asterisk" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
@@ -342,12 +349,14 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="arrow" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="arrow" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Funus quid"></drawing>
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
         
     </annotation>
