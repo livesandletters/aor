@@ -182,12 +182,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        [deleted] venem ... molitur serere suspinant
+                        [deleted] veneni cicero molitur serere [suspicione[m]] <!--JG: Unsure-->
                     </marginalia_text>
+                    <person name="Cicero"/>
                 </position>
             </language>
             <translation>
-                
+                Cicero stuggles to bring forth the [mistrust] of the poison.
             </translation>
         </marginalia>
         
@@ -195,12 +196,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Caussa cur heres I Qui[n]ti[us] relinquitur
+                        Caussa cur heres P Qui[n]ti[us] relinquitur
                     </marginalia_text>
+                    <person name="Publius Quinctius"/>
                 </position>
             </language>
             <translation>
-                
+                The reason why the heir, Publius Quinctius, was released.
             </translation>
         </marginalia>
         
@@ -226,7 +228,7 @@
                 </position>
             </language>
             <translation>
-                By these names,
+                By these names.
             </translation>
         </marginalia>
         
@@ -322,7 +324,7 @@
         </marginalia>
         
         <marginalia hand="Italian">
-            <language ident="EN">
+            <language ident="EL">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         <!-- FSF: Greek -->
@@ -369,7 +371,7 @@
                 </position>
             </language>
             <translation>
-                Teasing
+                Teasing.
             </translation>
         </marginalia>
         
@@ -452,10 +454,20 @@
         </marginalia>
         
         <marginalia hand="Italian">
-            <language ident="LA">
+            <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        not p roes tanget or memert or instutio <!-- FSFF: I honestly have no idea -->
+                        not so wel taught or [...] or instructed. <!-- JG: Can't figure out one word -->
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        of a [hoere] and tacthfull husbande <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -465,7 +477,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        of a boere ...
+                        [...ri] or a [scaffer] <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -478,7 +490,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        
+                        som..tes <!-- JG: Unsure -->
                     </marginalia_text>
                 </position>
             </language>
@@ -488,42 +500,13 @@
         </marginalia>
         
         <marginalia hand="Italian">
-            <language ident="LA">
+            <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        fe..ri ora.. ...
+                        a chargeth as a se[...] and a skaffer <!-- JG: Unsure -->
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>
-                        somereste
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>
-                        ...
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -547,29 +530,13 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>
-                        narbouenst we gotti[m] or purha&sharp-S;ere
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        auto the 
+                        narbouenst we gotte[m] or purhased <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -594,23 +561,30 @@
         </marginalia>
         
         <marginalia hand="Italian">
-            <language ident="LA">
+            <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        as ratio ... says
+                        vnto the [...] <!-- JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        of all sort that of hyfe
+                        as ratio shoulde saye
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        of all [that] ande of lyfe <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -620,12 +594,13 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        [id est]
+                        [id est] a P. Qui[n]tio
                     </marginalia_text>
+                    <person name="Publius Quinctius"/>
                 </position>
             </language>
             <translation>
-                
+                That is, by Publius Quinctius.
             </translation>
         </marginalia>
         
@@ -638,7 +613,7 @@
                 </position>
             </language>
             <translation>
-                
+                On account of these indebted things.
             </translation>
         </marginalia>
         
@@ -646,12 +621,12 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        co[n]f... rogi
+                        co[n]fici cogi
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                To be made. To be collected.
             </translation>
         </marginalia>
         
@@ -664,7 +639,7 @@
                 </position>
             </language>
             <translation>
-                
+                Plenty.
             </translation>
         </marginalia>
         
@@ -677,7 +652,7 @@
                 </position>
             </language>
             <translation>
-                
+                That is constituted, established.
             </translation>
         </marginalia>
         
@@ -685,7 +660,7 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        ... and p[ro]verbs
+                        ent.yser and p[ro]verbs <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -702,8 +677,8 @@
         <underline method="pen" type="straight" language="LA" text="vocem venalem habuerat"/>
         <underline method="pen" type="straight" language="LA" text="ad se in priuata[m] domu[m] seuocabat"/>
         <underline method="pen" type="straight" language="LA" text="no[n] necesse habeo dicere"/>
-        <underline method="pen" type="straight" language="LA" text="quia postulat, no[n] flagiat, praeteribo"/>
-        <underline method="pen" type="straight" language="LA" text="neque ita co[m]mode posset ratione[m] reddre earu[m] reru[m] quas libidine non ratione gesserat: moritur"/>
+        <underline method="pen" type="straight" language="LA" text="quia postulat, no[n] flagitat, praeteribo"/>
+        <underline method="pen" type="straight" language="LA" text="neque ita co[m]mode posset ratione[m] reddere earu[m] reru[m] quas libidine non ratione gesserat: moritur"/>
         <underline method="pen" type="straight" language="LA" text="vt ad quem summus moeror morte sua veniebat, ad eunde[m] summus honos quoq[ue] perueniret"/>
         <underline method="pen" type="straight" language="LA" text="de societate inter se multa communicare[n]t"/>
         <underline method="pen" type="straight" language="LA" text="neque interea verbum vllum interposuit"/>
@@ -718,6 +693,7 @@
         <symbol name="Bisected_circle" place="left_margin"/>
         <symbol name="Jupiter" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
+        <symbol name="Asterisk" place="intext"/> <!--Abritrium...solere[n]t-->
         <symbol name="Jupiter" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
@@ -729,14 +705,16 @@
         <mark name="bracket" method="pen" place="left_margin"/> <!-- cognoscatis C. -->
         <mark name="plus_sign" method="pen" place="right_margin"/>
         
+        <mark name="section_sign" method="pen" place="intext"/> <!-- C. Quintius -->
+        
         <errata language="LA" copytext="simulatque" amendedtext="simul atque"/>
         <errata language="LA" copytext="condemnari" amendedtext="condemnare"/>
         <errata language="LA" copytext="Arbitrium pro socio condemnari solere[n]t" amendedtext="[deleted]"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
