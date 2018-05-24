@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0557.tif" reader="John Dee" pagination="529" signature="lll.i[r]"/>
+    <page filename="0557.tif" reader="John Dee" pagination="529" signature="lll.i."/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="Platone[m]">
@@ -20,14 +19,14 @@
         <marginalia hand="Italian" anchor_text="Callisthenem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Calistenes.</marginalia_text>
+                    <marginalia_text>Calisthenes.</marginalia_text>
                     <person name="Callisthenes of Olynthus"/>
                 </position>
             </language>
             <translation>Callisthenes of Olynthus.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Demerium">
+        <marginalia hand="Italian" anchor_text="Demetrium">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Demetrius</marginalia_text>
@@ -47,10 +46,11 @@
             <translation>Publius Rutilius Rufus.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="subinuisum">
+        <marginalia hand="Italian" anchor_text="ad Auletem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>auletes. &agrave; pipar.</marginalia_text>
+                    <marginalia_text>auletes. &agrave; pipar.</marginalia_text> 
+                    <!-- FSF: I think the second part of this is English; occasionally in the Cicero volumes Dee takes out words and gives an English explanation of what it is, as I think is the case here -->
                 </position>
             </language>
             <translation>The flute players. With a pipe.</translation>
@@ -59,7 +59,7 @@
         <marginalia hand="Italian" anchor_text="curatione[m] &amp; dispensatione[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>curatio dispe[n]satio</marginalia_text>
+                    <marginalia_text>curatio dispe[n]satio ]</marginalia_text>
                 </position>
             </language>
             <translation>Treatment. Dispensation.</translation>
@@ -84,7 +84,7 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Sed ego in hoc ta[n]dem Posthumo no[n] ignoscam homini mediocriter docto, qui videam sapientissimos homines esse lapsos? virum"/>
-        <underline method="pen" type="straight" language="LA" text="Plan&egrave; confiteor fieri nihil posse dementius, qu&agrave;m scientem in eum locu[m] vernire"/>
+        <underline method="pen" type="straight" language="LA" text="Plan&egrave; confiteor fieri nihil posse dementius, qu&agrave;m scientem in eum locu[m] venire"/>
         <underline method="pen" type="straight" language="LA" text="siquide[m] tam sempter stulti, qu&agrave;m sero sapie[n]tis est, cu[m] stultitia sua impeditus sit, quoquomodo possit se expedire"/>
         <underline method="pen" type="straight" language="LA" text="documentu[m] fuit hominibus nostris virtutis, antiquitatis, prudentiae"/>
         <underline method="pen" type="straight" language="LA" text="quasi dispensatione[m]"/>
@@ -105,6 +105,7 @@
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Plato"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Calisthenes"/>
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="siquide[m] tam sempter stulti, qu&agrave;m sero sapie[n]tis est, cu[m] stultitia sua impeditus sit, quoquomodo possit se expedire"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="VIS"/>
        
     </annotation>
 </transcription>
