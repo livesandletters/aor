@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0989.tif" reader="John Dee" pagination="431"/>   
-    
+    <page filename="0989.tif" reader="John Dee" pagination="431" signature="[DDD.viii.]"/>   
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Animus homi[nes] ut percellitum a diuina influitia</marginalia_text>
+                    <marginalia_text>Animus ho[m]i[nu]m vt percellitur a diuina influe[n]tia</marginalia_text>
                 </position>
             </language>
-            <translation>The soul of men is striked down by a divine influence. </translation>
+            <translation>The soul of men is as if struck down by a divine influence.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Desidiratum diuidia pagini pars est linoi mistus[?] 24</marginalia_text> <!-- M.B. Not sure of the final two words before '24.  -->
+                    <marginalia_text>Desidiratur diuidia pagin[a]e pars [est] line[a]e curiter 24</marginalia_text>
                 </position>
             </language>
-            <translation>The desired division of the part of the page it is the line [...] twenty four.</translation>
+            <translation>The desired division of the part of the page it is the line [...] twenty four.</translation> <!-- FSF: not sure about translation; I think it means something along the lines of The missing part of the page is 24 lines long -->
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="solis circunectio esset. Lucifer deinde, &amp; sancta Mercurii stella, cursum habent solis celeritati parem, sed vim quandam contrariam">
+        <marginalia hand="Italian" anchor_text="Lucifer deinde, &amp; sancta Mercurii stella, cursum habent solis celeritati parem, sed vim quandam contrariam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>&Sun; et &Mercury; &Mars; traru[?] &Jupiter; lini</marginalia_text>
+                    <marginalia_text>&Sun; et &Mercury; co[n]trariar[um] viriu[m]</marginalia_text>
+                    <symbol_in_text name="Sun"/>
+                    <symbol_in_text name="Mercury"/>
                 </position>
             </language>
-            <translation>The Sun and the Mercury and Mars line.</translation>
+            <translation>The Sun and the Mercury are of opposite forces.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="causa collocandi">
@@ -41,36 +41,35 @@
                     <marginalia_text>Causa fixaru[m] collocatio[n]is</marginalia_text>
                 </position>
             </language>
-            <translation>The cause of the immovable arrangement.</translation>
+            <translation>The cause of the arrangement of the fixed [stars].</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="quibus era motus temporis co[n]signandus, colligat&iacute;sque corporibus vinculis animalibus, tum animantia orta sunt, e&aacute;que imperio parere didicerunt: 
-            tunc">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>obscurius virlti</marginalia_text>
+                    <marginalia_text>obscurius vertit</marginalia_text>
                 </position>
             </language>
-            <translation>Obsurer [..].</translation>
+            <translation>It turns very obscurely.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Zodiacus Equato</marginalia_text>
+                    <marginalia_text>Zodiacus [a]equato</marginalia_text>
                 </position>
             </language>
             <translation>The Zodiac and the equator.</translation>
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Spiratis linii.</marginalia_text>
+                    <marginalia_text>Spirales line[a]e.</marginalia_text>
                 </position>
             </language>
-            <translation>The breathe lines.</translation>
+            <translation>Spiralling lines.</translation>
         </marginalia>
         
         
@@ -99,7 +98,7 @@
                     <marginalia_text>Annus</marginalia_text>
                 </position>
             </language>
-            <translation>Years.</translation>
+            <translation>Year.</translation>
         </marginalia>
         
         
@@ -126,10 +125,10 @@
         <marginalia hand="Italian" anchor_text="animalium formas">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Animaliu[m] forme</marginalia_text>
+                    <marginalia_text>Animaliu[m] form[a]e</marginalia_text>
                 </position>
             </language>
-            <translation>Warmth of the animals.</translation>
+            <translation>The shapes of the animals.</translation>
         </marginalia>
         
         
@@ -152,25 +151,32 @@
             <translation>Man.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="contrarie">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>contrari adverb</marginalia_text>
+                    <marginalia_text>contrarie</marginalia_text>
                 </position>
             </language>
-            <translation>Contrary adverb.</translation>
+            <language ident="EN">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        adverb
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>Contrarily.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="rotundauit">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>rotundari</marginalia_text>
+                    <marginalia_text>rotundare</marginalia_text>
                 </position>
             </language>
-            <translation>Round.</translation>
+            <translation>To round.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="animationis">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Animatio</marginalia_text>
@@ -179,14 +185,15 @@
             <translation>Giving life.</translation>
         </marginalia>        
         
-        <underline method="pen" type="straight" language="LA" text="quid cuique rei fit maxime aptum, quid quoque loco, aut modo, aut tempore contingat: qua&eacute;que distinctio sit inter ea quae gigna[n]tur, &amp; ea 
+        <underline method="pen" type="straight" language="LA" text="quid cuique rei sit maxime aptum, quid quoque loco, aut modo, aut tempore contingat: qua&eacute;eque distinctio sit inter ea quae gigna[n]tur, &amp; ea 
             quae sint semper eadem."/>
         <underline method="pen" type="straight" language="LA" text="cieri potest, orbis illius generis alterius"/>
         <underline method="pen" type="straight" language="LA" text="sancta Mercurii stella, cursum habent solis celeritati parem, sed vim quandam contrariam, e&aacute;que"/>
-        <underline method="pen" type="straight" language="LA" text="causa collocandi fueritm qua&eacute;que eorum sit collocatio, in sermonem alium differendu[m]"/>
-        <underline method="pen" type="straight" language="LA" text="quibus era motus temporis co[n]signandus, colligat&iacute;sque corporibus vinculis animalibus, tum animantia orta sunt, e&aacute;que imperio parere didicerunt: 
+        <underline method="pen" type="straight" language="LA" text="causa collocandi fuerit, qua&eacute;eque eorum sit collocatio, in sermonem alium differendu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="quibus erat motus temporis co[n]signandus, colligat&iacute;sque corporibus vinculis animalibus, tum animantia orta sunt, e&aacute;que imperio parere didicerunt: 
             tunc"/>
         <underline method="pen" type="straight" language="LA" text="transuersa"/>
+        <underline method="pen" type="straight" language="LA" text="bifaria[m] contrarie simul"/>
         <underline method="pen" type="straight" language="LA" text="efficiebant: vt quod esset tardissimum, id proximum fieret celerrimo. Atque"/>
         <underline method="pen" type="straight" language="LA" text="multitudine infinita, varietate admirabili praeditos"/>
         <underline method="pen" type="straight" language="LA" text="qu&uacute;mque eos permensus est idem, &amp; semper sui similis orbis. Has"/>
@@ -201,4 +208,3 @@
         
     </annotation>
 </transcription>
-
