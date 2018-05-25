@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0579.tif" reader="John Dee" pagination="551" signature="mmmm.iiii[r]"/>
+    <page filename="0579.tif" reader="John Dee" pagination="551" signature="mmmm.iiii."/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="forum sepietur">
@@ -16,7 +15,7 @@
             <translation>'The forum will be fenced off' [Loeb 189, 33].</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="mediocritate ingenii">
+        <marginalia hand="Italian" anchor_text="Auguru[m]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Augur</marginalia_text>
@@ -25,7 +24,7 @@
             <translation>Soothsayer.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="mediocritate ingenii">
+        <marginalia hand="Italian" anchor_text="quae si facta no[n] erunt, refelletur oratio mea">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>qu[a]e si facta no[n] su[n]t refellet[ur] or[ati]o mea</marginalia_text>
@@ -34,7 +33,7 @@
             <translation>'If they do not come to pass, my words will be refuted' [Loeb 189, 33].</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="laus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Laus</marginalia_text>
@@ -46,19 +45,20 @@
         <marginalia hand="Italian" anchor_text="libertate[m] pax co[n]sequebatur">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Libertate[m] pax co[n]sequebatur</marginalia_text>
+                    <marginalia_text>Libertate[m] pax co[n]sequitur</marginalia_text>
                 </position>
             </language>
-            <translation>Peace followed freedom.</translation>
+            <translation>Peace follows freedom.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="LA" text="Video aute[m] qu&agrave;m sit odiosum, habere iratum eu[n]de[m]"/>
-        <underline method="pen" type="straight" language="LA" text="libertate[m] pax consequebatur"/>
+        <underline method="pen" type="straight" language="LA" text="Video aute[m] qu&agrave;m sit odiosum, habere iratum eu[n]de[m] &amp; armatu[m]: cum tanta praesertim gladioru[m] sit impunitas. sed"/>
+        <underline method="pen" type="straight" language="LA" text="libertate[m] pax co[n]sequebatur"/>
         
         <numeral place="right_margin">18</numeral>
         <numeral place="right_margin">5.22</numeral>
         <numeral place="right_margin">13</numeral>
-        
+
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Laus"/>
         
     </annotation>
