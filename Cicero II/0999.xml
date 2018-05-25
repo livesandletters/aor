@@ -1,48 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="0999.tif" reader="John Dee" pagination="441" signature="EEE.v."/>   
-    
     <annotation>
         
         <!-- M.B. Greek marginalia to be captured later. -->
         
-        <marginalia hand="Italian" anchor_text="Deltoton">
+        <marginalia hand="English_secretary" anchor_text="Deltoton">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Deltoloy.</marginalia_text>
                 </position>
             </language>
-            <translation>Triangulum.</translation> <!-- M.B. Refers to constellation https://en.wikipedia.org/wiki/Triangulum -->
+            <translation>Triangulum.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="coelestem dicere nodum. Andromedae laeuo ex humero siqua exere perges, At positum poteris supra cognoscere Piscem">
+        <marginalia hand="English_secretary" anchor_text="coelestem dicere nodum. Andromedae laeuo ex humero siqua exere perges, At positum poteris supra cognoscere Piscem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>co[e]lestis pisce[m] nodus.</marginalia_text>
+                    <marginalia_text>Co[e]lestis pisciu[m] nodus.</marginalia_text>
                 </position>
             </language>
-            <translation>The point of the fish in the heavens.</translation>
+            <translation>The celestial point of Pisces.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Perseus">
+        <marginalia hand="English_secretary" anchor_text="Perseus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Perseus</marginalia_text>
-                    <person name="Perseus"/>
+                    <person name="Perseus"/> <!-- FSF: not sure if a person should be tagged, when it is the constellation that is referred to here -->
                 </position>
             </language>
             <translation>Perseus.</translation>
         </marginalia>
         
-        
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>pisaiy paerio[]</marginalia_text> <!-- M.B. Not difficult to decipher, the 'e' looks a like an epilson. -->
+                    <!-- FSF: this might probably be in English, starting with The Pesary starres. -->
                 </position>
             </language>
             <translation></translation>
