@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0564.tif" reader="John Dee" pagination="536" signature="[lll.iiii[v]]"/>
+    <page filename="0564.tif" reader="John Dee" pagination="536" signature="[lll.iiii.[v]]"/>
     <annotation>
         
         <marginalia hand="Italian" anchor_text="ciuis">
@@ -16,13 +15,13 @@
             <translation>Citizen.</translation>
         </marginalia> 
         
-        <marginalia hand="Italian" anchor_text="improuidas hominu[m] mentes occupauisse">
+        <marginalia hand="Italian" anchor_text="cecidit, qu&agrave;m qui in causa animam profudit">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>cadere a[n]i[m]am p[ro]fundere</marginalia_text>
                 </position>
             </language>
-            <translation>To cease life. To pour out life.</translation>
+            <translation>To cease life. To pour out life.</translation> <!-- FSF: because of the text (I changed the anchor text), I think it translates better as To fall, to pour out life. -->
         </marginalia> 
         
         <marginalia hand="Italian">
@@ -46,7 +45,7 @@
         <marginalia hand="Italian" anchor_text="liberationem culpae, sed errati veniam">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>liberatio culp[a]e venia errati</marginalia_text>
+                    <marginalia_text>liberatio culp[a]e venia errati</marginalia_text> <!-- FSF: I can't see the [a] in culpe -->
                 </position>
             </language>
             <translation>Absolution from guilt. Pardon for errors [Loeb 252, 459].</translation>
