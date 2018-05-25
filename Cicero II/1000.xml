@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="1000.tif" reader="John Dee" pagination="442" signature="[EEE.v[v]]"/>   
-    
+    <page filename="1000.tif" reader="John Dee" pagination="442" signature="[EEE.v.[v]]"/>   
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Cygnus.</marginalia_text>
@@ -17,16 +15,16 @@
             <translation>Cygnus.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Cephei">
+        <marginalia hand="English_secretary" anchor_text="Cephei">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>cepheus</marginalia_text>
+                    <marginalia_text>Cepheus</marginalia_text>
                 </position>
             </language>
             <translation>Cepheus</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Pegasus</marginalia_text>
@@ -37,8 +35,8 @@
         
         <marginalia hand="Italian" anchor_text="nixi ">
             <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>Nixi fugo asis.</marginalia_text>
+                <position place="head" book_orientation="0">
+                    <marginalia_text>Nixi fugo asis.</marginalia_text> <!-- FSF: not sure about what follows Nixi -->
                 </position>
             </language>
             <translation></translation>
@@ -49,7 +47,6 @@
         <underline method="pen" type="straight" language="LA" text="Tum fixum tremulo quatietur"/>
         
         <errata language="LA" copytext="Quod" amendedtext="Qu&ograve;d"/>
-        <errata language="LA" copytext="nixi" amendedtext="Nixi"/>
         
     </annotation>
 </transcription>
