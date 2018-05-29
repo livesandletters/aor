@@ -10,12 +10,12 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        gr[ati]a studiu[m] favor amor fide[m]
+                        gr[ati]a studiu[m] favor amor |ide[m]
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Esteem, eagerness, goodwill, affection, faith. 
+                Esteem, eagerness, goodwill, affection: similar [terms]. 
             </translation>
         </marginalia>
         
@@ -23,7 +23,7 @@
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Calmmor to accuse or seve a man iniustase <!-- FSF: I can't decipher the last word -->
+                        Calmmor to accuse or seve a man iniustlye. 
                     </marginalia_text> 
                 </position>
             </language>
@@ -55,16 +55,16 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="decreto Praetoris Ro">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        al[ia]s [pr[a]etoris vrba <!-- FSF: not sure about vrba -->
+                        al[ia]s [pr[a]etoris vrba <!-- FSF: not sure about vrba --> <!--JG: Seems to be vrba, but one would expect urbe?-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Elsewhere: 'of the praetor in Rome'.
             </translation>
         </marginalia>
         
@@ -77,7 +77,7 @@
                 </position>
             </language>
             <translation>
-                Obstacles.
+                Elsewhere: obstacles.
             </translation>
         </marginalia>
         
@@ -103,7 +103,7 @@
                 </position>
             </language>
             <translation>
-                For gaining it is sufficient
+                For gaining it is sufficient.
             </translation>
         </marginalia>
         
@@ -129,7 +129,7 @@
                 </position>
             </language>
             <translation>
-                It stroke.
+                Elsewhere: it stroke.
             </translation>
         </marginalia>
         
@@ -137,12 +137,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        conducit in vnu[m] qu[a]e dixit &amp; condludit
+                        conducit in vnu[m] qu[a]e dixit &amp; concludit
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                It is concerned with it which iit said and concludit.
+                It is concerned with it which it said and concluded.
             </translation>
         </marginalia>
         
@@ -150,7 +150,7 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        you now equallie falsed ... [and] ...
+                        you now equallie favored as I thinke. <!--JG: Unsure about 'favored'-->
                     </marginalia_text>
                 </position>
             </language>
@@ -179,7 +179,7 @@
                 </position>
             </language>
             <translation>
-                It has not been spoken of nor heard of. <!-- FSF: not sure -->
+                'Never been heard or spoken of' [Loeb 240, 79].
             </translation>
         </marginalia>
         
@@ -187,13 +187,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Qua[m] disere, ac apte cicero prosopeia vtitur
+                        Qua[m] distere, ac apte cicero prosopeia vtitur
                     </marginalia_text>
                     <person name="Cicero"/>
                 </position>
             </language>
             <translation>
-                Eloquently and fittingly as Cicero uses prosopopeia.
+                How eloquently and fittingly Cicero uses prosopopeia.
             </translation>
         </marginalia>
         
@@ -211,26 +211,35 @@
         </marginalia>
         
         <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        he collydeth to [wytnes] <!--JG: unsure-->
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="omni recta and honest fashion">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        after all good and honest fashion.
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        ... collydeth to voyt...
+                        [..] marianarum. <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
             </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="EN">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>
-                        after all good and sanest Fash...
-                    </marginalia_text>
-                </position>
-            </language>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -247,15 +256,25 @@
         </marginalia>
         
         <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        smyte
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        ..yte
+                        h[a]ec [..uantius ...cit - deleted]. <!-- JG: Unsure -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                This thing.
             </translation>
         </marginalia>
         
@@ -270,16 +289,96 @@
         </marginalia>
         
         <marginalia hand="Italian">
-            <language ident="LA">
+            <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        in ... or ....
+                        in wisdo[m] 
+                    </marginalia_text>
+                </position>
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>or puysantues</marginalia_text> <!--JG: Unsure-->
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        C
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        N
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        C
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        N
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        N
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        C
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        N
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        C
+                    </marginalia_text>
+                </position>
+            </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="aliena aut ipsius"/>
@@ -290,7 +389,7 @@
         <underline method="pen" type="straight" language="LA" text="iacet res in controuersiis isto"/>
         <underline method="pen" type="straight" language="LA" text="vsitata, consuetudine recederet"/>
         <underline method="pen" type="straight" language="LA" text="parem certationem"/>
-        <underline method="pen" type="straight" language="LA" text="sed pratiosum fuisse"/>
+        <underline method="pen" type="straight" language="LA" text="sed gratiosum fuisse"/>
         <underline method="pen" type="straight" language="LA" text="nihil ad rem arbitror"/>
         <underline method="pen" type="straight" language="LA" text="illorum, qui tum &amp; poterant per vim &amp; scelus plurimum: &amp; quod poterant, id audebant. an omnes"/>
         <underline method="pen" type="straight" language="LA" text="nolo eam rem co[m]memorando renouare"/>
@@ -314,19 +413,14 @@
         
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin" language="LA" text="Pro me pugnabit L. Philippus, eloquentiae, grauite, honore, flore[n]tissimus ciuitatis: dicet Horte[n]sius, excellens ingenio, nobilitate existimatione"/>
         
         <errata language="LA" copytext="haereret" amendedtext="[deleted]"/>
         <errata language="LA" copytext=":" amendedtext=","/> <!-- procuratorem qui -->
         <errata language="LA" copytext=":" amendedtext=","/> <!-- decernebat omnium -->
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
-        
-        <!-- FSF: cross -->
-        
-        <!-- FSF: again, there are cs and Ns in the lower part of the text -->
-        
-        <!-- FSF: there are letters in the text again, towards the bottom -->
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="Pro me pugnabit L. Philippus, eloquentiae, grauite, honore, flore[n]tissimus ciuitatis: dicet Horte[n]sius, excellens ingenio, nobilitate existimatione"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
