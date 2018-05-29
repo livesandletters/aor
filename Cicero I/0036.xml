@@ -93,7 +93,7 @@
                 </position>
             </language>
             <translation>
-                Because of their shameless courage the actors of that time heard badly. <!-- FSF: not sure -->
+                Because of this shameless courage the actors of that time heard badly. 
             </translation>
         </marginalia>
         
@@ -101,20 +101,23 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        vt ...enti sint Cicero hortatur <!-- FSF: not sure about the second word -->
+                        vt ...enti sint Cicero hortatur <!-- FSF: not sure about the second word --> <!--JG: Me neither-->
                     </marginalia_text>
+                    <person name="Cicero"/>
                 </position>
             </language>
+            <translation>Cicero incites so that they may be [...].</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Praecissio <!-- FSF: not sure: nor do I know a translation; precision? -->
+                        Praecisio
                     </marginalia_text>
                 </position>
             </language>
+            <translation>Cut short.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -126,7 +129,7 @@
                 </position>
             </language>
             <translation>
-                Prosopopeia
+                Prosopopeia.
             </translation>
         </marginalia>
         
@@ -147,12 +150,13 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        s[cilicet] a..tio <!-- FSF: not sure -->
+                        &id_est; quintio
                     </marginalia_text>
+                    <person name="Publius Quinctius"/>
                 </position>
             </language>
             <translation>
-                
+                That is, Publius Quinctius.
             </translation>
         </marginalia>
         
@@ -160,12 +164,12 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        a sine vlla l[a]edende cupiditate <!-- FSF: not sure about penultimate -->
+                        &id_est; sine vlla l[a]edendi cupiditate
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                That is, without any desire for hurting.
             </translation>
         </marginalia>
         
@@ -183,7 +187,7 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        of distroy....
+                        of dis[..]oymente <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -193,7 +197,34 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        s[cilicet] co[n]tra quinsi...
+                        &id_est; co[n]tra quintium.
+                    </marginalia_text>
+                    <person name="Publius Quinctius"/>
+                </position>
+            </language>
+            <translation>
+                That is, against Publius Quinctius.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        &id_est; [creditorum] <!-- JG: Unsure -->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                That is, of lenders.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        e... que.. q[ue] <!--JG: God knows-->
                     </marginalia_text>
                 </position>
             </language>
@@ -206,38 +237,13 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        s[cilicet] ..edito..
+                        &id_est; Roscio
                     </marginalia_text>
+                    <person name="Sextus Roscius"/>
                 </position>
             </language>
             <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>
-                        e... que.. q[ue]
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>
-                        s[cilicet] Poscio
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                By demand.
+                That is, Sextus Roscius.
             </translation>
         </marginalia>
         
@@ -245,7 +251,17 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        any dile.. or pleastamu... in ...ge
+                        any dile[tablenes] or pleast... in ..inge <!--JG: Unsure-->
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="confirma[n]di mei">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        to encorage me
                     </marginalia_text>
                 </position>
             </language>
@@ -255,7 +271,7 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        so encoragenie
+                        N <!--JG: Above parantur-->
                     </marginalia_text>
                 </position>
             </language>
@@ -298,10 +314,10 @@
         <symbol name="Asterisk" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
         
-        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin" language="LA" text="veritatem volent retinere, grauitatem possint obtinere: si eam negligent, ita leues sint, vt omnes intelligant, non ad obtinendum mendacium, 
+            sed ad verum probandum, auctoritate[m]"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        <!-- There is a N intext -->
         
         <numeral place="left_margin">21</numeral>
         <numeral place="left_margin">12.21</numeral>
@@ -310,8 +326,8 @@
         
         <errata language="LA" copytext="," amendedtext="[deleted]"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="oratores non modo tanta[m] causam perorare, sed omnino verbum facere conari"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="Etenim cu[m] artifex eiusmodi sit, vt solus dignus videatur esse qui in scena spectetur: tu[m] vir eiusmodi est vt solus dignus videatur qui e&ograve; no[n] accedat"/>
 
     </annotation>
 </transcription>
