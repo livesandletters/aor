@@ -6,16 +6,16 @@
     <page filename="0037.tif" reader="John Dee" pagination="13"/>
     <annotation> 
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="non enim, que[m]admodum putatis, omnia sunt in eloquentia">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        No[n] tu[n]c quemadmodu[m] pietatis o[mn]ia su[n]t in eloquentia &amp; <!-- FSF: I am not sure about pietatis -->
+                        No[n] tu[n]c quemadmodu[m] putatis o[mn]ia su[n]t in eloquentia
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                'For eloquence does not, as you imagine, decide everything' [Loeb 240, 89].
             </translation>
         </marginalia>
         
@@ -180,14 +180,14 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Tamdiu eni[m] Nevius Quintij Bona se po&sharp-S;edi&sharp-S;e summie contendit.
+                        Tamdiu eni[m] Nevius Quintij Bona se po&sharp-S;edi&sharp-S;e summe contendit.
                     </marginalia_text>
                     <person name="Nevius"/>
                     <person name="Publius Quinctius"/>
                 </position>
             </language>
             <translation>
-                For, all this time, Nevius disputed that he had seized the goods of Quinctius. <!-- FSF: I am not sure; also the summie is missing -->
+                For, all this time, Nevius intensely disputed that he had seized the goods of Quinctius.
             </translation>
         </marginalia>
         
@@ -234,7 +234,20 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        vemre Imposese proficisci ionem <!-- FSF: not sure about this -->
+                        venire proficisci] in posessionem  
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                To come in possession; to advance in possession.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        Aerores <!--JG: Very unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -243,35 +256,20 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
-            <language ident="LA">
+        <marginalia hand="Italian" anchor_text="satellites">
+            <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        Aerores
+                        catchpols or baylyffs 
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>
-                        .atrespots or boybysse <!-- FSF: as with the one before, I have no clue -->
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="quoad potuerit"/>
         <underline method="pen" type="straight" language="LA" text="volo inauditum facinus, ipsius, quid id co[m]misit, voce, co[n]uinci"/>
         <underline method="pen" type="straight" language="LA" text="O rem incredibilem"/>
+        <underline method="pen" type="straight" language="LA" text="Hortensio dicere, tamen superior sim"/>
         <underline method="pen" type="straight" language="LA" text="non enim, que[m]admodum putatis, omnia sunt in eloquentia. est quaedam tamen ita perspicua veritas, vt eam infirmitare nulla res possit"/>
         <underline method="pen" type="straight" language="LA" text="improbitatem &amp; gratiam cum inopia"/>
         
@@ -286,13 +284,15 @@
         
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
+        <mark name="arrow" method="pen" place="right_margin"/>
+        <mark name="arrow" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="intext"/>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="No[n] tu[n]c quemadmodu[m] putatis o[mn]ia su[n]t in eloquentia"/>
         
-        <!-- FSF: there are two arrows to the right in the right margin -->
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
