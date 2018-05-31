@@ -23,12 +23,15 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Hec obliqu&egrave; dicu[n]tur in Neviu[m] &amp; amare vita[m] ei[us] p[er]stringit, notatq[ue] illi[us] inco[n]sta[n]tia[m], quod desertis Marianis partibus se ad syllanos roras tra[n]stulerit <!-- FSF: end hard to read because over written -->
+                        Hec obliqu&egrave; dicu[n]tur in Neviu[m] &amp; amare vita[m] ei[us] p[er]stringit, notatq[ue] illi[us] inco[n]sta[n]tia[m], 
+                        quod desertis Marianis partibus se ad syllanos victoras tra[n]stulerit <!-- FSF: end hard to read because over written -->
                     </marginalia_text>
+                    <person name="Nevius"/>
                 </position>
             </language>
             <translation>
-                
+                These things are said slantingly against Nevius and he offends to love his life and notes their fickleness, which, with the Marian parts
+                deserted, transported himself towards [syllanos victoras??] <!-- JG: Unsure -->
             </translation>
         </marginalia>
         
@@ -36,12 +39,16 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Gallonius aute[m] pra[e]co fuit &amp; homo guca ac luxu insigni, fit ei me[n]tio in 2&o_super; de finib[us], ite[m] apud Horatiu[m] serui .2. Galloni p[er]conis erat accipe[n]stre me[n]sa infamis <!-- FSF: not sure -->
+                        Gallonius aute[m] pra[e]co fuit &amp; homo gula ac luxu insigni, fit ei metio in 2&o_super; de finib[us], 
+                        ite[m] apud Horatiu[m] serui .2. Galloni p[er]conis erat accipe[n]stre me[n]sa infamis <!-- FSF: not sure --> <!-- JG: Unsure, is is me[n]tio or Metio? Unsure about 'perconis' -->
                     </marginalia_text>
+                    <person name="Publius Gallonius"/>
+                    <person name="Horace"/>
                 </position>
             </language>
             <translation>
-                
+                But Publius Gallonius was a herald and a man with a furry and luxurious emblem, it is made for him by Metius in the second [chapter] of 'De Finibus', likewise among Horatius' second sermon.
+                Gallonius was notorious, measured by [???] <!--JG: Very unsure-->
             </translation>
         </marginalia>
         
@@ -114,59 +121,40 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        a nimis vel immoderatis
+                        &id_est; nimis vel immoderatis
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                From too much or immoderate [things].
+                That is, by too much or immoderate [things].
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
-            <language ident="LA">
+        <marginalia hand="Italian" anchor_text="magnifice">
+            <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        su[m]ptuonsige <!-- FSF: not sure -->
+                        su[m]ptuouslye
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
-            <language ident="LA">
+        <marginalia hand="Italian" anchor_text="sanctimoniae">
+            <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        honorabilibus
+                        godlinesse
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                Honourable
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>
-                        god ine&sharp-S;e
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        set forthe to be showed
+                        set forthe to be shewed
                     </marginalia_text>
                 </position>
             </language>
@@ -186,7 +174,7 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        a strengthe
+                        a strayghte
                     </marginalia_text>
                 </position>
             </language>
@@ -197,6 +185,16 @@
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
                         in so mutche or not so far
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        to be deceyved
                     </marginalia_text>
                 </position>
             </language>
