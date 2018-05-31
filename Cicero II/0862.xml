@@ -10,25 +10,25 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>suspiciri in coelu[m]</marginalia_text>
+                    <marginalia_text>suspicere in coelu[m]</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To admire in heaven.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ex animo meo discedit">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>ex a[m]ino dicedere.</marginalia_text>
+                </position>
+            </language>
+            <translation>To go away from the mind.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>ex a[m]ino </marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="head" book_orientation="0">
-                    <marginalia_text>collactrymari</marginalia_text>
+                    <marginalia_text>collactrymari</marginalia_text> <!-- JG: Can't figure this out either -->
                 </position>
             </language>
             <translation></translation>
@@ -40,7 +40,7 @@
                     <marginalia_text>Quid Reip. moderatori sit propositum.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>What may be proposed to the Republic's governour.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="fortitudo">
@@ -49,34 +49,36 @@
                     <marginalia_text>fortitudo.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Fortitude.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Scipio dixisset, admodum probans: nimis enima erat odio rhetoru[m] imbutus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Scipio odio Rheotme imbutus</marginalia_text>
+                    <marginalia_text>Scipio odio Rhetorum imbutus</marginalia_text>
+                    <person name="Scipio Africanus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Scipio Africanus was soaked with the hatred of the rethoricians.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Masinissam">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Masinissa.</marginalia_text>
+                    <person name="Masanissa"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Masanissa.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Aphricano">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Aphricanis</marginalia_text>
+                    <marginalia_text>Aphricanus</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>African.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -85,16 +87,17 @@
                     <marginalia_text>somnia vnde oriantur</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Whence dreams arise.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Aphricanis ad scipione[m]</marginalia_text>
+                    <marginalia_text>Aphricanus ad scipione[m]</marginalia_text>
+                    <person name="Scipio Africanus"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation>African towards Scipio.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -103,25 +106,25 @@
                     <marginalia_text>Co[e]lum</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Heaven.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="lumen animi ingenii, consili&iacute;que">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Lumen a[nim]i consilij q[uam]</marginalia_text>
+                    <marginalia_text>Lumen a[nim]i consilijq[ue]]</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The light of the mind and advice.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Circuti naturali summa fatalis nobis conficitur</marginalia_text>
+                    <marginalia_text>Circuitu naturali summa fatalis nobis conficitur</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The highest destined [matter] is composed with a natural circle.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -130,7 +133,7 @@
                     <marginalia_text>Pax sit rebus.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>May peace be to things.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -139,7 +142,7 @@
                     <marginalia_text>nihil mihi potius fuit.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Nothing was better to me.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -148,36 +151,46 @@
                     <marginalia_text>iustis de cau&sharp-S;is</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>On just causes.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>rinovari pstma villa.</marginalia_text>
+                    <marginalia_text>renovare p[r]istina bella.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To renovate former beauty.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>cum ego noit ip[s]u[m]</marginalia_text>
+                    <marginalia_text>cui[us] ego no[m]i[n]e ip[s]u[m]</marginalia_text>
                     <emphasis method="pen" type="straight" text="ego ip[s]u[m]"/>
                 </position>
             </language>
-            <translation></translation>
+            <translation></translation> <!--JG: Don't get this-->
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>excellus &amp; prima [?], illustris et traus q[ui]da[m] locus. Sempitorum illi ignis, qui sydera et phillas votlia 
-                        splondidiii [?] camdori inter flammas circus eluctus.</marginalia_text>
+                    <marginalia_text>excelsus &amp; plenus stellaru[m], illustris et clarus q[ui]da[m] locus. Sempitori illi ignes, qu[a]e sydera et stellas vocatis 
+                        splendissimo caudare inter flammas circus elucens.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Lofty and full of the stars, a certain bright and clear place. It's fire everlasting, those things which you call constellations and stars.
+            A brightly shining orbit with a most splendid tail among flames.</translation> <!--JG: Unsure-->
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Tu eris vnus in quo nitatur ciuitatis salus">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>[Tu] vnus es in q[u]a nititur civitatis salus</marginalia_text>
+                </position>
+            </language>
+            <translation>You are on in which the health of the community is advanced.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="vt enim"/>
