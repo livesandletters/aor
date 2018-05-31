@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0986.tif" reader="John Dee" pagination="428"/>   
-    
+    <page filename="0986.tif" reader="John Dee" pagination="428" signature="[DDD.vi.[v]]"/>   
     <annotation>
             
-        <marginalia hand="Italian" anchor_text="molitionem noua[m]">
+        <marginalia hand="English_secretary" anchor_text="molitionem noua[m]">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>nova molitio</marginalia_text>
@@ -17,8 +15,7 @@
             <translation>New milling.</translation>
         </marginalia>
         
-        
-        <marginalia hand="Italian" anchor_text="efficere">
+        <marginalia hand="English_secretary" anchor_text="efficere">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>efficere</marginalia_text>
@@ -27,17 +24,25 @@
             <translation>To bring about.</translation>
         </marginalia>
         
-        
-        <marginalia hand="Italian" anchor_text="gign&iacute;que">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>generatur</marginalia_text> <!-- M.B. Not certain. -->
+                    <marginalia_text>is qui ... compos....</marginalia_text> <!-- FSF: not sure -->
                 </position>
             </language>
-            <translation>To beget.</translation>
+            <translation>To bring about.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>generator</marginalia_text>
+                </position>
+            </language>
+            <translation>The begetter.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>procreator</marginalia_text> 
@@ -46,17 +51,25 @@
             <translation>Procreator.</translation>
         </marginalia>
         
-        
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>mo[l]itor mu[n]di effector</marginalia_text> 
+                    <marginalia_text>mo[l]itor mu[n]di</marginalia_text> 
                 </position>
             </language>
-            <translation>The originator who constructs the world.</translation>
+            <translation>The originator of the world.</translation>
         </marginalia>
         
-        <marginalia hand="Italian"><!-- M.B. References printed text appears on 0987/429 -->
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>effector</marginalia_text> 
+                </position>
+            </language>
+            <translation>Author.</translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary"><!-- M.B. References printed text appears on 0987/429 -->
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>qui ista iu[n]xit et condidit</marginalia_text>
@@ -65,8 +78,7 @@
             <translation>That which is joined and built.</translation>
         </marginalia>
        
-        
-        <marginalia hand="Italian" anchor_text="parentem huius vniuersitatis">
+        <marginalia hand="English_secretary" anchor_text="parentem huius vniuersitatis">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>parens hui[us] vniversitatis</marginalia_text>
@@ -75,7 +87,7 @@
             <translation>Founder of this universe.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="fabricator huius ta[n]ti operis">
+        <marginalia hand="English_secretary" anchor_text="fabricator huius ta[n]ti operis">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>fabricator hui[us] ta[n]ti op[er]is </marginalia_text>
@@ -84,25 +96,16 @@
             <translation>The maker of so great a work.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="aedificatore">
+        <marginalia hand="English_secretary" anchor_text="artifex ... aedificatore">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>A[E]dificator | mundi</marginalia_text>
+                    <marginalia_text>&AElig;dificator Artifex ] mundi</marginalia_text>
                 </position>
             </language>
-            <translation>The maker of the world.</translation>
+            <translation>The maker and artist of the world.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="artifex">
-            <language ident="LA">
-                <position place="head" book_orientation="0">
-                    <marginalia_text>Artifex</marginalia_text>
-                </position>
-            </language>
-            <translation>Artist.</translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="qui haec machinatus">
+        <marginalia hand="English_secretary" anchor_text="qui haec machinatus">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Qui h[a]ec machinatus est</marginalia_text>
@@ -111,7 +114,7 @@
             <translation>It is this which was devised.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="gigni">
+        <marginalia hand="English_secretary" anchor_text="gigni">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>gignere</marginalia_text>
@@ -120,40 +123,40 @@
             <translation>To give birth.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>generare</marginalia_text> <!-- M.B. Not sure. -->
+                    <marginalia_text>generare</marginalia_text>
                 </position>
             </language>
             <translation>To procreate.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="fingendo">
+        <marginalia hand="English_secretary" anchor_text="fingendo">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>fingere</marginalia_text> <!-- M.B. Not sure. -->
+                    <marginalia_text>fingere</marginalia_text>
                 </position>
             </language>
-            <translation>Formed.</translation>
+            <translation>To form.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="fingendo">
+        <marginalia hand="English_secretary" anchor_text="fingendo">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>figurari</marginalia_text>
+                    <marginalia_text>figurare</marginalia_text>
                 </position>
             </language>
-            <translation>Form.</translation>
+            <translation>To shape.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Mundus generatus</marginalia_text>
                 </position>
             </language>
-            <translation>Created the world.</translation>
+            <translation>The created world.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="parentem huius vniuersitatis inuenire difficile: &amp; quum iam inueneris, indicare in vulgus, nefas">
@@ -162,10 +165,10 @@
                     <marginalia_text>Indicare in vulgus quis sit hui[us] vniversitatis parens nefas</marginalia_text>
                 </position>
             </language>
-            <translation>Indicates the public who are of this wrong founder of the universe. [??]</translation> 
+            <translation>To Indicate to the public who is the founder of the universeunlawfully.</translation> 
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Ad quod exemplar sit fabriati[us] Mundus</marginalia_text>
@@ -174,13 +177,13 @@
             <translation>According to the model by which the world was built.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Difficillimum autem est in momni co[n]quisitione rationis exordium">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Principiu[m] plus q[ue]m di?i d diu toti[us]</marginalia_text>
+                    <marginalia_text>Principiu[m] plus q[uam] dimidium toti[us]</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The beginning is more than half of the whole.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="disputatur, oratio talis sit, qualis illa">
@@ -189,37 +192,37 @@
                     <marginalia_text>Qualis sit res de qua disputatur talis sit oratio</marginalia_text>
                 </position>
             </language>
-            <translation>Such things are to be disputed in an excellent speech.</translation>
+            <translation>Such is the matter that is disputed in such a speech.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="probabilia">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Probabilitatis capaces sum[us]</marginalia_text>
+                </position>
+            </language>
+            <translation>We are capable of the appearance of truth.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Probabilitatis capacis sum[us]</marginalia_text>
+                    <marginalia_text>Cur Deus Mundu[m] creauit.</marginalia_text>
                 </position>
             </language>
-            <translation>The highest possible probability.</translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Cur Deus Mundu[m] trianvt?.</marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
+            <translation>Why God created the world.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="deus bonis omnibus explere">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ora[tio] qua[e] facit Deus erant valde bona</marginalia_text>
+                    <marginalia_text>O[mn]ia qua[e] fa[e]cit Deus erant valde bona</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>All that God created is very good.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="inrodinato">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Chaos.</marginalia_text>
@@ -231,19 +234,19 @@
         <marginalia hand="Italian" anchor_text="intelligentiam in animo, animum conclusit in corpore">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Intelligentiam in a[n]i[m]o, an[imu]m in corpore inclusit deus</marginalia_text>
+                    <marginalia_text>Intellige[n]tiam in a[n]i[m]o, a[n]i[mu]m in corpore inclusit deus</marginalia_text>
                 </position>
             </language>
-            <translation>Intelligence of mind, mind in the body hinders god.</translation>
+            <translation>God enclosed intelligence in the mind and the mind in the body.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="mundum animal">
+        <marginalia hand="Italian" anchor_text="mundum animal esse">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Mundus animal est.</marginalia_text>
                 </position>
             </language>
-            <translation>It is in the animal world.</translation>
+            <translation>The world is a living entity.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="cuiusnam animantium deus in singendo mundo similitudinem secutus sit">
@@ -252,16 +255,16 @@
                     <marginalia_text>Cui[us] animalis similis sit Mundus</marginalia_text> 
                 </position>
             </language>
-            <translation>wWich is similar to the living world.</translation>
+            <translation>The world is similar to which living being.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="animal vnum aspectabile">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Mundus [ani]mal aspectabile</marginalia_text>
+                    <marginalia_text>Mundus a[n]i[m]al aspectabile</marginalia_text>
                 </position>
             </language>
-            <translation>Visible in the animal world. </translation>
+            <translation>The world is visibly alive.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="vnu[m] mundum">
@@ -282,12 +285,21 @@
             <translation>The one and only god.</translation>
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="ingressa">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>or[ati]o sc[ilicet]</marginalia_text>
+                </position>
+            </language>
+            <translation>The speech, of course.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="non intelligens">
             <language ident="EL">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>λΛοᴦομ</marginalia_text>  <!-- M.B. Dee is using the original Platonic Greek term here but someone familiar with Greek should check this. . 
                         See: https://books.google.co.uk/books?id=pjxpAAAAcAAJ&pg=PP118&lpg=PP118&dq=plato+%CE%B1%CE%BB%CE%BF%CE%B3%CE%BF%CE%BC,&source=bl&ots=S0uKz-siC9&sig=lBoosiTgBHWmghpI2bc38ogDlx0&hl=en&sa=X&ved=0ahUKEwjZ8pmEoNrVAhWBIcAKHV1WDooQ6AEILTAB#v=onepage&q=plato%20%CE%B1%CE%BB%CE%BF%CE%B3%CE%BF%CE%BC%2C&f=false  -->
+                    <!-- FSF: to me it looks a bit like "ἄλογος" as referring to non intelligens -->
                 </position>
             </language>
             <translation>Irrational.</translation>
@@ -316,9 +328,8 @@
         <underline method="pen" type="straight" language="LA" text="animal vnum aspectabile"/>
         <underline method="pen" type="straight" language="LA" text="anima[n]ti absoluto simillimus, hoc ipso, qu&ograve;d solus atque vns esset, idcirco singularem deus hu[n]c"/>
         
-        
         <mark name="bracket" method="pen" place="intext"/> <!-- requiratis. Quaeramus -->
-        
+        <mark name="comma" method="pen place="intext"/> <!-- co[n]quisitione rationis -->
         
         <numeral place="intext" text="vnum">1</numeral>
         <numeral place="intext" text="generatum ort&uacute;mque">2</numeral>
@@ -331,5 +342,3 @@
         
     </annotation>
 </transcription>
-
-
