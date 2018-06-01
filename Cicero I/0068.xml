@@ -10,12 +10,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        A testibus probat Siculos &agrave; se peruusse Defensionem sui
+                        A testibus probat Siculos &agrave; se pertiuisse Defensionem sui
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                By witnesses he approved that the Sicilians begged for his defense by themselves. <!--JG: Unsure-->
             </translation>
         </marginalia>
         
@@ -49,12 +49,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Intelligit Syracusas &amp; mameritiua[m] quaru[m] imitatu[m]vna permisit vt vt verres furta co[m]mitteret, p[er] altera[m] furta exportauit.
+                        Intelligit Syracusas &amp; mameritina[m] quaru[m] ciuitatu[m] vna permisit vt vt verres furta co[m]mitteret, p[er] altera[m] furta exportauit.
                     </marginalia_text>
+                    <person name="Verres"/>
                 </position>
             </language>
             <translation>
-                
+                He understood the Syracusans and Mamertines of these cities, as one allowed that Verres brought stolen articles together, he exported stolen goods through another. 
             </translation>
         </marginalia>
         
@@ -62,12 +63,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Hoc p[ro]pter Marcellinu[m dicit Hoc p[ro]pter Alteru[m] Marcellu[m] [Ciceronis Respo[n]sia deleted]
+                        Hoc p[ro]pter Marcellinu[m] dicit Hoc p[ro]pter Alteru[m] Marcellu[m] [Ciceronis Respo[n]sia - deleted]
                     </marginalia_text>
+                    <person name="Marcellinus"/>
                 </position>
             </language>
             <translation>
-                
+                On account of this he appoints Marcellinus. On account of this [he appoints] another Marcellus. [Cicero's response - deleted].
             </translation>
         </marginalia>
         
@@ -76,13 +78,15 @@
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Exorditur co[n]firmatione[m] ab occupa
-                        lex de permijs repetu[n]dis
+                        lex de pecunijs repetu[n]dis
                         lex socialis
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                He commences the confirmation from the [seizure] <!--JG: Unsure abt occupa-->
+                The extortion law [Loeb 221, 17].
+                The social law.
             </translation>
         </marginalia>
         
@@ -90,12 +94,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Sicili[a]e toti[us] co[n]sensus diuis
+                        Sicili[a]e toti[us] co[n]sensus. diuis. <!--JG: Unsure abt diuis-->
                     </marginalia_text>
+                    <location name="Sicily"/>
                 </position>
             </language>
             <translation>
-                
+                The agreement of all Sicily. For the gods.
             </translation>
         </marginalia>
         
@@ -108,7 +113,7 @@
                 </position>
             </language>
             <translation>
-                
+                Proof from the indecent.
             </translation>
         </marginalia>
         
@@ -121,7 +126,7 @@
                 </position>
             </language>
             <translation>
-                
+                Apostrophy.
             </translation>
         </marginalia>
         
@@ -160,7 +165,7 @@
                 </position>
             </language>
             <translation>
-                
+                Insertion.
             </translation>
         </marginalia>
         
@@ -168,19 +173,19 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Preoccupatio
+                        Preocupatio
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Preposition.
             </translation>
         </marginalia>
         
         <marginalia hand="Italian">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
+                    <marginalia_text> <!--JG: Greek needed-->
                         
                     </marginalia_text>
                 </position>
@@ -199,7 +204,7 @@
                 </position>
             </language>
             <translation>
-                
+                Division.
             </translation>
         </marginalia>
         
@@ -207,12 +212,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Pysiua
+                        Pysma
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                A question.
             </translation>
         </marginalia>
         
@@ -228,7 +233,6 @@
                 Repetition.
             </translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="videto ne nimium familiariter inimicitias exercere videare"/>
         <underline method="pen" type="straight" language="LA" text="vt aut causa mihi suscipienda fuerit, aut officium necessitudinis"/>
