@@ -6,13 +6,13 @@
     <page filename="122.tif" reader="John Dee" pagination="116" signature="[h 2[v]]"/>
     <annotation> 
         
-        <marginalia hand="Italian" anchor_text="esse qui nihil ab eo scriptum putent"> <!-- FSF: I am not sure about the anchor; I think this is just an indication that this page is about the Greek writers -->
+        <marginalia hand="Italian"> 
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Gra[e]ci Scriptores</marginalia_text>
                 </position>
             </language>
-            <translation>Greek writings.</translation> <!-- FSF: I think it is rather Greek writers. -->
+            <translation>Greek writers.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Isocrates">
@@ -108,7 +108,7 @@
         <marginalia hand="Italian" anchor_text="C. Valgius">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>G[aius] Valgius</marginalia_text> <!-- FSF: I'd read it as a C -->
+                    <marginalia_text>C Valgius</marginalia_text> 
                     <person name="Valgius Rufus"/>
                 </position>
             </language>
