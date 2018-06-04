@@ -419,6 +419,7 @@
         <xs:restriction base="xs:token">
           <xs:enumeration value="ampersand"/>
           <xs:enumeration value="apostrophe"/>
+          <xs:enumeration value="arrow"/>
           <xs:enumeration value="box"/>
           <xs:enumeration value="bracket"/>
           <xs:enumeration value="circumflex"/>
@@ -524,6 +525,7 @@
           <xs:enumeration value="sword"/>
           <xs:enumeration value="ship"/>
           <xs:enumeration value="dragon"/>
+          <xs:enumeration value="scroll"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
