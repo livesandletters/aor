@@ -23,12 +23,15 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        sup[ra] <!-- FSF: not sure if the numbers after are page numbers? -->
+                        sup[ra], 138.136.
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v1:0166" text="138.136"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
-                
+                See above, p. 138, section 136.
             </translation>
         </marginalia>
         
@@ -105,17 +108,23 @@
                     <marginalia_text>
                         Isocrates
                     </marginalia_text>
+                    <person name="Isocrates"/>
                 </position>
             </language>
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        <!-- FSF: to be added -->
+                        <!-- FSF: Greek needed -->
                     </marginalia_text>
                 </position>
             </language>
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>prima sententia.</marginalia_text>
+                </position>
+            </language>
             <translation>
-                
+                Isocrates...
             </translation>
         </marginalia>
         
