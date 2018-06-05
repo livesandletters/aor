@@ -15,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                A province, rich and ancient.
+                A rich and ancient province.
             </translation>
         </marginalia>
         
@@ -36,7 +36,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        pictura in tabulus textilis
+                        pictura in tabulis textilis
                     </marginalia_text>
                 </position>
             </language>
@@ -49,7 +49,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        esse vna in amore delitijs
+                        esse vna in amore delicijs
                     </marginalia_text>
                 </position>
             </language>
@@ -62,8 +62,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        domus { locupletiss[im]a optima notiss[ima] apertiss[ima] macime p[er]hospitalis ornata <!-- FSF: I am not sure if it is the number 151 next to the locuplentissima -->
+                        domus { locupletiss[im]a. 151 &Phi; optima notiss[ima] apertiss[ima] macime p[er]hospitalis ornata
                     </marginalia_text>
+                    <symbol_in_text name="Phi"/>
+                    <internal_ref>
+                        <target ref="RCP10549-50v1:0179:s0001" text="151"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
@@ -117,11 +121,11 @@
                     <marginalia_text>
                         hercules egregi&egrave; factus ex aere
                     </marginalia_text>
-                    <person name="Hercules"/> <!-- FSF: this seems to be a statue, so I am not sure if Hercules should be captured or not -->
+                    <person name="Hercules"/>
                 </position>
             </language>
             <translation>
-                Hercules, excellently made from air.
+                Hercules, excellently made from bronze.
             </translation>
         </marginalia>
         
