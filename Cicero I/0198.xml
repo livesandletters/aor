@@ -51,6 +51,7 @@
                     <marginalia_text>
                         Syracus[a]e
                     </marginalia_text>
+                    <location name="Syracuse"/>
                 </position>
             </language>
             <translation>
@@ -62,12 +63,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Rex hieron. <!-- FSF: I think it is him https://en.wikipedia.org/wiki/Hiero_II_of_Syracuse -->
+                        Rex hieron. 
                     </marginalia_text>
+                    <person name="Hiero II of Syracuse"/>
                 </position>
             </language>
             <translation>
-                
+                Hiero II of Syracuse.
             </translation>
         </marginalia>
         
@@ -145,11 +147,11 @@
                     <marginalia_text>
                         Neapolis
                     </marginalia_text>
-                    <location name="Neapolis"/> <!-- FSF: obviously, there are many Neapolis; it is this one here http://www.sicily.co.uk/things_to_do/archaeological-park-of-the-neapolis/; I am not sure how to distinguish it from others -->
+                    <location name="Neapolis, Sicily"/> 
                 </position>
             </language>
             <translation>
-                Neapolis
+                Neapolis (Sicily).
             </translation>
         </marginalia>
         
@@ -175,7 +177,7 @@
                 </position>
             </language>
             <translation>
-                Destroy and erase.
+                To destroy and erase.
             </translation>
         </marginalia>
         
