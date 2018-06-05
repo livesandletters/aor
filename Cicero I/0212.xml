@@ -67,21 +67,18 @@
                 </position>
             </language>
             <translation>
-                To give coice and distinguished council.
+                To give select and distinguished council.
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
-            <language ident="LA">
+        <marginalia hand="English_secretary" anchor_text="se id, quod &agrave; malo authore emissent, diutius obtinere non posse">
+            <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        yll gotte[m] goodis is sone spe[n]te <!-- FSF: I have no clue what language this is -->
+                        yll gotte[n] goodis is sone spe[n]te 
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Cedo">
@@ -124,6 +121,8 @@
         <numeral place="left_margin">21</numeral>
         <numeral place="left_margin">10</numeral>
         <numeral place="left_margin">21</numeral>
+        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> <!--JG: variant of the florilegium?-->
         
     </annotation>
 </transcription>

@@ -107,7 +107,7 @@
                 </position>
             </language>
             <translation>
-                
+                Quadrireme.
             </translation>
         </marginalia>
         
@@ -120,7 +120,7 @@
                 </position>
             </language>
             <translation>
-                Quadrireme.
+                A ship splendid in sight.
             </translation>
         </marginalia>
         
@@ -182,12 +182,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Portus ediss[a]e <!-- FSF: I am not sure where that is; it is not Edessa, is it? -->
+                        Portus ediss[a]e <!-- JG: Loeb mentions Pachynus instead of Edessa. Loeb 293, 565-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                The port of Edessa.
             </translation>
         </marginalia>
         
@@ -216,6 +216,14 @@
             <translation>
                 The mast to be hoisted, sails to be set, the anchor cable to be cut, with an incredible speed, to make use of the oars.
             </translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="speciem">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>to be to</marginalia_text>
+                </position>
+            </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Quid prim&ugrave;m aut accusem"/>
@@ -250,11 +258,8 @@
         <numeral place="right_margin">19</numeral>
         <numeral place="right_margin">18</numeral>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
-        
-        <!-- FSF: there is some note or so in the text over the word speciem; I am not sure what it is to x to or 40 50 40? -->
-        
-        <!-- FSF: maybe the drawing boat could be added -->
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="ship" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
