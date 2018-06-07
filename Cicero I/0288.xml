@@ -94,7 +94,7 @@
         <underline method="pen" type="straight" language="LA" text="ego aute[m] mea existimo interesse, me nulla in disputatione ab Actio videri esse superatu[m]"/>
         <underline method="pen" type="straight" language="LA" text="nolo quenqua[m] eorum qui assunt, existimare me, quae de lege ab Actio dicta sunt, si reticuerim, co[m]probare"/>
         
-        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- with tail -->
+       
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
@@ -105,7 +105,8 @@
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">11</numeral>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="leges"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
