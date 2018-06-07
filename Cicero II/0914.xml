@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,37 +6,64 @@
     <page filename="0914.tif" reader="John Dee" pagination="356" signature="[Zz.ii.[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="[Pythago]ram &amp; Periclem">
+        <marginalia hand="Italian" anchor_text="[Pythago]ram">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Pythagoras. Pericles</marginalia_text>
                     <person name="Pythagoras"/>
+                </position>
+            </language>
+            <translation>Pythagoras.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Periclem">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Pericles</marginalia_text>
                     <person name="Pericles"/>
                 </position>
             </language>
-            <translation>Pythagoras and Pericles.</translation>
+            <translation>Pericles.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Annibalem ex Poenorum, ex nostris ducibus Q. Fabium Maximum">
+        <marginalia hand="Italian" anchor_text="Annibalem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Annibal Q[uintus] fabuis Max[imus].</marginalia_text>
+                    <marginalia_text>Annibal.</marginalia_text>
                     <person name="Hannibal"/>
+                </position>
+            </language>
+            <translation>Hannibal.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Q. Fabium Maximum">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Q[uintus] fabius Max[imus].</marginalia_text>
                     <person name="Quintus Fabius Maximus Verrucosus"/>
                 </position>
             </language>
             <translation>Hannibal, Quintus Fabius Maximus.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Themistoclem &amp; Pheraeum Iasonem">
+        <marginalia hand="Italian" anchor_text="Themistoclem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Themistocles. Easoy</marginalia_text>
+                    <marginalia_text>Themistocles. Iason</marginalia_text>
                     <person name="Themistocles"/>
+                </position>
+            </language>
+            <translation>Themistocles.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Iasonem">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Iason</marginalia_text>
                     <person name="Jason of Pherae"/>
                 </position>
             </language>
-            <translation>Themistocles and Jason.</translation>
+            <translation>Jason.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Solonis">
@@ -50,15 +76,24 @@
             <translation>Solon.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Syllam &amp; M[arcus] Crassum">
+        <marginalia hand="Italian" anchor_text="Syllam">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Sylla. Crassus.</marginalia_text>
                     <person name="Sulla"/>
+                </position>
+            </language>
+            <translation>Sulla.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="M[arcus] Crassum">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Crassus.</marginalia_text>
                     <person name="Marcus Licinius Crassus"/>
                 </position>
             </language>
-            <translation>Sulla, Marcus Crassus.</translation>
+            <translation>Marcus Crassus.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Lysandru[m]">
@@ -89,7 +124,7 @@
                     <person name="Quintus Lutatius Catulus (Capitolinus)"/> 
                 </position>
             </language>
-            <translation>Catulus.</translation>
+            <translation>Quintus Lutatius Catulus senior Quintus Lutatius Catulus Capitolinus</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Q. Mutio Mancino">
@@ -118,10 +153,10 @@
                     <marginalia_text>Contra natura[m] vniuersam co[n]tendamus.</marginalia_text>
                 </position>
             </language>
-            <translation>We must not oppose the universal laws of nature.</translation>
+            <translation>We must not oppose the universal nature.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Nihil decet inuita, vt aitu[m], Minerua">
+        <marginalia hand="Italian" anchor_text="Nihil decet inuita, vt aiu[n]t, Minerua">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Nihil facias invita Mineura</marginalia_text>
@@ -157,8 +192,7 @@
                     <person name="Julius Caesar"/>
                 </position>
             </language>
-            <translation>Caesar
-            </translation>
+            <translation>Caesar</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Vlysses">
@@ -184,10 +218,10 @@
         <marginalia hand="Italian" anchor_text="quid quisque habeat sui">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Suis quisq[ue] cotetus vinat.</marginalia_text>
+                    <marginalia_text>Suis quisq[ue] co[n]te[n]tus viuat.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation></translation> <!-- FSF: not sure about a translation -->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="histrio">
@@ -211,10 +245,10 @@
         <marginalia hand="Italian" anchor_text="personis quas supr&agrave; dixi, tertia adiungitur, quam casus aliquis ait te[m]pus imponit. Quarta etia[m]">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Tertia persoma fortuita Quarta</marginalia_text>
+                    <marginalia_text>Tertia persona fortuita Quarta</marginalia_text>
                 </position>
             </language>
-            <translation>Third character [imposed by] by chance and a fourth [character by deliberate choice].</translation>
+            <translation>Third character [imposed by] by chance and a fourth.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="regna, imperia, nobilitates, honores, diuitiae, opers">
@@ -226,42 +260,33 @@
             <translation>Regal powers, empires, nobilities, honours, wealth and influence.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="discrepantiam conferre debemus. Atque haec differentia">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>distripatia diffirintia</marginalia_text>
+                    <marginalia_text>discrepa[n]tia differentia</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Discrepancies, differences.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="lenior eorum vita, &amp; mores fuerant faciliores">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>l?mor Vita</marginalia_text>
+                    <marginalia_text>lenior Vita mores faciliores.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Lighter life, easier loves.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="adhibe[n]da erit cura, meditatio, dilige[n]tia">
+        <marginalia hand="Italian" anchor_text="adhibe[n]da erit cura, meditatio, dilige[n]tia ... enitendum">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>adhibi[n]da erit cura meditatio dilige[n]tia </marginalia_text>
+                    <marginalia_text>adhibi[n]da erit cura meditatio dilige[n]tia enitendum</marginalia_text>
                 </position>
             </language>
-            <translation>We should devote thought, practice and pains.</translation>
+            <translation>We should devote ourselves to and bring forth thought, practice and pains.</translation>
         </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
-                <position place="tail" book_orientation="0">
-                    <marginalia_text>???dum</marginalia_text>
-                </position>
-            </language>
-            <translation></translation>
-        </marginalia>
-        
+    
         <underline method="pen" type="straight" language="LA" text="prim&iacute;sque versutum"/>
         <underline method="pen" type="straight" language="LA" text="conatus perditos vindicauit"/>
         <underline method="pen" type="straight" language="LA" text="naturae regula metiamur"/>
@@ -282,4 +307,3 @@
         
     </annotation>
 </transcription>
-
