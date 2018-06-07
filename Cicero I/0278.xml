@@ -15,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                To have many or severe causes.
+                To have many [or] severe causes.
             </translation>
         </marginalia>
         
@@ -87,8 +87,6 @@
         <mark name="circumflex" method="pen" place="intext"/> <!-- FSF: under the first line, right side -->
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- with tail -->
-        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- with tail -->
         
         <numeral place="left_margin">15</numeral>
         <numeral place="left_margin">10</numeral>
@@ -105,7 +103,9 @@
         <numeral place="left_margin">10</numeral>
         <numeral place="left_margin">18</numeral>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Sapie[n]tiss[imus]"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Stultus"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
