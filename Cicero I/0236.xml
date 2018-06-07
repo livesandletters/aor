@@ -23,10 +23,10 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        sup[ra] 270
+                        sup[ra] 270.11
                     </marginalia_text>
                     <internal_ref>
-                        <target ref="RCP10549-50v1:0298" text="270"/>
+                        <target ref="RCP10549-50v1:0235" text="270.11"/> <!--JG: Probably Dee made a mistake and referred to the previous page, 207 (and section 11 of this page)-->
                     </internal_ref>
                 </position>
             </language>
@@ -123,7 +123,7 @@
                 </position>
             </language>
             <translation>
-                Customs during war.
+                The custom during wars.
             </translation>
         </marginalia>
         
@@ -160,7 +160,6 @@
                     <marginalia_text>
                         ho[m]i[n]es immolati
                     </marginalia_text>
-                    <emphasis method="pen" type="straight"/> <!-- FSF: it is kind of boxed -->
                 </position>
             </language>
             <translation>
@@ -201,14 +200,15 @@
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
+        <mark name="box" method="pen" place="left_margin" language="LA" text="ho[m]i[n]es immolati"/>
         
         <numeral place="left_margin">18</numeral>
         <numeral place="left_margin">11</numeral>
         <numeral place="left_margin">15</numeral>
         <numeral place="left_margin">16</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>

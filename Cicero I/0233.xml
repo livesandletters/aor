@@ -52,12 +52,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        vn[a]e tabul[a]e
+                        vn[a]e tabul[a]e <!--JG: Compare with Loeb edition (252, p. 315)-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                One piece of evidence.
+                Single pieces of evidence.
             </translation>
         </marginalia>
         
@@ -104,11 +104,15 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
+        <!-- FSF: there are four crosses in the right margin -->
+        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="right_margin"/>
+        <mark name="plus_sign" method="pen" place="right_margin"/>
+        
         <numeral place="right_margin">3</numeral>
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">15</numeral>
-        
-        <!-- FSF: there are four crosses in the right margin -->
         
     </annotation>
 </transcription>
