@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -14,13 +13,14 @@
                     <person name="Cratippus of Pergamon"/>
                 </position>
             </language>
-            <translation>Cratippus.</translation>
+            <translation>Cratippus of Pergamon.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Athenis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Athenae.</marginalia_text>
+                    <location name="Athens"/>
                 </position>
             </language>
             <translation>Athens.</translation>
@@ -32,7 +32,7 @@
                     <marginalia_text>Cum gra[e]cis latina co[n]inuge.</marginalia_text>
                 </position>
             </language>
-            <translation>Greek joined with the Latin.</translation>
+            <translation>Join Latin with Greek.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="qua[m]diu voles: tandiu aute[m] velle debebis">
@@ -59,7 +59,7 @@
                     <marginalia_text>or[ation]es Ciceronis. Philosophia</marginalia_text>
                 </position>
             </language>
-            <translation>Cicero's orations. Philosophical</translation>
+            <translation>Cicero's speeches. Philosophica.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="fore[n]se dicendi, &amp; hoc quietu[m] disputandi genus">
@@ -93,7 +93,7 @@
                     <book title="De Officiis"/>
                 </position>
             </language>
-            <translation>De officis.</translation>
+            <translation>De officiis.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="officii praeceptis tradendis philosophu[m]">
@@ -145,28 +145,28 @@
         <marginalia hand="Italian" anchor_text="grauissime &amp; copiosissime potuisse dicere">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>dicere grauissime copiosissimeq[ue]</marginalia_text>
+                    <marginalia_text>dicere grauissime copiosissim&egrave;q[ue]</marginalia_text>
                 </position>
             </language>
-            <translation>Spoken most powerfully and most copiously.</translation>
+            <translation>To speak most powerfully and most copiously.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ornat&egrave; spendid&eacute;que">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>facere ornato splendidi</marginalia_text> <!-- M.B. Not sure of first word. -->
+                    <marginalia_text>facere ornato splendidi</marginalia_text>
                 </position>
             </language>
-            <translation>Performed gracefully and elegantly.</translation>
+            <translation>To make gracefully and elegantly.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="accurat&egrave; copios&eacute;que &agrave; philosophis disputata">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>disp[utata] accuratio copiosio</marginalia_text>
+                    <marginalia_text>disp[utare] accurate copiose</marginalia_text>
                 </position>
             </language>
-            <translation>Accurately and copiously argued.</translation>
+            <translation>To argue accurately and copiously.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="id mihi assumo, videor id meo iure quoda[n]modo vendicare">
@@ -184,19 +184,18 @@
                     <marginalia_text>officij pr[aec]epta { firma stabilia co[n]iuncta natur[a]e</marginalia_text>
                 </position>
             </language>
-            <translation>Precepts on duties { solid, constant, steadfast to nature. </translation>
+            <translation>Precepts on duties { solid, constant, steadfast to nature.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="si sibi consentaneae velint esse">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>conse[n]teri sibi si sibi co[n]sentaneus esse veli[nt]</marginalia_text>
+                    <marginalia_text>conse[n]tire sibi si sibi co[n]se[n]taneus esse veli[nt]</marginalia_text>
                 </position>
             </language>
             <translation>Consistent with, if it would be consistent with itself.</translation> 
         </marginalia>
        
-        
         <underline method="pen" type="straight" language="LA" text="abundare oportet praeceptis"/>
         <underline method="pen" type="straight" language="LA" text="faciendum, vt par sis in vtriusque orationis facultate"/>
         <underline method="pen" type="straight" language="LA" text="principe huius aetatis philosophoru[m]"/>
@@ -218,8 +217,8 @@
         
         <mark name="tripunctus" method="pen" place="right_margin"/>
         <mark name="X_sign" method="pen" place="left_margin"/>
+        
         <numeral place="right_margin" language="LA" text="in hoc numero haberi potest">12</numeral>
         
     </annotation>
 </transcription>
-

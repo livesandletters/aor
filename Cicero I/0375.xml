@@ -12,6 +12,7 @@
                     <marginalia_text>
                         Ex hoc loco colligi p[ossun]t o[mn]es Ciceronis or[ati]o[n]es non extare
                     </marginalia_text>
+                    <person name="Cicero"/>
                 </position>
             </language>
             <translation>
@@ -29,7 +30,7 @@
                 </position>
             </language>
             <translation>
-                M. Acillius.
+                Manius Acilius Glabrio.
             </translation>
         </marginalia>
         
@@ -56,7 +57,7 @@
                 </position>
             </language>
             <translation>
-                G. Piso.
+                Gaius Calpurnius Piso.
             </translation>
         </marginalia>
         
@@ -83,7 +84,7 @@
                 </position>
             </language>
             <translation>
-                
+                Quintus Minucius Thermus.
             </translation>
         </marginalia>
         
@@ -119,6 +120,9 @@
                     <marginalia_text>
                         Cilicia Hispania Creta ] Proui[n]cia[e]
                     </marginalia_text>
+                    <location name="Cicilia"/> <!-- https://en.wikipedia.org/wiki/Cilicia_(Roman_province) -->
+                    <location name="Crete"/>
+                    <location name="Iberian Peninsula"/> <!-- https://en.wikipedia.org/wiki/Hispania -->
                 </position>
             </language>
             <translation>
@@ -203,7 +207,7 @@
                 </position>
             </language>
             <translation>
-                L. Flaccus.
+                Lucius Valerius Flaccus.
             </translation>
         </marginalia>
         
@@ -233,9 +237,10 @@
         <numeral place="right_margin">3</numeral>
         <numeral place="right_margin">18</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="Ex hoc loco colligi p[ossun]t o[mn]es Ciceronis or[ati]o[n]es non extare"/>
+        
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="bellum"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="fortitudo consta[n]tia"/>
         
     </annotation>
 </transcription>
