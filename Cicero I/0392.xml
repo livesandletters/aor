@@ -10,12 +10,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        [forensi strepitu refici; deleted]
+                        [forensi strepitu refici - deleted]
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                To refresh after the public noise.
+                [To refresh after the public noise].
             </translation>
         </marginalia>
         
@@ -133,7 +133,7 @@
                 </position>
             </language>
             <translation>
-                Life
+                Life.
             </translation>
         </marginalia>
         
@@ -154,7 +154,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        HOmines
+                        Homines
                     </marginalia_text>
                 </position>
             </language>
@@ -185,7 +185,7 @@
                 </position>
             </language>
             <translation>
-                
+                Nature, extraordinary and illustrious.
             </translation>
         </marginalia>
         
@@ -198,7 +198,7 @@
                 </position>
             </language>
             <translation>
-                
+                Nature without study is worth more that study without nature.
             </translation>
         </marginalia>
         
@@ -227,19 +227,19 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- with tail -->
-        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- with tail -->
         
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">10</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="tail" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="studiu[m] Ciceronis"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Oratio"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="VITA"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> <!--JG: Variant-->
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Homines"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="Natura sine doctrina plus valet qu&agrave;m doctrina sine natura"/>
         
     </annotation>
 </transcription>

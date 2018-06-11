@@ -15,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                Certain people think that glory and praise after their death will vanish from our senses. They thought that some part of the soul pertains.
+                Certain people think that our glory and praise after their death will vanish from our senses. They thought that some part of the soul pertains.
             </translation>
         </marginalia>
         
@@ -36,7 +36,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        effigies [ su[m]mss ingenijs exp[re]ssa polita
+                        effigies [ su[m]mis ingenijs exp[re]ssa polita
                     </marginalia_text>
                 </position>
             </language>
@@ -80,7 +80,7 @@
                 </position>
             </language>
             <translation>
-                To speak brief and frank.
+                To speak briefly and frankly.
             </translation>
         </marginalia>
         
@@ -169,8 +169,6 @@
         <underline method="pen" type="straight" language="LA" text="Res familiaris sua que[m]que delectar. reliquae"/>
         <underline method="pen" type="straight" language="LA" text="Amicitiae, consuetudines, vicinitates, clientelae, ludi denique, &amp; dies festi, quid haberent voluptatis, carendo magis"/>
         
-        <mark name="tripunctus" method="pen" place="head"/> <!-- with tail -->
-        <mark name="tripunctus" method="pen" place="right_margin"/> <!-- with tail -->
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
@@ -181,9 +179,11 @@
         <numeral place="right_margin">15</numeral>
         <numeral place="right_margin">18</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="Quida[m] puta[n]t gloria[m] &amp; laudem nostraru[m] post mortem a sensu n[ost]ro abfutura Quidam ad aliquam animi partem pertinere putaueru[n]t"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Liberi"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Res familiaris"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Absentia boni"/>
         
     </annotation>
 </transcription>
