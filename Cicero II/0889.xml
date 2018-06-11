@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0889.tif" reader="John Dee" pagination="331" signature="Yy.i."/> 
+    <page filename="0889.tif" reader="John Dee" pagination="331" signature="[Xx.vi.]"/> 
     <annotation>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Obseri</marginalia_text> <!-- M.B. Not certain. -->
+                    <marginalia_text>Obseri</marginalia_text> 
                 </position>
             </language>
             <translation>To bar.</translation>
@@ -28,7 +27,7 @@
         <marginalia hand="Italian" anchor_text="sepulcrorum magnificentia[m] esse minuendam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Sepulchrou[m] magnificetia minuenda.</marginalia_text>
+                    <marginalia_text>Sepulchrou[m] magnifice[n]tia minuenda.</marginalia_text>
                 </position>
             </language>
             <translation>The greatness of tombs is diminished.</translation>
@@ -43,7 +42,7 @@
             <translation>For the burial of the body in the earth.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="epulae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Epula[e]</marginalia_text>
@@ -58,16 +57,16 @@
                     <marginalia_text>funera sumptuosa lame[n]tabili&aacute;q[ue]</marginalia_text>
                 </position>
             </language>
-            <translation>Extravagance in funerals and mourning.</translation>
+            <translation>A funeral, extravagant and lamentable.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="TYMOBON">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>TYMBOS</marginalia_text> <!-- M.B. Not sure of the marking before 'T'. -->
+                    <marginalia_text>TYMBOS</marginalia_text>
                 </position>
             </language>
-            <translation>Burial Mound.</translation> <!-- M.B. Appears to be a Latinization of τύμβον see: https://books.google.co.uk/books?id=WBmyTsFEHEUC&pg=PA135&dq=tymbos+definition&hl=en&sa=X&ved=0ahUKEwij5vqn1tHWAhUMUlAKHU4bC7EQ6AEIJjAA#v=onepage&q=tymbos%20definition&f=false -->
+            <translation>Burial Mound.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Ceramico">
@@ -89,22 +88,40 @@
             <translation>Enormous tombs.</translation>
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="celebritas virorum, ac mulierum">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Celebritas Viroru[m], mulieru[m]q[ue]</marginalia_text>
+                </position>
+            </language>
+            <translation>A feast for men and women.</translation>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="ante lucuem enim iussit efferri">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Ante luc[a]e effirenda funera</marginalia_text>
+                    <marginalia_text>Ante luce[m] efferenda funera</marginalia_text>
                 </position>
             </language>
             <translation>Funerals should be carried out before daybreak.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="terra fruges ferre">
+        <marginalia hand="Italian" anchor_text="fruges">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>finges terra mr</marginalia_text> <!-- M.B. Not sure of contraction perhaps 'mortvvs'?? -->
+                    <marginalia_text>fruges</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Crops</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="mater">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>terra m[ate]r</marginalia_text>
+                </position>
+            </language>
+            <translation>Mother earth.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="laudem mortui incisam">
@@ -113,19 +130,19 @@
                     <marginalia_text>Laus mortui incisa</marginalia_text>
                 </position>
             </language>
-            <translation>In praise of the deceased, inscribed.</translation>
+            <translation>The inscribed praise of the deceased.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="tranquillitate bonorum, poenis impiorum">
+        <marginalia hand="Italian" anchor_text="post mortem tranquillitate bonorum, poenis impiorum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Tranquillitas morti bonoru[m], poen[a]e impioru[m].</marginalia_text>
+                    <marginalia_text>Tranquillitas post morte[m] bonoru[m], po[e]n[a]e impioru[m].</marginalia_text>
                 </position>
             </language>
-            <translation>The tranquil rest after a good death and the punished of the wicked.</translation>
+            <translation>The tranquil after the death of the good and the punishments of the wicked.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>pra[e]finiri</marginalia_text>
@@ -161,4 +178,3 @@
         
     </annotation>
 </transcription>
-
