@@ -10,12 +10,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Pop. Ro. <!-- FSF: hidden in the gutter -->
+                        Pop. Ro. autho[ri]tas 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                The authority of the Roman people.
             </translation>
         </marginalia>
         
@@ -80,7 +80,7 @@
                 </position>
             </language>
             <translation>
-                To beseech humbly quietly and carefully.
+                To beseech humbly and carefully.
             </translation>
         </marginalia>
         
@@ -183,9 +183,9 @@
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">18</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="vulgo"/>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Gradus"/>
         
     </annotation>
 </transcription>
