@@ -6,7 +6,7 @@
     <page filename="0895.tif" reader="John Dee" pagination="337" signature="Yy.i."/> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="nectus, sed etuam sublatus">
+        <marginalia hand="English_secretary" anchor_text="nectus, sed etuam sublatus">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>nectus sublatus</marginalia_text>
@@ -15,22 +15,22 @@
             <translation>Neglected, abolished.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>vim { iusindi sidani.</marginalia_text>
+                    <marginalia_text>vim { intendi sedari.</marginalia_text>
                 </position>
             </language>
-            <translation>Power { ?, allayed</translation>
+            <translation>Power { to be exerted, to be restrained.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="vis populi multo veheme[n]tior mult&oacute;que saeuior">
+        <marginalia hand="English_secretary" anchor_text="vis populi multo veheme[n]tior mult&oacute;que saeuior">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>vis vehemetior sa[e]vior.</marginalia_text>
                 </position>
             </language>
-            <translation>Power is more furious and more violent,</translation>
+            <translation>Power is more furious and more violent.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="populis impetus">
@@ -78,13 +78,24 @@
             <translation>Envy.</translation>
         </marginalia>
         
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Cic[eronis] Exilium.</marginalia_text>
+                    <person name="Cicero"/>
+                </position>
+            </language>
+            <translation>Cicero's exile.</translation>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="philosophi qui Athenis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Philosophi. Athena[e].</marginalia_text>
+                    <location name="Athens"/>
                 </position>
             </language>
-            <translation>Athenian philosophers.</translation>
+            <translation>Philosophers in Athens.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Pompeiu[m]">
@@ -109,7 +120,7 @@
         <marginalia hand="Italian" anchor_text="Senatua dominus sut publici co[n]silii">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Senatus Do[m]i[n]us pub co[n]silij</marginalia_text>
+                    <marginalia_text>Senatus Do[m]i[n]us pub[licis] co[n]silij</marginalia_text>
                 </position>
             </language>
             <translation>The senate is the leader of public policy.</translation>
@@ -118,16 +129,17 @@
         <marginalia hand="Italian" anchor_text=" moderatus &amp; co[n]cors ciuitatis status">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Moderatus &amp; co[n]cors ciuitatis status tenendas</marginalia_text>
+                    <marginalia_text>Moderatus &amp; co[n]cors Ciuitatis status tenendus</marginalia_text>
                 </position>
             </language>
-            <translation>The managed and harmonious community is to be restrained.</translation>
+            <translation>The managed and harmony of community are to be maintained.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="VITIO CARETO">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>o[mn]i vitio carere C. deb.</marginalia_text> <!-- M.B. Not sure of the last two contractions. -->
+                    <!-- FSF: I am not sure either; maybe Cicero debet? (Cicero must lack every vice)? -->
                 </position>
             </language>
             <translation>All vice without [..]</translation>
@@ -139,19 +151,19 @@
                     <marginalia_text>Educatio &amp; disciplina o[mn]i vitio carere faciet.</marginalia_text>
                 </position>
             </language>
-            <translation>Education and training everyone without producing vices.</translation>
+            <translation>Education and training will make all vice disappear.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="aequari">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>A[e]q[ua]litas</marginalia_text>
+                    <marginalia_text>&AElig;q[ua]litas</marginalia_text>
                 </position>
             </language>
             <translation>Equality.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="Athenis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Exiliu[m]</marginalia_text>
@@ -160,25 +172,25 @@
             <translation>Exile.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="temperatio">
+        <marginalia hand="English_secretary" anchor_text="temperatio">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>temp[er]amitio. temp[er]atio.</marginalia_text> <!-- M.B. Not sure of the first word. -->
+                    <marginalia_text>temp[er]ame[n]tu[m]. temp[er]atio.</marginalia_text>
                 </position>
             </language>
-            <translation>tempering.</translation>
+            <translation>Moderation, temperation.</translation>
         </marginalia>
          
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>optimi.</marginalia_text>
+                    <marginalia_text>optime dulcissime</marginalia_text>
                 </position>
             </language>
-            <translation>Most perfect.</translation>
+            <translation>Perfectly, most sweetly.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Cooptatio</marginalia_text>
