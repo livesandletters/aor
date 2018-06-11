@@ -241,9 +241,6 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="etiam turpis"/>
@@ -256,12 +253,10 @@
         <symbol name="Sextile" place="right_margin"/>
         
         <mark name="comma" method="pen" place="intext"/> <!-- voluit popularis; bottom third -->
-        <mark name="tripunctus" method="pen" place="intext" language="LA" text="stropho"/> <!-- with tail; bottom third -->
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="right_margin"/>
         
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">12</numeral>
@@ -274,7 +269,9 @@
         <numeral place="right_margin">18</numeral>
         <numeral place="right_margin">21</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Discordia"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="a maydens kychef o lymie[n] partlet"/> <!--JG: Unsure abt anchor text-->
+        <drawing type="florilegium" book_orientation="0" place="intext" method="pen" anchor_text="strophio"/>
         
     </annotation>
 </transcription>
