@@ -33,13 +33,19 @@
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="pseudothyro">
-            <language ident="EN">
+            <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Pseudothyru[m] a false posterne
+                        Pseudothyru[m] 
                     </marginalia_text>
                 </position>
             </language>
+            <language ident="EN">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>a false posterne</marginalia_text>
+                </position>
+            </language>
+            <translation>A secret door.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="literas studere">
@@ -221,6 +227,8 @@
         <numeral place="left_margin">21</numeral>
         <numeral place="left_margin">21</numeral>
         <numeral place="left_margin">3</numeral>
+        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Magistri"/>
         
         <drawing type="house" book_orientation="0" place="left_margin" method="pen" anchor_text="domus mea"/> 
         
