@@ -18,10 +18,10 @@
         <marginalia hand="English_secretary" anchor_text="quod ad cunque">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>restrict&egrave; pra[e]sinio</marginalia_text>
+                    <marginalia_text>restrict&egrave; pra[e]finio</marginalia_text>
                 </position>
             </language>
-            <translation>To determine firmly.</translation>
+            <translation>I determine firmly.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ardentes cum cupiditate, tum metu, tum conscientia">
@@ -30,7 +30,7 @@
                     <marginalia_text>Ardentes { Cupiditate. Metu. Conscie[n]tia.</marginalia_text>
                 </position>
             </language>
-            <translation>Burning by desire, fear, conscience.</translation>
+            <translation>Burning by desire, fear, [and] conscience.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="duplice[m] poenam esse diuinam">
@@ -49,7 +49,7 @@
                     <person name="Plato"/>
                 </position>
             </language>
-            <translation>What one must be consecrate to the Gods, from Plato.</translation>
+            <translation>What ought to be consecrate to the Gods, from Plato.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="non solum scire aliquid artis est, sed quaedam ars etiam doce[n]di">
@@ -58,7 +58,7 @@
                     <marginalia_text>H[om]o solu[m] scire aliquid artis est sed etiam qua[e]da[m] est docendi ars</marginalia_text>
                 </position>
             </language>
-            <translation>Man only to know anything of art, but also art of learning something.</translation>
+            <translation>Man is only to know something of art, but also the art of teaching something.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="cum religione">
@@ -120,6 +120,8 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         
+        <!--JG: Unknown symbol in left margin, next to 'posito'-->
+        
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="X_sign" method="pen" place="head"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
@@ -132,8 +134,8 @@
         
         <errata language="LA" copytext="r" amendedtext="[deleted]"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="perpetua sint sacra"/>
         
     </annotation>
 </transcription>
