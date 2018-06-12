@@ -6,7 +6,7 @@
     <page filename="0516.tif" reader="John Dee" pagination="488" signature="[hhh.iiii.[v]]"/>
     <annotation>
         
-        <marginalia hand="English_secretary" anchor_text="Duarum ciuitatu[m] ciuis esse nostro iure ciuili nemo potest">
+        <marginalia hand="English_secretary" anchor_text="Duarum ciuitatu[m] ciuis esse nostro iure ciuili nemo potest" id="m0001">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -41,11 +41,11 @@
                 </position>
             </language>
             <translation>
-                In old records.
+                In older records.
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary" id="m0002" internal_ref="m0001">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -130,11 +130,11 @@
         
         <numeral place="left_margin">19</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Dicatio"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" />
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Jura"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Romulus"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="Quod si excaeptio facit, ne liceat: ibi necesse est licere, vbi non est excaeptum. vbi est"/>
         
     </annotation>
 </transcription>
