@@ -28,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                The fear of the nocturnal void, boy.
+                The fear of the nocturnal void. A boy.
             </translation>
         </marginalia>
         
@@ -41,7 +41,7 @@
                 </position>
             </language>
             <translation>
-                Son of the family.
+                A son under the control of his father. 
             </translation>
         </marginalia>
         
@@ -153,8 +153,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Tere[n]tius in a <!-- FSF: Greek -->
+                        Tere[n]tius in a 
                     </marginalia_text>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text></marginalia_text> <!-- FSF: Greek to be added-->
                 </position>
             </language>
             <translation>
@@ -217,7 +222,7 @@
                 </position>
             </language>
             <translation>
-                Camillus, Fabricius, Curius.
+                Marcus Furius Camillus, Gaius Fabricius Luscinus, Manius Curius Dentatus.
             </translation>
         </marginalia>
         
@@ -270,10 +275,10 @@
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">12</numeral>
 
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Natare"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Vidua Proterua Diues Libidinosa"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Gra[e]ci"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="NATVRA"/>
         
     </annotation>
 </transcription>
