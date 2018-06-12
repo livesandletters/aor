@@ -38,7 +38,6 @@
                     <marginalia_text>
                         Respublica Rom.
                     </marginalia_text>
-                    <location name="Rome"/>
                 </position>
             </language>
             <translation>
@@ -89,7 +88,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Defensores omptimatu[m]
+                        Defensores optimatu[m]
                     </marginalia_text>
                 </position>
             </language>
@@ -156,12 +155,12 @@
         <numeral place="right_margin">11</numeral>
         <numeral place="right_margin">12</numeral>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Numer[us]"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Optimates qui"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Ociu[m] cu[m] dignitate"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Otiosa[e] dignitatis officium"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Senatus authoritas"/>
         
     </annotation>
 </transcription>
