@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        delectus co[n]quisitio ] &agrave; <!-- FSF: not sure about the last word -->
+                        delectus co[n]quisitio ] &agrave; <!-- FSF: not sure about the last word --> <!--JG: Can't figure it out either-->
                     </marginalia_text>
                 </position>
             </language>
@@ -43,10 +43,11 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        negligeur or yll husbandrye
+                        negligent or yll husbandrye
                     </marginalia_text>
                 </position>
             </language>
+            <translation>Carelessness.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="pecuniam pendere">
@@ -222,9 +223,10 @@
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">21</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Bysa[n]tium"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Bysantiu[m]"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Semiramis"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Judei"/>
 
     </annotation>
 </transcription>
