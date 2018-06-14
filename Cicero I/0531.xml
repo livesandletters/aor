@@ -30,7 +30,7 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        a linel cloke.
+                        a littel cloke.
                     </marginalia_text>
                 </position>
             </language>
@@ -48,7 +48,7 @@
                 </position>
             </language>
             <translation>
-                S/he was of narrow and discouraged spirit.
+                He was of narrow and discouraged spirit.
             </translation>
         </marginalia>
         
@@ -79,7 +79,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="manupreciu[m]"> <!-- FSF: possibly a physical link to text? -->
+        <marginalia hand="English_secretary" anchor_text="manupreciu[m]" id="m001"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
@@ -163,7 +163,11 @@
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">18</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Praeterita"/>
+        
+        <physical_link>
+            <marginal_annotation idref="RCP10549-50v1:0531:m001"/> <!--JG: Link can't be established completely since the underline tag hasn't been used-->
+        </physical_link>
 
     </annotation>
 </transcription>
