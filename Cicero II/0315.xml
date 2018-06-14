@@ -5,7 +5,6 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="0315.tif" reader="John Dee" pagination="45"/>   
-    
     <annotation>
         
         
@@ -45,7 +44,7 @@
                     <marginalia_text>Coniectur[a]e.</marginalia_text>
                 </position>
             </language>
-            <translation>Of conjecture.</translation>
+            <translation>Conjectures.</translation>
         </marginalia>
         
         
@@ -105,7 +104,7 @@
                     <marginalia_text>multo potius</marginalia_text>
                 </position>
             </language>
-            <translation>For more instead.</translation>
+            <translation>Rather more.</translation>
         </marginalia>
         
         
@@ -114,25 +113,22 @@
         <underline method="pen" type="straight" language="LA" text="multo potius"/>
         
         
-        <mark name="X_sign" method="pen" place="head"/>
+        <mark name="X_sign" method="pen" place="head" language="LA" text="Occisio"/>
         <mark name="X_sign" method="pen" place="right_margin"/>
         
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="tail"/>
+        <mark name="plus_sign" method="pen" place="tail" language="LA" text="multo potius"/>
         
         
         <numeral place="right_margin">1</numeral>
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">2</numeral>
         
-        
         <errata language="LA" copytext="." amendedtext=","/>   <!-- dicemus Nunc -->
         
-        
-        <drawing type="florilegium" book_orientation="0" place="head" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="criminosior occisio"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
         
     </annotation>
-    
 </transcription>

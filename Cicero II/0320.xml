@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0320.tif" reader="John Dee" pagination="50" signature="[d.i.[v]]"/>   
-    
+    <page filename="0320.tif" reader="John Dee" pagination="50" signature="[d.i.[v]]"/>  
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="salsamentarii; faciebat audientia[m]">
             <language ident="LA">
@@ -112,12 +110,11 @@
         <marginalia hand="Italian" anchor_text="consequamur artis rationem studio, &amp; exercitatione: quod alii cu[m] molestia tribus de causis maxime faciunt">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Tres caus[a]e q[ui]a plurimi no[n] co[n]sequu[n]tur artis r[ati]o[n]em, studio &amp; exercitatione.</marginalia_text>  <!-- DO: Not sure if 'q[ui]a' or 'q[u]a'? -->
+                    <marginalia_text>Tres caus[a]e q[u]a plurimi no[n] co[n]sequu[n]tur artis r[ati]o[n]em, studio &amp; exercitatione.</marginalia_text>  <!-- DO: Not sure if 'q[ui]a' or 'q[u]a'? -->
                 </position>
             </language>
-            <translation>Three reasons why many people do not pursue the theory of the art, with study and practice.</translation>
+            <translation>Three reasons why many people do not pursue the theory of the art with study and practice.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="salsamentarii"/>
         <underline method="pen" type="straight" language="LA" text="cum aut res non egent longae orationis, aut tempus non sinit commorari"/>
@@ -126,12 +123,11 @@
         <underline method="pen" type="straight" language="LA" text="vaga multitudo"/>
         <underline method="pen" type="straight" language="LA" text="vt oratorie plan&egrave;"/>
       
-      
-        <mark name="tripunctus" method="pen" place="head"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>
+        <numeral place="head" language="LA" text="salsame[n]tarius">6</numeral>
+        <numeral place="left_margin">6</numeral>
         
-        <!-- DO: And unknown mark in head & left margin -->
-        
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="facere audientiam"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
         
     </annotation>
     
