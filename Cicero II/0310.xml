@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0310.tif" reader="John Dee" pagination="40" signature="[c.iiii.[v]]"/>   
-    
+    <page filename="0310.tif" reader="John Dee" pagination="40" signature="[c.iiii.[v]]"/> 
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="electius verbum; redintegratio verbi">
             <language ident="LA">
@@ -32,7 +30,7 @@
         <marginalia hand="Italian" anchor_text="Haec vtilis est exornatio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Ad quod vtilis occupatio.</marginalia_text>  <!-- DO: Not sure 'quod' or 'quot' -->
+                    <marginalia_text>Ad quod vtilis occupatio.</marginalia_text>  
                 </position>
             </language>
             <translation>Paralipsis for what use.</translation>
@@ -118,7 +116,6 @@
             <translation>By the roots, from the very bottom. ]</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="ad electius"/>
         <underline method="pen" type="straight" language="LA" text="Ad festiuitate[m] disiu[n]ctio"/>
         <underline method="pen" type="straight" language="LA" text="apposita. quare rarius vtemur ea, ne satietatem pariat. Ad breuitatem coniunctio"/>
@@ -129,17 +126,12 @@
         <underline method="pen" type="straight" language="LA" text="Esse oportet vt viuas, non viuere vt edas"/>
         <underline method="pen" type="straight" language="LA" text="Poema, loquens pictura est: pictura, tacitum poema"/>
         
-        
         <mark name="tripunctus" method="pen" place="head"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="head" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="redintegratio verbi"/>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
-        
-        
-        <!-- DO: There are also two other marks/symbols in the left margin and tail -->
-        
+        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="radicitus funditus"/>
         
     </annotation>
-    
 </transcription>
