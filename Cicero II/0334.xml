@@ -5,9 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="0334.tif" reader="John Dee" pagination="64"/>   
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Na[m] &amp; tu mulier optimum virum mauis habere, &amp; tu Xenophon vxorem habere lectissimam maxime vis. Quare nisi hoc perfeceritis, vt neque vir melio, neq[ue] foemina lectior in terris sit">
             <language ident="LA">
@@ -23,9 +21,12 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>discrete electe X co[n]fuse p[er]miste. disperse 76</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v1:0346:u0001" text="76"/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation>Separately, individually X at random, jointly, in a dispersed manner. 76.</translation>
+            <translation>Separately, individually - at random, jointly, in a dispersed manner. [Page] 76.</translation>
         </marginalia>
         
         
@@ -114,21 +115,16 @@
         <underline method="pen" type="straight" language="LA" text="Quare ratione rogationis imprudens"/>
         <underline method="pen" type="straight" language="LA" text="aut quoniam taciturnitas imitatur confessione[m]"/>
         
-        
-        <mark name="tripunctus" method="pen" place="head"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>
-        
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        <!-- DO: 4 other marks similar to florilegium -->
-        
-        
-        <numeral place="left_margin">2</numeral>       <!-- DO: Not sure if this is a '2' or just a curved end to the underlining? -->
         <numeral place="left_margin">.1.</numeral>
         <numeral place="left_margin">.2.</numeral>
         <numeral place="left_margin">.3.</numeral>
         
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="melior lectior optim[us] lectiss[us]"/>
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="discrete electe X co[n]fuse p[er]miste. disperse 76"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
-    
 </transcription>

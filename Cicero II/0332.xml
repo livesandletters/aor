@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0332.tif" reader="John Dee" pagination="62"/>   
-    
+    <page filename="0332.tif" reader="John Dee" pagination="62"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="instent in praesenrtia; cum tempore hoc differt">
             <language ident="LA">
@@ -32,7 +30,7 @@
         <marginalia hand="Italian" anchor_text="Hoc distribuitur in tria genera">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Occasio triplex</marginalia_text>      <!-- DO: Not sure what the mark / letter before this is, possibly a 3 that has been crossed through? -->
+                    <marginalia_text>[3 - deleted] Occasio triplex</marginalia_text>     
                 </position>
             </language>
             <translation>Threefold occasion.</translation>
@@ -84,13 +82,6 @@
         <underline method="pen" type="straight" language="LA" text="distinctius erit dicendu[m]"/>
         <underline method="pen" type="straight" language="LA" text="co[m]memorauimus, sumetur, aut probabilis, aut necessaria debebit esse"/>
         
-        
-        <mark name="tripunctus" method="pen" place="head"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>
-        
-        <!-- DO: Unknown mark in head -->
-        
-        
         <numeral place="left_margin">3</numeral>
         <numeral place="left_margin">1</numeral>
         <numeral place="left_margin">2</numeral>
@@ -104,10 +95,11 @@
         <numeral place="left_margin">5</numeral>
         <numeral place="left_margin">6</numeral>
         
-        
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-           
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="instare in pr[a]esentia"/>
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="cu[m] hoc differe"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="co[m]memorauimus, sumetur, aut probabilis, aut necessaria debebit esse"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> 
         
     </annotation>
-    
 </transcription>

@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0336.tif" reader="John Dee" pagination="66" signature="[e.i.[v]]"/>   
-    
+    <page filename="0336.tif" reader="John Dee" pagination="66" signature="[e.i.[v]]"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="&agrave; rhetoribus iis, qui elegantissimi atque artificiosissimi putati sunt">
             <language ident="LA">
@@ -47,9 +45,8 @@
                     <marginalia_text>Quod approbatio sit qua[e]dam res separata &agrave; propositione.</marginalia_text>
                 </position>
             </language>
-            <translation>That proof may be a separate entity to the premise.</translation>      <!-- DO: Not sure about translation of 'Quod' -->
+            <translation>That proof may be a separate entity to the premise.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="hanc velle approbare &amp; firmare nihil attinet">
             <language ident="LA">
@@ -57,7 +54,7 @@
                     <marginalia_text>Perspicue vera nihil attinet firmare.</marginalia_text>
                 </position>
             </language>
-            <translation>No one hesitates to affirm clear truths.</translation>     <!-- DO: Not sure about translation -->
+            <translation>Evidently no one hesitates to affirm truths.</translation>  
         </marginalia>
         
         
@@ -67,7 +64,7 @@
                     <marginalia_text>Quod a&sharp-S;umptio sit separata res ab approbatione.</marginalia_text>
                 </position>
             </language>
-            <translation>That assumption may be a separate entity to proof.</translation>   <!-- DO: Again not sure about 'Quod' -->
+            <translation>That assumption may be an entity separate from proof.</translation>  
         </marginalia>
         
         
@@ -80,23 +77,18 @@
             <translation>To know.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="dicendum videtur, ne temere secuti putemur, &amp; breuiter dice[n]dum"/>
         <underline method="pen" type="straight" language="LA" text="huiusmodi rebus diutius, qu&agrave;m ratio praecipiendi postulat, co[m]moremur. Si quadam"/>
         <underline method="pen" type="straight" language="LA" text="Quod enim adiu[n]gi &amp; separari ab aliquo potest, id no[n] potest idem esse, quod est id ad quod adiungitur, &amp; &agrave; quo separatur"/>
         
-        
-        <mark name="plus_sign" method="pen" place="head"/>
+        <mark name="plus_sign" method="pen" place="head" language="LA" text="rhetor elegantiss[imus] artificiosiss[imus]"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        <!-- DO: Other unknown mark in head and left margin -->
-        
-        
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="approbo firmo"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Quod enim adiu[n]gi &amp; separari ab aliquo potest, id no[n] potest idem esse, quod est id ad quod adiungitur, &amp; &agrave; quo separatur"/>
         
     </annotation>
-    
 </transcription>

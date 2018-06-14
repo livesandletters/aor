@@ -5,9 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="0337.tif" reader="John Dee" pagination="67" signature="e.ii."/>   
-    
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="oportet emanet">
             <language ident="LA">
@@ -15,7 +13,7 @@
                     <marginalia_text>oportet emanat</marginalia_text>
                 </position>
             </language>
-            <translation>It ought to arise.</translation>      <!-- DO: Not sure about translation as I would expect an infinitive after 'oportet', but I think this is what it means in the text? -->
+            <translation>It ought, it arises.</translation>     
         </marginalia>
         
         
@@ -48,16 +46,13 @@
             <translation>Fourfold. 2.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="Quae plurimas habet argumentatio partes, ea constat ex his quinque partibus. Secunda est quadripertita. Tertia tripertita. Dein bipertita, quod in co[n]trouersia est. De vnaquaque parte potest alicui videri posse argumentationem"/>
         <underline method="pen" type="straight" language="LA" text="Scripto videlicet legis omisso, scriptoris sententia[m] consyderare debebat"/>
         <underline method="pen" type="straight" language="LA" text="primo quidem decipi incommodum est, iterum stultum, tertio turpe"/>
         
-        
         <mark name="plus_sign" method="pen" place="head"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
-        
         
         <numeral place="right_margin">.1.</numeral>
         <numeral place="right_margin">2.</numeral>
@@ -65,12 +60,9 @@
         <numeral place="right_margin">4</numeral>
         <numeral place="right_margin">5</numeral>
         
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="Quae plurimas habet argumentatio partes, ea constat ex his quinque partibus. Secunda est quadripertita. Tertia tripertita. Dein bipertita, quod in co[n]trouersia est. De vnaquaque parte potest alicui videri posse argumentationem"/>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
-        
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="primo quidem decipi incommodum est, iterum stultum, tertio turpe"/>
         
     </annotation>
-    
 </transcription>
