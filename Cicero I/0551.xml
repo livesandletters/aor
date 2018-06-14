@@ -6,15 +6,6 @@
     <page filename="0551.tif" reader="John Dee" pagination="523" signature="[lzlzlz.vi.]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="quia non apparet, nec cernitur. perinde quasi nostram ipsam mentem, qua sapimus, qua prouidemus, qua haec ipsa agimus ac dicimus, videre, aut plan&egrave; qualis, aut vbi sit, sentire possimus">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Mens</marginalia_text> <!-- FSF: I would capture this as a drawing with text -->
-                </position>
-            </language>
-            <translation>Mind.</translation>
-        </marginalia>
-        
         <marginalia hand="Italian" anchor_text="irritare ferroque lacessere">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -69,6 +60,11 @@
         <numeral place="right_margin">21.3</numeral>
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">21</numeral>
+        
+        <drawing type="scroll" book_orientation="0" place="right_margin" method="pen" anchor_text="quia non apparet, nec cernitur. perinde quasi nostram ipsam mentem, qua sapimus, qua prouidemus, qua haec ipsa agimus ac dicimus, videre, aut plan&egrave; qualis, aut vbi sit, sentire possimus">
+            <text hand="English_secretary" language="LA">Meus</text>
+            <translation>Mind.</translation>
+        </drawing>
         
     </annotation>
 </transcription>
