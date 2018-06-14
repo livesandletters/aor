@@ -9,8 +9,7 @@
         <marginalia hand="Italian" anchor_text="reductio">
             <language ident="LA"> 
                 <position place="head" book_orientation="0">
-                    <marginalia_text>% reductio</marginalia_text> 
-                    <!-- FSF: I don't think this is a %; I think it is a marker leading the reader to the same sign at the bottom of the page. since you have tagged it as an est sign, I would do the same here, so no %, but an est sign in the mark section below -->
+                    <marginalia_text>reductio</marginalia_text>
                 </position>
             </language>
             <translation>Leading away.</translation> 
@@ -79,7 +78,7 @@
                     <marginalia_text>face aut tace.</marginalia_text>
                 </position>
             </language>
-            <translation>Either act, or keep silent.</translation> <!-- NBW: put up or shut up? --> 
+            <translation>Put up or shut up.</translation> 
         </marginalia>
 
         <marginalia hand="Italian" anchor_text="offensionem esse periculosam">
@@ -168,9 +167,10 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/> <!-- NBW: w/flourish -->
         
+        <mark name="est_mark" method="pen" place="head" language="LA" text="reductio"/>
+        
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="est_mark" method="pen" place="left_margin" language="LA" text="reductio regis"/> <!-- FSF: add an est mark as indicated above --> 
-        <!-- FSF: I think there is also a tripunctus above the Ptolemais -->
+        <mark name="est_mark" method="pen" place="left_margin" language="LA" text="reductio regis"/> 
         
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>

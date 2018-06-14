@@ -27,7 +27,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Contentio [..]</marginalia_text> <!--JG: Not sure about word after 'contentio'--> <!-- FSF: I think it is some sort of florilegium -->
+                    <marginalia_text>Contentio [..]</marginalia_text>  
                 </position>
             </language>
             <translation>Struggle.</translation>
@@ -58,15 +58,13 @@
         <underline method="pen" type="straight" language="LA" text="in dotali"/>
         <underline method="pen" type="straight" language="LA" text="si viuus ista subterfugere non potero, vn&agrave; cum istis vitam simul fugere"/>
         
-        <mark name="tripunctus" method="pen" place="head"/> <!-- with tail -->
-        <mark name="tripunctus" method="pen" place="right_margin"/> <!-- with tail -->
-        
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">21</numeral>
         <numeral place="right_margin">21</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="head" method="pen"/> <!--JG: Variant?--> <!-- FSF: I'd say that this is just some sort of bracket, whereas the other one is a florilegium -->
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!--JG: Variant?-->
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="Liceat semel peccare impune Sit erra[n]ti Medicina Confessio"/>  
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Contentio"/> 
         
     </annotation>
 </transcription>
