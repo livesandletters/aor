@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0326.tif" reader="John Dee" pagination="56" signature="[d.iiii.[v]]"/>   
-    
+    <page filename="0326.tif" reader="John Dee" pagination="56" signature="[d.iiii.[v]]"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="accusetur matricidii">
             <language ident="LA">
@@ -85,7 +83,7 @@
                     <marginalia_text>Iudicatio no[n] est co[n]iectu.</marginalia_text>
                 </position>
             </language>
-            <translation>The judgement is not with conjecture.</translation>   <!-- DO: Not sure at all about the translation. Maybe 'The judgement is not [thus] with conjecture'? -->
+            <translation>The judgement is not with conjecture.</translation>   <!-- DO: Not sure at all about the translation. Maybe 'The judgement is not [thus] with conjecture'? --> <!--JG: Not sure about this either-->
         </marginalia>
         
         
@@ -105,7 +103,7 @@
                     <marginalia_text>Genera cau&sharp-S;aru[m] 5</marginalia_text>
                 </position>
             </language>
-            <translation>Five types of case.</translation>
+            <translation>Five types of cases.</translation>
         </marginalia>
         
         
@@ -144,14 +142,9 @@
         <underline method="pen" type="straight" language="LA" text="qu&ograve;d illa quae prima dicuntur, si vehementer velis congruere"/>
         <underline method="pen" type="straight" language="LA" text="cohaerere cum causa, ex eis ducas oportet quae p&ograve;st dicenda sunt"/>
         
-        
-        <mark name="tripunctus" method="pen" place="head"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>
-        
-        
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="matricidij accusari"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="Ac tum consyderato genere causae, &amp; cognita constitutione, cu[m] simpl&eacute;xne, an coniuncta sit intellexeris, &amp; scripti an rationis habeat co[n]trouersiam videris, deinceps"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
-    
 </transcription>

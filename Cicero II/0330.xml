@@ -92,7 +92,7 @@
                     <marginalia_text>homo a[n]i[m]alis [gen[us] deleted] pars thebani genus.</marginalia_text>
                 </position>
             </language>
-            <translation>Man is a species of animal [and] a genus of which Thebans [are a part].</translation>  <!-- DO: Not sure how to translate -->
+            <translation>'man is a species of animal, but a genus of which Thebans or Trojans are species' [Loeb 386, 65].</translation> 
         </marginalia>
         
         
@@ -124,13 +124,9 @@
         <underline method="pen" type="straight" language="LA" text="sic nobis placet &amp; ad singulas partes accedere, &amp; omnibus absolutis, perorare. Nunc de confirmatione"/>
         
         
-        <mark name="tripunctus" method="pen" place="head"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>
-        
         <mark name="dash" method="pen" place="intext"/>   <!-- su aecausae -->
         
         <mark name="vertical_bar" method="pen" place="intext"/>  <!-- su aecausae -->
-        
         
         <numeral place="left_margin">1</numeral>
         <numeral place="left_margin">2</numeral>
@@ -138,10 +134,9 @@
         
         <errata language="LA" copytext="su aecausae" amendedtext="suae causae"/>
         
-        
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="p[er]miste implicari"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="est, ne cuius genus posueris, eius secum aliquam, sicuti diuersam &amp; dissimilem partem ponas"/>
         
     </annotation>
-    
 </transcription>
