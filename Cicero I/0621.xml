@@ -55,10 +55,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Caphones Saxa[e]</marginalia_text>
+                    <person name="Cafo"/>
+                    <person name="Lucius Decidius Saxa"/>
                 </position>
             </language>
-            <translation>Boors and stones.</translation> <!--JG: Unsure, pejorative terms or names of people (gens)?--> 
-            <!-- FSF: considering the Loeb translation (https://www.loebclassics.com/view/marcus_tullius_cicero-philippic_8/2010/pb_LCL507.43.xml?rskey=06klUu&result=1&mainRsKey=r7Wsdh), I think Saxa is thishttps://en.wikipedia.org/wiki/Lucius_Decidius_Saxa -->
+            <translation>Cafo and Lucius Decidius Saxa.</translation>  
+            <!-- (https://www.loebclassics.com/view/marcus_tullius_cicero-philippic_8/2010/pb_LCL507.43.xml?rskey=06klUu&result=1&mainRsKey=r7Wsdh), I think Saxa is this https://en.wikipedia.org/wiki/Lucius_Decidius_Saxa -->
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="Dii meliora">
@@ -67,7 +69,7 @@
                     <marginalia_text>dij meliora</marginalia_text>
                 </position>
             </language>
-            <translation>May the gods make them better.</translation> <!--JG: Unsure-->
+            <translation>'May the gods forbid it!' [Loeb 507, 43].</translation>
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="sceleru[m] enim promissio">
@@ -101,7 +103,7 @@
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Vacatio"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Contentio"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Sceleru[m] promissio"/>
         
     </annotation>
 </transcription>

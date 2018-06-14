@@ -66,7 +66,7 @@
                     <marginalia_text>inobscurare</marginalia_text>
                 </position>
             </language>
-            <translation>To reveal.</translation> <!--JG: Unsure--> <!-- FSF: makes sense, but not sure -->
+            <translation>To reveal.</translation> 
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="iuris co[n]sultus">
@@ -109,7 +109,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Ser. Sulpitius</marginalia_text> 
-                    <person name="Servius Sulpicius Rufus"/><!--JG: Unsure--> <!-- FSF: agreed -->
+                    <person name="Servius Sulpicius Rufus"/>
                 </position>
             </language>
             <translation>Servius Sulpicius Rufus.</translation>
@@ -130,7 +130,7 @@
                     <marginalia_text>Mors Legati sine ca[e]de atq[ue] ferro nullu[m] honore[m] desyderat</marginalia_text>
                 </position>
             </language>
-            <translation>"The death of an envoy without bloodshed and weapons calls for no honor." [Loeb 507, 87].</translation>
+            <translation>'The death of an envoy without bloodshed and weapons calls for no honor' [Loeb 507, 87].</translation>
         </marginalia> 
         
         <underline method="pen" type="straight" language="LA" text="Is enim profecto morte[m] attulit, qui causa mortis fuit"/>
@@ -163,12 +163,13 @@
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">18</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Vita mortuoru[m]"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="vita gloriosa"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Sepultura"/>  
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> <!--JG: Variant? Three dots and a vertical line?--> <!-- FSF: to me, these are tripuncti each with a tail; I have tagged them as such -->
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="tail" method="pen"/> <!--JG: Variant? Three dots and a vertical line?-->
+        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="Mors Legati sine ca[e]de atq[ue] ferro nullu[m] honore[m] desyderat"/> 
         
     </annotation>
 </transcription>

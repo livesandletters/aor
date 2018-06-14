@@ -18,10 +18,10 @@
         <marginalia hand="Italian" anchor_text="quaque versus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>quaque usus</marginalia_text> <!-- FSF: I think this is quaque u[er]sus as in the printed text -->
+                    <marginalia_text>quaque u[e]rsus</marginalia_text> 
                 </position>
             </language>
-            <translation>Whitsoever use.</translation>
+            <translation>To wherever.</translation>
         </marginalia> 
         
         <underline method="pen" type="straight" language="LA" text="nostri statuas multis decreuerunt, sepulchra paucis"/>
@@ -32,13 +32,14 @@
         <underline method="pen" type="straight" language="LA" text="quas enim partes ipse mihi sumpsera[m], eas"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="right_margin"/>
         
         <numeral place="right_margin">8</numeral>
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">2</numeral>
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">11</numeral>
+        
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="quaque u[e]rsus"/>
         
     </annotation>
 </transcription>
