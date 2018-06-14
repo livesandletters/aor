@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,15 +6,13 @@
     <page filename="0877.tif" reader="John Dee" pagination="319"/> 
     <annotation>
         
-        <!-- M.B. Capture the tail marginalia later -->
-        
         <marginalia hand="Italian" anchor_text="obsequio indulge[n]ti&aacute;que">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>obsequio indulge[n]tia</marginalia_text>
+                    <marginalia_text>obsequiu[m] indulge[n]tia</marginalia_text>
                 </position>
             </language>
-            <translation>Yielding and indulgence.</translation>
+            <translation>Compliance, indulgence.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="subornatus">
@@ -30,19 +27,19 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Nosce teipm</marginalia_text> <!-- M.B. I'm not really sure what the second contracted word is? -->
+                    <marginalia_text>Nosce teip[su]m</marginalia_text>
                 </position>
             </language>
-            <translation>I know</translation>
+            <translation>Know yourself.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="adumbratas intelligentias animos ac mente conceperit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Adumbratas intelligetias p[ri]ncipio mente conceperimus</marginalia_text>
+                    <marginalia_text>Adumbratas intellige[n]tias p[ri]ncipio mente conceperimus</marginalia_text>
                 </position>
             </language>
-            <translation>In the beginnning shadowy intelligences are grapsed by the mind.</translation>
+            <translation>In the beginnning we grasp shadowy intelligences by the mind.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="voluptat&eacute;mque sicut labem">
@@ -51,16 +48,28 @@
                     <marginalia_text>Voluptas Decoris Labes</marginalia_text>
                 </position>
             </language>
-            <translation>The beauty of pleasures fall.</translation>
+            <translation>The beauty of pleasures, disaster.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Prudentia">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Prudentia sup[ra] 258</marginalia_text>
+                    <marginalia_text>Prudentia</marginalia_text>
                 </position>
             </language>
-            <translation>Prudence above 258.</translation>
+            <translation>Prudence.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>sup[ra] 258</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0816" text="258"/>
+                    </internal_ref>
+                </position>
+            </language>
+            <translation>See above page 258.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="cognitione">
@@ -69,7 +78,7 @@
                     <marginalia_text>Dei cognitio</marginalia_text>
                 </position>
             </language>
-            <translation>Learning of the gods.</translation>
+            <translation>The knowledge of god.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
@@ -87,7 +96,7 @@
                     <marginalia_text>Vulgi amplissima cotemne</marginalia_text>
                 </position>
             </language>
-            <translation>The largest of crowds I scorn.</translation>
+            <translation>Scorn the largest of crowds.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -105,7 +114,7 @@
                     <marginalia_text>or[ati]o[n]is perpetua[e] latius fusa[e] vsus qualis esset.</marginalia_text>
                 </position>
             </language>
-            <translation>The continuous style of speech such as I have used.</translation> <!-- M.B. IUncertain how to render this best. -->
+            <translation>The use of perpetual, very long and broad speeches is such.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Sapientia">
@@ -139,52 +148,57 @@
         <marginalia hand="Italian" anchor_text="naturam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>natura</marginalia_text>
+                    <marginalia_text>Natura</marginalia_text>
                 </position>
             </language>
             <translation>Nature.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>laudare { graviter vere</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To praise seriously and honestly.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="requietem animi delectation&eacute;mque">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>a[nim]i reques delectatio</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>The respite and delight of the mind.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" >
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>conte[m]nere despicere p[ro] nihilo putare</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To contempt, to despise, to think for nothing.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="inriserit">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>a[nim]i </marginalia_text>
+                    <marginalia_text>inriserit</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <language ident="EN">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>reioyce ... in him selfe</marginalia_text> <!-- FSF: not sure about second English word -->
+                </position>
+            </language>
+            <translation>He rejoyces</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="inriserit">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>sepume[n]to vallare</marginalia_text> <!-- FSF: not sure -->
                 </position>
             </language>
             <translation></translation>
@@ -219,16 +233,12 @@
         
         <symbol name="Jupiter" place="right_margin"/>
         
-        
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-    
     
     </annotation>
 </transcription>
-
