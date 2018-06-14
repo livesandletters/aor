@@ -4,8 +4,7 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0323.tif" reader="John Dee" pagination="53" signature="d.iii."/>   
-    
+    <page filename="0323.tif" reader="John Dee" pagination="53" signature="d.iii."/> 
     <annotation>
         
         <marginalia hand="Italian" anchor_text="mendosissime; coniunctim agendum">
@@ -14,9 +13,8 @@
                     <marginalia_text>mendosissime coniunctim agere</marginalia_text>
                 </position>
             </language>
-            <translation>Very falsely; to discuss together.</translation>
+            <translation>Very falsely. To discuss together.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Inter officium autem &amp; finem hoc interest">
             <language ident="LA">
@@ -27,7 +25,6 @@
             <translation>What differs between the function and the aim.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="officium; fine">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -37,7 +34,6 @@
             <translation>The function, the aim.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Materia[m] artis">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -46,7 +42,6 @@
             </language>
             <translation>The material of the art, 2.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Gorgias Leontinus">
             <language ident="LA">
@@ -69,7 +64,6 @@
             <translation>Aristotle.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Demonstratiuum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -78,7 +72,6 @@
             </language>
             <translation>What the demonstrative type is.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Deliberatiuu[m]">
             <language ident="LA">
@@ -103,7 +96,7 @@
         <marginalia hand="Italian" anchor_text="Hermagoras">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Hegmagoras.</marginalia_text>       <!-- DO: Not sure what the third letter is -->
+                    <marginalia_text>Hegmagoras.</marginalia_text>       <!-- JG: Greek letters?-->
                     <person name="Hermagoras of Temnos"/>
                 </position>
             </language>
@@ -218,13 +211,11 @@
         <underline method="pen" type="straight" language="LA" text="Quare inuentio, quae princeps est omnium partium, potissimum"/>
         
         
-        <mark name="horizontal_bar" method="pen" place="head"/>           <!-- DO: These are not really horizontal bars, but more like a dot and then a horizontal bar -->
+        <mark name="horizontal_bar" method="pen" place="head" text="mendosissime" language="LA"/>           <!-- DO: These are not really horizontal bars, but more like a dot and then a horizontal bar -->
         <mark name="horizontal_bar" method="pen" place="right_margin"/>
         
-        <mark name="small_circle" method="pen" place="head"/>
+        <mark name="small_circle" method="pen" place="head" language="LA" text="coniunctim agere"/>
         <mark name="small_circle" method="pen" place="right_margin"/>
         
-        
     </annotation>
-    
 </transcription>
