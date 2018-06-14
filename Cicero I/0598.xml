@@ -9,11 +9,11 @@
         <marginalia hand="Italian" anchor_text="C. Caesar adolescens, pen&egrave; potius puer">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>C. Caesar adolescens, pene poti[us] puer</marginalia_text> <!-- FSF: Isn't the person referred to here (Gaius Julius) Caesar? Gaius Caesar lived after Cicero -->
-                    <person name="Gaius Caesar"/>
+                    <marginalia_text>C. Caesar adolescens, pene poti[us] puer</marginalia_text>
+                    <person name="Julius Caesar"/>
                 </position>
             </language>
-            <translation>Gaius Caesar, 'a young man, or rather hardly more than a boy' [Loeb 189, 181].</translation>
+            <translation>Gaius Julius Caesar, 'a young man, or rather hardly more than a boy' [Loeb 189, 181].</translation>
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="bellum, tam crudele, tam nefarium">
@@ -55,10 +55,11 @@
         <marginalia hand="Italian" anchor_text="Albae">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Alba</marginalia_text> <!-- FSF: I think this is the place Alba, where the troops rested -->
+                    <marginalia_text>Alba</marginalia_text>
+                    <location name="Alba"/>
                 </position>
             </language>
-            <translation>Register.</translation>
+            <translation>Alba.</translation>
         </marginalia> 
         
         <marginalia hand="Italian" anchor_text="veteranor&uacute;mque">
@@ -108,9 +109,8 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
-        
-        <!-- FSF: isn't there a little plus sign or so next to the fifth line from the bottom? -->
-        
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+      
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">18</numeral>
         <numeral place="left_margin">15</numeral>
