@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0342.tif" reader="John Dee" pagination="72" signature="[e.iiii.[v]]"/>   
-    
+    <page filename="0342.tif" reader="John Dee" pagination="72" signature="[e.iiii.[v]]"/>
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Hermagoras">
             <language ident="LA">
@@ -16,7 +14,7 @@
                     <person name="Hermagoras of Temnos"/>
                 </position>
             </language>
-            <translation>Hermagoras.</translation>
+            <translation>Hermagoras of Temnos.</translation>
         </marginalia>
         
         
@@ -26,17 +24,17 @@
                     <marginalia_text>Tres partes conclusio[n]is</marginalia_text>
                 </position>
             </language>
-            <translation>The three parts of conclusion.</translation>
+            <translation>The three parts of a conclusion.</translation>
         </marginalia>
         
         
         <marginalia hand="Italian" anchor_text="reducere in memoriam; in memoria[m] redibit; redintegrabitur">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>redire reducere ] in memoria[m]. redintegrari memoria[m]. renovare memoriam. 13.</marginalia_text>
+                    <marginalia_text>redire reducere ] in memoria[m]. redintegrari memoria[m]. renovare memoriam. R.</marginalia_text>
                 </position>
             </language>
-            <translation>To refresh the memory, to recall to memory, to be restored to memory, to renew the memory. 13.</translation>
+            <translation>To refresh the memory, to recall to memory, to be restored to memory, to renew the memory. R.</translation>
         </marginalia>
         
         
@@ -46,7 +44,7 @@
                     <marginalia_text>diffuse disperse ]</marginalia_text>
                 </position>
             </language>
-            <translation>Diffusely, in a dispersed manner. ]</translation>
+            <translation>Diffusely, in a dispersed manner.</translation>
         </marginalia>
         
         
@@ -68,8 +66,6 @@
         <underline method="pen" type="straight" language="LA" text="redintegrabitur"/>
         
         
-        <mark name="bracket" method="pen" place="left_margin"/>      <!-- DO: Not really sure what this is, in the left margin, just above the numbers -->
-        
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
         <!-- DO: Also unknown mark x3 -->
@@ -79,7 +75,11 @@
         <numeral place="left_margin">3</numeral>
         <numeral place="left_margin">.1.</numeral>
         
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> <!--above the numbers in the left margin-->
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="redintegrari memoria[m]"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        
+        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="diffuse disperse"/>
         
     </annotation>
-    
 </transcription>
