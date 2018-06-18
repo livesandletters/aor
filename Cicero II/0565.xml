@@ -80,7 +80,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        ascuritas            <!-- DO: Not sure about either of these -->
+                        ascuritas            <!-- DO: Not sure about either of these --> <!--JG: Can't figure this out either-->
                         anoratio
                     </marginalia_text>
                 </position>
@@ -92,7 +92,7 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>conissare</marginalia_text>     <!-- DO: Not sure -->
+                    <marginalia_text>conissare</marginalia_text>     <!-- DO: Not sure --> <!--JG: Me neither-->
                 </position>
             </language>
             <translation></translation>
@@ -125,7 +125,7 @@
                 </position>
             </language>
             <translation>
-                  Things in the realm of the senses { agitated; mobile.
+                  Things in the realm of the senses [are] agitated [and] mobile.
             </translation>
         </marginalia>
         
@@ -166,7 +166,7 @@
                     <marginalia_text>MVNDVS</marginalia_text>
                 </position>
             </language>
-            <translation>THE WORLD.</translation>
+            <translation>The world.</translation>
         </marginalia>
         
         
@@ -206,7 +206,7 @@
                     <marginalia_text>.DEVS.</marginalia_text>
                 </position>
             </language>
-            <translation>GOD.</translation>
+            <translation>God.</translation>
         </marginalia>
         
         
@@ -276,7 +276,7 @@
                     <marginalia_text>MENS sola iudex reru[m].</marginalia_text>
                 </position>
             </language>
-            <translation>THE MIND, the sole judge of things.</translation>
+            <translation>The mind [is] the sole judge of things.</translation>
         </marginalia>
         
         
@@ -286,7 +286,7 @@
                     <marginalia_text>.IDEA.</marginalia_text>
                 </position>
             </language>
-            <translation>THE IDEA.</translation>
+            <translation>Idea.</translation>
         </marginalia>
         
         
@@ -303,24 +303,18 @@
                         valentes ] 13.39
                     </marginalia_text>
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0567" text="angusti .9.63" prefix="Tardi" suffix="integri"/>
+                        <target ref="RCP10549-50v2:0567" text="9.63" prefix="Tardi" suffix="integri"/>
                     </internal_ref>
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0571" text="integri incorru[m]pti ] 13.39." prefix=".9.63" suffix="sani"/>
+                        <target ref="RCP10549-50v2:0571" text="13.39." prefix=".9.63" suffix="sani"/>
                     </internal_ref>
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0571" text="sani valentes ] 13.39"/>
+                        <target ref="RCP10549-50v2:0571" text="13.39" prefix="sani"/>
                     </internal_ref>
                 </position>
             </language>
             <translation>
-                The senses { Dull.
-                Slow.
-                Narrow, 9.63.
-                Complete.
-                
-                Sound.
-                Strong. ]
+                The senses: dull, slow, narrow, [page] 9, [section] 63, complete, sound, strong.
             </translation>
         </marginalia>
         
@@ -331,7 +325,7 @@
                     <marginalia_text>SENSVS</marginalia_text>
                 </position>
             </language>
-            <translation>THE SENSES.</translation>
+            <translation>The senses.</translation>
         </marginalia>
         
         
@@ -346,12 +340,17 @@
         
         
         <marginalia hand="Italian" anchor_text="rerum opinabilem">
-            <language ident="LA">
+            <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>            opinabilis reru[m]</marginalia_text>    <!-- Greek needed -->
+                    <marginalia_text></marginalia_text> <!-- Greek needed -->
                 </position>
             </language>
-            <translation>                 The opinion of things.</translation>
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>opinabilis reru[m]</marginalia_text>    
+                </position>
+            </language>
+            <translation>[GREEK] the opinion of things.</translation>
         </marginalia>
         
         
@@ -361,7 +360,7 @@
                     <marginalia_text>SCIENTIA.</marginalia_text>
                 </position>
             </language>
-            <translation>KNOWLEDGE.</translation>
+            <translation>Knowledge.</translation>
         </marginalia>
         
         
@@ -378,7 +377,7 @@
         <marginalia hand="Italian" anchor_text="Etymologiam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>ETYMOLOGIA.</marginalia_text>      <!-- DO: Umlauts -->
+                    <marginalia_text>ETYMOLOG&Iuml;A.</marginalia_text>      
                 </position>
             </language>
             <translation>ETYMOLOGY.</translation>
@@ -391,7 +390,7 @@
                     <marginalia_text>DIALECTICA.</marginalia_text>
                 </position>
             </language>
-            <translation>DIALECTICS.</translation>
+            <translation>Dialectics.</translation>
         </marginalia>
         
         
@@ -409,11 +408,11 @@
         <marginalia hand="Italian" anchor_text="Aristoteles primus, species quas pauloante dixi, labefactauit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>ARISTOTELES primus spe[cie]s labefactant.</marginalia_text>
+                    <marginalia_text>ARISTOTELES primus spe[cie]s labefactauit.</marginalia_text>
                     <person name="Aristotle"/>
                 </position>
             </language>
-            <translation>ARISTOTLE first undermines the types.</translation>
+            <translation>Aristotle first undermined the types.</translation>
         </marginalia>
         
         
@@ -435,7 +434,7 @@
                     <person name="Strato of Lampsacus"/>
                 </position>
             </language>
-            <translation>STRATO.</translation>
+            <translation>Strato of Lampsacus.</translation>
         </marginalia>
         
         
@@ -445,7 +444,7 @@
                     <marginalia_text>Philosophia moralis maxim&egrave; necessaria</marginalia_text>
                 </position>
             </language>
-            <translation>Moral philosophy extremely necessary.</translation>
+            <translation>Moral philosophy [is] extremely necessary.</translation>
         </marginalia>
         
         
@@ -469,12 +468,7 @@
                 </position>
             </language>
             <translation>
-                SPEUSIPPUS.
-                XENOCRATES.
-                POLEMON.
-                CRATES.
-                ZENO.
-                ARCESILAUS.
+                Speusippus. Xenocrates of Chalcedon. Polemon. Crates of Athens. Zeno of Citium. Arcesilaus.
             </translation>
         </marginalia>
         
@@ -486,7 +480,7 @@
                     <person name="Antiochus of Ascalon"/>
                 </position>
             </language>
-            <translation>ANTIOCHUS.</translation>
+            <translation>Antiochus of Ascalon.</translation>
         </marginalia>
         
         
@@ -497,7 +491,7 @@
                     <person name="Titus Pomponius Atticus"/>
                 </position>
             </language>
-            <translation>POMPONIUS.</translation>
+            <translation>Titus Pomponius Atticus.</translation>
         </marginalia>
         
         
@@ -518,7 +512,7 @@
                     <marginalia_text>HONESTV[M] QVID.</marginalia_text>
                 </position>
             </language>
-            <translation>WHAT IS HONEST.</translation>
+            <translation>What is honest.</translation>
         </marginalia>
         
         
@@ -533,14 +527,11 @@
                         tollere } 13.37
                         evertere ibi
                         evertere funditas
-                        eripere instrume[n]ta vel fundame[n]ta ] 15.61.109
+                        eripere instrume[n]ta vel fundame[n]ta ] 
                         coarguere.
                     </marginalia_text>
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0571" text="infirmare tollere } 13.37" prefix="disserere" suffix="evertere"/>
-                    </internal_ref>
-                    <internal_ref>
-                        <target ref="RCP10549-50v2:0573" text="evertere funditas eripere instrume[n]ta vel fundame[n]ta ] 15.61.109" prefix="ibi" suffix="coarguere"/>
+                        <target ref="RCP10549-50v2:0571" text="13.37" prefix="disserere" suffix="evertere"/>
                     </internal_ref>
                 </position>
             </language>
@@ -548,11 +539,10 @@
                 To undermine.
                 To break more violently.
                 To discuss very precisely.
-                To weaken.
-                To fall. } 13.37.
+                To weaken, to fall, [page] 13, [section] 37.
                 To overturn there.
                 To overturn the foundation.
-                To snatch the instruments and the foundations. ] 15.69.109
+                To snatch the instruments and the foundations
                 To refute.
             </translation>
         </marginalia>
@@ -569,13 +559,10 @@
                         bene 6.37
                         subtiliter
                         ap[er]te
-                        p[er]spicue ] 20
+                        p[er]spicue ] 20 15.61.109
                     </marginalia_text>
                     <internal_ref>
                         <target ref="RCP10549-50v2:0564" text="bene 6.37" prefix="mirific&egrave;." suffix="subtiliter"/>
-                    </internal_ref>
-                    <internal_ref>
-                        <target ref="RCP10549-50v2:0578" text="ap[er]te p[er]spicue 20"/>
                     </internal_ref>
                 </position>
             </language>
@@ -587,7 +574,7 @@
                 Well, 6.37.
                 Precisely.
                 Openly.
-                Clearly. ] 20
+                Clearly. 20 15.61.109 <!--JG: Unclear where these numbers refer to-->
             </translation>
         </marginalia>
         
@@ -669,7 +656,7 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         semonere
-                        se...gere         <!-- DO: Not sure -->
+                        seiungere         
                         remouere
                         auocare
                     </marginalia_text>
@@ -677,6 +664,7 @@
             </language>
             <translation>
                 To discuss.
+                To exclude.
                 To remove.
                 To call off.
             </translation>
