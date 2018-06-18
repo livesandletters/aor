@@ -16,7 +16,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>a book [ to publish; to write.</translation>
+            <translation>To publish; to write a book.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="sapientissimos &amp; clarissimos">
@@ -37,7 +37,7 @@
         <marginalia hand="Italian" anchor_text="studiose audirem; diligentius; industriae">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>     <!-- DO: Not sure whether to capture as one note as the words following 'industrie' seem to have been written at a different time, but it makes sense as one note -->
+                    <marginalia_text>     
                         studiose
                         diligentius
                         industri&egrave;       <!-- DO: Not sure if 'industrie' or 'industriae'; 'industrie' makes more sense but 'industriae' appears on this page-->
@@ -46,10 +46,7 @@
                 </position>
             </language>
             <translation>
-                Studiously.
-                Carefully.
-                Diligently.
-                With an empty mind. ] To listen. 
+                To listen: studiously, carefully, diligently, with an empty mind. 
             </translation>
         </marginalia>
         
@@ -83,16 +80,16 @@
                         nec se tenuit.
                     </marginalia_text>
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0577" text="abstinere se ab 19"/>
+                        <target ref="RCP10549-50v2:0577" text="19"/>
                     </internal_ref>
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0577" text="se sustinet 19.97" prefix="19." suffix="nec"/>
+                        <target ref="RCP10549-50v2:0577" text="19.97" prefix="19." suffix="nec"/>
                     </internal_ref>
                 </position>
             </language>
             <translation>
-                To keep oneself from, 19.
-                He restrains himself, 19.97.
+                To keep oneself from, [page] 19.
+                He restrains himself, [page] 19, [section] 97.
                 He did not restrain himself.
             </translation>
         </marginalia>
@@ -120,7 +117,7 @@
             </language>
             <translation>
                 A less keen
-                A milder ] Adversary.
+                A milder adversary.
             </translation>
         </marginalia>
         
@@ -162,7 +159,7 @@
                     <person name="Publius Valerius Publicola"/>
                 </position>
             </language>
-            <translation>Publius Valerius.</translation>
+            <translation>Publius Valerius Publicola.</translation>
         </marginalia>
         
         
@@ -239,7 +236,7 @@
                     <marginalia_text>Nihil sciri, falsu[m].</marginalia_text>
                 </position>
             </language>
-            <translation>Nothing to be known, false.</translation>
+            <translation>There is nothing false to be known.</translation>
         </marginalia>
         
         
@@ -247,6 +244,9 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>supra fo.5.23.</marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v2:0563" text="5.23"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>See above, folio 5.23.</translation>
@@ -340,7 +340,7 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         repetunt.
-                        tum ad hos.                 <!-- DO: Not sure about 'tum ad hos', but it is in the text -->
+                        tum ad hos.                
                         co[m]memorant reliquos.
                         etia[m] refere in eunde[m] numeru[m] sole[n]t.
                         addunt etia[m]
@@ -420,7 +420,5 @@
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> 
         
-        
     </annotation>
-    
 </transcription>
