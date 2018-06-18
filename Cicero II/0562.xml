@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0562.tif" reader="John Dee" pagination="4" signature="[Aa.ii.[v]]"/>   
-    
+    <page filename="0562.tif" reader="John Dee" pagination="4" signature="[Aa.ii.[v]]"/>  
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="qu&agrave;m erit illa acute explicanda nobis! qu&agrave;m argute, qu&agrave;m obscure etiam contra Stoicos disserendum!">
             <language ident="LA">
@@ -97,7 +95,7 @@
         </marginalia>
         
         
-        <marginalia hand="Italian" anchor_text="">      <!-- DO: Can't find 'deduco' in the text -->
+        <marginalia hand="Italian">      
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
@@ -105,12 +103,12 @@
                         Deduco
                     </marginalia_text>
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0561" text="reduco .3 .3."/>
+                        <target ref="RCP10549-50v2:0561" text=".3 .3."/>
                     </internal_ref>
                 </position>
             </language>
             <translation>
-                I bring back 3.3.
+                I bring back [page] 3, [section] 3.
                 I deduct.
             </translation>
         </marginalia>
@@ -188,7 +186,7 @@
                     <person name="Cicero"/>
                 </position>
             </language>
-            <translation>CICERO.</translation>
+            <translation>Cicero.</translation>
         </marginalia>
         
         
@@ -198,10 +196,10 @@
                     <marginalia_text>
                         Lelij occasus.
                     </marginalia_text>
-                    <person name="Gaius Laelius Sapiens"/>       <!-- DO: Not sure if this is the right one: https://en.wikipedia.org/wiki/Gaius_Laelius_Sapiens  Could also be: https://en.wikipedia.org/wiki/Gaius_Laelius -->
+                    <person name="Lucius Aelius Stilo Praeconinus"/>       <!--JG: https://www.loebclassics.com/view/marcus_tullius_cicero-academica/1933/pb_LCL268.419.xml -->
                 </position>
             </language>
-            <translation>The demise of Laelius.</translation>
+            <translation>The demise of Lucius Aelius Stilo Praeconinus.</translation>
         </marginalia>
         
         
@@ -238,7 +236,7 @@
                     <person name="Marcus Terentius Varro"/>
                 </position>
             </language>
-            <translation>PRAISE OF THE BOOKS OF VARRO.</translation>
+            <translation>Praise for Varro's books.</translation>
         </marginalia>
         
         
@@ -260,9 +258,10 @@
                     <marginalia_text>
                         Laus Varronis Poematis
                     </marginalia_text>
+                    <person name="Marcus Terentius Varro"/>
                 </position>
             </language>
-            <translation>Praise of Varro's poem.</translation>
+            <translation>Praise for Varro's poem.</translation>
         </marginalia>
         
         
@@ -324,13 +323,7 @@
                 </position>
             </language>
             <translation>
-                Ennius.
-                Pacuvius.
-                Accius.
-                Aeschylus.
-                Sophocles.
-                Empedocles.
-                Euripides.
+                Ennius. Marcus Pacuvius. Lucius Accius. Aeschylus. Sophocles. Empedocles. Euripides.
             </translation>
         </marginalia>
         
@@ -349,9 +342,7 @@
                 </position>
             </language>
             <translation>
-                PLATO.
-                ARISTOTLE.
-                Theophrastus.
+                Plato, Aristotle, Theoprastus.
             </translation>
         </marginalia>
         
@@ -360,7 +351,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        HYPERIDES            <!-- DO: I think there is an accent on the I -->
+                        HYPERIDES          
                         DEMOSTHENes        
                     </marginalia_text>
                     <person name="Hypereides"/>
@@ -368,8 +359,7 @@
                 </position>
             </language>
             <translation>
-                HYPEREIDES.
-                DEMOSTHENES.
+                Hypereides. Demosthenes.
             </translation>
         </marginalia>
         
@@ -408,7 +398,7 @@
                     <person name="Marcus Junius Brutus the Younger"/>
                 </position>
             </language>
-            <translation>Praise of Brutus.</translation>
+            <translation>Praise for Brutus.</translation>
         </marginalia>
         
         
@@ -461,8 +451,7 @@
                 </position>
             </language>
             <translation>
-                PHILO, the teacher of Antiochus.
-                What he thought.
+                Philo of Larissa, the teacher of Antiochus. What he thought.
             </translation>
         </marginalia>
         
@@ -487,7 +476,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Certainly the most recent are the most accurate and most greatly improved.</translation>
+            <translation>'There is no question that the newest theories are always most correct and free from error' [Loeb 268, 423].</translation>
         </marginalia>
         
         
@@ -537,8 +526,7 @@
                 </position>
             </language>
             <translation>
-                [ da
-                dic              <!-- DO: Not sure what this is -->
+                Do, say!
             </translation>
         </marginalia>
         
@@ -611,5 +599,4 @@
 
 
     </annotation>
-    
 </transcription>
