@@ -7,15 +7,6 @@
     <page filename="0580.tif" reader="John Dee" pagination="22" signature="[Bb.iii.[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="Poenituit eu[m] illa sensisse">
-            <language ident="LA">
-                <position place="head" book_orientation="0">
-                    <marginalia_text>pa[e]nituit eu[m] illa sensisse.</marginalia_text>  <!-- DO: In a banner/scroll -->
-                </position>
-            </language>
-            <translation>He regretted the things he had thought.</translation>
-        </marginalia>
-        
         <marginalia hand="Italian" anchor_text="">
             <language ident="EN">
                 <position place="head" book_orientation="0">
@@ -39,7 +30,7 @@
                     <person name="Philo of Larissa"/>
                 </position>
             </language>
-            <translation>Philo.</translation>
+            <translation>Philo of Larissa.</translation>
         </marginalia>
         
         
@@ -50,7 +41,7 @@
                     <person name="Antiochus of Ascalon"/>
                 </position>
             </language>
-            <translation>Antiochus.</translation>
+            <translation>Antiochus of Ascalon.</translation>
         </marginalia>
         
         
@@ -76,8 +67,7 @@
                 </position>
             </language>
             <translation>
-                Mnesarchus.
-                Dardanus.
+                Mnesarchus of Athens. Dardanus of Athens.
             </translation>
         </marginalia>
         
@@ -89,7 +79,7 @@
                     <person name="Antiochus of Ascalon"/>
                 </position>
             </language>
-            <translation>The followers of Antiochus.</translation>
+            <translation>The followers of Antiochus of Ascalon.</translation>
         </marginalia>
         
         
@@ -110,7 +100,7 @@
                     <person name="Dionysius the Renegade"/>
                 </position>
             </language>
-            <translation>Dionysius.</translation>
+            <translation>Dionysius the Renegade.</translation>
         </marginalia>
         
         
@@ -120,7 +110,7 @@
                     <marginalia_text>Honestum quod est id solum Bonum esse.</marginalia_text>
                 </position>
             </language>
-            <translation>That the honourable is the only good.</translation>
+            <translation>The honourable is that which is the only good.</translation>
         </marginalia>
         
         
@@ -188,8 +178,7 @@
                 </position>
             </language>
             <translation>
-                Cleanthes.
-                Chrysippus.
+                Cleanthes. Chrysippus.
             </translation>
         </marginalia>
         
@@ -201,7 +190,7 @@
                     <person name="Metrodorus of Chios"/>
                 </position>
             </language>
-            <translation>Metrodorus.</translation>
+            <translation>Metrodorus of Chios.</translation>
         </marginalia>
         
         
@@ -228,8 +217,7 @@
                 </position>
             </language>
             <translation>
-                Parmenides.
-                Xenophanes.
+                Parmenides. Xenophanes.
             </translation>
         </marginalia>
         
@@ -246,8 +234,7 @@
                 </position>
             </language>
             <translation>
-                Socrates.
-                Plato.
+                Socrates. Plato.
             </translation>
         </marginalia>
         
@@ -283,7 +270,7 @@
                     <person name="Lucius Appuleius Saturninus"/>
                 </position>
             </language>
-            <translation>Saturninus.</translation>
+            <translation>Lucius Appuleius Saturninus.</translation>
         </marginalia>
         
         
@@ -301,9 +288,7 @@
                 </position>
             </language>
             <translation>
-                Stilpo.
-                Diodorus.
-                Alexinus.
+                Stilpo. Diodorus Siculus. Alexinus.
             </translation>
         </marginalia>
         
@@ -318,7 +303,7 @@
                 </position>
             </language>
             <translation>
-                Senses [ obscure; in darkness.
+                Senses: obscure; in darkness.
             </translation>
         </marginalia>
         
@@ -333,8 +318,7 @@
                 </position>
             </language>
             <translation>
-                Contorted and prickly sophismata.
-                Syllogistic fallacies.
+                Contorted and prickly sophismata. Syllogistic fallacies.
             </translation>
         </marginalia>
         
@@ -350,9 +334,7 @@
                 </position>
             </language>
             <translation>
-                A man [ illustrious;
-                        distinguished;
-                        noble.
+                A man: illustrious; distinguished; noble.
             </translation>
         </marginalia>
         
@@ -360,10 +342,10 @@
         <marginalia hand="English_secretary" anchor_text="quintae classis">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>quinta[e] classis</marginalia_text>
+                    <marginalia_text>quinta classis</marginalia_text>
                 </position>
             </language>
-            <translation>Of the fifth class.</translation>
+            <translation>The fifth class.</translation>
         </marginalia>
         
         
@@ -415,11 +397,14 @@
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         
+        <drawing type="scroll" book_orientation="0" place="head" method="pen">
+            <text hand="English_secretary" language="LA" anchor_text="Poenituit eu[m] illa sensisse">pa[e]nituit eu[m] illa sensisse</text>
+            <translation>He regretted the things he had thought.</translation>
+        </drawing>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
         
     </annotation>
-    
 </transcription>

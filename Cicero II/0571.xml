@@ -5,7 +5,6 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="0571.tif" reader="John Dee" pagination="13"/>   
-    
     <annotation>
         
         
@@ -15,11 +14,6 @@
                     <marginalia_text></marginalia_text>          <!-- DO: Greek needed -->
                 </position>
             </language>
-            <translation></translation>
-        </marginalia>
-        
-        
-        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>Arist. 1&o_super; meteoro[rum]. ]</marginalia_text> 
@@ -27,10 +21,9 @@
                     <book title="Meteorology"/>
                 </position>
             </language>
-            <translation>Aristotle, in the first part of his Meteorology.</translation>
+            <translation>[GREEK]. Aristotle, in the first part of his Meteorology.</translation>
         </marginalia>
-      
-      
+        
         <marginalia hand="Italian" anchor_text="fabricem&uacute;rque si opus erit verba">
             <language ident="LA">
                 <position place="head" book_orientation="0">
@@ -42,7 +35,6 @@
             <translation>We may make up the words if necessary.</translation>
         </marginalia>
       
-      
         <marginalia hand="Italian" anchor_text="perspicuitate[m] aut euidentia[m]">
             <language ident="LA">
                 <position place="head" book_orientation="0">
@@ -53,8 +45,7 @@
                 </position>
             </language>
             <translation>
-                Transparency.
-                Evidence.
+                Transparency. Evidence.
             </translation>
         </marginalia>
         
@@ -69,8 +60,7 @@
                 </position>
             </language>
             <translation>
-                Knowledge.
-                Perception.
+                Knowledge. Perception.
             </translation>
         </marginalia>
         
@@ -131,7 +121,7 @@
                     </marginalia_text>        
                 </position>
             </language>
-            <translation>Words to be made up.</translation>
+            <translation>To be made up with words.</translation>
         </marginalia>
         
         
@@ -152,7 +142,8 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Philo aperte me[n]titur.
-                    </marginalia_text>        
+                    </marginalia_text>
+                    <person name="Philo of Larissa"/>
                 </position>
             </language>
             <translation>Philo openly decieves.</translation>
@@ -204,7 +195,7 @@
                     <person name="Zeno of Citium"/>
                 </position>
             </language>
-            <translation>Zeno.</translation>
+            <translation>Zeno of Citium.</translation>
         </marginalia>
         
         
@@ -220,20 +211,20 @@
                         qua[m]obre[m] 14.47 }
                     </marginalia_text>    
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0573" text="no[n] p[otes]t igitur Dubitari 15.53"/>
+                        <target ref="RCP10549-50v2:0573" text="15.53"/>
                     </internal_ref>
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0572" text="qua[m]obre[m] 14.47"/>
+                        <target ref="RCP10549-50v2:0572" text="14.47"/>
                     </internal_ref>
                 </position>
             </language>
             <translation>
-                { It cannot be doubted, 15.53.
+               Thus it cannot be doubted, [page] 15, [section] 53.
                 From which it is drawn.
                 How.
                 Therefore.
                 And so.
-                Why.
+                Why, [page] 14, [section] 47.
             </translation>
         </marginalia>
         
@@ -246,7 +237,7 @@
                         co[n]tra veteres philosophos fo.9.63
                     </marginalia_text>       
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0567" text="fo.0.63"/>
+                        <target ref="RCP10549-50v2:0567" text="9.63"/>
                     </internal_ref>
                 </position>
             </language>
@@ -385,7 +376,7 @@
                     </marginalia_text>        
                 </position>
             </language>
-            <translation>We retain objects in the mind, not in a sense.</translation>
+            <translation>We retain objects in the mind, not in by [our] sense[s].</translation>
         </marginalia>
         
         
@@ -409,7 +400,7 @@
                     </marginalia_text>        
                 </position>
             </language>
-            <translation>WHAT MAN IS.</translation>
+            <translation>What man is.</translation>
         </marginalia>
         
         
@@ -435,7 +426,7 @@
                 </position>
             </language>
             <translation>
-                Intervals { to narrow; to open up.
+                To narrow; to open up intervals.
             </translation>
         </marginalia>
         
@@ -450,7 +441,7 @@
                 </position>
             </language>
             <translation>
-                Comprehended [ by the mind; by the senses.
+                Comprehended by the mind [and] by the senses.
             </translation>
         </marginalia>
         
@@ -503,8 +494,6 @@
         
         
         <numeral place="intext">5</numeral>  <!-- DO: Not sure... -->
-     
         
     </annotation>
-    
 </transcription>

@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0577.tif" reader="John Dee" pagination="19" signature="Bb.ii."/>   
-    
+    <page filename="0577.tif" reader="John Dee" pagination="19" signature="Bb.ii."/>  
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="Quaerimus grauitatis, consta[n]tiae, firmitatis, sapientiae iudiciu[m]">
             <language ident="LA">
@@ -54,7 +52,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Mad. Furious. Insane.</translation>
         </marginalia>
         
         
@@ -116,7 +114,7 @@
                     <person name="Epicharmus of Kos"/>
                 </position>
             </language>
-            <translation>Epicharmus.</translation>
+            <translation>Epicharmus of Kos.</translation>
         </marginalia>
         
         
@@ -162,13 +160,13 @@
                     <marginalia_text>
                         Alcmeonis versus { sup[ra] 89
                     </marginalia_text>
-                    <person name="Alcmaeon"/>   <!-- DO: Not sure whether to tag character or Ennius's play? -->
+                    <person name="Alcmaeon"/> 
                     <internal_ref>
-                        <target ref="" text="89"/>      <!-- DO: I can't find a page 89 that this seems to relate to -->
+                        <target ref="" text="89"/>      <!-- DO: I can't find a page 89 that this seems to relate to --> <!--JG: Me neither-->
                     </internal_ref>
                 </position>
             </language>
-            <translation>A verse of Alcmeaon { above, 89.</translation>
+            <translation>A verse of Alcmeaon. See above, 89.</translation>
         </marginalia>
         
         
@@ -182,7 +180,7 @@
                 </position>
             </language>
             <translation>
-                In the senses { heaviness; slowness.
+                Heaviness [and] slowness in the senses.
             </translation>
         </marginalia>
         
@@ -336,7 +334,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Q LVCTaTIVS     <!-- DO: The 'a' looks like an alpha -->
+                        Q LVCTATIVS     <!-- DO: The 'a' looks like an alpha -->
                     </marginalia_text>
                     <person name="Quintus Lutatius Catulus"/>
                 </position>
@@ -367,8 +365,7 @@
                 </position>
             </language>
             <translation>
-                To be recognised { outside &amp; at home;
-                                   by foreigners and by fellow countrymen.
+                To be recognised outside andat home; by foreigners and by fellow countrymen.
             </translation>
         </marginalia>
         
@@ -394,14 +391,14 @@
                         Disputare 18
                     </marginalia_text>
                     <internal_ref>
-                        <target ref="RCP10549-50v2:0576" text="Disputare 18"/>
+                        <target ref="RCP10549-50v2:0576" text="18"/>
                     </internal_ref>
                 </position>
             </language>
             <translation>
                 To fight.
                 To contend.
-                To dispute, 18.
+                To dispute, [page] 18.
             </translation>
         </marginalia>
         
@@ -464,10 +461,8 @@
         
         <!-- DO: Unknown mark in right margin & tail -->
         
-        
-        <!-- DO: Drawings of eggs and (presumably) bees -->
+        <drawing type="animal" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="egg" book_orientation="0" place="right_margin" method="pen"/>
            
-        
     </annotation>
-    
 </transcription>
