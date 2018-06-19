@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0598.tif" reader="John Dee" pagination="40" signature="[Cc.iiii.[v]]"/>   
-    
+    <page filename="0598.tif" reader="John Dee" pagination="40" signature="[Cc.iiii.[v]]"/>
     <annotation>
-        
         
         <marginalia hand="English_secretary" anchor_text="&egrave; philosophorum choro sustilisti">
             <language ident="LA">
@@ -32,7 +30,7 @@
         <marginalia hand="English_secretary" anchor_text="illa perdiscere ludus esset">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>illa p[er]discere ludus esset</marginalia_text>
+                    <marginalia_text>illa p[er]discere ludus esset &id_est;</marginalia_text>
                 </position>
             </language>
             <translation>To study these things may be child's play.</translation>
@@ -45,16 +43,12 @@
                     <marginalia_text>ad hec.</marginalia_text>
                 </position>
             </language>
-            <translation>As concerning these things.</translation>
-        </marginalia>
-        
-        
-        <marginalia hand="English_secretary" anchor_text="ad haec">
             <language ident="EN">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>as co[n]cerning these things</marginalia_text>  <!-- DO: This and the above to be captured as one note? -->
+                    <marginalia_text>as co[n]cerning these things</marginalia_text> 
                 </position>
             </language>
+            <translation>As concerning these things.</translation>
         </marginalia>
         
         
@@ -74,7 +68,7 @@
                     <marginalia_text>virtus no[n] p[er] se expete[n]da, nec rerum cognitio</marginalia_text>
                 </position>
             </language>
-            <translation>Virtue is not desired in itself, nor is the knowledge of things.</translation>
+            <translation>Virtue must not be desired in itself, nor is the knowledge of things.</translation>
         </marginalia>
         
         
@@ -115,7 +109,7 @@
                     <marginalia_text>Dic quid no[n] probes eius priusq[uam] dissentias.</marginalia_text>
                 </position>
             </language>
-            <translation>Say which of his ideas you don't approve of before which you disagree with.</translation>  <!-- DO: Not sure; doesn't really make sense -->
+            <translation>Say which of his ideas you don't approve of before [Loeb 40, 31].</translation> 
         </marginalia>
         
         
@@ -157,7 +151,7 @@
                     <marginalia_text>O[mn]i[u]m Bonoru[m] extremu[m] quid sit.</marginalia_text>
                 </position>
             </language>
-            <translation>What the ultimate good may be.</translation>
+            <translation>What may be the end of all good things.</translation>
         </marginalia>
         
         
@@ -174,10 +168,10 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Maniefeste vera.</marginalia_text>  <!-- DO: Not sure of first word or translation -->
+                    <marginalia_text>Maniefeste vera.</marginalia_text>  
                 </position>
             </language>
-            <translation></translation>
+            <translation>Apparent truths.</translation>
         </marginalia>
         
         
@@ -191,8 +185,7 @@
                 </position>
             </language>
             <translation>
-                An observation;
-                A reminder. ]
+                An observation. A reminder. 
             </translation>
         </marginalia>
         
@@ -207,8 +200,7 @@
                 </position>
             </language>
             <translation>
-                Pleasure.
-                Grief.
+                Pleasure. Grief.
             </translation>
         </marginalia>
         
@@ -221,20 +213,15 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>If you will prove to me those things you say.</translation>
-        </marginalia>
-        
-        
-        <marginalia hand="Italian" anchor_text="si mihi probabis ea quae dices">
             <language ident="EN">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                      yf ye will proue me those things you say.
+                        yf ye will proue me those things you say.
                     </marginalia_text>
                 </position>
             </language>
+            <translation>If you will prove to me those things you say.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="sed multitudine[m] hoc maxime allicit"/>
         <underline method="pen" type="straight" language="LA" text="totam rationem euerti"/>
@@ -271,7 +258,6 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         
-        
         <mark name="plus_sign" method="pen" place="head"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
@@ -281,7 +267,5 @@
         
         <!-- DO: And other mark in head & left margin, similar to triangle -->
         
-        
     </annotation>
-    
 </transcription>

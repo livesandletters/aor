@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0599.tif" reader="John Dee" pagination="41"/>   
-    
+    <page filename="0599.tif" reader="John Dee" pagination="41"/>
     <annotation>
-        
         
         <marginalia hand="English_secretary" anchor_text="soluta nobis est eligendi optio">
             <language ident="LA">
@@ -49,8 +47,7 @@
                 </position>
             </language>
             <translation>
-                Why pleasure is scorned; 
-                why grief is loved.
+                Why pleasure is scorned; why grief is loved.
             </translation>
         </marginalia>
         
@@ -71,7 +68,7 @@
                     <marginalia_text>voluptarij.</marginalia_text>
                 </position>
             </language>
-            <translation>Pleasure-seekers.</translation>  <!-- DO: Not sure of translation -->
+            <translation>Pleasure-seekers.</translation> 
         </marginalia>
         
         
@@ -81,7 +78,7 @@
                     <marginalia_text>Qua[n]do o[mn]is voluptas assume[n]da est, o[mn]is dolor depellendus.</marginalia_text>
                 </position>
             </language>
-            <translation>When all pleasure is consumed, all grief is driven away.</translation>
+            <translation>When 'every pleasure is to be welcomed and every pain avoided' [Loeb 40, 37].</translation>
         </marginalia>
         
         
@@ -99,9 +96,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sup[ra]. 35.</marginalia_text>  <!-- DO: Not sure what this refers to if file 0593 -->
+                    <internal_ref>
+                        <target ref="RCP10549-50v1:0593" text="35"/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation>Above, 35.</translation>
+            <translation>[See] above, 35.</translation>
         </marginalia>
         
         
@@ -131,7 +131,7 @@
                     <marginalia_text>Laus, et charitas</marginalia_text>
                 </position>
             </language>
-            <translation>Praise, and charity.</translation>
+            <translation>Praise and charity.</translation>
         </marginalia>
         
         
@@ -140,6 +140,9 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Titus liuius. li. 2&o_super;</marginalia_text>
                     <person name="Livy"/>
+                    <internal_ref>
+                        <target ref="PrincetonPA6452:00000007" text="li. 2&o_super;"/> <!--JG: Unsure which book, hence link to title page-->
+                    </internal_ref>
                 </position>
             </language>
             <translation>Titus Livius. Book 2.</translation>
@@ -175,13 +178,13 @@
                         depellere
                         asperni.
                         fugere.
-                        [co[n]terunere]   <!-- DO: not sure -->
+                        co[n]temnere  
                         spernere.
                         despicere.
                         reijcere
                         repellere
                         refugere
-                        [semonere]         <!-- DO: not sure -->
+                        [sumonere]        
                     </marginalia_text>
                 </position>
             </language>
@@ -191,13 +194,13 @@
                 To expel.
                 To spurn.
                 To flee.
-                
+                To disdain.
                 To scorn.
                 To disdain.
                 To reject.
                 To repel.
                 To escape.
-                
+                [To remind secretly].
             </translation>
         </marginalia>
         
@@ -225,11 +228,11 @@
                         liberatio
                         vacuitas
                         molesti[a]e
-                        [detractare?] dolore[m]  <!-- DO: Not sure; looks more like it ends in 'ere' -->
+                        detrahare dolore[m]  
                         priuari dolore[m]
                         priuatio doloris
                         detractio molesti[a]e
-                        [?] doloris              <!-- DO: Not sure -->
+                        amotio doloris             
                         depulsio
                         vitalio ].
                     </marginalia_text>
@@ -237,13 +240,11 @@
             </language>
             <translation>
                 Free, empty of trouble.
-                
+                To remove trouble.
                 To deliver from grief.
                 A deliverence from grief.
                 A purging of trouble.
-                
-                A repelling.
-                A shunning. ]
+                The removal, repelling, and shunning of grief.
             </translation>
         </marginalia>
         
@@ -293,11 +294,9 @@
         <numeral place="right_margin">12</numeral>
         
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>  
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="voluptiarij"/>  
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Laus, et charitas"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Delectus rerum"/>
         
     </annotation>
-    
 </transcription>

@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0596.tif" reader="John Dee" pagination="38" signature="[Cc.iii.[V]]"/>   
-    
+    <page filename="0596.tif" reader="John Dee" pagination="38" signature="[Cc.iii.[V]]"/>  
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="quis sit finis, quid extremu[m], quid vltimum">
             <language ident="LA">
@@ -63,7 +61,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>The esteem of the writing.</translation>  <!-- DO: Not sure -->
+            <translation>The esteem for writing.</translation> 
         </marginalia>
         
         
@@ -84,7 +82,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Ius ciuile.       <!-- DO: Dots on the 'I' -->
+                        &Iuml;us ciuile.       
                     </marginalia_text>
                 </position>
             </language>
@@ -126,7 +124,7 @@
                     <person name="Lucius Manlius Torquatus"/>
                 </position>
             </language>
-            <translation>Lucius Torquatus.</translation>
+            <translation>Lucius Manlius Torquatus.</translation>
         </marginalia>
         
         
@@ -203,7 +201,7 @@
                     <person name="Phaedrus the Epicurean"/>
                 </position>
             </language>
-            <translation>Phaedrus.</translation>
+            <translation>Phaedrus the Epicurean.</translation>
         </marginalia>
         
        
@@ -216,7 +214,7 @@
                     <person name="Zeno of Sidon"/>
                 </position>
             </language>
-            <translation>Zeno.</translation>
+            <translation>Zeno of Sidon.</translation>
         </marginalia>
         
         
@@ -357,10 +355,8 @@
         <numeral place="left_margin" language="LA" text="alteru[m]">2</numeral>
         
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
-        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Ius ciuile"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Oratio"/>
         
     </annotation>
-    
 </transcription>

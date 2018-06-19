@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0595.tif" reader="John Dee" pagination="37" signature="Cc.iii."/>   
-    
+    <page filename="0595.tif" reader="John Dee" pagination="37" signature="Cc.iii."/> 
     <annotation>
-        
         
         <marginalia hand="English_secretary" anchor_text="ferreum scriptorem">
             <language ident="LA">
@@ -25,7 +23,7 @@
                     <marginalia_text>ad arbitriu[m] scribere.</marginalia_text>
                 </position>
             </language>
-            <translation>To write to a decision.</translation>      <!-- DO: Not sure of translation -->
+            <translation>To write to their judgement.</translation>     
         </marginalia>
         
         
@@ -43,6 +41,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Plato de bene beateq[ue] viue[n]do</marginalia_text>
+                    <person name="Plato"/>
                 </position>
             </language>
             <translation>Plato on living well and living morally well.</translation>
@@ -122,7 +121,7 @@
                     <book title="On Virtue"/>
                 </position>
             </language>
-            <translation>Brutus on virtue.</translation>
+            <translation>Marcus Junius Brutus the Younger's 'On virtue'.</translation>
         </marginalia>
         
         
@@ -162,7 +161,7 @@
                     <marginalia_text>Lingua latina locupletior quam gra[e]ca.</marginalia_text>
                 </position>
             </language>
-            <translation>The Latin language richer than the Greek.</translation>
+            <translation>The Latin language [is] richer than the Greek.</translation>
         </marginalia>
         
         
@@ -235,7 +234,5 @@
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
-        
     </annotation>
-    
 </transcription>
