@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0590.tif" reader="John Dee" pagination="32"/>   
-    
+    <page filename="0590.tif" reader="John Dee" pagination="32"/>
     <annotation>
-        
         
         <marginalia hand="English_secretary" anchor_text="magnitudinem quasi decempeda">
             <language ident="LA">
@@ -173,7 +171,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Sapiens                   <!-- DO: Not sure how to capture with diamond shape -->
+                        Sapiens                  
                         Noster &amp; vester
                         dissentiu[n]t
                     </marginalia_text>
@@ -197,6 +195,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>An ta[n]tum &Sun; 18 terras co[n]tinuet</marginalia_text>
+                    <symbol_in_text name="Sun"/>
                 </position>
             </language>
             <translation>Whether the sun covers as much space as 18 Earths.</translation>
@@ -242,7 +241,7 @@
             <translation>
                 Xenophanes.
                 Parmenides.
-                Zeno.
+                Zeno of Citium.
                 Euclid.
             </translation>
         </marginalia>
@@ -253,13 +252,13 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         paululu[m] ant&egrave; dice[n]du[m] est
-                        [deleted] repete[n]du[m] altius.
+                        [superius - deleted] repete[n]du[m] altius.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                It was said a little earlier.
-                Repeated higher up.             <!-- DO: Not sure about second line -->
+                'A few words must be said first' [Loeb 268, 633].
+                [A few words] must be repeated higher up.            
             </translation>
         </marginalia>
         
@@ -308,11 +307,9 @@
         <!-- DO: Unknown mark in head & left margin -->
         
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Inane"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> 
         
-        
     </annotation>
-    
 </transcription>
