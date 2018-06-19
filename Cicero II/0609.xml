@@ -5,17 +5,15 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="0609.tif" reader="John Dee" pagination="51" signature="Dd.ii."/>   
-    
     <annotation>
-        
         
         <marginalia hand="English_secretary" anchor_text="odrilitiu[m]">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>odrilitiu[m]</marginalia_text>   
+                    <marginalia_text>odrilitiu[m]</marginalia_text>   <!--JG: Corinthium according to Loeb: https://www.loebclassics.com/view/marcus_tullius_cicero-de_finibus_bonorum_et_malorum/1914/pb_LCL040.109.xml-->
                 </position>
             </language>
-            <translation></translation>   <!-- DO: Not sure what this means -->
+            <translation>Corinthian bronzes [Loeb 40, 109].</translation>   
         </marginalia>
         
         
@@ -35,7 +33,7 @@
                     <marginalia_text>hirsiphon.</marginalia_text> 
                 </position>
             </language>
-            <translation></translation>  <!-- DO: Not sure what this means -->
+            <translation>Cas [Loeb 40, 107].</translation> 
         </marginalia>
         
         
@@ -117,7 +115,7 @@
                     <person name="Gaius Lucilius"/>
                 </position>
             </language>
-            <translation>Lucilius.</translation>
+            <translation>Gaius Lucilius.</translation>
         </marginalia>
         
         
@@ -140,7 +138,7 @@
                     <book title="Pro Quinctio"/>
                 </position>
             </language>
-            <translation>Gallonius. Pro [Publius] Quinctio.</translation>
+            <translation>Publius Gallonius. 'Pro [Publius] Quinctio'.</translation>
         </marginalia>
         
         
@@ -193,7 +191,7 @@
                 Well.
                 Rightly.
                 Frugally.
-                Honestly. X
+                Honestly. 
                 Badly.
                 Wrongly.
                 Vilely.
@@ -255,7 +253,5 @@
         
         <numeral place="right_margin">12</numeral>
 
-        
     </annotation>
-    
 </transcription>

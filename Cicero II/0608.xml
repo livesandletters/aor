@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0608.tif" reader="John Dee" pagination="50" signature="[Dd.i.[v]]"/>   
-    
+    <page filename="0608.tif" reader="John Dee" pagination="50" signature="[Dd.i.[v]]"/> 
     <annotation>
-        
         
        <marginalia hand="English_secretary" anchor_text="dialecticas captiones">
            <language ident="LA">
@@ -40,7 +38,7 @@
                 </position>
             </language>
             <translation>
-                Sweetly; pleasantly. ]
+                Sweetly; pleasantly.
             </translation>
         </marginalia> 
         
@@ -86,7 +84,7 @@
             </language>
             <translation>
                 Rhetoricians speak more widely.
-                Dialecticians in a more compressed way.
+                Dialecticians [speak] in a more compressed way.
             </translation>
         </marginalia>
         
@@ -97,7 +95,7 @@
                     <marginalia_text>Rhetorica hebetior quu[m] populariter loquatur</marginalia_text>
                 </position>
             </language>
-            <translation>Rhetoric blunter when spoken popularly.</translation>
+            <translation>Rhetoric [is] blunter when spoken popularly.</translation>
         </marginalia>
         
         
@@ -152,7 +150,7 @@
                     <person name="Diodorus of Tyre"/>
                 </position>
             </language>
-            <translation>Diodorus.</translation>
+            <translation>Diodorus of Tyre.</translation>
         </marginalia>
         
         
@@ -162,7 +160,7 @@
                     <marginalia_text>Res: verba.</marginalia_text>
                 </position>
             </language>
-            <translation>Things: Words.</translation>
+            <translation>Things. Words.</translation>
         </marginalia>
         
         
@@ -180,8 +178,13 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Epicuri</marginalia_text>            <!-- DO: Greek needed -->
+                    <marginalia_text>Epicuri</marginalia_text>            
                     <person name="Epicurus"/>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text></marginalia_text> <!-- DO: Greek needed -->
                 </position>
             </language>
             <translation></translation>
@@ -204,7 +207,7 @@
                     <marginalia_text>finis definitio</marginalia_text>
                 </position>
             </language>
-            <translation>End; definition.</translation>
+            <translation>End. Definition.</translation>
         </marginalia>
         
         
@@ -250,21 +253,18 @@
         <mark name="tripunctus" method="pen" place="head"/>
         <mark name="tripunctus" method="pen" place="head"/>
         
-        <mark name="small_circle" method="pen" place="head"/>
+        <mark name="small_circle" method="pen" place="head" language="LA" text="ruit in dice[n]do"/>
         <mark name="small_circle" method="pen" place="left_margin"/>
         
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
-      
         
         <!-- DO: And unknown mark in left margin and another in left margin & tail, similar to a bracket -->
         
         
         <numeral place="left_margin">12</numeral>
         
-        
     </annotation>
-    
 </transcription>

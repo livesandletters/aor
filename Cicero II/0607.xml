@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0607.tif" reader="John Dee" pagination="49" signature="Dd.i."/>   
-    
+    <page filename="0607.tif" reader="John Dee" pagination="49" signature="Dd.i."/> 
     <annotation>
-        
         
         <marginalia hand="English_secretary" anchor_text="non parum saepe">
             <language ident="LA">
@@ -57,9 +55,7 @@
                 </position>
             </language>
             <translation>
-                To hold;
-                to maintain;
-                to defend } this.
+                To hold; to maintain; to defend this.
             </translation>
         </marginalia>
         
@@ -101,7 +97,7 @@
                     <person name="Quinctius Cincinnatus"/>
                 </position>
             </language>
-            <translation>Cincinnatus from the plough.</translation>
+            <translation>Quinctius Cincinnatus from the plough.</translation>
         </marginalia>
         
         
@@ -121,7 +117,7 @@
                     <marginalia_text>Dua[e] res subiecta[e] voluptati</marginalia_text>
                 </position>
             </language>
-            <translation>Two things to the subject of pleasure.</translation>
+            <translation>Two things subjected of pleasure.</translation>
         </marginalia>
         
         
@@ -179,20 +175,26 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>[augit]</marginalia_text>          <!-- DO: Not sure what this says -->
+                    <marginalia_text>angit</marginalia_text>        
                 </position>
             </language>
-            <translation></translation>
+            <translation>He chokes.</translation> <!--JG: Unsure-->
         </marginalia>
         
         
         <marginalia hand="Italian" anchor_text="Heraclitus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Heraclitus</marginalia_text>         <!-- DO: Greek needed -->
+                    <marginalia_text>Heraclitus</marginalia_text>         
+                    <person name="Heraclitus of Tyre"/>
                 </position>
             </language>
-            <translation></translation>
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text></marginalia_text>        <!-- DO: Greek needed -->
+                </position>
+            </language>
+            <translation>Heraclitus of Tyre</translation>
         </marginalia>
         
         
@@ -215,7 +217,7 @@
                     <person name="Hieronymus of Rhodes"/>
                 </position>
             </language>
-            <translation>Hieronymus.</translation>
+            <translation>Hieronymus of Rhodes.</translation>
         </marginalia>
         
         
@@ -260,7 +262,7 @@
                 </position>
             </language>
             <translation>
-                A matter { easy; clear; widely known.
+                A matter: easy; clear; widely known.
             </translation>
         </marginalia>
         
@@ -309,8 +311,7 @@
         
         <!-- DO: Two unknown marks in head and another appearing twice in right margin -->
         
-        
+        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="res facilis illustris in vulgus promulgata"/>
         
     </annotation>
-    
 </transcription>
