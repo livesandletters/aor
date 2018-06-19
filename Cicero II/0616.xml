@@ -5,9 +5,7 @@
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="0616.tif" reader="John Dee" pagination="58"/>   
-    
     <annotation>
-        
         
         <marginalia hand="English_secretary" anchor_text="certamen honestu[m] &amp; disputatio splendida: omnis est enim de virtutis dignitate contentio">
             <language ident="LA">
@@ -20,9 +18,7 @@
                 </position>
             </language>
             <translation>
-                A competition.
-                A battle.
-                A dispute.
+                A competition. A battle. A dispute.
             </translation>
         </marginalia>
         
@@ -141,10 +137,7 @@
                 </position>
             </language>
             <translation>
-                Lycurgus of Athens.
-                Solon.
-                Alcibiades.
-                Epaminondas.
+                Lycurgus of Athens. Solon. Alcibiades. Epaminondas.
             </translation>
         </marginalia>
         
@@ -184,8 +177,7 @@
                 </position>
             </language>
             <translation>
-                Stoics.
-                Peripatetics.
+                Stoics. Peripatetics.
             </translation>
         </marginalia>
         
@@ -225,7 +217,7 @@
                     <book title="Tabula"/>
                 </position>
             </language>
-            <translation>It is another Tabula of Cebes.</translation>  <!-- DO: Not sure; could be 'There is another Tabula...'? -->
+            <translation>There is another Tabula of Cebes.</translation>  
         </marginalia>
         
         
@@ -250,7 +242,7 @@
                     <person name="Sergius Orata"/>
                 </position>
             </language>
-            <translation>Orata.</translation>
+            <translation>Sergius Orata.</translation>
         </marginalia>
         
         
@@ -326,8 +318,8 @@
         <symbol name="Jupiter" place="left_margin"/>
         
         
-        <mark name="est_mark" method="pen" place="head"/>
-        <mark name="est_mark" method="pen" place="head"/>
+        <mark name="est_mark" method="pen" place="head" language="LA" text="ad aure[m] admonere"/>
+        <mark name="est_mark" method="pen" place="left_margin"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         
@@ -337,8 +329,9 @@
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
-         
+        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="aiat"/>
         
     </annotation>
-    
 </transcription>
