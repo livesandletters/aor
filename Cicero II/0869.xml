@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -10,16 +9,16 @@
         <marginalia hand="Italian" anchor_text="Subcisiua quaedam tempora">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>subcisina te[m]pora</marginalia_text> <!--succisivus-->
+                    <marginalia_text>subcisiua te[m]pora</marginalia_text>
                 </position>
             </language>
-            <translation>Time cut down.</translation>
+            <translation>Left-over time.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="conlocuti">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>co[n]loculus</marginalia_text> <!--JG: Or 'conlocutus?-->
+                    <marginalia_text>co[n]locutus</marginalia_text>
                 </position>
             </language>
             <translation>Conversation.</translation>
@@ -32,16 +31,17 @@
                     <person name="Antipater of Tarsus"/>
                 </position>
             </language>
-            <translation>Antipater.</translation>
+            <translation>Antipater of Tarsus.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="cuius loquacitas">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Accij Loquacitas</marginalia_text>
+                    <person name="Lucius Accius"/>
                 </position>
             </language>
-            <translation>The talkativeness of Accius.</translation>
+            <translation>The talkativeness of Lucius Accius.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Sisenna">
@@ -70,7 +70,7 @@
                     <marginalia_text>Vltimis &agrave; te[m]poribus, scibe[n]di capiatur exordium</marginalia_text>
                 </position>
             </language>
-            <translation>The beginning of writing may be captured from the last times.</translation>
+            <translation>The beginning should be captured at the end of the writing process.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Cn. Pompeii">
@@ -89,16 +89,16 @@
                     <marginalia_text>vacuu[m] tempus.</marginalia_text>
                 </position>
             </language>
-            <translation>Devoid of time.</translation>
+            <translation>Empty time.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="scribimus. historia ver&ograve; nec institui">
+        <marginalia hand="Italian" anchor_text="historia ver&ograve; nec institui potest nisi praeparato otio, nec exiguo tempore absolui">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Historia[e] scriptio difficilis</marginalia_text>
                 </position>
             </language>
-            <translation>The difficult writing of history.</translation>
+            <translation>The writing of history is difficult.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Legationem">
@@ -153,19 +153,19 @@
                     <marginalia_text>Paratus &amp; meditatus accede cu[m] dice[n]di cogitatio[n]e.</marginalia_text>
                 </position>
             </language>
-            <translation>To approach prepared and practiced with the intention of saying.</translation>
+            <translation>Approach prepared and practised, with the intention of speaking.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="iuris studere">
+        <marginalia hand="English_secretary" anchor_text="iuris studere">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Iuris studiu[m]</marginalia_text>
                 </position>
             </language>
-            <translation>The study of the law.</translation>
+            <translation>The pursuit of the law.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="vacui">
+        <marginalia hand="English_secretary" anchor_text="vacationi">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>vacatio</marginalia_text>
@@ -174,7 +174,7 @@
             <translation>Freedom.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary" anchor_text="cessionem">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>cessio</marginalia_text>
@@ -183,7 +183,7 @@
             <translation>Conceding.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary" anchor_text="ventitarem">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>ve[n]tito.</marginalia_text>
@@ -192,7 +192,7 @@
             <translation>I resort to.</translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="English_secretary" anchor_text="relaxes">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>relaxo.</marginalia_text>
@@ -201,7 +201,7 @@
             <translation>I loosen.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="In longum sermone[m] me vocas">
+        <marginalia hand="English_secretary" anchor_text="In longum sermone[m] me vocas">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>in longu[m] sermone[m] vocare.</marginalia_text>
@@ -281,4 +281,3 @@
         
     </annotation>
 </transcription>
-
