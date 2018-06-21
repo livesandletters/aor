@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0638.tif" reader="John Dee" pagination="80"/>   
-    
+    <page filename="0638.tif" reader="John Dee" pagination="80"/>  
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="quatuor ex rebus omnia constare">
             <language ident="LA">
@@ -25,7 +23,7 @@
                     <marginalia_text>Quinta qua[e]da[m] natura</marginalia_text>
                 </position>
             </language>
-            <translation>A certain fifth natural substance.</translation>      <!-- DO: Not sure how to translate -->
+            <translation>A kind of fifth nature.</translation>   
         </marginalia>
         
         
@@ -42,7 +40,7 @@
         <marginalia hand="Italian" anchor_text="inue[n]toribus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Inuentores rerum</marginalia_text>  <!-- DO: Three dots on the capital I -->
+                    <marginalia_text>&Iuml;nuentores rerum</marginalia_text>  <!-- DO: Three dots on the capital I -->
                 </position>
             </language>
             <translation>The discoverers of things.</translation>
@@ -67,7 +65,7 @@
                     <person name="Zeno of Citium"/>
                 </position>
             </language>
-            <translation>Zeno.</translation>
+            <translation>Zeno of Citium.</translation>
         </marginalia>
         
         
@@ -93,8 +91,7 @@
                 </position>
             </language>
             <translation>
-                Xenocrates.
-                Aristotle.
+                Xenocrates. Aristotle.
             </translation>
         </marginalia>
         
@@ -165,7 +162,7 @@
                     <marginalia_text>infinita laude anteponere.</marginalia_text>
                 </position>
             </language>
-            <translation>To prefer with infinite praise.</translation>
+            <translation>To value above with infinite praise.</translation>
         </marginalia>
         
         
@@ -179,11 +176,9 @@
                 </position>
             </language>
             <translation>
-                Simply X Accurately;
-                         simply.  
+                Simply. Accurately; exactly.  
             </translation>
         </marginalia>
-        
         
         <underline method="pen" type="triple" language="LA" text="Inest in eadem explicatione naturae, insatiabilis quaedam &egrave; cognoscendis rebus voluptas, in qua vna confectis rebus necessariis, vacui negotiis honeste ac liberaliter possumus"/>
         <underline method="pen" type="triple" language="LA" text="ignem, nonnulla deinde"/>
@@ -227,10 +222,8 @@
         <errata language="LA" copytext="alltaum" amendedtext="allatum"/>
         
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> 
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> 
-        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Inuentores rerum"/> 
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Inuentores rerum"/> 
         
     </annotation>
-    
 </transcription>
