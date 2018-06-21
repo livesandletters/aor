@@ -31,7 +31,7 @@
                     <marginalia_text>Quis no[n] mouetur offensione turpitudinis, co[m]p[ro]batione Honestatis?</marginalia_text>
                 </position>
             </language>
-            <translation>Who is not moved to offense by baseness, to approval by honour?</translation>
+            <translation>Who is not moved to offense by baseness [and] to approval by honour?</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Pullum Numitorem, Fregellanum proditorem; Codrum; Erichthei filias; Tubuli; Aristidem">
@@ -45,6 +45,7 @@
                         Tubulus.
                         Aristides. }
                     </marginalia_text>
+                    <person name="Pullus Numitorius"/>
                     <person name="Codrus"/>
                     <person name="Erechtheus II of Athens"/>
                     <person name="Lucius Hostilius Tubulus"/>
@@ -52,11 +53,7 @@
                 </position>
             </language>
             <translation>
-                Pullus Numitorius of Fregellae.  <!-- DO: I can't identify him -->
-                Codrus.
-                The daughters of Erechtheus.
-                Tubulus.
-                Aristides.
+                Pullus Numitorius of Fregellae. Codrus. The daughters of Erechtheus. Tubulus. Aristides.
             </translation>
         </marginalia>
         
@@ -74,7 +71,7 @@
         <marginalia hand="Italian" anchor_text="contra vtilitatem etiam conseruatur fides">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>fides. vtilitas.</marginalia_text>   <!-- DO: Not sure if capital 'v', they seem to be interchangeable -->
+                    <marginalia_text>fides. vtilitas.</marginalia_text>   
                 </position>
             </language>
             <translation>Trust. Advantage.</translation>
@@ -87,7 +84,7 @@
                     <marginalia_text>Romanoru[m] res gesta[e].</marginalia_text>
                 </position>
             </language>
-            <translation>Things done by the Romans.</translation>
+            <translation>The deeds of the Romans.</translation>
         </marginalia>
         
         
@@ -117,7 +114,7 @@
                     <marginalia_text>Iusticia[e] ancilla[e] et fideles pedissequa[e].</marginalia_text>
                 </position>
             </language>
-            <translation>Fair maids and faithful waiting women.</translation>  <!-- DO: Not sure about 'iusticiae' -->
+            <translation>Righteous maids and faithful waiting women.</translation> 
         </marginalia>
         
         
@@ -153,10 +150,7 @@
                 </position>
             </language>
             <translation>
-                A combination;
-                a union;
-                an agreement;
-                a mixture ] of virtues.
+                A combination; a union; an agreement; a mixture of virtues.
             </translation>
         </marginalia>
         
@@ -185,27 +179,21 @@
         <underline method="pen" type="straight" language="LA" text="dico co[n]spiratio, consens&uacute;sque"/>
         <underline method="pen" type="straight" language="LA" text="haec coniunctio confusi&oacute;que virtutum"/>
         
-        
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
-        
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         
-        
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         
-        
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="cui sunt adiunctae, pietas, bonitas, liberalitas, benignitas, comitas"/>        
          
-        
     </annotation>
-    
 </transcription>
