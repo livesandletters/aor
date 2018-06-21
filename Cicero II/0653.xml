@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0653.tif" reader="John Dee" pagination="95"/>   
-    
+    <page filename="0653.tif" reader="John Dee" pagination="95"/> 
     <annotation>
-        
         
         <marginalia hand="English_secretary" anchor_text="attingat, ad s&eacute;que pertineat">
             <language ident="LA">
@@ -19,8 +17,7 @@
                 </position>
             </language>
             <translation>
-                To affect.
-                To touch.
+                To affect. To touch.
             </translation>
         </marginalia>
         
@@ -28,7 +25,7 @@
         <marginalia hand="English_secretary" anchor_text="coept&aacute;tque">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>coeptare</marginalia_text>  <!-- DO: I think there is some kind of symbol/mark below this word -->
+                    <marginalia_text>coeptare</marginalia_text> 
                 </position>
             </language>
             <translation>To venture.</translation>
@@ -152,7 +149,7 @@
                     <marginalia_text>enodatius explicare.</marginalia_text>
                 </position>
             </language>
-            <translation>More thorough.</translation>
+            <translation>To explain more clearly.</translation>
         </marginalia>
         
         
@@ -197,8 +194,8 @@
         
         <mark name="tripunctus" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="tail"/>
+        <mark name="tripunctus" method="pen" place="right_margin" language="LA" text="In mala scientes irruunt"/>
+        <mark name="tripunctus" method="pen" place="tail" language="LA" text="terminatio"/>
         
         <mark name="plus_sign" method="pen" place="right_margin"/>
         
@@ -206,7 +203,5 @@
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         
-        
     </annotation>
-    
 </transcription>

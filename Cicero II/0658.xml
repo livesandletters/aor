@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0658.tif" reader="John Dee" pagination="100" signature="[Gg.ii.[v]]"/>   
-    
+    <page filename="0658.tif" reader="John Dee" pagination="100" signature="[Gg.ii.[v]]"/> 
     <annotation>
-        
         
         <marginalia hand="English_secretary" anchor_text="Nec vero sum inscius">
             <language ident="LA">
@@ -61,12 +59,7 @@
                 </position>
             </language>
             <translation>
-                Archimedes.
-                Aristoxenus.
-                Aristophanes.
-                Pythagoras.
-                Plato.
-                Democritus. } They blazed in the study of books.
+                Archimedes. Aristoxenus. Aristophanes. Pythagoras. Plato. Democritus. They blazed in the study of books.
             </translation>
         </marginalia>
         
@@ -175,9 +168,9 @@
         
         
         <marginalia hand="Italian" anchor_text="">
-            <language ident="LA">
+            <language ident="EL">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text></marginalia_text>  <!-- DO: Can't make this out, maybe 'arce....ias' but possibly might be Greek? -->
+                    <marginalia_text></marginalia_text>  <!-- Greek needed -->
                 </position>
             </language>
             <translation></translation>
@@ -244,7 +237,6 @@
             <translation>Too much.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="est transuectus"/>
         <underline method="pen" type="straight" language="LA" text="Doctior ad patrias lapsus peruenerit"/>
         <underline method="pen" type="straight" language="LA" text="si cantiunculis tantus vir irretitus"/>
@@ -281,22 +273,17 @@
         <symbol name="Jupiter" place="tail"/>
         <symbol name="Jupiter" place="tail"/>
         
-        
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         
-        
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         
-        
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> 
-        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Animi Voluptas"/> 
         
     </annotation>
-    
 </transcription>

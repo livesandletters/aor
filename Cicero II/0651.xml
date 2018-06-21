@@ -4,15 +4,14 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0651.tif" reader="John Dee" pagination="93"/>   
-    
+    <page filename="0651.tif" reader="John Dee" pagination="93"/> 
     <annotation>
         
         
         <marginalia hand="English_secretary" anchor_text="in eo nonnunquam variari inter eos &amp; dubitari videtur">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>in eo nunq[uam] int[er] eos et dubitari v[idetu]r</marginalia_text>  <!-- DO: I don't know if it's meant to be 'nonnunquam' as it is in the text (and thus the opposite meaning)? -->
+                    <marginalia_text>in eo nunq[uam] int[er] eos et dubitari v[idetu]r</marginalia_text>  <!-- DO: I don't know if it's meant to be 'nonnunquam' as it is in the text (and thus the opposite meaning)? --> <!--JG: Could very well be, but let's stick to nunquam-->
                 </position>
             </language>
             <translation>In this matter there never seems to be any variation and doubt.</translation>  
@@ -59,7 +58,7 @@
                     <person name="Strato of Lampsacus"/>
                 </position>
             </language>
-            <translation>Strato.</translation>
+            <translation>Strato of Lampsacus.</translation>
         </marginalia>
         
         
@@ -81,7 +80,7 @@
                     <person name="Aristo of Ceos"/>
                 </position>
             </language>
-            <translation>Aristo.</translation>
+            <translation>Aristo of Ceos.</translation>
         </marginalia>
         
         
@@ -92,7 +91,7 @@
                     <person name="Hieronymus of Rhodes"/>
                 </position>
             </language>
-            <translation>Hieronymus.</translation>
+            <translation>Hieronymus of Rhodes.</translation>
         </marginalia>
         
         
@@ -114,7 +113,7 @@
                     <person name="Diodorus of Tyre"/>
                 </position>
             </language>
-            <translation>Diodorus.</translation>
+            <translation>Diodorus of Tyre.</translation>
         </marginalia>
         
         
@@ -125,7 +124,7 @@
                     <person name="Antiochus of Ascalon"/>
                 </position>
             </language>
-            <translation>Antiochus.</translation>
+            <translation>Antiochus of Ascalon.</translation>
         </marginalia>
         
         
@@ -145,7 +144,7 @@
                     <marginalia_text>Nulla est ars quae ip[s]a &agrave; se proficiscitur.</marginalia_text>
                 </position>
             </language>
-            <translation>There is no art which originates in itself.</translation>
+            <translation>There is no art which 'can supply its own starting point' [Loeb 40, 409].</translation>
         </marginalia>
         
         
@@ -204,17 +203,14 @@
         <symbol name="Jupiter" place="right_margin"/>
         
         
-        <mark name="tripunctus" method="pen" place="head"/>
-        <mark name="tripunctus" method="pen" place="tail"/>
+        <mark name="tripunctus" method="pen" place="head" language="LA" text="in eo nunq[uam] int[er] eos et dubitari v[idetu]r"/>
+        <mark name="tripunctus" method="pen" place="tail" language="LA" text="inuitame[n]ta natur[a]e"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">12</numeral>
-        
         
     </annotation>
-    
 </transcription>
