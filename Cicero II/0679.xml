@@ -21,7 +21,7 @@
         
         <marginalia hand="Italian" anchor_text="quo">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0">
+                <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         qu&ograve;d
                     </marginalia_text>
@@ -54,7 +54,7 @@
                 </position>
             </language>
             <translation>
-                Death leads us away from the bad.
+                Death leads us away from evil.
             </translation>
         </marginalia>
         
@@ -93,6 +93,13 @@
                         Hegesias
                     </marginalia_text>
                     <person name="Hegesias of Cyrene"/>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                                        <!-- Greek to be added -->
+                    </marginalia_text>
                 </position>
             </language>
             <translation>
@@ -166,7 +173,7 @@
                 </position>
             </language>
             <translation>
-                By the prolongation of life, we spread how great and how manyincredible calamities.
+                By the prolongation of life, we spread such great and manyincredible calamities.
             </translation>
         </marginalia>
         
@@ -231,7 +238,7 @@
                 </position>
             </language>
             <translation>
-                
+                This [is] properly settled and fixed. This [is] confirmed. [Loeb 141, 105].
             </translation>
         </marginalia>
         
@@ -265,7 +272,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        cu[m] ira[m] p[er] a[nim]o misera est <!-- FSF: not sure -->
+                        cu[m] ia[m] p[er] a[nim]o misera est <!-- FSF: not sure --> <!--JG: Not sure either-->
                     </marginalia_text>
                 </position>
             </language>
