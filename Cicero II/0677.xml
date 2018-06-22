@@ -199,6 +199,7 @@
                     <marginalia_text>
                         Cato moriendi causa[m] se nactu[m] gaudebat.
                     </marginalia_text>
+                    <person name="Cato"/>
                 </position>
             </language>
             <translation>
@@ -301,13 +302,13 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        a[n]i[mu]m ad seip[su]m aduocam[us]. a[n]i[mu]m secu[m] esse cogimus. a[n]i[mu]m &agrave; corpore abducumus &agrave; negotio o[mn]i a[n]i[mu]m severam[us]
-                        &agrave; corpore a[n]i[mu]m secreuimus. nos disiungere a corporibus.
+                        a[n]i[mu]m ad seip[su]m aduocam[us]. a[n]i[mu]m secu[m] esse cogimus. a[n]i[mu]m &agrave; corpore abducumus &agrave; negotio o[mn]i a[n]i[mu]m sevocam[us]
+                        &agrave; corpore a[n]i[mu]m secernimus. nos disiungere a corporibus.
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                We invoke the mind to itself, we think that the mind is independent, we withdraw the mind from the body, we bring forht the mind in every business, we separate the mind from the body, we disunite the mind from the bodies.
+                We invoke the mind to itself, we think that the mind is independent, we withdraw the mind from the body, we separate the mind in every business, we separate the mind from the body, we disunite the mind from the bodies.
             </translation>
         </marginalia>
         
@@ -376,9 +377,9 @@
         <errata language="LA" copytext="liberet" amendedtext="lib&ecirc;ret"/>
         <errata language="LA" copytext="retractabis" amendedtext="retardabis"/>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="volat aetas"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
