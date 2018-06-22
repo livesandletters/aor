@@ -28,7 +28,7 @@
                 </position>
             </language>
             <translation>
-                Praise for huntin and riding.
+                Praise for hunting and riding.
             </translation>
         </marginalia>
         
@@ -95,7 +95,7 @@
                 </position>
             </language>
             <translation>
-                All praiseworthy that have been made without boasting and the public witness.
+                All more praiseworthy things that have been made without boasting and publicity [Loeb 141, 219].
             </translation>
         </marginalia>
         
@@ -177,7 +177,7 @@
                 </position>
             </language>
             <translation>
-                A dolphin freed Arion, see Herodotus first book, and earlier about Pelops in the Olymp.
+                A dolphin freed Arion, see Herodotus' first book, and earlier about Pelops in the Olymp.
             </translation>
         </marginalia>
         
@@ -207,7 +207,7 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="omnia enim bene facta in luce se collocari volunt">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -242,11 +242,9 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         
-        <mark name="tripunctus" method="pen" place="right_margin"/> <!-- with tail -->
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
-        <mark name="tripunctus" method="pen" place="tail"/> <!-- with tail -->
         
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">21</numeral>
@@ -255,7 +253,11 @@
         <numeral place="left_margin"></numeral>
         <numeral place="left_margin"></numeral>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="Tuo tibi iudicio est vtendum"/>
+        
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        
+        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="Omnia benefacta in luce se collocari volunt"/>
         
     </annotation>
 </transcription>
