@@ -212,7 +212,7 @@
                 </position>
             </language>
             <translation>
-                Death what, opinion.
+                What [is] death; opinions.
             </translation>
         </marginalia>
         
@@ -235,7 +235,7 @@
         <underline method="pen" type="straight" language="LA" text="extorsisti vt faterer"/>
         <underline method="pen" type="straight" language="LA" text="iucunditas, quum dies &amp; noctes cogita[n]dum sit iam i&aacute;mque esse"/>
         <underline method="pen" type="straight" language="LA" text="nunc video calcem"/>
-        <underline method="pen" type="straight" language="LA" text="qui in Latino sermone non plus solere, qu&agrave;m in"/>
+        <underline method="pen" type="straight" language="LA" text="loqui in Latino sermone non plus solere, qu&agrave;m in"/>
         <underline method="pen" type="straight" language="LA" text="perfice si potest"/>
         <underline method="pen" type="straight" language="LA" text="Vberius ista quaeso: haec enim spinosiora"/>
         <underline method="pen" type="straight" language="LA" text="confiteat me"/>
@@ -266,10 +266,13 @@
         <numeral place="left_margin">3</numeral>
         <numeral place="left_margin">4</numeral>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="grave" book_orientation="0" place="intext" method="pen">
+            <text hand="Italian" language="LA" anchor_text="sepulchra">sepulchara</text>
+            <translation>Grave.</translation>
+        </drawing>
         
-        <!-- FSF: there is a grave painted in the left margin -->
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="loqui in Latino sermone non plus solere, qu&agrave;m in"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="tamen quasi Pythius Apollo certa vt sint &amp; fixa quae dixero, sed vt homunculus"/>
         
     </annotation>
 </transcription>
