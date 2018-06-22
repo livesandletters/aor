@@ -20,10 +20,10 @@
         <marginalia hand="English_secretary" anchor_text="vt videret interitu[m], non vt caueret">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Lier Videre no[n] ta[m] cauere</marginalia_text>
+                    <marginalia_text>Lic[et] videre no[n] ta[m] cauere</marginalia_text>
                 </position>
             </language>
-            <translation>To see not so that he may avoid.</translation> 
+            <translation>On may see, not so much avoid.</translation> 
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="auibus">
@@ -32,7 +32,7 @@
                     <marginalia_text>Aues</marginalia_text>
                 </position>
             </language>
-            <translation>A bird.</translation>
+            <translation>Birds.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="animal omne vt vult ita vtitur motu">
@@ -41,16 +41,19 @@
                     <marginalia_text>Motus animalis</marginalia_text>
                 </position>
             </language>
-            <translation>The animal moved.</translation>
+            <translation>The movement of an animal.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Si paulo luna ante solis ortu[m] defecisset in signo Leonis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>&Moon; &amp; &Sun; .8. in &Conjunction; hora 5.</marginalia_text> <!-- M.B. Not sure if this a conjunction symbol or something else? -->
+                    <marginalia_text>&Moon; &amp; &Sun; .8. in &Leo; hora 5.</marginalia_text>
+                    <symbol_in_text name="Moon"/>
+                    <symbol_in_text name="Sun"/>
+                    <symbol_in_text name="Leo"/>
                 </position>
             </language>
-            <translation>The moon and sun in conjunction for five hours.</translation>
+            <translation>The moon and sun 8, in Leo, at the fifth hour.</translation> <!--JG: Not sure about the '8'. Refers to number of the house? Or sign of opposite planets?-->
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="puella nata biceps">
@@ -72,12 +75,15 @@
             <translation>Croesus’s son.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>T[itus] Liuius lib[er] 1. &o_super;</marginalia_text>
                     <person name="Livy"/>
                     <book title="Ab Urbe Condita"/>
+                    <internal_ref>
+                        <target ref="PrincetonPA6452:00000043" text="lib[er] 1"/> <!--JG: Link to page in Livy which frequently mentions the name of Servius Tullius-->
+                    </internal_ref>
                 </position>
             </language>
             <translation>Titus Livy, book one.</translation>
@@ -107,20 +113,22 @@
         <marginalia hand="English_secretary" anchor_text="Socrates quum apud Delium male pugnatu[m] esset Lachete Praetore, fuge r&eacute;tque cum ipso Lachete: vt ventu[m] est in triuium">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Socrates in triunio.</marginalia_text>
+                    <marginalia_text>Socrates in triuio.</marginalia_text>
                     <person name="Socrates"/>
                 </position>
             </language>
             <translation>Socrates at the crossroads.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Soc[rates] in Appollogia</marginalia_text>
+                    <person name="Socrates"/>
+                    <book title="The Apology"/>
                 </position>
             </language>
-            <translation>The Apology of Socrates.</translation>
+            <translation>Socrates in [Plato's] 'The Apology'.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="homines autem vt in certibus artibus">
@@ -129,7 +137,7 @@
                     <marginalia_text>homniu[m] est errari</marginalia_text>
                 </position>
             </language>
-            <translation>It is men who err.</translation>
+            <translation>To err pertains to mankind.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="diuine praesensa &amp; praedicta reperiri">
@@ -138,7 +146,7 @@
                     <marginalia_text>Diuinatio vnde repete[n]da</marginalia_text>
                 </position>
             </language>
-            <translation>Where divination is attacked again.</translation>
+            <translation>Where divination must be claimed.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="praesensa">
@@ -188,7 +196,7 @@
         <mark name="comma" method="pen" place="left_margin"/>
         <mark name="comma" method="pen" place="left_margin"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="vt videret interitu[m], non vt caueret"/>
         
     </annotation>
 </transcription>

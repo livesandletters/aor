@@ -13,7 +13,7 @@
                     <marginalia_text>Tonitru &agrave; sinistris</marginalia_text>
                 </position>
             </language>
-            <translation>Thunder on the left.</translation>
+            <translation>By thunder from the left.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="auguratus pastoralis">
@@ -34,7 +34,7 @@
                     <person name="Remus"/>
                 </position>
             </language>
-            <translation>Romulus and Remus gave attention to auspicies.</translation>
+            <translation>Romulus and Remus gave attention to the auspicies.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="artificiosae praesensionis facilis, diuinae autem paul&ograve;">
@@ -67,7 +67,7 @@
         <marginalia hand="English_secretary" anchor_text="haustos animos &amp; libatos habemus">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Animi hauste et libati</marginalia_text>
+                    <marginalia_text>Animi hausti et libati</marginalia_text>
                 </position>
             </language>
             <translation>Souls drawn and poured forth.</translation>
@@ -79,7 +79,7 @@
                     <marginalia_text>Natura futura p[rae]se[n]tiu[n]t</marginalia_text>
                 </position>
             </language>
-            <translation>Predicting the future from nature.</translation>
+            <translation>They predict the future [events] from nature.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="prudentes possumus dicere, id est prouidentes">
@@ -88,7 +88,7 @@
                     <marginalia_text>Prude[n]tes, id est, p[rou]inde[n]tes</marginalia_text>
                 </position>
             </language>
-            <translation>It is foresight through wisdom.</translation>
+            <translation>'"Foresighted"—that is, "able to foresee the future"' [Loeb 154, 343].</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Milesiu[m] Thalem">
@@ -98,13 +98,14 @@
                     <person name="Thales of Miletus"/>
                 </position>
             </language>
-            <translation>Thales.</translation>
+            <translation>Thales of Miletus.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="defectione[m] Solis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>&Sun; defictus</marginalia_text>
+                    <symbol_in_text name="Sun"/>
                 </position>
             </language>
             <translation>Solar eclipse.</translation>
@@ -133,10 +134,10 @@
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="hash" method="pen" place="left_margin"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="Qu&uacute;mque omnia co[m]pleta &amp; referta sint aeterno sensu &amp; me[n]te diuina, necesse est cognitione diuinoru[m] animorum animos humanos co[m]moueri"/>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="obseruatio diuturna"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Vetustas"/>
         
     </annotation>
 </transcription>
