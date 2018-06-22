@@ -142,12 +142,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Cur Mors nos no[n] deterreret asculta paucis <!-- FSF: not sure about asculta -->
+                        Cur Mors nos no[n] deterreret asculta paucis  <!--JG: imp. of auscultare?-->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Why death does not frighten us
+                Why death does not frighten us. Listen to small things.
             </translation>
         </marginalia>
         
@@ -181,12 +181,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Videtur igitur resurrectione[m] sapere ..ersimilitudo. <!-- FSF: not sure at all -->
+                        Videtur igitur resurrectione[m] sapere haec similitudo. 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                This similarity, therefore, seems to understand resurrection.
             </translation>
         </marginalia>
         
@@ -352,8 +352,8 @@
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="tail"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="exacta aetate moriuntur"/>
         
     </annotation>
 </transcription>
