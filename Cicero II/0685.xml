@@ -221,7 +221,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Salust[us] in caliliu <!-- FSF: this note disappears in the gutter -->
+                        Salust[us] in caliliu <!-- FSF: this note disappears in the gutter --> <!--JG: Original needed-->
                     </marginalia_text>
                 </position>
             </language>
@@ -280,10 +280,10 @@
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="head" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="refla[n]tibus ve[n]tis reijci"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Sed si reperiebantur nonnulli, qui nihil laudarent nisi quod se imitari posse confiderent, qu&eacute;mque spera[n]di sibi,              eundem &amp; benedicendi finem proponere[n]t"/>
         
     </annotation>
 </transcription>
