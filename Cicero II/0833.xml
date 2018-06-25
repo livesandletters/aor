@@ -22,7 +22,7 @@
                     <marginalia_text>Auguru[m] Discordia &amp; Dissensio qua[n]ta.</marginalia_text>
                 </position>
             </language>
-            <translation>The disagreement of augurs and how much of a conflict.</translation>
+            <translation>How much disagreement and conflict of augurs.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="supersitione">
@@ -41,7 +41,7 @@
                     <person name="Marcus Licinius Crassus"/>
                 </position>
             </language>
-            <translation>Marcus Crassus.</translation>
+            <translation>Marcus Licinius Crassus.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Sortes">
@@ -106,7 +106,7 @@
                     <person name="Eudoxus"/>
                 </position>
             </language>
-            <translation>Eudoxus on the Chaldeans.</translation>
+            <translation>Eudoxus. The Chaldeans.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Panaetius">
@@ -126,7 +126,7 @@
                     <marginalia_text>Pra[e]dictio in astrologia caueatur.</marginalia_text>
                 </position>
             </language>
-            <translation>Beware of the predictions of astrologers.</translation>
+            <translation>Prediction is avoided in astrology.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="ζωδιακός">
@@ -145,15 +145,6 @@
                 </position>
             </language>
             <translation>Wandering stars.</translation>
-        </marginalia>
-        
-        <marginalia hand="English_secretary" anchor_text="natalitia">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="90">
-                    <marginalia_text>NATIVITAS</marginalia_text> <!-- M.B. Scoll drawing around marginalia needs to be captured. -->
-                </position>
-            </language>
-            <translation>Nativity.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="etiamnum">
@@ -179,13 +170,12 @@
             aetatis qua erat ipse, quum in ceteris astrologiae partibus excellerent">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>in astrologia iudicio doctiss[imorum] hom[inum] facile princeps summus Astrologus illius a[e]tatis in q[ua] ip[s]e erat 
-                        excelle[n]s in Astrologia impius Chaldaicis r[ation]ib[us] eruditus</marginalia_text>
+                    <marginalia_text>in astrologia iudicio doctiss[imorum] hom[inum] facile princeps summus Astrologus illius a[e]tatis in q[u]a ip[s]e erat 
+                        excelle[n]s in Astrologia imp[r]imis Chaldaicis r[ation]ib[us] eruditus</marginalia_text>
                 </position>
             </language>
-            <translation>He who the best scholars consider easily the first in astronomy, the greatest astronomer of his age, as an eminent astronomer himself accursed the Chaldeans learned methods.</translation>
-            <!-- M.B. It is not entirely evident whether this is one coherent marginal annotation or if Dee was summarily noting several of Cicero's phrases describing Eudoxus. I've translated 'astrologia' as astronomer rather than astrologer following 
-            the Loeb translation as Exudoxus was a critic of the latter..-->
+            <translation>He was the highest astrologer of his age, easily the leader in astrology by the judgement of the most learned men. Excelling in astroloy. Chiefly learned in the Chaldean methods.
+            </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="horum errore susceptum esse, partim supersitione multa fallendo"/>
@@ -224,9 +214,14 @@
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
+        <drawing type="scroll" book_orientation="90" place="left_margin" method="pen">
+            <text hand="English_secretary" language="LA">NATIVITAS</text>
+            <translation>Nativity.</translation>
+        </drawing>
+        
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Sortes"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Deus o[mn]ia potest"/>
         
     </annotation>
 </transcription>
