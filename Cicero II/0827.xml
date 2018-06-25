@@ -13,7 +13,7 @@
                     <marginalia_text>Lactens</marginalia_text>
                 </position>
             </language>
-            <translation>Inexperienced.</translation>
+            <translation>Suckling.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="redemptor">
@@ -41,7 +41,7 @@
                     <marginalia_text>No[n] est philosophi quid fieri sine causa asserere</marginalia_text>
                 </position>
             </language>
-            <translation>It is not philosophical to ask what is made without a cause.</translation>
+            <translation>It is not philosophical to claim what is made without a cause.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Boethus Stoicus, qui est, &agrave; te nominatus, &amp; noster etiam Posidonius">
@@ -52,7 +52,7 @@
                     <person name="Posidonius"/>
                 </position>
             </language>
-            <translation>Boethus and Posidonius".</translation>
+            <translation>Boethus of Sidon and Posidonius.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Romulus lactens fulmine ictus">
@@ -68,10 +68,12 @@
         <marginalia hand="English_secretary" anchor_text="Venereum iaci">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>venereus iactus:Vidi ??lausthomi in Phylora fo 207.</marginalia_text>  <!-- M.B. Not sure of the citation in this marginalia. Something related to the Venus-throw  https://en.wikipedia.org/wiki/Venus_Throw -->
+                    <marginalia_text>venereus iactus: Vide melanchthone[m] in physica fo 207.</marginalia_text>  <!-- https://en.wikipedia.org/wiki/Venus_Throw -->
+                    <person name="Philipp Melanchthon"/>
+                    <book title="Initia doctrinae physicae"/>
                 </position>
             </language>
-            <translation>The Venus-throw: see ??? folio 207. </translation>
+            <translation>The Venus-throw: see Melanchton in his 'Initia doctrinae physicae', folio 207. </translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Praxitelia capita">
@@ -90,7 +92,7 @@
                     <marginalia_text>varia[e] figura[e] in nubibus</marginalia_text>
                 </position>
             </language>
-            <translation>Various shapes of clouds.</translation>
+            <translation>Various shapes in clouds.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="ostenta">
@@ -117,7 +119,7 @@
                     <marginalia_text>Causaru[m] ignoratio in re noua miratione[m] facit.</marginalia_text>
                 </position>
             </language>
-            <translation>Ignorance of causes in new things is what creates our wonder.</translation>
+            <translation>The ignorance of causes in new things creates our wonder.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Ortu[m] videmus aruspicinae">
@@ -126,7 +128,7 @@
                     <marginalia_text>Ortu[m] videamus aruspicinae</marginalia_text>
                 </position>
             </language>
-            <translation>Soothsayers appeared to have originated.</translation>
+            <translation>Let us see the origin of the soothsayers.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Tages">
@@ -145,7 +147,7 @@
                     <marginalia_text>respicsio pigme[n]toru[m]</marginalia_text>
                 </position>
             </language>
-            <translation>Scattering of the paints.</translation>
+            <translation>Respect for the ingredients.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Sed"/>
@@ -170,8 +172,8 @@
        
         <mark name="vertical_bar" method="pen" place="right_margin"/>
        
-       <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-       <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+       <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Ostenta"/>
+       <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Contra o[mn]ia ostenta"/>
        
         <!-- M.B. Drawing of the Etruscan divinity Tages. -->
         
