@@ -10,13 +10,13 @@
         <marginalia hand="English_secretary" anchor_text="legem antiquastis">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>antiqua[e] lege</marginalia_text>
+                    <marginalia_text>antiquare lege[m]</marginalia_text>
                 </position>
             </language>
-            <translation>Ancient law.</translation>
+            <translation>To reject a law.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>co[n]situra</marginalia_text>
@@ -25,13 +25,13 @@
             <translation>Sowing.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="obtineri">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>obtinetati</marginalia_text> <!-- M.B. Not sure? -->
+                    <marginalia_text>oliuitate</marginalia_text> 
                 </position>
             </language>
-            <translation></translation>
+            <translation>With olive gathering.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Platone[m] se comitem profitetur: in consolatione filia, Crantoremm inquit, sequor, item Panaetium">
@@ -61,25 +61,25 @@
                     <marginalia_text>Ciuitas.</marginalia_text>
                 </position>
             </language>
-            <translation>Citizenship.</translation>
+            <translation>Community.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="nauigat">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Nauigaus</marginalia_text>
+                    <marginalia_text>Nauigans</marginalia_text>
                 </position>
             </language>
-            <translation>Navigate.</translation>
+            <translation>Sailing.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="lubidines, quae sunt innumerabiles iracu[n]diae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Libido. Ira[cundiae].</marginalia_text>
+                    <marginalia_text>Libido. Ira.</marginalia_text>
                 </position>
             </language>
-            <translation>Pleasure, irritability.</translation>
+            <translation>Pleasure. Anger.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="patria, &amp; est antiquior parens">
@@ -105,18 +105,19 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Sallustus in Histor[ia].</marginalia_text>
                     <person name="Sallust"/>
+                    <book title="Histories"/>
                 </position>
             </language>
             <translation>Sallust's History.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>pignerare</marginalia_text>
+                    <marginalia_text>pignerari</marginalia_text>
                 </position>
             </language>
-            <translation>Pledge.</translation>
+            <translation>To pledge.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="se comitem"/>
@@ -134,7 +135,7 @@
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>

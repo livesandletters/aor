@@ -15,25 +15,25 @@
                     <marginalia_text>conata efficere</marginalia_text>
                 </position>
             </language>
-            <translation>Tried to accomplish..</translation> <!-- M.B. Not sure if this translation is correct? -->
+            <translation>To accomplish what has been undertaken.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="attingere">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>attingeri</marginalia_text>
+                    <marginalia_text>attingere</marginalia_text>
                 </position>
             </language>
-            <translation>Touch.</translation>
+            <translation>To touch.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="magnam complexus sum">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>?im magna co[m]plecti</marginalia_text>
+                    <marginalia_text>rem magna[m] co[m]plecti</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>To embrace a weighty matter.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Sallustio">
@@ -53,16 +53,16 @@
                     <book title="De Oratore"/>
                 </position>
             </language>
-            <translation>The book, De Oratore.</translation>
+            <translation>The book 'De Oratore'.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Cur ta[] antiquis ho[mn]ibus vtibatur cur in lijs libris</marginalia_text>
+                    <marginalia_text>Cur ta[m] antiquis ho[mn]ibus vtibatur cur in hijs libris</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Why it was used by ancient men; why is was used in these books.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="dialogorum meorum, vt in Oratoriis">
@@ -80,13 +80,13 @@
                     <marginalia_text>Horu[m] dialogoru[m] personae</marginalia_text>
                 </position>
             </language>
-            <translation>Of the characters in these  dialogues.</translation>
+            <translation>The characters of these dialogues.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="dialogorum">
-            <language ident="LA">
+            <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>αρ[ι]στ[ο]τέλης</marginalia_text> <!-- M.B. Fairly certain this Greek with two ligatures for 'Aristoteles', someone whose knows Greek should check. See Ingram ref for ligatures in note below.-->
+                    <marginalia_text>αρ[ι]στ[ο]τέλης</marginalia_text> <!-- Greek to be added -->
                     <person name="Aristotle"/>
                 </position>
             </language>
@@ -101,13 +101,13 @@
                     <marginalia_text>In co[e]lu[m] reditus</marginalia_text>
                 </position>
             </language>
-            <translation>Returning to heaven.</translation>
+            <translation>Returned to heaven.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="fer&egrave; de immortalitate animorum">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>~Scipio de i[m]mortalitate a[mn]i</marginalia_text>
+                    <marginalia_text>~Scipio de i[m]mortalitate a[nim]i</marginalia_text>
                     <person name="Scipio Africanus"/>
                 </position>
             </language>
@@ -120,7 +120,7 @@
                     <marginalia_text>Progressio ad om[n]em excellentia[m]</marginalia_text>
                 </position>
             </language>
-            <translation>The progression of every excellence.</translation>
+            <translation>Progression to every excellence.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="quos honestius, id mihi futurum sit antiquius">
@@ -129,7 +129,7 @@
                     <marginalia_text>Quod honestius, id a[n]tiqui[us]</marginalia_text>
                 </position>
             </language>
-            <translation>Because the ancient is more honourable.</translation>
+            <translation>Because it is older, it is more honourable.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="rerum publicarum nostram veterem illam fuisse optimam">
@@ -141,13 +141,13 @@
             <translation>The best clothing of the Republic.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>inijci cogitatione</marginalia_text>
+                    <marginalia_text>inijci cogitatione[m]</marginalia_text>
                 </position>
             </language>
-            <translation>I dwell in thought.</translation> <!-- M.B. Not certin of 'inijci'. -->
+            <translation>To be thrown in thought.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="orationi ponderis afferebat"/>
@@ -165,7 +165,7 @@
         
         <symbol name="Jupiter" place="right_margin"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="In co[e]lu[m] reditus"/>
         
     </annotation>
 </transcription>
