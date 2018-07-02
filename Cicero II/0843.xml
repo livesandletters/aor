@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -38,22 +37,22 @@
         <marginalia hand="English_secretary" anchor_text="">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Ex libro [...] hic restuin..s </marginalia_text> <!--JG: Unsure-->
+                    <marginalia_text>Ex libro vetusto sic restitutionis</marginalia_text> <!--JG: Unsure--> <!-- FSF: unsure -->
                 </position>
             </language>
-            <translation></translation>
+            <translation>From an aged book of</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text=""> <!-- M.B. Greek marginalia to be captured later -->
+        <marginalia hand="Italian" anchor_text="ἦθος">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>ἦθος</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Ethos.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="auge[n]tem linguam Latinam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Linguam r[ati]o augere.</marginalia_text>
@@ -62,7 +61,7 @@
             <translation>The reason to augment the language.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="__ philosophi appellant, tot&aacute;que est logice">
+        <marginalia hand="Italian" anchor_text="περὶ δυνατῶν philosophi appellant, tot&aacute;que est logice">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Logice</marginalia_text>
@@ -70,16 +69,16 @@
             </language>
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text> <!--JG: Greek to be added-->
+                    <marginalia_text>περὶ δυνατῶν</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Logically about things possible.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="vtranque parte[m] perpetua explicaretur oratio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Perpetua in vtranq[uam] parte[m] or[ati]o.</marginalia_text>
+                    <marginalia_text>Perpetua in vtranq[ue] parte[m] or[ati]o.</marginalia_text>
                 </position>
             </language>
             <translation>A perpetual speech in both parts.</translation>
@@ -132,31 +131,22 @@
             <translation>The habit of academics.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="proinde ordire, consideramus hic quorum in allis, vt in Antipatro">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>al[a]r[e]</marginalia_text> <!--JG: Unsure-->
+                    <marginalia_text>al[ite]r. Proinde ordine consideremus, An in Fortuitis, vt in Aleis, vt in Antipatro [etc].</marginalia_text>
                 </position>
             </language>
-            <translation>To nourish.</translation>
+            <translation>In another reading: Hence we should consider by order, whether in accidents, or in chance or Antipater.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="proinde ordire, consideramus hic quorum in allis, vt in Antipatro">
+        <marginalia hand="Italian" anchor_text="co[n][tagio]">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Proinde ordine considerimus. An in Fortuitis, vt in Aleis, vt in Antipatro [etc].</marginalia_text>
+                    <marginalia_text>al[ite]r cognatio</marginalia_text>
                 </position>
             </language>
-            <translation>Hence we should consider by order, whether in accidents, or in chance or Antipater.</translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>al[e]r[e] cognatio</marginalia_text> <!--JG: Unsure-->
-                </position>
-            </language>
-            <translation></translation>
+            <translation>In another reading: family relationship.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="interuentoribus">
@@ -194,7 +184,7 @@
             </language>
             <language ident="EL">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>λογος</marginalia_text>
                 </position>
             </language>
             <language ident="LA">
@@ -202,7 +192,7 @@
                     <marginalia_text>dicitur, &agrave; nobis ratio nominatur: Logice vero, ratio disserendi.</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>What is called logos by the Greeks, we call ratio. Logically however it is the method of understanding.</translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -213,7 +203,6 @@
             </language>
             <translation>Truly.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
@@ -243,7 +232,7 @@
         <underline method="pen" type="straight" language="LA" text="quidquam esse molestum, quod tibi gratum futurum sit?"/>
         <underline method="pen" type="straight" language="LA" text="proinde ordire"/>
         <underline method="pen" type="straight" language="LA" text="consideramus hic quorum in aliis, vt in Anipatro"/>
-        <underline method="pen" type="straight" language="LA" text="co[ntagio]"/>
+        <underline method="pen" type="straight" language="LA" text="co[n][tagio]"/>
         
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
@@ -251,11 +240,14 @@
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Asterisk" place="intext"/>
+        <symbol name="Asterisk" place="intext"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="circumflex" method="pen" place="intext"/>
         
         <errata language="LA" copytext="quia perinet" amendedtext="quia vtr&ograve; pertinet"/>
         
     </annotation>
 </transcription>
-
