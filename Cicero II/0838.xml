@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -22,16 +21,12 @@
                     <marginalia_text>quod caput est</marginalia_text>
                 </position>
             </language>
-            <translation>'The main question is' [Loeb 154, 503].</translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="quod caput est">
             <language ident="EN">
                 <position place="head" book_orientation="0">
                     <marginalia_text>w[hi]ch is [the] chefe pointe</marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>'The main question is' [Loeb 154, 503].</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
@@ -66,7 +61,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Pyrrhus</marginalia_text>
-                    <person name="Pyrrhus of Epirus"/> <!--JG: Not sure-->
+                    <person name="Pyrrhus of Epirus"/>
                 </position>
             </language>
             <translation>Pyrrhus.</translation>
@@ -94,22 +89,22 @@
         <marginalia hand="Italian" anchor_text="Quae vetustas est, quae vim diuinam conficere possit">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Qua[e] vetustas est, qua[e] vim diuina[m] co[n]ficere potiut</marginalia_text>
+                    <marginalia_text>Qua[e] vetustas est, qua[e] vim diuina[m] co[n]ficere potuit</marginalia_text>
                 </position>
             </language>
             <translation>'What length of time could destroy a divine power' [Loeb 154, 503].</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Quando ista vis aute[m] euanuit?">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Quando evannit vis Diui[n]a</marginalia_text>
+                    <marginalia_text>Quando evanuit vis Diui[n]a</marginalia_text>
                 </position>
             </language>
             <translation>'When did the virtue disappear?' [Loeb 154, 503].</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian" anchor_text="Demosthenes">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Demosthenes</marginalia_text>
@@ -131,7 +126,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Quom[od]o somniates diuinet.</marginalia_text>
+                    <marginalia_text>Quom[od]o somniantes diuine[n]t.</marginalia_text>
                 </position>
             </language>
             <translation>How dreamers divine.</translation>
@@ -184,7 +179,7 @@
             <translation>'A Venus-throw' [Loeb 154, 507].</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="natura paratum">
+        <marginalia hand="English_secretary" anchor_text="natura paratum">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>natura paratu[m] e[s]t</marginalia_text>
@@ -193,7 +188,7 @@
             <translation>Nature is prepared.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>iteru[m], tertiu[m].</marginalia_text>
@@ -202,10 +197,10 @@
             <translation>A second time, a third time.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text=""> 
+        <marginalia hand="English_secretary" anchor_text=""> 
             <language ident="EN">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>[...] wolde [...] the [...] spele.</marginalia_text> <!--JG: Unsure-->
+                    <marginalia_text>asman wolde thinke the th... spele.</marginalia_text> <!--JG: Unsure-->
                 </position>
             </language>
             <translation></translation>
@@ -214,10 +209,9 @@
         <underline method="pen" type="straight" language="LA" text="quod caput est"/>
         <underline method="pen" type="straight" language="LA" text="vrgentur, euanuisse aiunt vetustate vim"/>
         <underline method="pen" type="straight" language="LA" text="vnde anhelitus ille terrae fierit quo Pythia mente incitata, oracula ederet"/>
-        <underline method="pen" type="straight" language="LA" text="aut salsamento putes loqui, quase euanescunt vetustate"/>
+        <underline method="pen" type="straight" language="LA" text="aut salsamento putes loqui, quae euanescunt vetustate"/>
         <underline method="pen" type="straight" language="LA" text="quae vim diuinam"/>
-        <underline method="pen" type="straight" language="LA" text="prope CCCC fuit, iam tum"/>
-        <underline method="pen" type="straight" language="EL" text=""/> <!-- M.B. Add Greek, -->
+        <underline method="pen" type="straight" language="LA" text="prope CCCC fuit, iam tum ϕιλιππίζειν Pythiam dicebat, id"/>
         <underline method="pen" type="straight" language="LA" text="Pythiam di[c]ebat, id"/>
         <underline method="pen" type="straight" language="LA" text="autem e&ograve; spectabat"/>
         <underline method="pen" type="straight" language="LA" text="tractos extrinsecus"/>
@@ -239,9 +233,7 @@
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
-        
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
-
