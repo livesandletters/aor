@@ -119,7 +119,7 @@
         <marginalia hand="Italian" anchor_text="rarum genus est">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Rarium ho[m]i[nu]m genus.</marginalia_text>
+                    <marginalia_text>Rarum ho[m]i[nu]m genus.</marginalia_text>
                 </position>
             </language>
             <translation>A rare type of man.</translation>
@@ -155,10 +155,10 @@
         <marginalia hand="Italian" anchor_text="imitandos esse maiores, primum illud exceptum sit, ne vitia">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Qualis sint imita[n]di Maiores non tame[n] coru[m] vitia</marginalia_text>
+                    <marginalia_text>Qua[m]vis sint imita[n]di Maiores non tame[n] coru[m] vitia</marginalia_text>
                 </position>
             </language>
-            <translation>Such as we imitated ancestors not however in the presences of vices. </translation>
+            <translation>Although the ancestors are to be imitated not however in the presences of vices. </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Optima autem haereditas">
@@ -179,16 +179,16 @@
             <translation>To vacillate.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="amicitias quae munus delectent &amp; minus probentur, magis decere censent sapientes sensim dissuere, qu&agrave;m repente praecidere">
+        <marginalia hand="English_secretary" anchor_text="amicitias quae munus delectent &amp; minus probentur, magis decere censent sapientes sensim dissuere, qu&agrave;m repente praecidere">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>dissuere amicitias p[rae]cidere</marginalia_text>
                 </position>
             </language>
-            <translation>?, friendships, to break off.</translation>
+            <translation>To end, to break offfriendships.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="sensim erit pedetent&iacute;mque">
+        <marginalia hand="English_secretary" anchor_text="sensim erit pedetent&iacute;mque">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>sensim pede[n]tiatim</marginalia_text>
@@ -197,7 +197,7 @@
             <translation>leisurely, gradually</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="repente">
+        <marginalia hand="English_secretary" anchor_text="repente">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>repente</marginalia_text>
@@ -207,9 +207,9 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="&agrave; nostra voluntate"/>
-        <underline method="pen" type="straight" language="LA" text="eloqurntia cumulauit bellicam gloriam"/>
+        <underline method="pen" type="straight" language="LA" text="eloquentia cumulauit bellicam gloriam"/>
         <underline method="pen" type="straight" language="LA" text="completcti animo &amp; cogitatione"/>
-        <underline method="pen" type="straight" language="LA" text="adolescentia, cui inest maxima imbecillitas onsilii, tum id sibi quisque genus aetatis degendae"/>
+        <underline method="pen" type="straight" language="LA" text="adolescentia, cui inest maxima imbecillitas consilii, tum id sibi quisque genus aetatis degendae"/>
         <underline method="pen" type="straight" language="LA" text="viuendi viam sit ingressurus"/>
         <underline method="pen" type="straight" language="LA" text="sedentem diu secum mult&uacute;mque dubitasse"/>
         <underline method="pen" type="straight" language="LA" text="Iouis satu editio"/>
@@ -222,16 +222,20 @@
         <underline method="pen" type="straight" language="LA" text="in vitae perpetuitate"/>
         <underline method="pen" type="straight" language="LA" text="vllo officio claudicare"/>
         <underline method="pen" type="straight" language="LA" text="sensim erit pedenet&iacute;mque"/>
-        <underline method="pen" type="straight" language="LA" text="poeterit siue causas defensitare, siue populu[m] concionibus tenere, siue bella gerere: illa tamen praestare
+        <underline method="pen" type="straight" language="LA" text="poterit siue causas defensitare, siue populu[m] concionibus tenere, siue bella gerere: illa tamen praestare
              debebit quae erunt"/>
         <underline method="pen" type="straight" language="LA" text="cui dedecori esse, nefas &amp; vitium iudicandum est"/>
+        
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="intext"/>
         
-        <!-- M.B. Unkown symbol in right margin. -->
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        
+        <!-- FSF: unknown symbol -->
         
     </annotation>
 </transcription>
