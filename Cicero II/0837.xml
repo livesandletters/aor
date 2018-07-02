@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -19,7 +18,7 @@
         <marginalia hand="English_secretary" anchor_text="hominum fama">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>homi[num] fama.</marginalia_text>
+                    <marginalia_text>ho[m]i[nu]m fama.</marginalia_text>
                 </position>
             </language>
             <translation>The fame of men.</translation>
@@ -37,19 +36,19 @@
         <marginalia hand="English_secretary" anchor_text="varietas quae est propria fortunae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Varietas fortuna[e] p[ro]p[i]a</marginalia_text>
+                    <marginalia_text>Varietas fortuna[e] p[ro]p[ri]a</marginalia_text>
                 </position>
             </language>
-            <translation>the particular variety of fortune.</translation>
+            <translation>The particular variety of fortune.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="aliquid sicut oraedictum sit euaserit">
+        <marginalia hand="English_secretary" anchor_text="aliquid sicut praedictum sit euaserit">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>aliquid vere p[rae]dictum est.</marginalia_text>
                 </position>
             </language>
-            <translation>Something is actually foretold.</translation>
+            <translation>Something is foretold truly.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="furor iste, quem diuinum vocatis">
@@ -61,10 +60,11 @@
             <translation>Divine madness.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="Regem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>forsa[n] de CHRO</marginalia_text>
+                    <marginalia_text>forsa[n] de CHR[IST]O</marginalia_text>
+                    <person name="Jesus Christ"/>
                 </position>
             </language>
             <translation>Perhaps on Christ.</translation>
@@ -74,32 +74,35 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Callide sybylla scipsit.</marginalia_text>
+                    <person name="Sibyl"/>
                 </position>
             </language>
-            <translation>The Sibyl wrote rashly.</translation>
+            <translation>The Sibyl wrote skilfully.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="praedictum videretur hominum &amp; temporum definitione sublata">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Ho[m]i[nu]m temporu[m]que Definitio addatur p[rae]dictus</marginalia_text>
+                    <marginalia_text>Ho[m]i[nu]m temporu[m]q[ue] Definitio addatur p[rae]dictis</marginalia_text>
                 </position>
             </language>
-            <translation>The aforesaid definition of men and time is added.</translation>
+            <translation>The end of men and times is also said in the predictions.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text=""> <!-- M.B. Greek needed. -->
+        <marginalia hand="English_secretary" anchor_text="ἀκροστιχίς">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text>
+                    <marginalia_text>ἀκροστιχίς</marginalia_text>
+                    <book title="Sibylline oracles"/>
                 </position>
             </language>
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>sibylla[e]</marginalia_text>
+                    <person name="Sibyl"/>
                 </position>
             </language>
-            <translation>[GREEK] of Sibyl.</translation>
+            <translation>The acrostic poem of Sibyl.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Cassandra">
@@ -128,7 +131,7 @@
                     <person name="Julius Caesar"/>
                 </position>
             </language>
-            <translation>Caesar's armies.</translation>
+            <translation>Caesar's army.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="praelii nemo nostrum erat quin timeret, sed ita vt constantibus hominibus par erat, non aperte">
@@ -137,7 +140,7 @@
                     <marginalia_text>Casus p[rae]lij nemimi co[n]sta[n]ti timendus aperte est</marginalia_text>
                 </position>
             </language>
-            <translation>The plight of the battle must be feared openly by no one who is steadfast.</translation> <!--JG: Very unsure-->
+            <translation>The plight of the battle must be feared openly by no one who is steadfast.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="timeret">
@@ -152,7 +155,7 @@
         <marginalia hand="English_secretary" anchor_text="Apollo, qui vmbilicum certum terrarum obsides">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Apollo umbilicu[m] terra[e] obsidet</marginalia_text>
+                    <marginalia_text>Apollo vmbilicu[m] terra[e] obsidet</marginalia_text>
                 </position>
             </language>
             <translation>Apollo takes possession of the earth's core.</translation>
@@ -168,7 +171,7 @@
             <translation>Croesus.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="oraculis Chrysippus totum volumen impleuit, partim falsis, vt ego opinor, partim vasu veris, vt fit in omni oratione saepissime: 
+        <marginalia hand="English_secretary" anchor_text="oraculis Chrysippus totum volumen impleuit, partim falsis, vt ego opinor, partim casu veris, vt fit in omni oratione saepissime: 
             partim flexiloquis &amp; obscuris, vt interpres egeat interprete, &amp; sors ipsa ad sortes referenda sit: ambiguis">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
@@ -178,16 +181,16 @@
             <translation>False, accidentally true, equivocal, obscure, and ambiguous prophecies.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="opertis">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>op[er]tis</marginalia_text> <!--JG: Unsure-->
+                    <marginalia_text>op[er]tis</marginalia_text>
                 </position>
             </language>
             <translation>Hidden.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="">
+        <marginalia hand="English_secretary" anchor_text="partim ficta aperte, partim effutita temere">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>partim ficta ap[er]te, partim effutita temere</marginalia_text>
@@ -199,7 +202,7 @@
         <underline method="pen" type="straight" language="LA" text="&amp; fulgatores"/>
         <underline method="pen" type="straight" language="LA" text="vt quae sapiens non videat, ea videat insanus: &amp; us qui humanos sensus amiserit, diuinos affectus sit"/>
         <underline method="pen" type="straight" language="LA" text="hominum fama"/>
-        <underline method="pen" type="straight" language="LA" text="Calminum &amp; temporum definitione sublata. Adhibuit"/>
+        <underline method="pen" type="straight" language="LA" text="hominum &amp; temporum definitione sublata. Adhibuit"/>
         <underline method="pen" type="straight" language="LA" text="versus ali&agrave;s in aliam rem posse accommodari viderentur"/>
         <underline method="pen" type="straight" language="LA" text="carmen omne praetexitur"/>
         <underline method="pen" type="straight" language="LA" text="quidem sepositam &amp; conditam habeamus"/>
@@ -222,7 +225,7 @@
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
-
