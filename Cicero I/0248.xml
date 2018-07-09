@@ -216,7 +216,7 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="quasi quida[m] pen&egrave; dominus, hoc est alieni iuris vicarius, aut tuus colonus"/>
-        <underline method="pen" type="straight" language="LA" text="ea intellectam certa nihil ad rem pertinet quae verborum vis fit ac nominu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="ea intellecta, certe nihil ad rem pertinet quae verborum vis fit ac nominu[m]"/>
         <underline method="pen" type="straight" language="LA" text="non qu&ograve; idem fit seruulus, quod familia"/>
         <underline method="pen" type="straight" language="LA" text="verum quia non quibus verbis quidque dicatur"/>
         <underline method="pen" type="straight" language="LA" text="quaeritur, sed quae res agatur, etiam vt iam longius &agrave; verbo recedamus: ab aequitate ne tantulum quide[m], si tuus seruus nullus fuerit, &amp;"/>
@@ -234,12 +234,8 @@
         <underline method="pen" type="straight" language="LA" text="vnus homo plures esse homines"/>
         <underline method="pen" type="straight" language="LA" text="non verba veniunt in iudicium, sed ea res, cuius causa verba haec in interdictum coniecta sunt"/>
         
-        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- with tail -->
-        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- with tail -->
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- with tail -->
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="quattuorpunctus" method="pen" place="left_margin"/> <!-- with tail -->
         
         <numeral place="left_margin">10</numeral>
         <numeral place="left_margin">10</numeral>
@@ -251,8 +247,13 @@
         <numeral place="left_margin"></numeral>
         <numeral place="left_margin"></numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="verba &amp; res"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Cogit quis"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Armati qui"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="caussa[m] vocib[us] ponderari"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Verba"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Verba"/>
         
     </annotation>
 </transcription>
