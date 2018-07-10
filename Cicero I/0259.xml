@@ -180,7 +180,7 @@
         <underline method="pen" type="straight" language="LA" text="labor in negociis, fortitudo in periculis, industria in agendo, celeritas in conficiendo, consilium in prouidendo: quae tantae sunt in hoc vno, 
             qua[n]ta in omnibus reliquis Imperatoribus, quos at vidimus, aut audiuimus, non fuerunt."/>
         <underline method="pen" type="straight" language="LA" text="Testis est Italia, quam ille ipse victor L. Sylla huius virtute"/>
-        <underline method="pen" type="straight" language="LA" text="conctam periculis"/>
+        <underline method="pen" type="straight" language="LA" text="cinctam periculis"/>
         <underline method="pen" type="straight" language="LA" text="celeritate consilii explicauit"/>
         <underline method="pen" type="straight" language="LA" text="ipsoru[m] sanguine redundauit"/>
         <underline method="pen" type="straight" language="LA" text="ab hoc auxilium absente expetiuit: quod bellum expectatione Pompeii attentuatum atque imminutum est, aduentu sublatum ac sepultum"/>
@@ -207,10 +207,9 @@
         <underline method="pen" type="straight" language="LA" text="tame[n] &agrave; me in dice[n]do praetereu[n]da no[n] sunt. quis"/>
         <underline method="pen" type="straight" language="LA" text="breui te[m]pore, tot loca adire, tantos cursus conficere potuit"/>
         
-        <mark name="tripunctus" method="pen" place="right_margin"/> <!-- with tail -->
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <numeral place="right_margin" language="LA" text="Scientia pompei in Bello">1</numeral> <!-- FSF: I have a feeling it is not possible to anchor numerals to marginal notes, but I am not sure... -->
+        <numeral place="right_margin" language="LA" text="Scientia pompei in Bello">1</numeral> 
         <numeral place="right_margin">18</numeral>
         <numeral place="right_margin" language="LA" text="Virtus pompei">2</numeral>
         <numeral place="right_margin">10</numeral>
@@ -219,6 +218,7 @@
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">10</numeral>
         
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
