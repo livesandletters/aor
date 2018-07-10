@@ -13,12 +13,13 @@
                     <marginalia_text>
                         vide fo[lio] 12. Theorica[e] 
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="BLC120b4:c_120_b_4_(2)_f012r" text="12"/>
+                    </internal_ref>
                 </position>
             </language>
             <translation>
-                See folio 12 of the "Theoretical'  
-                <!-- DO: if 'Theorica[e]' refers to a book, I'm not sure if it should be translated? The only book I have found as a possible suggestion is: https://www.britannica.com/topic/Theoricae-novae-planetarum but can't be sure if this is the one -->
-                <!-- FSF: possibly an internal reference? -->
+                See folio 12. Theories.
             </translation>
         </marginalia>
         
@@ -42,8 +43,18 @@
                 </position>
             </language>
             <translation>
-                In a piece of cloth.
+                [In] a piece of cloth.
             </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" method="pen" anchor_text="ducentis septuaginta">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        72 |0 27|0
+                    </marginalia_text>
+                </position>
+            </language>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
@@ -58,7 +69,7 @@
                 </position>
             </language>
             <translation>
-                See synonyms on page 54.
+                See the synonyms on page 54.
             </translation>
         </marginalia>
   
@@ -67,9 +78,6 @@
         <underline method="pen" type="straight" language="LA" text="nonaginta"/>
         <underline method="pen" type="grid" language="LA" text="uniusmet ponderis"/>
         <underline method="pen" type="straight" language="LA" text="dies tres"/>
-        
-        <numeral place="intext">72|0</numeral>
-        <numeral place="intext" text="ducentis septuaginta" language="LA">27|0</numeral>  <!-- DO: not sure if these should be transcribed as 72|0 and 27|0? -->
         
     </annotation>
 </transcription>
