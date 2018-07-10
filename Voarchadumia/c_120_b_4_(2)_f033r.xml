@@ -7,7 +7,23 @@
     <page filename="c_120_b_4_(2)_f033r.tif" reader="John Dee" pagination="33" signature="H"/> 
     <annotation>
         
-        <!-- FSF: some marginalia that are table like -->
+        <marginalia hand="Italian" anchor_text="Partes tres Argenti pro Argento: uel Auri pro Auro">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>3. Arg 1 a[e]s } arg. 3. Aur 1 arg } Auru[m]</marginalia_text>
+                </position>
+            </language>
+            <translation>Three parts of silver and 1 part of bronze } silver. Three parts of gold and 1 part of silver } gold.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="partibus tribus &AElig;ris: &amp; pars una Stanni">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>.3. a[e]s .1. stannu[m] } spec.</marginalia_text>
+                </position>
+            </language>
+            <translation>Three parts of bronze and one alloy of lead } a mirror.</translation>
+        </marginalia>
         
     </annotation>
 </transcription>
