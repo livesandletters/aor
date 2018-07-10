@@ -29,7 +29,20 @@
                 </position>
             </language>
             <translation>
-                Read soil.  <!-- DO: 'The residual soil'? -->
+                Residual soil. 
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" method="pen" anchor_text="Aer">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        aeris
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Of air.
             </translation>
         </marginalia>
         
@@ -60,7 +73,6 @@
         <mark name="circumflex" method="pen" place="intext"/>
         
         <errata language="LA" copytext="receptorum" amendedtext="receptarum"/>
-        <errata language="LA" copytext="Aer" amendedtext="Aeris"/>  <!-- DO: I know what you mean but I think this should perhaps be tagged as marginalia rather than errata? -->
         <errata language="LA" copytext="retinentem" amendedtext="retinent"/>
         <errata language="LA" copytext="albificantem" amendedtext="albificant"/>
         
