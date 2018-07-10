@@ -7,9 +7,196 @@
     <page filename="c_120_b_4_(2)_f018r.tif" reader="John Dee" pagination="18" signature="Dii"/> 
     <annotation>
         
-        <table type="standard_table" place="intext"></table>
+        <drawing type="manicule" book_orientation="0" place="intext" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="intext" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="intext" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="intext" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="intext" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="tail" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="tail" method="pen"/>
         
-        <!-- FSF: in the table with the number sequence 14, 7, 32, 18, 1, the symbols are the sun, the moon, the hieroglyphic monard, mercury and ... -->
+        <calculation type="algebra" book_orientation="0" place="intext" method="pen" id="c0001" internal_ref="t0001">
+            18 + 14 = 32
+            14 + 17 = 31
+        </calculation>
+        
+        <calculation type="algebra" book_orientation="0" place="intext" method="pen" id="c0002" internal_ref="t0002">
+            18 + 14 + 9 = 41
+            14 + 17 = 31
+        </calculation>
+        
+        <calculation type="algebra" book_orientation="0" place="intext" method="pen" id="c0003" internal_ref="t0003">
+            13 + 19 + 14 = 46
+            7 + 1 + 18 = 26
+            13 + 1 + 19 + 14 = 47
+            7 + 18 = 25
+        </calculation>
+        
+        <calculation type="algebra" book_orientation="0" place="intext" method="pen" id="c0004" internal_ref="t0004">
+            19 + 14 = 33
+            7 + 18 = 25
+            13 + 1 =14
+        </calculation>
+        
+        <table type="standard_table" place="intext"  id="t0001">
+            <tr>
+                <td>&Sun;</td>
+                <td>&Moon;</td>
+                <td>&Mercury;</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>14</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>17</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>31</td>
+                <td></td>
+            </tr>
+            <text hand="English_secretary" language="LA">
+                K: 12 [?]1 <!--JG: Some sort of symbol?]-->
+                K 21: [?]1: &Onehalf;:
+            </text>
+        </table>
+        
+        <table type="standard_table" place="intext"  id="t0002">
+            <tr>
+                <td>&Sun;</td>
+                <td>&Moon;</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>&Sun;</td>
+                <td>&Moon;</td>
+                <td>&Mercury;</td>
+                <td>&Mercury;</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>14</td>
+                <td>27</td>
+                <td>17</td>
+            </tr>
+            <text hand="English_secretary" language="LA">vel</text>
+            <text hand="English_secretary" language="LA">excessus, 10</text>
+            <text hand="English_secretary" language="LA">excessus, 8.</text>
+            <text hand="English_secretary" language="LA">proportio est 1 &Onequarter;</text>
+            <text hand="English_secretary" language="LA">vel</text>
+            <text hand="English_secretary" language="LA">K 12 K 23. [?] 1 &Onehalf;</text>
+            <translation>Or; digression, 10; digression, 8; the proportion is 1 &Onequarter;; or. K 12 K 23. [?] 1 &Onehalf;.</translation>
+        </table>
+        
+        <table type="standard_table" place="intext" id="t0003">
+            <tr>
+                <td>&Sun;</td>
+                <td>&Moon;</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>47</td>
+                <td>25</td>
+            </tr>
+            <text hand="English_secretary" language="LA">excessus, 20</text>
+            <text hand="English_secretary" language="LA">vel</text>
+            <translation>Digression, 20. Or.</translation>
+        </table>
+        
+        <table type="standard_table" place="tail">
+            <tr>
+                <td>&Sun;</td>
+                <td>&Moon;</td>
+                <td>&Mercury;</td>
+                <td>&Mercury;</td>
+                <td>&Mercury;</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>7</td>
+                <td>32</td>
+                <td>18</td>
+                <td>1</td>
+            </tr>
+            <text hand="English_secretary" language="LA">K. 16 [etc].</text>
+        </table>
+        
+        <table type="standard_table" place="tail" id="t0004">
+            <tr>
+                <td>&Sun;</td>
+                <td>&Moon;</td>
+                <td>&Mercury;</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>7</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>18</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>25</td>
+                <td>14</td>
+            </tr>
+            <text hand="English_secretary" language="LA">sed verius</text>
+            <text hand="English_secretary" language="LA">vix K: 13 [?] 2 et &Onehalf;</text>
+            <translation>But more truthful. Hardly K 13 [?] 2 and &Onehalf;.</translation>
+        </table>
+        
         
     </annotation>
 </transcription>
