@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        [Pri]ma line[a ...]t seque[nt]is pagine
+                        [Pri]ma line[a]e seque[nt]is pagin[a]e <!--JG: Original needed-->
                     </marginalia_text>
                 </position>
             </language>
@@ -30,31 +30,20 @@
                     <book title="Voarchadumia"/>
                 </position>
             </language>
-            <translation>Note what Aduma says, only that particular was not aimed at Voarchadumia: therefore it seemed in this [caementatione? cementing?] no use for gold: for [nunc? now] he speaks about the most ordered work it allows him to do it extensively in this chapter: when this was the particular aim in this chapter: so it appears from the title.</translation> <!-- DO: Translation needs to be checked -->
+            <translation>Note what Aduma says, only that particular was not aimed at Voarchadumia: therefore it seemed in this [caementatione? cementing?] 
+                no use for gold: for [nunc? now] he speaks about the most ordered work it allows him to do it extensively in this chapter: when this was 
+                the particular aim in this chapter: so it appears from the title.</translation> <!-- DO: Translation needs to be checked -->
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
             <language ident="EN">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>&Sun; - 1/2</marginalia_text>
+                    <marginalia_text>&Sun; - &Onehalf;
+                        &Mercury; - &Onehalf;
+                        [Hieroglyphic_Monad] - &Onehalf;
+                    </marginalia_text>
                     <symbol_in_text name="Sun"/>
-                </position>
-            </language>
-        </marginalia>
-        
-        <marginalia hand="Italian" method="pen">
-            <language ident="EN">
-                <position place="tail" book_orientation="0">
-                    <marginalia_text>&Mercury; - 1/2</marginalia_text>
                     <symbol_in_text name="Mercury"/>
-                </position>
-            </language>
-        </marginalia>
-        
-        <marginalia hand="Italian" method="pen">
-            <language ident="EN">
-                <position place="tail" book_orientation="0">
-                    <marginalia_text> - 1/2</marginalia_text>  <!-- symbol in text -->
                     <symbol_in_text name="Hieroglyphic_Monad"/>
                 </position>
             </language>
@@ -77,8 +66,6 @@
             <relation from="BLC.120.b.4:c_120_b_4_(2)_f016r:m0001" to="BLC.120.b.4:c_120_b_4_(2)_f016r:u0001" type="directed" />
             
         </physical_link>
-        
-        <!-- FSF: the symbols below are the sun, mercury and the hieroglyphic monard -->
         
     </annotation>
 </transcription>
