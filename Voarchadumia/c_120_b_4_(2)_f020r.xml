@@ -15,7 +15,7 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>The fixed soul of our elements.</translation> <!-- FSF: translation to be checked -->
+            <translation>The fixed vital principle of our elements.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
@@ -29,11 +29,11 @@
             <translation>Air.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="una; uigintiqua" method="pen">
+        <marginalia hand="Italian" anchor_text="una; uigintiqua" method="pen" id="BLC120b4:c_120_b_4_(2)_f020r:m0001">
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
-                        .1. .24. <!--KS: Not sure how or if to transcribe the connecting line.-->
+                        .1. .24. 
                     </marginalia_text>
                 </position>
             </language>
@@ -42,7 +42,14 @@
         <underline method="pen" type="straight" language="LA" text="candida"/>
         <underline method="pen" type="straight" language="LA" text="citrina"/>
         <underline method="pen" type="straight" language="LA" text="pars una"/>
-        <underline method="pen" type="straight" language="LA" text="partibus uigintiqua"/>
+        <underline method="pen" type="straight" language="LA" text="partibus uigintiqua" id="BLC120b4:c_120_b_4_(2)_f020r:u0001"/>
+        
+        <physical_link>
+            <marginal_annotation idref="BLC120b4:c_120_b_4_(2)_f020r:m0001"/>
+            <marginal_annotation idref="BLC120b4:c_120_b_4_(2)_f020r:u0001"/>
+            
+            <relation from="BLC120b4:c_120_b_4_(2)_f020r:m0001" to="BLC120b4:c_120_b_4_(2)_f020r:u0001" type="directed"/>
+        </physical_link>
         
     </annotation> 
 </transcription>
