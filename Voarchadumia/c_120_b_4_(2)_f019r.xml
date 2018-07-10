@@ -11,10 +11,11 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        e sol[ute] <!-- FSF: unclear to me whether or not abbreviated and how to resolve; possibly parts not visible -->
+                        [R]esol[utio] <!--JG: Original needed-->
                     </marginalia_text>
                 </position>
             </language>
+            <translation>Resolution.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
@@ -85,9 +86,46 @@
         <underline method="pen" type="straight" language="LA" text="Oleum uitri"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
-            
-      <!-- DO: Physical link from previous page - does this need to be captured in any way (again)? -->
         
+        <calculation type="algebra" book_orientation="0" place="right_margin" method="pen" id="c0001" internal_ref="t0001">
+            504 + 72 = 576.
+            18 + 150 + 100 + 12 + 6 = 286 x 2 = 572.
+        </calculation>
+            
+        <table type="standard_table" place="right_margin" id="t0001">
+            <tr>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>286</td>
+            </tr>
+            <tr>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>572</td>
+            </tr>
+            <text hand="English_secretary" language="LA">MIXTIO</text>
+            <text hand="English_secretary" language="LA">504 septupla 72 [=] 576.</text>
+            <text hand="English_secretary" language="LA">Aqua Terra</text>
+            <text hand="English_secretary" language="LA">paulo minor</text>
+            <text hand="English_secretary" language="LA">quam subdupla</text>
+            <text hand="English_secretary" language="LA">Paulo minor</text>
+            <text hand="English_secretary" language="LA">qua[m] a[e]qualis</text>
+            <translation>A mixture. 504 is seven times as much as 72. Water. Earth. A bit less. How [it is] half. How [it is] equal.</translation>
+        </table>
  
     </annotation>
 </transcription>
