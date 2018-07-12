@@ -7,15 +7,32 @@
     <page filename="c_120_b_4_(2)_f061r.tif" reader="John Dee" pagination="61" signature="P"/> 
     <annotation>
         
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>19</marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>19</marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
         <underline method="pen" type="straight" language="LA" text="Alteratio[n]e"/>
         <underline method="pen" type="triple" language="LA" text="per"/>
         <underline method="pen" type="straight" language="LA" text="loci"/>
         <underline method="pen" type="straight" language="LA" text="cribrationes [id est] reiterationes"/>
         
-        <numeral place="left_margin">19:</numeral>
-        <numeral place="left_margin" >20:</numeral>
-        <numeral place="right_margin">36 7 252</numeral> <!-- DO: Not sure if this should be captured as numerals or marginalia text? -->
-        <numeral place="intext" text="252">252</numeral>
+        <errata language="LA" copytext="52" amendedtext="252"/>
+        
+        <calculation type="algebra" book_orientation="0" place="right_margin" method="pen">
+            36 [x] 7 = 252
+        </calculation>
         
     </annotation>
 </transcription>
