@@ -29,37 +29,57 @@
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure how to translate this -->  <!-- DO: Hot and dry in 4o? -->
+                Hot and dry in the fourth.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="72">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
                         {Im&ograve; summa est 83: sed putandum est hoc no[n] latuisse 
-                        authorem: Ip[soru]m tante[n] numeru[m] suu[m] mysteriu[m] nobis obijcere 
-                        ante oc....: hor... mysteriu[m] cum suis ...tri, proposito b[?] q[ua]drare
+                        authorem: Ip[su]m tame[n] numeru[m] suu[m] mysteriu[m] nobis obijcere 
+                        ante oculos: hocq[ue] nome[n] mysticu[m] cum suis numeris, proposito bene q[ua]drare
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: to be added --> <!-- DO: At the lowest point the highest is 83: but this thinking was not concealed by the author:.... -->
+                On the contrary, the highest point is 83. But it must be believed that the author had not hidden this. Nevertheless [it must be believed that he cast his mystic
+                number before our eyes: and that he made the mystical name suitable with his numbers, having related it well.
             </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" method="pen">
-            <language ident="LA">
-                <position place="intext" book_orientation="0">
-                    <marginalia_text>
-                        <!-- FSF: again some sort of table -->
-                    </marginalia_text>
-                </position>
-            </language>
         </marginalia>
         
         <underline method="pen" type="grid" language="LA" text="mistam"/>
         <underline method="pen" type="straight" language="LA" text="Calore enim sublato nullus omnino Motus est"/>
+        
+        <table type="standard_table" place="intext">
+            <tr>
+                <th>Reso[lutio]</th>
+            </tr>
+            <tr>
+                <td>&Sun;</td>
+                <td>&Moon;</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <th>Project[io]</th>
+            </tr>
+            <tr>
+                <td>&Sun;</td>
+                <td>&Moon;</td>
+                <td>[Hieroglyphic Monad]</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>19</td>
+                <td>13</td>
+            </tr>
+            <text hand="English_secretary" language="LA">vel potius</text>
+            <translation>Dissolution. Or rather. Transmutation.</translation> <!--JG: Unsure about the transcription and translation of the words 'Reso' and 'Project'-->
+        </table>
         
     </annotation>
 </transcription>
