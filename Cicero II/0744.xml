@@ -7,16 +7,13 @@
     <annotation>
         
         <marginalia hand="English_secretary" anchor_text="Antiocho">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
                     <marginalia_text>
                         according to antiochus opinion
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="English_secretary">
@@ -28,20 +25,20 @@
                 </position>
             </language>
             <translation>
-                
+                A journey.
             </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="id est naturae rationem">
             <language ident="LA">
-                <position place="left_margin" book_orientation="0">
+                <position place="intext" book_orientation="0">
                     <marginalia_text>
                         alij hoc omittunt
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Others omit this.
             </translation>
         </marginalia>
         
@@ -54,7 +51,7 @@
                 </position>
             </language>
             <translation>
-                
+                To offer the first to others.
             </translation>
         </marginalia>
         
@@ -75,12 +72,12 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        extredra
+                        exhedra
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Conversation-hall
             </translation>
         </marginalia>
         
@@ -93,7 +90,7 @@
                 </position>
             </language>
             <translation>
-                
+                Very suitable.
             </translation>
         </marginalia>
         
@@ -106,7 +103,7 @@
                 </position>
             </language>
             <translation>
-                
+                To doubt.
             </translation>
         </marginalia>
         
@@ -116,10 +113,12 @@
                     <marginalia_text>
                         statius in synephebis
                     </marginalia_text>
+                    <person name="Statius Caecilius"/>
+                    <book title="Synephebi"/>
                 </position>
             </language>
             <translation>
-                
+                Statius Caecilius in Synephebi.
             </translation>
         </marginalia>
         
@@ -158,7 +157,7 @@
                 </position>
             </language>
             <translation>
-                
+                Academic.
             </translation>
         </marginalia>
         
@@ -168,10 +167,11 @@
                     <marginalia_text>
                         C Cotta
                     </marginalia_text>
+                    <person name="Gaius Aurelius Cotta"/>
                 </position>
             </language>
             <translation>
-                
+                Gaius Aurelius Cotta.
             </translation>
         </marginalia>
         
@@ -181,10 +181,11 @@
                     <marginalia_text>
                         C. Velleius
                     </marginalia_text>
+                    <person name="Gaius Velleius Paterculus"/>
                 </position>
             </language>
             <translation>
-                
+                Gaius Velleius Paterculus.
             </translation>
         </marginalia>
         
@@ -192,12 +193,13 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Q Lucidius Balbus
+                        Q Lucilius Balbus
                     </marginalia_text>
+                    <person name="Quintus Lucilius Balbus"/>
                 </position>
             </language>
             <translation>
-                
+                Quintus Lucilius Balbus.
             </translation>
         </marginalia>
         
@@ -207,10 +209,11 @@
                     <marginalia_text>
                         epicur[us]
                     </marginalia_text>
+                    <person name="Epicurus."/>
                 </position>
             </language>
             <translation>
-                
+                Epicurus.
             </translation>
         </marginalia>
         
@@ -223,7 +226,7 @@
                 </position>
             </language>
             <translation>
-                
+                Stoic.
             </translation>
         </marginalia>
         
@@ -233,10 +236,11 @@
                     <marginalia_text>
                         M. Piso
                     </marginalia_text>
+                    <person name="Marcus Pupius Piso Frugi Calpurnianus"/>
                 </position>
             </language>
             <translation>
-                
+                Marcus Pupius Piso Frugi Calpurnianus.
             </translation>
         </marginalia>
         
@@ -246,10 +250,11 @@
                     <marginalia_text>
                         Antiochi Liber
                     </marginalia_text>
+                    <person name="Antiochus of Ascalon"/>
                 </position>
             </language>
             <translation>
-                
+                The book of Antiochus of Ascalon.
             </translation>
         </marginalia>
         
@@ -262,7 +267,7 @@
                 </position>
             </language>
             <translation>
-                
+                Only the perpatetics were not introduced in this disputation.
             </translation>
         </marginalia>
         
@@ -270,7 +275,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Quid inter stoicos et p[er]ipateticos sit diseriminis
+                        Quid inter stoicos et p[er]ipateticos sit diseriminis <!-- FSF: not sure about the last word -->
                     </marginalia_text>
                 </position>
             </language>
@@ -285,15 +290,16 @@
                     <marginalia_text>
                         Philo nihil scire docebat
                     </marginalia_text>
+                    <person name="Philo of Larissa"/>
                     <emphasis method="scoring" type="dotted"/>
                 </position>
             </language>
             <translation>
-                
+                Philo of Larissa taught to know nothing.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="auditorem, &amp; quidem aequum, libero iudicio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -302,7 +308,7 @@
                 </position>
             </language>
             <translation>
-                
+                A like listener, by a free judgement.
             </translation>
         </marginalia>
         
@@ -312,14 +318,16 @@
                     <marginalia_text>
                         Velleius exponit sente[n]tiam Epicuri
                     </marginalia_text>
+                    <person name="Marcus Velleius Paterculus"/>
+                    <person name="Epicurus"/>
                 </position>
             </language>
             <translation>
-                
+                Marcus Velleius Paterculus put forth the opinion of Epicurus.
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian">
+        <marginalia hand="Italian" anchor_text="parere voluntati architecti, aer, ignis, aqua, terra">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -328,7 +336,7 @@
                 </position>
             </language>
             <translation>
-                
+                The elements obey the will of the maker.
             </translation>
         </marginalia>
         
@@ -341,7 +349,7 @@
                 </position>
             </language>
             <translation>
-                
+                Natural science.
             </translation>
         </marginalia>
         
@@ -354,7 +362,7 @@
                 </position>
             </language>
             <translation>
-                
+                Nothing born will be eternal.
             </translation>
         </marginalia>
         
@@ -367,7 +375,7 @@
                 </position>
             </language>
             <translation>
-                
+                Mortality is the consequence to everything that is born. What union cannot be disolved?
             </translation>
         </marginalia>
         
@@ -380,7 +388,7 @@
                 </position>
             </language>
             <translation>
-                
+                To be piled, to be built.
             </translation>
         </marginalia>
         
@@ -393,7 +401,7 @@
                 </position>
             </language>
             <translation>
-                
+                Prize-worthy.
             </translation>
         </marginalia>
         
@@ -406,7 +414,7 @@
                 </position>
             </language>
             <translation>
-                
+                To chant about a thing, to differ in words.
             </translation>
         </marginalia>
         
@@ -419,7 +427,7 @@
                 </position>
             </language>
             <translation>
-                
+                Softening, iron tools.
             </translation>
         </marginalia>
         
@@ -432,7 +440,7 @@
                 </position>
             </language>
             <translation>
-                
+                To have such progress in the Stoics.
             </translation>
         </marginalia>
         
@@ -445,14 +453,71 @@
                 </position>
             </language>
             <translation>
-                
+                For your pursuit.
             </translation>
         </marginalia>
         
+        <underline method="pen" type="straight" language="LA" text="ciuitate dieri facinora capitalia"/>
+        <underline method="pen" type="straight" language="LA" text="addubitare coget doctissimorum hominum de maxima re tanta"/>
+        <underline method="pen" type="straight" language="LA" text="familiarem meum accurate san&egrave; &amp; diligenter de"/>
+        <underline method="pen" type="straight" language="LA" text="rogatu arcessit&uacute;que venissem"/>
+        <underline method="pen" type="straight" language="LA" text="primas ex nostris hominibus"/>
+        <underline method="pen" type="straight" language="LA" text="tantos progressus habebat in"/>
+        <underline method="pen" type="straight" language="LA" text="Peropportune"/>
+        <underline method="pen" type="straight" language="LA" text="Oritur enim mihi magna de re altercatio cum"/>
+        <underline method="pen" type="straight" language="LA" text="pro tuo studio"/>
+        <underline method="pen" type="straight" language="LA" text="trium disciplinarum principes conuenistis"/>
+        <underline method="pen" type="straight" language="LA" text="quae in honore sunt"/>
+        <underline method="pen" type="straight" language="LA" text="Antiocho enim"/>
+        <underline method="pen" type="straight" language="LA" text="re concinere videntur, verbis"/>
+        <underline method="pen" type="straight" language="LA" text="in primis acutum non"/>
+        <underline method="pen" type="straight" language="LA" text="Verum"/>
+        <underline method="pen" type="straight" language="LA" text="arridens, ab eode[m] Philone nihil scire"/>
+        <underline method="pen" type="straight" language="LA" text="iudicio nulla eiusmodi astrictu[m] necessitate, vt mihi velim nolim, sit certa"/>
+        <underline method="pen" type="straight" language="LA" text="sente[n]tia"/>
+        <underline method="pen" type="straight" language="LA" text="fidenter"/>
+        <underline method="pen" type="straight" language="LA" text="aliqua de re videretur, tanqua[m] modo ex deorum concilio, &amp; ex Epicuri"/>
+        <underline method="pen" type="straight" language="LA" text="descendisset"/>
+        <underline method="pen" type="straight" language="LA" text="futiles commentiti&aacute;sque sente[n]tias, non"/>
+        <underline method="pen" type="straight" language="LA" text="aedificator&eacute;mque mundi Platonis"/>
+        <underline method="pen" type="straight" language="LA" text="Latine licet"/>
+        <underline method="pen" type="straight" language="LA" text="rotundum"/>
+        <underline method="pen" type="straight" language="LA" text="qua construi &agrave; deo atque aedificari"/>
+        <underline method="pen" type="straight" language="LA" text="facit"/>
+        <underline method="pen" type="straight" language="LA" text="molitio"/>
+        <underline method="pen" type="straight" language="LA" text="vectes, quae machinae, qui ministri tanti muneris fuerunt"/>
+        <underline method="pen" type="straight" language="LA" text="formae &egrave; quibus reliqua"/>
+        <underline method="pen" type="straight" language="LA" text="apte cadentes ad animu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="Longum est ad omnia quae"/>
+        <underline method="pen" type="straight" language="LA" text="optata magis qu&agrave; inuenta videantur"/>
+        <underline method="pen" type="straight" language="LA" text="palmaris"/>
+        
+        <symbol name="Asterisk" place="right_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        
         <mark name="circumflex" method="pen" place="intext"/>
+        <mark name="tripunctus" method="pen" place="head"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="plus_sign" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="circumflex" method="pen" place="intext"/>
+        
+        <numeral place="left_margin">12</numeral>
+        <numeral place="left_margin">12</numeral>
+        <numeral place="left_margin">12</numeral>
+        <numeral place="left_margin">21</numeral>
         
         <errata language="LA" copytext="quod" amendedtext="quid"/>
         <errata language="LA" copytext="id est naturae rationem" amendedtext="alij hoc omittunt"/>
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
         
     </annotation>
 </transcription>
