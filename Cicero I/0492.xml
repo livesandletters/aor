@@ -195,7 +195,7 @@
             &amp; meus hic fore[n]sis labor vit&aacute;eque ratio dimanauit ad existimatione[m] hominu[m] paulo latius comme[n]datione ac iudicio meorum"/>
         <underline method="pen" type="straight" language="LA" text="maledicta peruulgata"/>
         <underline method="pen" type="straight" language="LA" text="Sed aliud est maledicere, aliud accusare. accusatio crimen desiderat, rem vt definiat, homine[m] vt notet, argumento probet, 
-            teste confirmet. maledictio aute[m] nihil habet propositi praeter contumeliam: quae si petula[n]tius iactatur, conuitium: si facetius, rbanitas nominatur. quam"/>
+            teste confirmet. maledictio aute[m] nihil habet propositi praeter contumeliam: quae si petula[n]tius iactatur, conuitium: si facetius, vrbanitas nominatur. quam"/>
         <underline method="pen" type="straight" language="LA" text="neque enim decebat, neque aetas illa postulabat, neque id, quod animaduertere poteratis, 
             pudor patiebatur optimi adolesce[n]tis in tali illu[m] oratione versari Velle[m] aliquis ex vobis robustioribus hu[n]c maledice[n]di locu[m] suscaepisset: 
             aliquanto liberius &amp; fortius &amp; magis more nostro refutaremus ista[m] maledice[n]di lice[n]tiam"/>
@@ -213,8 +213,6 @@
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/> <!-- with tail -->
-        <mark name="tripunctus" method="pen" place="tail"/> <!-- with tail -->
         
         <numeral place="left_margin">10</numeral>
         <numeral place="left_margin">11</numeral>
@@ -231,7 +229,10 @@
         <numeral place="left_margin">19</numeral>
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/> <!-- Tripunctus variant-->
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        
+        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="Ea ne in alteru[m] dicas qu[a]e cu[m] tibi falso responsa sint, erubescas"/>
         
     </annotation>
 </transcription>
