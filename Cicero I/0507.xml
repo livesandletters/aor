@@ -140,30 +140,20 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        bellu[m] indicere inferre.
+                        bellu[m] indicere inferre co[n]ficere 479.
                     </marginalia_text>
+                    <internal_ref>
+                        <target ref="RCP10549-50v1:0508" text="479"/> <!--JG: 'bellu[m] conficere posses', in printed text, more or less to the right of the marginal note 'differe tempus'-->
+                    </internal_ref>
                 </position>
             </language>
             <translation>
-                To declare and wage war.
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="English_secretary">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        co[n]ficere 479
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                To construct. Page 479. <!--JG: Not sure what Dee means here, p. 479 does not exist in this copy, jumps to 479-->
+                To declare, wage and cause war.
             </translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="qua pauloante interrupta"/>
-        <underline method="pen" type="straight" language="LA" text="affectum videmus, &amp; vere vt dicam pen&egrave; confrectu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="affectum videmus, &amp; vere vt dicam pen&egrave; confectu[m]"/>
         <underline method="pen" type="straight" language="LA" text="vt si idem extrema persequitur, qui inchoauit, iam omnia perfecta videamus. si succeditur"/>
         <underline method="pen" type="straight" language="LA" text="maximi"/>
         <underline method="pen" type="straight" language="LA" text="non solum memoria &amp; testimonio, sed etiam annalium literis, &amp; summi poetae voce laudatus est, qu&ograve;d"/>
@@ -171,7 +161,7 @@
         <underline method="pen" type="straight" language="LA" text="Multa praetereo, qu&ograve;d intueor cora[m] haec lumina atque ornamenta Reip. P. Seruilium, &amp; M. Lucullum"/>
         <underline method="pen" type="straight" language="LA" text="cuius literis, fama, nunciis, celebrantur aures quotidie meae nouis nominibus gentium, nationum, locorum"/>
         <underline method="pen" type="straight" language="LA" text="Caesare reducit, reconciliat, restituit in gratiam"/>
-        <underline method="pen" type="straight" language="LA" text="nemini ego possum esse benemerenti de Rep. no[n] amicus"/>
+        <underline method="pen" type="straight" language="LA" text="nemini ego possum esse bene merenti de Rep. no[n] amicus"/>
         <underline method="pen" type="straight" language="LA" text="me in amicos inflammare potuit, inimicis placare non possit? quod mihi"/>
         
         <mark name="slash" method="pen" place="right_margin"/>
@@ -188,12 +178,11 @@
         <numeral place="right_margin">13</numeral>
         <numeral place="right_margin">12</numeral>
         <numeral place="right_margin">19</numeral>
-        <numeral place="right_margin">479</numeral>
         <numeral place="right_margin">21</numeral>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Exempla"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Amicitia"/>
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="me in amicos inflammare potuit, inimicis placare non possit? quod mihi"/>
 
     </annotation>
 </transcription>
