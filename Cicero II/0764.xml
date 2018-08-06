@@ -81,7 +81,7 @@
                 </position>
             </language>
             <translation>
-                
+                'In fact there is nothing else beside the world that has nothing wanting, but is fully equipped and complete and perfect in all its details and parts' [LCL 268:158-59].
             </translation>
         </marginalia>
         
@@ -120,7 +120,7 @@
                 </position>
             </language>
             <translation>
-                
+                Man is the observer of the world.
             </translation>
         </marginalia>
         
@@ -133,7 +133,7 @@
                 </position>
             </language>
             <translation>
-                
+                Why the world is fully perfect.
             </translation>
         </marginalia>
         
@@ -146,7 +146,7 @@
                 </position>
             </language>
             <translation>
-                
+                Everything is better in the imperfect.
             </translation>
         </marginalia>
         
@@ -159,7 +159,7 @@
                 </position>
             </language>
             <translation>
-                
+                Virtue is characteristic of the world.
             </translation>
         </marginalia>
         
@@ -172,7 +172,7 @@
                 </position>
             </language>
             <translation>
-                
+                From where do the stars come.
             </translation>
         </marginalia>
         
@@ -182,10 +182,11 @@
                     <marginalia_text>
                         Sydera ignea e[ss]e Cleanthes duoru[m] sensuu[m] testimonio co[n]firmauit
                     </marginalia_text>
+                    <person name="Cleanthes"/>
                 </position>
             </language>
             <translation>
-                
+                Cleanthes confirms by testimony of two senses that the stars are fire.
             </translation>
         </marginalia>
         
@@ -198,7 +199,7 @@
                 </position>
             </language>
             <translation>
-                
+                The firey sun is nourished by the vapours of the ocean, because.
             </translation>
         </marginalia>
         
@@ -211,7 +212,7 @@
                 </position>
             </language>
             <translation>
-                
+                Fire is the destroyer and consumer of everything.
             </translation>
         </marginalia>
         
@@ -224,7 +225,7 @@
                 </position>
             </language>
             <translation>
-                
+                The sun causes that everything flourishes and matures each according to their kind.
             </translation>
         </marginalia>
         
@@ -237,7 +238,7 @@
                 </position>
             </language>
             <translation>
-                
+                The stars are animate beings. Ether.
             </translation>
         </marginalia>
         
@@ -250,7 +251,7 @@
                 </position>
             </language>
             <translation>
-                
+                There are various beginnings for animate beings.
             </translation>
         </marginalia>
         
@@ -263,7 +264,7 @@
                 </position>
             </language>
             <translation>
-                
+                Stars feed on ether.
             </translation>
         </marginalia>
         
@@ -276,7 +277,22 @@
                 </position>
             </language>
             <translation>
-                
+                The destroyer and consumer of everything disturbs and destroys all things.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="nullus ignis sine pastu aliquo possit permanere">
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        Nullus ignis sine pastu aliq[uo] p[otes]t p[er]manere 
+                        aut sol nullo eget pastu aut vtitur 
+                        r[ati]o est igitur sol ip[s]e ignis <!-- FSF: not sure if ratio or non -->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                No fire without any sustenance can endure, nor does it only need or use any sustenance. Therefore the sun itself is fire.
             </translation>
         </marginalia>
         
@@ -284,25 +300,13 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Nullus ignis siue pasta aliq[uo] p[otes]t p[er]manere aut solum nullo eget pastu aut vtitur r[ati]o est igitur sol ip[s]e ignis
+                        hoc ip[s]i da[n]t 
+                        hoc passu[m] multis probare nud[us] <!-- FSF: not sure -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="tail" book_orientation="0">
-                    <marginalia_text>
-                        4 hoc ip[s]i da[n]t hoc passu[m] multis probare nud[us]
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
+                They themselves give that; 
             </translation>
         </marginalia>
         
@@ -324,6 +328,7 @@
         
         <symbol name="Asterisk" place="right_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="tail"/>
         
         <mark name="vertical_bar" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
