@@ -4,10 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0283.tif" reader="John Dee" pagination="13"/>   
-    
+    <page filename="0283.tif" reader="John Dee" pagination="13"/>  
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="pagunt">
             <language ident="LA">
@@ -15,7 +13,7 @@
                     <marginalia_text>pago</marginalia_text>
                 </position>
             </language>
-            <translation>To be in agreement.</translation>        <!-- DO: Not sure about translation NBW: Looks like both Dee and Caplan are translating this verb as if it's "pa[n]go" - maybe a different spelling-->
+            <translation>I agree upon.</translation>        <!-- DO: Not sure about translation NBW: Looks like both Dee and Caplan are translating this verb as if it's "pa[n]go" - maybe a different spelling-->
         </marginalia>
         
         
@@ -78,7 +76,7 @@
                     </internal_ref>
                 </position>
             </language>
-            <translation>Above, folio 8.42.</translation>
+            <translation>Above, folio 8, [section] 42.</translation>
         </marginalia>
         
         
@@ -156,8 +154,8 @@
         <marginalia hand="Italian" anchor_text="S. Iulius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Se. Iulius.</marginalia_text>  <!-- DO: Not sure if there's a tripunctus following his name, or a colon, or nothing? -->
-                    <person name="Sextus Julius Caesar"/>         <!-- DO: There are lots of people with this name, I can't figure out which one this is: https://en.wikipedia.org/wiki/Sextus_Julius_Caesar. NBW: It's the one who was Praetor in 123BC. Added to People Spreadsheet -->
+                    <marginalia_text>Se. Iulius.</marginalia_text>  
+                    <person name="Sextus Julius Caesar"/>         
                 </position>
             </language>
             <translation>Sextus Julius Caesar.</translation>
@@ -167,7 +165,7 @@
         <marginalia hand="Italian" anchor_text="C. Caelius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>C Coelius</marginalia_text>  <!-- DO: 'Coesius'? -->
+                    <marginalia_text>C Coelius</marginalia_text> 
                     <person name="Gaius Coelius Caldus"/>
                 </position>
             </language>
@@ -235,7 +233,7 @@
                     </internal_ref>
                 </position>
             </language>
-            <translation>Above, 8.27.</translation>
+            <translation>Above, folio 8, [section] 27.</translation>
         </marginalia>
         
         
@@ -245,14 +243,12 @@
         <underline method="pen" type="straight" language="LA" text="de causa dissimiliter iudicatae proferri, cum id vsu venerit, iudicem cu[m] iudice, tempus cum tempore, numeru[m] cum numero iudiciorum proferemus"/>
         <underline method="pen" type="straight" language="LA" text="Rem vbi pagunt, oratione pagu[n]t"/>
         
-        
         <mark name="tripunctus" method="pen" place="head"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        
         <numeral place="right_margin">.1.</numeral>
         <numeral place="right_margin">2</numeral>
         <numeral place="right_margin">3</numeral>
@@ -265,10 +261,8 @@
         <numeral place="right_margin">2</numeral>
         <numeral place="right_margin">3</numeral>
         
-        
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="pago"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="pagunt"/>
         
     </annotation>
-    
 </transcription>
