@@ -4,11 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0294.tif" reader="John Dee" pagination="24" signature="[b.iiii.[v]]"/>   
-    
-    
+    <page filename="0294.tif" reader="John Dee" pagination="24" signature="[b.iiii.[v]]"/>  
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="extraneas res">
             <language ident="LA">
@@ -29,7 +26,7 @@
                     </internal_ref>
                 </position>
             </language>
-            <translation>Above, 23.101.</translation>
+            <translation>Above, folio 23, [section] 101.</translation>
         </marginalia>
         
         
@@ -46,7 +43,7 @@
         <marginalia hand="Italian" anchor_text="dispositio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Dispositio. [est].</marginalia_text>  <!-- DO: Not sure if this is an 'est' mark or something else NBW: I'd leave it as an "est" mark-->
+                    <marginalia_text>Dispositio. &id_est;.</marginalia_text>  
                 </position>
             </language>
             <translation>The organisation is.</translation>
@@ -76,7 +73,7 @@
         <marginalia hand="Italian" anchor_text="Haec igitur duplex dispositio est">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Diuisio dispo.[sitionis]</marginalia_text> <!-- NBW: added to keep the translations consistent-->
+                    <marginalia_text>Diuisio dispo.[sitionis]</marginalia_text> 
                 </position>
             </language>
             <translation>The division of the organisation.</translation>
@@ -112,14 +109,10 @@
             <translation>The organisation of arguments.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="quibus animus hominis maxime consyderatur, illae quatuor animi virtutes eru[n]t acco[m]moda[n]dae, vt si laudemus, aliud iuste, aliud modeste, aliud fortiter, aliud prudenter"/>
         <underline method="pen" type="straight" language="LA" text="ipsa res artificiosam dispositione[m] artificiose co[m]mutare"/>
         
-        
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
-        
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Conclusio"/>
         
     </annotation>
-    
 </transcription>

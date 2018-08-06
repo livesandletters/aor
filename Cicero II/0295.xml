@@ -4,11 +4,8 @@
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    <page filename="0295.tif" reader="John Dee" pagination="25"/>   
-    
-    
+    <page filename="0295.tif" reader="John Dee" pagination="25"/>  
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="nuperrime; egregie magnam esse vtilitate[m]; non inscii">
             <language ident="LA">
@@ -23,10 +20,10 @@
         <marginalia hand="Italian" anchor_text="PRONVNTIATIONEM">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Pronunciatio. [est].</marginalia_text>  <!-- DO: Again not sure if this is an 'est' mark -->
+                    <marginalia_text>Pronunciatio. &id_est;.</marginalia_text>  
                 </position>
             </language>
-            <translation>Pronunciation is.</translation>
+            <translation>Pronunciation that is.</translation>
         </marginalia>
         
         
@@ -86,7 +83,7 @@
                     <marginalia_text>Quo pacto firma vox co[n]seruat[ur].</marginalia_text>
                 </position>
             </language>
-            <translation>In what manner a firm voice is maintained.</translation>  <!-- DO: Not completely sure about translation NBW: a less literal translation would be "A firm voice is kept in this case"-->
+            <translation>A firm voice is kept in this case.</translation>  <!-- DO: Not completely sure about translation NBW: a less literal translation would be "A firm voice is kept in this case"-->
         </marginalia>
         
         
@@ -107,16 +104,13 @@
         <underline method="pen" type="straight" language="LA" text="laedu[n]tur arteriae, si antequa[m] leni voce permulsae sunt, acri clamore co[m]pleantur"/>
         <underline method="pen" type="straight" language="LA" text="Et vno spiritu co[n]tinentur multa dicere in extrema co[n]uenit oratione. Fauces"/>
         <underline method="pen" type="straight" language="LA" text="Interualla vocem"/>
-        
-        
-        <mark name="tripunctus" method="pen" place="head"/>
-        <mark name="tripunctus" method="pen" place="right_margin"/>
-        
+              
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <!-- DO: And two other different marks in the head and right margin -->
+        <!-- DO: And two other different marks in the head and right margin --> <!--JG: Unknown symbols-->
         
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="nuperrime"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="nuperrime"/>
         
     </annotation>
-    
 </transcription>
