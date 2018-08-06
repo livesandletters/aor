@@ -12,10 +12,11 @@
                     <marginalia_text>
                         Triton
                     </marginalia_text>
+                    <person name="Triton"/>
                 </position>
             </language>
             <translation>
-                
+                Triton.
             </translation>
         </marginalia>
         
@@ -28,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                
+                Lifeless.
             </translation>
         </marginalia>
         
@@ -41,7 +42,7 @@
                 </position>
             </language>
             <translation>
-                
+                Admiration of celestial and earthly things.
             </translation>
         </marginalia>
         
@@ -49,12 +50,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Terra Aet &AElig;ther
+                        Terra Aer &AElig;ther
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Earth, air, ether.
             </translation>
         </marginalia>
         
@@ -64,10 +65,11 @@
                     <marginalia_text>
                         &Sun; syderum princeps
                     </marginalia_text>
+                    <symbol_in_text name="Sun"/>
                 </position>
             </language>
             <translation>
-                
+                The sun is leader of the stars.
             </translation>
         </marginalia>
         
@@ -80,7 +82,7 @@
                 </position>
             </language>
             <translation>
-                
+                Conflagration of the earth.
             </translation>
         </marginalia>
         
@@ -90,10 +92,11 @@
                     <marginalia_text>
                         Democriti atomi
                     </marginalia_text>
+                    <person name="Democritus"/>
                 </position>
             </language>
             <translation>
-                
+                Atoms of Democritus.
             </translation>
         </marginalia>
         
@@ -106,7 +109,7 @@
                 </position>
             </language>
             <translation>
-                
+                21 characters.
             </translation>
         </marginalia>
         
@@ -135,10 +138,11 @@
                     <marginalia_text>
                         Aristoteles
                     </marginalia_text>
+                    <person name="Aristotle"/>
                 </position>
             </language>
             <translation>
-                
+                Aristotle.
             </translation>
         </marginalia>
         
@@ -151,7 +155,7 @@
                 </position>
             </language>
             <translation>
-                
+                Animate, breathing.
             </translation>
         </marginalia>
         
@@ -164,7 +168,7 @@
                 </position>
             </language>
             <translation>
-                
+                Efficency of the sun.
             </translation>
         </marginalia>
         
@@ -174,12 +178,37 @@
                     <marginalia_text>
                         aldus legit vomit
                     </marginalia_text>
+                    <person name="Aldus Manutius"/>
                 </position>
             </language>
             <translation>
-                
+                Aldus Manutius reads vomit.
             </translation>
         </marginalia>
+        
+        <underline method="pen" type="straight" language="LA" text="sens&uacute;que"/>
+        <underline method="pen" type="straight" language="LA" text="finitos &amp; aequabiles, omni&aacute;q[ue] ratis ordinibus moderata, immutabil&iacute;q[ue]"/>
+        <underline method="pen" type="straight" language="LA" text="inesse aliquem"/>
+        <underline method="pen" type="straight" language="LA" text="circunfusa vndique est hac animabili spirabil&iacute;que"/>
+        <underline method="pen" type="straight" language="LA" text="Hunc rursus amplectitur immensus aether"/>
+        <underline method="pen" type="straight" language="LA" text="clarissima luce collustrans"/>
+        <underline method="pen" type="straight" language="LA" text="quae sunt minus operosa, &amp; multo"/>
+        <underline method="pen" type="straight" language="LA" text="temere de mundo"/>
+        <underline method="pen" type="straight" language="LA" text="accepissent autem fama &amp; auditione esse"/>
+        <underline method="pen" type="straight" language="LA" text="efficientia[m]"/>
+        
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        
+        <mark name="tripunctus" method="pen" place="left_margin"/>
+        <mark name="tripunctus" method="pen" place="left_margin"/>
+        
+        <numeral place="left_margin">21</numeral>
+        
+        <errata language="LA" copytext="eruit" amendedtext="[deleted]"/>
+        
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
 
     </annotation>
 </transcription>
