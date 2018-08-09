@@ -39,11 +39,10 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>About six provinces of the island monarchy.</translation>
-            <!--NBW: More likely (forte), "Six adjacent islands as kingdoms" (i.e, held as separate kingdoms-->
+            <translation>Six adjacent islands as kingdoms.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="Golandia[m]" internal_ref="WB5-12_0207_092r_u0001">
+        <marginalia hand="English_secretary" anchor_text="Golandia[m]"  id="WB5-12_0207_092r_m0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -76,6 +75,13 @@
         <underline method="pen" type="straight" language="LA" text="Conan[us] regnat"/>
         <underline method="pen" type="straight" language="LA" text="Vortiporius"/>
         <underline method="pen" type="straight" language="LA" text="Malgo"/>
+        
+        <physical_link>
+            <marginal_annotation idref="WB5-12_0207_092r_m0001"/>
+            <marginal_annotation idref="WB5-12_0207_092r_u0001"/>
+            
+            <relation from="WB5-12_0207_092r_m0001" to="WB5-12_0207_092r_u0001" type="directed"/>
+        </physical_link>
         
     </annotation>
 </transcription>
