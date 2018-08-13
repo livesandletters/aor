@@ -7,7 +7,7 @@
     <page filename="00000110.tif" reader="John Dee" pagination="[48[v]]" /> 
     <annotation>
         
-        <marginalia hand="Italian" anchor_text="sich augenscheinlch das Gott Sul. Sal, Merc. ins Firmament" internal_ref="00000110_u0002" id="00000110_0001">
+        <marginalia hand="Italian" anchor_text="sich augenscheinlch das Gott Sul. Sal, Merc. ins Firmament" id="NYSLWin188:00000110:m0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>Hinc Argume[n]tum euidens, de &Sulfur; &Salt; &Mercury; celestibus</marginalia_text>
@@ -22,7 +22,14 @@
         <underline method="pen" type="straight" language="DE" text="Stral welches das gr&ouml;ssest vnd sterckeste werck ist des Firmaments"/>
         <underline method="pen" type="straight" language="DE" text="vber die Natur sondern in der Natur"/>
         <underline method="pen" type="straight" language="DE" text="sich augenscheinlich das Gott Sul. Sal, Merc. ins Firmament"/>
-        <underline method="pen" type="straight" language="DE" text="ding Materialiter geboren" id="00000110_u0002"/>
+        <underline method="pen" type="straight" language="DE" text="ding Materialiter geboren" id="NYSLWin188:00000110:u0001"/>
+        
+        <physical_link>
+            <marginal_annotation idref="NYSLWin188:00000110:m0001"/>
+            <marginal_annotation idref="NYSLWin188:00000110:u0001"/>
+            
+            <relation from="NYSLWin188:00000110:m0001" to="NYSLWin188:00000110:u0001" type="directed"/>
+        </physical_link>
         
     </annotation>
 </transcription>

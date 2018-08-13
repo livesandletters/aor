@@ -53,7 +53,7 @@
         <underline method="pen" type="double" language="DE" text="Geist"/>
         <underline method="pen" type="double" language="DE" text="Seel"/>
         <underline method="pen" type="double" language="DE" text="person"/>
-        <underline method="pen" type="straight" language="DE" text="Vulcanus der dem menschen vnderworffen ist" id="00000064_u0001" internal_ref="00000064_u0002"/> 
+        <underline method="pen" type="straight" language="DE" text="Vulcanus der dem menschen vnderworffen ist" id="NYSLWin188:00000064:u0001"/> 
         <underline method="pen" type="straight" language="DE" text="derselbige mag de[n] mensche[n] nicht werde[n] jn gehorsam zu sein"/>
         <underline method="pen" type="straight" language="DE" text="sondern allein in der Natur hat er sein Officium"/>
         <underline method="pen" type="double" language="DE" text="die rechten Vltimae materiae "/>
@@ -62,12 +62,19 @@
         <underline method="pen" type="double" language="DE" text="Media materia"/>
         <underline method="pen" type="straight" language="DE" text="Media materia macht der Mensch"/>
         <underline method="pen" type="double" language="DE" text="materia[m]"/>
-        <underline method="pen" type="double" language="DE" text="er ein Vulcanum" id="00000064_u0002" internal_ref="00000064_u0001"/>
+        <underline method="pen" type="double" language="DE" text="er ein Vulcanum" id="NYSLWin188:00000064:u0002" />
         <underline method="pen" type="double" language="DE" text="ist das Fewer"/>
         <underline method="pen" type="straight" language="DE" text="de[n] Vulcanu[m]"/>
         <underline method="pen" type="straight" language="DE" text="vn[d] ist ein knecht d[er] nat&uuml;rlichen K&uuml;nste[n] die der Mensch kan"/>
         <underline method="pen" type="straight" language="DE" text="nat&uuml;rlichen Elementischen Vulcani"/>
         <underline method="pen" type="straight" language="DE" text="Vulcanus Elementatus"/>
+        
+        <physical_link>
+            <marginal_annotation idref="NYSLWin188:00000064:u0001"/>
+            <marginal_annotation idref="NYSLWin188:00000064:u0002"/>
+            
+            <relation from="NYSLWin188:00000064:u0001" to="NYSLWin188:00000064:u0002" type="undirected"/>
+        </physical_link>
         
     </annotation>
 </transcription>

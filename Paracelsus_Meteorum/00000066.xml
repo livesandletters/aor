@@ -7,14 +7,6 @@
     <page filename="00000066.tif" reader="John Dee" pagination="[26[v]]" signature="[Gij[v]]"/> 
     <annotation>
         
-        <marginalia hand="Italian" book_id="Iliaster; Archeus; Vulcano"> <!-- FSF: I would suggest that this is an errata to write Plumen as Blumen, like in the modern spelling -->
-            <language ident="LA">
-                <position place="head" book_orientation="0">
-                    <marginalia_text>B</marginalia_text>
-                </position>
-            </language>
-        </marginalia>
-        
         <marginalia hand="Italian" anchor_text="Archeus der da ordiniert alle ding in sein wesen scheidt je eins vo[n] dem anderen gibt eine[n] jeglichen sahmen das jm zusthehet">
             <language ident="LA">
                 <position place="head" book_orientation="0">
@@ -53,12 +45,21 @@
         <underline method="pen" type="straight" language="DE" text="Archeus"/>
         <underline method="pen" type="straight" language="DE" text="geschmidet"/>
         <underline method="pen" type="straight" language="DE" text="f&uuml;r vns durch den befelch Gottes"/>
-        <underline method="pen" type="straight" language="DE" text="Vnd zu dem allem" id="00000066_u0001" internal_ref="00000066_u0002"/>
+        <underline method="pen" type="straight" language="DE" text="Vnd zu dem allem" id="NYSLWin188:00000066:u0001"/>
         <underline method="pen" type="double" language="DE" text="ist darnach"/>
         <underline method="pen" type="straight" language="DE" text="so alle ding gemacht seindt"/>
         <underline method="pen" type="straight" language="DE" text="vberantwortet"/>
         <underline method="pen" type="double" language="DE" text="Noch eine"/>
-        <underline method="pen" type="triple" language="DE" text="nachfolgende krafft" id="00000066_u0002" internal_ref="00000066_u0001"/>
+        <underline method="pen" type="triple" language="DE" text="nachfolgende krafft" id="NYSLWin188:00000066:u0002" />
+        
+        <errata language="DE" copytext="Plumen" amendedtext="Blumen"/>
+        
+        <physical_link>
+            <marginal_annotation idref="NYSLWin188:00000066:u0001"/>
+            <marginal_annotation idref="NYSLWin188:00000066:u0002"/>
+            
+            <relation from="NYSLWin188:00000066:u0001" to="NYSLWin188:00000066:u0002" type="undirected"/>
+        </physical_link>
         
     </annotation>
 </transcription>

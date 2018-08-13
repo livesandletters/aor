@@ -45,13 +45,20 @@
         <underline method="pen" type="straight" language="DE" text="das Corpus"/>
         <underline method="pen" type="straight" language="LA" text="Corpus Aereum"/>
         <underline method="pen" type="straight" language="LA" text="Chaos"/>
-        <underline method="pen" type="straight" language="DE" text="nicht" id="00000019_u0001" internal_ref="00000019_u0002"/>
+        <underline method="pen" type="straight" language="DE" text="nicht" id="00000019:u0001"/>
         <underline method="pen" type="double" language="DE" text="Compact"/>
-        <underline method="pen" type="straight" language="DE" text="nicht ein" id="00000019_u0002" internal_ref="00000019_u0001"/>
+        <underline method="pen" type="straight" language="DE" text="nicht ein" id="00000019:u0002"/>
         <underline method="pen" type="straight" language="DE" text="nicht"/>
         <underline method="pen" type="double" language="DE" text="gleich einem Rauch"/>
         
         <drawing type="manicule" book_orientation="0" place="tail" method="pen"/>
+        
+        <physical_link>
+            <marginal_annotation idref="NYSLWin188:00000019:u0001"/>
+            <marginal_annotation idref="NYSLWin188:00000019:u0002"/>
+            
+            <relation from="NYSLWin188:00000019:u0001" to="NYSLWin188:00000019:u0002" type="undirected"/>
+        </physical_link>
         
     </annotation>
 </transcription>

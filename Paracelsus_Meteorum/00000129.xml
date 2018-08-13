@@ -40,7 +40,7 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Day lightening not soone. <!-- FSF: given the anchor text I would suggest that it is seene not soone: the day lightening is not seen -->
+                        Day lightening not seene.
                     </marginalia_text>
                 </position>
             </language>
@@ -50,11 +50,11 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Oriens Meridie
+                        Oriens Meridies
                     </marginalia_text>
                 </position>
             </language>
-            <translation>East meridian.</translation> <!-- FSF: given the anchor text I would suggest to translate it as East and midday -->
+            <translation>East. Midday.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="DE" text="Som[m]ersternen"/>
@@ -62,11 +62,11 @@
         <underline method="pen" type="double" language="DE" text="jre purgatz"/>
         <underline method="pen" type="double" language="DE" text="vo[n] jnen werffen"/>
         <underline method="pen" type="straight" language="DE" text="vberflu&sharp-S;"/>
-        <underline method="pen" type="double" language="DE" text="vnd excrementen" id="00000129_u001"/>
+        <underline method="pen" type="double" language="DE" text="vnd excrementen" id="NYSLWin188:00000129:u0001"/>
         <underline method="pen" type="straight" language="DE" text="als brennende schweffel welche"/>
         <underline method="pen" type="straight" language="DE" text="Schweffeliche brunst"/>
         <underline method="pen" type="straight" language="DE" text="gibt"/>
-        <underline method="pen" type="double" language="DE" text="seindt jre Flores" internal_ref="00000129_u001"/>
+        <underline method="pen" type="double" language="DE" text="seindt jre Flores"  id="NYSLWin188:00000129:u0002"/>
         <underline method="pen" type="straight" language="DE" text="die Him[m]litzen bey"/>
         <underline method="pen" type="straight" language="DE" text="kom[m]en sondern"/>
         <underline method="pen" type="straight" language="DE" text="sie vnsichtbar"/>
@@ -87,6 +87,14 @@
         
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
+        
+        <physical_link>
+            
+            <marginal_annotation idref="NYSLWin188:00000129:u0001"/>
+            <marginal_annotation idref="NYSLWin188:00000129:u0002"/>
+            
+            <relation from="NYSLWin188:00000129:u0001" to="NYSLWin188:00000129:u0002" type="undirected"/>
+        </physical_link>
         
     </annotation>
 </transcription>
