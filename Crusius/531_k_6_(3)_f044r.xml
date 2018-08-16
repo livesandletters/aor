@@ -32,10 +32,7 @@
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>
                         Dulce lumen et delectabile est oculis uidere Solem. eccliaste.xi.
-                        Solem Orpha[e]us in hymnis κόσμον ὄμμ.. id est mundi oculum uocat. <!-- FSF: Greek to be added -->
-                        Ambrosius pra[e]ter id, iucunditatem diei, et coeli pulchritudinem. lib. cap. I. exameron
-                        Sol est fons uitalis potentia[e]. Ptol. centil[oquium] 86
-                        Solis splendore ca[e]lum omne illustratur et animantes omnes res. Plato in Tima[e]o
+                        Solem Orpha[e]us in hymnis
                     </marginalia_text>
                     <person name="Ambrose"/> 
                     <person name="Ptolemy"/>
@@ -44,6 +41,19 @@
                     <book title="Hexaemeron"/>
                     <book title="Centiloquium"/>
                     <book title="Timaeus"/>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>κόσμον ὄμμ..</marginalia_text> <!-- FSF: Greek to be added -->
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>id est mundi oculum uocat. 
+                        Ambrosius pra[e]ter id, iucunditatem diei, et coeli pulchritudinem. lib. cap. I. exameron
+                        Sol est fons uitalis potentia[e]. Ptol. centil[oquium] 86
+                        Solis splendore ca[e]lum omne illustratur et animantes omnes res. Plato in Tima[e]o</marginalia_text>
                 </position>
             </language>
             <language ident="IT">
