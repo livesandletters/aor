@@ -7,7 +7,6 @@
     <page filename="0571.tif" reader="John Dee" pagination="13"/>   
     <annotation>
         
-        
         <marginalia hand="Italian">
             <language ident="EL">
                 <position place="head" book_orientation="0">
@@ -474,15 +473,10 @@
         <underline method="pen" type="straight" language="LA" text="caetera series deinde sequitur maiora nectens"/>
         <underline method="pen" type="straight" language="LA" text="quasi expletam rerum comprehensione[m] amplectu[n]tur"/>
         
-        
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         
         <!-- DO: Unknown symbol in left margin -->
-        
-        
-        <mark name="tripunctus" method="pen" place="head"/>
-        <mark name="tripunctus" method="pen" place="right_margin"/>
         
         <mark name="X_sign" method="pen" place="right_margin"/>
         <mark name="X_sign" method="pen" place="tail"/>
@@ -490,10 +484,12 @@
         <mark name="circumflex" method="pen" place="right_margin"/>
         <mark name="circumflex" method="pen" place="right_margin"/>  <!-- DO: These two circumflexes are in Dee's corrections to his own notes -->
         
-        <!-- DO: Mark with two dots in head & right margin -->
-        
-        
         <numeral place="intext">5</numeral>  <!-- DO: Not sure... -->
+        
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen"/> <!--JG: To be anchored to Greek marginalia in head-->
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="fabricemur si opus eirt verbas"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
