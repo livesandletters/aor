@@ -175,7 +175,7 @@
                     <marginalia_text>occasio.</marginalia_text>
                 </position>
             </language>
-            <translation>?? occasion.</translation> <!-- M.B. Greek to be translated later. -->
+            <translation>?? occasion.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="prudentiae">
@@ -244,28 +244,28 @@
         
         <underline method="pen" type="straight" language="LA" text="volumus quidem certe"/>
         <underline method="pen" type="straight" language="LA" text="hic summi &amp; clarissimi viri"/>
-        <underline method="pen" type="straight" language="LA" text="in domumu multiplicatam"/>
+        <underline method="pen" type="straight" language="LA" text="in domum multiplicatam"/>
         <underline method="pen" type="straight" language="LA" text="in domo clari hominis"/>
         <underline method="pen" type="straight" language="LA" text="magnificentia prodeas"/>
         <underline method="pen" type="straight" language="LA" text="mali etiam in exemplo est"/>
         <underline method="pen" type="straight" language="LA" text="Quarum quidem certe"/>
         <underline method="pen" type="straight" language="LA" text="Deinde vt animaduertatur"/>
-        <underline method="pen" type="straight" language="LA" text="scientia rerum earum quae aguntur aut dicuntur, loco sio collocandarum"/>
+        <underline method="pen" type="straight" language="LA" text="scientia rerum earum quae aguntur aut dicuntur, loco suo collocandarum"/>
         <underline method="pen" type="straight" language="LA" text="scientia sit opportunitatis idoneoru[m] ad agendu[m] temporum"/>
         <underline method="pen" type="straight" language="LA" text="conuiuio dignum aut delicatum aliquem"/>
-        
-        <!-- M.B. Unknown 'h' symbols appears in the left-margin twice. -->
-        
+
         <mark name="bracket" method="pen" place="intext"/> <!-- ratioini. Deinceps -->
         
         <numeral place="left_margin">1</numeral>
         <numeral place="left_margin">2</numeral>
         <numeral place="left_margin">3</numeral>
-        <numeral place="intext">4</numeral>
         
-        <errata language="LA" copytext="quod" amendedtext=""/> <!-- M.B. Not sure what the errata is here? -->
+        <errata language="LA" copytext="diligenia" amendedtext="diligentia"/>
+        <errata language="LA" copytext="quod" amendedtext="qu&icirc;d"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        
+        <!-- FSF: unknown symbol -->
         
     </annotation>
 </transcription>
