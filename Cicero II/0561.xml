@@ -7,7 +7,6 @@
     <page filename="0561.tif" reader="John Dee" pagination="3" signature="Aa.ii."/>   
     <annotation>
         
-        
         <marginalia hand="Italian" anchor_text="intermittere; praetermittas">
             <language ident="LA">
                 <position place="head" book_orientation="0">
@@ -497,7 +496,6 @@
             </translation>
         </marginalia>
         
-        
         <underline method="pen" type="double" language="LA" text="pridie"/>
         <underline method="pen" type="straight" language="LA" text="vesperi"/>
         <underline method="pen" type="straight" language="LA" text="eum ire perreximus"/>
@@ -524,23 +522,22 @@
         <underline method="pen" type="straight" language="LA" text="&agrave; Graecis petere"/>
         <underline method="pen" type="straight" language="LA" text="frustra"/>
         <underline method="pen" type="straight" language="LA" text="Illi enim"/>
-        <underline method="pen" type="straight" language="LA" text="simplici"/>
+        <underline method="pen" type="straight" language="LA" text="simpliciter"/>
         
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>          <!-- DO: Also another symbol similar to this in right margin -->
         
-        
         <!-- DO: Unknown mark in head & left margin, as seen earlier -->
         
         <mark name="tripunctus" method="pen" place="right_margin"/>
-        
         
         <errata language="LA" copytext="," amendedtext="."/>  <!-- noui, Atticus -->  <!-- DO: Not completely sure if this is the change that has been made -->
         <errata language="LA" copytext="." amendedtext=","/>  <!-- Atticus. Omitte -->
         <errata language="LA" copytext="." amendedtext=","/>  <!-- oratorum. Et -->
         
         <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="Inte[m]pera[n]tis arbitor e&sharp-S;e, scribere, quod occultari velit"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
