@@ -144,7 +144,7 @@
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Fama &amp; nome[n] bonu[m]</marginalia_text> <!--JG: Not sure about the ampersand, could be something purely decorative or an elaborate contraction?-->
+                    <marginalia_text>Fama &amp; nome[n] bonu[m]</marginalia_text> 
                 </position>
             </language>
             <translation>Fame and a good name.</translation>
@@ -230,7 +230,7 @@
         <underline method="pen" type="straight" language="LA" text="cum virtute consusum"/>
         <underline method="pen" type="straight" language="LA" text="Decorum id esse, quod consentaneum sit hominis excellentiae in eo, in quo natura eius &agrave; reliquis animantibus differat"/>
         <underline method="pen" type="straight" language="LA" text="cum specie quadam"/>
-        <underline method="pen" type="straight" language="LA" text="sona dignum est, &amp; fit,"/>
+        <underline method="pen" type="straight" language="LA" text="sona dignum est, &amp; fit"/>
         <underline method="pen" type="straight" language="LA" text="personam imposuit ipsa natura"/>
         <underline method="pen" type="straight" language="LA" text="magna cum excellentia praestanti&aacute;que animantium reliquorum"/>
         <underline method="pen" type="straight" language="LA" text="constantiae"/>
@@ -241,9 +241,10 @@
         <underline method="pen" type="straight" language="LA" text="Nam negliere quid de se quisque sentiat, non solum arrogantis est, sed etiam omnino dissoluti"/>
         <underline method="pen" type="straight" language="LA" text="conuenientiam co[n]seruation&eacute;mque naturae"/>
         
-        <mark name="section_sign" method="pen" place="intext"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
         
-        <!-- M.B. Two unknown symbols in left margin to be captured. -->
+        <mark name="section_sign" method="pen" place="intext"/>
         
     </annotation>
 </transcription>
