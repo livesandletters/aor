@@ -9,10 +9,10 @@
         <marginalia hand="English_secretary" anchor_text="perit&egrave; meo quidem">
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>perite eu[m] qua[m] qu&ograve;d</marginalia_text> <!-- M.B. Not certain of this transcription. --> <!-- FSF: not sure either -->
+                    <marginalia_text>perite eu[m] qua[m] qu&ograve;d</marginalia_text>
                 </position>
             </language>
-            <translation>I perish that is.</translation> <!-- M.B. Not sure how to translate this? -->
+            <translation>Perish like that.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Iou&iacute;que Optimo Maximo se consiliarium">
@@ -114,10 +114,13 @@
         <underline method="pen" type="straight" language="LA" text="leges &agrave; librariis lego"/>
         <underline method="pen" type="straight" language="LA" text="magistratus ignoratione iuris sui, tantum sapere, quantum apparitores velint"/>
         
-        <!-- M.B. Unknown symbol appears in the left margin four times. -->
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
         
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
+        
+        <!-- FSF: unknown symbol -->
         
     </annotation>
 </transcription>
