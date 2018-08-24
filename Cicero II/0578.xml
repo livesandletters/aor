@@ -147,7 +147,7 @@
         <marginalia hand="Italian" anchor_text="Cimmeriis">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>CYMERII.</marginalia_text>  <!-- Umlauts on Is? -->
+                    <marginalia_text>CYMERII.</marginalia_text> 
                 </position>
             </language>
             <translation>The Cimmerian people.</translation>
@@ -229,13 +229,15 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Sun" place="left_margin" language="LA" text="Cymerijs solis no[n] fit aspectus"/>
         
-        <!-- DO: Unknown mark in head & left margin, and other one in left margin (next to 'CYMERII') -->
+        <!-- DO: Unknown symbol in head & left margin, and other one in left margin (next to 'CYMERII') -->
 
         <numeral place="left_margin">21</numeral>
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>  <!-- DO: Possibly has some relation to the Jupiter symbol? -->
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>  <!-- DO: And a drawing of the sun -->
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>  
+        
+        <!-- DO: And a drawing of the sun -->
 
     </annotation>
 </transcription>
