@@ -506,9 +506,12 @@
       <xs:simpleType>
         <xs:restriction base="xs:token">
           <xs:enumeration value="arrow"/>
+          <xs:enumeration value="egg"/>
+          <xs:enumeration value="grave"/>
           <xs:enumeration value="axe"/>
           <xs:enumeration value="face"/>
           <xs:enumeration value="manicule"/>
+          <xs:enumeration value="mountain"/>
           <xs:enumeration value="florilegium"/>
           <xs:enumeration value="crown"/>
           <xs:enumeration value="coat_of_arms"/>
