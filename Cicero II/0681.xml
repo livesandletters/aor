@@ -342,8 +342,8 @@
         <underline method="pen" type="straight" language="LA" text="morte[m] est eam auguratus"/>
         <underline method="pen" type="straight" language="LA" text="Vadit in eundem carcere[m], atque in eundum paucis post annis scyphu[m] Socrates eodem scelere iudicu[m], quo tyrannorum"/>
         <underline method="pen" type="straight" language="LA" text="m&oacute;rsq[ue] ei somno similis est, qui no[n]numquam etiam sine visis"/>
-        <underline method="pen" type="straight" language="LA" text="migrationem esse mortem in eas oras, quas qui &egrave; vita excesserint incolunt, id multo iam beatius est, te quum iis qui se iudicum numero haberi volunt, 
-            euaseris, ad eos venire qui vere iudices appellentur, Minoem, Rhadamanthu[m], AEacum"/>
+        <underline method="pen" type="straight" language="LA" text="migrationem esse mortem in eas oras, quas qui &egrave; vita excesserint incolunt, id multo iam beatius est, 
+            te quum iis qui se iudicum numero haberi volunt, euaseris, ad eos venire qui vere iudices appellentur, Minoem, Rhadamanthu[m], AEacum"/>
         <underline method="pen" type="straight" language="LA" text="qui iuste"/>
         <underline method="pen" type="straight" language="LA" text="cum fide"/>
         <underline method="pen" type="straight" language="LA" text="Nec ob eam rem, quum haec exquirerem, sicut"/>
@@ -356,7 +356,8 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
        
-        <mark name="X_sign" method="pen" place="left_margin"/>
+       <mark name="circumflex" method="pen" place="head"/>
+        <mark name="circumflex" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
@@ -369,8 +370,11 @@
         
         <errata language="LA" copytext="mittat" amendedtext="mittar"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="nunc quidem cogitationibus molestissimis effoeminamur: vt si ante mors aduentet, qu&agrave;m Chaldaeorum promissa consequuti"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="nunc quidem cogitationibus molestissimis effoeminamur: 
+            vt si ante mors aduentet, qu&agrave;m Chaldaeorum promissa consequuti"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Peregrinatio"/>
+        
+        <!-- FSF: unknown symbol -->
         
     </annotation>
 </transcription>
