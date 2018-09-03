@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -17,7 +16,6 @@
             <translation>Leonidas I.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Praeclarae mortes sunt imperatoriae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -26,7 +24,6 @@
             </language>
             <translation>The deaths of commanders are famous.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Audio equide[m] philosophi voce[m] Epicure">
             <language ident="LA">
@@ -38,7 +35,6 @@
             <translation>A saying of Epicurus.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Metrodori liberos">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -49,7 +45,6 @@
             <translation>The children of Metrodorus.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="summa">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -58,7 +53,6 @@
             </language>
             <translation>The chief points.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Mortem nihil ad nos pertinere">
             <language ident="LA">
@@ -69,7 +63,6 @@
             <translation>Death does not affect us.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="sensus omnis extinguatur">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -78,7 +71,6 @@
             </language>
             <translation>Every sense is extinguished in death.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Amynomachus &amp; Timocrates">
             <language ident="LA">
@@ -96,7 +88,6 @@
             </translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="ad diem agendum natalem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -106,7 +97,6 @@
             <translation>The date of birth.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -115,7 +105,6 @@
             </language>
             <translation>A year.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Democritus">
             <language ident="LA">
@@ -127,7 +116,6 @@
             <translation>Democritus.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="post morte[m] epulis celebrari memoriam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -136,7 +124,6 @@
             </language>
             <translation>The memory to be celebrated with a feast after death.</translation>
         </marginalia>
-        
         
         <marginalia hand="English_secretary" anchor_text="dissolutione">
             <language ident="LA">
@@ -147,16 +134,16 @@
             <translation>Dissolution.</translation>
         </marginalia>
         
-        
         <marginalia hand="English_secretary" anchor_text="in quanta[m] hominum facetosam vrbanitate[m] incurratis">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>in hominu[m] facetosa[m] vrbanitate[m] incurrere.</marginalia_text>
                 </position>
             </language>
-            <translation>To incur the wit of humerous men.</translation>   <!-- DO: Not sure how to translate 'facetosam' --> <!--JG: Acc to Loeb it's facetorum, translated it as such. See: https://www.loebclassics.com/view/marcus_tullius_cicero-de_finibus_bonorum_et_malorum/1914/pb_LCL040.195.xml-->
+            <translation>To incur the wit of humerous men.</translation>   
+            <!-- DO: Not sure how to translate 'facetosam' --> 
+            <!--JG: Acc to Loeb it's facetorum, translated it as such. See: https://www.loebclassics.com/view/marcus_tullius_cicero-de_finibus_bonorum_et_malorum/1914/pb_LCL040.195.xml-->
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="eam qua erat transfixus hastam"/>
         <underline method="pen" type="straight" language="LA" text="Praeclare mortes sunt imperatoriae"/>
@@ -172,21 +159,15 @@
         <underline method="pen" type="straight" language="LA" text="facetosam vrbanitate[m] incurratis"/>
         <underline method="pen" type="straight" language="LA" text="nihil opus est litibus"/>
         
-        
-        <symbol name="Jupiter" place="right_margin"/>
-        
-        <symbol name="Asterisk" place="left_margin"/>  <!-- DO: Not sure if printed (like printed asterisk on file 0637) -->
-        
-        
         <mark name="quattuorpunctus" method="pen" place="right_margin"/>
-        
-        <mark name="tripunctus" method="pen" place="right_margin"/>
-        
         <mark name="plus_sign" method="pen" place="right_margin"/>
         
+        <numeral place="right_margin">12</numeral>
+        <numeral place="right_margin">12</numeral>
         
-        <numeral place="right_margin">12</numeral>
-        <numeral place="right_margin">12</numeral>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        
+        <!-- FSF: unknown symbol -->
         
     </annotation>
 </transcription>
