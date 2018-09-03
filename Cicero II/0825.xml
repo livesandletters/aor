@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -37,8 +36,7 @@
         <marginalia hand="English_secretary" anchor_text="Ab acqua, aut ab igni pericula monent">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Hydromanteia. Pyroma[n]teia.</marginalia_text> 
-                    <!-- M.B. Note, the last three letters of 'hydromanteia' appear to be Greek letters i.e. 'hydromantεια'. Other marginalia in Cicero vol I are similarly written with both Latin and Greek characters.-->
+                    <marginalia_text>Hydromantεια. Pyroma[n]teia.</marginalia_text> 
                 </position>
             </language>
             <translation>Hydromancy, pyromancy.</translation>
@@ -220,10 +218,10 @@
         <marginalia hand="English_secretary" anchor_text="co[n]centu, atque co[n]sensu, qua[m] συμπάθειαν Graeci appellant, co[n]uenire">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>co[n]sensus co[n]venie[n]tia [co[m]m.ctio] cognatio. [co[n]vene[n]tia - deleted] contagio</marginalia_text> <!--JG: Can't figure out third word-->
+                    <marginalia_text>co[n]sensus co[n]venie[n]tia co[n]iunctio cognatio. [co[n]vene[n]tia - deleted] contagio</marginalia_text>
                 </position>
             </language>
-            <translation>Consensus, covenant, [...], affinity, [covenant - deleted], contact.</translation>
+            <translation>Consensus, covenant, conjunction, affinity, [covenant - deleted], contact.</translation>
         </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="naturae, &amp; quasi co[n]centu, atque co[n]sensu qua[m] συμπάθειαν">
@@ -255,20 +253,14 @@
         <underline method="pen" type="straight" language="LA" text="exile &amp; exiguum &amp; vietum"/>
         <underline method="pen" type="straight" language="LA" text="Vrbem philosophiae"/>
        
-       <symbol name="Moon" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Moon" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        
+        <!-- FSF: unknown symbol -->
         
     </annotation>
 </transcription>

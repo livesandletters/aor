@@ -24,7 +24,7 @@
             <translation>A custom of the Greeks.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="">
+        <marginalia hand="Italian">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Aristophanis dicit</marginalia_text>
@@ -138,7 +138,9 @@
         <underline method="pen" type="straight" language="LA" text="patentem angustis finibus terminauit, leuiter summa quaeque"/>
         <underline method="pen" type="straight" language="LA" text="stringeret"/>
 
-        <!-- M.B. Marking next to 'fillitas' in left margin. possibly miniscule jupiter symbol or just scribbling. -->
+        <symbol name="Jupiter" place="left_margin"/>
+        
+        <mark name="bracket" method="pen" place="left_margin"/>
         
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
         

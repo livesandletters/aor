@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="0851.tif" reader="John Dee" pagination="293" signature="T.t.iii"/> 
     <annotation>
-        
-        <!-- M.B. Note Greek marginalia to be captured later. -->
         
         <marginalia hand="English_secretary" anchor_text="conata efficere">
             <language ident="LA">
@@ -83,7 +80,7 @@
             <translation>The characters of these dialogues.</translation>
         </marginalia>
         
-        <marginalia hand="English_secretary" anchor_text="dialogorum">
+        <marginalia hand="English_secretary" anchor_text="">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>αρ[ι]στ[ο]τέλης</marginalia_text> <!-- Greek to be added -->
@@ -93,7 +90,14 @@
             <translation>Aristote.</translation>
         </marginalia>
         
-        <!-- M.B. Add second Greek marginalia later. -->
+        <marginalia hand="English_secretary">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text></marginalia_text> <!-- Greek to be added -->
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="reditum in coleum">
             <language ident="LA">
@@ -164,6 +168,7 @@
         <underline method="pen" type="straight" language="LA" text="sit antiquius"/>
         
         <symbol name="Jupiter" place="right_margin"/>
+        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="In co[e]lu[m] reditus"/>
         

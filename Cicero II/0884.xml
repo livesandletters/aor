@@ -33,6 +33,15 @@
             <translation>Disagreement between augurs.</translation>
         </marginalia>
         
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text></marginalia_text>
+                </position>
+            </language>
+            <translation></translation>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="Deos esse concedamus, eor&uacute;mque mente mundum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -72,7 +81,8 @@
         <marginalia hand="Italian" anchor_text="Iacchus Eumolpida&eacute;que">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Iacchus. Eumolpida[e]</marginalia_text> <!-- JG: Which Dionysius?-->
+                    <marginalia_text>Iacchus. Eumolpida[e]</marginalia_text>\
+                    <person name="Dionysius"/>
                 </position>
             </language>
             <translation>Dionysius and the Eumolpidae.</translation>
@@ -168,6 +178,7 @@
         <underline method="pen" type="straight" language="LA" text="incredibiliter"/>
         <underline method="pen" type="straight" language="LA" text="nisi vetustas ea certa esse docuisset"/>
         <underline method="pen" type="straight" language="LA" text="euanuerit iam &amp;"/>
+        <underline method="pen" type="straight" language="LA" text="in nostro collegio fuisse: neque illi, qui esse etiam nunc"/>
         <underline method="pen" type="straight" language="LA" text="suscipiendo &amp; gerendo, &amp; deponendo"/>
         <underline method="pen" type="straight" language="LA" text="imman&iacute;que vita exculti ad humanitatem &amp; mitigati sumus"/>
         <underline method="pen" type="straight" language="LA" text="cogitatam libidinem intulit, qu&ograve; ne imprudentiam quidem oculorum adiici fas fuit"/>
@@ -175,12 +186,15 @@
         <underline method="pen" type="straight" language="LA" text="peruigilationes"/>
         <underline method="pen" type="straight" language="LA" text="sunt cauea, circ&oacute;que diuisi, sint corporum certationes"/>
         
-        <!-- M.B. unknown (Jupiter?) symbol in the left margin and the right margin. -->
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
         
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>

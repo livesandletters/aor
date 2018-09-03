@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -21,7 +20,6 @@
             </translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Ennius">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -33,7 +31,6 @@
             </language>
             <translation>Ennius.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Alcmaeo">
             <language ident="LA">
@@ -47,7 +44,6 @@
             <translation>Alcmaeon.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="somnia">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -58,7 +54,6 @@
             </language>
             <translation>Dreams.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="insanis">
             <language ident="LA">
@@ -71,19 +66,17 @@
             <translation>The insane.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Tuditanus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Tuditanus.
                     </marginalia_text>
-                    <person name="Sempronius Tuditanus"/>  <!-- DO: Not sure if this is the accurate name; I think it's the son of https://en.wikipedia.org/wiki/Gaius_Sempronius_Tuditanus; see also https://www.cambridge.org/core/journals/antichthon/article/the-testament-of-sempronius-tuditanus/6559D6FB5D7A36199FAD16FFC1F54D25 -->
+                    <person name="Sempronius Tuditanus"/>
                 </position>
             </language>
             <translation>Tuditanus.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="apud Euripidem Hercules">
             <language ident="LA">
@@ -98,7 +91,6 @@
             <translation>Euripides. Hercules.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Alcmaeo">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -111,7 +103,6 @@
             <translation>Alcmaeon.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="recordatione">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -122,7 +113,6 @@
             </language>
             <translation>Recollection.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Dialecticam">
             <language ident="LA">
@@ -135,7 +125,6 @@
             <translation>Dialectics.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="quae coniunctio, quae disiunctio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -146,7 +135,6 @@
             </language>
             <translation>Conjunction. Disjunction.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="philosophia">
             <language ident="LA">
@@ -159,7 +147,6 @@
             <translation>Philosophy.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="vigilantium, siccorum, sanorum"/>
         <underline method="pen" type="straight" language="LA" text="furor consederit, putare"/>
         <underline method="pen" type="straight" language="LA" text="ita suos co[n]figebat sagittis, quum vxorem interimebat"/>
@@ -168,21 +155,22 @@
         <underline method="pen" type="straight" language="LA" text="furere destiterint"/>
         <underline method="pen" type="straight" language="LA" text="possit? Dialecticam inue[n]tam esse dicitis, veri &amp; falsi quasi disceptatricem &amp; iudicem"/>
         <underline method="pen" type="straight" language="LA" text="quae coniunctio, quae disiunctio"/>
-        <underline method="pen" type="straight" language="LA" text="primo progressu festiue tradit elementa loquendi, &amp; ambiguoru[m] intelligentiam concludend&iacute;que rationem: tum paucis additis venit ad Soritas, lubricum sane &amp; periculosum locum, quod tu modo dicebas esse vitiosum interroga[n]di genus"/>
+        <underline method="pen" type="straight" language="LA" text="primo progressu festiue tradit elementa loquendi, &amp; ambiguoru[m] intelligentiam concludend&iacute;que rationem: 
+            tum paucis additis venit ad Soritas, lubricum sane &amp; periculosum locum, quod tu modo dicebas esse vitiosum interroga[n]di genus"/>
         
-        <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         
         <mark name="X_sign" method="pen" place="head"/>
         <mark name="X_sign" method="pen" place="right_margin"/>
-        
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Alcm&auml;[e]o"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Somnia"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Insani"/>
+        
+        <!-- FSF: unknown symbol -->
         
     </annotation>
 </transcription>
