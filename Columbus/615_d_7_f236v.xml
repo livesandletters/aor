@@ -11,7 +11,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Eclipsis A[nn]o <!--JG: You should transcribe the moon symbol as well. It's part of the special characters -->
+                        Eclipsis &Moon; A[nn]o
                     </marginalia_text>
                     <symbol_in_text name="Moon"/>
                 </position>
@@ -23,24 +23,28 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>Eclipse in the year 1504, on the 29th of February</translation> <!--JG: The moon should figure in your translation as well-->
+            <translation>Lunar eclipse in the year 1504, on the 29th of February</translation> 
+        </marginalia>
+        
+        <marginalia hand="Italian" method="pen" >
+            <language ident="LA">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        Eclipsis &Moon; totalis
+                    </marginalia_text>
+                    <symbol_in_text name="Moon"/>
+                </position>
+            </language>
+            <translation>A complete lunar eclipse.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Eclipsis Eclipsis totalis A[nn]o 1504 <!--JG: 'Eclipsis totalis [moon]' should be a separate marginal note. Translate as 'A total eclipse of the moon'--> <!--JG: You forgot to transcribe a word 'erat'-->
+                        Eclipsis &Moon; erat A[nn]o 1504 Febr[uarii] 29 hor[a] 13 m[inutae] 36 ad meridianu[m] [....] [....], dimidia duratio. Hor[a] 1. m[inutae] 46. Puncta 13.
                     </marginalia_text>
                     <symbol_in_text name="Moon"/>
-                </position>
-            </language>
-            <language ident="EN">
-                <position place="tail" book_orientation="0">
-                    <marginalia_text>
-                        Febr[uary] 29 hor[a] 13 m[inute] 36 ad meridiem, dimidia duratis. Hor[a] 1. m[inutes] 46. Puncata 13. <!--JG: It's likely 'Febr[uarii]' since the marginal note is in Latin. Similarly, it should be 'm[inutae]'. If you don't know a word, indicate it in the transcription, rather than omitting it. E.g. [...]; 'meridianu[m] [...] [...]'; 'duratio'; 'm[inutae]'. I think it's 'puncta', puncata has to many letters (and doesn't seem to exist) -->
-                        <!-- MB. Not sure of the two scribbled words following 'ad meridiem' possibly 'tub g???'. Last part of marginalia possibly refers to 'astrological puncta' -->
-                    </marginalia_text>
                 </position>
             </language>
             <translation>There was an eclipse of the moon in the year 1504, on the 29th of February. Hour 13, minute 36, towards noon [...]. Half a duration. One hour, 46 minutes. Magnitude 13.</translation>
