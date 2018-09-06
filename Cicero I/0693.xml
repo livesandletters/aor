@@ -9,7 +9,17 @@
         <marginalia hand="Italian" anchor_text="[Greek]">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>te [Greek] nemine[m] cognoui.</marginalia_text>
+                    <marginalia_text>te  nemine[m] cognoui.</marginalia_text>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>[Greek]</marginalia_text>
+                </position>
+            </language>
+            <language ident="LA"> 
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>nemine[m] cognoui.</marginalia_text>
                 </position>
             </language>
             <translation>I realize that you are no [Greek word].</translation>
@@ -71,10 +81,10 @@
             <translation>Robbery.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="sperabam, de nihilo">
+        <marginalia hand="Italian" anchor_text="de nihilo">
             <language ident="LA"> 
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>[Nota] de Hillo.</marginalia_text> 
+                    <marginalia_text>de Hillo.</marginalia_text> 
                     <person name="Caius Lucilius Hirrus"/>
                 </position>
             </language>
