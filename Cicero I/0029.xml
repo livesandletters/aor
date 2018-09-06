@@ -226,7 +226,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        malle[m] legere [ fuisse <!-- FSF: Dee uses this to mark an amendment to the text: instead of futurum it should read fuisse, according to him; the same happens alter -->
+                        malle[m] legere [ fuisse 
                     </marginalia_text>
                 </position>
             </language>
@@ -303,12 +303,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        fortasse [III CAL. FEB.. &amp; SCIPIONE <!-- FSF: as above, this is a correction suggested by Dee -->
+                        fortasse [III CAL. FEB.. &amp; SCIPIONE 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Perhaps 3 Kalends of February. By Scipio.
+                Perhaps '3 Kalends of February and by Scipio'.
             </translation>
         </marginalia>
         
@@ -348,19 +348,6 @@
             </language>
             <translation>
                 Elsewhere: to have stopped, testified himself 
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="auaritia">
-            <language ident="LA">
-                <position place="right_margin" book_orientation="0">
-                    <marginalia_text>
-                        Avaritia <!-- FSF: it seems to be written on a scroll drawn by Dee -->
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                Greed.
             </translation>
         </marginalia>
         
@@ -417,7 +404,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        he myght se a remedie or finde a meanes or waye <!--NBW: pretty sure this is what is says-->
+                        he myght se a remedie or finde a meanes or waye 
                     </marginalia_text>
                 </position>
             </language>
@@ -483,7 +470,7 @@
             <language ident="LA">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        hominus preste <!--JG: Unsure-->
+                        [Romulus preste] <!--JG: Unsure-->
                     </marginalia_text>
                 </position>
             </language>
@@ -496,7 +483,7 @@
             <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
-                        he scrapethe on a hepe to gether <!--JG: Unsure NBW: pretty sure this is what it says-->
+                        he scrapethe on a hepe to gether 
                     </marginalia_text>
                 </position>
             </language>
@@ -590,9 +577,12 @@
         <errata language="LA" copytext="est" amendedtext="[deleted]"/>
         <errata language="LA" copytext="IIII Calend. Februarii Spurione" amendedtext="[deleted]"/>
         
-        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="vereor ne se derideri putet, qu&ograve;d iterum ia[m] dico, optimus"></drawing>
+        <drawing type="manicule" book_orientation="0" place="right_margin" method="pen" anchor_text="vereor ne se derideri putet, qu&ograve;d iterum ia[m] dico, optimus"/>
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
-        
+        <drawing type="scroll" book_orientation="0" place="right_margin" method="pen">
+            <text hand="English_secretary" language="LA" anchor_text="auaritia">Avaritia</text>
+            <translation>Greed.</translation>
+        </drawing>
         
         <!-- FSF: in the seventh line there are a and b written over some words; I am not sure how to capture these; they almost function like a mark or so -->
         
