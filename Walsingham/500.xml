@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="500.tif" reader="John Dee" pagination="8"/> 
     <annotation>
-        
         
         <marginalia hand="Italian" anchor_text="filia[m] Herberti Comitis" method="pen">
             <language ident="LA">
@@ -18,7 +16,6 @@
             </language>
             <translation>Daughter of Count Herbert. Wife of William Longsword.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Henrico episcopo Baiocensi" method="pen">
             <language ident="LA">
@@ -53,7 +50,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Alano Bryt[anniae] co[n]donatur.</marginalia_text>
-                    <person name="Alan I of Brittany"/>
+                    <person name="Alan I"/>
                 </position>
             </language>
             <translation>Alan of Brittany is pardoned.</translation>
@@ -89,7 +86,6 @@
             </language>
             <translation>Louis, King of France, in the year 928.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="He[n]rico transrenano" method="pen">
             <language ident="LA">
@@ -198,7 +194,6 @@
             <node id="n1" person="Charles the Simple">Carolus</node>
             <node id="n2" person="Eadgifu of Wessex">Ogina</node>
             <node id="n3" person="Louis IV of France">Ludouicus</node>
-            
             <link to="n2" from="n1" relationship="has_spouse"/>
             <link to="n1" from="n2" relationship="has_spouse"/>
             <link to="n3" from="n1 n2" relationship="has_child"/>  
@@ -207,11 +202,9 @@
         <graph type="genealogical_tree" book_orientation="0" place="left_margin" method="pen">
             <node id="n4" person="William I, Count of Poitou">Guliel. comes Picta</node>
             <node id="n5" person="Gerloc">Gerloc</node>
-            
             <link to="n5" from="n4" relationship="has_spouse"/>
             <link to="n4" from="n5" relationship="has_spouse"/>
         </graph>
-        
         
     </annotation>
 </transcription>
