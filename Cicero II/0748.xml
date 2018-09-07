@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        eoru[m] notione[m] in o[mn]i[u]m animis impre... <!-- FSF: parts illegible where page folded over -->
+                        eoru[m] notione[m] in o[mn]i[u]m animis impressit ip[s]a natura
                         antecepta a[n]i[m]o rei informatioqua[e]dam
                         insitus eoru[m] vel potius innatos cognitiones habem[us]
                         natura inculpsit in mentibus
@@ -19,7 +19,36 @@
                 </position>
             </language>
             <translation>
+                <!--JG: To be done-->
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>
+                        inco[n]sulte
+                        temere
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
                 
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        anticipatio
+                        pr[a]enotio. 
+                        informatio. | 
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Anticipation, preconception, information.
             </translation>
         </marginalia>
         
@@ -35,19 +64,6 @@
             </language>
             <translation>
                 Gaius Velleius.
-            </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>
-                        pr[a]enotio informatio. ] <!-- FSF: parts illegible where page folded over -->
-                    </marginalia_text>
-                </position>
-            </language>
-            <translation>
-                
             </translation>
         </marginalia>
         
@@ -432,8 +448,8 @@
         <numeral place="left_margin">21</numeral>
         <numeral place="left_margin">12</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
