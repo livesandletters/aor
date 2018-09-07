@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -15,7 +14,6 @@
             </language>
             <translation></translation> <!-- MB. Translation missing? -->
         </marginalia>
-        
         
         <marginalia hand="Italian" method="pen">
             <language ident="FR">
@@ -35,18 +33,16 @@
             <!--  -->
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Bernardo Dano; Bernardus Siluanectensis" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Nota istos duos Bernardos</marginalia_text>
                     <person name="Bernard the Dane"/>
-                    <person name="Bernard, Count of Senlis"/>
+                    <person name="Bernard of Senlis"/>
                 </position>
             </language>
             <translation>Note those two Bernards.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Bernardus Siluanectensis Richardum nepote[m] suum" method="pen">
             <language ident="LA">
@@ -59,7 +55,6 @@
             <translation>Richard, the nephew of Bernard.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="viginti millibus bellatorum" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -68,7 +63,6 @@
             </language>
             <translation>20000 soldiers.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Rodulphum cognomento Tortam" method="pen">
             <language ident="LA">
@@ -80,7 +74,6 @@
             <translation>Rodolf Torta, a very unfair man.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Haraldo regi Danorum" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -90,7 +83,6 @@
             </language>
             <translation>Harald, King of the Danes.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="maritima littora" method="pen">
             <language ident="LA">
@@ -102,7 +94,6 @@
             <translation>To the shores of Cabourg where the Dives quickly flows into the sea.</translation>  <!-- DO: Not sure about the location and river name - this is the closest I could find that made sense. -->
         </marginalia>
         
-        
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -111,7 +102,6 @@
             </language>
             <translation>Great cunning.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" method="pen" id="RCP10552-2:504:m0001">
             <language ident="LA">
@@ -124,7 +114,6 @@
             <translation>At the ford which Herluin [?] from Varraville.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Lekherlewyn" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -133,7 +122,6 @@
             </language>
             <translation>Fort Bekherlewyn.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Herlewinum monasteriolo Comitem; Lambertus" method="pen">
             <language ident="LA">
@@ -145,8 +133,7 @@
             </language>
             <translation>[ Herluin, Count of the Montreuil killed, Lambertus.</translation>
         </marginalia>
-        
-        
+       
         <marginalia hand="Italian" anchor_text="decem &amp; octo satrapas cum innumeris alijs truncatos gladiis igniuomo transmittu[n]t orco"  method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -156,7 +143,6 @@
             <translation>18 Frankish governors killed.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="militis" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
@@ -165,7 +151,6 @@
             </language>
             <translation>Danish.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="Gereberga Francorum Regina" method="pen">
             <language ident="LA">
@@ -177,7 +162,6 @@
             <translation>Queen Gerberga.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Henricum sc[ilicet] Regem Transrenanum" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -187,7 +171,6 @@
             </language>
             <translation>Henry, King of the trans-Rhine region.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
@@ -200,7 +183,6 @@
             <translation>William [?] at the ford of Herluin.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Ca[e]saris Burgum" method="pen">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
@@ -210,7 +192,6 @@
             </language>
             <translation>Cesaris burgum [is] Cherbourg.</translation>
         </marginalia>
-        
         
         <underline method="pen" type="straight" language="LA" text="Bernardo Dano"/>
         <underline method="pen" type="straight" language="LA" text="caepimus esse regales"/>
@@ -246,28 +227,16 @@
         <mark name="comma" method="pen" place="intext"/>  <!-- Ducis vindicare -->
         <mark name="comma" method="pen" place="intext"/>  <!-- ambo die -->
         <mark name="comma" method="pen" place="intext"/>  <!-- lapsus in -->
-        
         <mark name="est_mark" method="pen" place="right_margin"/>  <!-- DO: Not sure if these are est marks or something else --> 
         <mark name="est_mark" method="pen" place="tail"/>
         
         <errata language="LA" copytext="Lekherlewyn" amendedtext="[deleted]"/>
         
-        
-        
         <physical_link>
-            
             <marginal_annotation idref="RCP10552-2:504:m0001"/>
             <marginal_annotation idref="RCP10552-2:504:u0001"/>
-            
             <relation from="RCP10552-2:504:m0001" to="RCP10552-2:504:u0001" type="undirected"/>
-            
         </physical_link>        
         
-       
-        
-        
-        
     </annotation>
-    
 </transcription>
-        

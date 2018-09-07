@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -11,12 +10,11 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>Bernardus Siluanetensis Comes</marginalia_text>
-                    <person name="Bernard, Count of Senlis"/>
+                    <person name="Bernard of Senlis"/>
                 </position>
             </language>
             <translation>Bernard, Count of Senlis.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="filiu[m] regis" method="pen">
             <language ident="LA">
@@ -28,7 +26,6 @@
             <translation>Charles.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="vt Rex Francis redderetur, eo tenore vt Normanni reciproce filiu[m] regis acciperent obsidem cum duobus episcopis" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -37,7 +34,6 @@
             </language>
             <translation>Hostages given to the Normans in exchange for the King.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="quotidianu[m] victu[m]" method="pen" id="RCP10552-2:505:m0001">
             <language ident="LA">
@@ -49,7 +45,6 @@
             <translation></translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Epte" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -58,7 +53,6 @@
             </language>
             <translation>Epte.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="regis filiu[m], qui medio te[m]pore mortuus est" method="pen">
             <language ident="LA">
@@ -71,7 +65,6 @@
             <translation> The son of King Louis, a hostage, dies.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="Radulphus Torta" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -82,7 +75,6 @@
             <translation>Rodolf Torta.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="praesule[m]" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -92,19 +84,16 @@
             <translation>The priest of Paris.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="filiu[m] suum" method="pen"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>filius Radulfi Torta[e]</marginalia_text>
                     <person name="Rodolf Torta"/> 
                     <person name="Walter Torta"/>
-                    
                 </position>
             </language>
             <translation>The son of Rodolf Torta.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="reconciliato sibi filio suo Swano" method="pen">
             <language ident="LA">
@@ -127,7 +116,6 @@
             <translation>Emma.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="transrenanum regem Othone[m]; Lodowici regis Franci[a]e &amp; Arnulfi Flandrensis" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -140,7 +128,6 @@
             <translation>[ Otto, King of the trans-Rhine region; Louis, King of France; Arnulf, Count of Flanders: Conspirators.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" anchor_text="nepotem" method="pen">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -151,7 +138,6 @@
             </language>
             <translation>The nephew of King Otto.</translation>
         </marginalia>
-        
         
         <marginalia hand="Italian" anchor_text="nepote regis Othonis" method="pen">
             <language ident="LA">
@@ -164,7 +150,6 @@
             <translation>Otto's nephew killed.</translation>
         </marginalia>
         
-        
         <marginalia hand="Italian" method="pen">
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
@@ -172,7 +157,6 @@
                 </position>
             </language>
         </marginalia>
-        
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
@@ -220,39 +204,26 @@
         
         <mark name="comma" method="pen" place="intext"/> <!-- suum ciuitatis -->
         <mark name="comma" method="pen" place="intext"/> <!-- Normannis intra -->
-        
         <mark name="tripunctus" method="pen" place="left_margin"/>
        
-        
         <graph type="genealogical_tree" book_orientation="0" place="tail" method="pen">
-            
             <node id="n1" person="Rollo">Rollo</node>
             <node id="n2" person="William I Longsword">Will[ia]mus</node>
             <node id="n3" person="Richard I of Normandy">Richardus .I Dux N[orthmannicae]</node>
             <node id="n4" person="Hugh the Great">Hugo magnus</node>
             <node id="n5" person="Emma of Paris">Emma</node>
-            
             <link to="n2" from="n1" relationship="has_child"/>
             <link to="n3" from="n2" relationship="has_child"/>
             <link to="n4" from="n5" relationship="has_child"/>
             <link to="n3" from="n5" relationship="has_spouse"/>
             <link to="n5" from="n3" relationship="has_spouse"/>       
-            
         </graph>
         
-        
-        
        <physical_link>
-           
            <marginal_annotation idref="RCP10552-2:505:m0001"/>
            <marginal_annotation idref="RCP10552-2:505:u0001"/>
-           
            <relation from="RCP10552-2:505:m0001" to="RCP10552-2:505:u0001" type="undirected"/>
-           
        </physical_link>
         
-       
-        
     </annotation>
-    
 </transcription>
