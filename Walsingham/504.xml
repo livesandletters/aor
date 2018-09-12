@@ -18,7 +18,7 @@
         <marginalia hand="Italian" method="pen">
             <language ident="FR">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>En Normandie, doultre sayne sont Aurenches et et Aurenchin. Constanches et Constantin, Bayeux et Belsyn. Lisieux et Leeuin. Eureux, Caa[e]n Faloise, et plusieurs aultres bonnes villes fortresses et Chasteaux.</marginalia_text>
+                    <marginalia_text>En Normandie, doultre sayne sont Aurenches et et Aurenchin. Constanches et Constantin, Bayeux et Bessyn. Lisieux et Leeuin. Eureux, Caa[e]n Faloise, et plusieurs aultres bonnes villes fortresses et Chasteaux.</marginalia_text>
                     <location name="Normandy"/>
                     <location name="Avranches"/>
                     <location name="Coutances"/>
@@ -29,8 +29,8 @@
                     <location name="Falaise"/>
                 </position>
             </language>
-            <translation>In Normandy on the Seine there are Avranches and [?], Coutances and [?], Bayeux and [?]. Lisieux and [?]. Evreux, Caen, Falaise, and many other towns, fortresses and castles.</translation> <!-- DO: I don't know what the second word in each pairing is. Possibly referring to the people of each place or an alternative name? -->
-            <!--  -->
+            <translation>In Normandy on the Seine there are Avranches and [?], Coutances and [?], Bayeux and Besin. Lisieux and [?]. Evreux, Caen, Falaise, and many other towns, fortresses and castles.</translation> <!-- DO: I don't know what the second word in each pairing is. Possibly referring to the people of each place or an alternative name? -->
+            <!--NBW: I think these are additional places-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Bernardo Dano; Bernardus Siluanectensis" method="pen">
@@ -106,21 +106,20 @@
         <marginalia hand="Italian" method="pen" id="RCP10552-2:504:m0001">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>apud vadu[m] quod [dr?] Herlwin a Varraville</marginalia_text>  <!-- DO: Not sure what the 'dr' contraction is -->
-                    <person name="Herluin, Count of Montreuil"/>
+                    <marginalia_text>apud vadu[m] quod d[icitu]r Herlwin a Varraville</marginalia_text>  <!-- NBW: this is more likely a place name that Dee is trying to work out than a person, as below-->
                     <location name="Varraville"/>
                 </position>
             </language>
-            <translation>At the ford which Herluin [?] from Varraville.</translation>
+            <translation>At the ford which is called Herluin, near Varraville.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Lekherlewyn" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>forte Bekherlew[?]yn</marginalia_text>  <!-- DO: 'Bekherlewyn' would make sense but looks like there might be another letter in there -->
+                    <marginalia_text>forte Bekherlewyn</marginalia_text>  <!-- DO: 'Bekherlewyn' would make sense but looks like there might be another letter in there --> <!-- NBW: it's a hyphen most likely. -->
                 </position>
             </language>
-            <translation>Fort Bekherlewyn.</translation>
+            <translation>More likely, Bekherlewyn.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Herlewinum monasteriolo Comitem; Lambertus" method="pen">
