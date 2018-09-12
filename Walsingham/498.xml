@@ -93,7 +93,7 @@
         <marginalia hand="Italian" anchor_text="Astitum Franconem Archiespiscopum" method="pen">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Astitus Franco Archie[piscopus].</marginalia_text>  <!-- DO: Not sure about 'Astitus' but I think it's part of his name. Maybe 'Astutus' - Franco the Astute? - but printed text says 'Astitum' -->
+                    <marginalia_text>Astitus Franco Archie[piscopus].</marginalia_text>  <!-- DO: Not sure about 'Astitus' but I think it's part of his name. Maybe 'Astutus' - Franco the Astute? - but printed text says 'Astitum' --> <!-- NBW: This transcription is correct, it's either part of his name or a place where he was sent.  -->
                     <person name="Franco, Archbishop of Rouen"/>
                 </position>
             </language>
@@ -207,20 +207,21 @@
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>Northmania i[ntr]a sylvesa et vasta fere</marginalia_text>  <!-- DO: Not sure about 'intra', or the translation -->
+                    <marginalia_text>Northmania ia[m] sylvosa et vasta fere</marginalia_text>  
                     <location name="Normandy"/>
                 </position>
             </language>
-            <translation>Normandy in wooded areas and generally vast.</translation>
+            <translation>Normandy is now forested and almost empty.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>Ep[iscop]us s. var, fuga elapsu[m] no[n] rep[er]ie[n]tes </marginalia_text>  <!-- DO: Not really sure about this, or the translation -->
+                    <marginalia_text>Ep[iscop]um sibar, fuga elapsu[m] no[n] rep[er]ie[n]tes </marginalia_text>  
+                    <person name="Sibar, Bishop of Evreux"/>          
                 </position>
             </language>
-            <translation>[??] not realising their escape.</translation>
+            <translation>Without capturing Bishop Sibar, who had escaped in flight.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Guidonis Comitis Siluanietensis"/>
