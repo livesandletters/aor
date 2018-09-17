@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE transcription SYSTEM "http://www.livesandletters.ac.uk/schema/aor_20141023.dtd">
 
 <transcription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
-    
     <page filename="WB5-12_0164_070v.tif" reader="Dee"/>
     <annotation>
         
@@ -14,7 +12,7 @@
                     <marginalia_text>
                         Helena[e] [deleted alienius] alterius sororis ip[s]ius Arthuri, [deleted quid] Anna habuit Loth maretu[m]. sup[ra] fol. 68, nec dum ipse vita[m] finiuit: pr[a]eterea nullu[m] filu[m] Anna habere poterat, qui Arturo supp[???] ferret destr[a?].
                     </marginalia_text> <!--Incomplete transcription.// NBW - even with color inversion, last few words still need work-->
-                    <person name="Helena"/>
+                    <person name="Helena, sister of King Arthur"/>
                     <person name="King Arthur"/>
                     <person name="Anna"/>
                     <person name="Lot"/>
@@ -33,13 +31,11 @@
         
         <graph type="genealogical_tree" book_orientation="0" place="head" method="pen">
             <node id="n1" person="Dubricius">Dubricius, rex Armoricae</node>
-            <node id="n2" person="Helena">soror Arthuri Regis. [Anna - deleted] Helena. half sister.</node>
+            <node id="n2" person="Helena, sister of King Arthur">soror Arthuri Regis. [Anna - deleted] Helena. half sister.</node>
             <node id="n3" person="Hoelus">Ho&euml;lus</node>
-            
             <link to="n2" from="n1" relationship="has_spouse"/>
             <link to="n3" from="n1" relationship="has_child"/>
             <link to="n3" from="n2" relationship="has_child"/>
-            
             <graph_text>
                 <translation>Dubricus, King of Armorca. Sister of King Arthur.</translation>
             </graph_text>
