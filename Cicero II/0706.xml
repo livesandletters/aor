@@ -49,7 +49,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Argiui Sycionij Corinthi ]
+                        Argiui Sycionij Corinthi. ]
                     </marginalia_text>
                 </position>
             </language>
@@ -141,7 +141,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        C Fabritius
+                        C. Fabritius
                     </marginalia_text>
                 </position>
             </language>
@@ -297,10 +297,11 @@
         <underline method="pen" type="straight" language="LA" text="esse quae &amp;"/>
         <underline method="pen" type="straight" language="LA" text="dicit qu&ograve;d inglorius sit atque ignobilis ad supremu[m] diem"/>
         <underline method="pen" type="straight" language="LA" text="eor&uacute;mque qui"/>
-        <underline method="pen" type="straight" language="LA" text="sit"/>
+        <underline method="pen" type="straight" language="LA" text="luctus, aliorum"/>
+        <underline method="pen" type="straight" language="LA" text="sit ementita"/>
         <underline method="pen" type="straight" language="LA" text="dies: nisi qu&ograve;d ratio quaedam sanat illos: hos"/>
         
-        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="head"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
@@ -310,12 +311,12 @@
         <numeral place="left_margin">2</numeral>
         <numeral place="left_margin" language="LA" text="aut">2</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Pauperes"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Inhonorati"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Perpessio ca[e]teroru[m]"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="vulgi opinio"/>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
 
     </annotation>
 </transcription>
