@@ -67,14 +67,16 @@
             
             <graph_text>
                 <note hand="English_secretary" language="LA" internal_link="n4">Sine liberis. vt Seruius dicit</note>
-                <person name="Servius"/> <!--JG: Neil, who is this? Might have to be added to people spreadsheet! Is this Maurus Servius Honoratus? Currently exists as Servius in spreadsheet-->
+                <person name="Maurus Servius Honoratus"/> 
                 <translation>Without children, as Servius says. </translation> 
             </graph_text>
             <graph_text>
-                <note hand="English_secretary" language="LA" internal_link="n6">qui et Ascanius dictus est vt Seruius sup. Vergilium docet.</note>
+                <note hand="English_secretary" language="LA" internal_link="n6">qui et Ascanius dictus est vt Seruius sup[er] Vergilium docet.</note>
                 <person name="Ascanius"/>
                 <person name="Virgil"/>
-                <translation>Who is still (sometimes?) called Ascanius, as Servius shows. He teaches Virgil.</translation><!--JG: Unsure about last part-->
+                <person name="Servius Maurus Honoratus"/>
+                <book title="Commentary on the Aeneid of Vergil"/>
+                <translation>Who is still (sometimes?) called Ascanius, as Servius shows in his commentary on Vergil.</translation> <!-- This last part, I think is the rendering of 'Servius super Virgilium' as the title of the work-->
             </graph_text>
         </graph>
            
