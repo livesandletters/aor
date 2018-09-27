@@ -168,7 +168,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        De Domicilio Deorum
+                        De Domicilio Deorum.
                     </marginalia_text>
                 </position>
             </language>
@@ -207,7 +207,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Questiones qua[e]dam ad Velleio proposita[e] de deijs qua[e] vide[n]tur esse dilemma compositu[m]
+                        Questiones qua[e]dam ad Velleio proposita[e] de dijs qua[e] vide[n]tur esse dilemma compositu[m]
                     </marginalia_text>
                     <person name="Gaius Velleius"/>
                 </position>
@@ -373,7 +373,7 @@
         <underline method="pen" type="straight" language="LA" text="philosophi motum inanem vocant"/>
         <underline method="pen" type="straight" language="LA" text="deferentem sitellam"/>
         <underline method="pen" type="straight" language="LA" text="deo, cuius crebra facie pella[n]tur animi, ex quo esse beati atque aeterni intelligantur"/>
-        <underline method="pen" type="straight" language="LA" text="mutlis est, nec vos exitum rperitis, tot&aacute;que res vacillat &amp; claudicat"/>
+        <underline method="pen" type="straight" language="LA" text="mutlis est, nec vos exitum reperitis, tot&aacute;que res vacillat &amp; claudicat"/>
         <underline method="pen" type="straight" language="LA" text="in animu[m] meum saepe incurrit"/>
         <underline method="pen" type="straight" language="LA" text="mihi collibitum"/>
         <underline method="pen" type="straight" language="LA" text="qu&ograve;d"/>
@@ -386,12 +386,15 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         
-        <mark name="tripunctus" method="pen" place="left_margin"/>
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Cuiq[ue] rei competit Locus"/>
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Motus inanis animi"/>
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Scylla"/>
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Chimera"/>
+        <mark name="plus_sign" method="pen" place="left_margin" />
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="plus_sign" method="pen" place="tail"/>
-        <mark name="plus_sign" method="pen" place="tail"/>
-        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="plus_sign" method="pen" place="tail" language="LA" text="invocatus"/>
+        <mark name="plus_sign" method="pen" place="tail" language="LA" text="&AElig;ther pro &auml;ere"/>
+        <mark name="section_sign" method="pen" place="intext"/>
         
         <numeral place="left_margin">1</numeral>
         <numeral place="left_margin">2</numeral>
