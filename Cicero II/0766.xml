@@ -128,12 +128,12 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Admirabilis erratum vis et natura
+                        Admirabilis 5 erratum vis et natura
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Admirable is the strength and nature of wandering bodies.
+                Admirable is the strength and nature of the five wandering bodies.
             </translation>
         </marginalia>
         
@@ -274,7 +274,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        ammen cursus ammens co[n]versis <!-- FSF: not sure about first and third word -->
+                        ammens cursus ammens co[n]versis <!-- FSF: not sure about first and third word -->
                     </marginalia_text>
                 </position>
             </language>
@@ -332,7 +332,9 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        nihil a[n]imatat sempiternus seculor[um] a[e]tatibus in o[mn]i a[e]ternitate co[n]servat progresss a[e]r motus co[n]stantes et co[e]li <!-- FSF: not sure about the second word -->
+                        nihil a[n]imatat sempiternus seculor[um] a[e]tatibus <!-- FSF: not sure about the second word -->
+                        in o[mn]i a[e]ternitate co[n]servat progresss a[e]r 
+                        motus co[n]stantes et co[e]li 
                         per..mes cursus atq[ue] p[er]pelui cu[m] admirabili incredibiliq[ue] constantia
                         atque res r[a]estustes o[mn]es ha[e] quaru[m] est ordo sempiternus ab ho[m]i[n]e co[n]fici no[n] po&sharp-S;unt.
                         ha[e]c a[e]qualitas motus, co[n]sta[n]tiaq[ue] ordu[m] in alia figura no[n] p[otes]t co[n]servari
@@ -346,7 +348,33 @@
                 
             </translation>
         </marginalia>
+
+        <marginalia hand="English_secretary" anchor_text="defectibus">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        diebus
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                On days.
+            </translation>
+        </marginalia>
         
+        <marginalia hand="English_secretary">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        vir
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Man.
+            </translation>
+        </marginalia>
+
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
@@ -426,13 +454,16 @@
         <symbol name="Moon" place="left_margin"/>
         <symbol name="Conjunction" place="left_margin"/>
         <symbol name="Asterisk" place="left_margin"/>
-        <symbol name="Square" place="left_margin"/>
+        <symbol name="Square" place="left_margin"/> <!-- FSF: not sure what the symbol after the square is -->
         <symbol name="Jupiter" place="left_margin" language="LA" text="Iouis"/>
         <symbol name="Mars" place="left_margin" language="LA" text="Martis"/>
         <symbol name="Mercury" place="left_margin" language="LA" text="Mercurii"/>
         <symbol name="Venus" place="left_margin" language="LA" text="Veneris"/>
         <symbol name="Asterisk" place="right_margin"/>
         <symbol name="Asterisk" place="right_margin"/>
+        <symbol name="Opposite_planets" place="intext"/>
+        <symbol name="North_Node" place="intext"/>
+        <symbol name="South_Node" place="intext"/>
         
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
@@ -445,7 +476,7 @@
         <numeral place="left_margin">5</numeral>
       
         <errata language="LA" copytext="Nocturnoum autem spatiorum eadem est aequabilitas quae diurnorum" amendedtext="[deleted]"/>
-        <errata language="LA" copytext="defectibus" amendedtext="du"/>
+        <errata language="LA" copytext="defectibus" amendedtext="diebus"/>
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
