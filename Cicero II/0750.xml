@@ -78,7 +78,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Laudare pra[e]se[n]tem verearis
+                        Laudare pra[e]se[n]tem verearis.
                     </marginalia_text>
                 </position>
             </language>
@@ -91,7 +91,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Zeno epicur[i] corypha[e]us
+                        Zeno epicur[i] corypha[e]us.
                     </marginalia_text>
                     <person name="Zeno of Citium"/>
                 </position>
@@ -118,7 +118,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Simonides de deo interrogatus
+                        Simonides de deo interrogatus.
                     </marginalia_text>
                     <person name="Simonides of Ceos"/>
                 </position>
@@ -132,7 +132,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Simonides Poeta
+                        Simonides Poeta.
                     </marginalia_text>
                     <person name="Simonides of Ceos"/>
                 </position>
@@ -172,7 +172,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Diagoras Atheos
+                        Diagoras Atheos.
                     </marginalia_text>
                     <person name="Diagoras of Melos"/>
                 </position>
@@ -186,7 +186,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Protagoras Abderites
+                        Protagoras Abderites.
                     </marginalia_text>
                     <person name="Protagoras"/>
                 </position>
@@ -213,7 +213,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Atomorum regnum
+                        Atomorum regnum.
                     </marginalia_text>
                 </position>
             </language>
@@ -359,11 +359,12 @@
         <underline method="pen" type="straight" language="LA" text="tu, distincte, grauiter, ornate"/>
         <underline method="pen" type="straight" language="LA" text="quod in illo mihi vsu saepe"/>
         <underline method="pen" type="straight" language="LA" text="vt moleste ferrem tantu[m] ingenium (bona venia me audies) in tam leues, ne dicam in tam ineptas sente[n]tias incidisse"/>
-        <underline method="pen" type="straight" language="LA" text="Quia qua[n]ta diutius co[n]sydero, inquit, tanto mihi res videtur obscurior"/>
+        <underline method="pen" type="straight" language="LA" text="Quia qua[n]to diutius co[n]sydero, inquit, tanto mihi res videtur obscurior"/>
         <underline method="pen" type="straight" language="LA" text="ceteroqui"/>
         <underline method="pen" type="straight" language="LA" text="quid dicit quod non modo philosophia dignum esset, sed mediocri prudentia"/>
         <underline method="pen" type="straight" language="LA" text="dei"/>
         <underline method="pen" type="straight" language="LA" text="consessu facillimu[m]"/>
+        <underline method="pen" type="straight" language="LA" text="tuendas"/>
         <underline method="pen" type="straight" language="LA" text="Multa enim occurrunt quae conturbent, vt interdum nulli esse videantur"/>
         <underline method="pen" type="straight" language="LA" text="Quod enim omnium gentium gener&uacute;mque hominibus ita videretur"/>
         <underline method="pen" type="straight" language="LA" text="esse argume[n]tum dixisti, cur esse deos confiteremur: quod quum leue per se, tum etiam falsum"/>
@@ -381,11 +382,14 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="An Dij sint"/>
+        <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="circumflex" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="circumflex" method="pen" place="left_margin"/>
-        <mark name="bracket" method="pen" place="intext"/>
+        <mark name="section_sign" method="pen" place="intext"/>
+        <mark name="circumflex" method="pen" place="tail"/>
         
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
@@ -397,7 +401,7 @@
         <numeral place="left_margin" language="LA" text="animo">4</numeral>
         <numeral place="left_margin" language="LA" text="vita">5</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Simonides Poeta"></drawing>
         
         <!-- FSF: unknown symbol -->
     
