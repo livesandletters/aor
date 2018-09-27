@@ -239,7 +239,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Quoru[um] si nemo veru[m] vidit de natura deor[um] verendum est, ne nulla sit omnino
+                        Quoru[m] si nemo veru[m] vidit de natura deor[um] verendum est, ne nulla sit omnino
                     </marginalia_text>
                 </position>
             </language>
@@ -291,7 +291,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        vexare co[n]tinue liosissime maledicere turpissime figere maledictis mirific&egrave; co[n]te[n]uere vexare o[mn]ib[us] co[n]tumetijs male accipere totis voluminib[us] co[n]cidere <!-- FSF: not sure about the third word -->
+                        vexare co[n]tinue liosissime maledicere turpissime figere maledictis. mirific&egrave; co[n]te[n]uere vexare o[mn]ib[us] co[n]tumetijs male accipere totis voluminib[us] co[n]cidere <!-- FSF: not sure about the third word -->
                     </marginalia_text>
                 </position>
             </language>
@@ -346,6 +346,7 @@
         <underline method="pen" type="straight" language="LA" text="Semina deorum decidisse de caelo putamus in terras, &amp; sic"/>
         <underline method="pen" type="straight" language="LA" text="quaerenda sunt, quibus hoc"/>
         <underline method="pen" type="straight" language="LA" text="Vtinam tam facile vera inuenire possim, qu&agrave;m falsa"/>
+        <underline method="pen" type="straight" language="LA" text="procreationis"/>
         <underline method="pen" type="straight" language="LA" text="scito illa quidem sermone"/>
         <underline method="pen" type="straight" language="LA" text="Aristotelem vexarit"/>
         <underline method="pen" type="straight" language="LA" text="turpissime maledixerit"/>
@@ -360,12 +361,16 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Asterisk" place="intext"/>
         
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Meretricula Leontium"/>
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Pha[e]don"/>
+        
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">13</numeral>
         <numeral place="left_margin">21</numeral>
         
         <errata language="LA" copytext="quae" amendedtext="que[m]"/>
+        <errata language="LA" copytext="gens" amendedtext="gesta"/>
         <errata language="LA" copytext="argumenti" amendedtext="argumentis"/>
         
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
