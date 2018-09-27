@@ -150,7 +150,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Syderu[m] forma: Locus: motus.vis
+                        Syderu[m] forma: Locus: motus. vis
                     </marginalia_text>
                 </position>
             </language>
@@ -216,7 +216,7 @@
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         suscepit aute[m] vita ho[m]i[n]u[m] 
-                        co[n]suetudo&apos;q[ue] r[ati]o[n]is
+                        co[n]suetud&oacute;q[ue] r[ati]o[n]is
                     </marginalia_text>
                 </position>
             </language>
@@ -246,14 +246,17 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="&amp; salus omnium omnis oritur, qui vacare mente putat, is ipse mentis expers"/>
+        <underline method="pen" type="straight" language="LA" text="principium"/>
         <underline method="pen" type="straight" language="LA" text="vt eam dicat ignem esse artificiosum ad gigendum progredientem via. Censet"/>
         <underline method="pen" type="straight" language="LA" text="quandam &amp; sectam"/>
         <underline method="pen" type="straight" language="LA" text="complexu suo coercet &amp; continet"/>
         <underline method="pen" type="straight" language="LA" text="consentaneas actiones"/>
-        <underline method="pen" type="straight" language="LA" text="Non enim venis &amp; neruis &amp; ossibus continentur: nec his escis, aut potionibus vescuntur, vt aut nimis acres, aut nimis concretos humores colligant: nec his corporibus sunt, vt casus aut ictus extimescant, aut morbos metuant ex defatigatione membrorum. Quae"/>
+        <underline method="pen" type="straight" language="LA" text="Non enim venis &amp; neruis &amp; ossibus continentur: nec his escis, aut potionibus vescuntur, vt aut nimis acres, aut nimis concretos humores colligant: 
+            nec his corporibus sunt, vt casus aut ictus extimescant, aut morbos metuant ex defatigatione membrorum. Quae"/>
         <underline method="pen" type="straight" language="LA" text="regione caelo collocati, ita feruntur moderant&uacute;rque cursus, vt ad omnia conseruanda &amp; tuenda consensisse videantur"/>
         <underline method="pen" type="straight" language="LA" text="sine cause"/>
-        <underline method="pen" type="straight" language="LA" text="Itaque tum illud quod erat &agrave; deo natum, nomine ipsius dei cuncupabant"/>
+        <underline method="pen" type="straight" language="LA" text="Itaque tum illud quod erat &agrave; deo natum, nomine ipsius dei nuncupabant"/>
+        <underline method="pen" type="straight" language="LA" text="obtinuit"/>
         <underline method="pen" type="straight" language="LA" text="ipsa vitia naturam vehementius saepe pulsant"/>
         <underline method="pen" type="straight" language="LA" text="Suscepit aute[m] vita hominu[m], consuetud&oacute;que co[m]munis, vt beneficiis excellentes viros in caelu[m] fama ac voluntate"/>
         <underline method="pen" type="straight" language="LA" text="auguste sanct&eacute;que"/>
@@ -262,7 +265,7 @@
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         
-        <mark name="bracket" method="pen" place="intext"/> <!-- videantur Multae -->
+        <mark name="section_sign" method="pen" place="intext"/> <!-- videantur Multae -->
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
