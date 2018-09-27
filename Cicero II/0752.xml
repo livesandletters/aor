@@ -64,7 +64,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Deorum Species
+                        Deorum Species.
                     </marginalia_text>
                 </position>
             </language>
@@ -209,7 +209,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Q. Catulus
+                        Q. Catulus.
                     </marginalia_text>
                     <person name="Quintus Lutatius Catulus"/>
                 </position>
@@ -308,26 +308,26 @@
         <symbol name="Asterisk" place="right_margin"/>
         <symbol name="Asterisk" place="right_margin"/>
         
-        <mark name="tripunctus" method="pen" place="left_margin"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>  
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Venus Coa"/>
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Cur Deus creatur humana esse forma"/>  
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>  
         <mark name="tripunctus" method="pen" place="left_margin"/>  
         <mark name="tripunctus" method="pen" place="left_margin"/>  
         <mark name="tripunctus" method="pen" place="left_margin"/>  
-        <mark name="tripunctus" method="pen" place="tail"/>  
+        <mark name="tripunctus" method="pen" place="tail" language="LA" text="Lume[n]"/>  
         
-        <numeral place="left_margin">1</numeral>
-        <numeral place="left_margin">2</numeral>
-        <numeral place="left_margin">3</numeral>
+        <numeral place="left_margin" language="LA" text="Primum">1</numeral>
+        <numeral place="left_margin" language="LA" text="Deinde">2</numeral>
+        <numeral place="left_margin" language="LA" text="Tertiam">3</numeral>
         <numeral place="left_margin">21</numeral>
         
         <errata language="LA" copytext="omniu[m]" amendedtext="[deleted]"/>
         <errata language="LA" copytext="esse, rerum fac" amendedtext="esse rerum, fac"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Triton"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Na[e]uus"></drawing>
         
     </annotation>
 </transcription>
