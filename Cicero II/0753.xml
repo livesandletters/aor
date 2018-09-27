@@ -326,7 +326,20 @@
                 The movement of the sun.
             </translation>
         </marginalia>
-        
+
+        <marginalia hand="Italian" anchor_text="Quid solis, nu[m]quidnam aut lunae, aut quinque erra[n]tium syderum simile vidisti">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>
+                        &Moon; &Conjunction; ... cu[m] &Sun; <!-- FSF: not sure about the third symbol or word -->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Moon in conjunction with ... 
+            </translation>
+        </marginalia>
+
         <marginalia hand="Italian" anchor_text="sigilla numerantes">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -345,7 +358,7 @@
         <underline method="pen" type="straight" language="LA" text="vero ne fando quide[m] auditum"/>
         <underline method="pen" type="straight" language="LA" text="calceolis repandis"/>
         <underline method="pen" type="straight" language="LA" text="speculatorem, venator&eacute;mque naturae, ab animis consuetudine imbutis petere"/>
-        <underline method="pen" type="straight" language="LA" text="in quo stante atque vestito, leuiter aparet claudicatio non deformis"/>
+        <underline method="pen" type="straight" language="LA" text="in quo stante atque vestito, leuiter apparet claudicatio non deformis"/>
         <underline method="pen" type="straight" language="LA" text="Qu&agrave;m bellum erat Vellei confiteri potius nescire quod nescires, qu&agrave;m ista effutientem nauseare, atque ipsum sibi displicere?"/>
         <underline method="pen" type="straight" language="LA" text="Qu&icirc; potest esse in eiusmodi trunco sapie[n]tia"/>
         <underline method="pen" type="straight" language="LA" text="omnia sigilla numerantes"/>
@@ -357,10 +370,13 @@
         <underline method="pen" type="straight" language="LA" text="orbem tenentes, aliae propius &agrave; terris, aliae remotius, ab eisdem principiis, disparibus te[m]poribus eadem spatia co[n]ficiunt"/>
         
         <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Saturn" place="right_margin" language="LA" text="Quinque autem stellae"/>
+        <symbol name="Mars" place="right_margin" language="LA" text="Quinque autem stellae"/>
+        <symbol name="Jupiter" place="right_margin" language="LA" text="Quinque autem stellae"/>
+        <symbol name="Mercury" place="right_margin" language="LA" text="Quinque autem stellae"/>
+        <symbol name="Venus" place="right_margin" language="LA" text="Quinque autem stellae"/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="quotation_mark" method="pen" place="left_margin"/>
-        <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
         
         <numeral place="right_margin">2</numeral>
@@ -368,10 +384,10 @@
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Barbaria"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Sospita"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Iuno"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Solis motus"></drawing>
         
         <!-- FSF: new sign -->
    
