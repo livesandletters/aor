@@ -201,14 +201,16 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         
-        <mark name="tripunctus" method="pen" place="left_margin"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Aer"/>
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Terrae conflagratio"/>
         
         <numeral place="left_margin">21</numeral>
         
         <errata language="LA" copytext="eruit" amendedtext="[deleted]"/>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        
+        <!-- FSF: there are some atoms drawn in the left margin -->
 
     </annotation>
 </transcription>
