@@ -55,7 +55,7 @@
                 </position>
             </language>
             <translation>
-                Separation.
+                Separations.
             </translation>
         </marginalia>
         
@@ -86,7 +86,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Quod dij no[n] sunt ex Atomis
+                        Quod dij no[n] sunt ex Atomis.
                     </marginalia_text>
                 </position>
             </language>
@@ -99,7 +99,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Cuius est ortus, eiusde[m] estimferit[us]
+                        Cuius est ortus, eiusde[m] est interit[us]
                     </marginalia_text>
                 </position>
             </language>
@@ -112,7 +112,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Beatum &amp; a[e]ternu[m]
+                        Beatum &amp; a[e]ternu[m]:
                     </marginalia_text>
                 </position>
             </language>
@@ -139,7 +139,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Dialecticorum disiunctiones
+                        Dialecticorum disiunctiones.
                     </marginalia_text>
                 </position>
             </language>
@@ -152,7 +152,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Etiam aut non
+                        Etiam aut non.
                     </marginalia_text>
                 </position>
             </language>
@@ -221,7 +221,7 @@
             <language ident="EN">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Nausiphanes { as No[n]nius and other did by or
+                        Nausiphanes { as No[n]nius and other did by or <!-- FSF: this is possibly an abbreviation, but I am not sure what for -->
                     </marginalia_text>
                     <person name="Nausiphanes"/>
                     <person name="Pedro Nunes"/>
@@ -246,12 +246,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Demicritea
+                        Democritea
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                Demicritus's idea. <!-- FSF: not sure -->
+                Demicritus's writings. <!-- FSF: not sure -->
             </translation>
         </marginalia>
         
@@ -306,7 +306,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        quod quu[m] efficere vultis in dimeto corporitis
+                        quod quu[m] effucere vultis in dumeto correptitis
                     </marginalia_text>
                 </position>
             </language>
@@ -322,7 +322,7 @@
                         Salus fierit illud ip[su]m de q[uo] ambigebatur co[n]cedere, q[uam] tu[m] impede[n]tes resistere. 
                         Hoc dicere, turpius e[st] q[uam] illud q[uod] vult no[n] posse defendere
                         q[uo] quid dici p[otes]t obtusius 
-                        gramore[m] plaga[m] accipetat, vt veniore repelleret <!-- FSF: I am not sure at all here -->
+                        gramore[m] plaga[m] accipetat, vt veniore repelleret
                     </marginalia_text>
                 </position>
             </language>
@@ -389,12 +389,18 @@
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="tripunctus" method="pen" place="tail"/>
+        <mark name="tripunctus" method="pen" place="tail"/>
+        <mark name="plus_sign" method="pen" place="tail"/>
+        <mark name="plus_sign" method="pen" place="tail"/>
         
         <numeral place="right_margin">21</numeral>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Etiam aut non"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Sensus veri nuncij"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="tail" method="pen"></drawing>
         
         <!-- FSF: drawing of a box; and a new sign -->
 
