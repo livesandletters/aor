@@ -15,7 +15,7 @@
                 </position>
             </language>
             <translation>
-                Place makes much to the ingenuity.
+                Place adds much to the ingenuity.
             </translation>
         </marginalia>
         
@@ -63,7 +63,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Esse Deos
+                        Esse Deos.
                     </marginalia_text>
                 </position>
             </language>
@@ -277,12 +277,16 @@
                     <marginalia_text>
                         Sic ex parvis magna colligere datur. Videm[us] propter co[e]li pleniore[m] natura[m] varias vrbes varia ingenia alere et educare, alia hebetiora alia acerruma: 
                         sic nos ad deu[m] relati cu[m] in terra[m] depressi sum[us], qua[m] crass[us] circumfundit aer deor[um] me[n]tes acuminre su peramanur <!-- FSF: not sure about the last three words -->
+                        Socrates apud Xenophontem
                     </marginalia_text>
+                    <person name="Socrates"/>
+                    <person name="Xenophon"/>
                 </position>
             </language>
             <translation>
                 Thus a great thing is given to collect from the small things. We see that because of the more satisfied nature of the sky many cities cherish and educate their various characters, some more blunt, others sharpest. 
                 Thus we are related to god because we are suppressed on the ground, like 
+                Socrates according to Xenophon
             </translation>
         </marginalia>
         
@@ -400,7 +404,7 @@
         <underline method="pen" type="straight" language="LA" text="non esse ea fortuita"/>
         <underline method="pen" type="straight" language="LA" text="magis in tantis motionibus, tant&iacute;sque vicissitudinibus, tam multarum rerum atque tantarum ordinibus, in quibus"/>
         <underline method="pen" type="straight" language="LA" text="immensa &amp; infinita vetustas mentita sit, statuat necesse est ab aliqua mente tantos naturae"/>
-        <underline method="pen" type="straight" language="LA" text="natura quod hominis mens, quod vis, quod potestas humana efficere non possit"/>
+        <underline method="pen" type="straight" language="LA" text="natura quod hominis mens, quod ratio, quod vis, quod potestas humana efficere non possit"/>
         <underline method="pen" type="straight" language="LA" text="ordo sempiternus, ab homine confici non"/>
         <underline method="pen" type="straight" language="LA" text="mundo melius esse qu&agrave;m se putet, desipientis"/>
         <underline method="pen" type="straight" language="LA" text="Tantum vero ornatum mundi, tantam varietatem pulchritudin&eacute;mque rerum coelestium, 
@@ -423,24 +427,23 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="right_margin"/>
+        <mark name="tripunctus" method="pen" place="right_margin" language="LA" text="Comparatio"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="right_margin"/>
+        <mark name="tripunctus" method="pen" place="right_margin" language="LA" text="Prudentia"/>
         
-        <numeral place="right_margin">1</numeral>
-        <numeral place="right_margin">2</numeral>
-        <numeral place="right_margin">3</numeral>
-        <numeral place="right_margin">4</numeral>
+        <numeral place="right_margin" language="LA" text="Primam">1</numeral>
+        <numeral place="right_margin" language="LA" text="Alteram">2</numeral>
+        <numeral place="right_margin" language="LA" text="Tertiam">3</numeral>
+        <numeral place="right_margin" language="LA" text="Quartam">4</numeral>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Similitudo"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Chrysippus quo m[od]o deum  esse probet"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Res Co[e]lestes"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Ratio"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Arrogantia"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Terra"></drawing>
         
         <!-- FSF: unknown symbol -->
  
