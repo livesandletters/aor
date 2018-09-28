@@ -62,7 +62,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Duo Diuinandi genera
+                        Duo Diuinandi genera.
                     </marginalia_text>
                 </position>
             </language>
@@ -75,7 +75,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Duplex Vaticinandi r[ati]o
+                        Duplex Vaticinandi r[ati]o.
                     </marginalia_text>
                 </position>
             </language>
@@ -127,7 +127,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Ventoru[m] signa
+                        Ventoru[m] signa.
                     </marginalia_text>
                 </position>
             </language>
@@ -180,7 +180,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Acredula
+                        Acredula.
                     </marginalia_text>
                 </position>
             </language>
@@ -193,7 +193,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Cornix
+                        Cornix.
                     </marginalia_text>
                 </position>
             </language>
@@ -256,15 +256,14 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
-        <symbol name="Jupiter" place="left_margin"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
-        <mark name="tripunctus" method="pen" place="left_margin"/>
+        <mark name="tripunctus" method="pen" place="left_margin" language="LA" text="Ranuuculi"/>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="obseruatio"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Medicina"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="vtilitas"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Signa eme[n]tienta"></drawing>
         
         <!-- FSF: unknown symbol in the left margin --> 
         
