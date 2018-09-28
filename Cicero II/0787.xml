@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        reciprocare
+                        reciprocare.
                     </marginalia_text>
                 </position>
             </language>
@@ -23,7 +23,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        formica[e] mens, r[ati]o, memoria
+                        formica[e] mens, r[ati]o, memoria.
                     </marginalia_text>
                 </position>
             </language>
@@ -49,7 +49,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Sine deo nihil factum
+                        Sine deo nihil factum.
                     </marginalia_text>
                 </position>
             </language>
@@ -62,7 +62,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        fidicines, tibicines ex mu[n]do
+                        fidicines, tibicines ex mu[n]do.
                     </marginalia_text>
                 </position>
             </language>
@@ -181,7 +181,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Canicula
+                        Canicula.
                     </marginalia_text>
                 </position>
             </language>
@@ -209,7 +209,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Pythagoras
+                        Pythagoras.
                     </marginalia_text>
                     <person name="Pythagoras"/>
                 </position>
@@ -265,7 +265,7 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Asterisk" place="right_margin"/>
+        <symbol name="Asterisk" place="right_margin" language="LA" text="Carricula"/>
         <symbol name="Jupiter" place="right_margin"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
@@ -278,10 +278,10 @@
         <numeral place="right_margin">12</numeral>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Euripus"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Ratio reddenda"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Chrysippus"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Natura"></drawing>
         
         <!-- FSF: unknown symbol -->
         
