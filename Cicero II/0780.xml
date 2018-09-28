@@ -49,7 +49,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        ossa
+                        ossa.
                     </marginalia_text>
                 </position>
             </language>
@@ -62,7 +62,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        nerui
+                        nerui.
                     </marginalia_text>
                 </position>
             </language>
@@ -88,7 +88,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Sensus
+                        Sensus.
                     </marginalia_text>
                 </position>
             </language>
@@ -114,7 +114,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Aures
+                        Aures.
                     </marginalia_text>
                 </position>
             </language>
@@ -127,7 +127,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Nares
+                        Nares.
                     </marginalia_text>
                 </position>
             </language>
@@ -140,7 +140,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Gustatus
+                        Gustatus.
                     </marginalia_text>
                 </position>
             </language>
@@ -218,7 +218,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Gen[a]e
+                        Gen[a]e.
                     </marginalia_text>
                 </position>
             </language>
@@ -231,7 +231,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Nasus
+                        Nasus.
                     </marginalia_text>
                 </position>
             </language>
@@ -244,7 +244,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Auris
+                        Auris.
                     </marginalia_text>
                 </position>
             </language>
@@ -257,7 +257,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Testudo auriu[m]
+                        Testudo auriu[m].
                     </marginalia_text>
                 </position>
             </language>
@@ -270,7 +270,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Nares
+                        Nares.
                     </marginalia_text>
                 </position>
             </language>
@@ -283,7 +283,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Gustatus
+                        Gustatus.
                     </marginalia_text>
                 </position>
             </language>
@@ -309,7 +309,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        omnis sensus ho[m]i[nu]m multo antecellit sensibus belluar[um]
+                        omnis sensus ho[m]i[nu]m multo antecellit sensibus belluar[um].
                     </marginalia_text>
                 </position>
             </language>
@@ -348,14 +348,16 @@
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="circumflex" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
+        <mark name="tripunctus" method="pen" place="tail"/>
         
         <numeral place="left_margin">12</numeral>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="oculi"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="visus"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Nasus"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Auris"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Oculorum iudicium"></drawing>
         
         <!-- FSF: unknown symbol -->
         
