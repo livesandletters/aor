@@ -49,7 +49,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        stirpes
+                        stirpes.
                     </marginalia_text>
                 </position>
             </language>
@@ -62,7 +62,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        vites
+                        vites.
                     </marginalia_text>
                 </position>
             </language>
@@ -75,7 +75,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Animantes
+                        Animantes.
                     </marginalia_text>
                 </position>
             </language>
@@ -88,7 +88,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Pastus
+                        Pastus.
                     </marginalia_text>
                 </position>
             </language>
@@ -101,7 +101,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Admirabilis membrorum fabrica
+                        Admirabilis membrorum fabrica.
                     </marginalia_text>
                 </position>
             </language>
@@ -114,7 +114,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Sensus. Appetitus
+                        Sensus. Appetitus.
                     </marginalia_text>
                 </position>
             </language>
@@ -128,7 +128,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        varia pascendi r[ati]o
+                        varia pascendi r[ati]o.
                     </marginalia_text>
                 </position>
             </language>
@@ -141,7 +141,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Elephantus
+                        Elephantus.
                     </marginalia_text>
                 </position>
             </language>
@@ -193,7 +193,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Dissimillimis bestiolis co[mmun]iter cibus qua[e]ritur
+                        Dissimillimis bestiolis co[mmun]iter cibus qua[e]ritur.
                     </marginalia_text>
                 </position>
             </language>
@@ -206,7 +206,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Aquatiles bestia[e]
+                        Aquatiles bestia[e].
                     </marginalia_text>
                 </position>
             </language>
@@ -232,7 +232,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Platalea
+                        Platalea.
                     </marginalia_text>
                 </position>
             </language>
@@ -271,7 +271,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Grues
+                        Grues.
                     </marginalia_text>
                 </position>
             </language>
@@ -284,7 +284,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        grauiditates gravidata
+                        grauiditates. gravidata.
                     </marginalia_text>
                 </position>
             </language>
@@ -362,7 +362,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        spinis hic suta[e]
+                        spinis hic suta[e].
                     </marginalia_text>
                 </position>
             </language>
@@ -388,7 +388,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Al&icirc;us generis
+                        Al&icirc;us generis.
                     </marginalia_text>
                 </position>
             </language>
@@ -401,7 +401,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        pra[e]volare revolare (in altera pagina)
+                        pra[e]volare. revolare (in altera pagina)
                     </marginalia_text>
                     <internal_ref>
                         <target ref="RCP10549-50v1:0778" text="in altera pagina"/>
@@ -411,6 +411,16 @@
             <translation>
                 To fly on, to fly back. (to the other page).
             </translation>
+        </marginalia>
+        
+        <marginalia hand="English_secretary" anchor_text="humilitas">
+            <language ident="EN">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>
+                        Lowness.
+                    </marginalia_text>
+                </position>
+            </language>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="ab e&oacute;que luna illuminata grauiditates &amp;"/>
@@ -458,9 +468,9 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="comma" method="pen" place="intext"/> <!-- mouet hu[n]c -->
-        <mark name="bracket" method="pen" place="intext"/> <!-- scio Age -->
+        <mark name="section_sign" method="pen" place="intext"/> <!-- scio Age -->
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Pinna"></drawing>
         
         <!-- FSF: I am not sure what the correction in the third line over the comma or at the end of mouet is; in the Loeb edition, it does read mouet, hunc -->
         
