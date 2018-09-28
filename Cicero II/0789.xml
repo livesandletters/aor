@@ -36,7 +36,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Ad que[m] dolor venit, ad eundem etia[m] interitu[m] venire necesse est
+                        Ad que[m] dolor venit, ad eundem etia[m] interitu[m] venire necesse est.
                     </marginalia_text>
                 </position>
             </language>
@@ -88,7 +88,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Iustitia. Tempera[n]tia
+                        Iustitia. Tempera[n]tia.
                     </marginalia_text>
                 </position>
             </language>
@@ -114,7 +114,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Simulachra gentiu[m]
+                        Simulachra gentiu[m].
                     </marginalia_text>
                 </position>
             </language>
@@ -140,7 +140,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Astroru[m] nomina
+                        Astroru[m] nomina.
                     </marginalia_text>
                 </position>
             </language>
@@ -168,7 +168,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Accius
+                        Accius.
                     </marginalia_text>
                     <person name="Lucius Accius"/>
                 </position>
@@ -182,7 +182,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Homerus
+                        Homerus.
                     </marginalia_text>
                     <person name="Homer"/>
                 </position>
@@ -223,7 +223,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        aureola orationcula
+                        aureola orationcula.
                     </marginalia_text>
                 </position>
             </language>
@@ -236,7 +236,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        capeduncul[a]e
+                        capeduncul[a]e.
                     </marginalia_text>
                 </position>
             </language>
@@ -275,13 +275,16 @@
         
         <symbol name="Jupiter" place="right_margin"/>
         
+        <mark name="tripunctus" method="pen" place="right_margin" language="LA" text="Prudentia"/>
+        <mark name="tripunctus" method="pen" place="right_margin" language="LA" text="fortitudo"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
+        <drawing type="florilegium" book_orientation="0" place="head" method="pen"></drawing>
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
         
-        <!-- FSF: unknown symbol in the left margin -->
+        <!-- FSF: unknown symbol in the right margin -->
         
     </annotation>
 </transcription>
