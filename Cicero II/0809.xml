@@ -12,6 +12,7 @@
                     <marginalia_text>
                         C. Marius
                     </marginalia_text>
+                    <person name="Gaius Marius"/>
                 </position>
             </language>
             <translation>
@@ -28,7 +29,7 @@
                 </position>
             </language>
             <translation>
-                
+                <!-- FSF: I don't understand the structure of this -->
             </translation>
         </marginalia>
         
@@ -78,10 +79,11 @@
                     <marginalia_text>
                         Concertatio[n]is studio modo Hoc m[od]o illud dixit Carneades
                     </marginalia_text>
+                    <person name="Carneades"/>
                 </position>
             </language>
             <translation>
-                
+                In his ardour for controversy Carneades saysnow this and now that.
             </translation>
         </marginalia>
         
@@ -143,7 +145,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Imagines mortuoru[m]
+                        Imagines mortuoru[m].
                     </marginalia_text>
                 </position>
             </language>
@@ -156,7 +158,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Mortientes diuinant
+                        Mortientes diuinant.
                     </marginalia_text>
                 </position>
             </language>
@@ -232,11 +234,11 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary" anchor_text="inflationem">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        inflatio
+                        .inflatio.
                     </marginalia_text>
                 </position>
             </language>
@@ -287,7 +289,7 @@
         <underline method="pen" type="straight" language="LA" text="prehendisse eum dextram tuam"/>
         <underline method="pen" type="straight" language="LA" text="ad quietem integri iremus"/>
         <underline method="pen" type="straight" language="LA" text="aut cum matre corpus miscere"/>
-        <underline method="pen" type="straight" language="LA" text="suturat&aacute;que bonarum cogitationum epulis"/>
+        <underline method="pen" type="straight" language="LA" text="saturat&aacute;que bonarum cogitationum epulis"/>
         <underline method="pen" type="straight" language="LA" text="praestingere aciem mentis solet, siue"/>
         <underline method="pen" type="straight" language="LA" text="abundat atque effluit"/>
         <underline method="pen" type="straight" language="LA" text="tranquilla atque veracia"/>
@@ -295,7 +297,10 @@
         <underline method="pen" type="straight" language="LA" text="Iubet igitur Plato sic ad somnum proficisci corporibus affectis"/>
         <underline method="pen" type="double" language="LA" text="vt nihil sit quod errorem animis, perturbation&eacute;mque"/>
         <underline method="pen" type="straight" language="LA" text="inflationem"/>
-        <underline method="pen" type="straight" language="LA" text="tranquillitati me[n]tis quaerenti vera contrariam. Quum ergo est somno seuocatus animus &agrave; societate &amp; &agrave; contagione corporis, tum meminit praeteritorum, praesentia cernit, futura praeuidet. Iacet enim corpus dormientis vt mortui, viget autem &amp; viuit animus. Quod multo magis faciet post mortem, quum omnino corpore excesserit. Itaque appropinquante morte: multo est diuinior. Nam &amp; id ipsum vide[n]t, qui sunt morbo grauit &amp; mprtifero affecti, instare mortem"/>
+        <underline method="pen" type="straight" language="LA" text="tranquillitati me[n]tis quaerenti vera contrariam. 
+            Quum ergo est somno seuocatus animus &agrave; societate &amp; &agrave; contagione corporis, tum meminit praeteritorum, praesentia cernit, futura praeuidet. 
+            Iacet enim corpus dormientis vt mortui, viget autem &amp; viuit animus. Quod multo magis faciet post mortem, quum omnino corpore excesserit. Itaque appropinquante morte: 
+            multo est diuinior. Nam &amp; id ipsum vide[n]t, qui sunt morbo grauit &amp; mortifero affecti, instare mortem"/>
         <underline method="pen" type="straight" language="LA" text="deoru[m] appulsu"/>
         <underline method="pen" type="straight" language="LA" text="aer sit immrtalium animorum"/>
         <underline method="pen" type="straight" language="LA" text="Sagire enim"/>
@@ -304,8 +309,8 @@
         <symbol name="Jupiter" place="right_margin"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="right_margin"/>
+        <mark name="tripunctus" method="pen" place="right_margin" language="LA" text="Dormiens"/>
+        <mark name="tripunctus" method="pen" place="right_margin" language="LA" text="Mors"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
@@ -321,8 +326,10 @@
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Mors"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Morientes diuinant."></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Sagire"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Pra[e]sagire"></drawing>
         
     </annotation>
 </transcription>
