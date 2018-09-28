@@ -23,7 +23,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Exempto vendito locato conducto
+                        Ex empto vendito locato conducto
                     </marginalia_text>
                 </position>
             </language>
@@ -36,7 +36,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Actio
+                        Actio.
                     </marginalia_text>
                 </position>
             </language>
@@ -89,7 +89,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        R[ati]o[n]e abutimur
+                        R[ati]o[n]e abutimur.
                     </marginalia_text>
                 </position>
             </language>
@@ -102,7 +102,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Pha[e]ton Theseus
+                        Pha[e]ton. Theseus.
                     </marginalia_text>
                     <person name="Phaethon"/>
                     <person name="Theseus"/>
@@ -117,7 +117,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Aristo Chius
+                        Aristo Chius.
                     </marginalia_text>
                     <person name="Aristo of Ceos"/>
                 </position>
@@ -144,12 +144,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        stultitia qua[n]tum malu[m]
+                        stultitia qua[n]tum malu[m].
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                How bad a folly is. <!-- FSF: not sure -->
+                How bad a folly is.
             </translation>
         </marginalia>
         
@@ -170,7 +170,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Quod dij nos no[n] curent
+                        Quod dij nos no[n] curent.
                     </marginalia_text>
                 </position>
             </language>
@@ -183,7 +183,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Boni male vexati
+                        Boni male vexati.
                     </marginalia_text>
                 </position>
             </language>
@@ -193,7 +193,7 @@
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="euerriculum"/>
-        <underline method="pen" type="straight" language="LA" text="aliud sit simulatum"/>
+        <underline method="pen" type="straight" language="LA" text="aliud sit simulatum, aliud actum"/>
         <underline method="pen" type="straight" language="LA" text="vtuntur, vt donu[m] hoc diuinum rationis &amp; consilii ad fraude[m] hominibus non ad bonitate[m] impartitum esse videatur"/>
         <underline method="pen" type="straight" language="LA" text="meracius sumpturum"/>
         <underline method="pen" type="straight" language="LA" text="Sed hic quidem locus concludi iam potest"/>
@@ -211,6 +211,11 @@
         
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
+        <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
@@ -223,9 +228,9 @@
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Dolus malus"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Mallitia"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="R[ati]o[n]e abutimur."></drawing>
         
     </annotation>
 </transcription>
