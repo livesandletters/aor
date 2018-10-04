@@ -8,7 +8,7 @@
         
         <marginalia hand="Italian" anchor_text="mollitia">
             <language ident="LA">
-                <position place="right_margin" book_orientation="0">
+                <position place="head" book_orientation="0">
                     <marginalia_text>
                         mollitia
                     </marginalia_text>
@@ -62,7 +62,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Homo o[mn]ia qua[e] in se cadere possunt subter se habeat
+                        Homo o[mn]ia qua[e] in se cadere possunt subter se habeat.
                     </marginalia_text>
                 </position>
             </language>
@@ -75,7 +75,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Philosophia[e] eximia &amp; excellens Laus
+                        Philosophia[e] eximia &amp; excellens Laus.
                     </marginalia_text>
                 </position>
             </language>
@@ -101,7 +101,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        Culpa vitiu[m] peccatu[m]
+                        Culpa vitiu[m] peccatu[m].
                     </marginalia_text>
                 </position>
             </language>
@@ -127,7 +127,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        paricidiose
+                        paricidiose.
                     </marginalia_text>
                 </position>
             </language>
@@ -182,7 +182,6 @@
         
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
@@ -191,6 +190,8 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="plus_sign" method="pen" place="tail"/>
         <mark name="plus_sign" method="pen" place="tail"/>
+        
+        <numeral place="right_margin">12</numeral>
       
     </annotation>
 </transcription>
