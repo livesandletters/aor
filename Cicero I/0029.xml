@@ -7,7 +7,7 @@
     <annotation> 
         
         <marginalia hand="Italian">
-            <language ident="EN">
+            <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
                         vadimoniu[m] differre 
@@ -390,6 +390,26 @@
             </translation>
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="ista videbimus">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        b
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Quintius">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>
+                        a
+                    </marginalia_text>
+                </position>
+            </language>
+        </marginalia>
+        
         <marginalia hand="Italian">
             <language ident="EN">
                 <position place="intext" book_orientation="0">
@@ -401,16 +421,13 @@
         </marginalia>
 
         <marginalia hand="Italian">
-            <language ident="LA">
+            <language ident="EN">
                 <position place="intext" book_orientation="0">
                     <marginalia_text>
                         he myght se a remedie or finde a meanes or waye 
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian">
@@ -564,9 +581,14 @@
         <symbol name="Bisected_circle" place="right_margin"/>
         <symbol name="Phi" place="right_margin"/>
         <symbol name="Bisected_circle" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
         <symbol name="Bisected_circle" place="right_margin"/>
         <symbol name="Bisected_circle" place="right_margin"/>
         <symbol name="Phi" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
         
         <mark name="arrow" method="pen" place="right_margin"/>
         
@@ -587,8 +609,6 @@
         <!-- FSF: in the seventh line there are a and b written over some words; I am not sure how to capture these; they almost function like a mark or so -->
         
         <!-- FSF: Greek in the marginalia -->
-        
-        <!-- FSF: there are also two new signs [unknown symbols] in the right margin -->
         
     </annotation>
 </transcription>
