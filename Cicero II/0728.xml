@@ -65,7 +65,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Virtus efficere p[otes]t vitam beata[m] non beatissima[m]
+                        Virtus efficere p[otes]t vitam beata[m] non beatissima[m].
                     </marginalia_text>
                 </position>
             </language>
@@ -91,7 +91,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Tria genera Malorum
+                        Tria genera Malorum.
                     </marginalia_text>
                 </position>
             </language>
@@ -104,7 +104,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Theophrastus
+                        Theophrastus.
                     </marginalia_text>
                     <person name="Theophrastus"/>
                 </position>
@@ -118,7 +118,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Tria bonoru[m] genera
+                        Tria bonoru[m] genera.
                     </marginalia_text>
                 </position>
             </language>
@@ -144,7 +144,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Vita[m] regit fortuna
+                        Vita[m] regit fortuna.
                     </marginalia_text>
                 </position>
             </language>
@@ -231,13 +231,15 @@
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="circumflex" method="pen" place="tail"/>
         <mark name="circumflex" method="pen" place="tail"/>
+        <mark name="tripunctus" method="pen" place="tail"/>
+        <mark name="circumflex" method="pen" place="right_margin"/>
         
         <numeral place="left_margin">2</numeral>
         <numeral place="left_margin">12</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Xerxes libido"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="Tria bonoru[m] genera"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="fortuna reru[m] Domina"></drawing>
       
     </annotation>
 </transcription>
