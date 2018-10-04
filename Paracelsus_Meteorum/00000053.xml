@@ -13,7 +13,7 @@
                     <marginalia_text>Chaos, Massa p[ri]m[a].</marginalia_text> <!--JG: probably 'prima', compara with annotation on 00000018.tif-->
                 </position>
             </language>
-            <translation>Chaos, primary mass.</translation>
+            <translation>Chaos, prime mass.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="zal">
@@ -25,6 +25,24 @@
             <translation>Numbers.</translation>
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="spen">
+            <language ident="EN">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>chip</marginalia_text> <!--JG: Unsure-->
+                </position>
+            </language>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="fr&uuml;ling">
+            <language ident="LA">
+                <position place="intext" book_orientation="0">
+                    <marginalia_text>ver</marginalia_text>
+                </position>
+            </language>
+            <translation>Spring.</translation>
+        </marginalia>
+        
+        
         <underline method="pen" type="straight" language="DE" text="au&sharp-S; einer Massa"/>
         <underline method="pen" type="straight" language="DE" text="vnd Materia"/>
         <underline method="pen" type="straight" language="DE" text="extrahiert"/>
@@ -33,9 +51,6 @@
         <underline method="pen" type="straight" language="DE" text="die zal"/>
         <underline method="pen" type="straight" language="DE" text="der fr&uuml;ling"/>
         <underline method="pen" type="straight" language="DE" text="kommen die farbe[n] alle herf&uuml;r"/>
-        
-        <errata language="DE" copytext="spen" amendedtext=""/> <!--JG: Unclear which word Dee tries to create--> <!--KS: Not sure; in both cases it looks less like an errata and more like a marginal note-->
-        <errata language="DE" copytext="fr&uuml;ling" amendedtext=""/> <!--JG: Unclear which word Dee tries to create--> <!-- FSF: I think it is ver (Latin for spring), which would make it not as much an errata, but a marginal note -->
         
     </annotation>
 </transcription>
