@@ -10,7 +10,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        expictus
+                        expictus.
                     </marginalia_text>
                 </position>
             </language>
@@ -23,7 +23,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Homerus
+                        Homerus.
                     </marginalia_text>
                     <person name="Homer"/>
                 </position>
@@ -37,7 +37,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Anaxagoras
+                        Anaxagoras.
                     </marginalia_text>
                     <person name="Anaxagoras"/>
                 </position>
@@ -51,7 +51,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Tiresias
+                        Tiresias.
                     </marginalia_text>
                     <person name="Tiresias"/>
                 </position>
@@ -65,7 +65,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Polyphemus
+                        Polyphemus.
                     </marginalia_text>
                     <person name="Polyphemus"/>
                 </position>
@@ -92,7 +92,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        In linguis surdi sumus
+                        In linguis surdi sumus.
                     </marginalia_text>
                 </position>
             </language>
@@ -131,7 +131,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Socrates Plato
+                        Socrates Plato.
                     </marginalia_text>
                     <person name="Socrates"/>
                     <person name="Plato"/>
@@ -160,7 +160,7 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        Stoici Peripatetici
+                        Stoici. Peripatetici.
                     </marginalia_text>
                 </position>
             </language>
@@ -239,11 +239,12 @@
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
+        <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="tail"/>
+        <mark name="tripunctus" method="pen" place="tail" language="LA" text="cuicuimodi"/>
         
         <numeral place="right_margin">12</numeral>
         
