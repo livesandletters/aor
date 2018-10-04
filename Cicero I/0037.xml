@@ -251,9 +251,6 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                
-            </translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="satellites">
@@ -275,7 +272,7 @@
         
         <symbol name="Bisected_circle" place="right_margin"/>
         <symbol name="Bisected_circle" place="right_margin"/>
-        <!-- FSF: unknown symbol II -->
+        <symbol name="Unidentified" place="right_margin"/>
         <symbol name="Asterisk" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
         <symbol name="Asterisk" place="intext"/>
@@ -289,10 +286,11 @@
         <mark name="tripunctus" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="intext"/>
         
+        <mark name="tripunctus_with_tail" method="pen" place="right_margin" language="LA"/>
+        
         <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="No[n] tu[n]c quemadmodu[m] putatis o[mn]ia su[n]t in eloquentia"/>
         
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
