@@ -23,7 +23,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        praedicabile[m] gloriandu[m] p[rae] se fere[n]du[m] gloriosum ] te[m]peratus vir
+                        praedicabile[m] gloriandu[m] p[rae] se fere[n]du[m] gloriosum. ] te[m]peratus vir.
                     </marginalia_text>
                 </position>
             </language>
@@ -36,7 +36,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Semper in Sapientis a[n]i[m]o placidissima Pax
+                        Semper in Sapientis a[n]i[m]o placidissima Pax.
                     </marginalia_text>
                 </position>
             </language>
@@ -103,7 +103,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Libra Critolai
+                        Libra Critolai.
                     </marginalia_text>
                 </position>
             </language>
@@ -116,7 +116,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Xenocrates
+                        Xenocrates.
                     </marginalia_text>
                     <person name="Xenocrates of Chalcedon"/>
                 </position>
@@ -143,7 +143,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Atrei Dictum
+                        Atrei Dictum.
                     </marginalia_text>
                     <person name="Atreus"/>
                 </position>
@@ -170,7 +170,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        C. La[e]lius
+                        C. La[e]lius.
                     </marginalia_text>
                     <person name="Gaius Laelius Sapiens"/>
                 </position>
@@ -184,7 +184,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Cinna
+                        Cinna.
                     </marginalia_text>
                     <person name="Lucius Cornelius Cinna"/>
                 </position>
@@ -198,7 +198,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Cn. Octauius
+                        Cn. Octauius.
                     </marginalia_text>
                     <person name="Gnaeus Octavius"/>
                 </position>
@@ -212,7 +212,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        P. Crassus
+                        P. Crassus.
                     </marginalia_text>
                     <person name="Publius Licinius Crassus"/>
                 </position>
@@ -226,7 +226,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        L. Ca[e]sar
+                        L. Ca[e]sar.
                     </marginalia_text>
                     <person name="Lucius Julius Caesar"/>
                 </position>
@@ -240,7 +240,7 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        M. Antonius
+                        M. Antonius.
                     </marginalia_text>
                     <person name="Mark Antony"/>
                 </position>
@@ -254,7 +254,7 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        proflue[n]tur
+                        proflue[n]tur.
                     </marginalia_text>
                 </position>
             </language>
@@ -282,6 +282,7 @@
         <symbol name="Trine" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Asterisk" place="right_margin"/>
         
         <mark name="circumflex" method="pen" place="head"/>
         <mark name="plus_sign" method="pen" place="head"/>
@@ -296,8 +297,11 @@
 
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="scientific_instrument" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        
+        <!-- FSF: scientific instrument more scales -->
         
     </annotation>
 </transcription>
