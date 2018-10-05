@@ -13,7 +13,7 @@
                     <marginalia_text>a[n]i[m]o { fracto demisso abiecto</marginalia_text>                
                 </position>
             </language>
-            <translation>With a broken spirit. With a downcast spirit. With an abject spirit</translation> <!-- NBW: Not sure how to render these phrase lists in general. In this case could be an abl. absolute vz. "broken spirited" --> <!--JG: Could be, but I would render them like you did, so why not leave it as it is--> <!-- NBW: No problem -->
+            <translation>With a broken spirit. With a downcast spirit. With an abject spirit</translation>   
         </marginalia>
   
         <marginalia hand="Italian">
@@ -180,7 +180,7 @@
         <underline method="pen" type="straight" language="LA" text="me n&eacute;ve in hoc reo, n&eacute;ve in aliis requiras"/>
         
         <symbol name="Jupiter" place="right_margin"/>      
-        <!-- NBW: Unknown Symbol -->      
+        <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
@@ -188,11 +188,11 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/> <!-- Should these be anchored to the note text when they follow a commonplace? --> <!--JG: I'd not do this - to me Dee's use of these drawings isn't clear-->
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Medici. Aliptae"/>  
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Apelles"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Mutatio consilii"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Senectus"/>
         
     </annotation>
 </transcription>
