@@ -116,7 +116,7 @@
         </marginalia>    
 
         <marginalia hand="Italian" anchor_text="Parthis">
-            <language ident="LA"> 
+            <language ident="EL"> 
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Greek</marginalia_text> <!-- NBW: Needs Greek -->
                 </position>
@@ -127,7 +127,7 @@
         <marginalia hand="Italian" anchor_text="Parthis">
             <language ident="LA"> 
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>bima . p[rae]u[n]itus</marginalia_text> <!--JG: I think there's a dot after bima. So these might be two separate words-->
+                    <marginalia_text>bima. p[rae]u[n]itus</marginalia_text>
                 </position>
             </language>
             <translation>Every two years. Combined.</translation> <!-- NBW: ? meaning uncertain-->      
@@ -159,22 +159,22 @@
         <underline method="pen" type="straight" language="LA" text="minime dubia, &amp; plane explorata"/>
 
 
-        <!-- NBW: unknown symbol -->
-        <!-- NBW: unknown symbol -->
-        <!-- NBW: unknown symbol -->
-        <symbol name="Jupiter" place="left_margin"></symbol> 
-        <symbol name="Jupiter" place="left_margin"></symbol>
-        <symbol name="Jupiter" place="left_margin"></symbol>
-        <!-- NBW: unknown symbol -->
-        <symbol name="Jupiter" place="left_margin"></symbol>
-        <symbol name="Jupiter" place="left_margin"></symbol>
-        <!-- NBW: unknown symbol -->
-        <symbol name="Jupiter" place="left_margin"></symbol>
-        
+        <symbol name="Unidentified" place="left_margin"/>
+        <symbol name="Unidentified" place="left_margin"/>
+        <symbol name="Unidentified" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/> 
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Unidentified" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Unidentified" place="left_margin"/>
+        <symbol name="Jupiter" place="left_margin"/>
         
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">72</numeral>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
+        
     </annotation>
 </transcription>
