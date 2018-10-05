@@ -278,20 +278,13 @@
         <underline method="pen" type="straight" language="LA" text="Heracliti memoria[m] implorans"/>
         <underline method="pen" type="straight" language="LA" text="illos libros dicere[n]t descripsisse"/>
 
-        <symbol name="Jupiter" place="tail"/>
         <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
-        
-        <symbol name="Bisected_circle" place="right_margin"/>    <!-- DO: Not sure if these should be tagged as bisected circles or not... --> <!--JG: Unknown symbol-->
-        <symbol name="Bisected_circle" place="right_margin"/> 
-        <symbol name="Bisected_circle" place="right_margin"/>
-
-        <symbol name="Bisected_circle" place="right_margin"/>
-        <symbol name="Bisected_circle" place="right_margin"/>
-        <symbol name="Bisected_circle" place="right_margin"/>
-        <symbol name="Bisected_circle" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
@@ -304,7 +297,12 @@
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="circumflex" method="pen" place="intext"/>
         
-        <!-- DO: Unknown mark/symbol which appears in right margin & tail, and another which appears in head & right margin -->
+        <mark name="pin" method="pen" place="head" language="LA" text="vt omnia qu[a]e p[rae]scripta [sunt - deleted] et quasi imp[er]ata sunt, defendam[us], nulla necessitate cogimur"/>
+        
+        <mark name="pin" method="pen" place="right_margin"/>
+        <mark name="pin" method="pen" place="right_margin"/>
+        
+        <mark name="pin" method="pen" place="tail" language="LA" text="si ventus esset"/>
         
         <numeral place="right_margin">12</numeral>
         
@@ -313,11 +311,6 @@
        
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> 
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> 
-        
-        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="vt omnia qu[a]e p[rae]scripta [sunt - deleted] et quasi imp[er]ata sunt, defendam[us], nulla necessitate cogimur"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="si ventus esset"/>
         
     </annotation>
 </transcription>
