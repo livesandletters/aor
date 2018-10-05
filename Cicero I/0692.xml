@@ -59,7 +59,7 @@
                     <marginalia_text>iudiciu[m] Xcasus</marginalia_text> 
                 </position>
             </language>
-            <translation>Judgment not chance</translation> <!-- NBW: Uncertain --> <!--JG: Could the 'X' stand for 10 here?--> <!-- NBW - Doesn't look like it, but it might be an abbreviation for something like "vs." The text here is about how Curio's own choices brought him to the tribuneship, and thus the political situation-->
+            <translation>Judgment vs. chance</translation> <!-- NBW: Uncertain --> <!--JG: Could the 'X' stand for 10 here?--> <!-- NBW - Doesn't look like it, but it might be an abbreviation for something like "vs." The text here is about how Curio's own choices brought him to the tribuneship, and thus the political situation-->
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="quid vanitatis in vita">
@@ -138,18 +138,22 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/> <!-- NBW: w/flourish -->
         
+        <mark name="pin" method="pen" place="head" language="LA" text="suffragatio"/>
+        
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <mark name="apostrophe" method="pen" place="left_margin"/> <!-- NBW: Possibly a drawing along similar lines to the florilegium  - linking the text "nostram suffragationem" to the other note at head-->
+        <mark name="pin" method="pen" place="left_margin"/> 
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        <!-- NBW: Unknown mark linking the text "vnis literis" to the marginal note at the tail -->
+        <mark name="Ichthys" method="pen" place="left_margin"/>
+        
+        <mark name="Ichthys" method="pen" place="tail" language="LA" text="vnis literis"/>
         
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">8</numeral>
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="venti"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
     
     </annotation>
