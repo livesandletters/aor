@@ -66,7 +66,10 @@
         
         <mark name="plus_sign" method="pen" place="left_margin"/>
         
-        <!-- DO: Also unknown mark x3 -->
+        <mark name="pin" method="pen" place="left_margin" language="LA" text="redintegrari memoria[m]"/>
+        <mark name="pin" method="pen" place="left_margin"/>
+        
+        <mark name="pin" method="pen" place="tail" language="LA" text="diffuse disperse"/>
         
         <numeral place="left_margin">1</numeral>
         <numeral place="left_margin">2</numeral>
@@ -74,10 +77,6 @@
         <numeral place="left_margin">.1.</numeral>
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/> <!--above the numbers in the left margin-->
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen" anchor_text="redintegrari memoria[m]"/>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
-        
-        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="diffuse disperse"/>
         
     </annotation>
 </transcription>
