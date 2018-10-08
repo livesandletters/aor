@@ -255,20 +255,26 @@
         
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Unidentified" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         
-        <mark name="tripunctus" method="pen" place="head"/>
-        <mark name="circumflex" method="pen" place="head"/>
-        <mark name="circumflex" method="pen" place="head"/>
+        <mark name="tripunctus" method="pen" place="head" language="LA" text="nimiu[m] s[a]epe"/>
+        <mark name="guillemet" method="pen" place="head" language="LA" text="selectio"/>
+        <mark name="guillemet" method="pen" place="head" language="LA" text="parc&egrave; restrict&egrave;"/>
+        <mark name="plus_sign" method="pen" place="head" language="LA" text="belle[m] gerere co[n]tendere disserere"/>
         <mark name="tripunctus" method="pen" place="left_margin"/>
         <mark name="tripunctus" method="pen" place="tail"/>
-        <mark name="plus_sign" method="pen" place="head"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
-        <mark name="circumflex" method="pen" place="left_margin"/>
-        <mark name="circumflex" method="pen" place="left_margin"/>
-        <mark name="circumflex" method="pen" place="left_margin"/>
+        <mark name="guillemet" method="pen" place="left_margin"/>
+        <mark name="guillemet" method="pen" place="left_margin"/>
+        <mark name="guillemet" method="pen" place="left_margin"/>
+        <mark name="tripunctus_with_tail" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <mark name="guillemet" method="pen" place="tail" language="LA" text="defensor sente[n]ti[a]e"/>
+        <mark name="guillemet" method="pen" place="tail" language="LA" text="co[n]iunctus est &egrave; duplici genere voluptatis"/>
+        <mark name="tripunctus_with_tail" method="pen" place="tail" language="LA" text="suggerere"/>
         
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">12</numeral>
@@ -278,7 +284,6 @@
         
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="cessando siue gaudendo vt Aristippus, siue non dolendo vt hic, sed agendo aliquid"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
