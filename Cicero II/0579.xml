@@ -197,9 +197,11 @@
         <symbol name="Jupiter" place="right_margin"/>  <!-- DO: Possibly a different symbol -->
 
         <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
-        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         
@@ -208,17 +210,16 @@
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="X_sign" method="pen" place="left_margin"/>
         <mark name="plus_sign" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="tail"/>
+        <mark name="plus_sign" method="pen" place="tail" language="LA" text="directius gubernare"/>
+        
+        <mark name="pin" method="pen" place="right_margin"/>
+        <mark name="pin" method="pen" place="tail" language="LA" text="vt prepostere tecu[m] agam"/>
 
         <numeral place="right_margin">12.</numeral>
                   
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="Nec tame[n] ego is sum qui nihil vnquam falsi approbem, qui nunquam assentiar, qui nihil opiner. Sed"/>
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="sapientis munus"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
-        <drawing type="florilegium" book_orientation="0" place="tail" method="pen" anchor_text="agam"/>
 
-        <!-- DO: Unknown symbol in right margin -->    
-        
     </annotation>
 </transcription>
