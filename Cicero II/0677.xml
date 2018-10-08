@@ -350,6 +350,8 @@
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Sun" place="right_margin" language="LA" text="solem"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
         
         <mark name="tripunctus" method="pen" place="intext" language="LA" text="educi"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
@@ -372,7 +374,7 @@
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="quotation_mark" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
-        <mark name="plus_sign" method="pen" place="tail"/>
+        <mark name="plus_sign" method="pen" place="tail" language="LA" text="tanq[uam] ratis in mari imme[n]so n[ost]ra vehitur or[ati]o"/>
         
         <errata language="LA" copytext="liberet" amendedtext="lib&ecirc;ret"/>
         <errata language="LA" copytext="retractabis" amendedtext="retardabis"/>
@@ -380,8 +382,6 @@
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="volat aetas"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
-        
-        <!-- FSF: unknown symbol -->
         
     </annotation>
 </transcription>

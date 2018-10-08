@@ -351,10 +351,11 @@
         <underline method="pen" type="straight" language="LA" text="Vtru[m] autem sit melius, dii immortales sciunt, homne[m] quidem scire arbitror nemine[m]"/>
         <underline method="pen" type="straight" language="LA" text="paulo hunc animu[m]"/>
         
-        <symbol name="Jupiter" place="left_margin"/>
-        <symbol name="Jupiter" place="left_margin"/>
-        <symbol name="Jupiter" place="left_margin"/>
-        <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Jupiter" place="right_margin"/>
        
        <mark name="circumflex" method="pen" place="head"/>
         <mark name="circumflex" method="pen" place="left_margin"/>
@@ -364,7 +365,7 @@
         <mark name="vertical_bar" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="tail"/>
+        <mark name="tripunctus" method="pen" place="tail" language="LA" text="haud paulo malim"/>
         
         <numeral place="right_margin">12</numeral>
         
@@ -373,8 +374,6 @@
         <drawing type="manicule" book_orientation="0" place="left_margin" method="pen" anchor_text="nunc quidem cogitationibus molestissimis effoeminamur: 
             vt si ante mors aduentet, qu&agrave;m Chaldaeorum promissa consequuti"/>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Peregrinatio"/>
-        
-        <!-- FSF: unknown symbol -->
         
     </annotation>
 </transcription>
