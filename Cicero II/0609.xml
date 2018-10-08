@@ -218,21 +218,19 @@
         <symbol name="Asterisk" place="left_margin"/>  <!-- DO: Not sure if these are printed (like printed asterisk on file 0637) -->
         <symbol name="Asterisk" place="left_margin"/>
         
-        <mark name="circumflex" method="pen" place="head"/>
-        <mark name="tripunctus" method="pen" place="head"/>
-        <mark name="circumflex" method="pen" place="right_margin"/>
+        <mark name="tripunctus" method="pen" place="head" language="LA" text="edere de patella"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
-        <mark name="tripunctus" method="pen" place="right_margin"/>
+        <mark name="X_sign" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="intext" language="LA" text="ineleganter"/>
-        <mark name="tripunctus" method="pen" place="tail"/>
+        <mark name="tripunctus" method="pen" place="tail" language="LA" text="intelega[n]ter"/>
         <mark name="quotation_mark" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin" language="LA" text="se rursus ingurgitent, qui solem, vt aiunt, neque occidentem vnquam viderint, nec orientem, qui consumptis patrimoniis egeant. 
             Nemo nostru[m] istius generis asotos iucunde putat viuere, mundos, elegantes, optimis cocis, pistoribus, piscatu, aucupio, venatione, his omnibus exquisitis vita[n]tis cruditate[m], 
             quibus vinu[m] diffusum &egrave; pleno sit hirsiphon, vt ait Lucilius, cui nihil dum sit, ius &amp; sarculos abstulerit, adhibe[n]tis ludos, &amp; quae sequuntur illa, 
             quibus detractis clamat Epicurus se nescire quid sit bonu[m]. Adsint etia[m] formosi pueri, qui ministrent, resplendeat iis vestis, argentu[m], odrilitiu[m] locus ipse, aedificiu[m]"/>
-        <mark name="X_sign" method="pen" place="right_margin"/>
-        
-        <!-- DO: And unknown mark in head & right margin -->
+        <mark name="X_sign" method="pen" place="tail"/>
+        <mark name="lightening_bolt" method="pen" place="head" language="LA" text="odrilitiu[m]"/>
+        <mark name="lightening_bolt" method="pen" place="right_margin"/>
         
         <numeral place="right_margin">12</numeral>
 
