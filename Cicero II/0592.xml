@@ -251,12 +251,14 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="left_margin"/>
+        <symbol name="Unidentified" place="left_margin"/>
         
-        <mark name="plus_sign" method="pen" place="head"/>
+        <mark name="duopunctus_with_antenna" method="pen" place="head"/>
+        <mark name="plus_sign" method="pen" place="head" language="LA" text="bono modo"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="vertical_bar" method="pen" place="left_margin"/>
-        
-        <!-- DO: Unknown mark in head & left margin, and another in left margin & tail (similar to a 3) -->
+        <mark name="lightening_bolt" method="pen" place="left_margin"/>
+        <mark name="lightening_bolt" method="pen" place="tail" language="LA" text="possu[m] esse medius"/>
         
         <numeral place="left_margin">12</numeral>
         <numeral place="left_margin">3</numeral>
