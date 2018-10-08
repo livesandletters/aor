@@ -232,16 +232,19 @@
         
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="tripunctus" method="pen" place="right_margin"/>
         <mark name="vertical_bar" method="pen" place="right_margin"/>
-        <mark name="circumflex" method="pen" place="right_margin"/>
-        <mark name="circumflex" method="pen" place="tail"/>
+        <mark name="guillemet" method="pen" place="right_margin"/>
+        <mark name="guillemet" method="pen" place="tail" language="LA" text="sunt magni cuiusda[m] et alti vicit"/>
         
         <numeral place="right_margin">12</numeral>
         
@@ -249,7 +252,5 @@
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Beatitudo"></drawing>
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Malorum Turba"></drawing>
         
-        <!-- FSF: unknown symbol -->
-       
     </annotation>
 </transcription>

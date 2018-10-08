@@ -284,8 +284,9 @@
         <symbol name="Jupiter" place="left_margin"/>
         <symbol name="Asterisk" place="right_margin"/>
         
-        <mark name="circumflex" method="pen" place="head"/>
-        <mark name="plus_sign" method="pen" place="head"/>
+        <mark name="guillemet" method="pen" place="head" text="praedicabile[m] gloriandu[m] p[rae] se fere[n]du[m] gloriosum. ] te[m]peratus vir." language="LA"/>
+        <mark name="plus_sign" method="pen" place="head" language="LA" text="prope[n]dere"/>
+        <mark name="guillemet" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         
         <numeral place="left_margin">12</numeral>
@@ -297,11 +298,11 @@
 
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
-        <drawing type="scientific_instrument" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="scientific_instrument" book_orientation="0" place="left_margin" method="pen"></drawing> 
+        <!-- FSF: scientific instrument more scales -->
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
         <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
         
-        <!-- FSF: scientific instrument more scales -->
         
     </annotation>
 </transcription>
