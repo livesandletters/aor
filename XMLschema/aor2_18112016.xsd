@@ -519,6 +519,7 @@
       <xs:simpleType>
         <xs:restriction base="xs:token">
           <xs:enumeration value="arrow"/>
+          <xs:enumeration value="atoms"/>
           <xs:enumeration value="cone"/>
           <xs:enumeration value="pyramid"/>
           <xs:enumeration value="egg"/>
