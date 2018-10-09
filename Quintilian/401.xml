@@ -6,8 +6,6 @@
     <page filename="401.tif" reader="John Dee" pagination="395"/> 
     <annotation>
         
-    <!-- M.B. Greek marginalia to be captued later. -->
-    <!-- M.B. '9 Marking in the head needs to capture. -->    
           
         <marginalia hand="Italian" anchor_text="Obstat enim, quicquid no[n] adiuuat">
             <language ident="LA">
@@ -79,6 +77,10 @@
         <underline method="pen" type="straight" language="LA" text="atque ut in structuris lapidum impolitiorum, loco"/>
         <underline method="pen" type="straight" language="LA" text="quae coagmentata se magis"/>
         <underline method="pen" type="straight" language="EL" text="κατέβην χθὲς εἰς πειραιᾶ "/>
+        
+        <mark name="pin" method="pen" place="head" language="LA" text="Obstat enim quicquid no[n] adiuvat"/>
+        
+        <mark name="pin" method="pen" place="right_margin"/>
         
     </annotation>
 </transcription>
