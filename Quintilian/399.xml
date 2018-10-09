@@ -6,8 +6,7 @@
     <page filename="399.tif" reader="John Dee" pagination="393" signature="B 5"/> 
     <annotation>
         
-        <!-- M.B. Unknown drawing to be captured possibly related to text ' ‘Quod fretum, quem euripum tot motus, tantas, tam varias habere creditis agitationes commutationes fluctus,33 quantas perturbationes et quantos aestus habet ratio comitiorum'-->
-        
+            
         <marginalia hand="Italian" anchor_text="Bucolicis">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
@@ -81,6 +80,8 @@
         <underline method="pen" type="straight" language="LA" text="inconsequentia rerum foedi&sharp-S;ima"/>
         
         <mark name="bracket" method="pen" place="right_margin"/>
+        
+        <drawing type="star" book_orientation="0" place="right_margin" method="pen"/> <!--JG: Unclear whether the drawing somehow symbolizes the printed text?!-->
         
     </annotation>
 </transcription>
