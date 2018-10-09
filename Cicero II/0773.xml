@@ -445,8 +445,11 @@
         <symbol name="Asterisk" place="left_margin"/>
         <symbol name="Asterisk" place="left_margin"/>
         <symbol name="Asterisk" place="left_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
         <symbol name="Jupiter" place="right_margin"/>
+        <symbol name="Unidentified" place="right_margin"/>
         
+        <mark name="plus_sign" method="pen" place="head"  language="LA" text="machinatio"/>
         <mark name="plus_sign" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
@@ -459,11 +462,11 @@
         <errata language="LA" copytext="sublime" amendedtext="in"/>
         <errata language="LA" copytext="eam" amendedtext="etia[m]"/> <!-- FSF: not sure -->
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Terra"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Bestia[e]"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Aquatilia"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="Aer"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" anchor_text="&AElig;ther"/>
         
     </annotation>
 </transcription>
