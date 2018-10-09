@@ -116,15 +116,19 @@
             <translation>When [the parts] of justice.</translation>
         </marginalia>
         
-        
         <underline method="pen" type="straight" language="LA" text="quibus causis rei natura faciet deliberatione[m], omnis ratio ad ipsam rem acco[m]modabitur. In quibus extranea causa co[n]sciet deliberatione[m], in his ea ipsa erit causa adauge[n]da"/>
         <underline method="pen" type="straight" language="LA" text="me[n]titiones, &amp;"/>
         <underline method="pen" type="straight" language="LA" text="disciplinabilem"/>
         
+        <mark name="tripunctus_with_tail" method="pen" place="head" language="LA" text="vitatio"/>
+        <mark name="duopunctus_with_antenna" method="pen" place="head" language="LA" text="me[n]titio"/>
+        <mark name="pin" method="pen" place="head" language="LA" text="disciplinabilis"/>
+        
         <mark name="bracket" method="pen" place="intext"/>  <!-- poterimus. Iustitiae -->
         
-        
-        <!-- DO: There are also two other different marks in the head and the right margin --> <!--JG: Unkown symbol (in head and just above section 94). Function as florilegium-->
+        <mark name="tripunctus_with_tail" method="pen" place="right_margin" language="IW" text="Tut[a]e vtilitatis diuisio"/>
+        <mark name="duopunctus_with_antenna" method="pen" place="right_margin"/>
+        <mark name="pin" method="pen" place="right_margin"/>
         
         <numeral place="right_margin">1</numeral>
         <numeral place="right_margin">2</numeral>
@@ -135,9 +139,6 @@
         <numeral place="right_margin">1</numeral>
         <numeral place="right_margin">2.</numeral>
         <numeral place="right_margin">3</numeral>
-        
-        <drawing type="florilegium" book_orientation="0" place="head" method="pen" anchor_text="vitatio"/>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
