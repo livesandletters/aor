@@ -6,8 +6,6 @@
     <page filename="350.tif" reader="John Dee" pagination="344" signature="[y 4[v]]"/> 
     <annotation>
         
-        <!-- M.B. Not sure how best to capture 'σ' like symbol in the head marginal note and top left hand margin. -->
-        
         <marginalia hand="Italian" anchor_text="numnqu&agrave;m esse legem legi co[n]trariam iure ipso">
             <language ident="LA">
                 <position place="head" book_orientation="0">
@@ -68,6 +66,8 @@
         <underline method="pen" type="straight" language="LA" text="stratus ab"/>
         <underline method="pen" type="straight" language="LA" text="alio casu poni"/>
         
+        <mark name="pin" method="pen" place="head" language="LA" text="Nunqua[m] est lex, legi co[n]traria iure ip[s]i"/>
+        <mark name="pin" method="pen" place="left_margin"/>
         <mark name="bracket" method="pen" place="left_margin"/>
         
         <numeral place="left_margin">.1.</numeral>
