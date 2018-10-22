@@ -171,10 +171,11 @@
                     <marginalia_text>
                         do[m]i[n]us geni. Do[m]i[n]us actus
                     </marginalia_text>
+                    <symbol_in_text name="Bisected_circle"/>
                 </position>
             </language>
             <translation>
-                The lord of the constellation is the lord over the deed.
+               The lord of the constellation is the lord over the deed.
             </translation>
         </marginalia>
         
@@ -217,21 +218,23 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary" id="UCLOgden:130:m0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
                         J D
-                        In Epha[e]stone Thebano, et simpliciter decem quosq[ue] proximos gradus, pro decano vno, assignat et alias decanis dat no[m]i[n]a qua[m] hic nobis a Firmico proponuntur. Libellus ille Ephestionis impressus est. in 4a cu[m] Iatromatica Hermetis gr[a]ece, et alijs
-                        <!-- M.B. I read [...] est, in 4a cu[m] Intro[mathe]matica Hermetis gr[a]ere], et alijs--> <!--JG: Should be 'gr[a]ece'-->
+                        In Epha[e]stone Thebano, et simpliciter decem quosq[ue] proximos gradus, pro decano vno, assignat et alias decanis dat no[m]i[n]a[m] qua[m] hic nobis a Firmico proponuntur. 
+                        Libellus ille Ephestionis impressus est. in 4a cu[m] Iatromatica Hermetis gr[a]ec&egrave;, et alijs
                     </marginalia_text>
                     <person name="John Dee"/>
                     <person name="Hephaestion of Thebes"/> 
-                    <!-- M.B. Perhaps 'Intromathematica. could be captured with book tag -->
+                    <person name="Julius Firmicus Maternus"/>
+                    <book title="Intromathematica"/>
                 </position>
             </language>
             <translation>
-                <!-- FSF: not sure about translation -->
+                John Dee. In Hephaestion of Thebes, he simply assigns ten and those nearest degrees for one decan, and elsewhere the gives the name to the decans which are proposed to us here by Firmicus [Maternus].
+                This book of Hephaestion of Thebes has been printed. In the fourth [edition?] with Hermes Trismegistus' 'Intromathematica' in Greek, and with other [texts].
             </translation>
         </marginalia>
         
@@ -309,10 +312,32 @@
         <errata language="LA" copytext="signia" amendedtext="signa"/>
         
         <drawing type="manicule" book_orientation="0" place="right_margin" method="pen"></drawing>
-        
-        <!-- FSF: in the right margin there is a circle with a cross inside; I am not sure how to capture that --> <!-- M.B. I thinks is a pars fortunae symbol. -->
-        <!-- FSF: Dee seems to have added to the table, by adding another column entitled Grad.: I am not sure how to capture this --> 
+         
         <!-- M.B. The Grad[us] column is the cumulative sum of each preceding degree of separation between the decanal positions in the zodiac. -->
+        
+        <table type="standard_table" place="intext">
+            <tr>
+                <th>Grad.</th>
+            </tr>
+            <tr>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>30</td>
+            </tr>
+        </table>
         
     </annotation>
 </transcription>
