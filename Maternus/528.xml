@@ -9,18 +9,12 @@
         <marginalia hand="Italian" other_reader="unknown modern hand" method="pencil">
             <language ident="EN">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>p 53 Biothanati notes and an ff</marginalia_text> <!--JG: Note sure what this refers to. Page 53 doesn't 'exist' in first book (55 - 54 - 55) and doesn't have annotation in second book-->
-                </position>
-            </language>
-        </marginalia>
-        
-        <marginalia hand="Italian" other_reader="unknown modern hand" method="pencil">
-            <language ident="EN">
-                <position place="full_page" book_orientation="0">
-                    <marginalia_text>alio eg 76 90</marginalia_text>
+                    <marginalia_text>p 53 Biothanati notes and an ff 
+                        alio eg 76 90</marginalia_text> <!--JG: Seems to be error by reader, should refer to p. 43-->
                     <internal_ref>
-                        <target ref="UCLOgden:099:m0001" text="34"/>
-                        <target ref="UCLOgden:059" text="35"/>
+                        <target ref="UCLOgden:066:m0001" text="53"/>
+                        <target ref="UCLOgden:099:m0001" text="76"/>
+                        <target ref="UCLOgden:113:m0001" text="90"/>
                     </internal_ref>
                 </position>
             </language>
