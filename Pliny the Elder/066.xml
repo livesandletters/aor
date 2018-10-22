@@ -32,248 +32,303 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>vnde hic siga </marginalia_text>   <!-- DO: I can't decipher the final three words --> <!-- FSF: I can read or guess: vnde hic signa alite... secundu[m] crea..e[n]te[m] -->
+                    <marginalia_text>vnde hic sig[n]a alite[r] secundu[m] crea..e[n]te[m]</marginalia_text>    <!--JG: Unsure-->
                 </position>
             </language>
+            <translation>Whence here another sign according to the [...].</translation>
         </marginalia>
         
         <mark name="box" method="pen" place="full_page"/>
         
-        <!-- DO: I don't know if this is the best way to capture this table: -->
+        <table type="standard_table" place="full_page">
+            <tr>
+                <th>&Mars;. D.</th>
+                <th>&Mercury;. D.</th>
+                <td>&Jupiter;</td>
+                <td>&North_Node;</td>   
+            </tr>    
+            <tr>
+                <td>Rube[us]</td>
+                <td>Albus</td>
+                <td>&North_Node;</td>  
+                <td>&South_Node;</td>   
+            </tr>    
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>1 &Gemini;</td>
+                <td>2 [deleted] &Venus;</td> 
+                <td>1 &Virgo;</td>
+                <td>1 &Saturn;</td>
+            </tr>
+            <tr>
+                <td>1 &Gemini;</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1 &Sagittarius;</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <translation>Red. White.</translation>
+        </table>
         
         <table type="standard_table" place="full_page">
             <tr>
-                <td>&Mars;. D.</td>
-                <td>Rube[us]</td>
-                <td>2</td>
-                <td>1 &Gemini;</td>
-                <td>2</td>
-                <td>2</td>
-            </tr>
-            
+                <th>&Sun;. D.</th>
+                <th>&Sun;. &Jupiter;</th> <!--JG: Unknown symbol that looks like a variant of the Jupiter symbol and occurs frequently in the Cicero volumes as well-->
+                <td>&Jupiter;.D.</td>
+                <td>&Venus; &Jupiter;</td>   
+            </tr>    
             <tr>
-                <td>&Mercury;. D.</td>
-                <td>Albus</td>
-                <td>2 [deleted]</td> <!-- FSF: maybe to be added that conjunction deleted? -->
-                <td>2</td>
-                <td>1</td>
-                <td>2</td>
-            </tr>
-            
-            <tr>  
-                <td>&Jupiter;</td>
-                <td>&North_Node;</td>         
-                <td>2</td>
-                <td>&Venus; 1. &Virgo;</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-            
-            <tr>
-                <td>&Mars;</td> 
-                <td>&South_Node;</td>        
-                <td>1 &Saturn;</td>
-                <td>1 &Sagittarius;</td>
-                <td>1</td>
-                <td>2</td>
-            </tr>
-            
-            <tr>
-                <td>&Sun;. D</td> 
-                <td>fortuna maior</td>
-                <td>2</td>
-                <td>2 &Aquarius;</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-            
-            <tr>
-                <td>&Sun; &Jupiter;.</td>  <!-- DO: Looks similar to Jupiter/Capricorn but different to other marks for these signs on this page --> <!-- FSF: no idea -->
-                <td>fort[una] minor.</td>
-                <td>1</td>
-                <td>1 .&Taurus;.</td>
-                <td>2</td>
-                <td>2</td>
-            </tr>
-            
-            <tr>
-                <td>&Jupiter; .D.</td>  
+                <td>fort[una] maior.</td> <!--JG: Geomantic figures: https://en.wikipedia.org/wiki/Geomantic_figures-->
+                <td>fort. minor</td>
                 <td>Aquisitio</td>
-                <td>2</td>
-                <td>1 .&Aries;.</td>
-                <td>2</td>
-                <td>1</td>   <!-- DO: Think this is either a 2 changed into a 1 or vice versa -->
-            </tr>
-            
-            <tr> 
-               <td>&Venus; &Jupiter;</td>    <!-- DO: Symbol -->
                 <td>amissio</td>
+            </tr>    
+            <tr>
+                <td>2</td>
                 <td>1</td>
-                <td>2 [&Libra; deleted] &Scorpio;</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2 &Aquarius;</td>
+                <td>1 &Taurus;</td>
+                <td>1 &Aries;</td>
+                <td>2 [&Libra; - deleted] &Scorpio;</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
                 <td>1</td>
                 <td>2</td>
             </tr>
-            
+            <translation>The greater fortune. The lesser fortune. Acquisition. Loss.</translation>
+        </table>
+        
+        <table type="standard_table" place="full_page">
             <tr>
-                <td>&Jupiter;. &Jupiter;.</td>  <!-- DO: Symbol -->
-                <td>la[e]titia</td>
-                <td>1</td>
-                <td>2 .&Taurus;.</td>
-                <td>2</td>
-                <td>2</td>
+                <th>&Jupiter; &Jupiter;</th> <!--JG: Unknown symbol that looks like a variant of the Jupiter symbol and occurs frequently in the Cicero volumes as well-->
+                <th>&Saturn; &Jupiter;</th> 
+                <td>&Mars; &Jupiter;</td>
+                <td>&Venus;.D</td>   
             </tr>
-            
             <tr>
-                <td>&Saturn;. &Jupiter;.</td>  <!-- DO: Symbol -->
+                <td>L[a]etitia</td> <!--JG: Geomantic figures: https://en.wikipedia.org/wiki/Geomantic_figures-->
                 <td>Tristitia</td>
+                <td>Puer</td>
+                <td>Puella</td>
+            </tr>
+            <tr>
+                <td>1</td>
                 <td>2</td>
-                <td>2 &Scorpio;.</td>
-                <td>2</td>
+                <td>1</td>
                 <td>1</td>
             </tr>
-            
             <tr>
-                <td>&Mars; &Jupiter;</td>  <!-- DO: Symbol -->
-                <td>Puer</td>
-                <td>1</td>
-                <td>1 [&Libra;. deleted]</td>
+                <td>1 &Taurus;</td>
+                <td>2 &Scorpio;</td>
+                <td>1 [&Libra; - deleted]</td>
+                <td>2 &Libra;</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
                 <td>2 &Aries;</td>
                 <td>1</td>
             </tr>
-            
             <tr>
-                <td>&Venus;. D</td>
-                <td>Puella</td>
+                <td>2</td>
                 <td>1</td>
-                <td>2 &Libra;</td>
                 <td>1</td>
                 <td>1</td>
             </tr>
-            
-            <tr>
-                <td>&Mercury;. &Jupiter;.</td>  <!-- DO: Symbol -->
-                <td></td>                   <!-- DO: Not sure what this word is -->
-                <td>2</td>
-                <td>1 .&Virgo;.</td>
-                <td>1</td>
-                <td>2</td>
-            </tr>
-            
-            <tr>
-                <td>D. D.</td>
-                <td>via</td>
-                <td>1</td>
-                <td>1 .&Leo;.</td>
-                <td>1</td>
-                <td>1</td>
-            </tr>
-            
-            <tr>
-                <td>D. &Jupiter;.</td>   <!-- DO: Symbol -->
-                <td>Popul[us]</td>
-                <td>2</td>
-                <td>2 .&Capricorn;.</td>
-                <td>2</td>
-                <td>2</td>
-            </tr>
-            
-            <tr>
-                <td>&Saturn;. D.</td>
-                <td>Carcer.</td>           <!-- DO: Not sure if this is right -->
-                <td>1</td>
-                <td>2 &Pisces;</td>
-                <td>2</td>
-                <td>1</td>
-            </tr>
-            
-            <tr>
-                <th>Ignis</th>              <!-- DO: I have captured this all as one table as it is all under the same heading... -->
-                <td>1</td>
-                <td>1 .&Leo;.</td>
-                <td>2</td>
-                <td>2</td>
-                <td>1</td>
-                <td>2</td>
-                <td>1 .&Virgo;.</td>
-                <td>1</td>
-                <td>2</td>
-                <td>2</td>
-                <td>1 .&Scorpio;.</td>
-                <td>2</td>
-                <td>2</td>
-                <td>1</td>
-                <td>1 &Aquarius;.</td>
-                <td>1</td>
-                <td>1</td>
-                <td>Merid[ies]</td>
-                <td>[oriens deleted]</td>
-            </tr>
-            
-            <tr>
-                <th>Aer</th>
-                <td>2</td>
-                <td>1 &Virgo;</td>
-                <td>1</td>
-                <td>2</td>
-                <td>1</td>
-                <td>1 .&Aries;.</td>
-                <td>2</td>
-                <td>1</td>
-                <td>1</td>
-                <td>2 &Sagittarius;</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2</td>
-                <td>1</td>
-                <td>2</td>
-                <td>1</td>
-                <td>oriens</td>
-                <td>&Pisces;</td>
-            </tr>
-            
-            <tr>
-                <td>Aqua</td>
-                <td>1</td>
-                <td>2 .&Libra;.</td>
-                <td>1</td>
-                <td>1</td>
-                <td>2</td>
-                <td>2 .&Taurus;.</td>
-                <td>2</td>
-                <td>2</td>
-                <td>1</td>
-                <td>1 &Cancer;</td>
-                <td>1</td>
-                <td>1</td>
-                <td>2</td>
-                <td>2 &Pisces;</td>
-                <td>1</td>
-                <td>1</td>
-                <td>septe[ntrio]</td>
-            </tr>
-            
-            <tr>
-                <th>Terra</th>       <!-- DO: Although it's actually at the bottom... -->
-                <td>2</td>
-                <td>1 .&Gemini;.</td>
-                <td>1</td>
-                <td>1</td>
-                <td>2</td>
-                <td>2 .&Aries;.</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>2 &Aquarius;.</td>
-                <td>2</td>
-                <td>1</td>
-                <td>2</td>
-                <td>2</td>
-                <td>2 &Capricorn;</td>
-                <td>1</td>
-                <td>occidens</td>
-            </tr>
-           <translation>Red. White. Better fortune. Worse fortune. Acquisition. Loss. Happiness. Sadness. Boy. Girl. [?] Way. People. Prison. Fire. The South. Air. The East. Water. The North. Earth. The West.</translation>        
+            <translation>Joy. Sadness. Boy. Girl.</translation>
         </table>
+            
+        <table type="standard_table" place="full_page">
+            <tr>
+                <th>&Mercury; &Jupiter;</th> <!--JG: Unknown symbol that looks like a variant of the Jupiter symbol and occurs frequently in the Cicero volumes as well-->
+                <th>&Moon;.D.</th> 
+                <td>&Moon; &Jupiter;</td>
+                <td>&Saturn;.D</td>   
+            </tr>
+            <tr>
+                <td>Co[n]iunctio</td> <!--JG: Geomantic figures: https://en.wikipedia.org/wiki/Geomantic_figures-->
+                <td>via</td>
+                <td>Popul[us]</td>
+                <td>Carcer</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1 &Virgo;</td>
+                <td>1 &North_Node;</td>
+                <td>1 &Capricorn;</td>
+                <td>2 &Pisces;</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <translation>Conjunction. The way. The people. The prison.</translation>
+        </table>     
+            
+        <table type="standard_table" place="full_page">
+            <tr>
+                <th>Ignis</th>   
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1 &North_Node;</td>
+                <td>1 &Virgo;</td>
+                <td>1 &Virgo;</td>
+                <td>2 &Aquarius; [oriens deleted]</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <text hand="English_secretary" language="LA">Merid[ies]</text>
+            <translation>Fire. The south.</translation>
+        </table> 
+        
+        <table type="standard_table" place="full_page">
+            <tr>
+                <th>Aer</th>   
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1 &Virgo;</td>
+                <td>1 &Aries;</td>
+                <td>2 &Sagittarius;</td>
+                <td>1 &Aquarius;</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <text hand="English_secretary" language="LA">oriens &Pisces;</text>
+            <symbol_in_text name="Pices"/>
+            <translation>Air. The east.</translation>
+        </table> 
+        
+        <table type="standard_table" place="full_page">
+            <tr>
+                <th>Aqua</th>   
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2 &Libra;</td>
+                <td>2 &Taurus;</td>
+                <td>1 &Cancer;</td>
+                <td>2 &Pisces;</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <text hand="English_secretary" language="LA">septe[ntrio]</text>
+            <translation>Water. The north.</translation>
+        </table> 
+            
+        <table type="standard_table" place="full_page">
+            <tr>
+                <th>Terra</th>   
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1 &Gemini;</td>
+                <td>2 &Aries;</td>
+                <td>2 &Aquarius;</td>
+                <td>2 &Capricorn;</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <text hand="English_secretary" language="LA">Occidens</text>
+            <translation>The west.</translation>
+        </table>     
         
     </annotation>
 </transcription>
