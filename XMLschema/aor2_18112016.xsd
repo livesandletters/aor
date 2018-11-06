@@ -574,11 +574,6 @@
       <xs:simpleType>
         <xs:restriction base="xs:token">
           <xs:enumeration value="arithmetic"/>
-          <xs:enumeration value="measurement"/>
-          <xs:enumeration value="logic"/>
-          <xs:enumeration value="algebra"/>
-          <xs:enumeration value="geometry"/>
-          <xs:enumeration value="calculus"/>
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
