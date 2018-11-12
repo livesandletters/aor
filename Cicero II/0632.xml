@@ -103,22 +103,33 @@
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                                         <!-- DO: Greek needed -->
+                        προηγμένον                  
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>What is preferred.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="">
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                                         <!-- DO: Greek needed -->
+                        ἀποπροηγμένον
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>What is dispreferred.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        προηγμένα <!--JG: plural of προηγμένον-->
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>Preferred things.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="producta">
@@ -147,11 +158,11 @@
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                                         <!-- DO: Greek needed -->
+                        ἀδιάφορον <!-- acc. of ἀδιάφορος-->
                     </marginalia_text>
                 </position>
             </language>
-            <translation></translation>
+            <translation>Indifferent.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="simile">
@@ -176,12 +187,12 @@
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                         <!-- DO: Greek needed -->
+                        τελικὰ. ποιητικὰ. 
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                The other goods  
+                Pertaining to the supreme end. Efficient. 
             </translation>
         </marginalia>
         
