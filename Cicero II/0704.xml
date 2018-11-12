@@ -76,12 +76,32 @@
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        ὕδραυλος
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Water pipe.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        αὐλῶν
+                    </marginalia_text>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        al[ias]
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Elswhere: pipe.
             </translation>
         </marginalia>
         
@@ -194,7 +214,7 @@
         
         <errata language="LA" copytext="hedychrum" amendedtext="Cedrum"/>
         
-        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
