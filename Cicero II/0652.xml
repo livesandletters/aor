@@ -97,10 +97,16 @@
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Democriti</marginalia_text>          <!-- Greek needed -->
+                    <marginalia_text>Democriti</marginalia_text>
+                    <person name="Democritus"/>
                 </position> 
             </language>
-            <translation></translation>
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>εὐθυμία</marginalia_text>
+                </position>
+            </language>
+            <translation>Democritus' cheerfulness.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Erillus si ita sensit, nihil esse bonum praeter scientiam">
