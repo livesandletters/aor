@@ -73,14 +73,22 @@
                     <marginalia_text>Idone[us] ad audie[n]du[m]</marginalia_text>
                 </position>
             </language>
-            <translation>Suitable for hearing.</translation>     <!-- DO: Not sure about translation -->
+            <translation>Suitable for hearing.</translation>   
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="προοίμιον">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>προοίμιον</marginalia_text>    
+                </position>
+            </language>
+            <translation>Preface.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="vt attentos, vt dociles, vt beneuolos">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Attentus docilis benevolus</marginalia_text>    <!-- DO: Greek needs to be captured -->
+                    <marginalia_text>Attentus docilis benevolus</marginalia_text>    
                 </position>
             </language>
             <translation>Attentive, pliable, kind.</translation>
