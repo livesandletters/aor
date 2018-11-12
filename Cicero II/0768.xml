@@ -101,8 +101,21 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Saturnus autem est appellatus, qu&ograve;d saturaretur annis">
+        <marginalia hand="Italian">
             <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        κρόνος χρόνος
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Cronus [is] time.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Saturnus autem est appellatus, qu&ograve;d saturaretur annis">
+            <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
                         Saturnus cur dicatur
@@ -186,15 +199,28 @@
         </marginalia>
         
         <marginalia hand="Italian">
-            <language ident="EL">
+            <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        Aqua
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Water.
+            </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>
+                        πλούτων
+                    </marginalia_text>
+                </position>
+            </language>
+            <translation>
+                Pluto.
             </translation>
         </marginalia>
         
@@ -215,12 +241,13 @@
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        περσεφονη
                     </marginalia_text>
+                    <person name="Persephone"/>
                 </position>
             </language>
             <translation>
-                
+                Persephone.
             </translation>
         </marginalia>
         
@@ -242,12 +269,13 @@
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        δημήτηρ
                     </marginalia_text>
+                    <person name="Persephone"/>
                 </position>
             </language>
             <translation>
-                
+                Demeter.
             </translation>
         </marginalia>
         
@@ -311,12 +339,12 @@
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        
+                        ἑστία
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                Hestia.
             </translation>
         </marginalia>
         
