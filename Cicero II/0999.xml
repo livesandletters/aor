@@ -6,7 +6,18 @@
     <page filename="0999.tif" reader="John Dee" pagination="441" signature="EEE.v."/>   
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
+        <marginalia hand="English_secretary">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἀμφότεροι δὲ πόδες γαμβροῦ ἐπισημαίνοιεν
+                        Περσέως, οἵ ῥά οἱ αἰὲν ἐπωμάδιοι φορέονται.
+                    </marginalia_text>
+                    <X-ref person="Aratus" book_title="Phaenomena"/>
+                </position>
+            </language>
+            <translation>“Her two feet will guide thee to her bridegroom, Perseus, over whose shoulder they are for ever carried.”
+            </translation>
+        </marginalia>
         
         <marginalia hand="English_secretary" anchor_text="Deltoton">
             <language ident="LA">
