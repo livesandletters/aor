@@ -12,7 +12,7 @@
             <language ident="LA">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        in libris scriptis a greco charactere, eveniebat vt cum a[???]bi
+                        in libris scriptis a greco charactere, eveniebat vt cum alicubi
                         <!-- NBW: "a" letterform looks strange and grammatically out of place. possibly a comma? -->
                     </marginalia_text>
                 </position>
@@ -20,8 +20,7 @@
             <language ident="EL">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Ταριετια,
-                        <!-- NBW: fourth character is more likely a gamma -->
+                        λαργετια,
                     </marginalia_text>
                 </position>
             </language>
@@ -35,7 +34,7 @@
             <language ident="EL">
                 <position place="head" book_orientation="0">
                     <marginalia_text>
-                        Ταριετια,
+                        λαργεκια,
                     </marginalia_text>
                 </position>
             </language>
@@ -48,8 +47,10 @@
                     <location name="Leucas"/>
                 </position>
             </language><!--Transcription lacking. / NBW: Most issues corrected, need to fix the Greek-->
-            <translation> In manuscripts with Greek characteres when he found either [??] [first Greek] or [second greek], The writer depicted the first letter taking it for [lambda] not for [Tau], and wrote Largecia, and later from others Lergecia </translation>
+            <translation>In manuscripts with Greek characteres when he found elswhere λαργετια or λαργεκια. The writer depicted the first letter taking it for [lambda] not for [Tau], and wrote Largecia, and later from others Lergecia.</translation>
         </marginalia>
+        
+        <!-- strangely, the discussion is about eliding the initial λ, when the obvious issue to explain would be the variation between τ and κ, but I can’t make sense of the paragraph either way. See Sherman, Dee, 82--> 
         
         <marginalia hand="Italian" anchor_text="trecentae &amp; viginti quatuor numero">
             <language ident="LA">
