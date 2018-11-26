@@ -60,14 +60,14 @@
             <translation>It catches up on its companion without fire.</translation>
         </marginalia>
         
-        <underline method="pen" type="straight" language="DE" text="au&sharp-S; welchen compositzen ein werme entspringt"/>
-        <underline method="pen" type="straight" language="DE" text="der aquarum regum die da kalt sind so bald sy z&u_ring;samen gegossen werden ein gewaltigen sudt haben"/>
-        <underline method="pen" type="straight" language="DE" text="das der spiritus vitrioli der an jm selbs kalt ist so er in ein kalt wasser gesch&uuml;tt wird das selbig siedend hey&sharp-S; macht."/>
-        <underline method="pen" type="straight" language="LA" text="prima materia"/>
+        <underline method="pen" type="straight" language="DE" text="au&sharp-S; welchen compositzen ein werme entspringt" id="NYSLWin189:00000028:u0001"/>
+        <underline method="pen" type="straight" language="DE" text="der aquarum regum die da kalt sind so bald sy z&u_ring;samen gegossen werden ein gewaltigen sudt haben" id="NYSLWin189:00000028:u0002"/>
+        <underline method="pen" type="straight" language="DE" text="das der spiritus vitrioli der an jm selbs kalt ist so er in ein kalt wasser gesch&uuml;tt wird das selbig siedend hey&sharp-S; macht." id="NYSLWin189:00000028:u0003"/>
+        <underline method="pen" type="straight" language="LA" text="prima materia" id="NYSLWin189:00000028:u0004"/>
         <underline method="pen" type="straight" language="DE" text="auch in andren"/> 
         <underline method="pen" type="straight" language="DE" text="andren salibus"/> 
         <underline method="pen" type="double" language="DE" text="wasser tingiert"/>
-        <underline method="pen" type="straight" language="DE" text="hitz und in den krefften"/>
+        <underline method="pen" type="straight" language="DE" text="hitz und in den krefften" id="NYSLWin189:00000028:u0005"/>
         <underline method="pen" type="straight" language="DE" text="vom lufft"/>
         <underline method="pen" type="straight" language="DE" text="jren"/>
         <underline method="pen" type="straight" language="DE" text="nitrischen salia"/>
@@ -84,7 +84,17 @@
         
         <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
-        <!-- JG: Several links between several underlining. Needs to be transcribed later -->
+        <physical_link>
+            <marginal_annotation idref="NYSLWin189:00000028:u0001"/>
+            <marginal_annotation idref="NYSLWin189:00000028:u0002"/>
+            <marginal_annotation idref="NYSLWin189:00000028:u0003"/>
+            <marginal_annotation idref="NYSLWin189:00000028:u0004"/>
+            <marginal_annotation idref="NYSLWin189:00000028:u0005"/>
+            
+            <relation from="NYSLWin189:00000028:u0001" to="NYSLWin189:00000028:u0002" type="undirected"/>
+            <relation from="NYSLWin189:00000028:u0002" to="NYSLWin189:00000028:u0003" type="undirected"/>
+            <relation from="NYSLWin189:00000028:u0004" to="NYSLWin189:00000028:u0005" type="undirected"/>
+        </physical_link>
         
     </annotation>
 </transcription>
