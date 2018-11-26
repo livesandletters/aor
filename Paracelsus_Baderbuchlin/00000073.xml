@@ -7,18 +7,24 @@
     <annotation>
         
         <marginalia hand="Italian" date="31 May 1594">
-            <language ident="LA"> 
+            <language ident="EN"> 
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>most excelle[n]t Doctor Padler - 3
-                    Discipulus - Mr Barker - 2
-                    Discipulus - Mr Alpad - 1
-                    -1594. Maij Vltimo
-                    7. gradij 4[us] est miles [4] sa[n]guinis [...]</marginalia_text>  <!--JG: Try to find these people; check for example Bill Sherman's book on Dee-->
+                    </marginalia_text>  <!--JG: Try to find these people; check for example Bill Sherman's book on Dee-->
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="full_page" book_orientation="0">
+                    <marginalia_text>Discipulus - Mr Barker - 2
+                        Discipulus - Mr Alpad - 1
+                        } - 1594. Maij Vltimo
+                        7. gradij 4[us] est miles [4] sa[n]guinis [...]</marginalia_text>
                 </position>
             </language>
             <translation>
-                student Mr Barker 2
-                student Mr Alpad 1 <!-- to be added -->
+                Student: Mr Barker - 2
+                Student: Mr Alpad - 1 
+                On the last day of May, 1594. Seven degrees. The fourth is a soldier [....] [of the family].
             </translation>
         </marginalia>
         
@@ -35,6 +41,7 @@
                     <book title="Hieroglyphic Monad"/>
                     <book title="Propaedumata Aphoristica"/>
                     <book title="Stoicheia"/>
+                    <location name="Swannington"/>
                 </position>
             </language>
         </marginalia>
