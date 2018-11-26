@@ -20,11 +20,16 @@
             </translation>
         </marginalia>
         
+        <marginalia hand="Italian">
+            <language ident="LA">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>[..air] dispositio.</marginalia_text>
+                </position>
+            </language>
+            <translation>[...] disposition.</translation>
+        </marginalia>
         
-        <!-- DO: Marginal note here hasn't been captured (ending in 'dispositio') -->
-        
-        
-        <marginalia hand="Italian" anchor_text="opinio antipho[n]tis qui dicebat vltima[m] polligonia[m] figura[m] inscriptam circulo">  <!-- DO: I'd go from 'rep[re]hendit[ur]' to include the rejection bit -->
+        <marginalia hand="Italian" anchor_text="rep[re]hendit[ur] in seque[n]tib[us] opinio antipho[n]tis qui dicebat vltima[m] polligonia[m] figura[m] inscriptam circulo">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
@@ -144,8 +149,6 @@
         
         <errata language="LA" copytext="p[ro]porcio vt lateru[m] p[ro]portio" amendedtext="[deleted]"/>   
         <errata language="LA" copytext="." amendedtext=","/> <!-- circulo per -->
-        
-        <!-- DO: The marking around these words needs to be captured as well but not sure how -->
                                                                                                                                     
     </annotation>
 </transcription>
