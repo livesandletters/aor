@@ -7,13 +7,17 @@
     <page filename="00000058.tif" reader="John Dee"  signature="[Fiiij[v]]"/>
     <annotation>
         
-        <marginalia hand="Italian" method="pen" anchor_text="misthauffen">  <!--JG: Internal reference, needs to be codified later-->
+        <marginalia hand="Italian" method="pen" anchor_text="misthauffen">  
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>supr[a] tractatu 3 cap. 6 n. 8.</marginalia_text>
+                    <marginalia_text>supr[a] tractatu 3 cap. 6 et 8.</marginalia_text>
+                    <internal_ref>
+                        <target ref="NYSLWin189:00000036" text="6"/>
+                        <target ref="NYSLWin189:00000037" text="8"/>
+                    </internal_ref>
                 </position>
             </language>
-            <translation>See above in treaty 3, chapter 6, number 8.</translation>
+            <translation>See above in treaty 3, chapters 6 and 8.</translation>
         </marginalia>
         
         <marginalia hand="Italian" method="pen" anchor_text="nitrische">
@@ -40,7 +44,7 @@
                     <marginalia_text>Realgar fixu[m]</marginalia_text>
                 </position>
             </language>
-            <translation>Fixed realgar</translation> <!-- FSF: unsure -->
+            <translation>Fixed realgar.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" method="pen">
