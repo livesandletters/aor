@@ -89,12 +89,12 @@
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        vide infra <!-- FSF: there is a little thing before vide; I am not sure what that is -->  <!-- DO: Could be an abbreviation of 'quod vide'? --> <!-- FSF: I almost looks like a florilegium -->
+                        vide infra    
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                See below.
             </translation>
         </marginalia>
         
@@ -126,8 +126,9 @@
         <errata language="LA" copytext="," amendedtext="[deleted]"/>  
         <errata language="LA" copytext="eo" amendedtext="ea"/>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
