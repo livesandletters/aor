@@ -10,7 +10,6 @@
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
                     <marginalia_text>Christianus Ratz scit vbi isti libri Paracelsi su[n]t. [Et - deleted] vt mihi retulit Georgius Marquarolus 1567. feb. 20.
-                    
                     Archidoxa
                     De renovatione et Restauratione, Th[eo]ph[ras]ti Germaniae Ph[ilosoph]i et Medici, [.iti] Paracelsi magni.
                     Morboru[m] com[m]e[n]tarij
@@ -19,18 +18,18 @@
                     <person name="Georgius Marquarolus"/>
                     <book title="Archidoxa"/>
                     <book title="Liber de renovatione et restauratione"/>
-                    <!--JG: Unsure which book Dee means by the 'Morborum commentarii'-->
+                    <!--JG: Unsure which book Dee means by the 'Morborum commentarii' Perhaps a commentary on Galen's work? https://books.google.co.uk/books?id=1K3ye6HeXmkC&pg=RA3-PT77&lpg=RA3-PT77&dq=commentarii+morborum&source=bl&ots=VCgyvtVn3M&sig=npvDSXfov4Mx6B1gRMdjHiwEvig&hl=en&sa=X&ved=2ahUKEwjZtJKSmPLeAhUIKuwKHcClD_o4ChDoATAPegQIAhAB#v=onepage&q=commentarii%20morborum&f=false-->
                 </position>
             </language>
             <language ident="DE">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>D[as] erst bu[e]ch von den naturlichen ding[en]</marginalia_text> <!-- FSF:  Iwould suggest that there is a superscript o over the u -->
+                    <marginalia_text>D[as] erst bu&o_super;ch von den naturlichen ding[en]</marginalia_text> 
                     <book title="Von natürlichen dingen"/>
                 </position>
             </language>
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>Liber de virtutibus mineratu[m] in der medicin <!--JG: Don't know this work-->
+                    <marginalia_text>Liber de virtutibus mineraliu[m] in der medicin <!--JG: Don't know this work-->
                     Liber de nascentibus ex terra et virtutibus eor[um]
                         Phi[lippi] Th[eophras]ti. </marginalia_text>
                     <book title="Liber de nascentibus ex terra"/>
@@ -54,8 +53,8 @@
             </language>
             <language ident="LA">
                 <position place="full_page" book_orientation="0">
-                    <marginalia_text>Liber de [Muctag...] <!--JG: Don't know this work--> <!--KS: Mucdagine? Still clueless, though.--> <!-- FSF: I think it is Mucilagine, see https://it.wikipedia.org/wiki/Mucillagine-->
-                    Alter Fragmenta Th[eopras]ti <!--JG: Don't know this work--> <!-- FSF: is this not to be captured as German? -->
+                    <marginalia_text>Liber de Mucilagine  <!-- FSF: I think it is Mucilagine, see https://it.wikipedia.org/wiki/Mucillagine-->
+                    Alter Fragmenta Th[eopras]ti <!--JG: Don't know this work-->
                     De transmutatione metallor[um]</marginalia_text>
                     <book title="De transmutatione metallorum"/>
                 </position>
@@ -73,16 +72,17 @@
                     <book title="Paragranum"/>
                 </position>
             </language>
-            <translation>Christian Ratz knows where those books of Paracelsus are. As Georgius Marquarolus told me, 20 February 1567.
-            <!--JG: Insert titles books once I've found them--> 'De transmutatione metallorum', has also arrived at another place, yet at a more fitting time.
+            <translation>Christian Ratz knows where those books of Paracelsus are. As Georgius Marquarolus told me, 20 February 1567. Paracelsus's 'Archidoxa' and 'Liber de renovatione et restauratione', the 'Morborum commentarii',
+                the first book of 'Von naturlichen dingen', the 'Book on the virtues of minerals' in medicine, the 'Liber de nascentibus ex terra', 'Elf trakat von Ursprung', 'On divine provindence in the consideration of the 
+                structure of the world and all its creatures', 'Of the fourteen gradations of Paracelsus', 'Book on Mucilage', and other fragments of Paracelsus. 'De transmutatione metallorum', has also arrived at another place, yet at a more fitting time.
             John has: 1) 'De creatione hominis' 2) 'Paragranum'.</translation>
         </marginalia>
         
         <drawing type="scientific_instrument" book_orientation="0" place="full_page" method="pen">
             <text hand="English_secretary" language="EN">by this is more done at ones destilling than at ten tymes by an ale[mb]ik.</text>
-            <text hand="English_secretary" language="LA">J D suspicor tale quid apponi posse [p[os]t] [etia[m]] [siue] tali.</text> <!--JG: impossible to read--> <!--KS: makes no sense-->
+            <text hand="English_secretary" language="LA">J D suspicor tale quid apponi posse p[otes]t [etia[m]] [sine] tali.</text> <!--JG: impossible to read--> <!--KS: makes no sense-->
             <person name="John Dee"/>
-            <translation><!-- JG: insert translation --></translation> <!-- NBW: This text doesn't display in the viewer because of its attachment to the drawing -->
+            <translation>I suppose that such a thing can be assigned. It even ca be [done] [without] such a thing. </translation>
         </drawing>
         
     </annotation>
