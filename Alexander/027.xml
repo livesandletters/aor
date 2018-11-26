@@ -117,12 +117,12 @@
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
                         Alia[m] tibi summe speculatione[m] q[uo]modo sup[er] a[e]q[ua]les circu[m]fere[n]tias, 
-                        vt a[e] K b et L a anguli a[e]quali (the last letter really has disappeared in the gutter) sicut l b a [et] K a b p[er] 27 tertij
+                        vt a[e] K b et L a anguli a[e]quali <!-- the last letter really has disappeared in the gutter--> sicut l b a [et] K a b p[er] 27 tertij
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                                  <!-- Translation needed -->
+             [..] for you another speculation how above the equal circumferences, as [ae] K b and La, equal angles, just as l b a [and] K a b through 27 of the third.                <!-- JG: no clue -->
             </translation>
         </marginalia>
         
@@ -165,7 +165,7 @@
         <errata language="LA" copytext="equas" amendedtext="equos"/>
         <errata language="LA" copytext="co[n]tra" amendedtext="ce[n]tra"/>
         
-        <!-- FSF: Dee changed the schema in the left margin, which I am not sure how to capture -->
+        <drawing type="geometric_diagram" book_orientation="0" place="left_margin" method="pen"/>
         
     </annotation>
 </transcription>
