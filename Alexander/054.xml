@@ -99,9 +99,9 @@
             <node id="n10">probabile. suppositio ad aliquem.</node>
             <node id="n11">no[n] p[ro]babile</node>
             <node id="n12">co[m]plexa. suppositio simpliciter</node>
-            <node id="n13">inco[m]plex...est...</node>               <!-- DO: I would guess it's 'et tunc est' and then probably 'diffinitio', going by the structure of the other notes, but obviously can't be sure -->
+            <node id="n13">inco[m]plex [et] [tunc] est [diffinitio]</node>               <!-- DO: I would guess it's 'et tunc est' and then probably 'diffinitio', going by the structure of the other notes, but obviously can't be sure -->
             <node id="n14">co[n]trariu[m] opinioni disce[n]tis. et tunc est questio.</node>
-            <node id="n15">neutr...modo...et...et...est...p[ro]p[ri]e...que[m]</node>
+            <node id="n15">neutr...modo...et [dis...] et [tunc] est...p[ro]p[ri]e...que[m]</node>
             <link to="n2" from="n1" relationship="has_child"/>
             <link to="n3" from="n1" relationship="has_child"/>
             <link to="n4" from="n2" relationship="has_child"/>
@@ -116,10 +116,14 @@
             <link to="n13" from="n9" relationship="has_child"/>
             <link to="n14" from="n11" relationship="has_child"/>
             <link to="n15" from="n11" relationship="has_child"/>
+            <graph_text>
+                <translation>Everything that is in a demonstration, is [...].
+                Beginning. Principle. General. Singular. Incomplex. A subject. Complex. Demonstrable. Indemonstrable, and this is the position. Probable. A supposition for anything.
+                Not probable. Complex. A simple supposition. Incomplex, and then this is the definition. Opposite to the opinion of learning. And this is the question. [....].</translation>
+            </graph_text>
+            
         </graph>
         
-        
-        <!-- DO: Graph needs to be translated -->
         
     </annotation>
 </transcription>
