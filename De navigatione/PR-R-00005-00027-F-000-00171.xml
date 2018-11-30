@@ -20,9 +20,9 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian"> <!-- FSF: generally not sure how to capture this since it is an intervention into a diagram and not really a marginalia -->
-            <language ident="LA">  <!-- DO: Italian? -->
-                <position place="right_margin" book_orientation="0"> <!-- FSF: since this is part of a printed image, it is not really 0 degrees, more 315/45 degrees -->
+        <marginalia hand="Italian"> 
+            <language ident="EN">  
+                <position place="right_margin" book_orientation="0"> 
                     <marginalia_text>
                         nordest
                     </marginalia_text>
@@ -44,7 +44,7 @@
         
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"></drawing>
+        <drawing type="manicule" book_orientation="0" place="left_margin" method="pen"/>
   
     </annotation>
 </transcription>
