@@ -5,8 +5,6 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="192.tif" reader="John Dee" pagination="186" signature="[m 5[v]]"/> 
     <annotation>
-        
-        <!-- M.B. Greek marginalia to be captured later. -->
 
         <marginalia hand="Italian">
             <language ident="LA">
@@ -18,14 +16,32 @@
             <translation>Praise for Cicero.</translation>
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="μεγαλοπρέπεια">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>μεγαλοπρέπεια</marginalia_text>
+                </position>
+            </language>
+            <translation>Magnificence.</translation>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="Theodectes">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Thedectes</marginalia_text>
+                    <marginalia_text>Theodectes</marginalia_text>
                     <person name="Theodectes"/>
                 </position>
             </language>
             <translation>Theodectes.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἐνάργεια">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἐνάργεια</marginalia_text>
+                </position>
+            </language>
+            <translation>Clearness.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="oratione morata">

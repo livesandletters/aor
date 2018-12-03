@@ -6,8 +6,6 @@
     <page filename="204.tif" reader="John Dee" pagination="198" signature="[n 3[v]]"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured. -->
-        
         <marginalia hand="Italian" anchor_text="non est semper necessaria post narrationem illa procursio">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -24,6 +22,15 @@
                 </position>
             </language>
             <translation>The nature of the judge.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="παρέκβασις">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>παρέκβασις</marginalia_text>
+                </position>
+            </language>
+            <translation>Digression.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="contra Verrem">
