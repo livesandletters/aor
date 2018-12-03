@@ -6,8 +6,6 @@
     <page filename="183.tif" reader="John Dee" pagination="177" signature="m"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="narratio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -61,6 +59,15 @@
                 </position>
             </language>
             <translation>Pro Roscio Amerino.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ὑποτυπωσις">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ὑποτυπωσις</marginalia_text> <!-- for ὑποτύπωσις -->
+                </position>
+            </language>
+            <translation>Outline.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Pubertas">
