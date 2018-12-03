@@ -6,8 +6,6 @@
     <page filename="244.tif" reader="John Dee" pagination="238"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="Nam ut cantus uocis plurimum iuuat sociata neruorum concordia, si tamen tardior manus, nisi inspectis, dimensis'que singulis, quibus quaeq[ue] uox fidibus iungenda sit, 
             dubitet, potius fuerit esse contentum eo, quod simplex canendi natura tulerit: ita huiusmodi praeceptis debet quidem apta esse">
             <language ident="LA">
@@ -35,6 +33,33 @@
                 </position>
             </language>
             <translation>Comparison.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="παράδειγμα">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>παράδειγμα</marginalia_text>
+                </position>
+            </language>
+            <translation>Comparison.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="παραβολή">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>παραβολή</marginalia_text>
+                </position>
+            </language>
+            <translation>Simile.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="παράδειγμα τί">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>παράδειγμα τί</marginalia_text>
+                </position>
+            </language>
+            <translation>Some comparison.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Socrates">

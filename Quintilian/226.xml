@@ -6,8 +6,6 @@
     <page filename="226.tif" reader="John Dee" pagination="220"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="Cicero">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -15,6 +13,15 @@
                 </position>
             </language>
             <translation>Cicero</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἀπόδειξις">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀπόδειξις</marginalia_text>
+                </position>
+            </language>
+            <translation>Proof.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Caecilius">
@@ -34,6 +41,15 @@
                 </position>
             </language>
             <translation>Argument.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="πίστεις">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>πίστεις</marginalia_text>
+                </position>
+            </language>
+            <translation>Rhetorical proof.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Paedianus">

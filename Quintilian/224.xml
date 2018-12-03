@@ -6,7 +6,14 @@
     <page filename="224.tif" reader="John Dee" pagination="218" signature="[o 5[v]]"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
+        <marginalia hand="Italian" anchor_text="εἰκότα">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>εἰκότα</marginalia_text>
+                </position>
+            </language>
+            <translation>Verisimilar.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Hermagoras">
             <language ident="LA">

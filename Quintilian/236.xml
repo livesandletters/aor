@@ -6,8 +6,6 @@
     <page filename="236.tif" reader="John Dee" pagination="230" signature="[p 3[v]]"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="Vt sunt autem tria tempora, ita ordo reru[m] tribus momentis consertus est, Habent enim omnia initium, incrementum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -24,6 +22,15 @@
                 </position>
             </language>
             <translation>From similarities.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἐπαγογή">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἐπαγογή</marginalia_text> <!-- for ἐπαγωγή -->
+                </position>
+            </language>
+            <translation>Induction.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ex di&sharp-S;ulibus">
@@ -60,6 +67,24 @@
                 </position>
             </language>
             <translation>From adjuncts.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἀκόλουθα">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀκόλουθα</marginalia_text>
+                </position>
+            </language>
+            <translation>Immediately consequential.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἐπαγόμενα">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἐπαγόμενα</marginalia_text>
+                </position>
+            </language>
+            <translation>Not immediately consequential.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="nominibus anxius, uocet enim ut uoluerit quisq[ue] dum uis rerum">

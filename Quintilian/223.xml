@@ -6,8 +6,6 @@
     <page filename="223.tif" reader="John Dee" pagination="217" signature="o 5"/>
     <annotation>
         
-        <!-- M.B. Add Greek marginalia later. -->
-        
         <marginalia hand="Italian" anchor_text="probationum quadruplex ratio est, ut uel quia aliquid est, aliud non sit, ut quia dies est, nox non est"> 
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -42,6 +40,15 @@
                 </position>
             </language>
             <translation>Two forms of signs </translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>τεκμήρια</marginalia_text>
+                </position>
+            </language>
+            <translation>Proofs.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="signum insolubile"/>

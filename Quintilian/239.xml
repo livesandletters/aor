@@ -6,8 +6,6 @@
     <page filename="239.tif" reader="John Dee" pagination="233" signature="p 5"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="Sunt, enim &amp; haec maiora &amp;, aut certe uim similem obtinent">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -100,6 +98,15 @@
                 </position>
             </language>
             <translation>Pro Caecina.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="καθ' ὑπóθεσιν">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>καθ' ὑπóθεσιν</marginalia_text>
+                </position>
+            </language>
+            <translation>According to supposition.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="fingere">

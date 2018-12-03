@@ -6,8 +6,6 @@
     <page filename="237.tif" reader="John Dee" pagination="231" signature="p 4"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="deficit omne, quod nascitur">
             <language ident="LA">
                 <position place="head" book_orientation="0">
@@ -44,6 +42,15 @@
                 </position>
             </language>
             <translation>In Verrem.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἐκ τῶν πρòς ἄλληλα">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἐκ τῶν πρòς ἄλληλα</marginalia_text>
+                </position>
+            </language>
+            <translation>From those which confirms one another.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Domitij Afri">
