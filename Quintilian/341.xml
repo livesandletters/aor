@@ -6,8 +6,6 @@
     <page filename="341.tif" reader="John Dee" pagination="335"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="Consitutio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -15,6 +13,24 @@
                 </position>
             </language>
             <translation>Convention.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="κατ’ ἀντίθεσιν">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>κατ’ ἀντίθεσιν</marginalia_text>
+                </position>
+            </language>
+            <translation>By antithesis.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἀντέγκλημα">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἀντέγκλημα</marginalia_text>
+                </position>
+            </language>
+            <translation>Counter-claim.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Mancinus">

@@ -6,8 +6,6 @@
     <page filename="305.tif" reader="John Dee" pagination="299"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="haereditas">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -15,6 +13,15 @@
                 </position>
             </language>
             <translation>A legacy.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="παροιμία">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>παροιμία</marginalia_text>
+                </position>
+            </language>
+            <translation>Comparison.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="prouerbia">

@@ -6,18 +6,30 @@
     <page filename="336.tif" reader="John Dee" pagination="330" signature="[x 5]v]]"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later -->
         
-        
-        <marginalia hand="Italian" anchor_text=""> <!-- M.B. Capture Greek later -->
+        <marginalia hand="Italian"> 
+            <language ident="EL">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>οὐ πλείους ἔσονται τοῦ αὐτού ὁρισμοί</marginalia_text> <!-- this sentence, without the initial negative οὐ, perhaps added by Dee, is straight from Aristotle, Topics, 6,4 -->
+                </position>
+            </language>
             <language ident="LA">
                 <position place="head" book_orientation="0">
-                    <marginalia_text>Arist[otle] 6&o_super; topir.</marginalia_text> <!-- M.B. Not sure of the book being referred to here, possibly Aristotle 'Topica' in sexto? --> <!--JG: Or the sixth volume of this work.-->
+                    <marginalia_text>Arist[otle] 6&o_super; topic.</marginalia_text> 
                     <person name="Aristotle"/>
                     <book title="Topics"/>
                 </position>
             </language>
-            <translation></translation> <!--JG: To be added-->
+            <translation>'There will not be many definitions of the same thing', in Aristotle's topics, book 6.</translation> 
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἐνάργεια">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>Συλλογισμός</marginalia_text>
+                </position>
+            </language>
+            <translation>Syllogism.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="finitionum diuersitas">

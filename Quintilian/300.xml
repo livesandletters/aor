@@ -6,7 +6,6 @@
     <page filename="300.tif" reader="John Dee" pagination="294" signature="[t 3[v]]"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
     
         <marginalia hand="Italian" anchor_text="">
             <language ident="LA">
@@ -45,6 +44,15 @@
                 </position>
             </language>
             <translation>Repetition in passages.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="καθ’ ὑπερβολὴν">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>καθ’ ὑπερβολὴν</marginalia_text>
+                </position>
+            </language>
+            <translation>In a superlative degree.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ironia">

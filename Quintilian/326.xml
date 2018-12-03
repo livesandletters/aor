@@ -6,7 +6,14 @@
     <page filename="326.tif" reader="John Dee" pagination="320"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. --> 
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀντικατηγορία</marginalia_text>
+                </position>
+            </language>
+            <translation>Countercharge.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="pro Vareno">
             <language ident="LA">

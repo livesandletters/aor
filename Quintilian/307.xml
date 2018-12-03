@@ -6,7 +6,14 @@
     <page filename="307.tif" reader="John Dee" pagination="301"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἀποφθεγματικόν</marginalia_text>
+                </position>
+            </language>
+            <translation>Apophthegms.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Pollione Asinio">
             <language ident="LA">

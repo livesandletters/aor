@@ -6,8 +6,6 @@
     <page filename="316.tif" reader="John Dee" pagination="310" signature="[u 3[v]]"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="anteacte uitae">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -34,6 +32,15 @@
                 </position>
             </language>
             <translation>Simple charge.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἀντινομία">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀντινομία</marginalia_text>
+                </position>
+            </language>
+            <translation>Antinomy.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="pro Raibrio">
