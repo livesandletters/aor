@@ -6,8 +6,6 @@
     <page filename="166.tif" reader="John Dee" pagination="160"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured. -->
-        
         <marginalia hand="Italian" anchor_text="Orestes">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -16,6 +14,33 @@
                 </position>
             </language>
             <translation>Orestes</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="αἴτιον">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>αἴτιον</marginalia_text>
+                </position>
+            </language>
+            <translation>Cause.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="κρινόμενον">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>κρινόμενον</marginalia_text>
+                </position>
+            </language>
+            <translation>What is discerned.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="αἴτιον καὶ αἰτία">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>αἴτιον καὶ αἰτία</marginalia_text> <!-- this is a fine lexical distinction, according to some they mean respectively: cause of the event and cause of the ruling -->
+                </position>
+            </language>
+            <translation>Cause of the event.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Clytamnestra">

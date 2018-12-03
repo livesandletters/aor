@@ -6,8 +6,6 @@
     <page filename="137.tif" reader="John Dee" pagination="131" signature="i 2"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured. -->
-        
         <marginalia hand="Italian" anchor_text="Archidemus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -16,6 +14,15 @@
                 </position>
             </language>
             <translation>Archedemus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="δικαιολογικός">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>δικαιολογικός</marginalia_text>
+                </position>
+            </language>
+            <translation>Judicial.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Pamphilus">

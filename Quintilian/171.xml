@@ -6,7 +6,32 @@
     <page filename="171.tif" reader="John Dee" pagination="165" signature="l 3"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
+        <marginalia hand="Italian" anchor_text="προοίμιον">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>προοίμιον</marginalia_text>
+                </position>
+            </language>
+            <translation>Introduction.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="οἴμη">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>οἴμη</marginalia_text>
+                </position>
+            </language>
+            <translation>Song.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="οἶμος">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>οἶμος</marginalia_text>
+                </position>
+            </language>
+            <translation>Path.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="prooemium">
             <language ident="LA">

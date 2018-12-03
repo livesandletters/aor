@@ -6,8 +6,6 @@
     <page filename="156.tif" reader="John Dee" pagination="150" signature="[k 3[v]]"/> 
     <annotation>
         
-        <!-- M.B: Greek marginalia to be captued at later point. -->
-        
         <marginalia hand="Italian" anchor_text="consilium quidem uidetur, ubi nece&sharp-S;itas est">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -15,6 +13,15 @@
                 </position>
             </language>
             <translation>Necessity removes advice.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="δυνατόν">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>δυνατόν</marginalia_text>
+                </position>
+            </language>
+            <translation>The possible.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Tamen apud plerosq[ue] earum numerus augetur, a quibus ponuntur ut parte, quae species sunt partium. Nam fasm iustum, pium, aequum, ma[n]suetum 

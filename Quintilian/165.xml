@@ -6,7 +6,14 @@
     <page filename="165.tif" reader="John Dee" pagination="159"/> 
     <annotation>
         
-        <!-- M.B. Greek marinalia to be captured at later point. -->
+        <marginalia hand="Italian" anchor_text="ἀντικατηγορία">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἀντικατηγορία</marginalia_text>
+                </position>
+            </language>
+            <translation>Counterchange.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Hermagorae">
             <language ident="LA">
@@ -16,6 +23,15 @@
                 </position>
             </language>
             <translation>Hermagoras.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="συνέχον">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>συνέχον</marginalia_text>
+                </position>
+            </language>
+            <translation>The countainer.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="In iudiciali autem materia dupliciter accipienda est: altero modo, quo dicimus multas quaestiones habere controuersiam">
@@ -44,6 +60,15 @@
                 </position>
             </language>
             <translation>We can divide a species into other species.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ζήτημα">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ζήτημα</marginalia_text>
+                </position>
+            </language>
+            <translation>Question.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="de hac nunc loquor"/>

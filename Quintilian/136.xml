@@ -6,7 +6,23 @@
     <page filename="136.tif" reader="John Dee" pagination="130" signature="[i[v]]"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured. -->
+        <marginalia hand="Italian" anchor_text="καθολικὰ">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>καιρὸν</marginalia_text>
+                </position>
+            </language>
+            <translation>The right time.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="πράξις">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>πράξις</marginalia_text>
+                </position>
+            </language>
+            <translation>Praxis.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Thrasybulo">
             <language ident="LA">
