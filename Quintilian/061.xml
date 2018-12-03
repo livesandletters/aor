@@ -6,7 +6,14 @@
     <page filename="061.tif" reader="John Dee" pagination="55" signature="d 4"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured at a later point. -->
+        <marginalia hand="Italian" anchor_text="εὐρυθμία">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>εὐρυθμία</marginalia_text>
+                </position>
+            </language>
+            <translation>Eurhythmy.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Nanq[ue] &amp; uoce, &amp; modulatione grandia elate, iucu[n]da dulciter, moderata leniter canit">
             <language ident="LA">
