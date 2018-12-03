@@ -6,8 +6,6 @@
     <page filename="362.tif" reader="John Dee" pagination="356" signature="[z 2[v]]"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="iac&ecirc;re sensus in oratione, in qua uerba lauda[n]tur">
             <language ident="LA">
                 <position place="head" book_orientation="0">
@@ -44,13 +42,13 @@
             <translation>Admirable speech.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="φράσιν">
+        <marginalia hand="Italian" anchor_text="Φράσις">
             <language ident="EL">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>φράσις.</marginalia_text>
+                    <marginalia_text>Φράσις.</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- M.B. Add translation for Greek later. -->
+            <translation>Elocution</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Attica anus">
@@ -62,37 +60,28 @@
             <translation>An old Attic woman.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="elocutionem, eam spectamus in uerbis"> <!-- FSF: I think it might be worth capturing this as a Ramus tree -->
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Elocuctione[m] spectamus in v[er]bis</marginalia_text>
-                </position>
-            </language>
-            <translation>We should observe the elocution in words.</translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="aut singulis, aut coniunctis, In singulis intuendum est, ut sint Latina, perspicua, ornata, &amp; ad id, quod efficere uolumus, accommodata.">
-            <language ident="LA">
-                <position place="tail" book_orientation="0">
-                    <marginalia_text>singulis vt sint { latina perspicua ornata rei acco[m]modata.</marginalia_text>
-                </position>
-            </language>
-            <translation>So that every [word] is { latin, clear, elegant, a thing that is suitable.  </translation>
-        </marginalia>
-        
-        <marginalia hand="Italian" anchor_text="In coniunctus, ut emendata, ut collocata, ut figurata">
-            <language ident="LA">
-                <position place="left_margin" book_orientation="0">
-                    <marginalia_text>co[n]iunctis vt sint { emendata, collocata, figurata.</marginalia_text>
-                </position>
-            </language>
-            <translation>So that connecting [words] are { correct, ordered, formed.</translation>
-        </marginalia>
-        
         <underline method="pen" type="straight" language="LA" text="quod sit magis antiquum, remotum, inopinatum"/>
         <underline method="pen" type="straight" language="LA" text="uerbi hospitem"/>
         
         <mark name="bracket" method="pen" place="left_margin"/>
+        
+        <graph type="ramus_tree" book_orientation="0" place="tail" method="pen">
+            <node id="n1" anchor_text="elocutionem, eam spectamus in uerbis">Elocuctione[m] spectamus in v[er]bis</node>
+            <node id="n2" anchor_text="singulis vt sint">singulis vt sint</node>
+            <node id="n3" anchor_text="In coniunctus, ut emendata">co[n]iunctis vt sint</node>
+            <node id="n4" anchor_text="{ latina perspicua ornata rei acco[m]modata">latina perspicua ornata rei acco[m]modata</node>
+            <node id="n5" anchor_text="ut collocata, ut figurata">emendata, collocata, figurata</node>
+            
+            <link to="n2" from="n1"/>
+            <link to="n3" from="n1"/>
+            
+            <link to="n4" from="n2"/>
+            <link to="n5" from="n3"/>
+            
+            <graph_text>
+                <translation>We should observe the elocution in 1) every single word so that they are: Latin, clear, elegant, and suitable to the matter; 2) in connecting words so that they are: correct, ordered, formed.</translation>
+            </graph_text>
+        </graph>
         
     </annotation>
 </transcription>

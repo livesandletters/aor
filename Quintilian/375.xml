@@ -6,7 +6,32 @@
     <page filename="375.tif" reader="John Dee" pagination="369" signature="A"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
+        <marginalia hand="Italian" anchor_text="ἐπανάληψις">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἐπανάληψις</marginalia_text>
+                </position>
+            </language>
+            <translation>Epanalepsis.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ὁμοιολογία">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ὁμοιολογία</marginalia_text>
+                </position>
+            </language>
+            <translation>Monotonous style.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="μακρολογία">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>μακρολογία</marginalia_text>
+                </position>
+            </language>
+            <translation>Long-winded style.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Periphrasis">
             <language ident="LA">
@@ -17,6 +42,15 @@
             <translation>Periphrasis.</translation>
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="πλεονασμός">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>πλεονασμός</marginalia_text>
+                </position>
+            </language>
+            <translation>Pleonasm.</translation>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="in Pansam">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -25,6 +59,24 @@
                 </position>
             </language>
             <translation>Against Pansa.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="περιεργία">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>περιεργία</marginalia_text>
+                </position>
+            </language>
+            <translation>Over-elaboration.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="κακόζηλον">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>κακόζηλον</marginalia_text>
+                </position>
+            </language>
+            <translation>Affectation.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="reru[m] uitia">

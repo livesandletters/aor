@@ -5,9 +5,7 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="373.tif" reader="John Dee" pagination="367"/> 
     <annotation>
-        
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
+                
         <marginalia hand="Italian" anchor_text="singulis uerbis satis dictu[m], quae ut alio loco oste[n]di, per se nullam uirtute[m] habe[n]t">
             <language ident="LA">
                 <position place="head" book_orientation="0">
@@ -69,6 +67,15 @@
                 </position>
             </language>
             <translation>Commendable.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="κακήφατον">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>κακήφατον</marginalia_text> <!-- (ill-sounding, ill-omened [most other editions correct the reading to κακόφατον]) -->
+                </position>
+            </language>
+            <translation>Ill-sounding.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="prima uirtus est, uitio carere">

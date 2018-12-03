@@ -6,7 +6,14 @@
     <page filename="342.tif" reader="John Dee" pagination="336"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀντίστασις</marginalia_text>
+                </position>
+            </language>
+            <translation>Counter-plea.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Gracchus">
             <language ident="LA">
@@ -16,6 +23,15 @@
                 </position>
             </language>
             <translation>Gracchus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="μετάστασις">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>μετάστασις</marginalia_text>
+                </position>
+            </language>
+            <translation>Shifting of blame.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="excusatio">
@@ -34,6 +50,15 @@
                 </position>
             </language>
             <translation>State of quantity.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ποιότης ποσότης ">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ποιότης καὶ ποσότης </marginalia_text>
+                </position>
+            </language>
+            <translation>Quality and quantity.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="pro Qu. Ligario">

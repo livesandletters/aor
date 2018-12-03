@@ -6,7 +6,14 @@
     <page filename="366.tif" reader="John Dee" pagination="360" signature="[z 4[v]]"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
+        <marginalia hand="Italian" anchor_text="ἀδιανόητα">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀδιανόητα</marginalia_text>
+                </position>
+            </language>
+            <translation>Inconceivable.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="perspicuitatis">
             <language ident="LA">

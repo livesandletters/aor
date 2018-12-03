@@ -6,8 +6,6 @@
     <page filename="363.tif" reader="John Dee" pagination="357" signature="z 3"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="proprietas ipsa non simpliciter accupitur">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -27,6 +25,15 @@
             <translation>Cassius Severus.</translation>
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="ἄκυρον">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἄκυρον</marginalia_text>
+                </position>
+            </language>
+            <translation>What is improper.</translation>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="lapidare">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -34,6 +41,15 @@
                 </position>
             </language>
             <translation>To stone.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="κατάχρησις">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>κατάχρησις</marginalia_text>
+                </position>
+            </language>
+            <translation>Catachresis.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Tra[n]slatio">

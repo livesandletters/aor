@@ -6,8 +6,6 @@
     <page filename="374.tif" reader="John Dee" pagination="368"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="inunctua">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -43,6 +41,33 @@
                 </position>
             </language>
             <translation>Celsus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ταπείνωσις">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ταπείνωσις</marginalia_text>
+                </position>
+            </language>
+            <translation>Lowness of style.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="μείωσις">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>μείωσις</marginalia_text>
+                </position>
+            </language>
+            <translation>Dearth of style.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ταὐτολογία">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ταὐτολογία</marginalia_text>
+                </position>
+            </language>
+            <translation>Tautology.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Cicero securus tamparuae">
