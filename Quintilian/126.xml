@@ -6,7 +6,14 @@
     <page filename="126.tif" reader="John Dee" pagination="120" signature="[h 4[v]]"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured at a later point. -->
+        <marginalia hand="Italian" anchor_text="στοιχεῖα">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>στοιχεῖα</marginalia_text>
+                </position>
+            </language>
+            <translation>Elements.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="artificis est persuadere, uis autem persuadendi, artis">
             <language ident="LA">

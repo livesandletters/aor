@@ -6,7 +6,23 @@
     <page filename="115.tif" reader="John Dee" pagination="109"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be checked and translated -->
+        <marginalia hand="Italian" anchor_text="κακοτεχνία">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>κακοτεχνία</marginalia_text>
+                </position>
+            </language>
+            <translation>Bad practice.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="Ματαιοτεχνία">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Ματαιοτεχνία</marginalia_text>
+                </position>
+            </language>
+            <translation>Useless artifice.</translation>
+        </marginalia>
         
         
         <marginalia hand="Italian" anchor_text="κακοτεχνίαυ">

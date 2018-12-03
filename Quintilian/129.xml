@@ -6,7 +6,23 @@
     <page filename="129.tif" reader="John Dee" pagination="123"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured at later point. -->
+        <marginalia hand="Italian" anchor_text="θέσις">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>θέσις</marginalia_text>
+                </position>
+            </language>
+            <translation>Thesis.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ὑποθέσεις">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ὑποθέσεις</marginalia_text>
+                </position>
+            </language>
+            <translation>Hypotheses.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Tria sunt item, quae praestare debeat orator, ut doceat, moueat">
             <language ident="LA">

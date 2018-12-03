@@ -6,7 +6,14 @@
     <page filename="099.tif" reader="John Dee" pagination="93"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured at a later point. -->
+        <marginalia hand="Italian" anchor_text="καθολικὰ">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>κακοτεχνία</marginalia_text>
+                </position>
+            </language>
+            <translation>Bad practice.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="cauillationis">
             <language ident="LA">

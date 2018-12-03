@@ -6,7 +6,15 @@
     <page filename="101.tif" reader="John Dee" pagination="95"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia remaining. -->
+        <marginalia hand="Italian" anchor_text="Hemagorae">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Hερμάγορας</marginalia_text> <!-- in mixed script, wrongly accented, for Ἑρμαγόρας, Hermagoras of Temnos -->
+                    <person name="Hermagoras of Temnos"/>
+                </position>
+            </language>
+            <translation>Hermagoras of Temnos.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Apollodorus">
             <language ident="LA">
