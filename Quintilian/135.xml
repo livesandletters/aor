@@ -6,7 +6,23 @@
     <page filename="135.tif" reader="John Dee" pagination="129" signature="i"/>
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured. -->
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>οὐσία καὶ αἱ λοῖπαι κατήγωριαι</marginalia_text> <!-- for οὐσία καὶ αἱ λοιπαὶ κατηγορίαι -->
+                </position>
+            </language>
+            <translation>Substance and the remaining categories.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="συγκείσθαι">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>συγκείσθαι</marginalia_text>
+                </position>
+            </language>
+            <translation>To be composed.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="Hermagoras">
             <language ident="LA">

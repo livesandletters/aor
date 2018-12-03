@@ -6,8 +6,15 @@
     <page filename="131.tif" reader="John Dee" pagination="125"/>
     <annotation>
         
-        <!-- M.B: Greek marginalia to be captured at later point. -->
-        
+        <marginalia hand="Italian" anchor_text="περίστασις">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>περίστασις</marginalia_text>
+                </position>
+            </language>
+            <translation>Circumstance.</translation>
+        </marginalia>
+                
         <marginalia hand="Italian" anchor_text="Hermagorae">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
