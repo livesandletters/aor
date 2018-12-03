@@ -6,7 +6,42 @@
     <page filename="287.tif" reader="John Dee" pagination="281" signature="s 5"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
+        <marginalia hand="Italian" anchor_text="ἦθη">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἦθη</marginalia_text>
+                </position>
+            </language>
+            <translation>Mores.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἦθη">
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>Quo</marginalia_text>
+                </position>
+            </language>
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἦθη</marginalia_text>
+                </position>
+            </language>
+            <language ident="LA">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>mores dicuntur</marginalia_text>
+                </position>
+            </language>
+            <translation>Where [in Greek] 'mores' are called mores.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="πάθος">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>πάθος</marginalia_text>
+                </position>
+            </language>
+            <translation>Feeling.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="metum tamen duplicem intelligi uolo, qurm patimur, &amp; quem facimus">
             <language ident="LA">

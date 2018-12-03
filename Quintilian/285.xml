@@ -6,8 +6,6 @@
     <page filename="285.tif" reader="John Dee" pagination="279" signature="s 4"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="amor">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -24,6 +22,15 @@
                 </position>
             </language>
             <translation>The orator's work.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="πάθος">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>πάθος καὶ ἦθος</marginalia_text>
+                </position>
+            </language>
+            <translation>Feeling and way of beeing.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="no[n]nullas credo esse materias, quae continuum desiderent affectum">

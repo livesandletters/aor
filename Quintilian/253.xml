@@ -6,8 +6,6 @@
     <page filename="253.tif" reader="John Dee" pagination="247" signature="q 4"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="In rebus uer&ograve; apertis argume[n]tari tam sit stultum, qu&agrave;m in clari&sharp-S;imu[m] solem mortale lumen inferre.">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -23,7 +21,12 @@
                     <marginalia_text>Probationes</marginalia_text> 
                 </position>
             </language>
-            <translation>Proofs.</translation>
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>παθητικαι</marginalia_text>
+                </position>
+            </language>
+            <translation>Emotional proofs.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Iphicrates">

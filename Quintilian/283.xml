@@ -6,8 +6,6 @@
     <page filename="283.tif" reader="John Dee" pagination="277" signature="s 3"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="pro Rabirio">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -93,6 +91,15 @@
                 </position>
             </language>
             <translation>In Verrem.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἐπιλογοὶ μερικοί">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἐπιλογοὶ μερικοί</marginalia_text>
+                </position>
+            </language>
+            <translation>Partial epilogues.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="Omnes autem hos affectus, etiam si quibusdam uidentur in prooemio, atq[ue] in epilogo sedem habere, in quibus san&egrave; sunt 

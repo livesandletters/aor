@@ -5,9 +5,7 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="250.tif" reader="John Dee" pagination="244" signature="[q 2[v]]"/>
     <annotation>
-        
-        <!-- M.B. Capture Greek marginalia later. -->
-        
+                
         <marginalia hand="Italian" anchor_text="pro Cecinna">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -18,13 +16,22 @@
             <translation>Pro Caecina.</translation>
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="ἀναλογία">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀναλογία</marginalia_text>
+                </position>
+            </language>
+            <translation>Analogy.</translation>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="Cui rei facilim&egrave; occurrit ex di&sharp-S;imilibus argumentatio: Non">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>Ratio occure[n]di</marginalia_text>
                 </position>
             </language>
-            <translation>Method of response.[?]</translation> <!-- M.B. Not sure how to best translate 'occurendi' --> <!-- FSF: possibly as appose -->
+            <translation>Method of resisting.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="autoritas">
@@ -34,6 +41,15 @@
                 </position>
             </language>
             <translation>Authority.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="κρίσεις">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>κρίσεις</marginalia_text>
+                </position>
+            </language>
+            <translation>Judgements.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="testimonia">

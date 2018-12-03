@@ -6,8 +6,6 @@
     <page filename="288.tif" reader="John Dee" pagination="282" signature="[s 5[v]]"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="sed aut qui non est, aut maiorem qu&agrave;m est, faciat affectum">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -15,6 +13,15 @@
                 </position>
             </language>
             <translation>Note</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="δείνωσις">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>δείνωσις</marginalia_text>
+                </position>
+            </language>
+            <translation>Exaggeration.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Demosthenes">
