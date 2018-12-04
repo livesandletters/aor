@@ -103,7 +103,7 @@
         <marginalia hand="English_secretary" anchor_text="seruum fugitiuum, vel domu[m] insalubrem">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
-                    <marginalia_text>Seruus fugituius Domus insalubris }</marginalia_text>
+                    <marginalia_text>Seruus fugitiuus Domus insalubris }</marginalia_text>
                 </position>
             </language>
             <translation>Fugitive servant, unhealthy house.</translation>
@@ -148,10 +148,15 @@
         <marginalia hand="English_secretary" anchor_text="">
             <language ident="EL">
                 <position place="tail" book_orientation="0">
-                    <marginalia_text>ρϵορα</marginalia_text> <!-- Greek to be added -->
+                    <marginalia_text>ἰδιά</marginalia_text> 
                 </position>
             </language>
-            <translation></translation>
+            <language ident="EL">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>prop[r]ia</marginalia_text> <!-- Latin translation of Greek word preceding it -->
+                </position>
+            </language>
+            <translation>Characteristics.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="fundare"/>
