@@ -22,14 +22,16 @@
                     <marginalia_text>
                        &Trine; Dyfnwall, ap Howel Dda eius filius, Owen, interfectus fuit a[nn]o 989. Lancarvan.
                     </marginalia_text>
+                    <person name="Dufnal, King of South-Wales"/>
                     <person name="Owain ap Hywel Dda"/>
                     <location name="Llancarfan"/>
                 </position>
             </language>
             <translation>
-                Owain, the son of Hywel Dda, was killed in 989. 
+                Dufnal, King of South-Wales. Owain, the son of Hywel Dda, was killed in 989. 
                 <!-- DO: I think the Owen must be: https://en.wikipedia.org/wiki/Owain_ap_Hywel_Dda (son of Hywel and the dates match). I'm not sure who the 'Dyfnwall' refers to, possibly https://en.wikipedia.org/wiki/Dyfnwal_ab_Owain but he wasn't a son of Hywel Dda. The only sense I can make is if it just lists two unrelated people ('Dyfnwal; Owain, son of Hywel Dda, was killed in 989' but it would be a really weird way of writing it... -->
                 <!-- FSF: Could it refer to their house? House of Dinefwr? -->
+                <!--JG: See: https://books.google.co.uk/books?id=5822MoKxWncC&pg=PA136&lpg=PA136&dq=Dufnal+rege+Demetiae&source=bl&ots=VA7xdGR9Ec&sig=VQuyTL-hnv7xyMnT86iYkG4qavo&hl=en&sa=X&ved=2ahUKEwidka6CnIbfAhUYSRUIHTYkBEoQ6AEwBnoECAkQAQ#v=onepage&q=Dufnal%20rege%20Demetiae&f=false-->
             </translation>
         </marginalia>
         
@@ -101,11 +103,6 @@
             </translation>
         </marginalia>
         
-        
-        <!-- DO: Writing in left margin which presumably goes with the second circumflex - I don't know what it says -->
-        <!-- FSF: To me it seems that it was crossed out -->
-           
-        
         <underline method="pen" type="straight" language="LA" text="corpus Aelgiuae matris Eadgari regis"/>
         <underline method="pen" type="straight" language="LA" text="loco qui Septonia nuncupatur"/>
         <underline method="pen" type="straight" language="LA" text="rex Pacficus"/>
@@ -137,7 +134,7 @@
         <mark name="circumflex" method="pen" place="intext"/>
         <mark name="circumflex" method="pen" place="intext"/>
         
-        <errata language="LA" copytext="vt quomodo" amendedtext="vt intelligeret quomodo"/>   <!-- DO: I personally would capture this as separate marginalia, but not sure if that's right -->
+        <errata language="LA" copytext="vt quomodo" amendedtext="vt intelligeret quomodo"/>  
          
     </annotation>
 </transcription>
