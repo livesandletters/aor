@@ -10,18 +10,17 @@
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>
-                        Brito iste quis est, vel in    <!-- DO: I think it must be 'vel ni', to make more sense, though I'm still not sure how to translate. 'That Briton is someone, or not'?? -->
-                        <!-- FSF: I am not sure about this; I think the tranlsation depends on the in or ni; I had a feeling this note was not complete, but this is more a feeling than anything else  -->
+                        Brito iste quis est, vel in
                     </marginalia_text>
                     <person name="Brito"/>
                 </position>
             </language>
             <translation>
-                Who is this Brito, or in. <!-- FSF: not sure / NBW: Possibly "is this Brito himself, or in [brito], i.e. is Dee wondering if this is an ablative?--> 
+                Is this Brito himself, or in [Brito]. <!-- FSF: not sure / NBW: Possibly "is this Brito himself, or in [brito], i.e. is Dee wondering if this is an ablative?--> 
             </translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Hij sunt">
+        <marginalia hand="Italian" anchor_text="Hij sunt" id="RCP10653@028:m0001">
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -38,7 +37,9 @@
         <underline method="pen" type="straight" language="LA" text="Alanus"/>
         <underline method="pen" type="straight" language="LA" text="Brito"/>
         
-        <!-- Physical link between marginal note and non-underlined text -->
+        <physical_link>
+            <marginal_annotation idref="RCP10653@028:m0001"/>
+        </physical_link>
         
     </annotation>
 </transcription>
