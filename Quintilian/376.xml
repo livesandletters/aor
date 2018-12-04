@@ -5,9 +5,7 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="376.tif" reader="John Dee" pagination="370" signature="[A[v]"/> 
     <annotation>
-        
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
+                
         <marginalia hand="Italian" anchor_text="omne κακόζηλον utiq[ue] falsum, etiamsi no[n] omne falsum ">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -24,7 +22,7 @@
                     <marginalia_text>est falsum no[n] contra</marginalia_text>
                 </position>
             </language>
-            <translation>Affectation is always falsehood and never the contrary.</translation> <!-- M.B. κακόζηλον translated as affectation, check later. -->
+            <translation>All affectation is a falsehood and not the contrary.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Totidem autem generibus corrumptitur oratio, quot ornatur.">
@@ -36,6 +34,42 @@
             <translation>Style is corrupted in as many ways as it can be ornamented.</translation>
         </marginalia>
         
+        <marginalia hand="Italian" anchor_text="ἀνοικονόμητον">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀνοικονόμητον</marginalia_text>
+                </position>
+            </language>
+            <translation>Lacking proper arrangement.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἀσχήματον">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀσχήματον</marginalia_text>
+                </position>
+            </language>
+            <translation>Without form or figure.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="κακοσύνθετον">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>κακοσύνθετον</marginalia_text>
+                </position>
+            </language>
+            <translation>Ill-composed.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="mixta ex uaria ratione linguarum">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>κοινισμός</marginalia_text>
+                </position>
+            </language>
+            <translation>Mixture of languages or dialects.</translation>
+        </marginalia>
+        
         <marginalia hand="Italian" anchor_text="Horatius">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -44,6 +78,15 @@
                 </position>
             </language>
             <translation>Horace.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἐνέργεια">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἐνέργεια</marginalia_text>
+                </position>
+            </language>
+            <translation>Vigour of style.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="euidentia">

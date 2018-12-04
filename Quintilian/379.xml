@@ -6,8 +6,6 @@
     <page filename="379.tif" reader="John Dee" pagination="373" signature="A 3"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="morbis membra praecidu[n]t: ita turpes ac perniciosos">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -34,6 +32,15 @@
                 </position>
             </language>
             <translation>A comparison.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἀνταπόδοσις">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἀνταπόδοσις</marginalia_text>
+                </position>
+            </language>
+            <translation>Correspondence in a simile.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Georgicon">
