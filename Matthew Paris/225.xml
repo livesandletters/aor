@@ -16,7 +16,6 @@
             <link to="n3" from="n1" relationship="has_child"/>
             <link to="n2" from="n3" relationship="has_spouse"/>
             <link to="n3" from="n2" relationship="has_spouse"/>
-            <!-- FSF: are all the unnamed children to be tagged too? -->
         </graph>             
         
     </annotation>
