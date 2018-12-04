@@ -5,10 +5,7 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="404.tif" reader="John Dee" pagination="398"/> 
     <annotation>
-        
-        
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
+                
         <marginalia hand="Italian" anchor_text="schemata">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -35,6 +32,42 @@
                 </position>
             </language>
             <translation>Caius Artorius Proculus.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="περίφρασις">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>περίφρασις</marginalia_text>
+                </position>
+            </language>
+            <translation>Periphrases.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ὑπέρβατον">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ὑπέρβατον</marginalia_text>
+                </position>
+            </language>
+            <translation>Hyperbaton.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ὀνοματοποιία">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ὀνοματοποιία</marginalia_text>
+                </position>
+            </language>
+            <translation>Onomatopoeia.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἐπίθετον">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἐπίθετον</marginalia_text>
+                </position>
+            </language>
+            <translation>Addition.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="tropus sermo">

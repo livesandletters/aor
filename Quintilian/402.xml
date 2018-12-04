@@ -6,7 +6,14 @@
     <page filename="402.tif" reader="John Dee" pagination="396"/> 
     <annotation>
         
-        <!-- M.B. Greek marginlia to be captured later. -->
+        <marginalia hand="Italian" anchor_text="ἀναστροφή">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀναστροφή</marginalia_text>
+                </position>
+            </language>
+            <translation>Anastrophe.</translation>
+        </marginalia>
         
         <marginalia hand="Italian" anchor_text="hyperbati">
             <language ident="LA">
@@ -42,6 +49,15 @@
                 </position>
             </language>
             <translation>Confused.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ὑπερβολή">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ὑπερβολή</marginalia_text>
+                </position>
+            </language>
+            <translation>Hyperbole.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="in Antoniu[m]">
