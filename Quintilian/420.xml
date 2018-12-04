@@ -6,16 +6,28 @@
     <page filename="420.tif" reader="John Dee" pagination="414"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
-        <marginalia hand="Italian" anchor_text="Et: Mitto illam prima[m] libidins iniuriam. Et: Ne illa quidem testimonia recito, quae dicta sunt de sestertijs septingentis millibus. Et: Possum 
+        <marginalia hand="Italian" nchor_text="Et: Mitto illam prima[m] libidins iniuriam. Et: Ne illa quidem testimonia recito, quae dicta sunt de sestertijs septingentis millibus. Et: Possum 
             dicere">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>ἀποφάσεως</marginalia_text>
+                </position>
+            </language>
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
                     <marginalia_text>exemplae Varia</marginalia_text>
                 </position>
             </language>
-            <translation>Various examples.</translation>
+            <translation>Various examples of negation.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>εἰρωνεία</marginalia_text>
+                </position>
+            </language>
+            <translation>Irony.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="pro Q. Ligario">

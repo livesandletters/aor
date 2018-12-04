@@ -6,8 +6,6 @@
     <page filename="419.tif" reader="John Dee" pagination="413"/> 
     <annotation>
         
-        <!-- M.B. Final Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="declamatores">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -27,19 +25,19 @@
             <translation>Seneca.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="τοϖογραφίαν"> <!-- M.B. Note 'γρ' ligature transcribed as 'γρ'. -->
+        <marginalia hand="Italian" anchor_text="τοπογραφία">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>τοϖογραφία.</marginalia_text>
+                    <marginalia_text>τοπογραφία.</marginalia_text>
                 </position>
             </language>
             <translation>Topography.</translation>
         </marginalia>
         
-        <marginalia hand="Italian" anchor_text="Εἰρωνείαν">
+        <marginalia hand="Italian" anchor_text="Εἰρωνεία">
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>Εἰρωνεία</marginalia_text> <!-- M.B. Ligatures, see previous notes.. -->
+                    <marginalia_text>Εἰρωνεία</marginalia_text>
                 </position>
             </language>
             <translation>Irony.</translation>
@@ -53,7 +51,7 @@
             </language>
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text></marginalia_text> <!-- M.B. Transcribe Greek later.. -->
+                    <marginalia_text>εἰρωνειαν</marginalia_text> 
                 </position>
             </language>
             <language ident="LA">
@@ -61,7 +59,7 @@
                     <marginalia_text>tropum &amp; schema.</marginalia_text>
                 </position>
             </language>
-            <translation></translation> <!-- M.B. Add translation later. -->
+            <translation>The different shape between the irony and form of tropes.</translation> 
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="uoluntatis fictio">
@@ -81,10 +79,10 @@
             </language>
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
-                    <marginalia_text>ε[ἴ]ρω[ν]</marginalia_text> <!-- M.B. I think the second ligature is 'ων' but someone who knows Greek should look over this. -->
+                    <marginalia_text>εἴρων</marginalia_text> 
                 </position>
             </language>
-            <translation>Socrates' life was an example of irony.</translation>
+            <translation>Socrates' life, modest.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="ἀλλΗγορίαυ">
@@ -94,6 +92,15 @@
                 </position>
             </language>
             <translation>Allegory.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἀπόφασις">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἀπόφασις</marginalia_text>
+                </position>
+            </language>
+            <translation>Denial.</translation>
         </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="nec mehercules sine"/>
@@ -106,9 +113,10 @@
         <underline method="pen" type="straight" language="EL" text="ε[ἴ]ρων"/> <!-- M.B. Note captured ligature as ε[ἴ]. See: https://en.wikipedia.org/wiki/Epsilon#/media/File:Greek_minuscule_Epsilon_with_ligatures.svg  -->
         <underline method="pen" type="straight" language="LA" text="id est, agens imperitum, &amp; admirator aliorum tanquam sapientium: ut"/>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
+        <numeral place="right_margin">1</numeral>
+        <numeral place="right_margin">2</numeral>
         
-        <!-- M.B. Drawing possibly a tree or something related to τοϖογραφία ? -->
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"/>
         
     </annotation>
 </transcription>
