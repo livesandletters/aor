@@ -6,8 +6,6 @@
     <page filename="389.tif" reader="John Dee" pagination="383"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="Crispus">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -62,6 +60,15 @@
                 </position>
             </language>
             <translation>Ambiguity.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἀποκαρτέρησις">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἀποκαρτέρησις</marginalia_text>
+                </position>
+            </language>
+            <translation>Starvation.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Alexandrum">

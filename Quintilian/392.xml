@@ -6,8 +6,6 @@
     <page filename="392.tif" reader="John Dee" pagination="386" signature="[B[v]]"/> 
     <annotation>
         
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
         <marginalia hand="Italian" anchor_text="Quare mihi uide[n]tur errasse">
             <language ident="LA">
                 <position place="left_margin" book_orientation="0">
@@ -15,6 +13,15 @@
                 </position>
             </language>
             <translation>Some uncertainty.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="μεταφορὰ">
+            <language ident="EL">
+                <position place="left_margin" book_orientation="0">
+                    <marginalia_text>μεταφορὰ</marginalia_text> <!-- for μεταφορά -->
+                </position>
+            </language>
+            <translation>Metaphor.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="Transfert ergo nome[n]">

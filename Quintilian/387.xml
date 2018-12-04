@@ -5,9 +5,7 @@
     xsi:noNamespaceSchemaLocation="http://www.livesandletters.ac.uk/schema/aor2_18112016.xsd">
     <page filename="387.tif" reader="John Dee" pagination="381"/> 
     <annotation>
-        
-        <!-- M.B. Greek marginalia to be captured later. -->
-        
+                
         <marginalia hand="Italian" anchor_text="ad rem">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -99,6 +97,15 @@
                 </position>
             </language>
             <translation>It should be guarded</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="καθολικὰ">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>καθολικὰ</marginalia_text>
+                </position>
+            </language>
+            <translation>Universal things.</translation>
         </marginalia>
         
         <marginalia hand="Italian" anchor_text="autoritas, ut rei pondus etia[m] persona ">
