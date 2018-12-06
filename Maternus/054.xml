@@ -19,22 +19,38 @@
             </translation>
         </marginalia>
         
-        <!-- M.B. Greek marginalia needs to be captured.   -->
+        <marginalia hand="Italian" anchor_text="ἀναφορὰ">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἀναφορὰ</marginalia_text>
+                </position>
+            </language>
+            <translation>Ascendant.</translation>
+        </marginalia>
+        
+        <marginalia hand="Italian" anchor_text="ἐπικαταφορὰ">
+            <language ident="EL">
+                <position place="right_margin" book_orientation="0">
+                    <marginalia_text>ἐπικαταφορὰ</marginalia_text>
+                </position>
+            </language>
+            <translation>Falling over.</translation> <!-- name of the eighth place in a chart -->
+        </marginalia>
         
         <underline method="pen" type="straight" language="LA" text="illud scientes, quod uxorem &Venus;, Maritum &Mars; sidus"/>
         <underline method="pen" type="straight" language="LA" text="Medium uero coelum est, ab horoscopo decimum signum; sed interdum medium coeli etiam in xi ab horoscopo signo, partiliter inuenitur, quod ut"/>
         <underline method="pen" type="dotted" language="LA" text="est dea, deus, bona fortuna, &amp; bonus daemon"/>
         
-        <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="bracket" method="pen" place="right_margin"/>
-        <mark name="bracket" method="pen" place="right_margin"/>
+        <mark name="bracket" method="pen" place="right_margin" colour="red"/>
+        <mark name="bracket" method="pen" place="right_margin" colour="red"/>
+        <mark name="bracket" method="pen" place="right_margin" colour="red"/>
+        <mark name="bracket" method="pen" place="right_margin" colour="red"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
-        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen"></drawing>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" colour="red"/>
+        <drawing type="florilegium" book_orientation="0" place="right_margin" method="pen" colour="red"/>
         
     </annotation>
 </transcription>
