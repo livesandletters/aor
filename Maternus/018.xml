@@ -38,7 +38,7 @@
                 </position>
             </language>
             <translation>
-                Void of course.
+                'Empty course' (i.e. the unaccompanied course of a planet).
             </translation>
         </marginalia>
         
@@ -72,12 +72,12 @@
             <language ident="EL">
                 <position place="right_margin" book_orientation="0">
                     <marginalia_text>
-                        ἀνατάχυσις
+                        ἀνατάχυσις <!-- this word is not found anywhere in Greek dictionaries or the existing repositories like the TLG. I suspect it is an error and it should read ἀνάχυσις, which means fusion, reversion. -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                <!-- FSF: Greek -->
+                Reversion.
             </translation>
         </marginalia>
         
