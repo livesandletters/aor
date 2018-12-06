@@ -32,10 +32,11 @@
         <marginalia hand="English_secretary">
             <language ident="LA">
                 <position place="intext" book_orientation="0">
-                    <marginalia_text>dom[us] [??]</marginalia_text> <!--JG: Unsure-->
+                    <marginalia_text>dom[us] &Jupiter;</marginalia_text>
+                    <symbol_in_text name="Jupiter"/>
                 </position>
             </language>
-            <translation>The house of [...].</translation>
+            <translation>The house of Jupiter.</translation>
         </marginalia>
         
         
@@ -52,7 +53,6 @@
         <symbol name="Mercury" place="intext"/>
         <symbol name="Venus" place="intext"/>
         <symbol name="Mars" place="intext"/>
-        <!--JG: Unsure about symbol-->
         <symbol name="Moon" place="intext"/>
         <symbol name="Mars" place="intext"/>
         <symbol name="Venus" place="intext"/>
