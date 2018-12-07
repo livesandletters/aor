@@ -22,6 +22,26 @@
             </translation>
         </marginalia>
         
+        <marginalia hand="English_secretary"> 
+            <language ident="EL">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>&Aries; { χονταρέτ [χονταρχρεν - deleted] χονταχρήν σικέτ | &Taurus; { χωού ἔρω ῥομβρόμαρε | &Gemini; { θοσόλβ οὐαρέ δαωρί |&Cancer; { σωθὶς
+                        σίτων χνουμίς |&Leo; { χάρ χνοῦς μῦσ</marginalia_text>
+                    <symbol_in_text name="Aries"/>
+                    <symbol_in_text name="Gemini"/>
+                    <symbol_in_text name="Taurus"/>
+                    <symbol_in_text name="Leo"/>
+                </position>
+            </language>
+            <translation>Aries: Asiccan, [Senacher - deleted], Acentacer; Taurus: Asicath, Viroaso, Aharph; Gemini: Thesogar, Verasua, Tepisatosoa; Cancer: Sothis, Syth, Thuimis;
+                Leo: Aphruimis, Sithacer, Phuonisie.</translation>
+        </marginalia>
+        
+        <!-- M.B. Note the Greek terms are the equivalent decanal names from Hephaestion of Thebes and can be linked to the underlined terms above (from Maternus's table). 
+            Dee's Greek terms appear to follow the same form (and contractions) as in  the'Ek tôn Hêphaistiônos tou Thêbaiou apotelesmatikôn' section of Joachim Camerarius' Astrologica, quorum titulos versa pagella indicabit (1532). -->
+        
+        <!--JG: The decans have been named differently across different traditions. Here Scaliger's names are used in the translation: https://en.wikipedia.org/wiki/Decan-->
+        
         <underline method="pen" type="straight" language="LA" text="Asicath"/>
         <underline method="pen" type="straight" language="LA" text="Viroaso"/>
         <underline method="pen" type="straight" language="LA" text="Aharph"/>
@@ -42,11 +62,30 @@
         <underline method="pen" type="straight" language="LA" text="Aterechinis"/>
         <underline method="pen" type="straight" language="LA" text="Arepien"/>
         
-        <!-- FSF: In a similar way as on the last page, Dee has added to a table by adding a new column -->   <!-- M.B. The Grad[us] column is the cumulative sum of each preceding degree of separation between the decanal positions in the zodiac.-->
-        
-        <!-- FSF: Greek stuff -->
-        <!-- M.B. Note the Greek terms are the equivalent decanal names from Hephaestion of Thebes and can be linked to the underlined terms above (from Maternus's table). 
-            Dee's Greek terms appear to follow the same form (and contractions) as in  the'Ek tôn Hêphaistiônos tou Thêbaiou apotelesmatikôn' section of Joachim Camerarius' Astrologica, quorum titulos versa pagella indicabit (1532). -->
+        <table type="standard_table" place="intext"> <!-- M.B. The Grad[us] column is the cumulative sum of each preceding degree of separation between the decanal positions in the zodiac.-->
+           
+            <tr>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>30</td>
+            </tr>
+        </table>
         
     </annotation>
 </transcription>
