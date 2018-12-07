@@ -36,12 +36,12 @@
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
-                        vide in fr.... pagina 9 <!-- FSF: really hard to read -->
+                        vide in fr.... [pagina 9] <!-- FSF: really hard to read -->
                     </marginalia_text>
                 </position>
             </language>
             <translation>
-                
+                See in [...] [...] [page 9].
             </translation>
         </marginalia>
         
@@ -73,6 +73,53 @@
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin"/>
         <mark name="bracket" method="pen" place="right_margin" colour="red"/>
+        
+        <table type="standard_table" place="intext"> 
+            
+            <tr>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>30</td>
+            </tr>
+        </table>
+        
+        <table type="standard_table" place="intext"> 
+            
+            <tr>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>30</td>
+            </tr>
+        </table>
         
     </annotation>
 </transcription>
