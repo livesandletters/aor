@@ -5,6 +5,17 @@
     <page filename="132.tif" reader="John Dee" pagination="109" signature="k"/>
     <annotation>
         
+        <marginalia hand="English_secretary" anchor_text="Oroaset, Astiro, Tepisatras; Archatapias, Thopibui, Atembui.">
+            <language ident="EL">
+                <position place="head" book_orientation="0">
+                    <marginalia_text>&Aquarius; { πτιᾶμ ἀνεῦ πτιβιοῦ | &Pisces; { βιοῦ χονταχρέτ σβιοῦ</marginalia_text>
+                    <symbol_in_text name="Aquarius"/>
+                    <symbol_in_text name="Pices"/>
+                </position>
+            </language>
+            <translation>Aquarius: Oroaset, Astiro, Tepisatras; Pisces: Archatapias, Thopibui, Atembui.</translation>
+        </marginalia>
+                
         <marginalia hand="English_secretary" anchor_text="Petosyris">
             <language ident="LA">
                 <position place="right_margin" book_orientation="0">
@@ -15,7 +26,7 @@
                 </position>
             </language>
             <translation>
-                
+                Petosiris.
             </translation>
         </marginalia>
         
@@ -32,7 +43,18 @@
             </translation>
         </marginalia>
         
-        <marginalia hand="English_secretary">
+        <marginalia hand="English_secretary" anchor_text="Thumis, Thopitus, Aphut; Seucuth, Aterechinis, Arepien; Sentacet, Tepiseuth, Sencinet; Eregbuo, Sagen, Chenen; Themeso, Epima, Homoth">
+            <language ident="EL">
+                <position place="tail" book_orientation="0">
+                    <marginalia_text>&Virgo; { τώμ ὀυεστεβκώτ ἀφοσό | &Libra; { οὐχωέ πτιχώσ χονταρέ | &Scorpio; { στπχνηε σεσμέ σισιεμέ | &Sagittarius; { ῥηουώ σισμὲ κομμέ |
+                        &Capricorn; { σμάγ σρω ἰσρώ</marginalia_text>
+                    <symbol_in_text name="Virgo"/>
+                    <symbol_in_text name="Libra"/>
+                    <symbol_in_text name="Scorpio"/>
+                    <symbol_in_text name="Sagittarius"/>
+                    <symbol_in_text name="Capricorn"/>
+                </position>
+            </language>
             <language ident="LA">
                 <position place="tail" book_orientation="0">
                     <marginalia_text>
@@ -40,12 +62,9 @@
                     </marginalia_text>
                 </position>
             </language>
-            <translation>
-                See in [...] [...] [page 9].
-            </translation>
+            <translation>Virgo: Thumis, Thopitus, Aphut; Libra: Seucuth, Aterechinis, Arepien; Scorpio: Sentacet, Tepiseuth, Sencinet; Sagittarius: Eregbuo, Sagen, Chenen; 
+                Capricorn: Themeso, Epima, Homoth. See in [...] [...] [page 9].</translation>
         </marginalia>
-        
-        <!-- M.B. Note the Greek terms are the equivalent decanal names from Hephaestion of Thebes and can be linked to the underlined terms below (from Maternus's table). See note on previous page.-->
         
         <underline method="pen" type="straight" language="LA" text="Sentacet"/>
         <underline method="pen" type="straight" language="LA" text="Tepiseuth"/>
